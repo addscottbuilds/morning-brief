@@ -52,7 +52,7 @@ async function buildMarkets() {
   if (etfs.length) {
     const dip = etfs.reduce((a, b) => (a.off52 < b.off52 ? a : b));
     if (dip.off52 <= -10) {
-      note = `${dip.label} is ${Math.abs(dip.off52).toFixed(0)}% below its 52-week high ($${dip.high52.toFixed(2)}). If the ETF tranche of the buy plan is still unexecuted, that slice is the one on sale.`;
+      note = `${dip.label} is ${Math.abs(dip.off52).toFixed(0)}% below its 52-week high ($${dip.high52.toFixed(2)}) — the deepest discount on the watchlist.`;
     }
   }
   return { items, failed, note };

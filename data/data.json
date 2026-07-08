@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T21:51:12.201Z",
+ "generatedAt": "2026-07-08T21:56:32.655Z",
  "markets": {
   "items": [
    {
@@ -57,28 +57,42 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6936,
-    "chgPct": 0.19356499235934974,
+    "price": 0.6934,
+    "chgPct": 0.16467411433387447,
     "high52": 0.7277,
-    "off52": -4.6859969767761465
+    "off52": -4.713480830012367
    }
   ],
   "failed": [],
-  "note": "SEMI is 21% below its 52-week high ($47.78). If the ETF tranche of the buy plan is still unexecuted, that slice is the one on sale."
+  "note": "SEMI is 21% below its 52-week high ($47.78) — the deepest discount on the watchlist."
  },
  "news": {
   "mode": "basic",
   "stories": [
    {
     "id": 0,
-    "headline": "US launches new wave of strikes against Iran after promising to 'hit them hard'",
-    "summary": "Explosions have been reported by Iranian state media in parts of the country's south.",
+    "headline": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
+    "summary": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
     "divergent": null,
     "left_view": null,
     "right_view": null,
     "common_ground": null,
     "hasBothSides": true,
     "sources": [
+     {
+      "outlet": "7News",
+      "lean": "centre",
+      "title": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
+      "desc": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
+      "link": "https://7news.com.au/news/us-launches-new-strikes-on-iran-as-trump-declares-ceasefire-over-c-22552023"
+     },
+     {
+      "outlet": "Daily Mail Australia",
+      "lean": "right",
+      "title": "Aussie died after being unable to connect to Triple Zero during Telstra outage, politician claims - as urgent warning is issued",
+      "desc": "An urgent warning has been issued to Australians by Telstra.",
+      "link": "https://www.dailymail.com/news/article-15963617/telstra-triple-zero-outage-death-australia-vicki-brady.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+     },
      {
       "outlet": "Guardian Australia",
       "lean": "left",
@@ -101,58 +115,11 @@
       "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "outlet": "Daily Mail Australia",
-      "lean": "right",
-      "title": "Trump launches ferocious bombardment on Iran after regime placed deadly bounty on his head",
-      "desc": "Donald Trump has unleashed a fresh wave of airstrikes on Iran after the regime attacked commercial ships passing through the Strait of Hormuz.",
-      "link": "https://www.dailymail.com/news/article-15963635/Trump-launches-ferocious-bombardment-Iran-regime-placed-deadly-bounty-head.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-     },
-     {
       "outlet": "ABC News",
       "lean": "centre",
-      "title": "Live: US military launches another wave of strikes on Iran",
-      "desc": "The US military says it has fired a fresh series of strikes against Iran to \"degrade their ability to threaten freedom of navigation\" in the Strait of Hormuz. Follow live.",
-      "link": "https://www.abc.net.au/news/2026-07-09/iran-middle-east-us-war-live-updates-donald-trump-/106894892"
-     },
-     {
-      "outlet": "SBS News",
-      "lean": "centre",
-      "title": "Ceasefire agreement is 'over' as US launches renewed strikes on Iran",
-      "desc": "The United States has initiated a new wave of attacks in the Middle East for the second consecutive day.",
-      "link": "https://www.sbs.com.au/news/article/trump-says-iran-war-mou-over-but-negotiations-can-continue/5dp9bn84a"
-     },
-     {
-      "outlet": "7News",
-      "lean": "centre",
-      "title": "US President Donald Trump says Memorandum of Understanding with Iran ‘is over’",
-      "desc": "‘It’s a waste of time dealing with them.’",
-      "link": "https://7news.com.au/news/us-president-donald-trump-says-memorandum-of-understanding-with-iran-is-over-c-22550849"
-     }
-    ]
-   },
-   {
-    "id": 1,
-    "headline": "Queensland second-rower Kurt Capewell filthy after disappointing State of Origin decider",
-    "summary": "The second-rower has made his feelings crystal clear in a brutal personal assessment.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": false,
-    "sources": [
-     {
-      "outlet": "Guardian Australia",
-      "lean": "left",
-      "title": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
-      "desc": "Telstra says triple-zero issue reduced by 90%, while regional trains are still disrupted in Victoria and NSW. Follow today’s news live Get our breaking news email, free app or daily news podcast The ABC issued a statement last night in which it rejected claims “that its journalism has contributed to antisemitism or social division”. It comes ahead of appearances today by senior executives from the",
-      "link": "https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb"
-     },
-     {
-      "outlet": "7News",
-      "lean": "centre",
-      "title": "Queensland second-rower Kurt Capewell filthy after disappointing State of Origin decider",
-      "desc": "The second-rower has made his feelings crystal clear in a brutal personal assessment.",
-      "link": "https://7news.com.au/sport/rugby-league/queensland-second-rower-kurt-capewell-filthy-after-disappointing-state-of-origin-decider-c-22552031"
+      "title": "Live: Telstra investigating secondary network fault affecting Triple Zero",
+      "desc": "Telstra is investigating a secondary network fault affecting Triple Zero callers since yesterday's outage. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+      "link": "https://www.abc.net.au/news/2026-07-09/asx-markets-business-news-live-updates-thursday-9-july/106895366"
      },
      {
       "outlet": "Crikey",
@@ -162,30 +129,16 @@
       "link": "https://www.crikey.com.au/2026/07/09/telstra-outage-anika-wells-barnaby-joyce-angus-taylor-trump-iran/"
      },
      {
-      "outlet": "ABC News",
-      "lean": "centre",
-      "title": "Victoria's regional rail network remains at standstill after Telstra outage",
-      "desc": "V/Line has advised commuters not to use its services, as a telecommunications outage continues to cause safety issues with the network.",
-      "link": "https://www.abc.net.au/news/2026-07-09/victoria-vline-regional-train-network-outage/106894754"
-     },
-     {
-      "outlet": "The Age",
-      "lean": "left",
-      "title": "Disruption continues after Telstra outage",
-      "desc": "Rail disruption in NSW and Victoria caused by the Telstra outage rolls into day two.",
-      "link": "https://www.theage.com.au/national/disruption-continues-after-telstra-outage-20260709-p60dtn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-     },
-     {
       "outlet": "SBS News",
       "lean": "centre",
-      "title": "Some triple-zero calls impacted, minister confirms, as Telstra says software glitch caused major outage",
-      "desc": "Telstra has been forced to carry out hundreds of welfare checks after an hours-long outage that disrupted everything from phone services to trains.",
-      "link": "https://www.sbs.com.au/news/article/telstra-down-outage-crash-network-signal-australia-2026/4sdj6c7ho"
+      "title": "Ceasefire agreement is 'over' as US launches renewed strikes on Iran",
+      "desc": "The United States has initiated a new wave of attacks in the Middle East for the second consecutive day.",
+      "link": "https://www.sbs.com.au/news/article/trump-says-iran-war-mou-over-but-negotiations-can-continue/5dp9bn84a"
      }
     ]
    },
    {
-    "id": 2,
+    "id": 1,
     "headline": "Why a telco outage has stopped some trains but not others",
     "summary": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
     "divergent": null,
@@ -218,7 +171,7 @@
     ]
    },
    {
-    "id": 3,
+    "id": 2,
     "headline": "'Can't believe it': British wildcard books Wimbledon semifinal spot",
     "summary": "After growing up just five minutes from Wimbledon, Arthur Fery is now through to the semifinals at his home grand slam.",
     "divergent": null,
@@ -244,7 +197,7 @@
     ]
    },
    {
-    "id": 4,
+    "id": 3,
     "headline": "Trump trashes NATO at latest gathering before a message of 'love'",
     "summary": "The US president swung from \"I'm very upset\" to \"a tremendous success\" in a matter of hours as Europe ups defence spend.",
     "divergent": null,
@@ -270,7 +223,7 @@
     ]
    },
    {
-    "id": 5,
+    "id": 4,
     "headline": "Watch: Gaza football fans watch World Cup from rubble",
     "summary": "Hundreds of people cheered for Egypt, which shares a border with Gaza, in the match against Argentina.",
     "divergent": null,
@@ -299,13 +252,13 @@
   "sourcesOk": [
    "Crikey",
    "The Age",
-   "Guardian Australia",
-   "7News",
-   "Fox News",
-   "BBC World",
    "ABC News",
-   "Daily Mail Australia",
-   "SBS News"
+   "Guardian Australia",
+   "Fox News",
+   "7News",
+   "BBC World",
+   "SBS News",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  }
