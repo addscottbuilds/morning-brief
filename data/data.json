@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-08T21:59:31.016Z",
+ "generatedAt": "2026-07-08T22:05:40.771Z",
  "markets": {
   "items": [
    {
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6931,
-    "chgPct": 0.12133779729566153,
+    "price": 0.6932,
+    "chgPct": 0.13578323630839917,
     "high52": 0.7277,
-    "off52": -4.754706609866698
+    "off52": -4.740964683248587
    }
   ],
   "failed": [],
@@ -68,197 +68,633 @@
  },
  "news": {
   "mode": "basic",
-  "stories": [
+  "categories": [
    {
-    "id": 0,
-    "headline": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
-    "summary": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": true,
-    "sources": [
+    "key": "top",
+    "label": "Top",
+    "stories": [
      {
-      "outlet": "The Age",
-      "lean": "left",
-      "title": "Telstra hit by fresh Triple Zero fault hours after outage fixed",
-      "desc": "The telco says a “secondary issue” is stopping some Triple Zero calls from connecting, hours after it declared the day’s outage resolved.",
-      "link": "https://www.theage.com.au/technology/telstra-hit-by-fresh-triple-zero-fault-hours-after-outage-fixed-20260708-p60dsp.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+      "id": 0,
+      "headline": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
+      "summary": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Aussie died after being unable to connect to Triple Zero during Telstra outage, politician claims - as urgent warning is issued",
+        "desc": "An urgent warning has been issued to Australians by Telstra.",
+        "link": "https://www.dailymail.com/news/article-15963617/telstra-triple-zero-outage-death-australia-vicki-brady.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+        "desc": "Telstra says triple-zero issue reduced by 90%, while regional trains are still disrupted in Victoria and NSW. Follow today’s news live Get our breaking news email, free app or daily news podcast The ABC issued a statement last night in which it rejected claims “that its journalism has contributed to antisemitism or social division”. It comes ahead of appearances today by senior executives from the",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Telstra hit by fresh Triple Zero fault hours after outage fixed",
+        "desc": "The telco says a “secondary issue” is stopping some Triple Zero calls from connecting, hours after it declared the day’s outage resolved.",
+        "link": "https://www.theage.com.au/technology/telstra-hit-by-fresh-triple-zero-fault-hours-after-outage-fixed-20260708-p60dsp.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
+        "desc": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
+        "link": "https://7news.com.au/news/us-launches-new-strikes-on-iran-as-trump-declares-ceasefire-over-c-22552023"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "US launches more strikes on Iran with blasts reported in south of country",
+        "desc": "Trump says the attacks are \"retribution for yesterday's bombing of ships by Iran\". Iran earlier promised strong retaliation.",
+        "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Telstra investigating secondary network fault affecting Triple Zero",
+        "desc": "Telstra is investigating a secondary network fault affecting Triple Zero callers since yesterday's outage. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-07-09/asx-markets-business-news-live-updates-thursday-9-july/106895366"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Telstra outage exposes vulnerabilities as opposition tries (and fails) to play politics",
+        "desc": "Communications Minister Anika Wells has criticised Barnaby Joyce and Angus Taylor over their reactions to the Telstra outage. Meanwhile, Donald Trump continues to threaten Iran and make countless gaffes. The post Telstra outage exposes vulnerabilities as opposition tries (and fails) to play politics appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/07/09/telstra-outage-anika-wells-barnaby-joyce-angus-taylor-trump-iran/"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Ceasefire agreement is 'over' as US launches renewed strikes on Iran",
+        "desc": "The United States has initiated a new wave of attacks in the Middle East for the second consecutive day.",
+        "link": "https://www.sbs.com.au/news/article/trump-says-iran-war-mou-over-but-negotiations-can-continue/5dp9bn84a"
+       }
+      ]
      },
      {
-      "outlet": "7News",
-      "lean": "centre",
-      "title": "US launches new strikes on Iran as Trump declares ceasefire ‘over’",
-      "desc": "Iranian cities are burning in retaliation for ‘unjustified aggression’ in the Strait of Hormuz.",
-      "link": "https://7news.com.au/news/us-launches-new-strikes-on-iran-as-trump-declares-ceasefire-over-c-22552023"
+      "id": 1,
+      "headline": "'Can't believe it': British wildcard books Wimbledon semifinal spot",
+      "summary": "After growing up just five minutes from Wimbledon, Arthur Fery is now through to the semifinals at his home grand slam.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "'Can't believe it': British wildcard books Wimbledon semifinal spot",
+        "desc": "After growing up just five minutes from Wimbledon, Arthur Fery is now through to the semifinals at his home grand slam.",
+        "link": "https://www.abc.net.au/news/2026-07-09/tennis-arthur-fery-advances-wimbledon-semis-zverev-wns/106895326"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Princess Kate leads congratulations for British sensation Arthur Fery as he becomes first wildcard to reach Wimbledon semi-final in 25 years",
+        "desc": "Fery, 23, beat No9 seed Flavio Cobolli in straight sets this evening - cruising to the next round where he will face No2 seed Alexander Zverev .",
+        "link": "https://www.dailymail.com/news/royals/article-15963175/Princess-Kate-congratulations-Arthur-Fery-wildcard-Wimbledon-semi-final.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Arthur Fery sails past Flavio Cobolli and storms into fairytale Wimbledon semi",
+        "desc": "British wildcard stuns the No 9 seed 6-4, 7-6 (4), 6-0 Fery will face Alexander Zverev for place in men’s final It would have been perfectly reasonable for Arthur Fery to have finally betrayed a few nerves as he stood a point away from establishing a two-set lead in his first grand slam quarter-final. Any tension or fear he may have felt, however, was completely overpowered by his unwavering self-",
+        "link": "https://www.theguardian.com/sport/2026/jul/08/arthur-fery-crushes-flavio-cobolli-to-storm-into-fairytale-wimbledon-semi-final"
+       }
+      ]
      },
      {
-      "outlet": "Daily Mail Australia",
-      "lean": "right",
-      "title": "Aussie died after being unable to connect to Triple Zero during Telstra outage, politician claims - as urgent warning is issued",
-      "desc": "An urgent warning has been issued to Australians by Telstra.",
-      "link": "https://www.dailymail.com/news/article-15963617/telstra-triple-zero-outage-death-australia-vicki-brady.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+      "id": 2,
+      "headline": "Why a telco outage has stopped some trains but not others",
+      "summary": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Why a telco outage has stopped some trains but not others",
+        "desc": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
+        "link": "https://www.abc.net.au/news/2026-07-09/why-telstra-fail-stopped-some-trains/106894084"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "How could a mobile outage disrupt trains? An expert explains",
+        "desc": "Here are the underlying tech connections between a telecommunications network crash and rail service disruptions.",
+        "link": "https://www.sbs.com.au/news/article/how-telstra-mobile-network-outage-down-trains/jlqq5n2g3"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trains and emergency calls affected after major outage at Australia's largest telecoms company",
+        "desc": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
+        "link": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
      },
      {
-      "outlet": "Guardian Australia",
-      "lean": "left",
-      "title": "US military launches fresh strikes on Iran – Middle East crisis live",
-      "desc": "Iranian state media report explosions in several locations hours after Donald Trump threatened further military action at Nato summit US carries out another wave of strikes on Iran Wednesday’s strikes against Iran expected to be ​greater in number than those carried out on Tuesday, an unnamed U.S. official told Reuters. Sahar, a 34-year-old teacher in Tehran who uses only one name to protect her i",
-      "link": "https://www.theguardian.com/world/live/2026/jul/08/us-iran-strikes-trump-nato-summit-live-updates"
+      "id": 3,
+      "headline": "Florida TV boss rips 'cringeworthy' posts as anchor's bikini-clad social media posts spark buzz",
+      "summary": "A Miami station executive condemned staff social media posts as \"foolish nonsense\" in an internal memo that got attention after one of",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Florida TV boss rips 'cringeworthy' posts as anchor's bikini-clad social media posts spark buzz",
+        "desc": "A Miami station executive condemned staff social media posts as \"foolish nonsense\" in an internal memo that got attention after one of",
+        "link": "https://www.foxnews.com/media/florida-tv-boss-rips-cringeworthy-posts-after-anchors-bikini-clad-social-media-posts-spark-buzz"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Glamorous Miami TV anchor enrages boss with bikini photos as he warns them to stop their 'foolish nonsense'",
+        "desc": "Jenise Fernandez recently took a trip to Fiji with her friends, where she made several posts of herself enjoying the views in alluring outfits, including tiny bikinis that showed off her enviably figure.",
+        "link": "https://www.dailymail.com/news/article-15962937/jenise-fernandez-wplg-bikini-post-boss-miami.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
      },
      {
-      "outlet": "BBC World",
-      "lean": "centre",
-      "title": "US launches more strikes on Iran with blasts reported in south of country",
-      "desc": "Trump says the attacks are \"retribution for yesterday's bombing of ships by Iran\". Iran earlier promised strong retaliation.",
-      "link": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o?at_medium=RSS&at_campaign=rss"
+      "id": 4,
+      "headline": "Trump trashes NATO at latest gathering before a message of 'love'",
+      "summary": "The US president swung from \"I'm very upset\" to \"a tremendous success\" in a matter of hours as Europe ups defence spend.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Trump trashes NATO at latest gathering before a message of 'love'",
+        "desc": "The US president swung from \"I'm very upset\" to \"a tremendous success\" in a matter of hours as Europe ups defence spend.",
+        "link": "https://www.sbs.com.au/news/article/trump-trashes-nato-at-latest-gathering-before-a-message-of-love/vcqsv8yx7"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "From menacing threats to comical misnomers: Donald Trump’s unlikely tale of love and darkness at Nato",
+        "desc": "US president veers from praising the alliance to threatening Iran and confusing world leaders’ names Having arrived at Nato’s annual summit under a familiar cloud of resentment and grievance, Donald Trump’s farewell message on Wednesday was an unlikely tale of love and darkness. Addressing journalists in the presence of his Ukrainian counterpart, Volodymyr Zelenskyy, the US president surprised eve",
+        "link": "https://www.theguardian.com/us-news/2026/jul/08/trump-nato-threats-mishaps"
+       }
+      ]
      },
      {
-      "outlet": "ABC News",
-      "lean": "centre",
-      "title": "Live: Telstra investigating secondary network fault affecting Triple Zero",
-      "desc": "Telstra is investigating a secondary network fault affecting Triple Zero callers since yesterday's outage. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "link": "https://www.abc.net.au/news/2026-07-09/asx-markets-business-news-live-updates-thursday-9-july/106895366"
+      "id": 5,
+      "headline": "The little bistro serving Sydney's tastiest steak + the most generous pub roast in town and the Brissy hotel just named Australia's best: THE DETOUR",
+      "summary": "Welcome to The Detour: Your Aussie food and travel guide to the best flavours, hidden haunts, insider tips and venues that reward those who wander off course.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "The little bistro serving Sydney's tastiest steak + the most generous pub roast in town and the Brissy hotel just named Australia's best: THE DETOUR",
+        "desc": "Welcome to The Detour: Your Aussie food and travel guide to the best flavours, hidden haunts, insider tips and venues that reward those who wander off course.",
+        "link": "https://www.dailymail.com/lifestyle/food-drink/article-15960867/Best-steak-Sydney-roast-Rocks-travel-food-hotel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
      },
      {
-      "outlet": "Crikey",
-      "lean": "left",
-      "title": "Telstra outage exposes vulnerabilities as opposition tries (and fails) to play politics",
-      "desc": "Communications Minister Anika Wells has criticised Barnaby Joyce and Angus Taylor over their reactions to the Telstra outage. Meanwhile, Donald Trump continues to threaten Iran and make countless gaffes. The post Telstra outage exposes vulnerabilities as opposition tries (and fails) to play politics appeared first on Crikey.",
-      "link": "https://www.crikey.com.au/2026/07/09/telstra-outage-anika-wells-barnaby-joyce-angus-taylor-trump-iran/"
-     },
-     {
-      "outlet": "SBS News",
-      "lean": "centre",
-      "title": "Ceasefire agreement is 'over' as US launches renewed strikes on Iran",
-      "desc": "The United States has initiated a new wave of attacks in the Middle East for the second consecutive day.",
-      "link": "https://www.sbs.com.au/news/article/trump-says-iran-war-mou-over-but-negotiations-can-continue/5dp9bn84a"
+      "id": 6,
+      "headline": "AI scammers target missing man's parents with chilling extortion attempt",
+      "summary": "Extortionists have sent the parents of a missing West Australian man an AI-generated image of their son and demanded thousands of dollars in exchange for his safety.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "AI scammers target missing man's parents with chilling extortion attempt",
+        "desc": "Extortionists have sent the parents of a missing West Australian man an AI-generated image of their son and demanded thousands of dollars in exchange for his safety.",
+        "link": "https://www.abc.net.au/news/2026-07-09/parents-targeted-in-ai-scam-using-missing-son/106889046"
+       }
+      ]
      }
     ]
    },
    {
-    "id": 1,
-    "headline": "Why a telco outage has stopped some trains but not others",
-    "summary": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": false,
-    "sources": [
+    "key": "politics",
+    "label": "Politics",
+    "stories": [
      {
-      "outlet": "ABC News",
-      "lean": "centre",
-      "title": "Why a telco outage has stopped some trains but not others",
-      "desc": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
-      "link": "https://www.abc.net.au/news/2026-07-09/why-telstra-fail-stopped-some-trains/106894084"
+      "id": 7,
+      "headline": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+      "summary": "Telstra says triple-zero issue reduced by 90%, while regional trains are still disrupted in Victoria and NSW. Follow today’s news live Get our breaking news email, free app or daily news podcast The ABC issued a statement last night in which it rejected claims “that its journalism has contributed to antisemitism or social division”. It comes ahead of appearances today by senior executives from the",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+        "desc": "Telstra says triple-zero issue reduced by 90%, while regional trains are still disrupted in Victoria and NSW. Follow today’s news live Get our breaking news email, free app or daily news podcast The ABC issued a statement last night in which it rejected claims “that its journalism has contributed to antisemitism or social division”. It comes ahead of appearances today by senior executives from the",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb"
+       }
+      ]
      },
      {
-      "outlet": "SBS News",
-      "lean": "centre",
-      "title": "How could a mobile outage disrupt trains? An expert explains",
-      "desc": "Here are the underlying tech connections between a telecommunications network crash and rail service disruptions.",
-      "link": "https://www.sbs.com.au/news/article/how-telstra-mobile-network-outage-down-trains/jlqq5n2g3"
+      "id": 8,
+      "headline": "Bernie-backed socialist who allied with Platner could supplant him on ballot",
+      "summary": "Troy Jackson filed candidacy paperwork as Graham Platner faces pressure to withdraw over rape allegations, with Chuck Schumer urging him out.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Bernie-backed socialist who allied with Platner could supplant him on ballot",
+        "desc": "Troy Jackson filed candidacy paperwork as Graham Platner faces pressure to withdraw over rape allegations, with Chuck Schumer urging him out.",
+        "link": "https://www.foxnews.com/politics/bernie-backed-socialist-allied-platner-supplant-ballot"
+       }
+      ]
      },
      {
-      "outlet": "BBC World",
-      "lean": "centre",
-      "title": "Trains and emergency calls affected after major outage at Australia's largest telecoms company",
-      "desc": "Servers at data centres in Sydney and Melbourne were to blame but the exact cause remains unknown.",
-      "link": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo?at_medium=RSS&at_campaign=rss"
+      "id": 9,
+      "headline": "WATCH: Dana White drops 2028 hints while raving about his favorite Trump cabinet secretary",
+      "summary": "Dana White says he has \"become really close\" to Marco Rubio, hinting at a possible 2028 presidential politics role after Trump leaves office.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "WATCH: Dana White drops 2028 hints while raving about his favorite Trump cabinet secretary",
+        "desc": "Dana White says he has \"become really close\" to Marco Rubio, hinting at a possible 2028 presidential politics role after Trump leaves office.",
+        "link": "https://www.foxnews.com/politics/watch-dana-white-drops-2028-hints-raving-favorite-trump-cabinet-secretary"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Potential 2028 Dem contender unloads on Netanyahu, admits US-Israel ties at 'crossroads'",
+      "summary": "Rahm Emanuel warned Israeli PM Benjamin Netanyahu that unconditional U.S. support for Israel must end, proposing a radical \"23-state solution\" to replace the two-state path.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Potential 2028 Dem contender unloads on Netanyahu, admits US-Israel ties at 'crossroads'",
+        "desc": "Rahm Emanuel warned Israeli PM Benjamin Netanyahu that unconditional U.S. support for Israel must end, proposing a radical \"23-state solution\" to replace the two-state path.",
+        "link": "https://www.foxnews.com/politics/potential-2028-dem-contender-unloads-netanyahu-admits-us-israel-ties-crossroads"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Far-left candidate's past anti-meat activism clashes with campaign pivot in cattle country",
+      "summary": "The Democratic candidate's history of veganism and climate action clashes with Colorado 8th district, a leading beef cattle and dairy producer.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Far-left candidate's past anti-meat activism clashes with campaign pivot in cattle country",
+        "desc": "The Democratic candidate's history of veganism and climate action clashes with Colorado 8th district, a leading beef cattle and dairy producer.",
+        "link": "https://www.foxnews.com/politics/far-left-candidates-past-anti-meat-activism-clashes-campaign-pivot-cattle-country"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "The right-wing media is carrying the Liberal Party to its death",
+      "summary": "Unfortunately for media outlets prosecuting the case against the budget and the government with relentless vigour, the signs that their efforts are bearing fruit are somewhere between microscopic and non-existent.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "The right-wing media is carrying the Liberal Party to its death",
+        "desc": "Unfortunately for media outlets prosecuting the case against the budget and the government with relentless vigour, the signs that their efforts are bearing fruit are somewhere between microscopic and non-existent.",
+        "link": "https://www.theage.com.au/politics/federal/the-right-wing-media-is-carrying-the-liberal-party-to-its-death-20260708-p60dje.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
      }
     ]
    },
    {
-    "id": 2,
-    "headline": "'Can't believe it': British wildcard books Wimbledon semifinal spot",
-    "summary": "After growing up just five minutes from Wimbledon, Arthur Fery is now through to the semifinals at his home grand slam.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": false,
-    "sources": [
+    "key": "tech",
+    "label": "Tech",
+    "stories": [
      {
-      "outlet": "ABC News",
-      "lean": "centre",
-      "title": "'Can't believe it': British wildcard books Wimbledon semifinal spot",
-      "desc": "After growing up just five minutes from Wimbledon, Arthur Fery is now through to the semifinals at his home grand slam.",
-      "link": "https://www.abc.net.au/news/2026-07-09/tennis-arthur-fery-advances-wimbledon-semis-zverev-wns/106895326"
+      "id": 13,
+      "headline": "\"We cannot choose to become idiots\": The AI cheating scandal roiling Brown University",
+      "summary": "AI cheating leads to \"a failed society,\" professor says.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "\"We cannot choose to become idiots\": The AI cheating scandal roiling Brown University",
+        "desc": "AI cheating leads to \"a failed society,\" professor says.",
+        "link": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
+       }
+      ]
      },
      {
-      "outlet": "Daily Mail Australia",
-      "lean": "right",
-      "title": "Princess Kate leads congratulations for British sensation Arthur Fery as he becomes first wildcard to reach Wimbledon semi-final in 25 years",
-      "desc": "Fery, 23, beat No9 seed Flavio Cobolli in straight sets this evening - cruising to the next round where he will face No2 seed Alexander Zverev .",
-      "link": "https://www.dailymail.com/news/royals/article-15963175/Princess-Kate-congratulations-Arthur-Fery-wildcard-Wimbledon-semi-final.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+      "id": 14,
+      "headline": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+      "summary": "Even though they haven’t been officially announced yet, Samsung is giving you a chance to save some cash when you preorder what we’re expecting to be the brand’s updated Galaxy Z Fold phones. The next Galaxy Unpacked event will take place on July 22nd, 2026, and features the tagline “A new shape unfolds.” In addition to seeing updated versions of the existing Flip and Fold form factors, we anticip",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Get a $30 credit when you reserve Samsung’s upcoming Galaxy phones",
+        "desc": "Even though they haven’t been officially announced yet, Samsung is giving you a chance to save some cash when you preorder what we’re expecting to be the brand’s updated Galaxy Z Fold phones. The next Galaxy Unpacked event will take place on July 22nd, 2026, and features the tagline “A new shape unfolds.” In addition to seeing updated versions of the existing Flip and Fold form factors, we anticip",
+        "link": "https://www.theverge.com/gadgets/962999/samsung-unpacked-z-fold-flip-wide-reserve-credit-preorder"
+       }
+      ]
+     },
+     {
+      "id": 15,
+      "headline": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
+      "summary": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Lawsuit: Man used Grok to make 7K sex images of stepdaughter, then shot himself",
+        "desc": "More young girls sue X over Grok CSAM; X accused of shielding child predators.",
+        "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt/"
+       }
+      ]
+     },
+     {
+      "id": 16,
+      "headline": "Judge rejects Kalshi attempt to override New York state gambling laws",
+      "summary": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
+        "desc": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
+        "link": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules/"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "summary": "Both vulnerabilities allow untrusted users to gain root privileges.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+        "desc": "Both vulnerabilities allow untrusted users to gain root privileges.",
+        "link": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week/"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Microsoft s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+      "summary": "As part of Microsoft's big Xbox \"reset,\" which includes layoffs affecting 3,200 staffers, jettisoning studios, and shifting investments to focus on \"higher priority projects,\" Obsidian Entertainment is changing its plans. The studio, behind games like Grounded and The Outer Worlds, is starting work on a new Fallout title and has canceled \"multiple projects,\" including a sequel to last year's Avowe",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Microsoft s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+        "desc": "As part of Microsoft's big Xbox \"reset,\" which includes layoffs affecting 3,200 staffers, jettisoning studios, and shifting investments to focus on \"higher priority projects,\" Obsidian Entertainment is changing its plans. The studio, behind games like Grounded and The Outer Worlds, is starting work on a new Fallout title and has canceled \"multiple projects,\" including a sequel to last year's Avowe",
+        "link": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs"
+       }
+      ]
      }
     ]
    },
    {
-    "id": 3,
-    "headline": "Trump trashes NATO at latest gathering before a message of 'love'",
-    "summary": "The US president swung from \"I'm very upset\" to \"a tremendous success\" in a matter of hours as Europe ups defence spend.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": false,
-    "sources": [
+    "key": "business",
+    "label": "Business",
+    "stories": [
      {
-      "outlet": "SBS News",
-      "lean": "centre",
-      "title": "Trump trashes NATO at latest gathering before a message of 'love'",
-      "desc": "The US president swung from \"I'm very upset\" to \"a tremendous success\" in a matter of hours as Europe ups defence spend.",
-      "link": "https://www.sbs.com.au/news/article/trump-trashes-nato-at-latest-gathering-before-a-message-of-love/vcqsv8yx7"
+      "id": 19,
+      "headline": "Why a telco outage has stopped some trains but not others",
+      "summary": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia news live: Telstra warns of ‘secondary issue’ after network outage; ABC stands by reporting ahead of royal commission hearing",
+        "desc": "Telstra says triple-zero issue reduced by 90%, while regional trains are still disrupted in Victoria and NSW. Follow today’s news live Get our breaking news email, free app or daily news podcast The ABC issued a statement last night in which it rejected claims “that its journalism has contributed to antisemitism or social division”. It comes ahead of appearances today by senior executives from the",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jul/09/australia-news-live-telstra-mobile-internet-down-outage-triple-zero-v-line-trains-network-royal-commission-antisemitism-abc-ntwnfb"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Why a telco outage has stopped some trains but not others",
+        "desc": "Trains relying on the 4G network of freight rail track operator ARTC went down amid the Telstra failure.",
+        "link": "https://www.abc.net.au/news/2026-07-09/why-telstra-fail-stopped-some-trains/106894084"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Hundreds of Triple Zero calls failed after ‘time travel’ bug caused catastrophic Telstra outage",
+        "desc": "The widespread outage led to at least 300 Triple Zero calls failing, and six customers told Telstra they needed more help when welfare checks were conducted.",
+        "link": "https://www.theage.com.au/business/consumer-affairs/telstra-investigating-outage-affecting-thousands-of-customers-20260708-p60dho.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
      },
      {
-      "outlet": "Guardian Australia",
-      "lean": "left",
-      "title": "From menacing threats to comical misnomers: Donald Trump’s unlikely tale of love and darkness at Nato",
-      "desc": "US president veers from praising the alliance to threatening Iran and confusing world leaders’ names Having arrived at Nato’s annual summit under a familiar cloud of resentment and grievance, Donald Trump’s farewell message on Wednesday was an unlikely tale of love and darkness. Addressing journalists in the presence of his Ukrainian counterpart, Volodymyr Zelenskyy, the US president surprised eve",
-      "link": "https://www.theguardian.com/us-news/2026/jul/08/trump-nato-threats-mishaps"
-     }
-    ]
-   },
-   {
-    "id": 4,
-    "headline": "Watch: Gaza football fans watch World Cup from rubble",
-    "summary": "Hundreds of people cheered for Egypt, which shares a border with Gaza, in the match against Argentina.",
-    "divergent": null,
-    "left_view": null,
-    "right_view": null,
-    "common_ground": null,
-    "hasBothSides": false,
-    "sources": [
-     {
-      "outlet": "Daily Mail Australia",
-      "lean": "right",
-      "title": "Stick to the football, lads! England's World Cup stars cool off with diving competition ahead of Norway clash - with fans left in stitches as one player keeps his socks on!",
-      "desc": "The likes of Anthony Gordon , Elliot Anderson and Dan Burn were all willing participants ahead of the crunch clash with Norway in the quarter-finals at the weekend.",
-      "link": "https://www.dailymail.com/sport/football/article-15962751/England-World-Cup-diving-competition.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+      "id": 20,
+      "headline": "Union says it raised safety concerns day before major train derailment",
+      "summary": "The rail union says it raised safety concerns with a freight train operator about 24 hours before a major derailment in the New South Wales Southern Highlands.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Union says it raised safety concerns day before major train derailment",
+        "desc": "The rail union says it raised safety concerns with a freight train operator about 24 hours before a major derailment in the New South Wales Southern Highlands.",
+        "link": "https://www.abc.net.au/news/2026-07-09/berrima-freight-train-derailment-rail-union-safety-concerns/106891274"
+       }
+      ]
      },
      {
-      "outlet": "BBC World",
-      "lean": "centre",
-      "title": "Watch: Gaza football fans watch World Cup from rubble",
-      "desc": "Hundreds of people cheered for Egypt, which shares a border with Gaza, in the match against Argentina.",
-      "link": "https://www.bbc.co.uk/news/videos/c8r2nmm7xeeo?at_medium=RSS&at_campaign=rss"
+      "id": 21,
+      "headline": "LARRY KUDLOW: It’s time for the Marines to take Kharg Island",
+      "summary": "It would completely cripple what’s left of Iran’s already decimated economy",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "LARRY KUDLOW: It’s time for the Marines to take Kharg Island",
+        "desc": "It would completely cripple what’s left of Iran’s already decimated economy",
+        "link": "https://www.foxbusiness.com/politics/larry-kudlow-its-time-marines-take-kharg-island"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "Sizewell B nuclear power plant granted a 20-year life extension",
+      "summary": "Extension comes as government encourages first nuclear power projects in a generation to meet UK’s growing need for electricity Britain’s most recently completed nuclear power plant will continue generating electricity until 2055 after the government granted the power plant, which was first synchronised with the National Grid in 1995, a 20-year life extension. Sizewell B in Suffolk was due to shut",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Sizewell B nuclear power plant granted a 20-year life extension",
+        "desc": "Extension comes as government encourages first nuclear power projects in a generation to meet UK’s growing need for electricity Britain’s most recently completed nuclear power plant will continue generating electricity until 2055 after the government granted the power plant, which was first synchronised with the National Grid in 1995, a 20-year life extension. Sizewell B in Suffolk was due to shut",
+        "link": "https://www.theguardian.com/environment/2026/jul/08/sizewell-b-nuclear-power-plant-granted-a-20-year-life-extension"
+       }
+      ]
+     },
+     {
+      "id": 23,
+      "headline": "US stock markets fall amid Iran strikes and potential higher interest rates",
+      "summary": "Dow down 1.09%, or 500 points, as S&P 500 sees a small loss and tech-heavy Nasdaq rises slightly Middle East crisis live US stock markets fell on Wednesday as the US continued strikes on Iran and the Federal Reserve flagged concerns that would warrant higher interest rates. Donald Trump’s declaration at the Nato summit in Ankara that the Iran-US ceasefire is over sent oil prices sharply higher on ",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "US stock markets fall amid Iran strikes and potential higher interest rates",
+        "desc": "Dow down 1.09%, or 500 points, as S&P 500 sees a small loss and tech-heavy Nasdaq rises slightly Middle East crisis live US stock markets fell on Wednesday as the US continued strikes on Iran and the Federal Reserve flagged concerns that would warrant higher interest rates. Donald Trump’s declaration at the Nato summit in Ankara that the Iran-US ceasefire is over sent oil prices sharply higher on ",
+        "link": "https://www.theguardian.com/us-news/2026/jul/08/us-stock-markets-iran-interest-rates"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Fed policymakers' inflation worries weighed on rate cut outlook at Warsh's first meeting",
+      "summary": "FOMC minutes reveal policymakers debated rate hikes amid scenarios where AI demand, Middle East conflict or tariffs keep inflation elevated.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Fed policymakers' inflation worries weighed on rate cut outlook at Warsh's first meeting",
+        "desc": "FOMC minutes reveal policymakers debated rate hikes amid scenarios where AI demand, Middle East conflict or tariffs keep inflation elevated.",
+        "link": "https://www.foxbusiness.com/economy/fed-policymakers-inflation-worries-weighed-rate-cut-outlook-warshs-first-meeting"
+       }
+      ]
      }
     ]
    }
   ],
   "sourcesOk": [
+   "Crikey",
    "Guardian Australia",
    "The Age",
+   "The Age Federal Politics",
    "ABC News",
-   "Crikey",
    "BBC World",
+   "Fox News Politics",
    "Fox News",
-   "7News",
+   "The Verge",
+   "Guardian Tech",
+   "Ars Technica",
+   "The Age Business",
+   "Guardian AU Business",
+   "BBC Tech",
+   "Guardian AU Politics",
+   "SBS News",
    "Daily Mail Australia",
-   "SBS News"
+   "Fox Business",
+   "ABC Business",
+   "7News"
   ],
   "sourcesFailed": []
  }

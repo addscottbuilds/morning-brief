@@ -97,6 +97,18 @@
       `<polyline fill="none" stroke="#f2a65a" stroke-width="2" stroke-linejoin="round" points="${pts.map(p => p.map(n => n.toFixed(1)).join(",")).join(" ")}"/>` +
       `<circle cx="${pts[maxIdx][0].toFixed(1)}" cy="${pts[maxIdx][1].toFixed(1)}" r="3" fill="#f2a65a"/>`;
 
+    // hourly rain-chance bars
+    const probs = (w.hourly.precipitation_probability || []).slice(0, 24);
+    if (probs.length) {
+      $("rain-wrap").hidden = false;
+      const bw = 580 / probs.length;
+      $("wx-rain").innerHTML = probs.map((p, i) => {
+        const h = Math.max(1.5, (p / 100) * 40);
+        const strong = p >= 40;
+        return `<rect x="${(i * bw + 1).toFixed(1)}" y="${(42 - h).toFixed(1)}" width="${(bw - 2).toFixed(1)}" height="${h.toFixed(1)}" rx="1.5" fill="${strong ? "#7aa2d6" : "#3d5471"}"/>`;
+      }).join("") + `<line x1="0" y1="42.5" x2="580" y2="42.5" stroke="#243040" stroke-width="1"/>`;
+    }
+
     const fmtT = iso => new Date(iso).toLocaleTimeString("en-AU", { hour: "numeric", minute: "2-digit" });
     $("wx-meta").innerHTML =
       `<span>Low <b>${round1(day.temperature_2m_min[0])}°</b></span>` +
@@ -151,13 +163,50 @@
     }
   }
 
+  let newsData = null;
+
   function renderNews(n) {
-    if (!n || !n.stories || !n.stories.length) {
+    // tolerate the pre-tabs data shape from a cached data.json
+    if (n && n.stories && !n.categories) {
+      n = { ...n, categories: [{ key: "top", label: "Top", stories: n.stories }] };
+    }
+    if (!n || !n.categories || !n.categories.length) {
       $("news-list").innerHTML = `<div class="muted-cell">No stories in today's digest.</div>`;
       return;
     }
+    newsData = n;
     $("news-mode").textContent = n.mode === "llm" ? "· neutral digest" : "· cross-spectrum digest";
-    $("news-list").innerHTML = n.stories.map(s => {
+
+    const tabs = $("news-tabs");
+    const keys = n.categories.map(c => c.key);
+    const saved = localStorage.getItem("mb_news_tab");
+    const activeKey = keys.includes(saved) ? saved : keys[0];
+    tabs.innerHTML = "";
+    for (const c of n.categories) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("role", "tab");
+      b.textContent = c.label;
+      b.classList.toggle("active", c.key === activeKey);
+      b.addEventListener("click", () => {
+        localStorage.setItem("mb_news_tab", c.key);
+        tabs.querySelectorAll("button").forEach(x => x.classList.toggle("active", x === b));
+        renderStories(c.key);
+      });
+      tabs.appendChild(b);
+    }
+    renderStories(activeKey);
+  }
+
+  function renderStories(key) {
+    const cat = newsData.categories.find(c => c.key === key);
+    const stories = cat ? cat.stories : [];
+    if (!stories.length) {
+      $("news-list").innerHTML = `<div class="muted-cell">No ${cat ? cat.label.toLowerCase() : ""} stories today.</div>`;
+      return;
+    }
+    const n = newsData;
+    $("news-list").innerHTML = stories.map(s => {
       const outlets = s.sources.map(x =>
         `<a href="${esc(x.link)}" target="_blank" rel="noopener"><span class="lean-dot lean-${x.lean}"></span>${esc(x.outlet)}</a>`
       ).join(" ");
@@ -184,6 +233,54 @@
         ${extra}
         <div class="outlets">${outlets}</div>
       </div>`;
+    }).join("");
+  }
+
+  // ------------------------------------------------------------ world cup --
+  async function loadWorldCup() {
+    const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, "");
+    const from = new Date(Date.now() - 40 * 3600 * 1000); // yesterday's results
+    const to = new Date(Date.now() + 4 * 86400 * 1000);   // next few fixtures
+    let d;
+    try {
+      d = await (await fetch(
+        `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${fmt(from)}-${fmt(to)}`
+      )).json();
+    } catch { return; } // offline or API gone — section stays hidden
+    const events = (d.events || []).slice().sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+    if (!events.length) return;
+
+    $("wc-section").hidden = false;
+    const live = events.some(e => e.status && e.status.type && e.status.type.state === "in");
+    if (live) $("wc-round").textContent = "· live";
+
+    $("wc-list").innerHTML = events.slice(0, 8).map(e => {
+      const comp = (e.competitions || [])[0] || {};
+      const cs = comp.competitors || [];
+      const home = cs.find(c => c.homeAway === "home") || cs[0] || {};
+      const away = cs.find(c => c.homeAway === "away") || cs[1] || {};
+      const state = e.status && e.status.type ? e.status.type.state : "pre"; // pre | in | post
+      const note = comp.notes && comp.notes[0] && comp.notes[0].headline || "";
+
+      const team = (t, side) => {
+        const logo = t.team && t.team.logo ? `<img src="${esc(t.team.logo)}" alt="" loading="lazy">` : "";
+        const winner = state === "post" && t.winner ? " wc-winner" : "";
+        return `<div class="wc-team ${side}${winner}">${side === "home" ? logo : ""}<span class="nm">${esc(t.team ? t.team.shortDisplayName : "?")}</span>${side === "away" ? logo : ""}</div>`;
+      };
+
+      let mid;
+      if (state === "post") {
+        mid = `<div class="wc-mid"><div class="wc-score">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when">${esc(e.status.type.shortDetail || "FT")}</div></div>`;
+      } else if (state === "in") {
+        mid = `<div class="wc-mid"><div class="wc-score live">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when live">${esc(e.status.displayClock || "LIVE")}</div></div>`;
+      } else {
+        const ko = new Date(e.date);
+        const when = ko.toLocaleString("en-AU", { weekday: "short", hour: "numeric", minute: "2-digit" });
+        mid = `<div class="wc-mid"><div class="wc-score" style="color:var(--muted)">v</div><div class="wc-when">${esc(when)}</div></div>`;
+      }
+
+      const noteRow = note ? `<div class="wc-when" style="grid-column:1/-1;text-align:center">${esc(note)}</div>` : "";
+      return `<div class="wc-match">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
     }).join("");
   }
 
@@ -288,4 +385,5 @@
   renderFocus();
   loadWeather();
   loadData();
+  loadWorldCup();
 })();

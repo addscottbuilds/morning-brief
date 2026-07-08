@@ -36,7 +36,17 @@
       <div class="wx-desc" id="wx-desc">Fetching your local forecast&hellip;</div>
     </div>
     <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
+    <div class="rain-wrap" id="rain-wrap" hidden>
+      <div class="rain-lbl">Rain chance by hour</div>
+      <svg class="rain" id="wx-rain" viewBox="0 0 580 46" preserveAspectRatio="none" aria-label="Hourly rain chance today"></svg>
+      <div class="rain-axis"><span>12am</span><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
+    </div>
     <div class="wx-meta" id="wx-meta"></div>
+  </section>
+
+  <section id="wc-section" hidden>
+    <div class="eyebrow">World Cup <span class="loc" id="wc-round"></span></div>
+    <div class="wc-list" id="wc-list"></div>
   </section>
 
   <section id="markets-section">
@@ -50,6 +60,7 @@
 
   <section id="news-section">
     <div class="eyebrow">News <span class="loc" id="news-mode"></span></div>
+    <div class="tabs" id="news-tabs" role="tablist"></div>
     <div class="news-list" id="news-list"><div class="muted-cell">Loading digest&hellip;</div></div>
   </section>
 

@@ -61,16 +61,39 @@ async function buildMarkets() {
 // ------------------------------------------------------------------- news --
 // Lean tags follow common media-bias ratings (AllSides-style). Feeds fail
 // gracefully — a dead feed is skipped and reported in sourcesFailed.
+// `cat` routes each feed into a tab: top | politics | tech | business.
+const CATEGORIES = [
+  { key: "top", label: "Top", max: 7 },
+  { key: "politics", label: "Politics", max: 6 },
+  { key: "tech", label: "Tech", max: 6 },
+  { key: "business", label: "Business", max: 6 },
+];
+
 const FEEDS = [
-  { outlet: "Guardian Australia", lean: "left", url: "https://www.theguardian.com/au/rss" },
-  { outlet: "Crikey", lean: "left", url: "https://www.crikey.com.au/feed/" },
-  { outlet: "The Age", lean: "left", url: "https://www.theage.com.au/rss/feed.xml" },
-  { outlet: "ABC News", lean: "centre", url: "https://www.abc.net.au/news/feed/51120/rss.xml" },
-  { outlet: "SBS News", lean: "centre", url: "https://www.sbs.com.au/news/topic/latest/feed" },
-  { outlet: "BBC World", lean: "centre", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
-  { outlet: "7News", lean: "centre", url: "https://7news.com.au/feed" },
-  { outlet: "Daily Mail Australia", lean: "right", url: "https://www.dailymail.co.uk/auhome/index.rss" },
-  { outlet: "Fox News", lean: "right", url: "https://moxie.foxnews.com/google-publisher/latest.xml" },
+  // Top stories
+  { outlet: "Guardian Australia", lean: "left", cat: "top", url: "https://www.theguardian.com/au/rss" },
+  { outlet: "Crikey", lean: "left", cat: "top", url: "https://www.crikey.com.au/feed/" },
+  { outlet: "The Age", lean: "left", cat: "top", url: "https://www.theage.com.au/rss/feed.xml" },
+  { outlet: "ABC News", lean: "centre", cat: "top", url: "https://www.abc.net.au/news/feed/51120/rss.xml" },
+  { outlet: "SBS News", lean: "centre", cat: "top", url: "https://www.sbs.com.au/news/topic/latest/feed" },
+  { outlet: "BBC World", lean: "centre", cat: "top", url: "https://feeds.bbci.co.uk/news/world/rss.xml" },
+  { outlet: "7News", lean: "centre", cat: "top", url: "https://7news.com.au/feed" },
+  { outlet: "Daily Mail Australia", lean: "right", cat: "top", url: "https://www.dailymail.co.uk/auhome/index.rss" },
+  { outlet: "Fox News", lean: "right", cat: "top", url: "https://moxie.foxnews.com/google-publisher/latest.xml" },
+  // Politics
+  { outlet: "Guardian AU Politics", lean: "left", cat: "politics", url: "https://www.theguardian.com/australia-news/australian-politics/rss" },
+  { outlet: "The Age Federal Politics", lean: "left", cat: "politics", url: "https://www.theage.com.au/rss/politics/federal.xml" },
+  { outlet: "Fox News Politics", lean: "right", cat: "politics", url: "https://moxie.foxnews.com/google-publisher/politics.xml" },
+  // Tech
+  { outlet: "Guardian Tech", lean: "left", cat: "tech", url: "https://www.theguardian.com/uk/technology/rss" },
+  { outlet: "BBC Tech", lean: "centre", cat: "tech", url: "https://feeds.bbci.co.uk/news/technology/rss.xml" },
+  { outlet: "Ars Technica", lean: "centre", cat: "tech", url: "https://feeds.arstechnica.com/arstechnica/index" },
+  { outlet: "The Verge", lean: "centre", cat: "tech", url: "https://www.theverge.com/rss/index.xml" },
+  // Business
+  { outlet: "Guardian AU Business", lean: "left", cat: "business", url: "https://www.theguardian.com/au/business/rss" },
+  { outlet: "The Age Business", lean: "left", cat: "business", url: "https://www.theage.com.au/rss/business.xml" },
+  { outlet: "ABC Business", lean: "centre", cat: "business", url: "https://www.abc.net.au/news/feed/51892/rss.xml" },
+  { outlet: "Fox Business", lean: "right", cat: "business", url: "https://moxie.foxbusiness.com/google-publisher/latest.xml" },
 ];
 
 const STOP = new Set(["about", "after", "again", "against", "amid", "another", "australia", "australian", "because", "been", "before", "being", "between", "calls", "could", "does", "down", "during", "every", "first", "from", "have", "here", "his", "into", "just", "life", "like", "live", "made", "make", "more", "most", "much", "need", "news", "over", "part", "says", "should", "some", "such", "take", "than", "that", "their", "them", "then", "there", "these", "they", "this", "those", "through", "under", "until", "warns", "week", "were", "what", "when", "where", "which", "while", "will", "with", "without", "would", "year", "years", "your"]);
@@ -109,36 +132,7 @@ async function fetchFeed(url) {
   return sanitizeXml(body);
 }
 
-async function buildNews() {
-  const parser = new Parser();
-  const items = [];
-  const ok = [], failed = [];
-  const cutoff = Date.now() - 36 * 3600 * 1000;
-
-  await Promise.all(FEEDS.map(async f => {
-    try {
-      const feed = await parser.parseString(await fetchFeed(f.url));
-      let n = 0;
-      for (const it of feed.items || []) {
-        if (n >= 25) break;
-        const date = it.isoDate || it.pubDate;
-        const ts = date ? Date.parse(date) : Date.now();
-        if (ts < cutoff) continue;
-        items.push({
-          outlet: f.outlet, lean: f.lean,
-          title: stripHtml(it.title).slice(0, 200),
-          desc: stripHtml(it.contentSnippet || it.content || it.summary).slice(0, 400),
-          link: it.link || "", ts,
-        });
-        n++;
-      }
-      ok.push(f.outlet);
-    } catch (e) {
-      failed.push(f.outlet);
-      console.error(`feed fail ${f.outlet}: ${e.message}`);
-    }
-  }));
-
+function clusterCategory(items, maxStories) {
   // union-find clustering on shared headline tokens
   const toks = items.map(i => tokens(i.title));
   const parent = items.map((_, i) => i);
@@ -166,16 +160,17 @@ async function buildNews() {
     })
     .sort((a, b) => b.breadth - a.breadth || b.latest - a.latest);
 
-  const picked = clusters.filter(c => c.breadth >= 2).slice(0, 7);
-  // pad with fresh single-outlet centre stories if thin
-  if (picked.length < 5) {
-    for (const c of clusters) {
-      if (picked.length >= 5) break;
-      if (!picked.includes(c) && c.g[0].lean === "centre") picked.push(c);
+  // multi-outlet clusters first, then fresh single-outlet stories to fill
+  const picked = clusters.filter(c => c.breadth >= 2).slice(0, maxStories);
+  if (picked.length < maxStories) {
+    const singles = clusters.filter(c => !picked.includes(c)).sort((a, b) => b.latest - a.latest);
+    for (const c of singles) {
+      if (picked.length >= maxStories) break;
+      picked.push(c);
     }
   }
 
-  const stories = picked.map((c, idx) => {
+  return picked.map(c => {
     // one item per outlet (its most recent in the cluster)
     const byOutlet = new Map();
     for (const it of c.g.sort((a, b) => b.ts - a.ts)) {
@@ -186,7 +181,7 @@ async function buildNews() {
     const centre = srcs.find(s => s.lean === "centre");
     const lead = centre || srcs.reduce((a, b) => (a.title.length <= b.title.length ? a : b));
     return {
-      id: idx,
+      id: -1, // assigned globally by buildNews
       headline: lead.title,
       summary: lead.desc,
       divergent: null, left_view: null, right_view: null, common_ground: null,
@@ -194,18 +189,57 @@ async function buildNews() {
       sources: srcs.map(s => ({ outlet: s.outlet, lean: s.lean, title: s.title, desc: s.desc, link: s.link })),
     };
   });
+}
+
+async function buildNews() {
+  const parser = new Parser();
+  const itemsByCat = new Map(CATEGORIES.map(c => [c.key, []]));
+  const ok = [], failed = [];
+  const cutoff = Date.now() - 36 * 3600 * 1000;
+
+  await Promise.all(FEEDS.map(async f => {
+    try {
+      const feed = await parser.parseString(await fetchFeed(f.url));
+      let n = 0;
+      for (const it of feed.items || []) {
+        if (n >= 25) break;
+        const date = it.isoDate || it.pubDate;
+        const ts = date ? Date.parse(date) : Date.now();
+        if (ts < cutoff) continue;
+        itemsByCat.get(f.cat).push({
+          outlet: f.outlet, lean: f.lean,
+          title: stripHtml(it.title).slice(0, 200),
+          desc: stripHtml(it.contentSnippet || it.content || it.summary).slice(0, 400),
+          link: it.link || "", ts,
+        });
+        n++;
+      }
+      ok.push(f.outlet);
+    } catch (e) {
+      failed.push(f.outlet);
+      console.error(`feed fail ${f.outlet}: ${e.message}`);
+    }
+  }));
+
+  let nextId = 0;
+  const categories = CATEGORIES.map(c => {
+    const stories = clusterCategory(itemsByCat.get(c.key), c.max);
+    for (const s of stories) s.id = nextId++;
+    return { key: c.key, label: c.label, stories };
+  });
 
   let mode = "basic";
-  if (process.env.ANTHROPIC_API_KEY && stories.length) {
+  const allStories = categories.flatMap(c => c.stories);
+  if (process.env.ANTHROPIC_API_KEY && allStories.length) {
     try {
-      await enrichWithClaude(stories);
+      await enrichWithClaude(allStories);
       mode = "llm";
     } catch (e) {
       console.error(`claude enrich failed, shipping basic digest: ${e.message}`);
     }
   }
 
-  return { mode, stories, sourcesOk: ok, sourcesFailed: failed };
+  return { mode, categories, sourcesOk: ok, sourcesFailed: failed };
 }
 
 // ------------------------------------------------------------- llm enrich --
@@ -287,5 +321,7 @@ const out = {
   news,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
-console.log(`data.json written: ${markets.items.length} quotes, ${news.stories.length} stories (news mode: ${news.mode})`);
+console.log(`data.json written: ${markets.items.length} quotes, ` +
+  news.categories.map(c => `${c.key}:${c.stories.length}`).join(" ") +
+  ` (news mode: ${news.mode})`);
 if (news.sourcesFailed.length) console.log(`feeds failed: ${news.sourcesFailed.join(", ")}`);
