@@ -432,6 +432,17 @@
   function round1(n) { return Math.round(n * 10) / 10; }
   function safeParse(s) { try { return JSON.parse(s); } catch { return null; } }
 
+  // ------------------------------------------------------------ game tabs --
+  const gameTabs = document.querySelectorAll("#game-tabs button");
+  function showGame(g) {
+    $("wordle-game").hidden = g !== "wordle";
+    $("xword-game").hidden = g !== "xword";
+    gameTabs.forEach(b => b.classList.toggle("active", b.dataset.g === g));
+    localStorage.setItem("mb_game_tab", g);
+  }
+  gameTabs.forEach(b => b.addEventListener("click", () => showGame(b.dataset.g)));
+  showGame(localStorage.getItem("mb_game_tab") === "xword" ? "xword" : "wordle");
+
   // ----------------------------------------------------------------- init --
   $("games-date-line").textContent =
     `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new Wordle and mini daily`;

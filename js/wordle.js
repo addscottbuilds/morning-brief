@@ -130,7 +130,7 @@
   }
 
   document.addEventListener("keydown", e => {
-    if (!$("wordle-game").open) return;
+    if ($("wordle-game").hidden) return;
     if (e.target.tagName === "INPUT") return;
     if (e.key === "Enter") press("enter");
     else if (e.key === "Backspace") press("back");
