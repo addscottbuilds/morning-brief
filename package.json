@@ -1,0 +1,15 @@
+{
+  "name": "morning-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal daily-brief PWA: weather, markets, news, and puzzles",
+  "scripts": {
+    "build-data": "node scripts/build-data.mjs",
+    "validate": "node scripts/validate-puzzles.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.94.0",
+    "rss-parser": "^3.13.0"
+  }
+}

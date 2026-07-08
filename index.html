@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Morning Brief</title>
+  <meta name="theme-color" content="#0e141d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Brief">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="date-line">Loading&hellip;</div>
+    <h1>Morning Brief</h1>
+    <div class="updated" id="updated-line"></div>
+  </header>
+
+  <div class="strip" id="strip">
+    <div class="cell"><div class="num" id="strip-now">&ndash;</div><div class="lbl">Now</div></div>
+    <div class="cell"><div class="num" id="strip-top">&ndash;</div><div class="lbl">Top</div></div>
+    <div class="cell"><div class="num" id="strip-asx">&ndash;</div><div class="lbl">ASX 200</div></div>
+    <div class="cell"><div class="num" id="strip-days">&ndash;</div><div class="lbl" id="strip-days-lbl">QFF days</div></div>
+  </div>
+
+  <section id="weather-section">
+    <div class="eyebrow">Weather <span class="loc" id="wx-loc"></span></div>
+    <div class="wx-now">
+      <div class="wx-temp" id="wx-temp">&ndash;</div>
+      <div class="wx-desc" id="wx-desc">Fetching your local forecast&hellip;</div>
+    </div>
+    <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
+    <div class="wx-meta" id="wx-meta"></div>
+  </section>
+
+  <section id="markets-section">
+    <div class="eyebrow">Markets</div>
+    <table>
+      <thead><tr><th>Holding / watch</th><th class="r">Last</th><th class="r">Day</th></tr></thead>
+      <tbody id="mkt-body"><tr><td colspan="3" class="muted-cell">Loading prices&hellip;</td></tr></tbody>
+    </table>
+    <div class="mkt-note" id="mkt-note" hidden></div>
+  </section>
+
+  <section id="news-section">
+    <div class="eyebrow">News <span class="loc" id="news-mode"></span></div>
+    <div class="news-list" id="news-list"><div class="muted-cell">Loading digest&hellip;</div></div>
+  </section>
+
+  <section id="deadlines-section">
+    <div class="eyebrow">Time-sensitive</div>
+    <div id="deadline-list"></div>
+  </section>
+
+  <section id="focus-section">
+    <div class="eyebrow">Today&rsquo;s focus</div>
+    <div class="focus-list" id="focus-list"></div>
+    <div class="focus-add">
+      <input id="focus-input" type="text" placeholder="Add a focus for today&hellip;" aria-label="Add a focus item">
+      <button id="focus-btn">Add</button>
+    </div>
+  </section>
+
+  <section id="games-section">
+    <div class="eyebrow">Daily puzzles</div>
+
+    <details class="game" id="wordle-game">
+      <summary><span>Wordle</span><span class="game-status" id="wordle-status"></span></summary>
+      <div class="wordle">
+        <div class="w-board" id="w-board"></div>
+        <div class="w-msg" id="w-msg"></div>
+        <div class="w-kbd" id="w-kbd"></div>
+      </div>
+    </details>
+
+    <details class="game" id="xword-game">
+      <summary><span>Mini crossword</span><span class="game-status" id="xword-status"></span></summary>
+      <div class="xword">
+        <div class="x-grid" id="x-grid"></div>
+        <div class="x-clue-bar" id="x-clue-bar"></div>
+        <div class="x-actions">
+          <button id="x-check">Check</button>
+          <button id="x-reveal">Reveal</button>
+          <button id="x-clear">Clear</button>
+        </div>
+        <div class="x-clues">
+          <div><h3>Across</h3><ol id="x-across"></ol></div>
+          <div><h3>Down</h3><ol id="x-down"></ol></div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <footer>
+    Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest, refreshed daily &middot; Everything you type saves on this device.
+  </footer>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/wordle.js"></script>
+<script src="js/crossword.js"></script>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>
+</body>
+</html>
