@@ -67,6 +67,8 @@ const CATEGORIES = [
   { key: "politics", label: "Politics", max: 6 },
   { key: "tech", label: "Tech", max: 6 },
   { key: "business", label: "Business", max: 6 },
+  { key: "sports", label: "Sports", max: 6 },
+  { key: "entertainment", label: "Entertainment", max: 6 },
 ];
 
 const FEEDS = [
@@ -94,6 +96,17 @@ const FEEDS = [
   { outlet: "The Age Business", lean: "left", cat: "business", url: "https://www.theage.com.au/rss/business.xml" },
   { outlet: "ABC Business", lean: "centre", cat: "business", url: "https://www.abc.net.au/news/feed/51892/rss.xml" },
   { outlet: "Fox Business", lean: "right", cat: "business", url: "https://moxie.foxbusiness.com/google-publisher/latest.xml" },
+  // Sports
+  { outlet: "Guardian AU Sport", lean: "left", cat: "sports", url: "https://www.theguardian.com/au/sport/rss" },
+  { outlet: "BBC Sport", lean: "centre", cat: "sports", url: "https://feeds.bbci.co.uk/sport/rss.xml" },
+  { outlet: "ESPN", lean: "centre", cat: "sports", url: "https://www.espn.com/espn/rss/news" },
+  { outlet: "7News Sport", lean: "centre", cat: "sports", url: "https://7news.com.au/sport/feed" },
+  // Entertainment: movies, shows, anime
+  { outlet: "Variety", lean: "centre", cat: "entertainment", url: "https://variety.com/feed/" },
+  { outlet: "Deadline", lean: "centre", cat: "entertainment", url: "https://deadline.com/feed/" },
+  { outlet: "Screen Rant", lean: "centre", cat: "entertainment", url: "https://screenrant.com/feed/" },
+  { outlet: "Anime News Network", lean: "centre", cat: "entertainment", url: "https://www.animenewsnetwork.com/all/rss.xml" },
+  { outlet: "Guardian Film", lean: "left", cat: "entertainment", url: "https://www.theguardian.com/film/rss" },
 ];
 
 const STOP = new Set(["about", "after", "again", "against", "amid", "another", "australia", "australian", "because", "been", "before", "being", "between", "calls", "could", "does", "down", "during", "every", "first", "from", "have", "here", "his", "into", "just", "life", "like", "live", "made", "make", "more", "most", "much", "need", "news", "over", "part", "says", "should", "some", "such", "take", "than", "that", "their", "them", "then", "there", "these", "they", "this", "those", "through", "under", "until", "warns", "week", "were", "what", "when", "where", "which", "while", "will", "with", "without", "would", "year", "years", "your"]);
