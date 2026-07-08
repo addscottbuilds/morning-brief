@@ -255,6 +255,61 @@ async function buildNews() {
   return { mode, categories, sourcesOk: ok, sourcesFailed: failed };
 }
 
+// --------------------------------------------------------------- releases --
+// New & popular movies / shows (Cinemeta, IMDb ratings) and currently
+// airing anime (AniList, no key). Shown at the top of the Entertainment tab.
+async function fetchJson(url, opts = {}) {
+  const res = await fetch(url, { signal: AbortSignal.timeout(20000), ...opts });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
+
+async function buildReleases() {
+  const out = { movies: [], shows: [], anime: [] };
+  const thisYear = new Date().getFullYear();
+
+  try {
+    const m = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/movie/top.json");
+    out.movies = (m.metas || [])
+      .filter(x => Number((x.releaseInfo || "").slice(0, 4)) >= thisYear - 1)
+      .slice(0, 5)
+      .map(x => ({ title: x.name, year: (x.releaseInfo || "").slice(0, 4), rating: x.imdbRating ? Number(x.imdbRating) : null }));
+  } catch (e) { console.error(`releases movies fail: ${e.message}`); }
+
+  try {
+    const s = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/series/top.json");
+    const metas = (s.metas || []).slice(0, 20)
+      .map(x => ({ title: x.name, year: (x.releaseInfo || ""), rating: x.imdbRating ? Number(x.imdbRating) : null }));
+    // new premieres with ratings first, at most two unrated newcomers,
+    // then the best-rated of what's currently popular
+    const isNew = x => Number(x.year.slice(0, 4)) >= thisYear - 1;
+    out.shows = [
+      ...metas.filter(x => isNew(x) && x.rating != null),
+      ...metas.filter(x => isNew(x) && x.rating == null).slice(0, 2),
+      ...metas.filter(x => !isNew(x) && x.rating != null),
+    ].slice(0, 5);
+  } catch (e) { console.error(`releases shows fail: ${e.message}`); }
+
+  try {
+    const q = `query { Page(perPage: 12) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: POPULARITY_DESC) { title { english romaji } averageScore startDate { year } } } }`;
+    const a = await fetchJson("https://graphql.anilist.co", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: q }),
+    });
+    out.anime = (a.data.Page.media || [])
+      .filter(x => x.startDate && x.startDate.year >= thisYear - 1) // new seasons, not decades-old long-runners
+      .slice(0, 5)
+      .map(x => ({
+        title: x.title.english || x.title.romaji,
+        year: String(x.startDate.year),
+        rating: x.averageScore ? Math.round(x.averageScore) / 10 : null,
+      }));
+  } catch (e) { console.error(`releases anime fail: ${e.message}`); }
+
+  return out;
+}
+
 // ------------------------------------------------------------- llm enrich --
 async function enrichWithClaude(stories) {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
@@ -327,11 +382,12 @@ ${JSON.stringify(input, null, 1)}`;
 }
 
 // -------------------------------------------------------------------- main --
-const [markets, news] = await Promise.all([buildMarkets(), buildNews()]);
+const [markets, news, releases] = await Promise.all([buildMarkets(), buildNews(), buildReleases()]);
 const out = {
   generatedAt: new Date().toISOString(),
   markets,
   news,
+  releases,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +

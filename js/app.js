@@ -167,6 +167,7 @@
     $("updated-line").textContent = updatedText;
     $("news-updated-line").textContent = updatedText;
 
+    releasesData = d.releases || null;
     renderMarkets(d.markets);
     renderNews(d.news);
   }
@@ -197,6 +198,24 @@
   }
 
   let newsData = null;
+  let releasesData = null;
+
+  function releasesHtml() {
+    if (!releasesData) return "";
+    const groups = [
+      ["Movies", releasesData.movies],
+      ["Shows", releasesData.shows],
+      ["Anime", releasesData.anime],
+    ].filter(([, list]) => list && list.length);
+    if (!groups.length) return "";
+    return `<div class="rel-board">` + groups.map(([label, list]) =>
+      `<div class="rel-group"><h4>${label}</h4>` +
+      list.map(r =>
+        `<div class="rel-row"><span class="rel-name">${esc(r.title)}${r.year ? ` <span class="rel-year">${esc(r.year)}</span>` : ""}</span>` +
+        `<span class="rel-score">${r.rating != null ? "★ " + r.rating.toFixed(1) : "—"}</span></div>`
+      ).join("") + `</div>`
+    ).join("") + `<div class="rel-src">Ratings: IMDb (movies, shows) · AniList (anime)</div></div>`;
+  }
 
   function renderNews(n) {
     // tolerate the pre-tabs data shape from a cached data.json
@@ -258,7 +277,8 @@
       return;
     }
     const n = newsData;
-    $("news-list").innerHTML = stories.map(s => {
+    const prefix = key === "entertainment" ? releasesHtml() : "";
+    $("news-list").innerHTML = prefix + stories.map(s => {
       const outlets = s.sources.map(x =>
         `<a href="${esc(x.link)}" target="_blank" rel="noopener"><span class="lean-dot lean-${x.lean}"></span>${esc(x.outlet)}</a>`
       ).join(" ");
