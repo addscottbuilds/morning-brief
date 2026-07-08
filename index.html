@@ -15,102 +15,140 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="eyebrow" id="date-line">Loading&hellip;</div>
-    <h1>Morning Brief</h1>
-    <div class="updated" id="updated-line"></div>
-  </header>
 
-  <div class="strip" id="strip">
-    <div class="cell"><div class="num" id="strip-now">&ndash;</div><div class="lbl">Now</div></div>
-    <div class="cell"><div class="num" id="strip-top">&ndash;</div><div class="lbl">Top</div></div>
-    <div class="cell"><div class="num" id="strip-asx">&ndash;</div><div class="lbl">ASX 200</div></div>
-    <div class="cell"><div class="num" id="strip-days">&ndash;</div><div class="lbl" id="strip-days-lbl">QFF days</div></div>
+<div class="pager" id="pager">
+
+  <!-- ============ LEFT PAGE: full news digest (swipe right to reveal) ============ -->
+  <div class="page" id="page-news">
+    <div class="wrap">
+      <header>
+        <div class="eyebrow">Full digest</div>
+        <h1>News</h1>
+        <div class="updated" id="news-updated-line"></div>
+      </header>
+      <section id="news-section">
+        <div class="eyebrow">Stories <span class="loc" id="news-mode"></span></div>
+        <div class="tabs" id="news-tabs" role="tablist"></div>
+        <div class="news-list" id="news-list"><div class="muted-cell">Loading digest&hellip;</div></div>
+      </section>
+    </div>
   </div>
 
-  <section id="weather-section">
-    <div class="eyebrow">Weather <span class="loc" id="wx-loc"></span></div>
-    <div class="wx-now">
-      <div class="wx-temp" id="wx-temp">&ndash;</div>
-      <div class="wx-desc" id="wx-desc">Fetching your local forecast&hellip;</div>
-    </div>
-    <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
-    <div class="rain-wrap" id="rain-wrap" hidden>
-      <div class="rain-lbl">Rain chance by hour</div>
-      <svg class="rain" id="wx-rain" viewBox="0 0 580 46" preserveAspectRatio="none" aria-label="Hourly rain chance today"></svg>
-      <div class="rain-axis"><span>12am</span><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
-    </div>
-    <div class="wx-meta" id="wx-meta"></div>
-  </section>
+  <!-- ============ CENTER PAGE: overview ============ -->
+  <div class="page" id="page-main">
+    <div class="wrap">
+      <header>
+        <div class="eyebrow" id="date-line">Loading&hellip;</div>
+        <h1>Morning Brief</h1>
+        <div class="updated" id="updated-line"></div>
+      </header>
 
-  <section id="wc-section" hidden>
-    <div class="eyebrow">World Cup <span class="loc" id="wc-round"></span></div>
-    <div class="wc-list" id="wc-list"></div>
-  </section>
-
-  <section id="markets-section">
-    <div class="eyebrow">Markets</div>
-    <table>
-      <thead><tr><th>Holding / watch</th><th class="r">Last</th><th class="r">Day</th></tr></thead>
-      <tbody id="mkt-body"><tr><td colspan="3" class="muted-cell">Loading prices&hellip;</td></tr></tbody>
-    </table>
-    <div class="mkt-note" id="mkt-note" hidden></div>
-  </section>
-
-  <section id="news-section">
-    <div class="eyebrow">News <span class="loc" id="news-mode"></span></div>
-    <div class="tabs" id="news-tabs" role="tablist"></div>
-    <div class="news-list" id="news-list"><div class="muted-cell">Loading digest&hellip;</div></div>
-  </section>
-
-  <section id="deadlines-section">
-    <div class="eyebrow">Time-sensitive</div>
-    <div id="deadline-list"></div>
-  </section>
-
-  <section id="focus-section">
-    <div class="eyebrow">Today&rsquo;s focus</div>
-    <div class="focus-list" id="focus-list"></div>
-    <div class="focus-add">
-      <input id="focus-input" type="text" placeholder="Add a focus for today&hellip;" aria-label="Add a focus item">
-      <button id="focus-btn">Add</button>
-    </div>
-  </section>
-
-  <section id="games-section">
-    <div class="eyebrow">Daily puzzles</div>
-
-    <details class="game" id="wordle-game">
-      <summary><span>Wordle</span><span class="game-status" id="wordle-status"></span></summary>
-      <div class="wordle">
-        <div class="w-board" id="w-board"></div>
-        <div class="w-msg" id="w-msg"></div>
-        <div class="w-kbd" id="w-kbd"></div>
+      <div class="strip" id="strip">
+        <div class="cell"><div class="num" id="strip-now">&ndash;</div><div class="lbl">Now</div></div>
+        <div class="cell"><div class="num" id="strip-top">&ndash;</div><div class="lbl">Top</div></div>
+        <div class="cell"><div class="num" id="strip-asx">&ndash;</div><div class="lbl">ASX 200</div></div>
+        <div class="cell"><div class="num" id="strip-days">&ndash;</div><div class="lbl" id="strip-days-lbl">Days</div></div>
       </div>
-    </details>
 
-    <details class="game" id="xword-game">
-      <summary><span>Mini crossword</span><span class="game-status" id="xword-status"></span></summary>
-      <div class="xword">
-        <div class="x-grid" id="x-grid"></div>
-        <div class="x-clue-bar" id="x-clue-bar"></div>
-        <div class="x-actions">
-          <button id="x-check">Check</button>
-          <button id="x-reveal">Reveal</button>
-          <button id="x-clear">Clear</button>
+      <section id="weather-section">
+        <div class="eyebrow">Weather <button class="loc loc-btn" id="wx-loc" title="Tap to update your location"></button></div>
+        <div class="wx-now">
+          <div class="wx-temp" id="wx-temp">&ndash;</div>
+          <div class="wx-desc" id="wx-desc">Fetching your local forecast&hellip;</div>
         </div>
-        <div class="x-clues">
-          <div><h3>Across</h3><ol id="x-across"></ol></div>
-          <div><h3>Down</h3><ol id="x-down"></ol></div>
+        <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
+        <div class="rain-wrap" id="rain-wrap" hidden>
+          <div class="rain-lbl">Rain chance by hour</div>
+          <svg class="rain" id="wx-rain" viewBox="0 0 580 46" preserveAspectRatio="none" aria-label="Hourly rain chance today"></svg>
+          <div class="rain-axis"><span>12am</span><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
         </div>
-      </div>
-    </details>
-  </section>
+        <div class="wx-meta" id="wx-meta"></div>
+      </section>
 
-  <footer>
-    Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest, refreshed daily &middot; Everything you type saves on this device.
-  </footer>
+      <section id="wc-section" hidden>
+        <div class="eyebrow">World Cup <span class="loc" id="wc-round"></span></div>
+        <div class="wc-list" id="wc-list"></div>
+      </section>
+
+      <section id="news-overview-section">
+        <div class="eyebrow">News</div>
+        <div class="news-mini" id="news-overview"><div class="muted-cell">Loading headlines&hellip;</div></div>
+        <button class="page-link" id="goto-news">&lsaquo; Swipe right for the full digest</button>
+      </section>
+
+      <section id="markets-section">
+        <div class="eyebrow">Markets</div>
+        <table>
+          <thead><tr><th>Holding / watch</th><th class="r">Last</th><th class="r">Day</th></tr></thead>
+          <tbody id="mkt-body"><tr><td colspan="3" class="muted-cell">Loading prices&hellip;</td></tr></tbody>
+        </table>
+        <div class="mkt-note" id="mkt-note" hidden></div>
+      </section>
+
+      <section id="deadlines-section">
+        <div class="eyebrow">Time-sensitive</div>
+        <div id="deadline-list"></div>
+      </section>
+
+      <section id="focus-section">
+        <div class="eyebrow">Today&rsquo;s focus</div>
+        <div class="focus-list" id="focus-list"></div>
+        <div class="focus-add">
+          <input id="focus-input" type="text" placeholder="Add a focus for today&hellip;" aria-label="Add a focus item">
+          <button id="focus-btn">Add</button>
+        </div>
+        <button class="page-link right" id="goto-games">Swipe left for today&rsquo;s puzzles &rsaquo;</button>
+      </section>
+
+      <footer>
+        Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Everything you type saves on this device.
+      </footer>
+    </div>
+  </div>
+
+  <!-- ============ RIGHT PAGE: puzzles (swipe left to reveal) ============ -->
+  <div class="page" id="page-games">
+    <div class="wrap">
+      <header>
+        <div class="eyebrow">Daily puzzles</div>
+        <h1>Games</h1>
+        <div class="updated" id="games-date-line"></div>
+      </header>
+
+      <section>
+        <details class="game" id="wordle-game" open>
+          <summary><span>Wordle</span><span class="game-status" id="wordle-status"></span></summary>
+          <div class="wordle">
+            <div class="w-board" id="w-board"></div>
+            <div class="w-msg" id="w-msg"></div>
+            <div class="w-kbd" id="w-kbd"></div>
+          </div>
+        </details>
+
+        <details class="game" id="xword-game" open>
+          <summary><span>Mini crossword</span><span class="game-status" id="xword-status"></span></summary>
+          <div class="xword">
+            <div class="x-grid" id="x-grid"></div>
+            <div class="x-clue-bar" id="x-clue-bar"></div>
+            <div class="x-actions">
+              <button id="x-check">Check</button>
+              <button id="x-reveal">Reveal</button>
+              <button id="x-clear">Clear</button>
+            </div>
+            <div class="x-clues">
+              <div><h3>Across</h3><ol id="x-across"></ol></div>
+              <div><h3>Down</h3><ol id="x-down"></ol></div>
+            </div>
+          </div>
+        </details>
+      </section>
+    </div>
+  </div>
+
+</div>
+
+<div class="dots" id="dots" aria-hidden="true">
+  <span data-p="0"></span><span data-p="1" class="on"></span><span data-p="2"></span>
 </div>
 
 <script src="js/config.js"></script>

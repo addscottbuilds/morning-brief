@@ -11,16 +11,53 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { background: var(--ground); }
+html { background: var(--ground); height: 100%; }
 body {
   background: var(--ground);
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  padding-top: env(safe-area-inset-top);
+  height: 100%;
+  overflow: hidden;
 }
-.wrap { max-width: 620px; margin: 0 auto; padding: 28px 20px 64px; display: flex; flex-direction: column; gap: 28px; }
+
+/* ------- three-page swipe layout: news | overview | games ------- */
+.pager {
+  display: flex;
+  height: 100dvh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.pager::-webkit-scrollbar { display: none; }
+.page {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  -webkit-overflow-scrolling: touch;
+}
+.wrap {
+  max-width: 620px; margin: 0 auto;
+  padding: calc(28px + env(safe-area-inset-top)) 20px calc(84px + env(safe-area-inset-bottom));
+  display: flex; flex-direction: column; gap: 28px;
+}
+
+.dots {
+  position: fixed; left: 50%; transform: translateX(-50%);
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  display: flex; gap: 9px; z-index: 10;
+  background: rgba(14, 20, 29, 0.75);
+  padding: 7px 11px; border-radius: 999px;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+}
+.dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--line); cursor: pointer; }
+.dots span.on { background: var(--accent); }
 
 .eyebrow { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
 .eyebrow .loc { color: var(--accent); letter-spacing: 0.06em; }
@@ -71,6 +108,22 @@ td .name { display: block; font-size: 11.5px; color: var(--muted); }
 .chg-down { color: var(--down); }
 .mkt-note { font-size: 13px; color: var(--muted); background: var(--surface); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 10px 12px; }
 .mkt-note b { color: var(--text); }
+
+.news-mini { display: flex; flex-direction: column; gap: 8px; }
+.mini-story { background: var(--surface); border-radius: 10px; padding: 10px 14px; cursor: pointer; }
+.mini-story h3 { font-size: 14px; font-weight: 600; line-height: 1.35; }
+.mini-story .src { font-size: 11.5px; color: var(--muted); margin-top: 3px; }
+.mini-story .src .split-flag { color: var(--accent); font-weight: 600; }
+.page-link {
+  background: none; border: none; color: var(--accent); font: inherit;
+  font-size: 13px; font-weight: 600; padding: 2px 0; cursor: pointer; text-align: left;
+}
+.page-link.right { text-align: right; }
+.loc-btn {
+  background: none; border: none; font: inherit; font-size: 11px;
+  letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+  padding: 0; color: var(--accent);
+}
 
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
 .tabs button {

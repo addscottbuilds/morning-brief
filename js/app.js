@@ -5,6 +5,31 @@
   const CFG = window.MB_CONFIG;
   const $ = id => document.getElementById(id);
 
+  // ----------------------------------------------------------------- pager --
+  // Three-page swipe layout: 0 = news (left), 1 = overview, 2 = games (right)
+  const pager = $("pager");
+  const dots = document.querySelectorAll("#dots span");
+  let curPage = 1;
+  function goTo(i, smooth = true) {
+    curPage = i;
+    pager.scrollTo({ left: i * pager.clientWidth, behavior: smooth ? "smooth" : "auto" });
+    dots.forEach((d, n) => d.classList.toggle("on", n === i));
+  }
+  pager.addEventListener("scroll", () => {
+    requestAnimationFrame(() => {
+      const i = Math.round(pager.scrollLeft / pager.clientWidth);
+      if (i !== curPage) {
+        curPage = i;
+        dots.forEach((d, n) => d.classList.toggle("on", n === i));
+      }
+    });
+  }, { passive: true });
+  window.addEventListener("resize", () => goTo(curPage, false));
+  dots.forEach(d => d.addEventListener("click", () => goTo(+d.dataset.p)));
+  $("goto-news").addEventListener("click", () => goTo(0));
+  $("goto-games").addEventListener("click", () => goTo(2));
+  goTo(1, false); // start on the overview
+
   // ---------------------------------------------------------------- header --
   const now = new Date();
   $("date-line").textContent = now.toLocaleDateString("en-AU", {
@@ -28,14 +53,19 @@
     95: ["Thunderstorm", "⛈"], 96: ["Storm with hail", "⛈"], 99: ["Storm with hail", "⛈"],
   };
 
-  function getLocation() {
+  // Cache-first location so iOS doesn't prompt on every open: the saved fix
+  // is used silently; GPS is only requested on first run, when the fix is
+  // over a week old, or when the location name is tapped.
+  const LOC_MAX_AGE = 7 * 24 * 3600 * 1000;
+  function getLocation(force) {
     return new Promise(resolve => {
       const cached = safeParse(localStorage.getItem("mb_loc"));
-      const fallback = cached || CFG.fallback;
-      if (!("geolocation" in navigator)) return resolve(fallback);
+      const fresh = cached && cached.at && Date.now() - cached.at < LOC_MAX_AGE;
+      if (cached && fresh && !force) return resolve(cached);
+      if (!("geolocation" in navigator)) return resolve(cached || CFG.fallback);
       navigator.geolocation.getCurrentPosition(
-        pos => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude, name: null }),
-        () => resolve(fallback),
+        pos => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude, name: null, at: Date.now() }),
+        () => resolve(cached || CFG.fallback),
         { timeout: 8000, maximumAge: 15 * 60 * 1000 }
       );
     });
@@ -49,11 +79,12 @@
     } catch { return "Your location"; }
   }
 
-  async function loadWeather() {
-    const loc = await getLocation();
+  async function loadWeather(force) {
+    const loc = await getLocation(force);
     if (!loc.name) loc.name = await placeName(loc.lat, loc.lon);
+    if (!loc.at) loc.at = Date.now();
     localStorage.setItem("mb_loc", JSON.stringify(loc));
-    $("wx-loc").textContent = "· " + loc.name;
+    $("wx-loc").textContent = "· " + loc.name + " ⌖";
 
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}` +
       `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m` +
@@ -130,9 +161,11 @@
 
     const age = Date.now() - Date.parse(d.generatedAt);
     const ageH = Math.round(age / 3600000);
-    $("updated-line").textContent =
+    const updatedText =
       `Data refreshed ${new Date(d.generatedAt).toLocaleString("en-AU", { weekday: "short", hour: "numeric", minute: "2-digit" })}` +
       (ageH > 26 ? ` — ${ageH}h old, refresh may have failed` : "");
+    $("updated-line").textContent = updatedText;
+    $("news-updated-line").textContent = updatedText;
 
     renderMarkets(d.markets);
     renderNews(d.news);
@@ -196,6 +229,25 @@
       tabs.appendChild(b);
     }
     renderStories(activeKey);
+    renderNewsOverview(n);
+  }
+
+  function renderNewsOverview(n) {
+    const topCat = n.categories.find(c => c.key === "top") || n.categories[0];
+    const box = $("news-overview");
+    if (!topCat || !topCat.stories.length) {
+      box.innerHTML = `<div class="muted-cell">No headlines yet.</div>`;
+      return;
+    }
+    box.innerHTML = topCat.stories.slice(0, 4).map(s => {
+      const meta = `${s.sources.length} outlet${s.sources.length === 1 ? "" : "s"}` +
+        (s.divergent ? ` · <span class="split-flag">narrative split</span>` : "");
+      return `<div class="mini-story" role="button" tabindex="0"><h3>${esc(s.headline)}</h3><div class="src">${meta}</div></div>`;
+    }).join("");
+    box.querySelectorAll(".mini-story").forEach(el => {
+      el.addEventListener("click", () => goTo(0));
+      el.addEventListener("keydown", e => { if (e.key === "Enter") goTo(0); });
+    });
   }
 
   function renderStories(key) {
@@ -381,6 +433,12 @@
   function safeParse(s) { try { return JSON.parse(s); } catch { return null; } }
 
   // ----------------------------------------------------------------- init --
+  $("games-date-line").textContent =
+    `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new Wordle and mini daily`;
+  $("wx-loc").addEventListener("click", () => {
+    $("wx-loc").textContent = "· updating…";
+    loadWeather(true);
+  });
   renderDeadlines();
   renderFocus();
   loadWeather();
