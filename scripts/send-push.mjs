@@ -7,7 +7,10 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import webpush from "web-push";
 
-const { VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION } = process.env;
+// trim: secrets set via shell pipes often carry a trailing newline
+const VAPID_PUBLIC_KEY = (process.env.VAPID_PUBLIC_KEY || "").trim();
+const VAPID_PRIVATE_KEY = (process.env.VAPID_PRIVATE_KEY || "").trim();
+const PUSH_SUBSCRIPTION = (process.env.PUSH_SUBSCRIPTION || "").trim();
 if (!VAPID_PUBLIC_KEY || !VAPID_PRIVATE_KEY || !PUSH_SUBSCRIPTION) {
   console.log("push not configured (missing secrets) — skipping");
   process.exit(0);
