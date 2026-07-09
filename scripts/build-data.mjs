@@ -317,7 +317,10 @@ async function buildReleases() {
 async function buildWotd() {
   try {
     const { words } = JSON.parse(readFileSync(join(root, "data/wotd-words.json"), "utf8"));
-    const dayNum = Math.floor((Date.now() - Date.UTC(2026, 6, 9)) / 86400000);
+    // day boundary must be MELBOURNE's date, not UTC's — the 5-something-am
+    // build runs while UTC is still on yesterday's date
+    const melbDate = new Date().toLocaleDateString("en-CA", { timeZone: "Australia/Melbourne" });
+    const dayNum = Math.round((Date.parse(melbDate) - Date.parse("2026-07-09")) / 86400000);
     for (let i = 0; i < 6; i++) {
       const word = words[((dayNum + i) * 37) % words.length];
       try {

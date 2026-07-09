@@ -2,8 +2,11 @@ name: Daily data refresh
 
 on:
   schedule:
-    # ~05:45 Melbourne in winter (AEST, UTC+10) / ~06:45 in summer (AEDT, UTC+11)
-    - cron: "45 19 * * *"
+    # Nominally 05:23 Melbourne (AEST) / 06:23 (AEDT). GitHub crons fire late
+    # under load (often 15-90 min), so this is deliberately early and on an
+    # odd minute to dodge the congested :00/:15/:30/:45 slots. The push job
+    # below waits until 6:00 Melbourne regardless of when this starts.
+    - cron: "23 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -56,3 +59,35 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Send the morning notification AFTER the fresh data is deployed, holding
+  # until exactly 6:00am Melbourne when the pipeline ran early.
+  push:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - name: Wait until 6:00am Melbourne
+        run: |
+          now=$(date +%s)
+          target=$(TZ=Australia/Melbourne date -d "$(TZ=Australia/Melbourne date +%F) 06:00" +%s)
+          wait=$(( target - now ))
+          if [ "$wait" -gt 3600 ]; then wait=3600; fi
+          if [ "$wait" -gt 0 ]; then
+            echo "sleeping ${wait}s until 6:00 Melbourne"
+            sleep "$wait"
+          else
+            echo "already past 6:00 Melbourne — sending now"
+          fi
+      - name: Send push
+        run: node scripts/send-push.mjs
+        env:
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
