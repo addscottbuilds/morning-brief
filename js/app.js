@@ -170,6 +170,20 @@
     releasesData = d.releases || null;
     renderMarkets(d.markets);
     renderNews(d.news);
+    renderWotd(d.wotd);
+  }
+
+  function renderWotd(w) {
+    if (!w || !w.word) return;
+    $("wotd-section").hidden = false;
+    $("wotd-word").textContent = w.word;
+    $("wotd-phon").textContent = w.phonetic || "";
+    $("wotd-pos").textContent = w.pos || "";
+    $("wotd-def").textContent = w.def;
+    if (w.example) {
+      $("wotd-ex").hidden = false;
+      $("wotd-ex").textContent = "“" + w.example + "”";
+    }
   }
 
   function fmtPrice(i) {

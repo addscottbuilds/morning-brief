@@ -4,7 +4,7 @@
 // If ANTHROPIC_API_KEY is set, Claude writes neutral summaries and flags
 // stories where left- and right-leaning coverage genuinely diverges.
 // Without a key, the digest still works: clustered headlines grouped by lean.
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import Parser from "rss-parser";
@@ -310,6 +310,39 @@ async function buildReleases() {
   return out;
 }
 
+// ------------------------------------------------------------ word of day --
+// Pick today's word from the curated bank (non-adjacent stride so runs of
+// days don't walk the list alphabetically) and fetch its definition from the
+// free dictionary API. A failed word falls through to the next candidate.
+async function buildWotd() {
+  try {
+    const { words } = JSON.parse(readFileSync(join(root, "data/wotd-words.json"), "utf8"));
+    const dayNum = Math.floor((Date.now() - Date.UTC(2026, 6, 9)) / 86400000);
+    for (let i = 0; i < 6; i++) {
+      const word = words[((dayNum + i) * 37) % words.length];
+      try {
+        const res = await fetch(
+          `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`,
+          { signal: AbortSignal.timeout(15000) }
+        );
+        if (!res.ok) continue;
+        const entry = (await res.json())[0];
+        const meaning = entry?.meanings?.[0];
+        const def = meaning?.definitions?.[0];
+        if (!def?.definition) continue;
+        return {
+          word: entry.word || word,
+          phonetic: entry.phonetic || ((entry.phonetics || []).find(p => p.text) || {}).text || "",
+          pos: meaning.partOfSpeech || "",
+          def: def.definition,
+          example: def.example || null,
+        };
+      } catch { /* try the next candidate */ }
+    }
+  } catch (e) { console.error(`wotd fail: ${e.message}`); }
+  return null;
+}
+
 // ------------------------------------------------------------- llm enrich --
 async function enrichWithClaude(stories) {
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
@@ -382,12 +415,13 @@ ${JSON.stringify(input, null, 1)}`;
 }
 
 // -------------------------------------------------------------------- main --
-const [markets, news, releases] = await Promise.all([buildMarkets(), buildNews(), buildReleases()]);
+const [markets, news, releases, wotd] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd()]);
 const out = {
   generatedAt: new Date().toISOString(),
   markets,
   news,
   releases,
+  wotd,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +
