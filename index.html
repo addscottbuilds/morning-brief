@@ -65,9 +65,9 @@
         <div class="wx-meta" id="wx-meta"></div>
       </section>
 
-      <section id="wc-section" hidden>
-        <div class="eyebrow">World Cup <span class="loc" id="wc-round"></span></div>
-        <div class="wc-list" id="wc-list"></div>
+      <section id="sport-section" hidden>
+        <div class="eyebrow">Sport <span class="loc" id="sport-live"></span></div>
+        <div id="sport-list"></div>
       </section>
 
       <section id="news-overview-section">
@@ -100,6 +100,12 @@
         <button class="page-link right" id="goto-games">Swipe left for today&rsquo;s puzzles &rsaquo;</button>
       </section>
 
+      <section id="settings-section">
+        <div class="eyebrow">Notifications</div>
+        <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
+        <div class="sub-note" id="push-note" hidden></div>
+      </section>
+
       <footer>
         Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Everything you type saves on this device.
       </footer>
@@ -124,6 +130,7 @@
         <div class="w-board" id="w-board"></div>
         <div class="w-msg" id="w-msg"></div>
         <div class="w-kbd" id="w-kbd"></div>
+        <div class="g-stats" id="w-stats"></div>
       </div>
 
       <div class="game-pane xword" id="xword-game" hidden>
@@ -134,6 +141,7 @@
           <button id="x-reveal">Reveal</button>
           <button id="x-clear">Clear</button>
         </div>
+        <div class="g-stats" id="x-stats"></div>
         <div class="x-clues">
           <div><h3>Across</h3><ol id="x-across"></ol></div>
           <div><h3>Down</h3><ol id="x-down"></ol></div>

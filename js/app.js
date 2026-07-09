@@ -308,52 +308,92 @@
     }).join("");
   }
 
-  // ------------------------------------------------------------ world cup --
-  async function loadWorldCup() {
-    const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, "");
-    const from = new Date(Date.now() - 40 * 3600 * 1000); // yesterday's results
-    const to = new Date(Date.now() + 4 * 86400 * 1000);   // next few fixtures
-    let d;
-    try {
-      d = await (await fetch(
-        `https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${fmt(from)}-${fmt(to)}`
-      )).json();
-    } catch { return; } // offline or API gone — section stays hidden
-    const events = (d.events || []).slice().sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
-    if (!events.length) return;
+  // ---------------------------------------------------------------- sport --
+  // Config-driven leagues from ESPN's public scoreboard API. Each league
+  // fetches its own window of results + fixtures; empty leagues hide.
+  function matchRow(e) {
+    const comp = (e.competitions || [])[0] || {};
+    const cs = comp.competitors || [];
+    const home = cs.find(c => c.homeAway === "home") || cs[0] || {};
+    const away = cs.find(c => c.homeAway === "away") || cs[1] || {};
+    const state = e.status && e.status.type ? e.status.type.state : "pre"; // pre | in | post
+    const note = comp.notes && comp.notes[0] && comp.notes[0].headline || "";
 
-    $("wc-section").hidden = false;
-    const live = events.some(e => e.status && e.status.type && e.status.type.state === "in");
-    if (live) $("wc-round").textContent = "· live";
+    const team = (t, side) => {
+      const logo = t.team && t.team.logo ? `<img src="${esc(t.team.logo)}" alt="" loading="lazy">` : "";
+      const winner = state === "post" && t.winner ? " wc-winner" : "";
+      return `<div class="wc-team ${side}${winner}">${side === "home" ? logo : ""}<span class="nm">${esc(t.team ? t.team.shortDisplayName : "?")}</span>${side === "away" ? logo : ""}</div>`;
+    };
 
-    $("wc-list").innerHTML = events.slice(0, 8).map(e => {
+    let mid;
+    if (state === "post") {
+      mid = `<div class="wc-mid"><div class="wc-score">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when">${esc(e.status.type.shortDetail || "FT")}</div></div>`;
+    } else if (state === "in") {
+      mid = `<div class="wc-mid"><div class="wc-score live">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when live">${esc(e.status.displayClock || "LIVE")}</div></div>`;
+    } else {
+      const when = new Date(e.date).toLocaleString("en-AU", { weekday: "short", hour: "numeric", minute: "2-digit" });
+      mid = `<div class="wc-mid"><div class="wc-score" style="color:var(--muted)">v</div><div class="wc-when">${esc(when)}</div></div>`;
+    }
+
+    const noteRow = note ? `<div class="wc-when" style="grid-column:1/-1;text-align:center">${esc(note)}</div>` : "";
+    return `<div class="wc-match">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
+  }
+
+  function raceRow(e) {
+    const state = e.status && e.status.type ? e.status.type.state : "pre";
+    const full = e.name || e.shortName || "";
+    const m = full.match(/([A-Za-z]+ Grand Prix)$/); // drop sponsor prefix, keep "<Country> Grand Prix"
+    const name = m ? m[1] : full;
+    if (state === "post") {
       const comp = (e.competitions || [])[0] || {};
-      const cs = comp.competitors || [];
-      const home = cs.find(c => c.homeAway === "home") || cs[0] || {};
-      const away = cs.find(c => c.homeAway === "away") || cs[1] || {};
-      const state = e.status && e.status.type ? e.status.type.state : "pre"; // pre | in | post
-      const note = comp.notes && comp.notes[0] && comp.notes[0].headline || "";
+      const podium = (comp.competitors || [])
+        .filter(c => c.order >= 1 && c.order <= 3)
+        .sort((a, b) => a.order - b.order)
+        .map(c => `${c.order}. ${esc(c.athlete ? (c.athlete.shortName || c.athlete.displayName) : "?")}`)
+        .join(" · ");
+      return `<div class="wc-match race"><div class="race-name wc-winner">${esc(name)}</div><div class="race-detail">${podium || "Finished"}</div></div>`;
+    }
+    const when = new Date(e.date).toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+    const days = Math.ceil((Date.parse(e.date) - Date.now()) / 86400000);
+    return `<div class="wc-match race"><div class="race-name">${esc(name)}</div><div class="race-detail">${esc(when)}${days > 0 ? ` · in ${days} day${days === 1 ? "" : "s"}` : ""}${state === "in" ? ` · <span class="chg-up">LIVE</span>` : ""}</div></div>`;
+  }
 
-      const team = (t, side) => {
-        const logo = t.team && t.team.logo ? `<img src="${esc(t.team.logo)}" alt="" loading="lazy">` : "";
-        const winner = state === "post" && t.winner ? " wc-winner" : "";
-        return `<div class="wc-team ${side}${winner}">${side === "home" ? logo : ""}<span class="nm">${esc(t.team ? t.team.shortDisplayName : "?")}</span>${side === "away" ? logo : ""}</div>`;
-      };
+  async function loadSports() {
+    const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, "");
+    let anyLive = false;
+    const blocks = await Promise.all((CFG.sports || []).map(async lg => {
+      const from = new Date(Date.now() - lg.pastH * 3600 * 1000);
+      const to = new Date(Date.now() + lg.futureD * 86400 * 1000);
+      let d;
+      try {
+        d = await (await fetch(
+          `https://site.api.espn.com/apis/site/v2/sports/${lg.path}/scoreboard?dates=${fmt(from)}-${fmt(to)}`
+        )).json();
+      } catch { return ""; }
+      const events = (d.events || []).slice().sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+      if (!events.length) return "";
+      const state = e => (e.status && e.status.type ? e.status.type.state : "pre");
+      if (events.some(e => state(e) === "in")) anyLive = true;
 
-      let mid;
-      if (state === "post") {
-        mid = `<div class="wc-mid"><div class="wc-score">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when">${esc(e.status.type.shortDetail || "FT")}</div></div>`;
-      } else if (state === "in") {
-        mid = `<div class="wc-mid"><div class="wc-score live">${esc(home.score ?? "")}–${esc(away.score ?? "")}</div><div class="wc-when live">${esc(e.status.displayClock || "LIVE")}</div></div>`;
+      let rows;
+      if (lg.type === "race") {
+        const past = events.filter(e => state(e) === "post").slice(-1);
+        const next = events.filter(e => state(e) !== "post").slice(0, 1);
+        rows = [...past, ...next].map(raceRow);
       } else {
-        const ko = new Date(e.date);
-        const when = ko.toLocaleString("en-AU", { weekday: "short", hour: "numeric", minute: "2-digit" });
-        mid = `<div class="wc-mid"><div class="wc-score" style="color:var(--muted)">v</div><div class="wc-when">${esc(when)}</div></div>`;
+        const results = events.filter(e => state(e) === "post").slice(-(lg.results || 3));
+        const rest = events.filter(e => state(e) !== "post").slice(0, lg.upcoming || 4);
+        rows = [...results, ...rest].map(matchRow);
       }
+      if (!rows.length) return "";
+      return `<div class="sport-league"><div class="sport-lg-label">${esc(lg.label)}</div><div class="wc-list">${rows.join("")}</div></div>`;
+    }));
 
-      const noteRow = note ? `<div class="wc-when" style="grid-column:1/-1;text-align:center">${esc(note)}</div>` : "";
-      return `<div class="wc-match">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
-    }).join("");
+    const html = blocks.filter(Boolean).join("");
+    if (!html) return; // nothing on — section stays hidden
+    $("sport-section").hidden = false;
+    if (anyLive) $("sport-live").textContent = "· live";
+    $("sport-list").innerHTML = html;
   }
 
   // ------------------------------------------------------------ deadlines --
@@ -452,6 +492,48 @@
   function round1(n) { return Math.round(n * 10) / 10; }
   function safeParse(s) { try { return JSON.parse(s); } catch { return null; } }
 
+  // -------------------------------------------------------- notifications --
+  function b64ToUint8(s) {
+    const pad = "=".repeat((4 - (s.length % 4)) % 4);
+    const raw = atob((s + pad).replace(/-/g, "+").replace(/_/g, "/"));
+    return Uint8Array.from([...raw].map(c => c.charCodeAt(0)));
+  }
+
+  async function enablePush() {
+    const note = $("push-note");
+    note.hidden = false;
+    if (!("Notification" in window) || !("PushManager" in window)) {
+      note.textContent = "Notifications need the app installed via Add to Home Screen (iOS 16.4+). Open the installed app and try again.";
+      return;
+    }
+    try {
+      const perm = await Notification.requestPermission();
+      if (perm !== "granted") { note.textContent = "Permission not granted — you can allow notifications in Settings later."; return; }
+      const reg = await navigator.serviceWorker.ready;
+      let sub = await reg.pushManager.getSubscription();
+      if (!sub) {
+        sub = await reg.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: b64ToUint8(CFG.vapidPublicKey),
+        });
+      }
+      const json = JSON.stringify(sub.toJSON());
+      let copied = false;
+      try { await navigator.clipboard.writeText(json); copied = true; } catch { /* clipboard blocked */ }
+      localStorage.setItem("mb_push_enabled", "1");
+      $("push-btn").textContent = "🔔 Notification key copied — tap to copy again";
+      note.textContent = (copied ? "Subscription copied to your clipboard. " : "Copy this and ") +
+        "Paste it to Claude (or into the repo secret PUSH_SUBSCRIPTION) to finish setup." +
+        (copied ? "" : " " + json);
+    } catch (e) {
+      note.textContent = "Couldn't subscribe: " + e.message;
+    }
+  }
+  $("push-btn").addEventListener("click", enablePush);
+  if (localStorage.getItem("mb_push_enabled")) {
+    $("push-btn").textContent = "🔔 Morning notification set up — tap to re-copy the key";
+  }
+
   // ------------------------------------------------------------ game tabs --
   const gameTabs = document.querySelectorAll("#game-tabs button");
   function showGame(g) {
@@ -474,5 +556,5 @@
   renderFocus();
   loadWeather();
   loadData();
-  loadWorldCup();
+  loadSports();
 })();

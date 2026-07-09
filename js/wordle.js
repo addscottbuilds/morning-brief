@@ -5,9 +5,58 @@
   const $ = id => document.getElementById(id);
   const board = $("w-board"), kbd = $("w-kbd"), msg = $("w-msg"), status = $("wordle-status");
   const ROWS = 6, COLS = 5;
+  const DAY = window.MB_DAYNUM || 0;
   let answer = "", allowedSet = null;
   let guesses = [], current = "", finished = false;
   const todayKey = new Date().toDateString();
+
+  // ------- streaks & stats -------
+  function statsLoad() {
+    try { return JSON.parse(localStorage.getItem("mb_wordle_stats")) || {}; } catch { return {}; }
+  }
+  function recordResult(won) {
+    const s = Object.assign(
+      { played: 0, wins: 0, streak: 0, maxStreak: 0, dist: [0, 0, 0, 0, 0, 0], lastDay: -9, lastWinDay: -9 },
+      statsLoad()
+    );
+    if (s.lastDay === DAY) return s; // already recorded today
+    s.played++; s.lastDay = DAY;
+    if (won) {
+      s.wins++;
+      s.streak = s.lastWinDay === DAY - 1 ? s.streak + 1 : 1;
+      s.lastWinDay = DAY;
+      s.maxStreak = Math.max(s.maxStreak, s.streak);
+      s.dist[guesses.length - 1]++;
+    } else {
+      s.streak = 0;
+    }
+    localStorage.setItem("mb_wordle_stats", JSON.stringify(s));
+    return s;
+  }
+  function renderStats() {
+    const s = Object.assign({ played: 0, wins: 0, streak: 0, maxStreak: 0 }, statsLoad());
+    const el = $("w-stats");
+    if (!s.played) { el.innerHTML = ""; return; }
+    const pct = Math.round((s.wins / s.played) * 100);
+    el.innerHTML =
+      `<span>Streak <b>${s.streak}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
+      `<span>Won <b>${s.wins}/${s.played}</b> (${pct}%)</span>` +
+      (finished ? `<button class="share-btn" id="w-share">Share</button>` : "");
+    const btn = $("w-share");
+    if (btn) btn.addEventListener("click", shareResult);
+  }
+  function shareResult() {
+    const grid = guesses.map(g =>
+      scoreGuess(g).map(x => (x === "correct" ? "🟩" : x === "present" ? "🟨" : "⬛")).join("")
+    ).join("\n");
+    const won = guesses.includes(answer);
+    const text = `Morning Brief Wordle #${DAY + 1} ${won ? guesses.length : "X"}/6\n\n${grid}`;
+    if (navigator.share) {
+      navigator.share({ text }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(text).then(() => { msg.textContent = "Result copied!"; }).catch(() => {});
+    }
+  }
 
   fetch("data/words.json").then(r => r.json()).then(({ answers, allowed }) => {
     allowedSet = new Set(allowed);
@@ -80,6 +129,7 @@
       board.appendChild(row);
     }
     renderKbd();
+    renderStats();
     status.textContent = finished ? (guesses.includes(answer) ? `Solved in ${guesses.length}` : "Done") :
       guesses.length ? `${guesses.length}/6` : "";
   }
@@ -124,6 +174,7 @@
 
   function finish(won, announce) {
     finished = true;
+    recordResult(won);
     if (announce) msg.textContent = won ? ["Genius!", "Magnificent!", "Impressive!", "Splendid!", "Great!", "Phew!"][guesses.length - 1] : `It was "${answer.toUpperCase()}".`;
     else msg.textContent = won ? "Solved today's puzzle." : `It was "${answer.toUpperCase()}".`;
     render();

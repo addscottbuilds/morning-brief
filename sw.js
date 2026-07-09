@@ -1,6 +1,6 @@
 // Service worker: the app shell works offline; data.json and weather always
 // try the network first so the brief is fresh, falling back to the last copy.
-const CACHE = "morning-brief-v6";
+const CACHE = "morning-brief-v7";
 const SHELL = [
   "./",
   "./index.html",
@@ -25,6 +25,28 @@ self.addEventListener("activate", e => {
     caches.keys().then(keys =>
       Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
     ).then(() => self.clients.claim())
+  );
+});
+
+// Morning push notification (sent by the daily GitHub Action)
+self.addEventListener("push", e => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch { /* plain-text payload */ d = { body: e.data && e.data.text() }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Morning Brief", {
+    body: d.body || "Your daily brief is ready.",
+    icon: "icons/icon-192.png",
+    badge: "icons/icon-192.png",
+    tag: "morning-brief-daily",
+  }));
+});
+
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  e.waitUntil(
+    clients.matchAll({ type: "window", includeUncontrolled: true }).then(list => {
+      for (const c of list) if ("focus" in c) return c.focus();
+      return clients.openWindow("./");
+    })
   );
 });
 

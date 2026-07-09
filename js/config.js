@@ -35,4 +35,17 @@ window.MB_CONFIG = {
 
   // Wordle epoch: puzzle #1 was this date; index advances daily
   gameEpoch: "2026-07-09",
+
+  // Sport section: ESPN scoreboard leagues, rendered in order. Match leagues
+  // show recent results + upcoming fixtures; race leagues show last podium +
+  // next race. A league with no events in its window hides itself.
+  sports: [
+    { key: "wc", label: "World Cup", type: "match", path: "soccer/fifa.world", pastH: 40, futureD: 4, results: 3, upcoming: 4 },
+    { key: "afl", label: "AFL", type: "match", path: "australian-football/afl", pastH: 36, futureD: 6, results: 3, upcoming: 4 },
+    { key: "epl", label: "Premier League", type: "match", path: "soccer/eng.1", pastH: 36, futureD: 7, results: 3, upcoming: 4 },
+    { key: "f1", label: "Formula 1", type: "race", path: "racing/f1", pastH: 120, futureD: 24 },
+  ],
+
+  // Web Push public key (safe to publish; the private half lives in repo secrets)
+  vapidPublicKey: "BEQjlu7uRVc0lYBo6VQc6ZNneQH7kmKN3GBYE98ls59esm36AaXnBdnTP09KIb31WqOJYY36B_UBFp2d4bkYpVg",
 };

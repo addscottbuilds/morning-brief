@@ -5,10 +5,44 @@
   const $ = id => document.getElementById(id);
   const gridEl = $("x-grid"), clueBar = $("x-clue-bar"), status = $("xword-status");
   const N = 5;
+  const DAY = window.MB_DAYNUM || 0;
   let puzzle = null, solution = "", letters = new Array(N * N).fill("");
   let active = 0, dir = "across"; // or "down"
+  let startedAt = null, revealed = false, recorded = false, todayMs = null;
   const todayKey = new Date().toDateString();
   const inputs = [];
+
+  // ------- streaks & stats -------
+  function statsLoad() {
+    try { return JSON.parse(localStorage.getItem("mb_xword_stats")) || {}; } catch { return {}; }
+  }
+  function recordSolve(legit, ms) {
+    const s = Object.assign({ solved: 0, streak: 0, maxStreak: 0, lastSolveDay: -9, bestMs: null }, statsLoad());
+    if (legit) {
+      s.solved++;
+      s.streak = s.lastSolveDay === DAY - 1 ? s.streak + 1 : 1;
+      s.lastSolveDay = DAY;
+      s.maxStreak = Math.max(s.maxStreak, s.streak);
+      if (ms != null && (s.bestMs == null || ms < s.bestMs)) s.bestMs = ms;
+    } else {
+      s.streak = 0; // revealed answers don't keep a streak alive
+    }
+    localStorage.setItem("mb_xword_stats", JSON.stringify(s));
+  }
+  function fmtMs(ms) {
+    const t = Math.round(ms / 1000);
+    return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`;
+  }
+  function renderStats() {
+    const s = Object.assign({ solved: 0, streak: 0, maxStreak: 0, bestMs: null }, statsLoad());
+    const el = $("x-stats");
+    if (!s.solved && !recorded) { el.innerHTML = ""; return; }
+    el.innerHTML =
+      `<span>Streak <b>${s.streak}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
+      `<span>Solved <b>${s.solved}</b></span>` +
+      (s.bestMs != null ? `<span>Best <b>${fmtMs(s.bestMs)}</b></span>` : "") +
+      (todayMs != null ? `<span>Today <b>${fmtMs(todayMs)}</b></span>` : "");
+  }
 
   fetch("data/crosswords.json").then(r => r.json()).then(({ puzzles }) => {
     puzzle = puzzles[(window.MB_DAYNUM || 0) % puzzles.length];
@@ -19,12 +53,18 @@
   }).catch(() => { clueBar.textContent = "Couldn't load today's puzzle."; });
 
   function stateSave() {
-    localStorage.setItem("mb_xword", JSON.stringify({ day: todayKey, letters }));
+    localStorage.setItem("mb_xword", JSON.stringify({ day: todayKey, letters, startedAt, revealed, recorded, todayMs }));
   }
   function restore() {
     try {
       const s = JSON.parse(localStorage.getItem("mb_xword"));
-      if (s && s.day === todayKey && Array.isArray(s.letters)) letters = s.letters;
+      if (s && s.day === todayKey && Array.isArray(s.letters)) {
+        letters = s.letters;
+        startedAt = s.startedAt || null;
+        revealed = !!s.revealed;
+        recorded = !!s.recorded;
+        todayMs = s.todayMs ?? null;
+      }
     } catch { /* fresh start */ }
   }
 
@@ -48,6 +88,7 @@
       inp.addEventListener("input", () => {
         const v = inp.value.replace(/[^a-zA-Z]/g, "").toLowerCase();
         letters[i] = v ? v[v.length - 1] : "";
+        if (letters[i] && !startedAt) startedAt = Date.now(); // solve timer starts on first letter
         inp.classList.remove("wrong");
         stateSave();
         if (letters[i]) advance(1);
@@ -85,8 +126,9 @@
 
     $("x-check").addEventListener("click", check);
     $("x-reveal").addEventListener("click", () => {
-      if (!confirm("Reveal the whole grid?")) return;
+      if (!confirm("Reveal the whole grid? (Doesn't count toward your streak.)")) return;
       letters = solution.split("");
+      revealed = true;
       stateSave();
       render();
     });
@@ -142,6 +184,12 @@
   function render() {
     if (!puzzle) return;
     const solved = letters.join("") === solution;
+    if (solved && !recorded) {
+      recorded = true;
+      if (!revealed && startedAt) todayMs = Date.now() - startedAt;
+      recordSolve(!revealed, todayMs);
+      stateSave();
+    }
     const r = Math.floor(active / N), c = active % N;
     for (let i = 0; i < N * N; i++) {
       const inp = inputs[i];
@@ -159,6 +207,7 @@
     });
     const filled = letters.filter(Boolean).length;
     status.textContent = solved ? "Solved" : filled ? `${filled}/25` : "";
+    renderStats();
   }
 
   function escText(s) {
