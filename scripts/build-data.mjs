@@ -268,18 +268,37 @@ async function buildReleases() {
   const out = { movies: [], shows: [], anime: [] };
   const thisYear = new Date().getFullYear();
 
+  // spoiler-safe blurb: Cinemeta descriptions are official loglines; trim to
+  // the first couple of sentences anyway
+  const blurb = s => {
+    const clean = (s || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+    if (clean.length <= 240) return clean || null;
+    const cut = clean.slice(0, 240);
+    return cut.slice(0, Math.max(cut.lastIndexOf(". ") + 1, 180)).trim() + (cut.endsWith(".") ? "" : "…");
+  };
+
   try {
     const m = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/movie/top.json");
     out.movies = (m.metas || [])
       .filter(x => Number((x.releaseInfo || "").slice(0, 4)) >= thisYear - 1)
       .slice(0, 5)
-      .map(x => ({ title: x.name, year: (x.releaseInfo || "").slice(0, 4), rating: x.imdbRating ? Number(x.imdbRating) : null }));
+      .map(x => ({
+        title: x.name, year: (x.releaseInfo || "").slice(0, 4),
+        rating: x.imdbRating ? Number(x.imdbRating) : null,
+        genres: (x.genres || x.genre || []).slice(0, 3),
+        overview: blurb(x.description),
+      }));
   } catch (e) { console.error(`releases movies fail: ${e.message}`); }
 
   try {
     const s = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/series/top.json");
     const metas = (s.metas || []).slice(0, 20)
-      .map(x => ({ title: x.name, year: (x.releaseInfo || ""), rating: x.imdbRating ? Number(x.imdbRating) : null }));
+      .map(x => ({
+        title: x.name, year: (x.releaseInfo || ""),
+        rating: x.imdbRating ? Number(x.imdbRating) : null,
+        genres: (x.genres || x.genre || []).slice(0, 3),
+        overview: blurb(x.description),
+      }));
     // new premieres with ratings first, at most two unrated newcomers,
     // then the best-rated of what's currently popular
     const isNew = x => Number(x.year.slice(0, 4)) >= thisYear - 1;
@@ -291,7 +310,7 @@ async function buildReleases() {
   } catch (e) { console.error(`releases shows fail: ${e.message}`); }
 
   try {
-    const q = `query { Page(perPage: 12) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: POPULARITY_DESC) { title { english romaji } averageScore startDate { year } } } }`;
+    const q = `query { Page(perPage: 12) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: POPULARITY_DESC) { title { english romaji } averageScore startDate { year } genres description(asHtml: false) } } }`;
     const a = await fetchJson("https://graphql.anilist.co", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -304,6 +323,9 @@ async function buildReleases() {
         title: x.title.english || x.title.romaji,
         year: String(x.startDate.year),
         rating: x.averageScore ? Math.round(x.averageScore) / 10 : null,
+        genres: (x.genres || []).slice(0, 3),
+        // AniList descriptions can ramble into episode detail — keep the setup only
+        overview: blurb((x.description || "").split(/\n|<br>/)[0]),
       }));
   } catch (e) { console.error(`releases anime fail: ${e.message}`); }
 

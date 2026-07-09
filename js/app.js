@@ -219,21 +219,39 @@
   let newsData = null;
   let releasesData = null;
 
+  const REL_GROUPS = [["Movies", "movies"], ["Shows", "shows"], ["Anime", "anime"]];
+
   function releasesHtml() {
     if (!releasesData) return "";
-    const groups = [
-      ["Movies", releasesData.movies],
-      ["Shows", releasesData.shows],
-      ["Anime", releasesData.anime],
-    ].filter(([, list]) => list && list.length);
+    const groups = REL_GROUPS.filter(([, key]) => releasesData[key] && releasesData[key].length);
     if (!groups.length) return "";
-    return `<div class="rel-board">` + groups.map(([label, list]) =>
+    return `<div class="rel-board">` + groups.map(([label, key]) =>
       `<div class="rel-group"><h4>${label}</h4>` +
-      list.map(r =>
-        `<div class="rel-row"><span class="rel-name">${esc(r.title)}${r.year ? ` <span class="rel-year">${esc(r.year)}</span>` : ""}</span>` +
+      releasesData[key].map((r, i) =>
+        `<div class="rel-row" data-rel="${key}-${i}" role="button" aria-label="Show synopsis">` +
+        `<span class="rel-name">${esc(r.title)}${r.year ? ` <span class="rel-year">${esc(r.year)}</span>` : ""}</span>` +
         `<span class="rel-score">${r.rating != null ? "★ " + r.rating.toFixed(1) : "—"}</span></div>`
       ).join("") + `</div>`
-    ).join("") + `<div class="rel-src">Ratings: IMDb (movies, shows) · AniList (anime)</div></div>`;
+    ).join("") + `<div class="rel-src">Ratings: IMDb (movies, shows) · AniList (anime) · Tap a title for the synopsis</div></div>`;
+  }
+
+  function bindReleaseDetails() {
+    document.querySelectorAll(".rel-row[data-rel]").forEach(el => {
+      el.addEventListener("click", () => {
+        const next = el.nextElementSibling;
+        if (next && next.classList.contains("rel-detail")) { next.remove(); return; }
+        document.querySelectorAll(".rel-detail").forEach(d => d.remove());
+        const [key, i] = el.dataset.rel.split("-");
+        const r = releasesData && releasesData[key] && releasesData[key][Number(i)];
+        if (!r) return;
+        const div = document.createElement("div");
+        div.className = "rel-detail";
+        div.innerHTML =
+          (r.genres && r.genres.length ? `<div class="chips">${r.genres.map(g => `<span>${esc(g)}</span>`).join("")}</div>` : "") +
+          `<div class="rel-ov">${r.overview ? esc(r.overview) : `<span style="color:var(--muted)">No synopsis available.</span>`}</div>`;
+        el.after(div);
+      });
+    });
   }
 
   function renderNews(n) {
@@ -297,6 +315,7 @@
     }
     const n = newsData;
     const prefix = key === "entertainment" ? releasesHtml() : "";
+    const bindAfter = key === "entertainment";
     $("news-list").innerHTML = prefix + stories.map(s => {
       const outlets = s.sources.map(x =>
         `<a href="${esc(x.link)}" target="_blank" rel="noopener"><span class="lean-dot lean-${x.lean}"></span>${esc(x.outlet)}</a>`
@@ -325,11 +344,107 @@
         <div class="outlets">${outlets}</div>
       </div>`;
     }).join("");
+    if (bindAfter) bindReleaseDetails();
   }
 
   // ---------------------------------------------------------------- sport --
   // Config-driven leagues from ESPN's public scoreboard API. Each league
   // fetches its own window of results + fixtures; empty leagues hide.
+  // Tapping a match expands scorers / quarter scores / odds / ladder spots.
+  const sportEvents = new Map();       // event id -> { e, lg }
+  const standingsCache = new Map();    // league key -> Map(team id -> rank)
+
+  function ordinal(n) {
+    const s = ["th", "st", "nd", "rd"], v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
+  async function leagueRanks(lg) {
+    if (!lg.standings) return null;
+    if (standingsCache.has(lg.key)) return standingsCache.get(lg.key);
+    try {
+      const d = await (await fetch(`https://site.api.espn.com/apis/v2/sports/${lg.path}/standings`)).json();
+      const entries = (d.children && d.children[0] && d.children[0].standings && d.children[0].standings.entries) ||
+        (d.standings && d.standings.entries) || [];
+      const map = new Map();
+      for (const en of entries) {
+        const rank = (en.stats || []).find(s => s.name === "rank" || s.type === "rank");
+        if (en.team && rank) map.set(String(en.team.id), Number(rank.displayValue || rank.value));
+      }
+      standingsCache.set(lg.key, map);
+      return map;
+    } catch { return null; }
+  }
+
+  async function buildMatchDetail(e, lg) {
+    const comp = (e.competitions || [])[0] || {};
+    const cs = comp.competitors || [];
+    const home = cs.find(c => c.homeAway === "home") || cs[0] || {};
+    const away = cs.find(c => c.homeAway === "away") || cs[1] || {};
+    const state = e.status && e.status.type ? e.status.type.state : "pre";
+    const parts = [];
+
+    // soccer: goal-by-goal from match details
+    const goals = (comp.details || []).filter(d => d.scoringPlay);
+    if (goals.length) {
+      const side = id => (String(id) === String(home.team && home.team.id) ? "home" : "away");
+      const fmt = d => {
+        const t = (d.type && d.type.text) || "";
+        const mark = /penalty/i.test(t) ? " (pen)" : /own goal/i.test(t) ? " (og)" : "";
+        const who = (d.athletesInvolved && d.athletesInvolved[0] && d.athletesInvolved[0].displayName) || "?";
+        return `${(d.clock && d.clock.displayValue) || ""} ${esc(who)}${mark}`;
+      };
+      const h = goals.filter(g => g.team && side(g.team.id) === "home").map(fmt).join("<br>");
+      const a = goals.filter(g => g.team && side(g.team.id) === "away").map(fmt).join("<br>");
+      parts.push(`<div class="goals"><div>${h || "—"}</div><div class="away">${a || "—"}</div></div>`);
+      // half-time score inferred from goal clocks
+      if (state !== "pre") {
+        const ht = s => goals.filter(g => g.team && side(g.team.id) === s && parseInt(g.clock && g.clock.displayValue) <= 45).length;
+        parts.push(`<div><b>HT</b> ${ht("home")}–${ht("away")}</div>`);
+      }
+    }
+
+    // AFL (and similar): running score by quarter
+    const hls = home.linescores || [], als = away.linescores || [];
+    if (hls.length >= 2 && als.length >= 2) {
+      const cum = ls => ls.reduce((acc, l) => { acc.push((acc[acc.length - 1] || 0) + (l.value || 0)); return acc; }, []);
+      const hc = cum(hls), ac = cum(als);
+      const names = ["Q1", "HT", "3QT", "FT"];
+      parts.push(`<div><b>By quarter:</b> ` + hc.map((v, i) => `${names[i] || "Q" + (i + 1)} ${v}–${ac[i]}`).join(" · ") + `</div>`);
+    }
+
+    // stat leaders (AFL provides goals + disposals)
+    const leaderLine = t => {
+      const ls = (t.leaders || []).slice(0, 2).map(l => {
+        const top = l.leaders && l.leaders[0];
+        return top ? `${l.name}: ${esc(top.athlete ? top.athlete.shortName || top.athlete.displayName : "?")} ${esc(top.displayValue)}` : null;
+      }).filter(Boolean);
+      return ls.length ? `<div><b>${esc(t.team ? t.team.abbreviation : "")}</b> — ${ls.join(", ")}</div>` : "";
+    };
+    if ((home.leaders || []).length || (away.leaders || []).length) {
+      parts.push(leaderLine(home) + leaderLine(away));
+    }
+
+    // odds (usually on upcoming games)
+    const odds = (comp.odds || [])[0];
+    if (odds && odds.details) {
+      parts.push(`<div><b>Odds:</b> ${esc(odds.details)}${odds.overUnder ? ` · O/U ${esc(odds.overUnder)}` : ""}</div>`);
+    }
+
+    // ladder positions
+    const ranks = await leagueRanks(lg);
+    if (ranks && home.team && away.team) {
+      const hr = ranks.get(String(home.team.id)), ar = ranks.get(String(away.team.id));
+      if (hr && ar) parts.push(`<div><b>Ladder:</b> ${esc(home.team.abbreviation)} ${ordinal(hr)} · ${esc(away.team.abbreviation)} ${ordinal(ar)}</div>`);
+    }
+
+    if (state === "pre" && comp.venue && comp.venue.fullName) {
+      parts.push(`<div><b>Venue:</b> ${esc(comp.venue.fullName)}</div>`);
+    }
+
+    return parts.filter(Boolean).join("") || `<div>No extra detail available for this one.</div>`;
+  }
+
   function matchRow(e) {
     const comp = (e.competitions || [])[0] || {};
     const cs = comp.competitors || [];
@@ -355,7 +470,7 @@
     }
 
     const noteRow = note ? `<div class="wc-when" style="grid-column:1/-1;text-align:center">${esc(note)}</div>` : "";
-    return `<div class="wc-match">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
+    return `<div class="wc-match" data-eid="${esc(e.id)}" role="button" aria-label="Show match details">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
   }
 
   function raceRow(e) {
@@ -402,7 +517,10 @@
       } else {
         const results = events.filter(e => state(e) === "post").slice(-(lg.results || 3));
         const rest = events.filter(e => state(e) !== "post").slice(0, lg.upcoming || 4);
-        rows = [...results, ...rest].map(matchRow);
+        rows = [...results, ...rest].map(ev => {
+          sportEvents.set(String(ev.id), { e: ev, lg });
+          return matchRow(ev);
+        });
       }
       if (!rows.length) return "";
       return `<div class="sport-league"><div class="sport-lg-label">${esc(lg.label)}</div><div class="wc-list">${rows.join("")}</div></div>`;
@@ -413,6 +531,22 @@
     $("sport-section").hidden = false;
     if (anyLive) $("sport-live").textContent = "· live";
     $("sport-list").innerHTML = html;
+
+    // tap a match to expand its detail panel (one open at a time)
+    $("sport-list").querySelectorAll(".wc-match[data-eid]").forEach(el => {
+      el.addEventListener("click", async () => {
+        const next = el.nextElementSibling;
+        if (next && next.classList.contains("wc-detail")) { next.remove(); return; }
+        $("sport-list").querySelectorAll(".wc-detail").forEach(d => d.remove());
+        const reg = sportEvents.get(el.dataset.eid);
+        if (!reg) return;
+        const div = document.createElement("div");
+        div.className = "wc-detail";
+        div.innerHTML = `<div>Loading…</div>`;
+        el.after(div);
+        div.innerHTML = await buildMatchDetail(reg.e, reg.lg);
+      });
+    });
   }
 
   // ------------------------------------------------------------ deadlines --
