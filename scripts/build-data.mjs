@@ -336,6 +336,7 @@ async function buildWotd() {
           pos: meaning.partOfSpeech || "",
           def: def.definition,
           example: def.example || null,
+          audio: ((entry.phonetics || []).find(p => p.audio) || {}).audio || null,
         };
       } catch { /* try the next candidate */ }
     }

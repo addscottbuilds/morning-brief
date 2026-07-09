@@ -184,6 +184,11 @@
       $("wotd-ex").hidden = false;
       $("wotd-ex").textContent = "“" + w.example + "”";
     }
+    if (w.audio) {
+      const btn = $("wotd-audio");
+      btn.hidden = false;
+      btn.addEventListener("click", () => { new Audio(w.audio).play().catch(() => {}); });
+    }
   }
 
   function fmtPrice(i) {
