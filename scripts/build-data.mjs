@@ -109,19 +109,17 @@ const FEEDS = [
   { outlet: "Guardian Film", lean: "left", cat: "entertainment", url: "https://www.theguardian.com/film/rss" },
 ];
 
-const STOP = new Set(["about", "after", "again", "against", "amid", "another", "australia", "australian", "because", "been", "before", "being", "between", "calls", "could", "does", "down", "during", "every", "first", "from", "have", "here", "his", "into", "just", "life", "like", "live", "made", "make", "more", "most", "much", "need", "news", "over", "part", "says", "should", "some", "such", "take", "than", "that", "their", "them", "then", "there", "these", "they", "this", "those", "through", "under", "until", "warns", "week", "were", "what", "when", "where", "which", "while", "will", "with", "without", "would", "year", "years", "your"]);
+const STOP = new Set(["about", "after", "again", "against", "amid", "another", "australia", "australian", "because", "been", "before", "being", "between", "calls", "could", "does", "down", "during", "every", "first", "from", "have", "here", "his", "into", "just", "life", "like", "live", "made", "make", "more", "most", "much", "need", "news", "over", "part", "says", "should", "some", "such", "take", "than", "that", "their", "them", "then", "there", "these", "they", "this", "those", "through", "under", "until", "warns", "week", "were", "what", "when", "where", "which", "while", "will", "with", "without", "would", "year", "years", "your",
+  // tabloid glue words — common enough to bridge unrelated stories
+  "accused", "aged", "arrested", "body", "boss", "charged", "claims", "court", "dead", "death", "dies", "family", "fears", "found", "inside", "missing", "moment", "police", "report", "reveals", "revealed", "shock", "slams", "star", "update", "watch", "woman",
+  // generic domain words that look "rare" inside a small category
+  "game", "games", "match", "million", "season", "soccer", "work", "world"]);
 
 function tokens(title) {
   return new Set(
     title.toLowerCase().replace(/[^a-z\s]/g, " ").split(/\s+/)
       .filter(w => w.length >= 4 && !STOP.has(w))
   );
-}
-
-function shared(a, b) {
-  let n = 0;
-  for (const t of a) if (b.has(t)) n++;
-  return n;
 }
 
 function stripHtml(s) {
@@ -146,27 +144,53 @@ async function fetchFeed(url) {
 }
 
 function clusterCategory(items, maxStories) {
-  // union-find clustering on shared headline tokens
+  // Cluster on shared headline tokens, weighted by rarity (IDF): a match must
+  // share at least one story-specific "anchor" word (a name/place that appears
+  // in almost no other headline today), not just generic news vocabulary.
+  // Cross-lean merges demand a stronger fingerprint match than same-lean ones,
+  // so "both sides covered this" is only ever claimed for the same story.
   const toks = items.map(i => tokens(i.title));
-  const parent = items.map((_, i) => i);
-  const find = i => (parent[i] === i ? i : (parent[i] = find(parent[i])));
-  for (let i = 0; i < items.length; i++) {
-    for (let j = i + 1; j < items.length; j++) {
-      const s = shared(toks[i], toks[j]);
-      if (s >= 3 || (s >= 2 && Math.min(toks[i].size, toks[j].size) <= 5)) {
-        parent[find(i)] = find(j);
+  const N = items.length || 1;
+  const df = new Map();
+  for (const set of toks) for (const t of set) df.set(t, (df.get(t) || 0) + 1);
+  const idf = t => Math.log(N / (df.get(t) || 1));
+  const RARE = 3; // an "anchor" word appears in at most 3 of the day's headlines
+
+  function sameStory(i, j) {
+    let sharedCount = 0, idfSum = 0, anchors = 0;
+    for (const t of toks[i]) {
+      if (!toks[j].has(t)) continue;
+      sharedCount++;
+      idfSum += idf(t);
+      if ((df.get(t) || N) <= RARE) anchors++;
+    }
+    if (sharedCount < 2 || anchors < 1) return false;
+    if (anchors >= 2) return true; // two story-specific words shared: same story
+    const crossLean = items[i].lean !== items[j].lean;
+    return idfSum >= (crossLean ? 6 : 4.5);
+  }
+
+  // Greedy seed-linkage clustering (no union-find chaining): an item joins a
+  // cluster only if it matches the cluster's seed story, or a majority of its
+  // members — so A~B and B~C can no longer drag unrelated A and C together.
+  const order = items.map((_, i) => i).sort((a, b) => items[a].ts - items[b].ts);
+  const rawClusters = []; // arrays of item indexes; [0] is the seed
+  for (const i of order) {
+    let joined = false;
+    for (const cl of rawClusters) {
+      const hits = cl.filter(j => sameStory(i, j)).length;
+      if (sameStory(i, cl[0]) || hits >= Math.ceil(cl.length / 2)) {
+        cl.push(i);
+        joined = true;
+        break;
       }
     }
+    if (!joined) rawClusters.push([i]);
   }
-  const groups = new Map();
-  items.forEach((it, i) => {
-    const r = find(i);
-    if (!groups.has(r)) groups.set(r, []);
-    groups.get(r).push(it);
-  });
+  const groups = rawClusters.map(cl => cl.map(i => items[i]));
 
   // rank clusters by outlet breadth, then recency
-  const clusters = [...groups.values()]
+  const clusters = groups
     .map(g => {
       const outlets = new Set(g.map(x => x.outlet));
       return { g, breadth: outlets.size, latest: Math.max(...g.map(x => x.ts)) };
