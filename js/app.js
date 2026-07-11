@@ -688,19 +688,20 @@
   }
 
   // ------------------------------------------------------------ game tabs --
+  const GAME_PANES = { wordle: "wordle-game", xword: "xword-game", conn: "conn-game" };
   const gameTabs = document.querySelectorAll("#game-tabs button");
   function showGame(g) {
-    $("wordle-game").hidden = g !== "wordle";
-    $("xword-game").hidden = g !== "xword";
+    if (!GAME_PANES[g]) g = "wordle";
+    for (const [k, id] of Object.entries(GAME_PANES)) $(id).hidden = k !== g;
     gameTabs.forEach(b => b.classList.toggle("active", b.dataset.g === g));
     localStorage.setItem("mb_game_tab", g);
   }
   gameTabs.forEach(b => b.addEventListener("click", () => showGame(b.dataset.g)));
-  showGame(localStorage.getItem("mb_game_tab") === "xword" ? "xword" : "wordle");
+  showGame(localStorage.getItem("mb_game_tab") || "wordle");
 
   // ----------------------------------------------------------------- init --
   $("games-date-line").textContent =
-    `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new Wordle and mini daily`;
+    `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new puzzles daily`;
   $("wx-loc").addEventListener("click", () => {
     $("wx-loc").textContent = "· updating…";
     loadWeather(true);

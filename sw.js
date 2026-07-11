@@ -1,6 +1,6 @@
 // Service worker: the app shell works offline; data.json and weather always
 // try the network first so the brief is fresh, falling back to the last copy.
-const CACHE = "morning-brief-v12";
+const CACHE = "morning-brief-v13";
 const SHELL = [
   "./",
   "./index.html",
@@ -9,8 +9,10 @@ const SHELL = [
   "./js/app.js",
   "./js/wordle.js",
   "./js/crossword.js",
+  "./js/connections.js",
   "./data/words.json",
   "./data/crosswords.json",
+  "./data/connections.json",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

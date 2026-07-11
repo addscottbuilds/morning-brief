@@ -138,6 +138,7 @@
       <div class="tabs" id="game-tabs" role="tablist">
         <button type="button" data-g="wordle" class="active">Wordle<span class="game-status" id="wordle-status"></span></button>
         <button type="button" data-g="xword">Crossword<span class="game-status" id="xword-status"></span></button>
+        <button type="button" data-g="conn">Connections<span class="game-status" id="conn-status"></span></button>
       </div>
 
       <div class="game-pane wordle" id="wordle-game">
@@ -162,6 +163,19 @@
           <div><h3>Down</h3><ol id="x-down"></ol></div>
         </div>
       </div>
+
+      <div class="game-pane conn" id="conn-game" hidden>
+        <div class="c-msg" id="c-msg">Find four groups of four.</div>
+        <div class="c-solved" id="c-solved"></div>
+        <div class="c-grid" id="c-grid"></div>
+        <div class="c-lives" id="c-lives"></div>
+        <div class="x-actions">
+          <button id="c-shuffle">Shuffle</button>
+          <button id="c-deselect">Deselect</button>
+          <button id="c-submit" disabled>Submit</button>
+        </div>
+        <div class="g-stats" id="c-stats"></div>
+      </div>
     </div>
   </div>
 
@@ -175,6 +189,7 @@
 <script src="js/app.js"></script>
 <script src="js/wordle.js"></script>
 <script src="js/crossword.js"></script>
+<script src="js/connections.js"></script>
 <script>
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js");
