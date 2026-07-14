@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-13T20:36:08.424Z",
+ "generatedAt": "2026-07-14T20:33:27.563Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8808.5,
-    "chgPct": 0.5249643366619116,
+    "chgPct": 0.028389734272087217,
     "high52": 9202.9,
     "off52": -4.285605624314071
    },
@@ -17,50 +17,50 @@
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.28,
-    "chgPct": 0.011731391260009265,
+    "price": 85.35,
+    "chgPct": 0.08208398417579862,
     "high52": 86.99,
-    "off52": -1.9657431888722772
+    "off52": -1.8852741694447643
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.86,
-    "chgPct": -0.013619881636337879,
+    "price": 146.83,
+    "chgPct": -0.020428033655772282,
     "high52": 153.83,
-    "off52": -4.530975752454006
+    "off52": -4.550477800169017
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 61.73,
-    "chgPct": -0.3390355688810664,
+    "price": 61.65,
+    "chgPct": -0.1295958898907702,
     "high52": 64.23,
-    "off52": -3.892262182780643
+    "off52": -4.01681457262962
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 38.28,
-    "chgPct": -3.915663018607083,
+    "price": 38.34,
+    "chgPct": 0.1567430057902173,
     "high52": 47.78,
-    "off52": -19.882796149016325
+    "off52": -19.757220594390954
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6919,
-    "chgPct": -0.33415470922957635,
+    "price": 0.6974,
+    "chgPct": 0.8063734027085446,
     "high52": 0.7277,
-    "off52": -4.919609729284053
+    "off52": -4.163803765287892
    }
   ],
   "failed": [],
@@ -75,8 +75,8 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Tech platforms accused of sexual extortion blind spot",
-      "summary": "Major online platforms are accused of failing to deploy readily available technology to detect well-known blackmail tactics.",
+      "headline": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
+      "summary": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -84,143 +84,65 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Tech platforms accused of sexual extortion blind spot",
-        "desc": "Major online platforms are accused of failing to deploy readily available technology to detect well-known blackmail tactics.",
-        "link": "https://www.abc.net.au/news/2026-07-14/sextortion-threats-on-the-rise/106911280"
-       },
-       {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Big tech blind spots leave young men vulnerable to online sexual extortion",
-        "desc": "eSafety received more than 2000 reports of online sexual extortion in half a year, 85 per cent of them from men.",
-        "link": "https://www.theage.com.au/technology/big-tech-blind-spots-leave-young-men-vulnerable-to-online-sexual-extortion-20260713-p60eut.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Trump scraps Strait of Hormuz shipping toll",
+        "desc": "Donald Trump backflips on plans to charge ships passing through the Strait of Hormuz.",
+        "link": "https://www.theage.com.au/world/trump-scraps-strait-of-hormuz-shipping-toll-20260715-p60fct.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Young men report more ‘sextortion’ than any other age group, Australia’s online safety watchdog says",
-        "desc": "In six months last year, more than 2,000 such complaints were made to eSafety Get our breaking news email, free app or daily news podcast A new report by Australia’s online safety regulator has found “significant gaps” in how major tech platforms tackle online sexual extortion and child sexual exploitation, as “reports of this abuse continue to rise”. The findings come from eSafety’s latest transp",
-        "link": "https://www.theguardian.com/technology/2026/jul/13/young-men-report-more-sextortion-than-any-other-age-group-australias-online-safety-watchdog-says-ntwnfb"
+        "title": "US carries out more strikes on Iran and resumes blockade of nation’s ports – Middle East crisis live",
+        "desc": "Donald Trump claims shipping route is open for all except Iranian ships as US issues new Iran-related sanctions Tuesday US launches third night of strikes on Iran as Trump announces Hormuz blockade Resurgent oil and fuel prices could cement a fourth interest rate rise in Australia this year if Donald Trump’s renewed conflict with Iran is not resolved within a week, economists warn. US missile stri",
+        "link": "https://www.theguardian.com/world/live/2026/jul/14/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-trump-latest-news"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
+        "desc": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
+        "link": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Childcare worker charged with 329 child abuse offences",
-      "summary": "Federal police said officers have been in touch with 121 families following a victim identification process.",
+      "headline": "The war, the hand, the goal and the red card: Why England v Argentina is never just football",
+      "summary": "A place in the World Cup final is at stake in Atlanta. So is 60 years of unfinished business.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Childcare worker charged with 329 child abuse offences",
-        "desc": "Federal police said officers have been in touch with 121 families following a victim identification process.",
-        "link": "https://www.sbs.com.au/news/article/childcare-worker-charged-with-alleged-child-abuse-offences/z6rg9ff4p"
+        "title": "The war, the hand, the goal and the red card: Why England v Argentina is never just football",
+        "desc": "A place in the World Cup final is at stake in Atlanta. So is 60 years of unfinished business.",
+        "link": "https://www.sbs.com.au/news/article/why-england-v-argentina-is-never-just-football/v96rn57uj"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "More than 120 families contacted as police investigate alleged abuse by Sydney childcare worker",
-        "desc": "Police allege there are 136 victims of the man’s offending, which allegedly took place over a 16-year period Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Australian federal police have contacted more than 120 families as they investigate alleged offending by a former Sydney childcare worker. The man, 35, has been charged with 32",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/13/more-than-120-families-contacted-as-police-investigate-alleged-abuse-by-sydney-childcare-worker-ntwnfb"
+        "title": "Lionel Messi’s first meeting with England will be a contest of will and aura",
+        "desc": "The Messi arc reaches a decisive point in Atlanta – passage to a third final or an exit to test the limits of Argentina’s love for their unassuming athlete-genius Wednesday night, Atlanta Stadium, 101 games down, three left to play, and finally it makes sense. Bring on The Countdown, that moment just before kick-off in every one of those quietly fascinating World Cup matches where suddenly the wor",
+        "link": "https://www.theguardian.com/football/2026/jul/14/lionel-messis-first-meeting-with-england-will-be-a-contest-of-will-and-aura"
        },
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Former Sydney childcare worker Hamish Tait charged with hundreds of abuse offences as police release full list of centres",
-        "desc": "Parents are being urged to check whether their child’s centre is on a newly released list of 62 facilities.",
-        "link": "https://7news.com.au/news/former-sydney-childcare-worker-hamish-tait-charged-with-hundreds-of-abuse-offences-as-police-release-full-list-of-centres-c-22571375"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Lionel Messi gets his favourite referee for England vs Argentina World Cup semi-final despite conspiracy theories that tournament is 'rigged'",
+        "desc": "FIFA have announced the referee for England's World Cup semi-final showdown with Argentina - and it's an official that the holders' talisman Lionel Messi is familiar with.",
+        "link": "https://www.dailymail.com/sport/football/article-15975581/Ismail-Elfath-Referee-England-World-Cup-Argentina-Lionel-Messi-FIFA.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
-      "summary": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "ASX set to slip, oil surges as Trump reinstates Hormuz blockade",
-        "desc": "Oil prices are climbing following a weekend of attacks in the Middle East, while more losses for computer chipmakers and other winners of the artificial-intelligence boom weigh on stock markets.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-slip-oil-surges-as-us-reinstates-hormuz-blockade-20260714-p60f0o.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
-        "desc": "The US president also says Washington will impose a 20% charge on all cargo shipped through the Strait of Hormuz.",
-        "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Sam Neill’s final Instagram post revealed he was ‘very happy’ about Logies nomination just weeks before death",
-      "summary": "The beloved actor died suddenly and unexpectedly on Monday.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Nicole Kidman leads tributes to 'charming, kind, and funny' Sam Neill as Richard E. Grant praises his friend for 'helping me through a very difficult time' after Jurassic Park star's death aged 78",
-        "desc": "Sam Neill's friends and colleagues have paid tribute following the actor's death at the age of 78.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-15972877/Richard-E-Grant-praises-Sam-Neill-helping-difficult-time-three-decade-friendship-leads-tributes-Jurassic-Park-star-following-death-aged-78.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Sam Neill’s final Instagram post revealed he was ‘very happy’ about Logies nomination just weeks before death",
-        "desc": "The beloved actor died suddenly and unexpectedly on Monday.",
-        "link": "https://7news.com.au/news/sam-neills-final-instagram-post-revealed-he-was-very-happy-about-logies-nomination-just-weeks-before-death-c-22570775"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Man wanted in connection with murder arrested in Jordan",
-      "summary": "The body of Jamey Carney was discovered at a property in Killarney, County Kerry, last week.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Man wanted in connection with murder arrested in Jordan",
-        "desc": "The body of Jamey Carney was discovered at a property in Killarney, County Kerry, last week.",
-        "link": "https://www.bbc.co.uk/news/articles/c621p1zne6qo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Migrant who fled Ireland after American mother's murder is arrested in Jordan",
-        "desc": "The migrant who fled Ireland after the murder of American mother Jamey Carney has been arrested in Jordan, marking a major breakthrough in the investigation.",
-        "link": "https://www.foxnews.com/us/migrant-fled-ireland-american-mothers-murder-arrested-jordan"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Signs of sugar detected near centre of the Milky Way",
-      "summary": "Astronomers have detected signs of a type of sugar found in raspberries in gas clouds near the centre of our galaxy the Milky Way.",
+      "headline": "Buyers 'back in the driver's seat' in south-east Queensland as property market slows",
+      "summary": "After a decades-long real estate boom, experts say the balance of power is finally shifting from sellers to buyers.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -230,23 +152,30 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Signs of sugar detected near centre of the Milky Way",
-        "desc": "Astronomers have detected signs of a type of sugar found in raspberries in gas clouds near the centre of our galaxy the Milky Way.",
-        "link": "https://www.abc.net.au/news/science/2026-07-14/signs-of-sugar-near-the-centre-of-the-milky-way/106135022"
+        "title": "Buyers 'back in the driver's seat' in south-east Queensland as property market slows",
+        "desc": "After a decades-long real estate boom, experts say the balance of power is finally shifting from sellers to buyers.",
+        "link": "https://www.abc.net.au/news/2026-07-15/housing-market-brisbane-regional-queensland-budget-impact/106888686"
        },
        {
-        "outlet": "BBC World",
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Ute driver accused of using his phone 55 times before he fatally ploughed into innocent cyclist",
+        "desc": "Shannon Turner pleaded guilty to hitting and killing cyclist John Dennis in October 2023.",
+        "link": "https://www.dailymail.com/news/article-15976487/cyclist-crash-Port-Pirie.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Watch: Horses evacuated as fire approaches riding centre near Paris",
-        "desc": "The Fontainebleau forest blaze, described by officials as of 'exceptional scale', continues to rage for the second day.",
-        "link": "https://www.bbc.co.uk/news/videos/c1jy64065ylo?at_medium=RSS&at_campaign=rss"
+        "title": "Driver used phone 55 times before crash that killed cyclist in Port Pirie, South Australian court hears",
+        "desc": "A court has heard the driver allegedly alternated between Google, social media apps and online shopping before hitting the cyclist.",
+        "link": "https://7news.com.au/news/driver-used-phone-55-times-before-crash-that-killed-cyclist-in-port-pirie-south-australian-court-hears-c-22577751"
        }
       ]
      },
      {
-      "id": 6,
-      "headline": "Yellowstone bison attack witness believes man saved his grandson by taking brunt of attack",
-      "summary": "The Yellowstone bison attack victim is identified as grandfather Carl Isom-McDaniel. Photographer Mike MacLeod, who witnessed incident, is revealing emotional details.",
+      "id": 3,
+      "headline": "Lindsey Graham's sister chosen as replacement after senator's death",
+      "summary": "The South Carolina governor chose the senator's little sister to serve out the rest of his term after Graham's death on Saturday.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -256,16 +185,115 @@
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Yellowstone bison attack witness believes man saved his grandson by taking brunt of attack",
-        "desc": "The Yellowstone bison attack victim is identified as grandfather Carl Isom-McDaniel. Photographer Mike MacLeod, who witnessed incident, is revealing emotional details.",
-        "link": "https://www.foxnews.com/travel/yellowstone-bison-attack-witness-believes-man-saved-grandson-taking-brunt-attack"
+        "title": "Jimmy Kimmel guest host jokes about Lindsey Graham's death and show getting 'pulled off the air again'",
+        "desc": "Guest host Ike Barinholtz joked about Sen. Lindsey Graham's death and Sen. Mitch McConnell's health scare, taunting critics who previously pushed to get \"Jimmy Kimmel Live!\" suspended.",
+        "link": "https://www.foxnews.com/media/jimmy-kimmel-guest-host-jokes-about-about-lindsey-grahams-death-show-getting-pulled-off-air-again"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Yellowstone visitor tossed into the air by charging bison revealed to be community leader from Washington State as injuries are laid bare",
-        "desc": "The terrifying moment was captured in viral video, which showed the bull bison becoming frustrated within seconds and then charging at the grandfather.",
-        "link": "https://www.dailymail.com/news/article-15972665/bison-video-yellowstone-visitor-revealed.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Lindsey Graham final phone call revealed as Senator dialed staffer in desperate need of help",
+        "desc": "Tommy Tuberville, a fellow Republican, told reporters Monday that one of his staffers was with Graham's scheduler Saturday night and offered details of Graham's final hours.",
+        "link": "https://www.dailymail.com/news/article-15975477/Lindsey-Graham-final-phone-call-revealed.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Lindsey Graham's sister chosen as replacement after senator's death",
+        "desc": "The South Carolina governor chose the senator's little sister to serve out the rest of his term after Graham's death on Saturday.",
+        "link": "https://www.bbc.co.uk/news/articles/c05y3rlvp20o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Trump ditches plan to charge shipping fees in Strait of Hormuz",
+      "summary": "Donald Trump reneges on his pledge to charge a 20 per cent fee on shipping in the Strait of Hormuz, a day after saying he would introduce it.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Trump ditches plan to charge shipping fees in Strait of Hormuz",
+        "desc": "Donald Trump reneges on his pledge to charge a 20 per cent fee on shipping in the Strait of Hormuz, a day after saying he would introduce it.",
+        "link": "https://www.abc.net.au/news/2026-07-15/trump-backs-down-on-strait-of-hormuz-fees/106916144"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "US unleashes third wave of punishing strikes on Iran in major five-hour mission with another attack planned TODAY as Trump reveals possible target",
+        "desc": "The US announced a new round of strikes on Iran on Monday, hours after President Donald Trump said that the United States is 'reinstating' a blockade on Iran in the Strait of Hormuz.",
+        "link": "https://www.dailymail.com/news/article-15974993/Trump-unleashes-strikes-Iran-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "US strikes Iran for third night as Trump says deal still 'possible' while announcing Hormuz fees",
+        "desc": "Iran's foreign minister has declared that his country will be the Strait of Hormuz's guardian \"forever\".",
+        "link": "https://www.sbs.com.au/news/article/trump-says-us-will-blockade-iran-and-demands-payment-for-managing-strait-of-hormuz/selsyu4w1"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Prime Minister Anthony Albanese to create artificial intelligence office and national standards",
+      "summary": "The government claims it will be the world’s first national framework.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Prime Minister Anthony Albanese to create artificial intelligence office and national standards",
+        "desc": "The government claims it will be the world’s first national framework.",
+        "link": "https://7news.com.au/news/prime-minister-anthony-albanese-to-create-artificial-intelligence-office-and-national-standards-c-22577732"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Anthony Albanese promises fast-track approvals for datacentres to shore up AI investment",
+        "desc": "PM to declare Australia the first country worldwide to bring economic, social, security and environmental issues from AI under single office in major speech Get our breaking news email, free app or daily news podcast Anthony Albanese says the federal government will introduce faster approval processes for AI projects, including datacentres, across Australia, seeking to shore up investor certainty ",
+        "link": "https://www.theguardian.com/technology/2026/jul/14/anthony-albanese-promises-fast-track-approvals-for-datacentres-to-shore-up-ai-investment"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Anthony Albanese maps out AI future with new national framework",
+        "desc": "Labor will develop a new national framework in response to artificial intelligence as it seeks to address the technology’s growing economic and social impacts.",
+        "link": "https://www.abc.net.au/news/2026-07-14/albanese-maps-out-ai-future-introducing-national-framework/106915094"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "France v Spain semi-final LIVE: score, updates and reaction",
+      "summary": "Some of the world's biggest stars meet as France and Spain play for a spot in the World Cup final.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "FIFA World Cup 2026 LIVE updates: Spain lead France 2-0 in blockbuster semi-final in Dallas",
+        "desc": "The final before the final is a meeting between the 2022 World Cup runners-up and the reigning European champions.",
+        "link": "https://www.theage.com.au/sport/soccer/fifa-world-cup-2026-live-updates-france-take-on-spain-in-blockbuster-semi-final-in-dallas-20260714-p60f8g.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "France v Spain semi-final LIVE: score, updates and reaction",
+        "desc": "Some of the world's biggest stars meet as France and Spain play for a spot in the World Cup final.",
+        "link": "https://www.sbs.com.au/news/live-blog/france-v-spain-quarter-final-live-fifa-world-cup-2026/t5xuro097"
        }
       ]
      }
@@ -277,8 +305,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Ultimatum to universities over antisemitism",
-      "summary": "Public universities must also publish external roles held by vice chancellors and senior executives, and remuneration reports, including vice chancellors’ pay.",
+      "headline": "Trump revives his decades-old Iran warning as US ramps up military pressure: 'remarkably consistent'",
+      "summary": "A 1980 video clip shows Trump urging the U.S. to send troops into Iran during the hostage crisis, resurfacing as CENTCOM resumes a naval blockade.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -286,25 +314,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australian universities will be required to adopt definitions of antisemitism and Islamophobia",
-        "desc": "Higher education chiefs, academics and students to give evidence this week at royal commission Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Australian universities will be required to adopt definitions on antisemitism, Islamophobia and racism towards Aboriginal and Torres Strait Islander people from next year, under a legally en",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/12/new-anti-racism-standard-will-force-australian-universities-to-use-definitions-of-antisemitism-and-islamophobia-ntwnfb"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Ultimatum to universities over antisemitism",
-        "desc": "Public universities must also publish external roles held by vice chancellors and senior executives, and remuneration reports, including vice chancellors’ pay.",
-        "link": "https://www.theage.com.au/politics/federal/ultimatum-to-universities-over-antisemitism-20260712-p60en9.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump revives his decades-old Iran warning as US ramps up military pressure: 'remarkably consistent'",
+        "desc": "A 1980 video clip shows Trump urging the U.S. to send troops into Iran during the hostage crisis, resurfacing as CENTCOM resumes a naval blockade.",
+        "link": "https://www.foxnews.com/politics/trump-revives-his-decades-old-iran-warning-us-ramps-up-military-pressure-remarkably-consistent"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-      "summary": "Bradley John Murdoch was convicted of 28-year-old’s murder but remains were never found Get our breaking news email, free app or daily news podcast Northern Territory Police have opened evidence boxes to uncover several previously unseen photographs from the investigation of the murder of British backpacker Peter Falconio and attempted abduction of his girlfriend Joanne Lees. Tuesday is the 25th a",
+      "headline": "'This is not normal': AOC unloads on McConnell's prolonged absence",
+      "summary": "Alexandria Ocasio-Cortez questions whether Mitch McConnell's months-long Senate absence is legal, while GOP senators insist he'll return for key votes.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -312,18 +333,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-        "desc": "Bradley John Murdoch was convicted of 28-year-old’s murder but remains were never found Get our breaking news email, free app or daily news podcast Northern Territory Police have opened evidence boxes to uncover several previously unseen photographs from the investigation of the murder of British backpacker Peter Falconio and attempted abduction of his girlfriend Joanne Lees. Tuesday is the 25th a",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/14/australia-news-live-nt-police-peter-falconio-anthony-albanese-ai-artificial-intelligence-copyright-antisemitism-royal-commission-bondi-universities-ntwnfb"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "'This is not normal': AOC unloads on McConnell's prolonged absence",
+        "desc": "Alexandria Ocasio-Cortez questions whether Mitch McConnell's months-long Senate absence is legal, while GOP senators insist he'll return for key votes.",
+        "link": "https://www.foxnews.com/politics/this-not-normal-aoc-unloads-mcconnells-prolonged-absence"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "Mamdani breaks silence on 'perverted' ally who helped sell Platner before scandal-plagued collapse",
-      "summary": "Zohran Mamdani says Morris Katz remains a top advisor despite Democratic Socialists of America urging allies to blacklist the consultant over Platner.",
+      "headline": "Amy Coney Barrett recalls heartbreaking question from 12-year-old son over bulletproof vest",
+      "summary": "Amy Coney Barrett told Congress her children have seen things no child should, revealing how threats intensified after the leaked Dobbs decision.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -333,16 +354,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Mamdani breaks silence on 'perverted' ally who helped sell Platner before scandal-plagued collapse",
-        "desc": "Zohran Mamdani says Morris Katz remains a top advisor despite Democratic Socialists of America urging allies to blacklist the consultant over Platner.",
-        "link": "https://www.foxnews.com/politics/mamdani-breaks-silence-perverted-ally-who-helped-sell-platner-before-scandal-plagued-collapse"
+        "title": "Amy Coney Barrett recalls heartbreaking question from 12-year-old son over bulletproof vest",
+        "desc": "Amy Coney Barrett told Congress her children have seen things no child should, revealing how threats intensified after the leaked Dobbs decision.",
+        "link": "https://www.foxnews.com/politics/amy-coney-barrett-recalls-heartbreaking-question-12-year-old-son-bulletproof-vest"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Lindsey Graham’s sister appointed to Senate as GOP rushes to protect fragile majority",
-      "summary": "Gov. Henry McMaster appointed Trump-endorsed Darline Graham Nordone, sister of the late Lindsey Graham, to fill his seat for the remainder of his term.",
+      "headline": "Senate Dems draw rare line against must-pass Pentagon bill",
+      "summary": "Chuck Schumer led Senate Democrats in blocking the NDAA over the unauthorized Iran war, calling the defense bill a \"permission slip\" for recklessness.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -352,16 +373,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Lindsey Graham’s sister appointed to Senate as GOP rushes to protect fragile majority",
-        "desc": "Gov. Henry McMaster appointed Trump-endorsed Darline Graham Nordone, sister of the late Lindsey Graham, to fill his seat for the remainder of his term.",
-        "link": "https://www.foxnews.com/politics/lindsey-grahams-sister-appointed-senate-gop-rushes-protect-fragile-majority"
+        "title": "Senate Dems draw rare line against must-pass Pentagon bill",
+        "desc": "Chuck Schumer led Senate Democrats in blocking the NDAA over the unauthorized Iran war, calling the defense bill a \"permission slip\" for recklessness.",
+        "link": "https://www.foxnews.com/politics/senate-dems-draw-rare-line-against-must-pass-pentagon-bill"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Democratic socialists erupt over 2028 endorsement as AOC speculation grows: 'Dangerous path'",
-      "summary": "DSA's National Political Committee rejected an all-member poll on a 2028 presidential endorsement, sparking fury from factions pushing to back AOC.",
+      "headline": "DOJ charges 3 Russians in alleged $63M cybercrime scheme targeting Americans",
+      "summary": "Three Russian nationals allegedly ran bulletproof hosting firms that powered ransomware, malware and phishing attacks on U.S. critical infrastructure.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -371,16 +392,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Democratic socialists erupt over 2028 endorsement as AOC speculation grows: 'Dangerous path'",
-        "desc": "DSA's National Political Committee rejected an all-member poll on a 2028 presidential endorsement, sparking fury from factions pushing to back AOC.",
-        "link": "https://www.foxnews.com/politics/democratic-socialist-party-infighting-erupts-pick-president-aoc-rumors-loom-dangerous-path"
+        "title": "DOJ charges 3 Russians in alleged $63M cybercrime scheme targeting Americans",
+        "desc": "Three Russian nationals allegedly ran bulletproof hosting firms that powered ransomware, malware and phishing attacks on U.S. critical infrastructure.",
+        "link": "https://www.foxnews.com/politics/doj-charges-3-russians-alleged-63m-cybercrime-scheme-targeting-americans"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Obama-appointed judge torches Trump admin in latest courtroom showdown, refers attorney for Bar review",
-      "summary": "A federal judge ruled Trump's $10 billion IRS lawsuit over leaked confidential tax returns was for an improper purpose, referring attorneys for discipline.",
+      "headline": "Johnson scores win as conservative rebels end House floor blockade over voter ID bill",
+      "summary": "House conservatives blocked legislation to pressure Senate action on the SAVE America Act, but Speaker Mike Johnson proposed a deal to end the standoff.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -390,9 +411,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Obama-appointed judge torches Trump admin in latest courtroom showdown, refers attorney for Bar review",
-        "desc": "A federal judge ruled Trump's $10 billion IRS lawsuit over leaked confidential tax returns was for an improper purpose, referring attorneys for discipline.",
-        "link": "https://www.foxnews.com/politics/obama-appointed-judge-torches-trump-admin-latest-courtroom-showdown-refers-attorney-bar-review"
+        "title": "Johnson scores win as conservative rebels end House floor blockade over voter ID bill",
+        "desc": "House conservatives blocked legislation to pressure Senate action on the SAVE America Act, but Speaker Mike Johnson proposed a deal to end the standoff.",
+        "link": "https://www.foxnews.com/politics/johnson-scores-win-conservative-rebels-end-house-floor-blockade-over-voter-id-bill"
        }
       ]
      }
@@ -404,8 +425,8 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Open earbuds let you tune in without tuning out the world. Here are the five best pairs",
-      "summary": "Don’t float through the world in an AirPod bubble – enjoy music or podcasts and carry on using these tested favorites I tested 42 pairs of wireless earbuds to find the best in US Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things In a feat of engineering that borders on magic, the best wireless earbuds can silence the noisy world around you at the tap of a finge",
+      "headline": "Google revamps image search for its 25th anniversary with more images and more AI",
+      "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -413,18 +434,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Open earbuds let you tune in without tuning out the world. Here are the five best pairs",
-        "desc": "Don’t float through the world in an AirPod bubble – enjoy music or podcasts and carry on using these tested favorites I tested 42 pairs of wireless earbuds to find the best in US Sign up for the Filter US newsletter, your weekly guide to buying fewer, better things In a feat of engineering that borders on magic, the best wireless earbuds can silence the noisy world around you at the tap of a finge",
-        "link": "https://www.theguardian.com/thefilter-us/2026/jul/13/best-open-ear-earbuds"
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+        "desc": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
+        "link": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/"
+       },
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "The Google Images homepage will recommend photos even before you search",
+        "desc": "Google is announcing a big change to the Google Images homepage in honor of the platform's 25th anniversary this week. Instead of a mostly blank page with a search bar, the homepage will soon show you a bunch of images that it thinks you might like before you even start searching. The company says the new \"browseable\" homepage features a \"dynamic, immersive gallery of images from across the web - ",
+        "link": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
-      "summary": "A dozen state attorneys general are trying to block the $110 billion merger of Paramount and Warner Bros Discovery they warn would raise movie prices and crush cable TV distributors. The states - California, Arizona, Colorado, Connecticut, Massachusetts, Minnesota, Nevada, New Jersey, New Mexico, New York, Oregon, and Washington - filed suit on Monday, arguing the combination would illegally harm ",
+      "headline": "Tech Life",
+      "summary": "Surgeons remotely control two human-like robots in an operating theatre.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -432,18 +460,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
-        "desc": "A dozen state attorneys general are trying to block the $110 billion merger of Paramount and Warner Bros Discovery they warn would raise movie prices and crush cable TV distributors. The states - California, Arizona, Colorado, Connecticut, Massachusetts, Minnesota, Nevada, New Jersey, New Mexico, New York, Oregon, and Washington - filed suit on Monday, arguing the combination would illegally harm ",
-        "link": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit"
+        "title": "Tech Life",
+        "desc": "Surgeons remotely control two human-like robots in an operating theatre.",
+        "link": "https://www.bbc.co.uk/sounds/play/w3ct8jy4?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "The EV market is on the road to recovery thanks to high gas prices",
-      "summary": "As the US war on Iran sent gas prices soaring, American car buyers flocked to electric vehicles - and in particular hybrids. After a sluggish winter and fall, EV sales rebounded in the second quarter of 2026, with automakers posting some of their best numbers since the elimination of the federal EV tax credit last year, according to a Q2 analysis from Cox Automotive. I wouldn't go so far as to say",
+      "headline": "SpaceXAI s Grok programming tool was uploading its users entire codebase to cloud storage",
+      "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open and secrets deleted from history,\" significantly more da",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -453,16 +481,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The EV market is on the road to recovery thanks to high gas prices",
-        "desc": "As the US war on Iran sent gas prices soaring, American car buyers flocked to electric vehicles - and in particular hybrids. After a sluggish winter and fall, EV sales rebounded in the second quarter of 2026, with automakers posting some of their best numbers since the elimination of the federal EV tax credit last year, according to a Q2 analysis from Cox Automotive. I wouldn't go so far as to say",
-        "link": "https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota"
+        "title": "SpaceXAI s Grok programming tool was uploading its users entire codebase to cloud storage",
+        "desc": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositories, \"including files it was told not to open and secrets deleted from history,\" significantly more da",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
-      "summary": "The biggest smartphone makers keep on trucking in the face of component shortages and economic uncertainty.",
+      "headline": "US military sent explosive drone boats into combat for the first time",
+      "summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -472,16 +500,16 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
-        "desc": "The biggest smartphone makers keep on trucking in the face of component shortages and economic uncertainty.",
-        "link": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/"
+        "title": "US military sent explosive drone boats into combat for the first time",
+        "desc": "US military’s drone boats struck an Iranian naval port as war heats up again.",
+        "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "The 6 wildest claims in Apple s lawsuit against OpenAI",
-      "summary": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confidential documents, spying on hardware prototypes, and tricking one of its trusted partners into perf",
+      "headline": "Philips Hue s budget-friendly Essential starter kit has hit a new low price",
+      "summary": "You can buy four bulbs and a Hue Bridge for just $80. | Image: Philips Hue Although most of Prime Day’s unusually good Philips Hue deals have ended, a few remain, and some, including the black Philips Hue Twilight Sleep and Wake-Up Light, are even cheaper. None, however, have fallen to a new all-time low price like Philips Hue’s Essential starter kit. Right now, you can buy a bundle containing fou",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -491,16 +519,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The 6 wildest claims in Apple s lawsuit against OpenAI",
-        "desc": "When Apple employees interviewed for jobs at OpenAI, the AI startup's hardware head allegedly asked them to show up with something unusual: components they were working on and unreleased product samples. That's according to a blockbuster lawsuit filed by Apple, which accuses OpenAI of stealing confidential documents, spying on hardware prototypes, and tricking one of its trusted partners into perf",
-        "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims"
+        "title": "Philips Hue s budget-friendly Essential starter kit has hit a new low price",
+        "desc": "You can buy four bulbs and a Hue Bridge for just $80. | Image: Philips Hue Although most of Prime Day’s unusually good Philips Hue deals have ended, a few remain, and some, including the black Philips Hue Twilight Sleep and Wake-Up Light, are even cheaper. None, however, have fallen to a new all-time low price like Philips Hue’s Essential starter kit. Right now, you can buy a bundle containing fou",
+        "link": "https://www.theverge.com/gadgets/965476/philips-hue-essential-starter-kit-hue-bridge-deal-sale"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Colorado will decide whether a \"right to natural gas\" is added to state constitution",
-      "summary": "The amendment would restrict building codes that promote electrification.",
+      "headline": "These painted e-tattoos could be the future of wearable biosensors",
+      "summary": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -510,9 +538,9 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Colorado will decide whether a \"right to natural gas\" is added to state constitution",
-        "desc": "The amendment would restrict building codes that promote electrification.",
-        "link": "https://arstechnica.com/tech-policy/2026/07/colorado-will-decide-whether-a-right-to-natural-gas-is-added-to-state-constitution/"
+        "title": "These painted e-tattoos could be the future of wearable biosensors",
+        "desc": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
+        "link": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/"
        }
       ]
      }
@@ -524,8 +552,8 @@
     "stories": [
      {
       "id": 19,
-      "headline": "ASX set to slip, oil surges as Trump reinstates Hormuz blockade",
-      "summary": "Oil prices are climbing following a weekend of attacks in the Middle East, while more losses for computer chipmakers and other winners of the artificial-intelligence boom weigh on stock markets.",
+      "headline": "Australia's highest paid CEO revealed",
+      "summary": "Australia's highest-paid executive collected a salary nearly 500 times that of the country's full-time average worker.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -535,23 +563,23 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "ASX set to slip, oil surges as Trump reinstates Hormuz blockade",
-        "desc": "Oil prices are climbing following a weekend of attacks in the Middle East, while more losses for computer chipmakers and other winners of the artificial-intelligence boom weigh on stock markets.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-slip-oil-surges-as-us-reinstates-hormuz-blockade-20260714-p60f0o.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Half of the ASX’s highest-paid CEOs lead US-based companies",
+        "desc": "A new report shows that companies based in the United States are paying the biggest salaries on the ASX.",
+        "link": "https://www.theage.com.au/business/companies/half-of-the-asx-s-highest-paid-ceos-lead-us-based-companies-20260714-p60f6v.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Oil prices leap and stocks fall as Trump reinstates Hormuz blockade on Iranian shipping",
-        "desc": "Brent crude rises 5% after US president says 20% toll will be imposed on key trade route to cover ‘safety and security’ Business live – latest updates Oil prices rose 5% on Monday as Donald Trump reinstated the US blockade of Iranian shipping in the Gulf and will charge other countries to pass through the strait of Hormuz. As the US and Iran exchanged strikes amid an escalating standoff over the v",
-        "link": "https://www.theguardian.com/business/2026/jul/13/oil-prices-leap-stocks-fall-us-iran-strait-of-hormuz-brent-crude-markets"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Australia's highest paid CEO revealed",
+        "desc": "Australia's highest-paid executive collected a salary nearly 500 times that of the country's full-time average worker.",
+        "link": "https://www.abc.net.au/news/2026-07-15/australia-highest-paid-chief-executives-salaries-asx-acsi/106915088"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "US state attorneys general file lawsuit in effort to block Paramount merger",
-      "summary": "Bipartisan group argue in lawsuit that $110bn merger would hurt competition and lead to thousands of job losses A dozen US state attorneys general are seeking to block the $110bn merger of Paramount Skydance and Warner Bros Discovery, arguing in a lawsuit filed on Monday that it would hurt competition and lead to higher prices for consumers. The coalition behind the lawsuit is led by the Californi",
+      "headline": "Consumer inflation cooled more than expected in June as gas prices fell",
+      "summary": "The Bureau of Labor Statistics found that the consumer price index (CPI) eased in June as consumer price growth slowed after a recent surge caused by the Iran war.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -561,23 +589,23 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "US state attorneys general file lawsuit in effort to block Paramount merger",
-        "desc": "Bipartisan group argue in lawsuit that $110bn merger would hurt competition and lead to thousands of job losses A dozen US state attorneys general are seeking to block the $110bn merger of Paramount Skydance and Warner Bros Discovery, arguing in a lawsuit filed on Monday that it would hurt competition and lead to higher prices for consumers. The coalition behind the lawsuit is led by the Californi",
-        "link": "https://www.theguardian.com/media/2026/jul/13/paramount-warner-bros-merger-lawsuit"
+        "title": "Inflation cools to 3.5% in June in relief brought by brief US-Iran peace deal",
+        "desc": "Recent strikes have sent oil prices climbing again, with average gas price per gallon up by 70 cents on last year Inflation cooled to an annual rate of 3.5% in June as the brief US-Iran ceasefire, which has since ended, brought energy prices down, according to new data from the Bureau of Labor Statistics. The consumer price index (CPI), which measures a basket of goods and services, has been eleva",
+        "link": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
        },
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Paramount advisers push for California exit as state sues to block Warner Bros Discovery merger: report",
-        "desc": "Advisers are reportedly pushing David Ellison to move Paramount out of California as AG Rob Bonta sues to block the Warner Bros. Discovery merger.",
-        "link": "https://www.foxbusiness.com/media/paramount-advisers-push-california-exit-state-sues-block-warner-bros-discovery-merger-report"
+        "title": "Consumer inflation cooled more than expected in June as gas prices fell",
+        "desc": "The Bureau of Labor Statistics found that the consumer price index (CPI) eased in June as consumer price growth slowed after a recent surge caused by the Iran war.",
+        "link": "https://www.foxbusiness.com/economy/cpi-inflation-june-2026"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-      "summary": "Bradley John Murdoch was convicted of 28-year-old’s murder but remains were never found Get our breaking news email, free app or daily news podcast Good morning and welcome to our live news blog. I’m Martin Farrer with the top overnight stories and then it will be Nick Visser with the main action. Young people are increasingly being diagnosed with cancers but survival rates are improving, accordin",
+      "headline": "Oil soars over 10pc on heightened Middle East tensions while ASX down — as it happened",
+      "summary": "Oil prices soar more than 10 per cent, with analysts saying they could rise further as global supplies reach critically low levels. The ASX is following Wall Street down as the world digests the news.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -587,16 +615,23 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Australia news live: NT police still seek answers over 25 year-old murder of British backpacker Peter Falconio",
-        "desc": "Bradley John Murdoch was convicted of 28-year-old’s murder but remains were never found Get our breaking news email, free app or daily news podcast Good morning and welcome to our live news blog. I’m Martin Farrer with the top overnight stories and then it will be Nick Visser with the main action. Young people are increasingly being diagnosed with cancers but survival rates are improving, accordin",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/14/australia-news-live-nt-police-peter-falconio-anthony-albanese-ai-artificial-intelligence-copyright-antisemitism-royal-commission-bondi-universities-ntwnfb"
+        "title": "Oil, gas and UK government borrowing costs prices jump as Middle East tensions ratchet higher – as it happened",
+        "desc": "Oil prices hit four-week highs and European shares fall after fresh US-Iran attacks and blockade on Iranian shipping Crude oil prices have hit their highest levels in four weeks, as Washington and Tehran traded attacks and the US reimposed a naval blockade of Iran. Brent crude has jumped $3.79 a barrel to $87.08 a barrel, a 4.55% increase, the highest since 12 June, before the ceasefire. The US an",
+        "link": "https://www.theguardian.com/business/live/2026/jul/14/oil-prices-rise-2-middle-east-strikes-chinas-exports-surge-ai-boom-live-updates"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Oil soars over 10pc on heightened Middle East tensions while ASX down — as it happened",
+        "desc": "Oil prices soar more than 10 per cent, with analysts saying they could rise further as global supplies reach critically low levels. The ASX is following Wall Street down as the world digests the news.",
+        "link": "https://www.abc.net.au/news/2026-07-14/asx-markets-business-live-news-july-14-2026/106911966"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "International buyers hit outback markets to hunt for Australia's best opals",
-      "summary": "The outback town of Winton is known for dinosaur fossils and as the location of the first performance of Waltzing Matilda, but has also become an important part of a growing international luxury trade.",
+      "headline": "Sydney radio ratings reveal KIIS on the slide without Kyle and Jackie O",
+      "summary": "The KIIS Sydney audience has slipped further in the radio ratings in the latest blow to ARN after the departure of renowned breakfast radio juggernaut Kyle and Jackie O.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -606,16 +641,42 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "International buyers hit outback markets to hunt for Australia's best opals",
-        "desc": "The outback town of Winton is known for dinosaur fossils and as the location of the first performance of Waltzing Matilda, but has also become an important part of a growing international luxury trade.",
-        "link": "https://www.abc.net.au/news/2026-07-14/buyers-flock-to-winton-opal-festival-2026/106908654"
+        "title": "Sydney radio ratings reveal KIIS on the slide without Kyle and Jackie O",
+        "desc": "The KIIS Sydney audience has slipped further in the radio ratings in the latest blow to ARN after the departure of renowned breakfast radio juggernaut Kyle and Jackie O.",
+        "link": "https://www.abc.net.au/news/2026-07-14/nsw-sydney-radio-ratings-reveal-kiis-kyle-jackie-o/106913974"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "2GB beaten again by Smooth FM in Sydney radio ratings",
+        "desc": "KIIS FM has continued to decline after the exit of its star broadcasters Kyle Sandilands and Jackie ‘O’ Henderson, falling another 0.8 per cent in the latest audience survey.",
+        "link": "https://www.theage.com.au/business/companies/2gb-beaten-again-by-smooth-fm-in-sydney-radio-ratings-20260714-p60f2k.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "‘OK, can you spell your surname’: How a super fund responded to a call for compassion",
-      "summary": "Testing of Australia’s superannuation funds has revealed poor call answer times, with many fobbing customers off to their websites.",
+      "headline": "New owner of Rushy Lagoon outlines plans for pine, cattle and tourism",
+      "summary": "The buyer of Tasmania's largest farm says in addition to the pine plantation it has planned for the property, it's also considering cropping and leasing out parts of the farm for grazing, tourism and mountain biking.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "New owner of Rushy Lagoon outlines plans for pine, cattle and tourism",
+        "desc": "The buyer of Tasmania's largest farm says in addition to the pine plantation it has planned for the property, it's also considering cropping and leasing out parts of the farm for grazing, tourism and mountain biking.",
+        "link": "https://www.abc.net.au/news/2026-07-15/new-owner-rushy-lagoon-reveals-plans-tasmanias-largest-farm/106912164"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "ASX set to rise, Wall Street advances after inflation data; IBM plunges",
+      "summary": "Stocks held steady after a report showed US inflation was not as bad last month as economists expected.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -625,28 +686,9 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "‘OK, can you spell your surname’: How a super fund responded to a call for compassion",
-        "desc": "Testing of Australia’s superannuation funds has revealed poor call answer times, with many fobbing customers off to their websites.",
-        "link": "https://www.theage.com.au/business/banking-and-finance/ok-can-you-spell-your-surname-how-a-super-fund-responded-to-a-call-for-compassion-20260713-p60ewy.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "How property developers are benefiting from Australia's housing crisis",
-      "summary": "State and federal governments are offering incentives for property developers in exchange for more affordable housing. But a Four Corners investigation has uncovered major flaws in the strategy.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "How property developers are benefiting from Australia's housing crisis",
-        "desc": "State and federal governments are offering incentives for property developers in exchange for more affordable housing. But a Four Corners investigation has uncovered major flaws in the strategy.",
-        "link": "https://www.abc.net.au/news/2026-07-14/property-developers-benefit-in-race-to-build-affordable-housing/106889346"
+        "title": "ASX set to rise, Wall Street advances after inflation data; IBM plunges",
+        "desc": "Stocks held steady after a report showed US inflation was not as bad last month as economists expected.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-wall-street-steady-after-inflation-data-ibm-plunges-20260715-p60fcn.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -658,8 +700,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "How Jannik Sinner won Wimbledon -- and turned aro...",
-      "summary": "It had been a rocky patch for Sinner until Wimbledon. But with the title, he is back to his dominant No. 1 status. At least until Alcaraz returns.",
+      "headline": "'Weird stuff is going to happen' - Scheffler and McIlroy on sun-baked Birkdale",
+      "summary": "Scottie Scheffler and Rory McIlroy discuss the firm and fiery conditions expected at Royal Birkdale for this week's Open Championship.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -667,32 +709,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ESPN",
-        "lean": "centre",
-        "title": "How Jannik Sinner won Wimbledon -- and turned aro...",
-        "desc": "It had been a rocky patch for Sinner until Wimbledon. But with the title, he is back to his dominant No. 1 status. At least until Alcaraz returns.",
-        "link": "https://www.espn.com/tennis/story/_/id/49344357/wimbledon-mens-title-winner-jannik-sinner-won"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "World No.1 Jannik Sinner checks on Alexander Zverev in moment of pure class on his way to Wimbledon win",
-        "desc": "The superstar was ruthless on his way to back-to-back titles, but he knew exactly what he had to do when his hurting rival hit the deck.",
-        "link": "https://7news.com.au/sport/tennis/world-no1-jannik-sinner-checks-on-alexander-zverev-in-moment-of-pure-class-on-his-way-to-wimbledon-win-c-22567900"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Fleeting window slammed shut as Zverev gets lost in the Sinner Zone | Jonathan Liew",
-        "desc": "German briefly threatened before falling well short against world No 1 whose only weakness appears to be the weather Shortly before 7pm, a full 162 minutes into this match, Alexander Zverev got his first break point on the Jannik Sinner serve. With the score still one set apiece and tied like a knot, this felt like a kind of hinge point. A humongous chance in a match preciously short on them. Sinn",
-        "link": "https://www.theguardian.com/sport/2026/jul/12/alexander-zverev-jannik-sinner-wimbledon-2026-mens-singles-final"
+        "title": "‘We’re all going to die’: Scottie Scheffler keeps things in perspective before Open defence",
+        "desc": "World No 1 not interested in his legacy in the game Scheffler missed first cut in 79 events at Scottish Open Something about the Open Championship seems to bring out the philosopher in Scottie Scheffler. Last year the world’s best golfer questioned the meaning of life before claiming his fourth major title. This year, though, it was his legacy that was more on his mind. Scheffler was in an ebullie",
+        "link": "https://www.theguardian.com/sport/2026/jul/14/were-all-going-to-die-scottie-scheffler-keeps-things-in-perspective-before-open-defence"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "'Weird stuff is going to happen' - Scheffler and McIlroy on sun-baked Birkdale",
+        "desc": "Scottie Scheffler and Rory McIlroy discuss the firm and fiery conditions expected at Royal Birkdale for this week's Open Championship.",
+        "link": "https://www.bbc.co.uk/sport/golf/articles/cp9l94e9xr7o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Ex-Kansas player charged with attempted murder",
-      "summary": "Lagerald Vick, a member of the Kansas Jayhawks' Final Four basketball team in 2018, has been charged with attempted first-degree murder in Tennessee.",
+      "headline": "World Cup quiz: Name every team to have reached semi-finals",
+      "summary": "You smashed our quarter-finalists quiz, now it's time to name every nation that's reached a World Cup semi-final!",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -700,25 +735,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ESPN",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Ex-Kansas player charged with attempted murder",
-        "desc": "Lagerald Vick, a member of the Kansas Jayhawks' Final Four basketball team in 2018, has been charged with attempted first-degree murder in Tennessee.",
-        "link": "https://www.espn.com/mens-college-basketball/story/_/id/49350117/ex-kansas-player-lagerald-vick-charged-attempted-murder"
+        "title": "World Cup quiz: Name every team to have reached semi-finals",
+        "desc": "You smashed our quarter-finalists quiz, now it's time to name every nation that's reached a World Cup semi-final!",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cq8p714384ko?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Former Kansas basketball star Lagerald Vick charged with attempted murder",
-        "desc": "Vick arrested in connection with Memphis shooting 29-year-old started on Jayhawks’ 2018 Final Four team Lagerald Vick, a former University of Kansas basketball player and a starter on their 2018 Final Four team, has been charged with attempted first-degree murder in ⁠Tennessee. Vick, 29, was a guard for the Jayhawks from 2015 to 2019. Continue reading...",
-        "link": "https://www.theguardian.com/sport/2026/jul/13/lagerald-vick-kansas-basketball-arrest-murder-charge"
+        "title": "Spain, France, Argentina and England beware: Demons haunt the World Cup semi-finals",
+        "desc": "The World Cup spotlight causes single games to live longer in the memory than any other. The remaining teams at this tournament face defining moments World Cup games mean more. England have only ever played 80 games in the finals, which is to say, not much more than two Premier League seasons in the 76 years since they first entered. Those games draw huge audiences: more than 17 million in the UK ",
+        "link": "https://www.theguardian.com/global/2026/jul/13/world-cup-semi-finals-england-argentina-france-spain"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Sacked McCullum holds hands up for England results",
-      "summary": "Brendon McCullum apologises for a run of seven defeats in nine games which led to him being sacked as Test coach on Sunday.",
+      "headline": "France v Spain: World Cup 2026 semi-final – live",
+      "summary": "⚽ Kick-off time: 2pm local/3pm EST/8pm BST/5am AEST ⚽ Player guide | Golden Boot | Football Daily | Mail Scott France and Spain have only met once before at the World Cup. That was 20 years ago, back in the day when Les Bleus very much had La Roja’s number (the Euro 84 final, the Euro 2000 quarters, all that). Spain have had the better of the tournament football since. Wins in the Euro 2012 quarte",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -726,25 +761,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Sacked McCullum holds hands up for England results",
-        "desc": "Brendon McCullum apologises for a run of seven defeats in nine games which led to him being sacked as Test coach on Sunday.",
-        "link": "https://www.bbc.co.uk/sport/cricket/articles/crkvg5y2y0zo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Bombshell as Brendon McCullum sacked as England Test coach",
-        "desc": "The Bazball era appears all but over with the coach following Ben Stokes out the door.",
-        "link": "https://7news.com.au/sport/cricket/bombshell-as-brendon-mccullum-set-to-be-sacked-by-england-c-22567402"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "France v Spain: World Cup 2026 semi-final – live",
+        "desc": "⚽ Kick-off time: 2pm local/3pm EST/8pm BST/5am AEST ⚽ Player guide | Golden Boot | Football Daily | Mail Scott France and Spain have only met once before at the World Cup. That was 20 years ago, back in the day when Les Bleus very much had La Roja’s number (the Euro 84 final, the Euro 2000 quarters, all that). Spain have had the better of the tournament football since. Wins in the Euro 2012 quarte",
+        "link": "https://www.theguardian.com/football/live/2026/jul/14/france-v-spain-world-cup-2026-semi-final-live"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "India bowl out England to win historic Lord's Test by 270 runs",
-      "summary": "India take the required four wickets before lunch to seal an emphatic 270-run victory over England in the historic women's Test match at Lord's.",
+      "headline": "Leeds agree £34.1m fee for defender Muharemovic",
+      "summary": "Leeds United agree a £34.1m fee with Italian club Sassuolo for defender Tarik Muharemovic.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -754,23 +782,35 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "India bowl out England to win historic Lord's Test by 270 runs",
-        "desc": "India take the required four wickets before lunch to seal an emphatic 270-run victory over England in the historic women's Test match at Lord's.",
-        "link": "https://www.bbc.co.uk/sport/cricket/videos/c79y2yrdn39o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "India close on victory against England as Bhatia and Ecclestone make history",
-        "desc": "Only Test, D3: India 285 & 341-7dec; England 170 & 130-6 Two women claim Test milestones at Lord’s India are poised for victory in the one-off Test at Lord’s after reducing England to 130 for six in their second innings, having spent the first two sessions of the day batting them out of the game. Yastika Bhatia became the first woman to score a century in a Lord’s Test, as India piled on the runs ",
-        "link": "https://www.theguardian.com/sport/2026/jul/12/engand-india-women-test-day-three-match-report"
+        "title": "Leeds agree £34.1m fee for defender Muharemovic",
+        "desc": "Leeds United agree a £34.1m fee with Italian club Sassuolo for defender Tarik Muharemovic.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cpd3d6vx803o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "Cruz Hewitt’s ‘special’ run to Wimbledon final ends in heartbreak against Jordan Lee",
-      "summary": "The 17-year-old’s disappointment was palpable even as Lleyton and Bec lifted him up after a brilliant week.",
+      "headline": "Henderson Quansah only England absentees for Argentina",
+      "summary": "Jordan Henderson and Jarell Quansah are set to be the only players unavailable for England's World Cup semi-final against Argentina.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Henderson Quansah only England absentees for Argentina",
+        "desc": "Jordan Henderson and Jarell Quansah are set to be the only players unavailable for England's World Cup semi-final against Argentina.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Burnham hails Hillsborough law as ‘rewiring of the state’ as MPs approve bill",
+      "summary": "PM-in-waiting says bill is major step towards securing accountability families had fought for, in rare moment of Labour unity Andy Burnham has hailed a power shift from the state to the people as MPs finally passed the stalled Hillsborough law, a rare moment of Labour unity with the bill set to be a key legacy of Keir Starmer’s government. In his first intervention in the Commons since returning a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -780,35 +820,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Wimbledon agony for teenager Cruz Hewitt as he bids farewell to junior tennis",
-        "desc": "Australian loses boys’ final to Jordan Lee of US 4-6, 6-4, 7-5 Two-hour match will likely be 17-year-old’s last as a junior Cruz Hewitt has vowed to blossom again at Wimbledon as he brushed off the heartbreak of just failing to follow in the celebrated footsteps of his father, 24 years after Lleyton won the men’s title. With his dad watching on and cajoling him from the players’ box on No 1 Court,",
-        "link": "https://www.theguardian.com/sport/2026/jul/13/wimbledon-cruz-hewitt-jordan-lee-boys-final"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Cruz Hewitt’s ‘special’ run to Wimbledon final ends in heartbreak against Jordan Lee",
-        "desc": "The 17-year-old’s disappointment was palpable even as Lleyton and Bec lifted him up after a brilliant week.",
-        "link": "https://7news.com.au/sport/tennis/cruz-hewitts-special-run-to-wimbledon-final-ends-in-heartbreak-against-jordan-lee-c-22567842"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Vote for the 2026 ESPYS Winners",
-      "summary": "Nominees include A'ja Wilson, Jalen Brunson, Shohei Ohtani and more. Vote and help choose which athletes win an ESPY.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ESPN",
-        "lean": "centre",
-        "title": "Vote for the 2026 ESPYS Winners",
-        "desc": "Nominees include A'ja Wilson, Jalen Brunson, Shohei Ohtani and more. Vote and help choose which athletes win an ESPY.",
-        "link": "https://www.espn.com/espys/story/_/page/Voting2026/vote-2026-espys-winners"
+        "title": "Burnham hails Hillsborough law as ‘rewiring of the state’ as MPs approve bill",
+        "desc": "PM-in-waiting says bill is major step towards securing accountability families had fought for, in rare moment of Labour unity Andy Burnham has hailed a power shift from the state to the people as MPs finally passed the stalled Hillsborough law, a rare moment of Labour unity with the bill set to be a key legacy of Keir Starmer’s government. In his first intervention in the Commons since returning a",
+        "link": "https://www.theguardian.com/football/2026/jul/14/burnham-hails-hillsborough-law-rewiring-state-mps-approve-bill"
        }
       ]
      }
@@ -820,8 +834,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Christopher Nolan Slams ‘AI Slop’ and Disagrees With Matt Damon’s ‘Defeatist’ Opinion That ‘The Odyssey’ Is the Last Movie of Its Kind",
-      "summary": "Christopher Nolan does not agree with his “The Odyssey” leading man Matt Damon when it comes to their new epic being the last of its kind in Hollywood. Damon has stated repeatedly during the movie’s press tour that filming “The Odyssey” felt like his “last chance” to make an old school Hollywood epic given Nolan’s […]",
+      "headline": "Blue Beetle Returns: Xolo Maridueña to Reprise Superhero in ‘Superman’ Sequel ‘Man of Tomorrow’",
+      "summary": "Xolo Maridueña is set to reprise his Blue Beetle role in the “Superman” sequel “Man of Tomorrow.” The film, currently in production, will be directed by James Gunn. Maridueña first portrayed the character in the 2023 film “Blue Beetle,” directed by Angel Manuel Soto. More to come.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -831,30 +845,23 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Christopher Nolan Slams ‘AI Slop’ and Disagrees With Matt Damon’s ‘Defeatist’ Opinion That ‘The Odyssey’ Is the Last Movie of Its Kind",
-        "desc": "Christopher Nolan does not agree with his “The Odyssey” leading man Matt Damon when it comes to their new epic being the last of its kind in Hollywood. Damon has stated repeatedly during the movie’s press tour that filming “The Odyssey” felt like his “last chance” to make an old school Hollywood epic given Nolan’s […]",
-        "link": "https://variety.com/2026/film/news/christopher-nolan-ai-slop-matt-damon-odyssey-defeatist-1236809705/"
+        "title": "Blue Beetle Returns: Xolo Maridueña to Reprise Superhero in ‘Superman’ Sequel ‘Man of Tomorrow’",
+        "desc": "Xolo Maridueña is set to reprise his Blue Beetle role in the “Superman” sequel “Man of Tomorrow.” The film, currently in production, will be directed by James Gunn. Maridueña first portrayed the character in the 2023 film “Blue Beetle,” directed by Angel Manuel Soto. More to come.",
+        "link": "https://variety.com/2026/film/news/xolo-mariduena-blue-beetle-superman-man-of-tomorrow-1236811013/"
        },
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Christopher Nolan Gave Zendaya A Rare Director's Note On The Odyssey",
-        "desc": "The Odyssey stars Zendaya and John Leguizamo compare notes over the reactions they received from Christopher Nolan while filming.",
-        "link": "https://screenrant.com/video/odyssey-christopher-nolan-zendaya-directors-note/"
-       },
-       {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "Christopher Nolan says people ‘disdain’ AI and the idea it will replace humans is ‘nonsense’",
-        "desc": "Odyssey director addresses industry fears over artificial intelligence and says rightwing criticism of Lupita Nyong’o as Helen of Troy is ‘irrelevant’ The Oscar-winning director Christopher Nolan believes the kind of movies he makes – big-budget action films shot mostly on location – would survive the spread of artificial intelligence, a technology he says many people “disdain”. The Oppenheimer an",
-        "link": "https://www.theguardian.com/film/2026/jul/13/christopher-nolan-odyssey-director-comments-ai-artificial-intelligence"
+        "title": "DCEU Hero Confirmed To Return In James Gunn's Superman Sequel Man Of Tomorrow",
+        "desc": "One of the last heroes to get introduced in the DCEU is officially confirmed to make their DC Universe debut in James Gunn's Man of Tomorrow movie.",
+        "link": "https://screenrant.com/superman-man-of-tomorrow-blue-beetle-xolo-mariduena-return/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Prime Video's 8-Part TV-14 Superhero Show Is The Complete Opposite Of The Boys",
-      "summary": "A surprising, subversive twist on the dark deconstruction of the genre seen in The Boys, Prime Video's new edgy superhero show is unexpectedly fun.",
+      "headline": "Not a Done Deal: How and Why 12 Blue States are Fighting the Paramount-Warner Bros. Merger",
+      "summary": "Are blockbuster films a separate market? Or are they interchangeable with other forms of entertainment? The $111 billion Paramount-Warner Bros. merger may hang on that question. On July 13, a coalition of 12 states sued to block the deal, arguing that it will lead to excessive concentration in the theatrical and basic cable markets. The […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -862,25 +869,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Prime Video's 8-Part TV-14 Superhero Show Is The Complete Opposite Of The Boys",
-        "desc": "A surprising, subversive twist on the dark deconstruction of the genre seen in The Boys, Prime Video's new edgy superhero show is unexpectedly fun.",
-        "link": "https://screenrant.com/spider-noir-opposite-the-boys-prime-video/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Prime Video’s Docuseries ‘Murder 101’ Moves Beyond Crime to Showcase the Power of Community: TV Review",
-        "desc": "Based on the 2024 podcast of the same name, Prime Video’s new docuseries “Murder 101” is a crime show that looks beyond the transgressions, facts and clues to give a real voice to victims and survivors. The series also highlights the importance of fostering autonomy and determination in young people on the cusp of major […]",
-        "link": "https://variety.com/2026/tv/reviews/murder-101-review-prime-video-1236806695/"
+        "title": "Not a Done Deal: How and Why 12 Blue States are Fighting the Paramount-Warner Bros. Merger",
+        "desc": "Are blockbuster films a separate market? Or are they interchangeable with other forms of entertainment? The $111 billion Paramount-Warner Bros. merger may hang on that question. On July 13, a coalition of 12 states sued to block the deal, arguing that it will lead to excessive concentration in the theatrical and basic cable markets. The […]",
+        "link": "https://variety.com/2026/film/news/paramount-warner-bros-rob-bonta-state-ags-sue-blockbusters-1236810931/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "WGA Sues To Block Paramount-Warner Bros. Discovery Merger",
+        "desc": "The Writers Guild of America has officially entered the ring in the fight to block Paramount Skydance’s pending $110 billion acquisition of Warner Bros. Discovery. The guild’s lawsuit, filed jointly by the WGA East and West in the Northern District of California on Tuesday, seeks to stop the merger on the grounds that it violates […]",
+        "link": "https://deadline.com/2026/07/wga-sues-over-paramount-warner-bros-discovery-merger-1236982226/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "WGA, Cinema United Praise States For Suing To Block “Dangerous” Paramount-Warner Bros. Discovery Merger",
-      "summary": "Several Hollywood trade organizations are in support of a dozen state attorneys general who filed suit Monday to block Paramount‘s $110 billion acquisition of Warner Bros. Discovery. Unsurprisingly, the Writers Guild of America — which has loudly opposed the merger since the beginning of this saga — is chief among them. Following the news that the long-anticipated litigation had finally […]",
+      "headline": "‘Far Cry’ FX Series Casts Steve Buscemi",
+      "summary": "The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -888,51 +895,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "WGA, Cinema United Praise States For Suing To Block “Dangerous” Paramount-Warner Bros. Discovery Merger",
-        "desc": "Several Hollywood trade organizations are in support of a dozen state attorneys general who filed suit Monday to block Paramount‘s $110 billion acquisition of Warner Bros. Discovery. Unsurprisingly, the Writers Guild of America — which has loudly opposed the merger since the beginning of this saga — is chief among them. Following the news that the long-anticipated litigation had finally […]",
-        "link": "https://deadline.com/2026/07/hollywood-industry-react-paramount-wbd-merger-lawsuit-1236981045/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Why I’m Suing to Block the Paramount-Warner Bros. Merger (Guest Column)",
-        "desc": "Paramount Skydance CEO David Ellison may think the promise of the Paramount Warner Bros. Discovery mega-merger is an offer we can’t refuse, but I’m here to say: He’s wrong. I am leading a coalition of 12 state Attorneys General in taking Paramount and Warner Bros. to court to stop this unlawful merger. The entertainment industry […]",
-        "link": "https://variety.com/2026/film/news/rob-bonta-paramount-warner-bros-merger-guest-column-1236809787/"
+        "title": "‘Far Cry’ FX Series Casts Steve Buscemi",
+        "desc": "The “Far Cry” TV series is building out its cast with the addition of Steve Buscemi. Variety has learned that Buscemi will star in the series adaptation of the hit video game franchise alongside star and co-creator Rob Mac and previously announced cast member Lizzy Caplan. The series was first reported to be set up […]",
+        "link": "https://variety.com/2026/tv/news/far-cry-fx-series-cast-steve-buscemi-1236810902/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Elizabeth Banks-Led Apple TV Comedy Series Casts Jared Goldstein & Spencer Moss",
+        "desc": "EXCLUSIVE: The Elizabeth Banks-led half-hour comedy series rounds out its series regular cast with Jared Goldstein (St. Denis Medical, Black Mirror) and Spencer Moss (Doctor Odyssey, Chicago Med). Ted Danson, Katey Sagal and Rob Delaney were also previously announced as part of the cast. The series will shoot in Los Angeles later this year. From […]",
+        "link": "https://deadline.com/2026/07/elizabeth-banks-apple-series-jared-goldstein-spencer-moss-1236982013/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Jurassic Park Films Actor Sam Neill Dies at 78",
-      "summary": "Neill was cast in upcoming Godzilla x Kong: Supernova film",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Jurassic Park Films Actor Sam Neill Dies at 78",
-        "desc": "Neill was cast in upcoming Godzilla x Kong: Supernova film",
-        "link": "https://www.animenewsnetwork.com/news/2026-07-13/jurassic-park-films-actor-sam-neill-dies-at-78/.239553"
-       },
-       {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "Sam Neill, actor and star of Jurassic Park, dies aged 78",
-        "desc": "New Zealand actor built career as dashing romantic leads and charismatic villains across film and television Sam Neill’s final interview Sam Neill’s 20 best performances A life in pictures ‘A true gentleman’: actors, directors and leaders pay tribute to Sam Neill Obituary Neill interviewed in 2023, 2024 and 2026 Sam Neill, the versatile New Zealand actor whose career spanned Oscar winners and bloc",
-        "link": "https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "PinkPantheress Making Feature Acting Debut In Daniels’ Secret Event Pic At Universal",
-      "summary": "EXCLUSIVE: Multi-platinum British recording artist, songwriter and producer, PinkPantheress aka Victoria Walker, is set to make her feature acting debut in the Daniels’ secret event film at Universal. She joins previously announced Matt Damon, Sandra Oh, Charles Melton, Sean Kaufman, Silvia Dionicio, Jackson Kelly, Kerrice Brooks, Thalia Dudek, and Michael Gandolfini in the feature which […]",
+      "headline": "Fox Sets Fall Premiere Dates For ‘Best Medicine,’ ‘Doc’ & More As ‘Animal Control’ Joins Sunday Animation Block",
+      "summary": "As we head into midsummer, Fox is looking to autumn. The network on Tuesday released its fall 2026 schedule for drama, comedy, toon, reality and game shows, starting with the September 21-27 premiere week. There are no new series on the network’s fall sked, but three are slated for 2026-27: the Baywatch reboot, drama The […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -942,16 +923,23 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "PinkPantheress Making Feature Acting Debut In Daniels’ Secret Event Pic At Universal",
-        "desc": "EXCLUSIVE: Multi-platinum British recording artist, songwriter and producer, PinkPantheress aka Victoria Walker, is set to make her feature acting debut in the Daniels’ secret event film at Universal. She joins previously announced Matt Damon, Sandra Oh, Charles Melton, Sean Kaufman, Silvia Dionicio, Jackson Kelly, Kerrice Brooks, Thalia Dudek, and Michael Gandolfini in the feature which […]",
-        "link": "https://deadline.com/2026/07/pinkpantheress-daniels-secret-movie-1236981169/"
+        "title": "Fox Sets Fall Premiere Dates For ‘Best Medicine,’ ‘Doc’ & More As ‘Animal Control’ Joins Sunday Animation Block",
+        "desc": "As we head into midsummer, Fox is looking to autumn. The network on Tuesday released its fall 2026 schedule for drama, comedy, toon, reality and game shows, starting with the September 21-27 premiere week. There are no new series on the network’s fall sked, but three are slated for 2026-27: the Baywatch reboot, drama The […]",
+        "link": "https://deadline.com/2026/07/fox-fall-premiere-dates-2026-1236982140/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Big Brother 28’ Opens With 3.9 Million Viewers, Biggest Premiere Since 2021",
+        "desc": "“Big Brother” returned to CBS with its largest audience in five years on Thursday. The Season 28 premiere hit an average of 3.9 million viewers, the series’ largest opening audience since Season 23 in July of 2021, which reached 4.3 million viewers. Measured by Nielsen, that total also represents a 22% increase from the Season […]",
+        "link": "https://variety.com/2026/tv/news/big-brother-28-ratings-1236810873/"
        }
       ]
      },
      {
-      "id": 36,
-      "headline": "Move Over Sci-Fi, Apple TV Is Coming For Another Streaming Crown",
-      "summary": "Apple TV has been dominating the sci-fi genre for years (Severance, Pluribus, etc.), but the streamer shouldn't be overlooked when it comes to comedy.",
+      "id": 35,
+      "headline": "From Lost Exist In The Same Universe: Theory Explained",
+      "summary": "From and Lost have far too much in common for the similarities between the two mystery box shows to be nothing more than a coincidence.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -961,9 +949,28 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Move Over Sci-Fi, Apple TV Is Coming For Another Streaming Crown",
-        "desc": "Apple TV has been dominating the sci-fi genre for years (Severance, Pluribus, etc.), but the streamer shouldn't be overlooked when it comes to comedy.",
-        "link": "https://screenrant.com/apple-tv-streaming-success-comedy-shows/"
+        "title": "From Lost Exist In The Same Universe: Theory Explained",
+        "desc": "From and Lost have far too much in common for the similarities between the two mystery box shows to be nothing more than a coincidence.",
+        "link": "https://screenrant.com/from-and-lost-connected-same-universe-theory/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Tom Hardy’s Returning 10-Part Crime Thriller Makes Peaky Blinders Look Tame",
+      "summary": "Peaky Blinders is a British gangster drama that takes no prisoners, but Tom Hardy's most recent TV show is an even tougher version of organized crime.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Tom Hardy’s Returning 10-Part Crime Thriller Makes Peaky Blinders Look Tame",
+        "desc": "Peaky Blinders is a British gangster drama that takes no prisoners, but Tom Hardy's most recent TV show is an even tougher version of organized crime.",
+        "link": "https://screenrant.com/mobland-makes-peaky-blinders-tame/"
        }
       ]
      }
@@ -971,37 +978,38 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
    "Crikey",
+   "Guardian Australia",
    "The Age",
-   "BBC World",
    "ABC News",
-   "The Age Federal Politics",
+   "BBC World",
    "Fox News Politics",
    "Fox News",
-   "Guardian Tech",
    "BBC Tech",
-   "Guardian AU Politics",
    "The Verge",
-   "Ars Technica",
-   "ESPN",
-   "BBC Sport",
    "The Age Business",
+   "ABC Business",
+   "Guardian Tech",
+   "Ars Technica",
+   "The Age Federal Politics",
+   "BBC Sport",
+   "Deadline",
+   "Variety",
    "Guardian AU Business",
    "Guardian AU Sport",
-   "Variety",
    "Fox Business",
-   "Deadline",
-   "Screen Rant",
-   "Guardian Film",
+   "Guardian AU Politics",
    "Anime News Network",
-   "7News",
-   "7News Sport",
-   "ABC Business",
    "Daily Mail Australia",
+   "7News Sport",
+   "Guardian Film",
+   "Screen Rant",
+   "7News",
    "SBS News"
   ],
-  "sourcesFailed": []
+  "sourcesFailed": [
+   "ESPN"
+  ]
  },
  "releases": {
   "movies": [
@@ -1175,11 +1183,11 @@
   ]
  },
  "wotd": {
-  "word": "williwaw",
-  "phonetic": "",
+  "word": "desuetude",
+  "phonetic": "/-tʃuːd/",
   "pos": "noun",
-  "def": "A strong gust of cold wind",
+  "def": "Disuse, obsolescence (for example, the state of a custom that is no longer observed nor practised).",
   "example": null,
-  "audio": null
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/desuetude-uk.mp3"
  }
 }
