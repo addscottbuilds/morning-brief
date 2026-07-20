@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-19T20:13:15.380Z",
+ "generatedAt": "2026-07-20T20:44:49.469Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8796.7,
-    "chgPct": -0.49770034432147103,
+    "price": 8791.3,
+    "chgPct": -0.5587814790811887,
     "high52": 9202.9,
-    "off52": -4.413826076562811
+    "off52": -4.472503232676661
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.13,
-    "chgPct": -1.221085113659802,
+    "price": 83.97,
+    "chgPct": -0.1901786029256879,
     "high52": 86.99,
-    "off52": -3.2877342223244046
+    "off52": -3.471663409587304
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.63,
-    "chgPct": -0.5223839405482802,
+    "price": 146.58,
+    "chgPct": -0.03410276283660474,
     "high52": 153.83,
-    "off52": -4.680491451602429
+    "off52": -4.712994864460768
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.44,
-    "chgPct": -3.034256541941418,
+    "price": 59.55,
+    "chgPct": 0.18506287993348702,
     "high52": 64.23,
-    "off52": -7.4575743422077
+    "off52": -7.286314806165353
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35,
-    "chgPct": -7.676074542666498,
+    "price": 35.61,
+    "chgPct": 1.742857142857141,
     "high52": 47.78,
-    "off52": -26.74759313520302
+    "off52": -25.470908329845127
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6969,
-    "chgPct": -0.4343181342077966,
+    "price": 0.7,
+    "chgPct": 0.2994982570219741,
     "high52": 0.7277,
-    "off52": -4.23251339837846
+    "off52": -3.8065136732169926
    }
   ],
   "failed": [],
-  "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist."
+  "note": "SEMI is 25% below its 52-week high ($47.78) — the deepest discount on the watchlist."
  },
  "news": {
   "mode": "basic",
@@ -75,159 +75,48 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Russia launches major ballistic missile attack on Ukrainian cities",
-      "summary": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
+      "headline": "'Sit down!': Joyce's dog interrupts 7.30 interview as he defends One Nation leader",
+      "summary": "The One Nation senator says Pauline Hanson's meeting with far-right British activist Tommy Robinson did not amount to an endorsement of his criminal conduct, during a 7.30 interview that was twice interrupted by his dog.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Russia launches major ballistic missile attack on Ukrainian cities",
-        "desc": "Eight people die and dozens are injured as several cities are hit by missile and drone attacks, while Kyiv continues its own assault on Russian infrastructure.",
-        "link": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo?at_medium=RSS&at_campaign=rss"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Tense interview between Barnaby Joyce and ABC host turns bizarre as he stops midway through to scream at a dog not visible to viewers",
+        "desc": "Viewers quickly took to social media with many describing the moment as 'unhinged'.",
+        "link": "https://www.dailymail.com/news/article-15990477/Barnaby-Joyce-dog-interview-ABC-One-Nation-Hanson.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "'Let's brew it in the United States': Teamsters target Modelo and Corona in push for Mexican beer tariffs",
-        "desc": "The Teamsters are pushing Trump to impose tariffs as high as 75% on Mexican beer imports like Modelo and Corona to protect U.S. brewery jobs.",
-        "link": "https://www.foxnews.com/politics/lets-brew-united-states-teamsters-target-modelo-corona-push-mexican-beer-tariffs"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Barnaby Joyce yells at dog on camera",
+        "desc": "One Nation MP Barnaby Joyce took the time to yell at a dog during an on-screen ABC interview.",
+        "link": "https://www.theage.com.au/national/barnaby-joyce-yells-at-dog-on-camera-20260721-p60h17.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "US ally Jordan summons Iranian ambassador after missile strikes",
-        "desc": "The US warns its citizens to stay away from air and sea ports at Aqaba in southern Jordan, hours before Israeli authorities announced that Iranian missiles had been launched towards the city.",
-        "link": "https://www.abc.net.au/news/2026-07-19/jordan-aqaba-missiles-launched-by-iran-says-idf/106933506"
+        "title": "'Sit down!': Joyce's dog interrupts 7.30 interview as he defends One Nation leader",
+        "desc": "The One Nation senator says Pauline Hanson's meeting with far-right British activist Tommy Robinson did not amount to an endorsement of his criminal conduct, during a 7.30 interview that was twice interrupted by his dog.",
+        "link": "https://www.abc.net.au/news/2026-07-21/barnaby-joyce-defends-pauline-hanson-meeting-tommy-robinson/106938062"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "United States launches new strikes on Iran after two US soldiers killed by Iranian attack",
-        "desc": "New waves of strikes from the US and Iran have claimed more lives, with both sides taking aim at the Strait of Hormuz again.",
-        "link": "https://www.sbs.com.au/news/article/two-us-troops-killed-in-jordan-one-missing-as-fears-of-all-out-war-grow/tdui30b32"
+        "title": "Barnaby Joyce dog interview: One Nation MP snaps in interview with ABC’s 730",
+        "desc": "One Nation’s star recruit bookended his day with fiery TV appearances.",
+        "link": "https://7news.com.au/news/one-nation-mp-barnaby-joyce-snaps-at-dog-during-fiery-abc-730-interview-c-22604069"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Is Facebook down?: Social media website Facebook suffers major global outage on desktop devices",
-      "summary": "Thousands of Facebook users have been blocked from accessing their accounts on the social media network’s desktop website.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Social media is still white-hot on youth crime – just ask the police",
-        "desc": "As the Crisafulli LNP government gears up for its next major push to meet election vows and toughen youth justice laws, an internal police report lays bare the task ahead.",
-        "link": "https://www.theage.com.au/politics/queensland/social-media-is-still-white-hot-on-youth-crime-just-ask-the-police-20260715-p60fe3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Is Facebook down?: Social media website Facebook suffers major global outage on desktop devices",
-        "desc": "Thousands of Facebook users have been blocked from accessing their accounts on the social media network’s desktop website.",
-        "link": "https://7news.com.au/news/is-facebook-down-social-media-website-facebook-suffers-major-global-outage-on-desktop-devices-c-22597825"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Victoria announces new social media ‘demasking’ powers for accounts accused of vilification",
-        "desc": "New laws would give Vcat power to force social and AI platforms to identify anonymous users in move premier says will protect children Get our breaking news email, free app or daily news podcast Social media companies could be forced to identify anonymous accounts accused of online vilification, under new laws being proposed in Victoria. The Victorian premier, Jacinta Allan, announced a suite of s",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/19/victoria-proposes-social-media-account-identification-powers"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Why the World Cup half-time show may be a taste of things to come",
-      "summary": "The 2026 World Cup's spectacle is creating debate about the place of music in sport - and how it could infiltrate other tournaments.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Spain vs Argentina - World Cup final LIVE: Nothing separates the two sides at half-time as tense affair sees Lamine Yamal and Mikel Oyarzabal test Emi Martinez in first half",
-        "desc": "Follow Daily Mail Sport's live coverage for the latest updates as Argentina attempt to defend their crown against European Champions Spain in the World Cup final at the MetLife Stadium.",
-        "link": "https://www.dailymail.com/sport/football/article-15984817/Spain-vs-Argentina-World-Cup-final-LIVE.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Why the World Cup half-time show may be a taste of things to come",
-        "desc": "The 2026 World Cup's spectacle is creating debate about the place of music in sport - and how it could infiltrate other tournaments.",
-        "link": "https://www.bbc.co.uk/news/articles/cwyr498vqqpo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Pauline Hanson 'not backing away' from controversial far-right interview",
-      "summary": "The One Nation leader was a guest on the podcast of controversial far-right UK figure Tommy Robinson, where she lamented the end of the White Australia policy.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Pauline Hanson says she 'loves' the idea of mass deportations in Australia after meeting with controversial leader of hard-right Restore Britain party in the UK",
-        "desc": "Pauline Hanson met with Rupert Lowe while on her well-publicised European trip.",
-        "link": "https://www.dailymail.com/news/article-15988677/Pauline-Hanson-mass-deportation-UK-immigrant.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Pauline Hanson 'not backing away' from controversial far-right interview",
-        "desc": "The One Nation leader was a guest on the podcast of controversial far-right UK figure Tommy Robinson, where she lamented the end of the White Australia policy.",
-        "link": "https://www.abc.net.au/news/2026-07-20/pauline-hanson-tommy-robinson-interview-podcast/106933634"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Classic winter week ahead, dangerous surf to ease in south-east",
-      "summary": "The Bureau of Meteorology says showers from the Wide Bay to the Gold Coast are possible today, with hazardous surf conditions forecast to weaken.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Classic winter week ahead, dangerous surf to ease in south-east",
-        "desc": "The Bureau of Meteorology says showers from the Wide Bay to the Gold Coast are possible today, with hazardous surf conditions forecast to weaken.",
-        "link": "https://www.abc.net.au/news/2026-07-20/weather-qld-classic-winter-conditions-some-showers-forecast-bom/106932708"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Packed with roasted vegies and grains, these prep-ahead salads are built for winter",
-        "desc": "Upgrade your cool-weather cooking with satisfying bowls that work for quick lunches, wholesome dinners or your next family gathering.",
-        "link": "https://www.theage.com.au/goodfood/recipes/packed-with-roasted-vegies-and-grains-these-prep-ahead-salads-are-built-for-winter-20260706-p60d1i.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "FIFA World Cup 2026 LIVE updates: Lionel Messi’s Argentina in scoreless deadlock with Spain in final",
-      "summary": "After 103 matches in the US, Mexico and Canada, the biggest prize in world sport will go on the line in New Jersey.",
+      "headline": "Andy Burnham becomes British PM, provides AUKUS hints in first speech",
+      "summary": "Andy Burnham has pledged to provide immediate cost-of-living relief for Brits and invited US President Donald Trump to Manchester in the hours after becoming UK PM on Monday.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -237,23 +126,37 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "FIFA World Cup 2026 LIVE updates: Lionel Messi’s Argentina in scoreless deadlock with Spain in final",
-        "desc": "After 103 matches in the US, Mexico and Canada, the biggest prize in world sport will go on the line in New Jersey.",
-        "link": "https://www.theage.com.au/sport/soccer/fifa-world-cup-2026-live-updates-lionel-messi-s-argentina-meet-spain-in-final-20260719-p60gm6.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Andy Burnham becomes UK PM",
+        "desc": "Andy Burnham has become the new prime minister of the UK after Keir Starmer stepped down.",
+        "link": "https://www.theage.com.au/world/andy-burnham-becomes-uk-pm-20260721-p60h19.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "All the clues FIFA's Argentina World Cup bias is real… as bosses' greedy reason for wanting Messi in the final sparks fury",
-        "desc": "Conspiracy theories, viral memes and furious allegations of favoritism have completely engulfed the build-up to the tournament's showpiece event in New York.",
-        "link": "https://www.dailymail.com/sport/football/article-15985095/fifa-bias-argentina-messi-world-cup.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "What's the plan? Burnham vows to 'be better' than Starmer as he hints at Leftward lurch in first speech as PM - but again gives no detail - as Cabinet battle looms",
+        "desc": "Andy Burnham was invited to form a Government at an audience in Buckingham Palace this afternoon.",
+        "link": "https://www.dailymail.com/news/article-15990505/Burnham-PM-officially-King-Starmer-Cabinet-Labour-Downing-Street.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Andy Burnham becomes British PM, provides AUKUS hints in first speech",
+        "desc": "Andy Burnham has pledged to provide immediate cost-of-living relief for Brits and invited US President Donald Trump to Manchester in the hours after becoming UK PM on Monday.",
+        "link": "https://www.abc.net.au/news/2026-07-20/andy-burnham-becomes-british-pm-after-kissing-hands-with-king/106937868"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Keir Starmer resigns as British prime minister, King Charles invites new Labour leader Andy Burnham to form government",
+        "desc": "Andy Burnham is set to become Britain’s seventh prime minister in a decade.",
+        "link": "https://7news.com.au/news/world/keir-starmer-resigns-as-british-prime-minister-king-charles-invites-new-labour-leader-andy-burnham-to-form-government-c-22603819"
        }
       ]
      },
      {
-      "id": 6,
-      "headline": "'Open door to fraud': European body slams FIFA's World Cup integrity",
-      "summary": "Europe's top human rights body hits out at FIFA over the integrity of the World Cup and calls for change before the 2030 tournament.",
+      "id": 2,
+      "headline": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+      "summary": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -261,18 +164,157 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "'Open door to fraud': European body slams FIFA's World Cup integrity",
-        "desc": "Europe's top human rights body hits out at FIFA over the integrity of the World Cup and calls for change before the 2030 tournament.",
-        "link": "https://www.abc.net.au/news/2026-07-20/world-cup-2026-council-of-europe-questions-fifa/106934174"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "US launches new strikes after Iran-backed Houthis declare blockade of another key oil route",
+        "desc": "US President Donald Trump vowed that Iran would “pay” for killing three US soldiers despite signs Tehran and Washington want to resume diplomacy, even as a potential new front in the war opened.",
+        "link": "https://www.theage.com.au/world/middle-east/iran-backed-houthis-declare-blockade-of-red-sea-oil-route-threatening-new-front-war-20260721-p60h10.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "'Question after question': Rights body urges FIFA to strengthen World Cup integrity",
-        "desc": "\"The FIFA World Cup 2026 has raised question after question,\" Council of Europe secretary general Alain Berset has said.",
-        "link": "https://www.sbs.com.au/news/article/human-rights-body-council-of-europe-urges-fifa-to-strengthen-the-integrity-of-football/v8i1r1pvh"
+        "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
+        "desc": "The Houthis say the embargo begins immediately and is a response to a Saudi blockade of ports and airports in Yemen.",
+        "link": "https://www.bbc.co.uk/news/articles/cm2gmddx1ldo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Iran-backed Houthis declare maritime blockade on Saudi Arabia",
+        "desc": "In a statement, the Houthis' military spokesperson Yahya Saree says the group will enforce the blockade against its \"criminal Saudi enemy\", effective immediately.",
+        "link": "https://www.abc.net.au/news/2026-07-20/houthis-declare-maritime-blockade-on-saudi-arabia/106938064"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Tate brothers appear in US court for extradition proceedings",
+      "summary": "They were arrested on Saturday after the UK announced dozens of new charges, including rape and sex trafficking, which they deny.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘This feels political’: Tate brothers to fight extradition to UK on rape, sex trafficking charges",
+        "desc": "Andrew and Tristan Tate, who are being held in federal detention, wore tan jail uniforms and handcuffs during the first court hearing since their arrest on the weekend.",
+        "link": "https://www.theage.com.au/world/north-america/tate-brothers-to-fight-extradition-to-uk-on-rape-and-sex-trafficking-charges-20260721-p60h0s.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Tate brothers appear in US court for extradition proceedings",
+        "desc": "They were arrested on Saturday after the UK announced dozens of new charges, including rape and sex trafficking, which they deny.",
+        "link": "https://www.bbc.co.uk/news/articles/c6294y87wk6o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Tate brothers to remain behind bars for now as UK seeks extradition on rape, trafficking charges",
+        "desc": "Andrew and Tristan Tate will remain behind bars for now after appearing in a Miami federal courtroom as they begin fighting Britain's extradition request on 59 charges, including rape and human trafficking.",
+        "link": "https://www.foxnews.com/world/tate-brothers-remain-behind-bars-now-uk-seeks-extradition-rape-trafficking-charges"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "The Open 2026: Report claims Bryson DeChambeau wanted Donald Trump's help in rules drama",
+      "summary": "The American was handed a two-shot penalty during the second round.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Bryson DeChambeau wanted President Trump to intervene in his Open Championship penalty: report",
+        "desc": "Bryson DeChambeau reportedly wanted President Trump to intervene in his two-stroke penalty at the Open Championship, but the president denied the request.",
+        "link": "https://www.foxnews.com/sports/bryson-dechambeau-wanted-president-trump-intervene-open-championship-penalty-report"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Revealed: Stroppy Bryson DeChambeau threatened to call Donald Trump during his meltdown at The Open",
+        "desc": "Bryson DeChambeau reportedly tried to get US President Donald Trump involved in the dispute that saw him hit with a two-shot penalty at The Open.",
+        "link": "https://www.dailymail.com/sport/golf/article-15990499/Stroppy-Bryson-DeChambeau-asked-Donald-Trump-intervene-meltdown-Open.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "The Open 2026: Report claims Bryson DeChambeau wanted Donald Trump's help in rules drama",
+        "desc": "The American was handed a two-shot penalty during the second round.",
+        "link": "https://7news.com.au/sport/golf/the-open-2026-report-claims-bryson-dechambeau-wanted-donald-trumps-help-in-rules-drama-c-22604033"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Boy, 13, dies during World Cup celebrations in Spain",
+      "summary": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Nearly two million people join Spain’s World Cup celebrations in Madrid",
+        "desc": "Squad arrived home at 2.30pm local time on Monday Victory festivities to centre around the Plaza de Cibeles Almost two million Spaniards, many still bleary-eyed and feeling a little delicate after the country’s historic World Cup victory against Argentina, descended on central Madrid on Monday night to welcome the triumphant national team home. La Roja, who beat Argentina 1-0 in the final in New J",
+        "link": "https://www.theguardian.com/football/2026/jul/20/spain-world-cup-celebration-madrid"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Bitter Argentina players turn their backs to Spain's World Cup trophy lift after violence marred winners' celebrations - as lip-reader reveals what furious star said to winning captain Rodri during br",
+        "desc": "The 2026 runners-up collected their silver medals from FIFA supremo Gianni Infantino and US President Donald Trump on the stage at the MetLife Stadium before the winners' trophy lift.",
+        "link": "https://www.dailymail.com/sport/football/article-15989745/Bitter-Argentina-players-turn-backs-Spains-World-Cup-trophy-lift-violence-marred-winners-celebrations.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Boy, 13, dies during World Cup celebrations in Spain",
+        "desc": "Two other young people were injured after a fountain partially collapsed in Salamanca's Ciudad Rodrigo.",
+        "link": "https://www.bbc.co.uk/news/articles/c0qvdy0jv05o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Rare identical quadruplets born in Australia",
+      "summary": "The parents of the four naturally-conceived girls were taken by \"immense surprise\" with the pregnancy, the hospital said.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘One in 15 million’: Brisbane woman gives birth to identical quadruplets",
+        "desc": "Jenitar Na’amoana’s already had four children when she learned of surprise pregnancy ‘unheard of’ in Australia Get our breaking news email, free app or daily news podcast A 34-year-old woman from Brisbane has defied the odds and delivered four naturally conceived, identical quadruplets in what is believed to be an Australian first. Jenitar Na’amoana, who already had four children, was not planning",
+        "link": "https://www.theguardian.com/australia-news/2026/jul/20/one-in-15-million-brisbane-woman-gives-birth-to-identical-quadruplets"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Rare identical quadruplets born in Australia",
+        "desc": "The parents of the four naturally-conceived girls were taken by \"immense surprise\" with the pregnancy, the hospital said.",
+        "link": "https://www.bbc.co.uk/news/articles/cx2jnj3428lo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Queensland family welcomes ‘one-in-15-million’ identical quadruplets",
+        "desc": "The naturally conceived birth is so rare doctors believe it may be an Australian first.",
+        "link": "https://7news.com.au/news/queensland-family-welcomes-one-in-15-million-identical-quadruplets-c-22602186"
        }
       ]
      }
@@ -284,8 +326,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Five key takeaways from Pauline Hanson’s Spotlight special",
-      "summary": "Pauline Hanson said she loved the idea of mass deportations and suggested Tommy Robinson would be welcome in Australia if she became PM.",
+      "headline": "‘Sit down!’ Barnaby Joyce went on ABC’s flagship current affairs show ... and barked at a dog",
+      "summary": "The former deputy prime minister was pugnacious and meandering while sparring with ABC host Sarah Ferguson.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -293,94 +335,23 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Five key takeaways from Pauline Hanson’s Spotlight special",
-        "desc": "Pauline Hanson said she loved the idea of mass deportations and suggested Tommy Robinson would be welcome in Australia if she became PM.",
-        "link": "https://www.theage.com.au/politics/federal/mass-deportations-no-regrets-what-we-learned-from-hanson-s-tv-special-20260719-p60gls.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Conservatives around world at war against ‘leftwing globalists’, Bridget McKenzie tells CPAC London event",
-        "desc": "Nationals senator echoes comments by Pauline Hanson as Labor criticises One Nation leader’s divisive stance Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The National party’s Senate leader, Bridget McKenzie, has used an appearance at a conference of the populist right in London to declare that conservatives are “in a war” against",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/19/bridget-mckenzie-cpac-london-national-party-pauline-hanson-one-nation-ntwnfb"
+        "title": "Pauline Hanson shares Seven pitch for Spotlight special that says program would highlight ‘uncontrolled immigration’",
+        "desc": "One Nation leader posts network’s proposal to travel to UK to explore what Australia faces ‘if we don’t take back control of who comes to our country’ Get our breaking news email, free app or daily news podcast A Seven producer urged Pauline Hanson to travel to Britain to meet Nigel Farage and film a Spotlight special highlighting so-called “uncontrolled immigration”, according to a pitch posted t",
+        "link": "https://www.theguardian.com/australia-news/2026/jul/21/pauline-hanson-shares-seven-pitch-encouraging-her-to-meet-nigel-farage-for-spotlight-special-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "‘Sit down!’ Barnaby Joyce went on ABC’s flagship current affairs show ... and barked at a dog",
+        "desc": "The former deputy prime minister was pugnacious and meandering while sparring with ABC host Sarah Ferguson.",
+        "link": "https://www.theage.com.au/politics/federal/sit-down-barnaby-joyce-went-on-abc-s-flagship-current-affairs-show-and-shouted-at-a-dog-20260720-p60gzq.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Three key policies up for debate at Labor’s national conference",
-      "summary": "The government will consider a change to energy policy that would save $2.5 billion a year, while it will also debate Labor’s stance on the Israeli government.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Three key policies up for debate at Labor’s national conference",
-        "desc": "The government will consider a change to energy policy that would save $2.5 billion a year, while it will also debate Labor’s stance on the Israeli government.",
-        "link": "https://www.theage.com.au/politics/federal/three-key-policies-up-for-debate-at-labor-s-national-conference-20260719-p60gmb.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "There will be disagreement at next week’s Labor conference – but don’t expect the feuds of the past",
-        "desc": "It’s hoped a deliberate demonstration of ‘constructive unity’ by the party will entrench the public’s perception of Labor stability Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The Labor national conference has long been the stage for settling the party’s most vexed debates, a triennial family feud fought with resolutions, amend",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/18/there-will-be-disagreement-at-next-weeks-labor-conference-but-dont-expect-the-feuds-of-the-past"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "The strange case of One Nation’s ‘living soul’, Malcolm Roberts",
-      "summary": "Long before Malcolm Roberts became a One Nation senator, he was referring to himself as a “living soul” and arguing he wasn’t required to obey Australian laws.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Chemtrails to Covid: Malcolm Roberts’ conspiracy theory beliefs under scrutiny amid One Nation surge in polls",
-        "desc": "The Queensland senator’s appearances on fringe podcasts includes statements on a global elite, the UN, the climate crisis and support for Vladimir Putin Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Malcolm Roberts has claimed a cabal of ultra-elite figures is behind the global shift towards green energy, while declaring the Covi",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/19/chemtrails-to-covid-malcolm-roberts-conspiracy-theory-beliefs-under-scrutiny-amid-one-nation-surge-in-polls"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "The strange case of One Nation’s ‘living soul’, Malcolm Roberts",
-        "desc": "Long before Malcolm Roberts became a One Nation senator, he was referring to himself as a “living soul” and arguing he wasn’t required to obey Australian laws.",
-        "link": "https://www.theage.com.au/politics/federal/the-strange-case-of-one-nation-s-living-soul-malcolm-roberts-20260716-p60fyz.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "The 18 important medicines that Australians are missing out on",
-      "summary": "Pharmaceutical companies warn Australia’s complex approvals process is turning off drug companies, as the Trump administration stokes global pricing pressures.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "The 18 important medicines that Australians are missing out on",
-        "desc": "Pharmaceutical companies warn Australia’s complex approvals process is turning off drug companies, as the Trump administration stokes global pricing pressures.",
-        "link": "https://www.theage.com.au/politics/federal/the-18-important-medicines-that-australians-are-missing-out-on-20260714-p60f3p.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 11,
       "headline": "Labor is trying to fix a ‘broken’ economic system. Now it must keep going",
       "summary": "Are the recent budget changes a sign of things to come – or just a pause before lapsing back into caution?",
       "divergent": null,
@@ -389,6 +360,13 @@
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Manufacturing union says Australia’s tax system is ‘rigged’ in bold manifesto ahead of Labor conference",
+        "desc": "AMWU calls for wealth and inheritance taxes, free education and more revenue from gas companies as it outlines ‘working-class agenda’ Get our breaking news email, free app or daily news podcast A new tax rate for the highest income earners, introducing wealth and inheritance taxes and extracting more revenue from gas companies form part of a new leftwing manifesto circulating ahead of the Labor pa",
+        "link": "https://www.theguardian.com/australia-news/2026/jul/21/manufacturing-union-says-australias-tax-system-is-rigged-in-bold-manifesto-ahead-of-labor-conference"
+       },
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
@@ -399,9 +377,9 @@
       ]
      },
      {
-      "id": 12,
-      "headline": "'Let's brew it in the United States': Teamsters target Modelo and Corona in push for Mexican beer tariffs",
-      "summary": "The Teamsters are pushing Trump to impose tariffs as high as 75% on Mexican beer imports like Modelo and Corona to protect U.S. brewery jobs.",
+      "id": 9,
+      "headline": "Reporter's Notebook: The Republican-led vote that revealed Democrats' new divide on Israel",
+      "summary": "A House vote to cut $3 billion in aid to Israel split Democrats nearly down the middle, with 103 voting to slash assistance to the Israeli military.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -411,9 +389,66 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "'Let's brew it in the United States': Teamsters target Modelo and Corona in push for Mexican beer tariffs",
-        "desc": "The Teamsters are pushing Trump to impose tariffs as high as 75% on Mexican beer imports like Modelo and Corona to protect U.S. brewery jobs.",
-        "link": "https://www.foxnews.com/politics/lets-brew-united-states-teamsters-target-modelo-corona-push-mexican-beer-tariffs"
+        "title": "Reporter's Notebook: The Republican-led vote that revealed Democrats' new divide on Israel",
+        "desc": "A House vote to cut $3 billion in aid to Israel split Democrats nearly down the middle, with 103 voting to slash assistance to the Israeli military.",
+        "link": "https://www.foxnews.com/politics/reporters-notebook-republican-led-vote-revealed-democrats-new-divide-israel"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "EXCLUSIVE: Ousted DHS counterterrorism chief sues millionaire ex over alleged sugar daddy smear campaign",
+      "summary": "A former DHS counterterrorism official filed a defamation lawsuit accusing her ex-boyfriend of leaking a fabricated sugar daddy scandal to end her career.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "EXCLUSIVE: Ousted DHS counterterrorism chief sues millionaire ex over alleged sugar daddy smear campaign",
+        "desc": "A former DHS counterterrorism official filed a defamation lawsuit accusing her ex-boyfriend of leaking a fabricated sugar daddy scandal to end her career.",
+        "link": "https://www.foxnews.com/politics/ousted-dhs-counterterrorism-chief-sues-millionaire-ex-alleged-sugar-daddy-smear-campaign"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Johnson has three-word answer on whether House will leave early",
+      "summary": "Mike Johnson vows House Republicans won't leave Washington until votes on the stock trading ban, stopgap spending, and defense bill are complete.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Johnson has three-word answer on whether House will leave early",
+        "desc": "Mike Johnson vows House Republicans won't leave Washington until votes on the stock trading ban, stopgap spending, and defense bill are complete.",
+        "link": "https://www.foxnews.com/politics/johnson-has-three-word-answer-whether-house-leave-early"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "Birth tourism fight shifts to US ‘tropical maternity ward’ with history of Chinese exploitation",
+      "summary": "Rep. Morgan Griffith's bill targets birthright citizenship in four U.S. territories, citing Insular Cases precedent after the Supreme Court's ruling.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Birth tourism fight shifts to US ‘tropical maternity ward’ with history of Chinese exploitation",
+        "desc": "Rep. Morgan Griffith's bill targets birthright citizenship in four U.S. territories, citing Insular Cases precedent after the Supreme Court's ruling.",
+        "link": "https://www.foxnews.com/politics/birth-tourism-fight-shifts-us-tropical-maternity-ward-history-chinese-exploitation"
        }
       ]
      }
@@ -425,8 +460,8 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
-      "summary": "I’m partial to that avocado green one. | Image: Reto Project Following the success of its $99 Kodak-branded Snapic A1, Reto Project is releasing the Kodak EC35, an even more affordable 35mm film camera for just $34.99. The EC35 certainly isn't fancy. Its 25mm acrylic lens with a fixed f/10 aperture and 1/100 shutter speed basically put it on par with a drugstore disposable. The fact that it has a ",
+      "headline": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
+      "summary": "Online retailer AliExpress says it's shocked by largest DSA fine yet.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -434,18 +469,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Kodak EC35 is a dirt-cheap point-and-shoot film camera",
-        "desc": "I’m partial to that avocado green one. | Image: Reto Project Following the success of its $99 Kodak-branded Snapic A1, Reto Project is releasing the Kodak EC35, an even more affordable 35mm film camera for just $34.99. The EC35 certainly isn't fancy. Its 25mm acrylic lens with a fixed f/10 aperture and 1/100 shutter speed basically put it on par with a drugstore disposable. The fact that it has a ",
-        "link": "https://www.theverge.com/gadgets/967687/kodak-ec35-point-and-shoot-film-camera"
+        "title": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
+        "desc": "Online retailer AliExpress says it's shocked by largest DSA fine yet.",
+        "link": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/"
+       },
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "AliExpress fined record €550m by EU for allowing sale of illegal goods",
+        "desc": "The Chinese retailer allowed unsafe toys and counterfeit clothes to be sold on its site, says the EU.",
+        "link": "https://www.bbc.co.uk/news/articles/cp8714286dpo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "I hate that I don’t hate this song made with Suno",
-      "summary": "1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that I actually quite enjoy 1010Benja's \"Semiramis' Drea",
+      "headline": "The Space Force is now seeking to buy up to $30 billion in rocket launches",
+      "summary": "The Trump administration is asking the Space Force to do a lot. This will require more launches.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -453,18 +495,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "I hate that I don’t hate this song made with Suno",
-        "desc": "1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that I actually quite enjoy 1010Benja's \"Semiramis' Drea",
-        "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music"
+        "title": "The Space Force is now seeking to buy up to $30 billion in rocket launches",
+        "desc": "The Trump administration is asking the Space Force to do a lot. This will require more launches.",
+        "link": "https://arstechnica.com/science/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches/"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "The FBI reportedly won’t investigate ICE anymore",
-      "summary": "ICE agents hide behind masks while skulking through the halls of immigration court | Image: Michael Nigro/Pacific Press/LightRocket via Getty Images According to the New York Times, federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The DHS and DOJ denied the change in policy to The Times. The reported change in guidance follows renewed ",
+      "headline": "Thousands of websites taken down for illegal World Cup streams",
+      "summary": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -472,18 +514,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "The FBI reportedly won’t investigate ICE anymore",
-        "desc": "ICE agents hide behind masks while skulking through the halls of immigration court | Image: Michael Nigro/Pacific Press/LightRocket via Getty Images According to the New York Times, federal agents have been told that the FBI will no longer be investigating confrontations involving ICE agents. The DHS and DOJ denied the change in policy to The Times. The reported change in guidance follows renewed ",
-        "link": "https://www.theverge.com/policy/967674/fbi-wont-investigate-ice-assaults"
+        "title": "Thousands of websites taken down for illegal World Cup streams",
+        "desc": "More than 1,000 illegal streaming sites were shut down in the US during the tournament, with a similar amount blocked in Colombia.",
+        "link": "https://www.bbc.co.uk/news/articles/cqx7wx4vqv1o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Orchid is a delightfully retro and approachable hipster synth",
-      "summary": "A modern tribute to electric chord organs which were basically giant harmonicas connected to a fan. | Photo: Terrence O’Brien / The Verge In 2017, I bought an old Magnus chord organ off Craigslist for $10. It's one of my favorite music gear purchases. Electric chord organs let you play full chords with just a press of a button, making them perfect for aspiring singer-songwriters or fooling around ",
+      "headline": "Get Borderlands 3, Risk of Rain 2 and 13 other great PC games for $15",
+      "summary": "Borderlands 3 is among the 15 games in the 2K Megahits 2026 Bundle. | 2K Games The aptly-named “2K Megahits 2026 Bundle” from Humble includes 15 Steam games for $15. It’s a smattering of the publisher 2K’s biggest games of the 2010s, including BioShock Infinite, Risk of Rain 2, Borderlands 3, and XCOM: Enemy Unknown. The bundle will be available until August 7th, though the bundle page notes that ",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -493,16 +535,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Orchid is a delightfully retro and approachable hipster synth",
-        "desc": "A modern tribute to electric chord organs which were basically giant harmonicas connected to a fan. | Photo: Terrence O’Brien / The Verge In 2017, I bought an old Magnus chord organ off Craigslist for $10. It's one of my favorite music gear purchases. Electric chord organs let you play full chords with just a press of a button, making them perfect for aspiring singer-songwriters or fooling around ",
-        "link": "https://www.theverge.com/entertainment/967485/telepathic-instruments-orchid-tame-impala-synth-review"
+        "title": "Get Borderlands 3, Risk of Rain 2 and 13 other great PC games for $15",
+        "desc": "Borderlands 3 is among the 15 games in the 2K Megahits 2026 Bundle. | 2K Games The aptly-named “2K Megahits 2026 Bundle” from Humble includes 15 Steam games for $15. It’s a smattering of the publisher 2K’s biggest games of the 2010s, including BioShock Infinite, Risk of Rain 2, Borderlands 3, and XCOM: Enemy Unknown. The bundle will be available until August 7th, though the bundle page notes that ",
+        "link": "https://www.theverge.com/gadgets/968191/humble-2k-megahits-bundle-xcom-borderlands-duke-nukem-deal-sale"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Birdfy s solar-powered smart feeder is down to one of its best prices",
-      "summary": "It comes with a solar panel so you don’t need to worry about charging as much during the summer. | Image: Netvue Birdfy has kicked off a midyear sale, taking up to 40 percent off a range of its smart bird feeders. One of the best deals is on Netvue’s Birdfy Feeder AI-Powered Smart Bird Feeder with Camera, which has dropped to $149.99 at Birdfy and is its second-best price to date. The bundle, whic",
+      "headline": "The PlayStation replica ornament is an homage to a great, yet fragile console",
+      "summary": "The ornament requires three 1.5-volt coin batteries, which are included in the box. | Photo: Cameron Faulkner/The Verge You probably know the signature PlayStation boot sound. Did you know that it's technically a multi-part chime? There's the synthy section where \"Sony Computer Entertainment\" shows onscreen with a white background. You only get to the next screen with the echo-y chimes and the col",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -512,16 +554,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Birdfy s solar-powered smart feeder is down to one of its best prices",
-        "desc": "It comes with a solar panel so you don’t need to worry about charging as much during the summer. | Image: Netvue Birdfy has kicked off a midyear sale, taking up to 40 percent off a range of its smart bird feeders. One of the best deals is on Netvue’s Birdfy Feeder AI-Powered Smart Bird Feeder with Camera, which has dropped to $149.99 at Birdfy and is its second-best price to date. The bundle, whic",
-        "link": "https://www.theverge.com/gadgets/967336/birdfy-feeder-ai-powered-smart-bird-feeder-with-camera-deal-sale"
+        "title": "The PlayStation replica ornament is an homage to a great, yet fragile console",
+        "desc": "The ornament requires three 1.5-volt coin batteries, which are included in the box. | Photo: Cameron Faulkner/The Verge You probably know the signature PlayStation boot sound. Did you know that it's technically a multi-part chime? There's the synthy section where \"Sony Computer Entertainment\" shows onscreen with a white background. You only get to the next screen with the echo-y chimes and the col",
+        "link": "https://www.theverge.com/tech/967989/hallmark-keepsake-playstation-ornament-hands-on"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "US Marshals arrest the Tate brothers in Miami",
-      "summary": "Andrew and Tristan Tate talk to the media on March 23, 2025 in Romania. | Image: Andrei Pungovschi/Getty Images The manosphere influencers Andrew and Tristan Tate were arrested Saturday in Miami by US Marshals in relation to new rape and sex trafficking charges in England. According to the Associated Press, British authorities are seeking the brothers' extradition. The new charges facing Andrew Ta",
+      "headline": "AT&T loses key ruling in bid to stop offering basic phone service in California",
+      "summary": "AT&T suffers setback but will keep asking court and FCC to preempt state rules.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -529,11 +571,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "US Marshals arrest the Tate brothers in Miami",
-        "desc": "Andrew and Tristan Tate talk to the media on March 23, 2025 in Romania. | Image: Andrei Pungovschi/Getty Images The manosphere influencers Andrew and Tristan Tate were arrested Saturday in Miami by US Marshals in relation to new rape and sex trafficking charges in England. According to the Associated Press, British authorities are seeking the brothers' extradition. The new charges facing Andrew Ta",
-        "link": "https://www.theverge.com/policy/967651/us-marshals-arrest-the-tate-brothers-in-miami"
+        "title": "AT&T loses key ruling in bid to stop offering basic phone service in California",
+        "desc": "AT&T suffers setback but will keep asking court and FCC to preempt state rules.",
+        "link": "https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california/"
        }
       ]
      }
@@ -545,27 +587,41 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Dollar Tree to shutter 75 stores while growing its overall footprint",
-      "summary": "The discount retailer expects to close about 75 stores this year while opening roughly 400 new locations and growing its overall footprint.",
+      "headline": "Paramount-WBD merger on hold after judge grants temporary restraining order",
+      "summary": "California District Judge Araceli Martínez-Olguín approved a temporary restraining order, putting a 14-day pause on the Paramount-Warner Bros. Discovery merger.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set to slide, Wall Street steadies; Judge pauses $157b Paramount-Warner Bros deal",
+        "desc": "Wall Street is holding steadier, as stocks of chipmakers and other winners of the artificial-intelligence boom trim some of their recent losses.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-slide-wall-street-steadies-paramount-warner-bros-deal-paused-by-judge-20260721-p60h0v.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Judge orders pause on Paramount-Warner merger after challenge from 12 states",
+        "desc": "$81bn merger halted for at least two weeks after US states sued to block deal, saying it would ‘extinguish competition’ A federal judge on Monday ordered Paramount and Warner Bros Discovery to halt their $81bn merger for at least two weeks, allowing states that are challenging the deal more time to see their case through in court. Twelve states, led by California, sued to block Paramount’s pending",
+        "link": "https://www.theguardian.com/film/2026/jul/20/judge-pause-paramount-warner-bros-merger"
+       },
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Dollar Tree to shutter 75 stores while growing its overall footprint",
-        "desc": "The discount retailer expects to close about 75 stores this year while opening roughly 400 new locations and growing its overall footprint.",
-        "link": "https://www.foxbusiness.com/retail/dollar-tree-shutter-75-stores-while-growing-overall-footprint"
+        "title": "Paramount-WBD merger on hold after judge grants temporary restraining order",
+        "desc": "California District Judge Araceli Martínez-Olguín approved a temporary restraining order, putting a 14-day pause on the Paramount-Warner Bros. Discovery merger.",
+        "link": "https://www.foxbusiness.com/media/paramount-wbd-merger-hold-after-judge-grants-temporary-restraining-order"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "ASX eyes uncertain start, Wall Street hit by AI slump",
-      "summary": "The sell-off for winners of the artificial-intelligence boom deepened and yanked stock markets lower worldwide while tensions escalated in the Middle East as the US launched more airstrikes at Iran in response to the killing of American troops.",
+      "headline": "ASX slips, oil jumps, markets remain on edge as war and AI worries drag down sentiment — as it happened",
+      "summary": "The ASX edged lower as markets fret about war and inflated AI valuations. Look back on how the session unfolded on our markets blog.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -573,18 +629,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
+        "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "ASX eyes uncertain start, Wall Street hit by AI slump",
-        "desc": "The sell-off for winners of the artificial-intelligence boom deepened and yanked stock markets lower worldwide while tensions escalated in the Middle East as the US launched more airstrikes at Iran in response to the killing of American troops.",
-        "link": "https://www.theage.com.au/business/markets/asx-eyes-uncertain-start-wall-street-hit-by-ai-slump-20260720-p60gof.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Gilt yields edge higher as Andy Burnham promises to ‘meet fiscal rules’ as prime minister - as it happened",
+        "desc": "Rolling coverage of the latest economic and financial news Investors will be watching the bond market carefully today as Andy Burnham is set to become the prime minister and prepares to pick his cabinet. Russ Mould, an investment director at the broker AJ Bell, said bond markets reacted positively on reports last week that current home secretary Shabana Mahmood is frontrunner for chancellor. Gilt ",
+        "link": "https://www.theguardian.com/business/live/2026/jul/20/oil-price-rises-us-iran-strikes-ryanair-lower-fares-summer-economy-latest-news-updates"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "ASX slips, oil jumps, markets remain on edge as war and AI worries drag down sentiment — as it happened",
+        "desc": "The ASX edged lower as markets fret about war and inflated AI valuations. Look back on how the session unfolded on our markets blog.",
+        "link": "https://www.abc.net.au/news/2026-07-20/asx-markets-business-live-news-july-20/106932946"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "‘Real harm’: Record $830m in fines against banks, financial firms",
-      "summary": "Regulator heralds year of record fines and lengthy jail terms despite landmark legal defeat in case against casino operator.",
+      "headline": "AI is reshaping the economy, but good luck measuring how",
+      "summary": "No one is sure what effect the technology is having right now.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -594,16 +657,16 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "‘Real harm’: Record $830m in fines against banks, financial firms",
-        "desc": "Regulator heralds year of record fines and lengthy jail terms despite landmark legal defeat in case against casino operator.",
-        "link": "https://www.theage.com.au/business/companies/real-harm-record-830m-in-fines-against-banks-financial-firms-20260719-p60gjs.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "AI is reshaping the economy, but good luck measuring how",
+        "desc": "No one is sure what effect the technology is having right now.",
+        "link": "https://www.theage.com.au/business/the-economy/ai-is-reshaping-the-economy-but-good-luck-measuring-how-20260708-p60div.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "Thames Water creditors seek talks with Burnham as nationalisation looms",
-      "summary": "Consortium preparing for potential legal battle amid reports new PM could put the company into temporary public ownership The group of investors pursuing a rescue bid for Thames Water have said they are willing to discuss greater public control but are also preparing for a potential multi-billion pound legal battle amid reports that Andy Burnham could temporarily nationalise the company. London & ",
+      "headline": "The four sets of data that show how the property market is transforming",
+      "summary": "Global instability, shifting tax policies and interest rate pressures force buyers and sellers to adjust to the changing property landscape.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -611,18 +674,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Thames Water creditors seek talks with Burnham as nationalisation looms",
-        "desc": "Consortium preparing for potential legal battle amid reports new PM could put the company into temporary public ownership The group of investors pursuing a rescue bid for Thames Water have said they are willing to discuss greater public control but are also preparing for a potential multi-billion pound legal battle amid reports that Andy Burnham could temporarily nationalise the company. London & ",
-        "link": "https://www.theguardian.com/business/2026/jul/19/thames-water-creditors-prepare-legal-fight-nationalisation"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "The four sets of data that show how the property market is transforming",
+        "desc": "Global instability, shifting tax policies and interest rate pressures force buyers and sellers to adjust to the changing property landscape.",
+        "link": "https://www.abc.net.au/news/2026-07-21/how-the-australian-property-market-is-transforming/106904826"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Australia’s life dissatisfaction levels double as ‘wellbeing poverty’ reaches new highs",
-      "summary": "ABS data show one in 10 people are not satisfied with life – but community cohesion and trust lift happiness scores Get our breaking news email, free app or daily news podcast Nearly 2.2 million Australians 15 years and older are living below the wellbeing poverty line, with the share of people reporting very low life satisfaction doubling over the past decade. In 2025, 9.7%, or about one in 10 Au",
+      "headline": "Stubborn stigma fuelling shocking violence against sex workers in Australia",
+      "summary": "A new inquiry into violence against sex workers in Australia and Thailand comes just weeks after the murder of Thai teenager Tunchanok Donhomla, allegedly by an Australian man.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -630,18 +693,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia’s life dissatisfaction levels double as ‘wellbeing poverty’ reaches new highs",
-        "desc": "ABS data show one in 10 people are not satisfied with life – but community cohesion and trust lift happiness scores Get our breaking news email, free app or daily news podcast Nearly 2.2 million Australians 15 years and older are living below the wellbeing poverty line, with the share of people reporting very low life satisfaction doubling over the past decade. In 2025, 9.7%, or about one in 10 Au",
-        "link": "https://www.theguardian.com/business/2026/jul/20/australias-life-dissatisfaction-levels-double-as-wellbeing-poverty-reaches-new-highs"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Stubborn stigma fuelling shocking violence against sex workers in Australia",
+        "desc": "A new inquiry into violence against sex workers in Australia and Thailand comes just weeks after the murder of Thai teenager Tunchanok Donhomla, allegedly by an Australian man.",
+        "link": "https://www.abc.net.au/news/2026-07-21/inquiry-violence-against-sex-workers-stigma-legal-reforms/106918414"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Why a modest US interest rate rise won’t change much for most businesses",
-      "summary": "Rates may rise, but don’t be too concerned – a small increase is unlikely to change major decisions on investment or hiring With the appointment of a new Federal Reserve chair, the latest concern is that interest rates will go up in the next few months. That decision will depend on many factors, including inflation, jobs and the economy’s overall growth. But when that happens, watch out! The media",
+      "headline": "Australian EV owners deal with 'range anxiety'. China has almost eliminated it",
+      "summary": "In China you can swap an empty electric vehicle battery in about four minutes. It is part of how China has come to dominate the EV industry.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -649,11 +712,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Why a modest US interest rate rise won’t change much for most businesses",
-        "desc": "Rates may rise, but don’t be too concerned – a small increase is unlikely to change major decisions on investment or hiring With the appointment of a new Federal Reserve chair, the latest concern is that interest rates will go up in the next few months. That decision will depend on many factors, including inflation, jobs and the economy’s overall growth. But when that happens, watch out! The media",
-        "link": "https://www.theguardian.com/business/2026/jul/19/us-interest-rates-businesses"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Australian EV owners deal with 'range anxiety'. China has almost eliminated it",
+        "desc": "In China you can swap an empty electric vehicle battery in about four minutes. It is part of how China has come to dominate the EV industry.",
+        "link": "https://www.abc.net.au/news/2026-07-21/china-ev-dominance-over-europe-united-states/106913324"
        }
       ]
      }
@@ -665,8 +728,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "DeChambeau at Irish Open would be great - McIlroy",
-      "summary": "Rory McIlroy says that having Bryson DeChambeau playing in the Irish Open in September \"would be great for the tournament\".",
+      "headline": "Newcastle, Liverpool and England legend Keegan dies",
+      "summary": "Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -676,30 +739,30 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "DeChambeau at Irish Open would be great - McIlroy",
-        "desc": "Rory McIlroy says that having Bryson DeChambeau playing in the Irish Open in September \"would be great for the tournament\".",
-        "link": "https://www.bbc.co.uk/sport/golf/articles/czek3yjrx4ro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Rory McIlroy slams Bryson DeChambeau for ‘performative’ antics after penalty drama",
-        "desc": "Rory McIlroy has accused Bryson DeChambeau of ‘holding the tournament hostage’ in an attention-seeking act.",
-        "link": "https://7news.com.au/sport/golf/rory-mcilroy-slams-bryson-dechambeau-for-performative-antics-after-penalty-drama-c-22596859"
+        "title": "Newcastle, Liverpool and England legend Keegan dies",
+        "desc": "Former England captain and manager Kevin Keegan dies at the age of 75, seven weeks after he revealed he had been diagnosed with stage four cancer.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c2lyl82n2e2o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "McIlroy lashes out at DeChambeau for ‘holding the Open hostage’ over penalty row",
-        "desc": "‘I won’t defend Bryson – I’m not fond of him’ Masters champion says rival’s actions ‘not a good look’ Rory McIlroy has accused a “performative” Bryson DeChambeau of “holding the tournament hostage” after the incredible scenes which marked the end of the American’s second round at the Open. DeChambeau’s antics were matched in noteworthy terms by the scathing sentiment of McIlroy on Saturday. “I won",
-        "link": "https://www.theguardian.com/sport/2026/jul/18/mcilroy-lashes-out-dechambeau-holding-open-hostage-penalty-row"
+        "title": "Kevin Keegan, Liverpool legend and former Newcastle manager, dies aged 75",
+        "desc": "Keegan revealed in June 2026 he had stage four cancer Starred for Liverpool, Hamburg, Newcastle and England Kevin Keegan, the former England and Newcastle manager who was twice named European Footballer of the Year, has died aged 75. As a player, Keegan illuminated countless matches and in the 1970s proved a stalwart member of Liverpool’s serial domestic and European trophy winning team. Keegan’s ",
+        "link": "https://www.theguardian.com/football/2026/jul/20/kevin-keegan-liverpool-legend-and-former-newcastle-manager-dies-aged-75"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Former Newcastle Knights player Scott Dureau dies aged 39 after lengthy health battle",
+        "desc": "The talented halfback spent four years in Australia before becoming an ‘icon’ in the Super League.",
+        "link": "https://7news.com.au/sport/rugby-league/former-newcastle-knights-player-scott-dureau-dies-aged-39-after-lengthy-health-battle-c-22603825"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Russell 'numb to disappointment' after bitter blow to title hopes",
-      "summary": "George Russell crashing out at Spa and falling 50 points behind team-mate Kimi Antonelli is a bitter blow to the Briton, writes Andrew Benson.",
+      "headline": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
+      "summary": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -707,25 +770,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Russell 'numb to disappointment' after bitter blow to title hopes",
-        "desc": "George Russell crashing out at Spa and falling 50 points behind team-mate Kimi Antonelli is a bitter blow to the Briton, writes Andrew Benson.",
-        "link": "https://www.bbc.co.uk/sport/formula1/articles/clyvg82xlpdo?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Russell’s Mercedes problems ‘100% on us’, says Toto Wolff after Belgium blow",
-        "desc": "Russell clipped by Hamilton on lap one after power loss British driver 50 points behind Antonelli in standings Toto Wolff, the Mercedes principal, has admitted the team let George Russell down. The British driver failed to score a point at the Belgian Grand Prix after a clash with Lewis Hamilton which Russell attributed squarely to his car’s performance not being up to scratch. The race at Spa was",
-        "link": "https://www.theguardian.com/sport/2026/jul/19/george-russell-toto-wolff-mercedes-lewis-hamilton-ferrari-belgian-grand-prix-f1-formule-one"
+        "title": "Argentina players face bans as Fifa opens investigation into World Cup final brawls",
+        "desc": "Leandro Paredes was shown a red card after final whistle Fifa looking into Falklands banner after England v Argentina Fifa has opened an investigation into the violent scenes that followed Spain’s World Cup final win on Sunday, with several Argentina players facing bans. Nahuel Molina appeared to strike Spain’s captain Rodri in the stomach as he ran on to the pitch following the final whistle, whi",
+        "link": "https://www.theguardian.com/football/2026/jul/20/argentina-players-face-bans-as-fifa-opens-investigation-into-world-cup-final-brawls"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Fifa opens investigation into Argentina post-final trouble - what happens next?",
+        "desc": "Argentina will face an investigation into the ugly scenes at the end of the World Cup final, Fifa has confirmed.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/clyxjk0z5y7o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Trump presence means tight security for World Cup final",
-      "summary": "Supporters faced long queues to get into New York New Jersey Stadium amid heightened security for the 2026 World Cup final.",
+      "headline": "The Open 2026: Report claims Bryson DeChambeau wanted Donald Trump's help in rules drama",
+      "summary": "The American was handed a two-shot penalty during the second round.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -733,25 +796,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
+        "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Trump presence means tight security for World Cup final",
-        "desc": "Supporters faced long queues to get into New York New Jersey Stadium amid heightened security for the 2026 World Cup final.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c304p73m3zgo?at_medium=RSS&at_campaign=rss"
+        "title": "The Open 2026: Report claims Bryson DeChambeau wanted Donald Trump's help in rules drama",
+        "desc": "The American was handed a two-shot penalty during the second round.",
+        "link": "https://7news.com.au/sport/golf/the-open-2026-report-claims-bryson-dechambeau-wanted-donald-trumps-help-in-rules-drama-c-22604033"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "World Cup 2026: Spain v Argentina final buildup, security stepped up with Trump attendance – as it happened",
-        "desc": "Our writers reacted to all the news ahead of the 2026 World Cup final between Spain and Argentina Watching England against France – though, of course, defensive intensity was lower – it was still noticeable how dangerous Saka and Marcus Rashford were on the counter. Had Tuchel sent them on against Argentina soon after England scored, Lionel Scaolini’s men would’ve had to respect it and might well ",
-        "link": "https://www.theguardian.com/football/live/2026/jul/19/world-cup-2026-spain-v-argentina-final-buildup-england-win-10-goal-thriller-live"
+        "title": "Pantomime villain Bryson DeChambeau ends his Open with a whimper | Sean Ingle",
+        "desc": "R&A can quietly exhale as American’s challenge fizzles out in front of the occasional barb from Royal Birkdale crowd Deep into the final round of the Open, and Bryson DeChambeau is almost legless in the last chance saloon. He has slipped to minus five, four off the clubhouse lead, with eight holes to play. Worse still, he has not made birdie all day. But there is a sliver of hope. After all, in 20",
+        "link": "https://www.theguardian.com/sport/2026/jul/19/pantomime-villain-bryson-dechambeau-ends-his-open-with-a-whimper"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Sideline brawl erupts in Wallabies coach Joe Schmidt’s big farewell victory over Italy",
-      "summary": "The referee dished out a red card as the Aussies’ second-worst coaching tenure ended on a high.",
+      "headline": "Donald Trump lingers to stay in Spain’s World Cup famous trophy shot",
+      "summary": "A hot-mic moment said it all after FIFA president Gianni Infantino failed to intervene in time.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -761,23 +824,23 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Schmidt leaves repaired Wallabies with gifts of Canham and Lonergan for Kiss | Daniel Gallan",
-        "desc": "Australia’s lack of forwards remains a problem, but the departing coach raised the ceiling and left a deeper and more experienced group. Australia ended the Joe Schmidt era like a struggling restaurant producing one of its finest meals on the night the head chef handed back his keys. Everything came together: the service was sharp, the ingredients were handled with care, but loyal patrons left won",
-        "link": "https://www.theguardian.com/sport/2026/jul/18/schmidt-leaves-repaired-wallabies-with-gifts-of-canham-and-lonergan-for-kiss"
+        "title": "Trump and Infantino booed at World Cup final – video",
+        "desc": "Boos descended from the stands as Donald Trump and the Fifa president, Gianni Infantino, took to the field for the World Cup trophy ceremony at New York New Jersey ⁠stadium on Sunday. Spain beat defending champions Argentina 1-0 to win the title. After the US president presented Spain with the trophy, he attempted to stand with the team at the side of the podium as they celebrated, before Infantin",
+        "link": "https://www.theguardian.com/sport/video/2026/jul/20/trump-and-infantino-booed-at-world-cup-final-video"
        },
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Sideline brawl erupts in Wallabies coach Joe Schmidt’s big farewell victory over Italy",
-        "desc": "The referee dished out a red card as the Aussies’ second-worst coaching tenure ended on a high.",
-        "link": "https://7news.com.au/sport/rugby-union/unwanted-history-avoided-in-wallabies-coach-joe-schmidts-farewell-victory-over-italy-c-22596109"
+        "title": "Donald Trump lingers to stay in Spain’s World Cup famous trophy shot",
+        "desc": "A hot-mic moment said it all after FIFA president Gianni Infantino failed to intervene in time.",
+        "link": "https://7news.com.au/sport/soccer/donald-trump-lingers-to-stay-in-spains-world-cup-famous-trophy-shot-c-22599108"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
-      "summary": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
+      "headline": "Dragons make call on new coach with Dean Young given two-year deal",
+      "summary": "The club great beat out the challenge of his former teammate to secure the top job.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -785,18 +848,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
+        "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Robbie Williams, Tom Cruise and Jennifer Hudson among stars at World Cup closing ceremony",
-        "desc": "The celebrity line-up will continue at half-time with performances by Madonna, Justin Bieber, Shakira and BTS.",
-        "link": "https://www.bbc.co.uk/news/articles/clyxjl0wkl7o?at_medium=RSS&at_campaign=rss"
+        "title": "Dragons make call on new coach with Dean Young given two-year deal",
+        "desc": "The club great beat out the challenge of his former teammate to secure the top job.",
+        "link": "https://7news.com.au/sport/rugby-league/dragons-make-call-on-new-coach-with-dean-young-given-two-year-deal-c-22603086"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Tasmania Devils sign Ken Hinkley as first AFL coach in five-year deal",
+        "desc": "Former Port Adelaide coach will prepare club for 2028 entry Nathan Buckley and John Longmire overlooked for role Ken Hinkley has been officially named as the Tasmania Devils’ inaugural AFL coach, less than 12 months after being moved on from Port Adelaide. The league’s newest expansion franchise, who will enter the competition in 2028, announced on Monday that the 59-year-old had signed a five-yea",
+        "link": "https://www.theguardian.com/sport/2026/jul/20/ken-hinkley-coach-tasmania-devils-afl"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Spain v Argentina: World Cup 2026 final – live",
-      "summary": "⚽ World Cup final kick-off: 3pm EST/8pm BST/5am AEST ⚽ Trump, half-time show and everything but football – live ⚽ Match gallery | Golden Boot | Follow on TikTok | Mail us You can also follow the build up on our news blog, which contains photographtic proof that things are livening up in NYC “One of the big questions for those of us in the UK is how to watch the final,” writes David Wall. “For all ",
+      "headline": "Argentina coach Lionel Scaloni ends press conference in tears after World Cup final: ‘I’m sorry’",
+      "summary": "Lionel Scaloni could not hold it back when one question triggered a lot of emotion.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -804,11 +874,18 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Argentina coach Lionel Scaloni ends press conference in tears after World Cup final: ‘I’m sorry’",
+        "desc": "Lionel Scaloni could not hold it back when one question triggered a lot of emotion.",
+        "link": "https://7news.com.au/sport/soccer/argentina-coach-lionel-scaloni-ends-press-conference-in-tears-after-world-cup-final-im-sorry-c-22600677"
+       },
+       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Spain v Argentina: World Cup 2026 final – live",
-        "desc": "⚽ World Cup final kick-off: 3pm EST/8pm BST/5am AEST ⚽ Trump, half-time show and everything but football – live ⚽ Match gallery | Golden Boot | Follow on TikTok | Mail us You can also follow the build up on our news blog, which contains photographtic proof that things are livening up in NYC “One of the big questions for those of us in the UK is how to watch the final,” writes David Wall. “For all ",
-        "link": "https://www.theguardian.com/football/live/2026/jul/19/spain-v-argentina-world-cup-2026-final-live-updates"
+        "title": "Lionel Messi’s World Cup fairytale ends with pitiful Argentina as final villains | Pablo Iglesias Maurer",
+        "desc": "Game’s greatest player will not see his legacy sullied by defeat to Spain but his team’s display destroyed the game Playing on the grandest stage in sport for the last time, Lionel Messi seemed almost certain to provide one last memorable moment in this World Cup final. Yet as the sun ducked behind the west stand of New York New Jersey Stadium on Sunday, it became clearer and clearer that Argentin",
+        "link": "https://www.theguardian.com/football/2026/jul/20/lionel-messis-world-cup-fairytale-ends-with-pitiful-argentina-as-final-villains"
        }
       ]
      }
@@ -820,8 +897,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "17 Artists Perform At World Cup Finals Halftime Show Between Spain And Argentina",
-      "summary": "The World Cup is finishing with a bang, as Argentina and Spain face off in the most-watched event in the world with the first-ever halftime show.",
+      "headline": "Scrubs Season 2 Confirms Two Major Cast Exits",
+      "summary": "Scrubs returned earlier this year and earned a renewal from ABC, but the medical comedy is undergoing a cast shakeup ahead of its second season.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -831,23 +908,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "17 Artists Perform At World Cup Finals Halftime Show Between Spain And Argentina",
-        "desc": "The World Cup is finishing with a bang, as Argentina and Spain face off in the most-watched event in the world with the first-ever halftime show.",
-        "link": "https://screenrant.com/world-cup-final-halftime-show-spain-argentina/"
+        "title": "Scrubs Season 2 Confirms Two Major Cast Exits",
+        "desc": "Scrubs returned earlier this year and earned a renewal from ABC, but the medical comedy is undergoing a cast shakeup ahead of its second season.",
+        "link": "https://screenrant.com/scrubs-season-2-cast-exits-returns-promoted/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Scrubs’ Ups Ava Bunn To Series Regular Alongside Lead OG Trio As Season 2 Sets Cast Returns & Two Main Characters’ Departures",
+        "desc": "ABC’s Scrubs has locked in the main cast for Season 2, and the revival is shaking up a few things, with more screen time for OG Neil Flynn and new addition Rachel Bilson and two prominent recurring characters, Dr. Park (Joel Kim Booster) and Charge Nurse Raymond (X Mayo), not returning. No changes to the […]",
+        "link": "https://deadline.com/2026/07/scrubs-season-2-cast-ava-bunn-who-is-returning-leaving-1236998486/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "FIFA World Cup Final 2026 Livestream: Here’s Where to Watch the Spain vs. Argentina Online",
-        "desc": "After a month of gameplay, the 2026 FIFA World Cup Final starts on Sunday, July 19. For the 23rd edition of the international soccer tournament final, the match takes place at New York New Jersey Stadium (MetLife Stadium) in East Rutherford, New Jersey. Kick off is at 3 p.m. ET/12 p.m. PT. If you want […]",
-        "link": "https://variety.com/2026/shopping/news/how-to-watch-spain-vs-argentina-world-cup-final-2026-live-online-free-1236814389/"
+        "title": "‘Scrubs’ Revival Ups Ava Bunn to Series Regular, X Mayo and Joel Kim Booster Exit",
+        "desc": "The “Scrubs” revival at ABC is undergoing some cast changes ahead of its second season (and the show’s 11th season overall). Ava Bunn, who starred as Dr. Sam Tosh in the first revival season, has been upped to series regular status for the second season. Meanwhile, both X Mayo and Joel Kim Booster — who […]",
+        "link": "https://variety.com/2026/tv/news/scrubs-revival-season-11-ava-bun-x-mayo-joel-kim-booster-1236816776/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Anne Hathaway Says ‘Princess Diaries 3’ Had a ‘Story Breakthrough’ After Having to ‘Start Over’ With the Script: ‘We are Moving in the Right Direction’",
-      "summary": "“Princess Diaries 3” recently had a breakthrough after a scrapped script, Anne Hathaway revealed during an appearance on SiriusXM’s “Radio Andy.” “I’m busy making baby number three, and that has sort of taken the place of knowing when exactly I can make ‘Princess Diaries 3,’” Hathaway said. “I can say I think we had a story […]",
+      "headline": "We Are Aliens Anime Film Screens at Film Festivals in Canada, Australia, New Zealand in 2026",
+      "summary": "OIAF also screens Mononoke the Movie: Chapter 3; MIFF, NZIF screen live-action The Samurai and the Prisoner film",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -855,25 +939,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Anne Hathaway Says ‘Princess Diaries 3’ Had a ‘Story Breakthrough’ After Having to ‘Start Over’ With the Script: ‘We are Moving in the Right Direction’",
-        "desc": "“Princess Diaries 3” recently had a breakthrough after a scrapped script, Anne Hathaway revealed during an appearance on SiriusXM’s “Radio Andy.” “I’m busy making baby number three, and that has sort of taken the place of knowing when exactly I can make ‘Princess Diaries 3,’” Hathaway said. “I can say I think we had a story […]",
-        "link": "https://variety.com/2026/film/news/anne-hathaway-princess-diaries-3-breakthrough-script-1236816029/"
+        "title": "We Are Aliens Anime Film Screens at Film Festivals in Canada, Australia, New Zealand in 2026",
+        "desc": "OIAF also screens Mononoke the Movie: Chapter 3; MIFF, NZIF screen live-action The Samurai and the Prisoner film",
+        "link": "https://www.animenewsnetwork.com/news/2026-07-20/we-are-aliens-anime-film-screens-at-film-festivals-in-canada-australia-new-zealand-in-2026/.239771"
        },
        {
-        "outlet": "Deadline",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Anne Hathaway Shares ‘Princess Diaries 3’ Update After Having To “Start Over”: “We Had A Story Breakthrough”",
-        "desc": "Anne Hathaway is giving an update on The Princess Diaries 3 after years in development. In a new interview, Hathaway revealed that the script they had been working on had to be scrapped for a new direction and that they had recently had a “breakthrough.” “I’m busy making baby number three, and that has sort […]",
-        "link": "https://deadline.com/2026/07/anne-hathaway-princess-diaries-3-update-1236997738/"
+        "title": "Keanu Reeves and Patrick Swayze Surf Back into Theaters for ‘Point Break’s’ 35th Anniversary – Film News in Brief",
+        "desc": "Keanu Reeves and Patrick Swayze are surfing back to the big screen in celebration of “Point Break’s” 35th anniversary. A new 4k restoration will be released by Resurgence Media Group, Saga Arts and Fathom Entertainment. The film will hit theaters on Aug. 16 and 19. Surfer Matt Archbold will present an exclusive introduction ahead of […]",
+        "link": "https://variety.com/2026/film/news/film-news-in-brief-july-20-2026-1236816245/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "‘The Odyssey’ Becomes Christopher Nolan’s Biggest Global Debut of All Time With $264 Million",
-      "summary": "“The Odyssey” is off to an epic start at the box office. Universal’s action-adventure generated $264.1 million globally over the weekend, including $139.6 million internationally and $124.5 million domestically. It’s a towering debut for a movie that’s R-rated, nearly three hours in length and isn’t part of a major franchise. Of course, “The Odyssey” isn’t […]",
+      "headline": "Sony Pictures TV’s Mallory Morehead Pritzl Joins Kovert Creative’s Entertainment PR Team",
+      "summary": "Kovert Creative has hired 15-year comms veteran Mallory Morehead Pritzl. The former Sony Pictures Television Director of Corporate Communications will be working on Covert’s Entertainment PR Team in L.A, overseeing communications for programming-focused clients including Jimmy Kimmel Live!, Paper Kite Productions and SmartLess Media while also working across Bloomberg Media and Spotify. During her",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -881,25 +965,51 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘The Odyssey’ Becomes Christopher Nolan’s Biggest Global Debut of All Time With $264 Million",
-        "desc": "“The Odyssey” is off to an epic start at the box office. Universal’s action-adventure generated $264.1 million globally over the weekend, including $139.6 million internationally and $124.5 million domestically. It’s a towering debut for a movie that’s R-rated, nearly three hours in length and isn’t part of a major franchise. Of course, “The Odyssey” isn’t […]",
-        "link": "https://variety.com/2026/film/box-office/the-odyssey-christopher-nolan-biggest-global-debut-1236815981/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘The Odyssey’ Conquers $264M+ Around The World, Best Ever For Christopher Nolan Ahead Of ‘Dark Knight Rises’ – Global B.O. Sunday Update",
-        "desc": "SUNDAY AM: Odysseus’ boatload of cash from his global voyage just got bigger with Universal’s Christopher Nolan epic The Odyssey raking in $264.1M worldwide, again a record start for the director ahead of Dark Knight Rises ($249M WW). The foreign start of $139.6M is also the director’s biggest international opening ever ahead of Oppenheimer and […]",
-        "link": "https://deadline.com/2026/07/box-office-global-the-odyssey-1236996979/"
+        "title": "Sony Pictures TV’s Mallory Morehead Pritzl Joins Kovert Creative’s Entertainment PR Team",
+        "desc": "Kovert Creative has hired 15-year comms veteran Mallory Morehead Pritzl. The former Sony Pictures Television Director of Corporate Communications will be working on Covert’s Entertainment PR Team in L.A, overseeing communications for programming-focused clients including Jimmy Kimmel Live!, Paper Kite Productions and SmartLess Media while also working across Bloomberg Media and Spotify. During her",
+        "link": "https://deadline.com/2026/07/kovert-mallory-morehead-pritzl-1236998744/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Kovert Creative Hires Mallory Morehead Pritzl",
+        "desc": "Mallory Morehead Pritzl has joined bi-coastal communications firm Kovert Creative on their entertainment PR team, Variety has learned. In her new role, Morehead Pritzl will oversee communications for programming-focused Kovert Creative clients like “Jimmy Kimmel Live!,” Amy Poehler’s Paper Kite Productions, Jason Bateman, Sean Hayes, & Will Arnett’s SmartLess Media, as well as Bloomberg Media […]",
+        "link": "https://variety.com/2026/tv/news/kovert-creative-mallory-morehead-pritzl-1236816656/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "James Gunn Gave ‘Big Brother 28’ Star Rick Devens a Cameo in ‘Man of Tomorrow’ but He ‘Had to Cancel’",
-      "summary": "Rick Devens was supposed to have a cameo in James Gunn’s “Man of Tomorrow,” but the reality star had filming obligations with “Big Brother.” Gunn revealed the cameo after Devens gave the DC Studios co-head a shoutout during the live broadcast of “Big Brother” Season 28’s Thursday eviction episode. Gunn shared the clip on social […]",
+      "headline": "Everything We Know About ‘Percy Jackson And The Olympians’ Season 3 So Far",
+      "summary": "Another season of Disney’s television series adaptation of Rick Riordan’s Percy Jackson and the Olympians has come and gone, but Season 3 is close at hand. The series received a very early Season 3 renewal in March 2025, and some very key players have been cast for the third installment. Read on for more details […]",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Everything We Know About ‘Percy Jackson And The Olympians’ Season 3 So Far",
+        "desc": "Another season of Disney’s television series adaptation of Rick Riordan’s Percy Jackson and the Olympians has come and gone, but Season 3 is close at hand. The series received a very early Season 3 renewal in March 2025, and some very key players have been cast for the third installment. Read on for more details […]",
+        "link": "https://deadline.com/feature/percy-jackson-and-the-olympians-season-3-news-updates-1236495797/"
+       },
+       {
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "‘Everything I know about evil I learned in that small town’: John Carpenter on terrifying the world with Halloween, The Thing and The Fog",
+        "desc": "At 78, the king of horror and sci-fi movies is as much of a rebel as ever. He talks about creativity, compromise (he’s not a fan) and how he became addicted to moviemaking In 2024, John Carpenter had a dream that sounds like one of his movies: it involved a portal to the underworld beneath a disused church, monstrous demons and people being turned inside out. “I woke up and thought: wow! What an e",
+        "link": "https://www.theguardian.com/lifeandstyle/2026/jul/20/everything-i-know-about-evil-i-learned-in-that-small-town-john-carpenter-on-terrifying-the-world-with-halloween-the-thing-and-the-fog"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "Chloe Fineman Among Four Cast in ‘Myron Bolitar’ Series at Netflix",
+      "summary": "Chloe Fineman has already found her first post-“SNL” gig, with a series regular role in the “Myron Bolitar” series currently in the works at Netflix. Fineman is one of three actors joining the show as a series regular, alongside both Jabari Banks (“Bel Air”) and Jamie McShane (“Task,” “Wednesday”). In addition, Ben McKenzie (“Everyone is […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -909,42 +1019,23 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "James Gunn Gave ‘Big Brother 28’ Star Rick Devens a Cameo in ‘Man of Tomorrow’ but He ‘Had to Cancel’",
-        "desc": "Rick Devens was supposed to have a cameo in James Gunn’s “Man of Tomorrow,” but the reality star had filming obligations with “Big Brother.” Gunn revealed the cameo after Devens gave the DC Studios co-head a shoutout during the live broadcast of “Big Brother” Season 28’s Thursday eviction episode. Gunn shared the clip on social […]",
-        "link": "https://variety.com/2026/film/news/james-gunn-big-brother-rick-devens-man-of-tomorrow-cameo-1236815991/"
+        "title": "Chloe Fineman Among Four Cast in ‘Myron Bolitar’ Series at Netflix",
+        "desc": "Chloe Fineman has already found her first post-“SNL” gig, with a series regular role in the “Myron Bolitar” series currently in the works at Netflix. Fineman is one of three actors joining the show as a series regular, alongside both Jabari Banks (“Bel Air”) and Jamie McShane (“Task,” “Wednesday”). In addition, Ben McKenzie (“Everyone is […]",
+        "link": "https://variety.com/2026/tv/news/chloe-fineman-myron-bolitar-series-netflix-1236816733/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "James Gunn Says ‘Big Brother 28’s Rick Devens Was Set For ‘Man Of Tomorrow’ Cameo But “Had To Cancel” Due To CBS Competition",
-        "desc": "James Gunn is a fan of Big Brother, and his friend Rick Devens joined the cast of Season 28 of the CBS competition. On Thursday’s eviction episode, Devens gave Gunn a shoutout during the live broadcast after sharing his vote to evict. The DC Studios co-head shared the clip of Devens name-dropping him on live […]",
-        "link": "https://deadline.com/2026/07/james-gunn-big-brother-28-rick-devens-superman-cameo-1236997635/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "DC's Newest Hero Is Officially Better Than Batman",
-      "summary": "DC's newest hero outsmarts Batman before the Dark Knight even realizes it, challenging the Bruce Wayne's reputation as the World's Greatest Detective.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "DC's Newest Hero Is Officially Better Than Batman",
-        "desc": "DC's newest hero outsmarts Batman before the Dark Knight even realizes it, challenging the Bruce Wayne's reputation as the World's Greatest Detective.",
-        "link": "https://screenrant.com/batman-prion-better-tracker-skills/"
+        "title": "Chloe Fineman Joins Netflix’s ‘Myron Bolitar’ Following ‘SNL’ Exit, Joined By Jabari Banks, Jamie McShane & Ben McKenzie",
+        "desc": "EXCLUSIVE: Following the announcement last week that Chloe Fineman was leaving NBC’s Saturday Night Live, she has officially set up her next role. Fineman will star opposite Jabari Banks in his first major show since the conclusion of Peacock’s Bel-Air and Jamie McShane (Task, Wednesday) in Netflix’s Myron Bolitar in series regular roles. Ben McKenzie […]",
+        "link": "https://deadline.com/2026/07/netflix-myron-bolitar-cast-chloe-fineman-jabari-banks-1236998530/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "The Real Reason Christopher Nolan Will Never Answer His Movies’ Ambiguous Endings",
-      "summary": "Christopher Nolan explains the purpose of his ambiguous endings and the one movie that is the reason he will never give us real answers.",
+      "headline": "Rebel Wilson’s ‘The Deb’ Gets First Trailer & Digital Release Date; Pic Sparked High-Profile Legal Battles",
+      "summary": "It’s been a long and legally-winding road to release for Rebel Wilson’s directorial debut, but we now have the first trailer for The Deb. Have a look above. Sunrise Films on Monday set an August 25 U.S. digital-release date for the musical comedy, which will debut in a day earlier in the UK via Vertigo […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -952,11 +1043,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "The Real Reason Christopher Nolan Will Never Answer His Movies’ Ambiguous Endings",
-        "desc": "Christopher Nolan explains the purpose of his ambiguous endings and the one movie that is the reason he will never give us real answers.",
-        "link": "https://screenrant.com/christopher-nolan-movies-ambiguous-endings-no-answers-explained/"
+        "title": "Rebel Wilson’s ‘The Deb’ Gets First Trailer & Digital Release Date; Pic Sparked High-Profile Legal Battles",
+        "desc": "It’s been a long and legally-winding road to release for Rebel Wilson’s directorial debut, but we now have the first trailer for The Deb. Have a look above. Sunrise Films on Monday set an August 25 U.S. digital-release date for the musical comedy, which will debut in a day earlier in the UK via Vertigo […]",
+        "link": "https://deadline.com/2026/07/the-deb-trailer-release-date-rebel-wilson-1236998746/"
        }
       ]
      }
@@ -964,34 +1055,34 @@
    }
   ],
   "sourcesOk": [
-   "BBC World",
-   "Ars Technica",
-   "BBC Sport",
-   "ABC News",
-   "Deadline",
-   "Variety",
-   "The Verge",
-   "BBC Tech",
-   "Crikey",
-   "Fox Business",
-   "ABC Business",
-   "The Age Business",
-   "The Age Federal Politics",
    "The Age",
-   "Guardian Tech",
-   "Anime News Network",
-   "Guardian AU Business",
-   "Guardian AU Sport",
-   "Guardian AU Politics",
-   "Fox News",
-   "Screen Rant",
-   "Fox News Politics",
    "Guardian Australia",
+   "ABC News",
+   "The Age Federal Politics",
+   "Fox News Politics",
+   "Fox News",
+   "Guardian Tech",
+   "The Verge",
+   "The Age Business",
+   "Guardian AU Business",
+   "Ars Technica",
+   "Crikey",
+   "BBC World",
+   "Fox Business",
+   "Variety",
+   "ABC Business",
+   "Guardian AU Politics",
+   "Deadline",
+   "BBC Tech",
    "7News",
+   "BBC Sport",
+   "Screen Rant",
+   "Guardian AU Sport",
+   "Anime News Network",
    "Guardian Film",
    "7News Sport",
-   "Daily Mail Australia",
-   "SBS News"
+   "SBS News",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1011,15 +1102,15 @@
     "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
    },
    {
-    "title": "The Sheep Detectives",
+    "title": "Backrooms",
     "year": "2026",
-    "rating": 7.5,
+    "rating": 7,
     "genres": [
-     "Comedy",
-     "Family",
-     "Mystery"
+     "Horror",
+     "Sci-Fi",
+     "Thriller"
     ],
-    "overview": "Every night a shepherd reads aloud a murder mystery, pretending his sheep can understand. When he is found dead, the sheep realize at once that it was a murder and think they know everything about how to go about solving it."
+    "overview": "After a therapist's patient disappears into a dimension beyond reality, she must venture into the unknown to save him."
    },
    {
     "title": "Project Hail Mary",
@@ -1033,15 +1124,15 @@
     "overview": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
    },
    {
-    "title": "Backrooms",
+    "title": "The Sheep Detectives",
     "year": "2026",
-    "rating": 7,
+    "rating": 7.5,
     "genres": [
-     "Horror",
-     "Sci-Fi",
-     "Thriller"
+     "Comedy",
+     "Family",
+     "Mystery"
     ],
-    "overview": "After a therapist's patient disappears into a dimension beyond reality, she must venture into the unknown to save him."
+    "overview": "Every night a shepherd reads aloud a murder mystery, pretending his sheep can understand. When he is found dead, the sheep realize at once that it was a murder and think they know everything about how to go about solving it."
    },
    {
     "title": "Toy Story 5",
@@ -1068,16 +1159,6 @@
     "overview": "A father imprisoned for his son's murder receives evidence suggesting his child may be alive, compelling him to escape and uncover the truth."
    },
    {
-    "title": "Dutton Ranch",
-    "year": "2026–",
-    "rating": 8.3,
-    "genres": [
-     "Drama",
-     "Western"
-    ],
-    "overview": "Beth Dutton and Rip Wheeler fight to survive on their cherished 7,000-acre ranch amid tough times and stiff competition, while ensuring young Carter becomes the man he's supposed to be."
-   },
-   {
     "title": "Widow's Bay",
     "year": "2026–",
     "rating": 8.2,
@@ -1100,14 +1181,25 @@
     "overview": "A happily married couple faces a growing threat when a notorious killer from their past, Max Cady, is released from prison and seeks revenge."
    },
    {
-    "title": "Elle",
+    "title": "Dutton Ranch",
     "year": "2026–",
-    "rating": 6.9,
+    "rating": 8.3,
     "genres": [
-     "Comedy",
-     "Drama"
+     "Drama",
+     "Western"
     ],
-    "overview": "Follows Elle Woods' journey through high school, exploring the formative experiences that mold her into the iconic, confident \"Legally Blonde\" character."
+    "overview": "Beth Dutton and Rip Wheeler fight to survive on their cherished 7,000-acre ranch amid tough times and stiff competition, while ensuring young Carter becomes the man he's supposed to be."
+   },
+   {
+    "title": "Agent Kim Reactivated",
+    "year": "2026",
+    "rating": 8.1,
+    "genres": [
+     "Action",
+     "Crime",
+     "Thriller"
+    ],
+    "overview": "Manager Kim was an ordinary head of a household with a daughter and lived as a small citizen. In order to find his daughter, who is his everything, he reveals a secret that should never be revealed to the world."
    }
   ],
   "anime": [
@@ -1169,11 +1261,11 @@
   ]
  },
  "wotd": {
-  "word": "crepuscular",
-  "phonetic": "/kɹɪˈpʌskjʊlə/",
-  "pos": "adjective",
-  "def": "Of or resembling twilight; dim.",
+  "word": "hinterland",
+  "phonetic": "/ˈhɪntə(ɹ)ˌlænd/",
+  "pos": "noun",
+  "def": "The land immediately next to, and inland from, a coast.",
   "example": null,
-  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/crepuscular-us.mp3"
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/hinterland-au.mp3"
  }
 }
