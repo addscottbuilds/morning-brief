@@ -356,6 +356,86 @@ async function buildReleases() {
   return out;
 }
 
+// ------------------------------------------------------ commonwealth games --
+// Glasgow 2026. Before day one: countdown + latest Games headlines. Once the
+// Wikipedia medal-table page stops being a redirect (day one), the parsed
+// tally takes over. Parser verified against the 2022 table format.
+const CG = { start: "2026-07-23", end: "2026-08-02", host: "Glasgow" };
+const CGF_NAMES = {
+  AUS: "Australia", ENG: "England", CAN: "Canada", IND: "India", NZL: "New Zealand",
+  SCO: "Scotland", WAL: "Wales", NIR: "N. Ireland", NGR: "Nigeria", RSA: "South Africa",
+  KEN: "Kenya", JAM: "Jamaica", MAS: "Malaysia", SGP: "Singapore", CYP: "Cyprus",
+  PAK: "Pakistan", UGA: "Uganda", TTO: "Trinidad & Tobago", BOT: "Botswana", GHA: "Ghana",
+  SRI: "Sri Lanka", BAH: "Bahamas", FIJ: "Fiji", PNG: "Papua New Guinea", SAM: "Samoa",
+  GRN: "Grenada", BER: "Bermuda", GUY: "Guyana", MRI: "Mauritius", NAM: "Namibia",
+  ZAM: "Zambia", BAR: "Barbados", IOM: "Isle of Man", JEY: "Jersey", GGY: "Guernsey",
+  MLT: "Malta", CMR: "Cameroon", TAN: "Tanzania", BAN: "Bangladesh", SEY: "Seychelles",
+};
+const CG_FEEDS = [
+  { outlet: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/commonwealth-games/rss.xml" },
+  { outlet: "Guardian", url: "https://www.theguardian.com/sport/commonwealth-games-2026/rss" },
+  { outlet: "7News", url: "https://7news.com.au/sport/commonwealth-games/feed" },
+];
+
+async function buildCommGames() {
+  const out = { start: CG.start, end: CG.end, host: CG.host, medals: null, headlines: [] };
+  if (Date.now() > Date.parse(CG.end) + 4 * 86400000) return null; // long over
+
+  // headlines: merge the Games feeds, newest first, drop near-duplicates
+  const parser = new Parser();
+  const items = [];
+  await Promise.all(CG_FEEDS.map(async f => {
+    try {
+      const feed = await parser.parseString(await fetchFeed(f.url));
+      for (const it of (feed.items || []).slice(0, 10)) {
+        const ts = Date.parse(it.isoDate || it.pubDate || "") || 0;
+        if (Date.now() - ts > 7 * 86400000) continue;
+        items.push({ outlet: f.outlet, title: stripHtml(it.title).slice(0, 160), link: it.link || "", ts });
+      }
+    } catch (e) { console.error(`cg feed fail ${f.outlet}: ${e.message}`); }
+  }));
+  items.sort((a, b) => b.ts - a.ts);
+  for (const it of items) {
+    if (out.headlines.length >= 4) break;
+    const t = tokens(it.title);
+    const dup = out.headlines.some(h => {
+      let n = 0;
+      for (const x of tokens(h.title)) if (t.has(x)) n++;
+      return n >= 3;
+    });
+    if (!dup) out.headlines.push(it);
+  }
+
+  // medal tally from Wikipedia's {{Medals table}} template
+  try {
+    const r = await fetchJson("https://en.wikipedia.org/w/api.php?action=parse&page=" +
+      encodeURIComponent("2026 Commonwealth Games medal table") +
+      "&prop=wikitext&format=json&formatversion=2");
+    const w = (r.parse && r.parse.wikitext) || "";
+    if (!/^\s*#REDIRECT/i.test(w)) {
+      const grab = k => {
+        const o = {};
+        for (const m of w.matchAll(new RegExp(`${k}_([A-Z]{2,3})\\s*=\\s*(\\d+)`, "g"))) o[m[1]] = +m[2];
+        return o;
+      };
+      const g = grab("gold"), s = grab("silver"), b = grab("bronze");
+      const rows = [...new Set([...Object.keys(g), ...Object.keys(s), ...Object.keys(b)])]
+        .map(c => ({ code: c, country: CGF_NAMES[c] || c, g: g[c] || 0, s: s[c] || 0, b: b[c] || 0, total: (g[c] || 0) + (s[c] || 0) + (b[c] || 0) }))
+        .filter(x => x.total > 0)
+        .sort((a, b2) => b2.g - a.g || b2.s - a.s || b2.b - a.b);
+      rows.forEach((x, i) => { x.rank = i + 1; });
+      if (rows.length) {
+        const top = rows.slice(0, 8);
+        const aus = rows.find(x => x.code === "AUS");
+        if (aus && !top.includes(aus)) top.push(aus);
+        out.medals = top;
+      }
+    }
+  } catch (e) { console.error(`cg medals fail: ${e.message}`); }
+
+  return out;
+}
+
 // ------------------------------------------------------------ word of day --
 // Pick today's word from the curated bank (non-adjacent stride so runs of
 // days don't walk the list alphabetically) and fetch its definition from the
@@ -465,13 +545,14 @@ ${JSON.stringify(input, null, 1)}`;
 }
 
 // -------------------------------------------------------------------- main --
-const [markets, news, releases, wotd] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd()]);
+const [markets, news, releases, wotd, commGames] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd(), buildCommGames()]);
 const out = {
   generatedAt: new Date().toISOString(),
   markets,
   news,
   releases,
   wotd,
+  commGames,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +

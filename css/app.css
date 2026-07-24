@@ -283,6 +283,19 @@ header.slim h1 { font-size: 24px; }
 .x-clues li.active { color: var(--accent); }
 .x-clues li b { color: var(--text); font-weight: 700; margin-right: 3px; }
 
+/* commonwealth games */
+.cg-table { width: 100%; border-collapse: collapse; font-size: 13.5px; background: var(--surface); border-radius: 10px; overflow: hidden; }
+.cg-table th { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: left; padding: 8px 10px 4px; }
+.cg-table td { padding: 5px 10px; border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.cg-table .r { text-align: right; }
+.cg-table .m-g { color: #e3c565; }
+.cg-table .m-s { color: #c0c7ce; }
+.cg-table .m-b { color: #c08a5a; }
+.cg-table tr.aus td { background: #23303f; font-weight: 650; }
+.cg-news { display: flex; flex-direction: column; gap: 7px; }
+.cg-headline { display: block; background: var(--surface); border-radius: 8px; padding: 9px 12px; font-size: 13.5px; color: var(--text); text-decoration: none; line-height: 1.4; }
+.cg-outlet { color: var(--muted); font-size: 11px; white-space: nowrap; }
+
 /* connections */
 :root {
   --lv-y: #e3c565; --lv-g: #97b558; --lv-b: #92a7d8; --lv-p: #b183bd;

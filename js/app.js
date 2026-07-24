@@ -171,6 +171,33 @@
     renderMarkets(d.markets);
     renderNews(d.news);
     renderWotd(d.wotd);
+    renderCommGames(d.commGames);
+  }
+
+  function renderCommGames(cg) {
+    if (!cg) return; // games over (or feature absent) — section stays hidden
+    if (Date.now() > Date.parse(cg.end) + 4 * 86400000) return;
+    $("cg-section").hidden = false;
+
+    if (cg.medals && cg.medals.length) {
+      const aus = cg.medals.find(m => m.code === "AUS");
+      $("cg-sub").textContent = aus ? `· AUS ${ordinal(aus.rank)}` : "· medal tally";
+      $("cg-medals").hidden = false;
+      $("cg-medals").innerHTML = `<table class="cg-table">
+        <thead><tr><th></th><th>Nation</th><th class="r m-g">G</th><th class="r m-s">S</th><th class="r m-b">B</th><th class="r">Tot</th></tr></thead>
+        <tbody>` + cg.medals.map(m =>
+          `<tr${m.code === "AUS" ? ' class="aus"' : ""}><td class="r">${m.rank}</td><td>${esc(m.country)}</td>` +
+          `<td class="r m-g">${m.g}</td><td class="r m-s">${m.s}</td><td class="r m-b">${m.b}</td><td class="r"><b>${m.total}</b></td></tr>`
+        ).join("") + `</tbody></table>`;
+    } else {
+      const days = Math.ceil((Date.parse(cg.start + "T00:00:00") - Date.now()) / 86400000);
+      const startTxt = new Date(cg.start + "T00:00:00").toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "long" });
+      $("cg-sub").textContent = days > 0 ? `· ${cg.host} · starts ${startTxt} — in ${days} day${days === 1 ? "" : "s"}` : `· ${cg.host} · under way`;
+    }
+
+    $("cg-news").innerHTML = (cg.headlines || []).map(h =>
+      `<a class="cg-headline" href="${esc(h.link)}" target="_blank" rel="noopener">${esc(h.title)} <span class="cg-outlet">${esc(h.outlet)}</span></a>`
+    ).join("");
   }
 
   function renderWotd(w) {
