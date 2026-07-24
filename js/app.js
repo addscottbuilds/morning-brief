@@ -195,9 +195,20 @@
       $("cg-sub").textContent = days > 0 ? `· ${cg.host} · starts ${startTxt} — in ${days} day${days === 1 ? "" : "s"}` : `· ${cg.host} · under way`;
     }
 
-    $("cg-news").innerHTML = (cg.headlines || []).map(h =>
-      `<a class="cg-headline" href="${esc(h.link)}" target="_blank" rel="noopener">${esc(h.title)} <span class="cg-outlet">${esc(h.outlet)}</span></a>`
-    ).join("");
+    // upcoming: Glasgow's next two competition days (their evening sessions
+    // land in Melbourne's morning, so "today" here is tonight/overnight)
+    $("cg-upcoming").innerHTML = (cg.upcoming || []).map((d, i) => {
+      const dt = new Date(d.date + "T12:00:00");
+      const label = (i === 0 ? "Today in Glasgow — " : "Tomorrow — ") +
+        dt.toLocaleDateString("en-AU", { weekday: "short", day: "numeric", month: "long" });
+      const finals = d.finals.length
+        ? `<div class="cg-finals">🥇 ${d.finals.map(f => `${esc(f.sport)}${f.golds > 1 ? ` ×${f.golds}` : ""}`).join(" · ")}</div>`
+        : "";
+      const comp = d.competing.length
+        ? `<div class="cg-comp">Also on: ${d.competing.map(esc).join(", ")}</div>`
+        : "";
+      return `<div class="cg-day"><div class="cg-day-h">${esc(label)}</div>${finals}${comp}</div>`;
+    }).join("");
   }
 
   function renderWotd(w) {

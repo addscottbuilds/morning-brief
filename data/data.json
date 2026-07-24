@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-24T00:36:07.680Z",
+ "generatedAt": "2026-07-24T01:46:55.145Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8778.2,
-    "chgPct": -0.5077637991612748,
+    "price": 8814.6,
+    "chgPct": -0.2760493268469243,
     "high52": 9202.9,
-    "off52": -4.6148496669527965
+    "off52": -4.219322170185477
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 83.71,
-    "chgPct": -0.6291522758899336,
+    "price": 83.74,
+    "chgPct": -0.5935397393743034,
     "high52": 86.99,
-    "off52": -3.7705483388895287
+    "off52": -3.736061616277733
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.4,
-    "chgPct": -0.7188435274684539,
+    "price": 147.11,
+    "chgPct": -0.23735704457570672,
     "high52": 153.83,
-    "off52": -4.830007150750832
+    "off52": -4.368458688162256
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.39,
-    "chgPct": -0.884509654774979,
+    "price": 59.46,
+    "chgPct": -0.7676872212985388,
     "high52": 64.23,
-    "off52": -7.535419585863308
+    "off52": -7.42643624474545
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 37.75,
-    "chgPct": -0.3694890258738969,
+    "price": 37.83,
+    "chgPct": -0.15835151917376664,
     "high52": 47.78,
-    "off52": -20.992046881540396
+    "off52": -20.824612808706576
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6972,
-    "chgPct": -0.25319855677186476,
+    "price": 0.6982,
+    "chgPct": -0.1101308553329258,
     "high52": 0.7277,
-    "off52": -4.191287618524113
+    "off52": -4.053868352342994
    }
   ],
   "failed": [],
@@ -75,6 +75,46 @@
     "stories": [
      {
       "id": 0,
+      "headline": "US imposes tariffs on dozens of trade partners over 'forced labour' imports",
+      "summary": "The tariffs target around 60 trading partners over claims they failed to properly stop forced labour.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Trump warns of ‘massive attack’ on Iran as oil hits $US100 a barrel again",
+        "desc": "The US conducted a 13th consecutive night of strikes against Iran after the US president also threatened Yemen’s Iran-backed Houthi militants over attacks on tankers in the Red Sea.",
+        "link": "https://www.theage.com.au/world/middle-east/trump-warns-of-massive-attack-on-iran-as-oil-hits-us100-a-barrel-again-20260724-p60i4m.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "US imposes tariffs on dozens of trade partners over 'forced labour' imports",
+        "desc": "The tariffs target around 60 trading partners over claims they failed to properly stop forced labour.",
+        "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Australia hit with 12.5 per cent tariff by Donald Trump - as US plans levies on dozens of trade partners",
+        "desc": "The office of the US trade representative Jamieson Greer published a statement on the decision.",
+        "link": "https://www.dailymail.com/news/article-16001175/donald-trump-trade-tariff-australia-forced-labour.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Donald Trump says decision on ‘massive attack’ against Iran is close",
+        "desc": "President’s remarks follow Houthi strikes on Saudi tankers in the Red Sea and oil prices rising past $100 a barrel again Middle East crisis live – latest updates Donald Trump has said he is close to deciding whether to launch “a massive attack” against Iran, on a scale larger than strikes already witnessed during the months-long conflict with Tehran. Speaking to the Axios news site, the US preside",
+        "link": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "Queensland investigates state’s first suspected H5 bird flu case after dead seabird tests positive",
       "summary": "Workers found a dead petrel washed up on Moreton Island.",
       "divergent": null,
@@ -84,18 +124,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Queensland investigates state’s first suspected H5 bird flu case after dead seabird tests positive",
-        "desc": "Workers found a dead petrel washed up on Moreton Island.",
-        "link": "https://7news.com.au/news/queensland-investigates-states-first-suspected-h5-bird-flu-case-after-dead-seabird-tests-positive-c-22622232"
-       },
-       {
         "outlet": "Guardian Australia",
         "lean": "left",
         "title": "Australia news live: trade minister demands removal of ‘unjustified’ US tariffs; deadly bird flu detected in Queensland for the first time",
         "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
         "link": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Queensland investigates state’s first suspected H5 bird flu case after dead seabird tests positive",
+        "desc": "Workers found a dead petrel washed up on Moreton Island.",
+        "link": "https://7news.com.au/news/queensland-investigates-states-first-suspected-h5-bird-flu-case-after-dead-seabird-tests-positive-c-22622232"
        },
        {
         "outlet": "ABC News",
@@ -107,68 +147,35 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Donald Trump says nuclear deal with Saudi Arabia is contingent on normalising ties with Israel",
-      "summary": "BREAKING: The US President has told the Kingdom it will have to drastically change its stance towards Israel, a significant condition not previously mentioned when the deal was announced.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Trump warns of ‘massive attack’ on Iran as oil hits $US100 a barrel again",
-        "desc": "The US launched its 13th consecutive night of strikes against Iran on Friday morning, after the US president also threatened Yemen’s Iran-backed Houthi militants over attacks on tankers in the Red Sea.",
-        "link": "https://www.theage.com.au/world/middle-east/trump-warns-of-massive-attack-on-iran-as-oil-hits-us100-a-barrel-again-20260724-p60i4m.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Donald Trump says decision on ‘massive attack’ against Iran is close",
-        "desc": "President’s remarks follow Houthi strikes on Saudi tankers in the Red Sea and oil prices rising past $100 a barrel again Middle East crisis live – latest updates Donald Trump has said he is close to deciding whether to launch “a massive attack” against Iran, on a scale larger than strikes already witnessed during the months-long conflict with Tehran. Speaking to the Axios news site, the US preside",
-        "link": "https://www.theguardian.com/world/2026/jul/23/trump-says-he-is-close-to-decision-on-largest-yet-attack-on-iran"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Donald Trump says nuclear deal with Saudi Arabia is contingent on normalising ties with Israel",
-        "desc": "BREAKING: The US President has told the Kingdom it will have to drastically change its stance towards Israel, a significant condition not previously mentioned when the deal was announced.",
-        "link": "https://7news.com.au/news/trump-says-saudi-nuclear-deal-is-contingent-on-normalising-ties-with-israel-c-22620712"
-       }
-      ]
-     },
-     {
       "id": 2,
-      "headline": "Australian Commonwealth Games team split by Gina Rinehart’s big-money medal bonus",
-      "summary": "‘Good luck to the swimmers, I guess.’",
+      "headline": "Watch: Qantas plane touches down in Australia after historic test flight",
+      "summary": "The custom-built Airbus A350-1000ULR landed in Melbourne on Friday after making a direct 19-hour plus flight from the factory in Toulouse.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Gina Rinehart offers bonuses for Australian swimming medals as funding gap exposed",
-        "desc": "Swimmers to earn $30,000 per world record, $20,000 for a gold medal Commonwealth Games Australia gives each team member $5,000 Freestyle king Kyle Chalmers has welcomed potential windfalls for Australia’s Commonwealth Games swimmers after Gina Rinehart offered up cash bonuses for medals and world records. Amid a spate of high-profile athlete withdrawals from Glasgow 2026, Dolphins squad members ha",
-        "link": "https://www.theguardian.com/sport/2026/jul/24/gina-rinehart-bonus-swimming-medals-world-record-commonwealth-games-australia"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Australian Commonwealth Games team split by Gina Rinehart’s big-money medal bonus",
-        "desc": "‘Good luck to the swimmers, I guess.’",
-        "link": "https://7news.com.au/sport/commonwealth-games/australian-commonwealth-games-team-split-by-gina-rineharts-big-money-medal-bonus-c-22622175"
-       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Swimmers banned from thanking Rinehart in Commonwealth Games interviews",
-        "desc": "Australia’s richest person has promised $20,000 prizemoney for any of the team’s swimmers who win gold at the Commonwealth Games. Just don’t expect a public thank you.",
-        "link": "https://www.theage.com.au/sport/swimming/swimmers-banned-from-thanking-rinehart-in-commonwealth-games-interviews-20260724-p60i4l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Watch: Qantas plane touches down in Australia after historic test flight",
+        "desc": "The custom-built Airbus A350-1000ULR landed in Melbourne on Friday after making a direct 19-hour plus flight from the factory in Toulouse.",
+        "link": "https://www.theage.com.au/business/companies/qantas-plane-set-to-arrive-in-australia-today-direct-from-france-20260723-p60i3u.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Qantas tests new ultra long-range Airbus in 17,000km direct flight from France to Melbourne",
+        "desc": "Airbus A350–1000ULR becomes most watched plane on flight tracking websites as Qantas tests new aircraft for its Project Sunrise Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Qantas’s new ultra long-distance aircraft has landed on Australian soil for the first time on Friday after a 19-hour test flight from France. The Airbus A350",
+        "link": "https://www.theguardian.com/business/2026/jul/24/qantas-project-sunrise-airbus-a350-1000ulr-ultra-long-range-france-melbourne-test-flight"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "All eyes on Qantas as thousands watch airline's test for world's longest non-stop route between Melbourne and Toulouse",
+        "desc": "Qantas' new ultra-long range jet is making its first 17,000km test flight from Toulouse, France, to Melbourne, Australia.",
+        "link": "https://www.dailymail.com/news/article-16001139/qantas-ultralong-luxury-jet-france-melbourne-test.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
@@ -207,8 +214,8 @@
      },
      {
       "id": 4,
-      "headline": "Worker killed and another injured as vehicles collide at Queensland mine site",
-      "summary": "Work investigators and coal inspectors are heading to the site.",
+      "headline": "Worker killed and another injured as mining truck reverses over vehicle at Peak Downs mine in Queensland",
+      "summary": "Operations have been suspended across all BMA sites for 24 hours after the fatal collision.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -225,8 +232,8 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Worker killed and another injured as vehicles collide at Queensland mine site",
-        "desc": "Work investigators and coal inspectors are heading to the site.",
+        "title": "Worker killed and another injured as mining truck reverses over vehicle at Peak Downs mine in Queensland",
+        "desc": "Operations have been suspended across all BMA sites for 24 hours after the fatal collision.",
         "link": "https://7news.com.au/news/worker-killed-and-another-injured-as-vehicles-collide-at-queensland-mine-site-c-22622013"
        },
        {
@@ -240,8 +247,8 @@
      },
      {
       "id": 5,
-      "headline": "Albanese opens Labor conference with pitch for third term",
-      "summary": "The ALP's triennial national conference begins today with the prime minister announcing more cost of living support. Meanwhile, the AI escaped as one of OpenAI's most advanced models hacked a startup. The post Albanese opens Labor conference with pitch for third term appeared first on Crikey.",
+      "headline": "Trump's Israel condition throws Saudi Arabia nuclear deal into doubt",
+      "summary": "The White House said Saudi Arabia must recognise Israel or the deal is off.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -249,51 +256,51 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Labor National Conference LIVE updates: Day two of Adelaide event continues after moves on super for teenagers, Fair AI taskforce",
-        "desc": "Follow out live coverage from the 50th Labor Party national conference.",
-        "link": "https://www.theage.com.au/politics/federal/labor-national-conference-live-updates-day-two-of-adelaide-event-continues-after-moves-on-super-for-teenagers-fair-ai-taskforce-20260724-p60i5n.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Trump's Israel condition throws Saudi Arabia nuclear deal into doubt",
+        "desc": "The White House said Saudi Arabia must recognise Israel or the deal is off.",
+        "link": "https://www.sbs.com.au/news/article/donald-trump-saudi-arabia-must-recognise-israel-nuclear-deal/54ze7yz8t"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Houthi attacks raise fears of wider Middle East conflict and more global economic damage",
+        "desc": "The Iran-backed group in Yemen has threatened to target Saudi vessels in a vital shipping route.",
+        "link": "https://www.bbc.co.uk/news/articles/cvgve0vxy1yo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Husic says Labor ‘allergic to dissent’ as he breaks ranks on key government positions at party conference",
-        "desc": "Criticism comes as prime minister frames unity as point of difference to political opponents, saying ALP chooses ‘progress over protest’ Get our breaking news email, free app or daily news podcast Outspoken Labor MP Ed Husic claims the party has become “allergic” to dissent and dispute, warning the unity on show at its tightly controlled national conference could backfire. The former industry mini",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/23/ed-husic-dissent-labor-party-national-conference-anthony-albanese-ntwnfb"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Albanese opens Labor conference with pitch for third term",
-        "desc": "The ALP's triennial national conference begins today with the prime minister announcing more cost of living support. Meanwhile, the AI escaped as one of OpenAI's most advanced models hacked a startup. The post Albanese opens Labor conference with pitch for third term appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/07/23/albanese-labor-conference-cost-living-open-ai-hugging-face/"
+        "title": "Why would Trump agree to the Saudi nuclear deal? | Kenneth Roth",
+        "desc": "The agreement offers the Saudis the same options Trump has sworn Iran will never have The stark contrast between Donald Trump’s nuclear deal with Saudi Arabia and his nuclear demands for Iran would be comical if not so tragic. Trump has handed the Saudis the same nuclear options he swore Iran would never have. To make matters worse, Trump seems to have offered the Saudis this sweetheart deal to ma",
+        "link": "https://www.theguardian.com/commentisfree/2026/jul/23/trump-saudi-nuclear-deal"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "The king emerges from Tardis as Commonwealth Games face battle for time and space",
-      "summary": "The troubled Games looked doomed until Glasgow stepped in but this opening ceremony had plenty of feelgood factor The Commonwealth Games in Glasgow opened on Thursday evening to the surreal sight of King Charles and Queen Camilla stepping out of a Tardis – and a mechanical Loch Ness monster roaring the first few bars of Flower of Scotland. The Tardis was a nod to the fact that police boxes were de",
+      "headline": "Mamdani slow to respond to suspected antisemitic stabbing as Hochul, other NY officials condemn attack",
+      "summary": "Zohran Mamdani posted about his residence tax plan while staying silent on what officials called an antisemitic stabbing on the Upper West Side.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "King Charles and Queen Camilla arrive at the Commonwealth Games in a TARDIS - before watching touching opening ceremony from thrones next to new PM Andy Burnham",
-        "desc": "King Charles and Queen Camilla made a dramatic entrance at the OVO Hydro Arena in a TARDIS ahead of the Commonwealth Games' opening ceremony.",
-        "link": "https://www.dailymail.com/news/article-16000723/King-Charles-Queen-Camilla-arrive-Commonwealth-Games-ceremony-TARDIS.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Knife-wielding maniac arrested for stabbing two people outside NYC synagogue while shouting 'Allahu Akbar' as Mamdani blasts 'hateful' attack",
+        "desc": "Raul Morales, 51, was apprehended for the attack on Thursday afternoon shortly after police said he stabbed a 57-year-old man in the torso at around 1.30pm then struck a 50-year-old man.",
+        "link": "https://www.dailymail.com/news/article-16001455/Raul-Morales-stabbing-New-York-City-Allahu-Akbar.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "The king emerges from Tardis as Commonwealth Games face battle for time and space",
-        "desc": "The troubled Games looked doomed until Glasgow stepped in but this opening ceremony had plenty of feelgood factor The Commonwealth Games in Glasgow opened on Thursday evening to the surreal sight of King Charles and Queen Camilla stepping out of a Tardis – and a mechanical Loch Ness monster roaring the first few bars of Flower of Scotland. The Tardis was a nod to the fact that police boxes were de",
-        "link": "https://www.theguardian.com/sport/2026/jul/23/king-charles-camilla-tardis-commonwealth-games-2026-opening-ceremony-glasgow"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Mamdani slow to respond to suspected antisemitic stabbing as Hochul, other NY officials condemn attack",
+        "desc": "Zohran Mamdani posted about his residence tax plan while staying silent on what officials called an antisemitic stabbing on the Upper West Side.",
+        "link": "https://www.foxnews.com/politics/mamdani-slow-respond-suspected-antisemitic-stabbing-hochul-ny-officials-condemn-attack"
        }
       ]
      }
@@ -305,6 +312,32 @@
     "stories": [
      {
       "id": 7,
+      "headline": "Labor National Conference LIVE updates: NDIS, gambling on agenda as protests erupt outside Adelaide Convention Centre on day two",
+      "summary": "Follow out live coverage from the 50th Labor Party national conference.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia news live: ABC takes down two Four Corners episodes on drug trade over ‘veracity concerns’; Labor dodges gambling reform fight",
+        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Labor National Conference LIVE updates: NDIS, gambling on agenda as protests erupt outside Adelaide Convention Centre on day two",
+        "desc": "Follow out live coverage from the 50th Labor Party national conference.",
+        "link": "https://www.theage.com.au/politics/federal/labor-national-conference-live-updates-day-two-of-adelaide-event-continues-after-moves-on-super-for-teenagers-fair-ai-taskforce-20260724-p60i5n.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 8,
       "headline": "‘Wind it back’: Pauline Hanson takes aim at child support and DV ‘holiday’ leave",
       "summary": "In a newly surfaced podcast, the One Nation leader claimed family violence laws were a “cash cow” for women and that DV laws were diverting police from “real crime”.",
       "divergent": null,
@@ -330,7 +363,7 @@
       ]
      },
      {
-      "id": 8,
+      "id": 9,
       "headline": "Former spy refused visa to give evidence at royal commission – as it happened",
       "summary": "This blog is now closed. Get our breaking news email, free app or daily news podcast Self-reported domestic violence incidents declining in NSW but deaths and hospitalisations fail to fall New data shows self-reported domestic violence incidents in New South Wales have declined, but the number of women and children murdered or hospitalised in domestic and family violence incidents over the past ei",
       "divergent": null,
@@ -356,7 +389,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Husic says Labor ‘allergic to dissent’ as he breaks ranks on key government positions at party conference",
       "summary": "Criticism comes as prime minister frames unity as point of difference to political opponents, saying ALP chooses ‘progress over protest’ Get our breaking news email, free app or daily news podcast Outspoken Labor MP Ed Husic claims the party has become “allergic” to dissent and dispute, warning the unity on show at its tightly controlled national conference could backfire. The former industry mini",
       "divergent": null,
@@ -382,28 +415,9 @@
       ]
      },
      {
-      "id": 10,
-      "headline": "Australia news live: trade minister demands removal of ‘unjustified’ US tariffs; deadly bird flu detected in Queensland for the first time",
-      "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: trade minister demands removal of ‘unjustified’ US tariffs; deadly bird flu detected in Queensland for the first time",
-        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
-       }
-      ]
-     },
-     {
       "id": 11,
-      "headline": "Dem’s stunning ideal standard for immigration detention conditions resurfaces amid Texas senate bid",
-      "summary": "James Talarico's resurfaced 2019 comments on immigration detention conditions raise questions as he prepares to face Ken Paxton for Texas Senate.",
+      "headline": "Massachusetts Democratic Party chairman admits to sufficient facts in June drunken driving case",
+      "summary": "Steve Kerrigan's breathalyzer registered 0.089 after a Southborough traffic stop, just above state's 0.08% legal limit, court records show.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -413,16 +427,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Dem’s stunning ideal standard for immigration detention conditions resurfaces amid Texas senate bid",
-        "desc": "James Talarico's resurfaced 2019 comments on immigration detention conditions raise questions as he prepares to face Ken Paxton for Texas Senate.",
-        "link": "https://www.foxnews.com/politics/dems-stunning-ideal-standard-immigration-detention-conditions-resurfaces-texas-senate-bid"
+        "title": "Massachusetts Democratic Party chairman admits to sufficient facts in June drunken driving case",
+        "desc": "Steve Kerrigan's breathalyzer registered 0.089 after a Southborough traffic stop, just above state's 0.08% legal limit, court records show.",
+        "link": "https://www.foxnews.com/politics/massachusetts-democratic-party-chairman-admits-sufficient-facts-june-drunken-driving-case"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’",
-      "summary": "Australia’s trade minister, Don Farrell, says tariff regime is unjustified and inconsistent with free trade agreement with US Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Donald Trump has hit Australian exports with new trade tariffs, claiming the country is not doing enough to combat forced labour, but the Albanese government h",
+      "headline": "Rubio unveils visa restrictions targeting cybercrime networks",
+      "summary": "Secretary of State Marco Rubio announced sweeping new visa restrictions targeting individuals complicit in cybercrime, online investment scams and sextortion.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -430,11 +444,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’",
-        "desc": "Australia’s trade minister, Don Farrell, says tariff regime is unjustified and inconsistent with free trade agreement with US Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Donald Trump has hit Australian exports with new trade tariffs, claiming the country is not doing enough to combat forced labour, but the Albanese government h",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Rubio unveils visa restrictions targeting cybercrime networks",
+        "desc": "Secretary of State Marco Rubio announced sweeping new visa restrictions targeting individuals complicit in cybercrime, online investment scams and sextortion.",
+        "link": "https://www.foxnews.com/politics/rubio-unveils-visa-restrictions-targeting-cybercrime-networks"
        }
       ]
      }
@@ -594,6 +608,39 @@
     "stories": [
      {
       "id": 19,
+      "headline": "Breaking: Four Corners withdraws episodes by sacked reporter",
+      "summary": "The ABC has withdrawn the Four Corners programs Meth Highway and Cocaine Nation by sacked reporter Mahmood Fazal due to concerns about accuracy.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia news live: ABC takes down two Four Corners episodes on drug trade over ‘veracity concerns’; Labor dodges gambling reform fight",
+        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
+        "link": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ABC removes Four Corners episodes led by sacked reporter over accuracy concerns",
+        "desc": "The ABC has retracted two episodes of its flagship investigative program Four Corners led by its now sacked reporter Mahmood Fazal over accuracy concerns.",
+        "link": "https://www.theage.com.au/business/companies/abc-removes-four-corners-episodes-led-by-sacked-reporter-over-accuracy-concerns-20260724-p60i8y.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Breaking: Four Corners withdraws episodes by sacked reporter",
+        "desc": "The ABC has withdrawn the Four Corners programs Meth Highway and Cocaine Nation by sacked reporter Mahmood Fazal due to concerns about accuracy.",
+        "link": "https://www.abc.net.au/news/2026-07-24/four-corners-withdraws-episodes-by-sacked-reporter/106953416"
+       }
+      ]
+     },
+     {
+      "id": 20,
       "headline": "Origin Energy confirms breach of customer data",
       "summary": "Energy company Origin confirms there has been unauthorised access to and disclosure of some customers' data, a day after it announced it was investigating a \"potential\" breach.",
       "divergent": null,
@@ -626,7 +673,7 @@
       ]
      },
      {
-      "id": 20,
+      "id": 21,
       "headline": "Interest rates don't just hit households. Small business is feeling the pinch",
       "summary": "Small-to-medium sized businesses have had a challenging year, with increased costs and regulatory reforms. Insolvency rates are beginning to rise and more owners are shopping around for credit.",
       "divergent": null,
@@ -652,7 +699,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 22,
       "headline": "Google hit with $1.5 billion fine over app store, search breaches",
       "summary": "The tech giant has been slapped with two fines from the EU for favouring its own services in search results and restricting app developers from steering users to cheaper offers.",
       "divergent": null,
@@ -678,47 +725,9 @@
       ]
      },
      {
-      "id": 22,
-      "headline": "Australia news live: trade minister demands removal of ‘unjustified’ US tariffs; deadly bird flu detected in Queensland for the first time",
-      "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia news live: trade minister demands removal of ‘unjustified’ US tariffs; deadly bird flu detected in Queensland for the first time",
-        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Australian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on more than 80 nations. The Trump administration unveiled the latest tranche of tariffs for countries over their “failure to impose and effectively enforce a prohibition on the importation of goods produced with f",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
-       }
-      ]
-     },
-     {
       "id": 23,
-      "headline": "Fishing ban considered as NSW South Coast abalone populations depleted",
-      "summary": "As the NSW government considers closing 350 kilometres of shoreline to abalone harvesting, divers say the severe decline of the shellfish is due to mismanagement.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Fishing ban considered as NSW South Coast abalone populations depleted",
-        "desc": "As the NSW government considers closing 350 kilometres of shoreline to abalone harvesting, divers say the severe decline of the shellfish is due to mismanagement.",
-        "link": "https://www.abc.net.au/news/2026-07-24/abalone-crisis-nsw-south-coast/106943044"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "The unexpected winner of the AI boom? Your arts degree",
-      "summary": "AI may increase the value of humanities skills, but that does not mean every arts degree will become a golden ticket for employability.",
+      "headline": "Watch: Qantas plane touches down in Australia after historic test flight",
+      "summary": "The custom-built Airbus A350-1000ULR landed in Melbourne on Friday after making a direct 19-hour plus flight from the factory in Toulouse.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -728,9 +737,28 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "The unexpected winner of the AI boom? Your arts degree",
-        "desc": "AI may increase the value of humanities skills, but that does not mean every arts degree will become a golden ticket for employability.",
-        "link": "https://www.theage.com.au/business/workplace/the-unexpected-winner-of-the-ai-boom-your-arts-degree-20260723-p60i0k.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Watch: Qantas plane touches down in Australia after historic test flight",
+        "desc": "The custom-built Airbus A350-1000ULR landed in Melbourne on Friday after making a direct 19-hour plus flight from the factory in Toulouse.",
+        "link": "https://www.theage.com.au/business/companies/qantas-plane-set-to-arrive-in-australia-today-direct-from-france-20260723-p60i3u.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "The great copper migration: ASX juniors head to South America",
+      "summary": "As copper prices soar, some Aussie juniors are braving South America’s water, acid and infrastructure hurdles in the hunt for giant copper-gold discoveries beside mining giants.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "The great copper migration: ASX juniors head to South America",
+        "desc": "As copper prices soar, some Aussie juniors are braving South America’s water, acid and infrastructure hurdles in the hunt for giant copper-gold discoveries beside mining giants.",
+        "link": "https://www.theage.com.au/business/companies/the-great-copper-migration-asx-juniors-head-to-south-america-20260724-p60i8j.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -897,8 +925,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Seth MacFarlane's New Comic Book Adaptation Dungeon Crawler Carl Officially Casts First Role",
-      "summary": "Seth MacFarlane's upcoming live-action TV adaptation of the bestselling comic book series Dungeon Crawler Carl has found its first cast member.",
+      "headline": "First Ebenezer Trailer Reveals Johnny Depp's Haunting, Yet Comedic Take On Scrooge",
+      "summary": "The first trailer for Paramount Pictures' adaptation of A Christmas Carol Ebenezer spotlights Johnny Depp's unique portrayal of Scrooge.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -908,30 +936,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Seth MacFarlane's New Comic Book Adaptation Dungeon Crawler Carl Officially Casts First Role",
-        "desc": "Seth MacFarlane's upcoming live-action TV adaptation of the bestselling comic book series Dungeon Crawler Carl has found its first cast member.",
-        "link": "https://screenrant.com/dungeon-crawler-carl-show-princess-donut-casting-confirmed/"
+        "title": "First Ebenezer Trailer Reveals Johnny Depp's Haunting, Yet Comedic Take On Scrooge",
+        "desc": "The first trailer for Paramount Pictures' adaptation of A Christmas Carol Ebenezer spotlights Johnny Depp's unique portrayal of Scrooge.",
+        "link": "https://screenrant.com/ebenezer-trailer-johnny-depp-paramount-pictures/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Audiobook Narrator Jeff Hays Joins Peacock’s ‘Dungeon Crawler Carl’ TV Series To Voice Princess Donut The Cat",
-        "desc": "Attention crawlers! The voice of popular cat character Princess Donut in Peacock’s live-action adaptation of Matt Dinniman’s Dungeon Crawler Carl has been found. Jeff Hays, a voice narrator and producer behind the LitRPG audiobook series version of Dinniman’s dystopian comedy novel has joined the Peacock and Seth MacFarlane’s Fuzzy Door television adaptation to bring the […]",
-        "link": "https://deadline.com/2026/07/dungeon-crawler-carl-tv-show-princess-donut-voice-jeff-hays-1237002088/"
+        "title": "‘Stuart Fails To Save The Universe’ Panel Teases DC Episode, OG Returns As ‘Big Bang Theory’ Franchise Makes Comic-Con Return",
+        "desc": "Eight years after the cast of The Big Bang Theory made their last Comic-Con appearance ahead of the hit CBS sitcom’s 12th and final season, several Big Bang actors were back at the comic book convention with spinoff Stuart Fails To Save the Universe. The single-camera offshoot’s leads, Kevin Sussman (Stuart), Lauren Lapkus (Denise), John […]",
+        "link": "https://deadline.com/2026/07/stuart-fails-to-save-the-universe-comiccon-og-returns-dc-1237002141/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Dungeon Crawler Carl’ TV Series Casts Audiobook Star Jeff Hays as Princess Donut’s Voice",
-        "desc": "Attention, crawlers: Seth MacFarlane’s live-action “Dungeon Crawler Carl” TV series has found its Queen Anne Chonk. Jeff Hays, the narrator and producer behind all eight of the currently released “Dungeon Crawler Carl” books, has been cast as the voice of Princess Donut on the Peacock TV adaptation of Matt Dinniman’s best-selling LitRPG novels. For those […]",
-        "link": "https://variety.com/2026/tv/news/dungeon-crawler-carl-tv-series-princess-donut-jeff-hays-1236819828/"
+        "title": "‘Ebenezer’ Trailer: Johnny Depp Transforms Into Grouchy, Snowball-Throwing Scrooge",
+        "desc": "Paramount Pictures has released the first trailer for “Ebenezer,” starring Johnny Depp in his first major Hollywood role since his 2022 trial against ex-wife Amber Heard. Directed by Ti West, the holiday film is described as a dark reimagining of the Charles Dickens’ classic, with Depp playing the infamous Christmas grouch Ebenezer Scrooge. The trailer […]",
+        "link": "https://variety.com/2026/film/news/ebenezer-christmas-carol-trailer-johnny-depp-scrooge-1236801196/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Joker Officially Cast In Prime Video’s Hit Batman Series",
-      "summary": "Prime Video's popular Batman TV show has officially cast its Joker, as the DC Studios series has revealed who will play the iconic DC villain.",
+      "headline": "72 Hours Review: Forgettable Kevin Hart Comedy Wastes Its Cast",
+      "summary": "Though it has some good jokes, especially when letting its stars riff, 72 Hours is poisoned by an uncomfortably bad premise and never recovers.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -941,10 +969,88 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Joker Officially Cast In Prime Video’s Hit Batman Series",
-        "desc": "Prime Video's popular Batman TV show has officially cast its Joker, as the DC Studios series has revealed who will play the iconic DC villain.",
-        "link": "https://screenrant.com/batman-caped-crusader-season-2-matthew-needham-joker-casting/"
+        "title": "72 Hours Review: Forgettable Kevin Hart Comedy Wastes Its Cast",
+        "desc": "Though it has some good jokes, especially when letting its stars riff, 72 Hours is poisoned by an uncomfortably bad premise and never recovers.",
+        "link": "https://screenrant.com/72-hours-movie-2026-review/"
        },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "’72 Hours’ Review: Kevin Hart Tries to Be Down With the Kids in a Mediocre ‘Hangover’ Knockoff",
+        "desc": "Great comedies are in short supply these days, but “72 Hours” offers a reminder that a crime subplot can quickly ruin even a potentially average one. Directed by Tim Story (“Barbershop,” “Ride Along”) and written by Jon Hurwitz and Hayden Schlossberg (the “Harold & Kumar” trilogy, “American Reunion”), this latter-day “Hangover” retread did not need […]",
+        "link": "https://variety.com/2026/film/reviews/72-hours-review-kevin-hart-1236819749/"
+       },
+       {
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "72 Hours review – Kevin Hart drags down Netflix midlife crisis comedy",
+        "desc": "The overexposed actor falls flat in another disappointing vehicle that fails to make the most of its neat bachelor-party-with-a-twist concept 72 Hours is Kevin Hart’s midlife crisis comedy. He stars as Joe, a 40-year-old New York marketing executive whose once-reliable Midas touch has worn off. He’s no longer the office’s go-to translator of youth culture, yet he remains on the verge of a promotio",
+        "link": "https://www.theguardian.com/film/2026/jul/24/72-hours-movie-review-kevin-hart"
+       }
+      ]
+     },
+     {
+      "id": 33,
+      "headline": "Netflix Just Found Its Next Stranger Things In Unexpected New Dark Fantasy Series",
+      "summary": "One may not expect a period dark fantasy series to hit similar notes as Netflix's Stranger Things, but this new show makes a strong case for itself.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Netflix Just Found Its Next Stranger Things In Unexpected New Dark Fantasy Series",
+        "desc": "One may not expect a period dark fantasy series to hit similar notes as Netflix's Stranger Things, but this new show makes a strong case for itself.",
+        "link": "https://screenrant.com/netflix-the-east-palace-dark-fantasy-next-stranger-things/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Parasyte Gets New Parasyte: Tamiya Live-Action Series on Netflix in 2027",
+        "desc": "Shioli Kutsuna stars in series; Parasyte: The Grey's Yeon Sang-ho returns as planner",
+        "link": "https://www.animenewsnetwork.com/news/2026-07-22/parasyte-gets-new-parasyte-tamiya-live-action-series-on-netflix-in-2027/.239882"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "‘Stuart Fails To Save The Universe’ EPs & Composer On Crafting Ever-Changing Title Sequence You “Shouldn’t Skip”, Packed With Messages & Spoilers",
+      "summary": "SPOILER ALERT: The story includes a detail about the premiere episode of HBO Max’s Stuart Fails To Save the Universe. Each episode of The Big Bang Theory spinoff Stuart Fails To Save the Universe tells a story of its four protagonists, Stuart (Kevin Sussman), Denise (Lauren Lapkus), Bert (Brian Posehn) and Kripke (John Ross Bowie), […]",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Stuart Fails To Save The Universe’ EPs & Composer On Crafting Ever-Changing Title Sequence You “Shouldn’t Skip”, Packed With Messages & Spoilers",
+        "desc": "SPOILER ALERT: The story includes a detail about the premiere episode of HBO Max’s Stuart Fails To Save the Universe. Each episode of The Big Bang Theory spinoff Stuart Fails To Save the Universe tells a story of its four protagonists, Stuart (Kevin Sussman), Denise (Lauren Lapkus), Bert (Brian Posehn) and Kripke (John Ross Bowie), […]",
+        "link": "https://deadline.com/2026/07/stuart-fails-to-save-the-universe-title-sequence-danny-elfman-1236979832/"
+       },
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Stuart Fails To Save The Universe's Title Sequence Explained: How It Connects To TBBT",
+        "desc": "Stuart Fails to Save the Universe's unique title sequence connects to its predecessor, The Big Bang Theory, & the meta humor it brings to the HBO Max.",
+        "link": "https://screenrant.com/stuart-fails-to-save-the-universe-title-sequence-explained/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "‘Batman: Caped Crusader’ Season 2 Reveals Joker Voice Actor: ‘House of the Dragon’ Star Matthew Needham",
+      "summary": "“Batman: Caped Crusader” has unmasked its Joker. “House of the Dragon” star Matthew Needham will voice the villain in Season 2 of the animated noir series after the Clown Prince of Crime was teased at the end of Season 1. (John DiMaggio, who voices Detective Harvey Bullock on the show, is credited with voicing the […]",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
         "outlet": "Variety",
         "lean": "centre",
@@ -962,87 +1068,9 @@
       ]
      },
      {
-      "id": 33,
-      "headline": "‘Stuart Fails To Save The Universe’ Panel Teases DC Episode, OG Returns As ‘Big Bang Theory’ Franchise Makes Comic-Con Return",
-      "summary": "Six years after the cast of The Big Bang Theory made their last Comic-Con appearance ahead of the hit CBS sitcom’s 12th and final season, several Big Bang actors were back at the comic book convention with spinoff Stuart Fails To Save the Universe. The single-camera offshoot’s leads, Kevin Sussman (Stuart), Lauren Lapkus (Denise), John […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Stuart Fails To Save The Universe’ Panel Teases DC Episode, OG Returns As ‘Big Bang Theory’ Franchise Makes Comic-Con Return",
-        "desc": "Six years after the cast of The Big Bang Theory made their last Comic-Con appearance ahead of the hit CBS sitcom’s 12th and final season, several Big Bang actors were back at the comic book convention with spinoff Stuart Fails To Save the Universe. The single-camera offshoot’s leads, Kevin Sussman (Stuart), Lauren Lapkus (Denise), John […]",
-        "link": "https://deadline.com/2026/07/stuart-fails-to-save-the-universe-comiccon-og-returns-dc-1237002141/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Ebenezer: A Christmas Carol’ Trailer: Johnny Depp Transforms Into Grouchy, Snowball-Throwing Scrooge",
-        "desc": "Paramount Pictures has released the first trailer for “Ebenezer: A Christmas Carol,” starring Johnny Depp in his first major Hollywood role since his 2022 trial against ex-wife Amber Heard. Directed by Ti West, the holiday film is described as a dark reimagining of the Charles Dickens’ classic, with Depp playing the infamous Christmas grouch Ebenezer […]",
-        "link": "https://variety.com/2026/film/news/ebenezer-christmas-carol-trailer-johnny-depp-scrooge-1236801196/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "‘Marvelous Mrs. Maisel’ Set Decorator Mary Kate Golding Fatally Stabbed in N.Y.",
-      "summary": "Mary Kate Golding, a set decorator for shows including “The Marvelous Mrs. Maisel,” “Goosebumps” and “Mr. and Mrs. Smith” died Tuesday in Queens, N.Y. after being stabbed. She was 34. Police were called to her apartment just after midnight. The NYPD said in a statement, “On Tuesday, July 21, 2026, at approximately 0024 hours, police […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Marvelous Mrs. Maisel’ Set Decorator Mary Kate Golding Fatally Stabbed in N.Y.",
-        "desc": "Mary Kate Golding, a set decorator for shows including “The Marvelous Mrs. Maisel,” “Goosebumps” and “Mr. and Mrs. Smith” died Tuesday in Queens, N.Y. after being stabbed. She was 34. Police were called to her apartment just after midnight. The NYPD said in a statement, “On Tuesday, July 21, 2026, at approximately 0024 hours, police […]",
-        "link": "https://variety.com/2026/tv/news/mary-kate-golding-dead-stabbed-mrs-maisel-1236819887/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Marvelous Mrs. Maisel’ Set Designer Mary Kate Golding Fatally Stabbed In Apparent Murder-Suicide",
-        "desc": "Mary Kate Golding, a 34-year-old New York City set decorator whose credits include The Marvelous Mrs. Maisel, Goosebumps and the 2025 Netflix docuseries Gone Girls: The Long Island Serial Killer, died Tuesday at her Queens residence in what police say was a possible murder-suicide. Golding’s husband, Joseph Azzaretto, 33, was later found dead in a […]",
-        "link": "https://deadline.com/2026/07/mary-kate-golding-dead-marvelous-mrs-maisel-1237001959/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "5 Best Moments Of The Odyssey, Ranked",
-      "summary": "Christopher Nolan's The Odyssey is nearly three hours of epic, rousing moments, but there are a handful that stand out above the rest.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "5 Best Moments Of The Odyssey, Ranked",
-        "desc": "Christopher Nolan's The Odyssey is nearly three hours of epic, rousing moments, but there are a handful that stand out above the rest.",
-        "link": "https://screenrant.com/the-odyssey-best-moments-ranked/"
-       },
-       {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "‘Unbearably sexy in his rodenty way’: Benedict Cumberbatch’s 20 best films – ranked!",
-        "desc": "To mark the two-time Oscar nominee’s recent 50th birthday, we rate his finest screen roles – from hyper-British patricians and seething serpents, to ghastly Yanks, tragic codebreakers and sci-fi scoundrels Benedict Cumberbatch does his considerable best opposite the equally prestigious Olivia Colman in this souped-up marital-breakdown dramedy, essentially remade from the 1989 movie with Michael Do",
-        "link": "https://www.theguardian.com/film/2026/jul/23/benedict-cumberbatch-20-best-films-ranked"
-       }
-      ]
-     },
-     {
       "id": 36,
-      "headline": "Devon Allman Says “Hot Damn” To Landing First Major Acting Role In AMC’s NASCAR Drama ‘Thunder Road’",
-      "summary": "EXCLUSIVE: Devon Allman is headed to Hollywood. The musician has been cast in AMC’s NASCAR drama series Thunder Road from creator John Fusco (Young Guns, The Highwaymen). He will star opposite Dennis Quaid, Chase Stokes, Michael Rooker, Matt Barr, Maggie Grace and West Duchovny. The series is set to begin production this summer and will debut […]",
+      "headline": "Cole Hauser On “Challenges” Of Making ‘Dutton Ranch’ Without Taylor Sheridan: “Everything Had Changed”",
+      "summary": "Although the Duttons are still keeping things interesting on our screens, it’s a whole new behind-the-scenes family for the cast of Taylor Sheridan’s western TV franchise. Cole Hauser, who reprises his role as Rip Wheeler, recently opened up about the “challenges” of filming Dutton Ranch without parent series Yellowstone creator Taylor Sheridan at the helm, […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1052,9 +1080,9 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Devon Allman Says “Hot Damn” To Landing First Major Acting Role In AMC’s NASCAR Drama ‘Thunder Road’",
-        "desc": "EXCLUSIVE: Devon Allman is headed to Hollywood. The musician has been cast in AMC’s NASCAR drama series Thunder Road from creator John Fusco (Young Guns, The Highwaymen). He will star opposite Dennis Quaid, Chase Stokes, Michael Rooker, Matt Barr, Maggie Grace and West Duchovny. The series is set to begin production this summer and will debut […]",
-        "link": "https://deadline.com/2026/07/devon-allman-cast-amc-nascar-drama-series-thunder-road-1237002131/"
+        "title": "Cole Hauser On “Challenges” Of Making ‘Dutton Ranch’ Without Taylor Sheridan: “Everything Had Changed”",
+        "desc": "Although the Duttons are still keeping things interesting on our screens, it’s a whole new behind-the-scenes family for the cast of Taylor Sheridan’s western TV franchise. Cole Hauser, who reprises his role as Rip Wheeler, recently opened up about the “challenges” of filming Dutton Ranch without parent series Yellowstone creator Taylor Sheridan at the helm, […]",
+        "link": "https://deadline.com/2026/07/cole-hauser-challenges-dutton-ranch-without-taylor-sheridan-1237002246/"
        }
       ]
      }
@@ -1062,35 +1090,35 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
-   "Guardian Australia",
-   "ABC News",
    "BBC World",
+   "The Age",
    "Crikey",
+   "ABC News",
    "The Age Federal Politics",
-   "Fox News Politics",
-   "Fox News",
-   "The Verge",
-   "7News",
-   "ABC Business",
-   "The Age Business",
+   "Guardian Australia",
    "Ars Technica",
+   "The Verge",
+   "The Age Business",
    "Guardian AU Business",
-   "Guardian AU Sport",
    "Variety",
+   "7News",
+   "Guardian AU Sport",
+   "Fox News",
+   "Deadline",
    "Anime News Network",
-   "7News Sport",
-   "Guardian AU Politics",
-   "Guardian Tech",
-   "BBC Tech",
-   "Guardian Film",
    "Fox Business",
+   "Guardian AU Politics",
+   "BBC Tech",
+   "7News Sport",
+   "ABC Business",
+   "Guardian Tech",
    "BBC Sport",
    "Daily Mail Australia",
    "ESPN",
    "SBS News",
-   "Screen Rant",
-   "Deadline"
+   "Guardian Film",
+   "Fox News Politics",
+   "Screen Rant"
   ],
   "sourcesFailed": []
  },
@@ -1279,30 +1307,47 @@
   "end": "2026-08-02",
   "host": "Glasgow",
   "medals": null,
-  "headlines": [
+  "upcoming": [
    {
-    "outlet": "Guardian",
-    "title": "Gina Rinehart offers bonuses for Australian swimming medals as funding gap exposed",
-    "link": "https://www.theguardian.com/sport/2026/jul/24/gina-rinehart-bonus-swimming-medals-world-record-commonwealth-games-australia",
-    "ts": 1784851015000
+    "date": "2026-07-24",
+    "finals": [
+     {
+      "sport": "Artistic gymnastics",
+      "golds": 1
+     },
+     {
+      "sport": "Para powerlifting",
+      "golds": 4
+     },
+     {
+      "sport": "Swimming",
+      "golds": 9
+     }
+    ],
+    "competing": [
+     "3x3 basketball",
+     "Bowls",
+     "Boxing"
+    ]
    },
    {
-    "outlet": "7News",
-    "title": "Australian Commonwealth Games team split by Gina Rinehart’s big-money medal bonus",
-    "link": "https://7news.com.au/sport/commonwealth-games/australian-commonwealth-games-team-split-by-gina-rineharts-big-money-medal-bonus-c-22622175",
-    "ts": 1784850792000
-   },
-   {
-    "outlet": "Guardian",
-    "title": "The king emerges from Tardis as Commonwealth Games face battle for time and space",
-    "link": "https://www.theguardian.com/sport/2026/jul/23/king-charles-camilla-tardis-commonwealth-games-2026-opening-ceremony-glasgow",
-    "ts": 1784845053000
-   },
-   {
-    "outlet": "Guardian",
-    "title": "Commonwealth Games 2026: opening ceremony in Glasgow – as it happened",
-    "link": "https://www.theguardian.com/sport/live/2026/jul/23/commonwealth-games-2026-opening-ceremony-in-glasgow-live",
-    "ts": 1784842218000
+    "date": "2026-07-25",
+    "finals": [
+     {
+      "sport": "Artistic gymnastics",
+      "golds": 1
+     },
+     {
+      "sport": "Swimming",
+      "golds": 8
+     }
+    ],
+    "competing": [
+     "3x3 basketball",
+     "Bowls",
+     "Boxing",
+     "Netball"
+    ]
    }
   ]
  }

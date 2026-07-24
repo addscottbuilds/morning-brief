@@ -371,40 +371,43 @@ const CGF_NAMES = {
   ZAM: "Zambia", BAR: "Barbados", IOM: "Isle of Man", JEY: "Jersey", GGY: "Guernsey",
   MLT: "Malta", CMR: "Cameroon", TAN: "Tanzania", BAN: "Bangladesh", SEY: "Seychelles",
 };
-const CG_FEEDS = [
-  { outlet: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/commonwealth-games/rss.xml" },
-  { outlet: "Guardian", url: "https://www.theguardian.com/sport/commonwealth-games-2026/rss" },
-  { outlet: "7News", url: "https://7news.com.au/sport/commonwealth-games/feed" },
-];
-
 async function buildCommGames() {
-  const out = { start: CG.start, end: CG.end, host: CG.host, medals: null, headlines: [] };
+  const out = { start: CG.start, end: CG.end, host: CG.host, medals: null, upcoming: [] };
   if (Date.now() > Date.parse(CG.end) + 4 * 86400000) return null; // long over
 
-  // headlines: merge the Games feeds, newest first, drop near-duplicates
-  const parser = new Parser();
-  const items = [];
-  await Promise.all(CG_FEEDS.map(async f => {
-    try {
-      const feed = await parser.parseString(await fetchFeed(f.url));
-      for (const it of (feed.items || []).slice(0, 10)) {
-        const ts = Date.parse(it.isoDate || it.pubDate || "") || 0;
-        if (Date.now() - ts > 7 * 86400000) continue;
-        items.push({ outlet: f.outlet, title: stripHtml(it.title).slice(0, 160), link: it.link || "", ts });
+  // upcoming events from the Wikipedia calendar table — each cell carries a
+  // <!--day--> comment; gold cells (#ffcc00) hold the day's medal-event count
+  try {
+    const r = await fetchJson("https://en.wikipedia.org/w/api.php?action=parse&page=" +
+      encodeURIComponent("2026 Commonwealth Games") + "&prop=wikitext&format=json&formatversion=2");
+    const w = (r.parse && r.parse.wikitext) || "";
+    const anchor = w.indexOf("<!--23-->");
+    const table = w.slice(w.lastIndexOf("{|", anchor), w.indexOf("|}", anchor));
+    const dayToDate = d => (d >= 23 ? `2026-07-${d}` : `2026-08-0${d}`);
+    const schedule = {};
+    for (const row of table.split(/\n\|-/).slice(1)) {
+      const nameMatch = [...row.matchAll(/\[\[[^\]|]*\|([^\]]+)\]\]/g)].pop();
+      if (!nameMatch || !row.includes("<!--")) continue;
+      const sport = nameMatch[1].trim();
+      if (/ceremon/i.test(sport)) continue;
+      for (const cell of row.matchAll(/<!--\s*(\d{1,2})\s*-->(.*?)(?=<!--|$)/gs)) {
+        const date = dayToDate(Number(cell[1]));
+        const body = cell[2];
+        if (!schedule[date]) schedule[date] = { date, finals: [], competing: [] };
+        if (/ffcc00/.test(body)) {
+          const g = body.match(/'''(\d+)'''/);
+          schedule[date].finals.push({ sport, golds: g ? Number(g[1]) : 1 });
+        } else if (/3399ff/.test(body)) {
+          schedule[date].competing.push(sport);
+        }
       }
-    } catch (e) { console.error(`cg feed fail ${f.outlet}: ${e.message}`); }
-  }));
-  items.sort((a, b) => b.ts - a.ts);
-  for (const it of items) {
-    if (out.headlines.length >= 4) break;
-    const t = tokens(it.title);
-    const dup = out.headlines.some(h => {
-      let n = 0;
-      for (const x of tokens(h.title)) if (t.has(x)) n++;
-      return n >= 3;
-    });
-    if (!dup) out.headlines.push(it);
-  }
+    }
+    const glasgowToday = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/London" });
+    out.upcoming = Object.values(schedule)
+      .filter(d => d.date >= glasgowToday && (d.finals.length || d.competing.length))
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .slice(0, 2);
+  } catch (e) { console.error(`cg schedule fail: ${e.message}`); }
 
   // medal tally from Wikipedia's {{Medals table}} template
   try {
@@ -425,7 +428,7 @@ async function buildCommGames() {
         .sort((a, b2) => b2.g - a.g || b2.s - a.s || b2.b - a.b);
       rows.forEach((x, i) => { x.rank = i + 1; });
       if (rows.length) {
-        const top = rows.slice(0, 8);
+        const top = rows.slice(0, 3);
         const aus = rows.find(x => x.code === "AUS");
         if (aus && !top.includes(aus)) top.push(aus);
         out.medals = top;

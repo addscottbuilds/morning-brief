@@ -292,9 +292,11 @@ header.slim h1 { font-size: 24px; }
 .cg-table .m-s { color: #c0c7ce; }
 .cg-table .m-b { color: #c08a5a; }
 .cg-table tr.aus td { background: #23303f; font-weight: 650; }
-.cg-news { display: flex; flex-direction: column; gap: 7px; }
-.cg-headline { display: block; background: var(--surface); border-radius: 8px; padding: 9px 12px; font-size: 13.5px; color: var(--text); text-decoration: none; line-height: 1.4; }
-.cg-outlet { color: var(--muted); font-size: 11px; white-space: nowrap; }
+#cg-upcoming { display: flex; flex-direction: column; gap: 8px; }
+.cg-day { background: var(--surface); border-radius: 10px; padding: 10px 14px; }
+.cg-day-h { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin-bottom: 4px; }
+.cg-finals { font-size: 13.5px; line-height: 1.55; }
+.cg-comp { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.5; }
 
 /* connections */
 :root {
