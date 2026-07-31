@@ -30,6 +30,42 @@
   $("goto-games").addEventListener("click", () => goTo(2));
   goTo(1, false); // start on the overview
 
+  // ---------------------------------------------------------------- sheets --
+  // Pull down (from a page's top) → deals; pull up (from the bottom) → settings.
+  let openSheetId = null;
+  function openSheet(id) {
+    closeSheet();
+    openSheetId = id;
+    $(id).classList.add("open");
+    document.getElementById("dots").style.visibility = "hidden";
+  }
+  function closeSheet() {
+    if (!openSheetId) return;
+    $(openSheetId).classList.remove("open");
+    openSheetId = null;
+    document.getElementById("dots").style.visibility = "";
+  }
+  document.querySelectorAll(".sheet-close").forEach(b => b.addEventListener("click", closeSheet));
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+  $("open-deals").addEventListener("click", () => openSheet("sheet-deals"));
+  $("open-settings").addEventListener("click", () => openSheet("sheet-settings"));
+
+  document.querySelectorAll(".page").forEach(pg => {
+    let startY = null, wasTop = false, wasBottom = false;
+    pg.addEventListener("touchstart", e => {
+      startY = e.touches[0].clientY;
+      wasTop = pg.scrollTop <= 0;
+      wasBottom = pg.scrollTop + pg.clientHeight >= pg.scrollHeight - 2;
+    }, { passive: true });
+    pg.addEventListener("touchmove", e => {
+      if (startY == null || openSheetId) return;
+      const dy = e.touches[0].clientY - startY;
+      if (dy > 95 && wasTop) { openSheet("sheet-deals"); startY = null; }
+      else if (dy < -95 && wasBottom) { openSheet("sheet-settings"); startY = null; }
+    }, { passive: true });
+    pg.addEventListener("touchend", () => { startY = null; }, { passive: true });
+  });
+
   // ---------------------------------------------------------------- header --
   const now = new Date();
   $("date-line").textContent = now.toLocaleDateString("en-AU", {
@@ -128,12 +164,26 @@
       `<polyline fill="none" stroke="#f2a65a" stroke-width="2" stroke-linejoin="round" points="${pts.map(p => p.map(n => n.toFixed(1)).join(",")).join(" ")}"/>` +
       `<circle cx="${pts[maxIdx][0].toFixed(1)}" cy="${pts[maxIdx][1].toFixed(1)}" r="3" fill="#f2a65a"/>`;
 
-    // hourly rain-chance bars
+    // hourly rain-chance bars: each bar = one hour, height = 0–100% chance,
+    // with 50%/100% gridlines and the day's peak called out in the caption
     const probs = (w.hourly.precipitation_probability || []).slice(0, 24);
     if (probs.length) {
       $("rain-wrap").hidden = false;
+      const peak = Math.max(...probs);
+      if (peak >= 10) {
+        const peakHour = probs.indexOf(peak);
+        const hLabel = peakHour === 0 ? "12am" : peakHour < 12 ? `${peakHour}am` : peakHour === 12 ? "12pm" : `${peakHour - 12}pm`;
+        $("rain-lbl").textContent = `Rain chance by hour · peaks ${peak}% around ${hLabel}`;
+      } else {
+        $("rain-lbl").textContent = "Rain chance by hour · staying dry";
+      }
       const bw = 580 / probs.length;
-      $("wx-rain").innerHTML = probs.map((p, i) => {
+      const grid =
+        `<line x1="0" y1="2" x2="580" y2="2" stroke="#243040" stroke-width="1" stroke-dasharray="3 4"/>` +
+        `<text x="3" y="11" font-size="8.5" fill="#8a97a6">100%</text>` +
+        `<line x1="0" y1="22" x2="580" y2="22" stroke="#243040" stroke-width="1" stroke-dasharray="3 4"/>` +
+        `<text x="3" y="31" font-size="8.5" fill="#8a97a6">50%</text>`;
+      $("wx-rain").innerHTML = grid + probs.map((p, i) => {
         const h = Math.max(1.5, (p / 100) * 40);
         const strong = p >= 40;
         return `<rect x="${(i * bw + 1).toFixed(1)}" y="${(42 - h).toFixed(1)}" width="${(bw - 2).toFixed(1)}" height="${h.toFixed(1)}" rx="1.5" fill="${strong ? "#7aa2d6" : "#3d5471"}"/>`;
@@ -172,6 +222,19 @@
     renderNews(d.news);
     renderWotd(d.wotd);
     renderCommGames(d.commGames);
+    renderDeals(d.deals);
+  }
+
+  function renderDeals(deals) {
+    if (!deals || !deals.length) return;
+    $("deals-list").innerHTML = deals.map(dl => {
+      const age = dl.ts ? Math.round((Date.now() - dl.ts) / 3600000) : null;
+      const meta = [dl.category, age != null ? (age < 1 ? "just posted" : `${age}h ago`) : null].filter(Boolean).join(" · ");
+      return `<a class="deal" href="${esc(dl.link)}" target="_blank" rel="noopener">` +
+        `<span class="deal-votes">+${dl.votes}</span>` +
+        `<span class="deal-main"><span class="deal-t">${esc(dl.title)}</span>` +
+        (meta ? `<span class="deal-meta">${esc(meta)}</span>` : "") + `</span></a>`;
+    }).join("");
   }
 
   function renderCommGames(cg) {
@@ -251,6 +314,16 @@
     if (m.note) {
       $("mkt-note").hidden = false;
       $("mkt-note").innerHTML = `<b>Buy-plan note:</b> ${esc(m.note)}`;
+    }
+    if (m.movers && m.movers.length) {
+      $("mkt-movers").hidden = false;
+      $("mkt-movers").innerHTML = `<div class="movers-h">Big movers</div>` + m.movers.map(x => {
+        const up = x.chgPct >= 0;
+        const price = x.currency === "USD" ? `US$${x.price.toFixed(2)}` : `$${x.price.toFixed(2)}`;
+        return `<div class="mover"><span class="mv-name">${esc(x.name)} <span class="mv-mkt">${esc(x.market)}</span></span>` +
+          `<span class="mv-price">${price}</span>` +
+          `<span class="${up ? "chg-up" : "chg-down"} mv-chg">${up ? "+" : "−"}${Math.abs(x.chgPct).toFixed(1)}%</span></div>`;
+      }).join("");
     }
   }
 
@@ -741,6 +814,12 @@
   $("games-date-line").textContent =
     `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new puzzles daily`;
   $("wx-loc").addEventListener("click", () => {
+    $("wx-loc").textContent = "· updating…";
+    loadWeather(true);
+  });
+  $("set-loc").addEventListener("click", () => {
+    closeSheet();
+    goTo(1);
     $("wx-loc").textContent = "· updating…";
     loadWeather(true);
   });

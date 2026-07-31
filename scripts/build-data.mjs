@@ -39,6 +39,48 @@ async function fetchQuote({ sym, label, name, fmt }) {
   return { sym, label, name, fmt, price, chgPct, high52, off52 };
 }
 
+// Big-name movers: a fixed universe of ASX majors + US megacaps; anything
+// that moved ≥2.5% in a day makes the board, biggest swing first.
+const MOVER_UNIVERSE = [
+  ["BHP.AX", "BHP", "ASX"], ["CBA.AX", "CommBank", "ASX"], ["CSL.AX", "CSL", "ASX"],
+  ["NAB.AX", "NAB", "ASX"], ["WBC.AX", "Westpac", "ASX"], ["ANZ.AX", "ANZ", "ASX"],
+  ["WES.AX", "Wesfarmers", "ASX"], ["MQG.AX", "Macquarie", "ASX"], ["GMG.AX", "Goodman", "ASX"],
+  ["WOW.AX", "Woolworths", "ASX"], ["TLS.AX", "Telstra", "ASX"], ["RIO.AX", "Rio Tinto", "ASX"],
+  ["FMG.AX", "Fortescue", "ASX"], ["TCL.AX", "Transurban", "ASX"], ["WDS.AX", "Woodside", "ASX"],
+  ["COL.AX", "Coles", "ASX"], ["QAN.AX", "Qantas", "ASX"], ["REA.AX", "REA Group", "ASX"],
+  ["XRO.AX", "Xero", "ASX"], ["STO.AX", "Santos", "ASX"],
+  ["AAPL", "Apple", "US"], ["MSFT", "Microsoft", "US"], ["NVDA", "Nvidia", "US"],
+  ["GOOGL", "Alphabet", "US"], ["AMZN", "Amazon", "US"], ["META", "Meta", "US"],
+  ["TSLA", "Tesla", "US"], ["AVGO", "Broadcom", "US"], ["JPM", "JPMorgan", "US"],
+  ["NFLX", "Netflix", "US"], ["LLY", "Eli Lilly", "US"], ["BRK-B", "Berkshire", "US"],
+];
+
+async function buildMovers() {
+  const found = [];
+  for (let i = 0; i < MOVER_UNIVERSE.length; i += 6) {
+    await Promise.all(MOVER_UNIVERSE.slice(i, i + 6).map(async ([sym, name, market]) => {
+      try {
+        const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(sym)}?range=5d&interval=1d`;
+        const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" }, signal: AbortSignal.timeout(15000) });
+        if (!res.ok) return;
+        const d = (await res.json()).chart.result[0];
+        const closes = (d.indicators.quote[0].close || []).filter(v => v != null);
+        const price = d.meta.regularMarketPrice;
+        let prev = closes.length > 1 ? closes[closes.length - 2] : null;
+        if (prev != null && Math.abs(closes[closes.length - 1] - price) > Math.abs(price) * 0.02) {
+          prev = closes[closes.length - 1];
+        }
+        if (!prev) return;
+        found.push({ sym, name, market, price, currency: d.meta.currency, chgPct: ((price - prev) / prev) * 100 });
+      } catch { /* one symbol down — skip it */ }
+    }));
+  }
+  return found
+    .filter(m => Math.abs(m.chgPct) >= 2.5)
+    .sort((a, b) => Math.abs(b.chgPct) - Math.abs(a.chgPct))
+    .slice(0, 6);
+}
+
 async function buildMarkets() {
   const items = [];
   const failed = [];
@@ -356,6 +398,35 @@ async function buildReleases() {
   return out;
 }
 
+// ------------------------------------------------------------------ deals --
+// OzBargain front-page deals (community-upvoted best). The ozb:meta attrs
+// aren't worth an XML-parser config — parse the item blocks directly.
+async function buildDeals() {
+  try {
+    const xml = await fetchFeed("https://www.ozbargain.com.au/feed");
+    const deals = [];
+    for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+      const block = m[1];
+      const pick = re => { const x = block.match(re); return x ? x[1] : ""; };
+      const title = stripHtml(pick(/<title>([\s\S]*?)<\/title>/)).slice(0, 180);
+      const link = pick(/<link>([\s\S]*?)<\/link>/).trim();
+      if (!title || !link) continue;
+      deals.push({
+        title,
+        link,
+        votes: Number(pick(/votes-pos="(\d+)"/)) || 0,
+        category: stripHtml(pick(/<category[^>]*>([\s\S]*?)<\/category>/)).slice(0, 40),
+        ts: Date.parse(pick(/<pubDate>([\s\S]*?)<\/pubDate>/)) || 0,
+      });
+      if (deals.length >= 15) break;
+    }
+    return deals;
+  } catch (e) {
+    console.error(`deals fail: ${e.message}`);
+    return [];
+  }
+}
+
 // ------------------------------------------------------ commonwealth games --
 // Glasgow 2026. Before day one: countdown + latest Games headlines. Once the
 // Wikipedia medal-table page stops being a redirect (day one), the parsed
@@ -548,7 +619,8 @@ ${JSON.stringify(input, null, 1)}`;
 }
 
 // -------------------------------------------------------------------- main --
-const [markets, news, releases, wotd, commGames] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd(), buildCommGames()]);
+const [markets, news, releases, wotd, commGames, movers, deals] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd(), buildCommGames(), buildMovers(), buildDeals()]);
+markets.movers = movers;
 const out = {
   generatedAt: new Date().toISOString(),
   markets,
@@ -556,6 +628,7 @@ const out = {
   releases,
   wotd,
   commGames,
+  deals,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +

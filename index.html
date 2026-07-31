@@ -58,7 +58,7 @@
         </div>
         <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
         <div class="rain-wrap" id="rain-wrap" hidden>
-          <div class="rain-lbl">Rain chance by hour</div>
+          <div class="rain-lbl" id="rain-lbl">Rain chance by hour</div>
           <svg class="rain" id="wx-rain" viewBox="0 0 580 46" preserveAspectRatio="none" aria-label="Hourly rain chance today"></svg>
           <div class="rain-axis"><span>12am</span><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
         </div>
@@ -103,6 +103,7 @@
           <tbody id="mkt-body"><tr><td colspan="3" class="muted-cell">Loading prices&hellip;</td></tr></tbody>
         </table>
         <div class="mkt-note" id="mkt-note" hidden></div>
+        <div id="mkt-movers" hidden></div>
       </section>
 
       <section id="deadlines-section">
@@ -120,14 +121,12 @@
         <button class="page-link right" id="goto-games">Swipe left for today&rsquo;s puzzles &rsaquo;</button>
       </section>
 
-      <section id="settings-section">
-        <div class="eyebrow">Notifications</div>
-        <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
-        <div class="sub-note" id="push-note" hidden></div>
-      </section>
-
       <footer>
-        Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Everything you type saves on this device.
+        <div class="footer-links">
+          <button class="page-link" id="open-deals">&darr; OzBargain deals</button>
+          <button class="page-link" id="open-settings">Settings &uarr;</button>
+        </div>
+        Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Deals: OzBargain &middot; Everything you type saves on this device. Pull down from the top for deals, up from the bottom for settings.
       </footer>
     </div>
   </div>
@@ -189,6 +188,47 @@
 
 <div class="dots" id="dots" aria-hidden="true">
   <span data-p="0"></span><span data-p="1" class="on"></span><span data-p="2"></span>
+</div>
+
+<!-- pull-down sheet: OzBargain front-page deals -->
+<div class="sheet sheet-top" id="sheet-deals">
+  <div class="wrap sheet-wrap">
+    <div class="sheet-head">
+      <div>
+        <div class="eyebrow">OzBargain</div>
+        <h1 class="sheet-title">Deals</h1>
+      </div>
+      <button class="sheet-close" data-close="sheet-deals" aria-label="Close">✕</button>
+    </div>
+    <div class="deal-list" id="deals-list"><div class="muted-cell">Deals load with the daily refresh.</div></div>
+  </div>
+</div>
+
+<!-- pull-up sheet: settings -->
+<div class="sheet sheet-bottom" id="sheet-settings">
+  <div class="wrap sheet-wrap">
+    <div class="sheet-head">
+      <div>
+        <div class="eyebrow">Morning Brief</div>
+        <h1 class="sheet-title">Settings</h1>
+      </div>
+      <button class="sheet-close" data-close="sheet-settings" aria-label="Close">✕</button>
+    </div>
+    <div class="set-group">
+      <div class="set-h">Notifications</div>
+      <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
+      <div class="sub-note" id="push-note" hidden></div>
+    </div>
+    <div class="set-group">
+      <div class="set-h">Location</div>
+      <button class="page-link" id="set-loc">📍 Update weather location now</button>
+      <div class="sub-note">Your saved location is used silently; it refreshes automatically if it's over a week old.</div>
+    </div>
+    <div class="set-group">
+      <div class="set-h">About</div>
+      <div class="sub-note">Self-hosted PWA. Data refreshes daily around 5:45am; scores and weather load live. Everything you type stays on this device.</div>
+    </div>
+  </div>
 </div>
 
 <script src="js/config.js"></script>
