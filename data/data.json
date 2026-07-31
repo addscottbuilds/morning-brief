@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T07:19:36.162Z",
+ "generatedAt": "2026-07-31T20:37:46.215Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8976.8,
-    "chgPct": 0.10147311450326835,
+    "chgPct": -0.6837299144316675,
     "high52": 9202.9,
     "off52": -2.456834258766263
    },
@@ -57,54 +57,38 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7034,
-    "chgPct": 1.073651576769847,
+    "price": 0.7041,
+    "chgPct": 0.22511538264111722,
     "high52": 0.7277,
-    "off52": -3.33928816820118
+    "off52": -3.2430946818744073
    }
   ],
   "failed": [],
   "note": "SEMI is 25% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "MSFT",
-    "name": "Microsoft",
-    "market": "US",
-    "price": 451.1,
-    "currency": "USD",
-    "chgPct": 15.506731738116464
-   },
-   {
-    "sym": "META",
-    "name": "Meta",
-    "market": "US",
-    "price": 539.03,
-    "currency": "USD",
-    "chgPct": -7.954096842047341
-   },
-   {
-    "sym": "AVGO",
-    "name": "Broadcom",
-    "market": "US",
-    "price": 387.84,
-    "currency": "USD",
-    "chgPct": 4.731041350526412
-   },
-   {
-    "sym": "LLY",
-    "name": "Eli Lilly",
-    "market": "US",
-    "price": 1154.97,
-    "currency": "USD",
-    "chgPct": -4.549513119012346
-   },
-   {
     "sym": "AMZN",
     "name": "Amazon",
     "market": "US",
-    "price": 235.5,
+    "price": 271.58,
     "currency": "USD",
-    "chgPct": 3.9047016729934705
+    "chgPct": 15.320594479830142
+   },
+   {
+    "sym": "AAPL",
+    "name": "Apple",
+    "market": "US",
+    "price": 308.91,
+    "currency": "USD",
+    "chgPct": -7.353865343368746
+   },
+   {
+    "sym": "GOOGL",
+    "name": "Alphabet",
+    "market": "US",
+    "price": 356.13,
+    "currency": "USD",
+    "chgPct": 6.734399116246946
    },
    {
     "sym": "CSL.AX",
@@ -113,6 +97,22 @@
     "price": 123.06,
     "currency": "AUD",
     "chgPct": -3.806769556443711
+   },
+   {
+    "sym": "META",
+    "name": "Meta",
+    "market": "US",
+    "price": 556.71,
+    "currency": "USD",
+    "chgPct": 3.2799602512289074
+   },
+   {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "market": "US",
+    "price": 464.72,
+    "currency": "USD",
+    "chgPct": 3.0192847954338022
    }
   ]
  },
@@ -125,8 +125,8 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-      "summary": "A senior Hamas official has told the BBC they have agreed to the Board of Peace's plan. Israel has not commented.",
+      "headline": "What triggered the mass migrant crossings into Ceuta?",
+      "summary": "An estimated 60,000 migrants from Morocco have crossed into Ceuta, with dozens dying during the journey.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -134,72 +134,58 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-        "desc": "A senior Hamas official has told the BBC they have agreed to the Board of Peace's plan. Israel has not commented.",
-        "link": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Hamas agrees to 'complete disarmament' in Gaza after Trump reveals historic deal for peace in Middle East",
-        "desc": "The President introduced the Board of Peace as part of the plan last September aimed at ending the conflict between Israel and Hamas.",
-        "link": "https://www.dailymail.com/news/article-16018319/Donald-Trump-disarm-hamas-gaza-israel.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "'Take it with a grain of salt': The missing parts of Trump's 'historic' Hamas deal",
-        "desc": "Major hurdles remain unresolved in what Trump has characterised as a \"historic\" Hamas disarmament deal.",
-        "link": "https://www.sbs.com.au/news/article/take-it-with-a-grain-of-salt-why-theres-scepticism-over-trumps-historic-hamas-deal/mv15eios6"
-       },
-       {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Hamas agrees to complete disarmament under 'historic' Gaza agreement: Trump",
-        "desc": "President Donald Trump announced what he called a historic agreement to completely disarm Hamas and other armed groups in Gaza as part of a broader peace initiative.",
-        "link": "https://www.foxnews.com/politics/hamas-agrees-complete-disarmament-historic-gaza-agreement-trump"
+        "title": "Migrant crisis pushes Italy to restore border checks with Spain, testing Europe's open-border system",
+        "desc": "Conservative leaders across Europe react as an estimated 60,000 migrants crossed into Ceuta from Morocco within 24 hours, threatening its open-border policies.",
+        "link": "https://www.foxnews.com/world/migrant-crisis-pushes-italy-restore-border-checks-spain-testing-europes-open-border-system"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "What triggered the mass migrant crossings into Ceuta?",
+        "desc": "An estimated 60,000 migrants from Morocco have crossed into Ceuta, with dozens dying during the journey.",
+        "link": "https://www.bbc.co.uk/news/videos/c171nnql1j4o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Spain says Ceuta migrant surge largely reversed as most return to Morocco",
+        "desc": "Prime Minister Pedro Sanchez has blamed trafficking gangs as Spanish authorities say at least 57 bodies have been recovered.",
+        "link": "https://www.abc.net.au/news/2026-08-01/migrants-return-to-morocco-/106984662"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "What could happen to Fifa if Uefa boycotts World Cup?",
-      "summary": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
+      "headline": "Fifa says 'nobody selling football' as plan continues",
+      "summary": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "FIFA vows to press on with plans to sell stake in the World Cup despite worldwide backlash and boycott threats: Football chiefs issue furious late-night statement",
-        "desc": "FIFA issued a response to furious backlash over the controversial plan to sell World Cup stakes to private investors by blaming the media for the uproar.",
-        "link": "https://www.dailymail.com/sport/football/article-16018651/FIFA-Gianni-Infantino-World-Cup-shares-blaming-media.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Football Australia and Fifa’s controversial World Cup sell-off plans – explained",
-        "desc": "FA is yet to formalise a position after being advised by the Asian Football Confederation to await further details Gianni Infantino’s proposal to sell chunks of the World Cup to US-based private investment has sent shockwaves through football, with Fifa accused of putting the sport’s “soul” up for sale. How is Australia involved and what are the likely ramifications? Continue reading...",
-        "link": "https://www.theguardian.com/football/2026/jul/31/fifa-world-cup-sell-off-plans-football-australia-explainer"
+        "title": "Gianni Infantino's World Cup plot is unravelling as senior advisor QUITS and Asian Federation join leading nations in opposing controversial plan - denying deluded FIFA boss a majority",
+        "desc": "Gianni Infantino's divisive plan to sell stakes in the World Cup appears to be dead after the Asian Football Confederation (AFC) joined UEFA and Concacaf in opposing the plot.",
+        "link": "https://www.dailymail.com/sport/football/article-16019113/FIFAs-World-Cup-plot-dead-water-Asian-Federation-stand-UEFA-CONCACAF-deny-Gianni-Infantino-majority-deluded-president-vows-plough-controversial-plan.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "What could happen to Fifa if Uefa boycotts World Cup?",
-        "desc": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss"
+        "title": "Fifa says 'nobody selling football' as plan continues",
+        "desc": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Breaking: Media makes case to reveal high-profile man's identity",
-      "summary": "MM's name has been suppressed by a Cairns court since late May, although he was not the direct target of the alleged threat.",
+      "headline": "Palestinians long for peace but doubt Trump's deal with Hamas will hold",
+      "summary": "\"Over the past three years, we've heard many agreements and proposed solutions, yet the situation on the ground has only continued to deteriorate.\"",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -209,30 +195,23 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Breaking: Media makes case to reveal high-profile man's identity",
-        "desc": "MM's name has been suppressed by a Cairns court since late May, although he was not the direct target of the alleged threat.",
-        "link": "https://www.abc.net.au/news/2026-07-31/qld-cairns-court-npo-high-profile-man/106976638"
+        "title": "Palestinians long for peace but doubt Trump's deal with Hamas will hold",
+        "desc": "\"Over the past three years, we've heard many agreements and proposed solutions, yet the situation on the ground has only continued to deteriorate.\"",
+        "link": "https://www.abc.net.au/news/2026-08-01/palestine-weapons-deal-gaza/106985042"
        },
        {
-        "outlet": "7News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Fight to identify high-profile Queensland man in extortion case reaches Cairns Supreme Court",
-        "desc": "Police and media are fighting over whether the man’s identity can finally be revealed.",
-        "link": "https://7news.com.au/news/fight-to-identify-high-profile-queensland-man-in-extortion-case-reaches-cairns-supreme-court-c-22656534"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Ismail v State of Queensland. Remember that case — it’s going to make some laws",
-        "desc": "Even if you do not care about the Middle East, this case regards your freedom to express your view on whatever political topics are important to you. The post Ismail v State of Queensland. Remember that case — it’s going to make some laws appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/07/30/ismail-v-state-of-queensland-pro-palestine-free-speech-censorship/"
+        "title": "What's in the Gaza peace deal roadmap?",
+        "desc": "Hamas says it has accepted a disarmament plan for Gaza which will see it lay down its arms and Israeli troops withdraw from the territory.",
+        "link": "https://www.bbc.co.uk/news/articles/c20e94k2ex5o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 3,
-      "headline": "Kyle Sandilands leaves Australian Idol after four seasons as search begins for new judge",
-      "summary": "The former KIIS FM radio host has been a judge on Seven’s singing juggernaut for four years.",
+      "headline": "‘Not the Grim Reaper’: What people get wrong about doctors like Ross",
+      "summary": "Dr Ross Cruikshank treats people who are dying, but says his role is about affirming life.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -240,32 +219,25 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Kyle Sandilands leaves Australian Idol after four seasons as search begins for new judge",
-        "desc": "The former KIIS FM radio host has been a judge on Seven’s singing juggernaut for four years.",
-        "link": "https://7news.com.au/entertainment/australian-idol/kyle-sandilands-leaves-australian-idol-after-four-seasons-as-search-begins-for-new-judge-c-22658408"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Not the Grim Reaper’: What people get wrong about doctors like Ross",
+        "desc": "Dr Ross Cruikshank treats people who are dying, but says his role is about affirming life.",
+        "link": "https://www.theage.com.au/national/queensland/not-the-grim-reaper-what-people-get-wrong-about-doctors-like-ross-20260713-p60ete.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Kyle Sandilands quits Australian Idol after online activist group who have campaigned against shock jock for years attack advertisers",
-        "desc": "Kyle Sandilands has quit Australian Idol after online activist group the Mad F**king Witches attacked potential advertisers of the Channel Seven show.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16018803/kyle-sandilands-quits-australian-idol-channel-seven-advertisers.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Kyle Sandilands takes his pick of on-air partners as shock jock rebounds from Kiis FM – and Jackie O | Weekly Beast",
-        "desc": "The Daily Telegraph runs 16 articles about Sandilands and his new media venture in a single week – while his former co-host, Jackie ‘O’ Henderson, is still in court Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast “Crushed but not broken.” “He’s back.” “I don’t miss Jackie.” Kyle Sandilands was front-page news for two days running a",
-        "link": "https://www.theguardian.com/media/commentisfree/2026/jul/31/kyle-sandilands-radio-partners-kiis-fm-weekly-beast-media"
+        "title": "I tried everything to get slim after suddenly piling on the pounds. Then doctors discovered this surprising condition was to blame. Now, I've lost four stone with one treatment... so many more people ",
+        "desc": "When Lex Banach gained nearly 3st over six months, nothing about it made sense. The US content creator hadn't changed her diet or exercise regime. Yet her weight climbed from 11st to 14st.",
+        "link": "https://www.dailymail.com/health/article-16019183/tried-slim-surprising-condition-blame.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "UK rapper Yung Filly found not guilty of raping woman after Australian show",
-      "summary": "The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.",
+      "headline": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
+      "summary": "Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -273,32 +245,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Rapper Yung Filly is found not guilty of three counts of raping an Australian fan - but guilty of 'biting' assaults",
-        "desc": "The UK rapper, legally known as Andres Felipe Valencia Barrientos, had pleaded not guilty to all 10 charges and faced an eight-day trial in the West Australian District Court.",
-        "link": "https://www.dailymail.com/news/article-16018749/yung-filly-rape-trial-perth.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "At least 57 people die as tens of thousands cross to Spanish enclave of Ceuta from Morocco",
+        "desc": "Pedro Sánchez decries ‘violation of territorial integrity’ as other EU countries criticise Madrid over incident At least 57 people have died trying to reach the Spanish enclave of Ceuta after as many as 50,000 migrants entered the tiny territory from Morocco in what Spain’s prime minister, Pedro Sánchez, called “a violation of Spain’s territorial integrity”. The huge influx, which took place over ",
+        "link": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths"
        },
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "UK rapper Yung Filly found not guilty of raping woman after Australian show",
-        "desc": "The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.",
-        "link": "https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "UK rapper Yung Filly found not guilty of raping woman after Perth show",
-        "desc": "The performer was accused of assaulting the woman after a show.",
-        "link": "https://7news.com.au/news/uk-rapper-yung-filly-found-not-guilty-of-raping-woman-after-perth-show-c-22657552"
+        "title": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
+        "desc": "Spain said most had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Madrid.",
+        "link": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Top silk refuses to withdraw claims Mick Gatto linked to CFMEU",
-      "summary": "Geoffrey Watson SC fronted the inquiry in Brisbane on Friday and faced combative questioning by Simon Wilson KC, acting for a trade group linked to underworld identity, Mick Gatto.",
+      "headline": "Sri Lanka sentences officials to death over bombing that killed Australians",
+      "summary": "The 2019 Easter Sunday bombings on churches and luxury tourist hotels killed more than 260 people, including two Australians.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -306,32 +271,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘I’m not coming back’: CFMEU report author apologises after inquiry outburst",
-        "desc": "Geoffrey Watson SC defended his report into CFMEU misconduct at a Brisbane inquiry, apologising after threatening to walk away under intense cross-examination.",
-        "link": "https://www.theage.com.au/national/queensland/i-m-not-coming-back-cfmeu-report-author-apologises-after-inquiry-outburst-20260731-p60kc2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Labour hire firm paid Mick Gatto more than $1m to secure work on Big Build, CFMEU inquiry told",
-        "desc": "M Group’s lawyer tells inquiry while the firm’s directors ‘may have done business with Gatto’ they were not ‘frontmen’ for him Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast A labour hire company accused of being a front for underworld figure Mick Gatto paid him more than $1m over nine years, with its lawyer telling an inquiry it ",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/31/geoffrey-watson-integrity-expert-cfmeu-corruption-inquiry-ntwnfb"
-       },
-       {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Top silk refuses to withdraw claims Mick Gatto linked to CFMEU",
-        "desc": "Geoffrey Watson SC fronted the inquiry in Brisbane on Friday and faced combative questioning by Simon Wilson KC, acting for a trade group linked to underworld identity, Mick Gatto.",
-        "link": "https://www.abc.net.au/news/2026-07-31/qld-cfmeu-gangland-figures-mick-gatto/106980500"
+        "title": "Sri Lanka sentences officials to death over bombing that killed Australians",
+        "desc": "The 2019 Easter Sunday bombings on churches and luxury tourist hotels killed more than 260 people, including two Australians.",
+        "link": "https://www.abc.net.au/news/2026-08-01/death-penalty-sentence-over-easter-sunday-bombings/106985044"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Cyanide in tomato pesticide killed 15 elephants, Kenyan officials suspect",
+        "desc": "Foul play is ruled out in the record number of elephant deaths for decades in this area of southern Kenya.",
+        "link": "https://www.bbc.co.uk/news/articles/cp9e0v5xmdyo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Luke Gosling banned from approaching NT Government House",
-      "summary": "Federal Labor MP Luke Gosling has been banned from approaching Government House in Darwin after facing court for the first time since being charged with assaulting Northern Territory Administrator David Connolly.",
+      "headline": "Girl reunited with Sydney heroes who saved her from deadly meningococcal infection using green light corridor",
+      "summary": "Emergency crews used a rarely deployed system to race the two-year-old across Sydney in half the usual time to save her life.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -339,25 +297,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Courts hears details of Labor MP’s alleged assault of NT administrator",
-        "desc": "Federal Labor MP Luke Gosling is alleged to have struck the King’s representative in the NT with a hip-and-shoulder charge before later elbowing him during a Darwin cultural festival, a court has heard.",
-        "link": "https://www.theage.com.au/politics/federal/courts-hears-details-of-labor-mp-s-alleged-assault-of-nt-administrator-20260731-p60kei.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Luke Gosling banned from approaching NT Government House",
-        "desc": "Federal Labor MP Luke Gosling has been banned from approaching Government House in Darwin after facing court for the first time since being charged with assaulting Northern Territory Administrator David Connolly.",
-        "link": "https://www.abc.net.au/news/2026-07-31/luke-gosling-banned-from-nt-government-house-bail-varied-court/106981964"
-       },
-       {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Opposition says Albanese 'failed' to act after Labor MP Luke Gosling charged over alleged assault",
-        "desc": "The controversy has become a test of Anthony Albanese’s leadership as pressure mounts for him to act.",
-        "link": "https://7news.com.au/news/opposition-says-albanese-failed-to-act-after-labor-mp-luke-gosling-charged-over-alleged-assault-c-22657492"
+        "title": "Girl reunited with Sydney heroes who saved her from deadly meningococcal infection using green light corridor",
+        "desc": "Emergency crews used a rarely deployed system to race the two-year-old across Sydney in half the usual time to save her life.",
+        "link": "https://7news.com.au/news/girl-reunited-with-sydney-heroes-who-saved-her-from-deadly-meningococcal-infection-using-green-light-corridor-c-22659432"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "'I trusted her': Chanel bag feud erupts as fallen 'It' girl Kelly Smythe is accused of selling designer fake to Luxe Listings Sydney star D'Leanne Lewis",
+        "desc": "Once an in-demand stylist, Kelly Smythe is facing fresh scrutiny after Luxe Listings star D'Leanne Lewis discovered a Chanel bag she bought for $4,000 was allegedly fake.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16012321/stylist-kelly-smythe-allegedly-fake-chanel-bag-court-case-dleanne-lewis.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -369,8 +320,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Courts hears details of Labor MP’s alleged assault of NT administrator",
-      "summary": "Federal Labor MP Luke Gosling is alleged to have struck the King’s representative in the NT with a hip-and-shoulder charge before later elbowing him during a Darwin cultural festival, a court has heard.",
+      "headline": "Late-term abortion takes front seat as blue state rushes to expand access before session ends",
+      "summary": "The bill would let physicians decide whether abortions after 24 weeks are appropriate, removing current legal limits tied to specific medical cases.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -378,51 +329,37 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Courts hears details of Labor MP’s alleged assault of NT administrator",
-        "desc": "Federal Labor MP Luke Gosling is alleged to have struck the King’s representative in the NT with a hip-and-shoulder charge before later elbowing him during a Darwin cultural festival, a court has heard.",
-        "link": "https://www.theage.com.au/politics/federal/courts-hears-details-of-labor-mp-s-alleged-assault-of-nt-administrator-20260731-p60kei.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Federal Labor MP Luke Gosling charged with assaulting NT administrator",
-        "desc": "Member for Solomon previously denied alleged incident with administrator David Connolly and says he will contest charges Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Luke Gosling, the federal Labor member for Solomon, has been charged over an alleged assault on the Northern Territory’s administrator earlier this month, NT police",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/30/luke-gosling-labor-mp-arrested-northern-territory-nt-ntwnfb"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Late-term abortion takes front seat as blue state rushes to expand access before session ends",
+        "desc": "The bill would let physicians decide whether abortions after 24 weeks are appropriate, removing current legal limits tied to specific medical cases.",
+        "link": "https://www.foxnews.com/politics/late-term-abortion-takes-front-seat-blue-state-rushes-expand-access-before-session-ends"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Trump promotes Freedom Haulers Initiative to fast-track military veterans into trucking jobs",
-      "summary": "President Trump's Freedom Haulers Initiative streamlines CDL licensing for military veterans while removing over 24,000 non-English-speaking commercial drivers.",
+      "headline": "Inside the lavish lifestyle of ultra-wealthy Dem endorsed by top Bernie Sanders group",
+      "summary": "Eric Jones reports up to $86 million in assets and an $8 million salary while campaigning against corporate influence in California's 4th district race.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Forced out of Australia’s military due to his sexuality, David says an apology is ‘long overdue’ for veterans like him",
-        "desc": "Exclusive: ADF personnel who were discriminated against for being LGBTQ+ are owed a national apology, federal government told Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast A national apology should be issued to LGBTQ+ veterans and service personnel who experienced discrimination at the hands of the Australian Defence Force, accor",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-       },
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Trump promotes Freedom Haulers Initiative to fast-track military veterans into trucking jobs",
-        "desc": "President Trump's Freedom Haulers Initiative streamlines CDL licensing for military veterans while removing over 24,000 non-English-speaking commercial drivers.",
-        "link": "https://www.foxnews.com/politics/trump-promotes-freedom-haulers-initiative-fast-track-military-veterans-trucking-jobs"
+        "title": "Inside the lavish lifestyle of ultra-wealthy Dem endorsed by top Bernie Sanders group",
+        "desc": "Eric Jones reports up to $86 million in assets and an $8 million salary while campaigning against corporate influence in California's 4th district race.",
+        "link": "https://www.foxnews.com/politics/lavish-lifestyle-ultra-wealthy-dem-endorsed-top-bernie-sanders-group"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "The ghost of Bob Hawke supports Pauline Hanson? I saw first-hand how wrong that notion is",
-      "summary": "The Institute of Public Affairs claims Bob Hawke would have supported Pauline Hanson’s objections to Welcome to Country. It’s a ludicrous slur, and here’s why.",
+      "headline": "Jack Smith's Senate phone records probe turns to Verizon's handling of subpoenas",
+      "summary": "Sen. Chuck Grassley and 15 senators demand Verizon explain why it failed to disclose Jack Smith's Arctic Frost subpoena for congressional phone records.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -430,51 +367,37 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Pauline Hanson’s no ‘good Muslims’ comment don’t breach hate speech laws, Australian federal police finds",
-        "desc": "One Nation leader’s ‘how can you tell me there are good Muslims?’ remarks were the subject of complaints, but police say the matter has now been finalised Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The Australian federal police has determined One Nation leader Pauline Hanson’s comments about Muslim Australians “do not meet the",
-        "link": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "The ghost of Bob Hawke supports Pauline Hanson? I saw first-hand how wrong that notion is",
-        "desc": "The Institute of Public Affairs claims Bob Hawke would have supported Pauline Hanson’s objections to Welcome to Country. It’s a ludicrous slur, and here’s why.",
-        "link": "https://www.theage.com.au/politics/federal/the-ghost-of-bob-hawke-supports-pauline-hanson-i-saw-first-hand-how-wrong-that-notion-is-20260730-p60k1w.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Jack Smith's Senate phone records probe turns to Verizon's handling of subpoenas",
+        "desc": "Sen. Chuck Grassley and 15 senators demand Verizon explain why it failed to disclose Jack Smith's Arctic Frost subpoena for congressional phone records.",
+        "link": "https://www.foxnews.com/politics/jack-smith-senate-phone-records-probe-turns-verizon-handling-subpoenas"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Hamas agrees to complete disarmament under 'historic' Gaza agreement: Trump",
-      "summary": "President Donald Trump announced what he called a historic agreement to completely disarm Hamas and other armed groups in Gaza as part of a broader peace initiative.",
+      "headline": "Seattle Mayor Katie Wilson names Andre Sayles as interim police chief after Barnes resignation",
+      "summary": "Deputy Chief Andre Sayles takes over as interim Seattle police chief after Shon Barnes' resignation following the deadly Bite of Seattle shooting.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Australia news LIVE: Board of Peace reaches Gaza disarmament deal, Trump says; Anthropic’s Claude AI hacks three organisations during testing",
-        "desc": "Follow our rolling coverage of the latest developments and news from around Australia and the world.",
-        "link": "https://www.theage.com.au/politics/federal/australia-news-live-australia-records-housing-approval-spike-calls-for-new-direction-on-indigenous-affairs-20260731-p60k7o.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Hamas agrees to complete disarmament under 'historic' Gaza agreement: Trump",
-        "desc": "President Donald Trump announced what he called a historic agreement to completely disarm Hamas and other armed groups in Gaza as part of a broader peace initiative.",
-        "link": "https://www.foxnews.com/politics/hamas-agrees-complete-disarmament-historic-gaza-agreement-trump"
+        "title": "Seattle Mayor Katie Wilson names Andre Sayles as interim police chief after Barnes resignation",
+        "desc": "Deputy Chief Andre Sayles takes over as interim Seattle police chief after Shon Barnes' resignation following the deadly Bite of Seattle shooting.",
+        "link": "https://www.foxnews.com/politics/seattle-mayor-katie-wilson-names-andre-sayles-interim-police-chief-barnes-resignation"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Guardian Essential report: the Labor health check - podcast",
-      "summary": "This month’s Guardian Essential poll shows signs that One Nation’s primary vote continues to plateau. But Labor can’t breathe a big sigh of relief just yet. Guardian Australia political reporter Josh Butler speaks with Guardian columnist and executive director of Essential, Peter Lewis, about the health of the government at the halfway point of Anthony Albanese’s second term as prime minister • Gu",
+      "headline": "One bold, fiscal move would ease our economic anxiety. Does the PM have the nerve?",
+      "summary": "Balancing the federal budget would reduce Australia’s risks, improve stability, and lift confidence. But it will require political courage.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -484,23 +407,16 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Labor ignored internal report revealing toll of scrapping Baby Boomer health rebate",
-        "desc": "The government is under fire for scrapping the premium private health insurance rebate for over 65s.",
-        "link": "https://www.theage.com.au/politics/federal/labor-ignored-internal-report-revealing-toll-of-scrapping-baby-boomer-health-rebate-20260731-p60k8m.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Guardian Essential report: the Labor health check - podcast",
-        "desc": "This month’s Guardian Essential poll shows signs that One Nation’s primary vote continues to plateau. But Labor can’t breathe a big sigh of relief just yet. Guardian Australia political reporter Josh Butler speaks with Guardian columnist and executive director of Essential, Peter Lewis, about the health of the government at the halfway point of Anthony Albanese’s second term as prime minister • Gu",
-        "link": "https://www.theguardian.com/australia-news/audio/2026/jul/30/guardian-essential-report-the-labor-health-check-australian-politics-podcast"
+        "title": "One bold, fiscal move would ease our economic anxiety. Does the PM have the nerve?",
+        "desc": "Balancing the federal budget would reduce Australia’s risks, improve stability, and lift confidence. But it will require political courage.",
+        "link": "https://www.theage.com.au/politics/federal/one-bold-fiscal-move-would-ease-our-economic-anxiety-does-the-pm-have-the-nerve-20260731-p60kbd.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Australia news live: Icac hears of friendship breakdown between Reformers members, third Victorian teachers’ strike announced",
-      "summary": "Former premier’s brother to appear before inquiry. Follow live Get our breaking news email, free app or daily news podcast eSafety commissioner says court action against Telegram ‘very significant’ Julie Inman Grant, the eSafety commissioner, spoke to the ABC this morning after yesterday’s court action against Telegram over its alleged failure to detect and remove pro-terror material from its plat",
+      "headline": "Pauline Hanson as PM? The maths versus the mirage",
+      "summary": "It takes a mammoth effort to win a single seat in the House of Representatives. One Nation would need to seize at least 39 seats.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -508,11 +424,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
+        "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Australia news live: Icac hears of friendship breakdown between Reformers members, third Victorian teachers’ strike announced",
-        "desc": "Former premier’s brother to appear before inquiry. Follow live Get our breaking news email, free app or daily news podcast eSafety commissioner says court action against Telegram ‘very significant’ Julie Inman Grant, the eSafety commissioner, spoke to the ABC this morning after yesterday’s court action against Telegram over its alleged failure to detect and remove pro-terror material from its plat",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        "title": "Pauline Hanson as PM? The maths versus the mirage",
+        "desc": "It takes a mammoth effort to win a single seat in the House of Representatives. One Nation would need to seize at least 39 seats.",
+        "link": "https://www.theage.com.au/politics/federal/pauline-hanson-as-pm-the-maths-versus-the-mirage-20260731-p60kbe.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      }
@@ -524,8 +440,8 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
-      "summary": "Billions of dollars are being poured into a new wave of AI technology. But will it pay off?",
+      "headline": "The major labels propose rules to keep AI slop off the charts",
+      "summary": "Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes quite a bit further than a labeling proposal put forth by the RIAA, the International Federation of the Phonographic Industry (IFPI), SAG-AFTRA, and others. That would create a set of",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -533,18 +449,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Amazon and Apple just told us more about their AI plans - here are three things we learned",
-        "desc": "Billions of dollars are being poured into a new wave of AI technology. But will it pay off?",
-        "link": "https://www.bbc.co.uk/news/articles/cp87m46g392o?at_medium=RSS&at_campaign=rss"
+        "title": "The major labels propose rules to keep AI slop off the charts",
+        "desc": "Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes quite a bit further than a labeling proposal put forth by the RIAA, the International Federation of the Phonographic Industry (IFPI), SAG-AFTRA, and others. That would create a set of",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "AI labels to be compulsory on authentic-looking content under EU rules",
+        "desc": "Companies must ensure people know when they are interacting with artificially generated images, audio and text designed to look real From apparently conspiring to steal elections to abusing staff or performing embarrassing dance moves, the last few years have seen plenty of fake content made about politicians intended to malign its targets and mislead the public. Now EU rules aim to stem the flood",
+        "link": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Teen hackers tell BBC how police are helping them use their skills for good",
-      "summary": "Cyber Prevent is targeting predominantly boys and young men at risk of being drawn to cyber criminality.",
+      "headline": "Apple’s new AirTags are back down to their best price",
+      "summary": "Both Amazon and Costco are offering some solid deals. | Photo by Amelia Holowaty Krales / The Verge We spotted a great deal on Tile trackers earlier this week that’s still live, but if you’re an iPhone owner, we ultimately recommend Apple’s latest AirTag. Right now, you can pick up a four-pack for $89 ($10 off) at Amazon and Target, matching the bundle’s all-time low price. If you’re a member, Cos",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -552,18 +475,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Teen hackers tell BBC how police are helping them use their skills for good",
-        "desc": "Cyber Prevent is targeting predominantly boys and young men at risk of being drawn to cyber criminality.",
-        "link": "https://www.bbc.co.uk/news/articles/cn0nqpy1rk4o?at_medium=RSS&at_campaign=rss"
+        "title": "Apple’s new AirTags are back down to their best price",
+        "desc": "Both Amazon and Costco are offering some solid deals. | Photo by Amelia Holowaty Krales / The Verge We spotted a great deal on Tile trackers earlier this week that’s still live, but if you’re an iPhone owner, we ultimately recommend Apple’s latest AirTag. Right now, you can pick up a four-pack for $89 ($10 off) at Amazon and Target, matching the bundle’s all-time low price. If you’re a member, Cos",
+        "link": "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Anthropic’s AI Claude escaped testing environment and hacked organizations",
-      "summary": "Company says it discovered unauthorized access during ‘proactive review’ after rival OpenAI revealed rogue agent Anthropic ⁠said on Thursday its AI Claude model hacked ⁠systems of ⁠three ​organizations during testing, days after rival OpenAI ⁠revealed a rogue agent had gone on a days-long ⁠hacking spree at AI ​firm Hugging ‌Face. Claude gained ‌unauthorized access to the ‌systems during cybersecur",
+      "headline": "Google Earth s AI deepfake tool only lasted one day",
+      "summary": "Pompeii reimagined with Nano Banana 2 in Google Earth. | Image: Google Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text prompts; Digital Digging's Henk van Ess, for example, intentionally generated images adding things like refugees n",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -571,18 +494,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Anthropic’s AI Claude escaped testing environment and hacked organizations",
-        "desc": "Company says it discovered unauthorized access during ‘proactive review’ after rival OpenAI revealed rogue agent Anthropic ⁠said on Thursday its AI Claude model hacked ⁠systems of ⁠three ​organizations during testing, days after rival OpenAI ⁠revealed a rogue agent had gone on a days-long ⁠hacking spree at AI ​firm Hugging ‌Face. Claude gained ‌unauthorized access to the ‌systems during cybersecur",
-        "link": "https://www.theguardian.com/technology/2026/jul/30/anthropic-ai-claude-hack"
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Google Earth s AI deepfake tool only lasted one day",
+        "desc": "Pompeii reimagined with Nano Banana 2 in Google Earth. | Image: Google Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text prompts; Digital Digging's Henk van Ess, for example, intentionally generated images adding things like refugees n",
+        "link": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Tim Cook hints at iCloud Plus tier for AI power users",
-      "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iO",
+      "headline": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
+      "summary": "The National Highway Traffic Safety Administration (NHTSA) is probing nearly 1.2 million Tesla vehicles after receiving complaints about a suspension failure that could cause \"a loss of vehicle directional control,\" as reported earlier by Reuters. The preliminary investigation includes the 2018-2020 Model 3 and 2021-2023 Model Y, according to a filing from the NHTSA's Office of Defects Investigati",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -592,16 +515,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Tim Cook hints at iCloud Plus tier for AI power users",
-        "desc": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iO",
-        "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai"
+        "title": "The NHTSA is investigating 1.2 million Tesla vehicles over suspension failure reports",
+        "desc": "The National Highway Traffic Safety Administration (NHTSA) is probing nearly 1.2 million Tesla vehicles after receiving complaints about a suspension failure that could cause \"a loss of vehicle directional control,\" as reported earlier by Reuters. The preliminary investigation includes the 2018-2020 Model 3 and 2021-2023 Model Y, according to a filing from the NHTSA's Office of Defects Investigati",
+        "link": "https://www.theverge.com/transportation/973887/nhtsa-tesla-investigation-suspension"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Xbox CEO lays out priorities in memo after major reset",
-      "summary": "Asha Sharma. | Image: The Verge, Microsoft After a massive Xbox \"reset\" that laid off thousands of employees and spun off four studios, Xbox CEO Asha Sharma wants to get Xbox back to growth. In a memo obtained by The Verge, Sharma told staff by the end of fiscal year 2027 (which runs through next June), \"we will return XBOX to player and revenue growth.\" Xbox will also \"improve profits back in lin",
+      "headline": "Google might launch a ‘Pixel Tag’",
+      "summary": "Google is seemingly working on an item tracker that might compete with Apple's AirTag. 9to5Google obtained an image of something called a \"Google Pixel Tag\" that has a small oval shape. The publication also linked to a Slovenian store listing about the Pixel Tag that describes the gadget as an item tracker with a speaker that uses Google's \"Find My Device\" network (which is now called Find Hub). T",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -611,16 +534,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Xbox CEO lays out priorities in memo after major reset",
-        "desc": "Asha Sharma. | Image: The Verge, Microsoft After a massive Xbox \"reset\" that laid off thousands of employees and spun off four studios, Xbox CEO Asha Sharma wants to get Xbox back to growth. In a memo obtained by The Verge, Sharma told staff by the end of fiscal year 2027 (which runs through next June), \"we will return XBOX to player and revenue growth.\" Xbox will also \"improve profits back in lin",
-        "link": "https://www.theverge.com/games/973520/xbox-ceo-memo-one-year-growth"
+        "title": "Google might launch a ‘Pixel Tag’",
+        "desc": "Google is seemingly working on an item tracker that might compete with Apple's AirTag. 9to5Google obtained an image of something called a \"Google Pixel Tag\" that has a small oval shape. The publication also linked to a Slovenian store listing about the Pixel Tag that describes the gadget as an item tracker with a speaker that uses Google's \"Find My Device\" network (which is now called Find Hub). T",
+        "link": "https://www.theverge.com/tech/973889/google-pixel-tag-item-tracker"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "India wants to join the strawberry superpowers",
-      "summary": "Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.",
+      "headline": "High school defends staying silent while boys made AI nudes of 59 classmates",
+      "summary": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -628,11 +551,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "India wants to join the strawberry superpowers",
-        "desc": "Indian strawberry farmers rely on varieties imported from the US and Europe, but that could change.",
-        "link": "https://www.bbc.co.uk/news/articles/c8x274xxxpwo?at_medium=RSS&at_campaign=rss"
+        "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
+        "desc": "Gaps in laws may help Pennsylvania high school escape AI nudes scandal.",
+        "link": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/"
        }
       ]
      }
@@ -644,117 +567,8 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Apple posts record June quarter as iPhone sales surge; Cook weighs in on AI, China",
-      "summary": "Tech giant Apple beats fiscal third-quarter earnings estimates with $109.4 billion in revenue as CEO Tim Cook prepares to depart the role in September.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "BP to sell North Sea business; AI companies lead record surge on Korea’s stock market – business live",
-        "desc": "Live, rolling coverage as British oil company looks for buyer amid political dispute over future drilling licences Good morning, and welcome to our live coverage of business, economics and financial markets. BP has put its North Sea oil business up for sale, saying it will try to find a buyer amid a political dispute over whether the UK government should allow more drilling. The UK has been our ho",
-        "link": "https://www.theguardian.com/business/live/2026/jul/31/bp-sell-north-sea-ai-record-korea-kospi-stock-market-latest-news-updates"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Apple posts record June quarter as iPhone sales surge; Cook weighs in on AI, China",
-        "desc": "Tech giant Apple beats fiscal third-quarter earnings estimates with $109.4 billion in revenue as CEO Tim Cook prepares to depart the role in September.",
-        "link": "https://www.foxbusiness.com/markets/apple-posts-record-june-quarter-iphone-sales-surge-cook-weighs-ai-china"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "As the Fed sits tight on interest rates, investors take action",
-      "summary": "The US central bank left its policy rate unchanged and declined to provide any guidance about the outlook, so the bond market took matters into its own hands.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Bank of England holds interest rates at 3.75% as inflation fears mount",
-        "desc": "Split vote comes as Iran war is rekindled and oil price climbs close to $90 a barrel Business live – latest updates Only Middle East crisis is preventing drop in UK interest rates The Bank of England has kept UK interest rates on hold as it warned that a further escalation in the Iran war could drive inflation above 4% next year, adding to cost of living pressures on households. Against a volatile",
-        "link": "https://www.theguardian.com/business/2026/jul/30/bank-of-england-holds-interest-rates-inflation-fears-mount"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "As the Fed sits tight on interest rates, investors take action",
-        "desc": "The US central bank left its policy rate unchanged and declined to provide any guidance about the outlook, so the bond market took matters into its own hands.",
-        "link": "https://www.theage.com.au/business/markets/as-the-fed-sits-tight-on-interest-rates-investors-take-action-20260730-p60jv8.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "Australia news live: Icac hears of friendship breakdown between Reformers members, third Victorian teachers’ strike announced",
-      "summary": "Former premier’s brother to appear before inquiry. Follow live Get our breaking news email, free app or daily news podcast eSafety commissioner says court action against Telegram ‘very significant’ Julie Inman Grant, the eSafety commissioner, spoke to the ABC this morning after yesterday’s court action against Telegram over its alleged failure to detect and remove pro-terror material from its plat",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia news live: Icac hears of friendship breakdown between Reformers members, third Victorian teachers’ strike announced",
-        "desc": "Former premier’s brother to appear before inquiry. Follow live Get our breaking news email, free app or daily news podcast eSafety commissioner says court action against Telegram ‘very significant’ Julie Inman Grant, the eSafety commissioner, spoke to the ABC this morning after yesterday’s court action against Telegram over its alleged failure to detect and remove pro-terror material from its plat",
-        "link": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "‘Trade friction’: Beijing is turning up the heat on Australian iron ore",
-      "summary": "Andrew Forrest’s Fortescue has become the latest Australian miner targeted by China’s push for lower iron ore prices, putting future export revenue at risk.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "‘Trade friction’: Beijing is turning up the heat on Australian iron ore",
-        "desc": "Andrew Forrest’s Fortescue has become the latest Australian miner targeted by China’s push for lower iron ore prices, putting future export revenue at risk.",
-        "link": "https://www.theage.com.au/business/companies/trade-friction-beijing-is-turning-up-the-heat-on-australian-iron-ore-20260731-p60kbo.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "ASX Runners of the Week: H2G Limited, Carnaby & American Tungsten",
-      "summary": "The Bulls N’ Bears ASX Runner of the Week is… H2G Limited, after its H2G PowerSafe Sodium-Ion Battery range received some long overdue market love, following a sharp market sell-off.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX Runners of the Week: H2G Limited, Carnaby & American Tungsten",
-        "desc": "The Bulls N’ Bears ASX Runner of the Week is… H2G Limited, after its H2G PowerSafe Sodium-Ion Battery range received some long overdue market love, following a sharp market sell-off.",
-        "link": "https://www.theage.com.au/business/companies/asx-runners-of-the-week-h2g-limited-carnaby-and-american-tungsten-20260731-p60kfn.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Why farmers are spreading crushed glass on their crops",
-      "summary": "Recycled glass is being turned into a silicon-rich soil additive that farmers say is improving crop growth while creating a new use for millions of discarded bottles.",
+      "headline": "Gina Rinehart puts ABC on notice over Race Around the World episode",
+      "summary": "Hancock Prospecting has formally placed ABC Chair Kim Williams AM, Deputy Chair Lisa Caffery and Managing Director Hugh Marks on notice and foreshadowed possible legal action.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -764,9 +578,118 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Why farmers are spreading crushed glass on their crops",
-        "desc": "Recycled glass is being turned into a silicon-rich soil additive that farmers say is improving crop growth while creating a new use for millions of discarded bottles.",
-        "link": "https://www.abc.net.au/news/2026-07-31/ground-glass-silicon-fertiliser-farm-productivity/106963488"
+        "title": "Gina Rinehart puts ABC on notice over Race Around the World episode",
+        "desc": "Hancock Prospecting has formally placed ABC Chair Kim Williams AM, Deputy Chair Lisa Caffery and Managing Director Hugh Marks on notice and foreshadowed possible legal action.",
+        "link": "https://www.abc.net.au/news/2026-07-31/gina-rinehart-abc-race-around-the-world/106984284"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Trump admin puts Obamacare Marketplace agents on notice for possible violations",
+        "desc": "The Centers for Medicare & Medicaid Services has claimed that 35% of ACA marketplace enrollments may be illegitimate, believing millions are receiving benefits improperly.",
+        "link": "https://www.foxbusiness.com/politics/trump-admin-puts-obamacare-marketplace-agents-notice-possible-violations"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "NT chief minister pledges future for remote town after Rio Tinto closure",
+      "summary": "Lia Finocchiaro uses her first Garma Festival speech to promise land and fuel security in north-east Arnhem Land after its main employer, Rio Tinto, leaves town.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "NT chief minister pledges future for remote town after Rio Tinto closure",
+        "desc": "Lia Finocchiaro uses her first Garma Festival speech to promise land and fuel security in north-east Arnhem Land after its main employer, Rio Tinto, leaves town.",
+        "link": "https://www.abc.net.au/news/2026-07-31/lia-finocchiaro-rio-tinto-gove-peninsula-garma-mining/106980606"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "News Corp plots future of tabloid chief",
+        "desc": "Company sources are talking about opportunities to promote Daily Telegraph chief Ben English to a role with more responsibility for managing profit and loss.",
+        "link": "https://www.theage.com.au/business/companies/news-corp-plots-future-of-tabloid-chief-20260730-p60jwa.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Stowaway school teacher who disguised herself as a boy on a tall ship",
+      "summary": "In 1928, Balaklava school teacher Jeanne Day set her eyes on a Finnish tall ship docked at Port Lincoln and decided to disguise herself as a boy for the voyage of a lifetime.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Stowaway school teacher who disguised herself as a boy on a tall ship",
+        "desc": "In 1928, Balaklava school teacher Jeanne Day set her eyes on a Finnish tall ship docked at Port Lincoln and decided to disguise herself as a boy for the voyage of a lifetime.",
+        "link": "https://www.abc.net.au/news/2026-08-01/stowaway-school-teacher-jeanne-day-disguised-as-boy-tall-ship-sa/106707878"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "Fed dissenters warn inflation could become entrenched without monetary policy tightening now",
+      "summary": "Three Fed governors dissented from the FOMC's decision to hold interest rates steady, each preferring a 25-basis-point rate hike to combat inflation.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Fed dissenters warn inflation could become entrenched without monetary policy tightening now",
+        "desc": "Three Fed governors dissented from the FOMC's decision to hold interest rates steady, each preferring a 25-basis-point rate hike to combat inflation.",
+        "link": "https://www.foxbusiness.com/economy/fed-dissenters-warn-inflation-could-become-entrenched-without-monetary-policy-tightening-now"
+       }
+      ]
+     },
+     {
+      "id": 23,
+      "headline": "Kamala Harris says she has ‘not made a decision’ on potential 2028 presidential run – live",
+      "summary": "Harris says she is ‘fully, sincerely focused on midterms’ as she speaks to conference in Nashville, Tennessee Sign up for the US Breaking News email When asked by a reporter at Camp David about negotiations with Iran, Trump said the US would be “hitting them very hard”. “We just want to win,” he said. “We’re doing very well, trying to be nice, as nice as you can be in a situation like that, but, y",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Kamala Harris says she has ‘not made a decision’ on potential 2028 presidential run – live",
+        "desc": "Harris says she is ‘fully, sincerely focused on midterms’ as she speaks to conference in Nashville, Tennessee Sign up for the US Breaking News email When asked by a reporter at Camp David about negotiations with Iran, Trump said the US would be “hitting them very hard”. “We just want to win,” he said. “We’re doing very well, trying to be nice, as nice as you can be in a situation like that, but, y",
+        "link": "https://www.theguardian.com/us-news/live/2026/jul/31/donald-trump-cabinet-camp-david-iran-midterms-gaza-latest-news-updates"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Trawlers sit idle as tiger prawn season gets underway",
+      "summary": "The tiger prawn season is underway in Australia's far north, but the number of trawlers operating this year has sunk to a record low.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Trawlers sit idle as tiger prawn season gets underway",
+        "desc": "The tiger prawn season is underway in Australia's far north, but the number of trawlers operating this year has sunk to a record low.",
+        "link": "https://www.abc.net.au/news/2026-08-01/record-low-number-of-trawlers-sail-for-npf-tiger-prawn-season/106979310"
        }
       ]
      }
@@ -778,8 +701,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "FIFA defends WC plan: 'Nobody is selling football'",
-      "summary": "FIFA issued a statement early Friday saying that \"nobody is selling football\" and that it plans to continue the consultation process for the plan to sell stakes in the World Cup to private equity investors.",
+      "headline": "Liverpool's Jones argues with Szoboszlai after game",
+      "summary": "Liverpool's Curtis Jones has a heated argument with team-mate Dominik Szoboszlai after his side's win over Wrexham.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -787,32 +710,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ESPN",
-        "lean": "centre",
-        "title": "FIFA defends WC plan: 'Nobody is selling football'",
-        "desc": "FIFA issued a statement early Friday saying that \"nobody is selling football\" and that it plans to continue the consultation process for the plan to sell stakes in the World Cup to private equity investors.",
-        "link": "https://www.espn.com/soccer/story/_/id/49493858/fifa-defends-world-cup-private-equity-plan-selling-football"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Inter make new approach to Liverpool for Curtis Jones with £30m offer likely",
+        "desc": "Italian champions willing to raise offer for midfielder Jones only has one year remaining on contract at Anfield Inter have made another approach for Curtis Jones and are willing to raise their offer for the Liverpool midfielder to €35m (£30m). The Italian champions had a €25m bid for the 25-year-old rejected in June by Liverpool, who value their homegrown player at closer to €40m. Intermediaries ",
+        "link": "https://www.theguardian.com/football/2026/jul/31/inter-liverpool-curtis-jones-football-transfer-window"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Nobody is selling football and investment plan continues - Fifa",
-        "desc": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Fifa to push ahead with consultation plan despite backlash and insists ‘nobody is selling football’",
-        "desc": "Body responds after Uefa’s World Cup boycott threat Claims ‘process disrupted by incorrect media reports’ Fifa has responded to the threat of boycott from European nations with a statement saying that “nobody is selling football”, while blaming the media for disrupting its consultation process over controversial plans to sell chunks of the World Cup to US-based private investment. After an emergen",
-        "link": "https://www.theguardian.com/football/2026/jul/31/fifa-world-cup-privatisation-consultation-sell-off-plan"
+        "title": "Liverpool's Jones argues with Szoboszlai after game",
+        "desc": "Liverpool's Curtis Jones has a heated argument with team-mate Dominik Szoboszlai after his side's win over Wrexham.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c4gx07351y8o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Defender Stones joins Inter Milan on free transfer",
-      "summary": "England defender John Stones joins Italian Serie A champions Inter Milan on a free transfer and signs a two-year contract.",
+      "headline": "Newcastle confirm Howe resignation as head coach",
+      "summary": "Eddie Howe steps down as head coach of Newcastle United after nearly five years in charge.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -820,25 +736,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Franco Baresi, iconic former Milan and Italy defender, dies aged 66",
-        "desc": "Italian icon had undergone surgery on pulmonary nodule ‘The entire history of ⁠Milan is in ⁠tears,’ Serie A club says The former Milan and Italy defender Franco Baresi, one of the most recognisable players of the ⁠golden era of Italian football in the 1980s and 1990s, has died at the age of 66. “The entire history of ⁠AC Milan is in ⁠tears following the ​passing of Franco Baresi,” his former club ",
-        "link": "https://www.theguardian.com/football/2026/jul/31/franco-baresi-iconic-former-milan-and-italy-defender-dies-aged-66"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Defender Stones joins Inter Milan on free transfer",
-        "desc": "England defender John Stones joins Italian Serie A champions Inter Milan on a free transfer and signs a two-year contract.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cp3rklgggn5o?at_medium=RSS&at_campaign=rss"
+        "title": "Newcastle confirm Howe resignation as head coach",
+        "desc": "Eddie Howe steps down as head coach of Newcastle United after nearly five years in charge.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c74gdn2w3d7o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Not so black and white: how Eddie Howe lost control at Newcastle in one summer | Louise Taylor",
+        "desc": "Everything was looking rosy for Howe at St James’ Park until Alexander Isak’s departure led to rushed signings and a messy season Last September, David Hopkinson, just installed as Newcastle’s chief executive, perched on a stool at a downstairs corner table in Shearer’s Bar at St James’ Park and between sips of zero alcohol lager, likened Eddie Howe to Bruce Springsteen. According to Hopkinson, Ne",
+        "link": "https://www.theguardian.com/football/2026/jul/30/not-so-black-and-white-how-one-summer-saw-eddie-howe-lose-control-at-newcastle"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
-      "summary": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
+      "headline": "Tour de France Femmes to make history on Ventoux",
+      "summary": "The Tour de France Femmes begins in Lausanne, Switzerland on Saturday, with its first ascent of Mont Ventoux to come.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -848,75 +764,23 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Is Infantino finished? Could Uefa boycott World Cup? What happens now?",
-        "desc": "It's been a seismic 48 hours for football after Uefa threatened to boycott the World Cup and Concacaf rejected Gianni Infantino's funding plan - what happens now, and can Fifa's president survive?",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c9984d9x1eyo?at_medium=RSS&at_campaign=rss"
+        "title": "Tour de France Femmes to make history on Ventoux",
+        "desc": "The Tour de France Femmes begins in Lausanne, Switzerland on Saturday, with its first ascent of Mont Ventoux to come.",
+        "link": "https://www.bbc.co.uk/sport/cycling/articles/cgmkj4w3g01o?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "European nations threaten FIFA World Cup boycott over Infantino private equity plan as opposition spreads",
-        "desc": "UEFA members say they will not take part in any FIFA competition until the world's ruling body drop their controversial private investment plan.",
-        "link": "https://7news.com.au/sport/soccer/european-nations-threaten-fifa-world-cup-boycott-over-infantino-private-equity-plan-as-opposition-spreads-c-22654757"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "‘I’m just a different type’: Demi Vollering gears up for Tour de France Femmes tilt",
+        "desc": "Dutch rider completed the set of Grand Tours by winning the Giro and is set on claiming a second title in France French pulses were set racing by Pauline-Ferrand Prévot’s win in the 2025 Tour de France Femmes, but the pragmatic choice of favourite for this year’s race, which begins in Lausanne on Saturday, is Demi Vollering. The 29-year old Dutch rider, leader of the FDJ United-Suez team and the f",
+        "link": "https://www.theguardian.com/sport/2026/jul/31/cycling-demi-vollering-tour-de-france-femmes"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Records tumble as Roosters score 82 in demolition of Cowboys",
-      "summary": "Star halfback Sam Walker finished with a remarkable 36 points on his own.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Roosters pile on most points since 1935 as Cowboys apologise for their ‘darkest day’",
-        "desc": "Roosters record mammoth 82-12 NRL win in Townsville Points tally is the third-highest in premiership history Sydney Roosters sent a warning to the rest of the NRL about their premiership credentials with a 82-12 whipping of North Queensland in Townsville, the most points by a winning team in 91 years. Halfback Sam Walker, in the midst of a multi-million dollar contract negotiation, showed why Roos",
-        "link": "https://www.theguardian.com/sport/2026/jul/31/nrl-roosters-cowboys-82-points-most-since-1935"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Records tumble as Roosters score 82 in demolition of Cowboys",
-        "desc": "Star halfback Sam Walker finished with a remarkable 36 points on his own.",
-        "link": "https://7news.com.au/sport/rugby-league/records-tumble-as-roosters-score-82-in-demolition-of-cowboys-c-22654357"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Aussie pair Rose Davies and Jess Hull complete historic gold-silver double: ‘So special’",
-      "summary": "The two friends had almost the whole home straight to themselves in an ‘unforgettable’ sprint finish.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Rose Davies makes history in Australian 5,000m one-two at Commonwealth Games",
-        "desc": "Davies adds gold to her 10,000m triumph at Glasgow Games Compatriot Jessica Hull comes in second to claim silver In the fading Glasgow light, the two fluorescent yellow figures powered around the final bend of the 5,000m at the Commonwealth Games, leaving the rest of the field behind. Megan Keith, the young Scot who had broken the field apart with a mile to go, could not keep up. Behind her was Ke",
-        "link": "https://www.theguardian.com/sport/2026/jul/31/australian-rose-davies-wins-gold-in-5000m-in-second-commonwealth-games-triumph"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Aussie pair Rose Davies and Jess Hull complete historic gold-silver double: ‘So special’",
-        "desc": "The two friends had almost the whole home straight to themselves in an ‘unforgettable’ sprint finish.",
-        "link": "https://7news.com.au/sport/commonwealth-games/aussie-pair-rose-davies-and-jess-hull-complete-historic-gold-silver-double-so-special-c-22654923"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Hull responds to criticism of prank on caddie",
-      "summary": "Golfer Charley Hull tells critics to \"lighten up\" after receiving backlash for a scratchcard prank she played on her caddie.",
+      "headline": "Stokes return would not surprise England chief Key",
+      "summary": "England director of men's cricket Rob Key says he \"wouldn't be surprised\" if Ben Stokes returns to international cricket, adding that \"anything is possible\".",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -926,16 +790,68 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Hull responds to criticism of prank on caddie",
-        "desc": "Golfer Charley Hull tells critics to \"lighten up\" after receiving backlash for a scratchcard prank she played on her caddie.",
-        "link": "https://www.bbc.co.uk/sport/golf/articles/cx254xgg57xo?at_medium=RSS&at_campaign=rss"
+        "title": "Stokes return would not surprise England chief Key",
+        "desc": "England director of men's cricket Rob Key says he \"wouldn't be surprised\" if Ben Stokes returns to international cricket, adding that \"anything is possible\".",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/clyj48zjgk5o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Charley Hull refuses to apologise after £100,000 scratchcard prank on caddie",
-        "desc": "Hull: ‘I think people need to lighten up’ Thitikul leads on -7; double major winner Ryu on -5 Charley Hull has delivered an emphatic, unapologetic response towards those who criticised a prank on the eve of the Women’s Open. Hull used pre-tournament media duties to reveal she bought fake scratchcards in a Blackpool joke shop, before using one to trick her caddie, Adam Woodward, into believing he h",
-        "link": "https://www.theguardian.com/sport/2026/jul/30/charley-hull-refuses-to-apologise-after-100000-scratchcard-prank-on-caddy"
+        "title": "Key keeping England door open for Stokes: ‘Anything’s possible with Ben’",
+        "desc": "England captain retired from international game in June Key says Fleming will start as Test coach in September Rob Key has opened the door for Ben Stokes to return to England’s Test team a month after the former captain’s shock international retirement, saying he “wouldn’t be surprised” if the 35-year-old decides to come back into a new-look red-ball setup for next summer’s Ashes. England’s managi",
+        "link": "https://www.theguardian.com/sport/2026/jul/31/ben-stokes-rob-key-england-test-cricket-stephen-fleming"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Norrie beats Tomic at Los Cabos Open in 50 minutes",
+      "summary": "Cameron Norrie's resurgent form continues as he overpowers Bernard Tomic in just 50 minutes to progress to the semi-finals of the Los Cabos Open in Mexico.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Norrie beats Tomic at Los Cabos Open in 50 minutes",
+        "desc": "Cameron Norrie's resurgent form continues as he overpowers Bernard Tomic in just 50 minutes to progress to the semi-finals of the Los Cabos Open in Mexico.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cx2j9711znro?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Alex de Minaur beats Cruz Hewitt in all-Aussie tussle at Washington Open: ‘It was weird’",
+        "desc": "The match was all over in just 61 minutes and emotions were ‘definitely’ conflicted.",
+        "link": "https://7news.com.au/sport/tennis/alex-de-minaur-beats-cruz-hewitt-in-all-aussie-tussle-at-washington-open-it-was-weird-c-22654988"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "AC Milan and Italy great Baresi dies aged 66",
+      "summary": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "AC Milan and Italy great Baresi dies aged 66",
+        "desc": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Franco Baresi, iconic Milan and Italy legend, dies aged 66",
+        "desc": "Former defender had had surgery on pulmonary nodule ‘The entire history of ⁠Milan is in ⁠tears,’ Serie A club says The former Milan and Italy defender Franco Baresi, one of the most recognisable players of the ⁠golden era of Italian football in the 1980s and 1990s, has died at the age of 66. “The entire history of ⁠AC Milan is in ⁠tears following the ​passing of Franco Baresi,” his former club sai",
+        "link": "https://www.theguardian.com/football/2026/jul/31/franco-baresi-iconic-former-milan-and-italy-defender-dies-aged-66"
        }
       ]
      }
@@ -947,8 +863,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Spider-Man: Brand New Day’ Besting ‘No Way Home’s $50M U.S. Previews – Thursday PM Box Office",
-      "summary": "EXCLUSIVE: When it comes to breaking box office records this weekend, look out, because Spider-Man: Brand New Day will do whatever a spider can, starting with tonight as the Sony/Marvel Studios co-production is outstripping the Thursday night previews of the 2021 previous chapter Spider-Man: No Way Home, which did $50M. All of this makes sense […]",
+      "headline": "In The Wake Of Doomsday, Marvel Announces New Universe",
+      "summary": "Marvel announces three projects that kick off a new era and promise to launch an entirely new universe, with different takes on familiar characters.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -956,32 +872,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Besting ‘No Way Home’s $50M U.S. Previews – Thursday PM Box Office",
-        "desc": "EXCLUSIVE: When it comes to breaking box office records this weekend, look out, because Spider-Man: Brand New Day will do whatever a spider can, starting with tonight as the Sony/Marvel Studios co-production is outstripping the Thursday night previews of the 2021 previous chapter Spider-Man: No Way Home, which did $50M. All of this makes sense […]",
-        "link": "https://deadline.com/2026/07/box-office-spider-man-brand-new-day-1237014268/"
-       },
-       {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Spider-Man’s 10 Most Horrifying Mutations In Marvel History",
-        "desc": "Spider-Man's great power has almost always meant much heavier personal sacrifices on top of heroic responsibilities and these are the worst yet.",
-        "link": "https://screenrant.com/spider-man-most-horrific-transformations-marvel/"
+        "title": "In The Wake Of Doomsday, Marvel Announces New Universe",
+        "desc": "Marvel announces three projects that kick off a new era and promise to launch an entirely new universe, with different takes on familiar characters.",
+        "link": "https://screenrant.com/marvel-new-universe-webtoon-deadpool-xmen-iron-man/"
        },
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Credits Scene Explained: Will Tom Holland Return in ‘Avengers: Doomsday’ or ‘Secret Wars’?",
-        "desc": "SPOILER ALERT: This article contains major spoilers for “Spider-Man: Brand New Day,” now playing in theaters. Where in the world is Spider-Man going next? After saving New York City in “Brand New Day,” Tom Holland’s friendly neighborhood Spider-Man looks like he’s heading off-world once again. The post-credits scene in the latest Sony and Marvel movie […]",
-        "link": "https://variety.com/2026/film/news/spider-man-brand-new-day-credits-avengers-doomsday-secret-wars-1236821075/"
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Ryan Gosling is entering the Marvel Cinematic Universe – on a motorbike, in flames, wearing a leather jacket. What could go wrong?",
+        "desc": "After coveting the role for years, Gosling has been announced as the new Ghost Rider – a superhero stunt rider with powers bestowed by Satan. Is this a smart move all round or has he sold his soul to the devil? Steven Spielberg once said: “If a person can tell me the idea in 25 words or less, it’s going to make a pretty good movie.” And Marvel’s most popular big-screen superheroes can be described",
+        "link": "https://www.theguardian.com/film/2026/jul/31/ryan-gosling-ghost-rider-marvel-week-in-geek"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Michael Jackson Boosts Sony Music Sales By 22% Amid Quiet Quarter For Movie Studio",
-      "summary": "The box office success of Michael appears to have put some thriller into Sony’s earnings. Sony Music Entertainment’s sales bounced 22% to 557.9 billion yen ($3.5B) in the three months to the end of June, according to the company’s Q1 earnings. Sony Music revealed that Jackson’s “Thriller” and “Bad” were among its top 10 best-selling […]",
+      "headline": "Paramount Pitches Judge On November Start Of WBD Merger Antitrust Trial, While State AGs & WGA Propose April",
+      "summary": "Paramount and the state attorneys general did not reach an agreement on a proposed Warner Bros. Discovery merger trial date, with the company pitching a November start, and the government plaintiffs asking the judge for April. Their proposals came in a joint filing on Friday. “The parties have discussed the trial schedule, but they have […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -991,23 +900,23 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Michael Jackson Boosts Sony Music Sales By 22% Amid Quiet Quarter For Movie Studio",
-        "desc": "The box office success of Michael appears to have put some thriller into Sony’s earnings. Sony Music Entertainment’s sales bounced 22% to 557.9 billion yen ($3.5B) in the three months to the end of June, according to the company’s Q1 earnings. Sony Music revealed that Jackson’s “Thriller” and “Bad” were among its top 10 best-selling […]",
-        "link": "https://deadline.com/2026/07/michael-jackson-boosts-sony-music-1237014316/"
+        "title": "Paramount Pitches Judge On November Start Of WBD Merger Antitrust Trial, While State AGs & WGA Propose April",
+        "desc": "Paramount and the state attorneys general did not reach an agreement on a proposed Warner Bros. Discovery merger trial date, with the company pitching a November start, and the government plaintiffs asking the judge for April. Their proposals came in a joint filing on Friday. “The parties have discussed the trial schedule, but they have […]",
+        "link": "https://deadline.com/2026/07/paramount-warner-bros-lawsuit-trial-date-1237014622/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Sony Pictures Revenue Drops 13% in June Quarter, Music Segment Sales Jump 21%",
-        "desc": "Sony Pictures Entertainment posted a sales decline for the June 2026 quarter, offset by growth at Crunchyroll, while Sony’s music segment saw revenue increase 21%. The PlayStation games unit had flat sales for the period and a 37% increase in operating income driven by U.S. tariff refunds. Revenue for Sony Pictures for the quarter ended […]",
-        "link": "https://variety.com/2026/film/news/sony-pictures-earnings-june-2026-music-playstation-sales-1236824839/"
+        "title": "Paramount Seeks Antitrust Trial in November, While States Ask for April 2027",
+        "desc": "Paramount Skydance asked a judge on Friday to schedule its upcoming antitrust trial in November, while a coalition of states and the Writers Guild of America asked for a date in April 2027. The scheduling matters a lot to Paramount, which will begin paying Warner Bros. shareholders $7 million a day on Sept. 30 until […]",
+        "link": "https://variety.com/2026/film/news/states-paramount-warner-bros-antitrust-trial-2027-1236825068/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "‘Stuart Fails To Save The Universe’ Creators On Episode 2 Surprise OG Star Return & “Breaking Up” Beloved ‘Big Bang Theory’ Couple",
-      "summary": "SPOILER ALERT: The story includes details about Episode 2 of HBO Max’s Stuart Fails To Save the Universe. As Stuart Fails To Save the Universe revealed in the Episode 2 opening credits spoiler (You can read all about the show’s unique, ever-changing main title sequence here), “Zack is in this one.” Zack, a recurring character […]",
+      "headline": "David Jenkins Says DC & HBO’s ‘Booster Gold’ TV Series “Won’t Be Moving Forward”",
+      "summary": "David Jenkins has some bad news for DC fans waiting for development news on the Booster Gold series. The creator of Our Flag Means Death has confirmed that his version of the HBO series he had been developing is not happening. “My Booster Gold won’t be moving forward,” Jenkins posted on Threads. It was a year […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1017,23 +926,23 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Stuart Fails To Save The Universe’ Creators On Episode 2 Surprise OG Star Return & “Breaking Up” Beloved ‘Big Bang Theory’ Couple",
-        "desc": "SPOILER ALERT: The story includes details about Episode 2 of HBO Max’s Stuart Fails To Save the Universe. As Stuart Fails To Save the Universe revealed in the Episode 2 opening credits spoiler (You can read all about the show’s unique, ever-changing main title sequence here), “Zack is in this one.” Zack, a recurring character […]",
-        "link": "https://deadline.com/2026/07/stuart-fails-to-save-the-universe-episode-2-kaley-cuoco-1236997626/"
+        "title": "David Jenkins Says DC & HBO’s ‘Booster Gold’ TV Series “Won’t Be Moving Forward”",
+        "desc": "David Jenkins has some bad news for DC fans waiting for development news on the Booster Gold series. The creator of Our Flag Means Death has confirmed that his version of the HBO series he had been developing is not happening. “My Booster Gold won’t be moving forward,” Jenkins posted on Threads. It was a year […]",
+        "link": "https://deadline.com/2026/07/david-jenkins-dc-hbo-booster-gold-tv-series-canceled-1237014690/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Stuart Fails to Save the Universe’ Producers on Episode 2’s Surprise Kaley Cuoco Cameo As an Alternate Penny",
-        "desc": "SPOILER ALERT: This story contains spoilers from “Stuart Fails to Save the Universe” Season 1 Episode 2, now streaming on HBO Max. “Stuart Fails to Save the Universe” Episode 2 was chock full of cameos and guest stars — but saved the biggest one, at least for “The Big Bang Theory” fans, until near the end […]",
-        "link": "https://variety.com/2026/tv/news/stuart-fails-to-save-the-universe-kaley-cuoco-cameo-how-1236823001/"
+        "title": "DC and HBO’s ‘Booster Gold’ Show ‘Won’t Be Moving Forward,’ Says Writer David Jenkins",
+        "desc": "DC Studios and HBO’s “Booster Gold” TV series “won’t be moving forward,” writer David Jenkins said on Friday.c “My ‘Booster Gold’ won’t be moving forward,” Jenkins wrote on Threads. “Can’t improve on Mahershala’s lovely statement so I’ll just apply it here as well.” He reposted a quote from Mahershala Ali’s recent GQ profile story in […]",
+        "link": "https://variety.com/2026/tv/news/booster-gold-show-canceled-dc-hbo-1236825280/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Yahya Abdul-Mateen II Eulogizes ‘Wonder Man’ After Surprise Cancellation: “That’s Life, Right?”",
-      "summary": "As Marvel reverses its decision to renew Wonder Man for Season 2 on Disney+, Yahya Abdul-Mateen II is bidding farewell to the role of reluctantly super-powered actor Simon Williams. Following news of the show’s cancellation on Thursday, the Emmy-winning actor wrote that he’s “glad we got to be a part of something cool” as he […]",
+      "headline": "Dermot Mulroney Leaving ‘Chicago Fire’ in Season 15",
+      "summary": "Dermot Mulroney is leaving “Chicago Fire” in Season 15, Variety has confirmed. The actor, who joined the NBC drama in Season 13 as Chief Dom Pascal, will wrap up his storyline early in the show’s upcoming season, which premieres on Oct. 7 at 9 p.m. ET. Mulroney took a short hiatus from the program in […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1041,25 +950,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Yahya Abdul-Mateen II Eulogizes ‘Wonder Man’ After Surprise Cancellation: “That’s Life, Right?”",
-        "desc": "As Marvel reverses its decision to renew Wonder Man for Season 2 on Disney+, Yahya Abdul-Mateen II is bidding farewell to the role of reluctantly super-powered actor Simon Williams. Following news of the show’s cancellation on Thursday, the Emmy-winning actor wrote that he’s “glad we got to be a part of something cool” as he […]",
-        "link": "https://deadline.com/2026/07/yahya-abdul-mateen-ii-eulogizes-wonder-man-cancellation-1237014142/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Wonder Man’ Star Yahya Abdul-Mateen II Speaks Out After Marvel Series Canceled: ‘That’s Life… Everything Will Shake Out’",
-        "desc": "“Wonder Man” star Yahya Abdul-Mateen II is speaking out about the surprise cancellation of the Marvel TV series, after it had been renewed for a second season on Disney+. “Word just dropped that Wonder Man won’t be coming back for Season 2. (And if you don’t knowww, now ya knoww!” Abdul-Mateen wrote on Instagram, referencing […]",
-        "link": "https://variety.com/2026/tv/news/yahya-abdul-mateen-ii-wonder-man-canceled-marvel-1236824724/"
+        "title": "Dermot Mulroney Leaving ‘Chicago Fire’ in Season 15",
+        "desc": "Dermot Mulroney is leaving “Chicago Fire” in Season 15, Variety has confirmed. The actor, who joined the NBC drama in Season 13 as Chief Dom Pascal, will wrap up his storyline early in the show’s upcoming season, which premieres on Oct. 7 at 9 p.m. ET. Mulroney took a short hiatus from the program in […]",
+        "link": "https://variety.com/2026/tv/news/chicago-fire-dermot-mulroney-leaving-season-15-1236825309/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Dermot Mulroney To Leave ‘Chicago Fire’ Early In Season 15",
+        "desc": "EXCLUSIVE: Dermot Mulroney will say goodbye to NBC’s Chicago Fire and will wrap up his storyline early in Season 15, sources close to production tell Deadline. Mulroney joined the hit firefighter drama from Wolf Entertainment and Universal Television in the show’s 13th season as a series regular, portraying Chief Dom Pascal. The actor joined Firehouse 51 following the […]",
+        "link": "https://deadline.com/2026/07/dermot-mulroney-exit-chicago-fire-season-15-1237014591/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "ITV Sees ‘Solid’ Results in First Half of 2026, Reports $26 Million Loss Due to Fast Food Advertising Regulations",
-      "summary": "ITV has unveiled “solid” if underwhelming results for the first half of 2026, with a 2% uplift across its major profit centers. Total group revenue stayed steady at £1.9 billion ($2.5 billion). These are the first results published since it was revealed ITV are selling their media and entertainment arm to Comcast-owned Sky. Production outfit […]",
+      "headline": "Mahershala Ali Calls Out Marvel & Is “Ready To Move On” From ‘Blade’ Questions: “If They Wanted To Do The Movie, We Would’ve Done The Movie”",
+      "summary": "Mahershala Ali is ready to move on from being asked about Blade, the Marvel Studios reboot he was set to star in and suffered multiple setbacks. In a new interview, Ali opened up about being attached to the project that had been in development for years. “Not with me,” Ali told GQ when asked if […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1067,18 +976,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Mahershala Ali on Marvel’s collapsed Blade reboot: ‘If they wanted to do it, we would’ve done it’",
+        "desc": "Two-time Oscar winner was to take on role of vampire-hunting antihero but said project is no longer happening The two-time Oscar winner Mahershala Ali has confirmed that his Blade reboot is no longer going forward. The star of Moonlight and Green Book had been attached to play Marvel’s vampire-hunting antihero in 2019. The role had originally been played by Wesley Snipes in three films between 199",
+        "link": "https://www.theguardian.com/film/2026/jul/31/mahershala-ali-marvel-blade-reboot"
+       },
+       {
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "ITV Sees ‘Solid’ Results in First Half of 2026, Reports $26 Million Loss Due to Fast Food Advertising Regulations",
-        "desc": "ITV has unveiled “solid” if underwhelming results for the first half of 2026, with a 2% uplift across its major profit centers. Total group revenue stayed steady at £1.9 billion ($2.5 billion). These are the first results published since it was revealed ITV are selling their media and entertainment arm to Comcast-owned Sky. Production outfit […]",
-        "link": "https://variety.com/2026/tv/global/itv-half-year-results-2026-solid-2-percent-1236824882/"
+        "title": "Mahershala Ali Calls Out Marvel & Is “Ready To Move On” From ‘Blade’ Questions: “If They Wanted To Do The Movie, We Would’ve Done The Movie”",
+        "desc": "Mahershala Ali is ready to move on from being asked about Blade, the Marvel Studios reboot he was set to star in and suffered multiple setbacks. In a new interview, Ali opened up about being attached to the project that had been in development for years. “Not with me,” Ali told GQ when asked if […]",
+        "link": "https://deadline.com/2026/07/mahershala-ali-marvel-move-on-blade-questions-1237014522/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Guillermo Del Toro Is Officially Calling For More Games \"For The Elderly\"",
-      "summary": "The visionary filmmaker has impeccable taste in video games, but he also has a specific criticism about games not catering to older folks.",
+      "headline": "The Gilded Age Meets Downton Abbey In Apple TV's Lavish 3-Part Period Drama",
+      "summary": "The Americans and the Brits collide in Apple TV's stunning three-season period drama, perfect for fans of The Gilded Age and Downton Abbey.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1088,9 +1004,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Guillermo Del Toro Is Officially Calling For More Games \"For The Elderly\"",
-        "desc": "The visionary filmmaker has impeccable taste in video games, but he also has a specific criticism about games not catering to older folks.",
-        "link": "https://screenrant.com/guillermo-del-toro-favorite-games-dead-cells/"
+        "title": "The Gilded Age Meets Downton Abbey In Apple TV's Lavish 3-Part Period Drama",
+        "desc": "The Americans and the Brits collide in Apple TV's stunning three-season period drama, perfect for fans of The Gilded Age and Downton Abbey.",
+        "link": "https://screenrant.com/the-buccaneers-apple-tv-gilded-age-downton-abbey-comparison/"
        }
       ]
      }
@@ -1098,37 +1014,38 @@
    }
   ],
   "sourcesOk": [
+   "BBC World",
+   "BBC Tech",
+   "Ars Technica",
+   "ABC Business",
    "The Age",
    "ABC News",
-   "The Age Federal Politics",
-   "Guardian Tech",
-   "Fox News Politics",
-   "The Verge",
-   "Ars Technica",
-   "Guardian AU Business",
-   "The Age Business",
-   "ABC Business",
-   "Guardian AU Sport",
-   "Variety",
-   "Fox Business",
-   "Fox News",
-   "7News",
-   "Deadline",
-   "Anime News Network",
    "Crikey",
-   "Guardian AU Politics",
-   "ESPN",
-   "BBC Tech",
-   "Guardian Australia",
-   "7News Sport",
+   "The Age Federal Politics",
+   "The Age Business",
    "BBC Sport",
-   "Guardian Film",
+   "7News",
+   "The Verge",
+   "Variety",
+   "Fox News Politics",
+   "Fox Business",
+   "Guardian AU Politics",
+   "Guardian Tech",
+   "Screen Rant",
+   "Fox News",
+   "Guardian AU Business",
+   "Guardian AU Sport",
+   "Anime News Network",
+   "Guardian Australia",
    "Daily Mail Australia",
-   "BBC World",
+   "Guardian Film",
    "SBS News",
-   "Screen Rant"
+   "7News Sport",
+   "Deadline"
   ],
-  "sourcesFailed": []
+  "sourcesFailed": [
+   "ESPN"
+  ]
  },
  "releases": {
   "movies": [
@@ -1304,12 +1221,12 @@
   ]
  },
  "wotd": {
-  "word": "funambulist",
-  "phonetic": "/fjuːˈnæmbjʊlɪst/",
-  "pos": "noun",
-  "def": "A tightrope walker or a similar performer on a slack rope.",
+  "word": "mellifluous",
+  "phonetic": "/məˈlɪflu.əs/",
+  "pos": "adjective",
+  "def": "Flowing like honey.",
   "example": null,
-  "audio": null
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/mellifluous-us.mp3"
  },
  "commGames": {
   "start": "2026-07-23",
@@ -1319,28 +1236,28 @@
    {
     "code": "AUS",
     "country": "Australia",
-    "g": 51,
-    "s": 24,
-    "b": 35,
-    "total": 110,
+    "g": 55,
+    "s": 29,
+    "b": 42,
+    "total": 126,
     "rank": 1
    },
    {
     "code": "ENG",
     "country": "England",
-    "g": 15,
-    "s": 30,
-    "b": 20,
-    "total": 65,
+    "g": 17,
+    "s": 34,
+    "b": 29,
+    "total": 80,
     "rank": 2
    },
    {
     "code": "CAN",
     "country": "Canada",
-    "g": 15,
-    "s": 13,
-    "b": 17,
-    "total": 45,
+    "g": 17,
+    "s": 15,
+    "b": 21,
+    "total": 53,
     "rank": 3
    }
   ],
@@ -1396,109 +1313,109 @@
  },
  "deals": [
   {
+   "title": "Bonus Reward Points When Transferring from Partner Banks to Velocity Frequent Flyer: Manual Transfer 15%, Auto Transfer 20%",
+   "link": "https://www.ozbargain.com.au/node/969830",
+   "votes": 11,
+   "category": "Travel",
+   "ts": 1785516245000
+  },
+  {
+   "title": "[PC, Epic] Free - Sol Cesto @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/969825",
+   "votes": 62,
+   "category": "Gaming",
+   "ts": 1785505352000
+  },
+  {
+   "title": "Free Portrait of King Charles and/or Queen Camilla from Your Member of Parliament",
+   "link": "https://www.ozbargain.com.au/node/969822",
+   "votes": 30,
+   "category": "Home Garden",
+   "ts": 1785501489000
+  },
+  {
+   "title": "30 Chicken Nuggets $10 @ KFC (App Required, Pickup Only)",
+   "link": "https://www.ozbargain.com.au/node/969817",
+   "votes": 54,
+   "category": "Dining Takeaway",
+   "ts": 1785499258000
+  },
+  {
+   "title": "Apple iPhone 17 Pro 256GB (All Colours) $1732 + Del ($0 to Metro/ OnePass/ C C/ In Select Stores) @ Officeworks (Ex QLD, WA, NT)",
+   "link": "https://www.ozbargain.com.au/node/969815",
+   "votes": 51,
+   "category": "Mobile",
+   "ts": 1785496998000
+  },
+  {
+   "title": "Ready Player One (2018) - Free to Stream with Ads @ SBS on Demand",
+   "link": "https://www.ozbargain.com.au/node/969814",
+   "votes": 35,
+   "category": "Entertainment",
+   "ts": 1785496312000
+  },
+  {
+   "title": "[SUBS] Megalopolis (2024) Movie Streaming @ HBO Max",
+   "link": "https://www.ozbargain.com.au/node/969813",
+   "votes": 16,
+   "category": "Entertainment",
+   "ts": 1785495303000
+  },
+  {
+   "title": "Google Pixel Watch 3 Wi-Fi 45mm $249 + $6.99/$8.99 Delivery Only @ JB Hi-Fi",
+   "link": "https://www.ozbargain.com.au/node/969811",
+   "votes": 26,
+   "category": "Electrical Electronics",
+   "ts": 1785492900000
+  },
+  {
+   "title": "Watch 2 Data Days Sessions, Complete 3 Microsoft Learn Modules Get Voucher for Free Cert Exam DP-600, -700 or -800 @ Microsoft",
+   "link": "https://www.ozbargain.com.au/node/969802",
+   "votes": 23,
+   "category": "Education",
+   "ts": 1785488613000
+  },
+  {
+   "title": "[VIC, NSW, QLD, SA] $20 Electricity Credit in Nov for $15 @ Powershop",
+   "link": "https://www.ozbargain.com.au/node/969793",
+   "votes": 16,
+   "category": "Electrical Electronics",
+   "ts": 1785485839000
+  },
+  {
+   "title": "[Prime] Mounting Dream Speaker Stands (Height Adjustable) + Free Mounting Kit - $69.99 Delivered @ Mounting Dream via Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/969789",
+   "votes": 83,
+   "category": "Electrical Electronics",
+   "ts": 1785484306000
+  },
+  {
+   "title": "[SA] Free August Entry Ticket for up to 3 Children (up to 14-Year-Old) with Each Paying Adult @ Adelaide Zoo",
+   "link": "https://www.ozbargain.com.au/node/969786",
+   "votes": 25,
+   "category": "Entertainment",
+   "ts": 1785482360000
+  },
+  {
    "title": "[ACT] Claim a Voucher for $15 off First Order with No Minimum Spend, Pickup Only @ Ooshman Eatery, Belconnen",
    "link": "https://www.ozbargain.com.au/node/969779",
-   "votes": 7,
+   "votes": 27,
    "category": "Dining Takeaway",
    "ts": 1785480330000
   },
   {
    "title": "[NSW] Tap Supplied Installed by Licensed Plumber from $185 | Tap Installation Service $149 @ TapLife (Sydney Metro Only)",
    "link": "https://www.ozbargain.com.au/node/969768",
-   "votes": 139,
+   "votes": 363,
    "category": "Home Garden",
    "ts": 1785477360000
   },
   {
-   "title": "Google Nest Cam 2k 3rd Gen Indoor Wired $122 (Was $187) Delivered @ Amazon AU | + Delivery ($0 Metro/C C) @ Officeworks",
-   "link": "https://www.ozbargain.com.au/node/969761",
-   "votes": 11,
-   "category": "Electrical Electronics",
-   "ts": 1785471156000
-  },
-  {
    "title": "Dilmah Premium Quality Tea Bags 100-Pack $4.30 @ Woolworths",
    "link": "https://www.ozbargain.com.au/node/969758",
-   "votes": 28,
+   "votes": 50,
    "category": "Groceries",
    "ts": 1785470516000
-  },
-  {
-   "title": "$100 for Referrer Referee for Opening Orange Everyday Savings Booster Accounts (Minimum Deposit Spend Required) @ ING",
-   "link": "https://www.ozbargain.com.au/node/969756",
-   "votes": 17,
-   "category": "Financial",
-   "ts": 1785468114000
-  },
-  {
-   "title": "GreenPan Shades Coastal Ceramic Non-Stick 6-Piece Cookset $249.99 Delivered @ Harris Scarfe (Free Membership Required)",
-   "link": "https://www.ozbargain.com.au/node/969752",
-   "votes": 13,
-   "category": "Home Garden",
-   "ts": 1785465616000
-  },
-  {
-   "title": "Free $0.31 Cashback for Hotel Click at Trivago (1 Transaction Every 7 Days Per Member) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/969744",
-   "votes": 107,
-   "category": "Travel",
-   "ts": 1785463214000
-  },
-  {
-   "title": "[PC, Mac] Baldur s Gate 3 $62.95 ($53.51 with New Buyer Code, US$20.99/US$17.84 (~A$29.85/~A$25.38) with VPN) @ GOG",
-   "link": "https://www.ozbargain.com.au/node/969739",
-   "votes": 20,
-   "category": "Gaming",
-   "ts": 1785461227000
-  },
-  {
-   "title": "7-Day Free Trial / US$100 for 1-Year, Get $50 Back after Your 1st Workout $50 Back after Your 4th Workout @ Arnold s Pump Club",
-   "link": "https://www.ozbargain.com.au/node/969717",
-   "votes": 17,
-   "category": "Sports Outdoors",
-   "ts": 1785451885000
-  },
-  {
-   "title": "Palit Stormx GeForce RTX 3050 6GB GDDR6 Graphics Card $199 Delivered / C C / in-Store @ Centre Com",
-   "link": "https://www.ozbargain.com.au/node/969709",
-   "votes": 48,
-   "category": "Computing",
-   "ts": 1785438613000
-  },
-  {
-   "title": "[PC, Steam] Gears 5 $5.99, Gears 5 Game of the Year Edition $8.99 @ Steam",
-   "link": "https://www.ozbargain.com.au/node/969706",
-   "votes": 65,
-   "category": "Gaming",
-   "ts": 1785425437000
-  },
-  {
-   "title": "[Android, Epic] Free - Mutazione @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/969703",
-   "votes": 98,
-   "category": "Gaming",
-   "ts": 1785420878000
-  },
-  {
-   "title": "[PC, Epic] Free - We Were Here Together @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/969702",
-   "votes": 28,
-   "category": "Gaming",
-   "ts": 1785420738000
-  },
-  {
-   "title": "$1 Bonus for Scanning 5 Receipts from Eligible Stores (Opt-in Required, No Min Spend) @ ShopBack App",
-   "link": "https://www.ozbargain.com.au/node/969701",
-   "votes": 22,
-   "category": "Groceries",
-   "ts": 1785420685000
-  },
-  {
-   "title": "Google Pixel 10a 128GB $547, 256GB $697 + Delivery ($0 C C/ in-Store) @ Harvey Norman (Expired: Price Beat @ Officeworks)",
-   "link": "https://www.ozbargain.com.au/node/969699",
-   "votes": 60,
-   "category": "Mobile",
-   "ts": 1785417332000
   }
  ]
 }
