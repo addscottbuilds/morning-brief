@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-07T00:44:53.688Z",
+ "generatedAt": "2026-08-07T20:02:36.936Z",
  "markets": {
   "items": [
    {
@@ -7,72 +7,88 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9236.6,
-    "chgPct": 0.09536612734088658,
-    "high52": 9271.6,
-    "off52": -0.3774968721687734
+    "price": 9263.6,
+    "chgPct": 0.38796025130838585,
+    "high52": 9274.7,
+    "off52": -0.11968042093006095
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.43,
-    "chgPct": -0.03469706776579988,
+    "price": 86.47,
+    "chgPct": 0.011567101125656473,
     "high52": 86.99,
-    "off52": -0.6437521554201495
+    "off52": -0.5977698586044328
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 154,
-    "chgPct": -0.3365287717336767,
-    "high52": 154.17,
-    "off52": -0.11026788609975191
+    "price": 154.43,
+    "chgPct": -0.05824765077162992,
+    "high52": 154.71,
+    "off52": -0.18098377609721486
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.79,
-    "chgPct": 0.14826892245361434,
+    "price": 60.85,
+    "chgPct": 0.24711570869061789,
     "high52": 64.23,
-    "off52": -5.355752763506157
+    "off52": -5.262338471119418
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.93,
-    "chgPct": 0.4473009230884728,
+    "price": 35.79,
+    "chgPct": 0.05591149561192272,
     "high52": 47.78,
-    "off52": -24.80117203850984
+    "off52": -25.094181665969028
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.703,
-    "chgPct": -0.38686169510146884,
+    "price": 0.7072,
+    "chgPct": 0.548776744179353,
     "high52": 0.7277,
-    "off52": -3.3942558746736364
+    "off52": -2.817094956712926
    }
   ],
   "failed": [],
   "note": "SEMI is 25% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "MSFT",
-    "name": "Microsoft",
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 173.51,
+    "currency": "AUD",
+    "chgPct": 4.322987228929894
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
     "market": "US",
-    "price": 499.86,
+    "price": 328.58,
     "currency": "USD",
-    "chgPct": 2.5438002630549446
+    "chgPct": 2.832285311325041
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 29.95,
+    "currency": "AUD",
+    "chgPct": -2.6649348247142317
    }
   ]
  },
@@ -85,8 +101,8 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Some of Doge's $110bn saving reports are wrong or lack evidence, US watchdog finds",
-      "summary": "A review of the body formerly charged with reducing government spending has found several issues with its calculations.",
+      "headline": "Seven killed after Thai student opens fire at home and school",
+      "summary": "Authorities say the 14-year-old killed his grandparents before gunning down five teachers at his school.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -94,98 +110,65 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "What a top secret navy officer case says about the NACC and Defence’s ‘cosy’ relationship",
-        "desc": "Defence initially referred to the NACC a case involving a former 'star-ranked' navy officer. The NACC chose to send it back to Defence to investigate itself instead — and not for the first time. The post What a top secret navy officer case says about the NACC and Defence’s ‘cosy’ relationship appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/08/07/naval-contract-case-court-martial-nacc-defence-thales-investigation/"
-       },
-       {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Some of Doge's $110bn saving reports are wrong or lack evidence, US watchdog finds",
-        "desc": "A review of the body formerly charged with reducing government spending has found several issues with its calculations.",
-        "link": "https://www.bbc.co.uk/news/articles/cvg0rg9wmvlo?at_medium=RSS&at_campaign=rss"
+        "title": "Seven killed after Thai student opens fire at home and school",
+        "desc": "Authorities say the 14-year-old killed his grandparents before gunning down five teachers at his school.",
+        "link": "https://www.bbc.co.uk/news/articles/c980j3j578do?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Thailand school shooting: eight killed including suspected attacker, police say",
+        "desc": "Teenager killed his grandparents ⁠before opening fire at school near Bangkok, where more than 30 were wounded A Thai teenager killed his grandparents before opening fire at his school, where he shot five people dead and took his own life, police have said, in an attack that has shaken a country struggling to deal with gun violence. The 14-year-old wounded more than 30 people in the ⁠shooting at th",
+        "link": "https://www.theguardian.com/world/2026/aug/07/thailand-school-shooting-debsirin-nonthaburi-bangkok"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "High Court finds secret recording can be used as evidence in domestic violence case",
-        "desc": "Recordings of private conversations are usually illegal, and experts say the ruling is a major milestone for survivors.",
-        "link": "https://www.sbs.com.au/news/article/high-court-finds-secret-recording-can-be-used-as-evidence-in-domestic-violence-case/id5bu8yhn"
+        "title": "Thai teen kills at least seven in shooting rampage at school and home",
+        "desc": "Police have identified the perpetrator as a student.",
+        "link": "https://www.sbs.com.au/news/article/thailand-school-shooting-leaves-eight-dead/xddqhohzm"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Thai teen kills seven in rampage at home and school",
+        "desc": "A 14-year-old boy killed his grandparents before gunning down teachers and students.",
+        "link": "https://7news.com.au/news/student-gunman-kills-six-people-in-horrific-school-shooting-in-thailand-c-22692145"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Man shot in chest and car found alight in Sydney's south-west",
-      "summary": "A man is in stable condition after being shot twice in the chest in Sydney's south-west.",
+      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+      "summary": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
+        "outlet": "Fox News",
         "lean": "right",
-        "title": "Teen shot twice while driving through Sydney streets in terrifying ambush",
-        "desc": "A teenager is in hospital with serious gun shot wounds after being ambushed while driving in Sydney's southwest on Thursday night.",
-        "link": "https://www.dailymail.com/news/article-16035091/teenager-shot-greenacre.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Tennessee Titans revamped their mascot and social media certainly had some thoughts",
+        "desc": "The Tennessee Titans unveiled a revamped T-Rac mascot with a more realistic raccoon look, and social media had strong opinions about the makeover.",
+        "link": "https://www.foxnews.com/outkick-sports/tennessee-titans-revamped-mascot-social-media-thoughts"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Man shot in chest and car found alight in Sydney's south-west",
-        "desc": "A man is in stable condition after being shot twice in the chest in Sydney's south-west.",
-        "link": "https://www.abc.net.au/news/2026-08-07/man-shot-in-chest-and-car-found-alight-in-sydney/107007608"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Teenager shot in chest, discovered in abandoned vehicle in Sydney",
-        "desc": "The young man was found in the passenger seat of an abandoned car with gunshot wounds to his chest.",
-        "link": "https://www.theage.com.au/national/nsw/teenager-shot-in-chest-discovered-in-abandoned-vehicle-in-sydney-20260807-p60m7i.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Meta fined $567m in largest child safety ruling against social media giant",
+        "desc": "The ruling is in addition to $375m in fines Meta was already ordered to pay in the case, for a total of $942m.",
+        "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Senate Committee holds Anthony Fauci in contempt after refusing to answer questions on COVID pandemic",
-      "summary": "Fauci invoked the fifth amendment more than 100 times under questioning about the pandemic.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Senate Committee holds Anthony Fauci in contempt after refusing to answer questions on COVID pandemic",
-        "desc": "Fauci invoked the fifth amendment more than 100 times under questioning about the pandemic.",
-        "link": "https://7news.com.au/news/senate-committee-holds-anthony-fauci-in-contempt-after-refusing-to-answer-questions-on-covid-pandemic--c-22689131"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "US Senate panel votes to hold Fauci in contempt of Congress over Covid hearing",
-        "desc": "Anthony Fauci’s lawyer condemned the vote from the Republican-controlled committee as a ‘crude political stunt’ US politics live – latest updates A Republican-controlled US Senate committee voted to hold Dr Anthony Fauci in contempt of Congress after the veteran public health official repeatedly pleaded the fifth amendment to parry a hostile inquisition into his stewardship of the response to the ",
-        "link": "https://www.theguardian.com/us-news/2026/aug/06/fauci-senate-contempt-vote-covid"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing",
-        "desc": "The committee will now refer him for possible prosecution for refusing to answer questions about his handling of the Covid-19 pandemic.",
-        "link": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Perez Hilton’s children fled home during his ‘severe mental health crisis’",
-      "summary": "The celebrity blogger’s family has shared further details of his live-streamed meltdown.",
+      "headline": "Trump takes ballroom to Supreme Court after judges order stop to construction",
+      "summary": "The president said he would immediately appeal the “horrendous, politically motivated and unlawful ruling” to the nation’s highest court.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -195,30 +178,49 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Perez Hilton’s children ‘fled’ home minutes before ‘severe mental health crisis’",
-        "desc": "The 48-year-old celebrity blogger is recovering in hospital after an incident this week in which he appeared to harm himself during a livestream.",
-        "link": "https://www.theage.com.au/culture/celebrity/perez-hilton-s-children-fled-home-minutes-before-severe-mental-health-crisis-20260807-p60m8b.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Trump takes ballroom to Supreme Court after judges order stop to construction",
+        "desc": "The president said he would immediately appeal the “horrendous, politically motivated and unlawful ruling” to the nation’s highest court.",
+        "link": "https://www.theage.com.au/world/north-america/trump-takes-ballroom-to-supreme-court-after-judges-order-stop-to-construction-20260808-p60mjh.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Duke Law's alleged race-based admissions accused of defying Supreme Court ruling: DOJ",
+        "desc": "Duke Law School allegedly gave Black applicants 3.5 times higher admission chances than Asian applicants with the same credentials, the DOJ says.",
+        "link": "https://www.foxnews.com/politics/duke-laws-alleged-race-based-admissions-accused-defying-supreme-court-ruling-doj"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Celebrity pregnancies after 40 are giving women hope, but fertility experts warn they may not tell the full story",
+      "summary": "For women looking to become a mother later in life, the announcements can bring both reassurance and complacency.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "A Slack message is at the heart of Jai Arrow's wife's lawsuit against her bosses. The full inside story - as she sues for being stood down from work after returning from mat leave and learning of his ",
+        "desc": "Berina Colakovic was stood down from her role as director of sales at AI advertising platform StackAdapt just days after her husband was diagnosed with motor neurone disease.",
+        "link": "https://www.dailymail.com/sport/rugbyleague/article-16035315/Slack-message-Jai-Arrow-wife-Berina-Colakovic-StackAdapt.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Perez Hilton’s children fled home during his ‘severe mental health crisis’",
-        "desc": "The celebrity blogger’s family has shared further details of his live-streamed meltdown.",
-        "link": "https://7news.com.au/news/perez-hiltons-children-fled-home-during-his-severe-mental-health-crisis-c-22689078"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Perez Hilton's children were inside his home 'just minutes' before distressing TikTok livestream and 'immediately fled' with family",
-        "desc": "Hilton was taken to the hospital following a distressing TikTok livestream which saw him self-harming with a knife while at his home in Miami.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16034697/perez-hilton-children-miami-livestream.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Celebrity pregnancies after 40 are giving women hope, but fertility experts warn they may not tell the full story",
+        "desc": "For women looking to become a mother later in life, the announcements can bring both reassurance and complacency.",
+        "link": "https://7news.com.au/news/celebrity-pregnancies-after-40-are-giving-women-hope-but-fertility-experts-warn-they-may-not-tell-the-full-story-c-22679871"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Trump moves to ban 'birth tourism' and restrict birthright citizenship",
-      "summary": "An earlier effort by Mr Trump to roll back birthright citizenship was rejected by the US ‌Supreme Court in June, prompting him to ⁠call upon Congress to act on what has been one of the top priorities for his administration.",
+      "headline": "Albanese returns to a gambling debate ready to catch fire",
+      "summary": "The explosive evidence heard at a two-day inquiry into Labor's proposed crackdown on wagering advertising has proved a watershed moment for the increasingly friendless bill.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -228,30 +230,23 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Trump moves to ban 'birth tourism' and restrict birthright citizenship",
-        "desc": "An earlier effort by Mr Trump to roll back birthright citizenship was rejected by the US ‌Supreme Court in June, prompting him to ⁠call upon Congress to act on what has been one of the top priorities for his administration.",
-        "link": "https://www.abc.net.au/news/2026-08-07/trump-signs-executive-order-targeting-birthright-citizenship/107007578"
+        "title": "Albanese returns to a gambling debate ready to catch fire",
+        "desc": "The explosive evidence heard at a two-day inquiry into Labor's proposed crackdown on wagering advertising has proved a watershed moment for the increasingly friendless bill.",
+        "link": "https://www.abc.net.au/news/2026-08-08/gambling-ad-restrictions-senate-inquiry-albanese-labor-broadcast/107006170"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Trump launches ferocious crackdown on birthright citizenship targeting tourists and babies born on US soil",
-        "desc": "Donald Trump signed two executive actions on Thursday to crack down on 'birth tourism' in the US and to restrict citizenship from being granted to the children of foreign diplomats.",
-        "link": "https://www.dailymail.com/news/article-16034851/Trump-launches-ferocious-crackdown-birth-tourism-targeting-foreign-diplomats.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Trump signs executive orders targeting birthright citizenship, birth tourism after Supreme Court setback",
-        "desc": "The orders deny visas to those entering the country to give birth, and Trump promised \"very big crackdowns\" on organized birth tourism operations.",
-        "link": "https://www.foxnews.com/politics/trump-signs-executive-orders-targeting-birthright-citizenship-birth-tourism-after-supreme-court-setback"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Amid a week of sex and drug allegations, Pocock summed up Albanese’s gambling plan with one word",
+        "desc": "Independent senator says it is a ‘tragedy’ that PM is standing in the way of strong public and bipartisan support for tougher laws Get our breaking news email, free app or daily news podcast After a week of blockbuster allegations around the tactics gambling giants use to keep punters losing money, David Pocock summed up the government’s position with one word. With growing momentum for the opposi",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/08/amid-a-week-of-sex-and-drug-allegations-pocock-summed-up-albaneses-gambling-plan-with-one-word"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Alan Jones on Trial: A ‘fearful’ friend and ‘generous’ payments – podcast",
-      "summary": "The criminal trial of veteran broadcaster Alan Jones has begun almost two years after he was arrested over multiple counts of indecent assault and sexual touching – charges he strongly denies. What did week one reveal about the prosecution’s case, and the way Jones treated his alleged teenage victim? Nour Haydar speaks to Guardian Australia’s media correspondent, Amanda Meade, to unpack opening st",
+      "headline": "Inside the first week of Alan Jones's trial",
+      "summary": "Alan Jones sat impassively, legs crossed, with a notebook and pen in hand as the first of six male complainants began testifying this week in his indecent assault trial.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -259,25 +254,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Alan Jones trial live updates: Judge lifts suppression order as complainant denies financial motive in alleged indecent assault, sexual touching trial",
-        "desc": "A former teen athlete who has accused Jones of indecent assault is facing further cross-examination on day five of the former media titan’s criminal trial.",
-        "link": "https://www.theage.com.au/national/nsw/alan-jones-trial-live-updates-judge-lifts-suppression-order-as-complainant-denies-financial-motive-in-alleged-indecent-assault-sexual-touching-trial-20260807-p60m8d.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Inside the first week of Alan Jones's trial",
+        "desc": "Alan Jones sat impassively, legs crossed, with a notebook and pen in hand as the first of six male complainants began testifying this week in his indecent assault trial.",
+        "link": "https://www.abc.net.au/news/2026-08-08/week-one-alan-jones-trial-done-at-sydney-s-downing-centre/106995440"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Alan Jones on Trial: A ‘fearful’ friend and ‘generous’ payments – podcast",
-        "desc": "The criminal trial of veteran broadcaster Alan Jones has begun almost two years after he was arrested over multiple counts of indecent assault and sexual touching – charges he strongly denies. What did week one reveal about the prosecution’s case, and the way Jones treated his alleged teenage victim? Nour Haydar speaks to Guardian Australia’s media correspondent, Amanda Meade, to unpack opening st",
-        "link": "https://www.theguardian.com/australia-news/audio/2026/aug/07/alan-jones-on-trial-a-fearful-friend-and-generous-payments-full-story-podcast-ntwnfb"
+        "title": "‘Number 1, struggle street’ and a $1,200 stipend: inside the first week of Alan Jones’s trial",
+        "desc": "The former broadcaster’s alleged victim says he just wants justice – but the defence says allegations of indecent assault are a ‘concoction’ Get our breaking news email, free app or daily news podcast At the beginning of this week, inside a claustrophobic courtroom in one of Sydney’s busiest courthouses, former broadcasting giant Alan Jones revealed how he planned to combatively fight 22 indecent ",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/08/alan-jones-trial-first-week-court-sydney-ntwnfb"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Australia news live: Richard Marles insists Tony Burke’s speech on Labor’s new restrictive immigration policy ‘hasn’t been called off’",
-      "summary": "Deputy prime minister says Burke’s speech before National Press Club was not cancelled. Follow today’s news live Federal parliament is returning from winter break next week. Do you have a question you’d like to ask Guardian Australia’s team of political reporters in Canberra? Our political editor, Tom McIlroy, and the team will be answering readers’ questions on the Australian Politics podcast. Co",
+      "headline": "Grief-stricken mother of star footballer reveals AFL executive phone call",
+      "summary": "West Coast Eagles star Adam Hunter's mother Joanne Brown says AFL executive Laura Kane reached out to her, but the grieving mother says the phone call was \"too little, too late\".",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -285,18 +280,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Australia news live: Richard Marles insists Tony Burke’s speech on Labor’s new restrictive immigration policy ‘hasn’t been called off’",
-        "desc": "Deputy prime minister says Burke’s speech before National Press Club was not cancelled. Follow today’s news live Federal parliament is returning from winter break next week. Do you have a question you’d like to ask Guardian Australia’s team of political reporters in Canberra? Our political editor, Tom McIlroy, and the team will be answering readers’ questions on the Australian Politics podcast. Co",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Grief-stricken mother of star footballer reveals AFL executive phone call",
+        "desc": "West Coast Eagles star Adam Hunter's mother Joanne Brown says AFL executive Laura Kane reached out to her, but the grieving mother says the phone call was \"too little, too late\".",
+        "link": "https://www.abc.net.au/news/2026-08-08/adam-hunter-mother-accuses-afl-of-cover-up-on-brain-injury-cte/107008390"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: Marles says cabinet is not divided after Burke’s immigration address called off; Trump denies reports of US missile shortage amid Iran war",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
-        "link": "https://www.theage.com.au/national/australia-news-live-pauline-hanson-used-party-funds-to-pay-for-five-star-london-hotel-trump-denies-reports-of-us-missile-shortage-amid-iran-war-20260807-p60m7k.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Blackjack losses, a chilling phone call and a diverted flight cap a chaotic Las Vegas vacation",
+        "desc": "David Hookstead's Las Vegas trip featured high-limit blackjack tables, Golden Tiki, Stage Door and machine guns while navigating threats in Las Vegas.",
+        "link": "https://www.foxnews.com/outkick-culture/blackjack-losses-chilling-phone-call-diverted-flight-cap-chaotic-las-vegas-vacation"
        }
       ]
      }
@@ -308,8 +303,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Empty five-star room: Hanson paid for $900-a-night hotel with party funds",
-      "summary": "The One Nation leader insists she did not bankroll the luxury London accommodation with her $5 million Fire the Liar war chest despite insiders expressing concerns.",
+      "headline": "Hanson feuds with media, concedes using party funds for luxury hotel",
+      "summary": "The One Nation leader conceded on Friday that she used party funds to pay for a $900-a-night five-star hotel in London, but denied leaving rooms empty while she travelled to Italy.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -319,23 +314,23 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Empty five-star room: Hanson paid for $900-a-night hotel with party funds",
-        "desc": "The One Nation leader insists she did not bankroll the luxury London accommodation with her $5 million Fire the Liar war chest despite insiders expressing concerns.",
-        "link": "https://www.theage.com.au/politics/federal/empty-five-star-room-hanson-paid-for-900-a-night-hotel-with-party-funds-20260804-p60lal.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Hanson feuds with media, concedes using party funds for luxury hotel",
+        "desc": "The One Nation leader conceded on Friday that she used party funds to pay for a $900-a-night five-star hotel in London, but denied leaving rooms empty while she travelled to Italy.",
+        "link": "https://www.theage.com.au/politics/federal/hanson-feuds-with-media-concedes-using-party-funds-for-luxury-hotel-20260807-p60m8l.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Texts suggest Angus Taylor ‘paid money to the Reformers … or was refusing to’, Icac inquiry hears",
-        "desc": "Jean-Claude Perrottet, brother of former NSW premier, asked about messages referencing federal opposition leader and factional group Reformers Icac’s spotlight has shone on Dominic Perrottet’s brother – and it won’t be the last we hear from his family New South Wales’ anti-corruption watchdog has been shown text messages which suggest Angus Taylor “had paid some money to the Reformers … or was ref",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/06/jean-claude-perrottet-icac-angus-taylor-reformers-ntwnfb"
+        "title": "Pauline Hanson echoes Trump as she lashes out about ‘fake news’ reporting on lavish London hotel",
+        "desc": "One Nation leader says party covered ‘all travel costs’ for her European trip – aside from those paid by billionaire Gina Rinehart Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Pauline Hanson has lashed out at major news outlets for reporting on One Nation, angrily denying that she used donations from supporters to fund a lavish ",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/07/pauline-hanson-fake-news-claim-london-hotel-one-nation-funds-ntwnfb"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Australia news live: Richard Marles insists Tony Burke’s speech on Labor’s new restrictive immigration policy ‘hasn’t been called off’",
-      "summary": "Deputy prime minister says Burke’s speech before National Press Club was not cancelled. Follow today’s news live Federal parliament is returning from winter break next week. Do you have a question you’d like to ask Guardian Australia’s team of political reporters in Canberra? Our political editor, Tom McIlroy, and the team will be answering readers’ questions on the Australian Politics podcast. Co",
+      "headline": "Duke Law's alleged race-based admissions accused of defying Supreme Court ruling: DOJ",
+      "summary": "Duke Law School allegedly gave Black applicants 3.5 times higher admission chances than Asian applicants with the same credentials, the DOJ says.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -343,18 +338,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: Richard Marles insists Tony Burke’s speech on Labor’s new restrictive immigration policy ‘hasn’t been called off’",
-        "desc": "Deputy prime minister says Burke’s speech before National Press Club was not cancelled. Follow today’s news live Federal parliament is returning from winter break next week. Do you have a question you’d like to ask Guardian Australia’s team of political reporters in Canberra? Our political editor, Tom McIlroy, and the team will be answering readers’ questions on the Australian Politics podcast. Co",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Duke Law's alleged race-based admissions accused of defying Supreme Court ruling: DOJ",
+        "desc": "Duke Law School allegedly gave Black applicants 3.5 times higher admission chances than Asian applicants with the same credentials, the DOJ says.",
+        "link": "https://www.foxnews.com/politics/duke-laws-alleged-race-based-admissions-accused-defying-supreme-court-ruling-doj"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "The latest illustrations from artist Cathy Wilcox",
-      "summary": "The latest work by the acclaimed Sydney Morning Herald editorial cartoonist.",
+      "headline": "Death threats, doxxing and deepfakes: How online abuse hampers women in politics",
+      "summary": "The rise of women in politics has been accompanied by a surge in vile online abuse. It could be putting women’s lives – and Australia’s democracy – at risk.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -364,16 +359,16 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "The latest illustrations from artist Cathy Wilcox",
-        "desc": "The latest work by the acclaimed Sydney Morning Herald editorial cartoonist.",
-        "link": "https://www.theage.com.au/politics/federal/the-latest-illustrations-from-artist-cathy-wilcox-20230608-p5df54.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Death threats, doxxing and deepfakes: How online abuse hampers women in politics",
+        "desc": "The rise of women in politics has been accompanied by a surge in vile online abuse. It could be putting women’s lives – and Australia’s democracy – at risk.",
+        "link": "https://www.theage.com.au/politics/federal/death-threats-doxxing-and-deepfakes-how-online-abuse-hampers-women-in-politics-20260804-p60lci.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Primary showdown: Polls close in Tennessee as conservative firebrand eyes governor's office",
-      "summary": "Marsha Blackburn leads Tennessee's Republican gubernatorial primary despite Trump staying neutral, while key congressional races reshape the state's map.",
+      "headline": "The $60b deal that every state wants to get rid of – bar one",
+      "summary": "It was supposed to cost $2.3 billion. But the Scott Morrison-era deal to placate Western Australia is on track to cost more than 20 times that figure.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -381,18 +376,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Primary showdown: Polls close in Tennessee as conservative firebrand eyes governor's office",
-        "desc": "Marsha Blackburn leads Tennessee's Republican gubernatorial primary despite Trump staying neutral, while key congressional races reshape the state's map.",
-        "link": "https://www.foxnews.com/politics/primary-showdown-polls-close-tennessee-conservative-firebrand-eyes-governors-office"
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "The $60b deal that every state wants to get rid of – bar one",
+        "desc": "It was supposed to cost $2.3 billion. But the Scott Morrison-era deal to placate Western Australia is on track to cost more than 20 times that figure.",
+        "link": "https://www.theage.com.au/politics/federal/the-60b-deal-that-every-state-wants-to-get-rid-of-bar-one-20260806-p60lv6.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "EXCLUSIVE: Michigan House speaker calls for answers over $300M taxpayer-funded Rx Kids program",
-      "summary": "Michigan House Republicans cut future funding for Rx Kids after questioning its voter registration ties and payments to undocumented recipients.",
+      "headline": "US Army offering defense firms 'concierge access' to test weapons at military ranges",
+      "summary": "Army Secretary Dan Driscoll says defense companies can now book military test ranges within 30 days through a new online portal with concierge access.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -402,16 +397,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "EXCLUSIVE: Michigan House speaker calls for answers over $300M taxpayer-funded Rx Kids program",
-        "desc": "Michigan House Republicans cut future funding for Rx Kids after questioning its voter registration ties and payments to undocumented recipients.",
-        "link": "https://www.foxnews.com/politics/michigan-house-speaker-calls-answers-300m-taxpayer-funded-rx-kids-program"
+        "title": "US Army offering defense firms 'concierge access' to test weapons at military ranges",
+        "desc": "Army Secretary Dan Driscoll says defense companies can now book military test ranges within 30 days through a new online portal with concierge access.",
+        "link": "https://www.foxnews.com/politics/us-army-offering-defense-firms-concierge-access-test-weapons-military-ranges"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Trump signs executive orders targeting birthright citizenship, birth tourism after Supreme Court setback",
-      "summary": "The orders deny visas to those entering the country to give birth, and Trump promised \"very big crackdowns\" on organized birth tourism operations.",
+      "headline": "Socialist House nominee's radical law-and-order vision: 'What are illegals?'",
+      "summary": "Chris Rabb questioned the premise of \"illegal immigrants\" and claimed 99% of police work does not involve pursuing criminals in a heated exchange.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -421,9 +416,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Trump signs executive orders targeting birthright citizenship, birth tourism after Supreme Court setback",
-        "desc": "The orders deny visas to those entering the country to give birth, and Trump promised \"very big crackdowns\" on organized birth tourism operations.",
-        "link": "https://www.foxnews.com/politics/trump-signs-executive-orders-targeting-birthright-citizenship-birth-tourism-after-supreme-court-setback"
+        "title": "Socialist House nominee's radical law-and-order vision: 'What are illegals?'",
+        "desc": "Chris Rabb questioned the premise of \"illegal immigrants\" and claimed 99% of police work does not involve pursuing criminals in a heated exchange.",
+        "link": "https://www.foxnews.com/politics/socialist-house-nominee-radical-law-order-vision-what-are-illegals"
        }
       ]
      }
@@ -435,8 +430,8 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Suno hopes to go legit with watermarks for AI-generated music",
-      "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
+      "headline": "Report: White House drafting executive order linking vaccines and autism",
+      "summary": "Trump determined to link life-saving shots to autism, despite science and political risk.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -446,30 +441,23 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Suno hopes to go legit with watermarks for AI-generated music",
-        "desc": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
-        "link": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music/"
+        "title": "Report: White House drafting executive order linking vaccines and autism",
+        "desc": "Trump determined to link life-saving shots to autism, despite science and political risk.",
+        "link": "https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/"
        },
        {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Suno shares plans to combat spammy AI music",
-        "desc": "Suno’s AI vocalists could learn a thing or two from this glitchy image. | Image: Cath Virginia / The Verge, Getty Images Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "SpaceX shares sink after first earnings report reveals huge AI spending plans",
-        "desc": "Elon Musk told investors that people were \"underestimating\" his company.",
-        "link": "https://www.bbc.co.uk/news/articles/c0qvpveg20vo?at_medium=RSS&at_campaign=rss"
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy",
+        "desc": "A Trump administration framework on AI testing leaves a lack of transparency – and plenty of open questions After months of talking with tech industry leaders, the Trump administration finalized a framework this week for how it will test new artificial intelligence models for safety and cybersecurity risks. So far, the White House is keeping details of the framework private, in a blow to transpare",
+        "link": "https://www.theguardian.com/technology/2026/aug/07/white-house-ai"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Meta fined $567m in largest child safety ruling against social media giant",
-      "summary": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
+      "headline": "Watching Roku’s AI channel is like eating from a trough",
+      "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. This week, Roku added four new channels to its",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -477,25 +465,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Meta fined $567m in largest child safety ruling against social media giant",
-        "desc": "A New Mexico judge ordered the Instagram, Facebook and Whatsapp parent company to pay another $567m for the way it has harmed children.",
-        "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "AI isn’t enough to protect social media communities from AI",
-        "desc": "Why humans need to moderate humans.",
-        "link": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai/"
+        "title": "Watching Roku’s AI channel is like eating from a trough",
+        "desc": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. This week, Roku added four new channels to its",
+        "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+      "headline": "OpenAI puts the brakes on a new model because it s supposedly too powerful",
+      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent i",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -503,25 +484,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-        "desc": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
-        "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/"
-       },
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "AI models shock UK testers by using fake identities to try to trick developers",
-        "desc": "AI Security Institute says OpenAI and Anthropic models went rogue during a cybersecurity test and showed a new type of risk Explainer: Should we be alarmed at AI models going rogue in tests? Advanced artificial intelligence models have stunned the UK’s AI Security Institute (AISI) by carrying out a hacking campaign against real people during a cybersecurity test. The institute said the incident wa",
-        "link": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute"
+        "title": "OpenAI puts the brakes on a new model because it s supposedly too powerful",
+        "desc": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent i",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Disney agrees deal to let TikTokers use its films and TV shows in videos",
-      "summary": "A deal between will allow some creators to use clips from Disney films and TV shows in their videos.",
+      "headline": "The only instant cameras worth your money",
+      "summary": "There’s something magical about using instant cameras that smartphones can’t match. You can capture a moment, print it out, and then give the photo as a gift or hold onto it. Image quality won’t be all that good, but imperfections are part of the allure. We tested instant camera models from popular brands and landed on a handful that we think are the best. Some aim to preserve the classic experien",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -529,44 +503,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Darth Vader to become a TikTok star as Disney strikes deal on short video",
-        "desc": "Characters and memorable scenes from back catalogue made available to group of creator fans The likes of Darth Vader, Spider-Man and Moana are about to become TikTok stars for the first time – at least now on an official basis – after Walt Disney struck a “first of its kind” deal with the booming short-video platform. In an acknowledgment of the influence fan-made content now has in the entertainm",
-        "link": "https://www.theguardian.com/technology/2026/aug/05/tiktok-disney-deal-short-video-darth-vader-spider-man"
-       },
-       {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Disney agrees deal to let TikTokers use its films and TV shows in videos",
-        "desc": "A deal between will allow some creators to use clips from Disney films and TV shows in their videos.",
-        "link": "https://www.bbc.co.uk/news/articles/c235ev9knm4o?at_medium=RSS&at_campaign=rss"
+        "title": "The only instant cameras worth your money",
+        "desc": "There’s something magical about using instant cameras that smartphones can’t match. You can capture a moment, print it out, and then give the photo as a gift or hold onto it. Image quality won’t be all that good, but imperfections are part of the allure. We tested instant camera models from popular brands and landed on a handful that we think are the best. Some aim to preserve the classic experien",
+        "link": "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Why airlines are warning over lithium-ion batteries",
-      "summary": "The airline industry wants passengers to be careful when travelling with lithium ion batteries.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Why airlines are warning over lithium-ion batteries",
-        "desc": "The airline industry wants passengers to be careful when travelling with lithium ion batteries.",
-        "link": "https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Organ donation group accused of trying to take living man's organs faces shutdown",
-      "summary": "The organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision.",
+      "headline": "New official 30th anniversary Quake mission pack adds new maps and mechanics",
+      "summary": "19 new maps continue the story from MachineGames' other campaign additions.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -576,9 +524,28 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
-        "desc": "The organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision.",
-        "link": "https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/"
+        "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics",
+        "desc": "19 new maps continue the story from MachineGames' other campaign additions.",
+        "link": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Disney Plus tries a new AI-powered search",
+      "summary": "Disney’s AI tools for Disney Plus and ESPN. Disney is testing a new AI-powered tool for Disney Plus that uses a natural language search, a voice query, or a suggested prompt to create a customized row of show and movie recommendations. Disney Plus, like other streaming services, can recommend shows to watch based on your viewing history. But the company says this new tool, which is \"a limited beta",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Disney Plus tries a new AI-powered search",
+        "desc": "Disney’s AI tools for Disney Plus and ESPN. Disney is testing a new AI-powered tool for Disney Plus that uses a natural language search, a voice query, or a suggested prompt to create a customized row of show and movie recommendations. Disney Plus, like other streaming services, can recommend shows to watch based on your viewing history. But the company says this new tool, which is \"a limited beta",
+        "link": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search"
        }
       ]
      }
@@ -590,34 +557,41 @@
     "stories": [
      {
       "id": 19,
-      "headline": "ABC investigations boss leaves as Four Corners probe continues",
-      "summary": "The announcement comes alongside a deepening investigation into the work of sacked Four Corners reporter Mahmood Fazal. The long-running current affairs program falls under Puccini's oversight.",
+      "headline": "US unexpectedly sheds 23,000 jobs in blow for Trump before midterms",
+      "summary": "Donald Trump has unleashed a spate of policies aimed at reviving domestic manufacturing and curbing surging inflation but new figures show job growth has been declining since March.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Now-removed Four Corners episode is ‘remarkably similar’ to this book",
-        "desc": "Just as Beethoven was accused of taking heavy inspiration from Mozart when producing his finest work, sacked ABC reporter Mahmood Fazal is accused of doing the same.",
-        "link": "https://www.theage.com.au/business/companies/now-removed-four-corners-episode-is-remarkably-similar-to-this-book-20260806-p60lx8.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "ABC investigations boss leaves as Four Corners probe continues",
-        "desc": "The announcement comes alongside a deepening investigation into the work of sacked Four Corners reporter Mahmood Fazal. The long-running current affairs program falls under Puccini's oversight.",
-        "link": "https://www.abc.net.au/news/2026-08-06/jo-puccini-leaves-abc-four-corners/107005618"
+        "title": "US unexpectedly sheds 23,000 jobs in blow for Trump before midterms",
+        "desc": "Donald Trump has unleashed a spate of policies aimed at reviving domestic manufacturing and curbing surging inflation but new figures show job growth has been declining since March.",
+        "link": "https://www.abc.net.au/news/2026-08-08/thousands-of-jobs-lost-in-united-states/107011970"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "US economy lost 23,000 jobs in July in surprise blow to Trump – as it happened",
+        "desc": "Rolling coverage of the latest economic and financial news, as US job report dramatically misses expectations Newsflash: Global food commodity prics have hit a three-year high, as the Ukraine war, conflict in the Middle East and extremely hot weather push up crop prices. The United Nations’ Food and Agriculture Organization’s Food Price Index, which tracks key food prices, has just risen to its hi",
+        "link": "https://www.theguardian.com/business/live/2026/aug/07/rail-passengers-disruption-power-outage-uk-house-prices-stagnate-us-jobs-unemployment-latest-news-updates"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "US economy unexpectedly shed jobs in July",
+        "desc": "The Labor Department released the July 2026 jobs report, which showed the U.S. economy shed jobs unexpectedly last month amid uncertainty over inflation.",
+        "link": "https://www.foxbusiness.com/economy/us-jobs-report-july-2026"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "Diageo to nearly double Guinness production and cut jobs in turnaround plan",
-      "summary": "New CEO Dave Lewis lifts investors’ spirits by promising strategic overhaul worthy of his nickname ‘Drastic Dave’ Diageo’s new chief executive has unveiled plans to nearly double Guinness production while hacking back a “significant” proportion of its 30,000-strong workforce, in a strategic overhaul worthy of his nickname, “Drastic” Dave Lewis. Shares in Diageo bounced on Thursday, as the former T",
+      "headline": "Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling",
+      "summary": "White House continues to target Cook despite decision from justices that upheld Federal Reserve’s independence Donald Trump is attempting once again to oust the US Federal Reserve governor Lisa Cook over allegations of mortgage fraud, despite a recent US supreme court decision that upheld the central bank’s independence. Cook reportedly received a letter from the White House this week that provide",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -627,23 +601,23 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Diageo to nearly double Guinness production and cut jobs in turnaround plan",
-        "desc": "New CEO Dave Lewis lifts investors’ spirits by promising strategic overhaul worthy of his nickname ‘Drastic Dave’ Diageo’s new chief executive has unveiled plans to nearly double Guinness production while hacking back a “significant” proportion of its 30,000-strong workforce, in a strategic overhaul worthy of his nickname, “Drastic” Dave Lewis. Shares in Diageo bounced on Thursday, as the former T",
-        "link": "https://www.theguardian.com/business/2026/aug/06/diageo-strategy-cost-cuts-dave-lewis"
+        "title": "Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling",
+        "desc": "White House continues to target Cook despite decision from justices that upheld Federal Reserve’s independence Donald Trump is attempting once again to oust the US Federal Reserve governor Lisa Cook over allegations of mortgage fraud, despite a recent US supreme court decision that upheld the central bank’s independence. Cook reportedly received a letter from the White House this week that provide",
+        "link": "https://www.theguardian.com/business/2026/aug/07/trump-lisa-cook-fed-firing-scotus-ruling"
        },
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Walgreens continues store closures nationwide as part of its turnaround plan",
-        "desc": "Walgreens is reportedly closing locations across the U.S. in 2026 as part of a previously announced plan to shutter underperforming stores.",
-        "link": "https://www.foxbusiness.com/retail/walgreens-continues-store-closures-nationwide-part-its-turnaround-plan"
+        "title": "Trump considering renewing push to fire Lisa Cook from Federal Reserve Board",
+        "desc": "President Donald Trump is signaling that he may move forward with his attempt to fire Federal Reserve Board Governor Lisa Cook over mortgage fraud allegations.",
+        "link": "https://www.foxbusiness.com/economy/trump-considering-renewing-push-fire-lisa-cook-from-federal-reserve-board"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "ABC apologises to Rinehart over TV show reference",
-      "summary": "The ABC apologises for a Race Around the World episode containing remarks about mining magnate Gina Rinehart AO, despite the broadcaster's ombudsman finding it did not breach editorial standards.",
+      "headline": "ACCC launches food labelling inquiry after Four Corners investigation",
+      "summary": "Australia's consumer watchdog has launched an inquiry into allegations of misleading consumer conduct after a major Four Corners investigation examining food fraud.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -651,25 +625,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ABC boss apologises for Race Around the World Gina Rinehart episode",
-        "desc": "The ABC’s independent ombudsman has thrown out a series of complaints relating to an episode of its new Race Around the World program, saying the remarks were “satirical and exaggerated commentary”.",
-        "link": "https://www.theage.com.au/business/companies/abc-dismisses-complaints-over-race-around-the-world-gina-rinehart-episode-20260806-p60m11.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "ABC apologises to Rinehart over TV show reference",
-        "desc": "The ABC apologises for a Race Around the World episode containing remarks about mining magnate Gina Rinehart AO, despite the broadcaster's ombudsman finding it did not breach editorial standards.",
-        "link": "https://www.abc.net.au/news/2026-08-06/abc-apologies-to-gina-rinehart/107003346"
+        "title": "ACCC launches food labelling inquiry after Four Corners investigation",
+        "desc": "Australia's consumer watchdog has launched an inquiry into allegations of misleading consumer conduct after a major Four Corners investigation examining food fraud.",
+        "link": "https://www.abc.net.au/news/2026-08-07/accc-launches-inquiry-into-food-labelling-after-four-corners/107010678"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Now-removed Four Corners episode is ‘remarkably similar’ to this book",
+        "desc": "Just as Beethoven was accused of taking heavy inspiration from Mozart when producing his finest work, sacked ABC reporter Mahmood Fazal is accused of doing the same.",
+        "link": "https://www.theage.com.au/business/companies/now-removed-four-corners-episode-is-remarkably-similar-to-this-book-20260806-p60lx8.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "ASX retreats after Wall Street slides; Atlassian surges; Rio, BHP summoned to Trump meeting",
-      "summary": "The Australian sharemarket has slid lower at the open after stocks retreated on Wall Street as oil prices rose and more company earnings reports rolled in.",
+      "headline": "What happens when crime is no longer paying for our real estate?",
+      "summary": "The property sector’s money laundering restrictions have finally arrived, and it may be adding to the real estate slump.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -679,35 +653,16 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "ASX retreats after Wall Street slides; Atlassian surges; Rio, BHP summoned to Trump meeting",
-        "desc": "The Australian sharemarket has slid lower at the open after stocks retreated on Wall Street as oil prices rose and more company earnings reports rolled in.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-wall-street-dips-as-oil-advances-spacex-share-lockup-expires-20260807-p60m7e.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "What happens when crime is no longer paying for our real estate?",
+        "desc": "The property sector’s money laundering restrictions have finally arrived, and it may be adding to the real estate slump.",
+        "link": "https://www.theage.com.au/business/companies/what-happens-when-crime-is-no-longer-paying-for-our-real-estate-20260701-p60boq.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "FAA orders inspections of hundreds of Boeing 737 Max jets over potential cracks",
-      "summary": "The FAA is requiring inspections of 471 U.S.-registered Boeing 737 Max jets over possible cracking, though Boeing says the issue has not been seen on the Max fleet.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "FAA orders inspections of hundreds of Boeing 737 Max jets over potential cracks",
-        "desc": "The FAA is requiring inspections of 471 U.S.-registered Boeing 737 Max jets over possible cracking, though Boeing says the issue has not been seen on the Max fleet.",
-        "link": "https://www.foxbusiness.com/fox-news-lifestyle/faa-orders-inspections-hundreds-boeing-737-max-jets-potential-cracks"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Cafe owner battles high sponsorship costs as government vows to cut migration",
-      "summary": "A Taiwanese barista's employer is trying to secure a visa for her to stay in Australia, but the cost may put it out of reach.",
+      "headline": "Cory Doctorow thinks Australia should be worried about digital sovereignty",
+      "summary": "Cory Doctorow says the AI revolution promised by tech bros isn't inevitable but the bursting of an AI bubble is. He wants to remind us another future is possible.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -717,9 +672,28 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Cafe owner battles high sponsorship costs as government vows to cut migration",
-        "desc": "A Taiwanese barista's employer is trying to secure a visa for her to stay in Australia, but the cost may put it out of reach.",
-        "link": "https://www.abc.net.au/news/2026-08-07/skilled-migration-expensive-sponsor-regional-wa/106982454"
+        "title": "Cory Doctorow thinks Australia should be worried about digital sovereignty",
+        "desc": "Cory Doctorow says the AI revolution promised by tech bros isn't inevitable but the bursting of an AI bubble is. He wants to remind us another future is possible.",
+        "link": "https://www.abc.net.au/news/2026-08-08/cory-doctorow-on-the-ai-bubble-and-inevitability/106982988"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Inside the first week of Alan Jones's trial",
+      "summary": "Alan Jones sat impassively, legs crossed, with a notebook and pen in hand as the first of six male complainants began testifying this week in his indecent assault trial.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Inside the first week of Alan Jones's trial",
+        "desc": "Alan Jones sat impassively, legs crossed, with a notebook and pen in hand as the first of six male complainants began testifying this week in his indecent assault trial.",
+        "link": "https://www.abc.net.au/news/2026-08-08/week-one-alan-jones-trial-done-at-sydney-s-downing-centre/106995440"
        }
       ]
      }
@@ -731,8 +705,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Western Bulldogs coach makes stunning admission about Geelong’s ‘secret deal’ bombshell",
-      "summary": "Luke Beveridge has weighed in on the hot-button controversy and immediately thought about his playing days.",
+      "headline": "Flintoff leaves England Lions head coach role",
+      "summary": "Former England all-rounder Andrew Flintoff steps down as head coach of England Lions.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -740,25 +714,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Western Bulldogs coach makes stunning admission about Geelong’s ‘secret deal’ bombshell",
-        "desc": "Luke Beveridge has weighed in on the hot-button controversy and immediately thought about his playing days.",
-        "link": "https://7news.com.au/sport/afl/western-bulldogs-coach-makes-stunning-admission-about-geelongs-secret-deal-bombshell-c-22688923"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Geelong forced to scrap secret deal with AFL player with history of concussion",
-        "desc": "Player signed letter waiving some potential future legal rights Cats’ agreement condemned by AFL Players’ Association The AFL says it did not approve a deal between Geelong and one of their players – who had suffered a history of concussion – that would allow them to keep playing if the club was protected from future liabilities. The Cats were forced to scrap the arrangement with their unnamed pla",
-        "link": "https://www.theguardian.com/sport/2026/aug/06/afl-geelong-alleged-concussion-deal-with-player"
+        "title": "Andrew Flintoff makes surprise exit as England Lions head coach after two years",
+        "desc": "Other demands meant he was unable to commit fully Mike Yardy will step in for upcoming Pakistan fixture Andrew Flintoff has decided to step down as the head coach of England Lions with immediate effect before his winter spell working in Australia’s Big Bash League (BBL). The former all-rounder, 48, has been in charge of England’s second string since September 2024 and had been given the all-clear ",
+        "link": "https://www.theguardian.com/sport/2026/aug/07/andrew-flintoff-steps-down-head-coach-england-lions"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Flintoff leaves England Lions head coach role",
+        "desc": "Former England all-rounder Andrew Flintoff steps down as head coach of England Lions.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cpw9nvzkxexo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Barcelona? Real Madrid? Man City's Rodri has a decision to make",
-      "summary": "Midfielder Rodri may have a huge decision to make this summer on whether to join Real Madrid or Barcelona, should he decide to leave Manchester City.",
+      "headline": "Why can't the Premier League attract the world's best players?",
+      "summary": "Vinicius Jr chose to stay at Real Madrid, but why does the Premier League rarely attract global superstars at their peak?",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -766,25 +740,70 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Kerolin failed to report for pre-season at Manchester City before Barcelona switch",
-        "desc": "City taken aback by forward’s absence from training WSL champions wait two days before mentioning deal The Brazil forward Kerolin failed to report back for pre-season training at Manchester City in July before her transfer to Barcelona had been agreed. Barcelona announced their signing of the 26-year-old on Tuesday but it was not until Thursday evening when Manchester City first made any reference",
-        "link": "https://www.theguardian.com/football/2026/aug/06/kerolin-failed-to-report-for-pre-season-at-manchester-city-before-barcelona-switch"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Barcelona? Real Madrid? Man City's Rodri has a decision to make",
-        "desc": "Midfielder Rodri may have a huge decision to make this summer on whether to join Real Madrid or Barcelona, should he decide to leave Manchester City.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cglj6p6n9l8o?at_medium=RSS&at_campaign=rss"
+        "title": "Why can't the Premier League attract the world's best players?",
+        "desc": "Vinicius Jr chose to stay at Real Madrid, but why does the Premier League rarely attract global superstars at their peak?",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c4gw03rqwkwo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "One potential breakout star for each Premier League club this season",
+        "desc": "A crop of young players emerges every season in the Premier League. Who will make the grade this year? By Opta Analyst Dowman is old news by now, so we’re going to look at someone four months older than him. Much like the fish of the same name, Salmon has risen quickly. The defender became the fourth-youngest player to represent Arsenal last season when he came off the bench against Club Brugge in",
+        "link": "https://www.theguardian.com/football/2026/aug/06/breakout-star-premier-league-club-season"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-      "summary": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa.",
+      "headline": "Geelong CEO Steve Hocking admits ‘misstep’ in secret concussion waiver with unnamed player",
+      "summary": "Steve Hocking has taken ‘full responsibility’ for the deal but can’t explain why it was concealed.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Geelong’s Jake Kolodjashnij outs himself as player who signed AFL concussion waiver",
+        "desc": "Veteran Geelong defender ended two days of speculation when he issued a statement through the Cats Get our breaking news email, free app or daily news podcast The AFL player with concussion issues who waived his right to sue Geelong has gone public to defend his club and the process that led to him continuing his career in a twist to the scandal that has engulfed the competition. Defender Jake Kol",
+        "link": "https://www.theguardian.com/sport/2026/aug/07/geelong-jake-kolodjashnij-afl-concussion-waiver"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Geelong CEO Steve Hocking admits ‘misstep’ in secret concussion waiver with unnamed player",
+        "desc": "Steve Hocking has taken ‘full responsibility’ for the deal but can’t explain why it was concealed.",
+        "link": "https://7news.com.au/sport/afl/geelong-ceo-steve-hocking-admits-misstep-in-secret-concussion-waiver-with-unnamed-player-c-22692296"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Middlesbrough v Wrexham: Carabao Cup first round – live",
+      "summary": "⚽ League Cup updates, 8pm BST kick-off at the Riverside ⚽ Follow on TikTok | Sign up for Football Daily | Mail Billy 6 min: The whistle goes for a foul by Malanda, who was holding on to Hyam as the corner came in. Wolves have the lead against Port Vale, Adam Armstrong tucking home after Mateus Mane’s cutback. Continue reading...",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Middlesbrough v Wrexham: Carabao Cup first round – live",
+        "desc": "⚽ League Cup updates, 8pm BST kick-off at the Riverside ⚽ Follow on TikTok | Sign up for Football Daily | Mail Billy 6 min: The whistle goes for a foul by Malanda, who was holding on to Hyam as the corner came in. Wolves have the lead against Port Vale, Adam Armstrong tucking home after Mateus Mane’s cutback. Continue reading...",
+        "link": "https://www.theguardian.com/football/live/2026/aug/07/middlesbrough-v-wrexham-carabao-cup-first-round-live"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Coventry sign Ghana's Yirenkyi for record fee",
+      "summary": "Premier League newcomers Coventry City have completed the club-record signing of Ghana midfielder Caleb Yirenkyi.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -794,68 +813,16 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
-        "desc": "Fifa's backing of president Gianni Infantino at a meeting on Wednesday \"changes nothing\", says European governing body Uefa.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Uefa maintains World Cup boycott still stands despite Fifa’s backing for Infantino",
-        "desc": "European body says Fifa statement ‘changes nothing’ Fifpro condemns ‘profound abuse of presidential power’ Uefa has doubled down on its threat to boycott Fifa-run competitions and reiterated its loss of confidence in Gianni Infantino’s presidency. The latest damning intervention from European football’s governing body came as criticism of Infantino continued to rain in from several angles. The glo",
-        "link": "https://www.theguardian.com/football/2026/aug/06/uefa-world-cup-boycott-still-stands-gianni-infantino"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Iranian footballers who defied Tehran now officially Australian citizens",
-      "summary": "The duo first drew controversy when they refused to sing the Islamic Republic’s national anthem.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Two Iranian female footballers granted Australian citizenship after protest",
-        "desc": "Players stayed in country after Asian Cup in March Duo condemned as traitors in Iran for not singing anthem Two former Iranian footballers said on Thursday they were proud to have been granted Australian citizenship after being called traitors at home for refusing to sing the national anthem before a game. Fatemeh Pasandideh and Atefeh Ramezanisadeh were members of a group of seven from Iran’s del",
-        "link": "https://www.theguardian.com/football/2026/aug/06/two-iranian-female-footballers-australian-citizenship-protest"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Iranian footballers who defied Tehran now officially Australian citizens",
-        "desc": "The duo first drew controversy when they refused to sing the Islamic Republic’s national anthem.",
-        "link": "https://7news.com.au/sport/soccer/iranian-footballers-who-defied-tehran-now-officially-australian-citizens-c-22682181"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Aussies after revenge as new mixed 4x100m relay world record immediately wiped out by Great Britain",
-      "summary": "The rising stars had barely celebrated before the warnings came thick and fast.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Aussies after revenge as new mixed 4x100m relay world record immediately wiped out by Great Britain",
-        "desc": "The rising stars had barely celebrated before the warnings came thick and fast.",
-        "link": "https://7news.com.au/sport/athletics/aussies-after-revenge-as-new-mixed-4x100m-relay-world-record-wiped-out-by-great-britain-c-22689519"
+        "title": "Coventry sign Ghana's Yirenkyi for record fee",
+        "desc": "Premier League newcomers Coventry City have completed the club-record signing of Ghana midfielder Caleb Yirenkyi.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cy4kgprjzx2o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "North Melbourne star Paul Curtis spills on self-imposed phone ban ... and why it’s not working",
-      "summary": "As the interview took an awkward turn, the cheeky 23-year-old decided to leak some private information.",
+      "headline": "Rashid takes six wickets as Afghanistan thrash Ireland",
+      "summary": "Rashid Khan takes six wickets as Afghanistan beat Ireland by 92 runs in Gary Wilson's first one-day international as head coach.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -863,11 +830,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "North Melbourne star Paul Curtis spills on self-imposed phone ban ... and why it’s not working",
-        "desc": "As the interview took an awkward turn, the cheeky 23-year-old decided to leak some private information.",
-        "link": "https://7news.com.au/sport/afl/north-melbourne-star-paul-curtis-explains-reason-for-self-imposed-phone-ban-c-22689054"
+        "title": "Rashid takes six wickets as Afghanistan thrash Ireland",
+        "desc": "Rashid Khan takes six wickets as Afghanistan beat Ireland by 92 runs in Gary Wilson's first one-day international as head coach.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cy8mp51417zo?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -879,8 +846,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Grown Ups 3 Photos Announce Major Production Update, New Returning Cast Members, First Plot Details",
-      "summary": "Grown Ups 3 shares its first photos, announcing a major production update, confirming new and returning cast members, and the sequel's plot details.",
+      "headline": "Zendaya's Athena Role In The Odyssey Perfectly Continues A Decades-Long Nolan Trend",
+      "summary": "Zendaya's role as Athena is one of the most memorable performances in The Odyssey, and it continues one of Christopher Nolan's most notable trends.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -890,23 +857,49 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Grown Ups 3 Photos Announce Major Production Update, New Returning Cast Members, First Plot Details",
-        "desc": "Grown Ups 3 shares its first photos, announcing a major production update, confirming new and returning cast members, and the sequel's plot details.",
-        "link": "https://screenrant.com/grown-ups-3-photos-filming-cast-plot-details/"
+        "title": "Zendaya's Athena Role In The Odyssey Perfectly Continues A Decades-Long Nolan Trend",
+        "desc": "Zendaya's role as Athena is one of the most memorable performances in The Odyssey, and it continues one of Christopher Nolan's most notable trends.",
+        "link": "https://screenrant.com/the-odyssey-movie-zendaya-athena-troy-role-christopher-nolan/"
        },
        {
-        "outlet": "Anime News Network",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "From Overshadowed to Overpowered Anime Reveals 3 New Cast Members",
-        "desc": "Shinichirō Kamio, Rina Kawaguchi, Hiroki Takahashi join anime's cast in episode 7",
-        "link": "https://www.animenewsnetwork.com/news/2026-08-06/from-overshadowed-to-overpowered-anime-reveals-3-new-cast-members/.240343"
+        "title": "‘The Odyssey’ Conquers $1 Billion At WW Box Office, Soon To Be Christopher Nolan’s Best Ahead Of ‘Dark Knight Rises’",
+        "desc": "This year’s embarrassment of riches at the global box office continues as we can tell you today that Universal’s Christopher Nolan feature take on Homer’s The Odyssey has crossed the $1 billion mark at the global box office. The pic soon will become the 2x Oscar winner’s highest-grossing movie ever, overtaking 2012’s The Dark Knight […]",
+        "link": "https://deadline.com/2026/08/box-office-the-odyssey-billion-christopher-nolan-record-1237028708/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Nielsen Set To Acquire Ad-Tech Firm DoubleVerify For $2.5 Billion",
-      "summary": "Nielsen is paying $2.15 billion to acquire DoubleVerify, a provider of software that measures advertising performance. The all-cash acquisition will deliver shareholders of DoubleVerify $13.60 per share. Shares in the publicly traded company jumped nearly 14% in after-hours trading Thursday on the acquisition news. Nielsen has been privately held since 2022. Nielsen was attracted to […]",
+      "headline": "Gotham Group to Develop Film, TV Adaptations of Viz Media's Original Properties",
+      "summary": "Agreement focuses on Viz Originals graphic novel line, RWBY franchise",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Gotham Group to Develop Film, TV Adaptations of Viz Media's Original Properties",
+        "desc": "Agreement focuses on Viz Originals graphic novel line, RWBY franchise",
+        "link": "https://www.animenewsnetwork.com/news/2026-08-07/gotham-group-to-develop-film-tv-adaptations-of-viz-media-original-properties/.240362"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "LISTEN: NBCUniversal Media Group Chief Matt Strauss on Growing Peacock, Testing Membership Rewards and Becoming a Daily Habit With Users",
+        "desc": "On today’s episode of Variety‘s “Strictly Business” podcast, Matt Strauss, chairman of NBCUniversal Media Group, expands on the evolution of the Peacock streamer and his view of the “the great re-bundling” that is underway for streaming media. Strauss, who is a 22-year veteran of Comcast and NBCUniversal, unpacks the deal that NBCU recently struck with […]",
+        "link": "https://variety.com/2026/tv/news/matt-strauss-nbcuniversal-peacock-streaming-strictly-1236829718/"
+       }
+      ]
+     },
+     {
+      "id": 33,
+      "headline": "Judge Clarifies That Reporter Catherine Herridge Doesn’t Have To Pay $800-Per-Day Contempt Fines As She Pursues Supreme Court Appeal",
+      "summary": "A federal judge clarified that reporter Catherine Herridge doesn’t have to pay an $800-per-day contempt fine as she appeals to the Supreme Court. The judge, Christopher Cooper, had imposed the fine. She had been found in civil contempt after she declined to reveal the source for her 2017 Fox News stories that reported on a […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -916,23 +909,16 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Nielsen Set To Acquire Ad-Tech Firm DoubleVerify For $2.5 Billion",
-        "desc": "Nielsen is paying $2.15 billion to acquire DoubleVerify, a provider of software that measures advertising performance. The all-cash acquisition will deliver shareholders of DoubleVerify $13.60 per share. Shares in the publicly traded company jumped nearly 14% in after-hours trading Thursday on the acquisition news. Nielsen has been privately held since 2022. Nielsen was attracted to […]",
-        "link": "https://deadline.com/2026/08/nielsen-to-acquire-doubleverify-1237028248/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Nielsen to Acquire DoubleVerify for $2.15 Billion in Bid to Augment Digital Measurement",
-        "desc": "Audience-measurement giant Nielsen said it would acquire the digital-media monitor DoubleVerify in an all-cash transaction that takes place as more media companies and advertisers are putting the company under new scrutiny as they seek to unify tabulation of linear and digital viewership of media. Nielsen will take DoubleVerify private for a price estimated at approximately […]",
-        "link": "https://variety.com/2026/tv/news/nielsen-acquire-doubleverify-digital-media-measurement-1236829441/"
+        "title": "Judge Clarifies That Reporter Catherine Herridge Doesn’t Have To Pay $800-Per-Day Contempt Fines As She Pursues Supreme Court Appeal",
+        "desc": "A federal judge clarified that reporter Catherine Herridge doesn’t have to pay an $800-per-day contempt fine as she appeals to the Supreme Court. The judge, Christopher Cooper, had imposed the fine. She had been found in civil contempt after she declined to reveal the source for her 2017 Fox News stories that reported on a […]",
+        "link": "https://deadline.com/2026/08/catherine-herridge-contempt-fines-supreme-court-1237028799/"
        }
       ]
      },
      {
-      "id": 33,
-      "headline": "Spider-Man: Brand New Day Shatters Two More Box Office Records As Week 1 Ends",
-      "summary": "At the tail end of its first week in theaters, Marvel's Spider-Man: Brand New Day adds two more huge box office records to its growing roster.",
+      "id": 34,
+      "headline": "One Of Harry Potter's Best Roles Has Become A Poisoned Chalice",
+      "summary": "One of the best Harry Potter characters has, unfortunately, carried some unfortunate luck for years, and the TV show continues that streak.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -942,49 +928,16 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Spider-Man: Brand New Day Shatters Two More Box Office Records As Week 1 Ends",
-        "desc": "At the tail end of its first week in theaters, Marvel's Spider-Man: Brand New Day adds two more huge box office records to its growing roster.",
-        "link": "https://screenrant.com/spider-man-brand-new-day-box-office-500-million-domestic-milestone/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Becomes Fastest Pic To Cross Half Billion At Domestic Box Office",
-        "desc": "Sony/Marvel Studios’ Spider-Man: Brand New Day continues to do whatever a Spider-Man movie does, and that’s breaking more box office records. Today, the Destin Daniel Cretton-directed movie is becoming the fastest to cross a half-billion at the domestic box office, pulling this off in a week’s time and beating the eight days that it took […]",
-        "link": "https://deadline.com/2026/08/box-office-spider-man-brand-new-day-fastest-half-billion-record-1237028214/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "‘Michael 2’ Eyes Filming Start ‘Towards the End of this Year’ or Early 2027 as Lionsgate Teases Release Date",
-      "summary": "Lionsgate is working on the sequel to “Michael” and hopes to start rolling the cameras soon on the second biopic about Michael Jackson. The studio hopes to begin production in late 2026 or early 2027, Lionsgate’s motion picture chief Adam Fogelson said on Thursday’s earnings call, with the hopes of releasing the final product at […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Michael 2’ Eyes Filming Start ‘Towards the End of this Year’ or Early 2027 as Lionsgate Teases Release Date",
-        "desc": "Lionsgate is working on the sequel to “Michael” and hopes to start rolling the cameras soon on the second biopic about Michael Jackson. The studio hopes to begin production in late 2026 or early 2027, Lionsgate’s motion picture chief Adam Fogelson said on Thursday’s earnings call, with the hopes of releasing the final product at […]",
-        "link": "https://variety.com/2026/film/news/michael-2-filming-start-release-date-1236829530/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Lionsgate Motion Picture Chair Gives Update On ‘Michael 2’ Estimated Production Start & Release Date",
-        "desc": "Lionsgate Motion Picture Group Chairman Adam Fogelson gave an update on the highly anticipated sequel to the studio’s Michael Jackson biopic, Michael, telling analysts on a Q1 call that “we are targeting a production start towards the end of this year or early next.” As far as when we’ll see the sequel to Liongate’s highest […]",
-        "link": "https://deadline.com/2026/08/michael-2-michael-jackson-biopic-sequel-update-1237028163/"
+        "title": "One Of Harry Potter's Best Roles Has Become A Poisoned Chalice",
+        "desc": "One of the best Harry Potter characters has, unfortunately, carried some unfortunate luck for years, and the TV show continues that streak.",
+        "link": "https://screenrant.com/harry-potter-ginny-weasley-bad-movie-character-hbo-recasting/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "After U.K. Approval of Paramount-WBD Deal, European Media Leaders Rally Behind David Ellison: ‘The Industry Will Be Stronger’",
-      "summary": "The U.K.’s decision to clear Paramount Skydance’s $111 ⁠billion proposed acquisition of Warner Bros. Discovery has been broadly welcomed by European industry players. U.K. exhibitors, media executives and analysts have argued the deal reflects a wider shift in regulatory thinking as European broadcasters face mounting competitive pressure from global streaming giants. Following the European Commis",
+      "headline": "Teki Yatsuda's Myther Manga to End",
+      "summary": "Yatsuda has submitted manga's final chapter",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -992,25 +945,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "After U.K. Approval of Paramount-WBD Deal, European Media Leaders Rally Behind David Ellison: ‘The Industry Will Be Stronger’",
-        "desc": "The U.K.’s decision to clear Paramount Skydance’s $111 ⁠billion proposed acquisition of Warner Bros. Discovery has been broadly welcomed by European industry players. U.K. exhibitors, media executives and analysts have argued the deal reflects a wider shift in regulatory thinking as European broadcasters face mounting competitive pressure from global streaming giants. Following the European Commis",
-        "link": "https://variety.com/2026/film/global/uk-approval-paramount-wbd-european-leaders-david-ellison-1236829488/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Paramount-WBD Deal Endorsed By Lionsgate CEO Jon Feltheimer: “Uncertainty Is The Worst”",
-        "desc": "Lionsgate CEO Jon Feltheimer went to bat Thursday for Paramount CEO David Ellison and the company’s hung-up merger with Warner Bros. Discovery. “Uncertainty is the worst thing for our business, and uncertainty and delay is not good for anybody,” the exec said in response to a Wall Street analyst’s question during Lionsgate’s quarterly earnings call. […]",
-        "link": "https://deadline.com/2026/08/paramount-wbd-merger-lionsgate-ceo-jon-feltheimer-1237028160/"
+        "title": "Teki Yatsuda's Myther Manga to End",
+        "desc": "Yatsuda has submitted manga's final chapter",
+        "link": "https://www.animenewsnetwork.com/news/2026-08-06/teki-yatsuda-myther-manga-to-end/.240337"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Prime Video’s ‘Ride Or Die’ To Be Submitted As Comedy With Stars Hannah Waddingham & Octavia Spencer In Lead Actress Consideration For TV Awards",
-      "summary": "After conquering ratings, ranking as No. 1 on Prime Video since its July 15 release, and winning over critics with 98% on Rotten Tomatoes, Prime Video’s Ride or Die is setting sights on awards, starting with the upcoming guild races, the Golden Globes and Critics Choice Awards. The hourlong action series starring Emmy winner Hannah […]",
+      "headline": "X-Men '97 Seasons 3 4 Release Window Confirmed By Marvel Executive",
+      "summary": "Marvel executive Brad Winderbaum has shared what the current plan is for releasing X-Men '97 seasons 3 and 4 on Disney+ as season 2 wraps up.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1018,11 +964,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Prime Video’s ‘Ride Or Die’ To Be Submitted As Comedy With Stars Hannah Waddingham & Octavia Spencer In Lead Actress Consideration For TV Awards",
-        "desc": "After conquering ratings, ranking as No. 1 on Prime Video since its July 15 release, and winning over critics with 98% on Rotten Tomatoes, Prime Video’s Ride or Die is setting sights on awards, starting with the upcoming guild races, the Golden Globes and Critics Choice Awards. The hourlong action series starring Emmy winner Hannah […]",
-        "link": "https://deadline.com/2026/08/ride-or-die-submitted-comedy-awards-waddingham-spencer-1237028230/"
+        "title": "X-Men '97 Seasons 3 4 Release Window Confirmed By Marvel Executive",
+        "desc": "Marvel executive Brad Winderbaum has shared what the current plan is for releasing X-Men '97 seasons 3 and 4 on Disney+ as season 2 wraps up.",
+        "link": "https://screenrant.com/xmen-97-season-3-4-release-window-brad-winderbaum/"
        }
       ]
      }
@@ -1031,33 +977,33 @@
   ],
   "sourcesOk": [
    "The Age",
-   "BBC World",
    "Crikey",
-   "Ars Technica",
-   "The Verge",
-   "ABC News",
-   "Fox Business",
-   "Guardian AU Politics",
-   "The Age Federal Politics",
-   "BBC Tech",
-   "Guardian Tech",
-   "Variety",
-   "ABC Business",
-   "Deadline",
-   "The Age Business",
-   "BBC Sport",
-   "Guardian Film",
-   "Guardian AU Sport",
-   "Guardian AU Business",
-   "Fox News",
-   "Fox News Politics",
-   "Anime News Network",
    "Guardian Australia",
-   "Daily Mail Australia",
-   "Screen Rant",
+   "ABC News",
+   "BBC World",
+   "Fox News",
    "7News",
-   "7News Sport",
-   "SBS News"
+   "BBC Tech",
+   "Fox News Politics",
+   "Guardian Tech",
+   "Guardian AU Politics",
+   "The Age Business",
+   "The Verge",
+   "Guardian AU Business",
+   "Ars Technica",
+   "BBC Sport",
+   "ABC Business",
+   "The Age Federal Politics",
+   "Fox Business",
+   "Guardian AU Sport",
+   "Deadline",
+   "Variety",
+   "Guardian Film",
+   "Anime News Network",
+   "Screen Rant",
+   "Daily Mail Australia",
+   "SBS News",
+   "7News Sport"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1065,17 +1011,6 @@
  },
  "releases": {
   "movies": [
-   {
-    "title": "Spider-Man: Brand New Day",
-    "year": "2026",
-    "rating": 8.2,
-    "genres": [
-     "Action",
-     "Adventure",
-     "Sci-Fi"
-    ],
-    "overview": "A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous change and a powerful new enemy emerges."
-   },
    {
     "title": "Masters of the Universe",
     "year": "2026",
@@ -1118,6 +1053,17 @@
      "Drama"
     ],
     "overview": "Andy Sachs reunites with Miranda Priestly as they navigate their careers amid the decline of traditional magazine publishing."
+   },
+   {
+    "title": "Project Hail Mary",
+    "year": "2026",
+    "rating": 8.2,
+    "genres": [
+     "Adventure",
+     "Comedy",
+     "Drama"
+    ],
+    "overview": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
    }
   ],
   "shows": [
@@ -1166,15 +1112,15 @@
     "overview": "A father imprisoned for his son's murder receives evidence suggesting his child may be alive, compelling him to escape and uncover the truth."
    },
    {
-    "title": "Widow's Bay",
+    "title": "Stuart Fails to Save the Universe",
     "year": "2026–",
-    "rating": 8.2,
+    "rating": 7,
     "genres": [
      "Comedy",
-     "Drama",
-     "Horror"
+     "Fantasy",
+     "Sci-Fi"
     ],
-    "overview": "A skeptical mayor leads the superstitious residents of a cursed New England island."
+    "overview": "Comic book store owner Stuart Bloom, from The Big Bang Theory (2007), returns in a new series where he attempts—and apparently fails—to save the universe, staying true to his unlucky nature."
    }
   ],
   "anime": [
@@ -1236,119 +1182,119 @@
   ]
  },
  "wotd": {
-  "word": "poltroon",
-  "phonetic": "/pɒlˈtɹuːn/",
+  "word": "susurration",
+  "phonetic": "",
   "pos": "noun",
-  "def": "An ignoble or total coward; a dastard; a mean-spirited wretch.",
+  "def": "A low, indistinct continuous whispering sound; a murmur.",
   "example": null,
-  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/poltroon-uk.mp3"
+  "audio": null
  },
  "commGames": null,
  "deals": [
   {
-   "title": "nbn FTTP or HFC 500/50 $50/Month for 6 Months (New Customers) @ amaysim",
-   "link": "https://www.ozbargain.com.au/node/970523",
-   "votes": 95,
+   "title": "[PC, Epic] Free - Spider Fox @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/970643",
+   "votes": 9,
+   "category": "Gaming",
+   "ts": 1786125723000
+  },
+  {
+   "title": "[PC, Steam] Free - Breathedge @ Steam",
+   "link": "https://www.ozbargain.com.au/node/970642",
+   "votes": 9,
+   "category": "Gaming",
+   "ts": 1786122276000
+  },
+  {
+   "title": "[PC, XSX] Free - Grim Trials @ Xbox",
+   "link": "https://www.ozbargain.com.au/node/970638",
+   "votes": 12,
+   "category": "Gaming",
+   "ts": 1786119950000
+  },
+  {
+   "title": "NordVPN: 100% Cashback for New NordVPN Customers @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/970623",
+   "votes": 34,
    "category": "Internet",
-   "ts": 1786057952000
+   "ts": 1786105816000
   },
   {
-   "title": "UGREEN 130W Nexode Power Bank 20000mAh 72Wh 3-Port with Smart Display $79.99 Delivered @ UGREEN via Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/970522",
-   "votes": 21,
-   "category": "Electrical Electronics",
-   "ts": 1786057378000
+   "title": "[PC, Ubisoft] Tom Clancy s Ghost Recon Wildlands (Standard Edition) $4 @ Ubisoft",
+   "link": "https://www.ozbargain.com.au/node/970618",
+   "votes": 18,
+   "category": "Gaming",
+   "ts": 1786097878000
   },
   {
-   "title": "Western Digital Black P10 5TB Game Drive $229 ($224 price beat) @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/970521",
-   "votes": 25,
-   "category": "Computing",
-   "ts": 1786057364000
+   "title": "SHiFT Code for Borderlands 4 - 3 Golden Keys @ Gearbox Software",
+   "link": "https://www.ozbargain.com.au/node/970609",
+   "votes": 55,
+   "category": "Gaming",
+   "ts": 1786089243000
   },
   {
-   "title": "Dewalt Ip54 Tstak Deep Box Organiser Bundle $79 Plus Shipping/ C C/ Instore @ Toolkit Depot",
-   "link": "https://www.ozbargain.com.au/node/970518",
-   "votes": 20,
-   "category": "Home Garden",
-   "ts": 1786053284000
-  },
-  {
-   "title": "Philips 5000 Series Kettle $39 (via Price Check Button) + Delivery ($0 C C) @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/970517",
-   "votes": 47,
-   "category": "Electrical Electronics",
-   "ts": 1786052563000
-  },
-  {
-   "title": "Free Users Now Get Unlimited Text Chats @ ChatGPT",
-   "link": "https://www.ozbargain.com.au/node/970515",
-   "votes": 42,
-   "category": "Other",
-   "ts": 1786051219000
-  },
-  {
-   "title": "[Prime, PC, GOG] Free - Right and Down, Hiveswap Friendsim @ Amazon Luna",
-   "link": "https://www.ozbargain.com.au/node/970510",
+   "title": "Xbox Series X 1TB Digital Console (White) $699 + Delivery @ Mighty Ape",
+   "link": "https://www.ozbargain.com.au/node/970601",
    "votes": 44,
    "category": "Gaming",
-   "ts": 1786035712000
+   "ts": 1786086460000
   },
   {
-   "title": "[PC, Ubisoft] Free - Tom Clancy s Ghost Recon: Future Soldier @ Ubisoft",
-   "link": "https://www.ozbargain.com.au/node/970505",
-   "votes": 95,
+   "title": "Claim a Voucher for a Free Game of Colour Grid @ Timezone (App Required)",
+   "link": "https://www.ozbargain.com.au/node/970600",
+   "votes": 53,
    "category": "Gaming",
-   "ts": 1786029769000
+   "ts": 1786084876000
   },
   {
-   "title": "Everyday Market from Woolworths: 28% Cashback ($150 Cap/Member, Min Spend $50, Max Spend $1000, 6PM-11:59PM AEST) @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/970501",
-   "votes": 43,
-   "category": "Other",
-   "ts": 1786025728000
+   "title": "HP Omnibook X Flip 16 3K OLED Touch Laptop: Intel Ultra 7 258V CPU, 32GB RAM, 1TB SSD $1614.15 Delivered @ HP eBay",
+   "link": "https://www.ozbargain.com.au/node/970599",
+   "votes": 74,
+   "category": "Computing",
+   "ts": 1786083797000
   },
   {
-   "title": "[Android, Epic] Free - A Guidebook Of Babel @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/970484",
-   "votes": 58,
+   "title": "[PC, VR, Steam] Free - Blast the Past @ Steam",
+   "link": "https://www.ozbargain.com.au/node/970594",
+   "votes": 110,
    "category": "Gaming",
-   "ts": 1786012957000
+   "ts": 1786082252000
   },
   {
-   "title": "Earn 20x Everyday Rewards Points on Apple Gift Cards (Limit 10 Cards Per Day, In-Store Only) @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/970481",
-   "votes": 43,
-   "category": "Electrical Electronics",
-   "ts": 1786012263000
-  },
-  {
-   "title": "Duracell CR2032 Lithium Coin Battery 4-Pack $7.89 ($7.10 S S) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU (Excl. NT)",
-   "link": "https://www.ozbargain.com.au/node/970480",
-   "votes": 130,
-   "category": "Electrical Electronics",
-   "ts": 1786012152000
-  },
-  {
-   "title": "Samsung Galaxy S25 FE 8GB/128GB Bonus SmartTag2 $565 + Delivery @ Shopping Express (Price Beat from $536.75 @ Officeworks)",
-   "link": "https://www.ozbargain.com.au/node/970469",
-   "votes": 88,
+   "title": "Apple iPhone 17 Pro 512GB Silver $2,040 (AU Stock) Delivered @ Skytree Electronics",
+   "link": "https://www.ozbargain.com.au/node/970583",
+   "votes": 17,
    "category": "Mobile",
-   "ts": 1786003534000
+   "ts": 1786077255000
   },
   {
-   "title": "Aeroflow Low Profile Car Ramp $10 a Pair + $15-$25 Special Order Fee + $12 Delivery ($0 C C) @ Repco",
-   "link": "https://www.ozbargain.com.au/node/970466",
-   "votes": 86,
-   "category": "Automotive",
-   "ts": 1786002716000
+   "title": "$15 off $50 Online Spend on Baby Products (2 Uses Per Customer) @ Coles",
+   "link": "https://www.ozbargain.com.au/node/970568",
+   "votes": 19,
+   "category": "Toys Kids",
+   "ts": 1786075901000
   },
   {
-   "title": "[PC, Steam] Free DLC - F.E.A.R. 2: Reborn (DLC) (Base Game Required) @ Steam",
-   "link": "https://www.ozbargain.com.au/node/970459",
-   "votes": 58,
-   "category": "Gaming",
-   "ts": 1786001183000
+   "title": "Comac Vega 85BT Walk Behind Floor Scrubber $8,250 Delivered / QLD C C (RRP $13,000) @ TCE Solutions",
+   "link": "https://www.ozbargain.com.au/node/970567",
+   "votes": 243,
+   "category": "Electrical Electronics",
+   "ts": 1786075764000
+  },
+  {
+   "title": "$250 off Return Flights (Min. 2 People) When Paying with PayPal @ Cathay Pacific",
+   "link": "https://www.ozbargain.com.au/node/970552",
+   "votes": 96,
+   "category": "Travel",
+   "ts": 1786072809000
+  },
+  {
+   "title": "Shop Online at Woolworths, Pay with EatClub Digital Card Get 10%-12% Back as Dining Credit ($60 Cap/Day) @ EatClub",
+   "link": "https://www.ozbargain.com.au/node/970540",
+   "votes": 87,
+   "category": "Groceries",
+   "ts": 1786068860000
   }
  ]
 }
