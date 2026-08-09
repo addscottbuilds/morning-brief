@@ -343,35 +343,53 @@ async function buildReleases() {
     return cut.slice(0, Math.max(cut.lastIndexOf(". ") + 1, 180)).trim() + (cut.endsWith(".") ? "" : "…");
   };
 
+  const toRelease = x => ({
+    title: x.name, year: (x.releaseInfo || "").slice(0, 4),
+    rating: x.imdbRating ? Number(x.imdbRating) : null,
+    genres: (x.genres || x.genre || []).slice(0, 3),
+    overview: blurb(x.description),
+    released: x.released ? x.released.slice(0, 10) : null,
+  });
+
   try {
-    const m = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/movie/top.json");
-    out.movies = (m.metas || [])
+    // "year" catalog = newest releases; "top" = popular (used as backfill so
+    // the board is never thin). Newest actually-released titles lead.
+    const [newest, popular] = await Promise.all([
+      fetchJson("https://cinemeta-catalogs.strem.io/year/catalog/movie/year.json"),
+      fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/movie/top.json"),
+    ]);
+    const tomorrow = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
+    const fresh = (newest.metas || [])
+      .filter(x => x.released && x.released.slice(0, 10) <= tomorrow)
+      .sort((a, b) => b.released.localeCompare(a.released))
+      .map(toRelease);
+    const pop = (popular.metas || [])
       .filter(x => Number((x.releaseInfo || "").slice(0, 4)) >= thisYear - 1)
-      .slice(0, 5)
-      .map(x => ({
-        title: x.name, year: (x.releaseInfo || "").slice(0, 4),
-        rating: x.imdbRating ? Number(x.imdbRating) : null,
-        genres: (x.genres || x.genre || []).slice(0, 3),
-        overview: blurb(x.description),
-      }));
+      .map(toRelease);
+    const seen = new Set();
+    out.movies = [...fresh, ...pop]
+      .filter(x => !seen.has(x.title) && seen.add(x.title))
+      .slice(0, 5);
   } catch (e) { console.error(`releases movies fail: ${e.message}`); }
 
   try {
-    const s = await fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/series/top.json");
-    const metas = (s.metas || []).slice(0, 20)
-      .map(x => ({
-        title: x.name, year: (x.releaseInfo || ""),
-        rating: x.imdbRating ? Number(x.imdbRating) : null,
-        genres: (x.genres || x.genre || []).slice(0, 3),
-        overview: blurb(x.description),
-      }));
-    // new premieres with ratings first, at most two unrated newcomers,
-    // then the best-rated of what's currently popular
-    const isNew = x => Number(x.year.slice(0, 4)) >= thisYear - 1;
+    const [newest, popular] = await Promise.all([
+      fetchJson("https://cinemeta-catalogs.strem.io/year/catalog/series/year.json"),
+      fetchJson("https://cinemeta-catalogs.strem.io/top/catalog/series/top.json"),
+    ]);
+    const tomorrow = new Date(Date.now() + 86400000).toISOString().slice(0, 10);
+    const fresh = (newest.metas || [])
+      .filter(x => x.released && x.released.slice(0, 10) <= tomorrow)
+      .sort((a, b) => b.released.localeCompare(a.released))
+      .map(toRelease);
+    const pop = (popular.metas || []).slice(0, 20).map(toRelease);
+    // newest premieres first (at most two without ratings yet), then the
+    // best of what's currently popular to round out the list
+    const seen = new Set();
+    const dedupe = arr => arr.filter(x => !seen.has(x.title) && seen.add(x.title));
     out.shows = [
-      ...metas.filter(x => isNew(x) && x.rating != null),
-      ...metas.filter(x => isNew(x) && x.rating == null).slice(0, 2),
-      ...metas.filter(x => !isNew(x) && x.rating != null),
+      ...dedupe([...fresh.filter(x => x.rating != null), ...fresh.filter(x => x.rating == null).slice(0, 2)]),
+      ...dedupe(pop.filter(x => x.rating != null)),
     ].slice(0, 5);
   } catch (e) { console.error(`releases shows fail: ${e.message}`); }
 
