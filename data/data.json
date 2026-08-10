@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T19:51:55.021Z",
+ "generatedAt": "2026-08-10T20:05:14.586Z",
  "markets": {
   "items": [
    {
@@ -7,72 +7,96 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9263.6,
-    "chgPct": -0.08628078985325048,
+    "price": 9232.6,
+    "chgPct": -0.42063517643239345,
     "high52": 9296.7,
-    "off52": -0.3560403153807304
+    "off52": -0.6894919702690241
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.47,
-    "chgPct": 0.011567101125656473,
+    "price": 86.62,
+    "chgPct": 0.17346915367102597,
     "high52": 86.99,
-    "off52": -0.5977698586044328
+    "off52": -0.4253362455454539
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 154.43,
-    "chgPct": -0.05824765077162992,
+    "price": 153.93,
+    "chgPct": -0.3237665605741205,
     "high52": 155.03,
-    "off52": -0.3870218667354669
+    "off52": -0.7095400890150256
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.85,
-    "chgPct": 0.24711570869061789,
+    "price": 61.31,
+    "chgPct": 0.7559597985438614,
     "high52": 64.23,
-    "off52": -5.262338471119418
+    "off52": -4.546162229487781
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.79,
-    "chgPct": 0.05591149561192272,
+    "price": 36.2,
+    "chgPct": 1.1455688012983052,
     "high52": 47.78,
-    "off52": -25.094181665969028
+    "off52": -24.236082042695685
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7067,
-    "chgPct": 0.4776873941056888,
+    "price": 0.7057,
+    "chgPct": -0.0919336646590014,
     "high52": 0.7277,
-    "off52": -2.885804589803493
+    "off52": -3.0232238559846114
    }
   ],
   "failed": [],
-  "note": "SEMI is 25% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 24% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "TSLA",
-    "name": "Tesla",
+    "sym": "WBC.AX",
+    "name": "Westpac",
+    "market": "ASX",
+    "price": 35.7,
+    "currency": "AUD",
+    "chgPct": -5.879252009580082
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
     "market": "US",
-    "price": 328.58,
+    "price": 1231.411,
     "currency": "USD",
-    "chgPct": 2.832285311325041
+    "chgPct": 3.8543185574966263
+   },
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "market": "US",
+    "price": 76.29,
+    "currency": "USD",
+    "chgPct": 2.899919919141186
+   },
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 217.55,
+    "currency": "USD",
+    "chgPct": -2.8621211473960364
    }
   ]
  },
@@ -85,48 +109,48 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Israeli government rejects Trump's Gaza peace plan",
-      "summary": "Israeli Prime Minster Benjamin Netanyahu says Hamas's proposed plan for disarming is \"unacceptable\", rejecting the Trump administration's plans to end fighting in the Palestinian territory.",
+      "headline": "From a 'very big development' to rejection: Explaining the Gaza peace deal",
+      "summary": "Israel's rejection of Donald Trump's Gaza peace plan is not a surprise. Here's why and how politics plays into it ahead of an Israeli election.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Israeli government rejects Trump's Gaza peace plan",
-        "desc": "Israeli Prime Minster Benjamin Netanyahu says Hamas's proposed plan for disarming is \"unacceptable\", rejecting the Trump administration's plans to end fighting in the Palestinian territory.",
-        "link": "https://www.abc.net.au/news/2026-08-10/israel-rejects-trump-gaza-plan/107015052"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Israel rejects US-led 15-point Gaza peace plan, says Netanyahu",
-        "desc": "In rare public break with Trump, Israel’s prime minister says IDF will not withdraw until Hamas is disarmed Middle East crisis live – latest updates Israel’s prime minister, Benjamin Netanyahu, has rejected a US-backed 15-point peace plan for Gaza in a rare public break with Donald Trump. In a statement on Sunday, Netanyahu said that he was confronting a “wave of rumours about Israeli weakness and",
-        "link": "https://www.theguardian.com/world/2026/aug/09/israel-rejects-us-led-15-point-gaza-peace-plan-says-netanyahu"
+        "title": "From a 'very big development' to rejection: Explaining the Gaza peace deal",
+        "desc": "Israel's rejection of Donald Trump's Gaza peace plan is not a surprise. Here's why and how politics plays into it ahead of an Israeli election.",
+        "link": "https://www.abc.net.au/news/2026-08-11/why-israel-rejects-trump-15-point-plan-for-gaza/107016348"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Trump's peace plan for Gaza is REJECTED by Israel as Netanyahu refuses to withdraw until Hamas is disarmed",
-        "desc": "Prime Minister Benjamin Netanyahu announced Sunday his nation is rejecting a peace plan proposed by President Donald Trump's Board of Peace.",
-        "link": "https://www.dailymail.com/news/article-16039753/Trump-peace-plan-Gaza-rejected-Israel-Netanyahu.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Trump's Iran peace gamble unravels as time runs out for Pete Hegseth to replace weapons and cash",
+        "desc": "Donald Trump's strategy to defeat Iran is facing more roadblocks as the US weapons stockpile and cash to fund the military operation runs dry.",
+        "link": "https://www.dailymail.com/news/article-16041629/trump-iran-peace-gamble-unravels-weapons-pete-hegseth.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-        "desc": "Israel's PM says its military will not pull out from Gaza until Hamas is \"genuinely\" disarmed.",
-        "link": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
+        "title": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+        "desc": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a general election.",
+        "link": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Israel rejects Trump's 15-point Gaza peace plan",
+        "desc": "Benjamin Netanyahu said Israel would not accept the proposal in its current form.",
+        "link": "https://www.sbs.com.au/news/article/israel-hamas-talks-continue-as-netanyahu-rejects-gaza-disarmament-roadmap/cu3gb8y4r"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Albanese is the opposite of Rudd and that comes with its own risks",
-      "summary": "Cabinet's indecision on support for Tony Burke's immigration cuts shows a key difference between Anthony Albanese and Kevin Rudd.",
+      "headline": "Dozens dead and buildings collapsed after 7.4-magnitude earthquake shakes western Colombia",
+      "summary": "The quake trapped residents under debris, leaving more injured and forcing people to evacuate their homes.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -134,65 +158,32 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age",
+        "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Multicultural grants brawl: Coalition accuses Labor of funding ‘ghettoisation’",
-        "desc": "A clash over border controls and diversity will heat up in the coming week as Anthony Albanese tries to balance support for migrant communities with demands to tighten up the overseas intake.",
-        "link": "https://www.theage.com.au/politics/federal/multicultural-grants-brawl-coalition-accuses-labor-of-funding-ghettoisation-20260807-p60mfd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "More than 100 dead and buildings collapsed after 7.4-magnitude earthquake shakes Colombia – latest news",
+        "desc": "More than a dozen buildings collapsed in aftermath of earthquake, which has also prompted evacuations People remain trapped in Cali, one of Colombia’s largest cities, ​after more than two dozen structures ‌collapsed, mayor Alejandro Eder said. ‌ He added that the city had asked authorities in Bogota and Medellin to send disaster teams ‌to support rescue efforts. Continue reading...",
+        "link": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news"
        },
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Albanese is the opposite of Rudd and that comes with its own risks",
-        "desc": "Cabinet's indecision on support for Tony Burke's immigration cuts shows a key difference between Anthony Albanese and Kevin Rudd.",
-        "link": "https://www.abc.net.au/news/2026-08-10/albanese-immigration-cuts-gambling-legislation/107014442"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Dozens dead and buildings collapsed after 7.4-magnitude earthquake shakes western Colombia",
+        "desc": "The quake trapped residents under debris, leaving more injured and forcing people to evacuate their homes.",
+        "link": "https://www.theage.com.au/world/dozens-dead-and-buildings-collapsed-after-7-4-magnitude-earthquake-shakes-western-colombia-20260811-p60n4j.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Worrying new poll for Anthony Albanese shows Labor's primary vote sinking to levels not seen since Kevin Rudd knifed Julia Gillard - only this time it's One Nation rather than the Coalition that has t",
-        "desc": "The latest Newspoll surveyed 1,242 voters across Australia between Monday and Friday last week.",
-        "link": "https://www.dailymail.com/news/article-16039793/Albanese-Hanson-Taylor-One-Nation-Labor-Newspoll.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Terrifying footage shows church collapse as huge 7.4-magnitude earthquake hits Colombia, burying people beneath collapsed buildings, with dozens dead",
+        "desc": "Colombia's geological service said the magnitude of the quake, which struck at 7.30am local time (1.30pm UK time), was 7.4 and that its depth was 60 miles.",
+        "link": "https://www.dailymail.com/news/article-16041951/7-4-magnitude-earthquake-hits-Colombia-causing-significant-damage-injuries.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "First day in office: Colombia's new president faces deadly bombings",
-      "summary": "Two bombings marred President Abelardo De la Espriella's first day in office, prompting vows of a relentless anti-terror crackdown.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Alien space warrior vs right-wing populist: the UK election that is beyond a joke",
-        "desc": "The prospect of Reform UK leader Nigel Farage being humiliated by Count Binface in this week’s byelection generated global headlines. But the joke is wearing thin in Clacton.",
-        "link": "https://www.theage.com.au/world/europe/alien-space-warrior-vs-right-wing-populist-the-uk-election-that-is-beyond-a-joke-20260809-p60mng.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "First day in office: Colombia's new president faces deadly bombings",
-        "desc": "Two bombings marred President Abelardo De la Espriella's first day in office, prompting vows of a relentless anti-terror crackdown.",
-        "link": "https://www.sbs.com.au/news/article/colombia-new-president-inauguration-bombings/me8tejaal"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US offers $1bn to Colombia on new right-wing president's first day of office",
-        "desc": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
-        "link": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Flights cancelled as China prepares for Typhoon Dolphin",
-      "summary": "The outer bands of the storm hit northern Taiwan including the capital Taipei on Saturday.",
+      "headline": "Trial begins in case of man accused of Bogie triple murder",
+      "summary": "The trial of a man accused of murdering three people on a Queensland cattle property in 2022 has begun.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -202,30 +193,23 @@
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Typhoon Dolphin makes landfall in China as its strongest storm this year",
-        "desc": "Tropical cyclone brings torrential rain and high winds to east coast after hitting Japan’s southern Okinawa province Typhoon Dolphin, the most powerful tropical cyclone to hit China this year, has made landfall on the country’s east coast, bringing torrential rain and strong ⁠winds and triggering warnings ​of flooding and landslides. The storm has already swept through Japan’s southern Okinawa pre",
-        "link": "https://www.theguardian.com/world/2026/aug/09/typhoon-dolphin-makes-landfall-in-china-as-its-strongest-storm-this-year"
+        "title": "Tupac Shakur: jury selection begins in trial of ex-gang boss for rapper’s killing",
+        "desc": "Prosecutors allege Duane ‘Keffe D’ Davis ordered killing and provided gun in Las Vegas drive-by shooting 30 years ago Jury selection began on Monday in Las Vegas as the murder trial of a former gang leader finally got under way decades after the shooting of the rapper Tupac Shakur, one of the most high-profile unsolved killings in the US. It was thought likely to take at least the rest of the week",
+        "link": "https://www.theguardian.com/music/2026/aug/10/trial-former-gang-leader-tupac-shakur-murder-duane-keffe-d-davis"
        },
        {
-        "outlet": "7News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Flights cancelled as China prepares for Typhoon Dolphin",
-        "desc": "The outer bands of the storm hit northern Taiwan including the capital Taipei on Saturday.",
-        "link": "https://7news.com.au/news/world/flights-cancelled-as-china-prepares-for-typhoon-dolphin-c-22698061"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China",
-        "desc": "The storm has cut power to at least 44,000 buildings and injured five people on the Japanese island.",
-        "link": "https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss"
+        "title": "Trial begins in case of man accused of Bogie triple murder",
+        "desc": "The trial of a man accused of murdering three people on a Queensland cattle property in 2022 has begun.",
+        "link": "https://www.abc.net.au/news/2026-08-10/trial-begins-man-accused-of-bogie-triple-murder/107016050"
        }
       ]
      },
      {
-      "id": 4,
-      "headline": "Body believed to be woman found in suitcase in Oallen, regional NSW",
-      "summary": "A member of the public made the shocking find.",
+      "id": 3,
+      "headline": "Insanely lucky golfer recovering after taking video of himself being struck by lightning on Ohio golf course",
+      "summary": "Video captures the exact moment a golfer standing under a tree with an umbrella is struck by lightning on a Cincinnati, Ohio golf course during a storm.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -233,32 +217,51 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
+        "outlet": "Fox News",
         "lean": "right",
-        "title": "Grim discovery as woman's body is found in suitcase discarded next to a road",
-        "desc": "Police were called to Wolgon Road at Oallen, about 61km southeast of Goulburn, shortly before 1pm on Sunday.",
-        "link": "https://www.dailymail.com/news/article-16039653/suitcase-body-Oallen-Goulburn.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Insanely lucky golfer recovering after taking video of himself being struck by lightning on Ohio golf course",
+        "desc": "Video captures the exact moment a golfer standing under a tree with an umbrella is struck by lightning on a Cincinnati, Ohio golf course during a storm.",
+        "link": "https://www.foxnews.com/outkick-sports/insanely-lucky-golfer-recovering-after-taking-video-himself-being-struck-lightning-ohio-golf-course"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Body of woman found in suitcase by side of road in regional NSW",
-        "desc": "Police called to Oallen, about 40km south of Goulburn, on Sunday afternoon after suitcase discovered near Wolgon Road Get our breaking news email, free app or daily news podcast The body of a woman has been found in a suitcase by the side of a road in regional New South Wales south of Goulburn. NSW police said they were called to Wolgon Road, near Oallen Ford Road, in Oallen at about 12.50pm on Su",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/09/body-woman-found-suitcase-regional-nsw-road-ntwnfb"
+        "title": "‘People in Japan thought we made footy up’: Pro Jank Footy, the video game taking Australian rules to the world",
+        "desc": "Game developer David Ashby and Aunty Donna’s Broden Kelly talk about their chaotic and silly sport game – involving meat pies with legs and Ford Falcons on the oval Try explaining Australian rules football to anyone outside Australia, and “it sounds like you’re making it up,” says David Ashby, the multi-hyphenate comedic mind behind deeply silly spoofs such as Italian Spider-Man and Danger 5. “Eig",
+        "link": "https://www.theguardian.com/games/2026/aug/11/pro-jank-footy-video-game-australian-rules"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "30 years later, a former gang member will stand trial for Tupac's murder",
+      "summary": "It’s been three decades since Tupac was killed, and since then, his reputation has only grown.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "30 years later, a former gang member will stand trial for Tupac's murder",
+        "desc": "It’s been three decades since Tupac was killed, and since then, his reputation has only grown.",
+        "link": "https://www.bbc.co.uk/news/articles/cgmkl1j3dwvo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Body believed to be woman found in suitcase in Oallen, regional NSW",
-        "desc": "A member of the public made the shocking find.",
-        "link": "https://7news.com.au/news/body-believed-to-be-woman-found-in-suitcase-in-oallen-regional-nsw-c-22698470"
+        "title": "Trial opens for ex-gang leader over Tupac Shakur's 1996 murder",
+        "desc": "It is just shy of three decades since the rapper was gunned down after a heavyweight title fight in Las Vegas.",
+        "link": "https://7news.com.au/news/crime/trial-opens-for-ex-gang-leader-over-tupac-shakurs-1996-murder-c-22703961"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Man arrested after boat capsizes near Statue of Liberty killing woman and infant",
-      "summary": "Twelve other people initially rescued from the water are all reported to be in stable condition.",
+      "headline": "ASIC slams insurers over car insurance price hikes without transparency",
+      "summary": "‘We’re very disappointed with what we found here.’",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -266,25 +269,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Man arrested after boat capsizes near Statue of Liberty killing woman and infant",
-        "desc": "Twelve other people initially rescued from the water are all reported to be in stable condition.",
-        "link": "https://www.bbc.co.uk/news/articles/c935w1d05d7o?at_medium=RSS&at_campaign=rss"
+        "title": "ASIC slams insurers over car insurance price hikes without transparency",
+        "desc": "‘We’re very disappointed with what we found here.’",
+        "link": "https://7news.com.au/business/asic-slams-insurers-over-car-insurance-price-hikes-without-transparency-c-22703970"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Woman and five-month-old baby are killed after boat overturns near Statue of Liberty as desperate mission to save a dozen passengers is launched",
-        "desc": "Reports of the incident came in just before 10.30pm on Saturday, and multiple units, including FDNY, Harbor, Scuba and Aviation, responded to the scene.",
-        "link": "https://www.dailymail.com/news/article-16039411/statue-liberty-new-york-boat-overturns.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Car owners should challenge insurers on steep price hikes and ‘call their bluff’, Asic says",
+        "desc": "Regulator finds many insurers raising premiums faster than inflation and advises customers to ask for better deals Get our breaking news email, free app or daily news podcast Car owners should challenge motor insurers over steep premium hikes, the corporate regulator advises, after finding many companies were raising prices faster than inflation. In a report released on Tuesday, the Australian Sec",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/11/car-insurance-prices-asic"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Who killed Tupac? Three decades later, there may finally be answers",
-      "summary": "Three decades after the murder of rapper Tupac Shakur, the world may get some answers about who killed the young superstar, and why.",
+      "headline": "At least 13 killed in Ukrainian drone strike deep into Russia",
+      "summary": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -292,18 +295,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Who killed Tupac? Three decades later, there may finally be answers",
-        "desc": "Three decades after the murder of rapper Tupac Shakur, the world may get some answers about who killed the young superstar, and why.",
-        "link": "https://www.abc.net.au/news/2026-08-10/tupac-shakur-shooting-murder-trial-to-begin-in-las-vegas/107008936"
-       },
-       {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Child among three killed in Russian missile attacks near Kyiv",
-        "desc": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
-        "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss"
+        "title": "At least 13 killed in Ukrainian drone strike deep into Russia",
+        "desc": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
+        "link": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Ukrainian drone strike kills 13 inside Russia, authorities say, in deadliest attack in two years",
+        "desc": "Ukrainian forces said they targeted the city, which is the site of a major oil refinery.",
+        "link": "https://7news.com.au/news/ukrainian-drone-strike-kills-13-inside-russia-authorities-say-in-deadliest-attack-in-two-years-c-22703832"
        }
       ]
      }
@@ -315,8 +318,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Multicultural grants brawl: Coalition accuses Labor of funding ‘ghettoisation’",
-      "summary": "A clash over border controls and diversity will heat up in the coming week as Anthony Albanese tries to balance support for migrant communities with demands to tighten up the overseas intake.",
+      "headline": "Albanese gives ground on gambling inducements as Labor and Coalition inch towards deal",
+      "summary": "Prime minister and opposition leader meet in Canberra to advance agreement on gambling advertising Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthony Albanese has bowed to pressure and will limit gambling inducements as part of a deal between Labor and Angus Taylor, even as some Liberals warn it might not do enough to help vul",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -326,9 +329,16 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Multicultural grants brawl: Coalition accuses Labor of funding ‘ghettoisation’",
-        "desc": "A clash over border controls and diversity will heat up in the coming week as Anthony Albanese tries to balance support for migrant communities with demands to tighten up the overseas intake.",
-        "link": "https://www.theage.com.au/politics/federal/multicultural-grants-brawl-coalition-accuses-labor-of-funding-ghettoisation-20260807-p60mfd.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Albanese, Taylor hammer out deals on gambling and tech, but ignore Howard’s last-ditch plea",
+        "desc": "“I don’t favour a nanny state approach. If people want to bet, they can bet… [but] the negative impact of gambling in working-class suburbs is very serious,” John Howard told this masthead.",
+        "link": "https://www.theage.com.au/politics/federal/albanese-steps-in-to-salvage-labor-s-big-tech-gambling-agenda-20260810-p60mui.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Albanese gives ground on gambling inducements as Labor and Coalition inch towards deal",
+        "desc": "Prime minister and opposition leader meet in Canberra to advance agreement on gambling advertising Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthony Albanese has bowed to pressure and will limit gambling inducements as part of a deal between Labor and Angus Taylor, even as some Liberals warn it might not do enough to help vul",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/10/albanese-gives-ground-on-gambling-inducements-as-labor-and-coalition-inch-towards-deal"
        }
       ]
      },
@@ -343,6 +353,13 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Malcolm Turnbull says faith in Aukus nuclear submarines deal is 'stark staring bonkers' – video",
+        "desc": "Former prime minister Malcolm Turnbull tells a public inquiry that the Aukus deal with the US and UK will probably result in no submarines at all for Australia. He says the US’s capacity for building submarines has remained stubbornly laggard, and that it is prevented by its own legislation from selling any submarines to Australia if that would 'degrade' its own fleet. It currently needs to nearly",
+        "link": "https://www.theguardian.com/world/video/2026/aug/10/malcolm-turnbull-says-faith-in-aukus-nuclear-submarines-deal-is-stark-staring-bonkers-video"
+       },
+       {
         "outlet": "The Age Federal Politics",
         "lean": "left",
         "title": "Very real risk Australia gets no submarines at all: Turnbull",
@@ -353,8 +370,8 @@
      },
      {
       "id": 9,
-      "headline": "RNC chair says Talarico's GOP crossover hopes are a 'pipe dream': 'Nobody is going to follow him'",
-      "summary": "Republican National Committee Chairman Joe Gruters called Democratic Senate canddiate James Talarico's Republican coalition claims a \"pipe dream.\"",
+      "headline": "Conservatives shred AOC as she attempts to brush off radical 'Woke 1' wave amid 2028 speculation",
+      "summary": "Alexandria Ocasio-Cortez dismissed woke policies as a past phase, but conservatives are now demanding accountability for years of DEI activism.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -364,16 +381,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "RNC chair says Talarico's GOP crossover hopes are a 'pipe dream': 'Nobody is going to follow him'",
-        "desc": "Republican National Committee Chairman Joe Gruters called Democratic Senate canddiate James Talarico's Republican coalition claims a \"pipe dream.\"",
-        "link": "https://www.foxnews.com/politics/rnc-chair-says-talaricos-gop-crossover-hopes-pipe-dream-nobody-going-follow-him"
+        "title": "Conservatives shred AOC as she attempts to brush off radical 'Woke 1' wave amid 2028 speculation",
+        "desc": "Alexandria Ocasio-Cortez dismissed woke policies as a past phase, but conservatives are now demanding accountability for years of DEI activism.",
+        "link": "https://www.foxnews.com/politics/conservatives-shred-aoc-attempts-brush-off-radical-woke-1-wave-amid-2028-speculation"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "'Outsider' House primary winner sets sights on flipping longtime GOP seat back from Dems: 'Ready for a change'",
-      "summary": "Terri DeBoer says Rep. Hillary Scholten's voting record contradicts her moderate image, citing votes on girls sports and the SAVE America Act.",
+      "headline": "Fauci discussed COVID mRNA vaccine concerns for pregnant women in text chain released by Senate committee",
+      "summary": "Dr. Anthony Fauci texted health officials about a theoretical miscarriage risk from fever after the second mRNA dose in pregnant women's first trimester.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -383,16 +400,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "'Outsider' House primary winner sets sights on flipping longtime GOP seat back from Dems: 'Ready for a change'",
-        "desc": "Terri DeBoer says Rep. Hillary Scholten's voting record contradicts her moderate image, citing votes on girls sports and the SAVE America Act.",
-        "link": "https://www.foxnews.com/politics/outsider-house-primary-winner-sets-sights-flipping-longtime-gop-seat-back-dems-ready-change"
+        "title": "Fauci discussed COVID mRNA vaccine concerns for pregnant women in text chain released by Senate committee",
+        "desc": "Dr. Anthony Fauci texted health officials about a theoretical miscarriage risk from fever after the second mRNA dose in pregnant women's first trimester.",
+        "link": "https://www.foxnews.com/politics/fauci-discussed-covid-mrna-vaccine-concerns-pregnant-women-text-chain-released-senate-committee"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Max Miller locked in as Republican nominee after Ohio ballot deadline passes without withdrawal",
-      "summary": "Ohio Republicans now have no path to replace Max Miller after the ballot deadline passed despite domestic abuse allegations from his ex-wife.",
+      "headline": "Trump announces aide will soon step into White House counsel post",
+      "summary": "U.S. President Donald Trump declared in a Truth Social post that White House staff secretary Will Scharf will become White House Counsel.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -402,16 +419,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Max Miller locked in as Republican nominee after Ohio ballot deadline passes without withdrawal",
-        "desc": "Ohio Republicans now have no path to replace Max Miller after the ballot deadline passed despite domestic abuse allegations from his ex-wife.",
-        "link": "https://www.foxnews.com/politics/max-miller-locked-republican-nominee-ohio-ballot-deadline-passes-without-withdrawal"
+        "title": "Trump announces aide will soon step into White House counsel post",
+        "desc": "U.S. President Donald Trump declared in a Truth Social post that White House staff secretary Will Scharf will become White House Counsel.",
+        "link": "https://www.foxnews.com/politics/trump-announces-aide-step-white-house-counsel-post"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Vice President Vance says migrant communities show 'clear pattern' in federal fraud as investigations widen",
-      "summary": "JD Vance reveals $230 billion in fraud uncovered since Trump took office and explains why recouping stolen federal funds remains a major challenge.",
+      "headline": "Harris becomes accidental SAVE Act ‘saleswoman’ as Trump attack spectacularly backfires",
+      "summary": "Kamala Harris posted a video criticizing the SAVE Act's voter ID requirements, but conservatives say she inadvertently made the case for the bill.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -421,9 +438,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Vice President Vance says migrant communities show 'clear pattern' in federal fraud as investigations widen",
-        "desc": "JD Vance reveals $230 billion in fraud uncovered since Trump took office and explains why recouping stolen federal funds remains a major challenge.",
-        "link": "https://www.foxnews.com/politics/vice-president-vance-says-migrant-communities-show-clear-pattern-federal-fraud-investigations-widen"
+        "title": "Harris becomes accidental SAVE Act ‘saleswoman’ as Trump attack spectacularly backfires",
+        "desc": "Kamala Harris posted a video criticizing the SAVE Act's voter ID requirements, but conservatives say she inadvertently made the case for the bill.",
+        "link": "https://www.foxnews.com/politics/harris-becomes-accidental-save-act-saleswoman-trump-attack-spectacularly-backfires"
        }
       ]
      }
@@ -435,8 +452,8 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Zuckerberg s yacht was closer, but someone else saved a stranded boat",
-      "summary": "Mark Zuckerberg's yacht \"The Launchpad\" | Image: Sylvain Lefevre / Getty Images Earlier this week, the Alaskan cruise ship Wilderness Legacy rescued a small skiff stranded near Farragut Bay after running out of fuel. But, according to tracking data reviewed by the Alaska Beacon and Halifax Shipping News, the closest vessel was actually Mark Zuckerberg's super yacht, Launchpad. Michael Love, a pass",
+      "headline": "Bluesky now lets you hide reposts from that annoying person you follow",
+      "summary": "Bluesky has added a new feature that lets you hide reposts from a specific person in your feeds. The tool might be helpful if you want to stop seeing reposts from that one person who clogs up your feed with reposts of things you don't care about. If you follow me, I may be that person, I'm sorry. I try not to be. You can hide reposts from individual users by going to their profile, clicking the th",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -446,16 +463,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Zuckerberg s yacht was closer, but someone else saved a stranded boat",
-        "desc": "Mark Zuckerberg's yacht \"The Launchpad\" | Image: Sylvain Lefevre / Getty Images Earlier this week, the Alaskan cruise ship Wilderness Legacy rescued a small skiff stranded near Farragut Bay after running out of fuel. But, according to tracking data reviewed by the Alaska Beacon and Halifax Shipping News, the closest vessel was actually Mark Zuckerberg's super yacht, Launchpad. Michael Love, a pass",
-        "link": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat"
+        "title": "Bluesky now lets you hide reposts from that annoying person you follow",
+        "desc": "Bluesky has added a new feature that lets you hide reposts from a specific person in your feeds. The tool might be helpful if you want to stop seeing reposts from that one person who clogs up your feed with reposts of things you don't care about. If you follow me, I may be that person, I'm sorry. I try not to be. You can hide reposts from individual users by going to their profile, clicking the th",
+        "link": "https://www.theverge.com/tech/977581/bluesky-hide-reposts-user-post-count-threads"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "49ers coach says his Tesla was on Autopilot when he crashed",
-      "summary": "Head Coach Kyle Shanahan of the San Francisco 49ers | Image: Michael Zagaris / San Francisco 49ers / Getty Images Four weeks ago, San Francisco 49ers coach Kyle Shanahan was involved in an accident near downtown Palo Alto. At the time Shanahan said only that the accident was his fault. But during a recent press conference he shared more details about the incident, including the fact that he had hi",
+      "headline": "Costco s great Switch 2 console bundle includes over $100 in free stuff",
+      "summary": "Games look gorgeous on its 7.9-inch screen. | Photo: Brandt Ranj / The Verge The cost of the Nintendo Switch 2 is going up by $50 on September 1st, 2026, resulting in a $499.99 price tag for just the console. We’re just weeks away, but Costco is offering a fantastic $499.99 bundle for its members that includes a Nintendo Switch 2, a 256GB microSD Express card (usually $59), and a one year subscrip",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -465,16 +482,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "49ers coach says his Tesla was on Autopilot when he crashed",
-        "desc": "Head Coach Kyle Shanahan of the San Francisco 49ers | Image: Michael Zagaris / San Francisco 49ers / Getty Images Four weeks ago, San Francisco 49ers coach Kyle Shanahan was involved in an accident near downtown Palo Alto. At the time Shanahan said only that the accident was his fault. But during a recent press conference he shared more details about the incident, including the fact that he had hi",
-        "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash"
+        "title": "Costco s great Switch 2 console bundle includes over $100 in free stuff",
+        "desc": "Games look gorgeous on its 7.9-inch screen. | Photo: Brandt Ranj / The Verge The cost of the Nintendo Switch 2 is going up by $50 on September 1st, 2026, resulting in a $499.99 price tag for just the console. We’re just weeks away, but Costco is offering a fantastic $499.99 bundle for its members that includes a Nintendo Switch 2, a 256GB microSD Express card (usually $59), and a one year subscrip",
+        "link": "https://www.theverge.com/gadgets/977489/costco-switch-2-microsd-express-switch-online-expansion-deal-sale"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "‘I’ve definitely lost followers’: influencers face backlash over Meta ‘pervert glasses’ content",
-      "summary": "Using ‘spy glasses’ made by Facebook owner leads to floods of negative comments, say content creators It was hardly an offensive video. Amid the buzz of the Tour de France finale, Oliver Hooson filmed himself whipping up a delicious-looking flat white for a fellow cycling enthusiast. But after posting the footage on social media, the comments that soon rolled in were a real shock. “PERV,” read one",
+      "headline": "What to expect from Google’s 2026 Pixel hardware launch event",
+      "summary": "It's that time of year: On Wednesday, Google is set to host its annual Made by Google hardware launch event for Pixel gadgets. Google itself has already teased new slab-style and foldable Pixel smartphones, but leaks also indicate that the company could announce updated watches, a new color for familiar earbuds, and perhaps a brand new AirTag-like item tracker. However, unusually, Google's event i",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -482,18 +499,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "‘I’ve definitely lost followers’: influencers face backlash over Meta ‘pervert glasses’ content",
-        "desc": "Using ‘spy glasses’ made by Facebook owner leads to floods of negative comments, say content creators It was hardly an offensive video. Amid the buzz of the Tour de France finale, Oliver Hooson filmed himself whipping up a delicious-looking flat white for a fellow cycling enthusiast. But after posting the footage on social media, the comments that soon rolled in were a real shock. “PERV,” read one",
-        "link": "https://www.theguardian.com/technology/2026/aug/09/i-kept-catching-people-giving-me-dirty-looks-the-backlash-against-meta-smart-glasses"
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "What to expect from Google’s 2026 Pixel hardware launch event",
+        "desc": "It's that time of year: On Wednesday, Google is set to host its annual Made by Google hardware launch event for Pixel gadgets. Google itself has already teased new slab-style and foldable Pixel smartphones, but leaks also indicate that the company could announce updated watches, a new color for familiar earbuds, and perhaps a brand new AirTag-like item tracker. However, unusually, Google's event i",
+        "link": "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Dropbox is a PC builder’s best friend",
-      "summary": "In 2018 I bet my reputation and self-worth on a huge crowdfunded game design project. It could have been a failure for many reasons, but the one I became most worried about was losing all of the work that was stored locally on my home-built PC - a scenario that would have left a lot of people very upset and placed me in deep trouble. I wasn't irresponsible, I had local backups, but at some point I",
+      "headline": "YouTube is making it harder to earn money on YouTube",
+      "summary": "Starting February 1st, 2027, creators who want to monetize their channel through YouTube's Partner Program (YPP) will need at least 1,000 subscribers and either 8,000 qualified watch hours over the past year, or 20 million qualified Shorts views in the last 90 days. That's a sizeable jump from YouTube's current requirement of 1,000 subscribers with 4,000 watch hours in the past year, or 1,000 subs",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -503,35 +520,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Dropbox is a PC builder’s best friend",
-        "desc": "In 2018 I bet my reputation and self-worth on a huge crowdfunded game design project. It could have been a failure for many reasons, but the one I became most worried about was losing all of the work that was stored locally on my home-built PC - a scenario that would have left a lot of people very upset and placed me in deep trouble. I wasn't irresponsible, I had local backups, but at some point I",
-        "link": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup"
+        "title": "YouTube is making it harder to earn money on YouTube",
+        "desc": "Starting February 1st, 2027, creators who want to monetize their channel through YouTube's Partner Program (YPP) will need at least 1,000 subscribers and either 8,000 qualified watch hours over the past year, or 20 million qualified Shorts views in the last 90 days. That's a sizeable jump from YouTube's current requirement of 1,000 subscribers with 4,000 watch hours in the past year, or 1,000 subs",
+        "link": "https://www.theverge.com/streaming/977474/youtube-partner-program-new-requirements"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "AI detectors are creating a new era of distrust",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "AI detectors are creating a new era of distrust",
-        "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being",
-        "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Mount Toba eruption doesn't seem like it could nearly kill our species",
-      "summary": "The massive Toba eruption seems to have had little climate impact.",
+      "headline": "Has Ford got cheap car fever? A $25K crossover is supposedly on the way.",
+      "summary": "Ford dealers were told about the new Escape-sized model; one of them spilled the beans.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -541,9 +539,28 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
-        "desc": "The massive Toba eruption seems to have had little climate impact.",
-        "link": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/"
+        "title": "Has Ford got cheap car fever? A $25K crossover is supposedly on the way.",
+        "desc": "Ford dealers were told about the new Escape-sized model; one of them spilled the beans.",
+        "link": "https://arstechnica.com/cars/2026/08/has-ford-got-cheap-car-fever-allegedly-a-25k-crossover-is-on-the-way/"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Taylor Farms recalls jalapeño products for Salmonella amid Cyclospora outbreak",
+      "summary": "Recall of jalapeño products spans 26 states, major retailers, a variety of foods.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Taylor Farms recalls jalapeño products for Salmonella amid Cyclospora outbreak",
+        "desc": "Recall of jalapeño products spans 26 states, major retailers, a variety of foods.",
+        "link": "https://arstechnica.com/health/2026/08/taylor-farms-recalls-jalapeno-products-for-salmonella-amid-cyclospora-outbreak/"
        }
       ]
      }
@@ -555,8 +572,8 @@
     "stories": [
      {
       "id": 19,
-      "headline": "ASX set to rise after jobs report boosts Wall Street; Sunrise Energy in focus after Pentagon deal",
-      "summary": "Stocks rose on Wall Street and Treasury yields fell after the government reported that employers unexpectedly cut 23,000 jobs last month.",
+      "headline": "'Not going to be around for much longer': Small business under pressure despite population growth",
+      "summary": "Mount Barker is one of South Australia's fastest-growing districts, but while some businesses are excited about the prospect of more customers, others are competing with tightening wallets and operating pressures.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -564,18 +581,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
+        "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "ASX set to rise after jobs report boosts Wall Street; Sunrise Energy in focus after Pentagon deal",
-        "desc": "Stocks rose on Wall Street and Treasury yields fell after the government reported that employers unexpectedly cut 23,000 jobs last month.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-after-jobs-report-boosts-wall-street-20260810-p60msr.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Gen Z calls it ‘loud budgeting’ – small business owners have been doing it for decades | Gene Marks",
+        "desc": "The practice of openly proclaiming to the world what you can’t afford can lead to lower fees, reduced prices and better deals Ask any small business owner what has challenged them the most over the past couple of years and you’ll frequently hear about cashflow. It’s no secret that costs have risen dramatically and finding places to save money isn’t easy. If this describes your situation then I’ve ",
+        "link": "https://www.theguardian.com/business/2026/aug/10/gen-z-loud-budgeting-small-business-owners"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "'Not going to be around for much longer': Small business under pressure despite population growth",
+        "desc": "Mount Barker is one of South Australia's fastest-growing districts, but while some businesses are excited about the prospect of more customers, others are competing with tightening wallets and operating pressures.",
+        "link": "https://www.abc.net.au/news/2026-08-10/mount-barker-is-growing-but-not-all-businesses-are-booming/107003234"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "Stax is back, saved by founders of sneakerhead marketplace",
-      "summary": "The athleisure brand collapsed in June after an ill-fated retail expansion, but now a new entrepreneurial couple plans to revive it.",
+      "headline": "Westpac shares tumble after reporting a decline in home loan applications — as it happened",
+      "summary": "The ASX closed lower, while Westpac fell sharply on a \"soft\" quarterly update dragged all bank stocks down.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -585,16 +609,23 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "Stax is back, saved by founders of sneakerhead marketplace",
-        "desc": "The athleisure brand collapsed in June after an ill-fated retail expansion, but now a new entrepreneurial couple plans to revive it.",
-        "link": "https://www.theage.com.au/business/entrepreneurship/stax-is-back-saved-by-founders-of-sneakerhead-marketplace-20260806-p60lz3.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Westpac says home loan applications down 20% since budget",
+        "desc": "Westpac is the latest bank to report a sharp decline in home loan applications since the government’s curbing of tax concessions for property investors.",
+        "link": "https://www.theage.com.au/business/banking-and-finance/westpac-says-home-loan-applications-down-20-percent-since-budget-20260810-p60mus.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Westpac shares tumble after reporting a decline in home loan applications — as it happened",
+        "desc": "The ASX closed lower, while Westpac fell sharply on a \"soft\" quarterly update dragged all bank stocks down.",
+        "link": "https://www.abc.net.au/news/2026-08-10/asx-markets-business-live-news/107014540"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Millions of Australians will have no say in who inherits their super",
-      "summary": "New research shows most Australians have not made a legally binding death benefit nomination to ensure their superannuation goes to who they want it to when they die. And many funds do not make it easy.",
+      "headline": "US judge drops criminal charges against Indian billionaire Gautam Adani",
+      "summary": "Justice department says it decided to abandon fraud and bribery case in which Adani Group has denied wrongdoing A US judge on ⁠Monday dismissed criminal charges against the Indian ⁠billionaire Gautam Adani, after ​the justice department said it had decided to abandon the fraud and bribery case. The Brooklyn-based district judge Nicholas Garaufis’s decision to grant federal prosecutors’ rare bid to",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -602,18 +633,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Millions of Australians will have no say in who inherits their super",
-        "desc": "New research shows most Australians have not made a legally binding death benefit nomination to ensure their superannuation goes to who they want it to when they die. And many funds do not make it easy.",
-        "link": "https://www.abc.net.au/news/2026-08-10/superannuation-death-benefit-nominations-survey-finds-funds-fail/106991968"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "US judge drops criminal charges against Indian billionaire Gautam Adani",
+        "desc": "Justice department says it decided to abandon fraud and bribery case in which Adani Group has denied wrongdoing A US judge on ⁠Monday dismissed criminal charges against the Indian ⁠billionaire Gautam Adani, after ​the justice department said it had decided to abandon the fraud and bribery case. The Brooklyn-based district judge Nicholas Garaufis’s decision to grant federal prosecutors’ rare bid to",
+        "link": "https://www.theguardian.com/us-news/2026/aug/10/gautam-adani-charges-dismissed-doj"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "Wendy's loses status as second-largest burger chain after 6-year run",
-      "summary": "Burger King reclaimed the No. 2 U.S. burger chain spot from Wendy's after its revamped Whopper and multiyear turnaround drove same-store sales up 8.5%.",
+      "headline": "Former Texas Roadhouse, Red Robin CEO says this restaurant category is ‘there for the taking’",
+      "summary": "SPB Hospitality CEO G.J. Hart says J. Alexander’s has significant room to grow as consumers continue to seek value and experience in upscale casual dining.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -623,16 +654,16 @@
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Wendy's loses status as second-largest burger chain after 6-year run",
-        "desc": "Burger King reclaimed the No. 2 U.S. burger chain spot from Wendy's after its revamped Whopper and multiyear turnaround drove same-store sales up 8.5%.",
-        "link": "https://www.foxbusiness.com/economy/wendys-loses-status-second-largest-burger-chain-after-6-year-run"
+        "title": "Former Texas Roadhouse, Red Robin CEO says this restaurant category is ‘there for the taking’",
+        "desc": "SPB Hospitality CEO G.J. Hart says J. Alexander’s has significant room to grow as consumers continue to seek value and experience in upscale casual dining.",
+        "link": "https://www.foxbusiness.com/lifestyle/former-texas-roadhouse-red-robin-ceo-says-restaurant-category-there-for-taking"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "London mayor orders council to drop plan to ban new pubs and bars in Soho and West End",
-      "summary": "Exclusive: Sadiq Khan urges Westminster council to adopt ‘positive vision of economic growth’ of nightlife Sadiq Khan has ordered Westminster council to scrap a policy that would ban new pubs and bars from opening in Soho and the West End of London. This comes after the Guardian revealed the council’s new licensing policy asks pubs to stop customers from standing up while consuming beverages, whic",
+      "headline": "'Ah, sorry guys': Pilot's reaction after Antarctic mishap damages plane",
+      "summary": "An accident that damaged an Australian-contracted aircraft in Antarctica has triggered new safety protocols on the icy continent, internal government documents show.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -640,18 +671,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "London mayor orders council to drop plan to ban new pubs and bars in Soho and West End",
-        "desc": "Exclusive: Sadiq Khan urges Westminster council to adopt ‘positive vision of economic growth’ of nightlife Sadiq Khan has ordered Westminster council to scrap a policy that would ban new pubs and bars from opening in Soho and the West End of London. This comes after the Guardian revealed the council’s new licensing policy asks pubs to stop customers from standing up while consuming beverages, whic",
-        "link": "https://www.theguardian.com/uk-news/2026/aug/09/london-mayor-sadiq-khan-westminster-ban-new-pubs-restaurants-soho-west-end"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "'Ah, sorry guys': Pilot's reaction after Antarctic mishap damages plane",
+        "desc": "An accident that damaged an Australian-contracted aircraft in Antarctica has triggered new safety protocols on the icy continent, internal government documents show.",
+        "link": "https://www.abc.net.au/news/2026-08-11/helicopter-fuel-lift-mishap-grounds-plane-antarctica/107016386"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Sydney’s sugar rush: how the colony’s most powerful profited from Australia’s slave trade",
-      "summary": "Australia likes to think its history is untainted by slavery but a new book traces how a who’s who in the NSW capital profited from the capture and sale of ‘blackbirded’ Pacific Islanders Emelda Davis is a former Sydney city councillor, community advocate and second-generation descendant of blackbirded South Sea Islanders. Otherwise known as enslaved people. Australia has often sought to reassure ",
+      "headline": "ASX set to dip on RBA day, Wall Street drifts; Oil rises on Hormuz uncertainty",
+      "summary": "The US stock market is drifting near its all-time high, while oil prices rise on uncertainty about when the Strait of Hormuz could reopen and get the global flow of crude going again. The RBA announces its rates decision this afternoon.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -659,11 +690,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
+        "outlet": "The Age Business",
         "lean": "left",
-        "title": "Sydney’s sugar rush: how the colony’s most powerful profited from Australia’s slave trade",
-        "desc": "Australia likes to think its history is untainted by slavery but a new book traces how a who’s who in the NSW capital profited from the capture and sale of ‘blackbirded’ Pacific Islanders Emelda Davis is a former Sydney city councillor, community advocate and second-generation descendant of blackbirded South Sea Islanders. Otherwise known as enslaved people. Australia has often sought to reassure ",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/10/sydney-sugar-industry-slave-trade-pacific-islanders-ntwnfb"
+        "title": "ASX set to dip on RBA day, Wall Street drifts; Oil rises on Hormuz uncertainty",
+        "desc": "The US stock market is drifting near its all-time high, while oil prices rise on uncertainty about when the Strait of Hormuz could reopen and get the global flow of crude going again. The RBA announces its rates decision this afternoon.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-dip-on-rba-day-wall-street-drifts-oil-rises-on-hormuz-uncertainty-20260811-p60n4f.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -675,8 +706,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Bonding building - what we learned about Alonso's Chelsea in pre-season",
-      "summary": "Chelsea's pre-season campaign was all about new manager Xabi Alonso, so what have we learned about his side?",
+      "headline": "Forest to host Leeds in EFL Cup - second-round draw in full",
+      "summary": "Nottingham Forest will face Leeds in the Carabao Cup in the only all-Premier League tie in the second round of the competition.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -686,23 +717,23 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Bonding building - what we learned about Alonso's Chelsea in pre-season",
-        "desc": "Chelsea's pre-season campaign was all about new manager Xabi Alonso, so what have we learned about his side?",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c5y62r3x213o?at_medium=RSS&at_campaign=rss"
+        "title": "Forest to host Leeds in EFL Cup - second-round draw in full",
+        "desc": "Nottingham Forest will face Leeds in the Carabao Cup in the only all-Premier League tie in the second round of the competition.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c98vm4rz7m7o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Seesaw draw in Malaysia gives Xabi Alonso food for thought at Chelsea",
-        "desc": "Delap scores twice from spot in 3-3 draw with JDT Manager made 11 changes against Malaysian champions Chelsea’s problems mounted as their pre-season tour came to an end in a strangely fiery draw against the Malaysian champions Johor Darul Ta’zim. The omens do not look promising with a bloated choice of forwards, echoes of their inexperience and indiscipline last season, and fewer than two weeks fo",
-        "link": "https://www.theguardian.com/football/2026/aug/09/chelsea-xabi-alonso-jdt-malaysian-champions-preseason-friendly"
+        "title": "Carabao Cup second-round draw: Chelsea host Luton, Forest at home to Leeds",
+        "desc": "Spurs will play Charlton, Preston v Everton Brentford away at Birmingham; Ipswich v Leicester Five-time winners Chelsea have been handed a home draw against League One Luton in the second round of the Carabao Cup. Chelsea’s new manager, Xabi Alonso, will begin the club’s attempt to win the competition for the first time since 2015 later this month. Fellow Premier League side Tottenham have also be",
+        "link": "https://www.theguardian.com/football/2026/aug/10/carabao-cup-second-round-draw-chelsea-luton-nottingham-forest-leeds"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Guimaraes can ignite something different in us - Arteta",
-      "summary": "Mikel Arteta said the signing of Bruno Guimaraes will \"ignite something different\" in Arsenal and hinted that the Gunners are not done with their summer transfer activity.",
+      "headline": "'Unbelievable!' - Great Britain win double gold in European relays",
+      "summary": "TGreat Britain win gold in both the women's and men's 4x200m freestyle relay finals at the European Acquatics Championships in Paris, with the men doing so in a new championship record time of 7:01.52.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -710,25 +741,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Guimaraes can ignite something different in us - Arteta",
-        "desc": "Mikel Arteta said the signing of Bruno Guimaraes will \"ignite something different\" in Arsenal and hinted that the Gunners are not done with their summer transfer activity.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c629ggx45d3o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Arteta expects Guimarães to ‘ignite’ Arsenal and help take team to new level",
-        "desc": "Arsenal lose 3-2 to Borussia Dortmund in Emirates Cup Enzo Maresca impressed by Manchester City’s wide players The Arsenal manager, Mikel Arteta, has backed “warrior” Bruno Guimarães, who to “ignite something different” in the Premier League champions. The Brazil midfielder was introduced to fans ahead of Sunday’s 3-2 defeat by Borussia Dortmund in the Emirates Cup after completing his £75m move f",
-        "link": "https://www.theguardian.com/football/2026/aug/09/arteta-guimaraes-ignite-arsenal-maresca-manchester-city"
+        "title": "Birmingham 2026: European Athletics Championships day one – live",
+        "desc": "Women’s 100m and men’s 5,000m top opening billing Britain ends 92-year wait | Mail Billy | Follow on TikTok Women’s 100 hurdles: Germany’s Rosina Schneider draws level with Norway’s Lovise Skarbøvik Andresen after 60m of the third heat but pulls away in the final 20m to win. The Norwegian was still on for a fast time but fell flat on her face at the final hurdle. She leaves the scene in tears. Fou",
+        "link": "https://www.theguardian.com/sport/live/2026/aug/10/birmingham-2026-european-athletics-championships-day-one-live"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "'Unbelievable!' - Great Britain win double gold in European relays",
+        "desc": "TGreat Britain win gold in both the women's and men's 4x200m freestyle relay finals at the European Acquatics Championships in Paris, with the men doing so in a new championship record time of 7:01.52.",
+        "link": "https://www.bbc.co.uk/sport/swimming/videos/cd7lje17dneo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Defiant Hodgkinson says home European title would mean as much as Olympic gold",
-      "summary": "Keely Hodgkinson will seek to prove she is still number one following a \"tricky\" outdoor season when she faces world-class rivals for European 800m gold in Birmingham.",
+      "headline": "Forest owner Marinakis sues Palace over gun banner",
+      "summary": "Evangelos Marinakis is suing Crystal Palace for a banner unfurled by their fans depicting the Nottingham Forest owner holding a gun to midfielder Morgan Gibbs-White's head.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -736,25 +767,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Defiant Hodgkinson says home European title would mean as much as Olympic gold",
-        "desc": "Keely Hodgkinson will seek to prove she is still number one following a \"tricky\" outdoor season when she faces world-class rivals for European 800m gold in Birmingham.",
-        "link": "https://www.bbc.co.uk/sport/athletics/articles/c5y3djlk7jdo?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Keely Hodgkinson relishing prospect of winning European gold on home turf",
-        "desc": "Birmingham hosting European championships ‘It would mean almost as much as Olympic title’ Keely Hodgkinson says winning a European gold medal in front of her home fans in Birmingham this week will be nearly as special as her Olympic title in Paris. Hodgkinson is the headline act as the European Athletics Champion­ships come to Britain for the first time in its 92-year history, but she insists the ",
-        "link": "https://www.theguardian.com/sport/2026/aug/09/keely-hodgkinson-european-athletics-championship-800m-gold-birmingham"
+        "title": "Nottingham Forest owner Marinakis sues Crystal Palace over fan banner",
+        "desc": "Banner depicted him holding gun to Gibbs-White’s head Palace have already been handed £50,000 fine from FA The Nottingham Forest owner, Evangelos Marinakis, is suing Crystal Palace for defamation after supporters of the south London club displayed a banner depicting him holding a gun to the head of the England midfielder Morgan Gibbs-White. Almost 12 months since the banner appeared midway through",
+        "link": "https://www.theguardian.com/football/2026/aug/10/nottingham-forest-owner-marinakis-sues-crystal-palace-over-fan-banner"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Forest owner Marinakis sues Palace over gun banner",
+        "desc": "Evangelos Marinakis is suing Crystal Palace for a banner unfurled by their fans depicting the Nottingham Forest owner holding a gun to midfielder Morgan Gibbs-White's head.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/czjlwe90py7o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Vollering wins final stage to clinch second Tour title",
-      "summary": "Demi Vollering shows her prowess on the final stage of the Tour de France Femmes to become the race's first two-time winner.",
+      "headline": "Liverpool sign Araujo on loan from Barcelona",
+      "summary": "Liverpool sign Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to buy.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -762,25 +793,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Vollering wins final stage to clinch second Tour title",
-        "desc": "Demi Vollering shows her prowess on the final stage of the Tour de France Femmes to become the race's first two-time winner.",
-        "link": "https://www.bbc.co.uk/sport/cycling/articles/ceqevv9vjpdo?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Tour de France Femmes: Vollering’s late escape for yellow leaves Niewiadoma fuming",
-        "desc": "Victory on penultimate stage secures eight-second lead Previous leader claims she was blocked by rival’s team Demi Vollering took the overall lead from Kasia Niewiadoma in the Tour de France Femmes with a vicious attack in the hills behind Nice to lead the race by eight seconds from the 2024 winner, with just one stage remaining. “It’s very special to be back in yellow,” Vollering, leader of Frenc",
-        "link": "https://www.theguardian.com/sport/2026/aug/08/tour-de-france-femmes-demi-vollering-takes-eight-second-lead-into-final-stage"
+        "title": "Araújo joins Liverpool on loan and Van Dijk hopes for more arrivals before new season",
+        "desc": "Barcelona’s Ronald Araújo arrives on loan Van Dijk: ‘Let’s see what the next couple of weeks bring’ Virgil van Dijk is ready to welcome Ronald Araújo as his new centre‑back partner at Liverpool with the loan deal to sign the Barcelona defender completed on Monday. Uruguay international Araújo, 27, arrives on a one-season contract and has also played at right-back, a vulnerable area of Liverpool’s ",
+        "link": "https://www.theguardian.com/football/2026/aug/10/virgil-van-dijk-ronald-araujo-liverpool"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Liverpool sign Araujo on loan from Barcelona",
+        "desc": "Liverpool sign Uruguay defender Ronald Araujo on a season-long loan from Barcelona, with an option to buy.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c70gk0ry07ko?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "Carrington makes 'white privilege' post after ejection",
-      "summary": "Chicago Sky guard DiJonai Carrington is ejected from her side's defeat by Indiana Fever for committing a hard foul, before taking to social media to post \"white privilege\".",
+      "headline": "England opener Gay set to be fit for Pakistan Test",
+      "summary": "Opener Emilio Gay is set to be fit for England’s first Test against Pakistan next week.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -790,23 +821,23 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Carrington makes 'white privilege' post after ejection",
-        "desc": "Chicago Sky guard DiJonai Carrington is ejected from her side's defeat by Indiana Fever for committing a hard foul, before taking to social media to post \"white privilege\".",
-        "link": "https://www.bbc.co.uk/sport/basketball/articles/cd0x3dye57ko?at_medium=RSS&at_campaign=rss"
+        "title": "England opener Gay set to be fit for Pakistan Test",
+        "desc": "Opener Emilio Gay is set to be fit for England’s first Test against Pakistan next week.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cpd75xqj99go?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Sky’s DiJonai Carrington posts ‘white privilege’ after ejection for hard foul on Sophie Cunningham",
-        "desc": "Carrington tossed for Flagrant 2 on Cunningham Chicago player tags Fever in social media post Clark’s eighth technical triggers one-game ban DiJonai Carrington of the Chicago Sky was ejected Saturday after being called for a Flagrant 2 foul on Sophie Cunningham of the Indiana Fever. Minutes later, Carrington posted on social media the words “WHITE PRIVILEGE” and tagged the Fever. Cunningham, who i",
-        "link": "https://www.theguardian.com/sport/2026/aug/08/sophie-cunningham-foul-dijonai-carrington-ejected-wnba"
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Aussie opener Jake Weatherald to unveil new technique for home Darwin Test",
+        "desc": "‘I am excited to get out there and put on a bit of a show.’",
+        "link": "https://7news.com.au/sport/cricket/aussie-opener-jake-weatherald-to-unveil-new-technique-for-home-darwin-test-c-22703545"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Fifa criticises campaign to oust president Infantino",
-      "summary": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino.",
+      "headline": "Adelaide Crows’ greatest goalkicker Taylor Walker calls time on AFL career",
+      "summary": "The 36-year-old former captain has made up his mind ahead of Adelaide’s finals campaign.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -816,16 +847,16 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Fifa defends Gianni Infantino and launches attack after ‘effort to undermine’ president",
-        "desc": "Fifa backs ‘democratically-elected’ president Thinly-veiled attack aimed on Uefa as crisis roars on Fifa last night issued a thinly-veiled attack on Uefa and other leading figures in European football in a statement which alleged there is a “concerted and ongoing effort by some to undermine Fifa and its president,” as football’s civil war escalated further. Uefa has made it clear they regard Infan",
-        "link": "https://www.theguardian.com/football/2026/aug/08/fifa-launches-new-attack-on-media-over-alleged-concerted-effort-to-undermine-gianni-infantino"
+        "title": "Adelaide great Taylor Walker to retire at end of AFL season: ‘I knew it was the right time’",
+        "desc": "Crows key forward, 36, to call time on career after one last shot at flag ‘I have treated it like my last year for the past six years,’ he says Adelaide great Taylor Walker says he doesn’t need a premiership to be fulfilled with his AFL career – but he sure would love one. The 36-year-old decided to retire at the end of the season when he woke in an emotional state at 3am last Wednesday. “The clos",
+        "link": "https://www.theguardian.com/sport/2026/aug/10/taylor-walker-to-retire-adelaide-crows-afl"
        },
        {
-        "outlet": "BBC Sport",
+        "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Fifa criticises campaign to oust president Infantino",
-        "desc": "Fifa strongly criticises what it calls a \"concerted and ongoing effort\" to \"undermine\" the organisation and its president Gianni Infantino.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss"
+        "title": "Adelaide Crows’ greatest goalkicker Taylor Walker calls time on AFL career",
+        "desc": "The 36-year-old former captain has made up his mind ahead of Adelaide’s finals campaign.",
+        "link": "https://7news.com.au/sport/afl/adelaide-crows-greatest-goalkicker-taylor-walker-calls-time-on-afl-career-c-22700383"
        }
       ]
      }
@@ -837,8 +868,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Hideo Kojima Reviews Christopher Nolan’s The Odyssey As It Reaches $1B Box Office Milestone",
-      "summary": "The iconic video game designer shares his thoughts on The Odyssey, the massive blockbuster that has now achieved a coveted box office milestone.",
+      "headline": "The Odyssey's Box Office Is A Career-First For Christopher Nolan After 26 Years",
+      "summary": "The Odyssey's box office has become one of the most important in Christopher Nolan's career, marking a first for the director after 26 years.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -848,30 +879,23 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Hideo Kojima Reviews Christopher Nolan’s The Odyssey As It Reaches $1B Box Office Milestone",
-        "desc": "The iconic video game designer shares his thoughts on The Odyssey, the massive blockbuster that has now achieved a coveted box office milestone.",
-        "link": "https://screenrant.com/the-odyssey-movie-hideo-kojima-review/"
+        "title": "The Odyssey's Box Office Is A Career-First For Christopher Nolan After 26 Years",
+        "desc": "The Odyssey's box office has become one of the most important in Christopher Nolan's career, marking a first for the director after 26 years.",
+        "link": "https://screenrant.com/the-odyssey-movie-box-office-christopher-nolan-billion-dollars-non-batman/"
        },
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘The Odyssey’ Is Christopher Nolan’s Highest-Grossing Movie Ever With $1.1 Billion and Imax’s Biggest Release of All Time With $289 Million",
-        "desc": "“The Odyssey” has notched two major box office milestones over the weekend. The big-budget adaptation of Homer’s original epic is officially Christopher Nolan’s biggest movie ever, with $1.1 billion, ranking ahead of 2012’s “The Dark Knight Rises” with $1.08 billion, not adjusted for inflation. And the sword-and-sandal adventure is Imax’s highest-grossing release of all time […]",
-        "link": "https://variety.com/2026/film/box-office/the-odyssey-christopher-nolan-biggest-movie-imax-record-1236830867/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Is Second-Fastest Film To Cross $1B At Int’l Box Office; Global Now At $1.67B",
-        "desc": "The global box office is humming with Sony/Marvel Studio’s Spider-Man: Brand New Day crossing the $1 billion threshold abroad in 12 days of release, the second-fastest to do so after Avengers: Endgame. The Destin Daniel Cretton movie is now the 12th highest ever at the worldwide B.O. with $1.67B ($655M domestic, $1.01B overseas). Brand New […]",
-        "link": "https://deadline.com/2026/08/box-office-global-spider-man-brand-new-day-foreign-record-1237029582/"
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "The Odyssey becomes Christopher Nolan’s highest grossing film as it passes $1.1bn at box office",
+        "desc": "The film-maker’s take on Homer’s epic has beaten his previous record holder The Dark Knight Rises The Odyssey has become the highest grossing film of Christopher Nolan’s career, having made more than US$1bn at the global box office less than a month after its release. The blockbuster, which was released on 17 July, is an adaptation of Homer’s ancient Greek epic and follows Matt Damon as Odysseus, ",
+        "link": "https://www.theguardian.com/film/2026/aug/10/the-odyssey-becomes-christopher-nolans-highest-grossing-film-as-it-passes-11bn-at-box-office"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "‘Teenage Sex and Death at Camp Miasma’ Cinematographer, Editor and Star Jack Haven Break Down Little Death’s Bloody One-Take Dance",
-      "summary": "When “Teenage Sex and Death at Camp Miasma” director Jane Schoenbrun described their vision for the bloody one-take sequence in which Little Death (Jack Haven) massacres an entire summer camp — all set to Counting Crows’ 1996 rock ballad “A Long December” — they said it should feel like a Michael Bay movie. “That’s the one […]",
+      "headline": "‘Law and Order: SVU’ Best of Mariska Hargitay Marathon Set for September on NBC",
+      "summary": "NBC is airing a “Law and Order: SVU” marathon in celebration of series mainstay Mariska Hargitay. NBC will air three episodes of “SVU” back-to-back on Sept. 10 featuring Hargitay’s Emmy-winning performance in the 2005 episode “911” as well as two other episodes for which she received Emmy nominations. The full lineup can be seen below. […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -881,23 +905,49 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Teenage Sex and Death at Camp Miasma’ Cinematographer, Editor and Star Jack Haven Break Down Little Death’s Bloody One-Take Dance",
-        "desc": "When “Teenage Sex and Death at Camp Miasma” director Jane Schoenbrun described their vision for the bloody one-take sequence in which Little Death (Jack Haven) massacres an entire summer camp — all set to Counting Crows’ 1996 rock ballad “A Long December” — they said it should feel like a Michael Bay movie. “That’s the one […]",
-        "link": "https://variety.com/2026/artisans/features/teenage-sex-and-death-at-camp-miasma-jack-haven-little-death-bloody-one-take-dance-1236830889/"
+        "title": "‘Law and Order: SVU’ Best of Mariska Hargitay Marathon Set for September on NBC",
+        "desc": "NBC is airing a “Law and Order: SVU” marathon in celebration of series mainstay Mariska Hargitay. NBC will air three episodes of “SVU” back-to-back on Sept. 10 featuring Hargitay’s Emmy-winning performance in the 2005 episode “911” as well as two other episodes for which she received Emmy nominations. The full lineup can be seen below. […]",
+        "link": "https://variety.com/2026/tv/news/law-and-order-svu-mariska-hargitay-marathon-nbc-1236831433/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Jane Schoenbrun On Deconstructing The “Toxic Soup” Of The Slasher Genre In ‘Teenage Sex & Death at Camp Miasma’: “It’s There In The DNA”",
-        "desc": "With their latest directorial outing, Jane Schoenbrun used subtle pieces of nostalgia to deconstruct the slasher genre. The Teenage Sex and Death at Camp Miasma writer/director explained to Deadline that they wanted to create “a mindset where you can really enjoy something scary,” noting the frequent symbolism of candy and junk food as providing an […]",
-        "link": "https://deadline.com/2026/08/jane-schoenbrun-toxic-soup-slasher-genre-camp-miasma-1237029457/"
+        "title": "Mariska Hargitay’s Best ‘Law & Order: SVU’ Episodes To Re-Air On NBC",
+        "desc": "NBC will host a special Law & Order: Special Victims Unit marathon featuring the best of Mariska Hargitay’s episodes Thursday, Sept. 10, as a tribute to the upcoming Emmy Awards host. Two days prior, fans will enjoy the Season 28 premiere of the popular procedural on Thursday, Oct. 8 at 9 p.m. ET/PT. Hargitay won […]",
+        "link": "https://deadline.com/2026/08/mariska-hargitay-nbc-law-order-svu-episodes-marathon-1237029687/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "‘Five Nights at Freddy’s’ to Open Real Freddy Fazbear’s Pizza Location in 2027",
-      "summary": "“Five Nights at Freddy’s” and New Jersey entertainment and retail center American Dream will open a real-life Freddy Fazbear’s Pizza location in East Rutherford, N.J., in 2027. Based on the “Five Nights at Freddy’s” franchise, the immersive restaurant experience is a functional reimagining of the game’s location, designed in collaboration with IP holder ScottGames. The […]",
+      "headline": "‘Harry Potter’ TV Series Actress Bel Powley “Strongly Disagrees” With J.K. Rowling’s Anti-Trans Views",
+      "summary": "Bel Powley, who plays Petunia Dursley in the upcoming Harry Potter and the Philosopher’s Stone TV series, is not holding back her thoughts on author J.K. Rowling’s anti-trans views. “I strongly disagree with J.K. Rowling’s views on gender,” she told The Telegraph. “I think that the trans community deserve safety and dignity and respect and […]",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Harry Potter’ TV Series Actress Bel Powley “Strongly Disagrees” With J.K. Rowling’s Anti-Trans Views",
+        "desc": "Bel Powley, who plays Petunia Dursley in the upcoming Harry Potter and the Philosopher’s Stone TV series, is not holding back her thoughts on author J.K. Rowling’s anti-trans views. “I strongly disagree with J.K. Rowling’s views on gender,” she told The Telegraph. “I think that the trans community deserve safety and dignity and respect and […]",
+        "link": "https://deadline.com/2026/08/harry-potter-bel-powley-jk-rowling-anti-trans-views-1237030272/"
+       },
+       {
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Harry Potter fans force relocation of £430m undersea cable to avoid Dobby’s ‘grave’",
+        "desc": "Power cable linking UK and Ireland now passes near Bronze Age human burial remains instead of fictional grave on Welsh beach Harry Potter fans have forced a new multimillion-pound power cable between the UK and Ireland to be relocated after complaining it would desecrate the “grave” of Dobby, a fictional elf. The character was laid to rest on Freshwater West beach in Pembrokeshire, Wales, in the f",
+        "link": "https://www.theguardian.com/environment/2026/aug/10/harry-potter-fans-force-relocation-of-430m-undersea-cable-to-avoid-dobbys-grave"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "Jerry Katzman, Former William Morris President, Dies at 89",
+      "summary": "Jerry Katzman, a former William Morris president and television packager for series such as “Roseanne” and “The Fresh Prince of Bel-Air,” died on Aug. 9. He was 89. Katzman helped shape modern television with his work in television packaging and bringing series to the screen, contributing to the success of shows such as “The Cosby […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -907,42 +957,23 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Five Nights at Freddy’s’ to Open Real Freddy Fazbear’s Pizza Location in 2027",
-        "desc": "“Five Nights at Freddy’s” and New Jersey entertainment and retail center American Dream will open a real-life Freddy Fazbear’s Pizza location in East Rutherford, N.J., in 2027. Based on the “Five Nights at Freddy’s” franchise, the immersive restaurant experience is a functional reimagining of the game’s location, designed in collaboration with IP holder ScottGames. The […]",
-        "link": "https://variety.com/2026/film/news/five-nights-at-freddys-real-life-freddy-fazbears-pizza-1236830901/"
+        "title": "Jerry Katzman, Former William Morris President, Dies at 89",
+        "desc": "Jerry Katzman, a former William Morris president and television packager for series such as “Roseanne” and “The Fresh Prince of Bel-Air,” died on Aug. 9. He was 89. Katzman helped shape modern television with his work in television packaging and bringing series to the screen, contributing to the success of shows such as “The Cosby […]",
+        "link": "https://variety.com/2026/tv/news/jerry-katzman-dead-william-morris-1236831499/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Five Nights at Freddy’s’ Immersive Freddy Fazbear’s Pizza Opening In N.J. Mall",
-        "desc": "As FNaF fans await a third installment in the video game movie franchise, they can enjoy a slice at a Five Nights at Freddy’s immersive pizzeria. Freddy Fazbear’s Pizza, the fictitious haunted establishment from the FNaF games and movies, is opening next year at the American Dream mall and entertainment complex in Bergen County, New […]",
-        "link": "https://deadline.com/2026/08/five-nights-at-freddys-immersive-freddy-fazbears-pizza-nj-1237029600/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "Summer Domestic Box Office On A Hot Streak, Will Cross $4B By Monday",
-      "summary": "Forget the woes of a potential Paramount-WBD merger, the summer domestic box office is on fire, just $14.8M away from crossing $4 billion. This is all according to Rentrak. For for the period of May 1-Aug. 9, the summer B.O. stands at $3.985B. The last time the North American box office crossed $4B was 2023 […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Summer Domestic Box Office On A Hot Streak, Will Cross $4B By Monday",
-        "desc": "Forget the woes of a potential Paramount-WBD merger, the summer domestic box office is on fire, just $14.8M away from crossing $4 billion. This is all according to Rentrak. For for the period of May 1-Aug. 9, the summer B.O. stands at $3.985B. The last time the North American box office crossed $4B was 2023 […]",
-        "link": "https://deadline.com/2026/08/summer-domestic-box-office-record-spider-man-odyssey-1237029662/"
+        "title": "Jerry Katzman Dies: Former WMA President Was 89",
+        "desc": "Jerry Katzman, a 30-year veteran of the William Morris Agency who served as President and Vice Chairman in the 1990s and helped shape modern television packaging, died Aug. 9 in Los Angeles surrounded by family. He was 89. Born in a showbiz family, with a producer father and an actress mother, Katzman graduated from Beverly […]",
+        "link": "https://deadline.com/2026/08/jerry-katzman-dead-wma-president-tv-agent-the-cosby-show-1237029875/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "16 Years Later, The BBC Has Officially Found Its Sherlock Replacement",
-      "summary": "The BBC may have finally found the perfect replacement for Sherlock, as another world-famous detective returns to the small screen with a twist.",
+      "headline": "44 Years Later, The Greatest Opening Line In Sitcom History Is Still Undefeated",
+      "summary": "A sardonic barroom exchange unexpectedly introduces a charmingly flawed lead and quietly seeds a warm yet bittersweet decades-long sitcom legacy.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -952,16 +983,16 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "16 Years Later, The BBC Has Officially Found Its Sherlock Replacement",
-        "desc": "The BBC may have finally found the perfect replacement for Sherlock, as another world-famous detective returns to the small screen with a twist.",
-        "link": "https://screenrant.com/bbc-agatha-christie-poirot-prequel-sherlock-replacement/"
+        "title": "44 Years Later, The Greatest Opening Line In Sitcom History Is Still Undefeated",
+        "desc": "A sardonic barroom exchange unexpectedly introduces a charmingly flawed lead and quietly seeds a warm yet bittersweet decades-long sitcom legacy.",
+        "link": "https://screenrant.com/greatest-sitcom-opening-line-still-undefeated/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "25 Years Later, This N64 RPG Remains A 10/10 Masterpiece",
-      "summary": "Of all the phenomenal Nintendo 64 RPGs, this iconic title still remains a genuine classic that is well worth playing even 25 years later.",
+      "headline": "AI Music Company Suno Unveils Download Caps for Free, Paid Tiers in Quest to Combat Abuse (EXCLUSIVE)",
+      "summary": "Suno last week said that it would impose download limits on users of its AI music generator as it seeks to legitimize its presence in the music industry. Now it has specifics. Starting Sept. 3 for all songs in a user’s library, free Suno users will be limited to seven total downloads, while those on […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -969,11 +1000,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "25 Years Later, This N64 RPG Remains A 10/10 Masterpiece",
-        "desc": "Of all the phenomenal Nintendo 64 RPGs, this iconic title still remains a genuine classic that is well worth playing even 25 years later.",
-        "link": "https://screenrant.com/nintendo-64-masterpiece-rpg-paper-mario/"
+        "title": "AI Music Company Suno Unveils Download Caps for Free, Paid Tiers in Quest to Combat Abuse (EXCLUSIVE)",
+        "desc": "Suno last week said that it would impose download limits on users of its AI music generator as it seeks to legitimize its presence in the music industry. Now it has specifics. Starting Sept. 3 for all songs in a user’s library, free Suno users will be limited to seven total downloads, while those on […]",
+        "link": "https://variety.com/2026/music/news/suno-unveils-download-caps-for-free-paid-tiers-generator-1236831589/"
        }
       ]
      }
@@ -981,34 +1012,34 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
+   "BBC Tech",
+   "Ars Technica",
+   "BBC Sport",
+   "Crikey",
    "The Age",
    "ABC News",
-   "Crikey",
-   "The Age Federal Politics",
-   "Fox News",
-   "Fox News Politics",
-   "Guardian Tech",
-   "BBC World",
-   "Guardian AU Politics",
-   "The Age Business",
-   "Ars Technica",
-   "The Verge",
-   "Guardian AU Business",
-   "Fox Business",
-   "BBC Tech",
-   "Variety",
-   "Guardian AU Sport",
-   "Deadline",
    "ABC Business",
-   "BBC Sport",
+   "7News",
+   "Variety",
+   "BBC World",
+   "Deadline",
+   "The Age Federal Politics",
+   "The Age Business",
+   "Fox Business",
+   "Guardian AU Politics",
+   "Guardian Tech",
+   "The Verge",
+   "Guardian AU Sport",
+   "Guardian AU Business",
    "Anime News Network",
    "Guardian Film",
    "Screen Rant",
+   "Fox News",
+   "Fox News Politics",
+   "Guardian Australia",
    "SBS News",
    "7News Sport",
-   "Daily Mail Australia",
-   "7News"
+   "Daily Mail Australia"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1190,119 +1221,119 @@
   ]
  },
  "wotd": {
-  "word": "ersatz",
-  "phonetic": "/ˈɛəzæts/",
-  "pos": "noun",
-  "def": "Something made in imitation; an effigy or substitute",
+  "word": "lambent",
+  "phonetic": "/ˈlæmbənt/",
+  "pos": "adjective",
+  "def": "Brushing or flickering gently over a surface.",
   "example": null,
-  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/ersatz-us.mp3"
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/lambent-us.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "DBCA WA Parks Pass 50% Discount",
-   "link": "https://www.ozbargain.com.au/node/970776",
-   "votes": 21,
-   "category": "Travel",
-   "ts": 1786281670000
-  },
-  {
-   "title": "Kmart Sadie Entertainment Unit $59 Delivered with OnePass (Was $149) – 60% off",
-   "link": "https://www.ozbargain.com.au/node/970775",
-   "votes": 9,
-   "category": "Home Garden",
-   "ts": 1786281320000
-  },
-  {
-   "title": "MANGA MILLION - Free Online Translated Manga from Select Series (One Piece, Naruto, Bleach, Demon Slayer + More) @ Shueisha",
-   "link": "https://www.ozbargain.com.au/node/970773",
-   "votes": 27,
-   "category": "Books Magazines",
-   "ts": 1786280639000
-  },
-  {
-   "title": "$200 Bonus with Orange One Low Credit Card after Spending $500 in 3 Months ($48 Annual Fee / $0 with Orange Adv home loan) @ ING",
-   "link": "https://www.ozbargain.com.au/node/970770",
-   "votes": 25,
-   "category": "Financial",
-   "ts": 1786274772000
-  },
-  {
-   "title": "[Student Offer] Optus Sim Only 12M Plan $35/M Unlimited Call/Texts (Incl. International to 35 Countries) + 200GB Data/Month",
-   "link": "https://www.ozbargain.com.au/node/970767",
-   "votes": 20,
-   "category": "Mobile",
-   "ts": 1786274275000
-  },
-  {
-   "title": "Taiko No Tatsujin Drum Controller (HORI) $91.23 Delivered @ Amazon JP via AU",
-   "link": "https://www.ozbargain.com.au/node/970765",
-   "votes": 35,
+   "title": "[PC Win, Linux Mac] Knytt Classic - Free @ GOG.com",
+   "link": "https://www.ozbargain.com.au/node/970883",
+   "votes": 23,
    "category": "Gaming",
-   "ts": 1786270543000
+   "ts": 1786374507000
   },
   {
-   "title": "Pain Relief Bundle: Diclofenac, Naproxen, Ibuprovance, Ibuprofen, Paracetamol + 1x Bonus Item $29.99 Delivered @ PharmacySavings",
-   "link": "https://www.ozbargain.com.au/node/970762",
-   "votes": 18,
-   "category": "Health Beauty",
-   "ts": 1786270095000
-  },
-  {
-   "title": "[PC, Epic] Free - Cat Named Mojave @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/970761",
-   "votes": 77,
-   "category": "Gaming",
-   "ts": 1786269701000
-  },
-  {
-   "title": "[Hack] 800 Free Qantas FF Points via Qantas Car Insurance/Wellbeing Rewards @ Qantas Insurance",
-   "link": "https://www.ozbargain.com.au/node/947433",
-   "votes": 174,
-   "category": "Travel",
-   "ts": 1770543081000
-  },
-  {
-   "title": "Lenovo Thinksmart Core NUC: Intel i5 1145G7E CPU, 16GB RAM, 256GB SSD $399 + Delivery @ Hub by Triforce",
-   "link": "https://www.ozbargain.com.au/node/970759",
-   "votes": 75,
+   "title": "Thermalright Peerless Assassin 120 CPU Air Cooler $36.23 + Delivery ($0 with Prime/$59 Spend) @ suomole via Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/970858",
+   "votes": 183,
    "category": "Computing",
-   "ts": 1786264690000
+   "ts": 1786352283000
   },
   {
-   "title": "Lyca Mobile 360-Day 75GB/30-Day Prepaid Mobile Plan $220 Delivered (New Services Only, Ongoing $480) @ Lyca Mobile",
-   "link": "https://www.ozbargain.com.au/node/970751",
-   "votes": 27,
-   "category": "Mobile",
-   "ts": 1786258255000
-  },
-  {
-   "title": "The Ultimate Aang Korra Blu-Ray Collection $42.01 + Delivery ($0 Prime/ $59 Spend) @ Amazon US via AU",
-   "link": "https://www.ozbargain.com.au/node/970747",
-   "votes": 45,
-   "category": "Entertainment",
-   "ts": 1786254563000
-  },
-  {
-   "title": "Free 5GB eSIM for Existing Windscribe Pro VPN Customers @ Windscribe",
-   "link": "https://www.ozbargain.com.au/node/970745",
-   "votes": 41,
-   "category": "Travel",
-   "ts": 1786253441000
-  },
-  {
-   "title": "[XB, PC, PS] Free $1m GTA$ for Playing between August 6 and August 12",
-   "link": "https://www.ozbargain.com.au/node/970743",
-   "votes": 8,
-   "category": "Gaming",
-   "ts": 1786252533000
-  },
-  {
-   "title": "Garmin Forerunner 965 $663.91 (RRP $999) Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/970737",
-   "votes": 33,
+   "title": "Garmin Instinct 2 Solar Smart Watch in Graphite $338.98 (RRP $679) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/970847",
+   "votes": 61,
    "category": "Electrical Electronics",
-   "ts": 1786248382000
+   "ts": 1786347118000
+  },
+  {
+   "title": "½ Price: Haagen-Dazs Ice Cream Tub 457ml $7.00 @ Woolworths, Borg s Spinach Pastizzi 1kg $5.00 @ Coles + 219 More",
+   "link": "https://www.ozbargain.com.au/node/970843",
+   "votes": 67,
+   "category": "Groceries",
+   "ts": 1786346095000
+  },
+  {
+   "title": "Stihl MS391 Farm Boss Chainsaw 20 $1150 (+ $30 National Delivery) @ South Side Mower Centre",
+   "link": "https://www.ozbargain.com.au/node/970842",
+   "votes": 16,
+   "category": "Home Garden",
+   "ts": 1786345714000
+  },
+  {
+   "title": "[PC, Steam] Resident Evil 2 / Biohazard RE:2 $10.49 @ Fanatical",
+   "link": "https://www.ozbargain.com.au/node/970841",
+   "votes": 19,
+   "category": "Gaming",
+   "ts": 1786345201000
+  },
+  {
+   "title": "Sensodyne Complete Care + Smart Clean Toothpaste 100g $5.84 ($5.26 Sub Save) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/970838",
+   "votes": 23,
+   "category": "Health Beauty",
+   "ts": 1786342183000
+  },
+  {
+   "title": "Vietjet: Ho Chi Minh City Direct Return Perth $335, Sydney $434, Melbourne $438, Brisbane $447 @ IWantThatFlight",
+   "link": "https://www.ozbargain.com.au/node/970837",
+   "votes": 38,
+   "category": "Travel",
+   "ts": 1786342180000
+  },
+  {
+   "title": "Velocity Earning Credit Card - Bonus VFF Points (20,000 Referer /10,000 Referee) with Referral",
+   "link": "https://www.ozbargain.com.au/node/970831",
+   "votes": 53,
+   "category": "Financial",
+   "ts": 1786341062000
+  },
+  {
+   "title": "HP Omnibook X Flip 16 2K OLED Touch Laptop: Intel Ultra 7 258V CPU, 32GB RAM, 1TB SSD $1619.10 Delivered @ HP",
+   "link": "https://www.ozbargain.com.au/node/970826",
+   "votes": 49,
+   "category": "Computing",
+   "ts": 1786339022000
+  },
+  {
+   "title": "Motorola razr 50 5G 256GB Grey Bundle $597 + Delivery ($0 OnePass) @ Officeworks",
+   "link": "https://www.ozbargain.com.au/node/970825",
+   "votes": 70,
+   "category": "Mobile",
+   "ts": 1786337046000
+  },
+  {
+   "title": "[SUBS] The Drama (2026) - Movie Streaming @ HBO Max",
+   "link": "https://www.ozbargain.com.au/node/970823",
+   "votes": 29,
+   "category": "Entertainment",
+   "ts": 1786336616000
+  },
+  {
+   "title": "[Box Damaged] Dyson V8 Advanced + Car Cleaning Kit $299 Delivered @ Dyson Australia eBay",
+   "link": "https://www.ozbargain.com.au/node/970821",
+   "votes": 30,
+   "category": "Electrical Electronics",
+   "ts": 1786334449000
+  },
+  {
+   "title": "Castrol Edge 5W-30 A3/B4 Engine Oil 5 Litre $49 (RRP $93.99) + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/970816",
+   "votes": 48,
+   "category": "Automotive",
+   "ts": 1786331963000
+  },
+  {
+   "title": "$40 off $200 Spend @ Dan Murphy s (Members, Online Only)",
+   "link": "https://www.ozbargain.com.au/node/970810",
+   "votes": 106,
+   "category": "Alcohol",
+   "ts": 1786327856000
   }
  ]
 }
