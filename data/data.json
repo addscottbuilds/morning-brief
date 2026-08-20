@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T19:44:24.408Z",
+ "generatedAt": "2026-08-20T19:49:49.552Z",
  "markets": {
   "items": [
    {
@@ -7,112 +7,96 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9053.8,
-    "chgPct": -0.21381866259848953,
+    "price": 9083.8,
+    "chgPct": 0.15214994487320035,
     "high52": 9296.7,
-    "off52": -2.6127550636247427
+    "off52": -2.2900599137328457
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.73,
-    "chgPct": -1.061744385087096,
+    "price": 85.57,
+    "chgPct": -0.33775985125791613,
     "high52": 87.32,
-    "off52": -1.8208886852954527
+    "off52": -2.0041227668346315
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 151.23,
-    "chgPct": -0.06608195985244228,
+    "price": 151.69,
+    "chgPct": 0.26439733731143583,
     "high52": 155.03,
-    "off52": -2.451138489324654
+    "off52": -2.1544217248274546
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.35,
-    "chgPct": -2.140421936334697,
+    "price": 60.37,
+    "chgPct": -0.7562088068520356,
     "high52": 64.23,
-    "off52": -6.040790907675545
+    "off52": -6.009652810213305
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.29,
-    "chgPct": -4.103258881429154,
+    "price": 35.42,
+    "chgPct": -3.7499980045401076,
     "high52": 47.78,
-    "off52": -26.140644621180414
+    "off52": -25.86856425282545
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7128,
-    "chgPct": 0.27855722572822306,
+    "price": 0.7114,
+    "chgPct": 0.45892971904976115,
     "high52": 0.7277,
-    "off52": -2.0475470660986703
+    "off52": -2.23993403875223
    }
   ],
   "failed": [],
   "note": "SEMI is 26% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 65.75,
+    "currency": "AUD",
+    "chgPct": 3.2020105867879867
+   },
+   {
     "sym": "CSL.AX",
     "name": "CSL",
     "market": "ASX",
-    "price": 166.48,
+    "price": 171.2,
     "currency": "AUD",
-    "chgPct": 5.48725907608819
+    "chgPct": 2.8351780355555025
+   },
+   {
+    "sym": "CBA.AX",
+    "name": "CommBank",
+    "market": "ASX",
+    "price": 156.44,
+    "currency": "AUD",
+    "chgPct": -2.6569638077793343
    },
    {
     "sym": "LLY",
     "name": "Eli Lilly",
     "market": "US",
-    "price": 1284.79,
+    "price": 1247.11,
     "currency": "USD",
-    "chgPct": 4.818354814872353
-   },
-   {
-    "sym": "AVGO",
-    "name": "Broadcom",
-    "market": "US",
-    "price": 363.14,
-    "currency": "USD",
-    "chgPct": -4.436842105263161
-   },
-   {
-    "sym": "GMG.AX",
-    "name": "Goodman",
-    "market": "ASX",
-    "price": 29.22,
-    "currency": "AUD",
-    "chgPct": -4.1023936380813755
-   },
-   {
-    "sym": "QAN.AX",
-    "name": "Qantas",
-    "market": "ASX",
-    "price": 9.53,
-    "currency": "AUD",
-    "chgPct": -4.028200331144915
-   },
-   {
-    "sym": "NFLX",
-    "name": "Netflix",
-    "market": "US",
-    "price": 80.52,
-    "currency": "USD",
-    "chgPct": 3.536072361626837
+    "chgPct": -2.595401745427996
    }
   ]
  },
@@ -125,8 +109,8 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Who is Natalie Harp, Trump's right-hand woman?",
-      "summary": "One of Trump's longest serving and most loyal aides, Harp was thrust again into the spotlight when Democrat Jon Ossoff noted her closeness to the president.",
+      "headline": "Security issues loom large over Prince Harry and Meghan's return to UK",
+      "summary": "Prince Harry and his family's access to taxpayer-funded security is again in the spotlight after their plans to move back to the United Kingdom were revealed.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -134,39 +118,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Who is Natalie Harp, Trump's right-hand woman?",
-        "desc": "One of Trump's longest serving and most loyal aides, Harp was thrust again into the spotlight when Democrat Jon Ossoff noted her closeness to the president.",
-        "link": "https://www.bbc.co.uk/news/articles/c80nzdjgmk3o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Trump says he will meet North Korea's Kim Jong Un later this year",
-        "desc": "The US president made the announcement days after ordering the US scale back its military drills with South Korea.",
-        "link": "https://www.abc.net.au/news/2026-08-20/trump-to-meet-kim-jong-un-this-year/107056372"
+        "title": "Security issues loom large over Prince Harry and Meghan's return to UK",
+        "desc": "Prince Harry and his family's access to taxpayer-funded security is again in the spotlight after their plans to move back to the United Kingdom were revealed.",
+        "link": "https://www.abc.net.au/news/2026-08-21/security-issues-loom-over-harry-and-meghan-uk-return/107061510"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Trump's blonde aide's Scottish 'love letters' exposed... as her disturbing 'starvation' confession resurfaces after screaming match with staffers",
-        "desc": "Intimate letters written by Donald Trump's young blonde personal secretary, in which she confesses to starving herself while working for him, have resurfaced.",
-        "link": "https://www.dailymail.com/news/article-16063943/trump-natalie-harp-scotland-letters.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘Rival courts’: Prince Harry’s surprise UK return may provoke royal spot of bother",
+        "desc": "Family relationships remain damaged and there is no clarity on how Sussexes’ security concerns have been resolved Just as the departure of the Duke and Duchess of Sussex’ from the UK six years ago came as a complete surprise, so too is their shock announcement they now intend to return. Their unilateral decision could fairly be said to have blind-sided the royals. King Charles was only informed on",
+        "link": "https://www.theguardian.com/uk-news/2026/aug/20/rival-courts-prince-harry-meghan-surprise-uk-return-king-charles-prince-william"
        },
        {
-        "outlet": "7News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Meet Natalie Harp, the aide so close to Trump she once rode in an SUV boot to accompany him",
-        "desc": "‘[Trump] likes the attention and the fact that she is 100 per cent committed and loyal.’",
-        "link": "https://7news.com.au/news/meet-natalie-harp-the-aide-so-close-to-trump-she-once-rode-in-an-suv-boot-to-accompany-him-c-22748879"
+        "title": "From royal exit to return: The story behind Harry and Meghan's Atlantic crossing",
+        "desc": "Prince Harry and his wife, Meghan, will soon move back to the UK in a surprise move after more than six years abroad.",
+        "link": "https://www.sbs.com.au/news/article/harry-meghan-return-to-uk/dqij49jg8"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Labor has made the most of its cooperation with the Coalition",
-      "summary": "Fights over immigration, superannuation, housing, tobacco excise and data centre rules will continue and intensify. But this was a week for cooperation.",
+      "headline": "Australia's national debt has hit $1 trillion but there's another figure that's more important",
+      "summary": "As the US crosses the $40 trillion mark it's easy to look at dollar signs but ratio to GDP is more relevant, writes Ian Verrender.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -176,30 +153,30 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Labor has made the most of its cooperation with the Coalition",
-        "desc": "Fights over immigration, superannuation, housing, tobacco excise and data centre rules will continue and intensify. But this was a week for cooperation.",
-        "link": "https://www.abc.net.au/news/2026-08-20/labor-coalition-deals-ndis-gambling-cooperation-albanese-taylor/107049472"
+        "title": "Australia's national debt has hit $1 trillion but there's another figure that's more important",
+        "desc": "As the US crosses the $40 trillion mark it's easy to look at dollar signs but ratio to GDP is more relevant, writes Ian Verrender.",
+        "link": "https://www.abc.net.au/news/2026-08-21/analysis-national-debt-hits-one-trillion-but-its-nothing/107058026"
        },
        {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "‘Strip us of our rights’: Controversial NDIS reforms set to pass",
-        "desc": "Last night, the government's controversial changes to the National Disability Insurance Scheme (NDIS) passed the Senate with the Coalition's support. Now, the equally unpopular gambling reforms are on the same path. The post ‘Strip us of our rights’: Controversial NDIS reforms set to pass appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/08/19/strip-us-of-our-rights-controversial-ndis-reforms-set-to-pass-senate-gambling-disability-mark-butler-greens/"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Rubio designates US citizen held in China as wrongfully detained as Trump prepares to host Xi at White House",
+        "desc": "The Trump administration designated Min Zin as wrongfully detained in China weeks before President Donald Trump is set to host Xi Jinping at the White House.",
+        "link": "https://www.foxnews.com/politics/rubio-designates-us-citizen-held-china-wrongfully-detained-trump-prepares-host-xi-white-house"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Controversial NDIS changes get last-minute green light as Labor cuts deal with Coalition",
-        "desc": "The government unveiled 63 changes in response to community concern, just hours before the final vote was due to take place.",
-        "link": "https://www.sbs.com.au/news/article/controversial-ndis-changes-last-minute-green-light-labor-deal-coalition/js08pvtlm"
+        "title": "Donald Trump spruiks White House makeover as US debt hits $40 trillion",
+        "desc": "The US president has slammed his predecessors as he turned his attention away from the Iran war and America’s record debt to spruik his new granite helipad.",
+        "link": "https://7news.com.au/news/world/donald-trump-spruiks-white-house-makeover-as-us-debt-hits-40-trillion-c-22753362"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Multiple deadly Israeli strikes in Gaza in under 24 hours",
-      "summary": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
+      "headline": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
+      "summary": "The US treasury secretary says allies will need to decide whether they \"are with us or against us\".",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -209,63 +186,23 @@
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Multiple deadly Israeli strikes in Gaza in under 24 hours",
-        "desc": "BBC Verify looks at footage from two deadly strikes in under 24 hours in Gaza.",
-        "link": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "No probe over Israel strike that killed Australian aid worker Zomi Frankcom",
-        "desc": "The military said there was ‘no reasonable suspicion of criminal misconduct’.",
-        "link": "https://7news.com.au/news/no-probe-over-israel-strike-that-killed-australian-aid-worker-zomi-frankcom-c-22749375"
+        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime",
+        "desc": "The US treasury secretary says allies will need to decide whether they \"are with us or against us\".",
+        "link": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Israeli military clears soldiers over Gaza strike that killed Zomi Frankcom",
-        "desc": "The Israel Defense Forces has cleared its personnel of any criminal wrongdoing in the April 2024 strike on a World Central Kitchen convoy in Gaza, where Australian woman Zomi Frankcom was killed.",
-        "link": "https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204"
+        "title": "US urges allies and China to join economic campaign to 'collapse' Iran",
+        "desc": "Donald Trump's latest bid to pressure Tehran is as he comes under increasing pressure at home over a deeply unpopular war.",
+        "link": "https://www.abc.net.au/news/2026-08-21/us-economic-warfare-iran-allies-china/107061544"
        }
       ]
      },
      {
       "id": 3,
-      "headline": "Nick Kyrgios provisionally suspended after confessing to bombshell positive drug test",
-      "summary": "The Australian tennis star says he has felt ‘helpless and alone’ but has taken ‘full responsibility’.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Tennis bad boy Nick Kyrgios tests positive for cocaine as he reveals his secret ban and will 'step away from public life to get myself right'",
-        "desc": "The former Wimbledon finalist has endured a checkered few years after suffering persistent injury, and admitted that the toll they have taken on his career gave 'some context' to his failed test.",
-        "link": "https://www.dailymail.com/sport/tennis/article-16063367/Tennis-bad-boy-Nick-Kyrgios-tests-positive-cocaine-step-away-public-life-right-faces-controversial-end-career-aged-31.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Nick Kyrgios suspended from tennis after testing positive for cocaine",
-        "desc": "Australian reveals ‘huge mistake’ in Instagram post Kyrgios tested positive at ATP 250 event in June Nick Kyrgios has been suspended after testing positive for cocaine, with the 31-year-old Australian revealing on Instagram on Wednesday that he had “made a huge mistake”. The former Wimbledon finalist’s suspension was confirmed by the International Tennis Integrity Agency (ITIA) shortly afterwards.",
-        "link": "https://www.theguardian.com/sport/2026/aug/19/nick-kyrgios-suspended-from-tennis-after-testing-positive-for-cocaine"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Nick Kyrgios provisionally suspended after confessing to bombshell positive drug test",
-        "desc": "The Australian tennis star says he has felt ‘helpless and alone’ but has taken ‘full responsibility’.",
-        "link": "https://7news.com.au/sport/tennis/nick-kyrgios-confesses-to-bombshell-positive-drug-test-im-sorry-c-22748872"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Kim Kardashian wows in string bikini during PDA-filled beach trip with Lewis Hamilton",
-      "summary": "Kim Kardashian posted bikini photos and couple shots with Lewis Hamilton from their tropical family vacation in a new Instagram slideshow post.",
+      "headline": "Key Trump aide Natalie Harp suddenly in spotlight after years behind scenes",
+      "summary": "Democratic Senator Jon Ossoff used a speech to note the closeness of one aide to the president.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -273,25 +210,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Kim Kardashian wows in string bikini during PDA-filled beach trip with Lewis Hamilton",
-        "desc": "Kim Kardashian posted bikini photos and couple shots with Lewis Hamilton from their tropical family vacation in a new Instagram slideshow post.",
-        "link": "https://www.foxnews.com/entertainment/kim-kardashian-wows-string-bikini-during-pda-filled-beach-trip-lewis-hamilton"
-       },
-       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Nicole Kidman embraces her natural curls in a serene snap before slipping into a bikini for a dip in a hot tub as she relaxes during 'trip of a lifetime' £39k Icelandic cruise",
-        "desc": "Nicole Kidman looked simply radiant as she embraced her natural curls in a serene Instagram snap during her 'trip of a lifetime' Icelandic cruise on Tuesday.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16063319/Nicole-Kidman-natural-curls-bikini-dip-hot-tub-39k-Icelandic-cruise.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Trump makes extraordinary intervention as glamorous blonde aide's 'dangerous' secret is exposed in astonishing security leak",
+        "desc": "She has largely unrestricted access to the President as his personal secretary and 'human printer,' remaining close by his side throughout the day.",
+        "link": "https://www.dailymail.com/news/article-16066807/Trump-makes-extraordinary-intervention-glamorous-blonde-aides-dangerous-secret-exposed-astonishing-security-leak.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Key Trump aide Natalie Harp suddenly in spotlight after years behind scenes",
+        "desc": "Democratic Senator Jon Ossoff used a speech to note the closeness of one aide to the president.",
+        "link": "https://www.bbc.co.uk/news/articles/c80nzdjgmk3o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
-      "id": 5,
-      "headline": "ASX set to inch up, Wall Street higher as US flags bond buyback",
-      "summary": "US stocks are ticking higher after the US Treasury Department said it will buy more US government bonds in a move that eased pressure on financial markets worldwide.",
+      "id": 4,
+      "headline": "Sydney Swans crisis deepens as women involved say ‘we fear for our lives’",
+      "summary": "Concerning new details have emerged amid claims there were up to nine different men in the hotel room throughout the night.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -301,23 +238,49 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "ASX set to inch up, Wall Street higher as US flags bond buyback",
-        "desc": "US stocks are ticking higher after the US Treasury Department said it will buy more US government bonds in a move that eased pressure on financial markets worldwide.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-inch-up-wall-street-higher-as-us-flags-bond-buyback-20260820-p60pw9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Why fear of the ‘mad witch’ still pins women down today",
+        "desc": "Centuries after kingly torturers and public stakes targeted self-sufficient women, the lingering legacy of the witch hunts still polices women.",
+        "link": "https://www.theage.com.au/culture/books/why-fear-of-the-mad-witch-still-pins-women-down-today-20260805-p60lpk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "Guardian Australia",
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Sydney Swans crisis deepens as women involved say ‘we fear for our lives’",
+        "desc": "Concerning new details have emerged amid claims there were up to nine different men in the hotel room throughout the night.",
+        "link": "https://7news.com.au/sport/afl/sydney-swans-crisis-deepens-as-women-involved-say-we-fear-for-our-lives-c-22754869"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "The unlikely record-breaking Sydney art show nobody wants to leave",
+      "summary": "The underground art park turned the Art Gallery of NSW into a kids’ haven, smashing records along the way.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
         "lean": "left",
-        "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
-        "desc": "Interest rates, now sitting at about 3.5-3.7%, expected to go up if inflation doesn’t come down to Fed’s 2% target The US treasury is doubling its buyback of government debt in an effort to balance out the bond market as officials at the US Federal Reserve remain divided over how to deal with high inflation. The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this w",
-        "link": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market"
+        "title": "The unlikely record-breaking Sydney art show nobody wants to leave",
+        "desc": "The underground art park turned the Art Gallery of NSW into a kids’ haven, smashing records along the way.",
+        "link": "https://www.theage.com.au/culture/art-and-design/the-unlikely-record-breaking-sydney-art-show-nobody-wants-to-leave-20260817-p60p3c.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Kylie Minogue brings back her 80s corkscrew perm as she celebrates the 25th anniversary of pop record Fever and discusses finally breaking the US",
+        "desc": "Kylie Minogue took inspiration from her past self as she sported a head of corkscrew curls just like the style she favoured in the eighties for a new photoshoot.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16066285/Kylie-Minogue-brings-80s-corkscrew-perm-celebrates-25th-anniversary-pop-record-Fever-discusses-finally-breaking-US.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Donald Trump says no Iran talks planned, shares map showing Hormuz as 'new US territory'",
-      "summary": "Iran has insisted it will not reopen the waterway until the US halts its blockade of Iranian ports.",
+      "headline": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
+      "summary": "European countries and Canada pile on pressure over Israel's plans to expand settlements in a strategically vital part of the occupied West Bank.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -325,18 +288,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East",
-        "desc": "Former National Counterterrorism Center Director Joe Kent is advocating for President Donald Trump to get the U.S. out of the Iran war and remove U.S. troops from the Middle East.",
-        "link": "https://www.foxnews.com/politics/ex-counterterrorism-chief-advocates-trump-walk-away-iran-war-yank-troops-middle-east"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project",
+        "desc": "European countries and Canada pile on pressure over Israel's plans to expand settlements in a strategically vital part of the occupied West Bank.",
+        "link": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Donald Trump says no Iran talks planned, shares map showing Hormuz as 'new US territory'",
-        "desc": "Iran has insisted it will not reopen the waterway until the US halts its blockade of Iranian ports.",
-        "link": "https://www.sbs.com.au/news/article/trump-strait-of-hormuz-us-territory-iran-talks/0i1ye2r6g"
+        "title": "European nations condemn major Israeli settlement plans in West Bank",
+        "desc": "Israeli plans to press ahead with the controversial E1 development would effectively break the West Bank in two and make Palestinian statehood impossible, according to critics of the project.",
+        "link": "https://www.abc.net.au/news/2026-08-21/west-bank-expansion-condemned-e1-plans/107061708"
        }
       ]
      }
@@ -348,58 +311,6 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Governor-general ‘shocked and troubled’ by Swans sexual assault allegation",
-      "summary": "Australia’s Governor-General Sam Mostyn, a former Swans board member, said that sports clubs and the community in general needed to be vigilant about women’s treatment.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "House Democrat accused of sexual assault after admitting to 'consensual' encounter",
-        "desc": "House Democrat Jimmy Gomez faces a sexual assault accusation from a woman interviewed by the House Ethics Committee, disputing his consensual claim.",
-        "link": "https://www.foxnews.com/politics/house-democrat-accused-sexual-assault-after-admitting-consensual-encounter"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Governor-general ‘shocked and troubled’ by Swans sexual assault allegation",
-        "desc": "Australia’s Governor-General Sam Mostyn, a former Swans board member, said that sports clubs and the community in general needed to be vigilant about women’s treatment.",
-        "link": "https://www.theage.com.au/politics/federal/governor-general-shocked-and-troubled-by-swans-sexual-assault-allegation-20260819-p60put.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 8,
-      "headline": "Husband of late MP Peta Murphy gives his verdict on Labor’s gambling reforms",
-      "summary": "Rob Glover says “organisations with a privileged place in Australian life have continued to put their commercial interests ahead of the social responsibilities”.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Critics of Labor’s tax changes claim rents could climb by up to 30%. Here’s why they probably won’t",
-        "desc": "Property experts at National Australia Bank and Ray White say their analysis has been misunderstood. So how high will rents really rise? Get our breaking news email, free app or daily news podcast Headlines claim rents in Australia will surge thanks to Labor’s property tax reforms. Is there any proof? Critics have claimed property investors have no choice but to hike rents by 30% but the experts s",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/20/how-high-will-rents-really-rise-labor-property-tax-reforms"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Husband of late MP Peta Murphy gives his verdict on Labor’s gambling reforms",
-        "desc": "Rob Glover says “organisations with a privileged place in Australian life have continued to put their commercial interests ahead of the social responsibilities”.",
-        "link": "https://www.theage.com.au/politics/federal/husband-of-late-mp-peta-murphy-gives-his-verdict-on-labor-s-gambling-reforms-20260819-p60pkd.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 9,
       "headline": "As Labor’s NDIS overhaul passes, Mark Butler says states have more work to do",
       "summary": "Health Minister Mark Butler said new systems for older children and adults would be running by 2028, as new laws allow 240,000 people to be removed from the scheme.",
       "divergent": null,
@@ -409,25 +320,63 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "The NDIS is undergoing a major overhaul. This is what the changes could mean for you",
+        "desc": "Some participants could lose 50% of their budget for paying carers to accompany them to job or social programs Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The national disability insurance scheme, one of Australia’s most ambitious social schemes, is undergoing a significant overhaul as the Albanese government looks to rein in c",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/19/the-ndis-is-undergoing-a-major-overhaul-this-is-what-the-changes-could-mean-for-you"
+       },
+       {
         "outlet": "The Age Federal Politics",
         "lean": "left",
         "title": "As Labor’s NDIS overhaul passes, Mark Butler says states have more work to do",
         "desc": "Health Minister Mark Butler said new systems for older children and adults would be running by 2028, as new laws allow 240,000 people to be removed from the scheme.",
         "link": "https://www.theage.com.au/politics/federal/labor-floats-thriving-teens-scheme-as-laws-pass-to-remove-240-000-from-ndis-20260818-p60pgl.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
+       }
+      ]
+     },
+     {
+      "id": 8,
+      "headline": "Angel dad takes major new role after daughter’s killing sparks sweeping illegal alien crackdown",
+      "summary": "Angel Dad Joe Abraham, whose daughter Katie Abraham was killed in an alleged illegal alien hit-and-run, will lead ICE's VOICE office as executive director.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
-        "outlet": "Guardian AU Politics",
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Angel dad takes major new role after daughter’s killing sparks sweeping illegal alien crackdown",
+        "desc": "Angel Dad Joe Abraham, whose daughter Katie Abraham was killed in an alleged illegal alien hit-and-run, will lead ICE's VOICE office as executive director.",
+        "link": "https://www.foxnews.com/politics/angel-dad-takes-major-new-role-after-daughters-killing-sparks-sweeping-illegal-alien-crackdown"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "As Hanson and Taylor change tack, the PM can maintain a steady course",
+      "summary": "One Nation and the Coalition are repositioning themselves for the election to come. But Anthony Albanese’s still in control of the political narrative.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Controversial NDIS bill passes Senate with ‘substantial’ amendments as Labor and Coalition strike deal",
-        "desc": "David Pocock says legislation still includes ‘indiscriminate cut’ impacting thousands of participants but will pass lower house on Wednesday Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The government’s controversial NDIS bill will pass after “substantial” amendments were agreed to in a deal between Labor and the Coalition, with",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/18/controversial-ndis-bill-undergoes-substantial-amendments-as-labor-and-coalition-strike-deal"
+        "title": "As Hanson and Taylor change tack, the PM can maintain a steady course",
+        "desc": "One Nation and the Coalition are repositioning themselves for the election to come. But Anthony Albanese’s still in control of the political narrative.",
+        "link": "https://www.theage.com.au/politics/federal/as-hanson-and-taylor-change-tack-the-pm-can-maintain-a-steady-course-20260819-p60pvm.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Clarence Thomas chokes up as he reveals promise he made after grandparents’ sudden deaths",
-      "summary": "Clarence Thomas choked up recalling a promise he made after his grandparents' deaths and Thomas Sowell's influence on his thinking about self-reliance.",
+      "headline": "Albanese is manipulating his rivals to wage war on One Nation. It’s unlikely to work",
+      "summary": "This week, the full parliamentary power of the Albanese government was on display. I’m not sure I can remember a week in which a government struck so many deals with the opposition’s help.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -435,18 +384,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Clarence Thomas chokes up as he reveals promise he made after grandparents’ sudden deaths",
-        "desc": "Clarence Thomas choked up recalling a promise he made after his grandparents' deaths and Thomas Sowell's influence on his thinking about self-reliance.",
-        "link": "https://www.foxnews.com/politics/clarence-thomas-chokes-reveals-promise-made-after-grandparents-sudden-deaths"
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Albanese is manipulating his rivals to wage war on One Nation. It’s unlikely to work",
+        "desc": "This week, the full parliamentary power of the Albanese government was on display. I’m not sure I can remember a week in which a government struck so many deals with the opposition’s help.",
+        "link": "https://www.theage.com.au/politics/federal/albanese-is-manipulating-his-rivals-to-wage-war-on-one-nation-it-s-unlikely-to-work-20260820-p60q0b.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East",
-      "summary": "Former National Counterterrorism Center Director Joe Kent is advocating for President Donald Trump to get the U.S. out of the Iran war and remove U.S. troops from the Middle East.",
+      "headline": "How did we get here? The 20-year journey to $1t in debt",
+      "summary": "It’s taken 20 years, two crises, a demographic turnaround and demand for more services to push Australian government debt beyond $1 trillion.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -454,18 +403,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Ex-counterterrorism chief advocates for Trump to 'walk away from' Iran war, yank troops out of Middle East",
-        "desc": "Former National Counterterrorism Center Director Joe Kent is advocating for President Donald Trump to get the U.S. out of the Iran war and remove U.S. troops from the Middle East.",
-        "link": "https://www.foxnews.com/politics/ex-counterterrorism-chief-advocates-trump-walk-away-iran-war-yank-troops-middle-east"
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "How did we get here? The 20-year journey to $1t in debt",
+        "desc": "It’s taken 20 years, two crises, a demographic turnaround and demand for more services to push Australian government debt beyond $1 trillion.",
+        "link": "https://www.theage.com.au/politics/federal/how-did-we-get-here-the-20-year-journey-to-1t-in-debt-20260820-p60q0i.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "DeSantis suggests ally appointed to Palm Beach post could face death penalty over child sex abuse charges",
-      "summary": "Florida Gov. Ron DeSantis says former ally Michael Caruso faces a \"world of hurt\" after child sex abuse charges, noting the state's death penalty law.",
+      "headline": "Dem mayor torches DNC in scathing letter for 'abandoning' Black voters after convention snub",
+      "summary": "Atlanta Mayor accused DNC of “abandoning\" the South and Black voters in scathing letter to national party leadership after Atlanta got cut from hosting the 2028 Democratic National Convention.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -475,9 +424,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "DeSantis suggests ally appointed to Palm Beach post could face death penalty over child sex abuse charges",
-        "desc": "Florida Gov. Ron DeSantis says former ally Michael Caruso faces a \"world of hurt\" after child sex abuse charges, noting the state's death penalty law.",
-        "link": "https://www.foxnews.com/politics/desantis-suggests-ally-appointed-palm-beach-post-could-face-death-penalty-child-sex-abuse-charges"
+        "title": "Dem mayor torches DNC in scathing letter for 'abandoning' Black voters after convention snub",
+        "desc": "Atlanta Mayor accused DNC of “abandoning\" the South and Black voters in scathing letter to national party leadership after Atlanta got cut from hosting the 2028 Democratic National Convention.",
+        "link": "https://www.foxnews.com/politics/dem-mayor-torches-dnc-scathing-letter-abandoning-black-voters-2028-convention-snub"
        }
       ]
      }
@@ -489,8 +438,34 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Google Pixel 11 series review: Is the magic fading?",
-      "summary": "Google's new Pixels make some compromises but still manage to be good phones.",
+      "headline": "Framework says it s addressing a BIOS update that bricked some of its older laptops",
+      "summary": "The 2023 Framework Laptop 13 with AMD Ryzen 7040-series chips. | Photo by Amelia Holowaty Krales / The Verge Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework's ",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Framework says it s addressing a BIOS update that bricked some of its older laptops",
+        "desc": "The 2023 Framework Laptop 13 with AMD Ryzen 7040-series chips. | Photo by Amelia Holowaty Krales / The Verge Some Framework Laptop 13 owners with last-gen AMD chips have reported that a recent BIOS update is bricking their laptops on both Windows and Linux. The BIOS update causing this issue is version 3.20 for Ryzen 7040-series mainboards, released back in July and still available on Framework's ",
+        "link": "https://www.theverge.com/gadgets/982800/framework-laptop-13-amd-7040-bios-320-bricking-warranty"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
+        "desc": "Framework says it's replacing some out-of-warranty AMD mainboards.",
+        "link": "https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/"
+       }
+      ]
+     },
+     {
+      "id": 14,
+      "headline": "Roblox must make changes after failing to block adults creeping on kids",
+      "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -500,49 +475,23 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Google Pixel 11 series review: Is the magic fading?",
-        "desc": "Google's new Pixels make some compromises but still manage to be good phones.",
-        "link": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/"
-       },
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Google’s Pixel 11 Pro Fold feels like the end of an era",
-        "desc": "The Pixel 11 Pro Fold has a square screen and a very obvious crease. The foldable phone market is in the middle of a huge transformation, but no one told Google. Last year, Samsung transformed its Galaxy Z Fold 7 with a dramatically thinner design. This year, it made its phones thinner and lighter again, almost eliminated the crease, and introduced a new passport-sized form factor that feels like ",
-        "link": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review"
-       }
-      ]
-     },
-     {
-      "id": 14,
-      "headline": "Meta hooked children on Facebook and Instagram, US court hears",
-      "summary": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Meta hooked children on Facebook and Instagram, US court hears",
-        "desc": "Meta argued social media addiction does not exist, as a trial stemming from a major lawsuit brought by US states started.",
-        "link": "https://www.bbc.co.uk/news/articles/cly5r7vr7q1o?at_medium=RSS&at_campaign=rss"
+        "title": "Roblox must make changes after failing to block adults creeping on kids",
+        "desc": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
+        "link": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/"
        },
        {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "Social media on trial as $200bn case against Facebook and Instagram begins",
-        "desc": "Twenty-nine US states are seeking huge damages, claiming Meta’s platforms were addictive by design In 1994, more than 40 US states came together to sue one of the most powerful industries on Earth: big tobacco. The suits brought together diverse claims centred on tobacco companies’ misleading advertising and contribution to a mounting public health crisis. They ended in a negotiated settlement wit",
-        "link": "https://www.theguardian.com/technology/2026/aug/18/meta-facebook-instagram-trial"
+        "title": "Roblox commits to privacy overhaul after eSafety discovers adults can contact children via gaming platform",
+        "desc": "Regulator says verifiable safety measures are ‘critical’ to the online service’s viability Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Roblox has committed to making changes to its online gaming platform after Australia’s eSafety commissioner discovered adults were still able to see child accounts and send connection requests w",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/20/roblox-esafety-commissioner-children-adults-ntwnfb"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "OpenAI makes ChatGPT less 'human' for teens in new safety update",
-      "summary": "OpenAI insisted this was not in response to a particular issue with children believing ChatGPT to be alive.",
+      "headline": "Mark Zuckerberg bought an Irish castle",
+      "summary": "Mark Zuckerberg. | Image: Cath Virginia / The Verge; Getty Images Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and its 440-acre estate in Ireland \"several weeks ago,\" according to The Irish Times. While the exact price of the purchase is unclear, the family could have paid \"anywhere between €20 million and €30 million\" for the ",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -550,25 +499,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "OpenAI launches ChatGPT for Teens with stronger safeguards",
-        "desc": "Teen version is intended for children aged 13 to 17 and includes content protections on self-harm and sexual chats OpenAI is launching a version of ChatGPT designed for teenagers – the first generation to grow up with artificial intelligence – who are already using it for schoolwork, questions about daily life and even companionship. The San Francisco-based company says ChatGPT for Teens, which la",
-        "link": "https://www.theguardian.com/technology/2026/aug/18/openai-chatgpt-for-teens"
-       },
-       {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update",
-        "desc": "OpenAI insisted this was not in response to a particular issue with children believing ChatGPT to be alive.",
-        "link": "https://www.bbc.co.uk/news/articles/czxqz91n5n8o?at_medium=RSS&at_campaign=rss"
+        "title": "Mark Zuckerberg bought an Irish castle",
+        "desc": "Mark Zuckerberg. | Image: Cath Virginia / The Verge; Getty Images Meta CEO Mark Zuckerberg now owns an actual castle. Zuckerberg and his wife Priscilla Chan bought Strancally Castle and its 440-acre estate in Ireland \"several weeks ago,\" according to The Irish Times. While the exact price of the purchase is unclear, the family could have paid \"anywhere between €20 million and €30 million\" for the ",
+        "link": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Google Gemini is getting a dedicated student hub",
-      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates and deadlines to your Google Calendar based on your syll",
+      "headline": "Australia says Roblox hasn t fixed its child predator problem",
+      "summary": "Roblox is promising more changes to its child safety features following testing from Australia's online safety regulator, eSafety. eSafety has been looking into concerns that the company hasn't been in compliance with Australia's Online Safety Act, including \"allegedly failing to have sufficient measures in place to prevent contact between adults and children under 16.\" While Roblox has put some n",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -578,16 +520,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Google Gemini is getting a dedicated student hub",
-        "desc": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates and deadlines to your Google Calendar based on your syll",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub"
+        "title": "Australia says Roblox hasn t fixed its child predator problem",
+        "desc": "Roblox is promising more changes to its child safety features following testing from Australia's online safety regulator, eSafety. eSafety has been looking into concerns that the company hasn't been in compliance with Australia's Online Safety Act, including \"allegedly failing to have sufficient measures in place to prevent contact between adults and children under 16.\" While Roblox has put some n",
+        "link": "https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Watch Valve set up the Steam Frame in its own leaked videos",
-      "summary": "Valve just leaked several new videos showing the Steam Frame's unboxing, setup process, and various accessories. The videos apparently appeared on the ARM Steam client following an update, but they were \"quickly pulled after that,\" according to the Steam Hardware Updates account on X. The Steam Frame is Valve's virtual-reality headset that can stream games from a PC or play them locally. Valve fir",
+      "headline": "FCC officially decides gigabit speeds are too good for you",
+      "summary": "Another day, another sad thing to report about our compromised Federal Communications Commission. Chairman Brendan Carr has followed through on his 2025 threat to kill long-term broadband speed goals established during the Biden administration, which aimed for eventually getting us to gigabit download and half-gigabit upload speeds. How dare we dream of spreading great download and upload speeds a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -597,16 +539,16 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Watch Valve set up the Steam Frame in its own leaked videos",
-        "desc": "Valve just leaked several new videos showing the Steam Frame's unboxing, setup process, and various accessories. The videos apparently appeared on the ARM Steam client following an update, but they were \"quickly pulled after that,\" according to the Steam Hardware Updates account on X. The Steam Frame is Valve's virtual-reality headset that can stream games from a PC or play them locally. Valve fir",
-        "link": "https://www.theverge.com/games/982406/valve-steam-frame-setup-unboxing-leaked-videos"
+        "title": "FCC officially decides gigabit speeds are too good for you",
+        "desc": "Another day, another sad thing to report about our compromised Federal Communications Commission. Chairman Brendan Carr has followed through on his 2025 threat to kill long-term broadband speed goals established during the Biden administration, which aimed for eventually getting us to gigabit download and half-gigabit upload speeds. How dare we dream of spreading great download and upload speeds a",
+        "link": "https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "The wearable future is stuck in weird, experimental, existential limbo",
-      "summary": "AI on the wrist is one such experimental feature. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past week, I've been testing the Google Pixel Watch 5. In many ways, it's a typical, modern smartwatch. In others, it feels li",
+      "headline": "Is Vine back? Short-form video-sharing app Divine opens to public",
+      "summary": "The app lets users create six-second looping videos and hosts more than two million classic videos.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -614,11 +556,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "The wearable future is stuck in weird, experimental, existential limbo",
-        "desc": "AI on the wrist is one such experimental feature. This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. For the past week, I've been testing the Google Pixel Watch 5. In many ways, it's a typical, modern smartwatch. In others, it feels li",
-        "link": "https://www.theverge.com/column/982359/optimizer-wearable-future-google-ai"
+        "title": "Is Vine back? Short-form video-sharing app Divine opens to public",
+        "desc": "The app lets users create six-second looping videos and hosts more than two million classic videos.",
+        "link": "https://www.bbc.co.uk/news/articles/c3r05g378w4o?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -630,41 +572,34 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Treasury yields hit multi-decade highs amid surging national debt",
-      "summary": "Treasury yields hit multi-decade highs as the U.S. national debt nears $40 trillion, with the federal budget deficit projected at $2.1 trillion this year.",
+      "headline": "Evergrande founder sentenced to life in prison by Chinese court",
+      "summary": "Hui Ka Yan, who had faced eight charges including misuse of funds and illegally taking public deposits, pleaded guilty in April, following China Evergrande's collapse five years ago after a quarter of a century in operation.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX set to inch up, Wall Street higher as US flags bond buyback; Moderna shares rocket after cancer vaccine study results",
-        "desc": "US stocks are ticking higher after the US Treasury Department said it will buy more US government bonds in a move that eased pressure on financial markets worldwide.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-inch-up-wall-street-higher-as-us-flags-bond-buyback-20260820-p60pw9.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
-        "desc": "Interest rates, now sitting at about 3.5-3.7%, expected to go up if inflation doesn’t come down to Fed’s 2% target The US treasury is doubling its buyback of government debt in an effort to balance out the bond market as officials at the US Federal Reserve remain divided over how to deal with high inflation. The yield rate on 10-year, 20-year and 30-year treasury notes all hit 20-year highs this w",
-        "link": "https://www.theguardian.com/business/2026/aug/19/us-treasury-doubles-debt-buyback-bond-market"
-       },
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Treasury yields hit multi-decade highs amid surging national debt",
-        "desc": "Treasury yields hit multi-decade highs as the U.S. national debt nears $40 trillion, with the federal budget deficit projected at $2.1 trillion this year.",
-        "link": "https://www.foxbusiness.com/economy/treasury-yields-hit-multi-decade-highs-amid-surging-national-debt"
+        "title": "China sentences founder of world's most-indebted property developer to life in prison for fraud, bribery",
+        "desc": "Hui Ka Yan received a life sentence as China Evergrande Group was fined over $2.3 billion for inflating assets and concealing massive liabilities.",
+        "link": "https://www.foxbusiness.com/business-leaders/china-sentences-founder-worlds-most-indebted-property-developer-life-prison-fraud-bribery"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Evergrande founder sentenced to life in prison by Chinese court",
+        "desc": "Hui Ka Yan, who had faced eight charges including misuse of funds and illegally taking public deposits, pleaded guilty in April, following China Evergrande's collapse five years ago after a quarter of a century in operation.",
+        "link": "https://www.abc.net.au/news/2026-08-20/evergrande-founder-sentenced-to-life-in-prison-china-guangzhou/107060008"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "Fish feed giant Skretting fires back over Facebook claims of contamination",
-      "summary": "The world's largest supplier of fish feed products fires back over a former employee's claim that mould and pigeon poo are contaminating pellets at a factory supplying Tasmania's salmon industry.",
+      "headline": "Australia's debt hits $1 trillion as US debt passes $US40 trillion threshold — as it happened",
+      "summary": "Australia's debt has hit $1 trillion at the same time the United States sees its debt pass $US40 trillion.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -672,18 +607,25 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "How much has the national debt grown under President Trump?",
+        "desc": "The national debt hits $40 trillion as Social Security, Medicare, interest rates and tax cuts drive federal deficits higher under Trump's watch.",
+        "link": "https://www.foxbusiness.com/politics/how-much-has-national-debt-grown-under-president-trump"
+       },
+       {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Fish feed giant Skretting fires back over Facebook claims of contamination",
-        "desc": "The world's largest supplier of fish feed products fires back over a former employee's claim that mould and pigeon poo are contaminating pellets at a factory supplying Tasmania's salmon industry.",
-        "link": "https://www.abc.net.au/news/2026-08-20/fish-feed-giant-skretting-facebook-claims-of-contamination/107053016"
+        "title": "Australia's debt hits $1 trillion as US debt passes $US40 trillion threshold — as it happened",
+        "desc": "Australia's debt has hit $1 trillion at the same time the United States sees its debt pass $US40 trillion.",
+        "link": "https://www.abc.net.au/news/2026-08-20/asx-markets-business-news-live-updates-thursday-20-august/107056572"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Movie theater group reverses course, urges California AG to settle $110B Paramount-Warner Bros lawsuit",
-      "summary": "Cinema United reversed its stance on Paramount Skydance's $110 billion acquisition of Warner Bros. Discovery, urging settlement talks with Rob Bonta.",
+      "headline": "ASX set to slide as Wall Street declines",
+      "summary": "A rise in oil prices is sending worries about inflation and yields in the bond market higher, erasing some of the relief the US Treasury Department created the day before.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -691,37 +633,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Movie theater group reverses course, urges California AG to settle $110B Paramount-Warner Bros lawsuit",
-        "desc": "Cinema United reversed its stance on Paramount Skydance's $110 billion acquisition of Warner Bros. Discovery, urging settlement talks with Rob Bonta.",
-        "link": "https://www.foxbusiness.com/media/movie-theater-group-reverses-course-urges-california-ag-settle-110b-paramount-warner-bros-lawsuit"
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set to slide as Wall Street declines",
+        "desc": "A rise in oil prices is sending worries about inflation and yields in the bond market higher, erasing some of the relief the US Treasury Department created the day before.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-slide-as-wall-street-declines-20260821-p60q8o.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "Car insurance costs are rising again, and drivers in over 30 states could pay more",
-      "summary": "Car insurance premiums rose 1% in early 2026, and 32 states are expected to see increases by year's end as repair costs and weather drive claims higher.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Car insurance costs are rising again, and drivers in over 30 states could pay more",
-        "desc": "Car insurance premiums rose 1% in early 2026, and 32 states are expected to see increases by year's end as repair costs and weather drive claims higher.",
-        "link": "https://www.foxbusiness.com/economy/car-insurance-costs-rising-again-drivers-over-30-states-could-pay-more"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Scam payments lead to an Australian business and its Israeli owner",
-      "summary": "An Australian e-learning website was used as a front for scammers selling fraudulent investments, an ABC investigation reveals.",
+      "headline": "'Making trouble': Court unseals Murdoch family succession documents",
+      "summary": "Newly unsealed court documents reveal how the world's biggest family succession drama played out in court, and the crucial role an Australian executive played.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -731,16 +654,16 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Scam payments lead to an Australian business and its Israeli owner",
-        "desc": "An Australian e-learning website was used as a front for scammers selling fraudulent investments, an ABC investigation reveals.",
-        "link": "https://www.abc.net.au/news/2026-08-20/fake-abc-scam-money-trail-leads-to-global-network/106895388"
+        "title": "'Making trouble': Court unseals Murdoch family succession documents",
+        "desc": "Newly unsealed court documents reveal how the world's biggest family succession drama played out in court, and the crucial role an Australian executive played.",
+        "link": "https://www.abc.net.au/news/2026-08-21/rupert-murdoch-nevada-trust-battle-court-documents-unsealed/107059904"
        }
       ]
      },
      {
-      "id": 24,
-      "headline": "Can Andy Burnham rewire the ‘Treasury brain’ to boost growth?",
-      "summary": "PM wants to reduce department’s stranglehold on public purse and bring long-term thinking to economic policy Andy Burnham is far from the first prime minister to dream of taming the power of the mighty Treasury. Boris Johnson all but forced the resignation of Sajid Javid by handpicking his team; Margaret Thatcher favoured her economic adviser Alan Walters over Nigel Lawson, prompting the latter’s ",
+      "id": 23,
+      "headline": "I’ve been job hunting for months with no luck. Is this strategy worth a try?",
+      "summary": "The maxim that “it’s not what you know but who you know” has been around for a very long time, and I’m sad to say it’s probably never been wrong.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -748,11 +671,30 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
+        "outlet": "The Age Business",
         "lean": "left",
-        "title": "Can Andy Burnham rewire the ‘Treasury brain’ to boost growth?",
-        "desc": "PM wants to reduce department’s stranglehold on public purse and bring long-term thinking to economic policy Andy Burnham is far from the first prime minister to dream of taming the power of the mighty Treasury. Boris Johnson all but forced the resignation of Sajid Javid by handpicking his team; Margaret Thatcher favoured her economic adviser Alan Walters over Nigel Lawson, prompting the latter’s ",
-        "link": "https://www.theguardian.com/politics/2026/aug/19/can-andy-burnham-tame-the-power-of-the-treasury-to-boost-growth"
+        "title": "I’ve been job hunting for months with no luck. Is this strategy worth a try?",
+        "desc": "The maxim that “it’s not what you know but who you know” has been around for a very long time, and I’m sad to say it’s probably never been wrong.",
+        "link": "https://www.theage.com.au/business/workplace/i-ve-been-job-hunting-for-months-with-no-luck-is-this-strategy-worth-a-try-20260820-p60q2v.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "The GST carve-up is cooked, but we need to stop piling onto WA",
+      "summary": "WA seems to have bagged a great deal, but it’s not quite that simple.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "The GST carve-up is cooked, but we need to stop piling onto WA",
+        "desc": "WA seems to have bagged a great deal, but it’s not quite that simple.",
+        "link": "https://www.theage.com.au/business/the-economy/the-gst-carve-up-is-cooked-but-we-need-to-stop-piling-onto-wa-20260818-p60pd9.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -764,8 +706,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Inter close in on £30m deal for Liverpool's Jones",
-      "summary": "Italian champions Inter Milan are closing in on a deal worth 35m euros (£30m) for Liverpool midfielder Curtis Jones.",
+      "headline": "US Open offers biggest prize fund in Grand Slam history",
+      "summary": "The US Open will offer the biggest prize fund in Grand Slam history with a total of $108 million (£79.2m) on offer - marking a 20% increase on last year.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -775,23 +717,23 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Curtis Jones set to leave Liverpool as Inter submit £30m offer for midfielder",
-        "desc": "Homegrown star has been longstanding target for Italians Jones in the final year of his contract at Anfield Inter have submitted an offer of €30m rising to €35m (£30m) for Curtis Jones with the Liverpool midfielder expected to leave his boyhood club after a 16-year association. Jones has been a target for Inter since January and was the subject of a failed €25m bid from them in June. Liverpool val",
-        "link": "https://www.theguardian.com/football/2026/aug/19/inter-liverpool-30m-curtis-jones-transfer-window-premier-league"
+        "title": "Players welcome record $108m US Open prize fund and will not stage protests",
+        "desc": "Total prize pool for tournament will be $108m Players guaranteed $140,000 for making first round The world’s leading tennis players have welcomed the US Open’s announcement of a 20% increase in prize money and agreed not to continue their protests at this year’s tournament as a result. The build up to both the French Open and Wimbledon was overshadowed earlier this year by a media boycott as the p",
+        "link": "https://www.theguardian.com/sport/2026/aug/20/us-open-2026-prize-money-tennis"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Inter close in on £30m deal for Liverpool's Jones",
-        "desc": "Italian champions Inter Milan are closing in on a deal worth 35m euros (£30m) for Liverpool midfielder Curtis Jones.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/clye43vge5jo?at_medium=RSS&at_campaign=rss"
+        "title": "US Open offers biggest prize fund in Grand Slam history",
+        "desc": "The US Open will offer the biggest prize fund in Grand Slam history with a total of $108 million (£79.2m) on offer - marking a 20% increase on last year.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c70g2zx0rp5o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Athletics coach believed missing is in jail for sexual assault",
-      "summary": "English athletics coach Leon Baptiste was given a 10-month prison sentence in Morocco for sexually assaulting a minor.",
+      "headline": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
+      "summary": "New Newcastle United boss Matthias Jaissle says having his playing career ended by injury at the age of 25 showed him that adversity can lead to opportunity.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -799,25 +741,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Athletics coach believed missing is in jail for sexual assault",
-        "desc": "English athletics coach Leon Baptiste was given a 10-month prison sentence in Morocco for sexually assaulting a minor.",
-        "link": "https://www.bbc.co.uk/sport/athletics/articles/c204wq61e19o?at_medium=RSS&at_campaign=rss"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Confident Matthias Jaissle asks Newcastle to ‘avoid the negativity from outside’",
+        "desc": "German coach says he has ‘full confidence’ in his squad Plans for new £190m training facility also announced Matthias Jaissle has insisted that Newcastle’s new crop of “under pressure” young players command his “full confidence” and hopes that supporters and reporters will start exhibiting similar belief. Eddie Howe’s successor is preparing for his first Premier League game at St James’ Park on Su",
+        "link": "https://www.theguardian.com/football/2026/aug/20/confident-matthias-jaissle-asks-newcastle-to-avoid-the-negativity-from-outside"
        },
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Season over for five players as Sydney take action over alleged sexual assault",
-        "desc": "The Swans have handed down their punishment independent of the ongoing police investigation.",
-        "link": "https://7news.com.au/sport/afl/season-over-for-five-players-as-sydney-take-action-over-alleged-sexual-assault-c-22738407"
+        "title": "Jaissle on pain which set him on path to Newcastle and speaking with Howe",
+        "desc": "New Newcastle United boss Matthias Jaissle says having his playing career ended by injury at the age of 25 showed him that adversity can lead to opportunity.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c171k9kd94zo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Sydney bosses respond to questions about star players’ behaviour: ‘Deeply ashamed’",
-      "summary": "‘We know that many people are hurting.’",
+      "headline": "Rider 'nearly hit' by car on day one of Tour of Britain Women",
+      "summary": "Australian rider Maeve Plouffe says she narrowly avoided being hit by a car during the first stage of the Tour Of Britain Women.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -827,61 +769,23 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Five Sydney Swans players suspended for rest of AFL season say they are ‘deeply sorry’",
-        "desc": "Bice, Blakey, Heeney, Jordon and Warner hit by suspensions None of the five players have been arrested or charged Five Sydney Swans players have said they are “deeply sorry” after they were suspended for the rest of the AFL season. The club stood down players Riley Bice, Nick Blakey, Isaac Heeney, James Jordon and Chad Warner on Wednesday morning. None of the men have been arrested or charged, but",
-        "link": "https://www.theguardian.com/sport/2026/aug/19/sydney-swans-players-sanctions-stood-down-rest-of-afl-season-ntwnfb"
+        "title": "Australian rider says she was nearly hit by car at Tour of Britain Women",
+        "desc": "Maeve Plouffe says incident on Wednesday was ‘scary’ Josh Tarling to ride in Vuelta in memory of brother Fin The Australian rider Maeve Plouffe has said she was nearly hit by a non-race car during the opening stage of the Tour of Britain Women. With cycling still coming to terms with the death at the Volta a Portugal of the 19-year-old British rider Finlay Tarling, killed last week in a collision ",
+        "link": "https://www.theguardian.com/sport/2026/aug/20/australian-rider-says-she-was-nearly-hit-by-car-at-tour-of-britain-women-cycling"
        },
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Sydney bosses respond to questions about star players’ behaviour: ‘Deeply ashamed’",
-        "desc": "‘We know that many people are hurting.’",
-        "link": "https://7news.com.au/sport/afl/watch-live-sydney-face-the-media-after-five-players-banned-for-breaching-club-standards-c-22745554"
+        "title": "Rider 'nearly hit' by car on day one of Tour of Britain Women",
+        "desc": "Australian rider Maeve Plouffe says she narrowly avoided being hit by a car during the first stage of the Tour Of Britain Women.",
+        "link": "https://www.bbc.co.uk/sport/cycling/articles/cp3rg3x0e7wo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Robinson and Tongue guide England to strong start against Pakistan",
-      "summary": "Ollie Robinson and Josh Tongue both took five-wicket hauls to put England in early control of the opening Test against Pakistan at Headingley, as the home side closed on 112-2 at stumps on day one, just 59 runs behind the tourists' first-innings total of 171.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Robinson and Tongue guide England to strong start against Pakistan",
-        "desc": "Ollie Robinson and Josh Tongue both took five-wicket hauls to put England in early control of the opening Test against Pakistan at Headingley, as the home side closed on 112-2 at stumps on day one, just 59 runs behind the tourists' first-innings total of 171.",
-        "link": "https://www.bbc.co.uk/sport/cricket/videos/cqjxk8y5jl0o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Second rider killed in Manx Grand Prix qualifying",
-      "summary": "The 37-year-old dies in a crash at Doran's Bend during Wednesday afternoon's session.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Second rider killed in Manx Grand Prix qualifying",
-        "desc": "The 37-year-old dies in a crash at Doran's Bend during Wednesday afternoon's session.",
-        "link": "https://www.bbc.co.uk/news/articles/cre4yxgq2wjo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Fifth Fifa vice-president turns against Infantino, saying he has ‘lost confidence’ in him",
-      "summary": "Hungary’s Sandor Csanyi highly critical of Fifa president He cites dismissal of COO Kevin Lamour as ‘final straw’ Gianni Infantino has lost the support of another one of Fifa’s vice-presidents, with the Hungarian football federation chief, Sandor Csanyi, criticising the president’s “professional judgment, ethical standards and leadership”. In an explosive letter sent to Infantino on Tuesday, which",
+      "headline": "Book publisher presses pause as sponsors shun Isaac Heeney amid Sydney Swans scandal",
+      "summary": "‘We view this matter seriously and believe that the women involved deserve respect and support.’",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -891,9 +795,61 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Fifth Fifa vice-president turns against Infantino, saying he has ‘lost confidence’ in him",
-        "desc": "Hungary’s Sandor Csanyi highly critical of Fifa president He cites dismissal of COO Kevin Lamour as ‘final straw’ Gianni Infantino has lost the support of another one of Fifa’s vice-presidents, with the Hungarian football federation chief, Sandor Csanyi, criticising the president’s “professional judgment, ethical standards and leadership”. In an explosive letter sent to Infantino on Tuesday, which",
-        "link": "https://www.theguardian.com/football/2026/aug/19/fifth-fifa-vice-president-turns-against-infantino-saying-he-has-lost-confidence-in-him"
+        "title": "Isaac Heeney dumped as face of own company amid Sydney Swans commercial fallout",
+        "desc": "Heeney’s name and image removed from 5th Quarter Camp promotions Book stores stop sale of children’s series Little Isaac Footy Fever A commercial recalibration around the Sydney Swans and their five stood-down players has begun, after Isaac Heeney was barred from appearing with once proud brands and bookshops spent Thursday morning removing the star’s books from shelves. The decision by the Swans ",
+        "link": "https://www.theguardian.com/sport/2026/aug/20/isaac-heeney-dropped-colgate-telstra-book-deal-sydney-swans-incident-ntwnfb"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Book publisher presses pause as sponsors shun Isaac Heeney amid Sydney Swans scandal",
+        "desc": "‘We view this matter seriously and believe that the women involved deserve respect and support.’",
+        "link": "https://7news.com.au/sport/afl/book-publisher-presses-pause-as-sponsors-shun-isaac-heeney-amid-sydney-swans-scandal-c-22752908"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Socceroos star Alessandro Circati seals big-money move Benfica after breakout World Cup",
+      "summary": "The 22-year-old said it was a ‘huge honour’ to join the new club.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Socceroos star Alessandro Circati seals big-money move Benfica after breakout World Cup",
+        "desc": "The 22-year-old said it was a ‘huge honour’ to join the new club.",
+        "link": "https://7news.com.au/sport/soccer/socceroos-star-alessandro-circati-seals-big-money-move-benfica-after-breakout-world-cup-c-22750579"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "‘A huge honour’: Socceroos World Cup star Alessandro Circati seals move to Benfica",
+        "desc": "Defender completes transfer for reported fee of 20m euros ($33m) Ten Australian players have now made post-World Cup moves Young Socceroo Alessandro Circati has become the latest Australian international to be snapped up in a money-spinning European transfer, as he hailed his move from Parma to Benfica as a “privilege”. Following Lucas Herrington’s move from the MLS to become Australia’s only Prem",
+        "link": "https://www.theguardian.com/football/2026/aug/20/alessandro-circati-benfica-portugal-primeira-liga-transfer-news-move"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Brook shines as England take control against Pakistan",
+      "summary": "WWatch highlights as Harry Brook shines in the Headingley gloom as England build a commanding 195-run lead over Pakistan on a shortened second day of the first Test.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Brook shines as England take control against Pakistan",
+        "desc": "WWatch highlights as Harry Brook shines in the Headingley gloom as England build a commanding 195-run lead over Pakistan on a shortened second day of the first Test.",
+        "link": "https://www.bbc.co.uk/sport/cricket/videos/c62xjkyd7dzo?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -905,8 +861,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Project Hail Mary Directors Set Next Sci-Fi Novel Adaptation At Universal",
-      "summary": "Project Hail Mary directors set their next sci-fi novel adaptation at Universal after their previous movie's $684 million success at the box office.",
+      "headline": "Netflix & AMC Studios Forge Co-Production Agreement With Shane Black’s ‘Bannerman’ As First Series",
+      "summary": "Netflix is now in the series co-production business. The streamer has made a deal with AMC Studios to jointly develop and produce original series, believed to be the first of its kind for the global platform. The first greenlight to come out of the arrangement is drama Bannerman, from Shane Black (Lethal Weapon) and Craig […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -914,25 +870,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Project Hail Mary Directors Set Next Sci-Fi Novel Adaptation At Universal",
-        "desc": "Project Hail Mary directors set their next sci-fi novel adaptation at Universal after their previous movie's $684 million success at the box office.",
-        "link": "https://screenrant.com/universal-paradox-inc-movie-adaptation-development-lord-miller/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Daniel Roher, Lord Miller Set Universal Pictures Adaptation Of Forrest Brazeal Novel ‘Paradox Inc.’",
-        "desc": "EXCLUSIVE: Lord Miller, the production shingle for Academy Award-winning Project Hail Mary helmers Phil Lord and Christopher Miller, is set to produce a feature adaptation of Forrest Brazeal’s forthcoming debut novel Paradox Inc. for Universal Pictures. Daniel Roher, the Academy Award-winning Canadian filmmaker behind Navalny and this year’s Tuner, will direct and co-write a treatment for the film",
-        "link": "https://deadline.com/2026/08/paradox-inc-movie-daniel-roher-lord-miller-universal-1237045364/"
+        "title": "Netflix & AMC Studios Forge Co-Production Agreement With Shane Black’s ‘Bannerman’ As First Series",
+        "desc": "Netflix is now in the series co-production business. The streamer has made a deal with AMC Studios to jointly develop and produce original series, believed to be the first of its kind for the global platform. The first greenlight to come out of the arrangement is drama Bannerman, from Shane Black (Lethal Weapon) and Craig […]",
+        "link": "https://deadline.com/2026/08/netflix-amc-studios-co-production-bannerman-shane-black-1237046604/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Netflix, AMC Team for ‘Bannerman’ Series Based on John R. Maxim Spy Novels, Shane Black and Craig Silverstein to Write",
+        "desc": "Netflix and AMC Studios are set to co-produce the drama series “Bannerman,” Variety has learned. The series is based on John R. Maxim’s Paul Bannerman novels, of which five were published. This marks the first Netflix/AMC Studios co-production. The show will air on AMC in the US and Canada and then become available on Netflix […]",
+        "link": "https://variety.com/2026/tv/news/bannerman-series-amc-netflix-john-r-maxim-novels-1236839301/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "When Reacher Season 4, Episode 5 Releases On Prime Video",
-      "summary": "Discover when Reacher season 4 episode 5 airs on Prime Video and what to expect from this high-stakes thriller next, as well as its upcoming spinoff.",
+      "headline": "Steven Spielberg Meets Isaac Asimov In Prime Video's Near-Perfect 8-Part Sci-Fi Series",
+      "summary": "A visually stunning, criminally underrated Prime Video sci-fi series blending Spielbergian wonder with Asimov‑style physics puzzles in a small town.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -942,49 +898,23 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "When Reacher Season 4, Episode 5 Releases On Prime Video",
-        "desc": "Discover when Reacher season 4 episode 5 airs on Prime Video and what to expect from this high-stakes thriller next, as well as its upcoming spinoff.",
-        "link": "https://screenrant.com/when-reacher-season-4-episode-5-releases/"
+        "title": "Steven Spielberg Meets Isaac Asimov In Prime Video's Near-Perfect 8-Part Sci-Fi Series",
+        "desc": "A visually stunning, criminally underrated Prime Video sci-fi series blending Spielbergian wonder with Asimov‑style physics puzzles in a small town.",
+        "link": "https://screenrant.com/tales-from-the-loop-prime-video-spielberg-asimov/"
        },
        {
-        "outlet": "Deadline",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Curtis Lum Joins ABC’s ‘The Rookie: North’ & Prime Video’s ‘Cross’ For Season 3",
-        "desc": "EXCLUSIVE: Curtis Lum (The Night Agent, The Audacity) will join the cast of ABC’s The Rookie spinoff series The Rookie: North and Prime Video’s Cross for Season 3. Expanding the universe, The Rookie: North introduces Alex Holland (Jay Ellis), who believed his midlife wasn’t worthy of a crisis. But after a violent home invasion ignites […]",
-        "link": "https://deadline.com/2026/08/curtis-lum-cast-ac-the-rookie-north-prime-video-cross-1237045097/"
+        "title": "How Do We Relationship? Live-Action Series Reveals Opening Theme in Promo Video",
+        "desc": "Pilaf Alien performs opening theme song for series debuting on September 10",
+        "link": "https://www.animenewsnetwork.com/news/2026-08-20/how-do-we-relationship-live-action-series-reveals-opening-theme-in-promo-video/.240754"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Anne Hathaway Pushed ‘Really Hard’ to Bring Julie Andrews Back for ‘Princess Diaries 3’ but the Icon Passed: ‘Whatever She Wants, We Completely Understand’",
-      "summary": "Disney may not be bringing Julie Andrews back for “Princess Diaries 3,” but it’s not for lack of trying. The offer is still on the table if Andrews ever changes her mind, according to franchise star Anne Hathaway, who will reprise the role of Mia Thermopolis in the film. “First of all, I just want […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Anne Hathaway Pushed ‘Really Hard’ to Bring Julie Andrews Back for ‘Princess Diaries 3’ but the Icon Passed: ‘Whatever She Wants, We Completely Understand’",
-        "desc": "Disney may not be bringing Julie Andrews back for “Princess Diaries 3,” but it’s not for lack of trying. The offer is still on the table if Andrews ever changes her mind, according to franchise star Anne Hathaway, who will reprise the role of Mia Thermopolis in the film. “First of all, I just want […]",
-        "link": "https://variety.com/2026/film/news/princess-diaries-3-anne-hathaway-pushed-bring-julie-andrews-back-1236838475/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Jane Curtin Boards ‘Little Five’ Film From Anne Hathaway’s Somewhere Pictures & Pigasus Pictures",
-        "desc": "EXCLUSIVE: Jane Curtin (Coneheads, Saturday Night Live) will round out the cast of Little Five, from Anne Hathaway‘s production company Somewhere Pictures and Pigasus Pictures. An original cast member of Saturday Night Live, Curtin will play Dean Weston, the formidable academic leader at Indiana University who serves as a crucial mentor and foil to the young team […]",
-        "link": "https://deadline.com/2026/08/jane-curtin-little-five-film-anne-hathaway-producing-1237045480/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "Spider-Man: Why Brand New Day Beats Superhero Fatigue",
-      "summary": "Spider-Man Brand New Day: Why Superheroes Aren’t Dead. After years of talk about superhero fatigue, Spider-Man has delivered another enormous theatrical success. But Brand New Day doesn’t necessarily prove audiences suddenly love comic book movies again.",
+      "headline": "Spider-Man: Brand New Day Finally Ends A Frustrating Billion Dollar Post-Infinity Saga Trend",
+      "summary": "The biggest MCU movies since Endgame have one thing in common, but Spider-Man's behemoth box office success rewrites the formula. For now.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -994,9 +924,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Spider-Man: Why Brand New Day Beats Superhero Fatigue",
-        "desc": "Spider-Man Brand New Day: Why Superheroes Aren’t Dead. After years of talk about superhero fatigue, Spider-Man has delivered another enormous theatrical success. But Brand New Day doesn’t necessarily prove audiences suddenly love comic book movies again.",
-        "link": "https://screenrant.com/video/spider-man-did-brand-new-day-kill-superhero-fatigue/"
+        "title": "Spider-Man: Brand New Day Finally Ends A Frustrating Billion Dollar Post-Infinity Saga Trend",
+        "desc": "The biggest MCU movies since Endgame have one thing in common, but Spider-Man's behemoth box office success rewrites the formula. For now.",
+        "link": "https://screenrant.com/spider-man-brand-new-day-movie-box-office-billion-dollars-mcu-cameos/"
        },
        {
         "outlet": "Guardian Film",
@@ -1008,9 +938,35 @@
       ]
      },
      {
+      "id": 34,
+      "headline": "Charles Melton in Talks for ‘Naruto’ Movie as Kakashi",
+      "summary": "Charles Melton is in close talks to play Kakashi Hatake in Destin Daniel Cretton’s upcoming live-action “Naruto” movie, Variety has learned. The news comes amid speculation that Melton would be announced to join the “X-Men” cast at last week’s D23 convention. The global “Naruto” casting search began last month to find the live-action versions of […]",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Charles Melton in Talks for ‘Naruto’ Movie as Kakashi",
+        "desc": "Charles Melton is in close talks to play Kakashi Hatake in Destin Daniel Cretton’s upcoming live-action “Naruto” movie, Variety has learned. The news comes amid speculation that Melton would be announced to join the “X-Men” cast at last week’s D23 convention. The global “Naruto” casting search began last month to find the live-action versions of […]",
+        "link": "https://variety.com/2026/film/news/charles-melton-naruto-movie-kakashi-1236839318/"
+       },
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Naruto Reportedly Finds Its Live-Action Kakashi With Bad Boys Star",
+        "desc": "Naruto reportedly finds its live-action Kakashi with a star from Bad Boys as development on the upcoming movie adaptation continues.",
+        "link": "https://screenrant.com/naruto-live-action-movie-kakashi-cast-charles-melton-negotiations/"
+       }
+      ]
+     },
+     {
       "id": 35,
-      "headline": "José Suárez Dies: Telemundo Executive Was 55",
-      "summary": "José Suárez, president and general manager of Telemundo 31, Telemundo 49, and Telemundo Ft. Myers–Naples, died. He was 55. The Telemundo executive died on Wednesday, August 19, following a helicopter crash in Kenya, NBC6 reports. “We are heartbroken to learn the tragic news that José was killed in a helicopter accident in Kenya,” NBCU Newsgroup […]",
+      "headline": "Netflix Veteran Andy Weil Joins Amazon MGM Studios As Head Of Comedy",
+      "summary": "EXCLUSIVE: Andy Weil, Netflix’s VP Comedy — and the streamer’s second longest serving programming executive — is leaving to join Amazon MGM Studios as Head of Comedy. Amazon MGM Studios‘ Head of Global Television Peter Friedlander just announced the hire internally in a memo, which you can see below. Weil’s first day is September 14. […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1020,23 +976,16 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "José Suárez Dies: Telemundo Executive Was 55",
-        "desc": "José Suárez, president and general manager of Telemundo 31, Telemundo 49, and Telemundo Ft. Myers–Naples, died. He was 55. The Telemundo executive died on Wednesday, August 19, following a helicopter crash in Kenya, NBC6 reports. “We are heartbroken to learn the tragic news that José was killed in a helicopter accident in Kenya,” NBCU Newsgroup […]",
-        "link": "https://deadline.com/2026/08/jose-suarez-dead-telemundo-executive-1237045499/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Telemundo Executive José Suárez Dies in Helicopter Crash at 55",
-        "desc": "José Alberto Suárez, president and general manager of Telemundo’s TV stations in Orlando, Tampa and Fort Myers-Naples, Florida, died Wednesday in a helicopter crash, according to the NBCUniversal-owned broadcaster. He was 55. Suárez was one of four Americans who died in a helicopter crash in Samburu County in northeastern Kenya, according to NBC’s Miami station. […]",
-        "link": "https://variety.com/2026/tv/news/telemundo-jose-suarez-dead-helicopter-crash-1236838453/"
+        "title": "Netflix Veteran Andy Weil Joins Amazon MGM Studios As Head Of Comedy",
+        "desc": "EXCLUSIVE: Andy Weil, Netflix’s VP Comedy — and the streamer’s second longest serving programming executive — is leaving to join Amazon MGM Studios as Head of Comedy. Amazon MGM Studios‘ Head of Global Television Peter Friedlander just announced the hire internally in a memo, which you can see below. Weil’s first day is September 14. […]",
+        "link": "https://deadline.com/2026/08/netflix-andy-weil-amazon-mgm-studios-head-of-comedy-1237045395/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "KPop Demon Hunters' New 2026 Release Is An Exciting Trend Netflix Needs Way More Of",
-      "summary": "KPop Demon Hunters is coming back with a new release in 2026, and it is exactly what Netflix needs to start doing more of for its biggest projects.",
+      "headline": "Sonic the Hedgehog to Headline Fortnite’s ‘Override’ Season (Gaming News Roundup)",
+      "summary": "Sonic the Hedgehog will headline Fortnite’s new “Override” season. Players will be able to play as Sonic and unlock the Tails Sidekick with the purchase of the Battle Pass for the hedgehog’s 35th anniversary. The collaboration will also feature the Tails Sprite, Rings and Sonic Power Sneakers, which allows players to Spin Dash in their […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1044,18 +993,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "KPop Demon Hunters' New 2026 Release Is An Exciting Trend Netflix Needs Way More Of",
-        "desc": "KPop Demon Hunters is coming back with a new release in 2026, and it is exactly what Netflix needs to start doing more of for its biggest projects.",
-        "link": "https://screenrant.com/kpop-demon-hunters-movie-4k-blu-ray-release-netflix/"
-       },
-       {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "Christian metal band sues Netflix over KPop Demon Hunters name",
-        "desc": "25-year-old band Demon Hunter says name of streamer’s hit movie creates ‘substantial confusion’ among consumers Christian metal band Demon Hunter is suing Netflix, accusing the entertainment giant of trademark infringement and unfair competition tied to the blockbuster “KPop Demon Hunters” name. The lawsuit was filed on Tuesday by Hyde Lane, the company behind Demon Hunter, and alleges that Netfli",
-        "link": "https://www.theguardian.com/film/2026/aug/19/kpop-demon-hunters-netflix-lawsuit"
+        "title": "Sonic the Hedgehog to Headline Fortnite’s ‘Override’ Season (Gaming News Roundup)",
+        "desc": "Sonic the Hedgehog will headline Fortnite’s new “Override” season. Players will be able to play as Sonic and unlock the Tails Sidekick with the purchase of the Battle Pass for the hedgehog’s 35th anniversary. The collaboration will also feature the Tails Sprite, Rings and Sonic Power Sneakers, which allows players to Spin Dash in their […]",
+        "link": "https://variety.com/2026/gaming/news/sonic-hedhehog-fornite-gaming-news-roundup-week-august-17-1236836647/"
        }
       ]
      }
@@ -1063,34 +1005,34 @@
    }
   ],
   "sourcesOk": [
-   "Ars Technica",
-   "BBC Tech",
+   "Guardian Australia",
+   "Crikey",
    "BBC World",
    "The Age",
    "ABC News",
-   "Guardian AU Politics",
-   "The Verge",
-   "Fox Business",
-   "The Age Federal Politics",
    "Fox News",
-   "Guardian Tech",
-   "Deadline",
+   "Guardian AU Politics",
    "Fox News Politics",
-   "Variety",
-   "Guardian Australia",
+   "Guardian Tech",
+   "BBC Tech",
+   "7News",
+   "Ars Technica",
    "Guardian AU Business",
+   "The Verge",
+   "The Age Federal Politics",
+   "Variety",
+   "Fox Business",
    "The Age Business",
    "Guardian AU Sport",
    "BBC Sport",
-   "Anime News Network",
    "ABC Business",
+   "7News Sport",
    "Guardian Film",
    "Screen Rant",
-   "Crikey",
-   "Daily Mail Australia",
-   "7News",
+   "Anime News Network",
    "SBS News",
-   "7News Sport"
+   "Daily Mail Australia",
+   "Deadline"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1275,119 +1217,119 @@
   ]
  },
  "wotd": {
-  "word": "dilettante",
-  "phonetic": "/dɪləˈtɒnti/",
-  "pos": "noun",
-  "def": "An amateur, someone who dabbles in a field out of casual interest rather than as a profession or serious interest.",
+  "word": "ineffable",
+  "phonetic": "/ɪˈnɛf.ə.bəl/",
+  "pos": "adjective",
+  "def": "Beyond expression in words; unspeakable.",
   "example": null,
-  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/dilettante-uk.mp3"
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/ineffable-au.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "Free 5GB Proton Drive Cloud Storage (2GB at Sign-up Complete Actions Within 30 Days for 3GB Welcome Bonus) @ Proton",
-   "link": "https://www.ozbargain.com.au/node/832520",
-   "votes": 157,
-   "category": "Internet",
-   "ts": 1708540376000
-  },
-  {
-   "title": "[Prime] Mounting Dream Speaker Stands (Height Adjustable) $59.99 Delivered @ Mounting Dream via Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/971954",
-   "votes": 43,
-   "category": "Electrical Electronics",
-   "ts": 1787139958000
-  },
-  {
-   "title": "Whispers Sauv Blanc 750ml 2 for $6 or Onda Sauv Blanc 2 for $8 (Extra10% off for 6+ Bottles) +Del ($0 C C/in-Store) @ Liquorland",
-   "link": "https://www.ozbargain.com.au/node/971949",
-   "votes": 30,
-   "category": "Alcohol",
-   "ts": 1787134685000
-  },
-  {
-   "title": "Woolworths RSPCA Approved Chicken Breast Fillet $8.00/kg @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/971937",
-   "votes": 97,
-   "category": "Groceries",
-   "ts": 1787130727000
-  },
-  {
-   "title": "2,000 Bonus Flybuys Points (Worth $10) on $100 TCN Good Food, Pub Bar, Restaurant, Him and Google Play Gift Cards @ Coles",
-   "link": "https://www.ozbargain.com.au/node/971930",
-   "votes": 41,
-   "category": "Other",
-   "ts": 1787126403000
-  },
-  {
-   "title": "Pay with PayPal for US$10 off US$100 Spend @ AliExpress",
-   "link": "https://www.ozbargain.com.au/node/971924",
-   "votes": 40,
-   "category": "Other",
-   "ts": 1787124954000
-  },
-  {
-   "title": "Maxsun Intel Arc B580 Milestone 12GB Graphics Card $369 + Delivery ($0 NSW C C/ $20 off with mVIP) @ Mwave",
-   "link": "https://www.ozbargain.com.au/node/971913",
-   "votes": 76,
-   "category": "Computing",
-   "ts": 1787120817000
-  },
-  {
-   "title": "AliExpress: 20% Cashback on Affiliated Products ($30 Cap Per Transaction) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/971908",
-   "votes": 55,
-   "category": "Other",
-   "ts": 1787119613000
-  },
-  {
-   "title": "DJI Osmo Mobile 7P Gimbal $108 + Delivery ($0 C C/ In-Store) @ JB Hi-Fi",
-   "link": "https://www.ozbargain.com.au/node/971894",
-   "votes": 53,
-   "category": "Electrical Electronics",
-   "ts": 1787114416000
-  },
-  {
-   "title": "20% off Pro Plan for 1 Year: A$103.99 (New Existing Users) @ Seats.aero",
-   "link": "https://www.ozbargain.com.au/node/971887",
-   "votes": 24,
-   "category": "Travel",
-   "ts": 1787111152000
-  },
-  {
-   "title": "Irwin 75mm T25 Magnetic Drive Bits 2 Pk $1 + Delivery ($0 OnePass/ C C/ in Limited Stores) @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/971875",
-   "votes": 26,
-   "category": "Home Garden",
-   "ts": 1787105740000
-  },
-  {
-   "title": "[Kogan First] Heavy Duty 410mm Hard Base Tool Bag $11.99 Delivered @ Kogan",
-   "link": "https://www.ozbargain.com.au/node/971870",
-   "votes": 83,
-   "category": "Home Garden",
-   "ts": 1787103733000
-  },
-  {
-   "title": "HP OmniBook 5 NG AI OLED Copilot+ 16 Laptop (Snapdragon X Plus, 32GB RAM, 512GB SSD) $999 Delivered @ Hub by Triforce",
-   "link": "https://www.ozbargain.com.au/node/971869",
-   "votes": 98,
-   "category": "Computing",
-   "ts": 1787103164000
-  },
-  {
-   "title": "Tegel Take Outs Nashville or Louisiana Chicken Tenders 500g $8.40 @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/971867",
-   "votes": 45,
-   "category": "Groceries",
-   "ts": 1787102478000
-  },
-  {
-   "title": "[QLD] Free Tow Bar, Tow Ball Wiring Supplied Installed for Selected Vehicles @ TAG Towbars Towing Accessories",
-   "link": "https://www.ozbargain.com.au/node/894160",
-   "votes": 116,
+   "title": "70mai A900 4K Dash Cam US$97.49 (~A$138), Front + 4K Rear US$123.49 (~A$174.82) Delivered @ 70mai Official Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/972102",
+   "votes": 13,
    "category": "Automotive",
-   "ts": 1739928056000
+   "ts": 1787230277000
+  },
+  {
+   "title": "[PC, Steam] Free - First-Person Data Explorer @ Steam",
+   "link": "https://www.ozbargain.com.au/node/972083",
+   "votes": 75,
+   "category": "Gaming",
+   "ts": 1787216497000
+  },
+  {
+   "title": "Amoudo 15.6 1920x1080 IPS Portable Monitor US$46.32 (~A$65.57) AU Stock Delivered @ amoudo Overseas Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/972081",
+   "votes": 62,
+   "category": "Computing",
+   "ts": 1787214823000
+  },
+  {
+   "title": "Vention 45W 20000mAh CCC Certified Power Bank with Built-in Cable US$21.29 (~A$29.89) @ VEnTIOn Flagship Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/972079",
+   "votes": 86,
+   "category": "Electrical Electronics",
+   "ts": 1787213159000
+  },
+  {
+   "title": "Double Tender Burger Combo for Two: 2 Burgers, 2 Regular Chips 2 Regular Drinks $11.95 @ KFC (Pick Up Only)",
+   "link": "https://www.ozbargain.com.au/node/972075",
+   "votes": 56,
+   "category": "Dining Takeaway",
+   "ts": 1787211705000
+  },
+  {
+   "title": "Quilton 4-Ply Gold Toilet Tissue 30 Rolls $19 ($17.10 Sub Save) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU (Excl. NT)",
+   "link": "https://www.ozbargain.com.au/node/972053",
+   "votes": 17,
+   "category": "Home Garden",
+   "ts": 1787204517000
+  },
+  {
+   "title": "Save $0.10/L off Petrol Diesel (1 Barcode Per Day) at Shell Reddy Express @ AFL Live Official App",
+   "link": "https://www.ozbargain.com.au/node/972025",
+   "votes": 92,
+   "category": "Automotive",
+   "ts": 1787195883000
+  },
+  {
+   "title": "Colonel s Chicken n’ Chips for 2 $16.95 Pickup Only Online Order Only @ KFC",
+   "link": "https://www.ozbargain.com.au/node/972021",
+   "votes": 32,
+   "category": "Dining Takeaway",
+   "ts": 1787195279000
+  },
+  {
+   "title": "Free Call of Duty Modern Warfare 4 Early Access Beta Keys for This Weekend @ Call of Duty",
+   "link": "https://www.ozbargain.com.au/node/972019",
+   "votes": 80,
+   "category": "Gaming",
+   "ts": 1787195057000
+  },
+  {
+   "title": "Cadbury Favourites Chocolate 489g (Monopoly Edition) $5 (Was $15) @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/972009",
+   "votes": 77,
+   "category": "Groceries",
+   "ts": 1787191771000
+  },
+  {
+   "title": "Roborock Saros Z70 Robotic Vacuum Cleaner with OmniGrip Mechanical Arm $997 + Delivery @ BIG W via Everyday Market",
+   "link": "https://www.ozbargain.com.au/node/972004",
+   "votes": 13,
+   "category": "Electrical Electronics",
+   "ts": 1787188615000
+  },
+  {
+   "title": "Wolfbox DF100 Electric Air Duster US$33.16 (~A$51.99) Delivered @ Wolfbox Global Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/972001",
+   "votes": 27,
+   "category": "Electrical Electronics",
+   "ts": 1787188289000
+  },
+  {
+   "title": "Pioneer 6.5 2-Way Car Speakers $19.99, ToolPRO 100-Piece Screwdriver Set $41.99, Car Tool Kit $198 C C /+ Del @ Supercheap Auto",
+   "link": "https://www.ozbargain.com.au/node/971998",
+   "votes": 20,
+   "category": "Automotive",
+   "ts": 1787187785000
+  },
+  {
+   "title": "[VIC] E10 $0.899/L, U91 $0.999/L, Diesel $0.999/L, 7:30pm-10pm Daily @ Metro Petroleum Brunswick N-Tech (Brunswick West)",
+   "link": "https://www.ozbargain.com.au/node/971997",
+   "votes": 14,
+   "category": "Automotive",
+   "ts": 1787187105000
+  },
+  {
+   "title": "Up to 50% off RRP Longines Watches (e.g. L49104116 $1,875) + Delivery (Free C C NSW) @ Peter s of Kensington",
+   "link": "https://www.ozbargain.com.au/node/971993",
+   "votes": 14,
+   "category": "Fashion Apparel",
+   "ts": 1787186014000
   }
  ]
 }
