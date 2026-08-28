@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T22:19:56.078Z",
+ "generatedAt": "2026-08-28T03:37:05.643Z",
  "markets": {
   "items": [
    {
@@ -7,104 +7,104 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9127.8,
-    "chgPct": 0.27134044100276683,
+    "price": 9074.5,
+    "chgPct": 0.4016264732255681,
     "high52": 9296.7,
-    "off52": -1.8167736938913963
+    "off52": -2.3900954101993257
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.71,
-    "chgPct": -0.34117647058824263,
+    "price": 84.94,
+    "chgPct": 0.16509073491039603,
     "high52": 87.32,
-    "off52": -2.9890059551076495
+    "off52": -2.7256069628950934
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.66,
-    "chgPct": -0.37198704133137567,
+    "price": 151.94,
+    "chgPct": 0.5426183889012284,
     "high52": 155.03,
-    "off52": -1.5287363736051116
+    "off52": -1.9931626136876754
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.01,
-    "chgPct": -0.5561175459038163,
+    "price": 59.81,
+    "chgPct": 0.673287583934099,
     "high52": 64.23,
-    "off52": -8.127043437645968
+    "off52": -6.88151953915616
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.75,
-    "chgPct": 0.17296447294990255,
+    "price": 35.28,
+    "chgPct": 0.11350260961436051,
     "high52": 47.78,
-    "off52": -27.27082461280871
+    "off52": -26.16157388028464
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.718,
-    "chgPct": 0.20479347617943636,
+    "price": 0.7206,
+    "chgPct": 0.34117659420569774,
     "high52": 0.7277,
-    "off52": -1.332966881956856
+    "off52": -0.9756767898859413
    }
   ],
   "failed": [],
-  "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 26% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 227.98,
+    "currency": "USD",
+    "chgPct": 8.73795479247217
+   },
    {
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 83.91,
+    "price": 87.45,
     "currency": "AUD",
-    "chgPct": -5.666101316647421
+    "chgPct": 6.998649710175439
    },
    {
-    "sym": "LLY",
-    "name": "Eli Lilly",
+    "sym": "AVGO",
+    "name": "Broadcom",
     "market": "US",
-    "price": 1189.41,
+    "price": 371.54,
     "currency": "USD",
-    "chgPct": -3.5868904685001914
+    "chgPct": 4.485504042963374
    },
    {
-    "sym": "WOW.AX",
-    "name": "Woolworths",
+    "sym": "REA.AX",
+    "name": "REA Group",
     "market": "ASX",
-    "price": 40.18,
+    "price": 177.11,
     "currency": "AUD",
-    "chgPct": 3.4234274854987485
+    "chgPct": 2.78567843387847
    },
    {
-    "sym": "WDS.AX",
-    "name": "Woodside",
-    "market": "ASX",
-    "price": 31.92,
-    "currency": "AUD",
-    "chgPct": -3.2727272727272676
-   },
-   {
-    "sym": "TLS.AX",
-    "name": "Telstra",
-    "market": "ASX",
-    "price": 4.58,
-    "currency": "AUD",
-    "chgPct": -2.5531875347862854
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 354.81,
+    "currency": "USD",
+    "chgPct": 2.599616125550772
    }
   ]
  },
@@ -117,8 +117,8 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Nepal floods: 34 Australians among hundreds missing after avalanche-triggered disaster leaves at least 98 dead",
-      "summary": "It’s believed 34 Australians are among the hundreds of people reported missing in the massive flash floods that have so far left at least 98 people dead.",
+      "headline": "Nepal-Tibet floods: Number of Australians missing rises to 39 as government pledges millions of dollars in assistance",
+      "summary": "Rescuers have worked through the night to try and find survivors as Foreign Minister Penny Wong confirmed tragic news that more Australians are missing in the Nepal tragedy.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -126,32 +126,39 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age",
+        "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Nepal floods live updates: Dozens of Australians missing, at least 160 dead as devastating floods hit Rasuwa, Nuwakot regions near Tibet border",
-        "desc": "Hundreds of tourists from across the globe are among those missing after a deadly flash flood hit Nepal and China. Follow our live coverage.",
-        "link": "https://www.theage.com.au/world/asia/nepal-floods-live-updates-dozens-of-australians-among-hundreds-missing-20260827-p60rx3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Number of Australians missing in Nepal floods climbs as Greens criticise Labor’s aid package",
+        "desc": "Foreign affairs minister says government will send a $5m assistance package for affected communities Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Penny Wong has confirmed the number of Australians missing in the devastating Nepal floods has increased from 35 to 39 and announced a $5m support package. “We understand at least 39 A",
+        "link": "https://www.theguardian.com/world/2026/aug/28/number-of-australians-missing-in-nepal-increases-to-39-penny-wong-confirms"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "At least 34 Australians and hundreds of tourists missing in unstoppable floodwaters in Nepal",
-        "desc": "Harrowing footage from the scene showed fast-flowing floodwater ripping through the streets and destroying everything - including homes and bridges - in its path.",
-        "link": "https://www.dailymail.com/news/article-16082629/nepal-floods-australians-missing-tourists-landslide-death-toll.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Nepal flood devastation deepens as 39 Australians are now reported missing and death toll climbs to 389 - amid fears of 'second tsunami' and horror stories of patients 'asphyxiated by mud'",
+        "desc": "More than 1300 people, including more than 667 foreigners from 33 countries, remain missing.",
+        "link": "https://www.dailymail.com/news/article-16085769/Aussies-unaccounted-update-nepal-flood.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Nepal floods: 34 Australians among hundreds missing after avalanche-triggered disaster leaves at least 98 dead",
-        "desc": "It’s believed 34 Australians are among the hundreds of people reported missing in the massive flash floods that have so far left at least 98 people dead.",
-        "link": "https://7news.com.au/news/nepal-floods-australian-among-hundreds-missing-and-at-least-8-killed-in-avalanche-triggered-disaster-c-22782531"
+        "title": "Nepal-Tibet floods: Number of Australians missing rises to 39 as government pledges millions of dollars in assistance",
+        "desc": "Rescuers have worked through the night to try and find survivors as Foreign Minister Penny Wong confirmed tragic news that more Australians are missing in the Nepal tragedy.",
+        "link": "https://7news.com.au/news/nepal/nepal-tibet-floods-number-of-australians-missing-rises-to-39-as-government-pledges-millions-of-dollars-in-assistance-c-22788285"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Number of Australians missing in Nepal floods climbs to 35",
+        "desc": "Hundreds are feared dead after floods and landslides devastated communities on the Nepal-Tibet border.",
+        "link": "https://www.sbs.com.au/news/article/australians-among-hundreds-missing-floods-landslides-nepal/aqcu5cuey"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Live: Queensland premier hails data centre carve-out for coal, gas use",
-      "summary": "David Crisafulli welcomes an agreement to exempt his state from having to use renewable energy to power new data centres. Follow live.",
+      "headline": "Fallen AFL great Nicky Winmar sent to jail for attack on woman",
+      "summary": "After his fate was revealed his barrister immediately indicated his client would be appealing.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -159,164 +166,32 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Fallen AFL legend Nicky Winmar is jailed for brutal attack on a woman - after court rejects his 'racism warrior' claim to fame",
+        "desc": "Nicky Winmar appeared in Bendigo Magistrates Court where he was convicted and sentenced to six months behind bars after which he must complete a 12-month community corrections order.",
+        "link": "https://www.dailymail.com/news/article-16086285/nicky-winmar-jailed-assault-hall-fame-statue-removed.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Fallen AFL great Nicky Winmar sent to jail for attack on woman",
+        "desc": "After his fate was revealed his barrister immediately indicated his client would be appealing.",
+        "link": "https://7news.com.au/sport/afl/fallen-afl-great-nicky-winmar-sent-to-jail-for-attack-on-woman-c-22790077"
+       },
+       {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: Queensland premier hails data centre carve-out for coal, gas use",
-        "desc": "David Crisafulli welcomes an agreement to exempt his state from having to use renewable energy to power new data centres. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-08-27/federal-politics-live-blog-august-27/107083080"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "What will we get out of the AI boom? The data suggests lots of noisy, energy-hungry datacentres and not much else",
-        "desc": "Booms in investment usually lead to economic growth. But this one looks unlikely to translate into better living standards for Australians Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The debate around AI and datacentres is such that, to paraphrase Paul Keating, if you walked into any pet shop in Australia, the resident galah wi",
-        "link": "https://www.theguardian.com/business/grogonomics/2026/aug/27/ai-boom-noisy-energy-hungry-datacentres-construction-economy"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "The Snoop: Gambling CEO suggests a crackdown, Tassie data centre drama, and more",
-        "desc": "Plus: Nine posts big profits off the back of big redundancies. The post The Snoop: Gambling CEO suggests a crackdown, Tassie data centre drama, and more appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/08/26/pointsbet-gambling-nicolle-flint-comcar-tasmania-data-centres-nine-profits/"
+        "title": "Disgraced footballer Nicky Winmar appealing jail term for assault",
+        "desc": "The footballer was removed from the Australian Football Hall of Fame and had his statue taken down from Perth Stadium after being found guilty.",
+        "link": "https://www.abc.net.au/news/2026-08-28/nicky-winmar-afl-sentenced-assault-woman/107083820"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Meta touted its teen safety tool. What it didn't mention was that barely anyone was using it",
-      "summary": "Out of a user base of more than 3 billion, fewer than 1 per cent had",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Meta settles children's harm case",
-        "desc": "Meta has reached a landmark $US18 billion settlement with 29 US states in a case over the mental harm to children.",
-        "link": "https://www.theage.com.au/world/meta-settles-childrens-harm-case-20260827-p60rxr.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Meta agrees to major changes to Facebook and Instagram as it settles US trial over teen addiction for up to $18bn",
-        "desc": "US tech giant agrees to establish further protections for teens such as daily usage limits and blocks on nighttime use Meta agreed to significant changes to its Instagram and Facebook apps in a settlement that ended a landmark lawsuit on Wednesday. Dozens of US states had accused the tech giant of addicting and harming children with dangerous products. The agreement curtails a major trial in Calif",
-        "link": "https://www.theguardian.com/technology/2026/aug/26/meta-social-media-addiction-trial-settlement"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Meta touted its teen safety tool. What it didn't mention was that barely anyone was using it",
-        "desc": "Out of a user base of more than 3 billion, fewer than 1 per cent had",
-        "link": "https://www.sbs.com.au/news/article/meta-touted-teen-safety-tool-barely-anyone-using-it/brm5k3tng"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Tim Curry dies aged 80 after decades long career including cult-classic Rocky Horror Picture Show",
-      "summary": "Best known for his role as Dr Frank-N-Furter, Curry featured in hundreds of roles during his career.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Tim Curry dies aged 80 after decades long career including cult-classic Rocky Horror Picture Show",
-        "desc": "Best known for his role as Dr Frank-N-Furter, Curry featured in hundreds of roles during his career.",
-        "link": "https://7news.com.au/news/tim-curry-dies-aged-80-after-decades-long-career-including-cult-classic-rocky-horror-picture-show-c-22783214"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Rocky Horror Picture Show star Tim Curry dead at 80",
-        "desc": "Curry had struggled with his health for over a decade following a stroke in 2012.",
-        "link": "https://www.sbs.com.au/news/article/tim-curry-dies-at-80/xf71gmqw1"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Tim Curry, star of The Rocky Horror Picture Show and Stephen King’s It, dies aged 80",
-        "desc": "A prolific performer across stage, screen and TV, the actor starred in Legend, Clue and It, but will always be associated with the flamboyantly camp rock’n’roll musical in which he made his breakthrough Tim Curry on sexuality, surviving a stroke – and 50 years of stardom Farewell, Dr Frank N Furter: why Tim Curry’s Rocky Horror Show will go on Clowns, corsets and kings: Tim Curry – a life in pictu",
-        "link": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Prince Harry, Meghan Markle arriving back in United Kingdom on Wednesday: reports",
-      "summary": "The Duke and Duchess of Sussex reportedly touched down back in the United Kingdom on Wednesday.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Prince Harry and Meghan Markle arrive in UK with kids, marking dramatic return 6 years after royal exit",
-        "desc": "Prince Harry and Meghan Markle arrived at Birmingham Airport with Archie and Lilibet, but no visible police presence was reported at the scene.",
-        "link": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-arrive-uk-kids-marking-dramatic-return-6-years-after-royal-exit"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Harry and Meghan land in Britain: Sussexes arrive with Archie and Lilibet on private jet as children prepare to start at UK school next week",
-        "desc": "The Duke and Duchess of Sussex landed at Birmingham Airport at lunchtime after flying on a private plane from California to start their new life in the country.",
-        "link": "https://www.dailymail.com/news/royals/article-16081279/Harry-Meghan-arrive-Britain-children-today.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Prince Harry, Meghan Markle arriving back in United Kingdom on Wednesday: reports",
-        "desc": "The Duke and Duchess of Sussex reportedly touched down back in the United Kingdom on Wednesday.",
-        "link": "https://7news.com.au/news/prince-harry-meghan-markle-arriving-back-in-united-kingdom-on-wednesday-reports-c-22782558"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Beneath the Bondi royal commission's calm surface lies a deep tension",
-      "summary": "The antisemitism royal commission has been about as far from a Judge Judy-style reality show as you could possibly imagine. But these proceedings have been anything but a sleepy affair.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Beneath the Bondi royal commission's calm surface lies a deep tension",
-        "desc": "The antisemitism royal commission has been about as far from a Judge Judy-style reality show as you could possibly imagine. But these proceedings have been anything but a sleepy affair.",
-        "link": "https://www.abc.net.au/news/2026-08-27/antisemitism-bondi-royal-commission-wrap-analysis/107081086"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Four months of grief, tension and pain: key moments from the antisemitism royal commission",
-        "desc": "Witnesses at public hearings spoke of safety fears before and after Bondi attack, fraying community bonds and tension over the state of Israel Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast In the days after the Bondi attack, Rabbi Yehoram Ulman presided over 10 funerals in three days. The first was that of his son-in-law, Rabbi E",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/27/key-moments-from-antisemitism-royal-commission-public-hearings-ntwnfb"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "The antisemitism royal commission hearings are over. What happens now?",
-        "desc": "After months of evidence, the antisemitism royal commission will enter its final phase before delivering a report in December.",
-        "link": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-hearings-over-what-happens-next/6a79l9rq7"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "US drug agency approves breakthrough treatment for pancreatic cancer",
-      "summary": "Experts have hailed the drug, daraxonrasib, as a game changer for one of the world's deadliest cancers.",
+      "headline": "What we know about deadly Nepal-Tibet floods",
+      "summary": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -326,16 +201,148 @@
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "US drug agency approves breakthrough treatment for pancreatic cancer",
-        "desc": "Experts have hailed the drug, daraxonrasib, as a game changer for one of the world's deadliest cancers.",
-        "link": "https://www.bbc.co.uk/news/articles/clyq4ge4wk9o?at_medium=RSS&at_campaign=rss"
+        "title": "What we know about deadly Nepal-Tibet floods",
+        "desc": "Hundreds have died or are missing in Wednesday's flooding and landslides on the border of Nepal and Tibet.",
+        "link": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "The 39 Australians missing in the Nepal-Tibet floods, and what we know about them",
+        "desc": "Families across the country are reeling in the aftermath of the devastating flash flooding in Nepal and Tibet, as loved ones at home hold out hope for any good news.",
+        "link": "https://www.theage.com.au/world/asia/i-m-just-praying-number-of-missing-australians-rises-as-devastated-families-at-home-await-news-20260828-p60sbf.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "How a national screening program aims to improve treatment of Australia's deadliest cancer",
-        "desc": "Suzi Scott's mother died from lung cancer. Thanks to a free government scan, the 57-year-old caught her own cancer early.",
-        "link": "https://www.abc.net.au/news/2026-08-27/brisbane-woman-says-life-saved-by-lung-cancer-screening/107062058"
+        "title": "What we know about the 39 Australians missing in Nepal",
+        "desc": "The family of a Newcastle woman have made an impassioned plea for information and have flown to Nepal to search for her, with communication still cut off due to deadly floods.",
+        "link": "https://www.abc.net.au/news/2026-08-28/missing-australians-nepal-tibet-floods/107088404"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "One Nation's state leader wants NSW to be more like Texas and Florida",
+      "summary": "The NSW One Nation leader promises to reverse bans on uranium mining and nuclear energy, invest in coal-fired power and slash regulation to get \"out of the way of business\".",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Pauline Hanson interrupts as new state leader speaks fluent Japanese",
+        "desc": "Pauline Hanson has interrupted her newly appointed state leader to ask him to speak English after he broke out into fluent Japanese during a press conference.",
+        "link": "https://www.theage.com.au/national/pauline-hanson-interrupts-as-new-state-leader-speaks-fluent-japanese-20260828-p60sg9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "One Nation's state leader wants NSW to be more like Texas and Florida",
+        "desc": "The NSW One Nation leader promises to reverse bans on uranium mining and nuclear energy, invest in coal-fired power and slash regulation to get \"out of the way of business\".",
+        "link": "https://www.abc.net.au/news/2026-08-28/nsw-one-nation-leader-mike-newman-coal-nuclear-energy/107088390"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "One Nation’s new NSW leader Mike Newman is an investment banker who wants to ‘get rid of wokery’",
+        "desc": "Son of former ABC chair will contest seat of Cessnock in March state election and says ‘my wife’s Japanese’ so he doesn’t believe party is racist Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast One Nation has named Mike Newman, an investment banker, as its New South Wales leader and first lower house candidate ahead of the March 20",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/28/mike-newman-one-nation-nsw-leader-election-cessnock-candidate-ntnwfb"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Chris Bowen hits back at ‘vanity project’ claim as $7.3 million climate travel bill is exposed",
+      "summary": "Labor said online meetings were being used where possible, but argued overseas trips were valuable to Australia’s reputation.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Fans thought SHE was Lachie's mistress... Now Jules' loyal bridesmaid Yassie fires back over Tess' 'death threats' claim that she refuses to let slide",
+        "desc": "After Tess' interview with The Debrief, Yassie Marie has revealed what happened behind closed doors on the day Jules' world fell apart - and how she was falsely accused.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16085949/lachie-neale-tess-crosley-yassie-marie-jules-bridesmaid-mistress.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Chris Bowen hits back at ‘vanity project’ claim as $7.3 million climate travel bill is exposed",
+        "desc": "Labor said online meetings were being used where possible, but argued overseas trips were valuable to Australia’s reputation.",
+        "link": "https://7news.com.au/sunrise/chris-bowen-hits-back-at-vanity-project-claim-as-73-million-climate-travel-bill-is-exposed-c-22788398"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "DHS hits back at James Talarico after Democrat claims ICE 'kidnapped' 5-year-old boy deported with father",
+        "desc": "Homeland Security Secretary Mullin says James Talarico \"won't tell the full story\" about the deportation of a 5-year-old boy and his father from Texas.",
+        "link": "https://www.foxnews.com/politics/dhs-hits-back-james-talarico-democrat-claims-ice-kidnapped-5-year-old-boy-deported-father"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Canadian PM defies US after Trump signs order renaming Lake Ontario as ‘Lake America’",
+      "summary": "‘We’re into some real foolishness now’.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Canadian PM defies US after Trump signs order renaming Lake Ontario as ‘Lake America’",
+        "desc": "‘We’re into some real foolishness now’.",
+        "link": "https://7news.com.au/news/canadian-pm-defies-us-after-trump-signs-order-renaming-lake-ontario-as-lake-america-c-22788633"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trump signs order to rename Lake Ontario as Lake America",
+        "desc": "Trump's order comes after the trade talks between the US and Canada collapsed late last week.",
+        "link": "https://www.bbc.co.uk/news/articles/ckgwdn1g58yo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Trump signs executive order to rename Lake Ontario as Lake America",
+        "desc": "Mark Carney rejects attempt to rename lake as did several US governors, with Tony Evers mocking the move US politics live – latest updates Donald Trump signed an executive order on Thursday directing the federal government to rename Lake Ontario, making it Lake America, amid his escalating trade war with Canada. The order directs federal agencies to adopt the name-change on US maps, documents and ",
+        "link": "https://www.theguardian.com/us-news/2026/aug/27/trump-renames-lake-ontario-america"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "'The flood took everything': Nepal survivors describe horror of loved ones being swept away",
+      "summary": "One woman says her father, mother, sister and sister's children were carried away before her eyes.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "'The flood took everything': Nepal survivors describe horror of loved ones being swept away",
+        "desc": "One woman says her father, mother, sister and sister's children were carried away before her eyes.",
+        "link": "https://www.bbc.co.uk/news/articles/cd08z840p8lo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "From lab-grown diamonds to trending capri leggings - here’s everything 7You’s deputy editor loved this month",
+        "desc": "Seven new-in items I’ve not stopped talking about.",
+        "link": "https://7news.com.au/7you/fashion/from-lab-grown-diamonds-to-trending-capri-leggings-heres-everything-7yous-deputy-editor-loved-this-month-c-22788572"
        }
       ]
      }
@@ -347,8 +354,8 @@
     "stories": [
      {
       "id": 7,
-      "headline": "One Nation’s Malcolm Roberts ‘in two minds’ about whether gay people should be equal",
-      "summary": "Footage shows senator on stage at the Church and State conference responding to question about party’s director James Ashby Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast One Nation’s Malcolm Roberts told a conference earlier this year that he was in “two minds” about whether gay people should have equal rights. In footage from Ju",
+      "headline": "Premiers clash with Albanese on migration plan as PM intervenes in refugee cuts",
+      "summary": "Amid confusion within Labor on its refugee intake, state sources said premiers discussed the financial consequences of recent cutbacks on student visas.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -356,25 +363,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "One Nation’s Malcolm Roberts defends White Australia party in latest controversial podcast",
-        "desc": "One Nation MPs have given a series of different interpretations of their migration plan in recent days after elevating the issue of immigration for months.",
-        "link": "https://www.theage.com.au/politics/federal/one-nation-s-malcolm-roberts-defends-white-australia-party-in-latest-controversial-podcast-20260826-p60rml.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "One Nation’s Malcolm Roberts ‘in two minds’ about whether gay people should be equal",
-        "desc": "Footage shows senator on stage at the Church and State conference responding to question about party’s director James Ashby Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast One Nation’s Malcolm Roberts told a conference earlier this year that he was in “two minds” about whether gay people should have equal rights. In footage from Ju",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/26/one-nation-malcolm-roberts-two-minds-gay-equal-rights-ntwnfb"
+        "title": "In this hour of need, contemplating a cut to Australia’s refugee intake is cruel populism",
+        "desc": "Confusion and politics aside, Australia can’t pretend to be removed from the world – and the millions of people in need of sanctuary Get our breaking news email, free app or daily news podcast Messy politics aside, this much is clear: Australia is being cruelly parsimonious in resettling people, at a moment when it is of greatest global need. There are more people in the world requiring protection",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/28/immigration-cuts-australia-refugee-intake-cruel-populism"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Premiers clash with Albanese on migration plan as PM intervenes in refugee cuts",
+        "desc": "Amid confusion within Labor on its refugee intake, state sources said premiers discussed the financial consequences of recent cutbacks on student visas.",
+        "link": "https://www.theage.com.au/politics/federal/premiers-clash-with-albanese-on-migration-plan-as-pm-intervenes-in-refugee-cuts-20260827-p60s12.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "News live: dozens of Australians believed to be among hundreds missing in Nepal flash floods",
-      "summary": "Powerful floods in Himalayan border area sweep away houses, roads and bridges. Follow today’s news live Get our breaking news email, free app or daily news podcast The prime minister, Anthony Albanese, says Dfat officials are ready to provide consular assistance to Australians in Nepal, after the devastating flooding in the country. A local tourism official said they believed 34 Australians were m",
+      "headline": "Five days later, Hanson still struggles to articulate migration policy",
+      "summary": "Hanson again appeared to confuse net migration with permanent migration, creating more uncertainty about One Nation’s actual policy.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -384,16 +391,23 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "News live: dozens of Australians believed to be among hundreds missing in Nepal flash floods",
-        "desc": "Powerful floods in Himalayan border area sweep away houses, roads and bridges. Follow today’s news live Get our breaking news email, free app or daily news podcast The prime minister, Anthony Albanese, says Dfat officials are ready to provide consular assistance to Australians in Nepal, after the devastating flooding in the country. A local tourism official said they believed 34 Australians were m",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/27/australia-news-live-ai-datacentres-national-cabinet-renewable-energy-icac-perrottet-alan-jones-bruce-lehrmann-qantas-sydney-melbourne-nepal-floods-ntwnfb"
+        "title": "One Nation’s immigration policy is clear as mud – but that ambiguity could be a secret weapon for Pauline Hanson",
+        "desc": "The party’s key figures are either unable or unwilling to neatly articulate their migration targets, contradicting one another – and themselves Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast One Nation has experienced a swell in popular support in the past year, and has primarily done so off the back of tough talk on immigration –",
+        "link": "https://www.theguardian.com/australia-news/2026/aug/28/one-nation-confusing-immigration-policy-secret-weapon-for-pauline-hanson-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Five days later, Hanson still struggles to articulate migration policy",
+        "desc": "Hanson again appeared to confuse net migration with permanent migration, creating more uncertainty about One Nation’s actual policy.",
+        "link": "https://www.theage.com.au/politics/federal/six-days-later-hanson-still-struggles-to-articulate-migration-policy-20260827-p60s50.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "NFL owner's prostitution arrest puts top Dem committee on defense: 'So desperate for cash'",
-      "summary": "Jed York donated $2,500 to the DCCC last June, and the group has not said whether it will return the money following his Ohio prostitution arrest.",
+      "headline": "Who actually benefits from new datacentres in Australia? - podcast",
+      "summary": "National cabinet met on Wednesday to discuss the federal government’s plan for new AI datacentre development. Queensland and the Northern Territory have won a carve-out so that theirs can be powered by coal and gas – rather than renewables. Meanwhile, the fight between the West Australian premier Roger Cook and the Productivity Commission over his state’s generous GST deal persists. And federally,",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -401,18 +415,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "NFL owner's prostitution arrest puts top Dem committee on defense: 'So desperate for cash'",
-        "desc": "Jed York donated $2,500 to the DCCC last June, and the group has not said whether it will return the money following his Ohio prostitution arrest.",
-        "link": "https://www.foxnews.com/politics/nfl-owners-prostitution-arrest-puts-top-dem-committee-defense-desperate-cash"
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Who actually benefits from new datacentres in Australia? - podcast",
+        "desc": "National cabinet met on Wednesday to discuss the federal government’s plan for new AI datacentre development. Queensland and the Northern Territory have won a carve-out so that theirs can be powered by coal and gas – rather than renewables. Meanwhile, the fight between the West Australian premier Roger Cook and the Productivity Commission over his state’s generous GST deal persists. And federally,",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/aug/28/who-actually-benefits-from-new-datacentres-in-australia-australian-politics-podcast"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "America’s heartland comes face-to-face with 9/11 history as 25th anniversary nears",
-      "summary": "The Steel Across America tour brought a 16,900-pound South Tower beam to Cincinnati and Scott Nokes, a double amputee veteran, shared his story.",
+      "headline": "Australia news live: Antarctic staff to withdraw from Macquarie Island amid bird flu risk; Virgin’s profit rises despite US-Iran war",
+      "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Greens say Australia needs to ‘step up and really commit’ to aiding rebuilding in Nepal David Shoebridge, the Greens’ spokesperson on foreign affairs, told RN Breakfast earlier the Australian commitment of $5m for affected communities in Nepal “won’t come close to touching the sides” of the calamity. I think Austr",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -420,18 +434,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "America’s heartland comes face-to-face with 9/11 history as 25th anniversary nears",
-        "desc": "The Steel Across America tour brought a 16,900-pound South Tower beam to Cincinnati and Scott Nokes, a double amputee veteran, shared his story.",
-        "link": "https://www.foxnews.com/politics/americas-heartland-comes-face-to-face-9-11-history-25th-anniversary-nears"
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia news live: Antarctic staff to withdraw from Macquarie Island amid bird flu risk; Virgin’s profit rises despite US-Iran war",
+        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Greens say Australia needs to ‘step up and really commit’ to aiding rebuilding in Nepal David Shoebridge, the Greens’ spokesperson on foreign affairs, told RN Breakfast earlier the Australian commitment of $5m for affected communities in Nepal “won’t come close to touching the sides” of the calamity. I think Austr",
+        "link": "https://www.theguardian.com/australia-news/live/2026/aug/28/nepal-floods-australians-missing-penny-wong-anthony-albanese-angus-taylor-liberal-party-pauline-hanson-one-nation-ntwnfb"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "2028 Dem hopeful slaps Trump administration with lawsuit over mail-in voting after major SCOTUS victory",
-      "summary": "Pennsylvania Gov. Josh Shapiro joined 23 states to sue the USPS over Trump-backed mail-ballot rule, arguing Congress — not the president or Postal Service — sets federal election rules.",
+      "headline": "New York Gov Hochul rejects Trump's 'Lake America' renaming with blunt message",
+      "summary": "New York Gov. Kathy Hochul pushed back on President Donald Trump's executive order to rename Lake Ontario to \"Lake America\" amid his trade war with Canada.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -441,16 +455,16 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "2028 Dem hopeful slaps Trump administration with lawsuit over mail-in voting after major SCOTUS victory",
-        "desc": "Pennsylvania Gov. Josh Shapiro joined 23 states to sue the USPS over Trump-backed mail-ballot rule, arguing Congress — not the president or Postal Service — sets federal election rules.",
-        "link": "https://www.foxnews.com/politics/2028-dem-hopeful-trump-admin-lawsuit-over-mail-in-voting-scotus-victory"
+        "title": "New York Gov Hochul rejects Trump's 'Lake America' renaming with blunt message",
+        "desc": "New York Gov. Kathy Hochul pushed back on President Donald Trump's executive order to rename Lake Ontario to \"Lake America\" amid his trade war with Canada.",
+        "link": "https://www.foxnews.com/politics/new-york-gov-hochul-rejects-trumps-lake-america-renaming-blunt-message"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Dem senator turns ‘leader of the free world’ title on its head with Zelenskyy remarks",
-      "summary": "Chris Coons declared Volodymyr Zelenskyy is now the free world's primary leader, igniting fierce backlash from the White House and conservatives.",
+      "headline": "RNC threatens legal action against New Jersey officials over noncitizens on voter rolls: 'On notice'",
+      "summary": "The RNC threatened legal action against New Jersey election officials over noncitizen voter roll records, giving all until Sept. 15 to comply.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -460,9 +474,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Dem senator turns ‘leader of the free world’ title on its head with Zelenskyy remarks",
-        "desc": "Chris Coons declared Volodymyr Zelenskyy is now the free world's primary leader, igniting fierce backlash from the White House and conservatives.",
-        "link": "https://www.foxnews.com/politics/dem-senator-turns-leader-free-world-title-its-head-zelenskyy-remarks"
+        "title": "RNC threatens legal action against New Jersey officials over noncitizens on voter rolls: 'On notice'",
+        "desc": "The RNC threatened legal action against New Jersey election officials over noncitizen voter roll records, giving all until Sept. 15 to comply.",
+        "link": "https://www.foxnews.com/politics/rnc-threatens-legal-action-against-new-jersey-officials-noncitizens-voter-rolls-notice"
        }
       ]
      }
@@ -474,14 +488,80 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Unexpected chat between OpenAI agents led to Hugging Face hack",
-      "summary": "OpenAI's cyber agents banded together to perform a hack during a security test.",
+      "headline": "What the Meta settlement means for the UK, and other questions after the deal",
+      "summary": "Other social media firms are yet to respond, while the debate from campaigners is far from over.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "What the Meta settlement means for the UK, and other questions after the deal",
+        "desc": "Other social media firms are yet to respond, while the debate from campaigners is far from over.",
+        "link": "https://www.bbc.co.uk/news/articles/cg49q4xydq0o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "An $18bn settlement is a drop in the ocean for Meta – but the tide will still come for it | Chris Stokel-Walker",
+        "desc": "This week’s settlement without liability was pragmatic, but it doesn’t change the inevitability of further lawsuits around the world Not many people would count paying $18bn they didn’t expect to when they woke up that morning as a victory. Yet for Meta, the owners of Facebook and Instagram, the agreement with 52 US attorneys general to settle claims that it designed its products to be addictive t",
+        "link": "https://www.theguardian.com/commentisfree/2026/aug/27/meta-social-media-settlement-18bn-us-child-safety-big-tech-lawsuits"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Meta settles states' child-safety claims for $18B; Florida rejects deal as \"peanuts\"",
+        "desc": "Meta to impose daily limit on child social media use in deal with nearly every state.",
+        "link": "https://arstechnica.com/tech-policy/2026/08/meta-settles-states-child-safety-claims-for-18b-florida-rejects-deal-as-peanuts/"
+       }
+      ]
+     },
+     {
+      "id": 14,
+      "headline": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+      "summary": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, eventually shifting to November 19th, 2026, a full year after its originally planned fall 2025 release window. Early official glimpses offered a look at the game’s protago",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Grand Theft Auto VI’s long-overdue gameplay reveal – as it happened",
+        "desc": "Under some strange circumstances, Rockstar broadcast the first (official) gameplay footage of Grand Theft Auto VI, the most-anticipated game of the year. Here’s everything you need to know. Ah yes, it’s a drug den. We’re in familiar GTA territory here: narcotics, smart phones, tattooed gangsters and a police raid. The duo shoot their way out of the room – the gunplay is very familiar to the series",
+        "link": "https://www.theguardian.com/games/live/2026/aug/27/grand-theft-auto-vis-long-overdue-gameplay-reveal-as-it-happens"
+       },
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+        "desc": "It’s been over a decade and two console generations since GTA V came out, and its sequel is still a work in progress. GTA VI has faced multiple delays, with developer Rockstar Games bumping back its predicted release date twice, eventually shifting to November 19th, 2026, a full year after its originally planned fall 2025 release window. Early official glimpses offered a look at the game’s protago",
+        "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games"
+       }
+      ]
+     },
+     {
+      "id": 15,
+      "headline": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+      "summary": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+        "desc": "Nvidia is nabbing critical infrastructure for open models as interest grows.",
+        "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
+       },
        {
         "outlet": "BBC Tech",
         "lean": "centre",
@@ -492,9 +572,9 @@
       ]
      },
      {
-      "id": 14,
-      "headline": "Nvidia revenue doubles on continued AI demand",
-      "summary": "Chipmaker's $96bn quarter beat forecasts as demand for AI hardware continues to accelerate.",
+      "id": 16,
+      "headline": "Reform of all social media should come with Meta changes, UN says",
+      "summary": "California's attorney general is now looking at TikTok and YouTube to enact teen safety features.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -504,54 +584,23 @@
        {
         "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Nvidia revenue doubles on continued AI demand",
-        "desc": "Chipmaker's $96bn quarter beat forecasts as demand for AI hardware continues to accelerate.",
-        "link": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 15,
-      "headline": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion in overall revenue in the past quarter, a jump of over $10 billion from the pr",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
+        "title": "Reform of all social media should come with Meta changes, UN says",
+        "desc": "California's attorney general is now looking at TikTok and YouTube to enact teen safety features.",
+        "link": "https://www.bbc.co.uk/news/articles/c17j00lnn41o?at_medium=RSS&at_campaign=rss"
+       },
        {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
-        "desc": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion in overall revenue in the past quarter, a jump of over $10 billion from the pr",
-        "link": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue"
-       }
-      ]
-     },
-     {
-      "id": 16,
-      "headline": "OpenAI’s rogue AI model incident was worse than we thought",
-      "summary": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for Open",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "OpenAI’s rogue AI model incident was worse than we thought",
-        "desc": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for Open",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr"
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "AI slopper in chief: Trump turns to social media amid tough questions",
+        "desc": "As the US president struggles to end his Iran war, and approval ratings hit new lows, he leans on a familiar gambit Donald Trump knows the power of an image – of himself, with everyone from Vladimir Putin and Kim Jong-un to Kim Kardashian. How about George Washington? As the US president struggles to end his war with Iran, and with his approval ratings hitting the lowest levels of his second term,",
+        "link": "https://www.theguardian.com/us-news/2026/aug/27/trump-truth-social-ai-george-washington"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Meta to pay up to $18bn to settle claims its platforms harm children",
-      "summary": "The deal has been reached during a California federal court trial over claims brought by US states.",
+      "headline": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red lines,\" or unacceptable military",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -559,18 +608,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Meta to pay up to $18bn to settle claims its platforms harm children",
-        "desc": "The deal has been reached during a California federal court trial over claims brought by US states.",
-        "link": "https://www.bbc.co.uk/news/articles/cd68q3wynnqo?at_medium=RSS&at_campaign=rss"
+        "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+        "desc": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red lines,\" or unacceptable military",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-      "summary": "Reuters report shows Meta's challenges replacing people with AI agents.",
+      "headline": "The GTA VI ‘extended look’ is now streaming on YouTube",
+      "summary": "Rockstar has officially published its \"extended look\" at Grand Theft Auto VI on YouTube and on its website, as promised. The in-depth preview, which \"entirely\" features footage captured from the PS5 version of the game, initially premiered on Netflix at 3PM ET. But because Rockstar allowed creators to post reaction videos, you've technically been able to watch the video on YouTube before the studi",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -578,11 +627,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-        "desc": "Reuters report shows Meta's challenges replacing people with AI agents.",
-        "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/"
+        "title": "The GTA VI ‘extended look’ is now streaming on YouTube",
+        "desc": "Rockstar has officially published its \"extended look\" at Grand Theft Auto VI on YouTube and on its website, as promised. The in-depth preview, which \"entirely\" features footage captured from the PS5 version of the game, initially premiered on Netflix at 3PM ET. But because Rockstar allowed creators to post reaction videos, you've technically been able to watch the video on YouTube before the studi",
+        "link": "https://www.theverge.com/games/985910/grand-theft-auto-gta-vi-extended-look-youtube-netflix-stream"
        }
       ]
      }
@@ -594,6 +643,84 @@
     "stories": [
      {
       "id": 19,
+      "headline": "'Booming' gold mining, gas fracking key in plan to reverse NT's $11b debt",
+      "summary": "Northern Territory Treasurer Bill Yan says the government is turning the tide on the Territory's $11 billion debt, supported by progress on major projects including Beetaloo Basin gas and a number of gold and lithium mines.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "'Booming' gold mining, gas fracking key in plan to reverse NT's $11b debt",
+        "desc": "Northern Territory Treasurer Bill Yan says the government is turning the tide on the Territory's $11 billion debt, supported by progress on major projects including Beetaloo Basin gas and a number of gold and lithium mines.",
+        "link": "https://www.abc.net.au/news/2026-08-28/nt-treasurer-bill-yan-says-mining-and-gas-improving-economy-debt/107084880"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Forrestania inks $145M mining contract for WA gold hub",
+        "desc": "Forrestania has inked a $145M mining deal as the company’s Lake Johnston processing hub continues to take shape, fast-tracking its WA gold production ambitions.",
+        "link": "https://www.theage.com.au/business/companies/forrestania-inks-145m-mining-contract-for-wa-gold-hub-20260827-p60s5x.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "Aviation enthusiasts fight plan to sell off the birthplace of RAAF",
+      "summary": "There are calls for RAAF Base Point Cook, in Melbourne's south-west, to be placed in a community trust rather than sold to private investors.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Aviation enthusiasts fight plan to sell off the birthplace of RAAF",
+        "desc": "There are calls for RAAF Base Point Cook, in Melbourne's south-west, to be placed in a community trust rather than sold to private investors.",
+        "link": "https://www.abc.net.au/news/2026-08-28/calls-to-put-raaf-point-cook-into-community-trust-not-sell/107076582"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "NYC-area chamber of commerce CEO blasts Mamdani grocery plan as 'disastrous' amid legal fight",
+        "desc": "Greater New York Chamber of Commerce President and CEO Mark Jaffe discusses New York City Mayor Zohran Mamdani's government grocery store plans that are being targeted with lawsuits.",
+        "link": "https://www.foxbusiness.com/politics/nyc-area-chamber-commerce-ceo-blasts-mamdani-grocery-plan-disastrous-amid-legal-fight"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "RBA 'quietly' reduced US dollar exposure, big banks tip rate hike — as it happened",
+      "summary": "The Reserve Bank, it has been revealed, reduced its target share of US dollars in its foreign reserves portfolio by 10 percentage points in 2025.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX slumps on rate hike calls; Qantas lifts, Wesfarmers, Sigma slump",
+        "desc": "The Australian sharemarket had its biggest drop in 12 weeks as bets firmed for another interest rate rise as early as next month.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-for-flat-start-as-wall-street-dips-nvidia-qantas-results-ahead-20260827-p60rx8.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "RBA 'quietly' reduced US dollar exposure, big banks tip rate hike — as it happened",
+        "desc": "The Reserve Bank, it has been revealed, reduced its target share of US dollars in its foreign reserves portfolio by 10 percentage points in 2025.",
+        "link": "https://www.abc.net.au/news/2026-08-27/asx-markets-business-news-live-updates-thursday-27-august/107083084"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "'Absolutely horrible': Sleepless nights for families near new Sydney airport",
       "summary": "Locals living near the new Western Sydney airport say they are only managing a few hours' sleep a night since operations began.",
       "divergent": null,
@@ -603,117 +730,25 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Qantas boss says air traffic delays at Sydney Airport ‘not OK’",
+        "desc": "The company said its fuel bill jumped by more than $600 million while chief Vanessa Hudson defended Jetstar’s decision to begin charging for priority access to overhead bins.",
+        "link": "https://www.theage.com.au/business/companies/qantas-profit-tumbles-as-fuel-coasts-soar-20260826-p60rvf.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
         "outlet": "ABC Business",
         "lean": "centre",
         "title": "'Absolutely horrible': Sleepless nights for families near new Sydney airport",
         "desc": "Locals living near the new Western Sydney airport say they are only managing a few hours' sleep a night since operations began.",
         "link": "https://www.abc.net.au/news/2026-08-27/western-sydney-international-airport-noise-complaints-locals/107077582"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Transport regulator investigating two more incidents at Sydney airport, taking tally to six in a month – as it happened",
-        "desc": "This blog is now closed Get our breaking news email, free app or daily news podcast Angela Jackson, the commissioner of the Productivity Commission, said the body stands by the interim report into the GST, which found the deal with Western Australia to be a costly mistake that should be reversed. Jackson spoke to RN this morning after WA premier Roger Cook said “east coast clowns” didn’t understan",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/26/national-cabinet-datacentres-cpi-inflation-data-politics-reactions-anthony-albansese-labor-angus-taylor-coalition-ntwnfb"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Investigators probe two more close calls at Sydney Airport",
-        "desc": "Investigators have opened probes into two fresh incidents at Sydney Airport, following a run of recent problems at the major hub.",
-        "link": "https://www.theage.com.au/business/companies/investigators-probe-fresh-runway-incidents-at-sydney-airport-20260826-p60rrf.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "'Unfortunate kick in the guts' as inflation data increases RBA rate hike risk",
-      "summary": "Inflation is continuing to cool with the annual headline rate rising to 3.5 per cent in July, but some economists say it has increased the risk of another interest rate hike by the Reserve Bank of Australia this year.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX falls as shock inflation fuels rate concerns; Woolies, Nine gain",
-        "desc": "The Australian sharemarket pared early gains after the release of the latest inflation figures, while investors digested another flurry of local corporate results.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-wall-street-boosted-by-falling-oil-prices-canada-hits-back-at-us-with-tariffs-20260826-p60rjt.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Fears grow for fourth rate hike after Australia sees higher-than-expected July inflation",
-        "desc": "Bureau of Statistics says CPI was 3.5% in July, casting doubt on Reserve Bank meeting its 2.5% inflation target without further hike Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Fears are growing that the Reserve Bank will hit millions of mortgage holders with a fourth rate hike this year, after inflation eased in July but by fa",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/26/fears-grow-for-fourth-rate-hike-after-higher-than-expected-july-inflation-rate"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "'Unfortunate kick in the guts' as inflation data increases RBA rate hike risk",
-        "desc": "Inflation is continuing to cool with the annual headline rate rising to 3.5 per cent in July, but some economists say it has increased the risk of another interest rate hike by the Reserve Bank of Australia this year.",
-        "link": "https://www.abc.net.au/news/2026-08-26/july-inflation-slows-heightened-risk-rba-rate-hike/107078580"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "Police and KPMG unable to say why $6m contract cancelled",
-      "summary": "Tasmania Police officers have been using a 'clunky' intelligence system for years. KPMG was engaged to update it, but after two years and $6 million, its contract has been terminated and neither party can say why.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Police and KPMG unable to say why $6m contract cancelled",
-        "desc": "Tasmania Police officers have been using a 'clunky' intelligence system for years. KPMG was engaged to update it, but after two years and $6 million, its contract has been terminated and neither party can say why.",
-        "link": "https://www.abc.net.au/news/2026-08-27/tasmania-police-drops-ict-upgrade-contract-with-kpmg/107079886"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Macquarie dumps KPMG from the nation’s biggest audit contract",
-        "desc": "KPMG faces another round of job cuts after Macquarie dumped the firm from the most lucrative audit contract in Australia.",
-        "link": "https://www.theage.com.au/business/companies/macquarie-dumps-kpmg-from-the-nation-s-biggest-audit-contract-20260826-p60rv4.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "Real estate agent's sales data under scrutiny after awards disqualification",
-      "summary": "A top-ranked WA real estate agent is disqualified from this year's industry awards after discrepancies emerge in his reported sales data.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Desperate agents vent online as real estate downturn bites",
-        "desc": "From deploying stunts about false robberies to sharing tactics to avoid buyers seeking discounts, real estate agents are talking themselves through the downturn.",
-        "link": "https://www.theage.com.au/business/companies/desperate-agents-vent-online-as-real-estate-downturn-bites-20260825-p60r93.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Real estate agent's sales data under scrutiny after awards disqualification",
-        "desc": "A top-ranked WA real estate agent is disqualified from this year's industry awards after discrepancies emerge in his reported sales data.",
-        "link": "https://www.abc.net.au/news/2026-08-26/reiwa-disqualifies-top-agent-roy-li-from-awards-2026/106951054"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "News live: dozens of Australians believed to be among hundreds missing in Nepal flash floods",
-      "summary": "Powerful floods in Himalayan border area sweep away houses, roads and bridges. Follow today’s news live Get our breaking news email, free app or daily news podcast The prime minister, Anthony Albanese, says Dfat officials are ready to provide consular assistance to Australians in Nepal, after the devastating flooding in the country. A local tourism official said they believed 34 Australians were m",
+      "headline": "Australia news live: Antarctic staff to withdraw from Macquarie Island amid bird flu risk; Virgin’s profit rises despite US-Iran war",
+      "summary": "Follow today’s news live Get our breaking news email, free app or daily news podcast Greens say Australia needs to ‘step up and really commit’ to aiding rebuilding in Nepal David Shoebridge, the Greens’ spokesperson on foreign affairs, told RN Breakfast earlier the Australian commitment of $5m for affected communities in Nepal “won’t come close to touching the sides” of the calamity. I think Austr",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -723,16 +758,16 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "News live: dozens of Australians believed to be among hundreds missing in Nepal flash floods",
-        "desc": "Powerful floods in Himalayan border area sweep away houses, roads and bridges. Follow today’s news live Get our breaking news email, free app or daily news podcast The prime minister, Anthony Albanese, says Dfat officials are ready to provide consular assistance to Australians in Nepal, after the devastating flooding in the country. A local tourism official said they believed 34 Australians were m",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/27/australia-news-live-ai-datacentres-national-cabinet-renewable-energy-icac-perrottet-alan-jones-bruce-lehrmann-qantas-sydney-melbourne-nepal-floods-ntwnfb"
+        "title": "Australia news live: Antarctic staff to withdraw from Macquarie Island amid bird flu risk; Virgin’s profit rises despite US-Iran war",
+        "desc": "Follow today’s news live Get our breaking news email, free app or daily news podcast Greens say Australia needs to ‘step up and really commit’ to aiding rebuilding in Nepal David Shoebridge, the Greens’ spokesperson on foreign affairs, told RN Breakfast earlier the Australian commitment of $5m for affected communities in Nepal “won’t come close to touching the sides” of the calamity. I think Austr",
+        "link": "https://www.theguardian.com/australia-news/live/2026/aug/28/nepal-floods-australians-missing-penny-wong-anthony-albanese-angus-taylor-liberal-party-pauline-hanson-one-nation-ntwnfb"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Residents furious at illegal dumping in native bushland near school",
-      "summary": "Rubbish containing dangerous waste found illegally dumped in bushland upsets Albany residents, with the mayor saying it is the worst he has seen.",
+      "headline": "Embattled travel giant repaying tens of millions to overcharged clients",
+      "summary": "Corporate Travel Management is refunding clients after it was revealed the company had failed to pass on margins and rebates relating to suppliers including hotels and airlines.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -742,9 +777,9 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Residents furious at illegal dumping in native bushland near school",
-        "desc": "Rubbish containing dangerous waste found illegally dumped in bushland upsets Albany residents, with the mayor saying it is the worst he has seen.",
-        "link": "https://www.abc.net.au/news/2026-08-27/illegal-dumping-of-rubbish-in-albany-bushland-enrages-locals/107080146"
+        "title": "Embattled travel giant repaying tens of millions to overcharged clients",
+        "desc": "Corporate Travel Management is refunding clients after it was revealed the company had failed to pass on margins and rebates relating to suppliers including hotels and airlines.",
+        "link": "https://www.abc.net.au/news/2026-08-28/corporate-travel-management-ana-pedersen-hotels-airlines-rebates/107089152"
        }
       ]
      }
@@ -756,34 +791,8 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Villa close to £65m move for Chelsea's Jackson",
-      "summary": "The striker is nearing a move to Villa Park after three years at Chelsea.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Chelsea in talks with Martínez’s camp as Aston Villa close on striker Jackson",
-        "desc": "Blues consider making offer for Argentina goalkeeper Villa agree £65m Jackson deal as Watkins nears £50m exit Manchester City expected to make bid for Fernández Chelsea have been offered Emiliano Martínez and are considering a bid for the goalkeeper. The club are in talks with Martínez’s camp, and are also braced for a bid from Manchester City for the World Cup winner’s Argentina teammate Enzo Fer",
-        "link": "https://www.theguardian.com/football/2026/aug/26/chelsea-emiliano-martinez-aston-villa-goalkeeper"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Villa close to £65m move for Chelsea's Jackson",
-        "desc": "The striker is nearing a move to Villa Park after three years at Chelsea.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cge4y57ygvdo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 26,
-      "headline": "Aussie Sally Fitzgibbons dedicates Fiji Pro win over great rival Steph Gilmore to late surfing icon Mark Lane",
-      "summary": "‘I’m sending all my love to his family and friends.’",
+      "headline": "'Harry's the man': Les Kiss explains captain's omission from Wallabies team to face Argentina",
+      "summary": "‘When I don’t pick him there’s another captain that steps up.’",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -793,23 +802,49 @@
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Aussie Sally Fitzgibbons dedicates Fiji Pro win over great rival Steph Gilmore to late surfing icon Mark Lane",
-        "desc": "‘I’m sending all my love to his family and friends.’",
-        "link": "https://7news.com.au/sport/surfing/aussie-sally-fitzgibbons-dedicates-fiji-pro-win-over-great-rival-steph-gilmore-to-late-surfing-icon-mark-lane-c-22780270"
+        "title": "'Harry's the man': Les Kiss explains captain's omission from Wallabies team to face Argentina",
+        "desc": "‘When I don’t pick him there’s another captain that steps up.’",
+        "link": "https://7news.com.au/sport/rugby-union/harrys-the-man-les-kiss-explains-captains-omission-from-wallabies-team-to-face-argentina-c-22789498"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "‘Icon of our game’: All-Australian selection lifts ruck great Max Gawn into rarified air",
-        "desc": "Melbourne player awarded record-breaking ninth blazer AFL minor premiers Fremantle lead league with five selections Melbourne colossus Max Gawn has underlined his status as the greatest ruckman of the modern era, awarded an unprecedented ninth All-Australian blazer after another brilliant individual season. Gawn was named captain of the representative side, which also featured Demons teammate Kysa",
-        "link": "https://www.theguardian.com/sport/2026/aug/26/afl-max-gawn-all-australian-selection-record-ninth-time"
+        "title": "Wallabies rotate forwards for Argentina Test as Suaalii settles for place on bench",
+        "desc": "Captain Harry Wilson left out of team entirely for clash in Jujuy Reshaped pack ‘worthwhile exploring’, says coach Les Kiss Coach Les Kiss has left out captain Harry Wilson and high-profile recruit Joseph-Aukuso Suaalii from the Wallabies XV to play Argentina in Jujuy this weekend as he seeks to develop more depth in the squad ahead of next year’s World Cup. Tighthead prop Allan Alaalatoa will cap",
+        "link": "https://www.theguardian.com/sport/2026/aug/28/wallabies-team-selection-australia-argentina-rugby-union-test"
+       }
+      ]
+     },
+     {
+      "id": 26,
+      "headline": "Why tough US Open draw will be true test of Alcaraz's fitness",
+      "summary": "Carlos Alcaraz starts his US Open title defence against Russia's Roman Safiullin in the first serious examination of his fitness following a long-term wrist injury.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Why tough US Open draw will be true test of Alcaraz's fitness",
+        "desc": "Carlos Alcaraz starts his US Open title defence against Russia's Roman Safiullin in the first serious examination of his fitness following a long-term wrist injury.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c986dyn1l7wo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "US Open: Carlos Alcaraz to face Safiullin on return as Sabalenka gets tricky draw",
+        "desc": "Alcaraz back in action after four-month injury layoff Novak Djokovic faces Mariano Navone in first round Carlos Alcaraz has been handed a tough draw on his return to singles competition after a four-month injury layoff as he faces the in-form Russian Roman Safiullin in the first round of the US Open. Alcaraz, the defending champion in New York, has not competed in singles since sustaining a right ",
+        "link": "https://www.theguardian.com/sport/2026/aug/27/us-open-carlos-alcaraz-to-face-safiullin-on-return-as-sabalenka-gets-tricky-draw"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "UEFA Champions League",
-      "summary": "Featuring LASK v Celtic and six more matches",
+      "headline": "Wigan thrash Hull KR on night of tributes for Boston",
+      "summary": "Wigan Warriors move top of Super League as they thrash Hull KR on an emotional evening as the Cherry and Whites pay tribute to the late Sir Billy Boston.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -819,54 +854,23 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "UEFA Champions League",
-        "desc": "Featuring LASK v Celtic and six more matches",
-        "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss"
+        "title": "Wigan thrash Hull KR on night of tributes for Boston",
+        "desc": "Wigan Warriors move top of Super League as they thrash Hull KR on an emotional evening as the Cherry and Whites pay tribute to the late Sir Billy Boston.",
+        "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cwyzlpl32p4o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Wigan rise to occasion against Hull KR as town unites to remember Sir Billy Boston",
+        "desc": "Super League: Wigan Warriors 46-0 Hull KR Liam Marshall bags hat-trick of tries in rout On the night when Wigan Warriors celebrated one of their greatest entertainers, perhaps it was fitting that Matt Peet’s class of 2026 produced a performance Sir Billy Boston would have been proud of on their charge towards, potentially, another Super League title. There are some nights where the result is dwarf",
+        "link": "https://www.theguardian.com/sport/2026/aug/27/wigan-hull-kr-super-league-match-report"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "How to follow Thursday's Champions League draw - and who is in each pot?",
-      "summary": "BBC Sport's Ask Me Anything team explains when the league phase draw for the 2026-27 Champions League is, as well as looking at who is in each pot",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "How to follow Thursday's Champions League draw - and who is in each pot?",
-        "desc": "BBC Sport's Ask Me Anything team explains when the league phase draw for the 2026-27 Champions League is, as well as looking at who is in each pot",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c3v0q3r554xo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "AEK Athens cruise past Levski Sofia with dominant 4-0 win",
-      "summary": "AEK Athens are through to the Champions League with a comfortable 4-0 win against Levski Sofia.",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "AEK Athens cruise past Levski Sofia with dominant 4-0 win",
-        "desc": "AEK Athens are through to the Champions League with a comfortable 4-0 win against Levski Sofia.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/c23xk90x3zko?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
-      "summary": "Kylian Mbappé scored a hat-trick as Real Madrid beat Real Sociedad 4-1 at the Bernabéu on Wednesday ⁠in their first home match since the return of José Mourinho as head coach. Mbappé put Madrid ahead in the 40th minute before Luka Sucic levelled four minutes later, but the ⁠France forward restored the ⁠hosts’ lead on ​the hour. Vinícius Júnior added a third in the 68th minute before Mbappé complet",
+      "headline": "Uefa preparing criminal legal action against Infantino",
+      "summary": "Uefa is pursuing criminal proceedings against Fifa president Gianni Infantino over the scrapped plan to sell off stakes in the World Cup.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -876,9 +880,61 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Mbappé hat-trick sinks Real Sociedad after Real Madrid jeered by home fans",
-        "desc": "Kylian Mbappé scored a hat-trick as Real Madrid beat Real Sociedad 4-1 at the Bernabéu on Wednesday ⁠in their first home match since the return of José Mourinho as head coach. Mbappé put Madrid ahead in the 40th minute before Luka Sucic levelled four minutes later, but the ⁠France forward restored the ⁠hosts’ lead on ​the hour. Vinícius Júnior added a third in the 68th minute before Mbappé complet",
-        "link": "https://www.theguardian.com/football/2026/aug/26/real-madrid-real-sociedad-la-liga-match-report-jose-mourinho-kylian-mbappe"
+        "title": "Uefa raises stakes with criminal complaint in battle to unseat Infantino | Matt Hughes",
+        "desc": "Uefa has begun a legal process against the embattled Fifa president but it will still be an uphill struggle to remove him Anyone who interpreted Uefa’s decision to withdraw a proposed boycott of Fifa competitions, revealed by the Guardian on Wednesday, as a backward step in the attempt to remove Gianni Infantino as Fifa’s president has been quickly disabused of that notion. In a stunning developme",
+        "link": "https://www.theguardian.com/football/2026/aug/27/uefa-criminal-complaint-plan-fifa-gianni-infantino-analysis"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Uefa preparing criminal legal action against Infantino",
+        "desc": "Uefa is pursuing criminal proceedings against Fifa president Gianni Infantino over the scrapped plan to sell off stakes in the World Cup.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cx2zl5kwlxjo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "AFL chairman Craig Drummond responds after Geelong fined for concussion contract clause",
+      "summary": "‘Jake’s private medical information was released without his consent.’",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Geelong fined $140,000 over secret Jake Kolodjashnij concussion waiver",
+        "desc": "AFL sanctions Cats for failing to lodge variation to player’s contract Andrew Dillon says league would not accept same deal lodged today A schism has emerged at the top of the AFL over whether clubs can avoid future liability for head injuries, despite the league fining Geelong $140,000 for failing to lodge the concussion waiver signed by defender Jake Kolodjashnij. The Cats sanction was made of t",
+        "link": "https://www.theguardian.com/sport/2026/aug/27/geelong-fine-jake-kolodjashnij-afl-concussion-waiver"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "AFL chairman Craig Drummond responds after Geelong fined for concussion contract clause",
+        "desc": "‘Jake’s private medical information was released without his consent.’",
+        "link": "https://7news.com.au/sport/afl/afl-chairman-craig-drummond-responds-after-geelong-fined-for-concussion-contract-clause-c-22785979"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Fallen AFL great Nicky Winmar sent to jail for attack on woman",
+      "summary": "After his fate was revealed his barrister immediately indicated his client would be appealing.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Fallen AFL great Nicky Winmar sent to jail for attack on woman",
+        "desc": "After his fate was revealed his barrister immediately indicated his client would be appealing.",
+        "link": "https://7news.com.au/sport/afl/fallen-afl-great-nicky-winmar-sent-to-jail-for-attack-on-woman-c-22790077"
        }
       ]
      }
@@ -890,8 +946,8 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Snoop’ Biopic At Universal Adds Laya DeLeon Hayes, Olly Sholotan, Corey Champagne And Jonica Booth To Cast",
-      "summary": "EXCLUSIVE: Laya DeLeon Hayes, Olly Sholotan, Corey Champagne and Jonica Booth is set to portray are set to join the cast of Snoop, Universal Pictures’ definitive biopic of entertainment mogul and icon, Snoop Dogg. DeLeon Hayes will portray Shante Broadus, Snoop’s wife, Sholotan will play rapper Kurupt, Champagne will portray Nate Dogg and Booth is playing The […]",
+      "headline": "Legend of the White Dragon Filmmaker Cast Breakdown Characters, Stunts, And Creative Collaboration",
+      "summary": "ScreenRant interviews filmmaker Aaron Schoenke and the cast of Legend of the White Dragon about their experiences filming the tokusatsu-inspired film.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -899,25 +955,32 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Legend of the White Dragon Filmmaker Cast Breakdown Characters, Stunts, And Creative Collaboration",
+        "desc": "ScreenRant interviews filmmaker Aaron Schoenke and the cast of Legend of the White Dragon about their experiences filming the tokusatsu-inspired film.",
+        "link": "https://screenrant.com/legend-of-the-white-dragon-filmmaker-cast-breakdown/"
+       },
+       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Snoop’ Biopic At Universal Adds Laya DeLeon Hayes, Olly Sholotan, Corey Champagne And Jonica Booth To Cast",
-        "desc": "EXCLUSIVE: Laya DeLeon Hayes, Olly Sholotan, Corey Champagne and Jonica Booth is set to portray are set to join the cast of Snoop, Universal Pictures’ definitive biopic of entertainment mogul and icon, Snoop Dogg. DeLeon Hayes will portray Shante Broadus, Snoop’s wife, Sholotan will play rapper Kurupt, Champagne will portray Nate Dogg and Booth is playing The […]",
-        "link": "https://deadline.com/2026/08/snoop-biopic-laya-deleon-hayes-olly-sholotan-1237051304/"
+        "title": "‘The View’ Confirms Season 30 Cast In Promo, Teasing Big Premiere Surprise",
+        "desc": "After 30 years, The View is returning for a milestone season next month on ABC with its panel of opinionated women. On Thursday, the Barbara Walters-created daytime talk show released a promo for its 30th season, kicking off Tuesday, Sept. 8, confirming the return of co-hosts Whoopi Goldberg, Sara Haines, Joy Behar, Ana Navarro, Sunny […]",
+        "link": "https://deadline.com/2026/08/the-view-confirms-season-30-cast-promo-1237061667/"
        },
        {
         "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "HIDIVE Announces English Dub Cast for The World Is Dancing Anime",
-        "desc": "Melissa Molano, Rex Rosario, Ty Mahany, others star in English dub",
-        "link": "https://www.animenewsnetwork.com/news/2026-08-26/hidive-announces-english-dub-cast-for-the-world-is-dancing-anime/.241019"
+        "title": "Webtoon-Based Live-Action Movie Reawaken Man: The Red Set to Open in South Korea on September 30",
+        "desc": "Film follows ordinary job seeker who suddenly gains ability to resurrect after dying",
+        "link": "https://www.animenewsnetwork.com/news/2026-08-27/webtoon-based-live-action-movie-reawaken-man-the-red-set-to-open-in-south-korea-on-september-30/.240995"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Dolly Parton Biopic, Docuseries, Scripted Series Among Projects In Works Before Death",
-      "summary": "Dolly Parton’s team is revealing some of the many projects that were in development at the time of her death Tuesday at the age of 80, ensuring fans they will continue to bring them to life. “Dolly worked up until the day she died. She loved seeing her dreams come to life, and loved knowing […]",
+      "headline": "Stephen King Meets Stranger Things In Prime Video's Upcoming Horror TV Show",
+      "summary": "Mike Flanagan's upcoming TV adaptation of Stephen King's Carrie contains some of the best elements in Stranger Things, and makes them horrifying.",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -925,25 +988,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Dolly Parton Biopic, Docuseries, Scripted Series Among Projects In Works Before Death",
-        "desc": "Dolly Parton’s team is revealing some of the many projects that were in development at the time of her death Tuesday at the age of 80, ensuring fans they will continue to bring them to life. “Dolly worked up until the day she died. She loved seeing her dreams come to life, and loved knowing […]",
-        "link": "https://deadline.com/2026/08/dolly-parton-biopic-docuseries-planned-projects-death-1237051859/"
+        "title": "Stephen King Meets Stranger Things In Prime Video's Upcoming Horror TV Show",
+        "desc": "Mike Flanagan's upcoming TV adaptation of Stephen King's Carrie contains some of the best elements in Stranger Things, and makes them horrifying.",
+        "link": "https://screenrant.com/stephen-king-meets-stranger-things-in-mike-flanagan-carrie-tv-series/"
        },
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Dolly Parton Streams Surge on Spotify With 2,320% Increase in the United States",
-        "desc": "Dolly Parton’s music has significantly surged on Spotify following her death on Tuesday, with total streams increasing over 1,260% globally and 2,320% in the United States compared to the prior seven-day daily average. The country icon saw substantial boosts across her catalog after her death was announced. “Jolene” increased 630% globally and 1,225% in the […]",
-        "link": "https://variety.com/2026/music/news/dolly-parton-streams-surge-on-spotify-jolene-9-to-5-1236844445/"
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Farewell, Dr Frank-N-Furter: why Tim Curry’s Rocky Horror Show will go on",
+        "desc": "The versatile stage performer will always be remembered for his defining film role in The Rocky Horror Picture Show, which turned him into an icon of 70s underground cinema and proto-punk • Tim Curry, star of The Rocky Horror Picture Show and Stephen King’s It, dies aged 80 • Tim Curry on sexuality, surviving a stroke and 50 years of stardom • Clowns, corsets and kings – a life in pictures Over th",
+        "link": "https://www.theguardian.com/film/filmblog/2026/aug/26/dr-frank-n-furter-tim-curry-rocky-horror-picture-show"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "‘Love Island USA’ Renewed For Season 9 At Peacock",
-      "summary": "I’ve got a text!!! Love Island USA has been renewed for Season 9 at Peacock. Ariana Madix, who recently earned her first Emmy nomination for her duties on the dating series, is set to front the show once again. The latest season saw Trinity Celeste Tatum and Bryce Alakai Dettloff crowned winners and share a […]",
+      "headline": "CNN Apologizes To Dolly Parton’s Family For Mistakenly Airing Photo Of Impersonator",
+      "summary": "CNN has issued an apology after mistakenly airing a photo of a Dolly Parton impersonator during coverage of the country music icon’s death. After Parton died at age 80 on Tuesday, that night’s episode of Laura Coates Live featured a photo of Las Vegas celebrity impersonator Kelly Vohnn, for which the news network has since […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -953,23 +1016,23 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Love Island USA’ Renewed For Season 9 At Peacock",
-        "desc": "I’ve got a text!!! Love Island USA has been renewed for Season 9 at Peacock. Ariana Madix, who recently earned her first Emmy nomination for her duties on the dating series, is set to front the show once again. The latest season saw Trinity Celeste Tatum and Bryce Alakai Dettloff crowned winners and share a […]",
-        "link": "https://deadline.com/2026/08/love-island-usa-renewed-season-9-peacock-1237051712/"
+        "title": "CNN Apologizes To Dolly Parton’s Family For Mistakenly Airing Photo Of Impersonator",
+        "desc": "CNN has issued an apology after mistakenly airing a photo of a Dolly Parton impersonator during coverage of the country music icon’s death. After Parton died at age 80 on Tuesday, that night’s episode of Laura Coates Live featured a photo of Las Vegas celebrity impersonator Kelly Vohnn, for which the news network has since […]",
+        "link": "https://deadline.com/2026/08/cnn-apologizes-dolly-parton-family-impersonator-photo-1237061649/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Love Island USA’ Renewed for Season 9 With Ariana Madix Returning as Host, Peacock Drops Season 8 Reunion Sneak Peak",
-        "desc": "Peacock has renewed “Love Island USA” for Season 9, with Ariana Madix set to return as host following a record-breaking eighth season. To accompany the news, Peacock has also released a sneak peak at the “Love Island USA” Season 8 reunion, which airs Monday at 6 p.m. PT and is co-hosted by Madix and Andy […]",
-        "link": "https://variety.com/2026/tv/news/love-island-usa-season-9-renewed-1236844399/"
+        "title": "AMC Theatres Sets Dolly Parton Retrospective With ‘Steel Magnolias’ and ‘The Best Little Whorehouse in Texas’",
+        "desc": "Two of Dolly Parton’s most beloved movies are heading back to the big screen following the country music icon’s death on Tuesday. Beginning on Friday, Aug. 28, AMC Theatres will offer special presentations of “Steel Magnolias” and “The Best Little Whorehouse in Texas” in approximately 200 locations across the U.S., including Parton’s home state of […]",
+        "link": "https://variety.com/2026/film/news/amc-theatres-dolly-parton-tribute-steel-magnolias-best-little-whorehouse-in-texas-1236845626/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "All The Songs In Prime Video’s ‘The Last Sunrise’: Bad Bunny, Sabrina Carpenter, Sombr & More",
-      "summary": "The Last Sunrise, based on Anna Todd’s bestselling romance novel, is the latest romance film in the YA genre and book adaptation Venn diagram to arrive on Prime Video as the streamer rides the wave of obsession. In the film, Maia Reficco portrays Oriah ‘Ry’ Pera, a young dancer facing some health challenges when her […]",
+      "headline": "Andrea Eastman Dies: ‘Godfather’ Casting Director & Longtime Agent At ICM Was 86",
+      "summary": "Andrea Eastman, who broke boundaries as a casting director at Paramount in the 1970s and as an agent at ICM, has died, Deadline has confirmed. She was 86. Eastman’s output as a casting director is not extensive, but it is impressive. She had an uncanny penchant for identifying untested talent and placing them in breakout […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -979,42 +1042,23 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "All The Songs In Prime Video’s ‘The Last Sunrise’: Bad Bunny, Sabrina Carpenter, Sombr & More",
-        "desc": "The Last Sunrise, based on Anna Todd’s bestselling romance novel, is the latest romance film in the YA genre and book adaptation Venn diagram to arrive on Prime Video as the streamer rides the wave of obsession. In the film, Maia Reficco portrays Oriah ‘Ry’ Pera, a young dancer facing some health challenges when her […]",
-        "link": "https://deadline.com/2026/08/the-last-sunrise-soundtrack-songs-prime-video-1237051726/"
+        "title": "Andrea Eastman Dies: ‘Godfather’ Casting Director & Longtime Agent At ICM Was 86",
+        "desc": "Andrea Eastman, who broke boundaries as a casting director at Paramount in the 1970s and as an agent at ICM, has died, Deadline has confirmed. She was 86. Eastman’s output as a casting director is not extensive, but it is impressive. She had an uncanny penchant for identifying untested talent and placing them in breakout […]",
+        "link": "https://deadline.com/2026/08/andrea-eastman-dead-the-godfather-casting-director-1237061210/"
        },
        {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "The Last Sunrise review – Amazon’s soapy YA romance is thankless and bland",
-        "desc": "Another familiar concoction fails to make use of its sunny location and chooses cheap melodrama over romantic charm A titular sunrise, a summer fling fantasy, exorbitant wealth, impossibly sculpted bodies: such are the profitable story ingredients that make up The Last Sunrise, the latest offering in Amazon’s endless catalogue of “romance content”. I wouldn’t ordinarily use that term to describe a",
-        "link": "https://www.theguardian.com/film/2026/aug/26/the-last-sunrise-movie-review-amazon"
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Andrea Eastman, ‘The Godfather’ Casting Director and Former Hollywood Agent, Dies at 86",
+        "desc": "Andrea Eastman, the casting director for “The Godfather” and former Hollywood agent, died on Wednesday at her home in Santa Barbara. She was 86. Entering the film industry at a time when it was dominated by men, Eastman became one of Hollywood’s first female “superagents,” rising to senior vice president at International Creative Management and […]",
+        "link": "https://variety.com/2026/biz/news/andrea-eastman-dead-godfather-1236845555/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Beyoncé Announces $1 Million Donation for Earthquake Relief Efforts in Colombia",
-      "summary": "Beyoncé has announced that she will make a personal donation of $1 million to support relief efforts in Colombia following the country’s recent earthquake. According to a release from Parkwood Entertainment on Tuesday, the donation will provide food and housing supplies to areas most affected by the 7.4 magnitude earthquake that struck Chocó, Colombia, on […]",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Beyoncé Announces $1 Million Donation for Earthquake Relief Efforts in Colombia",
-        "desc": "Beyoncé has announced that she will make a personal donation of $1 million to support relief efforts in Colombia following the country’s recent earthquake. According to a release from Parkwood Entertainment on Tuesday, the donation will provide food and housing supplies to areas most affected by the 7.4 magnitude earthquake that struck Chocó, Colombia, on […]",
-        "link": "https://variety.com/2026/music/news/beyonce-1-million-donation-earthquake-relief-colombia-1236844484/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Paul Ben-Victor Joins Vince Vaughn, Theo James & Patrick Schwarzenegger In ‘The Bookie & The Bruiser’",
-      "summary": "EXCLUSIVE: After raising the stakes in last weekend’s episode of HBO Max/DC’s Lanterns, we hear that Paul Ben-Victor just wrapped a role in the Vince Vaughn, Theo James and Patrick Schwarzenegger movie, The Bookie & The Bruiser. Ben-Victor is playing the lead bad guy, mob boss Generale Francesco Viscuzo. The Bookie & The Bruiser is set in […]",
+      "headline": "Chris Hansen Considers Legal Action Over ‘Primetime’ Depiction: “It Feels Very Exploitive”",
+      "summary": "While Chris Hansen intended to keep an open mind about A24’s Primetime, he’s also apparently open to legal action. The former To Catch a Predator host recently revealed he was given some legal advice that he could have “a decent case” against the Lance Oppenheim-helmed thriller, which premieres Sept. 25 in theaters, but he doesn’t […]",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1024,9 +1068,28 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Paul Ben-Victor Joins Vince Vaughn, Theo James & Patrick Schwarzenegger In ‘The Bookie & The Bruiser’",
-        "desc": "EXCLUSIVE: After raising the stakes in last weekend’s episode of HBO Max/DC’s Lanterns, we hear that Paul Ben-Victor just wrapped a role in the Vince Vaughn, Theo James and Patrick Schwarzenegger movie, The Bookie & The Bruiser. Ben-Victor is playing the lead bad guy, mob boss Generale Francesco Viscuzo. The Bookie & The Bruiser is set in […]",
-        "link": "https://deadline.com/2026/08/lanterns-paul-ben-victor-the-bookie-the-bruiser-1237051914/"
+        "title": "Chris Hansen Considers Legal Action Over ‘Primetime’ Depiction: “It Feels Very Exploitive”",
+        "desc": "While Chris Hansen intended to keep an open mind about A24’s Primetime, he’s also apparently open to legal action. The former To Catch a Predator host recently revealed he was given some legal advice that he could have “a decent case” against the Lance Oppenheim-helmed thriller, which premieres Sept. 25 in theaters, but he doesn’t […]",
+        "link": "https://deadline.com/2026/08/chris-hansen-considers-legal-action-primetime-1237061718/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "X-Men vs Fantastic Four Doesn't Have the Easy Answer You Think, Marvel Confirms",
+      "summary": "The latest issue of one of Marvel Comics' series reveals that a battle between the X-Men and Fantastic Four is more complicated than one might think.",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "X-Men vs Fantastic Four Doesn't Have the Easy Answer You Think, Marvel Confirms",
+        "desc": "The latest issue of one of Marvel Comics' series reveals that a battle between the X-Men and Fantastic Four is more complicated than one might think.",
+        "link": "https://screenrant.com/fantastic-four-vs-x-men-emma-frost/"
        }
       ]
      }
@@ -1034,34 +1097,34 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "Guardian Australia",
    "The Age",
-   "BBC World",
+   "Guardian Australia",
+   "Crikey",
    "ABC News",
    "The Age Federal Politics",
-   "Fox News Politics",
-   "BBC Tech",
-   "Guardian Tech",
    "Fox News",
+   "Fox News Politics",
+   "Guardian Tech",
    "Guardian AU Politics",
+   "BBC World",
+   "BBC Tech",
    "Ars Technica",
-   "The Verge",
    "The Age Business",
-   "ABC Business",
-   "Fox Business",
    "Guardian AU Business",
+   "The Verge",
+   "Fox Business",
+   "7News",
    "BBC Sport",
-   "Guardian AU Sport",
-   "SBS News",
+   "Variety",
    "Deadline",
-   "Screen Rant",
+   "Guardian AU Sport",
+   "ABC Business",
+   "SBS News",
    "Guardian Film",
    "Anime News Network",
+   "Screen Rant",
    "Daily Mail Australia",
-   "7News",
-   "7News Sport",
-   "Variety"
+   "7News Sport"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1084,7 +1147,7 @@
    {
     "title": "Insidious: Out of the Further",
     "year": "2026",
-    "rating": null,
+    "rating": 6.3,
     "genres": [
      "Horror",
      "Mystery",
@@ -1144,6 +1207,18 @@
     "released": "2026-08-16"
    },
    {
+    "title": "The Shards",
+    "year": "2026",
+    "rating": 5.8,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Horror"
+    ],
+    "overview": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
+    "released": "2026-08-05"
+   },
+   {
     "title": "Stuart Fails to Save the Universe",
     "year": "2026",
     "rating": 7,
@@ -1174,17 +1249,6 @@
     "genres": [],
     "overview": "Ann, an advanced AI, grapples with human emotions while discovering dark secrets within the corporation that created her.",
     "released": "2026-07-11"
-   },
-   {
-    "title": "Elle",
-    "year": "2026",
-    "rating": 6.9,
-    "genres": [
-     "Comedy",
-     "Drama"
-    ],
-    "overview": "Follows Elle Woods' journey through high school, exploring the formative experiences that mold her into the iconic, confident \"Legally Blonde\" character.",
-    "released": "2026-07-01"
    }
   ],
   "anime": [
@@ -1208,7 +1272,7 @@
      "Adventure",
      "Drama"
     ],
-    "overview": "The fourth season of Re:Zero kara Hajimeru Isekai Seikatsu ."
+    "overview": "To save his stricken allies, Subaru faces a deadly desert to find the Sage at Pleiades Watchtower."
    },
    {
     "title": "Daemons of the Shadow Realm",
@@ -1230,7 +1294,7 @@
      "Adventure",
      "Comedy"
     ],
-    "overview": "The fourth season of Tensei Shitara Slime Datta Ken ."
+    "overview": "Demon Lord Rimuru's dream of creating an alliance between humans and monsters takes a step closer to being realized. As Tempest continues to prosper, Granville Rozzo and his grandd…"
    },
    {
     "title": "Smoking Behind the Supermarket with You",
@@ -1246,119 +1310,119 @@
   ]
  },
  "wotd": {
-  "word": "nictitate",
-  "phonetic": "/ˈnɪktɪteɪt/",
-  "pos": "verb",
-  "def": "To wink or blink",
+  "word": "vagary",
+  "phonetic": "/vəˈɡɛɹi/",
+  "pos": "noun",
+  "def": "An erratic, unpredictable occurrence or action.",
   "example": null,
-  "audio": null
+  "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/vagary-us.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "PS + Monthly Games for September: Sniper Elite: Resistance, MLB The Show 26, Wobbly Life, Chained Echoes @ PlayStation",
-   "link": "https://www.ozbargain.com.au/node/972863",
-   "votes": 11,
+   "title": "[Prime, eBook] Amazon First Reads: Choose 1 Kindle Book + The Bonus Short Read for Free (August 2026) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/973064",
+   "votes": 8,
+   "category": "Books Magazines",
+   "ts": 1787882827000
+  },
+  {
+   "title": "Apple iPhone 17 Pro Max (512 GB) - Cosmic Orange $2157.30 (RRP $2599) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/973063",
+   "votes": 21,
+   "category": "Mobile",
+   "ts": 1787882378000
+  },
+  {
+   "title": "Salomon GORE-TEX Waterproof Hiking Boots Trail Running Shoes $100 (up to 62% off) @ Sports Direct",
+   "link": "https://www.ozbargain.com.au/node/973057",
+   "votes": 9,
+   "category": "Sports Outdoors",
+   "ts": 1787881158000
+  },
+  {
+   "title": "[Android] 10% off $25 Uber Uber Eats, $25 DoorDash, $25 Shell, $25 HOYTS, $50 Myer, $25 THE ICONIC eGift Cards @ Google Play",
+   "link": "https://www.ozbargain.com.au/node/973036",
+   "votes": 54,
+   "category": "Other",
+   "ts": 1787875399000
+  },
+  {
+   "title": "Alienware 34 240Hz QD-OLED Ultrawide Gaming Monitor AW3425DW $998.90 Delivered ($848.91 Education) @ Dell Australia",
+   "link": "https://www.ozbargain.com.au/node/973033",
+   "votes": 27,
+   "category": "Computing",
+   "ts": 1787874833000
+  },
+  {
+   "title": "Everyday Market from Woolworths: 28% Cashback ($150 Cap/Member, Min Spend $50, Max Spend $1000, 6PM-11:59pm) @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/973010",
+   "votes": 21,
+   "category": "Other",
+   "ts": 1787869660000
+  },
+  {
+   "title": "SHiFT Code for Borderlands 4 - Golden Keys @ Gearbox Software",
+   "link": "https://www.ozbargain.com.au/node/973005",
+   "votes": 46,
    "category": "Gaming",
-   "ts": 1787776320000
+   "ts": 1787859504000
   },
   {
-   "title": "Buy Optus Flex Plus $350 300GB 365-Day Prepaid SIM for $199, Get $100cashback @Shop Back",
-   "link": "https://www.ozbargain.com.au/node/972855",
+   "title": "[PC, Steam] Free - Stones Keeper: King Aurelius @ Steam",
+   "link": "https://www.ozbargain.com.au/node/972999",
+   "votes": 90,
+   "category": "Gaming",
+   "ts": 1787842968000
+  },
+  {
+   "title": "[PC, Epic] Free - Alone With You @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/972998",
    "votes": 24,
-   "category": "Mobile",
-   "ts": 1787755979000
+   "category": "Gaming",
+   "ts": 1787842832000
   },
   {
-   "title": "Google Pixel 11 Pro XL 256GB $0 (Save $2099) on JB Hi-Fi Mobile $99/M 24M SIM Plan (Port-in Only, in-Store Only) @ JB Hi-Fi",
-   "link": "https://www.ozbargain.com.au/node/972852",
-   "votes": 35,
-   "category": "Mobile",
-   "ts": 1787753468000
+   "title": "[Android, Epic] Free - Down in Bermuda @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/972995",
+   "votes": 95,
+   "category": "Gaming",
+   "ts": 1787839608000
   },
   {
-   "title": "Wurkkos HD04 Torch 750lm, Spotlight/Floodlight, RGB, USB-C US$14.36 (~A$20.13) AU Stock Shipped @ Wurkkos Local Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/972840",
-   "votes": 24,
+   "title": "PureVPN: 130% Cashback on 1-Year, 2-Year Monthly Plans for New Customers (Max 1 Transaction Every 3 Weeks) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/972994",
+   "votes": 115,
+   "category": "Internet",
+   "ts": 1787839389000
+  },
+  {
+   "title": "Redmi Note 17 Pro Max 8GB/256GB $599, Redmi Note 17 Pro 6GB/256GB $499 + Bonus Xiaomi 120W Charger Combo Delivered @ Xiaomi",
+   "link": "https://www.ozbargain.com.au/node/972993",
+   "votes": 61,
+   "category": "Mobile",
+   "ts": 1787839199000
+  },
+  {
+   "title": "Apple AirPods 4 $159 + Delivery ($0 C C) / $119 in-Store with Targeted Voucher @ The Good Guys",
+   "link": "https://www.ozbargain.com.au/node/972991",
+   "votes": 31,
    "category": "Electrical Electronics",
-   "ts": 1787743967000
+   "ts": 1787833550000
   },
   {
-   "title": "Osprey Sojourn Porter 30L Travel Backpack in Black or Green $159.50 (RRP $319) Delivered @Wild Earth",
-   "link": "https://www.ozbargain.com.au/node/972833",
-   "votes": 14,
-   "category": "Travel",
-   "ts": 1787740745000
+   "title": "Macpac Men s Halo Down Puffer Jacket V2 $69.30, Hooded $76.30, Uber Light $55.30, Hooded $62.30 + Delivery ($0 C C) @ BCF",
+   "link": "https://www.ozbargain.com.au/node/972985",
+   "votes": 309,
+   "category": "Fashion Apparel",
+   "ts": 1787829011000
   },
   {
-   "title": "[PC, PS4, PS5, Steam] Free - The Light in the Darkness @ Steam PlayStation",
-   "link": "https://www.ozbargain.com.au/node/972827",
-   "votes": 98,
-   "category": "Gaming",
-   "ts": 1787738287000
-  },
-  {
-   "title": "DDPAI Z50 Pro 4K Dash Cam Front + Rear US$67.61 (~A$94.76), w/ 64GB MicroSD US$71.84 (~A$100.69) Del @ DDPAI Overseas AliExpress",
-   "link": "https://www.ozbargain.com.au/node/972823",
-   "votes": 58,
-   "category": "Automotive",
-   "ts": 1787735865000
-  },
-  {
-   "title": "[PC, Steam, Pre Order] Free DLC - Metal Gear Solid Master Collection Vol.2 Bonus Content @ Steam",
-   "link": "https://www.ozbargain.com.au/node/972821",
+   "title": "[Android, iOS] Free - 24 Pack Hourglasses for Completing Team Rocket s Ambition The Great Puzzle Challenge @ Pokémon TCG Pocket",
+   "link": "https://www.ozbargain.com.au/node/972976",
    "votes": 43,
    "category": "Gaming",
-   "ts": 1787735140000
-  },
-  {
-   "title": "AmEx Platinum: 200,000 + 100,000 Rewards Points ($5,000 Spend in 3 Months 1st 2nd Year), $450 Travel Credit, $1,450 Annual Fee",
-   "link": "https://www.ozbargain.com.au/node/972816",
-   "votes": 59,
-   "category": "Financial",
-   "ts": 1787733947000
-  },
-  {
-   "title": "DermaVeen Extra Hydration Intensive Moisturising Lotion 1L $12 ($10.80 Sub Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/972801",
-   "votes": 66,
-   "category": "Health Beauty",
-   "ts": 1787729798000
-  },
-  {
-   "title": "AliExpress: 18% Cashback on Affiliated Products ($30 Cap Per Transaction) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/972799",
-   "votes": 15,
-   "category": "Other",
-   "ts": 1787729179000
-  },
-  {
-   "title": "30% off Mutti Range: Mutti San Marzano Whole Peeled Tomatoes 400g $3.35 (Was $4.80) @ Woolworths + 31 More",
-   "link": "https://www.ozbargain.com.au/node/972790",
-   "votes": 15,
-   "category": "Groceries",
-   "ts": 1787727396000
-  },
-  {
-   "title": "Uniqlo PUFFTECH Jacket $39.90 + $7.95 Delivery ($0 C C/ in-Store/ $75 Order) @ UNIQLO",
-   "link": "https://www.ozbargain.com.au/node/972782",
-   "votes": 102,
-   "category": "Fashion Apparel",
-   "ts": 1787725001000
-  },
-  {
-   "title": "Bosch 18V Professional Reciprocating Saw - Tool Only $99 Delivered / C C / in-Store @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/972779",
-   "votes": 45,
-   "category": "Home Garden",
-   "ts": 1787722938000
-  },
-  {
-   "title": "[SA] Ponde Meats Farm 5kg Try and See Box – Grass Fed Finished $99 Delivered @ Farmer to Fridge",
-   "link": "https://www.ozbargain.com.au/node/972773",
-   "votes": 21,
-   "category": "Groceries",
-   "ts": 1787721331000
+   "ts": 1787825065000
   }
  ]
 }
