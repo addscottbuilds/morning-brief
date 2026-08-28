@@ -2,11 +2,16 @@ name: Daily data refresh
 
 on:
   schedule:
-    # Nominally 05:23 Melbourne (AEST) / 06:23 (AEDT). GitHub crons fire late
-    # under load (often 15-90 min), so this is deliberately early and on an
-    # odd minute to dodge the congested :00/:15/:30/:45 slots. The push job
-    # below waits until 6:00 Melbourne regardless of when this starts.
+    # GitHub crons fire late under load — usually 15-30 min, occasionally
+    # HOURS (an 8-hour delay has been observed). Four staggered slots give
+    # four chances for an on-time morning; whichever fires first sends the
+    # 6am push, and the .github/last-push marker stops later slots from
+    # sending a duplicate. Extra data refreshes are harmless. Nominal
+    # Melbourne times (AEST): 4:53am, 5:23am, 5:53am, 6:38am.
+    - cron: "53 18 * * *"
     - cron: "23 19 * * *"
+    - cron: "53 19 * * *"
+    - cron: "38 20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -61,19 +66,38 @@ jobs:
         uses: actions/deploy-pages@v4
 
   # Send the morning notification AFTER the fresh data is deployed, holding
-  # until exactly 6:00am Melbourne when the pipeline ran early.
+  # until exactly 6:00am Melbourne when the pipeline ran early. The committed
+  # .github/last-push marker ensures only ONE send per Melbourne day even
+  # though four cron slots run this pipeline; job-level concurrency serialises
+  # overlapping runs so the marker check is race-free.
   push:
     needs: deploy
     runs-on: ubuntu-latest
+    concurrency:
+      group: morning-push
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Skip if today's push was already sent
+        id: guard
+        run: |
+          melb=$(TZ=Australia/Melbourne date +%F)
+          last=$(cat .github/last-push 2>/dev/null || echo none)
+          echo "melb=$melb" >> "$GITHUB_OUTPUT"
+          if [ "$melb" = "$last" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "push already sent for $melb — skipping"
+          fi
       - uses: actions/setup-node@v4
+        if: steps.guard.outputs.skip != 'true'
         with:
           node-version: 22
       - run: npm ci
+        if: steps.guard.outputs.skip != 'true'
       - name: Wait until 6:00am Melbourne
+        if: steps.guard.outputs.skip != 'true'
         run: |
           now=$(date +%s)
           target=$(TZ=Australia/Melbourne date -d "$(TZ=Australia/Melbourne date +%F) 06:00" +%s)
@@ -86,8 +110,19 @@ jobs:
             echo "already past 6:00 Melbourne — sending now"
           fi
       - name: Send push
+        if: steps.guard.outputs.skip != 'true'
         run: node scripts/send-push.mjs
         env:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+      - name: Record the send
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "morning-brief-bot"
+          git config user.email "actions@users.noreply.github.com"
+          echo "${{ steps.guard.outputs.melb }}" > .github/last-push
+          git add .github/last-push
+          git commit -m "Push sent for ${{ steps.guard.outputs.melb }}"
+          git pull --rebase
+          git push

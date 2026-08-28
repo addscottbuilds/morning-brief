@@ -394,23 +394,39 @@ async function buildReleases() {
   } catch (e) { console.error(`releases shows fail: ${e.message}`); }
 
   try {
-    const q = `query { Page(perPage: 12) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: POPULARITY_DESC) { title { english romaji } averageScore startDate { year } genres description(asHtml: false) } } }`;
+    // same newest-first treatment as movies: fresh premieres lead (with a
+    // popularity floor to skip obscurities), current-season hits backfill
+    const q = `query {
+      fresh: Page(perPage: 10) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: START_DATE_DESC, popularity_greater: 3000) { ...f } }
+      pop: Page(perPage: 10) { media(type: ANIME, status: RELEASING, format_in: [TV, ONA], sort: POPULARITY_DESC) { ...f } }
+    }
+    fragment f on Media { title { english romaji } averageScore startDate { year month day } genres description(asHtml: false) }`;
     const a = await fetchJson("https://graphql.anilist.co", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query: q }),
     });
-    out.anime = (a.data.Page.media || [])
-      .filter(x => x.startDate && x.startDate.year >= thisYear - 1) // new seasons, not decades-old long-runners
-      .slice(0, 5)
-      .map(x => ({
-        title: x.title.english || x.title.romaji,
-        year: String(x.startDate.year),
-        rating: x.averageScore ? Math.round(x.averageScore) / 10 : null,
-        genres: (x.genres || []).slice(0, 3),
-        // AniList descriptions can ramble into episode detail — keep the setup only
-        overview: blurb((x.description || "").split(/\n|<br>/)[0]),
-      }));
+    const toAnime = x => ({
+      title: x.title.english || x.title.romaji,
+      year: String(x.startDate.year),
+      rating: x.averageScore ? Math.round(x.averageScore) / 10 : null,
+      genres: (x.genres || []).slice(0, 3),
+      // AniList descriptions can ramble into episode detail — keep the setup only
+      overview: blurb((x.description || "").split(/\n|<br>/)[0]),
+      released: x.startDate.year
+        ? `${x.startDate.year}-${String(x.startDate.month || 1).padStart(2, "0")}-${String(x.startDate.day || 1).padStart(2, "0")}`
+        : null,
+    });
+    const fresh = (a.data.fresh.media || []).map(toAnime);
+    const pop = (a.data.pop.media || [])
+      .filter(x => x.startDate && x.startDate.year >= thisYear - 1)
+      .map(toAnime);
+    const seenA = new Set();
+    const dedupeA = arr => arr.filter(x => !seenA.has(x.title) && seenA.add(x.title));
+    out.anime = [
+      ...dedupeA([...fresh.filter(x => x.rating != null), ...fresh.filter(x => x.rating == null).slice(0, 2)]),
+      ...dedupeA(pop),
+    ].slice(0, 5);
   } catch (e) { console.error(`releases anime fail: ${e.message}`); }
 
   return out;
