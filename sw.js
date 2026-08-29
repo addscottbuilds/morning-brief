@@ -1,6 +1,6 @@
 // Service worker: the app shell works offline; data.json and weather always
 // try the network first so the brief is fresh, falling back to the last copy.
-const CACHE = "morning-brief-v18";
+const CACHE = "morning-brief-v19";
 const SHELL = [
   "./",
   "./index.html",

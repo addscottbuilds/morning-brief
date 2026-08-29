@@ -90,9 +90,10 @@
   }
 
   fetch("data/connections.json").then(r => r.json()).then(({ puzzles }) => {
-    // bank grew from 14 to 28 on day 23 — earlier days keep their original
-    // mapping so a mid-day bank update never swaps a puzzle in progress
-    puzzle = puzzles[DAY < 23 ? DAY % 14 : DAY % puzzles.length];
+    // bank growth gates (14→28 on day 23, 28→~278 on day 52): earlier days
+    // keep their original mapping so a mid-day bank update never swaps a
+    // puzzle in progress
+    puzzle = puzzles[DAY < 23 ? DAY % 14 : DAY < 52 ? DAY % 28 : DAY % puzzles.length];
     puzzle.groups.forEach((g, i) => g.words.forEach(w => wordLevel.set(w, LEVELS[i])));
     restore();
     const foundSet = new Set(found);
