@@ -287,11 +287,30 @@
       $("wotd-ex").hidden = false;
       $("wotd-ex").textContent = "“" + w.example + "”";
     }
-    if (w.audio) {
-      const btn = $("wotd-audio");
-      btn.hidden = false;
-      btn.addEventListener("click", () => { new Audio(w.audio).play().catch(() => {}); });
+    const btn = $("wotd-audio");
+    btn.hidden = false;
+    const clip = w.audio ? new Audio(w.audio) : null;
+    let broken = !clip;
+    if (clip) {
+      clip.preload = "auto";
+      clip.addEventListener("error", () => { broken = true; });
     }
+    const speak = () => {
+      // no recording (or it failed to load) — the device voice still works,
+      // including offline
+      try {
+        const u = new SpeechSynthesisUtterance(w.word);
+        u.lang = "en-AU";
+        u.rate = 0.85;
+        speechSynthesis.cancel();
+        speechSynthesis.speak(u);
+      } catch { /* no speech support either */ }
+    };
+    btn.onclick = () => {
+      if (broken) { speak(); return; }
+      clip.currentTime = 0;
+      clip.play().catch(() => { broken = true; speak(); });
+    };
   }
 
   function fmtPrice(i) {

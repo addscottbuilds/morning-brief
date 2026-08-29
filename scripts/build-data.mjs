@@ -559,27 +559,89 @@ async function buildWotd() {
     const dayNum = Math.round((Date.parse(melbDate) - Date.parse("2026-07-09")) / 86400000);
     for (let i = 0; i < 6; i++) {
       const word = words[((dayNum + i) * 37) % words.length];
-      try {
-        const res = await fetch(
-          `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`,
-          { signal: AbortSignal.timeout(15000) }
-        );
-        if (!res.ok) continue;
-        const entry = (await res.json())[0];
-        const meaning = entry?.meanings?.[0];
-        const def = meaning?.definitions?.[0];
-        if (!def?.definition) continue;
-        return {
-          word: entry.word || word,
-          phonetic: entry.phonetic || ((entry.phonetics || []).find(p => p.text) || {}).text || "",
-          pos: meaning.partOfSpeech || "",
-          def: def.definition,
-          example: def.example || null,
-          audio: ((entry.phonetics || []).find(p => p.audio) || {}).audio || null,
-        };
-      } catch { /* try the next candidate */ }
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const res = await fetch(
+            `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`,
+            { signal: AbortSignal.timeout(15000) }
+          );
+          if (res.status === 429) { await new Promise(r => setTimeout(r, 12000)); continue; }
+          if (!res.ok) break; // 404/522 — fall through to Wiktionary
+          const entry = (await res.json())[0];
+          const meaning = entry?.meanings?.[0];
+          const def = meaning?.definitions?.[0];
+          if (!def?.definition) break;
+          return {
+            word: entry.word || word,
+            phonetic: entry.phonetic || ((entry.phonetics || []).find(p => p.text) || {}).text || "",
+            pos: meaning.partOfSpeech || "",
+            def: def.definition,
+            example: def.example || null,
+            audio: await firstLiveAudio(entry.phonetics),
+          };
+        } catch { /* timeout or network hiccup — retry this word */ }
+      }
+      // dictionaryapi.dev hangs/522s on uncached rare words — Wiktionary's
+      // REST API (already used by the crossword factory) is the reliable path
+      const wikt = await wiktWotd(word);
+      if (wikt) return wikt;
+      await new Promise(r => setTimeout(r, 1500)); // space candidates for the rate limiter
     }
   } catch (e) { console.error(`wotd fail: ${e.message}`); }
+  // every candidate failed (usually a rate-limited API) — keep yesterday's
+  // word rather than dropping the section for the day
+  try {
+    const prev = JSON.parse(readFileSync(join(root, "data/data.json"), "utf8")).wotd;
+    if (prev?.word) { console.error("wotd: lookup failed, reusing previous word"); return prev; }
+  } catch { /* no previous data.json */ }
+  return null;
+}
+
+// Wiktionary fallback: definition from the REST API, pronunciation from the
+// page's Commons audio file (via its mp3 transcode — iOS can't play .ogg)
+async function wiktWotd(word) {
+  const H = { headers: { "User-Agent": "MorningBrief/1.0 (personal daily brief)" }, signal: AbortSignal.timeout(15000) };
+  try {
+    const res = await fetch(`https://en.wiktionary.org/api/rest_v1/page/definition/${encodeURIComponent(word)}`, H);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const posEntry = (data.en || []).find(p => p.definitions?.some(d => stripHtml(d.definition || "").trim()));
+    if (!posEntry) return null;
+    const clean = html => stripHtml(html || "").replace(/\.mw-parser-output[^}]*\}/g, " ")
+      .replace(/\s+/g, " ").replace(/\s+([.,;:!?])/g, "$1").trim();
+    const defObj = posEntry.definitions.find(d => clean(d.definition));
+    const example = clean(defObj.parsedExamples?.[0]?.example || defObj.examples?.[0] || "") || null;
+    let audio = null;
+    try {
+      const ml = await (await fetch(`https://en.wiktionary.org/api/rest_v1/page/media-list/${encodeURIComponent(word)}`, H)).json();
+      const files = (ml.items || []).filter(i => /\.(ogg|oga|wav|flac)$/i.test(i.title || ""))
+        .sort((a, b) => /^File:En[-_]/i.test(b.title) - /^File:En[-_]/i.test(a.title)); // prefer English recordings
+      for (const f of files.slice(0, 3)) {
+        const q = await (await fetch(`https://commons.wikimedia.org/w/api.php?action=query&titles=${encodeURIComponent(f.title)}&prop=videoinfo&viprop=derivatives&format=json`, H)).json();
+        const derivs = Object.values(q.query?.pages || {})[0]?.videoinfo?.[0]?.derivatives || [];
+        const mp3 = derivs.find(d => /audio\/mpeg/.test(d.type));
+        if (mp3?.src && await audioAlive(mp3.src)) { audio = mp3.src; break; }
+      }
+    } catch { /* no recording — the app falls back to the device voice */ }
+    return { word, phonetic: "", pos: posEntry.partOfSpeech || "", def: clean(defObj.definition), example, audio };
+  } catch { return null; }
+}
+
+async function audioAlive(url) {
+  try {
+    const r = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    return r.ok && (await r.arrayBuffer()).byteLength > 500;
+  } catch { return false; }
+}
+
+// the dictionary API lists audio URLs that often 404 — only bake in one that
+// actually serves a real file, so the app's play button is never a dud
+async function firstLiveAudio(phonetics) {
+  for (let url of (phonetics || []).map(p => p.audio).filter(Boolean)) {
+    if (url.startsWith("//")) url = "https:" + url;
+    if (!/^https:/.test(url)) continue; // http would be blocked as mixed content
+    if (await audioAlive(url)) return url;
+  }
   return null;
 }
 
