@@ -535,6 +535,7 @@
   }
 
   async function buildMatchDetail(e, lg) {
+    if (lg.type === "cricket") return cricketDetail(e); // header-feed event — everything's inline
     const comp = (e.competitions || [])[0] || {};
     const cs = comp.competitors || [];
     const home = cs.find(c => c.homeAway === "home") || cs[0] || {};
@@ -631,6 +632,38 @@
     return `<div class="wc-match" data-eid="${esc(e.id)}" role="button" aria-label="Show match details">${team(home, "home")}${mid}${team(away, "away")}${noteRow}</div>`;
   }
 
+  // Cricket comes from ESPN's cricket header feed (site.web.api — the main
+  // site API has no cricket). Scores are innings strings ("290 & 81/3"), so
+  // rows stack the two teams instead of using the home–away grid.
+  const CRICKET_NATIONS = ["Australia", "England", "India", "Pakistan", "South Africa", "New Zealand", "Sri Lanka", "West Indies", "Bangladesh", "Afghanistan", "Zimbabwe", "Ireland"];
+
+  function cricketRow(e, league) {
+    const state = e.status; // "pre" | "in" | "post"
+    const team = c => {
+      const win = state === "post" && c.winner ? " wc-winner" : "";
+      return `<div class="ckt-team${win}"><span class="nm">${esc(c.displayName || "?")}</span><span class="ckt-score">${esc(c.score || "")}</span></div>`;
+    };
+    const stat = state === "pre"
+      ? new Date(e.date).toLocaleString("en-AU", { weekday: "short", hour: "numeric", minute: "2-digit" })
+      : (e.summary || (state === "in" ? "Live" : "Result"));
+    return `<div class="wc-match ckt" data-eid="${esc(e.id)}" role="button" aria-label="Show match details">` +
+      (e.competitors || []).slice(0, 2).map(team).join("") +
+      `<div class="ckt-status"><span class="ckt-league">${esc(league)}</span><span class="ckt-state${state === "in" ? " live" : ""}">${esc(stat)}</span></div></div>`;
+  }
+
+  function cricketDetail(e) {
+    const parts = [];
+    if (e.name) parts.push(`<div><b>Match:</b> ${esc(e.name)}</div>`);
+    for (const c of e.competitors || []) {
+      if (c.score) parts.push(`<div><b>${esc(c.displayName)}:</b> ${esc(c.score)}${c.winner ? " — won" : ""}</div>`);
+    }
+    if (e.summary) parts.push(`<div><b>Status:</b> ${esc(e.summary)}</div>`);
+    const loc = typeof e.location === "string" ? e.location : (e.location && (e.location.fullName || e.location.name)) || "";
+    if (loc) parts.push(`<div><b>Venue:</b> ${esc(loc)}</div>`);
+    parts.push(`<div><b>Start:</b> ${esc(new Date(e.date).toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }))}</div>`);
+    return parts.join("") || `<div>No extra detail available for this one.</div>`;
+  }
+
   function raceRow(e) {
     const state = e.status && e.status.type ? e.status.type.state : "pre";
     const full = e.name || e.shortName || "";
@@ -653,7 +686,39 @@
   async function loadSports() {
     const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, "");
     let anyLive = false;
+
+    // Australia matches always; Big Bash / Ashes / World Cups by name; plus
+    // any international between two full-member nations so the section has
+    // life when Australia is between series.
+    async function cricketBlock(lg) {
+      let d;
+      try {
+        d = await (await fetch("https://site.web.api.espn.com/apis/personalized/v2/scoreboard/header?sport=cricket&lang=en&region=au")).json();
+      } catch { return ""; }
+      const leagues = (d.sports && d.sports[0] && d.sports[0].leagues) || [];
+      const evs = [];
+      for (const l of leagues) for (const e of l.events || []) evs.push({ e, league: l.name || "" });
+      const isAus = t => /^Australia( Women| A)?$/.test(t);
+      const isNation = t => CRICKET_NATIONS.some(n => t === n || t === n + " Women");
+      const marquee = /big bash|bbl|ashes|world cup|champions trophy/i;
+      const picked = evs.filter(({ e, league }) => {
+        const teams = (e.competitors || []).map(c => c.displayName || "");
+        return teams.some(isAus) || marquee.test(league + " " + (e.name || "")) ||
+          (teams.length >= 2 && teams.every(isNation));
+      }).sort((a, b) => Date.parse(a.e.date) - Date.parse(b.e.date));
+      if (!picked.length) return "";
+      if (picked.some(x => x.e.status === "in")) anyLive = true;
+      const post = picked.filter(x => x.e.status === "post").slice(-(lg.results || 3));
+      const rest = picked.filter(x => x.e.status !== "post").slice(0, lg.upcoming || 3);
+      const rows = [...post, ...rest].map(({ e, league }) => {
+        sportEvents.set(String(e.id), { e, lg });
+        return cricketRow(e, league);
+      });
+      return `<div class="sport-league"><div class="sport-lg-label">${esc(lg.label)}</div><div class="wc-list">${rows.join("")}</div></div>`;
+    }
+
     const blocks = await Promise.all((CFG.sports || []).map(async lg => {
+      if (lg.type === "cricket") return cricketBlock(lg);
       const from = new Date(Date.now() - lg.pastH * 3600 * 1000);
       const to = new Date(Date.now() + lg.futureD * 86400 * 1000);
       let d;

@@ -43,6 +43,7 @@ window.MB_CONFIG = {
     { key: "wc", label: "World Cup", type: "match", sport: "soccer", path: "soccer/fifa.world", pastH: 40, futureD: 4, results: 3, upcoming: 4 },
     { key: "afl", label: "AFL", type: "match", sport: "afl", path: "australian-football/afl", pastH: 36, futureD: 6, results: 3, upcoming: 4, standings: true },
     { key: "epl", label: "Premier League", type: "match", sport: "soccer", path: "soccer/eng.1", pastH: 36, futureD: 7, results: 3, upcoming: 4, standings: true },
+    { key: "cricket", label: "Cricket", type: "cricket", results: 3, upcoming: 3 },
     { key: "f1", label: "Formula 1", type: "race", path: "racing/f1", pastH: 120, futureD: 24 },
   ],
 
