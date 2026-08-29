@@ -718,7 +718,7 @@ Keep every id from the input. Story clusters:
 ${JSON.stringify(input, null, 1)}`;
 
   const response = await client.messages.create({
-    model: "claude-opus-4-8",
+    model: "claude-opus-5",
     max_tokens: 16000,
     thinking: { type: "adaptive" },
     output_config: { format: { type: "json_schema", schema } },

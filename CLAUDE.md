@@ -36,7 +36,6 @@ Validators exit non-zero and print `puzzle N: <problem>` per failure. For app ch
 
 ## Gotchas
 - Bump `CACHE` in sw.js (currently `morning-brief-v22`) and add any new file to `SHELL`, or iOS keeps serving the old shell.
-- README's deploy step 2 ("Deploy from a branch") is stale: `.github/workflows/deploy.yml` uploads a Pages artifact from the repo root instead.
 - The daily refresh runs on four staggered crons (GitHub crons fire late). `.github/last-push` is the committed marker preventing duplicate 6am push sends.
 - refresh.yml deploys itself rather than relying on deploy.yml, because `GITHUB_TOKEN` commits do not trigger push-triggered workflows.
 - The app reads `data/data.json` with `cache: "no-cache"`; the service worker is network-first for that path only, stale-while-revalidate for everything else.
@@ -44,7 +43,6 @@ Validators exit non-zero and print `puzzle N: <problem>` per failure. For app ch
 ## Pointers
 - Live: https://addscottbuilds.github.io/morning-brief/ (repo `addscottbuilds/morning-brief`).
 - Workflows: `.github/workflows/refresh.yml` (data, deploy, push), `deploy.yml` (push to main), `push.yml` (manual test send).
-- README.md section list predates sport, deals, word of the day, Connections.
 
 ## Decisions
 - Deploy straight from the workflow to skip the shared Pages build queue and Jekyll.

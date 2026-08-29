@@ -3,9 +3,12 @@
 A personal daily-brief PWA for the iPhone home screen. Fully standalone — no
 paid services required once deployed to GitHub Pages.
 
-**Sections:** GPS-local weather (Open-Meteo) · ASX/FX watchlist (Yahoo Finance)
-· cross-spectrum news digest with narrative-split detection · time-sensitive
-countdowns · focus checklist · daily Wordle · daily 5×5 mini crossword.
+**Sections:** GPS-local weather with rain chart (Open-Meteo) · ASX/FX watchlist
++ big-mover board (Yahoo Finance) · cross-spectrum news digest with genre tabs
+and narrative-split detection · sport scores, fixtures and ladders (AFL,
+Premier League, F1 — ESPN) · word of the day with pronunciation audio ·
+OzBargain deals sheet (pull down) · time-sensitive countdowns · focus
+checklist · daily Wordle, 5×5 mini crossword and Connections.
 
 ## How it works
 
@@ -20,8 +23,10 @@ countdowns · focus checklist · daily Wordle · daily 5×5 mini crossword.
   (who believes what + common ground). Without it, the digest still works with
   clustered headlines grouped by outlet lean.
 - Puzzles are fully offline: answers rotate daily through a pre-shuffled
-  Wordle list and a validated bank of 5×5 word squares
-  (`data/crosswords.json` — every row *and* column is a real word).
+  Wordle list, a validated bank of 5×5 word squares (`data/crosswords.json` —
+  every row *and* column is a real word), and a Connections bank
+  (`data/connections.json`) assembled from a curated category set with a
+  uniqueness proof per puzzle.
 
 ## Deploy (once)
 
@@ -29,10 +34,11 @@ countdowns · focus checklist · daily Wordle · daily 5×5 mini crossword.
    ```
    gh repo create morning-brief --public --source . --push
    ```
-2. Enable Pages: repo → Settings → Pages → Source: "Deploy from a branch" →
-   Branch `main`, folder `/ (root)`. Or:
+2. Enable Pages with GitHub Actions as the source (the deploy workflows upload
+   a Pages artifact — no branch build): repo → Settings → Pages → Source:
+   "GitHub Actions". Or:
    ```
-   gh api repos/{owner}/morning-brief/pages -X POST -f "source[branch]=main" -f "source[path]=/"
+   gh api repos/{owner}/morning-brief/pages -X POST -f build_type=workflow
    ```
 3. (Optional) Add the `ANTHROPIC_API_KEY` secret for AI news summaries:
    repo → Settings → Secrets and variables → Actions.
