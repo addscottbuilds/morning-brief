@@ -228,8 +228,10 @@
   function renderDeals(deals) {
     if (!deals || !deals.length) return;
     $("deals-list").innerHTML = deals.map(dl => {
-      const age = dl.ts ? Math.round((Date.now() - dl.ts) / 3600000) : null;
-      const meta = [dl.category, age != null ? (age < 1 ? "just posted" : `${age}h ago`) : null].filter(Boolean).join(" · ");
+      const ageH = dl.ts ? (Date.now() - dl.ts) / 3600000 : null;
+      const age = ageH == null ? null :
+        ageH < 1 ? "just posted" : ageH < 48 ? `${Math.round(ageH)}h ago` : `${Math.round(ageH / 24)}d ago`;
+      const meta = [dl.category, age, dl.neg ? `${dl.neg}↓` : null].filter(Boolean).join(" · ");
       return `<a class="deal" href="${esc(dl.link)}" target="_blank" rel="noopener">` +
         `<span class="deal-votes">+${dl.votes}</span>` +
         `<span class="deal-main"><span class="deal-t">${esc(dl.title)}</span>` +

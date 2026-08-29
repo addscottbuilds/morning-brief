@@ -449,12 +449,14 @@ async function buildDeals() {
         title,
         link,
         votes: Number(pick(/votes-pos="(\d+)"/)) || 0,
+        neg: Number(pick(/votes-neg="(\d+)"/)) || 0,
         category: stripHtml(pick(/<category[^>]*>([\s\S]*?)<\/category>/)).slice(0, 40),
         ts: Date.parse(pick(/<pubDate>([\s\S]*?)<\/pubDate>/)) || 0,
       });
-      if (deals.length >= 15) break;
     }
-    return deals;
+    // best deals first: net community score (downvotes count against a deal)
+    deals.sort((a, b) => (b.votes - b.neg) - (a.votes - a.neg));
+    return deals.slice(0, 15);
   } catch (e) {
     console.error(`deals fail: ${e.message}`);
     return [];
