@@ -127,6 +127,7 @@ const FEEDS = [
   // Politics
   { outlet: "Guardian AU Politics", lean: "left", cat: "politics", url: "https://www.theguardian.com/australia-news/australian-politics/rss" },
   { outlet: "The Age Federal Politics", lean: "left", cat: "politics", url: "https://www.theage.com.au/rss/politics/federal.xml" },
+  { outlet: "The Conversation", lean: "centre", cat: "politics", url: "https://theconversation.com/au/politics/articles.atom" },
   { outlet: "Fox News Politics", lean: "right", cat: "politics", url: "https://moxie.foxnews.com/google-publisher/politics.xml" },
   // Tech
   { outlet: "Guardian Tech", lean: "left", cat: "tech", url: "https://www.theguardian.com/uk/technology/rss" },
@@ -137,6 +138,7 @@ const FEEDS = [
   { outlet: "Guardian AU Business", lean: "left", cat: "business", url: "https://www.theguardian.com/au/business/rss" },
   { outlet: "The Age Business", lean: "left", cat: "business", url: "https://www.theage.com.au/rss/business.xml" },
   { outlet: "ABC Business", lean: "centre", cat: "business", url: "https://www.abc.net.au/news/feed/51892/rss.xml" },
+  { outlet: "AFR", lean: "centre", cat: "business", url: "https://www.afr.com/rss/feed.xml" },
   { outlet: "Fox Business", lean: "right", cat: "business", url: "https://moxie.foxbusiness.com/google-publisher/latest.xml" },
   // Sports
   { outlet: "Guardian AU Sport", lean: "left", cat: "sports", url: "https://www.theguardian.com/au/sport/rss" },
@@ -263,6 +265,8 @@ function clusterCategory(items, maxStories) {
       id: -1, // assigned globally by buildNews
       headline: lead.title,
       summary: lead.desc,
+      ts: c.latest,
+      img: lead.img || (srcs.find(s => s.img) || {}).img || null,
       divergent: null, left_view: null, right_view: null, common_ground: null,
       hasBothSides: leans.has("left") && leans.has("right"),
       sources: srcs.map(s => ({ outlet: s.outlet, lean: s.lean, title: s.title, desc: s.desc, link: s.link })),
@@ -270,8 +274,28 @@ function clusterCategory(items, maxStories) {
   });
 }
 
+// Pick a story image from the feed item's media tags: smallest variant that's
+// still sharp at card size (~460px covers 2x retina), largest otherwise.
+function itemImage(it) {
+  const cands = [];
+  for (const m of it.media || []) if (m.$?.url) cands.push({ url: m.$.url, w: Number(m.$.width) || 0, kind: m.$.medium || m.$.type || "" });
+  for (const t of it.thumb || []) if (t.$?.url) cands.push({ url: t.$.url, w: Number(t.$.width) || 0, kind: "image" });
+  if (it.enclosure?.url && /image/.test(it.enclosure.type || "")) cands.push({ url: it.enclosure.url, w: 0, kind: "image" });
+  const imgs = cands.filter(c => !/video|audio/.test(c.kind) && /^https:/.test(c.url));
+  const sharp = imgs.filter(c => c.w >= 300).sort((a, b) => a.w - b.w)[0];
+  const best = sharp || imgs.sort((a, b) => b.w - a.w)[0];
+  return best ? best.url.slice(0, 400) : null;
+}
+
 async function buildNews() {
-  const parser = new Parser();
+  const parser = new Parser({
+    customFields: {
+      item: [
+        ["media:content", "media", { keepArray: true }],
+        ["media:thumbnail", "thumb", { keepArray: true }],
+      ],
+    },
+  });
   const itemsByCat = new Map(CATEGORIES.map(c => [c.key, []]));
   const ok = [], failed = [];
   const cutoff = Date.now() - 36 * 3600 * 1000;
@@ -290,6 +314,7 @@ async function buildNews() {
           title: stripHtml(it.title).slice(0, 200),
           desc: stripHtml(it.contentSnippet || it.content || it.summary).slice(0, 400),
           link: it.link || "", ts,
+          img: itemImage(it),
         });
         n++;
       }

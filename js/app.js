@@ -349,6 +349,7 @@
   }
 
   let newsData = null;
+  let newsFresh = new Set(); // story ids first seen on this open
   let releasesData = null;
 
   const REL_GROUPS = [["Movies", "movies"], ["Shows", "shows"], ["Anime", "anime"]];
@@ -398,6 +399,14 @@
     newsData = n;
     $("news-mode").textContent = n.mode === "llm" ? "· neutral digest" : "· cross-spectrum digest";
 
+    // stories not present last time the app was opened get a NEW pill; the
+    // seen list persists on-device (capped so it never grows unbounded)
+    const fp = s => s.sources?.[0]?.link || s.headline;
+    const all = n.categories.flatMap(c => c.stories);
+    const seen = new Set(safeParse(localStorage.getItem("mb_news_seen")) || []);
+    newsFresh = new Set(seen.size ? all.filter(s => !seen.has(fp(s))).map(s => s.id) : []);
+    localStorage.setItem("mb_news_seen", JSON.stringify([...new Set([...seen, ...all.map(fp)])].slice(-600)));
+
     const tabs = $("news-tabs");
     const keys = n.categories.map(c => c.key);
     const saved = localStorage.getItem("mb_news_tab");
@@ -420,6 +429,18 @@
     renderNewsOverview(n);
   }
 
+  function timeAgo(ts) {
+    if (!ts) return "";
+    const h = (Date.now() - ts) / 3600000;
+    if (h < 1) return `${Math.max(1, Math.round(h * 60))}m ago`;
+    if (h < 24) return `${Math.round(h)}h ago`;
+    return `${Math.round(h / 24)}d ago`;
+  }
+
+  function newPill(s) {
+    return newsFresh.has(s.id) ? `<span class="new-pill">NEW</span> ` : "";
+  }
+
   function renderNewsOverview(n) {
     const topCat = n.categories.find(c => c.key === "top") || n.categories[0];
     const box = $("news-overview");
@@ -428,9 +449,12 @@
       return;
     }
     box.innerHTML = topCat.stories.slice(0, 4).map(s => {
-      const meta = `${s.sources.length} outlet${s.sources.length === 1 ? "" : "s"}` +
-        (s.divergent ? ` · <span class="split-flag">narrative split</span>` : "");
-      return `<div class="mini-story" role="button" tabindex="0"><h3>${esc(s.headline)}</h3><div class="src">${meta}</div></div>`;
+      const meta = [`${s.sources.length} outlet${s.sources.length === 1 ? "" : "s"}`,
+        timeAgo(s.ts) || null,
+        s.divergent ? `<span class="split-flag">narrative split</span>` : null].filter(Boolean).join(" · ");
+      return `<div class="mini-story${s.img ? " has-img" : ""}" role="button" tabindex="0">` +
+        (s.img ? `<img class="mini-img" src="${esc(s.img)}" alt="" loading="lazy" onerror="this.remove()">` : "") +
+        `<h3>${newPill(s)}${esc(s.headline)}</h3><div class="src">${meta}</div></div>`;
     }).join("");
     box.querySelectorAll(".mini-story").forEach(el => {
       el.addEventListener("click", () => goTo(0));
@@ -469,11 +493,13 @@
         extra = `<details class="compare"><summary>Compare left/right coverage</summary>${items}</details>`;
       }
 
+      const age = timeAgo(s.ts);
       return `<div class="story">
-        <h2>${esc(s.headline)}</h2>
+        ${s.img ? `<img class="story-img" src="${esc(s.img)}" alt="" loading="lazy" onerror="this.remove()">` : ""}
+        <h2>${newPill(s)}${esc(s.headline)}</h2>
         ${s.summary ? `<div class="sum">${esc(s.summary)}</div>` : ""}
         ${extra}
-        <div class="outlets">${outlets}</div>
+        <div class="outlets">${outlets}${age ? `<span class="story-age">${age}</span>` : ""}</div>
       </div>`;
     }).join("");
     if (bindAfter) bindReleaseDetails();
