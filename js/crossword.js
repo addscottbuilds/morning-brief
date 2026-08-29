@@ -66,9 +66,10 @@
 
   // ------- setup -------
   fetch("data/crosswords.json").then(r => r.json()).then(({ puzzles }) => {
-    // bank grew from 10 to 20 on day 23 — earlier days keep their original
-    // mapping so a mid-day bank update never swaps a puzzle in progress
-    puzzle = puzzles[DAY < 23 ? DAY % 10 : DAY % puzzles.length];
+    // bank growth gates (10→20 on day 23, 20→~120 on day 52): earlier days
+    // keep their original mapping so a mid-day bank update never swaps a
+    // puzzle in progress
+    puzzle = puzzles[DAY < 23 ? DAY % 10 : DAY < 52 ? DAY % 20 : DAY % puzzles.length];
     solution = puzzle.rows.join("");
     restore();
     build();
