@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-30T22:54:55.114Z",
+ "generatedAt": "2026-08-31T23:03:29.257Z",
  "markets": {
   "items": [
    {
@@ -7,88 +7,104 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9092.3,
-    "chgPct": 0.5985683379259198,
+    "price": 9076,
+    "chgPct": 0.4182226977789692,
     "high52": 9296.7,
-    "off52": -2.1986296212634744
+    "off52": -2.373960652704731
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.88,
-    "chgPct": 0.09433602047556142,
+    "price": 84.94,
+    "chgPct": 0.16509073491039603,
     "high52": 87.32,
-    "off52": -2.7943197434722835
+    "off52": -2.7256069628950934
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.22,
-    "chgPct": 0.7279016135220816,
+    "price": 151.94,
+    "chgPct": 0.5426183889012284,
     "high52": 155.03,
-    "off52": -1.8125524092111218
+    "off52": -1.9931626136876754
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.71,
-    "chgPct": 0.504965752160256,
+    "price": 59.7,
+    "chgPct": 0.4881335689828753,
     "high52": 64.23,
-    "off52": -7.037210026467387
+    "off52": -7.052779075198506
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.1,
-    "chgPct": -0.3972805669653037,
+    "price": 34.8,
+    "chgPct": -1.2485858612647578,
     "high52": 47.78,
-    "off52": -26.538300544160737
+    "off52": -27.166178317287574
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7162,
-    "chgPct": -0.4600214142997725,
+    "price": 0.7168,
+    "chgPct": -0.3766313177465407,
     "high52": 0.7277,
-    "off52": -1.5803215610828727
+    "off52": -1.4978700013741955
    }
   ],
   "failed": [],
   "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 367.95,
+    "currency": "USD",
+    "chgPct": 5.505376344086018
+   },
+   {
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 85.64,
+    "price": 82.87,
     "currency": "AUD",
-    "chgPct": 4.7840407224634
+    "chgPct": -3.234469184248092
    },
    {
-    "sym": "NVDA",
-    "name": "Nvidia",
-    "market": "US",
-    "price": 217.55,
-    "currency": "USD",
-    "chgPct": -4.574960927714041
+    "sym": "CBA.AX",
+    "name": "CommBank",
+    "market": "ASX",
+    "price": 159.9,
+    "currency": "AUD",
+    "chgPct": 3.1879149923208825
    },
    {
-    "sym": "AMZN",
-    "name": "Amazon",
-    "market": "US",
-    "price": 266.43,
-    "currency": "USD",
-    "chgPct": 3.9686216525459685
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 177.24,
+    "currency": "AUD",
+    "chgPct": 2.861123853089151
+   },
+   {
+    "sym": "WBC.AX",
+    "name": "Westpac",
+    "market": "ASX",
+    "price": 34.55,
+    "currency": "AUD",
+    "chgPct": 2.5831344624142374
    }
   ]
  },
@@ -101,10 +117,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Number of missing Australians in Nepal rises, as China links disaster to climate change",
-      "summary": "Australians are raising millions for Nepal disaster survivors as the death toll rises and thousands remain missing.",
-      "ts": 1788130276000,
-      "img": "https://assets.sbs.com.au/dims4/default/446041c/2147483647/strip/false/crop/3000x1378+0+252/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F8f%2F6b%2F4a776b2d47abbe9e16e600b799b7%2Fgettyimages-2292702421.jpg",
+      "headline": "‘Scared’ residents quizzed as authorities urgently search for mother after baby-in-bin tragedy",
+      "summary": "A resident of an apartment block has spoken of her shock after the body of a baby was found in a nearby rubbish bin as police try to find the mother.",
+      "ts": 1788217308000,
+      "img": "https://images.7news.com.au/publication/C-22804633/cadfe6f3f571e15d63033af05869d7d428f955c6-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -112,104 +128,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Australia news live: Joyce calls One Nation byelection win ‘decisive’ and ‘humbling’; Oscar Jenkins gives first interview since Russia conviction",
-        "desc": "One Nation MP says voters are disillusioned with traditional political parties. Follow the day’s news live Get our breaking news email, free app or daily news podcast Australian government working on release of Oscar Jenkins, assistant minister says The Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Spea",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: 43 Australians remain missing in Nepal as flood’s death toll rises above 800; Labor to crack down on smart glasses in new laws",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
-        "link": "https://www.theage.com.au/national/australia-news-live-more-than-40-australians-remain-missing-in-nepal-as-death-toll-rises-above-800-us-strikes-iranian-rocket-launchers-in-hormuz-in-first-military-action-in-weeks-20260831-p60svv.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Number of missing Australians in Nepal rises, as China links disaster to climate change",
-        "desc": "Australians are raising millions for Nepal disaster survivors as the death toll rises and thousands remain missing.",
-        "link": "https://www.sbs.com.au/news/article/number-of-missing-australians-in-nepal-rises-as-china-links-disaster-to-climate-change/2p1pfhknr"
+        "title": "‘Scared’ residents quizzed as authorities urgently search for mother after baby-in-bin tragedy",
+        "desc": "A resident of an apartment block has spoken of her shock after the body of a baby was found in a nearby rubbish bin as police try to find the mother.",
+        "link": "https://7news.com.au/news/scared-residents-quizzed-as-authorities-urgently-search-for-mother-after-baby-in-bin-tragedy-c-22804633"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Newborn baby dumped in supermarket bathroom by mother who worked there, cops say",
+        "desc": "Officers discovered the infant in the women's restroom at the ShopRite inside the City Center shopping complex in White Plains, New York on Sunday.",
+        "link": "https://www.dailymail.com/news/article-16093791/newborn-abandoned-shoprite-white-plains.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Concerns women will 'fall through the cracks' when mother-baby unit closes",
+        "desc": "While the mother-baby unit in Hobart deals with complex mental health challenges, staff have been told mothers must be \"psychologically well\" to be eligible for the service set to replace it.",
+        "link": "https://www.abc.net.au/news/2026-09-01/concerns-for-women-over-new-hobart-mother-baby-unit/107098978"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-      "summary": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
-      "ts": 1788129875000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff7/live/2c0e39a0-a4bd-11f1-aed2-8d6da8d75094.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "At least 15 hikers missing as flash floods rip through Grand Canyon in Arizona amid dramatic evacuation of dozens more",
-        "desc": "The harrowing news came on Sunday, following flash floods in the region on yesterday.",
-        "link": "https://www.dailymail.com/news/article-16091703/hikers-missing-grand-canyon-arizona.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-        "desc": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
-        "link": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Urgent search underway for more than 20 people after Grand Canyon flash flood",
-        "desc": "More than 20 people may be missing after a major flash flood tore through Bright Angel Canyon and Phantom Ranch in the Grand Canyon on Aug. 29.",
-        "link": "https://www.foxnews.com/us/urgent-search-underway-more-than-20-people-after-grand-canyon-flash-flood"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "US forces strike Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
-      "summary": "A statement from the Revolutionary Guard Corps said the attack will ‘result in punishment of the aggressor.’",
-      "ts": 1788129800000,
-      "img": "https://images.7news.com.au/publication/C-22798594/c180836f1ded3f7274366aff74c5c6b37e4d3099-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "US launches missiles near Strait of Hormuz in first attack on Iran in weeks as Tehran strikes back at base in Jordan",
-        "desc": "Forces with the Iran Revolutionary Guard Corps were seen preparing to launch rockets with sea mines into the strait.",
-        "link": "https://www.dailymail.com/news/article-16091755/US-forces-strike-Iranian-missle-launchers.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "US forces strike Iranian rocket launchers on the Strait of Hormuz in first military action in weeks",
-        "desc": "A statement from the Revolutionary Guard Corps said the attack will ‘result in punishment of the aggressor.’",
-        "link": "https://7news.com.au/news/us-forces-strike-iranian-rocket-launchers-on-the-strait-of-hormuz-in-first-military-action-in-weeks-c-22798594"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "US military launches first strike on Iranian forces near Hormuz since July",
-        "desc": "Iran has vowed a response after US strikes on rocket launchers near the Strait of Hormuz.",
-        "link": "https://www.sbs.com.au/news/article/us-military-launches-first-strike-on-iranian-forces-since-july/xp8e74xc9"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Labor vows to listen to voters after One Nation's historic WA upset",
-      "summary": "The WA state by-election in the previously safe Labor seat of Secret Harbour was seen as a test of One Nation's popularity.",
-      "ts": 1788129726000,
-      "img": "https://assets.sbs.com.au/dims4/default/302c379/2147483647/strip/false/crop/6624x3044+0+687/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F24%2Fe3%2Fd4c44df8419fa9f21441eccd4efe%2F20260829157158651256-original.jpg",
+      "headline": "The jury's options in Lindsay Clancy's murder trial",
+      "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children.",
+      "ts": 1788217100000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c17/live/80180ab0-a4d3-11f1-b109-879e35c24276.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -219,32 +165,102 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Pauline Hanson erupts at Anthony Albanese after he lashed out over One Nation storming Labor stronghold in historic upset",
-        "desc": "Pauline Hanson has hit back at Anthony Albanese after he attacked One Nation following the party's historic win in Western Australia's Secret Harbour by-election.",
-        "link": "https://www.dailymail.com/news/article-16091719/pauline-hanson-albanese.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Lindsay and Patrick Clancy's little boy neighbor who heard an 'ungodly yell'... and witnessed a nightmare he should never have seen: New accounts reconstruct killing horror",
+        "desc": "On January 24, 2023, Lindsay strangled the children in the basement with exercise bands. Her fate now lies in the hands of 12 jurors.",
+        "link": "https://www.dailymail.com/crime-desk/article-16092011/lindsay-clancy-trial-neighbors-duxbury.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Guardian Australia",
+        "outlet": "The Age",
         "lean": "left",
-        "title": "One Nation’s Secret Harbour byelection win shows Labor is at a loss when it comes to calming angry voters | Analysis",
-        "desc": "Even after a week in which Pauline Hanson and One Nation candidates tripped over themselves trying to explain key policies, voters still backed the party Get our breaking news email, free app or daily news podcast The One Nation hype machine went into overdrive after Saturday’s Secret Harbour byelection but one thing is clear from the thumping victory. Despite the party’s sustained surge in public",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/30/one-nations-secret-harbour-byelection-win-shows-labor-is-at-a-loss-when-it-comes-to-calming-angry-voters"
+        "title": "Jury begins deliberations in Tupac Shakur murder trial",
+        "desc": "Duane “Keffe D” Davis is accused of orchestrating the drive-by shooting that killed rapper Tupac Shakur in 1996.",
+        "link": "https://www.theage.com.au/culture/music/jury-begins-deliberations-in-tupac-shakur-murder-trial-20260901-p60t93.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "The jury's options in Lindsay Clancy's murder trial",
+        "desc": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children.",
+        "link": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Lionel Richie admitted to ICU following on-stage health scare",
+      "summary": "A similar incident just months ago led to the star cancelling several shows.",
+      "ts": 1788216170000,
+      "img": "https://images.7news.com.au/publication/C-22804676/9d5b5623706bb8ab6ac75198e2a60d3c3cef7181-16x9-x0y2w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Lionel Richie admitted to ICU following on-stage health scare",
+        "desc": "A similar incident just months ago led to the star cancelling several shows.",
+        "link": "https://7news.com.au/entertainment/celebrity/lionel-richie-admitted-to-icu-following-on-stage-health-scare-c-22804676"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Lionel Richie, 77, taken into ICU in St Louis after falling ill on stage",
+        "desc": "Lionel Richie has been hospitalized in St Louis, Missouri after falling ill after a show there on Saturday night.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16094033/Lionel-Richie-77-rushed-ICU-St-Louis-falling-ill-stage.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Lionel Richie hospitalized in St Louis after summer of health scares and canceled concerts",
+        "desc": "Lionel Richie was hospitalized Monday in St. Louis after performing at The Muny, marking the latest in a string of summer health scares for the star.",
+        "link": "https://www.foxnews.com/entertainment/lionel-richie-hospitalized-st-louis-summer-health-scares-canceled-concerts"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Live: Oil prices surge on latest US-Iran flare-up, ASX to slip as housing slump continues",
+      "summary": "The latest flare-up in hostilities between the US and Iran have led to a 3 per cent surge in the oil price. The Australian share market is likely to start its day lower. House prices are falling in most of the nation's capital cities. Follow the day's events on the ABC News live markets blog.",
+      "ts": 1788213287000,
+      "img": "https://assets.sbs.com.au/dims4/default/186553b/2147483647/strip/false/crop/4989x2292+0+517/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fc0%2F22%2Ff9c7671b471da8009c7ebdceb878%2F20260828151354405753-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Oil prices surge on latest US-Iran flare-up, ASX to slip as housing slump continues",
+        "desc": "The latest flare-up in hostilities between the US and Iran have led to a 3 per cent surge in the oil price. The Australian share market is likely to start its day lower. House prices are falling in most of the nation's capital cities. Follow the day's events on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-09-01/asx-markets-business-live-news-house-prices-fall/107100764"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Labor vows to listen to voters after One Nation's historic WA upset",
-        "desc": "The WA state by-election in the previously safe Labor seat of Secret Harbour was seen as a test of One Nation's popularity.",
-        "link": "https://www.sbs.com.au/news/article/one-nation-secret-harbour-by-election-win/ypln12qea"
+        "title": "Trump vows to hit Iran 'hard' after first exchange of fire in weeks",
+        "desc": "Despite the flaring of hostilities, the US and Iran remain at a tense diplomatic impasse.",
+        "link": "https://www.sbs.com.au/news/article/trump-vows-to-hit-iran-hard-after-first-exchange-of-fire-in-weeks/zphcz24e9"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Trump threatens further action as US and Iran exchange fire in new flare-up",
+        "desc": "Washington says it acted after observing Iran was planning to deploy fresh mines in strait of Hormuz The US and Iran have exchanged fire for the first time in a month, with missiles and drones fired at Iranian rocket launchers on an island in the strait of Hormuz, and Iran targeting US military bases in Jordan and the United Arab Emirates in response. The US president, Donald Trump, on Monday thre",
+        "link": "https://www.theguardian.com/world/2026/aug/31/trump-threatens-further-action-us-iran-exchange-fire"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Dolly Parton laid to rest in private ceremony beside husband Carl Dean",
-      "summary": "The country music icon was farewelled at an intimate funeral at Nashville's Woodlawn Memorial Park and Mausoleum.",
-      "ts": 1788129123000,
-      "img": "https://images.7news.com.au/publication/C-22798733/6bbbc18c109d838576d8bba4d43fe2a8e1c36194-16x9-x0y0w1280h720.jpg",
+      "headline": "Race to rescue hundreds trapped in tunnels as Nepal flood death toll tops 950",
+      "summary": "Across the border in China, there is little confirmed information regarding deaths or injuries.",
+      "ts": 1788213103000,
+      "img": "https://assets.sbs.com.au/dims4/default/093e544/2147483647/strip/false/crop/8064x3705+0+415/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F7a%2F33%2Fb1e4766143eaa36e4ae3f59467bf%2F20260901142580836120-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -252,34 +268,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: NSW man first Australian declared dead in Nepal as death toll of flood exceeds 900; Trump vows to ‘hit Iran hard’ as tensions in the Middle East escalate",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-nsw-man-first-australian-declared-dead-in-nepal-as-death-toll-of-flood-exceeds-900-trump-vows-to-hit-iran-hard-as-tensions-in-the-middle-east-escalate-20260901-p60t8d.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Dolly Parton laid to rest in private ceremony beside husband Carl Dean",
-        "desc": "The country music icon was farewelled at an intimate funeral at Nashville's Woodlawn Memorial Park and Mausoleum.",
-        "link": "https://7news.com.au/entertainment/dolly-parton-laid-to-rest-in-private-ceremony-beside-husband-carl-dean-c-22798733"
+        "title": "Race to rescue hundreds trapped in tunnels as Nepal flood death toll tops 950",
+        "desc": "Across the border in China, there is little confirmed information regarding deaths or injuries.",
+        "link": "https://www.sbs.com.au/news/article/race-to-rescue-hundreds-trapped-in-tunnels-as-nepal-flood-death-toll-tops-950/qz3jl7ahi"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "The Dolly Parton songs no one has ever heard: Inside secret music vault she built for her death... as insiders reveal private plans singer 'laid out for her family'",
-        "desc": "Beyond her beloved hits, Parton had spent decades writing songs few people knew existed - storing them away in a private archive she protected fiercely.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16087821/Dolly-Parton-new-songs-music-vault.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Dolly Parton's most iconic 'Dolly-isms' on beauty, wigs, Botox and living life on her own terms",
-        "desc": "Dolly Parton's iconic one-liners about her wigs, rhinestone outfits and cosmetic procedures captured her philosophy on authenticity and confidence.",
-        "link": "https://www.foxnews.com/entertainment/dolly-parton-iconic-dolly-isms-beauty-wigs-botox-living-life-own-terms"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Nepal flood relief vehicles trapped as heavy rain turns roads to mud",
+        "desc": "Heavy rain has hampered relief efforts in Nepal where thousands remain missing after flash floods hit its border with Tibet.",
+        "link": "https://www.bbc.co.uk/news/videos/c5ydwy004v0o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
-      "summary": "Iran says the attack killed some civilians and is the first known US strike on Iran since late July.",
-      "ts": 1788124542000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/baab/live/f7f345a0-a4b4-11f1-b109-879e35c24276.jpg",
+      "headline": "Hundreds feared stuck in hydropower tunnels since Nepal-Tibet floods",
+      "summary": "Rescuers are racing to free hundreds of workers believed to be trapped in tunnels at hydropower sites since last week's catastrophic flooding on the Nepal-China border, as the death toll passes 950 with more than 4,400 people missing.",
+      "ts": 1788210822000,
+      "img": "https://images.7news.com.au/publication/C-22803613/fa04d80f41bc30d5eabfeff59ff8858d3feb0b26-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -287,60 +303,60 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
-        "desc": "Iran says the attack killed some civilians and is the first known US strike on Iran since late July.",
-        "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "US strikes Iranian launchers on Larak island amid strait of Hormuz tensions",
-        "desc": "Attack was response to Islamic ⁠Revolutionary Guard Corps preparing rockets to launch sea mines into strait, says US US forces have struck two Iranian launchers on Iran’s Larak island on Sunday, a US official said, marking the ⁠first known American strikes since late July. “I can confirm that earlier today US forces struck two Iranian launchers on Larak island. Islamic ⁠Revolutionary Guard Corps f",
-        "link": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions"
-       },
-       {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "US strikes Iranian launchers on island in Strait of Hormuz",
-        "desc": "Iran's Islamic Revolutionary Guard Corps vows to respond after US forces struck two launchers ‌on Larak Island.",
-        "link": "https://www.abc.net.au/news/2026-08-31/middle-east-war-us-strikes-launched-iran-larak-island/107096404"
+        "title": "Hundreds feared stuck in hydropower tunnels since Nepal-Tibet floods",
+        "desc": "Rescuers are racing to free hundreds of workers believed to be trapped in tunnels at hydropower sites since last week's catastrophic flooding on the Nepal-China border, as the death toll passes 950 with more than 4,400 people missing.",
+        "link": "https://www.abc.net.au/news/2026-09-01/search-for-hundreds-in-hydropower-tunnels-in-nepal/107100624"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Nepal-Tibet floods: Michael Keats first Australian confirmed dead in devastating natural disaster",
+        "desc": "Rescuers are racing against time to find more than 40 missing Australians trapped in the disaster zone.",
+        "link": "https://7news.com.au/news/world/nepal-tibet-floods-michael-keats-first-australian-confirmed-dead-in-devastating-natural-disaster-c-22803613"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Why China is censoring footage of the Nepal-Tibet disaster",
+        "desc": "The catastrophic flood event has highlighted the sweeping restrictions on what the outside world sees from Tibet.",
+        "link": "https://www.sbs.com.au/news/article/china-nepal-tibet-censorship-explained/eo8qkzx0i"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "At least eight people killed, 18 still missing after ferry capsizes off Cyprus",
-      "summary": "Turkish Cypriot authorities have arrested the captain and seven crew members of the ferry that sunk.",
-      "ts": 1788122499000,
-      "img": "https://images.7news.com.au/publication/C-22798489/4f1df041c83a06d6ec3e1ae2099e8cf9354380ce-16x9-x0y0w1280h720.png",
+      "headline": "'It hurts': Lionel Messi announces international retirement after World Cup final defeat",
+      "summary": "The curtain falls on one of football's most storied international careers.",
+      "ts": 1788209306000,
+      "img": "https://assets.sbs.com.au/dims4/default/e732d23/2147483647/strip/false/crop/3179x1461+0+330/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F15%2F84%2F6cbf6fc84e89a0ac8a9b29f972d5%2F20260901181611456975-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "At least eight people killed, 18 still missing after ferry capsizes off Cyprus",
-        "desc": "Turkish Cypriot authorities have arrested the captain and seven crew members of the ferry that sunk.",
-        "link": "https://7news.com.au/news/at-least-eight-people-killed-18-still-missing-after-ferry-capsizes-off-cyprus-c-22798489"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Lionel Messi retires from Argentina duty: 39-year-old bows out after defeat in World Cup final by Spain - just a few weeks after his father passed away",
+        "desc": "Lionel Messi has announced his retirement from international football following Argentina's defeat in the World Cup final to Spain last month.",
+        "link": "https://www.dailymail.com/sport/football/article-16093523/Lionel-Messi-confirms-retirement-Argentina.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "The Age",
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'It hurts': Lionel Messi announces international retirement after World Cup final defeat",
+        "desc": "The curtain falls on one of football's most storied international careers.",
+        "link": "https://www.sbs.com.au/news/article/lionel-messi-announces-international-retirement-after-word-cup-final-defeat/8yeovhjfw"
+       },
+       {
+        "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Ferry capsizes off Cyprus",
-        "desc": "Eight people are dead and 17 are missing after a ferry capsized off the coast of northern Cyprus.",
-        "link": "https://www.theage.com.au/world/ferry-capsizes-off-cyprus-20260831-p60sw2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Eight killed and others missing after ferry capsizes off northern Cyprus",
-        "desc": "A search and rescue operation is under way after a ferry carrying nearly 270 people turns over after leaving port.",
-        "link": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss"
+        "title": "Argentina’s Lionel Messi retires from international football: ‘This hurts me a lot’",
+        "desc": "Argentina great’s last game was in World Cup final Player’s father Jorge died earlier in August Lionel Messi has announced his retirement from international football seven weeks after Argentina were beaten by Spain in the World Cup final in the US. The 39-year-old captained Argentina to World Cup glory in 2022 and two Copa América titles after winning his first cap in 2005. On Monday, Messi posted",
+        "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messi-retires-from-international-football-argentina"
        }
       ]
      }
@@ -352,10 +368,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "One Nation thumps Labor to gain WA state seat of Secret Harbour at byelection",
-      "summary": "With nearly all votes counted in Saturday’s Western Australian state byelection for Secret Harbour, the ABC’s results give One Nation 39.1% of the primary vote (up a huge 30.6% since the March 2025 state election), Labor 24.4% (down 22.1%), the Liberals 17.3% (down 7.1%), the Greens 7.5% (down 1.3%), Legalise Cannabis 3.7% (down 2.1%), Animal Justice 1.8% (down 0.8%) and Australian Christians 1.7%",
-      "ts": 1788071819000,
-      "img": "https://static.ffx.io/images/$zoom_0.6846%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_46%2C$y_0/t_crop_custom/q_86%2Cf_auto/329e3ce286960425c5a294fdb70706aacc9629ac",
+      "headline": "Australia news live: NSW confirms new HSC assessment rules to crack down on AI use; Sydney man killed in home invasion",
+      "summary": "Follow updates live Get our breaking news email, free app or daily news podcast 43 Australians still missing, with concerns growing ‘every day, every hour’ that goes by, Wong says The foreign affairs minister, Penny Wong, says there are still 43 Australian missing after the flooding in Nepal, saying the government holds grave concerns for their safety that only gets worse as the days go by. This i",
+      "ts": 1788216679000,
+      "img": "https://i.guim.co.uk/img/media/2ffa043d7b59ec1f03fde29eb696b6df4871b63f/1090_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=8fb4816043859195833e3ba2f296d584",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -363,76 +379,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Secret Harbour shellacking a warning for Labor, Coalition",
-        "desc": "The win in a West Australian state byelection underlines the threat posed by One Nation to the status quo.",
-        "link": "https://www.theage.com.au/politics/federal/secret-harbour-shellacking-a-warning-for-labor-coalition-20260830-p60sss.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "One Nation’s Secret Harbour byelection win shows Labor is at a loss when it comes to calming angry voters | Analysis",
-        "desc": "Even after a week in which Pauline Hanson and One Nation candidates tripped over themselves trying to explain key policies, voters still backed the party Get our breaking news email, free app or daily news podcast The One Nation hype machine went into overdrive after Saturday’s Secret Harbour byelection but one thing is clear from the thumping victory. Despite the party’s sustained surge in public",
-        "link": "https://www.theguardian.com/australia-news/2026/aug/30/one-nations-secret-harbour-byelection-win-shows-labor-is-at-a-loss-when-it-comes-to-calming-angry-voters"
-       },
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "One Nation thumps Labor to gain WA state seat of Secret Harbour at byelection",
-        "desc": "With nearly all votes counted in Saturday’s Western Australian state byelection for Secret Harbour, the ABC’s results give One Nation 39.1% of the primary vote (up a huge 30.6% since the March 2025 state election), Labor 24.4% (down 22.1%), the Liberals 17.3% (down 7.1%), the Greens 7.5% (down 1.3%), Legalise Cannabis 3.7% (down 2.1%), Animal Justice 1.8% (down 0.8%) and Australian Christians 1.7%",
-        "link": "https://theconversation.com/one-nation-thumps-labor-to-gain-wa-state-seat-of-secret-harbour-at-byelection-290620"
+        "title": "Australia news live: NSW confirms new HSC assessment rules to crack down on AI use; Sydney man killed in home invasion",
+        "desc": "Follow updates live Get our breaking news email, free app or daily news podcast 43 Australians still missing, with concerns growing ‘every day, every hour’ that goes by, Wong says The foreign affairs minister, Penny Wong, says there are still 43 Australian missing after the flooding in Nepal, saying the government holds grave concerns for their safety that only gets worse as the days go by. This i",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/01/nepal-tibet-flooding-missing-australians-penny-wong-anthony-albanese-pacific-islands-forum-liberal-national-coalition-one-nation-politics-reactions-ntwnfb"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Australia news live: Joyce calls One Nation byelection win ‘decisive’ and ‘humbling’; Oscar Jenkins gives first interview since Russia conviction",
-      "summary": "One Nation MP says voters are disillusioned with traditional political parties. Follow the day’s news live Get our breaking news email, free app or daily news podcast Australian government working on release of Oscar Jenkins, assistant minister says The Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Spea",
-      "ts": 1788130276000,
-      "img": "https://i.guim.co.uk/img/media/704cc31ebeb2c73cc3c9bc194580194504885c2c/787_63_2934_2348/master/2934.jpg?width=460&quality=85&auto=format&fit=max&s=f842155c7ec83af7a1a8f003ef11d349",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: Joyce calls One Nation byelection win ‘decisive’ and ‘humbling’; Oscar Jenkins gives first interview since Russia conviction",
-        "desc": "One Nation MP says voters are disillusioned with traditional political parties. Follow the day’s news live Get our breaking news email, free app or daily news podcast Australian government working on release of Oscar Jenkins, assistant minister says The Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Spea",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "After 75 years of our alliance with the US, most Australians still can’t see a better option",
-      "summary": "In 1951, Australia and the United States signed the ANZUS Treaty, declaring “publicly and formally their sense of unity, so that no potential aggressor could be under the illusion that any of them stand alone”. Seventy-five years later, polling suggests Australians are no longer so confident in their sense of unity — but they still aren’t willing to stand alone. The past 18 months have seen a new ",
-      "ts": 1788121053000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "After 75 years of our alliance with the US, most Australians still can’t see a better option",
-        "desc": "In 1951, Australia and the United States signed the ANZUS Treaty, declaring “publicly and formally their sense of unity, so that no potential aggressor could be under the illusion that any of them stand alone”. Seventy-five years later, polling suggests Australians are no longer so confident in their sense of unity — but they still aren’t willing to stand alone. The past 18 months have seen a new ",
-        "link": "https://theconversation.com/after-75-years-of-our-alliance-with-the-us-most-australians-still-cant-see-a-better-option-290715"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "DC public schools face special grand jury probe into attendance, truancy and graduation records",
-      "summary": "A special grand jury is probing D.C. public schools over truancy, graduation rates and how attendance records are documented across campuses.",
-      "ts": 1788117109000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/high-school-students-stock.jpg?ve=1&tl=1",
+      "headline": "Who pays for US power boom? Blue, red states offer starkly different ways to lower utility bills amid AI surge",
+      "summary": "New Jersey is requiring big data centers to shoulder more of their own power costs, while an Indiana utility says revenue from major new customers could cut household bills by about $100 a year.",
+      "ts": 1788216060000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/sherrill-data-center.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -442,18 +402,60 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "DC public schools face special grand jury probe into attendance, truancy and graduation records",
-        "desc": "A special grand jury is probing D.C. public schools over truancy, graduation rates and how attendance records are documented across campuses.",
-        "link": "https://www.foxnews.com/politics/dc-public-schools-face-special-grand-jury-probe-attendance-truancy-graduation-records"
+        "title": "Who pays for US power boom? Blue, red states offer starkly different ways to lower utility bills amid AI surge",
+        "desc": "New Jersey is requiring big data centers to shoulder more of their own power costs, while an Indiana utility says revenue from major new customers could cut household bills by about $100 a year.",
+        "link": "https://www.foxnews.com/politics/who-pays-us-power-boom-blue-red-states-offer-starkly-different-ways-lower-utility-bills-amid-ai-surge"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "Army Secretary Dan Driscoll submits resignation to Trump",
+      "summary": "Army Secretary Dan Driscoll has submitted his resignation letter to the White House, a senior U.S. official confirms. The White House has not yet accepted his resignation.",
+      "ts": 1788214827000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/dan-driscoll.png?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Army Secretary Dan Driscoll submits resignation to Trump",
+        "desc": "Army Secretary Dan Driscoll has submitted his resignation letter to the White House, a senior U.S. official confirms. The White House has not yet accepted his resignation.",
+        "link": "https://www.foxnews.com/politics/army-secretary-dan-driscoll-submits-resignation-trump"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Vance unloads on El-Sayed after Usha swipe with brutal warning: 'Way out of your league'",
+      "summary": "JD Vance fired back at Abdul El-Sayed over comments about Usha Vance, telling the Michigan Senate candidate to keep his wife's name out of his mouth.",
+      "ts": 1788208369000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/vances-el-sayed-split-3.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Vance unloads on El-Sayed after Usha swipe with brutal warning: 'Way out of your league'",
+        "desc": "JD Vance fired back at Abdul El-Sayed over comments about Usha Vance, telling the Michigan Senate candidate to keep his wife's name out of his mouth.",
+        "link": "https://www.foxnews.com/politics/vance-unloads-el-sayed-after-usha-swipe-brutal-warning-way-out-your-league"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Is Hanson’s rise Albanese’s fall? Not so fast",
-      "summary": "One Nation’s victory in a weekend byelection was resounding, but it does not predict future voting. Hanson’s rivals should be spurred into good policies, not hers.",
-      "ts": 1788116400000,
-      "img": "https://static.ffx.io/images/$zoom_0.3975406031430838%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/b4e3ecbf7634ac5596882df2a1323873b62e4426",
+      "headline": "Trump's White House ballroom construction gets another lifeline from SCOTUS amid heated legal fight",
+      "summary": "Chief Justice John Roberts warned the White House ballroom project is \"likely unlawful,\" but the Supreme Court let construction continue for now.",
+      "ts": 1788207995000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/view-of-white-house-ballroom.png?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -461,20 +463,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Is Hanson’s rise Albanese’s fall? Not so fast",
-        "desc": "One Nation’s victory in a weekend byelection was resounding, but it does not predict future voting. Hanson’s rivals should be spurred into good policies, not hers.",
-        "link": "https://www.theage.com.au/politics/federal/is-hanson-s-rise-albanese-s-fall-not-so-fast-20260830-p60ss7.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump's White House ballroom construction gets another lifeline from SCOTUS amid heated legal fight",
+        "desc": "Chief Justice John Roberts warned the White House ballroom project is \"likely unlawful,\" but the Supreme Court let construction continue for now.",
+        "link": "https://www.foxnews.com/politics/white-house-ballroom-construction-lifeline-scotus-heated-legal-fight"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Migration agents caught making false visa claims, misusing client money and lodging futile applications",
-      "summary": "From hidden commissions to bogus visa applications, a new report exposes the widespread misconduct triggering a fresh wave of bans and suspensions.",
-      "ts": 1788116400000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/3a0fce10c533b961ca30545f02c6d6a9bf582903",
+      "headline": "Trump's Canada tariff fight reaches critical point as House GOP summons trade chief",
+      "summary": "Jamieson Greer meets House Republicans as Trump's escalating trade war with Canada and 50% tariffs become a growing flashpoint for lawmakers.",
+      "ts": 1788207211000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/08/931/523/mark-carney-donald-trump-oval-office.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -482,11 +484,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Migration agents caught making false visa claims, misusing client money and lodging futile applications",
-        "desc": "From hidden commissions to bogus visa applications, a new report exposes the widespread misconduct triggering a fresh wave of bans and suspensions.",
-        "link": "https://www.theage.com.au/politics/federal/migration-agents-caught-making-false-visa-claims-misusing-client-money-and-lodging-futile-applications-20260829-p60smt.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump's Canada tariff fight reaches critical point as House GOP summons trade chief",
+        "desc": "Jamieson Greer meets House Republicans as Trump's escalating trade war with Canada and 50% tariffs become a growing flashpoint for lawmakers.",
+        "link": "https://www.foxnews.com/politics/trumps-canada-tariff-fight-reaches-critical-point-house-gop-summons-trade-chief"
        }
       ]
      }
@@ -498,10 +500,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
-      "summary": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you to let loose, dance like no one was watching, and just have some damn fun. Few embodied that as much as Ne",
-      "ts": 1788124739000,
-      "img": null,
+      "headline": "FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads",
+      "summary": "The FTC and 22 state attorneys general are suing Amazon for allegedly using a \"secret ad surcharge\" to drive up prices for ads on its website and app. FTC chairman Andrew Ferguson claims in a blog post on the lawsuit that the higher advertising prices \"were largely passed on to American consumers.\" According to the complaint, Amazon violated the FTC Act and over a dozen state laws. This lawsuit co",
+      "ts": 1788212502000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06c0/live/06652f80-a574-11f1-b109-879e35c24276.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -511,18 +513,25 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Professor Murder Rides the Subway is a forgotten slice of dance punk perfection",
-        "desc": "I recently dug out my CDs and started reripping them all. I've found a few forgotten gems in there, but few hit harder for me than the beautifully concise Professor Murder Rides the Subway EP. There was a period of time in the mid-aughts in NYC where it seemed like every indie band wanted you to let loose, dance like no one was watching, and just have some damn fun. Few embodied that as much as Ne",
-        "link": "https://www.theverge.com/entertainment/986564/professor-murder-rides-the-subway-dance-punk-perfection-review"
+        "title": "FTC lawsuit alleges Amazon has been ‘secretly and systematically’ overcharging for ads",
+        "desc": "The FTC and 22 state attorneys general are suing Amazon for allegedly using a \"secret ad surcharge\" to drive up prices for ads on its website and app. FTC chairman Andrew Ferguson claims in a blog post on the lawsuit that the higher advertising prices \"were largely passed on to American consumers.\" According to the complaint, Amazon violated the FTC Act and over a dozen state laws. This lawsuit co",
+        "link": "https://www.theverge.com/tech/986982/amazon-advertising-prices-ftc-lawsuit"
+       },
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Amazon rigged billions in ad pricing, lawsuit from states and US watchdog alleges",
+        "desc": "Amazon responded to the lawsuit, arguing the US Federal Trade Commission \"misunderstands\" their ad market.",
+        "link": "https://www.bbc.co.uk/news/articles/cvgy91nvy27o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
-      "summary": "Over 12 terabytes of data, containing builds of every game uploaded to Steam between 2003 and 2013, has been leaked. We don't know everything in the archives yet because of its massive size. But people have already dug up assets related to the canceled Half-Life 2: Episode 3, content cut from Portal 2, and a build of a game called F-Stop that's set in the Portal universe but is built around a came",
-      "ts": 1788117248000,
-      "img": null,
+      "headline": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
+      "summary": "The Alienware AW2726DM is a wallet-friendly screen with premium features for gaming. While memory and storage prices are still high, there are still good discounts on other gaming-related hardware. Take Alienware’s AW2726DM, for example. Dell is selling it for $319.99, a $30 break from the usual price of $349.99. The 27-inch gaming monitor features an QD-OLED panel for deep, immersive black levels",
+      "ts": 1788204719000,
+      "img": "https://i.guim.co.uk/img/media/7bc11034f1383f25c02403ef1ff25c27ce2c6761/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=dfcb8dad63c4f0a41cdbe10a26b6e74c",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -532,18 +541,25 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Enormous 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
-        "desc": "Over 12 terabytes of data, containing builds of every game uploaded to Steam between 2003 and 2013, has been leaked. We don't know everything in the archives yet because of its massive size. But people have already dug up assets related to the canceled Half-Life 2: Episode 3, content cut from Portal 2, and a build of a game called F-Stop that's set in the Portal universe but is built around a came",
-        "link": "https://www.theverge.com/games/986552/12tb-steam-leak-half-life-2-episode-3"
+        "title": "Alienware’s budget-friendly QD-OLED is discounted for the first time",
+        "desc": "The Alienware AW2726DM is a wallet-friendly screen with premium features for gaming. While memory and storage prices are still high, there are still good discounts on other gaming-related hardware. Take Alienware’s AW2726DM, for example. Dell is selling it for $319.99, a $30 break from the usual price of $349.99. The 27-inch gaming monitor features an QD-OLED panel for deep, immersive black levels",
+        "link": "https://www.theverge.com/gadgets/986901/alienware-qdoled-2726dm-deal-sale"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "ProCook outdoor pizza oven review: a budget-friendly model that brings the pizzeria home",
+        "desc": "This no-frills pizza oven gets the basics right and is more than good enough for most people • The best pizza ovens – tested • Ooni Koda 2 review The market for pizza ovens tends to be dominated by a handful of specialist brands, so it can feel like a gamble to buy from a lesser-known manufacturer or a retailer that offers a wider range of goods. The ProCook outdoor pizza oven is no gamble, though",
+        "link": "https://www.theguardian.com/thefilter/2026/aug/30/procook-outdoor-pizza-oven-review"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Why it matters that President Trump just dialed into a NASA news conference",
-      "summary": "With just one more major mission upcoming, NASA's science programs need a boost.",
-      "ts": 1788111630000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/NHQ20260828_admin_0045large-1152x648.jpg",
+      "headline": "AI could cause global economic downturn, Andrew Bailey warns G20",
+      "summary": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
+      "ts": 1788194951000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b34/live/537541c0-a556-11f1-aed2-8d6da8d75094.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -551,19 +567,26 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Why it matters that President Trump just dialed into a NASA news conference",
-        "desc": "With just one more major mission upcoming, NASA's science programs need a boost.",
-        "link": "https://arstechnica.com/space/2026/08/why-it-matters-that-president-trump-just-dialed-into-a-nasa-news-conference/"
+        "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
+        "desc": "The governor of the Bank of England warned of AI's “volatility” caused by energy shocks from the US-Iran war.",
+        "link": "https://www.bbc.co.uk/news/articles/c99dym3prl1o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "AI could cause global economic downturn, Bank of England governor tells G20",
+        "desc": "Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising system The Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology. In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair",
+        "link": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
-      "summary": "NASA’s Nancy Grace Roman Telescope blasts off. | Photo: NASA / John Kraus After funding struggles and a name change, the Nancy Grace Roman Space Telescope has been successfully launched. It will now make a three-month, one-million-mile journey to its orbit at the second Sun-Earth Lagrange point (L2) beyond the Moon. From this vantage point, Roman will conduct an unprecedented survey of the univers",
-      "ts": 1788107799000,
+      "headline": "The Google TV Streamer now costs $50 more",
+      "summary": "Google raised the price of its 4K streaming box to $149, up $50 from its original $99 price. The new price is currently live at the Google Store and Best Buy, but Amazon appears to still be offering the original price. The price hike comes just a couple of weeks after Google launched its new lineup of Pixel 11 phones with a $100 price hike over their Pixel 10 counterparts. The Google TV Streamer o",
+      "ts": 1788215571000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -574,38 +597,17 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The Nancy Grace Roman Space Telescope launches to study dark matter and dark energy",
-        "desc": "NASA’s Nancy Grace Roman Telescope blasts off. | Photo: NASA / John Kraus After funding struggles and a name change, the Nancy Grace Roman Space Telescope has been successfully launched. It will now make a three-month, one-million-mile journey to its orbit at the second Sun-Earth Lagrange point (L2) beyond the Moon. From this vantage point, Roman will conduct an unprecedented survey of the univers",
-        "link": "https://www.theverge.com/science/986544/nancy-grace-roman-space-telescope-launch"
+        "title": "The Google TV Streamer now costs $50 more",
+        "desc": "Google raised the price of its 4K streaming box to $149, up $50 from its original $99 price. The new price is currently live at the Google Store and Best Buy, but Amazon appears to still be offering the original price. The price hike comes just a couple of weeks after Google launched its new lineup of Pixel 11 phones with a $100 price hike over their Pixel 10 counterparts. The Google TV Streamer o",
+        "link": "https://www.theverge.com/tech/987032/google-tv-streamer-price-increase"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "The datacenter backlash is bringing the entire political spectrum together – against big tech billionaires",
-      "summary": "The movement against datacenters is uniting Americans because they perfectly illustrate how a few individuals hold all the power to control decisions that affect our lives Bryce Gustafson has been knocking on doors in Indiana for more than a decade. The lead organizer with Citizens Action Coalition (CAC), a consumer and environmental organization, he usually encounters a mix of reactions when he’s",
-      "ts": 1788106097000,
-      "img": "https://i.guim.co.uk/img/media/13dbd123e3b27da04d0db84e9c31f9872aa74f8c/47_576_2951_2361/master/2951.jpg?width=460&quality=85&auto=format&fit=max&s=9f2717ceaaab7adbe09f74679fef3d8c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "The datacenter backlash is bringing the entire political spectrum together – against big tech billionaires",
-        "desc": "The movement against datacenters is uniting Americans because they perfectly illustrate how a few individuals hold all the power to control decisions that affect our lives Bryce Gustafson has been knocking on doors in Indiana for more than a decade. The lead organizer with Citizens Action Coalition (CAC), a consumer and environmental organization, he usually encounters a mix of reactions when he’s",
-        "link": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/30/data-center-politics-democrats-republicans"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Texas Governor Abbott blocks funding for more Flock cameras",
-      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, allegedly to help fight catalytic converter theft. Flock camera",
-      "ts": 1788104110000,
+      "headline": "JMGO’s very bright all-in-one projector looks ideal for gamers and sports",
+      "summary": "JMGO’s Iris Ultra Max 4K 120Hz Google TV projector. | Image: JMGO JMGO's 4K 120Hz Iris Ultra Max all-in-one Google TV projector is now available outside China. It gets its name from a new dual-iris system that lets it produce an impressive 10,000:1 native contrast, according to JMGO. It boosts the contrast - always an issue with projectors - by placing two separate physical apertures (irises) alon",
+      "ts": 1788213600000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -616,9 +618,30 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-        "desc": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, allegedly to help fight catalytic converter theft. Flock camera",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
+        "title": "JMGO’s very bright all-in-one projector looks ideal for gamers and sports",
+        "desc": "JMGO’s Iris Ultra Max 4K 120Hz Google TV projector. | Image: JMGO JMGO's 4K 120Hz Iris Ultra Max all-in-one Google TV projector is now available outside China. It gets its name from a new dual-iris system that lets it produce an impressive 10,000:1 native contrast, according to JMGO. It boosts the contrast - always an issue with projectors - by placing two separate physical apertures (irises) alon",
+        "link": "https://www.theverge.com/tech/985986/jmgo-4k-gaming-projector-price-specs"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "I went to the loneliest baseball game on Apple Vision Pro",
+      "summary": "Ceddanne Rafaela is tagged out at home plate at Yankee Stadium on August 28th. | Getty Images This weekend, I strapped on an Apple Vision Pro to watch a baseball game in immersive virtual reality for the first time. It was technically impressive, visually pretty remarkable, and also didn't make that much sense. Apple and Major League Baseball chose a classic match-up of the Boston Red Sox and the ",
+      "ts": 1788211107000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "I went to the loneliest baseball game on Apple Vision Pro",
+        "desc": "Ceddanne Rafaela is tagged out at home plate at Yankee Stadium on August 28th. | Getty Images This weekend, I strapped on an Apple Vision Pro to watch a baseball game in immersive virtual reality for the first time. It was technically impressive, visually pretty remarkable, and also didn't make that much sense. Apple and Major League Baseball chose a classic match-up of the Boston Red Sox and the ",
+        "link": "https://www.theverge.com/tech/986967/apple-vision-pro-mlb-red-sox-yankees-immersive-game"
        }
       ]
      }
@@ -665,10 +688,10 @@
      },
      {
       "id": 20,
-      "headline": "Our preference is to get rid of socialism: Joyce on One Nation win",
-      "summary": "Barnaby Joyce delights in One Nation win; Hundreds believed to be trapped in hydro tunnels; US forces resume attack in Strait of Hormuz. Follow live updates.",
-      "ts": 1788130192000,
-      "img": "https://static.ffx.io/images/$zoom_0.1906%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_40/t_crop_custom/q_86%2Cf_auto/0e466d1b6eb093eafb483316fd52f1e5aeeeb47f",
+      "headline": "Qantas ground crews vote in favour of possible strike action",
+      "summary": "The Transport Workers Union says 97 per cent of 350 workers who voted backed industrial action, including work stoppages ranging from one to 24 hours.",
+      "ts": 1788172285000,
+      "img": "https://i.guim.co.uk/img/media/8e3b8c33b76cf042ab126182842a36d77d219651/346_0_4560_3648/master/4560.jpg?width=460&quality=85&auto=format&fit=max&s=15f2a198edf56cca2fff219559829fa8",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -676,55 +699,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia news live: Joyce calls One Nation byelection win ‘decisive’ and ‘humbling’; Oscar Jenkins gives first interview since Russia conviction",
-        "desc": "One Nation MP says voters are disillusioned with traditional political parties. Follow the day’s news live Get our breaking news email, free app or daily news podcast Australian government working on release of Oscar Jenkins, assistant minister says The Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Spea",
-        "link": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Qantas ground crews vote in favour of possible strike action",
+        "desc": "The Transport Workers Union says 97 per cent of 350 workers who voted backed industrial action, including work stoppages ranging from one to 24 hours.",
+        "link": "https://www.abc.net.au/news/2026-08-31/qantas-ground-handling-crews-vote-in-favour-of-industrial-action/107099990"
        },
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Our preference is to get rid of socialism: Joyce on One Nation win",
-        "desc": "Barnaby Joyce delights in One Nation win; Hundreds believed to be trapped in hydro tunnels; US forces resume attack in Strait of Hormuz. Follow live updates.",
-        "link": "https://www.afr.com/politics/federal/himalayan-disaster-death-toll-nears-800-as-rescuers-battle-floods-20260831-p60svd?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Qantas ground crews vote for right to strike amid pay dispute – as it happened",
+        "desc": "This blog is now closed Get our breaking news email, free app or daily news podcast The Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Speaking to ABC news breakfast, the assistant minister for foreign affairs declined to answer whether a prisoner swap was on the table. Obviously, we try and negotiate as",
+        "link": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Venezuela’s Delcy Rodríguez defends ‘endless’ benefits of her oil deal with Trump",
-      "summary": "Deal that will reportedly see US take control of 65bn barrels of Venezuelan oil has provoked outrage in her country Venezuela’s interim president, Delcy Rodríguez, has defended her government’s highly controversial energy deal with Donald Trump, insisting the South American country will maintain ownership and sovereignty over its massive oil reserves. Rodríguez, who assumed power in January after ",
-      "ts": 1788102513000,
-      "img": "https://i.guim.co.uk/img/media/a05710204f48a2fa20464f28a36ef2667539fbe3/185_142_4154_3323/master/4154.jpg?width=460&quality=85&auto=format&fit=max&s=b31286a0e4e5e50d1648a74e9e6c4ef3",
+      "headline": "Drilling company says 'exciting time' as gold and exploration hit highs",
+      "summary": "A Kalgoorlie-based drilling company involved in some of Australia's biggest recent gold discoveries is experiencing \"unprecedented demand\" amid an ongoing boom in mineral exploration.",
+      "ts": 1788150989000,
+      "img": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_109/t_crop_custom/q_86%2Cf_auto/041017e242a0a953ddd8f6b5472b8a8457417a2425e9fe75a2182c16c5671adb",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
+        "outlet": "The Age Business",
         "lean": "left",
-        "title": "Venezuela’s Delcy Rodríguez defends ‘endless’ benefits of her oil deal with Trump",
-        "desc": "Deal that will reportedly see US take control of 65bn barrels of Venezuelan oil has provoked outrage in her country Venezuela’s interim president, Delcy Rodríguez, has defended her government’s highly controversial energy deal with Donald Trump, insisting the South American country will maintain ownership and sovereignty over its massive oil reserves. Rodríguez, who assumed power in January after ",
-        "link": "https://www.theguardian.com/world/2026/aug/30/venezuela-delcy-rodriguez-says-oil-deal-with-trump-has-endless-benefits"
+        "title": "Great Southern drilling unlocks second growth front at WA gold play",
+        "desc": "Great Southern Mining has hit 14m at 1.05g/t gold north of its Mon Ami resource near Laverton, opening a potential northern extension, as the system also grew at depth.",
+        "link": "https://www.theage.com.au/business/companies/great-southern-drilling-unlocks-second-growth-front-at-wa-gold-play-20260831-p60t3t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Venezuela says Trump's historic oil deal targets 1.5M barrels per day, could generate $200B",
-        "desc": "Venezuela's Delcy Rodriguez says the 25-year oil deal with President Donald Trump targets 1.5 million barrels per day across 17 strategic oilfields initially.",
-        "link": "https://www.foxbusiness.com/energy/venezuela-says-trumps-historic-oil-deal-targets-1-5m-barrels-per-day-could-generate-200b"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Drilling company says 'exciting time' as gold and exploration hit highs",
+        "desc": "A Kalgoorlie-based drilling company involved in some of Australia's biggest recent gold discoveries is experiencing \"unprecedented demand\" amid an ongoing boom in mineral exploration.",
+        "link": "https://www.abc.net.au/news/2026-08-31/gold-price-drives-mineral-exploration-boom/107039256"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "Prime minister heads to Palau as Pacific summit braces for China clash",
-      "summary": "As Pacific Island leaders gather for climate and security talks, the forum’s agenda is likely to be overshadowed by tensions between China and Taiwan.",
-      "ts": 1788130325000,
-      "img": "https://static.ffx.io/images/$zoom_0.17603058510638298%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_48/t_crop_custom/q_86%2Cf_auto/51291473560169bb3b0925f422167f5188a89610",
+      "headline": "Star Entertainment's $307m loss raises doubts about its survival, ASX closes lower — as it happened",
+      "summary": "Star Entertainment reported a $307 million annual loss saying there are \"uncertainties\" about whether the casino group will remain a \"going concern\". Meanwhile, the ASX 200 drifted lower in afternoon trade, closing down 0.2 per cent.",
+      "ts": 1788138373000,
+      "img": "https://static.ffx.io/images/$zoom_0.5171%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/9cca9053e3d2c5757a6a1e49a38e43257951cc232e7f90ae8097797ae5d45d28",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -732,41 +755,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Star bleeds $307 million as auditors raise further doubts about its survival",
+        "desc": "Star boss Bruce Mathieson jnr acknowledged challenges facing the group, which should soon hear the outcome of a fine for repeated money-laundering breaches.",
+        "link": "https://www.theage.com.au/business/companies/star-bleeds-307-million-as-auditors-raise-further-doubts-about-its-survival-20260830-p60sv7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Prime minister heads to Palau as Pacific summit braces for China clash",
-        "desc": "As Pacific Island leaders gather for climate and security talks, the forum’s agenda is likely to be overshadowed by tensions between China and Taiwan.",
-        "link": "https://www.afr.com/politics/federal/prime-minister-heads-to-palau-as-pacific-summit-braces-for-china-clash-20260830-p60sva?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Star Entertainment's $307m loss raises doubts about its survival, ASX closes lower — as it happened",
+        "desc": "Star Entertainment reported a $307 million annual loss saying there are \"uncertainties\" about whether the casino group will remain a \"going concern\". Meanwhile, the ASX 200 drifted lower in afternoon trade, closing down 0.2 per cent.",
+        "link": "https://www.abc.net.au/news/2026-08-31/asx-markets-business-live-news-wall-street-slides/107095734"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Lawsuit alleges discount gas stations praised by Trump sold $4m in stolen gas",
-      "summary": "KRSM, company that supplied fuel to Freedom Fuel Network, allegedly stole millions worth of gas, suit claims The company that supplied fuel to the discount gas stations praised by Donald Trump is being sued for allegedly stealing nearly $4m worth of gas. Mansfield Oil Company of Gainesville sued KRSM and its president, Syed Kazmi, for allegedly picking up about 1.1m gallons of fuel from 21 May to ",
-      "ts": 1788130113000,
-      "img": "https://i.guim.co.uk/img/media/7ff202bcf83934545aa8fd128c8ed1152f41e6c0/326_0_6744_5396/master/6744.jpg?width=460&quality=85&auto=format&fit=max&s=1bf23699f6dbb06677c4e43813966d0d",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Lawsuit alleges discount gas stations praised by Trump sold $4m in stolen gas",
-        "desc": "KRSM, company that supplied fuel to Freedom Fuel Network, allegedly stole millions worth of gas, suit claims The company that supplied fuel to the discount gas stations praised by Donald Trump is being sued for allegedly stealing nearly $4m worth of gas. Mansfield Oil Company of Gainesville sued KRSM and its president, Syed Kazmi, for allegedly picking up about 1.1m gallons of fuel from 21 May to ",
-        "link": "https://www.theguardian.com/us-news/2026/aug/30/krsm-freedom-fuel-discount-gas-stations-stolen-lawsuit"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "‘Too much for too long’: US generals warn Hegseth on Iran war",
-      "summary": "A recent classified assessment advised against prolonged large-scale operations in the Middle East, as the US struck rocket launchers in the Strait or Hormuz.",
-      "ts": 1788129668000,
-      "img": "https://static.ffx.io/images/$zoom_0.1981%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_29%2C$y_0/t_crop_custom/q_86%2Cf_auto/d12fac81098045300c4719ce398629065f0fc5cc",
+      "headline": "Childhood mates hit the AI big leagues with US venture capital backing",
+      "summary": "New York-based giant Insight Partners is the lead investor in a $36 million funding round at Gridsight, which sells artificial intelligence tech to energy companies.",
+      "ts": 1788217200000,
+      "img": "https://static.ffx.io/images/$zoom_0.2844%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_369%2C$y_142/t_crop_custom/q_86%2Cf_auto/5a0bb81ea34bba888cade99285145f85e1b859de",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -776,9 +785,30 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "‘Too much for too long’: US generals warn Hegseth on Iran war",
-        "desc": "A recent classified assessment advised against prolonged large-scale operations in the Middle East, as the US struck rocket launchers in the Strait or Hormuz.",
-        "link": "https://www.afr.com/world/north-america/too-much-for-too-long-us-generals-warn-hegseth-on-iran-war-20260831-p60swj?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Childhood mates hit the AI big leagues with US venture capital backing",
+        "desc": "New York-based giant Insight Partners is the lead investor in a $36 million funding round at Gridsight, which sells artificial intelligence tech to energy companies.",
+        "link": "https://www.afr.com/technology/childhood-mates-hit-the-ai-big-leagues-with-us-venture-capital-backing-20260825-p60rha?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "ASX to fall; AUSTRAC launches investigation into Western Union",
+      "summary": "Shares to ease; Aussie yields surge in strongest monthly run since March; CSL strikes deal with Trump administration to lower cost of medicines; oil tops $US90. Follow live.",
+      "ts": 1788216923000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX to fall; AUSTRAC launches investigation into Western Union",
+        "desc": "Shares to ease; Aussie yields surge in strongest monthly run since March; CSL strikes deal with Trump administration to lower cost of medicines; oil tops $US90. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-us-bond-yields-press-higher-oil-tops-us90-20260901-p60t7v?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -790,10 +820,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Donald comes out of retirement to rejoin Rams",
-      "summary": "Aaron Donald, one of the NFL's greatest defensive players, has come out of retirement to rejoin his former side Los Angeles Rams.",
-      "ts": 1788125987000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82b7/live/de7f79f0-a4b8-11f1-a35f-6d34e03b9d9f.jpg",
+      "headline": "Pakistan axe seven players and the coach after heavy Test defeats to England",
+      "summary": "The players have not only been dropped, but sent home, as their replacements scramble for visas.",
+      "ts": 1788213266000,
+      "img": "https://images.7news.com.au/publication/C-22804629/38a8691660356ece4d902024fa8769b23acc6e10-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -801,27 +831,34 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Pakistan axe seven players and the coach after heavy Test defeats to England",
+        "desc": "The players have not only been dropped, but sent home, as their replacements scramble for visas.",
+        "link": "https://7news.com.au/sport/cricket/pakistan-axe-seven-players-and-the-coach-after-heavy-test-defeats-to-england-c-22804629"
+       },
+       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Donald comes out of retirement to rejoin Rams",
-        "desc": "Aaron Donald, one of the NFL's greatest defensive players, has come out of retirement to rejoin his former side Los Angeles Rams.",
-        "link": "https://www.bbc.co.uk/sport/american-football/articles/cwyz3y4wzrlo?at_medium=RSS&at_campaign=rss"
+        "title": "Pakistan drop seven players and release head coach",
+        "desc": "Pakistan respond to their series defeat by England by taking the extraordinary step of dropping seven players, calling up five uncapped players and releasing their head coach.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cvgy9qqvwzxo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "All-time great Aaron Donald comes out of retirement to rejoin stacked LA Rams",
-        "desc": "Los Angeles were already Super Bowl favorites Defensive tackle was 10-time Pro Bowler with Rams 35-year-old aiming to win second Super Bowl in LA Aaron Donald, one of the greatest defensive players in NFL history, is coming out of retirement to rejoin his only professional team, the Los Angeles Rams. During a 10-season career with the Rams, who drafted him with the 13th overall pick in 2014, Donal",
-        "link": "https://www.theguardian.com/sport/2026/aug/30/all-time-great-aaron-donald-comes-out-of-retirement-to-rejoin-stacked-la-rams"
+        "title": "Pakistan sack head coach and send seven players home after England Test series defeat",
+        "desc": "Sarfaraz Ahmed sacked after 194-run loss at Lord’s White-ball coach Mike Hesson steps in Pakistan have decided to rip up their plans during an already chaotic tour of England by announcing that seven players and head coach Sarfaraz Ahmed have been sent home before the third Test at Edgbaston next week. Already confirmed to lose the series after going 2-0 down with a 194-run defeat at Lord’s on Sun",
+        "link": "https://www.theguardian.com/sport/2026/aug/31/pakistan-sack-head-coach-sarfaraz-ahmed-send-seven-players-home-after-england-test-series-defeat-cricket"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "‘Broken’ Anthony Mundine pays tribute as Aussie boxing great dad Tony dies aged 75",
-      "summary": "‘I’m on my way home to say goodbye one last time till we meet again.’",
-      "ts": 1788121515000,
-      "img": "https://images.7news.com.au/publication/C-22798433/8f531f145898cfd4d8d2d0c8995b7e04807e64b7-16x9-x0y0w1280h720.jpg",
+      "headline": "Lionel Messi announces retirement from international football effective immediately",
+      "summary": "The Argentina legend has penned an emotional letter saying the decision ‘hurts deep down’.",
+      "ts": 1788212068000,
+      "img": "https://images.7news.com.au/publication/C-22804560/2ef4bbf3c2b5379b5f7d127f9e692eee835e46cc-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -829,27 +866,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Australian boxing great Tony Mundine dies aged 75",
-        "desc": "Father of former boxer and NRL star Anthony Mundine had a heart attack on Sunday Warning: Aboriginal and Torres Strait Islander readers are advised that this article contains images and names of Indigenous Australians who have died Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Indigenous Australian boxing great Tony Mundine has d",
-        "link": "https://www.theguardian.com/sport/2026/aug/31/australian-boxing-great-tony-mundine-dies-aged-75-ntwnfb"
-       },
-       {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "‘Broken’ Anthony Mundine pays tribute as Aussie boxing great dad Tony dies aged 75",
-        "desc": "‘I’m on my way home to say goodbye one last time till we meet again.’",
-        "link": "https://7news.com.au/sport/australian-boxing-legend-tony-mundine-dead-at-75-c-22798433"
+        "title": "Lionel Messi announces retirement from international football effective immediately",
+        "desc": "The Argentina legend has penned an emotional letter saying the decision ‘hurts deep down’.",
+        "link": "https://7news.com.au/sport/soccer/lionel-messi-announces-retirement-from-international-football-effective-immediately-c-22804560"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Lionel Messi’s international retirement serves as a reminder: Watch him while you still can",
+        "desc": "The Argentine’s career with Argentina was singular, and his exit is a reminder that all good things come to an end It was among the defining moments of the 2026 World Cup: Lionel Messi standing arms akimbo, looking up towards Argentina’s fervent supporters after losing the final. Tears streamed down his face after his team’s embarrassing loss to Spain in what we now know was Messi’s final match we",
+        "link": "https://www.theguardian.com/football/2026/aug/31/lionel-messis-international-retirement-serves-as-a-reminder-watch-him-while-you-still-can"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Messi retires from Argentina duty with 'nothing left to give'",
+        "desc": "Argentina great Lionel Messi announces his retirement from international football, saying it was a decision that \"hurt\" but he understands \"the time has come\".",
+        "link": "https://www.bbc.co.uk/sport/football/articles/ceq89y38elro?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "England humble poor Pakistan to confirm series win at Lord's",
-      "summary": "England enjoyed another dominant day at Lord's as they bowled Pakistan out for 194 in their second innings to secure a 194-run win on day four of the second Test and seal a series win, with one match to spare.",
-      "ts": 1788120344000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d8/live/93cea450-a49d-11f1-a291-b542ee92de7c.jpg",
+      "headline": "Watch: Djokovic overcome with emotion during US Open loss",
+      "summary": "Novak Djokovic breaks down in tears during his first-round loss in the US Open against Argentina's Mariano Navone.",
+      "ts": 1788205581000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f53/live/b26de7c0-a52b-11f1-b109-879e35c24276.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -859,74 +903,32 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Joe Root urges England to celebrate Pakistan series win in ‘sensible, grown-up way’",
-        "desc": "Team have faced off-field scandals over the last year Root: ‘It’s hard to win Test series so enjoy it’ Joe Root has called on his players to “celebrate in a sensible, grown‑up way” after they secured a first multi‑game series win since 2024 by beating Pakistan at Lord’s to take a 2-0 lead with one to play. England’s recent opportunities for celebration have often resulted in scandal and Root inten",
-        "link": "https://www.theguardian.com/sport/2026/aug/30/joe-root-england-pakistan-lords-test-series"
+        "title": "Is this defeat at the US Open the one that forces Novak Djokovic to reconsider his end game? | Tumaini Carayol",
+        "desc": "The Serb has his heart set on defending Olympic title in 2028 but his ageing body is screaming a resounding ‘no’ As the scoreline continued to cascade and the prospect of Novak Djokovic winning even one match in New York this year became increasingly remote, the 24-time grand slam title winner’s suffering and toil drove the Arthur Ashe Stadium crowd to its feet in the early hours of Monday morning",
+        "link": "https://www.theguardian.com/sport/2026/aug/31/novak-djokovic-first-round-defeat-us-open-2026-tennis"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "England humble poor Pakistan to confirm series win at Lord's",
-        "desc": "England enjoyed another dominant day at Lord's as they bowled Pakistan out for 194 in their second innings to secure a 194-run win on day four of the second Test and seal a series win, with one match to spare.",
-        "link": "https://www.bbc.co.uk/sport/cricket/videos/clyqnkxq87po?at_medium=RSS&at_campaign=rss"
+        "title": "Watch: Djokovic overcome with emotion during US Open loss",
+        "desc": "Novak Djokovic breaks down in tears during his first-round loss in the US Open against Argentina's Mariano Navone.",
+        "link": "https://www.bbc.co.uk/sport/tennis/videos/clyk5gmvmero?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Novak Djokovic moved to tears in career-worst defeat at US Open against little-known rival",
+        "desc": "His emotions spilled over late in a marathon first-round exit after struggling through multiple ailments and vomiting on court.",
+        "link": "https://7news.com.au/sport/tennis/novak-djokovic-moved-to-tears-in-career-worst-defeat-at-us-open-against-little-known-rival-c-22800726"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Wallabies show steel in mountain battle with Argentina to stay unbeaten under new coach Les Kill",
-      "summary": "Les Kiss’s Aussies have survived their first big test despite ‘a few little clunky bits’ in their game.",
-      "ts": 1788064408000,
-      "img": "https://images.7news.com.au/publication/C-22795920/8ec0dbe14d324777c96f0752d899a89d8735774b-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Wallabies’ problems were on show in win over Argentina, but Kiss found awkward answers",
-        "desc": "Rob Valetini filled in for skipper Harry Wilson at No 8 but Fraser McReight’s performance will give the Australia coach just as much food for thought Rob Valetini bulldozed, barged through and brought the hammer down on home hopes in San Salvador de Jujuy during the Wallabies’ 27-21 win over Argentina, Australia’s fourth victory on the trot. It was a rare start for Valetini, filling in for captain",
-        "link": "https://www.theguardian.com/sport/2026/aug/30/wallabies-rugby-union-rob-valetini-fraser-mcreight-australia-argentina-analysis"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Wallabies show steel in mountain battle with Argentina to stay unbeaten under new coach Les Kill",
-        "desc": "Les Kiss’s Aussies have survived their first big test despite ‘a few little clunky bits’ in their game.",
-        "link": "https://7news.com.au/sport/rugby-union/wallabies-show-steel-in-mountain-battle-with-argentina-to-stay-unbeaten-under-new-coach-les-kill-c-22795920"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "US Open tennis 2026: Boulter in action, Norrie exits, Pegula and Medvedev advance on day one – live",
-      "summary": "How the US Open became obscenely expensive Follow us on Bluesky | And you can mail Graham Krejcikova gets in a muddle after squandering a 40-0 lead on serve. Deuce. She fights back though. Wins the game with a lovely serve down the T. All square at 2-2. Paolini delivers a dominant effort on serve to change ends at 3-2 up. Continue reading...",
-      "ts": 1788130416000,
-      "img": "https://i.guim.co.uk/img/media/9539a6457ce189d77b94a66800189eb5a63ab669/472_0_3622_2898/master/3622.jpg?width=460&quality=85&auto=format&fit=max&s=a10b27f569fefa5c159b831674366fcb",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "US Open tennis 2026: Boulter in action, Norrie exits, Pegula and Medvedev advance on day one – live",
-        "desc": "How the US Open became obscenely expensive Follow us on Bluesky | And you can mail Graham Krejcikova gets in a muddle after squandering a 40-0 lead on serve. Deuce. She fights back though. Wins the game with a lovely serve down the T. All square at 2-2. Paolini delivers a dominant effort on serve to change ends at 3-2 up. Continue reading...",
-        "link": "https://www.theguardian.com/sport/live/2026/aug/30/us-open-tennis-2026-pegula-norrie-and-medvedev-in-action-on-day-one-live"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "World number one Scheffler claims second Fedex Cup title",
-      "summary": "At times it felt like there was a certain inevitability about Scottie Scheffler collecting his second Fedex Cup title on Sunday.",
-      "ts": 1788129489000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a09a/live/b2cd5300-a4c1-11f1-be76-7d0faa1b13a7.jpg",
+      "headline": "Sabalenka blocks out noise to start US Open 'three-peat' bid with victory",
+      "summary": "Aryna Sabalenka blocks out the noise to overcome a tricky first-round test against Camila Osorio and begin her bid for a historic US Open \"three-peat\".",
+      "ts": 1788216815000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/097c/live/872e0270-a567-11f1-86d4-95b193638b63.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -936,9 +938,72 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "World number one Scheffler claims second Fedex Cup title",
-        "desc": "At times it felt like there was a certain inevitability about Scottie Scheffler collecting his second Fedex Cup title on Sunday.",
-        "link": "https://www.bbc.co.uk/sport/golf/articles/cx2zj8xngvdo?at_medium=RSS&at_campaign=rss"
+        "title": "Sabalenka blocks out noise to start US Open 'three-peat' bid with victory",
+        "desc": "Aryna Sabalenka blocks out the noise to overcome a tricky first-round test against Camila Osorio and begin her bid for a historic US Open \"three-peat\".",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c4gm3pzl7ypo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "US Open under fire for ‘dysfunctional’ decision to start Venus Williams match after midnight",
+        "desc": "Only a handful of fans were there to watch the 46-year-old legend in potentially her final appearance.",
+        "link": "https://7news.com.au/sport/tennis/us-open-under-fire-for-dysfunctional-decision-to-start-venus-williams-match-after-midnight-c-22801260"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Sunderland agree loan deal with Spurs for Danso",
+      "summary": "Sunderland are set to sign defender Kevin Danso from Tottenham on a season-long loan, with an option for a permanent move.",
+      "ts": 1788216457000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8380/live/282c95a0-a49c-11f1-837c-8514728b4183.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Transfer latest: Juventus in Woltemade loan talks, Everton agree £40m Balogun fee",
+        "desc": "Manchester City confirm Allan signing for initial £32.1m Palace sell Muñoz to Forest and poised to sign Ahanor Nick Woltemade is close to a loan move from Newcastle to Juventus, a year after arriving at St James’ Park in a club-record £69m deal from Stuttgart. The gifted Germany forward has struggled to impose himself amid the high-intensity gameplans choreographed first by Eddie Howe and now Matt",
+        "link": "https://www.theguardian.com/football/2026/aug/31/transfer-latest-nick-woltemade-newcastle-juventus-everton-folarin-balogun"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Sunderland agree loan deal with Spurs for Danso",
+        "desc": "Sunderland are set to sign defender Kevin Danso from Tottenham on a season-long loan, with an option for a permanent move.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/crl63ylw12yo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Saka earns Arsenal hard-fought win at Aston Villa",
+      "summary": "Bukayo Saka's second-half goal is enough to earn Premier League champions Arsenal victory at Aston Villa.",
+      "ts": 1788212270000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/967f/live/194c84e0-a583-11f1-aed2-8d6da8d75094.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Saka earns Arsenal hard-fought win at Aston Villa",
+        "desc": "Bukayo Saka's second-half goal is enough to earn Premier League champions Arsenal victory at Aston Villa.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/c0lrz74r8l9o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Saka settles gruelling battle with Aston Villa to extend Arsenal’s winning start",
+        "desc": "The smile on Declan Rice’s face with six minutes of normal time remaining said it all. He had just shut down Ian Maatsen as the Aston Villa full-back zoomed into the box. Arsenal, for whom Bukayo Saka scored the only goal, were authoritative and seemingly took great satisfaction in keeping Villa at arm’s length. Unai Emery’s work‑in‑progress side struggled to test the champions, David Raya untroub",
+        "link": "https://www.theguardian.com/football/2026/aug/31/aston-villa-arsenal-premier-league-match-report"
        }
       ]
      }
@@ -950,10 +1015,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Days of Thunder’s Randy Quaid Calls Anne Hathaway “Horrible Choice” For Sequel In Problematic Diatribe: “She’s Pregnant”",
-      "summary": "More than 35 years later, Cole Trickle’s new leading lady has ruffled some feathers for a previous Days of Thunder co-star. After Anne Hathaway was announced to join Tom Cruise in Paramount’s Days of Thunder 2, Randy Quaid had some unsavory words for the Oscar-winning actress, who is currently pregnant with her third child. “We […]",
-      "ts": 1788124274000,
-      "img": "https://deadline.com/wp-content/uploads/2026/08/Days-of-Thunder-Randy-Quaid-Anne-Hathaway-2-shot.jpg",
+      "headline": "‘Harry Potter’ Series, ‘Game of Thrones,’ ‘The White Lotus’ on the Slate as HBO Max Sets October Launch on Prime Video, Hulu Japan",
+      "summary": "HBO Max will launch on Prime Video and Hulu Japan in October, giving subscribers access to the streamer’s slate of HBO, Warner Bros. Pictures, Warner Bros. Television, DC Studios and Max originals programming, including a new HBO original “Harry Potter” series debuting at Christmas. The rollout stems from a global partnership between Warner Bros. Discovery […]",
+      "ts": 1788202800000,
+      "img": "https://variety.com/wp-content/uploads/2026/03/dominic-mclaughlin.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -961,27 +1026,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Days of Thunder’s Randy Quaid Calls Anne Hathaway “Horrible Choice” For Sequel In Problematic Diatribe: “She’s Pregnant”",
-        "desc": "More than 35 years later, Cole Trickle’s new leading lady has ruffled some feathers for a previous Days of Thunder co-star. After Anne Hathaway was announced to join Tom Cruise in Paramount’s Days of Thunder 2, Randy Quaid had some unsavory words for the Oscar-winning actress, who is currently pregnant with her third child. “We […]",
-        "link": "https://deadline.com/2026/08/days-of-thunder-randy-quaid-calls-anne-hathaway-horrible-sequel-1237062926/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Days of Thunder’ Star Randy Quaid Says Anne Hathaway Is ‘Woke’ and a ‘Horrible Choice’ for the Sequel: ‘You Need the Original Girl’",
-        "desc": "“Days of Thunder” star Randy Quaid sounded off on Anne Hathaway after it was revealed that she has joined Tom Cruise in the racing drama’s upcoming sequel. “We need Nicole [Kidman] back,” Quaid wrote on X Saturday. “Don’t be a pussy, [Tom Cruise]. You need the original girl. It’s not personal; it’s filmmaking. Anne isn’t […]",
-        "link": "https://variety.com/2026/film/news/days-of-thunder-2-anne-hathaway-horrible-choice-randy-quaid-1236846972/"
+        "title": "‘Harry Potter’ Series, ‘Game of Thrones,’ ‘The White Lotus’ on the Slate as HBO Max Sets October Launch on Prime Video, Hulu Japan",
+        "desc": "HBO Max will launch on Prime Video and Hulu Japan in October, giving subscribers access to the streamer’s slate of HBO, Warner Bros. Pictures, Warner Bros. Television, DC Studios and Max originals programming, including a new HBO original “Harry Potter” series debuting at Christmas. The rollout stems from a global partnership between Warner Bros. Discovery […]",
+        "link": "https://variety.com/2026/tv/news/hbo-max-prime-video-hulu-japan-1236847393/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "HBO Max To Launch In Japan As Hub Within Prime Video & Hulu",
+        "desc": "Warner Bros Discovery is rolling out its HBO Max streaming service in Japan. The company said Monday it has struck deals with Amazon’s Prime Video and Hulu and will launch HBO Max as hubs within these two services beginning October 1. It will give subscribers access to a raft of shows such as House of […]",
+        "link": "https://deadline.com/2026/08/hbo-max-launch-japan-amazon-hulu-1237063387/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Japan's Video Game Rankings, August 17-23",
+        "desc": "Steins;Gate Re:Boot for Switch 2 debuts at #4, for PS5 at #5",
+        "link": "https://www.animenewsnetwork.com/news/2026-08-31/japan-video-game-rankings-august-17-23/.241156"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "President Trump Calls For FCC Punishment of NBC News’ Kristen Welker Following Promotional ‘Meet the Press’ Banter",
-      "summary": "President Donald Trump suggested referring NBC News anchor Kristen Welker for possible punishment by the Federal Communications Commission after the “Meet the Press” moderator made innocuous remarks about candidates the President has backed in the run-up to the nation’s midterm elections later this year. Trump’s chilling diatribe, released via Truth Social, appeared to be misinformed. […]",
-      "ts": 1788110942000,
-      "img": "https://variety.com/wp-content/uploads/2023/08/Kristen-Welker.jpeg",
+      "headline": "Trump Backs Federal Film & TV Tax Incentive: “Hollywood Is A Complete & Total Disaster!”",
+      "summary": "With a swipe at Hollywood North, Donald Trump today officially threw his support behind a federal film and TV tax credit. “Hollywood is a Complete and Total Disaster!” the former Apprentice host posted Monday after a sit-down with good pal Jon Voight. “Despite the name, it is getting very little work,” Trump added of the […]",
+      "ts": 1788217057000,
+      "img": "https://deadline.com/wp-content/uploads/2026/08/Hollywood-Trump.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -989,27 +1061,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "President Trump Calls For FCC Punishment of NBC News’ Kristen Welker Following Promotional ‘Meet the Press’ Banter",
-        "desc": "President Donald Trump suggested referring NBC News anchor Kristen Welker for possible punishment by the Federal Communications Commission after the “Meet the Press” moderator made innocuous remarks about candidates the President has backed in the run-up to the nation’s midterm elections later this year. Trump’s chilling diatribe, released via Truth Social, appeared to be misinformed. […]",
-        "link": "https://variety.com/2026/tv/news/trump-kristen-welker-fcc-punishment-meet-the-press-1236846910/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "In Latest Threat Of Regulatory Retaliation, Donald Trump Says He’ll Report NBC News’ Kristen Welker To FCC For “Rebuke Or Punishment”",
-        "desc": "Donald Trump went off on NBC News’ Meet the Press moderator Kristen Welker on Sunday, vowing to report her to the FCC for “rebuke or punishment,” even as the agency is defending itself in a lawsuit brought by ABC alleging regulatory retaliation. The issue: A comment Welker made about the president’s endorsement record. On Truth […]",
-        "link": "https://deadline.com/2026/08/trump-kristen-welker-nbc-fcc-1237062773/"
+        "title": "Trump Backs Federal Film & TV Tax Incentive: “Hollywood Is A Complete & Total Disaster!”",
+        "desc": "With a swipe at Hollywood North, Donald Trump today officially threw his support behind a federal film and TV tax credit. “Hollywood is a Complete and Total Disaster!” the former Apprentice host posted Monday after a sit-down with good pal Jon Voight. “Despite the name, it is getting very little work,” Trump added of the […]",
+        "link": "https://deadline.com/2026/08/trump-supports-federal-film-tv-tax-incentive-1237063602/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Trump Endorses U.S. Tax Incentive to Keep Hollywood Production: ‘Let’s Get This Done!’",
+        "desc": "President Trump on Monday endorsed a federal tax incentive for film and TV production, a move long sought by Hollywood studios and unions. In a statement posted to Truth Social, Trump said he will push for a bipartisan bill to save the industry. “I am going to suggest that Republicans and Democrats get together, and […]",
+        "link": "https://variety.com/2026/film/news/trump-endorses-federal-incentive-hollywood-1236847834/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Box Office: ‘The Dog Stars’ Bombs With $8 Million; ‘Spider-Man’ Continues Reign in Fifth Weekend",
-      "summary": "“The Dog Stars” couldn’t beat the heat during the dog days of summer and melted down over its opening weekend. Disney and 20th Century’s “The Dog Stars” opened to just $8 million domestically from 3,330 locations for a fifth-place finish. The post-apocalyptic thriller, which cost more than $80 million to produce, has not sat well […]",
-      "ts": 1788106630000,
-      "img": "https://variety.com/wp-content/uploads/2026/08/MCDDOST_H3015_65486d.jpg",
+      "headline": "‘Gargoyles’ Live-Action Reboot Dead At Disney+",
+      "summary": "A live-action reboot of the mid-90s animated television series Gargoyles is not moving forward at Disney+. It had previously been reported that a live-action reboot of the series from Annabelle writer Gary Dauberman and James Wan‘s Atomic Monster was in early development at the streamer in 2023, but original series co-creator Greg Weisman told Comics Online in an interview that a live-action […]",
+      "ts": 1788215894000,
+      "img": "https://deadline.com/wp-content/uploads/2023/10/gargoyles.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Gargoyles’ Live-Action Reboot Dead At Disney+",
+        "desc": "A live-action reboot of the mid-90s animated television series Gargoyles is not moving forward at Disney+. It had previously been reported that a live-action reboot of the series from Annabelle writer Gary Dauberman and James Wan‘s Atomic Monster was in early development at the streamer in 2023, but original series co-creator Greg Weisman told Comics Online in an interview that a live-action […]",
+        "link": "https://deadline.com/2026/08/gargoyles-live-action-reboot-dead-disney-1237063575/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Gargoyles’ Live-Action Series Not Moving Forward at Disney+",
+        "desc": "The live-action “Gargoyles” reboot has turned to stone. The project, which was in early development at Disney+, is no longer moving forward, a source confirms to Variety. It was announced in 2023 that the streamer was working with writer Gary Dauberman and James Wan’s Atomic Monster to develop a live-action version of the beloved Disney animated series, which […]",
+        "link": "https://variety.com/2026/tv/news/gargoyles-live-action-show-not-happening-disney-1236847780/"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "AMC Theatres Launches Indie Distribution Label Leawood Films; Veteran Hollywood Execs to Advise",
+      "summary": "AMC Theatres is entering the indie film fray. The world’s largest movie theater chain announced Monday it will launch Leawood Films, a distribution venture advised by a trio of veteran Hollywood executives — including former Warner Bros. Motion Picture Group chairman Toby Emmerich, Apple and Disney marketing whiz Ricky Strauss and former Paramount distro head […]",
+      "ts": 1788208420000,
+      "img": "https://variety.com/wp-content/uploads/2023/02/amc.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1019,46 +1119,25 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Box Office: ‘The Dog Stars’ Bombs With $8 Million; ‘Spider-Man’ Continues Reign in Fifth Weekend",
-        "desc": "“The Dog Stars” couldn’t beat the heat during the dog days of summer and melted down over its opening weekend. Disney and 20th Century’s “The Dog Stars” opened to just $8 million domestically from 3,330 locations for a fifth-place finish. The post-apocalyptic thriller, which cost more than $80 million to produce, has not sat well […]",
-        "link": "https://variety.com/2026/film/box-office/box-office-the-dog-stars-bombs-spider-man-brand-new-day-1236846879/"
+        "title": "AMC Theatres Launches Indie Distribution Label Leawood Films; Veteran Hollywood Execs to Advise",
+        "desc": "AMC Theatres is entering the indie film fray. The world’s largest movie theater chain announced Monday it will launch Leawood Films, a distribution venture advised by a trio of veteran Hollywood executives — including former Warner Bros. Motion Picture Group chairman Toby Emmerich, Apple and Disney marketing whiz Ricky Strauss and former Paramount distro head […]",
+        "link": "https://variety.com/2026/film/news/amc-theatres-launches-indie-label-leawood-films-1236847700/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Dog Eats Dog At Box Office As ‘Coyote Vs. Acme’ Prevails At No. 2 With $15M+, ‘Dog Stars’ Tanks; Spidey Swings Closer To $900M – Box Office Update",
-        "desc": "SUNDAY AM: Ketchup Entertainment’s theatrical rescue of Warner Bros Animation’s Coyote vs. Acme hit its forecast with a very solid $15.4M opening in what is now the No. 2 film at the weekend box office, which was ruled again by Sony/Marvel Studios’ Spider-Man: Brand New Day‘s $22.2M fifth frame. Even more amazing is that Coyote […]",
-        "link": "https://deadline.com/2026/08/box-office-coyote-vs-acme-dog-stars-spider-man-1237061934/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "Disney Legend Addresses Being Recast For Reboot: “I Hope They Get Everything They Deserve”",
-      "summary": "Longtime Disney actor Jim Cummings shared his thoughts on being recast in the upcoming Disney+ reboot of Darkwing Duck, which was announced in 2020.",
-      "ts": 1788130112000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/disney-castle-logo.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Disney Legend Addresses Being Recast For Reboot: “I Hope They Get Everything They Deserve”",
-        "desc": "Longtime Disney actor Jim Cummings shared his thoughts on being recast in the upcoming Disney+ reboot of Darkwing Duck, which was announced in 2020.",
-        "link": "https://screenrant.com/darkwing-duck-reboot-recast-jim-cummings-response/"
+        "title": "Kyle Davies Exits Bleecker Street For AMC Theatres’ New Distribution Label Leawood Films",
+        "desc": "EXCLUSIVE: In Monday’s press release revealing AMC Theatres’ new distribution venture Leawood Films, distribution veteran Kyle Davies was listed as an advisor. However, we’ve come to learn that the exec is leaving Bleecker Street as President of Distribution to lead distribution at the No. 1 theater chain’s new film label. Leawood Films, AMC said, will […]",
+        "link": "https://deadline.com/2026/08/kyle-davies-leaves-bleecker-street-amc-1237063344/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "25 Classic Sitcoms That Aired On ABC's TGIF Friday Night Block",
-      "summary": "ABC's TGIF lineup was something to look forward to growing up. But what were the best TGIF shows from the Friday night block?",
-      "ts": 1788129915000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/full-house_av16c8.jpg",
+      "headline": "X-Files Fans, Don't Miss This Sequel Coming In 2028",
+      "summary": "Fans of The X-Files will want to keep an eye on this classic adventure game sequel coming out in 2028 from two legendary video game creators.",
+      "ts": 1788217214000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2022/09/428010-CharactersAtVista.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1068,18 +1147,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "25 Classic Sitcoms That Aired On ABC's TGIF Friday Night Block",
-        "desc": "ABC's TGIF lineup was something to look forward to growing up. But what were the best TGIF shows from the Friday night block?",
-        "link": "https://screenrant.com/tgif-classic-abc-friday-night-sitcoms/"
+        "title": "X-Files Fans, Don't Miss This Sequel Coming In 2028",
+        "desc": "Fans of The X-Files will want to keep an eye on this classic adventure game sequel coming out in 2028 from two legendary video game creators.",
+        "link": "https://screenrant.com/thimbleweed-park-2-like-x-files-2028-release/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Magnum P.I. Meets The Blacklist In 111-Episode Spy Drama Now Streaming For Free",
-      "summary": "The amazingly bingeable spy drama Burn Notice, featuring dry humor, great storytelling, and a phenomenal cast, is now streaming for free.",
-      "ts": 1788129914000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/gabrielle-anwar-holding-up-a-rifle-in-burn-notice-season-5.jpg",
+      "headline": "10 Most Bloodthirsty Characters In DC Comics History",
+      "summary": "While the DC Universe is home to many inspiring heroes, it also houses some terrifying characters with an insatiable thirst for violence.",
+      "ts": 1788217214000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/reverse-flash.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1089,9 +1168,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Magnum P.I. Meets The Blacklist In 111-Episode Spy Drama Now Streaming For Free",
-        "desc": "The amazingly bingeable spy drama Burn Notice, featuring dry humor, great storytelling, and a phenomenal cast, is now streaming for free.",
-        "link": "https://screenrant.com/burn-notice-magnum-pi-meets-the-blacklist-streaming-free-pluto-tv/"
+        "title": "10 Most Bloodthirsty Characters In DC Comics History",
+        "desc": "While the DC Universe is home to many inspiring heroes, it also houses some terrifying characters with an insatiable thirst for violence.",
+        "link": "https://screenrant.com/most-bloodthirsty-dc-comics-characters/"
        }
       ]
      }
@@ -1100,35 +1179,35 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
-   "Crikey",
    "ABC News",
    "The Age",
-   "7News",
    "BBC World",
-   "The Age Federal Politics",
-   "Fox News Politics",
-   "BBC Tech",
+   "7News",
    "Fox News",
+   "BBC Tech",
+   "Fox News Politics",
    "Guardian Tech",
-   "The Verge",
-   "The Age Business",
-   "ABC Business",
-   "Guardian AU Politics",
-   "The Conversation",
-   "Guardian AU Business",
    "Ars Technica",
-   "AFR",
-   "BBC Sport",
-   "Fox Business",
-   "Deadline",
+   "The Conversation",
+   "The Age Federal Politics",
+   "Guardian AU Business",
+   "The Verge",
    "Variety",
+   "Fox Business",
    "Guardian AU Sport",
-   "Screen Rant",
+   "The Age Business",
+   "Guardian AU Politics",
+   "BBC Sport",
+   "AFR",
+   "ABC Business",
    "Guardian Film",
-   "7News Sport",
-   "Anime News Network",
+   "Screen Rant",
    "SBS News",
-   "Daily Mail Australia"
+   "Anime News Network",
+   "Daily Mail Australia",
+   "7News Sport",
+   "Crikey",
+   "Deadline"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1136,6 +1215,30 @@
  },
  "releases": {
   "movies": [
+   {
+    "title": "The Dog Stars",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Action",
+     "Adventure",
+     "Sci-Fi"
+    ],
+    "overview": "In a post-apocalyptic world, a virus wipes out humanity. Survivors face roaming scavengers called Reapers. Protagonist Hig, a pilot, survived the flu but lost his wife.",
+    "released": "2026-08-28"
+   },
+   {
+    "title": "Coyote vs. Acme",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Animation",
+     "Adventure",
+     "Comedy"
+    ],
+    "overview": "A story set in the ACME warehouse, the manufacturer of anything and everything used by the Looney Tunes characters.",
+    "released": "2026-08-28"
+   },
    {
     "title": "Mutiny",
     "year": "2026",
@@ -1171,30 +1274,6 @@
     ],
     "overview": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown.",
     "released": "2026-08-14"
-   },
-   {
-    "title": "Teenage Sex and Death at Camp Miasma",
-    "year": "2026",
-    "rating": 7.1,
-    "genres": [
-     "Drama",
-     "Horror",
-     "Romance"
-    ],
-    "overview": "A director making a slasher sequel becomes obsessed with casting the original film's 'final girl,' leading both women into psychological and sexual chaos.",
-    "released": "2026-08-07"
-   },
-   {
-    "title": "One Night Only",
-    "year": "2026",
-    "rating": 6.4,
-    "genres": [
-     "Comedy",
-     "Drama",
-     "Romance"
-    ],
-    "overview": "Two New Yorkers search for love on the one night of the year when pre-marital sex is legal.",
-    "released": "2026-08-07"
    }
   ],
   "shows": [
@@ -1259,7 +1338,7 @@
    {
     "title": "Link Click Season 3",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 8.3,
     "genres": [
      "Drama",
      "Mystery",
@@ -1317,134 +1396,134 @@
   ]
  },
  "wotd": {
-  "word": "grandiloquent",
-  "phonetic": "/ɡɹænˈdɪl.ə.kwənt/",
-  "pos": "adjective",
-  "def": "(of a person, their language or writing) given to using language in a showy way by using an excessive amount of difficult words to impress others; bombastic; turgid",
+  "word": "mumpsimus",
+  "phonetic": "",
+  "pos": "Noun",
+  "def": "A person who obstinately adheres to old ways in spite of clear evidence that they are wrong; an ignorant and bigoted opponent of reform.",
   "example": null,
-  "audio": null
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/En-us-mumpsimus.ogg/En-us-mumpsimus.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "Watch A Video, Provide Email Mobile Number Receive $20 90-Day StoreCash @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/973293",
-   "votes": 581,
-   "neg": 3,
-   "category": "Other",
-   "ts": 1788088468000
-  },
-  {
-   "title": "[Westpac, StG, BoM, BSA] 3% Bonus Cashback on ShopBack Super Swap Gift Cards (+3.5% Upsized Cashback) @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/973301",
-   "votes": 87,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1788098535000
-  },
-  {
-   "title": "Direct O/W: Bali Ex PER $146, ADL $259, BNE $260, MEL $274, SYD $297; Singapore Ex PER $182, SYD $256, MEL $274 (Nov-Jun) @ Sky",
-   "link": "https://www.ozbargain.com.au/node/973280",
-   "votes": 59,
-   "neg": 0,
-   "category": "Travel",
-   "ts": 1788080898000
-  },
-  {
-   "title": "Motorola Signature 256GB for $468 Using $600 Bonus Trade-in Credit When Purchasing on 12 Month Plan @ Telstra",
-   "link": "https://www.ozbargain.com.au/node/973289",
-   "votes": 57,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1788086694000
-  },
-  {
-   "title": "TP-Link Tapo C200P2 Wi-Fi Security Camera 2-Pack $45.90 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/973278",
-   "votes": 53,
-   "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1788080700000
-  },
-  {
-   "title": "Selsun Blue Deep Cleansing Anti-Dandruff Shampoo 200ml $3.99 ($3.59 S S) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/973303",
-   "votes": 52,
+   "title": "50% off RRP Musashi: e.g. Bulk Protein Vanilla 2kg $67.75 (Was $133.49) C C / in-Store @ Good Price Pharmacy",
+   "link": "https://www.ozbargain.com.au/node/973383",
+   "votes": 73,
    "neg": 0,
    "category": "Health Beauty",
-   "ts": 1788101826000
+   "ts": 1788160791000
   },
   {
-   "title": "Endgame Gear OP1we/XM2we Wireless Gaming Mouse $29 + Delivery ($0 MEL C C) @ PC Case Gear",
-   "link": "https://www.ozbargain.com.au/node/973270",
-   "votes": 46,
+   "title": "Pay with PayPal Pay in 4 (Buy Now, Pay Later) for ~A$24 off ~A$239, ~A$39 off ~A$388 Spend @ AliExpress",
+   "link": "https://www.ozbargain.com.au/node/973417",
+   "votes": 65,
    "neg": 0,
-   "category": "Computing",
-   "ts": 1788071149000
+   "category": "Other",
+   "ts": 1788178343000
   },
   {
-   "title": "Free Fathers Day Family Event, Booking Required @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/973268",
-   "votes": 46,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1788069548000
-  },
-  {
-   "title": "First 100 in-Store Customers Get a Free Large Pepperoni Pizza @ Pizza Hut (Participating Restaurants Only)",
-   "link": "https://www.ozbargain.com.au/node/973253",
-   "votes": 45,
+   "title": "$5 Selected Menu Meals for IKEA Family Members Every Friday @ Participating IKEA Stores",
+   "link": "https://www.ozbargain.com.au/node/973388",
+   "votes": 65,
    "neg": 0,
    "category": "Dining Takeaway",
-   "ts": 1788061067000
+   "ts": 1788163186000
   },
   {
-   "title": "OMO Laundry Liquid 6.6l Ultimate $35.99, Active Clean $27.99 @ Costco (Membership Required)",
-   "link": "https://www.ozbargain.com.au/node/973262",
-   "votes": 42,
+   "title": "Suntory Boss Iced Coffee 4x237ml Varieties $8.80, Boss Ice Mocha Coffee 237mL $2 @ Coles",
+   "link": "https://www.ozbargain.com.au/node/973356",
+   "votes": 61,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1788147613000
+  },
+  {
+   "title": "$30 Cashback for One Transaction of $120 or Higher at Specsavers in Store @ NAB Goodies (Activation Required)",
+   "link": "https://www.ozbargain.com.au/node/973344",
+   "votes": 59,
+   "neg": 0,
+   "category": "Health Beauty",
+   "ts": 1788143228000
+  },
+  {
+   "title": "XU1 2000W Heat Gun XHG-504 $19.95 ($0 OnePass Delivery/$0 C C or in Store) @ Bunnings Warehouse",
+   "link": "https://www.ozbargain.com.au/node/973342",
+   "votes": 51,
    "neg": 0,
    "category": "Home Garden",
-   "ts": 1788065472000
+   "ts": 1788141325000
   },
   {
-   "title": "BWS: 27% Cashback ($30 Cap Per Member, Exclusions Apply) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/973302",
-   "votes": 39,
+   "title": "½ Price: Four’N Twenty Traditional Pies 700g 4-Pack $5.25 @ Woolworths, McCain Airfryer Chips 750g $2.75 @ Coles + 222 More",
+   "link": "https://www.ozbargain.com.au/node/973386",
+   "votes": 48,
    "neg": 0,
-   "category": "Alcohol",
-   "ts": 1788098962000
+   "category": "Groceries",
+   "ts": 1788162034000
   },
   {
-   "title": "50% off + $0 Delivery on Your First 2 Orders (Max $20 off Per Order, Fees Apply) @ DoorDash (New Customers)",
-   "link": "https://www.ozbargain.com.au/node/973249",
-   "votes": 38,
+   "title": "[VIC] $20 Peninsula Hot Springs Voucher for 0 Points (One Per Live Better Rewards Member) @ Medibank",
+   "link": "https://www.ozbargain.com.au/node/973404",
+   "votes": 28,
    "neg": 0,
-   "category": "Dining Takeaway",
-   "ts": 1788056464000
+   "category": "Health Beauty",
+   "ts": 1788171936000
   },
   {
-   "title": "Hooded Sports Puffer Jacket $99 (Was $229) Delivered @ Superdry",
-   "link": "https://www.ozbargain.com.au/node/973276",
-   "votes": 33,
-   "neg": 0,
-   "category": "Fashion Apparel",
-   "ts": 1788077643000
-  },
-  {
-   "title": "Windscribe Pro VPN US$39 / ~A$54 Per Year (Same Renewal Price) @ Windscribe",
-   "link": "https://www.ozbargain.com.au/node/973258",
-   "votes": 33,
-   "neg": 0,
-   "category": "Internet",
-   "ts": 1788064674000
-  },
-  {
-   "title": "Energizer Max AAA Battery 24 Pack $10 C C Only @ Supercheap Auto",
-   "link": "https://www.ozbargain.com.au/node/973252",
-   "votes": 32,
+   "title": "Camping Fan Rechargeable 10000mAh with Light $19.59 (RRP $27.99) + Delivery ($0 Prime/$59 Spend) @ Humifo-AU via Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/973401",
+   "votes": 28,
    "neg": 0,
    "category": "Electrical Electronics",
-   "ts": 1788061014000
+   "ts": 1788170009000
+  },
+  {
+   "title": "10% off TCN Good Food Gift Cards (Digital or Physical) + $2.95 Physical Delivery @ Card.Gift",
+   "link": "https://www.ozbargain.com.au/node/973337",
+   "votes": 23,
+   "neg": 0,
+   "category": "Dining Takeaway",
+   "ts": 1788138429000
+  },
+  {
+   "title": "10% off Kayo Sports/Binge eGift Cards, [EXPIRED] 10% off DoorDash eGift Cards @ Giftz",
+   "link": "https://www.ozbargain.com.au/node/973336",
+   "votes": 24,
+   "neg": 1,
+   "category": "Entertainment",
+   "ts": 1788138254000
+  },
+  {
+   "title": "$5 off $100 Spend in 1 Transaction on Eligible Items with Mastercard @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/973431",
+   "votes": 20,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1788205737000
+  },
+  {
+   "title": "[Refurb] Breville Barista Express BES870 Espresso Machine $399 Delivered @ Breville Australia Outlet eBay",
+   "link": "https://www.ozbargain.com.au/node/973382",
+   "votes": 19,
+   "neg": 0,
+   "category": "Home Garden",
+   "ts": 1788160522000
+  },
+  {
+   "title": "1/2 Price: Redwin Sorbolene Daily Moisturiser Vitamin E 1.1L $5.50 @ Woolworths; Big W",
+   "link": "https://www.ozbargain.com.au/node/973419",
+   "votes": 18,
+   "neg": 0,
+   "category": "Health Beauty",
+   "ts": 1788178902000
+  },
+  {
+   "title": "Vitasoy Unsweetened Almond Milk 12x 1L Packs $16.83 ($15.15 Sub Save) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/973339",
+   "votes": 18,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1788138940000
   }
  ]
 }
