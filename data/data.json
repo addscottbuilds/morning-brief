@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T22:17:28.296Z",
+ "generatedAt": "2026-09-07T21:49:18.030Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9005.9,
-    "chgPct": -0.1574218688255068,
+    "price": 9010.9,
+    "chgPct": -0.10199010846220359,
     "high52": 9296.7,
-    "off52": -3.1279916529521343
+    "off52": -3.0742091279701516
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.04,
-    "chgPct": 0.37771337899683927,
+    "price": 84.66,
+    "chgPct": -0.44684961363630854,
     "high52": 87.32,
-    "off52": -2.611085661933105
+    "off52": -3.046266605588636
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 151.61,
-    "chgPct": -0.1909110652644161,
+    "price": 151.74,
+    "chgPct": 0.0857459198767199,
     "high52": 155.03,
-    "off52": -2.206024640392174
+    "off52": -2.122169902599492
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.68,
-    "chgPct": 0.8960244470817336,
+    "price": 59.7,
+    "chgPct": 0.03351155281828493,
     "high52": 64.23,
-    "off52": -7.083917172660757
+    "off52": -7.052779075198506
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.83,
-    "chgPct": 0.8104219077351081,
+    "price": 36.14,
+    "chgPct": 3.761120011705853,
     "high52": 47.78,
-    "off52": -27.103390539974892
+    "off52": -24.361657597321056
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7208,
-    "chgPct": 0.09302681112001841,
+    "price": 0.7221,
+    "chgPct": 0.20292869329138177,
     "high52": 0.7277,
-    "off52": -0.9481929366497206
+    "off52": -0.7695478906142709
    }
   ],
   "failed": [],
-  "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 24% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "TSLA",
@@ -81,6 +81,22 @@
     "price": 78.25,
     "currency": "USD",
     "chgPct": -5.346556510032281
+   },
+   {
+    "sym": "XRO.AX",
+    "name": "Xero",
+    "market": "ASX",
+    "price": 76.24,
+    "currency": "AUD",
+    "chgPct": -3.9435588235718257
+   },
+   {
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 17.77,
+    "currency": "AUD",
+    "chgPct": 3.19396462588108
    },
    {
     "sym": "AAPL",
@@ -101,136 +117,45 @@
     "stories": [
      {
       "id": 0,
-      "headline": "At least five dead after Amazon plane overshoots runway, crashes into multiple vehicles at Miami airport",
-      "summary": "Shocking footage circulating online shows huge plumes of smoke billowing from the crash site.",
-      "ts": 1788732732000,
-      "img": "https://i.dailymail.com/1s/2026/09/06/19/111084495-0-image-a-4_1788720435070.jpg",
+      "headline": "Five killed as Amazon cargo plane crashes at Miami airport",
+      "summary": "Video footage shows the aircraft burst into flames in Sunday's deadly incident.",
+      "ts": 1788815216000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fce1/live/b673db00-aa8e-11f1-b109-879e35c24276.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Five dead, multiple injured after Amazon cargo plane overruns Miami Airport runway and smashes into vehicles before bursting into flames",
-        "desc": "Images from the scene show the plane, with Amazon branding, precariously close to a building. Smoke can be seen billowing from the aircraft.",
-        "link": "https://www.dailymail.com/news/article-16109917/Amazon-plane-skids-runway-crashes-roadway-Miami-reports-say.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "At least five dead after Amazon cargo plane crashes at Miami airport",
-        "desc": "Three people in critical condition and two hospitalized as operations at one of busiest US airports brought to a halt An Amazon cargo plane crashed at Miami international airport in Florida on Sunday afternoon after the flight, which was arriving from Puerto Rico, overshot the runway, striking several vehicles and resulting in at least five deaths. The plane erupted in flames as dark smoke billowe",
-        "link": "https://www.theguardian.com/us-news/2026/sep/06/amazon-cargo-plane-crashes-miami-airport"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "At least five dead after Amazon plane overshoots runway, crashes into multiple vehicles at Miami airport",
-        "desc": "Shocking footage circulating online shows huge plumes of smoke billowing from the crash site.",
-        "link": "https://7news.com.au/news/amazon-plane-overshoots-runway-crashes-into-multiple-vehicles-at-miami-airport-c-22832313"
-       },
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Amazon cargo plane overruns Miami airport runway and strikes 'multiple' vehicles; 5 dead, 5 injured",
-        "desc": "All runways and taxiways at Miami International Airport were closed after an Amazon cargo jet, a Boeing 767-300, overran the runway, officials said.",
-        "link": "https://www.foxnews.com/us/amazon-cargo-jet-overruns-miami-airport-runway-triggering-massive-emergency-response"
+        "title": "NTSB reveals if crew survived Amazon cargo jet disaster as it shares details about victims",
+        "desc": "The NTSB said the crew survived after the Amazon cargo plane overran the runway, caught fire and collided with two vehicles carrying eight occupants.",
+        "link": "https://www.foxnews.com/us/ntsb-reveals-crew-survived-amazon-cargo-jet-disaster-shares-details-victims"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Five killed as Amazon cargo plane crashes at Miami airport",
+        "desc": "Video footage shows the aircraft burst into flames in Sunday's deadly incident.",
+        "link": "https://www.bbc.co.uk/news/videos/c4grd9mg3rvo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Five killed after Amazon cargo plane barrels off runway, hits vehicles",
+        "desc": "An Amazon spokesperson said the company was \"heartbroken to learn that five people lost their lives in today's incident\".",
+        "link": "https://www.sbs.com.au/news/article/five-killed-after-amazon-cargo-plane-barrels-off-runway-hits-vehicles/ukoh9qyug"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Iran warns the US of 'more intense and more painful' counterattacks",
-      "summary": "The Iranian government will raise petrol prices to counter economic pressure from US sanctions.",
-      "ts": 1788730956000,
-      "img": "https://assets.sbs.com.au/dims4/default/46a3ce8/2147483647/strip/false/crop/8256x3793+0+855/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F59%2Ffd%2F9e89dd6e4c19a84908a02ecace35%2Fafp-20260904-c7e3447-v1-highres-uspoliticstrump.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Iran warns the US of 'more intense and more painful' counterattacks",
-        "desc": "The Iranian government will raise petrol prices to counter economic pressure from US sanctions.",
-        "link": "https://www.sbs.com.au/news/article/iran-warns-the-us-of-more-intense-and-more-painful-counterattacks/zryesd3c5"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Iran threatens 'more painful response' to any further US strikes",
-        "desc": "Iranian and US forces exchanged fire on Saturday in the contested waters of the Strait of Hormuz.",
-        "link": "https://www.abc.net.au/news/2026-09-07/iran-us-war-strikes-middle-east-hormuz/107122562"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Iran warns of 'faster, heavier, more painful response' to US attacks",
-        "desc": "The comments came a day after Washington said it had struck Iranian oil tankers in response to Tehran's attacks on US warships in the region.",
-        "link": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Iran threatens further attacks after US strikes three vessels near Kharg Island",
-        "desc": "The US struck three Iranian oil carriers after ballistic missiles were launched at two Navy ships.",
-        "link": "https://7news.com.au/news/iran/iran-threatens-further-attacks-after-us-strikes-three-vessels-near-kharg-island-c-22830610"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-      "summary": "Germany's AfD has hailed a \"historic result\" and is projected to win 44% of the vote, far ahead of the conservatives on 17%.",
-      "ts": 1788730625000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/41a1/live/92680d00-aa0f-11f1-aed2-8d6da8d75094.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Germany's far-right AfD set for big win in eastern state, just short of majority",
-        "desc": "Germany's AfD has hailed a \"historic result\" and is projected to win 44% of the vote, far ahead of the conservatives on 17%.",
-        "link": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Germany's far-right party tops regional election for first time since World War Two",
-        "desc": "In a fracturing political landscape, the AfD is now Germany's most popular party nationally.",
-        "link": "https://www.sbs.com.au/news/article/germanys-far-right-party-tops-regional-election-for-first-time-since-worl-war-two/hj3r3bij5"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Far-right party wins German state election for first time since WWII",
-        "desc": "Germany's far-right party AfD becomes the largest party in the state of Saxony-Anhalt, the first far-right win in Germany since World War II.",
-        "link": "https://www.abc.net.au/news/2026-09-07/german-state-saxony-anhalt-elects-far-right-afd/107121828"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Far-right AfD wins key German state election but may fail to secure majority",
-        "desc": "Exit poll shows Alternative für Deutschland on 44.4% of vote in Saxony-Anhalt after huge turnout, with votes still being counted The populist, far-right, anti-immigration Alternative für Deutschland (AfD) has emerged as the winner in a crucial state election in Germany, exit polls have projected, securing a historic result and more than doubling its support. The AfD now appear on the brink of beco",
-        "link": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Labor urges Greens, Coalition to pass social media reforms after 'dawdling and delay'",
-      "summary": "Larger fines and more information-gathering powers are needed to keep social media companies in line, the government says.",
-      "ts": 1788729617000,
-      "img": "https://assets.sbs.com.au/dims4/default/d878146/2147483647/strip/false/crop/7146x3283+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F63%2F32%2F3807966747b6a9fc02933c4f4174%2F20260819128339707889-original.jpg",
+      "headline": "The $25,000 loss critics warn lies under One Nation's superannuation plan",
+      "summary": "One Nation says the policy would give Australians easier access to their superannuation, providing them \"breathing room\".",
+      "ts": 1788815127000,
+      "img": "https://assets.sbs.com.au/dims4/default/575ff0f/2147483647/strip/false/crop/3543x1628+0+367/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F6a%2Fc4%2F29e140b44734b0135e63e5a94165%2Fgettyimages-2281973775.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -240,39 +165,95 @@
        {
         "outlet": "Crikey",
         "lean": "left",
-        "title": "Albanese government pushing for crackdown on social media algorithms",
-        "desc": "Communication Minister Anika Wells’s digital duty of care proposals are set to dominate this sitting week. Meanwhile, opposition leader-in-waiting Andrew Hastie might be getting a new job. The post Albanese government pushing for crackdown on social media algorithms appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/09/07/albanese-government-pushes-for-crackdown-on-social-media-algorithms-anika-wells-andrew-hastie/"
+        "title": "Barnaby Joyce claims he’s not Jesus as One Nation’s super policy criticised",
+        "desc": "Pauline Hanson's party once again dominates the headlines due to its superannuation plans. Meanwhile, the tobacco war of words persists and the global economy continues to suffer due to the Iran conflict. The post Barnaby Joyce claims he’s not Jesus as One Nation’s super policy criticised appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/09/08/barnaby-joyce-claims-hes-not-jesus-christ-as-one-nations-super-policy-criticised-pauline-hanson-tobacco-wars/"
        },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Australia news LIVE: Government promises hefty fines for social media giants ahead of Digital Duty of Care bill; Veterans to lay down medals in escalation of healthcare fight",
+        "title": "Australia news LIVE: Labor’s social media changes to go before the Senate; Joyce flounders under pressure to clarify One Nation’s superannuation proposal",
         "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
-        "link": "https://www.theage.com.au/national/australia-news-live-government-promises-hefty-fines-for-social-media-giants-ahead-of-digital-duty-of-care-bill-veterans-to-lay-down-medals-in-escalation-of-healthcare-fight-20260907-p60uxq.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Greens criticise Labor after former IDF officer’s ‘reprehensible’ comments on Zomi Frankcom strike",
-        "desc": "Greens defence spokesman says ‘words are just distractions’ until government takes action ‘Guilt by association’: why seven international aid workers were killed in Israeli airstrike Get our breaking news email, free app or daily news podcast The Greens have criticised inflammatory statements from the former Israel Defense Forces officer who ordered the attack which killed Zomi Frankcom, accusing ",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/07/zomi-frankcom-israel-gaza-idf-world-central-kitchen-ntwnfb"
+        "link": "https://www.theage.com.au/national/australia-news-live-labor-s-social-media-changes-to-go-before-the-senate-joyce-flounders-under-pressure-to-clarify-his-party-s-superannuation-proposal-20260908-p60va2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Labor urges Greens, Coalition to pass social media reforms after 'dawdling and delay'",
-        "desc": "Larger fines and more information-gathering powers are needed to keep social media companies in line, the government says.",
-        "link": "https://www.sbs.com.au/news/article/labor-urges-greens-coalition-to-pass-social-media-reforms-after-dawdling-and-delay/llqq490az"
+        "title": "The $25,000 loss critics warn lies under One Nation's superannuation plan",
+        "desc": "One Nation says the policy would give Australians easier access to their superannuation, providing them \"breathing room\".",
+        "link": "https://www.sbs.com.au/news/article/a-25k-loss-how-one-nations-superannuation-plan-could-short-change-your-retirement/clse9u2gc"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Nepal observes national day of mourning for victims of flash flood disaster",
+      "summary": "Flags flew at half mast on the 13th day since the disaster, the last day of the Hindu mourning period.",
+      "ts": 1788811850000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0043/live/461239b0-aa93-11f1-a291-b542ee92de7c.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Nepal's national day of mourning",
+        "desc": "Nepal has declared a national day of mourning for the victims of the region's flooding disaster.",
+        "link": "https://www.theage.com.au/world/nepals-national-day-of-mourning-20260908-p60va5.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Nepal observes national day of mourning for victims of flash flood disaster",
+        "desc": "Flags flew at half mast on the 13th day since the disaster, the last day of the Hindu mourning period.",
+        "link": "https://www.bbc.co.uk/news/articles/c2kw1qek7gdo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'We have a lot of hope': Nepal holds national day of mourning as 36 Australians still missing",
+        "desc": "Meanwhile, an Australian tunnel rescue expert said the operation to rescue missing workers presented an unprecedented challenge.",
+        "link": "https://www.sbs.com.au/news/article/nepal-floods-day-of-mourning/3rfrn98si"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "King Charles III clarifies Prince Harry and Meghan Markle will not resume royal duties after UK move",
+      "summary": "Buckingham Palace reaffirmed that Prince Harry and Meghan Markle will not resume royal duties despite their UK return, keeping HRH titles in abeyance.",
+      "ts": 1788817363000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/Prince-Harry-Meghan-Markle-Anniversary.jpeg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "King puts Harry and Meghan in their place with bombshell royal letter: Sussexes are still NOT working members of the family after return to Britain, Charles confirms in icily formal letter",
+        "desc": "In an unprecedented letter to senior royal representatives, government and military officials, Charles appeared to put the Sussexes firmly in their place.",
+        "link": "https://www.dailymail.com/news/royals/article-16111857/King-Harry-Meghan-not-working-royals-return-Britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "King Charles III clarifies Prince Harry and Meghan Markle will not resume royal duties after UK move",
+        "desc": "Buckingham Palace reaffirmed that Prince Harry and Meghan Markle will not resume royal duties despite their UK return, keeping HRH titles in abeyance.",
+        "link": "https://www.foxnews.com/entertainment/king-charles-iii-clarifies-prince-harry-meghan-markle-not-resume-royal-duties-after-uk-move"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Govt warns against One Nation plan for Australians to 'raid' their superannuation",
-      "summary": "The policy would provide Australians easier access to their superannuation, providing them \"breathing room\" in the cost of living crisis.",
-      "ts": 1788732631000,
-      "img": "https://assets.sbs.com.au/dims4/default/8d2a9ca/2147483647/strip/false/crop/8256x3793+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Faa%2F1e%2F108e806448949f466b07d3398e34%2F20260325169230987966-original.jpg",
+      "headline": "Live: Building company collapse exposes private credit issues",
+      "summary": "The Bathla Group collapse exposes private credit issues and oil is up on Middle East tensions. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+      "ts": 1788817325000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3a01/live/36daba00-aa91-11f1-ab09-7f2415c9a652.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -280,34 +261,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "News live: Labor criticises ‘terrible’ One Nation plan to divert super to boost pay; trial for slain Australian surfers to begin in Mexico",
-        "desc": "Follow the day’s news live One Nation has come up with a plan to give people their superannuation earlier, reducing the amount they’ll have at retirement in exchange for a current cash boost. Pauline Hanson says under their plan anyone paying rent or a mortgage can take up to a quarter of their super as a “pay boost” for up to three years. Continue reading...",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/07/anthony-albanese-labor-lobbying-rules-greens-social-media-fines-ntwnfb"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Govt warns against One Nation plan for Australians to 'raid' their superannuation",
-        "desc": "The policy would provide Australians easier access to their superannuation, providing them \"breathing room\" in the cost of living crisis.",
-        "link": "https://www.sbs.com.au/news/article/govt-warns-against-one-nation-plan-enabling-australians-to-raid-their-superannuation/clse9u2gc"
-       },
-       {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: One Nation reveals plan to divert superannuation to boost pay",
-        "desc": "Australians paying rent or a mortgage would be given a choice to divert a portion of their superannuation to boost their income for up to three years under a One Nation proposal. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-09-07/federal-politics-live-blog-sept-7/107122668"
+        "title": "Live: Building company collapse exposes private credit issues",
+        "desc": "The Bathla Group collapse exposes private credit issues and oil is up on Middle East tensions. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-09-08/asx-markets-business-live-news-september-8-2026/107127114"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Rescuers dig through debris as seven dead in building collapse in Delhi",
+        "desc": "It's not clear how many people were inside the building - or if there are still people under the debris.",
+        "link": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Tree-killing beetle still poses major threat, as bird flu takes centre stage",
-      "summary": "With the nation's biosecurity experts tied up managing the bird flu outbreak, there are concerns that attention has been diverted from the destructive shot-hole borer beetle.",
-      "ts": 1788729639000,
-      "img": "https://i.dailymail.com/1s/2026/09/06/18/111083517-0-image-m-53_1788716475447.jpg",
+      "headline": "Australia's oldest coalmine plans to expand under Sydney's water catchment",
+      "summary": "Peabody’s plan to keep its Metropolitan Mine south of Sydney operating until 2044 has won emphatic union backing while drawing calls from the Greens for it to be rejected.",
+      "ts": 1788817004000,
+      "img": "https://images.7news.com.au/publication/C-22836112/6ffefee84546784e10b6f5ba48df447c8559ec48-16x9-x0y269w5167h2906.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -317,32 +291,25 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Tree-killing beetle still poses major threat, as bird flu takes centre stage",
-        "desc": "With the nation's biosecurity experts tied up managing the bird flu outbreak, there are concerns that attention has been diverted from the destructive shot-hole borer beetle.",
-        "link": "https://www.abc.net.au/news/2026-09-07/shot-hole-borer-still-poses-risk-despite-bird-flu-focus/107120044"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Patrick Clancy spotted taking hours-long walk in New York City two days after mistrial declared in ex-wife Lindsay's murder case",
-        "desc": "Patrick Clancy is seen on an hours-long walk in New York City just days after his ex-wife Lindsay Clancy's case was declared a mistrial in Massachusetts.",
-        "link": "https://www.dailymail.com/news/article-16109781/patrick-lindsay-clancy-nyc-spotted-mistrial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Australia's oldest coalmine plans to expand under Sydney's water catchment",
+        "desc": "Peabody’s plan to keep its Metropolitan Mine south of Sydney operating until 2044 has won emphatic union backing while drawing calls from the Greens for it to be rejected.",
+        "link": "https://www.abc.net.au/news/2026-09-08/metropolitan-coal-mine-extension-union-greens-water-catchment/107117582"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "September 11: Australian families still healing 25 years after attacks on New York City’s World Trade Centre, Washington DC",
-        "desc": "‘Holding on to hate is like drinking poison and expecting the other person to die.’",
-        "link": "https://7news.com.au/news/september-11-australian-families-still-healing-25-years-after-attacks-on-new-york-citys-world-trade-centre-washington-dc-c-22831564"
+        "title": "2027 Hyundai Santa Fe: Extended-range electric version confirmed for Australia",
+        "desc": "Hyundai has locked in the Santa Fe EREV for Australia, although local launch timing remains under wraps.",
+        "link": "https://7news.com.au/motoring/2027-hyundai-santa-fe-extended-range-electric-version-confirmed-for-australia--c-22836112"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Volcano eruption leaves 170,000 passengers stranded in Indonesia",
-      "summary": "More than 170,000 airline passengers are stranded after ash was detected in airspace near Jakarta following the eruptions.",
-      "ts": 1788710421000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9193/live/bc786310-a9bf-11f1-a47c-49756d8d78ae.jpg",
+      "headline": "French wine output predicted to be lowest in 30 years",
+      "summary": "France is expected to produce one of its lowest amounts of wine in decades after soaring temperatures and drought over the summer.",
+      "ts": 1788815442000,
+      "img": "https://images.7news.com.au/publication/C-22837134/a62c09b610ef24c6c7b34e332af211ec4882fe4b-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -350,25 +317,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Volcano eruption leaves 170,000 passengers stranded in Indonesia",
-        "desc": "More than 170,000 airline passengers are stranded after ash was detected in airspace near Jakarta following the eruptions.",
-        "link": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss"
+        "title": "French wine output predicted to be lowest in 30 years",
+        "desc": "France is expected to produce one of its lowest amounts of wine in decades after soaring temperatures and drought over the summer.",
+        "link": "https://www.abc.net.au/news/2026-09-08/french-wine-output-lowest-in-30-years-after-heatwaves-drought/107126986"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Volcanic eruption sparks travel chaos as 33 flights are cancelled at major Indonesian airport",
-        "desc": "Anak Krakatau has been erupting since late on Friday.",
-        "link": "https://7news.com.au/news/disaster-and-emergency/volcanic-eruption-sparks-travel-chaos-as-33-flights-are-cancelled-at-major-indonesian-airport-c-22830965"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Volcanic eruption triggers six airport closures, affecting hundreds of flights in Indonesia",
-        "desc": "Indonesia's Anak Krakatau volcano has been erupting ‌since late on Friday, creating airport chaos.",
-        "link": "https://www.sbs.com.au/news/article/flights-halted-as-volcanic-ash-spreads-across-parts-of-indonesia/gw0rr3dih"
+        "title": "French wine output to drop 6 per cent on 2025, be among lowest in 30 years",
+        "desc": "Months of hot and dry conditions and multiple summer heatwaves have wreaked havoc on winemakers.",
+        "link": "https://7news.com.au/news/world/french-wine-output-to-drop-6-per-cent-on-2025-be-among-lowest-in-30-years-c-22837134"
        }
       ]
      }
@@ -380,9 +340,121 @@
     "stories": [
      {
       "id": 7,
+      "headline": "‘The people’s money’: Hanson, Joyce defend proposed super shake-up",
+      "summary": "Pauline Hanson wants to allow workers access to 3 per cent of their superannuation contributions – a policy described by the government as “recipe to make Australian workers worse off”.",
+      "ts": 1788817525000,
+      "img": "https://static.ffx.io/images/$zoom_0.2955%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_183%2C$y_75/t_crop_custom/q_86%2Cf_auto/2983bc37af9633ddb8ad9be34bb39f9f5a1bfb04",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia politics live: John Howard warns about limiting immigration; Barnaby Joyce says super plan to have ‘minute’ inflationary effect",
+        "desc": "Former PM says ‘law of averages’ means some people with nefarious intentions can enter Australia but he does not believe the ‘evidence is overwhelming’. Follow the day’s news live One Nation policy will leave people $25k worse off at retirement, Mulino says Superannuation is kicking off again today with One Nation pushing to allow people to divert 3% of their superannuation to their rent or mortga",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/08/barnaby-joyce-one-nation-superannuation-plan-john-howard-immigration-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "‘The people’s money’: Hanson, Joyce defend proposed super shake-up",
+        "desc": "Pauline Hanson wants to allow workers access to 3 per cent of their superannuation contributions – a policy described by the government as “recipe to make Australian workers worse off”.",
+        "link": "https://www.theage.com.au/politics/federal/one-nation-s-super-pay-boost-slammed-as-retirement-raid-20260907-p60uyg.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 8,
+      "headline": "Hardline free-speech campaigners demand Coalition block Labor’s latest social media plan",
+      "summary": "The opposition’s position on Labor’s digital duty of care laws is the latest test of its purity on free speech, as hardline backers switch to One Nation.",
+      "ts": 1788807600000,
+      "img": "https://static.ffx.io/images/$zoom_0.22111257555182792%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_59%2C$y_31/t_crop_custom/q_86%2Cf_auto/1c0925352532ad23032b3a1de30c6e695ddc8387",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Hardline free-speech campaigners demand Coalition block Labor’s latest social media plan",
+        "desc": "The opposition’s position on Labor’s digital duty of care laws is the latest test of its purity on free speech, as hardline backers switch to One Nation.",
+        "link": "https://www.theage.com.au/politics/federal/hardline-free-speech-campaigners-demand-coalition-block-labor-s-latest-social-media-plan-20260907-p60v39.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia’s top bureaucrats want to block sharing of clips from parliament on social media to save them from ‘ridicule’",
+        "desc": "Secretaries board concerned material posted without proper context as Greens warn ban could result in lack of transparency Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The nation’s top bureaucrats want the Albanese government to ban video footage from parliamentary hearings being edited and shared on social media, in an extraord",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/07/australias-top-bureaucrats-want-to-block-sharing-of-clips-from-parliament-on-social-media-to-save-them-from-ridicule"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "View from The Hill: Pauline Hanson sets new hares running on super",
+      "summary": "Pauline Hanson’s attention-grabbing policy to give mortgage holders and renters greater access to their super is high populism while being – according to its many critics – low economics and bad for people’s retirement. That said, one “teal” independent, Kate Chaney, says it’s worth examining. And Liberal maverick frontbencher Andrew Bragg doesn’t seem to be entirely writing off the idea either. O",
+      "ts": 1788807600000,
+      "img": "https://static.ffx.io/images/$zoom_0.5171%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/77f1a6f4800452df7fea59b352eebbb8f6596d1f51d981b0f3cf4245b4f5bc96",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "The Bank of Pauline Hanson: $400k in unexplained debts to One Nation founder",
+        "desc": "The party and its founder have refused to answer questions about the commercial loans, the interest Hanson has earned and One Nation’s opaque business structure.",
+        "link": "https://www.theage.com.au/politics/federal/the-bank-of-pauline-hanson-400k-in-unexplained-debts-to-one-nation-founder-20260902-p60tux.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "View from The Hill: Pauline Hanson sets new hares running on super",
+        "desc": "Pauline Hanson’s attention-grabbing policy to give mortgage holders and renters greater access to their super is high populism while being – according to its many critics – low economics and bad for people’s retirement. That said, one “teal” independent, Kate Chaney, says it’s worth examining. And Liberal maverick frontbencher Andrew Bragg doesn’t seem to be entirely writing off the idea either. O",
+        "link": "https://theconversation.com/view-from-the-hill-pauline-hanson-sets-new-hares-running-on-super-290827"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Veterans to lay down medals in escalation of fight with Albanese government over healthcare cuts",
+      "summary": "The provocative ceremony will mark two years since the Royal Commission into Defence and Veteran Suicide delivered its final report.",
+      "ts": 1788793222000,
+      "img": "https://static.ffx.io/images/$zoom_0.3596%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_104%2C$y_459/t_crop_custom/q_86%2Cf_auto/d9cdf9b45c5a3bdd03d4fd8e5df01a04f6c19bf5",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Grassroots Labor group urges Albanese government to chart course away from ‘American war machine’",
+        "desc": "Pressure follows revelations US military and weapons manufacturers control or have access to more than 100 bases across Australian continent Why can the US access so many Australian military bases? – podcast Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast The US has “led Australia into wars of aggression” for 50 years, internal par",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/08/grassroots-labor-pressure-group-albanese-government-us-military-war-machine"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Veterans to lay down medals in escalation of fight with Albanese government over healthcare cuts",
+        "desc": "The provocative ceremony will mark two years since the Royal Commission into Defence and Veteran Suicide delivered its final report.",
+        "link": "https://www.theage.com.au/politics/federal/veterans-to-lay-down-medals-in-escalation-of-fight-with-albanese-government-over-healthcare-cuts-20260906-p60uso.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 11,
       "headline": "As Labor leaves an opening, Coalition takes the wrong path",
       "summary": "The government has stumbled on tax and immigration. But the opposition is looking in the wrong direction.",
-      "ts": 1788732962000,
+      "ts": 1788767564000,
       "img": "https://static.ffx.io/images/$zoom_0.5214%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_514%2C$y_0/t_crop_custom/q_86%2Cf_auto/a5967583dbbad4ad33ae00aded76d766fe4754b1",
       "divergent": null,
       "left_view": null,
@@ -393,8 +465,8 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "News live: Labor criticises ‘terrible’ One Nation plan to divert super to boost pay; trial for slain Australian surfers to begin in Mexico",
-        "desc": "Follow the day’s news live One Nation has come up with a plan to give people their superannuation earlier, reducing the amount they’ll have at retirement in exchange for a current cash boost. Pauline Hanson says under their plan anyone paying rent or a mortgage can take up to a quarter of their super as a “pay boost” for up to three years. Continue reading...",
+        "title": "Coalition targets Labor over ‘plummeting’ Sydney house prices – as it happened",
+        "desc": "This blog is now closed Sign up for Guardian Australia’s Politics, really newsletter here One Nation has come up with a plan to give people their superannuation earlier, reducing the amount they’ll have at retirement in exchange for a current cash boost. Pauline Hanson says under their plan anyone paying rent or a mortgage can take up to a quarter of their super as a “pay boost” for up to three ye",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/07/anthony-albanese-labor-lobbying-rules-greens-social-media-fines-ntwnfb"
        },
        {
@@ -407,101 +479,10 @@
       ]
      },
      {
-      "id": 8,
-      "headline": "Government closes in on $100m social media fines",
-      "summary": "Opposition Leader Angus Taylor has reservations about freedom of speech and “enormous ministerial discretion around censorship on the internet”.",
-      "ts": 1788696000000,
-      "img": "https://static.ffx.io/images/$zoom_0.2183%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_214%2C$y_0/t_crop_custom/q_86%2Cf_auto/f99bddf73ac1ef929387d20715b2894e7b0bd2a9",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Government closes in on $100m social media fines",
-        "desc": "Opposition Leader Angus Taylor has reservations about freedom of speech and “enormous ministerial discretion around censorship on the internet”.",
-        "link": "https://www.theage.com.au/politics/federal/government-closes-in-on-100m-social-media-fines-20260906-p60uv0.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Labor plans crackdown on social media algorithms as Taylor says he’s ‘deeply sceptical’",
-        "desc": "Anika Wells expected to release legislation creating a digital duty of care in parliament this week, but Coalition argues it is ‘attempt to censor the internet’ Follow our Australia news live blog for latest updates Sign up for Guardian Australia’s Politics, really newsletter here Labor’s plan to crack down on social media algorithms faces significant opposition in federal parliament, with the opp",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/06/labor-plans-crackdown-on-social-media-algorithms-as-taylor-says-hes-deeply-sceptical"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "Hasan Piker brushes off Dems who see him as a liability, names his '28 choice",
-      "summary": "Hasan Piker told Fox News his job isn't to help the Democratic Party, even as consultant James Carville called him \"an idiot\" who isn't a Democrat.",
-      "ts": 1788728841000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/hasan-piker-feb-3-2026.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Hasan Piker brushes off Dems who see him as a liability, names his '28 choice",
-        "desc": "Hasan Piker told Fox News his job isn't to help the Democratic Party, even as consultant James Carville called him \"an idiot\" who isn't a Democrat.",
-        "link": "https://www.foxnews.com/politics/hasan-piker-brushes-dems-liability-names-28-choice"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Why NZ should redraw council boundaries to match our connections to the landscape",
-      "summary": "The Waimakariri River basin in the Canterbury Plains. Michal Klajban (2019), CC BY-SA As part of a major overhaul of local government, Cabinet is currently considering proposals from local councils on how to carve up regions into new unitary authorities. The reforms aim to simplify the structure of local government, but they raise questions about the logic behind administrative boundaries. Current",
-      "ts": 1788725409000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Why NZ should redraw council boundaries to match our connections to the landscape",
-        "desc": "The Waimakariri River basin in the Canterbury Plains. Michal Klajban (2019), CC BY-SA As part of a major overhaul of local government, Cabinet is currently considering proposals from local councils on how to carve up regions into new unitary authorities. The reforms aim to simplify the structure of local government, but they raise questions about the logic behind administrative boundaries. Current",
-        "link": "https://theconversation.com/why-nz-should-redraw-council-boundaries-to-match-our-connections-to-the-landscape-290625"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "9/11 anniversary: democracy was not doomed to fail in Afghanistan – the US did not live up to its promises",
-      "summary": "After the signing of the Munich agreement in 1938 that allowed Nazi Germany to annex part of Czechoslovakia, Winston Churchill spoke of the fate of that country in a powerful speech in the House of Commons: Silent, mournful, abandoned, broken, Czechoslovakia recedes into the darkness. The same could now be said of Afghanistan, 25 years after the September 11 attacks and subsequent US invasion that",
-      "ts": 1788725318000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "9/11 anniversary: democracy was not doomed to fail in Afghanistan – the US did not live up to its promises",
-        "desc": "After the signing of the Munich agreement in 1938 that allowed Nazi Germany to annex part of Czechoslovakia, Winston Churchill spoke of the fate of that country in a powerful speech in the House of Commons: Silent, mournful, abandoned, broken, Czechoslovakia recedes into the darkness. The same could now be said of Afghanistan, 25 years after the September 11 attacks and subsequent US invasion that",
-        "link": "https://theconversation.com/9-11-anniversary-democracy-was-not-doomed-to-fail-in-afghanistan-the-us-did-not-live-up-to-its-promises-290807"
-       }
-      ]
-     },
-     {
       "id": 12,
-      "headline": "The failure to stop 9/11 was a catastrophe. But even bigger mistakes were made in its aftermath",
-      "summary": "The September 11 2001 terrorist attacks were unlike anything the world had seen before. For America, and the watching world, September 11 (or 9/11) seemed most like a Pearl Harbour moment – a devastating surprise attack by a distant enemy that demanded a response. But here the distant enemy was not a nation state in the middle of war, it was a ragtag collection of rebels living in mountain hideout",
-      "ts": 1788725305000,
+      "headline": "Government must be more transparent about who gets community grants – and why",
+      "summary": "Australian governments have an unfortunate history with community grants programs. Sports infrastructure programs, car park grants and other schemes have repeatedly raised the same concern: public money intended to serve communities becomes entangled with electoral politics. The Albanese government’s $560.9 million Major and Local Community Infrastructure Program (MLCIP) was established to deliver",
+      "ts": 1788811856000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -512,9 +493,9 @@
        {
         "outlet": "The Conversation",
         "lean": "centre",
-        "title": "The failure to stop 9/11 was a catastrophe. But even bigger mistakes were made in its aftermath",
-        "desc": "The September 11 2001 terrorist attacks were unlike anything the world had seen before. For America, and the watching world, September 11 (or 9/11) seemed most like a Pearl Harbour moment – a devastating surprise attack by a distant enemy that demanded a response. But here the distant enemy was not a nation state in the middle of war, it was a ragtag collection of rebels living in mountain hideout",
-        "link": "https://theconversation.com/the-failure-to-stop-9-11-was-a-catastrophe-but-even-bigger-mistakes-were-made-in-its-aftermath-289982"
+        "title": "Government must be more transparent about who gets community grants – and why",
+        "desc": "Australian governments have an unfortunate history with community grants programs. Sports infrastructure programs, car park grants and other schemes have repeatedly raised the same concern: public money intended to serve communities becomes entangled with electoral politics. The Albanese government’s $560.9 million Major and Local Community Infrastructure Program (MLCIP) was established to deliver",
+        "link": "https://theconversation.com/government-must-be-more-transparent-about-who-gets-community-grants-and-why-290835"
        }
       ]
      }
@@ -554,9 +535,9 @@
      },
      {
       "id": 14,
-      "headline": "An Amazon cargo plane crashed at Miami International Airport",
-      "summary": "An Amazon cargo plane crashed at Miami International Airport on September 06, 2026. | Photo: Joe Raedle / Getty Images A plane bearing an Amazon logo overran the runway at Miami International Airport on Sunday during landing, crashing into vehicles and resulting in multiple injuries. The extent of the damage or the seriousness of the injuries was not clear at the time of publication. In the afterm",
-      "ts": 1788728198000,
+      "headline": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+      "summary": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes Audi to split the difference. The German automaker's new A2 E",
+      "ts": 1788811421000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -567,17 +548,17 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "An Amazon cargo plane crashed at Miami International Airport",
-        "desc": "An Amazon cargo plane crashed at Miami International Airport on September 06, 2026. | Photo: Joe Raedle / Getty Images A plane bearing an Amazon logo overran the runway at Miami International Airport on Sunday during landing, crashing into vehicles and resulting in multiple injuries. The extent of the damage or the seriousness of the injuries was not clear at the time of publication. In the afterm",
-        "link": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami"
+        "title": "Audi’s new A2 E-tron is its most affordable and efficient EV yet",
+        "desc": "When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here's a range loser. Want something that goes the distance? Be ready to pay the price. Surprisingly, here comes Audi to split the difference. The German automaker's new A2 E",
+        "link": "https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Boox’s tiny Picco e-reader should land in November",
-      "summary": "Boox teased the Picco, its take on the buzzy Xteink X4 e-reader, back in July, but provided almost no details. Now, thanks to some reporting out of IFA, we've got a bit more info, though sadly still no price. Unlike the Xteink devices, the Picco will not have magnets on the back for attaching to a phone. The 3.97-inch e-paper display, however, will be touchscreen, which The Verge's Andrew Liszewsk",
-      "ts": 1788712138000,
+      "headline": "Six years later, Sony revisits its legendary XM4 headphones",
+      "summary": "The XM4C (in white) have the exact same visual design as the XM4 (in black) from 2020. | Photo: John Higgins / The Verge Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, thanks to their great ",
+      "ts": 1788796800000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -588,18 +569,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Boox’s tiny Picco e-reader should land in November",
-        "desc": "Boox teased the Picco, its take on the buzzy Xteink X4 e-reader, back in July, but provided almost no details. Now, thanks to some reporting out of IFA, we've got a bit more info, though sadly still no price. Unlike the Xteink devices, the Picco will not have magnets on the back for attaching to a phone. The 3.97-inch e-paper display, however, will be touchscreen, which The Verge's Andrew Liszewsk",
-        "link": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa"
+        "title": "Six years later, Sony revisits its legendary XM4 headphones",
+        "desc": "The XM4C (in white) have the exact same visual design as the XM4 (in black) from 2020. | Photo: John Higgins / The Verge Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, thanks to their great ",
+        "link": "https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
-      "summary": "Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skin During a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with her 26,000 X followers: Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with t",
-      "ts": 1788699606000,
-      "img": "https://i.guim.co.uk/img/media/02e203131392e710b2b1e75f0ac4203886c5eea7/0_627_3024_2419/master/3024.jpg?width=460&quality=85&auto=format&fit=max&s=696e3c93771746554e4f2fb2d823c3ea",
+      "headline": "‘Mistrust’ of Palantir may affect NHS research, says health minister",
+      "summary": "James Frith says patients may be less willing to share data as new figures show a rise in opt-outs Concern is being raised about Palantir’s work with the NHS as new figures showed tens of thousands of patients have withdrawn their data from use in research projects. James Frith, the health innovation minister, said he was worried about “mistrust” of the US defence and health tech company and “the ",
+      "ts": 1788795224000,
+      "img": "https://i.guim.co.uk/img/media/2967c3c7dfae1f6bef780d8d34c0d1388ce62f50/292_0_2917_2335/master/2917.jpg?width=460&quality=85&auto=format&fit=max&s=ad1eb41f45948c2f90fda56d298f0433",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -609,18 +590,18 @@
        {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "Uncanny and unappetizing: appetites spoil as AI images take over food menus",
-        "desc": "Consumers are increasingly encountering AI-generated images on food menus such as leathery meat and bread resembling reptile skin During a recent lunch break, Jill Sennett saw something so unappetizing she had to share it with her 26,000 X followers: Artificial intelligence-generated menu images from a Jamaican barbecue pop-up restaurant in which the meats looked like leather belts crawling with t",
-        "link": "https://www.theguardian.com/technology/2026/sep/06/ai-food-menu-images"
+        "title": "‘Mistrust’ of Palantir may affect NHS research, says health minister",
+        "desc": "James Frith says patients may be less willing to share data as new figures show a rise in opt-outs Concern is being raised about Palantir’s work with the NHS as new figures showed tens of thousands of patients have withdrawn their data from use in research projects. James Frith, the health innovation minister, said he was worried about “mistrust” of the US defence and health tech company and “the ",
+        "link": "https://www.theguardian.com/society/2026/sep/07/mistrust-of-ai-palantir-may-affect-nhs-research"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "The Fairphone 6 Plus is the midrange phone we desperately needed",
-      "summary": "Repairability rules. The Fairphone 6 Plus feels like an extremely average midrange Android phone and I couldn't be more thrilled. The mission has always been admirable. Fairphone seeks out ethically sourced materials and offers a high degree of repairability for its devices. But the phones themselves required a lot of sacrifices, like putting up with underpowered processors and bad cameras, in ord",
-      "ts": 1788699600000,
-      "img": null,
+      "headline": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+      "summary": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+      "ts": 1788794870000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b63e/live/b7a99d40-aacd-11f1-9f87-35997bdaf8f4.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -628,19 +609,19 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "The Fairphone 6 Plus is the midrange phone we desperately needed",
-        "desc": "Repairability rules. The Fairphone 6 Plus feels like an extremely average midrange Android phone and I couldn't be more thrilled. The mission has always been admirable. Fairphone seeks out ethically sourced materials and offers a high degree of repairability for its devices. But the phones themselves required a lot of sacrifices, like putting up with underpowered processors and bad cameras, in ord",
-        "link": "https://www.theverge.com/tech/990436/fairphone-6-plus-review"
+        "title": "Grindr to pay £26m to settle claims it allegedly shared users' HIV status",
+        "desc": "The long-running claim alleges Grindr breached UK privacy laws by sharing data with third parties.",
+        "link": "https://www.bbc.co.uk/news/articles/cn8e63qdqwzo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Competitive Pokémon is on phones now, but you still need a Switch to become a champion",
-      "summary": "To get started with competitive Pokémon battles, all you need is your phone. But to compete at the highest level, like at the Pokémon World Championships, you're going to need a Switch. And there doesn't seem to be a good reason why. Battle simulator Pokémon Champions originally launched on the Switch and Switch 2 in April, with the mobile version following in June. The experience is nearly identi",
-      "ts": 1788699600000,
+      "headline": "EcoFlow makes the miniature power station even smaller",
+      "summary": "The River 260 Gen4 (on the table) powering a portable fridge, Starlink Mini, and charging a phone. | Image: EcoFlow If you're in the market for a tiny power station that punches well above its size and weight then have a look at EcoFlow's new fourth-generation River series. The River 260 Gen4 features a 256Wh capacity battery while the 520 Gen4 packs in 512Wh - storing about 2.5x and 5x the energy",
+      "ts": 1788793181000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -651,9 +632,9 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Competitive Pokémon is on phones now, but you still need a Switch to become a champion",
-        "desc": "To get started with competitive Pokémon battles, all you need is your phone. But to compete at the highest level, like at the Pokémon World Championships, you're going to need a Switch. And there doesn't seem to be a good reason why. Battle simulator Pokémon Champions originally launched on the Switch and Switch 2 in April, with the mobile version following in June. The experience is nearly identi",
-        "link": "https://www.theverge.com/games/990691/competitive-pokemon-champions-mobile-tournament-accessibility"
+        "title": "EcoFlow makes the miniature power station even smaller",
+        "desc": "The River 260 Gen4 (on the table) powering a portable fridge, Starlink Mini, and charging a phone. | Image: EcoFlow If you're in the market for a tiny power station that punches well above its size and weight then have a look at EcoFlow's new fourth-generation River series. The River 260 Gen4 features a 256Wh capacity battery while the 520 Gen4 packs in 512Wh - storing about 2.5x and 5x the energy",
+        "link": "https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller"
        }
       ]
      }
@@ -665,10 +646,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Westpac eyes Wall Street-style loan carve-up to work balance sheet",
-      "summary": "The lender has appointed a former Goldman Sachs banker to oversee a more sophisticated strategy of finding private credit partners to spread risk.",
-      "ts": 1788722224000,
-      "img": "https://static.ffx.io/images/$zoom_0.20742018518518518%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_125%2C$y_93/t_crop_custom/q_86%2Cf_auto/e680486d5bec0ea28b9f3523fb25444b6dc1b8e2",
+      "headline": "Bathla standdowns start in short-term rescue package, ASX inches higher as oil price rises — as it happened",
+      "summary": "Standdowns at the collapsed property developer Bathla have started as its administrator secures a two-week funding lifeline to keep parts of the business running.",
+      "ts": 1788790470000,
+      "img": "https://i.guim.co.uk/img/media/976fb294fc8ccc88fbc839c3bc28ac6d627924b4/74_0_6572_5258/master/6572.jpg?width=460&quality=85&auto=format&fit=max&s=2b59ae1771fd5b1e28f23c6995b1e152",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -676,27 +657,34 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Jaguar Land Rover job cuts: £500,000 package to help workers facing threat of redundancy – as it happened",
+        "desc": "Rolling coverage of the latest economic and financial news, as JLR plans to cut almost one in 10 workers UK house prices fall for first time in nearly three years, says Lloyds The rise in mortgage rates could cool demand in the UK housing market, where (as reported earlier) prices fell last month. Tom Bill, head of UK residential research at Knight Frank, says: “We have seen a spring slump rather ",
+        "link": "https://www.theguardian.com/business/live/2026/sep/07/uk-house-prices-fall-subdued-market-jlr-job-cuts-shares-oil-latest-news-updates"
+       },
+       {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "ASX eyes uncertain start, Wall Street slips on jobs report",
-        "desc": "US stocks fell and Treasury yields rose after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the US central bank will raise interest rates later this month.",
+        "title": "ASX inches higher as energy stocks and big miners rally",
+        "desc": "The Australian sharemarket edged higher on Monday, led by big miners and energy stocks, after oil prices rose again as Middle East tensions escalated.",
         "link": "https://www.theage.com.au/business/markets/asx-set-for-flat-start-wall-street-slips-on-jobs-report-20260907-p60uxe.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Westpac eyes Wall Street-style loan carve-up to work balance sheet",
-        "desc": "The lender has appointed a former Goldman Sachs banker to oversee a more sophisticated strategy of finding private credit partners to spread risk.",
-        "link": "https://www.afr.com/companies/financial-services/westpac-eyes-wall-street-style-loan-carve-up-to-work-balance-sheet-20260902-p60tou?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Bathla standdowns start in short-term rescue package, ASX inches higher as oil price rises — as it happened",
+        "desc": "Standdowns at the collapsed property developer Bathla have started as its administrator secures a two-week funding lifeline to keep parts of the business running.",
+        "link": "https://www.abc.net.au/news/2026-09-07/asx-markets-business-live-news/107122080"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "ASX set for a jittery start; BHP plays down iron ore partnership",
-      "summary": "Shares poised for a wobbly start; war pushed Brent 8 per cent higher last week; $A sits at US72¢; ECB set for a rate rise this week; key US CPI data on Friday. Follow live here.",
-      "ts": 1788732693000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/15a06e3ea125277d9bb346c23acfb3860406afeefef87d61a2ee6065057f4371",
+      "headline": "At least five dead after Amazon plane overruns runway at Miami Airport",
+      "summary": "An Amazon cargo plane has barrelled off a runway at Miami International Airport, striking multiple vehicles and bursting into flames in a crash that sent thick black smoke billowing into the sky and forced the closure of all runways at one of the United States's busiest airports.",
+      "ts": 1788744272000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/09/an-amazon-cargo-plane-seen-crashed-in-miami.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -704,20 +692,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Amazon says it’s 'working closely' with authorities after cargo plane crash kills 5",
+        "desc": "Amazon said it is cooperating with officials after a cargo plane operated by 21 Air crashed while landing in Miami, killing at least five people.",
+        "link": "https://www.foxbusiness.com/markets/amazon-says-its-working-closely-authorities-after-cargo-plane-crash-kills-5"
+       },
+       {
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "ASX set for a jittery start; BHP plays down iron ore partnership",
-        "desc": "Shares poised for a wobbly start; war pushed Brent 8 per cent higher last week; $A sits at US72¢; ECB set for a rate rise this week; key US CPI data on Friday. Follow live here.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-set-for-a-jittery-start-as-oil-pushes-above-us96-20260906-p60uu8?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "At least five dead after Amazon plane overruns runway at Miami Airport",
+        "desc": "An Amazon cargo plane has barrelled off a runway at Miami International Airport, striking multiple vehicles and bursting into flames in a crash that sent thick black smoke billowing into the sky and forced the closure of all runways at one of the United States's busiest airports.",
+        "link": "https://www.abc.net.au/news/2026-09-07/amazon-plane-miami-airport-crash/107122678"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Buyer pays $8m, then gives vendors extra $175,000 to help them buy",
-      "summary": "Would you help the seller of your home with more cash to help them purchase their next property? That’s precisely what happened in this unusual turn of events.",
-      "ts": 1788732625000,
-      "img": "https://static.ffx.io/images/$zoom_0.13362776025236595%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_19/t_crop_custom/q_86%2Cf_auto/99f0b985f9332ddb3b65d34e18050bd16b894733",
+      "headline": "ASX to slip; copper resets record high; $A hits eight-month high",
+      "summary": "Australian shares are set to open modestly lower, tracking weakness in Europe with US markets closed for Labor Day. Follow live.",
+      "ts": 1788817406000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -727,38 +722,17 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Buyer pays $8m, then gives vendors extra $175,000 to help them buy",
-        "desc": "Would you help the seller of your home with more cash to help them purchase their next property? That’s precisely what happened in this unusual turn of events.",
-        "link": "https://www.afr.com/property/residential/buyer-pays-8m-then-gives-vendors-extra-175-000-to-help-them-buy-20260902-p60twf?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX to slip; copper resets record high; $A hits eight-month high",
+        "desc": "Australian shares are set to open modestly lower, tracking weakness in Europe with US markets closed for Labor Day. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-slip-copper-resets-record-high-in-london-trading-20260908-p60v9p?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "Far-right AfD wins big in German state election",
-      "summary": "The party has performed better than expected and could become the first far-right group since the National Socialists, also known as the Nazis, to govern.",
-      "ts": 1788732091000,
-      "img": "https://static.ffx.io/images/$zoom_0.6261%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_547%2C$y_43/t_crop_custom/q_86%2Cf_auto/fb14b9c80554d6b9b4f33e60514e63c2f46f2642",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Far-right AfD wins big in German state election",
-        "desc": "The party has performed better than expected and could become the first far-right group since the National Socialists, also known as the Nazis, to govern.",
-        "link": "https://www.afr.com/world/europe/far-right-afd-wins-big-in-east-german-election-20260906-p60ux3?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Major changes at Melbourne Airport to start next month",
-      "summary": "New drop-off and pick-up zones will open on October 6, ending a 56-year ritual for passengers of being dropped off at Melbourne Airport's departures ramp.",
-      "ts": 1788731318000,
+      "headline": "Australia's oldest coalmine plans to expand under Sydney's water catchment",
+      "summary": "Peabody’s plan to keep its Metropolitan Mine south of Sydney operating until 2044 has won emphatic union backing while drawing calls from the Greens for it to be rejected.",
+      "ts": 1788817004000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -769,18 +743,18 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Major changes at Melbourne Airport to start next month",
-        "desc": "New drop-off and pick-up zones will open on October 6, ending a 56-year ritual for passengers of being dropped off at Melbourne Airport's departures ramp.",
-        "link": "https://www.abc.net.au/news/2026-09-07/vic-melbourne-airport-pick-up-drop-off/107122706"
+        "title": "Australia's oldest coalmine plans to expand under Sydney's water catchment",
+        "desc": "Peabody’s plan to keep its Metropolitan Mine south of Sydney operating until 2044 has won emphatic union backing while drawing calls from the Greens for it to be rejected.",
+        "link": "https://www.abc.net.au/news/2026-09-08/metropolitan-coal-mine-extension-union-greens-water-catchment/107117582"
        }
       ]
      },
      {
-      "id": 24,
-      "headline": "How MapQuest’s ‘Lake America’ stance sparked a massive App Store surge",
-      "summary": "MapQuest said its decision to keep the name Lake Ontario fueled a surge in downloads, sending the mapping app to the top of Apple's navigation rankings.",
-      "ts": 1788728560000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/09/canadian-flag-lake-america.jpg",
+      "id": 23,
+      "headline": "How Musk’s $150b spaceport will transform this tiny Louisiana town",
+      "summary": "Some locals are ready to embrace a mega project that puts their town on the cutting edge of interstellar technology. Others see it as disruption to a simple life.",
+      "ts": 1788814137000,
+      "img": "https://static.ffx.io/images/$zoom_0.3309375%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_64/t_crop_custom/q_86%2Cf_auto/5ac6f5f1e837cdb0be0c4fcd01a36bcfdd2bdf4da5331c014b0600f3d0d998cc",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -788,11 +762,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "How MapQuest’s ‘Lake America’ stance sparked a massive App Store surge",
-        "desc": "MapQuest said its decision to keep the name Lake Ontario fueled a surge in downloads, sending the mapping app to the top of Apple's navigation rankings.",
-        "link": "https://www.foxbusiness.com/politics/how-mapquests-lake-america-stance-sparked-massive-app-store-surge"
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "How Musk’s $150b spaceport will transform this tiny Louisiana town",
+        "desc": "Some locals are ready to embrace a mega project that puts their town on the cutting edge of interstellar technology. Others see it as disruption to a simple life.",
+        "link": "https://www.afr.com/world/north-america/how-musk-s-150b-spaceport-will-transform-this-tiny-louisiana-town-20260901-p60t7s?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "King lays down the law after Harry and Meghan’s uneasy return",
+      "summary": "Charles authorised a letter to top UK officials confirming there are no “half-in, half-out” royals after his youngest son and his family returned to the UK.",
+      "ts": 1788814111000,
+      "img": "https://static.ffx.io/images/$zoom_0.2483%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_30/t_crop_custom/q_86%2Cf_auto/6452713e057c434eaf83103b30ddba3cfb701743",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "King lays down the law after Harry and Meghan’s uneasy return",
+        "desc": "Charles authorised a letter to top UK officials confirming there are no “half-in, half-out” royals after his youngest son and his family returned to the UK.",
+        "link": "https://www.afr.com/world/europe/king-lays-down-the-law-after-harry-and-meghan-s-uneasy-return-20260908-p60va8?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -804,10 +799,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Bad to worse after Charles Leclerc’s 260km/h crash at Italian Grand Prix as Ferrari slammed by Lewis Hamilton",
-      "summary": "Ferrari’s drivers walked away from their home race divided - as a rival Italian star took a popular and drought-breaking win.",
-      "ts": 1788728706000,
-      "img": "https://images.7news.com.au/publication/C-22832419/0a7711af14f6bb7385067a90e779e07002f488a0-16x9-x0y0w1280h720.jpg",
+      "headline": "Flex your football brain with our daily quizzes",
+      "summary": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+      "ts": 1788792416000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ada7/live/27df4c70-9658-11f1-b2ab-0dd01740f9f6.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -815,34 +810,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Bad to worse after Charles Leclerc’s 260km/h crash at Italian Grand Prix as Ferrari slammed by Lewis Hamilton",
-        "desc": "Ferrari’s drivers walked away from their home race divided - as a rival Italian star took a popular and drought-breaking win.",
-        "link": "https://7news.com.au/sport/motorsport/bad-to-worse-after-charles-leclercs-260kmh-crash-at-italian-grand-prix-as-ferrari-slammed-by-lewis-hamilton-c-22832419"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Football Daily | Big day for Ødegaard with balaclavas, Basques and a boot to the head",
+        "desc": "Sign up now! Sign up now! Sign up now? Sign up now! Perusing assorted Social Media Disgrace for some Monday inspiration, Football Daily was struck by the amount of scorn and ridicule heaped upon a large group of men dressed in black, many of them wearing balaclavas to hide their identities. Formed with the intention of creating something resembling a matchday atmosphere in and around the Emirates ",
+        "link": "https://www.theguardian.com/football/2026/sep/07/football-daily-newsletter-martin-odegaard-arsenal"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Far too late for title fight priority - Hamilton",
-        "desc": "Lewis Hamilton says it is \"far too late\" for Ferrari to give him priority over team-mate Charles Leclerc in the championship fight.",
-        "link": "https://www.bbc.co.uk/sport/formula1/articles/c5y4k1v7gryo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Lewis Hamilton urges Ferrari to put full weight behind F1 title challenge",
-        "desc": "Light at end of tunnel is ‘getting dimmer’ Team needs to show hunger and ‘passion’ Lewis Hamilton has suggested it is time his Ferrari team put their full weight behind his efforts to challenge for the Formula One world championship if he is to have a shot at the title, and warned his chances were diminishing with every race. Hamilton trails Kimi Antonelli, the championship leader, by 59 points wi",
-        "link": "https://www.theguardian.com/sport/2026/sep/05/lewis-hamilton-calls-on-ferrari-to-put-full-weight-behind-f1-title-challenge"
+        "title": "Flex your football brain with our daily quizzes",
+        "desc": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c046pxeeqe6o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Alcaraz delivers statement win to reach US Open last eight",
-      "summary": "Carlos Alcaraz continues his return from long-term injury with a hugely impressive fourth-round win against Tommy Paul at the US Open.",
-      "ts": 1788731729000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab66/live/410b6450-aa2a-11f1-aed2-8d6da8d75094.jpg",
+      "headline": "Marnus Labuschagne survives the cut as Australia name Test squad for South Africa tour",
+      "summary": "The struggling No.3 batsman has survived the cut and will tour South Africa with the Australian Test squad.",
+      "ts": 1788740449000,
+      "img": "https://images.7news.com.au/publication/C-22832927/cc9152101057c0b043bbc400e7113aa3f3c3befb-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -852,25 +840,25 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "US Open tennis 2026: Medvedev v Tiafoe, Alcaraz sees off Paul, Sabalenka and Noskova win on day eight – live",
-        "desc": "The latest fourth-round updates from Flushing Meadows You can mail Daniel here We’re 4-4 in the doubles and knocking up on Ashe. Thinking more about the match, I’d expect Townsend to use top spin to hit cross at Sabalenka’s backhand, taking her outside the lines if possible. She’ll also try and slow the game down, I think, and frustrate the champ, who doesn’t enjoy the wind-ups. Townsend comes out",
-        "link": "https://www.theguardian.com/sport/live/2026/sep/06/us-open-tennis-2026-aryna-sabalenka-and-marta-kostyuk-in-action-on-day-eight-live"
+        "title": "Australia keep faith in Marnus Labuschagne as Test squad for South Africa tour named",
+        "desc": "Under-pressure batter retains place for three-Test series George Bailey says tweak to top order may be considered Australian selectors have stuck with struggling batter Marnus Labuschagne for next month’s Test tour of South Africa, as chair George Bailey admitted he is mulling a return up the order for Steve Smith. Sixteen players were named in the touring party on Monday, including all those invo",
+        "link": "https://www.theguardian.com/sport/2026/sep/07/marnus-labuschagne-australia-cricket-squad-south-africa-tour"
        },
        {
-        "outlet": "BBC Sport",
+        "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Alcaraz delivers statement win to reach US Open last eight",
-        "desc": "Carlos Alcaraz continues his return from long-term injury with a hugely impressive fourth-round win against Tommy Paul at the US Open.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/cn4kge7gl99o?at_medium=RSS&at_campaign=rss"
+        "title": "Marnus Labuschagne survives the cut as Australia name Test squad for South Africa tour",
+        "desc": "The struggling No.3 batsman has survived the cut and will tour South Africa with the Australian Test squad.",
+        "link": "https://7news.com.au/sport/cricket/marnus-labsuchagne-survives-the-cut-as-australia-name-test-squad-for-south-africa-tour-c-22832927"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "’Powerful vision’ emerges after Western Bulldogs’ elimination final loss to Adelaide",
-      "summary": "Cameras inside the Bulldogs’ rooms captured a compelling moment after their defeat to Adelaide.",
-      "ts": 1788655463000,
-      "img": "https://images.7news.com.au/publication/C-22830563/563bc170cccbeb1e988b0875783ea78f6c354b23-16x9-x0y0w1280h720.jpg",
+      "headline": "US Open tennis 2026: Rybakina brushes aside Osaka, Zheng stuns Swiatek, and more on day nine – as it happened",
+      "summary": "Qinwen Zheng comes from 0-5 down in the first set to beat Iga Swiatek in two, while Mirra Andreeva, Elena Rybakina and Alexander Blockx also make the last eight Back on Armstrong, we’re still level but at 4-4, Potapova playing with confidence and poise. She holds to 30, and Andreeva must now serve to stay in set one. Zheng and Swiatek are out on court; Zheng, the Olympic champion, had to come thro",
+      "ts": 1788816901000,
+      "img": "https://i.guim.co.uk/img/media/668954d1420faa2149c0fccb158001bd0db548ed/1000_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=86ff21799489729707459e87cbf591ce",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -878,69 +866,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "’Powerful vision’ emerges after Western Bulldogs’ elimination final loss to Adelaide",
-        "desc": "Cameras inside the Bulldogs’ rooms captured a compelling moment after their defeat to Adelaide.",
-        "link": "https://7news.com.au/sport/afl/powerful-vision-emerges-after-western-bulldogs-elimination-final-loss-to-adelaide-c-22830563"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Adelaide banish AFL finals demons with victory against wasteful Western Bulldogs",
-        "desc": "Crows defeat Bulldogs 14.6 (90) to 9.14 (68) in elimination final Adelaide head to Brisbane for semi-final against reigning premiers Sign up for our free weekly AFL newsletter Adelaide have survived a late scare to end the Western Bulldogs’ season with a nerve-jangling 22-point elimination final victory. The Crows led by 19 points at three-quarter time but slipped behind in the final term, before ",
-        "link": "https://www.theguardian.com/sport/2026/sep/05/afl-finals-adelaide-crows-western-bulldogs-elimination-final-report-izak-rankine"
+        "title": "US Open tennis 2026: Rybakina brushes aside Osaka, Zheng stuns Swiatek, and more on day nine – as it happened",
+        "desc": "Qinwen Zheng comes from 0-5 down in the first set to beat Iga Swiatek in two, while Mirra Andreeva, Elena Rybakina and Alexander Blockx also make the last eight Back on Armstrong, we’re still level but at 4-4, Potapova playing with confidence and poise. She holds to 30, and Andreeva must now serve to stay in set one. Zheng and Swiatek are out on court; Zheng, the Olympic champion, had to come thro",
+        "link": "https://www.theguardian.com/sport/live/2026/sep/07/us-open-tennis-2026-swiatek-v-zheng-osaka-v-rybakina-and-more-on-day-nine-live"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Watch: England v Ireland - third ODI highlights",
-      "summary": "The third and final ODI of the series between England and Ireland at New Road, Worcester.",
-      "ts": 1788733840000,
-      "img": "https://ichef.bbci.co.uk/images/ic/240x135/p0p82cyy.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Watch: England v Ireland - third ODI highlights",
-        "desc": "The third and final ODI of the series between England and Ireland at New Road, Worcester.",
-        "link": "https://www.bbc.co.uk/iplayer/episode/m0031fdx?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Who has made Troy's Premier League team of the week?",
-      "summary": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
-      "ts": 1788732400000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2157/live/83c38710-aa24-11f1-8046-e7e0d3946c1a.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Who has made Troy's Premier League team of the week?",
-        "desc": "After every round of Premier League matches this season, Troy Deeney gives us his team of the week. Do you agree with his choices?",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cd947djg1zpo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "US overcome poor shooting and Italy’s eye-poke claims in edgy Fiba World Cup win",
-      "summary": "USA edge into quarter’s with nervy 55-52 win Cecilia Zandalasini claims she was poked in eye Caitlin Clark shoots 0-6 from the field Jackie Young had a big fourth quarter and Breanna Stewart made her only basket of the game to put ⁠the United States up for good, helping the Americans escape with a 55-52 win over Italy in the FIBA Women’s World ⁠Cup on Sunday. The ​US (2-0), who clinched a quarter-",
-      "ts": 1788731315000,
-      "img": "https://i.guim.co.uk/img/media/847028e11ca827232f73144e064a867724b610bb/655_309_6161_4931/master/6161.jpg?width=460&quality=85&auto=format&fit=max&s=46297992b1946032d924731575c9f678",
+      "headline": "Belichick denies he has lost control of UNC football program amid off-field turmoil",
+      "summary": "Former general manager has resigned post Belichick’s son Steve is on medical leave School has launched investigation into program North Carolina football coach Bill Belichick said on Monday he believes his program “totally” has an atmosphere of following rules amid an investigation into its conduct. “Obviously everybody’s responsible, including me, for doing things properly,” Belichick said. “And ",
+      "ts": 1788813707000,
+      "img": "https://i.guim.co.uk/img/media/02632242a998397ea15dd5ff5c9795966e6ac0ac/2_0_4310_3451/master/4310.jpg?width=460&quality=85&auto=format&fit=max&s=eded6e9f0e576ba77997c3b358a941fd",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -950,9 +889,51 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "US overcome poor shooting and Italy’s eye-poke claims in edgy Fiba World Cup win",
-        "desc": "USA edge into quarter’s with nervy 55-52 win Cecilia Zandalasini claims she was poked in eye Caitlin Clark shoots 0-6 from the field Jackie Young had a big fourth quarter and Breanna Stewart made her only basket of the game to put ⁠the United States up for good, helping the Americans escape with a 55-52 win over Italy in the FIBA Women’s World ⁠Cup on Sunday. The ​US (2-0), who clinched a quarter-",
-        "link": "https://www.theguardian.com/sport/2026/sep/06/us-overcome-poor-shooting-and-italys-eye-poke-claims-in-edgy-fiba-world-cup-win"
+        "title": "Belichick denies he has lost control of UNC football program amid off-field turmoil",
+        "desc": "Former general manager has resigned post Belichick’s son Steve is on medical leave School has launched investigation into program North Carolina football coach Bill Belichick said on Monday he believes his program “totally” has an atmosphere of following rules amid an investigation into its conduct. “Obviously everybody’s responsible, including me, for doing things properly,” Belichick said. “And ",
+        "link": "https://www.theguardian.com/sport/2026/sep/07/belichick-denies-he-has-lost-control-of-unc-football-program-amid-off-field-turmoil"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Champions League returns - who are favourites and players to watch?",
+      "summary": "The Champions League is back and BBC Sport take a look at who the favourites are to win the title plus predictions from the experts.",
+      "ts": 1788813053000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a674/live/e58050b0-aaaa-11f1-9eba-7de947fa7cd1.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Champions League returns - who are favourites and players to watch?",
+        "desc": "The Champions League is back and BBC Sport take a look at who the favourites are to win the title plus predictions from the experts.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c17j5lr8kkqo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Zheng stuns Swiatek after winning another set from 5-0 down",
+      "summary": "Zheng Qinwen wins a set from 5-0 down for the second successive match as she shocks Iga Swiatek to reach the US Open quarter-finals.",
+      "ts": 1788809320000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1388/live/d641cd80-aae7-11f1-aed2-8d6da8d75094.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Zheng stuns Swiatek after winning another set from 5-0 down",
+        "desc": "Zheng Qinwen wins a set from 5-0 down for the second successive match as she shocks Iga Swiatek to reach the US Open quarter-finals.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cm2ml7xxg80o?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -964,10 +945,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Spider-Man: Brand New Day's Exclusive Box Office Milestone For Marvel Sets Up The MCU's Hardest Task",
-      "summary": "Spider-Man: Brand New Day has passed a box office milestone that no other Marvel movie has reached, and it sets up the MCU's hardest task yet.",
-      "ts": 1788730372000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/tom-holland-s-spider-man-in-brand-new-day.jpg",
+      "headline": "Elon Musk Documentary Teaser Asks If Billionaire Is the ‘Greatest Living Inventor’ or a ‘Fascist’ Who ‘Has Lost His Mind’",
+      "summary": "The first teaser trailer for Alex Gibney’s highly anticipated Elon Musk documentary “Musk” has been released. The film will world premiere out of competition at the 83rd Venice International Film Festival on Sept. 8 before continuing to the Toronto International Film Festival. In the 48-second teaser, montages of spacecrafts and astronautical devices fill the screen […]",
+      "ts": 1788814800000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/Elon-Musk.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -975,34 +956,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Spider-Man: Brand New Day's Exclusive Box Office Milestone For Marvel Sets Up The MCU's Hardest Task",
-        "desc": "Spider-Man: Brand New Day has passed a box office milestone that no other Marvel movie has reached, and it sets up the MCU's hardest task yet.",
-        "link": "https://screenrant.com/spider-man-brand-new-day-900-million-domestic-avengers-doomsday/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Box Office: ‘Spider-Man: Brand New Day’ Remains No. 1 in Sixth Weekend, Nears ‘Avengers: Endgame’ All-Time Domestic Record",
-        "desc": "“Spider-Man: Brand New Day” was No. 1 at the domestic box office for the sixth consecutive weekend, a rare feat that underscores the movie’s remarkable staying power as well as the lack of competition on cinema marquees. “Brand New Day” earned $18 million over the traditional weekend and is estimated to collect $23.3 million through […]",
-        "link": "https://variety.com/2026/film/box-office/spiderman-brand-new-day-box-office-sixth-weekend-1236852435/"
+        "title": "Elon Musk Documentary Teaser Asks If Billionaire Is the ‘Greatest Living Inventor’ or a ‘Fascist’ Who ‘Has Lost His Mind’",
+        "desc": "The first teaser trailer for Alex Gibney’s highly anticipated Elon Musk documentary “Musk” has been released. The film will world premiere out of competition at the 83rd Venice International Film Festival on Sept. 8 before continuing to the Toronto International Film Festival. In the 48-second teaser, montages of spacecrafts and astronautical devices fill the screen […]",
+        "link": "https://variety.com/2026/film/news/elon-musk-documentary-trailer-1236850977/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Summer Nears All-Time $4.76B U.S. Record Thanks To ‘Spider-Man: Brand New Day’s $23M+ Labor Day Take – Box Office Update",
-        "desc": "SUNDAY AM: Forget about any of the new films at the Labor Day weekend box office. They didn’t really dazzle. All that matters is whether or not we ring in a record summer, beating 2013’s $4.756 billion. According to Rentrak, the 3-day domestic marketplace of $88M gets us to $4.732 billion by end of Sunday, […]",
-        "link": "https://deadline.com/2026/09/box-office-spider-man-brand-new-day-by-any-means-labor-day-1237068549/"
+        "title": "‘Musk’ Teaser-Trailer: World’s Richest Man Called “Chaotic, Capricious,” “Manifestly Cruel And Selfish” In Damning Alex Gibney Doc",
+        "desc": "Bleecker Street has released a teaser-trailer for Alex Gibney’s highly anticipated documentary Musk, and it’s not a flattering portrait of the SpaceX, Tesla, Starlink honcho and X owner. Yes, the teaser begins with voices of some people heaping praise on Elon Musk – one idolator roaring he’s “the greatest capitalist in history!” But those encomiums […]",
+        "link": "https://deadline.com/2026/09/musk-documentary-teaser-trailer-1237070036/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Lee Chang-Dong’s ‘Possible Love’ Earns 6.5-Minute Standing Ovation At Venice World Premiere",
-      "summary": "Possible Love, the first film from Korean filmmaker Lee Chang-dong since 2018’s Burning, earned a 6½-minute Sunday evening following its debut screening at the 83rd Venice Film Festival. Director Lee helmed the film from a screenplay he co-wrote with Oh Jung-mi, having worked together on Burning. The story follows two married couples whose lives become […]",
-      "ts": 1788717153000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/possible-Love_Still_R30_AAA08350_RT2.jpg",
+      "headline": "MPA Signs Two Declarations At Lumière Summit, Attends Roundtables With Macron & Lee Jae Myung",
+      "summary": "The Motion Picture Association signed two declarations at the Lumière Summit, aimed at deepening international collaboration and investment in audiovisual sector, protecting intellectual property and strengthening the creative economy. The MPA joined government and private sector partners in signing the Lumiere Declaration on the Future of Cinema and the Moving Image and the Declaration on Strengt",
+      "ts": 1788814335000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/Charles-Rivkin.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1012,25 +986,25 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Lee Chang-Dong’s ‘Possible Love’ Earns 6.5-Minute Standing Ovation At Venice World Premiere",
-        "desc": "Possible Love, the first film from Korean filmmaker Lee Chang-dong since 2018’s Burning, earned a 6½-minute Sunday evening following its debut screening at the 83rd Venice Film Festival. Director Lee helmed the film from a screenplay he co-wrote with Oh Jung-mi, having worked together on Burning. The story follows two married couples whose lives become […]",
-        "link": "https://deadline.com/2026/09/lee-chang-dong-possible-love-ovation-venice-1237068180/"
+        "title": "MPA Signs Two Declarations At Lumière Summit, Attends Roundtables With Macron & Lee Jae Myung",
+        "desc": "The Motion Picture Association signed two declarations at the Lumière Summit, aimed at deepening international collaboration and investment in audiovisual sector, protecting intellectual property and strengthening the creative economy. The MPA joined government and private sector partners in signing the Lumiere Declaration on the Future of Cinema and the Moving Image and the Declaration on Strengt",
+        "link": "https://deadline.com/2026/09/mpa-signs-declarations-lumiere-summit-1237070415/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Possible Love’ Cast Sobs as Lee Chang-dong’s Epic Embraced at Venice With 6-Minute Standing Ovation",
-        "desc": "Acclaimed South Korean director Lee Chang-dong returned after 24 years to the Venice Film Festival, where he was warmly embraced with a six-minute standing ovation for his sweeping romantic drama “Possible Love.” Directed by Lee and co-written by Oh Jung-mi, “Possible Love” follows the intertwined lives of two married couples — a laid-off factory worker […]",
-        "link": "https://variety.com/2026/film/festivals/possible-love-lee-chang-dong-venice-premiere-1236838135/"
+        "title": "MPA Signs Two Lumiere Summit Declarations, Joins Roundtables With Presidents Macron and Lee",
+        "desc": "The Motion Picture Association signed two declarations at the Lumière Summit on Monday, adding its name alongside those of governments and private sector organizations worldwide to the Lumière Declaration on the Future of Cinema and the Moving Image and the Declaration on Strengthened International Cooperation in the Fight Against Film and Audiovisual Piracy. The summit […]",
+        "link": "https://variety.com/2026/film/news/mpa-lumiere-summit-declarations-rivkin-macron-lee-1236854208/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "10 Jokes From The Simpsons That Have Aged Very Badly",
-      "summary": "After so much time on the air, not all of The Simpsons' jokes land as well as they used to, and some have aged very poorly over the years.",
-      "ts": 1788732194000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/untitled-design-4.jpg",
+      "headline": "‘Elsinore’ Director Simon Stone, Basking in Telluride’s Glow, on Making a Movie About Love of the Theater, the Peak AIDS Era, and Being ‘100% in the Service of Andrew Scott’",
+      "summary": "The Telluride Film Festival casts a wide net, as almost all festivals of its ilk do, but if it has had any speciality that stands out among many, it might be the well-earned tearjerker. There is as much crying at Telluride every year as there isn’t in baseball, but with the festival’s emphasis on top-line […]",
+      "ts": 1788812299000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/elsinore-GettyImages-2293587727.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1038,20 +1012,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "10 Jokes From The Simpsons That Have Aged Very Badly",
-        "desc": "After so much time on the air, not all of The Simpsons' jokes land as well as they used to, and some have aged very poorly over the years.",
-        "link": "https://screenrant.com/the-simpsons-jokes-aged-badly/"
+        "title": "‘Elsinore’ Director Simon Stone, Basking in Telluride’s Glow, on Making a Movie About Love of the Theater, the Peak AIDS Era, and Being ‘100% in the Service of Andrew Scott’",
+        "desc": "The Telluride Film Festival casts a wide net, as almost all festivals of its ilk do, but if it has had any speciality that stands out among many, it might be the well-earned tearjerker. There is as much crying at Telluride every year as there isn’t in baseball, but with the festival’s emphasis on top-line […]",
+        "link": "https://variety.com/2026/film/news/elsinore-telluride-film-festival-andrew-scott-simon-stone-1236854213/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Tenzing’ Review: Tom Hiddleston Stars In Story Of First Successful Expedition To Peak Of Mt. Everest, But It Is Really All About The Sherpa – Telluride Film Festival",
+        "desc": "Considering the magnitude and triumph of the actual story of the first successful expedition to summit the peak of fabled Mt. Everest, it is surprising that there haven’t been a whole lot of major narrative motion pictures about it. It has all the stuff of blockbuster films based on stirring real-life pursuits of glory, and […]",
+        "link": "https://deadline.com/2026/09/tenzing-review-tom-hiddleston-biopic-mt-everest-telluride-1237069686/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Ranking The 7 Best Ways To Play The Original Resident Evil Game",
-      "summary": "With Resident Evil's 30th Anniversary coming up, many will want to try out the original game, but which version should you play out of the bunch?",
-      "ts": 1788732015000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/06/resident-evil-1-remake-yawn-1.jpg",
+      "headline": "Venice Film Festival 2026: Read All Of Deadline’s Reviews",
+      "summary": "The 2026 Venice Film Festival got underway on Wednesday, September 2, with Oscar-winning English director Danny Boyle’s Ink — starring Jack O’Connell, Guy Pearce and Claire Foy — kicking off an 83rd edition that includes films starring the likes of Robert Pattinson, Penelope Cruz & Javier Bardem, Jack Huston & Sofia Boutella, Dakota Johnson, John […]",
+      "ts": 1788810377000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/Venice-Film-Festival-Reviews-2026.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1059,20 +1040,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Ranking The 7 Best Ways To Play The Original Resident Evil Game",
-        "desc": "With Resident Evil's 30th Anniversary coming up, many will want to try out the original game, but which version should you play out of the bunch?",
-        "link": "https://screenrant.com/resident-evil-1-all-versions-ranked/"
+        "title": "Venice Film Festival 2026: Read All Of Deadline’s Reviews",
+        "desc": "The 2026 Venice Film Festival got underway on Wednesday, September 2, with Oscar-winning English director Danny Boyle’s Ink — starring Jack O’Connell, Guy Pearce and Claire Foy — kicking off an 83rd edition that includes films starring the likes of Robert Pattinson, Penelope Cruz & Javier Bardem, Jack Huston & Sofia Boutella, Dakota Johnson, John […]",
+        "link": "https://deadline.com/2026/09/venice-film-festival-2026-reviews-deadline-1237065820/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘The Spiral’ Review: Paolo Strippoli’s Lurid Faustian Tragedy Shores Up His Reputation as Italy’s New Horror Virtuoso",
+        "desc": "We don’t get a close enough look to see if the Devil actually wears Prada, but regardless, in Paolo Strippoli’s new horror romp “The Spiral,” she’s very chicly turned out indeed: Cool, crisp and collected in a tightly belted camel trenchcoat, hair pristinely bobbed and lips perfectly rouged, wielding a cigarette like a laser pointer. […]",
+        "link": "https://variety.com/2026/film/news/the-spiral-review-1236854031/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Pacific Rim: Extinction Is An Incredible Extension Of The Movie’s Universe",
-      "summary": "Explore Pacific Rim: Extinction, the thrilling new tabletop game inspired by the movie's epic battles.",
-      "ts": 1788732014000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/pacific-rim-rpg-cinematic-adventure-game.jpg",
+      "headline": "‘Look Back’ Review: Once Past the Over- Preciousness of a Child’s World, Hirokazu Kore-eda’s Manga Adaptation Becomes a Moving Tribute to Friendship",
+      "summary": "There’s barely an adult in sight in Hirokazu Kore-eda’s “Look Back,” where anyone out of school age is marginalized practically to the point of superfluidity. Like much in the first half of this sweet — at times too sweet — adaptation from Tatsuki Fujimoto’s manga of the same title, also made into an animated film […]",
+      "ts": 1788805195000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/ルックバック-LOOK-BACK-Natsuki-Deguchi-and-Aju-Makita.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1080,20 +1068,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Pacific Rim: Extinction Is An Incredible Extension Of The Movie’s Universe",
-        "desc": "Explore Pacific Rim: Extinction, the thrilling new tabletop game inspired by the movie's epic battles.",
-        "link": "https://screenrant.com/pacific-rim-extinction-movie-universe-expanded/"
+        "title": "‘Look Back’ Review: Once Past the Over- Preciousness of a Child’s World, Hirokazu Kore-eda’s Manga Adaptation Becomes a Moving Tribute to Friendship",
+        "desc": "There’s barely an adult in sight in Hirokazu Kore-eda’s “Look Back,” where anyone out of school age is marginalized practically to the point of superfluidity. Like much in the first half of this sweet — at times too sweet — adaptation from Tatsuki Fujimoto’s manga of the same title, also made into an animated film […]",
+        "link": "https://variety.com/2026/film/news/look-back-review-1236854197/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Look Back Live-Action Film Review",
+        "desc": "The live-action movie of Tatsuki Fujimoto’s manga tragedy can’t match the anime but is still a moving experience.",
+        "link": "https://www.animenewsnetwork.com/review/look-back/live-action-film/.241218"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Alien Returns To Its Horror Roots In The Best Release Since James Cameron's Sequel",
-      "summary": "The Alien: Earth TV series is taking the iconic sci-fi horror franchise toward the future by bringing back the best elements of its past.",
-      "ts": 1788731114000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/untitled-design-2026-09-06t210235-172.jpg",
+      "headline": "Coyote Vs. Acme’s Box Office Officially Puts Warner Bros. To Shame",
+      "summary": "Coyote vs. Acme's box office officially puts Warner Bros. to shame, which initially planned to shelve the film to obtain a tax write-off.",
+      "ts": 1788817620000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/12/coyote-vs-acme.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1103,9 +1098,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Alien Returns To Its Horror Roots In The Best Release Since James Cameron's Sequel",
-        "desc": "The Alien: Earth TV series is taking the iconic sci-fi horror franchise toward the future by bringing back the best elements of its past.",
-        "link": "https://screenrant.com/alien-earth-horror-roots-return/"
+        "title": "Coyote Vs. Acme’s Box Office Officially Puts Warner Bros. To Shame",
+        "desc": "Coyote vs. Acme's box office officially puts Warner Bros. to shame, which initially planned to shelve the film to obtain a tax write-off.",
+        "link": "https://screenrant.com/coyote-vs-acme-box-office-surpass-warner-bros-tax-write-off/"
        }
       ]
      }
@@ -1113,34 +1108,34 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
-   "ABC News",
-   "Crikey",
    "Guardian Australia",
+   "Crikey",
+   "The Age",
    "BBC World",
-   "The Age Federal Politics",
-   "BBC Tech",
-   "7News",
-   "Guardian AU Politics",
-   "Fox News Politics",
-   "Ars Technica",
-   "Guardian Tech",
-   "The Verge",
-   "The Age Business",
    "Fox News",
-   "Guardian AU Business",
+   "The Age Federal Politics",
+   "Fox News Politics",
    "The Conversation",
+   "7News",
+   "Ars Technica",
+   "ABC News",
+   "The Verge",
+   "Guardian Tech",
+   "BBC Tech",
+   "Guardian AU Business",
    "AFR",
    "Variety",
-   "Fox Business",
    "Deadline",
-   "BBC Sport",
+   "Guardian AU Politics",
+   "Fox Business",
    "Guardian AU Sport",
-   "Guardian Film",
    "ABC Business",
-   "Screen Rant",
-   "Anime News Network",
+   "BBC Sport",
    "SBS News",
+   "The Age Business",
+   "Screen Rant",
+   "Guardian Film",
+   "Anime News Network",
    "7News Sport",
    "Daily Mail Australia"
   ],
@@ -1150,6 +1145,18 @@
  },
  "releases": {
   "movies": [
+   {
+    "title": "Mayday",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Action",
+     "Adventure",
+     "Comedy"
+    ],
+    "overview": "Lieutenant Troy Brennan's reconnaissance mission over Soviet territory goes awry, forcing him to crash-land and survive in Russian wilderness while evading capture or rescue.",
+    "released": "2026-09-04"
+   },
    {
     "title": "The Runner",
     "year": "2026",
@@ -1196,18 +1203,6 @@
     ],
     "overview": "A young American woman with health challenges finds unexpected romance with a charismatic local during her summer in Majorca, forcing her to weigh her heart's desires against family obligations and her planned return home.",
     "released": "2026-08-26"
-   },
-   {
-    "title": "Mutiny",
-    "year": "2026",
-    "rating": null,
-    "genres": [
-     "Action",
-     "Crime",
-     "Thriller"
-    ],
-    "overview": "After his billionaire industrialist boss is murdered in front of him, Cole Reed is set up to take the fall for the crime -- leaving him on the run as he works to uncover an international conspiracy.",
-    "released": "2026-08-21"
    }
   ],
   "shows": [
@@ -1271,134 +1266,134 @@
   "anime": []
  },
  "wotd": {
-  "word": "pyrrhic",
+  "word": "tessellate",
   "phonetic": "",
   "pos": "Adjective",
-  "def": "Of or characterized by pyrrhics (metrical feet with two short syllables).",
+  "def": "tessellated",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/LL-Q1860_%28eng%29-Vealhurl-pyrrhic.wav/LL-Q1860_%28eng%29-Vealhurl-pyrrhic.wav.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/En-us-tesselate.ogg/En-us-tesselate.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "[iOS, Android] Free Premium Battle Pass 10 Ultra Ball @ Pokémon GO",
-   "link": "https://www.ozbargain.com.au/node/974065",
-   "votes": 91,
+   "title": "20% off $30, $60 $100 Nintendo eShop Cards @ Coles (In-Store Only)",
+   "link": "https://www.ozbargain.com.au/node/974145",
+   "votes": 265,
    "neg": 0,
    "category": "Gaming",
-   "ts": 1788665944000
+   "ts": 1788744830000
   },
   {
-   "title": "Extra 50% off Marked Price Warehouse Sale @ David Jones",
-   "link": "https://www.ozbargain.com.au/node/974059",
-   "votes": 90,
+   "title": "Motorola Moto G35 5G 4GB/128GB $89, Samsung Galaxy A36 5G 6GB/128GB $259 Delivered (New Customer Must Add Plan) @ amaysim",
+   "link": "https://www.ozbargain.com.au/node/974136",
+   "votes": 121,
    "neg": 0,
-   "category": "Fashion Apparel",
-   "ts": 1788660156000
+   "category": "Mobile",
+   "ts": 1788740485000
   },
   {
-   "title": "Otto powerbank 10K mAh $10 @ Officeworks (was $30)",
-   "link": "https://www.ozbargain.com.au/node/974053",
-   "votes": 70,
+   "title": "[PC, Mac, Linux] Free - State of Mind @ GOG",
+   "link": "https://www.ozbargain.com.au/node/974223",
+   "votes": 78,
    "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1788656287000
+   "category": "Gaming",
+   "ts": 1788786097000
   },
   {
-   "title": "Otto 65W GaN Wall Charger USBC Port Rectractable Cable Tan $21 + Delivery ($0 to Metro Areas/ C C/ in-Store) @ Officeworks",
-   "link": "https://www.ozbargain.com.au/node/974067",
+   "title": "Musashi 100% Whey Protein Powder - Chocolate, 2kg $77.49 (RRP $154.99) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/974134",
+   "votes": 74,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1788738687000
+  },
+  {
+   "title": "$10 off $50 Spend on Selected Alcoholic Drinks + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/974204",
    "votes": 65,
    "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1788668465000
+   "category": "Alcohol",
+   "ts": 1788772985000
   },
   {
-   "title": "Fast Track BJJ: Jiu-Jitsu for Old Guys Pressure Passing System by Bernardo Faria - Free @ BJJ Fanatics",
-   "link": "https://www.ozbargain.com.au/node/974100",
-   "votes": 53,
+   "title": "Free Lifetime GoStarter Plan (Normally $49 Per Year after $0 First Year) with IKEA Family Membership @ GoGet CarShare",
+   "link": "https://www.ozbargain.com.au/node/974235",
+   "votes": 64,
    "neg": 0,
-   "category": "Education",
-   "ts": 1788681664000
+   "category": "Automotive",
+   "ts": 1788790296000
   },
   {
-   "title": "Otto Power Bank 20W Qi2 10000mAh Tan $24, 10W 4800mAh or 5000mAh $10 + Delivery ($0 in-Store/ C C/ OnePass) @ Officeworks",
-   "link": "https://www.ozbargain.com.au/node/974109",
+   "title": "Scan BP Rewards for 6¢/Litre off Fuel (up to 100L) @ BP Australia",
+   "link": "https://www.ozbargain.com.au/node/974177",
+   "votes": 61,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1788760106000
+  },
+  {
+   "title": "INC 100% Dynamic Whey (Various Flavours) 2kg - $77.99 + Delivery ($0 C C/ in-Store) @ Chemist Warehouse",
+   "link": "https://www.ozbargain.com.au/node/974158",
+   "votes": 57,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1788752199000
+  },
+  {
+   "title": "$25 off Minimum $125 in-Store Spend (Exclusions Apply) @ IKEA",
+   "link": "https://www.ozbargain.com.au/node/974135",
+   "votes": 57,
+   "neg": 0,
+   "category": "Home Garden",
+   "ts": 1788740284000
+  },
+  {
+   "title": "½ Price: Meiji Hello Panda Snacks 44-50g $0.97 @ Woolworths, Sara Lee Frozen Cheesecake 375g-425g $4.50 @ Coles + 189 More",
+   "link": "https://www.ozbargain.com.au/node/974189",
+   "votes": 51,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1788765462000
+  },
+  {
+   "title": "Samsung Galaxy Watch8 Bespoke + Band: 40mm BT $280 (OOS), 44mm BT $305, 40mm LTE $330, 44mm LTE $355 Delivered @ Samsung",
+   "link": "https://www.ozbargain.com.au/node/974150",
    "votes": 51,
    "neg": 0,
    "category": "Electrical Electronics",
-   "ts": 1788691570000
+   "ts": 1788746841000
   },
   {
-   "title": "Cygnett 100W Laptop Power Bank 25K + Stand $42 + Delivery ($0 C C) @ Bing Lee",
-   "link": "https://www.ozbargain.com.au/node/974121",
-   "votes": 40,
-   "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1788702634000
-  },
-  {
-   "title": "Sirena Tuna varieties 95g $1.98, 185g $3.09, 425g $5.10 @ Coles on Uber Eats",
-   "link": "https://www.ozbargain.com.au/node/974079",
-   "votes": 39,
+   "title": "INC. Plant Protein 1kg $26.99 / 2kg $44.99 + Delivery ($0 C C/ in-Store) @ Chemist Warehouse",
+   "link": "https://www.ozbargain.com.au/node/974169",
+   "votes": 50,
    "neg": 0,
    "category": "Groceries",
-   "ts": 1788679566000
+   "ts": 1788754843000
   },
   {
-   "title": "Lacoste Baseshot Pro Sneakers $49.99 (Rrp $179.99, Brown or White, Fr US 7 up to Us13) + Delivery/ $0 C C @ Hype DC",
-   "link": "https://www.ozbargain.com.au/node/974055",
-   "votes": 36,
+   "title": "[SUBS] Backrooms (2026) - Movie Streaming @ HBO Max",
+   "link": "https://www.ozbargain.com.au/node/974196",
+   "votes": 49,
+   "neg": 0,
+   "category": "Entertainment",
+   "ts": 1788766734000
+  },
+  {
+   "title": "Netac Shadow III DDR4 32GB (2x16GB) 3200MHz RAM (White) US$151.99 (~A$213.20) Delivered @ Netac Official Store via AliExpress",
+   "link": "https://www.ozbargain.com.au/node/974138",
+   "votes": 46,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1788741297000
+  },
+  {
+   "title": "Casio G-Shock DW6900RL $99.00 In Store Only @ Prouds",
+   "link": "https://www.ozbargain.com.au/node/974157",
+   "votes": 44,
    "neg": 0,
    "category": "Fashion Apparel",
-   "ts": 1788657926000
-  },
-  {
-   "title": "[PC] Sands of Time $2.99, Prince of Persia Bundle $10.75 @GOG",
-   "link": "https://www.ozbargain.com.au/node/974073",
-   "votes": 33,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1788673083000
-  },
-  {
-   "title": "[SUBS] Ballistic (2026) - Movie Streaming @ Prime Video",
-   "link": "https://www.ozbargain.com.au/node/974111",
-   "votes": 24,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1788694381000
-  },
-  {
-   "title": "[SUBS] Mayday (2026) Movie Available to Stream now @ Apple TV+",
-   "link": "https://www.ozbargain.com.au/node/974099",
-   "votes": 20,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1788681450000
-  },
-  {
-   "title": "[PC, Steam] Master Detective Archives: RAIN CODE Plus $19.97 (50% off) @ Steam",
-   "link": "https://www.ozbargain.com.au/node/974114",
-   "votes": 15,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1788696695000
-  },
-  {
-   "title": "$0.85 500MB Trial eSim @ Yesim",
-   "link": "https://www.ozbargain.com.au/node/974068",
-   "votes": 15,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1788668525000
-  },
-  {
-   "title": "Sony WH-1000XM6 Black (Grey Import) $466.99 Delivered @ TechintheBasket",
-   "link": "https://www.ozbargain.com.au/node/974058",
-   "votes": 13,
-   "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1788660111000
+   "ts": 1788751464000
   }
  ]
 }
