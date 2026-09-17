@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-16T23:13:35.808Z",
+ "generatedAt": "2026-09-17T21:49:10.779Z",
  "markets": {
   "items": [
    {
@@ -7,72 +7,80 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8696.5,
-    "chgPct": -0.61029712615032,
+    "price": 8732.4,
+    "chgPct": 0.6906889593542765,
     "high52": 9296.7,
-    "off52": -6.456054298837229
+    "off52": -6.069895769466596
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.19,
-    "chgPct": -0.15417421168729054,
+    "price": 84.37,
+    "chgPct": 0.05929827485383037,
     "high52": 87.32,
-    "off52": -3.5845167201099355
+    "off52": -3.378378378378365
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.63,
-    "chgPct": 0.2666811352480174,
+    "price": 147.16,
+    "chgPct": 0.6290990647418562,
     "high52": 155.03,
-    "off52": -5.418306134296592
+    "off52": -5.076436818680259
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.23,
-    "chgPct": -0.1853726867290824,
+    "price": 59.47,
+    "chgPct": 0.21907625055245095,
     "high52": 64.23,
-    "off52": -7.784524365561276
+    "off52": -7.4108671960143315
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.67,
-    "chgPct": 0.87285736816514,
+    "price": 34.92,
+    "chgPct": 1.6002359185557165,
     "high52": 47.78,
-    "off52": -27.438258685642523
+    "off52": -26.915027208036836
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7093,
-    "chgPct": -0.4561311521046889,
+    "price": 0.7113,
+    "chgPct": 0.3512716874171396,
     "high52": 0.7277,
-    "off52": -2.528514497732578
+    "off52": -2.253675965370341
    }
   ],
   "failed": [],
   "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "WDS.AX",
-    "name": "Woodside",
+    "sym": "NAB.AX",
+    "name": "NAB",
     "market": "ASX",
-    "price": 33.27,
+    "price": 39.22,
     "currency": "AUD",
-    "chgPct": 2.843899750458658
+    "chgPct": 3.156232319274703
+   },
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 219.34,
+    "currency": "USD",
+    "chgPct": 2.5432474327924885
    }
   ]
  },
@@ -85,80 +93,59 @@
     "stories": [
      {
       "id": 0,
-      "headline": "US Federal Reserve defies Trump’s demands, delivers first rate hike since 2023",
-      "summary": "Just months after being selected by President Trump with an expectation that he would cut rates, US Federal Reserve chief Kevin Warsh has hiked them.",
-      "ts": 1789599603000,
-      "img": "https://images.7news.com.au/publication/C-22881886/c40a7669de5da18ca6b292c8e86c10981dea43a4-16x9-x0y0w1280h720.jpg",
+      "headline": "King Charles sounded ‘giddily elated’ and ‘like a lottery winner’ on night Princess Diana died, Earl Spencer says in new book",
+      "summary": "The palace hit back at claims in the memoir with a short statement, saying ‘the pain of fraternal grief can cloud reason’.",
+      "ts": 1789677839000,
+      "img": "https://images.7news.com.au/publication/C-22887618/2c79a69da7243081f30c047d0b22cd6dbde40572-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Fed defies Trump, raises US interest rates for first time in three years",
-        "desc": "The move was widely expected amid persistently high inflation driven by the Iran war and rising oil prices – but the decision risks enraging the US president, who has demanded rates be lowered.",
-        "link": "https://www.theage.com.au/world/north-america/us-federal-reserve-raises-interest-rates-for-first-time-in-three-years-20260917-p60y14.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "US Federal Reserve defies Trump’s demands, delivers first rate hike since 2023",
-        "desc": "Just months after being selected by President Trump with an expectation that he would cut rates, US Federal Reserve chief Kevin Warsh has hiked them.",
-        "link": "https://7news.com.au/news/us-federal-reserve-defies-trumps-demands-delivers-first-rate-hike-since-2023-c-22881886"
+        "title": "King Charles sounded ‘giddily elated’ and ‘like a lottery winner’ on night Princess Diana died, Earl Spencer says in new book",
+        "desc": "The palace hit back at claims in the memoir with a short statement, saying ‘the pain of fraternal grief can cloud reason’.",
+        "link": "https://7news.com.au/entertainment/king-charles-sounded-giddily-elated-and-like-a-lottery-winner-on-night-princess-diana-died-earl-spencer-says-in-new-book-c-22887618"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Like a lottery winner’: Charles ‘elated’ after Diana’s death, her brother’s new book claims",
+        "desc": "Earl Spencer’s book claims the then-Prince Charles seemed “giddily elated” in the immediate aftermath of Diana’s death in a car crash in 1997, possibly because he felt it meant he was freer to marry again.",
+        "link": "https://www.theage.com.au/world/europe/like-a-lottery-winner-charles-elated-after-diana-s-death-her-brother-s-new-book-claims-20260918-p60yfl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Prince Harry makes first public appearance since returning to Britain at Invictus event - as excerpts from his uncle's searing memoir about Diana are published",
+        "desc": "The Duke of Sussex attended this evening's event to celebrate the courage and commitment of people in the Invictus community.",
+        "link": "https://www.dailymail.com/news/royals/article-16139729/Prince-Harry-public-appearance-UK-Invictus-Awards.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "US Fed raises interest rates for the first time since 2023, defying Trump's demands",
-        "desc": "US President Donald Trump has called for interest rates to be below 1 per cent after the US Federal Reserve raised rates.",
-        "link": "https://www.sbs.com.au/news/article/us-federal-reserve-hikes-interest-rate/s5269rxq1"
+        "title": "Charles 'giddily elated' on night Diana was killed, her brother claims",
+        "desc": "Princess Diana's brother has accused King Charles III of sounding \"giddily elated, like a lottery winner\" on the night his ex-wife was killed in a car crash almost three decades ago.",
+        "link": "https://www.abc.net.au/news/2026-09-18/king-charles-sounded-elated-on-night-diana-died-claims-new-book/107166984"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Charles sounded 'giddily elated' after Diana’s death, claims Earl Spencer",
+        "desc": "In latest extracts from upcoming memoir, Diana’s brother suggests some in Buckingham Palace were ‘relieved’ at her death The brother of the late Diana, Princess of Wales, has claimed in published extracts of his new memoir that King Charles sounded “giddily elated – like a lottery winner” in a phone call to him immediately after her death. Earl Spencer also says he believed Buckingham Palace wante",
+        "link": "https://www.theguardian.com/uk-news/2026/sep/17/charles-giddily-elated-dianas-death-earl-spencer-book"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Four more acts quit Ed Sheeran tour as singer says Macklemore decision 'was not mine'",
-      "summary": "Several acts have now followed the US rapper out the door after his onstage comments led to him being dropped from Sheeran's tour.",
-      "ts": 1789599554000,
-      "img": "https://assets.sbs.com.au/dims4/default/bf0920c/2147483647/strip/false/crop/5400x2481+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F06%2Faf%2Fd914d8844ee38364d432b2d81b83%2F20260915137490304934-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Defiant Ed Sheeran fans vow to support star as they argue he 'shouldn't be blamed' after ALL opening acts dropped out of his tour amid Macklemore 'Free Palestine' row",
-        "desc": "Ed Sheeran fans have vowed to support the star as they argued he 'shouldn't be blamed' after all the opening acts dropped out of his tour following Macklemore's 'Free Palestine' row.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16136197/Defiant-Ed-Sheeran-fans-support-acts-tour-Macklemore-Free-Palestine-row.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine",
-        "desc": "Rapper, who was dropped from tour after his speech in support of Palestine, challenges Robert Kraft to do the same Macklemore has announced he will donate the $1m salary he was paid as an opening act for Ed Sheeran’s Loop tour to organizations working with Palestinian people and relief in Gaza, after being dropped from the tour following backlash to his onstage comments in support of Palestine. Th",
-        "link": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Four more acts quit Ed Sheeran tour as singer says Macklemore decision 'was not mine'",
-        "desc": "Several acts have now followed the US rapper out the door after his onstage comments led to him being dropped from Sheeran's tour.",
-        "link": "https://www.sbs.com.au/news/article/four-more-acts-quit-ed-sheeran-tour-as-singer-says-macklemore-decision-was-not-mine/dtv3b4upg"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Australian Grand Prix organisers under fire over new membership ‘cash grab’ for 2027 sprint debut",
-      "summary": "A popular grandstand has been locked behind a four-figure paywall - and that’s before the rising cost of the ticket.",
-      "ts": 1789598970000,
-      "img": "https://images.7news.com.au/publication/C-22882040/20819b3b4dbb69b0ef709e6ed71ef29f08cd84bd-16x9-x0y0w1280h720.jpg",
+      "headline": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown",
+      "summary": "The government wants to reduce net overseas migration to 225,000 people by 2028.",
+      "ts": 1789681142000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ba7/live/e6e6e4f0-b252-11f1-93a2-01f68b3e753d.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -168,32 +155,32 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Aussie F1 race gets a shake up",
-        "desc": "The 2027 Australian Grand Prix will be held on the first weekend of April, and will include a sprint race on the Saturday for the first time.",
-        "link": "https://www.theage.com.au/sport/motorsport/aussie-f1-race-gets-a-shake-up-20260917-p60y37.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Australia news LIVE: International students forced to consider their future after Labor’s migration overhaul; University bodies, charities slam Burke’s plan",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-international-students-forced-to-consider-their-futures-after-labor-s-migration-overhaul-university-bodies-charities-slam-burke-s-plan-20260918-p60yfo.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "7News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Australian Grand Prix organisers under fire over new membership ‘cash grab’ for 2027 sprint debut",
-        "desc": "A popular grandstand has been locked behind a four-figure paywall - and that’s before the rising cost of the ticket.",
-        "link": "https://7news.com.au/sport/motorsport/australian-grand-prix-organisers-under-fire-over-new-membership-cash-grab-for-2027-ticket-sales-c-22882040"
+        "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown",
+        "desc": "The government wants to reduce net overseas migration to 225,000 people by 2028.",
+        "link": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Aussie F1 Grand Prix loses season-opening honour but gains sprint race",
-        "desc": "Melbourne's Australian Grand Prix will not have the privilege of opening the 2027 Formula 1 season, but it will boast two races in its biggest weekend yet.",
-        "link": "https://www.abc.net.au/news/2026-09-17/f1-australian-grand-prix-gains-sprint-race-melbourne/107162234"
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Burke targets families of foreign students as migration plans finally arrive",
+        "desc": "A long time after he had first planned to tell us about his migration reforms, Tony Burke finally has everyone's attention at the Press Club. Meanwhile, concerns over the economy and AI continue to grow louder. The post Burke targets families of foreign students as migration plans finally arrive appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/09/17/tony-burke-migration-plans-foreign-students-jim-chalmers-intergenerational-report/"
        }
       ]
      },
      {
-      "id": 3,
-      "headline": "‘We’ll forget her soon enough’: Diana’s brother makes explosive claim about Charles",
-      "summary": "King Charles took the rare step of rebutting an allegation – made in a new book about Diana – that he said people would forget his first wife after her death in a car crash in 1997.",
-      "ts": 1789598734000,
-      "img": "https://static.ffx.io/images/$zoom_0.4389%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_79%2C$y_0/t_crop_custom/q_86%2Cf_jpg/21348ac384a93546e6709976368c1f06165d4d68",
+      "id": 2,
+      "headline": "Hyrox athlete apologises for continuing race after soiling herself",
+      "summary": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+      "ts": 1789669823000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae40/live/65f662f0-b2a5-11f1-bd7d-0f16235ccc4c.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -201,33 +188,33 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Palace says 'grief can cloud reason' in extraordinary response to Earl Spencer's claim that Charles told him Diana would be 'forgotten' days after her death",
-        "desc": "In allegations that will send shockwaves through the Royal Family, Charles Spencer's bombshell book lifts the lid on an incendiary row with the now King over funeral arrangements.",
-        "link": "https://www.dailymail.com/news/article-16136479/Charles-told-Earl-Spencer-forget-Diana-soon-enough.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Earl Spencer’s memoir claims Prince Charles said of Diana: ‘We’ll forget her soon enough’",
-        "desc": "Charles Spencer’s book, Swan Song: Diana, My Sister alleges comments were made during argument over Princess of Wales’ funeral arrangements Prince Charles told Earl Spencer days after the death of his sister Diana, Princess of Wales, that “rest assured, we’ll forget her soon enough”, it is alleged in a memoir to be published this month. Charles Spencer’s book, Swan Song: Diana, My Sister, contains",
-        "link": "https://www.theguardian.com/books/2026/sep/16/earl-spencer-memoir-prince-charles-diana-death-claims"
+        "title": "‘I’m genuinely sorry’: Australian Hyrox athlete who soiled herself apologises to China and rivals",
+        "desc": "Joanna Wietrzyk ‘regrets’ decision to keep racing She forfeits points from her win in the Beijing race Get our new political email, free app or daily news podcast The Australian athlete who caused a storm by winning a Hyrox event in China despite soiling herself during the race has apologised to the “people of China” and rival athletes in a statement online. Posting on Instagram, Joanna Wietrzyk o",
+        "link": "https://www.theguardian.com/sport/2026/sep/17/im-genuinely-sorry-australian-hyrox-athlete-who-soiled-herself-apologises-to-china-and-rivals"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘We’ll forget her soon enough’: Diana’s brother makes explosive claim about Charles",
-        "desc": "King Charles took the rare step of rebutting an allegation – made in a new book about Diana – that he said people would forget his first wife after her death in a car crash in 1997.",
-        "link": "https://www.theage.com.au/world/europe/we-ll-forget-her-soon-enough-diana-s-brother-makes-explosive-claim-about-charles-20260917-p60y1e.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Aussie HYROX athlete apologises after soiling herself during competition that sparked uproar around the world - as she reveals she's forfeited her win",
+        "desc": "Joanna Wietrzyk refused to stop competing despite streams of faeces flowing down her legs as she powered to victory during the HYROX event in Beijing on Saturday.",
+        "link": "https://www.dailymail.com/sport/othersports/article-16139105/Hyrox-athlete-apology.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Hyrox athlete apologises for continuing race after soiling herself",
+        "desc": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+        "link": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
-      "id": 4,
-      "headline": "Behind China's 'fearmongering' claim is a fundamental fear about AI",
-      "summary": "China and America are racing for AI supremacy, and neither will slow down while the other keeps surging. But that does not mean China is not worried about AI threats.",
-      "ts": 1789590282000,
+      "id": 3,
+      "headline": "'Mobilisation of fear': The deeper strategy behind One Nation's immigration policy",
+      "summary": "For temporary migrants, the rise of One Nation is raising an urgent question: how secure is their future?",
+      "ts": 1789681012000,
       "img": "https://assets.sbs.com.au/dims4/default/f56c1bb/2147483647/strip/false/crop/1920x882+0+99/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F7c%2F27%2F7279b778409688b72faba141b12b%2Fgfx-160926-one-nation-migration-cuts-lead-image.png",
       "divergent": null,
       "left_view": null,
@@ -236,11 +223,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Behind China's 'fearmongering' claim is a fundamental fear about AI",
-        "desc": "China and America are racing for AI supremacy, and neither will slow down while the other keeps surging. But that does not mean China is not worried about AI threats.",
-        "link": "https://www.abc.net.au/news/2026-09-17/china-and-america-ai-arms-race-proceeds-despite-warnings/107160610"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australia news live: Albanese to meet Apple’s Tim Cook in US after social media reform; Burke defends immigration policy",
+        "desc": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast NSW Labor government legislation to allow drivers with a prescription for medicinal cannabis to drive with traces of the drug in their system has passed through parliament last night. The legislation alters laws that saw drivers with traces of THC in their system immediately lose their licence for three months,",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/18/labor-migration-plan-tony-burke-coalition-qantas-renewable-energy-ntwnfb"
        },
        {
         "outlet": "SBS News",
@@ -248,22 +235,43 @@
         "title": "'Mobilisation of fear': The deeper strategy behind One Nation's immigration policy",
         "desc": "For temporary migrants, the rise of One Nation is raising an urgent question: how secure is their future?",
         "link": "https://www.sbs.com.au/news/article/temporary-migrants-cuts-voting-rights-one-nation/97u096arb"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Live: ASX eyes gains as Wall Street rallies",
+      "summary": "Australian shares head for a positive start after Wall Street rebounds, with tech stocks rallying as oil prices and global bond yields retreat. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+      "ts": 1789680574000,
+      "img": "https://static.ffx.io/images/$zoom_0.5568901851851852%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_146/t_crop_custom/q_86%2Cf_auto/fd444d7d1c87da35f1317667f1b33bf033f9cb25",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: ASX eyes gains as Wall Street rallies",
+        "desc": "Australian shares head for a positive start after Wall Street rebounds, with tech stocks rallying as oil prices and global bond yields retreat. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-09-18/asx-markets-business-news-live-updates-wall-st-rebounds/107160122"
        },
        {
-        "outlet": "Crikey",
+        "outlet": "The Age",
         "lean": "left",
-        "title": "How would One Nation’s immigration plan affect the labour market and economy?",
-        "desc": "One Nation seeks to reduce migration by any means necessary, but its latest plan could be an absolute disaster for the labour market. The post How would One Nation’s immigration plan affect the labour market and economy? appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/09/16/one-nation-immigration-policy-international-students-labour-economy/"
+        "title": "ASX set to rise, Wall Street climbs as oil prices slide, bond market pressure eases; UK keeps rates on hold",
+        "desc": "The US stock market rallied to its best day in six weeks after falling oil prices and easing pressure from the bond market helped Wall Street reverse many of its moves from the prior day, setting up the Australian sharemarket for a positive start to the session.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-wall-street-climbs-as-oil-prices-slide-and-pressure-from-the-bond-market-eases-20260918-p60yfh.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "EU chief backs plan for Canada to become 'associate member'",
-      "summary": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump.",
-      "ts": 1789589522000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4305/live/f4857df0-b1cc-11f1-b1d1-571ed4d7ff2c.jpg",
+      "headline": "Liberal Party grapples with promoting Alex Antic at high-stakes AGM",
+      "summary": "In a ballot that will have implications in Canberra, the South Australian Liberal Party is set to decide whether its future lies with the controversial right-wing senator.",
+      "ts": 1789679308000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/alex-golesh-auburn-baylor-mercedes-benz.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -271,34 +279,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "EU invites Canada as first associate",
-        "desc": "The European Union wants Canada to become the trading bloc's first associate member.",
-        "link": "https://www.theage.com.au/world/eu-invites-canada-as-first-associate-20260917-p60y1p.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "High stakes, social media barbs remind college football fans that Auburn and Florida share history of hatred",
+        "desc": "Auburn and Florida renew their 84-game rivalry as new head coaches Alex Golesh and Jon Sumrall face off in their first SEC game Saturday night.",
+        "link": "https://www.foxnews.com/outkick-sports/high-stakes-social-media-barbs-remind-college-football-fans-auburn-florida-share-history-hatred"
        },
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "European Union invites Canada to become first ever ‘associate member’",
-        "desc": "Commission president says EU must ‘urgently reimagine our partnerships’ as she makes unprecedented offer Canada has been invited to become the first “associate member” of the EU by the European Commission president, Ursula von der Leyen. In an unprecedented offer, von der Leyen said on Wednesday that the EU and Canada “see the world with the same eyes” through shared democratic values and common a",
-        "link": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member"
-       },
-       {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "EU chief backs plan for Canada to become 'associate member'",
-        "desc": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump.",
-        "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss"
+        "title": "Liberal Party grapples with promoting Alex Antic at high-stakes AGM",
+        "desc": "In a ballot that will have implications in Canberra, the South Australian Liberal Party is set to decide whether its future lies with the controversial right-wing senator.",
+        "link": "https://www.abc.net.au/news/2026-09-18/liberal-party-grapples-with-promoting-alex-antic-at-agm/107159920"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Tony Burke set to unveil Labor's new migration plan amid working holiday visa concerns",
-      "summary": "The expected announcement comes after delays which the government has attributed to the Opposition.",
-      "ts": 1789600209000,
-      "img": "https://assets.sbs.com.au/dims4/default/45af4ae/2147483647/strip/false/crop/8256x3793+0+399/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F51%2F7d%2F014159bd4ca1b5ea7d892270e761%2F20250325165644129209-original.jpg",
+      "headline": "Prime Minister heads to the United States",
+      "summary": "Anthony Albanese is heading the United States today aiming to push Australia's policies on global technology.",
+      "ts": 1789678912000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/92088146b8ae55404aff5bcc0db44b66b70158ea",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -308,16 +309,16 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Australia immigration announcement LIVE updates: Burke to unveil major migration changes in National Press Club speech; Joyce says visa overstayers would be deported for using public services under On",
-        "desc": "We will bring you the latest live news updates as Labor reveals its new migration policy.",
-        "link": "https://www.theage.com.au/politics/federal/australia-immigration-announcement-live-updates-tony-burke-to-unveil-major-changes-to-migration-system-in-national-press-club-speech-20260916-p60xxf.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Prime Minister heads to the United States",
+        "desc": "Anthony Albanese is heading the United States today aiming to push Australia's policies on global technology.",
+        "link": "https://www.theage.com.au/national/prime-minister-heads-to-the-united-states-20260918-p60yfz.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Tony Burke set to unveil Labor's new migration plan amid working holiday visa concerns",
-        "desc": "The expected announcement comes after delays which the government has attributed to the Opposition.",
-        "link": "https://www.sbs.com.au/news/article/tony-burke-set-to-unveil-labors-new-migration-plan/2i8jfzfdq"
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Could Pauline Hanson become prime minister as a senator? Yes, actually",
+        "desc": "The office of prime minister is not mentioned anywhere in the Australian constitution. Its existence, eligibility and function are governed by convention, not law. The post Could Pauline Hanson become prime minister as a senator? Yes, actually appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/09/17/pauline-hanson-senate-prime-minister/"
        }
       ]
      }
@@ -329,10 +330,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Australian politics live: Joyce dubs Burke ‘greatest no-show since Amelia Earhart’; Canavan defends Brethren church election involvement",
-      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Barnaby Joyce says Labor is copying and pasting One Nation’s homework because the measures we know so far around blocking the families of international students and preventing visa hopping have some similarity to what Pauline Hanson is suggesting. Speaking to the Today show a little earlier, Joyce says Burke’s l",
-      "ts": 1789600209000,
-      "img": "https://i.guim.co.uk/img/media/0c4ce5a2e6b939a09e2a2eabcff64b8125d9e424/650_0_6474_5183/master/6474.jpg?width=460&quality=85&auto=format&fit=max&s=0000bbc7ba3bab799385bc8f65871df9",
+      "headline": "Australia news live: Albanese to meet Apple’s Tim Cook in US after social media reform; Burke defends immigration policy",
+      "summary": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast The NSW opposition said the state Labor government’s new drug-driving laws would “[make] NSW roads less safe and [put] more lives at risk”, claiming the science on impairment from THC levels was not settled. Mark Coure, shadow minister for roads, said the government had “pushed ahead with the legislation despit",
+      "ts": 1789681458000,
+      "img": "https://i.guim.co.uk/img/media/303a5dcb0f36aee82d727bd4b6747af195b6f2cf/870_0_4349_3480/master/4349.jpg?width=460&quality=85&auto=format&fit=max&s=871d6c06e86ea9a93ca12e214d7df5c6",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -340,76 +341,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Australia immigration announcement LIVE updates: Burke to unveil major migration changes in National Press Club speech; Joyce says visa overstayers would be deported for using public services under On",
-        "desc": "We will bring you the latest live news updates as Labor reveals its new migration policy.",
-        "link": "https://www.theage.com.au/politics/federal/australia-immigration-announcement-live-updates-tony-burke-to-unveil-major-changes-to-migration-system-in-national-press-club-speech-20260916-p60xxf.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Australian politics live: Joyce dubs Burke ‘greatest no-show since Amelia Earhart’; Canavan defends Brethren church election involvement",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Barnaby Joyce says Labor is copying and pasting One Nation’s homework because the measures we know so far around blocking the families of international students and preventing visa hopping have some similarity to what Pauline Hanson is suggesting. Speaking to the Today show a little earlier, Joyce says Burke’s l",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/17/labor-immigration-policy-tony-burke-anthony-albanese-one-nation-ntwnfb"
+        "title": "Australia news live: Albanese to meet Apple’s Tim Cook in US after social media reform; Burke defends immigration policy",
+        "desc": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast The NSW opposition said the state Labor government’s new drug-driving laws would “[make] NSW roads less safe and [put] more lives at risk”, claiming the science on impairment from THC levels was not settled. Mark Coure, shadow minister for roads, said the government had “pushed ahead with the legislation despit",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/18/labor-migration-plan-tony-burke-coalition-qantas-renewable-energy-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "As it happened: International students’ families barred, backpacker ballot system announced as Burke attacks One Nation’s net-negative migration policy in Press Club speech",
+        "desc": "Rolling coverage of Labor’s new migration policy.",
+        "link": "https://www.theage.com.au/politics/federal/australia-immigration-announcement-live-updates-tony-burke-to-unveil-major-changes-to-migration-system-in-national-press-club-speech-20260916-p60xxf.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "‘Under the bus’: Artists sound alarm on latest AI copyright proposal",
-      "summary": "Stasiland author Anna Funder implored the prime minister to see through what she said was a disingenuous attempt by AI companies to link weaker copyright laws to greater data centre expansion.",
-      "ts": 1789542862000,
-      "img": "https://static.ffx.io/images/$zoom_0.1594%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_22%2C$y_0/t_crop_custom/q_86%2Cf_auto/41029829934e210d1961e43a14629f5c91a0e723",
+      "headline": "Fraud mastermind behind multimillion-dollar Ponzi scheme that victimized Travis Kelce is illegal immigrant",
+      "summary": "Siddharth Jawahar, an illegal immigrant from India, was sentenced to 11 years for a $35 million Ponzi scheme that victimized Travis Kelce and NBA stars.",
+      "ts": 1789660319000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Travis-Kelce-facepalm.png?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "‘Under the bus’: Artists sound alarm on latest AI copyright proposal",
-        "desc": "Stasiland author Anna Funder implored the prime minister to see through what she said was a disingenuous attempt by AI companies to link weaker copyright laws to greater data centre expansion.",
-        "link": "https://www.theage.com.au/politics/federal/under-the-bus-artists-sound-alarm-on-latest-ai-copyright-deal-20260916-p60xqb.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Fraud mastermind behind multimillion-dollar Ponzi scheme that victimized Travis Kelce is illegal immigrant",
+        "desc": "Siddharth Jawahar, an illegal immigrant from India, was sentenced to 11 years for a $35 million Ponzi scheme that victimized Travis Kelce and NBA stars.",
+        "link": "https://www.foxnews.com/politics/fraud-mastermind-multi-million-dollar-ponzi-scheme-victimized-travis-kelce-illegal-immigrant"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Labor accused of throwing creatives ‘under the bus’ with proposal to ease copyright protections for AI giants",
-        "desc": "Compromise revealed as senior personnel from OpenAI, creator of ChatGPT, meets Albanese ministers Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast The Albanese government is considering giving AI companies access to Australian creatives’ works by default as it pursues a compromise with US tech giants. The proposals were revealed as ",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/16/pocock-says-labor-easing-copyright-protections-for-ai-datacentre-investment-would-throw-creatives-under-the-bus"
+        "title": "Labor seats get more than 90% of funding distributed under controversial multimillion-dollar grants program",
+        "desc": "Guardian Australia analysis adds to concerns over the federal scheme, which is to be the subject of a Senate inquiry Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast Federal Labor seats have received more than 90% of funds already awarded in the first five months of a controversial multimillion-dollar grants program, adding to conce",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/16/community-grants-scheme-senate-inquiry-funding-favours-labor"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "IMF downgrades Australian economic forecast amid fears of interest rate hike",
-      "summary": "Global financial institution predicts Australia’s GDP will grow to just 1.6% in 2027 as Treasury faces rising energy costs and inflation Get our breaking news email, free app or daily news podcast The International Monetary Fund has downgraded its forecast for Australia’s economic growth in 2027, warning the Reserve Bank may have to hike interest rates further to get price pressures back under con",
-      "ts": 1789599633000,
-      "img": "https://i.guim.co.uk/img/media/236b0e52ce3b3a99e821d64a9b70e8f8dbf0a9c3/1447_254_6558_5247/master/6558.jpg?width=460&quality=85&auto=format&fit=max&s=20a1bd7e97e1fac9cc3567b3e7dba8b4",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "IMF downgrades Australian economic forecast amid fears of interest rate hike",
-        "desc": "Global financial institution predicts Australia’s GDP will grow to just 1.6% in 2027 as Treasury faces rising energy costs and inflation Get our breaking news email, free app or daily news podcast The International Monetary Fund has downgraded its forecast for Australia’s economic growth in 2027, warning the Reserve Bank may have to hike interest rates further to get price pressures back under con",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/17/imf-downgrades-australian-economic-forecast-amid-fears-of-interest-rate-hike"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Slash red tape and go hard on tax: IMF pushes Albanese to act",
-      "summary": "The federal government has been told that to lift living standards, it has to be bolder on tax, on housing, on cutting red tape.",
-      "ts": 1789599600000,
-      "img": "https://static.ffx.io/images/$zoom_0.7204%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_463%2C$y_0/t_crop_custom/q_86%2Cf_auto/b4d4679b61016b86ed9e4d8bdfc6eae188849788",
+      "headline": "Labor’s tough new migration rules target backpackers, foreign students and overstayers",
+      "summary": "Tony Burke will try to stem bleeding to One Nation by balancing economic needs with a crackdown on those who “seek to rort or defraud the system”.",
+      "ts": 1789634392000,
+      "img": "https://static.ffx.io/images/$zoom_0.2068%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_93%2C$y_26/t_crop_custom/q_86%2Cf_auto/946eb5fbeecccc82c241cd531f516417651d7b7e",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -419,18 +399,46 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Slash red tape and go hard on tax: IMF pushes Albanese to act",
-        "desc": "The federal government has been told that to lift living standards, it has to be bolder on tax, on housing, on cutting red tape.",
-        "link": "https://www.theage.com.au/politics/federal/imf-australia-20260916-p60xzj.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Labor’s tough new migration rules target backpackers, foreign students and overstayers",
+        "desc": "Tony Burke will try to stem bleeding to One Nation by balancing economic needs with a crackdown on those who “seek to rort or defraud the system”.",
+        "link": "https://www.theage.com.au/politics/federal/labor-migration-plan-revealed-burke-to-ramp-up-deportations-and-bring-in-backpacker-ballot-20260917-p60y39.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Labor announces new visa rules for foreign students bringing family to Australia – video",
+        "desc": "The home affairs minister, Tony Burke, has proposed changes to visa rules to stop international students from automatically bringing family members to Australia. Speaking at the National Press Club, Burke said exceptions would apply to students from Pacific and Asean nations and those undertaking certain courses, including PhDs. Families already in Australia on a student visa would not be separate",
+        "link": "https://www.theguardian.com/australia-news/video/2026/sep/17/labor-announces-new-visa-rules-for-foreign-students-bringing-family-to-australia-video"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "WATCH: Gaffe-prone Seattle socialist mayor cuts off police chief in yet another awkward interview",
+      "summary": "Seattle Assistant Police Chief Nicole Powell's uncomfortable reaction when asked about Flock cameras alongside Mayor Katie Wilson went viral online.",
+      "ts": 1789677251000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/katie-wilson-police-assistant-chief.png?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "WATCH: Gaffe-prone Seattle socialist mayor cuts off police chief in yet another awkward interview",
+        "desc": "Seattle Assistant Police Chief Nicole Powell's uncomfortable reaction when asked about Flock cameras alongside Mayor Katie Wilson went viral online.",
+        "link": "https://www.foxnews.com/politics/watch-gaffe-prone-seattle-socialist-mayor-cuts-off-police-chief-yet-another-awkward-interview"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "First data center bill clears House as both parties scramble for answers on affordability",
-      "summary": "The Ratepayer Protection Act passed the House with bipartisan support, aiming to stop data center energy costs from raising electric bills for families.",
-      "ts": 1789599469000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/data-center-va.png?ve=1&tl=1",
+      "headline": "Whyalla may make steel again one day. But years of uncertainty could still reshape the town",
+      "summary": "There is a shock reverberating through the regional South Australian town of Whyalla and its crisis-hit steelworks. This week, administrators KordaMentha and SA Premier Peter Malinauskas jointly announced they would abandon all attempts to restart the steelworks’ blast furnace. At least 500 workers will lose their jobs, along with 100 people employed through labour-hire arrangements. The future of",
+      "ts": 1789676237000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -438,20 +446,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "First data center bill clears House as both parties scramble for answers on affordability",
-        "desc": "The Ratepayer Protection Act passed the House with bipartisan support, aiming to stop data center energy costs from raising electric bills for families.",
-        "link": "https://www.foxnews.com/politics/first-data-center-bill-clears-house-republicans-democrats-scramble-answers-affordability-energy"
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Whyalla may make steel again one day. But years of uncertainty could still reshape the town",
+        "desc": "There is a shock reverberating through the regional South Australian town of Whyalla and its crisis-hit steelworks. This week, administrators KordaMentha and SA Premier Peter Malinauskas jointly announced they would abandon all attempts to restart the steelworks’ blast furnace. At least 500 workers will lose their jobs, along with 100 people employed through labour-hire arrangements. The future of",
+        "link": "https://theconversation.com/whyalla-may-make-steel-again-one-day-but-years-of-uncertainty-could-still-reshape-the-town-291979"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Democrats begrudgingly hand Trump victory on tariffs in sprawling sanctions bill",
-      "summary": "Several Democrats joined Republicans to pass the Russia sanctions bill, but critics warn Trump could use broad tariff authority against allies.",
-      "ts": 1789597775000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/donald-trump-dallas-rnc.png?ve=1&tl=1",
+      "headline": "Starbucks resolves Florida DEI lawsuit with blockbuster nationwide agreement",
+      "summary": "The Starbucks settlement requires four years of annual compliance certifications and applies to all company operations, not just Florida stores.",
+      "ts": 1789675384000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/12/931/523/uthmeier-sues-starbucks.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -461,9 +469,9 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Democrats begrudgingly hand Trump victory on tariffs in sprawling sanctions bill",
-        "desc": "Several Democrats joined Republicans to pass the Russia sanctions bill, but critics warn Trump could use broad tariff authority against allies.",
-        "link": "https://www.foxnews.com/politics/democrats-begrudgingly-hand-trump-victory-tariffs-sprawling-sanctions-bill"
+        "title": "Starbucks resolves Florida DEI lawsuit with blockbuster nationwide agreement",
+        "desc": "The Starbucks settlement requires four years of annual compliance certifications and applies to all company operations, not just Florida stores.",
+        "link": "https://www.foxnews.com/politics/starbucks-resolves-florida-dei-lawsuit-blockbuster-nationwide-agreement"
        }
       ]
      }
@@ -475,10 +483,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-      "summary": "Group plans to be largely out of commission for several weeks.",
-      "ts": 1789592894000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/astroid-international-meteor-organization.jpg",
+      "headline": "The AI Superintelligence Slowdown",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development. Their motivations",
+      "ts": 1789673304000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -486,19 +494,19 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-        "desc": "Group plans to be largely out of commission for several weeks.",
-        "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/"
+        "title": "The AI Superintelligence Slowdown",
+        "desc": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development. Their motivations",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-      "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether. The new film, called Odysseus: The Fall, comes via AI firm Fountain 0 and is written and directed by company cofounder",
-      "ts": 1789592353000,
+      "headline": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: Under the hood, each thread is a Claude Code cloud sessio",
+      "ts": 1789671485000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -509,38 +517,17 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
-        "desc": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether. The new film, called Odysseus: The Fall, comes via AI firm Fountain 0 and is written and directed by company cofounder",
-        "link": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review"
+        "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+        "desc": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: Under the hood, each thread is a Claude Code cloud sessio",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Lionsgate releases a new trailer for Sunrise on the Reaping",
-      "summary": "Also: Laika Studios debuts a stunning full-length trailer for its stop-motion feature, Wildwood.",
-      "ts": 1789591481000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/sunrise-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Lionsgate releases a new trailer for Sunrise on the Reaping",
-        "desc": "Also: Laika Studios debuts a stunning full-length trailer for its stop-motion feature, Wildwood.",
-        "link": "https://arstechnica.com/culture/2026/09/haymitch-gets-a-backstory-in-sunrise-on-the-reaping-trailer/"
-       }
-      ]
-     },
-     {
-      "id": 16,
-      "headline": "The AI data center e-waste problem is huge — and getting bigger",
-      "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than previous studies have found because the authors of the new report factor in all the infrastructure n",
-      "ts": 1789591246000,
+      "headline": "Save $30 or more on a refurbished Apple TV 4K",
+      "summary": "The refurbished Apple TV 4K with its voice remote. | Image: The Verge Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lower than the new retail price. The upgraded model, w",
+      "ts": 1789665247000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -551,18 +538,39 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The AI data center e-waste problem is huge — and getting bigger",
-        "desc": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than previous studies have found because the authors of the new report factor in all the infrastructure n",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban"
+        "title": "Save $30 or more on a refurbished Apple TV 4K",
+        "desc": "The refurbished Apple TV 4K with its voice remote. | Image: The Verge Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lower than the new retail price. The upgraded model, w",
+        "link": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale"
+       }
+      ]
+     },
+     {
+      "id": 16,
+      "headline": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+      "summary": "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the reality is that it has been 15 years in the making and is now a big part of Xbox's ongoing game preservation efforts. Ahead of",
+      "ts": 1789660800000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+        "desc": "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the reality is that it has been 15 years in the making and is now a big part of Xbox's ongoing game preservation efforts. Ahead of",
+        "link": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
-      "summary": "New system-level tools bring Arm chipsets, Android APKs into the Steam ecosystem.",
-      "ts": 1789590196000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/steam.jpeg",
+      "headline": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
+      "summary": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by Kodak film cameras in the 1970s. The Camp Snap 110D is available for preorder starting today for $74.95 in back in black (black and gray) or dreamsicle (white and orange) color options with matching accessories. The Camp",
+      "ts": 1789657200000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -570,20 +578,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
-        "desc": "New system-level tools bring Arm chipsets, Android APKs into the Steam ecosystem.",
-        "link": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/"
+        "title": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
+        "desc": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by Kodak film cameras in the 1970s. The Camp Snap 110D is available for preorder starting today for $74.95 in back in black (black and gray) or dreamsicle (white and orange) color options with matching accessories. The Camp",
+        "link": "https://www.theverge.com/tech/996453/camp-snap-110d-digital-camera-retro-horizontal-kodak-100-film"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "California may gut state net neutrality law to comply with Trump admin demand",
-      "summary": "Trump admin broadband grants forbid states from enforcing net neutrality laws.",
-      "ts": 1789587404000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2024/04/getty-network-1152x648.jpg",
+      "headline": "Your robotaxi might be a narc",
+      "summary": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Times. Police arrested the passengers after allegedly finding a loaded AR-style \"ghost gun\" in the vehicle. The arrests ex",
+      "ts": 1789657200000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -591,11 +599,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Ars Technica",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "California may gut state net neutrality law to comply with Trump admin demand",
-        "desc": "Trump admin broadband grants forbid states from enforcing net neutrality laws.",
-        "link": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/"
+        "title": "Your robotaxi might be a narc",
+        "desc": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Times. Police arrested the passengers after allegedly finding a loaded AR-style \"ghost gun\" in the vehicle. The arrests ex",
+        "link": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance"
        }
       ]
      }
@@ -607,10 +615,101 @@
     "stories": [
      {
       "id": 19,
-      "headline": "US Fed hikes interest rates to curb inflation as Trump calls for cut",
-      "summary": "The US economy has been dealing with years of higher-than-target inflation, and prices have surged in the wake of Mr Trump's war on Iran, his signature tariff policies and the ongoing AI boom.",
-      "ts": 1789599633000,
-      "img": "https://i.guim.co.uk/img/media/236b0e52ce3b3a99e821d64a9b70e8f8dbf0a9c3/1447_254_6558_5247/master/6558.jpg?width=460&quality=85&auto=format&fit=max&s=20a1bd7e97e1fac9cc3567b3e7dba8b4",
+      "headline": "Business and miners back Labor's migration policies, but farmers angry",
+      "summary": "Business groups, miners, and the housing industry welcome the Albanese government's changes to the migration system, but farmers and the hospitality and tourism industries say they will make labour shortages worse.",
+      "ts": 1789670679000,
+      "img": "https://i.guim.co.uk/img/media/23e0642a95fa00b2db1c1086e56a5c793e0ff2b0/505_0_5023_4021/master/5023.jpg?width=460&quality=85&auto=format&fit=max&s=95fafa82053ca1e18b3247e0296df4d8",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Business and miners back Labor's migration policies, but farmers angry",
+        "desc": "Business groups, miners, and the housing industry welcome the Albanese government's changes to the migration system, but farmers and the hospitality and tourism industries say they will make labour shortages worse.",
+        "link": "https://www.abc.net.au/news/2026-09-18/business-groups-and-miners-welcome-labors-migration-policies/107163600"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Amid claims of ‘mass migration’, Labor hopes a measured approach will take the hot air out of the debate",
+        "desc": "The country’s migration settings have become a source of discontent – but will Tony Burke’s approach be seen as the right mix? Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Tony Burke has promised to make Labor’s existing migration policy work better rather than announcing a dramatic cut in numbers, arguing that populist promises",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/18/amid-claims-of-mass-migration-labor-hopes-a-measured-approach-will-take-the-hot-air-out-of-the-debate"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Labor has finally poked its head out of the sand on migration",
+        "desc": "Polls have warned about this since support for One Nation began to rise. The government has spent almost its entire time in power hoping it would go away.",
+        "link": "https://www.afr.com/politics/federal/labor-has-finally-poked-its-head-out-of-the-sand-on-migration-20260917-p60xdc?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "ASX to rise, Wall St rallies as oil eases, global bond yields drop",
+      "summary": "Australian shares are set to rally in line with Wall Street as oil traded below $US105 a barrel; RBA testimony ahead; BoE holds; BoJ poised to lift. Follow live.",
+      "ts": 1789681107000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX to rise, Wall St rallies as oil eases, global bond yields drop",
+        "desc": "Australian shares are set to rally in line with Wall Street as oil traded below $US105 a barrel; RBA testimony ahead; BoE holds; BoJ poised to lift. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-wall-st-rallies-as-oil-ease-global-bond-yields-drop-20260918-p60yfd?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX gains as oil prices, bond yields ease; Big four banks advance",
+        "desc": "The Australian sharemarket has risen for the second day in a row after the Federal Reserve’s first interest rate rise in three years and a drop in oil prices.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-slide-wall-street-steady-as-fed-raises-rates-signals-one-more-hike-this-year-20260917-p60y1c.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Social media and cultural taste sparks demand for exotic fruits",
+      "summary": "Tropical fruits previously rare to Far North Queensland are finding a booming customer base in capital cities as retailers stock more of the unusual produce.",
+      "ts": 1789680916000,
+      "img": "https://i.guim.co.uk/img/media/303a5dcb0f36aee82d727bd4b6747af195b6f2cf/870_0_4349_3480/master/4349.jpg?width=460&quality=85&auto=format&fit=max&s=871d6c06e86ea9a93ca12e214d7df5c6",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia news live: Albanese to meet Apple’s Tim Cook in US after social media reform; Burke defends immigration policy",
+        "desc": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast NSW Labor government legislation to allow drivers with a prescription for medicinal cannabis to drive with traces of the drug in their system has passed through parliament last night. The legislation alters laws that saw drivers with traces of THC in their system immediately lose their licence for three months,",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/18/labor-migration-plan-tony-burke-coalition-qantas-renewable-energy-ntwnfb"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Social media and cultural taste sparks demand for exotic fruits",
+        "desc": "Tropical fruits previously rare to Far North Queensland are finding a booming customer base in capital cities as retailers stock more of the unusual produce.",
+        "link": "https://www.abc.net.au/news/2026-09-18/exotic-fruits-gain-popularity-in-urban-centres/107163140"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "Major airlines cut flights as higher jet fuel prices hit carriers",
+      "summary": "Executives at American, United and Southwest said higher fuel costs are squeezing airlines, though resilient travel demand has helped offset some of the pressure.",
+      "ts": 1789679403000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2022/10/United-Airlines-787.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -618,104 +717,27 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "IMF downgrades Australian economic forecast amid fears of interest rate hike",
-        "desc": "Global financial institution predicts Australia’s GDP will grow to just 1.6% in 2027 as Treasury faces rising energy costs and inflation Get our breaking news email, free app or daily news podcast The International Monetary Fund has downgraded its forecast for Australia’s economic growth in 2027, warning the Reserve Bank may have to hike interest rates further to get price pressures back under con",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/17/imf-downgrades-australian-economic-forecast-amid-fears-of-interest-rate-hike"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "US Fed hikes interest rates to curb inflation as Trump calls for cut",
-        "desc": "The US economy has been dealing with years of higher-than-target inflation, and prices have surged in the wake of Mr Trump's war on Iran, his signature tariff policies and the ongoing AI boom.",
-        "link": "https://www.abc.net.au/news/2026-09-17/us-fed-raises-interest-rates-to-curb-inflation-trump/107162150"
-       },
-       {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Federal Reserve hikes interest rates for first time since 2023 amid stubborn inflation",
-        "desc": "The Federal Reserve raised its key interest rate for the first time in three years amid persistent inflation caused in part by high energy prices.",
-        "link": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-september-16-2026"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Anthropic inks Queensland data centre deal worth five times Olympics budget",
-      "summary": "A $32 billion data centre proposed for a site west of Brisbane will be used by AI giant Anthropic.",
-      "ts": 1789539482000,
-      "img": "https://i.guim.co.uk/img/media/f3f5c72c2b6961a5c5bc3cdb404f5a2048dc4894/583_0_2915_2333/master/2915.jpg?width=460&quality=85&auto=format&fit=max&s=5396f494c36531ee129f178919811fee",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Anthropic inks Queensland data centre deal worth five times Olympics budget",
-        "desc": "A $32 billion data centre proposed for a site west of Brisbane will be used by AI giant Anthropic.",
-        "link": "https://www.abc.net.au/news/2026-09-16/queensland-data-centre-anthropic-dalby/107160640"
+        "title": "Major airlines cut flights as higher jet fuel prices hit carriers",
+        "desc": "Executives at American, United and Southwest said higher fuel costs are squeezing airlines, though resilient travel demand has helped offset some of the pressure.",
+        "link": "https://www.foxbusiness.com/markets/major-airlines-cut-flights-higher-jet-fuel-prices-hit-carriers"
        },
        {
-        "outlet": "Guardian AU Business",
+        "outlet": "The Age Business",
         "lean": "left",
-        "title": "Anthropic lands deal in $31bn datacentre in western Queensland, David Crisafulli says",
-        "desc": "Premier describes deal as ‘major win’ that will deliver more jobs for the state and put more energy into its grid Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthropic, the AI company behind the large language model Claude, has done a deal to lease the site of its first Australian datacentre in western Queensland. The $31.9bn d",
-        "link": "https://www.theguardian.com/technology/2026/sep/16/anthropic-lands-31bn-datacentre-deal-in-western-queensland"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "Australian politics live: Joyce dubs Burke ‘greatest no-show since Amelia Earhart’; Canavan defends Brethren church election involvement",
-      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Barnaby Joyce says Labor is copying and pasting One Nation’s homework because the measures we know so far around blocking the families of international students and preventing visa hopping have some similarity to what Pauline Hanson is suggesting. Speaking to the Today show a little earlier, Joyce says Burke’s l",
-      "ts": 1789600194000,
-      "img": "https://i.guim.co.uk/img/media/0c4ce5a2e6b939a09e2a2eabcff64b8125d9e424/650_0_6474_5183/master/6474.jpg?width=460&quality=85&auto=format&fit=max&s=0000bbc7ba3bab799385bc8f65871df9",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australian politics live: Joyce dubs Burke ‘greatest no-show since Amelia Earhart’; Canavan defends Brethren church election involvement",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Barnaby Joyce says Labor is copying and pasting One Nation’s homework because the measures we know so far around blocking the families of international students and preventing visa hopping have some similarity to what Pauline Hanson is suggesting. Speaking to the Today show a little earlier, Joyce says Burke’s l",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/17/labor-immigration-policy-tony-burke-anthony-albanese-one-nation-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "Why your first $1m is the hardest step – and how to keep it growing",
-      "summary": "Crossing this threshold, which defines you as high net worth, is a critical point when compounding investment returns start outpacing regular salary savings.",
-      "ts": 1789600186000,
-      "img": "https://static.ffx.io/images/$zoom_0.3309%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/c71b36b5de9e63e8335427e65386723e7f36da27c094416e12f95f5f6b9adba4",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Why your first $1m is the hardest step – and how to keep it growing",
-        "desc": "Crossing this threshold, which defines you as high net worth, is a critical point when compounding investment returns start outpacing regular salary savings.",
-        "link": "https://www.afr.com/wealth/investing/why-your-first-1m-is-the-hardest-step-and-how-to-keep-it-growing-20260909-p60vsz?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX set to rise, Wall Street climbs as oil prices slide, bond market pressure eases; UK keeps rates on hold",
+        "desc": "The US stock market rallied to its best day in six weeks after falling oil prices and easing pressure from the bond market helped Wall Street reverse many of its moves from the prior day, setting up the Australian sharemarket for a positive start to the session.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-wall-street-climbs-as-oil-prices-slide-and-pressure-from-the-bond-market-eases-20260918-p60yfh.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Labor backs down on veterans’ allied healthcare cap",
-      "summary": "Veterans minister says government has ‘listened’ and scrapped proposed $5000 cap; Hanson says migration cut ‘the will of the people’; Mark Scott says focus on headline migration numbers risk making students feel unwelcome. Follow live updates.",
-      "ts": 1789600178000,
-      "img": "https://static.ffx.io/images/$zoom_0.186%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/2d5745668cc72b55db289b6aa42ea96d30c79abd",
+      "headline": "Inside the KPMG whistleblower claims rocking Macquarie’s board",
+      "summary": "Michelle Hinchliffe allegedly helped the accounting firm, of which she was a partner for decades, to wargame its bid for a lucrative audit, new documents claim.",
+      "ts": 1789671600000,
+      "img": "https://static.ffx.io/images/$zoom_0.3309%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/8f522c5ed27dfb905a5c326d940e5dfbfaa56b12bbf967c3e8272f4e3ff13338",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -725,18 +747,25 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Labor backs down on veterans’ allied healthcare cap",
-        "desc": "Veterans minister says government has ‘listened’ and scrapped proposed $5000 cap; Hanson says migration cut ‘the will of the people’; Mark Scott says focus on headline migration numbers risk making students feel unwelcome. Follow live updates.",
-        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-saudi-arabia-attacks-yemen-rebels-it-accuses-of-targeting-mecca-20260917-p60y11?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Inside the KPMG whistleblower claims rocking Macquarie’s board",
+        "desc": "Michelle Hinchliffe allegedly helped the accounting firm, of which she was a partner for decades, to wargame its bid for a lucrative audit, new documents claim.",
+        "link": "https://www.afr.com/companies/financial-services/inside-the-kpmg-whistleblower-claims-rocking-macquarie-s-board-20260918-p60y2v?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "KPMG consultant admits to ‘gaps’ in its whistleblower report",
+        "desc": "A comprehensive report on KPMG’s whistleblower failings has come up short, as key staff weren’t interviewed and there were no records of crucial meetings.",
+        "link": "https://www.theage.com.au/business/companies/kpmg-consultant-admits-to-gaps-in-its-whistleblower-report-20260917-p60y8m.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Cut spending and mind cost of tax reforms, IMF urges Labor",
-      "summary": "The International Monetary Fund has urged the federal and state governments to cut spending to rein in inflation and rising interest costs on $1.6 trillion of public debt.",
-      "ts": 1789599603000,
-      "img": "https://static.ffx.io/images/$zoom_0.2523%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/302acdee0b7251346cee73d5599681a5b1799116",
+      "headline": "Why Australia has a 'fuel costs crisis' not a fuel supply crisis when it comes to diesel",
+      "summary": "The \"crack spread\", or profit margin, on diesel is increasing as refiners capitalise on the Middle East conflict, and it's hurting the slim margins of Australia's farmers.",
+      "ts": 1789671483000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_82/t_crop_custom/q_86%2Cf_auto/ce67030c749c24d7e4ba64f3a09869195c00aad4",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -744,11 +773,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Cut spending and mind cost of tax reforms, IMF urges Labor",
-        "desc": "The International Monetary Fund has urged the federal and state governments to cut spending to rein in inflation and rising interest costs on $1.6 trillion of public debt.",
-        "link": "https://www.afr.com/policy/economy/cut-spending-and-mind-cost-of-tax-reforms-imf-urges-labor-20260916-p60xwb?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Why Australia has a 'fuel costs crisis' not a fuel supply crisis when it comes to diesel",
+        "desc": "The \"crack spread\", or profit margin, on diesel is increasing as refiners capitalise on the Middle East conflict, and it's hurting the slim margins of Australia's farmers.",
+        "link": "https://www.abc.net.au/news/2026-09-18/diesel-crack-spread-filling-oil-refiners-coffers/107159068"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Supply crunch hits Australian fuel distributors at east-coast ports",
+        "desc": "Independent fuel distributors are struggling to access their usual volumes of petrol and diesel at key east-coast terminals, adding pressure to small service stations.",
+        "link": "https://www.theage.com.au/business/consumer-affairs/supply-crunch-hits-australian-fuel-distributors-at-east-coast-ports-20260916-p60xvd.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -760,10 +796,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Saudi club given stadium ban over Jota chants towards Neves",
-      "summary": "Saudi Pro League side Al-Taawoun are ordered to play two matches behind closed doors after supporters taunted Ruben Neves over the death of friend Diogo Jota.",
-      "ts": 1789593194000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e84/live/b2b59ee0-b1ff-11f1-a4a7-291ff3d1006b.jpg",
+      "headline": "This Olympic river has 500 crocodiles in it - but that's not the main concern",
+      "summary": "Queensland's Fitzroy River has been selected for the 2032 Games, despite concerns over the course - and its inhabitants.",
+      "ts": 1789673723000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3892/live/bc8899c0-b251-11f1-aeda-b3619ea893bd.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -771,27 +807,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Saudi Pro League club Al-Taawoun handed stadium ban over Diogo Jota chants",
-        "desc": "Fans heard shouting chants of ‘Jota’ against Al-Hilal Ronaldo had called for lifetime bans for those supporters The Saudi Pro League club Al-Taawoun have been fined nearly £20,000 and given a two-game stadium ban after fans chanted about the late Liverpool and Portugal forward Diogo Jota. The Al-Hilal midfielder Rúben Neves, who played with Jota for Wolves and Portugal, was shown gesturing to the ",
-        "link": "https://www.theguardian.com/football/2026/sep/16/saudi-pro-league-club-al-taawoun-handed-stadium-ban-over-diogo-jota-chants"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Saudi club given stadium ban over Jota chants towards Neves",
-        "desc": "Saudi Pro League side Al-Taawoun are ordered to play two matches behind closed doors after supporters taunted Ruben Neves over the death of friend Diogo Jota.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cwp842plmyymo?at_medium=RSS&at_campaign=rss"
+        "title": "This Olympic river has 500 crocodiles in it - but that's not the main concern",
+        "desc": "Queensland's Fitzroy River has been selected for the 2032 Games, despite concerns over the course - and its inhabitants.",
+        "link": "https://www.bbc.co.uk/news/articles/c68xkypqyxw7o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Crocodile-inhabited river approved as Brisbane 2032 Olympic rowing venue",
+        "desc": "International Olympic Committee endorses Fitzroy River course World Rowing and Paddle Worldwide back Australian venue A crocodile habitat has been given the green light to host 2032 rowing after the controversial site passed an assessment “with flying colours”. Olympic authorities on Thursday confirmed they had approved central Queensland’s Fitzroy River as a Brisbane Games venue, ending months of",
+        "link": "https://www.theguardian.com/sport/2026/sep/17/fitzroy-rockhampton-australia-crocodile-inhabited-river-approved-to-host-rowing-brisbane-2032-olympics"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Rockhampton’s Fitzroy River crocodile habitat approved to host rowing at Brisbane 2032 Olympics",
+        "desc": "‘Many have said it can’t be done’ but now it’s official ‘with flying colours’.",
+        "link": "https://7news.com.au/sport/olympics/rockhamptons-fitzroy-river-crocodile-habitat-approved-to-host-rowing-at-brisbane-2032-olympics-c-22883050"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Fremantle coach Justin Longmuir delivers crushing call to defender Brennan Cox for preliminary final",
-      "summary": "‘He took it really maturely. He understood.’",
-      "ts": 1789570824000,
-      "img": "https://images.7news.com.au/publication/C-22877706/e6d5971a52037cb30e8a11cdfbbe0251261a2c65-16x9-x0y2w1280h720.jpg",
+      "headline": "Hyrox athlete apologises for continuing race after soiling herself",
+      "summary": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+      "ts": 1789669823000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ae40/live/65f662f0-b2a5-11f1-bd7d-0f16235ccc4c.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -801,53 +844,32 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "AFL finals: where the Hawthorn v Brisbane preliminary final will be won and lost | Martin Pegan",
-        "desc": "The Hawks meet the modern-day Lions in a final for the first time as they aim to end the back-to-back premiers’ bid for a rare three-peat Sign up for our free weekly AFL newsletter Hawthorn are well placed to make the leap into a first grand final since 2015 after building steadily across three finals campaigns and putting on a dominant qualifying final display. A victory over Brisbane at this sta",
-        "link": "https://www.theguardian.com/sport/blog/2026/sep/17/afl-hawthorn-vs-brisbane-preliminary-final-players-predicitons"
+        "title": "‘I’m genuinely sorry’: Australian Hyrox athlete who soiled herself apologises to China and rivals",
+        "desc": "Joanna Wietrzyk ‘regrets’ decision to keep racing She forfeits points from her win in the Beijing race The Australian athlete who caused a storm by winning a Hyrox event in China despite soiling herself during the race has apologised to the “people of China” and rival athletes in a statement online. Posting on Instagram, Joanna Wietrzyk offered a “sincere apology” to the “people of China, my fello",
+        "link": "https://www.theguardian.com/sport/2026/sep/17/im-genuinely-sorry-australian-hyrox-athlete-who-soiled-herself-apologises-to-china-and-rivals"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Hyrox athlete apologises for continuing race after soiling herself",
+        "desc": "Joanna Wietrzyk has also forfeited her win in the fitness competition after competing last week.",
+        "link": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Fremantle coach Justin Longmuir delivers crushing call to defender Brennan Cox for preliminary final",
-        "desc": "‘He took it really maturely. He understood.’",
-        "link": "https://7news.com.au/sport/afl/fremantle-coach-justin-longmuir-delivers-crushing-call-to-defender-brennan-cox-for-preliminary-final-c-22877706"
+        "title": "PUMA drops athlete’s line from online shop after HYROX defecation fiasco",
+        "desc": "The retail line of workout gear quietly disappeared from the global sports brand’s online store.",
+        "link": "https://7news.com.au/sport/puma-drops-athletes-line-from-online-shop-after-hyrox-poo-fiasco-c-22883406"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Kane’s countdown: Nick Watson takes top spot in the top 10 players left in AFL finals",
-      "summary": "Charlie Curnow and Lachie Neale are among the big-name stars to miss out.",
-      "ts": 1789536389000,
-      "img": "https://images.7news.com.au/publication/C-22877349/33e25a72817357ed6ad647a0a6e59cb19c86be1c-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "From the Pocket: Nick Watson makes his case as AFL’s best small forward – just when Hawthorn need him most",
-        "desc": "Want to get this in your inbox every Wednesday afternoon? Sign up for the AFL newsletter here The Nick Watson moment came on Dustin Martin’s day. It was Dusty’s 300th, complete with pop-up barbers, the opening goal of the game and the final significant act of his career, when he walked to all four corners of the centre square and acknowledged his crowd. Michael Willson’s photo of Martin exiting th",
-        "link": "https://www.theguardian.com/sport/2026/sep/16/nick-watson-makes-his-case-as-afls-best-small-forward-just-when-hawthorn-need-him-most"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Kane’s countdown: Nick Watson takes top spot in the top 10 players left in AFL finals",
-        "desc": "Charlie Curnow and Lachie Neale are among the big-name stars to miss out.",
-        "link": "https://7news.com.au/sport/afl/kanes-countdown-nick-watson-takes-top-spot-in-the-top-10-players-left-in-afl-finals-c-22877349"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Boehly and Walter sell Chelsea stakes to Clearlake",
-      "summary": "Clearlake Capital acquires full control of Chelsea as chairman Todd Boehly, director Mark Walter and Hansjorg Wyss sell their stakes in the club.",
-      "ts": 1789600097000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb7a/live/5c0f70d0-6139-11ee-ac8c-9d18dbc280ea.png",
+      "headline": "How an Aston Villa fringe player became Europe's most prolific scorer",
+      "summary": "No player in Europe's top five leagues has scored more goals than Donyell Malen since his Roma debut in January - BBC Sport examines his transformation.",
+      "ts": 1789633823000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2808/live/0b3a06f0-b1e7-11f1-ac01-a9af2f94b2cc.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -857,18 +879,46 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Boehly and Walter sell Chelsea stakes to Clearlake",
-        "desc": "Clearlake Capital acquires full control of Chelsea as chairman Todd Boehly, director Mark Walter and Hansjorg Wyss sell their stakes in the club.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cvrl6egl1254o?at_medium=RSS&at_campaign=rss"
+        "title": "How an Aston Villa fringe player became Europe's most prolific scorer",
+        "desc": "No player in Europe's top five leagues has scored more goals than Donyell Malen since his Roma debut in January - BBC Sport examines his transformation.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cvj64wg0lgeyo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Why Coventry, Tottenham and Aston Villa should not panic about their slow starts",
+        "desc": "Coventry have no points, Spurs have no goals and Villa have dipped again. But what does a bad start really mean? By Opta Analyst That optimism we feel at the start of a new season can be intoxicating. Whatever happened last season, there has been a whole summer to correct things. New signings, possibly a new manager, and new possibilities. What could go wrong? Oh, everything. Terrific. We’re only ",
+        "link": "https://www.theguardian.com/football/2026/sep/16/coventry-aston-villa-tottenham-not-panic-slow-starts-points-scored"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Champion Van Gerwen loses in first round to Gurney",
+      "summary": "Defending champion Michael van Gerwen falls to a 6-5 defeat by Daryl Gurney in the opening round of the World Series of Darts Finals in Amsterdam.",
+      "ts": 1789681118000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a43/live/bfa1b070-b2dc-11f1-b227-bbba053e356a.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Champion Van Gerwen loses in first round to Gurney",
+        "desc": "Defending champion Michael van Gerwen falls to a 6-5 defeat by Daryl Gurney in the opening round of the World Series of Darts Finals in Amsterdam.",
+        "link": "https://www.bbc.co.uk/sport/darts/articles/crje8nkdkj28o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "‘We can’t accept that’: Carrick urges Manchester United to respond after cup collapse",
-      "summary": "‘I take responsibility … it doesn’t feel good at the moment’ United beaten 3-2 by Brighton after taking two-goal lead Michael Carrick admitted Manchester United’s Carabao Cup capitulation against Brighton that was greeted by boos at Old Trafford was unacceptable and that answers had to be found at Fulham on Sunday. United were knocked out 3-2 by Fabian Hürzeler’s visitors after leading 2-0 after 1",
-      "ts": 1789598954000,
-      "img": "https://i.guim.co.uk/img/media/e988647443e638df57da1c0bc0d90a3e459f7184/489_418_3713_2971/master/3713.jpg?width=460&quality=85&auto=format&fit=max&s=9502fa5687d66417acf8a7c496a49c62",
+      "headline": "Fin Smith sets England autumn ultimatum to hit form",
+      "summary": "England fly-half Fin Smith says an under-par autumn would trigger fundamental questions about the team's direction.",
+      "ts": 1789680982000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eee7/live/7eb629a0-b2dd-11f1-b227-bbba053e356a.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -876,20 +926,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "‘We can’t accept that’: Carrick urges Manchester United to respond after cup collapse",
-        "desc": "‘I take responsibility … it doesn’t feel good at the moment’ United beaten 3-2 by Brighton after taking two-goal lead Michael Carrick admitted Manchester United’s Carabao Cup capitulation against Brighton that was greeted by boos at Old Trafford was unacceptable and that answers had to be found at Fulham on Sunday. United were knocked out 3-2 by Fabian Hürzeler’s visitors after leading 2-0 after 1",
-        "link": "https://www.theguardian.com/football/2026/sep/16/michael-carrick-manchester-united-carabao-cup-third-round-defeat-brighton"
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Fin Smith sets England autumn ultimatum to hit form",
+        "desc": "England fly-half Fin Smith says an under-par autumn would trigger fundamental questions about the team's direction.",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqjdv900rmego?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Raphinha cashes in against Santander with hat-trick as Barça hit seven",
-      "summary": "Cancelo, Jesus and Lamine Yamal also score in rout Atlético Madrid thrash Osasuna 4-0 to move into third Raphinha scored a hat-trick as Barcelona ripped Racing Santander to shreds in a spectacular 7-2 triumph in La Liga on Wednesday. The win makes Hansi Flick the club’s first manager to win ⁠the opening seven competitive matches of a season. João Cancelo, Gabriel Jesus and Lamine Yamal also scored",
-      "ts": 1789596633000,
-      "img": "https://i.guim.co.uk/img/media/cd2fb3968c3fdc35e781d4c6f0a91868a3a895f0/574_45_1887_1509/master/1887.jpg?width=460&quality=85&auto=format&fit=max&s=ecbfc89809a9eb2c31149699aec1ccbb",
+      "headline": "Real Sociedad 1-2 Bournemouth, Crystal Palace 4-0 Lech Poznan, and more: Europa League – as it happened",
+      "summary": "A good night for Bournemouth and Palace but a miserable one for Celtic TNT’s Connie McLaughlin asks Celtic boss Martin O’Neill to “talk to us about the thinking behind” replacing goalkeeper Sam Johnstone with Viljami Sinisalo … and receives an unnecessarily abrupt and cranky response. “No I’ll not talk to you about the thinking behind that … he was always going to play … believe it or not, Connie,",
+      "ts": 1789680781000,
+      "img": "https://i.guim.co.uk/img/media/123a194c6d87276556a1d6060364750e402d0635/681_0_4598_3679/master/4598.jpg?width=460&quality=85&auto=format&fit=max&s=1591a623d8ab395f0decdef9edb04df0",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -899,9 +949,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Raphinha cashes in against Santander with hat-trick as Barça hit seven",
-        "desc": "Cancelo, Jesus and Lamine Yamal also score in rout Atlético Madrid thrash Osasuna 4-0 to move into third Raphinha scored a hat-trick as Barcelona ripped Racing Santander to shreds in a spectacular 7-2 triumph in La Liga on Wednesday. The win makes Hansi Flick the club’s first manager to win ⁠the opening seven competitive matches of a season. João Cancelo, Gabriel Jesus and Lamine Yamal also scored",
-        "link": "https://www.theguardian.com/football/2026/sep/16/raphinha-hat-trick-santander-barcelona-hit-seven-atletico-madrid"
+        "title": "Real Sociedad 1-2 Bournemouth, Crystal Palace 4-0 Lech Poznan, and more: Europa League – as it happened",
+        "desc": "A good night for Bournemouth and Palace but a miserable one for Celtic TNT’s Connie McLaughlin asks Celtic boss Martin O’Neill to “talk to us about the thinking behind” replacing goalkeeper Sam Johnstone with Viljami Sinisalo … and receives an unnecessarily abrupt and cranky response. “No I’ll not talk to you about the thinking behind that … he was always going to play … believe it or not, Connie,",
+        "link": "https://www.theguardian.com/football/live/2026/sep/17/real-sociedad-v-bournemouth-crystal-palace-v-lech-poznan-and-more-europa-league-live"
        }
       ]
      }
@@ -913,10 +963,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Resident Evil’ To Scorch The Earth With $80M Global Debut – Box Office Preview",
-      "summary": "After a record $4.67B summer, last weekend’s Warner Bros/Alcon’s Practical Magic 2 didn’t exactly light the fall on fire. But this weekend’s Sony/Constantin’s revival of Resident Evil from Zach Cregger could very well do the trick with a $40M-$50M domestic start and another $31M overseas for a global around $80M on the high end. While […]",
-      "ts": 1789593928000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/MCDREEV_SP037.jpg",
+      "headline": "Disney Names Adam Smith Director-to-Consumer Chairman, Joe Earley Shifts to TV Franchise and Content Strategy Chief",
+      "summary": "Disney is switching up its streaming leadership team, which currently consists of co-presidents of direct-to-consumer Adam Smith and Joe Earley. Smith has been named chairman of direct-to-consumer for Disney Entertainment, while Earley is shifting into the newly created role of president of Disney Entertainment Television franchise and content strategy. Smith and Earley will report to […]",
+      "ts": 1789678800000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/Adam-Smith-Joe-Earley.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -924,34 +974,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Resident Evil’ To Scorch The Earth With $80M Global Debut – Box Office Preview",
-        "desc": "After a record $4.67B summer, last weekend’s Warner Bros/Alcon’s Practical Magic 2 didn’t exactly light the fall on fire. But this weekend’s Sony/Constantin’s revival of Resident Evil from Zach Cregger could very well do the trick with a $40M-$50M domestic start and another $31M overseas for a global around $80M on the high end. While […]",
-        "link": "https://deadline.com/2026/09/box-office-resident-evil-global-opening-forecast-1237105692/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Box Office: ‘Resident Evil’ Reboot Targets Franchise-Best $45 Million Debut",
-        "desc": "Movie theater operators are counting on “Resident Evil” to scare some life into the early fall box office. Sony’s horror-comedy reboot of the zombie-infested property is targeting a strong $40 million to $50 million in its domestic debut. With strong reviews and glowing word-of-mouth, rivals and independent tracking services believe that initial ticket sales will […]",
-        "link": "https://variety.com/2026/film/box-office/resident-evil-box-office-reboot-opening-weekend-projection-1236861469/"
+        "title": "Disney Names Adam Smith Director-to-Consumer Chairman, Joe Earley Shifts to TV Franchise and Content Strategy Chief",
+        "desc": "Disney is switching up its streaming leadership team, which currently consists of co-presidents of direct-to-consumer Adam Smith and Joe Earley. Smith has been named chairman of direct-to-consumer for Disney Entertainment, while Earley is shifting into the newly created role of president of Disney Entertainment Television franchise and content strategy. Smith and Earley will report to […]",
+        "link": "https://variety.com/2026/tv/news/disney-new-streaming-chief-adam-smith-joe-earley-shifts-1236865886/"
        },
        {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "Resident Evil review – Zach Cregger’s rebooted action horror is a wild rollercoaster ride",
-        "desc": "The Weapons director delivers a seat-edge thriller with a standout lead performance from Austin Abrams as an everyman navigating chaos Typically horror fans react to blatant on-screen stupidity with vocal derision. Don’t go in there! Girl, get out of the house! Guys, ignore that distress signal! But genre aficionados may find themselves falling a little bit in love with Bryan (Austin Abrams), the ",
-        "link": "https://www.theguardian.com/film/2026/sep/16/resident-evil-reboot-movie-review"
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Adam Smith To Lead Disney’s Direct-to-Consumer As Chairman, Joe Earley Becomes President Of Television Franchise & Content Strategy",
+        "desc": "Disney’s President and Chief Creative Officer Dana Walden is streamlining the leadership of the company’s direct-to-consumer operation. Six months after she announced Adam Smith and Joe Earley as Co-Presidents of Direct-to-Consumer, both reporting to her, Smith has been named sole leader as Chairman, Direct-to-Consumer, Disney Entertainment. Earley is moving to Disney Entertainment Television chai",
+        "link": "https://deadline.com/2026/09/adam-smith-head-disney-direct-to-consumer-joe-earley-tv-1237106753/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Robert Kraft Says Ed Sheeran Is Donating $2 Million to ‘Fight This Humanitarian Crisis’ in Gaza, and Kraft Is Matching Him: ‘All Lives Are Worth Protecting’",
-      "summary": "In the latest chapter of the ongoing Ed Sheeran-Macklemore-Robert Kraft situation, Sheeran and Kraft have apparently seen and raised Macklemore’s $1 million donation to Palestinian relief by donating $2 million each — although it’s unclear exactly to whom. In a statement released on the Gilette Stadium X account, Kraft said, “Ed called me and asked […]",
-      "ts": 1789597436000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/super-bowl-lx-new-england-patriots-v-seattle-seahawks-us-ent-1000x667-1.jpg",
+      "headline": "New York Knicks Star Jalen Brunson To Guest on ‘Law & Order: SVU’",
+      "summary": "New York Knicks star and longtime Law & Order: SVU fan Jalen Brunson will guest star on the upcoming 28th season of the venerable NBC crime drama. Brunson will appear in Season 28’s fifth episode, scheduled to air at 9 p.m. November 5. His role is being kept under wraps. The casting reunites Brunson with […]",
+      "ts": 1789677003000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/GettyImages-2289964299.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -959,27 +1002,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Robert Kraft Says Ed Sheeran Is Donating $2 Million to ‘Fight This Humanitarian Crisis’ in Gaza, and Kraft Is Matching Him: ‘All Lives Are Worth Protecting’",
-        "desc": "In the latest chapter of the ongoing Ed Sheeran-Macklemore-Robert Kraft situation, Sheeran and Kraft have apparently seen and raised Macklemore’s $1 million donation to Palestinian relief by donating $2 million each — although it’s unclear exactly to whom. In a statement released on the Gilette Stadium X account, Kraft said, “Ed called me and asked […]",
-        "link": "https://variety.com/2026/music/news/robert-kraft-ed-sheeran-donating-4-million-humanitarian-crisis-1236864850/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Billionaire Robert Kraft Doubles $1 Million Macklemore Donation To Aid “Humanitarian Crisis”",
-        "desc": "After being challenged by rapper Macklemore to match his $1 million to the Palestinian people, billionaire Robert Kraft has doubled the amount, saying he’ll “commit $2 million to match his donation to aid in the region and fight this humanitarian crisis.” “I have dedicated much of my life to building bridges between all people,” Kraft […]",
-        "link": "https://deadline.com/2026/09/macklemore-donation-palenstinian-people-1237105737/"
+        "title": "New York Knicks Star Jalen Brunson To Guest on ‘Law & Order: SVU’",
+        "desc": "New York Knicks star and longtime Law & Order: SVU fan Jalen Brunson will guest star on the upcoming 28th season of the venerable NBC crime drama. Brunson will appear in Season 28’s fifth episode, scheduled to air at 9 p.m. November 5. His role is being kept under wraps. The casting reunites Brunson with […]",
+        "link": "https://deadline.com/2026/09/jalen-brunson-guest-star-law-order-svu-ny-knicks-cast-1237106852/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Jalen Brunson Officially Set for ‘Law & Order: SVU’ Season 28 Guest Role",
+        "desc": "Jalen Brunson is officially heading to “Law & Order: SVU.” NBC has confirmed that the New York Knicks star will make a guest appearance in an episode of Season 28 of the beloved procedural. Season 28 of “SVU” will debut on Oct. 8. Brunson will guest star in the episode airing Nov. 5. Exact character […]",
+        "link": "https://variety.com/2026/tv/news/jalen-brunson-law-order-svu-guest-star-season-28-1236866056/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Jessica Chastain Joins Emilia Jones & Amy Ryan In Netflix Drama Series ‘The Retrievals’",
-      "summary": "EXCLUSIVE: With her Universal horror film Other Mommy drumming up buzz ahead of its October 9 release, Oscar winner Jessica Chastain has closed a deal to join The Retrievals, Netflix’s new drama series from Sirens and Maid‘s Molly Smith Metzler. Inspired by the Peabody Award-winning New York Times podcast by Susan Burton, The Retrievals follows […]",
-      "ts": 1789596000000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/Jessica-Chastain-Emilia-Jones-and-Amy-Ryan.jpg",
+      "headline": "‘The Kardashians’ Sets Season 8 Release Date, Unveils Trailer Which Reveals Kim In A Hospital Bed & More",
+      "summary": "We’re getting the first extended look at Season 8 of The Kardashians ahead of its fall return. The new season premieres Thursday, October 8 on Hulu, Hulu+ for bundle subscribers in the U.S. and Disney+ internationally. The official trailer opens with a question posed to Kris. “How are your daughters getting along this season?”, to […]",
+      "ts": 1789671723000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/Screenshot-2026-09-17-113111.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -989,25 +1032,25 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Jessica Chastain Joins Emilia Jones & Amy Ryan In Netflix Drama Series ‘The Retrievals’",
-        "desc": "EXCLUSIVE: With her Universal horror film Other Mommy drumming up buzz ahead of its October 9 release, Oscar winner Jessica Chastain has closed a deal to join The Retrievals, Netflix’s new drama series from Sirens and Maid‘s Molly Smith Metzler. Inspired by the Peabody Award-winning New York Times podcast by Susan Burton, The Retrievals follows […]",
-        "link": "https://deadline.com/2026/09/jessica-chastain-the-retrievals-series-molly-smith-metzler-1237105722/"
+        "title": "‘The Kardashians’ Sets Season 8 Release Date, Unveils Trailer Which Reveals Kim In A Hospital Bed & More",
+        "desc": "We’re getting the first extended look at Season 8 of The Kardashians ahead of its fall return. The new season premieres Thursday, October 8 on Hulu, Hulu+ for bundle subscribers in the U.S. and Disney+ internationally. The official trailer opens with a question posed to Kris. “How are your daughters getting along this season?”, to […]",
+        "link": "https://deadline.com/2026/09/the-kardashians-season-8-release-date-trailer-1237106720/"
        },
        {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "The Liberation review – Carrie Coon joins all-female cult in unsettling drama",
-        "desc": "Toronto film festival: Director Guy Nattiv draws on personal experience for an 80s-set tale of a woman abandoning her family for a creepy commune We remain fascinated and horrified by the hows and whys of cult narratives, how someone could be so seduced by something so unknown and why they would then risk everything for it. Oscar-winning writer-director Guy Nattiv has been personally affected by t",
-        "link": "https://www.theguardian.com/film/2026/sep/16/liberation-movie-review-carrie-coon"
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Solo Leveling: Karma Game Unveils Gameplay Overview, Cinematic Story Trailer",
+        "desc": "Game launches this year",
+        "link": "https://www.animenewsnetwork.com/news/2026-09-17/solo-leveling-karma-game-unveils-gameplay-overview-cinematic-story-trailer/.241897"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "‘Dancing With The Stars’ Season 35 Premieres To 24% Audience Boost With Ladies’ First Routines Still To Come",
-      "summary": "Dancing with the Stars is off to a dazzling start with last night’s Season 35 premiere on ABC and Disney+. The episode, which saw only the male celebrities and their pro partners compete, attracted 6.67 million total live + same-day viewers, according to preliminary data from Nielsen. When the company’s Big Data + Panel numbers […]",
-      "ts": 1789594350000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/183407_EM100337-900x0-copy.png",
+      "headline": "ABC Legal Filing Pushes Back On FCC Early License Renewal Order, Highlights “Substantial Evidence” Of Trump Administration “Retaliatory Motive”",
+      "summary": "ABC responded to the FCC’s justification for calling in its eight owned station licenses for early renewal, arguing in a new legal filing that the agency had failed to refute “substantial evidence” of a Trump administration “retaliatory motive.” The network filed a First Amendment lawsuit against the FCC in August, claiming that its rare order […]",
+      "ts": 1789681385000,
+      "img": "https://deadline.com/wp-content/uploads/2026/07/ABC-logo-Brendan-Carr-FCC.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1017,25 +1060,18 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Dancing With The Stars’ Season 35 Premieres To 24% Audience Boost With Ladies’ First Routines Still To Come",
-        "desc": "Dancing with the Stars is off to a dazzling start with last night’s Season 35 premiere on ABC and Disney+. The episode, which saw only the male celebrities and their pro partners compete, attracted 6.67 million total live + same-day viewers, according to preliminary data from Nielsen. When the company’s Big Data + Panel numbers […]",
-        "link": "https://deadline.com/2026/09/dancing-with-the-stars-season-35-premiere-ratings-abc-1237105724/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Dancing With the Stars’ Season 35 Premiere Hits 6.7 Million Viewers, Best Opener in Six Years",
-        "desc": "“Dancing With the Stars” returned to ABC for its Season 35 premiere on Tuesday night and reached a strong 6.7 million viewers. That’s a 24% increase from the performance of the Season 34 premiere, which hit 5.4 million viewers in 2025. Even more, Tuesday’s episode marks the series’ best opener in six years, since Season […]",
-        "link": "https://variety.com/2026/tv/news/dancing-with-the-stars-season-35-premiere-ratings-1236864750/"
+        "title": "ABC Legal Filing Pushes Back On FCC Early License Renewal Order, Highlights “Substantial Evidence” Of Trump Administration “Retaliatory Motive”",
+        "desc": "ABC responded to the FCC’s justification for calling in its eight owned station licenses for early renewal, arguing in a new legal filing that the agency had failed to refute “substantial evidence” of a Trump administration “retaliatory motive.” The network filed a First Amendment lawsuit against the FCC in August, claiming that its rare order […]",
+        "link": "https://deadline.com/2026/09/abc-fcc-lawsuit-donald-trump-1237107012/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Liam Neeson's R-Rated Sci-Fi Horror Movie Tears Through Epic Streaming Milestone",
-      "summary": "Liam Neeson's R-rated sci-fi horror movie tears through an epic streaming milestone, months after it was first released on the streaming service.",
-      "ts": 1789600281000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/untitled-14.jpg",
+      "headline": "Miley Cyrus Describes Last Conversation With Dolly Parton, Prompted by Sending Over Her New Album: ‘Though We Were So Different, That’s What Made Us Perfect for Each Other’",
+      "summary": "Miley Cyrus, now being professionally known as just Miley, spoke about her last conversation with her godmother, Dolly Parton — stemming from Cyrus sending Parton an advance copy of her new album, “Bass Persuades” — in a fresh interview with Zane Lowe. “Dolly has been the first person that when I get a vinyl printed,” […]",
+      "ts": 1789681075000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/GettyImages-2289800041-e1789679682391.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1043,20 +1079,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Liam Neeson's R-Rated Sci-Fi Horror Movie Tears Through Epic Streaming Milestone",
-        "desc": "Liam Neeson's R-rated sci-fi horror movie tears through an epic streaming milestone, months after it was first released on the streaming service.",
-        "link": "https://screenrant.com/liam-neeson-cold-storage-mgm-plus-streaming-milestone-september-2026/"
+        "title": "Miley Cyrus Describes Last Conversation With Dolly Parton, Prompted by Sending Over Her New Album: ‘Though We Were So Different, That’s What Made Us Perfect for Each Other’",
+        "desc": "Miley Cyrus, now being professionally known as just Miley, spoke about her last conversation with her godmother, Dolly Parton — stemming from Cyrus sending Parton an advance copy of her new album, “Bass Persuades” — in a fresh interview with Zane Lowe. “Dolly has been the first person that when I get a vinyl printed,” […]",
+        "link": "https://variety.com/2026/music/news/miley-cyrus-dolly-parton-last-conversation-1236866199/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Star Wars Meets Game Of Thrones In HBO Max's 10/10 Sci-Fi Saga That They Both Copied",
-      "summary": "Star Wars and Game of Thrones meet in this hit space opera franchise that is a masterpiece both copied, but whose new wave was inspired by them.",
-      "ts": 1789599969000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/12/a-giant-army-in-dune-part-two.jpg",
+      "headline": "‘The Voice’ To Simulcast On Peacock As NBC Sets Three-Night Premiere For Season 30",
+      "summary": "The Voice is getting some streaming help for Season 30. The long-running music competition series will be simulcast on Peacock for the first time and marks one of a number of changes to the show. The show will return to NBC on September 21 and it will have a three-night premiere with episodes on September […]",
+      "ts": 1789680205000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/NUP_211416_00980.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1064,11 +1100,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Star Wars Meets Game Of Thrones In HBO Max's 10/10 Sci-Fi Saga That They Both Copied",
-        "desc": "Star Wars and Game of Thrones meet in this hit space opera franchise that is a masterpiece both copied, but whose new wave was inspired by them.",
-        "link": "https://screenrant.com/star-wars-meets-game-of-thrones-dune-movies-copy-influence/"
+        "title": "‘The Voice’ To Simulcast On Peacock As NBC Sets Three-Night Premiere For Season 30",
+        "desc": "The Voice is getting some streaming help for Season 30. The long-running music competition series will be simulcast on Peacock for the first time and marks one of a number of changes to the show. The show will return to NBC on September 21 and it will have a three-night premiere with episodes on September […]",
+        "link": "https://deadline.com/2026/09/the-voice-simulcast-peacock-nbc-season-30-1237107007/"
        }
       ]
      }
@@ -1076,36 +1112,36 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
    "Crikey",
    "ABC News",
-   "Guardian Australia",
+   "The Age",
    "BBC World",
-   "The Age Federal Politics",
-   "Fox News Politics",
-   "Guardian AU Politics",
+   "Guardian Australia",
    "Fox News",
-   "Guardian Tech",
-   "BBC Tech",
-   "The Verge",
-   "The Age Business",
-   "Ars Technica",
-   "Fox Business",
+   "Fox News Politics",
    "The Conversation",
-   "BBC Sport",
-   "Variety",
-   "Deadline",
-   "AFR",
-   "Guardian AU Sport",
-   "Guardian AU Business",
-   "Guardian Film",
-   "ABC Business",
-   "Screen Rant",
+   "Ars Technica",
+   "Guardian Tech",
+   "The Verge",
+   "BBC Tech",
    "7News",
-   "Anime News Network",
-   "Daily Mail Australia",
+   "The Age Business",
+   "Guardian AU Business",
+   "Guardian AU Politics",
+   "ABC Business",
    "SBS News",
-   "7News Sport"
+   "AFR",
+   "Variety",
+   "Fox Business",
+   "Guardian AU Sport",
+   "The Age Federal Politics",
+   "BBC Sport",
+   "Deadline",
+   "Anime News Network",
+   "Screen Rant",
+   "Guardian Film",
+   "7News Sport",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": [
    "ESPN"
@@ -1126,12 +1162,13 @@
     "released": "2026-09-11"
    },
    {
-    "title": "Marfil",
+    "title": "Drawn Together",
     "year": "2026",
-    "rating": null,
+    "rating": 5.6,
     "genres": [
      "Drama",
-     "Romance"
+     "Romance",
+     "Thriller"
     ],
     "overview": "After her mysterious kidnapping in NYC, Spanish tycoon's daughter Marfil Cortés gets bodyguard Sebastián Moore. Despite clashing personalities, attraction grows as they face escalating threats in Spain, where appearances deceive.",
     "released": "2026-09-09"
@@ -1211,7 +1248,7 @@
    {
     "title": "The Shards",
     "year": "2026",
-    "rating": 5.8,
+    "rating": 6,
     "genres": [
      "Crime",
      "Drama",
@@ -1237,7 +1274,7 @@
    {
     "title": "Link Click Season 3",
     "year": "2026",
-    "rating": 8.4,
+    "rating": 8.3,
     "genres": [
      "Drama",
      "Mystery",
@@ -1295,134 +1332,134 @@
   ]
  },
  "wotd": {
-  "word": "petrichor",
+  "word": "stentorian",
   "phonetic": "",
-  "pos": "Noun",
-  "def": "The distinctive scent, caused by geosmin, which accompanies the first rain after a long, warm, dry spell.",
+  "pos": "Adjective",
+  "def": "Loud, powerful, booming, suitable for giving speeches to large crowds.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/En-ca-petrichor.ogg/En-ca-petrichor.ogg.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/En-us-stentorian.ogg/En-us-stentorian.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "Create Concession Account, Get 5 Free Concession Stamps, $0.60 Each Thereafter @ Australia Post (Eligible Concession Cards Only)",
-   "link": "https://www.ozbargain.com.au/node/369341",
-   "votes": 88,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1522227966000
-  },
-  {
-   "title": "[Pre Order] Nintendo Switch 2 The Legend of Zelda 40th Anniversary Edition Console $799.95 Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/975240",
-   "votes": 76,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1789521386000
-  },
-  {
-   "title": "Samsung Galaxy S25 256GB $729 Delivered @ Phonex AU",
-   "link": "https://www.ozbargain.com.au/node/975291",
-   "votes": 72,
+   "title": "amaysim 240GB 365 Day Prepaid Mobile Plan + Pixel 9 Pro XL 128GB $619 (Sold Out), 256GB $769, 512GB $869 Delivered @ amaysim",
+   "link": "https://www.ozbargain.com.au/node/975364",
+   "votes": 373,
    "neg": 0,
    "category": "Mobile",
-   "ts": 1789540862000
+   "ts": 1789606949000
   },
   {
-   "title": "Desky Regal Mesh Office Chair $249 (Was $549, $300 off) + $39.95 Shipping @ Desky",
-   "link": "https://www.ozbargain.com.au/node/975269",
-   "votes": 68,
+   "title": "Duolingo Super Subscription 12 Month Key Global from A$1.34 + Service Fee @ XPRO GAMES via Eneba",
+   "link": "https://www.ozbargain.com.au/node/975371",
+   "votes": 228,
+   "neg": 1,
+   "category": "Education",
+   "ts": 1789609509000
+  },
+  {
+   "title": "Direct Deposit Personal Transaction Fees: 0.65% Debit Cards, 1.29% AmEx Personal, 1.5% Visa/Mastercard/Citibank @ Sniip",
+   "link": "https://www.ozbargain.com.au/node/837296",
+   "votes": 84,
    "neg": 0,
-   "category": "Home Garden",
-   "ts": 1789531970000
+   "category": "Financial",
+   "ts": 1710998289000
   },
   {
-   "title": "AliExpress: 20% Cashback on Affiliated Items ($50 Cap Per Order) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/975293",
-   "votes": 63,
+   "title": "Gaming PC: RTX 5080, AMD 7800X3D, 32GB RAM, 1TB SSD, B850 mATX Mobo, 850W PSU $3799 + Del ($0 Headset with VIC C C) @ Evatech",
+   "link": "https://www.ozbargain.com.au/node/975391",
+   "votes": 82,
    "neg": 0,
-   "category": "Other",
-   "ts": 1789542013000
+   "category": "Computing",
+   "ts": 1789618411000
   },
   {
-   "title": "[PC, Mac, Steam] Free - Space Menace @ Steam",
-   "link": "https://www.ozbargain.com.au/node/975339",
-   "votes": 56,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1789578130000
-  },
-  {
-   "title": "[NSW, VIC, WA, QLD] Free Original Glazed Doughnut When You Say Hip Hip Hooray (1 Per Person) @ Krispy Kreme",
-   "link": "https://www.ozbargain.com.au/node/975320",
-   "votes": 48,
-   "neg": 0,
-   "category": "Dining Takeaway",
-   "ts": 1789558554000
-  },
-  {
-   "title": "Sofirn H35B Rechargeable LED Headlamp with Red Light US$11.99 + US$3.99 Delivery (~A$22.39) @ Sofirn",
-   "link": "https://www.ozbargain.com.au/node/975295",
-   "votes": 46,
-   "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1789543835000
-  },
-  {
-   "title": "Garmin Forerunner 265 Smart Watch Black US$230.73 (~A$324.30) AU Stock Delivered @ Aussie Electron Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/975252",
-   "votes": 44,
+   "title": "Jumbuck Firewood Carrier Bag $2 + Delivery ($0 C C/ in-Store/ OnePass) @ Bunnings Warehouse",
+   "link": "https://www.ozbargain.com.au/node/975453",
+   "votes": 69,
    "neg": 0,
    "category": "Sports Outdoors",
-   "ts": 1789524655000
+   "ts": 1789630368000
   },
   {
-   "title": "GOOLOO GT4000 4000A Jump Starter US$68.14 (~A$95.78), GT3000 3000A US$43.48 (~A$61.12) Shipped @ GOOLOO Global Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/975319",
-   "votes": 40,
+   "title": "[QLD] 45¢/kg Bananas, Broccoli, Orange, Carrot and More @ Skippy s Mount Gravatt",
+   "link": "https://www.ozbargain.com.au/node/975461",
+   "votes": 63,
    "neg": 0,
-   "category": "Automotive",
-   "ts": 1789558234000
+   "category": "Groceries",
+   "ts": 1789632103000
   },
   {
-   "title": "Cygnett Power Bank 45K $89.95 (Was $179.95) Delivered @ Cygnett",
-   "link": "https://www.ozbargain.com.au/node/975304",
-   "votes": 40,
+   "title": "Sennheiser Ambeo Subwoofer $399 Delivered (Was $1,119.95) @ Addicted to Audio",
+   "link": "https://www.ozbargain.com.au/node/975373",
+   "votes": 63,
    "neg": 0,
    "category": "Electrical Electronics",
-   "ts": 1789549065000
+   "ts": 1789609644000
   },
   {
-   "title": "Zenith 10G x 50mm Torx Drive 304 Stainless Steel Decking Screws with Countersink Bit 1500pk $69.95 / 3000pk $99 Delivered @ SEC",
-   "link": "https://www.ozbargain.com.au/node/975315",
-   "votes": 35,
+   "title": "Chemist Warehouse: 12% Cashback on $180.01-$850.00 Spend, 6% Cashback on $100.01-$180.00 Spend @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/975355",
+   "votes": 63,
    "neg": 0,
-   "category": "Home Garden",
-   "ts": 1789555586000
+   "category": "Health Beauty",
+   "ts": 1789603039000
   },
   {
-   "title": "[PC, Epic] Free: Mechabellum @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/975325",
-   "votes": 27,
+   "title": "[Switch] The Legend of Zelda: Echoes of Wisdom $59 + Delivery ($0 C C/ in-Store/ OnePass/ $60 Order) @ Target",
+   "link": "https://www.ozbargain.com.au/node/975410",
+   "votes": 60,
    "neg": 0,
    "category": "Gaming",
-   "ts": 1789564036000
+   "ts": 1789623580000
   },
   {
-   "title": "Further 50% off Selected Salt Pepper: Chop Chopping Block Set 42x30x6cm 3 Piece $30, Signature Tea Towel 2pk $5 (C C) @ Myer",
-   "link": "https://www.ozbargain.com.au/node/975284",
-   "votes": 26,
+   "title": "Samsung Galaxy S26 Ultra $500 off + $300 Trade-in Bonus: 256GB $1399, 512GB $1699, 1TB $2149 (Less Trade-in Value) @ Samsung",
+   "link": "https://www.ozbargain.com.au/node/975418",
+   "votes": 55,
    "neg": 0,
-   "category": "Home Garden",
-   "ts": 1789539253000
+   "category": "Mobile",
+   "ts": 1789626205000
   },
   {
-   "title": "Shower Heads (3 styles) $19.99 each @ ALDI",
-   "link": "https://www.ozbargain.com.au/node/975333",
-   "votes": 23,
+   "title": "$2,000 Cashback or Accessory Credit on BYD Atto 2 Premium $35,990 + On-Road Costs @ BYD",
+   "link": "https://www.ozbargain.com.au/node/975493",
+   "votes": 46,
    "neg": 0,
-   "category": "Home Garden",
-   "ts": 1789567281000
+   "category": "Automotive",
+   "ts": 1789647618000
+  },
+  {
+   "title": "$60 Cashback on Boost Mobile 290GB 12-Month SIM for $265 (Was $300) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/975400",
+   "votes": 43,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1789620583000
+  },
+  {
+   "title": "Doritos Original/Cheese 380g, Smiths Original/S V 380g $4.25 ($3.82 S S / [Prime] 2 for $7.22) + Delivery ($0 Prime) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/975358",
+   "votes": 40,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1789604512000
+  },
+  {
+   "title": "40% off Minimum $60 Spend on First Grocery Order from Selected Stores (Max $40 off, Excludes Alcohol, Fees Apply) @ DoorDash",
+   "link": "https://www.ozbargain.com.au/node/975476",
+   "votes": 38,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1789635980000
+  },
+  {
+   "title": "Wolfbox Electric Air Duster DF50 $31.44 ($30.70 with eBay Plus) Delivered @ Wolfbox eBay",
+   "link": "https://www.ozbargain.com.au/node/975494",
+   "votes": 32,
+   "neg": 0,
+   "category": "Electrical Electronics",
+   "ts": 1789647948000
   }
  ]
 }
