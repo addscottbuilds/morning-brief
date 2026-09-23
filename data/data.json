@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-22T23:14:14.101Z",
+ "generatedAt": "2026-09-23T21:50:48.526Z",
  "markets": {
   "items": [
    {
@@ -7,72 +7,104 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8757.8,
-    "chgPct": 0.30465232834518957,
+    "price": 8765.3,
+    "chgPct": 0.39055117194319244,
     "high52": 9296.7,
-    "off52": -5.796680542558128
+    "off52": -5.716006755085153
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.83,
-    "chgPct": 1.024012388067862,
+    "price": 86.13,
+    "chgPct": 0.3495259962079644,
     "high52": 87.32,
-    "off52": -1.7063673843334803
+    "off52": -1.3628034814475467
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.73,
-    "chgPct": 0.3327862595459332,
+    "price": 147.81,
+    "chgPct": 0.05415574004922671,
     "high52": 155.03,
-    "off52": -4.708766045281566
+    "off52": -4.657163129716828
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 62.3,
-    "chgPct": 2.399736758301116,
+    "price": 62.97,
+    "chgPct": 1.075442650312084,
     "high52": 64.23,
-    "off52": -3.0048264051066584
+    "off52": -1.9617001401214462
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 38.08,
-    "chgPct": 2.6415136554857255,
+    "price": 38.89,
+    "chgPct": 2.127095929614032,
     "high52": 47.78,
-    "off52": -20.301381331100885
+    "off52": -18.606111343658434
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7116,
-    "chgPct": -0.04211505365549567,
+    "price": 0.7044,
+    "chgPct": -0.9575580282075382,
     "high52": 0.7277,
-    "off52": -2.2124501855160097
+    "off52": -3.2018689020200615
    }
   ],
   "failed": [],
-  "note": "SEMI is 20% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 19% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "JPM",
-    "name": "JPMorgan",
+    "sym": "XRO.AX",
+    "name": "Xero",
+    "market": "ASX",
+    "price": 58.2,
+    "currency": "AUD",
+    "chgPct": -4.668303476948195
+   },
+   {
+    "sym": "GOOGL",
+    "name": "Alphabet",
     "market": "US",
-    "price": 340,
+    "price": 337.83,
     "currency": "USD",
-    "chgPct": -3.420068245846982
+    "chgPct": -3.795991434985771
+   },
+   {
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 152.3,
+    "currency": "AUD",
+    "chgPct": -3.098554575098002
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 26.77,
+    "currency": "AUD",
+    "chgPct": 2.96153846153846
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "market": "US",
+    "price": 354.99,
+    "currency": "USD",
+    "chgPct": -2.619742228854704
    }
   ]
  },
@@ -85,45 +117,115 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Tones And I reveals why she turned down NRL grand final",
-      "summary": "Tones And I has broken her silence after the NRL declared it will forego a grand final tradition of pre-match entertainment.",
-      "ts": 1790118631000,
-      "img": "https://static.ffx.io/images/$zoom_0.4209%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_346%2C$y_26/t_crop_custom/q_86%2Cf_auto/e33c2f9c8ba3c330188dadd57d63f2e4163e7aa5474da5e42ec100eb5b6e91a6",
+      "headline": "V'landys steps down as Racing NSW boss to secure firmer grip on NRL",
+      "summary": "Peter V'landys moves one step closer to becoming the NRL's executive chairman after stepping down from Racing NSW.",
+      "ts": 1790199137000,
+      "img": "https://images.7news.com.au/publication/C-22918384/5ec34d9a132fbeda30ae9e5821ead4457dc43fbd-16x9-x0y0w1920h1080.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Tones and I offered NRL grand final show only three weeks ago",
-        "desc": "The artist’s management said nothing was signed and she turned down the opportunity because of prior commitments in the United States.",
-        "link": "https://www.theage.com.au/sport/nrl/tones-and-i-offered-nrl-grand-final-show-only-three-weeks-ago-20260923-p60zot.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Tones And I reveals why she turned down NRL grand final",
-        "desc": "Tones And I has broken her silence after the NRL declared it will forego a grand final tradition of pre-match entertainment.",
-        "link": "https://www.abc.net.au/news/2026-09-23/nrl-grand-final-tones-and-i-pre-match-entertainment/107184040"
+        "title": "V'landys steps down as Racing NSW boss to secure firmer grip on NRL",
+        "desc": "Peter V'landys moves one step closer to becoming the NRL's executive chairman after stepping down from Racing NSW.",
+        "link": "https://www.abc.net.au/news/2026-09-24/peter-vlandys-steps-down-as-racing-nsw-boss/107189156"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "NRL grand final left without a musical act days before kick-off as Tones and I drops out of $1 million payday over Dance Monkey disagreement",
-        "desc": "The NRL grand final will go ahead without a headline act on Sunday, after a dispute with booked talent Tones and I.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16150259/nrl-grand-final-tones-dispute.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Peter V’landys stepping down as Racing NSW chief executive: ‘Sad day for me’",
+        "desc": "‘We are defined by how we leave and Peter’s legacy is secure.’",
+        "link": "https://7news.com.au/sport/horse-racing/peter-vlandys-stepping-down-as-racing-nsw-chief-executive-sad-day-for-me--c-22918384"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Seismic switcheroo: Peter V’landys quits Racing NSW for unprecedented NRL job",
+        "desc": "The powerful administrator will on Thursday announce his resignation as Racing NSW boss. Hours later, he will be unveiled as the NRL’s new executive chairman.",
+        "link": "https://www.theage.com.au/national/seismic-switcheroo-peter-v-landys-quits-racing-nsw-for-unprecedented-nrl-job-20260924-p60zuz.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "San Francisco sues Trump Media over alleged 'pay-to-play' Truth Social service",
-      "summary": "San Francisco City Attorney David Chiu alleges the paid service gives wealthy subscribers an unfair advantage by providing early access to President Donald Trump's market-moving posts.",
-      "ts": 1790117996000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/trump-aras-an-uachtarain-dublin.jpg?ve=1&tl=1",
+      "headline": "Harvey Weinstein is sentenced to 15 years in prison for 2006 sex crime in New York",
+      "summary": "The judge said the disgraced movie mogul treated women as ‘mere objects to be played with and discarded’ and still hasn’t accepted responsibility.",
+      "ts": 1790198093000,
+      "img": "https://images.7news.com.au/publication/C-22918404/7ec40f29ddcb2b32142654ca65f6524a38520cf4-16x9-x0y393w6728h3785.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Harvey Weinstein is sentenced to 15 years in prison for 2006 sex crime in New York",
+        "desc": "The judge said the disgraced movie mogul treated women as ‘mere objects to be played with and discarded’ and still hasn’t accepted responsibility.",
+        "link": "https://7news.com.au/news/harvey-weinstein-is-sentenced-to-15-years-in-prison-for-2006-sex-crime-in-new-york-c-22918404"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: AI agent breaks into Medicare, Albanese reveals; Harvey Weinstein sentenced to 15 years for sexual assault",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-ai-agent-breaks-into-government-portal-albanese-confirms-harvey-weinstein-sentenced-to-15-years-for-sexual-assault-20260924-p61015.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Harvey Weinstein sentenced to 15 years in prison for sexual assault",
+        "desc": "Assault survivor Miriam Haley said the \"devastating effect on my life and sense of security that may never go away\".",
+        "link": "https://www.bbc.co.uk/news/articles/cm98626n260yo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Sydney high school teacher Ashleigh Ann Seeney charged over alleged mistaken identity murder plot",
+      "summary": "The 28-year-old woman has been stood down from the school and will remain behind bars until November.",
+      "ts": 1790186095000,
+      "img": "https://images.7news.com.au/publication/C-22916802/1738d99fc1108a13a6b61f36b7ff17e91866fec9-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "K-pop star Nana forced to apologize over lip filler controversy after appearance in Netflix's The Scandal",
+        "desc": "The 35-year-old, whose real name is Im Jin-a, recently appeared in the streamer's new South Korean historical drama as a chaste Joseon-era widow. But her plump pout caught the eye.",
+        "link": "https://www.dailymail.com/lifestyle/beauty/article-16155199/k-pop-star-nana-apologize-lip-filler-netflix-scandal.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Sydney high school teacher Ashleigh Ann Seeney charged over alleged mistaken identity murder plot",
+        "desc": "The 28-year-old woman has been stood down from the school and will remain behind bars until November.",
+        "link": "https://7news.com.au/news/crime/sydney-high-school-teacher-ashleigh-ann-seeney-charged-over-alleged-mistaken-identity-murder-plot-c-22916802"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Suspended Swans players to make first public appearance since hotel scandal",
+        "desc": "Swans coach Dean Cox says the five players are expected to speak to the wider playing group \"at some point\".",
+        "link": "https://www.sbs.com.au/news/article/suspended-swans-players-to-make-first-public-appearance-since-hotel-scandal/y4z6rmwg6"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "OpenAI agent breached Medicare",
+      "summary": "Prime Minister Anthony Albanese said the agent accessed material not intended for public access.",
+      "ts": 1790199833000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/a34803539fb5ad3b0054242cd29d957bb80c8252",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -133,32 +235,53 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Albanese defends Australia’s social media crackdown from Trump admin’s ‘censorship’ blast",
-        "desc": "In a formal response issued by the US embassy in Canberra, the Trump administration said Australia’s proposed policy would likely lead to censorship of legitimate speech.",
-        "link": "https://www.theage.com.au/world/north-america/us-raises-serious-concerns-about-australia-s-digital-duty-of-care-regime-20260922-p60zmr.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "OpenAI agent breached Medicare",
+        "desc": "Prime Minister Anthony Albanese said the agent accessed material not intended for public access.",
+        "link": "https://www.theage.com.au/national/openai-agent-breached-medicare-20260924-p6101z.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "Fox News",
+        "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "San Francisco sues Trump Media over alleged 'pay-to-play' Truth Social service",
-        "desc": "San Francisco City Attorney David Chiu alleges the paid service gives wealthy subscribers an unfair advantage by providing early access to President Donald Trump's market-moving posts.",
-        "link": "https://www.foxnews.com/politics/san-francisco-sues-trump-media-alleged-pay-play-truth-social-service"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Trump administration warns Labor social media crackdown is ‘censorship’ of Americans’ protected speech",
-        "desc": "Trump administration expresses ‘serious concerns’ that forcing firms to allow algorithm optout would infringe Americans’ free speech Get our new political email, free app or daily news podcast The Trump administration has warned the Australian government that its plans to boost online safety through digital duty of care laws risks becoming a mechanism for “viewpoint-based censorship” and called fo",
-        "link": "https://www.theguardian.com/media/2026/sep/22/us-warns-australia-that-imposing-digital-duty-of-care-on-big-tech-would-be-seen-as-censorship"
+        "title": "OpenAI agent breached Medicare, Albanese confirms, as he slams CEO Sam Altman's attitude about the 'unacceptable' incident",
+        "desc": "Anthony Albanese has revealed An OpenAI artificial intelligence agent infiltrated Medicare.",
+        "link": "https://www.dailymail.com/news/article-16155673/Anthony-Albanese-reveals-OpenAI-AI-agent-infiltrated-Medicare.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
-      "id": 2,
-      "headline": "Hayden Panettiere’s cause of death confirmed by coroner",
-      "summary": "The actress, who starred in Heroes and Nashville, died aged 36 last month.",
-      "ts": 1790117037000,
-      "img": "https://images.7news.com.au/publication/C-22911834/123256465b5f4d3a6838be41a4b610bc190db718-16x9-x0y0w1280h720.png",
+      "id": 4,
+      "headline": "Qantas and security staff strike",
+      "summary": "Travellers face disruption as Qantas ground workers and security staff walk off the job.",
+      "ts": 1790199667000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/c2ef3e71b78062016add8536998760e6aef0abcb",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australia news live: OECD says Australia will struggle to get inflation below 3%; travel woes as Qantas staff strike",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast More than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute. Qantas said that it has contingency plans in place and any impacts would be felt primarily by the airline’s freight and regional QantasLink services. The world has become mo",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/24/anthony-albanese-un-summit-labor-coalition-ukraine-ntwnfb"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Qantas and security staff strike",
+        "desc": "Travellers face disruption as Qantas ground workers and security staff walk off the job.",
+        "link": "https://www.theage.com.au/national/qantas-and-security-staff-strike-20260924-p61010.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "AI Agent infiltrates Australian Government website, prime minister says",
+      "summary": "‘This situation is obviously unacceptable’.",
+      "ts": 1790199098000,
+      "img": "https://images.7news.com.au/publication/C-22918422/bcb4b82b4eb35caa5cac7e964fe62aaae6afc9a2-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -168,130 +291,25 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Hayden Panettiere died from accidental overdose weeks after leaving rehab, coroner finds",
-        "desc": "The 36-year-old actor died from an overdose of several drugs including fentanyl, a coroner has determined, as the police investigation continues.",
-        "link": "https://www.theage.com.au/culture/celebrity/hayden-panettiere-died-from-accidental-overdose-coroner-finds-20260923-p60zmx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Hayden Panettiere’s cause of death confirmed as fentanyl overdose",
-        "desc": "South Carolina medical examiner says ‘no signs of trauma’ and ‘the manner of death has been ruled accident’ Hayden Panettiere died from a fentanyl overdose, according to the Greenville county coroner’s office. Medical examiners in South Carolina confirmed the 36-year old actor’s cause of death on Tuesday, saying: “The cause of death has been ruled as toxic effects of fentanyl, 4-ANPP, Alprazolam, ",
-        "link": "https://www.theguardian.com/society/2026/sep/22/hayden-panettiere-cause-death"
+        "title": "OpenAI agent hacked government site, PM reveals",
+        "desc": "Prime Minister Anthony Albanese has revealed an OpenAI agent hacked a federal government website.",
+        "link": "https://www.theage.com.au/national/openai-agent-hacked-government-site-pm-reveals-20260924-p6101k.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Hayden Panettiere’s cause of death confirmed by coroner",
-        "desc": "The actress, who starred in Heroes and Nashville, died aged 36 last month.",
-        "link": "https://7news.com.au/news/world/hayden-panettiere-died-from-toxic-effects-of-fentanyl-and-other-substances-coroners-office-says-c-22911834"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
-      "summary": "In his speech, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
-      "ts": 1790114853000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ce7/live/a35e4ee0-b6a2-11f1-ba3d-1d5c8a47f823.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Donald Trump lashes out at Anthony Albanese's tech agenda - as PM calls for stricter controls",
-        "desc": "US President Donald Trump has 'totally rejected' any attempt to oversee AI regulation, instead telling world leaders they should work to help change it's name to 'super intelligence.'",
-        "link": "https://www.dailymail.com/news/article-16152509/donald-trump-ai-albanese.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Trump threatens to 'annihilate' Iran in UN speech as officials meet on sidelines",
-        "desc": "In his speech, the US president pondered whether a peace deal would be agreed or whether he would have to take extreme action against Iran.",
-        "link": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "How the US media's fightback will hit Donald Trump — and the legal right it's relying on",
-        "desc": "Major US news outlets have rallied behind CNN, condemning the US president's decision to ban the broadcaster from the White House.",
-        "link": "https://www.sbs.com.au/news/article/donald-trump-cnn-media-ban-explainer/lo8wpn53x"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Why the AFL tribunal upheld Neale's grand final ban",
-      "summary": "The tribunal says it had reason not to overturn Lachie Neale's appeal. Now the AFL world waits to hear whether the Lions will launch an appeal.",
-      "ts": 1790110770000,
-      "img": "https://images.7news.com.au/publication/C-22912224/87f28ce3f720500056ed86c06c250d9b87283b94-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Why the AFL tribunal upheld Neale's grand final ban",
-        "desc": "The tribunal says it had reason not to overturn Lachie Neale's appeal. Now the AFL world waits to hear whether the Lions will launch an appeal.",
-        "link": "https://www.abc.net.au/news/2026-09-23/afl-tribunal-upholds-lachie-neale-grand-final-ban-lions-dockers/107183920"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Lachie Neale’s undoing revealed after AFL tribunal rejects his ‘inconsistent’ evidence",
-        "desc": "The banned Lions star ‘ignored’ the facts ‘and he knew the consequences’.",
-        "link": "https://7news.com.au/sport/afl/lachie-neales-undoing-revealed-after-afl-tribunal-rejects-his-inconsistent-evidence--c-22912224"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Annoyingly likeable Lions or Fremantle’s fairytale? How to pick a team to cheer for in the 2026 AFL grand final",
-        "desc": "Forget the cup, who will win the hearts of the undecideds, casuals and neutrals – the juggernauts from Brisbane or the underdog Dockers? Sign up for our free weekly AFL newsletter The AFL grand final is this Saturday, and Victoria’s faithful are once again without a home team to barrack for. Amid the NRL’s quest to conquer Perth, Papua New Guinea and everywhere in between, the continent-straddling",
-        "link": "https://www.theguardian.com/sport/blog/2026/sep/23/how-to-pick-a-team-brisbane-lions-vs-fremantle-dockers-afl-grand-final"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Kochie’s blunt message to RBA as rate decision looms: ‘Don’t keep punishing us for inflation’",
-      "summary": "The economist has called for governments to take more responsibility for inflation.",
-      "ts": 1790118516000,
-      "img": "https://images.7news.com.au/publication/C-22912336/1a9f50823dcbb1228e8bdc821ec669c6f9d42a21-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Kochie’s blunt message to RBA as rate decision looms: ‘Don’t keep punishing us for inflation’",
-        "desc": "The economist has called for governments to take more responsibility for inflation.",
-        "link": "https://7news.com.au/sunrise/kochies-blunt-message-to-rba-as-rate-decision-looms-dont-keep-punishing-us-for-inflation-c-22912336"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Trump's UN message on Iran was blunt. His AI pitch raised eyebrows",
-        "desc": "Trump stuck to the script in his address to the United Nations, posing a bleak question about the war in Iran and singing AI's praises.",
-        "link": "https://www.sbs.com.au/news/article/trumps-un-message-was-blunt-his-ai-pitch-raised-eyebrows/qt6suahyg"
+        "title": "AI Agent infiltrates Australian Government website, prime minister says",
+        "desc": "‘This situation is obviously unacceptable’.",
+        "link": "https://7news.com.au/news/ai-agent-infiltrates-australian-government-website-prime-minister-says-c-22918422"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Simone Biles buys a new Porsche because her old one now carries the unmistakable stench of theft",
-      "summary": "Simone Biles revealed on TikTok that three masked men stole her Porsche GTS from her Chicago-area home, and now she's out shopping for a new car.",
-      "ts": 1790118357000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/06/931/523/simone-biles-soldier-field-fox-news-001.jpeg?ve=1&tl=1",
+      "headline": "Poland accuses Russian military helicopter of violating its airspace",
+      "summary": "Poland says the aircraft stayed in its skies for 42 seconds, forcing the Nato member to scramble its fighter jets.",
+      "ts": 1790198872000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0465/live/f3c02980-b75b-11f1-8e7f-6f99c81f3136.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -299,18 +317,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Olympic gymnast Simone Biles reveals three masked men broke into Chicago home and stole her six-figure Porsche",
-        "desc": "Biles shared the property with her NFL husband Jonathan Owens, who now plays for the Indianapolis Colts but did play for the Bears in 2024 and 2025.",
-        "link": "https://www.dailymail.com/sport/othersports/article-16152749/simone-biles-chicago-home-porsche-theft.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Simone Biles buys a new Porsche because her old one now carries the unmistakable stench of theft",
-        "desc": "Simone Biles revealed on TikTok that three masked men stole her Porsche GTS from her Chicago-area home, and now she's out shopping for a new car.",
-        "link": "https://www.foxnews.com/outkick-sports/simone-biles-buys-new-porsche-old-one-carries-unmistakable-stench-theft"
+        "title": "NATO ally pushes ‘Fort Trump’ US military base as Russian helicopter penetrates airspace",
+        "desc": "Polish President Karol Nawrocki says he's confident a permanent U.S. base called \"Fort Trump\" will be built in Poland before Trump's term ends.",
+        "link": "https://www.foxnews.com/world/nato-ally-pushes-fort-trump-us-military-base-russian-helicopter-penetrates-airspace"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Poland accuses Russian military helicopter of violating its airspace",
+        "desc": "Poland says the aircraft stayed in its skies for 42 seconds, forcing the Nato member to scramble its fighter jets.",
+        "link": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -322,10 +340,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Alex Antic, now Liberal state president, says Coalition must work with One Nation",
-      "summary": "His comments came a day before One Nation MP Barnaby Joyce said that he had spoken to “very senior Liberals” about providing the Coalition with supply.",
-      "ts": 1790118573000,
-      "img": "https://static.ffx.io/images/$zoom_0.1451%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/03a7f547c01e5762f8b520369ee5ffd4c2321023",
+      "headline": "Joyce names price of One Nation backing Angus Taylor",
+      "summary": "Liberal MPs suggested Barnaby Joyce was making up the supposed talks about a hung parliament and believe his behaviour and public appearances were increasingly erratic.",
+      "ts": 1790189040000,
+      "img": "https://static.ffx.io/images/$zoom_0.2728%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_63%2C$y_8/t_crop_custom/q_86%2Cf_auto/74fca735956c97c882f2b57065aaa6caf2bf8e46",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -333,83 +351,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: Wilson says One Nation-Liberal power-sharing talks are ‘figment of Barnaby’s imagination’",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Andrew Bragg, the shadow housing minister, said he believes in “big debates” about housing after pushing his new proposal yesterday to allow people to use their superannuation as collateral to get a home loan. The policy hasn’t been adopted by the opposition, and leader Angus Taylor said yesterday it wasn’t Coal",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/23/anthony-albanese-un-assembly-ai-social-media-labor-coalition-abc-four-corners-ntwnfb"
-       },
-       {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Alex Antic, now Liberal state president, says Coalition must work with One Nation",
-        "desc": "His comments came a day before One Nation MP Barnaby Joyce said that he had spoken to “very senior Liberals” about providing the Coalition with supply.",
-        "link": "https://www.theage.com.au/politics/federal/alex-antic-now-liberal-state-president-says-coalition-must-work-with-one-nation-20260922-p60zly.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Joyce names price of One Nation backing Angus Taylor",
+        "desc": "Liberal MPs suggested Barnaby Joyce was making up the supposed talks about a hung parliament and believe his behaviour and public appearances were increasingly erratic.",
+        "link": "https://www.theage.com.au/politics/federal/joyce-names-price-of-one-nation-backing-angus-taylor-20260924-p60zuc.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Angus Taylor pledges to repeal swathe of climate policies, saying ‘Australia has done its bit’",
+        "desc": "Several measures were previously introduced or supported by Coalition, prompting claim Liberals and Nationals would ‘let climate change rip’ Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Angus Taylor has vowed to repeal a raft of emissions reduction and renewable energy policies, including several measures supported by or introdu",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/23/angus-taylor-pledges-to-repeal-swathe-of-climate-policies-saying-australia-has-done-its-bit"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "San Francisco sues Trump Media over alleged 'pay-to-play' Truth Social service",
-      "summary": "San Francisco City Attorney David Chiu alleges the paid service gives wealthy subscribers an unfair advantage by providing early access to President Donald Trump's market-moving posts.",
-      "ts": 1790111456000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/trump-aras-an-uachtarain-dublin.jpg?ve=1&tl=1",
+      "headline": "Trump has banned more media and started his own TV channel. In the process, he risks further eroding American democracy",
+      "summary": "Amid the tumult over US President Donald Trump’s latest assault on press freedom, it’s easy to lose sight of what exactly journalism is and why, when done well, it carries real weight. Good journalism provides information that those in positions of power don’t want the public to know. Yes, it’s important to recognise that beyond the president’s habitual bully-bluster schtick, the barring of CNN, M",
+      "ts": 1790143253000,
+      "img": "https://i.guim.co.uk/img/media/11387341cfdab50eccfd07af8a8a4fe95a5a28db/807_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=9ddac8d6c243e06414c9c5871cbb7e7d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "San Francisco sues Trump Media over alleged 'pay-to-play' Truth Social service",
-        "desc": "San Francisco City Attorney David Chiu alleges the paid service gives wealthy subscribers an unfair advantage by providing early access to President Donald Trump's market-moving posts.",
-        "link": "https://www.foxnews.com/politics/san-francisco-sues-trump-media-alleged-pay-play-truth-social-service"
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Trump has banned more media and started his own TV channel. In the process, he risks further eroding American democracy",
+        "desc": "Amid the tumult over US President Donald Trump’s latest assault on press freedom, it’s easy to lose sight of what exactly journalism is and why, when done well, it carries real weight. Good journalism provides information that those in positions of power don’t want the public to know. Yes, it’s important to recognise that beyond the president’s habitual bully-bluster schtick, the barring of CNN, M",
+        "link": "https://theconversation.com/trump-has-banned-more-media-and-started-his-own-tv-channel-in-the-process-he-risks-further-eroding-american-democracy-292461"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Trump administration warns Labor social media crackdown is ‘censorship’ of Americans’ protected speech",
-        "desc": "Trump administration expresses ‘serious concerns’ that forcing firms to allow algorithm optout would infringe Americans’ free speech Get our new political email, free app or daily news podcast The Trump administration has warned the Australian government that its plans to boost online safety through digital duty of care laws risks becoming a mechanism for “viewpoint-based censorship” and called fo",
+        "title": "Albanese plays down Trump’s ‘censorship’ warning over Labor social media crackdown",
+        "desc": "Trump administration expresses ‘serious concerns’ that forcing firms to allow algorithm opt-out would infringe Americans’ free speech Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast Anthony Albanese has played down US President Donald Trump’s opposition to Australia’s proposed digital duty of care laws, insisting the plan will not ",
         "link": "https://www.theguardian.com/media/2026/sep/22/us-warns-australia-that-imposing-digital-duty-of-care-on-big-tech-would-be-seen-as-censorship"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "Politics with Michelle Grattan: Jim Chalmers warns rising debt bills are set to hit the budget",
-      "summary": "Australia’s next budget update, being delivered just before Christmas, is set to be hit by what’s “likely to be billions of dollars extra” in higher interest bills on government borrowing, federal Treasurer Jim Chalmers has warned. The federal government now has more than A$1 trillion in debt. Looking ahead to the December Mid-Year Economic and Fiscal Outlook (MYEFO), which will update the May bud",
-      "ts": 1790102400000,
-      "img": "https://static.ffx.io/images/$zoom_0.5008%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_24%2C$y_39/t_crop_custom/q_86%2Cf_auto/ccb0ac89af1cd19d8e1307e4f35659bb6db2dfd2",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Taylor claims $83 billion budget black hole as Chalmers dangles tax cuts",
-        "desc": "A fresh debate has opened up over income tax cuts and productivity, as the RBA flags more rate hikes and job losses to tame inflation.",
-        "link": "https://www.theage.com.au/politics/federal/taylor-claims-83-billion-budget-black-hole-as-chalmers-dangles-tax-cuts-20260923-p60zgm.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Politics with Michelle Grattan: Jim Chalmers warns rising debt bills are set to hit the budget",
-        "desc": "Australia’s next budget update, being delivered just before Christmas, is set to be hit by what’s “likely to be billions of dollars extra” in higher interest bills on government borrowing, federal Treasurer Jim Chalmers has warned. The federal government now has more than A$1 trillion in debt. Looking ahead to the December Mid-Year Economic and Fiscal Outlook (MYEFO), which will update the May bud",
-        "link": "https://theconversation.com/politics-with-michelle-grattan-jim-chalmers-warns-rising-debt-bills-are-set-to-hit-the-budget-292589"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Albanese takes climate warning to New York, but fossil fuel experts test credibility",
-      "summary": "Opening Climate Week with a stark warning on extreme summer heat, the prime minister faces international scrutiny over Australia’s status as a major energy exporter while spearheading global climate talks.",
-      "ts": 1790058757000,
-      "img": "https://static.ffx.io/images/$zoom_0.3021%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_641%2C$y_97/t_crop_custom/q_86%2Cf_auto/13c05c69e3b7bdfdcc408791faf5f7a76753a1c3",
+      "headline": "Australia news live: OECD says Australia will struggle to get inflation below 3%; travel woes as Qantas staff strike",
+      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast More than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute. Qantas said that it has contingency plans in place and any impacts would be felt primarily by the airline’s freight and regional QantasLink services. The world has become mo",
+      "ts": 1790199667000,
+      "img": "https://i.guim.co.uk/img/media/5b7b2c0b76de4f45911fde0e78448880dab94231/166_0_2490_1992/master/2490.jpg?width=460&quality=85&auto=format&fit=max&s=89ac44e78814352594929354de156039",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -419,25 +409,39 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "‘Negligent’ to talk about long term risks to Australia without examining cost of climate crisis, experts say",
-        "desc": "One academic says federal government’s intergenerational report, a snapshot of life in 2066, ignores the economic damage on the horizon Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast An Australian government snapshot of life in 40 years has been sharply criticised for underplaying the economic and social damage expected due to the",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/22/intergenerational-report-underplays-effect-climate-crisis-on-australia-future-2066"
-       },
+        "title": "Australia news live: OECD says Australia will struggle to get inflation below 3%; travel woes as Qantas staff strike",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast More than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute. Qantas said that it has contingency plans in place and any impacts would be felt primarily by the airline’s freight and regional QantasLink services. The world has become mo",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/24/anthony-albanese-un-summit-labor-coalition-ukraine-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "OpenAI agent breached Medicare, Albanese reveals",
+      "summary": "The government is aware three other systems that may be affected, the Australian Institute of Health and Welfare, the NSW Bureau of Crime Statistics and Research, and the Victorian Department of Health.",
+      "ts": 1790199066000,
+      "img": "https://static.ffx.io/images/$zoom_1.1037%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/aa6a7ff4ae3b611596af3c83cf6306de538f8f12b6bd98f25e420632cfb86ed7",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Albanese takes climate warning to New York, but fossil fuel experts test credibility",
-        "desc": "Opening Climate Week with a stark warning on extreme summer heat, the prime minister faces international scrutiny over Australia’s status as a major energy exporter while spearheading global climate talks.",
-        "link": "https://www.theage.com.au/politics/federal/albanese-takes-climate-warning-to-new-york-but-fossil-fuel-experts-test-credibility-20260921-p60z2z.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "OpenAI agent breached Medicare, Albanese reveals",
+        "desc": "The government is aware three other systems that may be affected, the Australian Institute of Health and Welfare, the NSW Bureau of Crime Statistics and Research, and the Victorian Department of Health.",
+        "link": "https://www.theage.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Beyond killer robots: China's real AI threat to America is already here, experts warn",
-      "summary": "Experts warn Chinese labs are using \"knowledge distillation\" and free software to undercut U.S. tech dominance, bypass billions in research, and supercharge cognitive warfare.",
-      "ts": 1790116236000,
-      "img": "https://static.foxnews.com/foxnews.com/content/uploads/2023/07/United-States-and-China-are-taking-opposite-approaches-to-AI.gif",
+      "headline": "Hawley zeroes in on Lia Thomas locker room controversy: 'Did they consent?'",
+      "summary": "Josh Hawley pressed a witness on whether Yale swimmers consented to sharing a locker room with Lia Thomas during Ivy League swim competitions.",
+      "ts": 1790198622000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/lia-thomas-iszac-henig.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -447,18 +451,18 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Beyond killer robots: China's real AI threat to America is already here, experts warn",
-        "desc": "Experts warn Chinese labs are using \"knowledge distillation\" and free software to undercut U.S. tech dominance, bypass billions in research, and supercharge cognitive warfare.",
-        "link": "https://www.foxnews.com/politics/beyond-killer-robots-chinas-real-ai-threat-america-already-here-experts-warn"
+        "title": "Hawley zeroes in on Lia Thomas locker room controversy: 'Did they consent?'",
+        "desc": "Josh Hawley pressed a witness on whether Yale swimmers consented to sharing a locker room with Lia Thomas during Ivy League swim competitions.",
+        "link": "https://www.foxnews.com/politics/hawley-zeroes-lia-thomas-locker-room-controversy-did-consent"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
-      "summary": "Opposition leader said the idea for Australians to use their superannuation savings as collateral for a loan ‘is not our policy’ Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast Angus Taylor has immediately distanced himself from the latest policy proposal from Liberal frontbencher Andrew Bragg that would let first home buyers use t",
-      "ts": 1790115099000,
-      "img": "https://i.guim.co.uk/img/media/4504ac2dde06c5fcd610b416e7a53d814a6ae839/16_457_4793_3836/master/4793.jpg?width=460&quality=85&auto=format&fit=max&s=a8489afa7792e886bce79f756f6342a7",
+      "headline": "Inside GOP Senate hopeful's financial ties to controversial data center boom",
+      "summary": "Michael Whatley holds up to $690,000 in energy investments tied to companies powering North Carolina's data center boom, raising conflict questions.",
+      "ts": 1790197080000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/07/931/523/michael-whatley-fox-news-intv-at-rnc-july-14-2025.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -466,11 +470,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Taylor distances himself from Bragg’s proposal to let homebuyers use super as collateral for mortgages",
-        "desc": "Opposition leader said the idea for Australians to use their superannuation savings as collateral for a loan ‘is not our policy’ Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast Angus Taylor has immediately distanced himself from the latest policy proposal from Liberal frontbencher Andrew Bragg that would let first home buyers use t",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/22/angus-taylor-andrew-bragg-first-home-buyers-use-super-offset"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Inside GOP Senate hopeful's financial ties to controversial data center boom",
+        "desc": "Michael Whatley holds up to $690,000 in energy investments tied to companies powering North Carolina's data center boom, raising conflict questions.",
+        "link": "https://www.foxnews.com/politics/inside-gop-senate-hopefuls-financial-ties-controversial-data-center-boom"
        }
       ]
      }
@@ -482,10 +486,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
-      "summary": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle production. So it was a little surprising on Monday when a Saudi startup called Ceer unveiled a pair of hyper-angular, spaceship-like EVs, with plans to launch an additional five models by 2030. The Exobot ",
-      "ts": 1790108094000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/WhatsApp_Image_2026-09-21_at_21.24.15-1152x648.jpeg",
+      "headline": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+      "summary": "An adorable little bear that wants to help you buy things. Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and suddenly something needs to be taken care of. You're telling me a tree branch fell in the backyard and now I have to figure out what to do with it? The tree just assigned me homework? O",
+      "ts": 1790190000000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Claude-ChatGPT-1152x648-1790110487.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -495,25 +499,25 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
-        "desc": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle production. So it was a little surprising on Monday when a Saudi startup called Ceer unveiled a pair of hyper-angular, spaceship-like EVs, with plans to launch an additional five models by 2030. The Exobot ",
-        "link": "https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot"
+        "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
+        "desc": "An adorable little bear that wants to help you buy things. Modern life comes with an unending, auto-populating to-do list. It never ceases to amaze me how I can be doing nothing at all, minding my own business, and suddenly something needs to be taken care of. You're telling me a tree branch fell in the backyard and now I have to figure out what to do with it? The tree just assigned me homework? O",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping"
        },
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Saudi Arabia wants a car industry, launches Ceer with two EVs",
-        "desc": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
-        "link": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/"
+        "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+        "desc": "The frontier AI model race has entered its comparison shopping phase.",
+        "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Will a switch to light speed cut power use at data centres?",
-      "summary": "To save power and add capacity, data centres are switching from copper wires to tech using light.",
-      "ts": 1790118228000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f83/live/bddd95b0-a12a-11f1-aed2-8d6da8d75094.jpg",
+      "headline": "America gave up its rare earth edge. China took full advantage.",
+      "summary": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
+      "ts": 1790170625000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/mpmaterials-1152x648-1790170607.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -521,19 +525,68 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "America gave up its rare earth edge. China took full advantage.",
+        "desc": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
+        "link": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/"
+       },
+       {
         "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Will a switch to light speed cut power use at data centres?",
-        "desc": "To save power and add capacity, data centres are switching from copper wires to tech using light.",
-        "link": "https://www.bbc.co.uk/news/articles/c2dwg3zexkpo?at_medium=RSS&at_campaign=rss"
+        "title": "Rare look at the remote engine rooms fuelling China's AI boom",
+        "desc": "The BBC is in Inner Mongolia where dozen of Chinese data centres are being constructed, as the country aims to lead the world in artificial intelligence.",
+        "link": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Paramount will need to release way more movies to make this merger work",
-      "summary": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in the US, Paramount says that it will release a minimum of 30 movies annually after ",
-      "ts": 1790115967000,
+      "headline": "Anthony Albanese says OpenAI agent hacked Medicare and he expressed ‘extreme concern’ to Sam Altman",
+      "summary": "Prime minister says he expressed ‘disappointment’ to chief executive it had taken the company ‘way too long’ to inform his government about the breach Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June. Australia’s prime minister made th",
+      "ts": 1790199507000,
+      "img": "https://i.guim.co.uk/img/media/37f9612332334c7d5cf7d41edbd2497e2170babd/639_0_6393_5114/master/6393.jpg?width=460&quality=85&auto=format&fit=max&s=817c9d7114d117f5876ac4b0396fcf14",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Anthony Albanese says OpenAI agent hacked Medicare and he expressed ‘extreme concern’ to Sam Altman",
+        "desc": "Prime minister says he expressed ‘disappointment’ to chief executive it had taken the company ‘way too long’ to inform his government about the breach Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June. Australia’s prime minister made th",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman"
+       }
+      ]
+     },
+     {
+      "id": 16,
+      "headline": "Judge promises to rule soon on Trump’s ban of journalists from the White House – live",
+      "summary": "CNN, MS Now and Politico presented arguments to judge Timothy Kelly against president’s self-described ‘ban on the free press’ Sign up for US Breaking News emails Rubio also briefly addressed Trump’s meeting with Delcy Rodriguez, the interim Venezuelan president, who last night posed for a friendly photo with Trump at a Manhattan hotel only miles from where her predecessor, Nicolás Maduro, was inc",
+      "ts": 1790199278000,
+      "img": "https://i.guim.co.uk/img/media/63bf1057cdaadff5f64df3ae63779f9062a47e7d/690_335_4245_3396/master/4245.jpg?width=460&quality=85&auto=format&fit=max&s=e1f9579b277cdb0a2a197524ecc9ac26",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Judge promises to rule soon on Trump’s ban of journalists from the White House – live",
+        "desc": "CNN, MS Now and Politico presented arguments to judge Timothy Kelly against president’s self-described ‘ban on the free press’ Sign up for US Breaking News emails Rubio also briefly addressed Trump’s meeting with Delcy Rodriguez, the interim Venezuelan president, who last night posed for a friendly photo with Trump at a Manhattan hotel only miles from where her predecessor, Nicolás Maduro, was inc",
+        "link": "https://www.theguardian.com/us-news/live/2026/sep/23/donald-trump-xi-jinping-ai-china-us-politics-latest-news-updates"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm’s X2 Plus",
+      "summary": "The Surface Pro 12-inch Second Edition comes in black, silver, or violet. | Image: Microsoft Microsoft is refreshing its Surface Pro 12-inch and Surface Laptop 13-inch devices with Qualcomm's latest Snapdragon X2 Plus chips. The smaller Surface devices retain the same design and hardware features from last year, with faster and more capable chips inside and higher price tags (thanks RAMageddon!). ",
+      "ts": 1790195400000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -544,60 +597,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Paramount will need to release way more movies to make this merger work",
-        "desc": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV projects produced in the US, Paramount says that it will release a minimum of 30 movies annually after ",
-        "link": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails"
-       }
-      ]
-     },
-     {
-      "id": 16,
-      "headline": "Rare look at the remote engine rooms powering China's AI ambitions",
-      "summary": "The BBC is in Inner Mongolia where dozen of Chinese data centres are being constructed, as the country aims to lead the world in artificial intelligence.",
-      "ts": 1790114628000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1ba/live/c4418760-b64a-11f1-bc1f-3f186ca4140c.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Rare look at the remote engine rooms powering China's AI ambitions",
-        "desc": "The BBC is in Inner Mongolia where dozen of Chinese data centres are being constructed, as the country aims to lead the world in artificial intelligence.",
-        "link": "https://www.bbc.co.uk/news/videos/cwe8ejvv0leno?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 17,
-      "headline": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
-      "ts": 1790113334000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2280570746-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-        "desc": "There is no single definitive test for these worms, but the tail is fairly convincing.",
-        "link": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/"
+        "title": "Microsoft refreshes its smaller Surface Pro and Laptop with Qualcomm’s X2 Plus",
+        "desc": "The Surface Pro 12-inch Second Edition comes in black, silver, or violet. | Image: Microsoft Microsoft is refreshing its Surface Pro 12-inch and Surface Laptop 13-inch devices with Qualcomm's latest Snapdragon X2 Plus chips. The smaller Surface devices retain the same design and hardware features from last year, with faster and more capable chips inside and higher price tags (thanks RAMageddon!). ",
+        "link": "https://www.theverge.com/news/999195/microsoft-surface-pro-12-inch-surface-laptop-13-inch-qualcomm-x2-plus"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
-      "summary": "The frontier AI model race has entered its comparison shopping phase.",
-      "ts": 1790112318000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Claude-ChatGPT-1152x648-1790110487.jpg",
+      "headline": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+      "summary": "$11M competition showed wildfire detection is still easier than stopping fires.",
+      "ts": 1790195322000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Andurils-fire-retardant-balls-explode-on-fire-target-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -607,9 +618,9 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
-        "desc": "The frontier AI model race has entered its comparison shopping phase.",
-        "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/"
+        "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+        "desc": "$11M competition showed wildfire detection is still easier than stopping fires.",
+        "link": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/"
        }
       ]
      }
@@ -621,66 +632,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Former Humm chief executive sues company and its biggest shareholder",
-      "summary": "Stuart Grimshaw exited less than two years after taking the top job at the non-bank lender, with the company citing “personal reasons” for his resignation.",
-      "ts": 1790118137000,
-      "img": "https://static.ffx.io/images/$zoom_0.4846%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_278%2C$y_13/t_crop_custom/q_86%2Cf_auto/88b129462412230893f68c27267cb202715190a7",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Former Humm chief executive sues company and its biggest shareholder",
-        "desc": "Stuart Grimshaw exited less than two years after taking the top job at the non-bank lender, with the company citing “personal reasons” for his resignation.",
-        "link": "https://www.afr.com/companies/financial-services/former-humm-chief-executive-sues-company-its-biggest-shareholder-20260923-p60z87?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Former United executive explains how New Jersey fiber cut disrupted Northeast flights",
-        "desc": "Former United Airlines chief security officer Rich Davis explains how a severed fiber-optic line in New Jersey disrupted air travel across the Northeast.",
-        "link": "https://www.foxbusiness.com/lifestyle/former-united-executive-explains-how-new-jersey-fiber-cut-disrupted-northeast-flights"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Qantas to fly non-stop from Sydney to New York in 2028",
-      "summary": "The airline will deploy ultra-long distance Airbus A350 planes on the route, after starting non-stop flights from Sydney to London next year.",
-      "ts": 1790118000000,
-      "img": "https://static.ffx.io/images/$zoom_0.239%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/6fa096f2536fbbf6e186b47bb8ef23538ed5262c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Qantas announces when Sydney-New York non-stop flights will start",
-        "desc": "Qantas says the direct flight will begin in mid-2028 and will shave three hours off the typical journey from Sydney to New York.",
-        "link": "https://www.theage.com.au/business/companies/qantas-announces-when-sydney-new-york-non-stop-flights-will-start-20260923-p60zoa.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Qantas to fly non-stop from Sydney to New York in 2028",
-        "desc": "The airline will deploy ultra-long distance Airbus A350 planes on the route, after starting non-stop flights from Sydney to London next year.",
-        "link": "https://www.afr.com/companies/transport/qantas-to-fly-non-stop-from-sydney-to-new-york-in-2028-20260923-p60zn7?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "Jetstar staff to stop charging baggage and seat fees in union protest",
-      "summary": "Weeks after Jetstar unveiled a new overhead baggage fee, the Australian Services Union said its members will waive a range of fees as they push for higher pay.",
-      "ts": 1790064034000,
-      "img": "https://static.ffx.io/images/$zoom_1.0292%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/0b3910fbb232a886444524047ca45e22b3fbb59e",
+      "headline": "Australia news live: OECD says Australia will struggle to get inflation below 3%; travel woes as Qantas staff strike",
+      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast More than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute. Qantas said that it has contingency plans in place and any impacts would be felt primarily by the airline’s freight and regional QantasLink services. The world has become mo",
+      "ts": 1790199667000,
+      "img": "https://i.guim.co.uk/img/media/5b7b2c0b76de4f45911fde0e78448880dab94231/166_0_2490_1992/master/2490.jpg?width=460&quality=85&auto=format&fit=max&s=89ac44e78814352594929354de156039",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -690,25 +645,39 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Jetstar staff to waive extra baggage and seat fees as industrial action escalates – as it happened",
-        "desc": "This blog is now closed Get our breaking news email, free app or daily news podcast Jim Chalmers was also asked earlier if the government would support a national royal commission into violence against women and children. He said the government had chosen to increase resourcing for child and family violence and domestic violence, adding to the ABC: We’re trying to deal with the sources of all of t",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/22/anthony-albanese-new-york-united-nations-intergenerational-report-coalition-one-nation-ntwnfb"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Jetstar staff to stop charging baggage and seat fees in union protest",
-        "desc": "Weeks after Jetstar unveiled a new overhead baggage fee, the Australian Services Union said its members will waive a range of fees as they push for higher pay.",
-        "link": "https://www.theage.com.au/business/companies/jetstar-staff-to-stop-charging-baggage-and-seat-fees-in-union-protest-20260922-p60zl6.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Australia news live: OECD says Australia will struggle to get inflation below 3%; travel woes as Qantas staff strike",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast More than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute. Qantas said that it has contingency plans in place and any impacts would be felt primarily by the airline’s freight and regional QantasLink services. The world has become mo",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/24/anthony-albanese-un-summit-labor-coalition-ukraine-ntwnfb"
        }
       ]
      },
      {
-      "id": 22,
-      "headline": "Paramount settles with US states, clearing way for Warner Bros merger",
-      "summary": "Opponents say Paramount's multi-billion-dollar merger with Warner Bros will slash Hollywood jobs, reduce the number of films produced, and threaten CNN's independence.",
-      "ts": 1790024062000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/10/paramount.jpg",
+      "id": 20,
+      "headline": "Iran will ‘fight until our last breath’ says defiant president at UN",
+      "summary": "Masoud Pezeshkian accused the US and Israel of terrorism for the thousands of civilian deaths in their military campaigns in the Middle East.",
+      "ts": 1790198365000,
+      "img": "https://static.ffx.io/images/$zoom_0.430277418427483%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_67%2C$y_82/t_crop_custom/q_86%2Cf_auto/2abcb9877ee3b9375b9ab9ebae500db15c97a23f",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Iran will ‘fight until our last breath’ says defiant president at UN",
+        "desc": "Masoud Pezeshkian accused the US and Israel of terrorism for the thousands of civilian deaths in their military campaigns in the Middle East.",
+        "link": "https://www.afr.com/world/middle-east/iran-will-never-bow-our-head-says-president-in-defiant-un-speech-20260924-p61007?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Bindi Raye lives the ultimate FIFO lifestyle online. None of it is real",
+      "summary": "Bindi Raye's online profiles portray the life of a twenty-something-year-old FIFO worker in WA's north, but an ABC investigation has found she does not exist.",
+      "ts": 1790197325000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -718,25 +687,39 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Paramount settles with US states, clearing way for Warner Bros merger",
-        "desc": "Opponents say Paramount's multi-billion-dollar merger with Warner Bros will slash Hollywood jobs, reduce the number of films produced, and threaten CNN's independence.",
-        "link": "https://www.abc.net.au/news/2026-09-22/paramount-settles-with-us-states-clearing-way-warner-bros-merger/107179504"
-       },
+        "title": "Bindi Raye lives the ultimate FIFO lifestyle online. None of it is real",
+        "desc": "Bindi Raye's online profiles portray the life of a twenty-something-year-old FIFO worker in WA's north, but an ABC investigation has found she does not exist.",
+        "link": "https://www.abc.net.au/news/2026-09-24/ai-women-fifo-worker-adult-content/107158248"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "UK defence contractors to offer 40,000 apprenticeships, placements and jobs",
+      "summary": "Wes Streeting says he leads a ‘ministry for growth’ as Labour seeks to show more defence spending will create UK jobs Defence contractors have promised to create 40,000 apprenticeships, work experience placements and jobs for young people each year, as Wes Streeting claimed to be overseeing a “ministry for growth”. Labour is keen to demonstrate that the rapid increase in defence spending planned f",
+      "ts": 1790197200000,
+      "img": "https://i.guim.co.uk/img/media/21ab7ff4f4f4196267a96c8a53e58927c6bb3009/580_0_6538_5230/master/6538.jpg?width=460&quality=85&auto=format&fit=max&s=2b68cc224dce3de2921f0641cf7d9e8a",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Paramount reaches settlement with states suing to block Warner Bros Discovery takeover",
-        "desc": "Paramount Skydance Corp. has reached a settlement with the states seeking to block its proposed takeover of Warner Bros. Discovery Inc.",
-        "link": "https://www.foxbusiness.com/media/paramount-warner-bros-discovery-takeover-states-suing-block-settlement"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "UK defence contractors to offer 40,000 apprenticeships, placements and jobs",
+        "desc": "Wes Streeting says he leads a ‘ministry for growth’ as Labour seeks to show more defence spending will create UK jobs Defence contractors have promised to create 40,000 apprenticeships, work experience placements and jobs for young people each year, as Wes Streeting claimed to be overseeing a “ministry for growth”. Labour is keen to demonstrate that the rapid increase in defence spending planned f",
+        "link": "https://www.theguardian.com/education/2026/sep/23/uk-defence-contractors-40000-apprenticeships-work-placements-jobs-wes-streeting"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Rip Curl owner KMD Brands courts suitors after plunging to hefty loss",
-      "summary": "Chairman Philip Bowman said the retailer would pursue discussions with a handful of interested parties on a potential sale of the struggling business.",
-      "ts": 1790118772000,
-      "img": "https://static.ffx.io/images/$zoom_0.37697931161898474%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_309%2C$y_162/t_crop_custom/q_86%2Cf_auto/571212cafb52d581960e5521e4e0c08533db34c5",
+      "headline": "NT Labor fracking stand-off emerges as caucus members voice opposition",
+      "summary": "Four of Labor's six politicians in the Northern Territory parliament are personally opposed to fracking, contradicting the opposition's official position.",
+      "ts": 1790197063000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -744,20 +727,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Rip Curl owner KMD Brands courts suitors after plunging to hefty loss",
-        "desc": "Chairman Philip Bowman said the retailer would pursue discussions with a handful of interested parties on a potential sale of the struggling business.",
-        "link": "https://www.afr.com/companies/retail/rip-curl-owner-kmd-brands-courts-suitors-after-plunging-to-hefty-loss-20260923-p60zkd?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "NT Labor fracking stand-off emerges as caucus members voice opposition",
+        "desc": "Four of Labor's six politicians in the Northern Territory parliament are personally opposed to fracking, contradicting the opposition's official position.",
+        "link": "https://www.abc.net.au/news/2026-09-24/nt-labor-opposition-caucus-opposes-fracking-beetaloo-gas/107186574"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "ASX to rise; Tuas profit jumps; Nufarm flags guidance",
-      "summary": "Australian shares are set to open higher; BofA turns bearish on oil; Heidi Health seals a $1.26b valuation; Apollo caps private credit fund again. Follow live.",
-      "ts": 1790118650000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "headline": "First Nations workers in Australia paid 16pc less per hour, report finds",
+      "summary": "A landmark report has found Indigenous workers are on average paid 16 per cent less an hour than the average Australian, amounting to nearly two months of work each year for free.",
+      "ts": 1790196879000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -765,11 +748,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "ASX to rise; Tuas profit jumps; Nufarm flags guidance",
-        "desc": "Australian shares are set to open higher; BofA turns bearish on oil; Heidi Health seals a $1.26b valuation; Apollo caps private credit fund again. Follow live.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-nasdaq-extends-tech-rebound-oil-below-us99-20260923-p60zn4?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "First Nations workers in Australia paid 16pc less per hour, report finds",
+        "desc": "A landmark report has found Indigenous workers are on average paid 16 per cent less an hour than the average Australian, amounting to nearly two months of work each year for free.",
+        "link": "https://www.abc.net.au/news/2026-09-24/first-nations-workers-australia-indigenous-pay-gap-report/107186772"
        }
       ]
      }
@@ -781,10 +764,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Lachie Neale’s undoing revealed after AFL tribunal rejects his ‘inconsistent’ evidence",
-      "summary": "The banned Lions star ‘ignored’ the facts ‘and he knew the consequences’.",
-      "ts": 1790110496000,
-      "img": "https://images.7news.com.au/publication/C-22912224/87f28ce3f720500056ed86c06c250d9b87283b94-16x9-x0y0w1280h720.png",
+      "headline": "Ad break in Women's Champions League was unscheduled",
+      "summary": "Coverage of Arsenal's Women's Champions League opener also featured a dog on set, a vegetable platter and a rotating floor.",
+      "ts": 1790198201000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a626/live/bb6f3220-b741-11f1-aa9c-3d062fa3aea7.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -792,27 +775,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Lachie Neale’s undoing revealed after AFL tribunal rejects his ‘inconsistent’ evidence",
-        "desc": "The banned Lions star ‘ignored’ the facts ‘and he knew the consequences’.",
-        "link": "https://7news.com.au/sport/afl/lachie-neales-undoing-revealed-after-afl-tribunal-rejects-his-inconsistent-evidence--c-22912224"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Brisbane’s Lachie Neale to miss grand final as AFL’s one-game ban upheld",
-        "desc": "Dual Brownlow medallist guilty of intentional striking Plea of ‘exceptional circumstances’ rejected The prospect of Brisbane Lions’ midfielder Lachie Neale playing in Saturday’s AFL grand final has plummeted after his suspension for striking Hawthorn’s Jack Ginnivan in last week’s preliminary final was upheld by the AFL tribunal. The two-time Brownlow medallist had never been suspended across 320 ",
-        "link": "https://www.theguardian.com/sport/2026/sep/22/brisbanes-lachie-neale-to-miss-grand-final-as-afls-one-game-ban-upheld"
+        "title": "Chelsea 1-0 Austria Vienna: Women’s Champions League – as it happened",
+        "desc": "A terrific first-half strike from Wieke Kaptein was enough to give Chelsea the win, though FAK spurned several presentable chances Leuven 0-0 Roma Servette 0-8 Lyon Continue reading...",
+        "link": "https://www.theguardian.com/football/live/2026/sep/23/chelsea-v-austria-vienna-womens-champions-league-live-score-updates"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Ad break in Women's Champions League was unscheduled",
+        "desc": "Coverage of Arsenal's Women's Champions League opener also featured a dog on set, a vegetable platter and a rotating floor.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cv8e328r7w4go?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Vital with the bat, crucial with the ball - Jacks stars in England win",
-      "summary": "Will Jacks produces a match-winning performance to help England to a comfortable 89-run victory over Sri Lanka at Chester-le-Street in the first one-day international of the three-match series.",
-      "ts": 1790105686000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1f57/live/357f4680-b6b7-11f1-a430-4d16ee157c41.jpg",
+      "headline": "Burnham says ban on alcohol for football fans in stands is 'discrimination'",
+      "summary": "The prime minister opposes the law - in place since 1985 - and believes there is a case to remove it.",
+      "ts": 1790197276000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce25/live/08123a00-b78d-11f1-9871-9f85ee3099c6.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -820,27 +803,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "First blood to England in ODI series after Will Jacks helps see off Sri Lanka",
-        "desc": "All-rounder takes five wickets after vital 46 not out Harry Brook top-scores with 67 in comfortable win Harry Brook had called on his ­England players to continue the “high-octane” cricket witnessed during their clean sweep in the Twenty20s but this latest victory over Sri Lanka in the first one-day international was more of a slow-burn affair. Gone was the neck-arching carnage of the previous wee",
-        "link": "https://www.theguardian.com/sport/2026/sep/22/first-blood-to-england-in-odi-series-after-will-jacks-helps-see-off-sri-lanka"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Vital with the bat, crucial with the ball - Jacks stars in England win",
-        "desc": "Will Jacks produces a match-winning performance to help England to a comfortable 89-run victory over Sri Lanka at Chester-le-Street in the first one-day international of the three-match series.",
-        "link": "https://www.bbc.co.uk/sport/cricket/videos/cw8d326gv02zo?at_medium=RSS&at_campaign=rss"
+        "title": "Burnham says ban on alcohol for football fans in stands is 'discrimination'",
+        "desc": "The prime minister opposes the law - in place since 1985 - and believes there is a case to remove it.",
+        "link": "https://www.bbc.co.uk/news/articles/c933ky0nknxko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Andy Burnham signals he may lift ban on alcohol in football stands",
+        "desc": "Prime minister says measure is discriminatory when fans of other sports are not similarly restricted Andy Burnham has signalled he may lift the ban on drinking alcohol in the stands at football matches, suggesting it is “unfair” for fans to be singled out when it is permitted for other sports. The prime minister, a committed Everton fan who still attends matches, said there was a case for triallin",
+        "link": "https://www.theguardian.com/football/2026/sep/23/andy-burnham-signals-he-may-lift-ban-on-alcohol-in-football-stands"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Cyclist who dressed as man to avoid Taliban wins silver medal",
-      "summary": "Afghan cyclist Fariba Hashimi wins silver in the women's road race at the Asian Games, having fled oppression in her home country to pursue a sporting dream.",
-      "ts": 1790096275000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebad/live/b5f04860-b69d-11f1-ba3d-1d5c8a47f823.png",
+      "headline": "Eriksen leaves Wolfsburg by mutual consent",
+      "summary": "Christian Eriksen leaves Wolfsburg by mutual consent, just over three months after collapsing during Denmark's friendly with Ukraine.",
+      "ts": 1790192770000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c828/live/4299c9d0-b78e-11f1-a570-89f3bfbcef81.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Christian Eriksen leaves Wolfsburg by mutual consent after on-pitch collapse in June",
+        "desc": "Danish midfielder has been recuperating in homeland Eriksen: ‘I’m pleased we were able to find a solution’ Christian Eriksen and the German side VfL Wolfsburg have agreed to terminate ⁠his contract by mutual consent, the club announced on Wednesday. The 34-year-old collapsed during a Denmark friendly ⁠against Ukraine in June. Eriksen said in July he would ​return to his homeland to undergo a ‌reha",
+        "link": "https://www.theguardian.com/football/2026/sep/23/christian-eriksen-leaves-wolfsburg-mutual-consent-denmark"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Eriksen leaves Wolfsburg by mutual consent",
+        "desc": "Christian Eriksen leaves Wolfsburg by mutual consent, just over three months after collapsing during Denmark's friendly with Ukraine.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Pick your County Championship team of the season",
+      "summary": "Pick you best XI from the 2026 County Championship season. Who makes the cut?",
+      "ts": 1790164370000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/395f/live/bc9820d0-b688-11f1-bc1f-3f186ca4140c.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -850,53 +861,25 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Cyclist who dressed as man to avoid Taliban wins silver medal",
-        "desc": "Afghan cyclist Fariba Hashimi wins silver in the women's road race at the Asian Games, having fled oppression in her home country to pursue a sporting dream.",
-        "link": "https://www.bbc.co.uk/sport/cycling/articles/c63eqyvdndwdo?at_medium=RSS&at_campaign=rss"
+        "title": "Pick your County Championship team of the season",
+        "desc": "Pick you best XI from the 2026 County Championship season. Who makes the cut?",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c3pwled5l9nxo?at_medium=RSS&at_campaign=rss"
        },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Afghan cyclist who disguised herself as a man to evade Taliban wins Asian Games silver",
-        "desc": "Fariba Hashimi fled after Taliban returned to power ‘This medal can show resilience from Afghan women’ An Afghan cyclist who disguised herself as a man to pursue her sporting dreams won an Asian Games silver medal on Tuesday, hoping it inspires other women in a country where Taliban authorities have sharply curtailed their freedoms. Fariba Hashimi, who is based in Italy, powered home second behind",
-        "link": "https://www.theguardian.com/sport/2026/sep/22/fariba-hashimi-afghan-cyclist-disguised-as-man-evade-taliban-wins-asian-games-silver"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "AFL grand final: Fremantle faithful to pour into port city to watch Dockers’ decider against the Brisbane Lions",
-      "summary": "The port city is preparing for Saturday’s AFL grand final to be its biggest event since the America’s Cup.",
-      "ts": 1790089203000,
-      "img": "https://images.7news.com.au/publication/C-22910169/11bf79e764c15bbeb76f818ac17fcc938901ba87-16x9-x0y0w1920h1080.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
         "title": "Annoyingly likeable Lions or Fremantle’s fairytale? How to pick a team to cheer for in the 2026 AFL grand final",
         "desc": "Forget the cup, who will win the hearts of the undecideds, casuals and neutrals – the juggernauts from Brisbane or the underdog Dockers? Sign up for our free weekly AFL newsletter The AFL grand final is this Saturday, and Victoria’s faithful are once again without a home team to barrack for. Amid the NRL’s quest to conquer Perth, Papua New Guinea and everywhere in between, the continent-straddling",
         "link": "https://www.theguardian.com/sport/blog/2026/sep/23/how-to-pick-a-team-brisbane-lions-vs-fremantle-dockers-afl-grand-final"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "AFL grand final: Fremantle faithful to pour into port city to watch Dockers’ decider against the Brisbane Lions",
-        "desc": "The port city is preparing for Saturday’s AFL grand final to be its biggest event since the America’s Cup.",
-        "link": "https://7news.com.au/sport/afl/afl-grand-final-fremantle-faithful-to-pour-into-port-city-to-watch-dockers-decider-against-the-brisbane-lions-c-22910169"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "Aussie sprint star Rohan Browning announces shock retirement at 28",
-      "summary": "The Olympian ‘really wanted to go out on a high note’ and said ‘it was only going to go downhill’ from Commonwealth Games gold.",
-      "ts": 1790114329000,
-      "img": "https://images.7news.com.au/publication/C-22912337/f9bf1605a193d9f42a480763fd51b9bbccfb74c9-16x9-x0y0w1280h720.jpg",
+      "headline": "Banned Sydney players return to Swans HQ after alleged Pullman Hotel incident",
+      "summary": "The five players at the centre of an ongoing police investigation have made their first public appearance.",
+      "ts": 1790152012000,
+      "img": "https://images.7news.com.au/publication/C-22916145/c60edf228ebda30995e4d70c69d1be98df7e9a4f-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -904,20 +887,27 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Banned Sydney Swans players apologise to teammates as they return to club",
+        "desc": "Heeney, Warner, Blakey, Jordon and Bice attend exit meetings The five have not been to Swans HQ since August suspension Sydney’s five suspended players have offered an apology to teammates and colleagues after ending their weeks-long exile from the AFL club. Swans vice-captain Isaac Heeney, Chad Warner, Nick Blakey, James Jordon and Riley Bice on Wednesday appeared at Sydney’ base at Moore Park fo",
+        "link": "https://www.theguardian.com/sport/2026/sep/23/sydney-swans-banned-players-club-return-exit-meetings-afl-2026-ntwnfb"
+       },
+       {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Aussie sprint star Rohan Browning announces shock retirement at 28",
-        "desc": "The Olympian ‘really wanted to go out on a high note’ and said ‘it was only going to go downhill’ from Commonwealth Games gold.",
-        "link": "https://7news.com.au/sport/athletics/aussie-sprint-star-rohan-browning-announces-shock-retirement-at-28-c-22912337"
+        "title": "Banned Sydney players return to Swans HQ after alleged Pullman Hotel incident",
+        "desc": "The five players at the centre of an ongoing police investigation have made their first public appearance.",
+        "link": "https://7news.com.au/sport/afl/banned-sydney-players-return-to-swans-hq-after-alleged-pullman-hotel-incident-c-22916145"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Paul Gallen declares NRL must act on ‘sad’ change to tripping punishment: ‘Cardinal sin’",
-      "summary": "‘I don’t know when it became acceptable. You’d be looked down upon even in your own dressing room.’",
-      "ts": 1790112184000,
-      "img": "https://images.7news.com.au/publication/C-22912266/7a61df3ae8167d0ca2bf312be95fb1fa06f352c6-16x9-x0y0w1280h720.jpg",
+      "headline": "England ease to big victory as Sri Lanka crumble in first ODI",
+      "summary": "England maintain their excellent one-day form in a comfortable victory against Sri Lanka, as Will Jacks' stars with bat and ball to help the home side to an 89-run win at Chester-le-Street in the first ODI.",
+      "ts": 1790106220000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32d0/live/7ced4c00-b6b8-11f1-bc1f-3f186ca4140c.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -925,11 +915,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Paul Gallen declares NRL must act on ‘sad’ change to tripping punishment: ‘Cardinal sin’",
-        "desc": "‘I don’t know when it became acceptable. You’d be looked down upon even in your own dressing room.’",
-        "link": "https://7news.com.au/sport/rugby-league/paul-gallen-calls-out-sad-send-off-change-nrl-must-act-on-c-22912266"
+        "title": "England ease to big victory as Sri Lanka crumble in first ODI",
+        "desc": "England maintain their excellent one-day form in a comfortable victory against Sri Lanka, as Will Jacks' stars with bat and ball to help the home side to an 89-run win at Chester-le-Street in the first ODI.",
+        "link": "https://www.bbc.co.uk/sport/cricket/videos/cw1mvyz30jy3o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "First blood to England in ODI series after Will Jacks helps see off Sri Lanka",
+        "desc": "All-rounder takes five wickets after vital 46 not out Harry Brook top-scores with 67 in comfortable win Harry Brook had called on his ­England players to continue the “high-octane” cricket witnessed during their clean sweep in the Twenty20s but this latest victory over Sri Lanka in the first one-day international was more of a slow-burn affair. Gone was the neck-arching carnage of the previous wee",
+        "link": "https://www.theguardian.com/sport/2026/sep/22/first-blood-to-england-in-odi-series-after-will-jacks-helps-see-off-sri-lanka"
        }
       ]
      }
@@ -941,10 +938,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Nicholas Hoult's 10 Best Movies TV Shows",
-      "summary": "Nicholas Hoult has been acting since he was a kid, and his range has only grown in the years since, and his choices only gotten more interesting.",
-      "ts": 1790116216000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/the-great_m66div-1.jpg",
+      "headline": "‘The Love Hypothesis’ Director Claire Scanlon Talks “Pressure” Of Chapter 16 Scene, “Dynamic” Captured With First Kiss & More",
+      "summary": "SPOILER ALERT: This piece spoils the entirety of The Love Hypothesis movie now streaming on Prime Video. Editor’s Note: Trigger Warning – The following contains mention of sexual harassment. Help is available at the National Sexual Assault Hotline: 1-800-656-4673. The order of several pivotal scenes in Ali Hazelwood’s The Love Hypothesis was switched up for […]",
+      "ts": 1790198770000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/LVHY_2026_UT_250718_WENJON_01894RC_1_3000.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -952,27 +949,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Nicholas Hoult's 10 Best Movies TV Shows",
-        "desc": "Nicholas Hoult has been acting since he was a kid, and his range has only grown in the years since, and his choices only gotten more interesting.",
-        "link": "https://screenrant.com/nicholas-hoult-best-movies-tv-shows/"
+        "title": "‘The Love Hypothesis’ Director Claire Scanlon Talks “Pressure” Of Chapter 16 Scene, “Dynamic” Captured With First Kiss & More",
+        "desc": "SPOILER ALERT: This piece spoils the entirety of The Love Hypothesis movie now streaming on Prime Video. Editor’s Note: Trigger Warning – The following contains mention of sexual harassment. Help is available at the National Sexual Assault Hotline: 1-800-656-4673. The order of several pivotal scenes in Ali Hazelwood’s The Love Hypothesis was switched up for […]",
+        "link": "https://deadline.com/2026/09/the-love-hypothesis-director-interview-ch-16-first-kiss-1237111745/"
        },
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "All the Top Shows, Movies and Networks in the Merged Paramount-Warner Bros: ‘Yellowstone,’ ‘Harry Potter,’ ‘Mission: Impossible’ and DC Under One Roof",
-        "desc": "In line with mega-mergers that have come before, the impending marriage of Paramount Skydance and Warner Bros. Discovery will lead to a media company packed with assets. What differentiates this deal — which is now in the clear to move forward — from others is the sheer amount of brands and intellectual property in play. […]",
-        "link": "https://variety.com/2026/tv/news/paramount-warner-bros-merger-shows-movies-networks-1236872287/"
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "The Love Hypothesis review – hit BookTok romcom lacks spark on screen",
+        "desc": "Riverdale’s Lili Reinhart does some heavy lifting in adaptation of Ali Hazelwood’s hit book, but it’s not quite enough Fans of the dearly departed Riverdale – or, moreover, admirers of all the batshit things the CW comic soap could make its bright young actors say with straining sincerity – have long rooted for Lili Reinhart. The Betty Cooper of yore was the best of that talented crop (Charles Mel",
+        "link": "https://www.theguardian.com/film/2026/sep/23/the-love-hypothesis-review-booktok-romcom"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Spike Lee, Bowen Yang, Amandla Stenberg, Dave Franco and Chance the Rapper Front J.Crew’s 40th Anniversary Barn Jacket Campaign",
-      "summary": "J.Crew is celebrating 40 years of its signature Barn Jacket with a sprawling new campaign featuring everyone from Spike Lee and Bowen Yang to Amandla Stenberg, Dave Franco, Chance the Rapper and Scottie Pippen. Unveiled Tuesday, the campaign brings together 160 people photographed across New York City, Los Angeles, Austin, Boston and Chicago, marking what […]",
-      "ts": 1790112726000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/split-2-split-1000x667-1-4.jpg",
+      "headline": "Lanterns' DCU Timeline Explained: Every Major Green Lantern Event",
+      "summary": "Lanterns employs a non-linear story format that means it takes a bit of effort to unravel what is going on. Thankfully, we've got the full breakdown.",
+      "ts": 1790199915000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/aaron-pierre-as-john-stewart-and-kyle-chandler-as-hal-jordan-in-a-bar-in-lanterns.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -980,27 +977,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Spike Lee, Bowen Yang, Amandla Stenberg, Dave Franco and Chance the Rapper Front J.Crew’s 40th Anniversary Barn Jacket Campaign",
-        "desc": "J.Crew is celebrating 40 years of its signature Barn Jacket with a sprawling new campaign featuring everyone from Spike Lee and Bowen Yang to Amandla Stenberg, Dave Franco, Chance the Rapper and Scottie Pippen. Unveiled Tuesday, the campaign brings together 160 people photographed across New York City, Los Angeles, Austin, Boston and Chicago, marking what […]",
-        "link": "https://variety.com/2026/shopping/news/j-crew-barn-jacket-campaign-spike-lee-bowen-yang-1236872685/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Bowen Yang Boosts ‘Oh, Mary!’, Reece Weaver Cheers ‘Chicago’ And ‘Titanique’ Sails Off On High Note – Broadway Box Office",
-        "desc": "Broadway enjoyed a crisp upturn last week as autumn peeked around the corner, with a few shows benefiting from popular new cast members and one production seeing a final-week boost from last-chancers. In the former category were Oh, Mary!, a sell-out with newly arrived Bowen Yang in the lead, for a big gross of $1,517,710, […]",
-        "link": "https://deadline.com/2026/09/broadway-box-office-bowen-yang-reece-weaver-titanique-1237110108/"
+        "title": "Lanterns' DCU Timeline Explained: Every Major Green Lantern Event",
+        "desc": "Lanterns employs a non-linear story format that means it takes a bit of effort to unravel what is going on. Thankfully, we've got the full breakdown.",
+        "link": "https://screenrant.com/lanterns-dcu-every-major-event-timeline-explained/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "The Legend of Korra: What Happened To Korra After The Series Ended",
-      "summary": "After The Legend of Korra ended, Korra's adventures continued in comic book form. Here’s everything that happened to Korra after the show's ending.",
-      "ts": 1790118017000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/the-legend-of-korra-korra-from-the-legend-of-korra-and-avatar-seven-havens-avatar-featured-image.png",
+      "headline": "Below Interview with Josh Hartnett, Charlie Heaton Mackenzie Davis",
+      "summary": "Below stars Josh Hartnett, Charlie Heaton, and Mackenzie Davis discuss the specific vibes that Netflix's new supernatural series Below gives off, as well as how unique it still is.",
+      "ts": 1790199017000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/7b271afc-38cf-46e0-9794-d9b2a60fdfc6.jpeg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1010,18 +1000,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "The Legend of Korra: What Happened To Korra After The Series Ended",
-        "desc": "After The Legend of Korra ended, Korra's adventures continued in comic book form. Here’s everything that happened to Korra after the show's ending.",
-        "link": "https://screenrant.com/legend-korra-what-happened-after-ending-comics/"
+        "title": "Below Interview with Josh Hartnett, Charlie Heaton Mackenzie Davis",
+        "desc": "Below stars Josh Hartnett, Charlie Heaton, and Mackenzie Davis discuss the specific vibes that Netflix's new supernatural series Below gives off, as well as how unique it still is.",
+        "link": "https://screenrant.com/video/below-josh-hartnett-charlie-heaton-mackenzie-davis-interview/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "6 Reasons Why Resident Evil Secured The Biggest Box Office Opening In Franchise History",
-      "summary": "The new Resident Evil movie is already an enormous box office success, and there are several illuminating reasons that help to explain why.",
-      "ts": 1790118016000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/austin-abrams-bryan-aiming-a-gun-and-putting-a-finger-in-his-ear-in-resident-evil.jpg",
+      "headline": "Seraphina's MobLand Season 2 Master Plan Surprising Ally Explained By Guy Ritchie Star",
+      "summary": "Mandeep Dhillon breaks down Seraphina's MobLand season 2 mentality, her master plan for working apart from the Harrigans, and her surprising ally.",
+      "ts": 1790199017000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/mandeep-dhillon-s-seraphina-smoking-a-cigarette-and-leaning-on-a-pool-lounger-in-mobland-season-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1031,39 +1021,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "6 Reasons Why Resident Evil Secured The Biggest Box Office Opening In Franchise History",
-        "desc": "The new Resident Evil movie is already an enormous box office success, and there are several illuminating reasons that help to explain why.",
-        "link": "https://screenrant.com/resident-evil-movie-box-office-biggest-franchise-history-reasons/"
+        "title": "Seraphina's MobLand Season 2 Master Plan Surprising Ally Explained By Guy Ritchie Star",
+        "desc": "Mandeep Dhillon breaks down Seraphina's MobLand season 2 mentality, her master plan for working apart from the Harrigans, and her surprising ally.",
+        "link": "https://screenrant.com/mobland-season-2-seraphina-master-plan-surprise-ally-mandeep-dhillon/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Manga Plus Adds KAKAKAKA, The Ura Files, Noisering, 1 More Title",
-      "summary": "Also: Morino-san Just Won't Leave Me Be",
-      "ts": 1790118000000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Manga Plus Adds KAKAKAKA, The Ura Files, Noisering, 1 More Title",
-        "desc": "Also: Morino-san Just Won't Leave Me Be",
-        "link": "https://www.animenewsnetwork.com/news/2026-09-22/manga-plus-adds-kakakaka-the-ura-files-noisering-1-more-title/.242092"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "J.J. Abrams' X-Files Meets The Twilight Zone Sci-Fi Series Is Streaming For Free It's A Must-Watch",
-      "summary": "J. J. Abrams' masterpiece Sci-Fi series is streaming for free, and it becomes a must-watch for genre fans, mixing The X-Files with The Twilight Zone.",
-      "ts": 1790117749000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/12/anna-torv-standing-in-front-of-a-whiteboard-full-of-equations-on-fringe.jpg",
+      "headline": "Law Order Officially Has A New Streaming Home Ahead Of Season 26",
+      "summary": "The long-standing legal drama series Law & Order has a new streaming home on Netflix ahead of its upcoming season 26 premiere on September 25.",
+      "ts": 1790199017000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/hugh-dancy-and-odelya-halevi-in-law-order.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1073,9 +1042,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "J.J. Abrams' X-Files Meets The Twilight Zone Sci-Fi Series Is Streaming For Free It's A Must-Watch",
-        "desc": "J. J. Abrams' masterpiece Sci-Fi series is streaming for free, and it becomes a must-watch for genre fans, mixing The X-Files with The Twilight Zone.",
-        "link": "https://screenrant.com/jj-abrams-sci-fi-series-fringe-streaming-free-must-watch/"
+        "title": "Law Order Officially Has A New Streaming Home Ahead Of Season 26",
+        "desc": "The long-standing legal drama series Law & Order has a new streaming home on Netflix ahead of its upcoming season 26 premiere on September 25.",
+        "link": "https://screenrant.com/law-and-order-netflix-season-25-all-revival-episodes-streaming/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "All 9 Upcoming Taylor Sheridan Shows",
+      "summary": "Taylor Sheridan has nine returning and new shows on the horizon on Paramount+ and CBS; here's everything we know about them and when they debut.",
+      "ts": 1790199017000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/landman_1l7zac.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "All 9 Upcoming Taylor Sheridan Shows",
+        "desc": "Taylor Sheridan has nine returning and new shows on the horizon on Paramount+ and CBS; here's everything we know about them and when they debut.",
+        "link": "https://screenrant.com/taylor-sheridan-upcoming-shows/"
        }
       ]
      }
@@ -1084,33 +1074,33 @@
   ],
   "sourcesOk": [
    "The Age",
+   "Guardian Australia",
+   "ABC News",
    "Crikey",
    "BBC World",
-   "ABC News",
    "Fox News",
-   "Ars Technica",
-   "The Verge",
    "BBC Tech",
    "Fox News Politics",
-   "The Age Federal Politics",
+   "Ars Technica",
+   "Guardian AU Politics",
+   "ABC Business",
+   "The Age Business",
    "The Conversation",
-   "Fox Business",
-   "BBC Sport",
+   "Guardian Tech",
+   "The Age Federal Politics",
+   "The Verge",
    "Guardian AU Business",
    "Variety",
    "Deadline",
-   "The Age Business",
+   "Fox Business",
+   "BBC Sport",
    "AFR",
-   "Guardian AU Politics",
-   "ABC Business",
-   "Guardian Australia",
-   "Guardian Tech",
-   "Anime News Network",
-   "Screen Rant",
-   "Guardian Film",
    "Guardian AU Sport",
-   "Daily Mail Australia",
    "7News",
+   "Guardian Film",
+   "Screen Rant",
+   "Anime News Network",
+   "Daily Mail Australia",
    "SBS News",
    "7News Sport"
   ],
@@ -1289,7 +1279,7 @@
    {
     "title": "Smoking Behind the Supermarket with You",
     "year": "2026",
-    "rating": 8.2,
+    "rating": 8.1,
     "genres": [
      "Comedy",
      "Romance",
@@ -1301,134 +1291,134 @@
   ]
  },
  "wotd": {
-  "word": "simulacrum",
+  "word": "zugzwang",
   "phonetic": "",
   "pos": "Noun",
-  "def": "A physical image or representation of a deity, person, or thing.",
-  "example": "a simulacrum of a New York studio apartment",
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/LL-Q1860_%28eng%29-Vealhurl-simulacrum.wav/LL-Q1860_%28eng%29-Vealhurl-simulacrum.wav.mp3"
+  "def": "A situation in which a player is forced to make a disadvantageous move; a position where any legal move will worsen a player's situation.",
+  "example": null,
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/En-us-zugzwang.ogg/En-us-zugzwang.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "100% Isopropyl Alcohol 5L $22.50 (New Customers Only) + Delivery ($0 NSW C C) @ Sydney Solvents",
-   "link": "https://www.ozbargain.com.au/node/925432",
-   "votes": 312,
+   "title": "[QLD, VIC, NSW, TAS, WA] Councils Offering Free Trees / Plants",
+   "link": "https://www.ozbargain.com.au/node/406730",
+   "votes": 140,
    "neg": 0,
    "category": "Home Garden",
-   "ts": 1758627185000
+   "ts": 1538528744000
   },
   {
-   "title": "Free Unlimited Australian NZ High-Resolution Aerial Imagery @ Vexcel Data Group",
-   "link": "https://www.ozbargain.com.au/node/925386",
-   "votes": 271,
+   "title": "Samsung Galaxy SmartTag2 $18.05 Delivered @ digiDirect",
+   "link": "https://www.ozbargain.com.au/node/976173",
+   "votes": 125,
    "neg": 0,
-   "category": "Internet",
-   "ts": 1758602817000
+   "category": "Electrical Electronics",
+   "ts": 1790160519000
   },
   {
-   "title": "Free US$100 Azure Credit for Edu Email Holders (Incl. Free Windows 10 Education, Access to Microsoft Learn etc)",
-   "link": "https://www.ozbargain.com.au/node/569276",
-   "votes": 149,
+   "title": "Get One Free Pack of Haldirams Punjabi Samosa 650g at Coles @ Flybuys (Activation Required)",
+   "link": "https://www.ozbargain.com.au/node/976088",
+   "votes": 85,
    "neg": 0,
-   "category": "Computing",
-   "ts": 1601359347000
+   "category": "Groceries",
+   "ts": 1790128050000
   },
   {
-   "title": "6¢/L off Fuel at 7-Eleven (Excludes SA TAS) @ Wilson Parking App",
-   "link": "https://www.ozbargain.com.au/node/953242",
-   "votes": 111,
+   "title": "Heinz Tomato Ketchup 500mL (Pack of 2) $5.20 ($4.68 Sub Save) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/976134",
+   "votes": 80,
    "neg": 0,
-   "category": "Automotive",
-   "ts": 1774340011000
+   "category": "Groceries",
+   "ts": 1790143115000
   },
   {
-   "title": "Vietjet Direct O/W Ho Chi Minh City: PER $213, SYD $257, MEL $260, BNE $273; Home to SYD $201, MEL $207 (Oct-Jun) @ Skyspy",
-   "link": "https://www.ozbargain.com.au/node/976028",
-   "votes": 69,
+   "title": "Free Medium Fries with Any Purchase @ Guzman y Gomez (App Required)",
+   "link": "https://www.ozbargain.com.au/node/976162",
+   "votes": 64,
    "neg": 0,
-   "category": "Travel",
-   "ts": 1790063943000
+   "category": "Dining Takeaway",
+   "ts": 1790156821000
   },
   {
-   "title": "Extra 70% off Selected Fossil: Hayes Slim Leather Trim Courier Bag $71.70, Passport Case $23.20 +Delivery ($0 C C) @ David Jones",
-   "link": "https://www.ozbargain.com.au/node/975989",
+   "title": "[Perks] 20% off a Massive Range of TVs, Kitchen Appliances More + Delivery ($0 C C/ in-Store) @ JB Hi-Fi",
+   "link": "https://www.ozbargain.com.au/node/976166",
    "votes": 58,
-   "neg": 1,
-   "category": "Fashion Apparel",
-   "ts": 1790043262000
-  },
-  {
-   "title": "BWS: 30% Cashback ($20 Cap Per Order, Exclusions Apply), [Westpac] 5% Bonus Cashback ($20 Cap Per Order) @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/976045",
-   "votes": 50,
    "neg": 0,
-   "category": "Alcohol",
-   "ts": 1790085910000
+   "category": "Electrical Electronics",
+   "ts": 1790157877000
   },
   {
-   "title": "Finish Quantum Lemon Dishwasher Tablets x 400 $100.30 ($97.94 eBay Plus) Delivered @ Good Price People eBay",
-   "link": "https://www.ozbargain.com.au/node/976001",
+   "title": "Coles Roasted And Salted Cashews 750g $12 @ Coles",
+   "link": "https://www.ozbargain.com.au/node/976126",
+   "votes": 58,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1790140960000
+  },
+  {
+   "title": "[SUBS] Toy Story 5 (2026) - Movie Streaming @ Disney+",
+   "link": "https://www.ozbargain.com.au/node/976165",
+   "votes": 52,
+   "neg": 0,
+   "category": "Entertainment",
+   "ts": 1790157428000
+  },
+  {
+   "title": "1/2 Price Rascals Premium Nappy Pants Sizes 4-7: $8.75 Each Pack @ Coles",
+   "link": "https://www.ozbargain.com.au/node/976097",
+   "votes": 51,
+   "neg": 0,
+   "category": "Toys Kids",
+   "ts": 1790130225000
+  },
+  {
+   "title": "Dyson Ontrac Headphones $219 (RRP $799) + Delivery ($0 to Select Areas) @ Woolworths Online",
+   "link": "https://www.ozbargain.com.au/node/976152",
    "votes": 44,
    "neg": 0,
-   "category": "Home Garden",
-   "ts": 1790051104000
+   "category": "Electrical Electronics",
+   "ts": 1790153483000
   },
   {
-   "title": "Amazon Gift Cards: 2% Cashback on $100 $200, [Westpac, StG, BoM, BSA] 3% Bonus Cashback @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/976046",
-   "votes": 35,
+   "title": "[Perks] LG 83 C6 Evo AI 4K OLED Smart TV (2026) $4752.80 + Delivery ($0 C C/ In-Store) @ JB Hi-Fi (Excl. TAS)",
+   "link": "https://www.ozbargain.com.au/node/976171",
+   "votes": 43,
    "neg": 0,
-   "category": "Other",
-   "ts": 1790087232000
+   "category": "Electrical Electronics",
+   "ts": 1790159907000
   },
   {
-   "title": "[PC, Steam, Pre Order] SILENT HILL: Townfall $52.45 @ Fanatical",
-   "link": "https://www.ozbargain.com.au/node/976036",
-   "votes": 30,
+   "title": "[EB World Plus] Trade in Xbox Series X Disc Console for $750 Cash or Credit (in-Store) @ EB Games",
+   "link": "https://www.ozbargain.com.au/node/976188",
+   "votes": 38,
    "neg": 0,
    "category": "Gaming",
-   "ts": 1790072908000
+   "ts": 1790168715000
   },
   {
-   "title": "Ultimate Ears Miniroll Portable Bluetooth Speaker (Black) $39 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/976057",
-   "votes": 27,
+   "title": "$10 Cashback on $100 Uber Eats Gift Card (10% off) @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/976078",
+   "votes": 36,
    "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1790113413000
+   "category": "Dining Takeaway",
+   "ts": 1790123177000
   },
   {
-   "title": "Samsung Q-Series Soundbar HW-Q930H 9.1.4ch Subwoofer Rear Speaker (2026) $807.02 + Delivery @ Samsung EPP",
-   "link": "https://www.ozbargain.com.au/node/976043",
-   "votes": 27,
+   "title": "Faber-Castell Connector Pens 20-Pack $4.40 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU / Coles (in Store)",
+   "link": "https://www.ozbargain.com.au/node/976122",
+   "votes": 35,
    "neg": 0,
-   "category": "Electrical Electronics",
-   "ts": 1790079584000
+   "category": "Toys Kids",
+   "ts": 1790139521000
   },
   {
-   "title": "Samsung 8GB DDR5 5600MHz SO-DIMM RAM $89 Delivered @ Tech Junction via BIG W Market",
-   "link": "https://www.ozbargain.com.au/node/975987",
-   "votes": 23,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1790043088000
-  },
-  {
-   "title": "50% off Pepsi, Solo Zero, Schweppes, Mountain Dew, Sunkist Zero Soft Drink Cans Multipack 375ml 18pk $17.50 (TAS $18.25) @ Coles",
-   "link": "https://www.ozbargain.com.au/node/975980",
-   "votes": 19,
+   "title": "Lee Kum Kee Panda Brand Oyster Sauce 907g $5.90 @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/976124",
+   "votes": 33,
    "neg": 0,
    "category": "Groceries",
-   "ts": 1790040717000
-  },
-  {
-   "title": "40% off: Tegel Take Outs Nashville or Louisiana Chicken Tenders 500g / Burgers 600g / Nuggets 750g $8.40 @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/976058",
-   "votes": 18,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1790114286000
+   "ts": 1790140593000
   }
  ]
 }
