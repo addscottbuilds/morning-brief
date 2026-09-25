@@ -41,7 +41,7 @@
     const el = $("x-stats");
     if (!s.solved && !recorded) { el.innerHTML = ""; return; }
     el.innerHTML =
-      `<span>Streak <b>${s.streak}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
+      `<span>Streak <b>${s.lastSolveDay >= DAY - 1 ? s.streak : 0}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
       `<span>Solved <b>${s.solved}</b></span>` +
       (s.bestMs != null ? `<span>Best <b>${fmtMs(s.bestMs)}</b></span>` : "") +
       (todayMs != null ? `<span>Today <b>${fmtMs(todayMs)}</b></span>` : "");

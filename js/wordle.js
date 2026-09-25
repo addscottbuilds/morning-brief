@@ -39,7 +39,7 @@
     if (!s.played) { el.innerHTML = ""; return; }
     const pct = Math.round((s.wins / s.played) * 100);
     el.innerHTML =
-      `<span>Streak <b>${s.streak}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
+      `<span>Streak <b>${s.lastWinDay >= DAY - 1 ? s.streak : 0}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
       `<span>Won <b>${s.wins}/${s.played}</b> (${pct}%)</span>` +
       (finished ? `<button class="share-btn" id="w-share">Share</button>` : "");
     const btn = $("w-share");

@@ -45,7 +45,7 @@
     const el = $("c-stats");
     if (!s.played) { el.innerHTML = ""; return; }
     el.innerHTML =
-      `<span>Streak <b>${s.streak}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
+      `<span>Streak <b>${s.lastWinDay >= DAY - 1 ? s.streak : 0}</b></span><span>Max <b>${s.maxStreak}</b></span>` +
       `<span>Won <b>${s.wins}/${s.played}</b></span><span>Perfect <b>${s.perfect}</b></span>` +
       (over ? `<button class="share-btn" id="c-share">Share</button>` : "");
     const btn = $("c-share");
@@ -60,7 +60,7 @@
 
   // ------- persistence -------
   function stateSave() {
-    localStorage.setItem("mb_conn", JSON.stringify({ day: todayKey, found, guesses, mistakes, over, won }));
+    localStorage.setItem("mb_conn", JSON.stringify({ day: todayKey, found, guesses, mistakes, over, won, tried: [...tried] }));
   }
   function restore() {
     try {
@@ -68,7 +68,9 @@
       if (s && s.day === todayKey) {
         found = s.found || []; guesses = s.guesses || [];
         mistakes = s.mistakes || 0; over = !!s.over; won = !!s.won;
-        for (const g of guesses) tried.add(g.slice().sort().join(""));
+        // guesses only hold colour levels, so the word combinations are saved
+        // separately; they're what submit() checks against
+        for (const sig of s.tried || []) tried.add(sig);
       }
     } catch { /* fresh start */ }
   }

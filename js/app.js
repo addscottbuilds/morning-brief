@@ -78,6 +78,21 @@
   ));
   function startOfDay(d) { const c = new Date(d); c.setHours(0, 0, 0, 0); return +c; }
 
+  // iOS keeps a home-screen app alive in the background for days, so a page
+  // opened last night would come back with yesterday's date, data and puzzle
+  // (a tapped notification only refocuses it). Reload on return if the day
+  // has changed or it's been away over an hour; game progress lives in
+  // localStorage, so nothing is lost.
+  const loadedDay = now.toDateString();
+  let hiddenAt = null;
+  const staleOnReturn = () => new Date().toDateString() !== loadedDay ||
+    (hiddenAt != null && Date.now() - hiddenAt > 3600000);
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) { hiddenAt = Date.now(); return; }
+    if (staleOnReturn()) location.reload();
+  });
+  window.addEventListener("pageshow", e => { if (e.persisted && staleOnReturn()) location.reload(); });
+
   // --------------------------------------------------------------- weather --
   const WMO = {
     0: ["Clear sky", "☀"], 1: ["Mostly clear", "🌤"], 2: ["Partly cloudy", "⛅"], 3: ["Overcast", "☁"],
@@ -218,11 +233,18 @@
     $("news-updated-line").textContent = updatedText;
 
     releasesData = d.releases || null;
-    renderMarkets(d.markets);
-    renderNews(d.news);
-    renderWotd(d.wotd);
-    renderCommGames(d.commGames);
-    renderDeals(d.deals);
+    // each section renders independently: one bad field must not leave the
+    // rest of the page stuck on its loading text
+    const sections = [
+      ["markets", () => renderMarkets(d.markets)],
+      ["news", () => renderNews(d.news)],
+      ["wotd", () => renderWotd(d.wotd)],
+      ["commGames", () => renderCommGames(d.commGames)],
+      ["deals", () => renderDeals(d.deals)],
+    ];
+    for (const [name, render] of sections) {
+      try { render(); } catch (e) { console.error(`render ${name} failed:`, e); }
+    }
   }
 
   function renderDeals(deals) {
@@ -320,7 +342,10 @@
   }
 
   function renderMarkets(m) {
-    if (!m || !m.items || !m.items.length) return;
+    if (!m || !m.items || !m.items.length) {
+      $("mkt-body").innerHTML = `<tr><td colspan="3" class="muted-cell">Prices unavailable in today's refresh.</td></tr>`;
+      return;
+    }
     $("mkt-body").innerHTML = m.items.map(i => {
       const chg = i.chgPct == null ? "" :
         `<td class="r ${i.chgPct >= 0 ? "chg-up" : "chg-down"}">${i.chgPct >= 0 ? "+" : "−"}${Math.abs(i.chgPct).toFixed(1)}%</td>`;
@@ -401,11 +426,13 @@
 
     // stories not present last time the app was opened get a NEW pill; the
     // seen list persists on-device (capped so it never grows unbounded)
-    const fp = s => s.sources?.[0]?.link || s.headline;
+    // a story counts as seen if ANY of its outlets' links was seen, so a new
+    // outlet joining a known story doesn't make it look new again
+    const fps = s => { const l = (s.sources || []).map(x => x.link).filter(Boolean); return l.length ? l : [s.headline]; };
     const all = n.categories.flatMap(c => c.stories);
     const seen = new Set(safeParse(localStorage.getItem("mb_news_seen")) || []);
-    newsFresh = new Set(seen.size ? all.filter(s => !seen.has(fp(s))).map(s => s.id) : []);
-    localStorage.setItem("mb_news_seen", JSON.stringify([...new Set([...seen, ...all.map(fp)])].slice(-600)));
+    newsFresh = new Set(seen.size ? all.filter(s => !fps(s).some(f => seen.has(f))).map(s => s.id) : []);
+    localStorage.setItem("mb_news_seen", JSON.stringify([...new Set([...seen, ...all.flatMap(fps)])].slice(-1500)));
 
     const tabs = $("news-tabs");
     const keys = n.categories.map(c => c.key);
@@ -696,8 +723,9 @@
       return `<div class="wc-match race"><div class="race-name wc-winner">${esc(name)}</div><div class="race-detail">${podium || "Finished"}</div></div>`;
     }
     const when = new Date(start).toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-    const days = Math.ceil((Date.parse(start) - Date.now()) / 86400000);
-    return `<div class="wc-match race"><div class="race-name">${esc(name)}</div><div class="race-detail">${esc(when)}${days > 0 ? ` · in ${days} day${days === 1 ? "" : "s"}` : ""}${state === "in" ? ` · <span class="chg-up">LIVE</span>` : ""}</div></div>`;
+    const days = Math.round((startOfDay(start) - startOfDay(Date.now())) / 86400000); // calendar days, DST-safe
+    const rel = state === "in" ? "" : days === 0 ? " · today" : days === 1 ? " · tomorrow" : days > 1 ? ` · in ${days} days` : "";
+    return `<div class="wc-match race"><div class="race-name">${esc(name)}</div><div class="race-detail">${esc(when)}${rel}${state === "in" ? ` · <span class="chg-up">LIVE</span>` : ""}</div></div>`;
   }
 
   // ESPN answers dates=YYYYMMDD-YYYYMMDD with HTTP 400 for team sports since
@@ -814,7 +842,7 @@
 
   // ------------------------------------------------------------ deadlines --
   function daysUntil(iso) {
-    return Math.ceil((startOfDay(new Date(iso + "T00:00:00")) - startOfDay(new Date())) / 86400000);
+    return Math.round((startOfDay(new Date(iso + "T00:00:00")) - startOfDay(new Date())) / 86400000); // round: DST days are 23/25h
   }
 
   function renderDeadlines() {
@@ -849,6 +877,7 @@
         stripSet = true;
       }
     }
+    $("strip-days").parentElement.hidden = !stripSet; // no live countdown: drop the cell
     wrap.querySelectorAll(".spent-edit button").forEach(btn => {
       btn.addEventListener("click", () => {
         const cur = localStorage.getItem(btn.dataset.key) || "0";

@@ -9,15 +9,6 @@ window.MB_CONFIG = {
   // (amount stored on-device); plain items show a countdown only.
   deadlines: [
     {
-      id: "card-bonus",
-      title: "Card bonus — spend target",
-      deadline: "2026-10-05",
-      target: 5000,
-      progressKey: "mb_qantas_spent",
-      sub: "Tap the tracker to update progress (saved on this device).",
-      stripLabel: "Bonus days",
-    },
-    {
       id: "invest-plan",
       title: "Investment plan — next tranche unexecuted",
       deadline: null,
@@ -40,7 +31,6 @@ window.MB_CONFIG = {
   // show recent results + upcoming fixtures; race leagues show last podium +
   // next race. A league with no events in its window hides itself.
   sports: [
-    { key: "wc", label: "World Cup", type: "match", sport: "soccer", path: "soccer/fifa.world", pastH: 40, futureD: 4, results: 3, upcoming: 4 },
     { key: "afl", label: "AFL", type: "match", sport: "afl", path: "australian-football/afl", pastH: 36, futureD: 6, results: 3, upcoming: 4, standings: true },
     { key: "epl", label: "Premier League", type: "match", sport: "soccer", path: "soccer/eng.1", pastH: 36, futureD: 7, results: 3, upcoming: 4, standings: true },
     { key: "cricket", label: "Cricket", type: "cricket", results: 3, upcoming: 3 },
