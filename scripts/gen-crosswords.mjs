@@ -81,7 +81,8 @@ function cleanDef(html) {
     .replace(/\[\d+\]/g, " ")
     .replace(/\s+/g, " ")
     .trim()
-    .replace(/\s+\./g, ".")
+    .replace(/\s+([;,.:!?)])/g, "$1") // tag stripping leaves "ship , a helmsman"
+    .replace(/\(\s+/g, "(")
     .replace(/\.+$/, "");
 }
 async function lookup(word) {
