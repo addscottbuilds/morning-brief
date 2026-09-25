@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-25T02:50:43.717Z",
+ "generatedAt": "2026-09-25T21:52:03.725Z",
  "markets": {
   "items": [
    {
@@ -7,88 +7,96 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8657.9,
-    "chgPct": -0.5067800505630932,
+    "price": 8665,
+    "chgPct": -1.1442826477408308,
     "high52": 9296.7,
-    "off52": -6.87125539169814
+    "off52": -6.794884206223721
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.3,
-    "chgPct": 0.5944738070055754,
+    "price": 86.39,
+    "chgPct": 0.6993811377428969,
     "high52": 87.32,
-    "off52": -1.1681172698121804
+    "off52": -1.0650480989463957
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.15,
-    "chgPct": -0.4970076651310879,
+    "price": 146.3,
+    "chgPct": -0.3948834855195183,
     "high52": 155.03,
-    "off52": -5.7279236276849606
+    "off52": -5.6311681610010895
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 63.25,
-    "chgPct": 0.9899392005605528,
+    "price": 63.37,
+    "chgPct": 1.1815406662375014,
     "high52": 64.23,
-    "off52": -1.525766775650014
+    "off52": -1.3389381908765474
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 38.95,
-    "chgPct": 1.195111201542378,
+    "price": 39.18,
+    "chgPct": 1.7926689827068047,
     "high52": 47.78,
-    "off52": -18.480535789033066
+    "off52": -17.999162829635836
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7012,
-    "chgPct": -0.31390072965287374,
+    "price": 0.7026,
+    "chgPct": 0.2568746643623164,
     "high52": 0.7277,
-    "off52": -3.641610553799638
+    "off52": -3.4492235811460783
    }
   ],
   "failed": [],
   "note": "SEMI is 18% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
+    "sym": "MSFT",
+    "name": "Microsoft",
+    "market": "US",
+    "price": 516.17,
+    "currency": "USD",
+    "chgPct": 3.6631670300076467
+   },
+   {
     "sym": "META",
     "name": "Meta",
     "market": "US",
-    "price": 777.59,
+    "price": 751.66,
     "currency": "USD",
-    "chgPct": 4.500742576653224
+    "chgPct": -3.3346655641055976
+   },
+   {
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 147.66,
+    "currency": "AUD",
+    "chgPct": -2.906366240029942
    },
    {
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 56.91,
+    "price": 57.36,
     "currency": "AUD",
-    "chgPct": -3.575060049810826
-   },
-   {
-    "sym": "LLY",
-    "name": "Eli Lilly",
-    "market": "US",
-    "price": 1181.89,
-    "currency": "USD",
-    "chgPct": 2.684646263459942
+    "chgPct": -2.8126066500992564
    }
   ]
  },
@@ -101,52 +109,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "'Not a coincidence': Opposition questions timing of Albanese's OpenAI hack reveal",
-      "summary": "The government is calling for OpenAI to be held accountable after an agent gained unauthorised access to the Medicare statistics portal.",
-      "ts": 1790300334000,
-      "img": "https://assets.sbs.com.au/dims4/default/53559a9/2147483647/strip/false/crop/6623x3043+0+686/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F54%2Fd4%2Fe5f75039404f806cddbbde1a9728%2F20260812178819696951-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Rogue AI hacks government system in world first – podcast",
-        "desc": "A government database has been hacked for the first time by a rogue OpenAI agent, which infiltrated part of the Australian healthcare scheme in June. OpenAI became aware of the hack in August, but only informed the government in September. Australia’s prime minister, Anthony Albanese, has expressed his ‘extreme concern’ about the hack, which raises serious AI security concerns for governments arou",
-        "link": "https://www.theguardian.com/technology/audio/2026/sep/25/rogue-ai-hacks-government-system-in-world-first-full-story-podcast"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "'Not a coincidence': Opposition questions timing of Albanese's OpenAI hack reveal",
-        "desc": "The government is calling for OpenAI to be held accountable after an agent gained unauthorised access to the Medicare statistics portal.",
-        "link": "https://www.sbs.com.au/news/article/not-a-coincidence-opposition-questions-timing-of-albaneses-openai-hack-reveal/sjlafz053"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Government considers legal action against OpenAI but Opposition says it is missing the point",
-        "desc": "Deputy Opposition leader Jane Hume has blasted Services Australia’s ‘woefully inadequate’ cyber security.",
-        "link": "https://7news.com.au/sunrise/government-considers-legal-action-against-openai-but-opposition-says-it-is-missing-the-point-c-22924044"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-        "desc": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-        "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 1,
-      "headline": "Trump and Xi come face-to-face as US and China battle to win the AI race",
-      "summary": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
-      "ts": 1790304516000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb15/live/c9e0fd20-b7cd-11f1-9f14-6be29ed37cd7.jpg",
+      "headline": "Donald Trump praises Xi Jinping as US visit wraps up, but little progress on key issues",
+      "summary": "The summit between the two largest economies featured a state dinner and military flyovers, but no deals on trade, AI or Taiwan.",
+      "ts": 1790371740000,
+      "img": "https://assets.sbs.com.au/dims4/default/093c2ad/2147483647/strip/false/crop/3766x1730+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F76%2F73%2Fbc8d56e54d49a5fa2fc2e6e9ae8a%2Fgettyimages-2297113502.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -154,34 +120,188 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Trump heaps praise on 'truly outstanding' Xi with gracious speech as patriotic gift to China's leader is revealed at lavish black-tie state dinner featuring DC elite and business titans",
-        "desc": "President Donald Trump and First Lady Melania Trump hosted Chinese President Xi Jinping and Madame Peng Liyuan for an opulent State Dinner.",
-        "link": "https://www.dailymail.com/news/article-16158395/Trump-Melania-Chinas-Xi-state-dinner.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Donald Trump praises Xi Jinping as US visit wraps up, but little progress on key issues",
+        "desc": "The summit between the two largest economies featured a state dinner and military flyovers, but no deals on trade, AI or Taiwan.",
+        "link": "https://www.sbs.com.au/news/article/xi-jinping-meets-with-donald-trump-during-visit-to-us/w6eqhf8rh"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "At Trump meeting, Xi Jinping lays out terms to avoid US-China military conflict",
-        "desc": "Chinese president’s proposals for lessening tensions come amid period of intense competition between the two countries over AI and trade Xi Jinping has called for extensive cooperation with Washington to avoid the “Thucydides trap” that could put the US and China on a military collision course amid rising tensions over artificial intelligence, trade and Taiwan. At the start of his summit meeting w",
-        "link": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap"
+        "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
+        "desc": "US president says pair discussed Iran war as Chinese president leaves the US after his first official state visit since the end of the Obama administration Sign up for US Breaking News emails Xi Jinping and his wife are back at the White House for the final day of the Chinese president’s pageantry-filled visit to Washington, where President Trump has given him an unexpectedly warm welcome. The iti",
+        "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live"
        },
        {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Trump and Xi come face-to-face as US and China battle to win the AI race",
-        "desc": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
-        "link": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
+        "title": "What happened when Xi Jinping met Donald Trump?",
+        "desc": "Donald Trump hails a \"truly great friendship\" with President Xi. But the defining feature of their relationship remains a greater rivalry.",
+        "link": "https://www.abc.net.au/news/2026-09-26/what-happened-when-xi-jinping-and-donald-trump-met/107185512"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Ukraine’s President Volodymyr Zelensky urges US President Donald Trump to enlist China's help to end war",
+        "desc": "President Volodymyr Zelensky says he has not yet received feedback from the White House about Trump’s talks with Chinese President Xi Jinping.",
+        "link": "https://7news.com.au/news/conflict/ukraines-president-volodymyr-zelensky-urges-us-president-donald-trump-to-enlist-chinas-help-to-end-war-c-22928449"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Moment China's President Xi bursts into laughter as Trump shows him mocking 'autopen' portrait of Biden",
+        "desc": "In a video posted by the White House, Trump was seen walking Xi through the portraits. After pointing at himself, he says to Xi: 'And this is the autopen... it's Biden.'",
+        "link": "https://www.dailymail.com/news/article-16159585/Xi-Jinping-Trump-Joe-Biden-autopen-China-US.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Stunning free kick shows Irankunda's star is aligning for Socceroos",
+      "summary": "Nestory Irankunda's incredible free kick against Brazil in Townsville shows the Socceroos have stars to rival some of the biggest and best in the world.",
+      "ts": 1790368190000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/49c57ba19a16eddfc30206b3a3053aba?impolicy=wcms_crop_resize&cropH=1763&cropW=3134&xPos=652&yPos=700&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Stunning free kick shows Irankunda's star is aligning for Socceroos",
+        "desc": "Nestory Irankunda's incredible free kick against Brazil in Townsville shows the Socceroos have stars to rival some of the biggest and best in the world.",
+        "link": "https://www.abc.net.au/news/2026-09-26/nestory-irankunda-free-kick-socceroos-brazil-townsville/107198348"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
+        "desc": "Australia 1-1 Brazil in international friendly in Townsville Irankunda hits free kick before Rayan equalises deep in added time It was a Friday night in which the stars descended on Townsville. There was Bruno Guimarães, Raphinha and Vinícius Júnior in the Brazilian XI, with Endrick leading the line and Estêvão out on the flank, all instructed by Carlo Ancelotti in the dugout. But on this evening,",
+        "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Last-minute Rayan equaliser denies Socceroos famous win against Brazil",
+        "desc": "The Socceroos looked to have held out for the win after Nestory Irankunda's stunning free kick, but a last-minute corner saw Brazil draw level.",
+        "link": "https://www.sbs.com.au/news/article/australia-vs-brazil-friendly-score-match-result/np6t0oj7d"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Socceroos superstar Nestory Irankunda stuns Brazil with epic free kick in pulsating draw",
+        "desc": "The 20-year-old scored one of the great goals as the Aussies nearly pulled off a famous win.",
+        "link": "https://7news.com.au/sport/soccer/socceroos-superstar-nestory-irankunda-stuns-brazil-with-epic-free-kick-in-pulsating-draw-c-22928374"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Young ‘enthusiastic’ NSW Police constable Mia Lay identified after deadly Redfern crash",
-      "summary": "‘Some officers pay the ultimate sacrifice.’",
-      "ts": 1790304478000,
-      "img": "https://images.7news.com.au/publication/C-22924989/daaa0dd63c66519fac260b5fad75b844a9d85172-16x9-x0y0w1280h720.jpg",
+      "headline": "Hamish Tait: Sydney’s biggest childcare abuse scandal deepens as former worker faces 115 new charges, taking alleged offences to 444",
+      "summary": "The latest allegations include an alleged sexual act involving a child under 10.",
+      "ts": 1790367302000,
+      "img": "https://images.7news.com.au/publication/C-22927504/6f70bba5326f9cbfe17484106f27d045ffdb8695-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Premier League finds Manchester City guilty of more than 100 financial charges: report",
+        "desc": "Manchester City has been found guilty of more than 100 Premier League financial charges spanning an eight-year period, with sanctions still to be decided.",
+        "link": "https://www.foxnews.com/outkick/premier-league-finds-manchester-city-guilty-more-than-100-financial-charges-report"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Man City face RELEGATION 'nuclear option' and appeal 'highly unlikely to succeed', says their former financial advisor, as they are found guilty of 114 Premier League charges",
+        "desc": "Borson, who advised Man City between 2002 and 2007, was asked whether the nuclear option of relegation from the Premier League was on the table as a possible punishment.",
+        "link": "https://www.dailymail.com/sport/football/article-16160887/Man-City-RELEGATION-nuclear-option-appeal-highly-unlikely-succeed-says-former-financial-advisor-guilty-114-Premier-League-charges.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Hamish Tait: Sydney’s biggest childcare abuse scandal deepens as former worker faces 115 new charges, taking alleged offences to 444",
+        "desc": "The latest allegations include an alleged sexual act involving a child under 10.",
+        "link": "https://7news.com.au/news/hamish-tait-sydneys-biggest-childcare-abuse-scandal-deepens-as-former-worker-faces-115-new-charges-taking-alleged-offences-to-444-c-22927504"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "'Ethical' hacker doubts Open AI will face charges over Medicare hack",
+      "summary": "As questions linger around whether OpenAI will face legal consequences for its Medicare hack, a man who faced decades in jail for alleged cybercrimes says Australian law comes down harder on individuals than organisations.",
+      "ts": 1790364071000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/658bea434497738ffde9fc8d14a44b07?impolicy=wcms_crop_resize&cropH=1224&cropW=2176&xPos=0&yPos=114&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "'Ethical' hacker doubts Open AI will face charges over Medicare hack",
+        "desc": "As questions linger around whether OpenAI will face legal consequences for its Medicare hack, a man who faced decades in jail for alleged cybercrimes says Australian law comes down harder on individuals than organisations.",
+        "link": "https://www.abc.net.au/news/2026-09-26/nik-cubrilovic-legal-action-over-openai-medicare-hack/107195416"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese doubles down on AI guardrails following Medicare hack",
+        "desc": "The revelation an OpenAI agent hacked Medicare, and the fact the company took a fair old while to tell anyone, has led to increased demands for safeguards. Meanwhile, the Trump-Xi summit gets underway, with low expectations. The post Albanese doubles down on AI guardrails following Medicare hack appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/09/25/medicare-ai-hack-causes-albanese-government-double-down-on-guardrails-donald-trump-xi-jinping-united-nations-openai/"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'Spinning out of control': What came before OpenAI’s Medicare hack",
+        "desc": "From Medicare to a gym database, AI models are leaving their mark on a growing number of hacking incidents.",
+        "link": "https://www.sbs.com.au/news/article/openai-medicare-hack-rogue-ai-incidents/9l75ojalu"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Beau Lamarre-Condon: Friend ‘guilt tripped’ into sending message about alleged fake cancer diagnosis",
+      "summary": "‘He put a lot of pressure on me ... he was so upset, he wore me down.’",
+      "ts": 1790372291000,
+      "img": "https://images.7news.com.au/publication/C-22925306/69a0495c4dbb11c8aa6427a612f401ebc9302d84-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "A scolding text, 'close friends' Insta stories - and 11 Bunnings receipts: CHARLOTTE KARP takes us inside the evidence a jury is scouring at Beau Lamarre-Condon's double murder trial",
+        "desc": "Jurors in Beau Lamarre-Condon's double murder trial have been presented with reams of evidence. We take you through it.",
+        "link": "https://www.dailymail.com/news/article-16159349/beau-lamarre-condon-trial-evidence-jury-seen-texts-charlotte-karp.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Beau Lamarre-Condon: Friend ‘guilt tripped’ into sending message about alleged fake cancer diagnosis",
+        "desc": "‘He put a lot of pressure on me ... he was so upset, he wore me down.’",
+        "link": "https://7news.com.au/news/beau-lamarre-condon-friend-guilt-tripped-into-sending-message-about-alleged-fake-cancer-diagnosis-c-22925306"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Manchester City issue statement after independent panel finds them guilty of hundreds of rule breaches",
+      "summary": "The bombshell case remains ongoing but now an independent panel has upheld nearly all of the 100-plus charges.",
+      "ts": 1790372133000,
+      "img": "https://images.7news.com.au/publication/C-22928979/6eaa257e0414ebf284eb461007d3b2bec2e56661-16x9-x0y0w1920h1080.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -191,32 +311,25 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Young ‘enthusiastic’ NSW Police constable Mia Lay identified after deadly Redfern crash",
-        "desc": "‘Some officers pay the ultimate sacrifice.’",
-        "link": "https://7news.com.au/news/young-enthusiastic-nsw-police-constable-mia-lay-identified-after-deadly-redfern-crash--c-22924989"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘Ultimate sacrifice’: Police officer killed in horror Sydney crash identified",
-        "desc": "Constable Mia Lay, 20, died instantly when a police car crashed into a tree at Redfern. She only joined the force 16 months ago and showed “exceptional promise”.",
-        "link": "https://www.theage.com.au/politics/nsw/police-officer-killed-in-redfern-crash-20260925-p610e3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Manchester City issue statement after independent panel finds them guilty of hundreds of rule breaches",
+        "desc": "The bombshell case remains ongoing but now an independent panel has upheld nearly all of the 100-plus charges.",
+        "link": "https://7news.com.au/sport/soccer/manchester-city-issue-statement-after-independent-panel-finds-them-guilty-of-hundreds-of-rule-breaches-c-22928979"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "NSW police officer killed ‘instantly’ after car she was travelling in crashed into tree in Redfern",
-        "desc": "The marked police car was travelling with its sirens on when it hit a tree in inner-city Sydney about 1.30am on Friday Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast A police officer has been killed on duty when the car she was travelling in crashed into a tree. NSW Police said the marked police car was travelling under lights and",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/25/nsw-police-officer-killed-car-crash-redfern-sydney-ntwnfb"
+        "title": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
+        "desc": "City face sanctions after more than 100 rule breaches Club insist on innocence and are expected to appeal Manchester City have been found guilty of the vast majority of more than a hundred charges related to breaches of the Premier League’s financial rules, throwing English football into turmoil. The serial champions now face the possibility of being relegated from the Premier League, or expelled ",
+        "link": "https://www.theguardian.com/football/2026/sep/25/manchester-city-found-guilty-of-breaking-premier-leagues-financial-fair-play-rules"
        }
       ]
      },
      {
-      "id": 3,
-      "headline": "Albanese laments 'breakdown' of global rules in major UN speech",
-      "summary": "The prime minister tells the UN climate change and AI are key challenges demanding urgent global cooperation, just two days after Donald Trump told the same forum that both concerns were a \"hoax\".",
-      "ts": 1790303631000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/78b52cb90da84e7418fe35cbf27d5fa1?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+      "id": 6,
+      "headline": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+      "summary": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
+      "ts": 1790370713000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a847/live/f6762e00-b8a9-11f1-b1d1-571ed4d7ff2c.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -224,88 +337,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Anthony Albanese's urgent warning to the world about AI as he clashes with Trump's hands-off approach",
-        "desc": "The prime minister has issued a call to world leaders to work together to confront the growing issues of unchecked artificial intelligence and climate change.",
-        "link": "https://www.dailymail.com/news/article-16159119/Anthony-Albaneses-ai-warning.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Albanese laments 'breakdown' of global rules in major UN speech",
-        "desc": "The prime minister tells the UN climate change and AI are key challenges demanding urgent global cooperation, just two days after Donald Trump told the same forum that both concerns were a \"hoax\".",
-        "link": "https://www.abc.net.au/news/2026-09-25/anthony-albanese-gives-speech-at-un-general-assembly/107194592"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "'Too big to be contained': Anthony Albanese's AI plans met a major test",
-        "desc": "Was it a crime? Who's to blame? Who writes the rules? The big questions after an AI agent broke into a government site.",
-        "link": "https://www.sbs.com.au/news/article/too-big-to-be-contained-anthony-albaneses-ai-plans-met-a-major-test/bcs3h134c"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "US Senate narrowly rejects bid to force Trump to seek approval for Iran war",
-      "summary": "Democrats saw the vote as a way to put Republicans who support the unpopular war on record ahead of midterm elections in November.",
-      "ts": 1790302996000,
-      "img": "https://assets.sbs.com.au/dims4/default/857a1d1/2147483647/strip/false/crop/3500x1608+0+362/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F64%2Ffd%2F662405a64d3bb59dc2a8c7c7f138%2Fgettyimages-2264038009.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Why Trump's granddaughter Arabella Kushner, 15, is front and center alongside power players as the president hosts Xi Jinping at White House",
-        "desc": "Arabella Kushner, the eldest child of Ivanka Trump and Jared Kushner, was in the spotlight on Thursday for Chinese President Xi Jinping's state visit.",
-        "link": "https://www.dailymail.com/news/article-16158483/Trump-granddaughter-Arabella-Kushner-Xi-Jinping-Mandarin.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "US Senate narrowly rejects bid to force Trump to seek approval for Iran war",
-        "desc": "Democrats saw the vote as a way to put Republicans who support the unpopular war on record ahead of midterm elections in November.",
-        "link": "https://www.sbs.com.au/news/article/us-senate-narrowly-rejects-bid-to-force-trump-to-seek-approval-for-iran-war/pgwy62sg2"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Iran's president tells Trump it will never 'bend the knee'",
-        "desc": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
-        "link": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Macklemore announces 'Free Palestine' tour after being dumped from Ed Sheeran shows",
-      "summary": "The American rapper, who has been an outspoken critic of Israel's assault on Gaza, was dropped from Ed Sheeran's US shows for making pro-Palestinian comments.",
-      "ts": 1790297642000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/65faf05103aec6f38b35065f2aa398b1?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=267&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "'When Mia is deeply involved, disasters like this happen': Mamamia insider reveals fallout from Ed Sheeran podcast backlash as subscribers flee and OutLouders say they've been kicked from private grou",
-        "desc": "Subscribers are cancelling, OutLouders say they've been booted from the Facebook group and now a Mamamia insider claims the controversy points to a much bigger problem inside the company.",
-        "link": "https://www.dailymail.com/news/article-16157413/Mamamia-podcast-insider-Mia-Freedman-Ed-Sheeran-Macklemore-Palestine.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Macklemore announces 'Free Palestine' tour after being dumped from Ed Sheeran shows",
-        "desc": "The American rapper, who has been an outspoken critic of Israel's assault on Gaza, was dropped from Ed Sheeran's US shows for making pro-Palestinian comments.",
-        "link": "https://www.abc.net.au/news/2026-09-25/macklemore-free-palestine-tour-after-dumped-ed-sheeran-shows/107194522"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Ed Sheeran concerts cancelled in fresh blow to tour",
+        "desc": "It comes as another setback to Sheeran’s US Loop tour, which has been beset by controversy since Macklemore, a supporting artist, was dropped over his “Free Palestine” chants.",
+        "link": "https://www.theage.com.au/culture/music/ed-sheeran-concerts-cancelled-in-fresh-blow-to-tour-20260926-p610ns.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "BBC World",
@@ -313,41 +349,6 @@
         "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
         "desc": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
         "link": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-      "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-      "ts": 1790297044000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef68/live/531a99b0-b851-11f1-b1d1-571ed4d7ff2c.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-        "desc": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-        "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "New York City mayor fires back at Israeli PM’s ‘antisemitism’ accusations after UN speech",
-        "desc": "Benjamin Netanyahu said Jews ‘no longer feel safe’ in NYC as tore into Zohran Mamdani.",
-        "link": "https://7news.com.au/news/world/new-york-city-mayor-fires-back-at-israeli-pms-antisemitism-accusations-after-un-speech-c-22923971"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Turning Point USA fires back at ICE shooting lawyer over deleted Charlie Kirk post",
-        "desc": "Turning Point USA's Andrew Kolvet called the ICE shooting victim and his attorney a \"perfect match\" after her deleted post about Charlie Kirk resurfaced.",
-        "link": "https://www.foxnews.com/media/turning-point-usa-fires-back-ice-shooting-lawyer-over-deleted-charlie-kirk-post"
        }
       ]
      }
@@ -359,10 +360,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Joyce names price of One Nation backing Angus Taylor",
-      "summary": "Liberal MPs suggested Barnaby Joyce was making up the supposed talks about a hung parliament and believe his behaviour and public appearances were increasingly erratic.",
-      "ts": 1790303664000,
-      "img": "https://static.ffx.io/images/$zoom_0.2728%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_63%2C$y_8/t_crop_custom/q_86%2Cf_auto/74fca735956c97c882f2b57065aaa6caf2bf8e46",
+      "headline": "Back to Back Barries: Should the media boycott One Nation? – podcast",
+      "summary": "Barrie Cassidy and Sean Kelly (filling in for Tony Barry) look at the prime minister’s week in the US against the backdrop of Donald Trump’s ban of three news organisations from the White House. Would the Australian media ever join together like their American counterparts and boycott a political party or politician? The two former press advisers also examine press conference ethics and why Austra",
+      "ts": 1790348295000,
+      "img": "https://i.guim.co.uk/img/media/c0eafecd02c1544567ad7de41b4ed4fad72e70c4/625_0_3750_3000/master/3750.jpg?width=460&quality=85&auto=format&fit=max&s=fe5cb6132ca8d3fc25d62d282200edee",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -372,25 +373,25 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Australia news live: Angus Taylor accuses PM of ‘swanning around’ at UN instead of making fuel cheaper; NSW renters to benefit from new laws",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast AI hack of Medicare exposes Australia’s vulnerabilities Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk. Frontier",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb"
+        "title": "Back to Back Barries: Should the media boycott One Nation? – podcast",
+        "desc": "Barrie Cassidy and Sean Kelly (filling in for Tony Barry) look at the prime minister’s week in the US against the backdrop of Donald Trump’s ban of three news organisations from the White House. Would the Australian media ever join together like their American counterparts and boycott a political party or politician? The two former press advisers also examine press conference ethics and why Austra",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/sep/25/back-to-back-barries-should-media-boycott-one-nation-podcast-ntwnfb"
        },
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Joyce names price of One Nation backing Angus Taylor",
-        "desc": "Liberal MPs suggested Barnaby Joyce was making up the supposed talks about a hung parliament and believe his behaviour and public appearances were increasingly erratic.",
-        "link": "https://www.theage.com.au/politics/federal/joyce-names-price-of-one-nation-backing-angus-taylor-20260924-p60zuc.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "The US media boycott hit Trump right where it hurts. Now it’s Hanson’s turn",
+        "desc": "Solidarity? In America? Among the media? It seems astonishing that anything quite so unified could grow from America’s famously polarised soil.",
+        "link": "https://www.theage.com.au/politics/federal/the-us-media-boycott-hit-trump-right-where-it-hurts-now-it-s-hanson-s-turn-20260925-p60zyz.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "OpenAI ‘climbed the fence’: Taskforce scrambles after long delays flagging Medicare hack",
-      "summary": "No penalty has been imposed on US artificial intelligence corporation OpenAI after one of its AI agents infiltrated Medicare in June.",
-      "ts": 1790238315000,
-      "img": "https://static.ffx.io/images/$zoom_0.1214767392182451%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/6b53c6726879a3a97640669cca773e43a801e43e",
+      "headline": "Who is James Ashby? Pauline Hanson's 'favourite son' – video",
+      "summary": "One Nation's national director James Ashby wields as much – if not more – power over the party as Pauline Hanson herself. Rafqa Touma speaks to senior correspondent Sarah Martin about Ashby's rise from PR flack to Hanson's 'favourite son' as One Nation’s popularity soars. Listen to the Guardian’s podcast The Populist wherever you get your podcasts Continue reading...",
+      "ts": 1790320817000,
+      "img": "https://i.guim.co.uk/img/media/a4e4cc75282302e5e130deadc0440b0707e9d2b4/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=9b0a1bdbe14dd328241469752b4a0b57",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -400,67 +401,25 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "OpenAI ‘climbed the fence’: Taskforce scrambles after long delays flagging Medicare hack",
-        "desc": "No penalty has been imposed on US artificial intelligence corporation OpenAI after one of its AI agents infiltrated Medicare in June.",
-        "link": "https://www.theage.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "One Nation defends $56k party spent on Ashby shed as ‘unconventional’ fundraiser",
+        "desc": "The minor party’s general manager assured members the “unconventional” endeavour would benefit the party.",
+        "link": "https://www.theage.com.au/politics/federal/one-nation-defends-56k-party-spent-on-ashby-shed-as-unconventional-fundraiser-20260925-p610kh.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "OpenAI’s Medicare hack is a bleak opportunity for Australia to address its security shortcomings post-haste | Van Badham",
-        "desc": "All Australians should demand independent means to protect ourselves from Dr Sam Altman Frankenstein and Daddy America Whoopsie! Dr Sam Altman Frankenstein regrets to inform you he’s lost control of his OpenAI monster. It’s roving around doing things that provoke international legal investigation, and Australia has found out in the worst possible way. Continue reading...",
-        "link": "https://www.theguardian.com/commentisfree/2026/sep/24/open-ai-medicare-records-hacked-australia-cyber-security"
+        "title": "Who is James Ashby? Pauline Hanson's 'favourite son' – video",
+        "desc": "One Nation's national director James Ashby wields as much – if not more – power over the party as Pauline Hanson herself. Rafqa Touma speaks to senior correspondent Sarah Martin about Ashby's rise from PR flack to Hanson's 'favourite son' as One Nation’s popularity soars. Listen to the Guardian’s podcast The Populist wherever you get your podcasts Continue reading...",
+        "link": "https://www.theguardian.com/global/video/2026/sep/25/who-is-james-ashby-pauline-hansons-favourite-son-video"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "One Nation admits using party funds to build $56,000 shed on James Ashby’s private property",
-      "summary": "Email to members says money lent to a party-linked company to establish a micro distillery Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast One Nation has admitted using party funds to build a $56,000 shed on James Ashby’s private property. Guardian Australia revealed on Monday that a company linked to One Nation – Small Batch Brewi",
-      "ts": 1790302748000,
-      "img": "https://i.guim.co.uk/img/media/a4e4cc75282302e5e130deadc0440b0707e9d2b4/492_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=37057b79813e186f2a29c6202219adbf",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "One Nation admits using party funds to build $56,000 shed on James Ashby’s private property",
-        "desc": "Email to members says money lent to a party-linked company to establish a micro distillery Follow our Australia news live blog for latest updates Get our new political email, free app or daily news podcast One Nation has admitted using party funds to build a $56,000 shed on James Ashby’s private property. Guardian Australia revealed on Monday that a company linked to One Nation – Small Batch Brewi",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/25/one-nation-admits-to-using-party-funds-to-build-56000-shed-on-james-ashbys-private-property-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "The moment Australia’s immigration program went off the rails",
-      "summary": "Behind the headlines, a little-known legislative instrument was implemented a decade ago that would have a profound impact on Australia’s immigration program.",
-      "ts": 1790301000000,
-      "img": "https://static.ffx.io/images/$zoom_0.8713%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_212%2C$y_41/t_crop_custom/q_86%2Cf_auto/fbc2576fedb7b3efd941976f77dd51c13e8a2ad9",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "The moment Australia’s immigration program went off the rails",
-        "desc": "Behind the headlines, a little-known legislative instrument was implemented a decade ago that would have a profound impact on Australia’s immigration program.",
-        "link": "https://www.theage.com.au/politics/federal/the-moment-australia-s-immigration-program-went-off-the-rails-20260925-p60zhs.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "New Jersey Gov Mikie Sherrill calls on lieutenant governor to resign after sexual harassment investigation",
-      "summary": "New Jersey Gov. Mikie Sherrill gave Lt. Gov. Dale Caldwell a Friday deadline to resign after investigators substantiated sexual harassment and ethics violations.",
-      "ts": 1790300038000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/Caldwell-called-to-resign-by-Sherill.jpg?ve=1&tl=1",
+      "headline": "Florida GOP nominee blasts 20-year Dem incumbent as a 'socialist' rubber-stamp with 'precious little to show'",
+      "summary": "Former Florida legislator Mike Beltran seeks to oust 10-term incumbent Kathy Castor in 14th district, arguing she has been ineffective and out of touch with constituents.",
+      "ts": 1790371616000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/beltran-kathy.png?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -470,18 +429,18 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "New Jersey Gov Mikie Sherrill calls on lieutenant governor to resign after sexual harassment investigation",
-        "desc": "New Jersey Gov. Mikie Sherrill gave Lt. Gov. Dale Caldwell a Friday deadline to resign after investigators substantiated sexual harassment and ethics violations.",
-        "link": "https://www.foxnews.com/politics/new-jersey-gov-mikie-sherrill-calls-lieutenant-governor-resign-sexual-harassment-investigation"
+        "title": "Florida GOP nominee blasts 20-year Dem incumbent as a 'socialist' rubber-stamp with 'precious little to show'",
+        "desc": "Former Florida legislator Mike Beltran seeks to oust 10-term incumbent Kathy Castor in 14th district, arguing she has been ineffective and out of touch with constituents.",
+        "link": "https://www.foxnews.com/politics/florida-gop-nominee-blasts-20-year-dem-incumbent-socialist-rubber-stamp-precious-little-show"
        }
       ]
      },
      {
-      "id": 12,
-      "headline": "Albanese takes aim at AI, tells ‘middle powers’ to unite in half-filled UN assembly",
-      "summary": "In a speech pitching Australia as a voice for smaller nations, the PM said the international system couldn’t allow technology and power to dictate the future.",
-      "ts": 1790298998000,
-      "img": "https://static.ffx.io/images/$zoom_0.2446%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_118%2C$y_112/t_crop_custom/q_86%2Cf_auto/5ca8bbde8dbb2fb9ad0ce99a89fdd03e6859cfc1",
+      "id": 10,
+      "headline": "WATCH: DHS issues stark warning after 300 ‘hostile’ cartel drones detected at southern border",
+      "summary": "The Department of Homeland Security warned cartels their drones are failing as 378 were detected at the southern border in just over one month.",
+      "ts": 1790368020000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/border-drone-us-military.png?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -489,11 +448,53 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Albanese takes aim at AI, tells ‘middle powers’ to unite in half-filled UN assembly",
-        "desc": "In a speech pitching Australia as a voice for smaller nations, the PM said the international system couldn’t allow technology and power to dictate the future.",
-        "link": "https://www.theage.com.au/politics/federal/albanese-takes-aim-at-ai-tells-middle-powers-to-unite-in-half-filled-un-assembly-20260925-p610e5.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "WATCH: DHS issues stark warning after 300 ‘hostile’ cartel drones detected at southern border",
+        "desc": "The Department of Homeland Security warned cartels their drones are failing as 378 were detected at the southern border in just over one month.",
+        "link": "https://www.foxnews.com/politics/dhs-issues-stark-warning-300-hostile-cartel-drones-detected-southern-border"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "As Singham faces federal probe, wife marches in anti-Israel protest led by groups he funded",
+      "summary": "Jodie Evans, wife of tech tycoon Neville Roy Singham, marched alongside People's Forum activists in a four-hour anti-Israel protest through Manhattan.",
+      "ts": 1790367572000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/singham-jodie-evans.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "As Singham faces federal probe, wife marches in anti-Israel protest led by groups he funded",
+        "desc": "Jodie Evans, wife of tech tycoon Neville Roy Singham, marched alongside People's Forum activists in a four-hour anti-Israel protest through Manhattan.",
+        "link": "https://www.foxnews.com/politics/singham-faces-federal-probe-wife-marches-anti-israel-protest-groups-he-funded"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "Leftist protester disrupts Climate Week event by ranting against US military",
+      "summary": "Code Pink disrupted a Nature Conservancy event at NYC Climate Week, demanding the group address the Pentagon's carbon footprint and military pollution.",
+      "ts": 1790365216000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/codepink-protesters-pete-hegseth-confirmation-hearing-jan-14-2025.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Leftist protester disrupts Climate Week event by ranting against US military",
+        "desc": "Code Pink disrupted a Nature Conservancy event at NYC Climate Week, demanding the group address the Pentagon's carbon footprint and military pollution.",
+        "link": "https://www.foxnews.com/politics/leftist-protester-disrupts-climate-week-event-ranting-against-us-military"
        }
       ]
      }
@@ -505,6 +506,34 @@
     "stories": [
      {
       "id": 13,
+      "headline": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+      "summary": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
+      "ts": 1790329713000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fed0/live/93ad40c0-b8c1-11f1-ad1f-538855f30ba1.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+        "desc": "The EU had said X \"deceives users\" by selling blue ticks without \"meaningfully verifying\" accounts.",
+        "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "We have a trailer for Musk documentary Elon called a \"hit piece\"",
+        "desc": "Oscar-winning documentarian Alex Gibney focuses on the world's wealthiest man.",
+        "link": "https://arstechnica.com/culture/2026/09/we-have-a-trailer-for-musk-documentary-elon-called-a-hit-piece/"
+       }
+      ]
+     },
+     {
+      "id": 14,
       "headline": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
       "summary": "\"There will obviously be legal consequences,\" prime minister promises.",
       "ts": 1790265676000,
@@ -532,32 +561,11 @@
       ]
      },
      {
-      "id": 14,
-      "headline": "Australia news live: Angus Taylor accuses PM of ‘swanning around’ at UN instead of making fuel cheaper; NSW renters to benefit from new laws",
-      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast AI hack of Medicare exposes Australia’s vulnerabilities Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk. Frontier",
-      "ts": 1790303664000,
-      "img": "https://i.guim.co.uk/img/media/67ad7f42c70a79d9f35780577adfe463b19a175e/1376_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=2a2f92bfac5cf0ecc4b207275b52cd64",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Australia news live: Angus Taylor accuses PM of ‘swanning around’ at UN instead of making fuel cheaper; NSW renters to benefit from new laws",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast AI hack of Medicare exposes Australia’s vulnerabilities Technology experts have warned revelations an artificial intelligence agent hacked Medicare’s internal systems will not be the only dangerous breach of government data and have called for Australia to boost its protections against the growing risk. Frontier",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/25/anthony-albanese-open-ai-hack-united-nations-angus-taylor-coalition-ntwnfb"
-       }
-      ]
-     },
-     {
       "id": 15,
-      "headline": "‘We can’t ignore AI or prevent it,’ Anthony Albanese tells UN general assembly – video",
-      "summary": "During his speech to the UN in New York City, the Australian prime minister addresses the AI hack of Medicare, saying the episode reflects the need for greater regulation of artificial intelligence. ‘We can’t ignore AI or prevent it. And it’s why we joined with other nations this week to call for action to shape artificial intelligence development, rather than be passively shaped by it,’ he says. ",
-      "ts": 1790302520000,
-      "img": "https://i.guim.co.uk/img/media/1ec54248fa5820da2dddfc3a06c08419fba60fa3/704_0_1967_1574/master/1967.jpg?width=460&quality=85&auto=format&fit=max&s=869b0864ac058290f75714f5c933efde",
+      "headline": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
+      "summary": "US president says pair discussed Iran war as Chinese president leaves the US after his first official state visit since the end of the Obama administration Sign up for US Breaking News emails Xi Jinping and his wife are back at the White House for the final day of the Chinese president’s pageantry-filled visit to Washington, where President Trump has given him an unexpectedly warm welcome. The iti",
+      "ts": 1790369695000,
+      "img": "https://i.guim.co.uk/img/media/70c7aeeec6b5d74e419adfcc2cc6d5a9ceed831a/544_0_4900_3922/master/4900.jpg?width=460&quality=85&auto=format&fit=max&s=4497d52220d94d970ea011523a248c73",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -567,18 +575,18 @@
        {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "‘We can’t ignore AI or prevent it,’ Anthony Albanese tells UN general assembly – video",
-        "desc": "During his speech to the UN in New York City, the Australian prime minister addresses the AI hack of Medicare, saying the episode reflects the need for greater regulation of artificial intelligence. ‘We can’t ignore AI or prevent it. And it’s why we joined with other nations this week to call for action to shape artificial intelligence development, rather than be passively shaped by it,’ he says. ",
-        "link": "https://www.theguardian.com/world/video/2026/sep/25/we-cant-ignore-ai-or-prevent-it-anthony-albanese-tells-un-general-assembly-video"
+        "title": "Trump confirms future meetings with Xi Jinping in China and Florida as Chinese president departs DC – live",
+        "desc": "US president says pair discussed Iran war as Chinese president leaves the US after his first official state visit since the end of the Obama administration Sign up for US Breaking News emails Xi Jinping and his wife are back at the White House for the final day of the Chinese president’s pageantry-filled visit to Washington, where President Trump has given him an unexpectedly warm welcome. The iti",
+        "link": "https://www.theguardian.com/us-news/live/2026/sep/25/trump-xi-summit-national-archives-media-politics-live"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Here’s the Tesla Semi… again",
-      "summary": "Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its initial introduction. On Thursday evening, the company held yet another event for the Semi to demonstrate to customers and investors that the long wait was finally over. The event was held at Tesla's new Semi factory nex",
-      "ts": 1790302377000,
-      "img": null,
+      "headline": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+      "summary": "Better thermals and battery life make this iterative update nicer to use.",
+      "ts": 1790364882000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/iPhone-18-Pro-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -586,20 +594,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Here’s the Tesla Semi… again",
-        "desc": "Remember the Tesla Semi? The long-gestating, heavy-duty truck first introduced in concept form in 2017 is finally in volume production as of April 2026 - nearly a decade after its initial introduction. On Thursday evening, the company held yet another event for the Semi to demonstrate to customers and investors that the long wait was finally over. The event was held at Tesla's new Semi factory nex",
-        "link": "https://www.theverge.com/transportation/1000317/tesla-semi-launch-customer-delivery-freight-battery-engineer"
+        "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+        "desc": "Better thermals and battery life make this iterative update nicer to use.",
+        "link": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-      "summary": "Microsoft CEO Satya Nadella introducing the company’s Copilot Plus PC initiative. | Image: Allison Johnson Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Ce",
-      "ts": 1790299553000,
-      "img": null,
+      "headline": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "summary": "\"There is no evidence of any significant, widespread displacement or reduction in hiring”",
+      "ts": 1790363465000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/graduates-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -607,20 +615,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Microsoft is killing off the ‘Copilot Plus PC’ brand",
-        "desc": "Microsoft CEO Satya Nadella introducing the company’s Copilot Plus PC initiative. | Image: Allison Johnson Remember when Microsoft wanted everyone to know that \"Copilot Plus PCs\" were the ones to get, because those were the PCs that that'd have enough built-in AI muscle to get things done? Two and a half years later, Microsoft and Qualcomm seem to be admitting the brand is already dead. Windows Ce",
-        "link": "https://www.theverge.com/tech/1000495/microsoft-is-killing-off-the-copilot-plus-pc-brand"
+        "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+        "desc": "\"There is no evidence of any significant, widespread displacement or reduction in hiring”",
+        "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Trump touts ‘great meeting’ with Xi at White House – as it happened",
-      "summary": "This blog is now closed – our live coverage of US politics continues here In the first row in front of the leaders sit US vice-president JD Vance and his wife Usha Vance, Trump’s daughter Ivanka Trump and her daughter Arabella, US secretary of state Marco Rubio, treasury secretary Scott Bessent, defence secretary Pete Hegseth and commerce secretary Howard Lutnick. Donald Trump is speaking now. He ",
-      "ts": 1790294988000,
-      "img": "https://i.guim.co.uk/img/media/8cc83c92057d73e6c6e93d3ea9e019699d9a7b29/527_0_5848_4678/master/5848.jpg?width=460&quality=85&auto=format&fit=max&s=561a1195329ce83f175eba29b700427a",
+      "headline": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
+      "summary": "US judge reviews deal with California, says it must not be result of collusion.",
+      "ts": 1790361777000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/paramount-water-tower-logo-1152x648-1784928766.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -628,11 +636,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Trump touts ‘great meeting’ with Xi at White House – as it happened",
-        "desc": "This blog is now closed – our live coverage of US politics continues here In the first row in front of the leaders sit US vice-president JD Vance and his wife Usha Vance, Trump’s daughter Ivanka Trump and her daughter Arabella, US secretary of state Marco Rubio, treasury secretary Scott Bessent, defence secretary Pete Hegseth and commerce secretary Howard Lutnick. Donald Trump is speaking now. He ",
-        "link": "https://www.theguardian.com/us-news/live/2026/sep/24/trump-xi-jinping-china-ai-trade-summit-latest-news-updates"
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
+        "desc": "US judge reviews deal with California, says it must not be result of collusion.",
+        "link": "https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/"
        }
       ]
      }
@@ -644,45 +652,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Tech bros swarmed by fans and paparazzi at White House dinner",
-      "summary": "Sam Altman, Elon Musk and Jensen Huang were among the big tech leaders who attended the event with Donald Trump and Xi Jinping to celebrate US-China relations.",
-      "ts": 1790303910000,
-      "img": "https://static.ffx.io/images/$zoom_1.5129%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_53/t_crop_custom/q_86%2Cf_auto/2b5e3a514609e3e86815cf48462af8dfb360533871436bac50a86cddfb2bbdc7",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Tech bros swarmed by fans and paparazzi at White House dinner",
-        "desc": "Sam Altman, Elon Musk and Jensen Huang were among the big tech leaders who attended the event with Donald Trump and Xi Jinping to celebrate US-China relations.",
-        "link": "https://www.afr.com/world/north-america/autographs-and-paparazzi-as-tech-bros-hit-the-white-house-20260925-p610ew?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
-        "desc": "Officials deny entry even after federal judge rules Trump administration must grant banned journalists access US politics live – latest updates Journalists for CNN and MS Now were denied access to the White House state dinner in honor of Xi Jinping, China’s president, on Thursday evening, hours after a federal judge ruled the Trump administration must allow them in after imposing a ban last week. ",
-        "link": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Tech giant CEO announces she will attend Trump-Xi state dinner",
-        "desc": "AMD CEO Lisa Su confirmed she will attend the Trump-Xi state dinner alongside tech leaders Elon Musk, Sam Altman, Jensen Huang and Tim Cook.",
-        "link": "https://www.foxbusiness.com/politics/tech-giant-ceo-announces-attend-trump-xi-state-dinner"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Top property advisory faces boardroom revolt as chief lawyer sues CEO",
-      "summary": "Luxury real estate valuer Charter Keck Cramer sold 10 per cent of its shares to a Swiss-owned company tied to its chief executive’s own brother.",
-      "ts": 1790303241000,
-      "img": "https://static.ffx.io/images/$zoom_0.8791%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_149%2C$y_0/t_crop_custom/q_86%2Cf_auto/af06521a77d5b40e8b964a10aac6c4484e854da0",
+      "headline": "Wall Street rises on tech as both oil and bond yields ease",
+      "summary": "All three US benchmarks advanced amid revived hopes for diplomatic efforts to end the war between the US and Iran. RBA rate decision tops next week’s agenda.",
+      "ts": 1790356667000,
+      "img": "https://static.ffx.io/images/$zoom_0.3099%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_27/t_crop_custom/q_86%2Cf_jpg/74142defa5360e59f261ea1c42b2dd51f8455288",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -692,9 +665,65 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Top property advisory faces boardroom revolt as chief lawyer sues CEO",
-        "desc": "Luxury real estate valuer Charter Keck Cramer sold 10 per cent of its shares to a Swiss-owned company tied to its chief executive’s own brother.",
-        "link": "https://www.afr.com/property/commercial/top-property-advisory-faces-boardroom-revolt-as-chief-lawyer-sues-ceo-20260925-p60za5?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Wall Street rises on tech as both oil and bond yields ease",
+        "desc": "All three US benchmarks advanced amid revived hopes for diplomatic efforts to end the war between the US and Iran. RBA rate decision tops next week’s agenda.",
+        "link": "https://www.afr.com/markets/equity-markets/wall-st-rises-as-oil-eases-bonds-steady-20260926-p610nk?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX suffers fourth straight losing week as bond yields climb",
+        "desc": "The Australian sharemarket fell to a three-month low as oil prices moved higher, before an expected rise in interest rates next week.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-dip-wall-street-slips-as-oil-prices-seesaw-20260925-p610dx.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "Pomp and ceremony mask tensions as Trump hosts Xi at White House — as it happened",
+      "summary": "China said the pair agreed to back each other's hosting of APEC in Shenzhen and the G20 in Miami later this year, but there were no announcements of further agreements. Take a look back at how the day unfolded.",
+      "ts": 1790352198000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/dbd7eb2fb21e04674c514b7c8a1a5a2d?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=263&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "White House television pool resumes after banned news outlets regain access",
+        "desc": "Trump’s media ban resulted in an effective TV blackout of coverage of the president during the UN general assembly The primary White House television pool has resumed filming administration events after a court ruling temporarily overturned a Trump administration ban on CNN a day earlier. In an unprecedented move, the pool – which also includes NBC, ABC, CBS and Fox News – ceased recording and tra",
+        "link": "https://www.theguardian.com/media/2026/sep/25/trump-media-ban-white-house-pool"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Pomp and ceremony mask tensions as Trump hosts Xi at White House — as it happened",
+        "desc": "China said the pair agreed to back each other's hosting of APEC in Shenzhen and the G20 in Miami later this year, but there were no announcements of further agreements. Take a look back at how the day unfolded.",
+        "link": "https://www.abc.net.au/news/2026-09-25/xi-jinping-donald-trump-state-dinner-white-house-live-blog/107176858"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Dusty Martin faces property haircut as he sells down $20m real estate portfolio",
+      "summary": "The Brownlow medallist is likely to get less than the $3 million he paid for a building in the Melbourne suburb of Abbotsford.",
+      "ts": 1790330403000,
+      "img": "https://static.ffx.io/images/$zoom_0.6204%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_80/t_crop_custom/q_86%2Cf_auto/65be095c4f823e24d7c4c988833a3f0f3e3523bc",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "The housing game is 'rigged': Real estate star exposes the hidden traps locking up buyers past 7% rates",
+        "desc": "Ryan Serhant reveals how property taxes, homeowners insurance and hidden carrying costs create a housing \"obstacle course\" beyond mortgage rates.",
+        "link": "https://www.foxbusiness.com/real-estate/housing-game-rigged-real-estate-star-exposes-hidden-traps-locking-up-buyers-past-7-rates"
        },
        {
         "outlet": "The Age Business",
@@ -706,39 +735,11 @@
       ]
      },
      {
-      "id": 21,
-      "headline": "Behind closed doors, Xi urges Trump to prevent AI ‘misuse and abuse’",
-      "summary": "Meeting his fierce rival for the second time this year, the Chinese president also said the US and China should have a “healthy competition”.",
-      "ts": 1790302668000,
-      "img": "https://static.ffx.io/images/$zoom_1.5129%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/2afdee69052ea2bfda940a4f6f55edb45e3fdf402f3aff526fb5306a4150b70b",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Behind closed doors, Xi urges Trump to prevent AI ‘misuse and abuse’",
-        "desc": "Meeting his fierce rival for the second time this year, the Chinese president also said the US and China should have a “healthy competition”.",
-        "link": "https://www.afr.com/world/north-america/trump-xi-begin-summit-with-nod-to-fierce-ai-rivalry-20260925-p610dj?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Melania Trump urges AI 'vigilance,' says Americans need to get educated",
-        "desc": "First lady Melania Trump advocates for vigilance and education regarding artificial intelligences and shares how she uses the technology during and appearance on \"The Big Money Show.\"",
-        "link": "https://www.foxbusiness.com/media/melania-trump-urges-ai-vigilance-says-americans-need-get-educated"
-       }
-      ]
-     },
-     {
       "id": 22,
-      "headline": "Bond market mayhem has terrifying echo of a war that changed the world",
-      "summary": "Donald Trump’s UN strongman act, and his warning against slowing AI development, highlight the two big forces investors are weighing – and that are causing a meltdown.",
-      "ts": 1790296002000,
-      "img": "https://static.ffx.io/images/$zoom_0.2319824753559693%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_42/t_crop_custom/q_86%2Cf_auto/2a4b17b9d883bd11ca1db820e49f140929303094ad903d52f206782c35497961",
+      "headline": "OpenAI Medicare breach ‘tip of the iceberg’",
+      "summary": "The Albanese government is mulling a legal overhaul to ensure liability for AI hacks as experts warn more breaches are to come.",
+      "ts": 1790326781000,
+      "img": "https://static.ffx.io/images/$zoom_0.1596728305340224%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_219%2C$y_169/t_crop_custom/q_86%2Cf_auto/c98b88d2710535fcdfcf739a10c8a0cbec62e6af",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -748,25 +749,25 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Bond market mayhem has terrifying echo of a war that changed the world",
-        "desc": "Donald Trump’s UN strongman act, and his warning against slowing AI development, highlight the two big forces investors are weighing – and that are causing a meltdown.",
-        "link": "https://www.afr.com/chanticleer/bond-market-mayhem-has-terrifying-echo-of-a-war-that-changed-the-world-20260925-p610fo?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "OpenAI Medicare breach ‘tip of the iceberg’",
+        "desc": "The Albanese government is mulling a legal overhaul to ensure liability for AI hacks as experts warn more breaches are to come.",
+        "link": "https://www.afr.com/politics/federal/openai-medicare-breach-tip-of-the-iceberg-20260925-p610gj?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Live: ASX down as bond market turmoil deepens, oil jumps",
-        "desc": "The ASX opens the day lower as a global bond sell-off deepens, with US yields hitting multi-decade highs as oil and inflation fears building. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-09-25/asx-markets-business-news-live-updates-sept-25/107184538"
+        "title": "Australia to pursue AI guardrails after unprecedented OpenAI breach",
+        "desc": "OpenAI's delayed reporting of an autonomous agent breaching a government website has strengthened Australia's push for tougher AI safety and disclosure rules.",
+        "link": "https://www.abc.net.au/news/2026-09-25/openai-breach-builds-case-for-tough-ai-rules/107192992"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Smaller nations must take on the superpowers, Albanese tells UN",
-      "summary": "In his second annual address to the UN General Assembly, the prime minister vowed to fight on behalf of small and middle powers to restore and uphold world order.",
-      "ts": 1790293938000,
-      "img": "https://static.ffx.io/images/$zoom_0.3569%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_549%2C$y_0/t_crop_custom/q_86%2Cf_auto/df0ec23d5a551f84ca9c8f1f5a82b68727ab55384ac191ab116879c0a6134d67",
+      "headline": "Retail headwinds force women’s apparel giant Cato to close dozens of locations",
+      "summary": "Cato Fashions' parent company announced a plan to shutter over 10% of its locations after economic pressures prompted the company to double down on closures.",
+      "ts": 1790370435000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2020/09/Resale-Market-iStock.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -774,27 +775,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Smaller nations must take on the superpowers, Albanese tells UN",
-        "desc": "In his second annual address to the UN General Assembly, the prime minister vowed to fight on behalf of small and middle powers to restore and uphold world order.",
-        "link": "https://www.afr.com/politics/federal/smaller-nations-must-take-on-the-superpowers-albanese-tells-un-20260925-p610dl?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "AI must stay 'under human control', Xi tells Trump",
-        "desc": "The three-day summit is likely to be more about spectacle than substance despite Donald Trump saying he would be discussing \"pressing\" issues, including AI.",
-        "link": "https://www.abc.net.au/news/2026-09-25/trump-welcomes-xi-to-white-house/107193702"
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Retail headwinds force women’s apparel giant Cato to close dozens of locations",
+        "desc": "Cato Fashions' parent company announced a plan to shutter over 10% of its locations after economic pressures prompted the company to double down on closures.",
+        "link": "https://www.foxbusiness.com/retail/retail-headwinds-force-womens-apparel-giant-cato-close-dozens-locations"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Netanyahu slams world leaders as ‘moral cowards’ and liars",
-      "summary": "Israel’s prime minister, at the UN, berated other heads of government and New York mayor Zohran Mamdani, as celebrities and politicians protested outside.",
-      "ts": 1790290394000,
-      "img": "https://static.ffx.io/images/$zoom_0.5516%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/7bcf1b0531e84d85c167967685b4d45f64c7e67d3284d31b6d9b27f65c19f4bc",
+      "headline": "Xi, Trump wrap ‘over the top’ summit, pledge two more visits this year",
+      "summary": "Donald Trump and Xi Jinping have little to show from the three-day parade of pomp, other than a commitment to meet twice more this year.",
+      "ts": 1790369385000,
+      "img": "https://static.ffx.io/images/$zoom_0.6146%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_85%2C$y_0/t_crop_custom/q_86%2Cf_auto/92ff40e4ad09b54c463e55b3bbc2f3ae06be4df8",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -804,16 +798,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Netanyahu slams world leaders as ‘moral cowards’ and liars",
-        "desc": "Israel’s prime minister, at the UN, berated other heads of government and New York mayor Zohran Mamdani, as celebrities and politicians protested outside.",
-        "link": "https://www.afr.com/world/middle-east/netanyahu-slams-world-leaders-as-moral-cowards-and-liars-20260925-p610e2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "LARRY KUDLOW: Netanyahu’s barn burner of a speech makes the case for moral clarity against antisemitism",
-        "desc": "The premier avers that Israel will ‘win because we have no other choice’",
-        "link": "https://www.foxbusiness.com/politics/larry-kudlow-netanyahus-barn-burner-speech-makes-case-moral-clarity-against-antisemitism"
+        "title": "Xi, Trump wrap ‘over the top’ summit, pledge two more visits this year",
+        "desc": "Donald Trump and Xi Jinping have little to show from the three-day parade of pomp, other than a commitment to meet twice more this year.",
+        "link": "https://www.afr.com/world/north-america/xi-trump-wrap-over-the-top-summit-pledge-two-more-visits-this-year-20260926-p610nq?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -825,10 +812,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Incredible catch helps South Africa beat Australia in one-day clash",
-      "summary": "Marco Jansen takes a catch that needs to be seen to be believed, halting Australia's spirited chase of 298 in the process.",
-      "ts": 1790288061000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/c5b5982a2a74f8c3affd23746d3e7d92?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=59&width=862&height=485",
+      "headline": "Manchester City issue statement after independent panel finds them guilty of hundreds of rule breaches",
+      "summary": "The bombshell case remains ongoing but now an independent panel has upheld nearly all of the 100-plus charges.",
+      "ts": 1790372133000,
+      "img": "https://images.7news.com.au/publication/C-22928979/6eaa257e0414ebf284eb461007d3b2bec2e56661-16x9-x0y0w1920h1080.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -836,34 +823,34 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Manchester City issue statement after independent panel finds them guilty of hundreds of rule breaches",
+        "desc": "The bombshell case remains ongoing but now an independent panel has upheld nearly all of the 100-plus charges.",
+        "link": "https://7news.com.au/sport/soccer/manchester-city-issue-statement-after-independent-panel-finds-them-guilty-of-hundreds-of-rule-breaches-c-22928979"
+       },
+       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "‘Outplayed’: Mitch Marsh rues Australia’s ODI capitulation to South Africa",
-        "desc": "South Africa 297-8; Australia 230 | South Africa win by 67 runs Captain’s blistering 60 not enough to topple hosts in Durban Mitch Marsh could not hide his dismay at how Australia capitulated tamely in their opening ODI in South Africa, succumbing to a 67-run defeat after a succession of cheap dismissals in a sorry run chase at Durban. Stand-in skipper Marsh himself seemed to have laid the foundat",
-        "link": "https://www.theguardian.com/sport/2026/sep/25/south-africa-australia-first-odi-report"
+        "title": "Manchester City guilty of breaching Premier League’s financial fair play rules – as it happened",
+        "desc": "Club facing sanctions from the Premier League after being found guilty of more than 100 charges relating to financial rules breaches One of the best players in the world right now is Raphinha and Sid Lowe sat down with him about life at Barca, read here: The Premier League may be on an international break but there are some English domestic games happening this weekend in the Women’s Super League.",
+        "link": "https://www.theguardian.com/football/live/2026/sep/25/havertz-injury-latest-haaland-fires-norway-to-victory-england-v-spain-buildup-and-more-football-news-live"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Incredible catch helps South Africa beat Australia in one-day clash",
-        "desc": "Marco Jansen takes a catch that needs to be seen to be believed, halting Australia's spirited chase of 298 in the process.",
-        "link": "https://www.abc.net.au/news/2026-09-25/cricket-marco-jansen-catch-south-africa-vs-australia-1st-odi/107194290"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Mitch Marsh refuses to hide ‘disappointment’ after Aussie capitulation in first ODI against South Africa",
-        "desc": "The skipper knew he was ‘probably going to sound like a broken record’ complaining about his team’s persistent failures.",
-        "link": "https://7news.com.au/sport/cricket/mitch-marsh-refuses-to-hide-disappointment-after-aussie-capitulation-in-first-odi-against-south-africa-c-22923809"
+        "title": "Man City guilty of breaching EPL financial rules, punishment still pending",
+        "desc": "Global football heavyweights Manchester City have been found guilty of 114 beaches of the English Premier League's financial regulations, after a years-long investigation.",
+        "link": "https://www.abc.net.au/news/2026-09-26/man-city-guilty-of-breaching-epl-financial-rules/107198524"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Geelong declare ‘we’re one of the best teams’ in the AFLW as Hawks crash back to earth",
-      "summary": "The Cats seized control early and never looked like giving up the lead.",
-      "ts": 1790291696000,
-      "img": "https://images.7news.com.au/publication/C-22924125/dfad7fb6b436425062ee4c789538fdf0e5970e08-16x9-x0y0w1280h720.jpg",
+      "headline": "Stunning free kick shows Irankunda's star is aligning for Socceroos",
+      "summary": "Nestory Irankunda's incredible free kick against Brazil in Townsville shows the Socceroos have stars to rival some of the biggest and best in the world.",
+      "ts": 1790368190000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/49c57ba19a16eddfc30206b3a3053aba?impolicy=wcms_crop_resize&cropH=1763&cropW=3134&xPos=652&yPos=700&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -871,18 +858,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Geelong declare ‘we’re one of the best teams’ in the AFLW as Hawks crash back to earth",
-        "desc": "The Cats seized control early and never looked like giving up the lead.",
-        "link": "https://7news.com.au/sport/aflw/geelong-declare-were-one-of-the-best-teams-in-the-aflw-as-hawks-crash-back-to-earth-c-22924125"
-       },
-       {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Neale freed to play by AFL Appeals Board as grand final teams named",
-        "desc": "Lachie Neale has succeeded in his bid to overturn a one-game striking suspension at the AFL Appeals Board and is free to play in the grand final.",
-        "link": "https://www.abc.net.au/news/2026-09-24/lachie-neale-afl-appeal-board-hearing-live-blog/107188446"
+        "title": "Stunning free kick shows Irankunda's star is aligning for Socceroos",
+        "desc": "Nestory Irankunda's incredible free kick against Brazil in Townsville shows the Socceroos have stars to rival some of the biggest and best in the world.",
+        "link": "https://www.abc.net.au/news/2026-09-26/nestory-irankunda-free-kick-socceroos-brazil-townsville/107198348"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Socceroos denied famous win as late Brazil goal cancels out Irankunda stunner",
+        "desc": "Australia 1-1 Brazil in international friendly in Townsville Irankunda hits free kick before Rayan equalises deep in added time It was a Friday night in which the stars descended on Townsville. There was Bruno Guimarães, Raphinha and Vinícius Júnior in the Brazilian XI, with Endrick leading the line and Estêvão out on the flank, all instructed by Carlo Ancelotti in the dugout. But on this evening,",
+        "link": "https://www.theguardian.com/football/2026/sep/25/australia-socceroos-brazil-irankunda-international-friendly-match-report"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Socceroos superstar Nestory Irankunda stuns Brazil with epic free kick in pulsating draw",
+        "desc": "The 20-year-old scored one of the great goals as the Aussies nearly pulled off a famous win.",
+        "link": "https://7news.com.au/sport/soccer/socceroos-superstar-nestory-irankunda-stuns-brazil-with-epic-free-kick-in-pulsating-draw-c-22928374"
        }
       ]
      },
@@ -890,7 +884,7 @@
       "id": 27,
       "headline": "Felix gives Portugal win over Wales in Nations League opener",
       "summary": "Watch the best of the action as Portugal beat Wales 1-0 in Lisbon in the Nations League",
-      "ts": 1790289551000,
+      "ts": 1790372143000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c98f/live/8c586740-b859-11f1-b1d1-571ed4d7ff2c.jpg",
       "divergent": null,
       "left_view": null,
@@ -901,9 +895,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Gakpo denies Klopp perfect start as Xavi’s Netherlands rescue draw against Germany",
-        "desc": "At least Germany can be sure it will not be dull. Jürgen Klopp had predicted his debut as head coach could be wild, a trait he would accept as long as his team were lively enough. Both transpired in a frayed, pinball-like game whose lack of quality could be forgiven on account of its entertainment levels. The Netherlands more than merited a brilliant late equaliser from Cody Gakpo and by the time ",
-        "link": "https://www.theguardian.com/football/2026/sep/24/netherlands-germany-nations-league-match-report"
+        "title": "Nations League: Mbappé limps off after scoring France winner in Turkey",
+        "desc": "France beat 10-man Turkey 1-0 to start Zidane era Italy 0-2 Belgium, Georgia 0-1 Northern Ireland Kylian Mbappé limped off with an apparent knee injury, moments after scoring France’s winner against Turkey in the Nations League on Friday. The Real Madrid striker rifled in a low shot in the 55th minute after he was set up by Michael Olise. Soon after his record-extending 67th France goal, Mbappé sa",
+        "link": "https://www.theguardian.com/football/2026/sep/25/nations-league-roundup-turkey-france-kylian-mbappe-italy-belgium"
        },
        {
         "outlet": "BBC Sport",
@@ -916,66 +910,10 @@
      },
      {
       "id": 28,
-      "headline": "Brazil’s big-name squad meets mega hype from soccer fanatics",
-      "summary": "Football fans have welcomed some of the world's most famous players to a regional city known for its love of another code.",
-      "ts": 1790289514000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/0e0d03ecc0d82c9cea7c89261a3f2c99?impolicy=wcms_crop_resize&cropH=2385&cropW=4240&xPos=0&yPos=223&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Brazil’s big-name squad meets mega hype from soccer fanatics",
-        "desc": "Football fans have welcomed some of the world's most famous players to a regional city known for its love of another code.",
-        "link": "https://www.abc.net.au/news/2026-09-25/brazilian-community-in-townsville-prepares-for-socceroos-brazil/107190624"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Fresh faces included as Matildas gear up for World Cup with crucial friendlies",
-        "desc": "Hana Lowry is among the potential debutants, two years on from a devastating knee injury.",
-        "link": "https://7news.com.au/sport/soccer/fresh-faces-included-as-matildas-gear-up-for-world-cup-with-crucial-friendlies-c-22919558"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Who wins the AFL grand final between Fremantle and the Brisbane Lions: Channel 7 experts make the call",
-      "summary": "Kane Cornes, Daisy Pearce, Nick Riewoldt and more have all had their say on Saturday’s MCG blockbuster.",
-      "ts": 1790287861000,
-      "img": "https://images.7news.com.au/publication/C-22919399/77dc95fcc94378f9736288d1edbd6ebbcaaff461-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Who wins the AFL grand final between Fremantle and the Brisbane Lions: Channel 7 experts make the call",
-        "desc": "Kane Cornes, Daisy Pearce, Nick Riewoldt and more have all had their say on Saturday’s MCG blockbuster.",
-        "link": "https://7news.com.au/sport/afl/who-wins-the-afl-grand-final-between-fremantle-and-the-brisbane-lions-channel-7-experts-make-the-call-c-22919399"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Lachie Neale cleared to play in AFL grand final after overturning one-game suspension",
-        "desc": "Dual Brownlow medal winner to play in match against Fremantle Striking charge on Hawthorn’s Jack Ginnivan downgraded Ultimate guide to the flag decider between Fremantle and Brisbane Star Brisbane midfielder Lachie Neale has been cleared to play in the AFL grand final after overturning his one-game suspension at the appeals board. The dual Brownlow medal winner will feature in the premiership deci",
-        "link": "https://www.theguardian.com/sport/2026/sep/24/lachie-neale-cleared-to-play-afl-grand-final-brisbane-fremantle-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "The compromises and power struggles that shaped Fury-Joshua",
-      "summary": "BBC Sport takes a look at the compromises, power struggles and competing interests behind Tyson Fury v Anthony Joshua.",
-      "ts": 1790275295000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60d8/live/f284d560-b842-11f1-bc1f-3f186ca4140c.jpg",
+      "headline": "Carreras magic lights up Bath win over Harlequins",
+      "summary": "A terrific try from full-back Santiago Carreras is the highlight of Bath's Prem opening night bonus-point victory over Harlequins.",
+      "ts": 1790371706000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e35d/live/897bc660-b918-11f1-9be9-632355708508.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -985,16 +923,72 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "The compromises and power struggles that shaped Fury-Joshua",
-        "desc": "BBC Sport takes a look at the compromises, power struggles and competing interests behind Tyson Fury v Anthony Joshua.",
-        "link": "https://www.bbc.co.uk/sport/boxing/articles/c65y74pjl0w4o?at_medium=RSS&at_campaign=rss"
+        "title": "Carreras magic lights up Bath win over Harlequins",
+        "desc": "A terrific try from full-back Santiago Carreras is the highlight of Bath's Prem opening night bonus-point victory over Harlequins.",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cv4g5y8y3582o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Moment of magic from Santi Carreras helps Bath overpower Harlequins",
+        "desc": "Harlequins 17-33 Bath Argentinian full-back scores stunning try on counter Last season’s top two kicked off the season in opposition to last season’s bottom two. Bath duly completed the expected, joining Northampton with a bonus-point win to open their account. The team the Saints succeeded as champions last season travelled to the Stoop to remind Harlequins how much more they have to work on if t",
+        "link": "https://www.theguardian.com/sport/2026/sep/25/harlequins-bath-prem-rugby-union-match-report"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Fremantle turns purple as Dockers attempt grand final history",
+      "summary": "From produce to pet accessories, purple reigns in Fremantle as Dockers' fans count down to the AFL grand final at the MCG.",
+      "ts": 1790370188000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/6315dc83d592fbb5b0bc301d07afb86e?impolicy=wcms_crop_resize&cropH=1447&cropW=2573&xPos=0&yPos=153&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Irwin holds nerve to sink Leeds and send Warrington to Grand Final",
+        "desc": "Leeds 12-14 Warrington Late penalty clinches Old Trafford trip Warrington Wolves reached their first Super League Grand Final in almost a decade after emerging through an absorbing playoff semi-final against Leeds Rhinos to move within 80 minutes of a first league title in over 70 years. The Wire have not been at Old Trafford since 2018 and remain without a league title of any kind since 1955, one",
+        "link": "https://www.theguardian.com/sport/2026/sep/25/leeds-warrington-super-league-semi-final-report"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Tyson Fury vs Anthony Joshua boxing megafight announced",
-        "desc": "A long-awaited boxing match between British former heavyweight world champions Tyson Fury and Anthony Joshua has been confirmed for December 11 in Cardiff.",
-        "link": "https://www.abc.net.au/news/2026-09-24/tyson-fury-anthony-joshua-boxing-fight-announced/107193730"
+        "title": "Fremantle turns purple as Dockers attempt grand final history",
+        "desc": "From produce to pet accessories, purple reigns in Fremantle as Dockers' fans count down to the AFL grand final at the MCG.",
+        "link": "https://www.abc.net.au/news/2026-09-26/fremantle-dockers-purple-fans-afl-grand-final/107198086"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Antonelli 'comes back to earth' with qualifying crash",
+      "summary": "Kimi Antonelli says he is \"very mad\" about his crash in qualifying at the Azerbaijan Grand Prix, which means he will start from 16th on the grid.",
+      "ts": 1790353144000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebce/live/3da116c0-b8fd-11f1-83cd-2998f68d9572.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Antonelli 'comes back to earth' with qualifying crash",
+        "desc": "Kimi Antonelli says he is \"very mad\" about his crash in qualifying at the Azerbaijan Grand Prix, which means he will start from 16th on the grid.",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/cqd0885k3d28o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Geelong declare ‘we’re one of the best teams’ in the AFLW as Hawks crash back to earth",
+        "desc": "The Cats seized control early and never looked like giving up the lead.",
+        "link": "https://7news.com.au/sport/aflw/geelong-declare-were-one-of-the-best-teams-in-the-aflw-as-hawks-crash-back-to-earth-c-22924125"
        }
       ]
      }
@@ -1006,10 +1000,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Hannah Einbinder Speaks Out After Being Arrested at Netanyahu Protest: ‘Let Us Not Mistake the Spectacle for the Story’",
-      "summary": "Hannah Einbinder is speaking out after being arrested earlier Thursday while protesting an appearance by Israeli Prime Minister Benjamin Netanyahu. The “Hacks” star, who was protesting alongside Sarah Sherman, Susan Sarandon and others, posted on her Instagram story asking her followers to focus on “the devastating genocidal war Israel is waging against the people of […]",
-      "ts": 1790302635000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/GettyImages-2296948337.jpg",
+      "headline": "Margaret Qualley and Sabrina Carpenter Join Tom Holland in Fred Astaire Biopic as Adele Astaire, Ginger Rogers",
+      "summary": "Tom Holland has found his dance partners for Sony Pictures’ yet-to-be-titled Fred Astaire biopic: Margaret Qualley and Sabrina Carpenter. As previously announced, Holland will play the debonair dancer in the upcoming Sony film, directed by Paul King, with Amy Pascal producing. Golden Globe nominee Qualley (“Maid,” “The Substance,” “Love of Your Life”) will star as […]",
+      "ts": 1790369381000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/margaret-tom-sabrina.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1019,25 +1013,32 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Hannah Einbinder Speaks Out After Being Arrested at Netanyahu Protest: ‘Let Us Not Mistake the Spectacle for the Story’",
-        "desc": "Hannah Einbinder is speaking out after being arrested earlier Thursday while protesting an appearance by Israeli Prime Minister Benjamin Netanyahu. The “Hacks” star, who was protesting alongside Sarah Sherman, Susan Sarandon and others, posted on her Instagram story asking her followers to focus on “the devastating genocidal war Israel is waging against the people of […]",
-        "link": "https://variety.com/2026/politics/news/hannah-einbinder-speaks-out-arrested-netanyahu-protest-1236875306/"
+        "title": "Margaret Qualley and Sabrina Carpenter Join Tom Holland in Fred Astaire Biopic as Adele Astaire, Ginger Rogers",
+        "desc": "Tom Holland has found his dance partners for Sony Pictures’ yet-to-be-titled Fred Astaire biopic: Margaret Qualley and Sabrina Carpenter. As previously announced, Holland will play the debonair dancer in the upcoming Sony film, directed by Paul King, with Amy Pascal producing. Golden Globe nominee Qualley (“Maid,” “The Substance,” “Love of Your Life”) will star as […]",
+        "link": "https://variety.com/2026/film/news/margaret-qualley-sabrina-carpenter-tom-holland-fred-astaire-biopic-1236850613/"
+       },
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Tom Holland’s Biopic Adds Margaret Qualley & Sabrina Carpenter In Major Roles",
+        "desc": "Tom Holland's upcoming untitled biopic has officially cast entertainment industry icons, Sabrina Carpenter and Margaret Qualley, in lead roles.",
+        "link": "https://screenrant.com/tom-holland-fred-astaire-biopic-adds-margaret-qualley-sabrina-carpenter/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Hannah Einbinder Speaks Out After UN Arrest, Calls For U.S. To “Bring An End” To Israel Attacks On Gaza",
-        "desc": "Following her arrest Thursday at a demonstration outside the United Nations General Assembly, Hannah Einbinder doesn’t want her message to get lost in the headlines. The Emmy-winning Hacks star urged the U.S. government to “bring an end” to Israel’s attacks on Gaza after she was detained for protesting Prime Minister Benjamin Netanyahu’s arrival at the […]",
-        "link": "https://deadline.com/2026/09/hannah-einbinder-speaks-out-arrest-end-israel-attacks-gaza-1237113491/"
+        "title": "Margaret Qualley & Sabrina Carpenter Join Tom Holland In Fred Astaire Biopic",
+        "desc": "EXCLUSIVE: Margaret Qualley and Sabrina Carpenter have joined Tom Holland in the Spider-Man star’s next project: the untitled Fred Astaire biopic in which Holland will portray the American actor and dancer. The development comes nearly five years after Holland first revealed that he would be leading the project. Qualley will star as Adele Astaire, and […]",
+        "link": "https://deadline.com/2026/09/margaret-qualley-sabrina-carpenter-fred-astaire-biopic-1237114080/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "This 330-Episode Series Is A Masterclass In Historical Storytelling & It's Officially Coming Back",
-      "summary": "Murdoch Mysteries is a masterclass in historical and procedural storytelling, and thankfully, it's slated to return for another landmark season soon.",
-      "ts": 1790298016000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/paul-sun-hyung-lee-as-inspector-albert-choi-in-murdoch-mysteries-season-18.jpg",
+      "headline": "The Greatest Horror Movie Of All Time Returns With New Release",
+      "summary": "As Halloween quickly approaches, one of the best horror movies ever is getting a new release to celebrate a major milestone that occurred this year.",
+      "ts": 1790368782000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/02/sotl-3.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1047,25 +1048,25 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "This 330-Episode Series Is A Masterclass In Historical Storytelling & It's Officially Coming Back",
-        "desc": "Murdoch Mysteries is a masterclass in historical and procedural storytelling, and thankfully, it's slated to return for another landmark season soon.",
-        "link": "https://screenrant.com/murdoch-mysteries-masterclass-historical-procedural/"
+        "title": "The Greatest Horror Movie Of All Time Returns With New Release",
+        "desc": "As Halloween quickly approaches, one of the best horror movies ever is getting a new release to celebrate a major milestone that occurred this year.",
+        "link": "https://screenrant.com/silence-of-the-lambs-movie-4k-blu-ray-release/"
        },
        {
         "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Sekiro: No Defeat Anime Airs in January as 8-Episode TV Series (Updated)",
-        "desc": "Crunchyroll to stream series version of film that opened in Japan on September 4",
-        "link": "https://www.animenewsnetwork.com/news/2026-09-24/sekiro-no-defeat-anime-airs-in-january-as-8-episode-tv-series/.242149"
+        "title": "That Time I Got Reincarnated as a Slime Season 4 Anime Returns for 3rd Part in July 2027, Clayman's Revenge Spinoff Anime Debuts in April",
+        "desc": "Wataru Kajika's spinoff manga about Clayman debuted in April 2022",
+        "link": "https://www.animenewsnetwork.com/news/2026-09-25/that-time-i-got-reincarnated-as-a-slime-season-4-anime-returns-for-3rd-part-in-july-2027-clayman-/.242181"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Firefly Wedding Episode 1 Review: Crunchyroll's Next Fall 2026 Sleeper Hit Anime Is Gruesome & Addictive",
-      "summary": "Crunchyroll's new historical romance anime shows promise in its debut thanks to surprising chemistry of its mismatched leads.",
-      "ts": 1790298016000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/firefly-wedding-crunchyroll-anime-review.jpg",
+      "headline": "This 7-Time Emmy-Winning Fantasy Series Deserves Its Long-Awaited Revival",
+      "summary": "This two-season, seven-time Emmy-winning series is a surprisingly unique fantasy gem, and there's no better time to revive the show than now.",
+      "ts": 1790368216000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/ellen-greene-and-swoosie-kurtz-in-pushing-daisies-season-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1075,25 +1076,25 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Firefly Wedding Episode 1 Review: Crunchyroll's Next Fall 2026 Sleeper Hit Anime Is Gruesome & Addictive",
-        "desc": "Crunchyroll's new historical romance anime shows promise in its debut thanks to surprising chemistry of its mismatched leads.",
-        "link": "https://screenrant.com/firefly-wedding-episode-1-review-crunchyroll/"
+        "title": "This 7-Time Emmy-Winning Fantasy Series Deserves Its Long-Awaited Revival",
+        "desc": "This two-season, seven-time Emmy-winning series is a surprisingly unique fantasy gem, and there's no better time to revive the show than now.",
+        "link": "https://screenrant.com/pushing-daisies-fantasy-series-deserves-revival/"
        },
        {
         "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Crunchyroll Screens Dive in Wonderland Film on November 16 in U.S. as Part of Anime Nights Program",
-        "desc": "English-subbed trailer streamed for anime inspired by Alice in Wonderland",
-        "link": "https://www.animenewsnetwork.com/news/2026-09-24/crunchyroll-screens-dive-in-wonderland-film-on-november-16-in-u.s-as-part-of-anime-nights-program/.242152"
+        "title": "Tatsuki Fujimoto 17-26 Anime, My Melody & Kuromi Stop-Motion Animated Series Nominated for International Emmy",
+        "desc": "International Emmy Awards announce winners on November 23",
+        "link": "https://www.animenewsnetwork.com/news/2026-09-25/tatsuki-fujimoto-17-26-anime-my-melody-and-kuromi-stop-motion-animated-series-nominated-for-/.242190"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Reality Producers Rejoice As Federal Film & TV Incentive Bill Includes Unscripted Series",
-      "summary": "Unscripted television producers, long used to playing second fiddle to the feature film business and scripted TV world, are “ecstatic” that their trade is also being covered by the federal film and TV incentive that was introduced by lawmakers Thursday morning. This was not an accident; Deadline understands that a group of unscripted producers and […]",
-      "ts": 1790290645000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/Wonkas_The_Golden_Ticket_n_S1_E1_00_04_55_08R.jpg",
+      "headline": "Paramount Says Timing for Warner Bros. Deal Close ‘If Any, Is Not Yet Certain’ but Targets Oct. 5 Date to Issue Shareholders Warrants Tied to WBD Merger",
+      "summary": "Paramount Skydance’s $111 billion agreement to merge with Warner Bros. Discovery is not quite a done deal, but the company is preparing for the deal to close within the next few weeks. In an SEC filing Friday, Paramount said its board on Sept. 25 “determined to voluntarily withdraw the listing of its Class B common […]",
+      "ts": 1790372777000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/Paramount-Warner-Bros-Merger-Employee-Reaction.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1101,48 +1102,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Reality Producers Rejoice As Federal Film & TV Incentive Bill Includes Unscripted Series",
-        "desc": "Unscripted television producers, long used to playing second fiddle to the feature film business and scripted TV world, are “ecstatic” that their trade is also being covered by the federal film and TV incentive that was introduced by lawmakers Thursday morning. This was not an accident; Deadline understands that a group of unscripted producers and […]",
-        "link": "https://deadline.com/2026/09/federal-film-tv-incentive-bill-unscripted-tv-series-1237113304/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Backers of U.S. Film Incentive See Window to Pass Bill This Year",
-        "desc": "Supporters of a federal film incentive are preparing an all-out push to pass the legislation by the end of the year, looking to take advantage of momentum before Congress potentially changes hands next term. A bipartisan group of senators and representatives unveiled the bill on Thursday. It would provide a 20%-30% federal incentive for films […]",
-        "link": "https://variety.com/2026/film/news/film-incentive-window-pass-supporters-1236875089/"
+        "title": "Paramount Says Timing for Warner Bros. Deal Close ‘If Any, Is Not Yet Certain’ but Targets Oct. 5 Date to Issue Shareholders Warrants Tied to WBD Merger",
+        "desc": "Paramount Skydance’s $111 billion agreement to merge with Warner Bros. Discovery is not quite a done deal, but the company is preparing for the deal to close within the next few weeks. In an SEC filing Friday, Paramount said its board on Sept. 25 “determined to voluntarily withdraw the listing of its Class B common […]",
+        "link": "https://variety.com/2026/film/news/paramount-warner-bros-deal-close-not-yet-certain-warrants-issue-date-1236876018/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Disney Legal Chief Warns Of “Hard Choices” & “Much Smaller Organization” Coming As Company Layoffs Loom",
-      "summary": "EXCLUSIVE: An end-of-week memo from Disney’s Chief Legal and Global Affairs Officer has given an blunt warning that layoffs are coming amidst a “transformation process” that includes “automating certain workflows by leveraging the latest technologies.” Without actually saying that AI is taking over or that job losses are on the horizon, the memo by Horacio […]",
-      "ts": 1790304031000,
-      "img": "https://deadline.com/wp-content/uploads/2021/12/Horacio-Gutierrez-Walt-Disney-Company.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Disney Legal Chief Warns Of “Hard Choices” & “Much Smaller Organization” Coming As Company Layoffs Loom",
-        "desc": "EXCLUSIVE: An end-of-week memo from Disney’s Chief Legal and Global Affairs Officer has given an blunt warning that layoffs are coming amidst a “transformation process” that includes “automating certain workflows by leveraging the latest technologies.” Without actually saying that AI is taking over or that job losses are on the horizon, the memo by Horacio […]",
-        "link": "https://deadline.com/2026/09/disney-layoffs-warning-legal-executive-1237113458/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Creature Commandos Season 2 Gets Exciting Update As Iconic Villain’s DCU Future Is Addressed",
-      "summary": "Creature Commandos finally gets another update for its highly anticipated second season, as well as a potential new villain joining the show.",
-      "ts": 1790303524000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/10/creature-commandos-cast-walking-together.jpg",
+      "headline": "After 14 Years, Solo Leveling's Home Is Officially Shutting Down In 2026",
+      "summary": "While fans await the return of Solo Leveling's sequel from hiatus, some uncertainty has emerged with the shut down of its biggest reading hub.",
+      "ts": 1790372295000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/solo-leveling-with-beru-and-igris-anime-featured-image.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1152,9 +1125,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Creature Commandos Season 2 Gets Exciting Update As Iconic Villain’s DCU Future Is Addressed",
-        "desc": "Creature Commandos finally gets another update for its highly anticipated second season, as well as a potential new villain joining the show.",
-        "link": "https://screenrant.com/creature-commandos-season-2-update-maxwell-lord/"
+        "title": "After 14 Years, Solo Leveling's Home Is Officially Shutting Down In 2026",
+        "desc": "While fans await the return of Solo Leveling's sequel from hiatus, some uncertainty has emerged with the shut down of its biggest reading hub.",
+        "link": "https://screenrant.com/solo-leveling-tapas-shutdown-2026/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Marvel Announces Return of Its Most Powerful Mutant, Who Has Never Joined The X-Men",
+      "summary": "Marvel's most powerful mutant is back in action this winter.",
+      "ts": 1790371818000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/xmen2024001_daniel-webp.jpeg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Marvel Announces Return of Its Most Powerful Mutant, Who Has Never Joined The X-Men",
+        "desc": "Marvel's most powerful mutant is back in action this winter.",
+        "link": "https://screenrant.com/thor-santa-claus-mutant-xmen/"
        }
       ]
      }
@@ -1162,37 +1156,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
    "Guardian Australia",
    "ABC News",
-   "BBC World",
+   "Crikey",
    "The Age",
-   "The Age Federal Politics",
+   "BBC World",
    "Fox News",
+   "The Age Federal Politics",
    "Fox News Politics",
-   "Guardian Tech",
    "BBC Tech",
    "Guardian AU Politics",
-   "Ars Technica",
-   "The Conversation",
-   "The Age Business",
-   "Guardian AU Business",
-   "AFR",
-   "The Verge",
-   "ABC Sport",
    "7News",
-   "Deadline",
-   "Fox Business",
-   "Variety",
-   "Guardian AU Sport",
+   "Guardian Tech",
+   "The Conversation",
+   "The Verge",
+   "The Age Business",
+   "Ars Technica",
+   "Guardian AU Business",
    "ABC Business",
    "BBC Sport",
+   "Fox Business",
+   "ABC Sport",
+   "Deadline",
+   "AFR",
+   "Variety",
    "Guardian Film",
    "Screen Rant",
-   "7News Sport",
+   "Guardian AU Sport",
    "Anime News Network",
+   "SBS News",
    "Daily Mail Australia",
-   "SBS News"
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1318,6 +1312,18 @@
   ],
   "anime": [
    {
+    "title": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
+    "year": "2026",
+    "rating": 8.4,
+    "genres": [
+     "Action",
+     "Adventure",
+     "Drama"
+    ],
+    "overview": "The second and third race stage of JoJo no Kimyou na Bouken: Steel Ball Run .",
+    "released": "2026-09-25"
+   },
+   {
     "title": "Link Click Season 3",
     "year": "2026",
     "rating": 8.4,
@@ -1363,150 +1369,138 @@
     ],
     "overview": "Once the Demon King, now a shut-in NEET—Ryuusei Narukami’s second life is anything but peaceful! When Meteor Hanaori, the Hero who once defeated him, suddenly returns as a normal high school girl, his world is thrown into chaos.…",
     "released": "2026-07-12"
-   },
-   {
-    "title": "Tomb Raider King",
-    "year": "2026",
-    "rating": 6.6,
-    "genres": [
-     "Action",
-     "Adventure",
-     "Fantasy"
-    ],
-    "overview": "Chaos ensues overnight when mysterious tombs suddenly surface, filled with divine relics granting overwhelming power, triggering a global power struggle to claim them for dominion.…",
-    "released": "2026-07-09"
    }
   ]
  },
  "wotd": {
-  "word": "dulcet",
+  "word": "insouciance",
   "phonetic": "",
-  "pos": "Adjective",
-  "def": "Sweet, especially when describing voice or tones; melodious.",
+  "pos": "Noun",
+  "def": "Carelessness, heedlessness, indifference, or casual unconcern.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/En-us-dulcet.ogg/En-us-dulcet.ogg.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/LL-Q1860_%28eng%29-Vealhurl-insouciance.wav/LL-Q1860_%28eng%29-Vealhurl-insouciance.wav.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "Toshiba CR2025 or CR2032 Lithium Battery 4-Pack $4 in-Store @ Reject Shop",
-   "link": "https://www.ozbargain.com.au/node/953509",
-   "votes": 85,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1774521494000
-  },
-  {
-   "title": "[PC, Epic] Free - Buried Stars & System Shock 2: 25th Anniversary Remaster @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/976344",
-   "votes": 83,
+   "title": "[iOS, Android] Free: Castlevania: 40th Anniversary @ Apple App Store & Google Play Store",
+   "link": "https://www.ozbargain.com.au/node/976403",
+   "votes": 185,
    "neg": 0,
    "category": "Gaming",
-   "ts": 1790259030000
-  },
-  {
-   "title": "$2 off $15, $4 off $30, $8 off $65, $15 off $120, $27 off $215, $40 off $310, $59 off $449 Spend (in USD) @ AliExpress",
-   "link": "https://www.ozbargain.com.au/node/976285",
-   "votes": 79,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1790234641000
+   "ts": 1790307819000
   },
   {
    "title": "nbn FTTP or HFC 500/50 $59/Month, 1000/100 $75/Month for 6 Months (New and Existing Customers, $95/$110/Month Ongoing) @ Belong",
    "link": "https://www.ozbargain.com.au/node/976371",
-   "votes": 62,
+   "votes": 152,
    "neg": 0,
    "category": "Internet",
    "ts": 1790294097000
   },
   {
-   "title": "Pay with PayPal Pay in 4 (Buy Now Pay Later) for ~A$24 off ~A$239 Spend, ~A$39 off ~A$388 Spend (Limit 384 Rewards) @ AliExpress",
-   "link": "https://www.ozbargain.com.au/node/976319",
-   "votes": 59,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1790240292000
-  },
-  {
-   "title": "50% off Interrail Continuous 1-, 2-, & 3-Month Rail Passes, 15% off Other Rail Passes @ Interrail",
-   "link": "https://www.ozbargain.com.au/node/976337",
-   "votes": 57,
-   "neg": 0,
-   "category": "Travel",
-   "ts": 1790250826000
-  },
-  {
-   "title": "Sonos Sub Gen4 $799.20, Sonos Ace $356, Sonos Arc Ultra $1199.20, Sonos Era 300 $476 + Del ($0 C&C/ in-Store) @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/976305",
-   "votes": 56,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1790236244000
-  },
-  {
-   "title": "85C7L TCL 85\" SQD-Mini LED 4K UHD Google TV (2026) $2,150 + Delivery ($0 to Select Areas/ NSW C&C/ in-Store) @ Appliance Central",
-   "link": "https://www.ozbargain.com.au/node/976312",
-   "votes": 52,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1790237072000
-  },
-  {
-   "title": "[Switch] Mario + Rabbids Kingdom Battle $8.98, Mario + Rabbids Sparks of Hope $7.99 @ Nintendo eShop",
-   "link": "https://www.ozbargain.com.au/node/976347",
-   "votes": 50,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1790262407000
-  },
-  {
-   "title": "Nintendo Switch Pro Controller $72.99 Delivered ($69.34 with NAB Card, RRP $99.95) @ Amazon AU (Excl. NT)",
-   "link": "https://www.ozbargain.com.au/node/976311",
-   "votes": 42,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1790237034000
-  },
-  {
-   "title": "Xiaomi Smart Band 11 Active $32.50 + $9.90 Delivery ($0 with $69 Spend) @ Xiaomi AU",
-   "link": "https://www.ozbargain.com.au/node/976265",
-   "votes": 41,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1790229338000
-  },
-  {
-   "title": "TCL 98-Inch C7L UHD SQD-Mini LED 4K TV $3297.60 + Delivery from $59 ($0 C&C/ in-Store) @ Harvey Norman",
-   "link": "https://www.ozbargain.com.au/node/976264",
-   "votes": 41,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1790229181000
-  },
-  {
-   "title": "OnePass Mobile 350GB 12 Month Prepaid Plan $149 + Free OnePass Membership + $20 ShopBack Cashback @ OnePass Mobile",
-   "link": "https://www.ozbargain.com.au/node/976362",
-   "votes": 40,
+   "title": "Google Pixel 11 Pro 256GB $0 or 11 Pro XL 256GB $99 with Optus $69/M 24-Month SIM Only Plan (in-Store Only) @ Harvey Norman",
+   "link": "https://www.ozbargain.com.au/node/976417",
+   "votes": 106,
    "neg": 0,
    "category": "Mobile",
-   "ts": 1790288943000
+   "ts": 1790313943000
   },
   {
-   "title": "$8.95 Small Quarter Pounder Meal + 6pc Chicken McNuggets (MyMacca's App Required) @ McDonald's",
-   "link": "https://www.ozbargain.com.au/node/976352",
-   "votes": 36,
+   "title": "2,000 Bonus Flybuys Points (Worth $10) on $50 or $100 Ultimate Her, Him, Home, & $50 Ultimate Kids, Students Gift Cards @ Coles",
+   "link": "https://www.ozbargain.com.au/node/976427",
+   "votes": 95,
    "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1790279823000
+   "category": "Other",
+   "ts": 1790319603000
   },
   {
-   "title": "Selleys BBQ Tough Wipes 30-Pack $5.89 (Was $10.49) + Delivery ($0 C&C/ in-Store/ OnePass) @ Bunnings Warehouse",
-   "link": "https://www.ozbargain.com.au/node/976315",
-   "votes": 36,
+   "title": "[PS5] Astro Bot $59 ($49 after $10 Newsletter Sign-up Voucher) + $9 Delivery ($0 C&C/ OnePass/ $60 Order) @ Target (Excl. TAS)",
+   "link": "https://www.ozbargain.com.au/node/976429",
+   "votes": 75,
    "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1790238063000
+   "category": "Gaming",
+   "ts": 1790321369000
+  },
+  {
+   "title": "[PC, macOS] Cyberpunk 2077: Ultimate Edition $47.99 @ GOG",
+   "link": "https://www.ozbargain.com.au/node/976445",
+   "votes": 62,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1790329421000
+  },
+  {
+   "title": "Uniqlo X JW Anderson Pufftech Short Jacket $59.90 (Was $149.90, 60% off) + $7.95 Delivery ($0 C&C/ $75 Order) @ UNIQLO",
+   "link": "https://www.ozbargain.com.au/node/976423",
+   "votes": 50,
+   "neg": 0,
+   "category": "Fashion & Apparel",
+   "ts": 1790318026000
+  },
+  {
+   "title": "5% Cashback on 7-Eleven $100 Gift Card @ ShopBack via App",
+   "link": "https://www.ozbargain.com.au/node/976392",
+   "votes": 46,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1790304101000
+  },
+  {
+   "title": "[eBay Plus, Box Damaged] Dyson V8 Cyclone + Hair Screw Tool $319.20 Delivered @ Dyson eBay",
+   "link": "https://www.ozbargain.com.au/node/976411",
+   "votes": 41,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1790312071000
+  },
+  {
+   "title": "[XSX] Torchlight $2.99, Torchlight II $5.99, Torchlight III $11.99 @ Xbox Store",
+   "link": "https://www.ozbargain.com.au/node/976388",
+   "votes": 33,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1790302053000
+  },
+  {
+   "title": "[Switch 2, Switch] The Rogue Prince of Persia $14.98 @ Nintendo eShop",
+   "link": "https://www.ozbargain.com.au/node/976393",
+   "votes": 28,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1790304105000
+  },
+  {
+   "title": "Blaupunkt 85\" 4K UHD Qled Tizen Smart TV (2026) $899 + Delivery ($0 C&C/in-Store) @ JB Hi-Fi",
+   "link": "https://www.ozbargain.com.au/node/976399",
+   "votes": 20,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1790306980000
+  },
+  {
+   "title": "Hugo Boss Bottled Eau de Toilette for Men 100ml $54.99 (RRP $155) + Delivery ($0 Prime/$59 Spend) @ Amazon AU (Excl. TAS, NT)",
+   "link": "https://www.ozbargain.com.au/node/976449",
+   "votes": 19,
+   "neg": 0,
+   "category": "Health & Beauty",
+   "ts": 1790331727000
+  },
+  {
+   "title": "LG 77\" G6 OLED evo AI 4K Smart TV (2026) $4780 ($4541 for RAC Members) + Delivery ($0 C&C) @ Retravision",
+   "link": "https://www.ozbargain.com.au/node/976458",
+   "votes": 18,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1790344137000
+  },
+  {
+   "title": "Xiaomi Tag 4-Pack $43.50 (New Account Only, App Required, RRP $99.50) + $9.90 Delivery ($0 with $69 Order) @ Xiaomi",
+   "link": "https://www.ozbargain.com.au/node/976416",
+   "votes": 15,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1790313912000
   }
  ],
  "carried": {}
