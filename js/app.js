@@ -664,27 +664,67 @@
     return parts.join("") || `<div>No extra detail available for this one.</div>`;
   }
 
+  // An F1 "event" is the whole weekend: competitions[] holds FP1 through the
+  // Race, and ESPN flags the event Final once practice ends. Every race-level
+  // field (state, start time, podium) must come from the Race session itself.
+  function raceComp(e) {
+    const comps = e.competitions || [];
+    return comps.find(c => c.type && /^race$/i.test(c.type.abbreviation || c.type.text || "")) ||
+      comps[comps.length - 1] || {};
+  }
+  function raceState(e) {
+    const c = raceComp(e);
+    return c.status && c.status.type ? c.status.type.state : "pre";
+  }
+
+  // ESPN race names carry title sponsors and there's no clean field. Strip
+  // the known ones (from the 2026 calendar); an unknown sponsor just shows
+  // the full name, which is long but never wrong.
+  const F1_SPONSORS = /^(Qatar Airways|Singapore Airlines|Etihad Airways|Gulf Air|MSC Cruises|Moët & Chandon|Tag Heuer|Crypto\.com|Heineken|Aramco|Lenovo|Pirelli|STC|AWS)\s+/i;
+
   function raceRow(e) {
-    const state = e.status && e.status.type ? e.status.type.state : "pre";
-    const full = e.name || e.shortName || "";
-    const m = full.match(/([A-Za-z]+ Grand Prix)$/); // drop sponsor prefix, keep "<Country> Grand Prix"
-    const name = m ? m[1] : full;
+    const race = raceComp(e);
+    const state = raceState(e);
+    const name = (e.name || e.shortName || "").replace(F1_SPONSORS, "");
+    const start = race.date || e.date;
     if (state === "post") {
-      const comp = (e.competitions || [])[0] || {};
-      const podium = (comp.competitors || [])
+      const podium = (race.competitors || [])
         .filter(c => c.order >= 1 && c.order <= 3)
         .sort((a, b) => a.order - b.order)
         .map(c => `${c.order}. ${esc(c.athlete ? (c.athlete.shortName || c.athlete.displayName) : "?")}`)
         .join(" · ");
       return `<div class="wc-match race"><div class="race-name wc-winner">${esc(name)}</div><div class="race-detail">${podium || "Finished"}</div></div>`;
     }
-    const when = new Date(e.date).toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
-    const days = Math.ceil((Date.parse(e.date) - Date.now()) / 86400000);
+    const when = new Date(start).toLocaleString("en-AU", { weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" });
+    const days = Math.ceil((Date.parse(start) - Date.now()) / 86400000);
     return `<div class="wc-match race"><div class="race-name">${esc(name)}</div><div class="race-detail">${esc(when)}${days > 0 ? ` · in ${days} day${days === 1 ? "" : "s"}` : ""}${state === "in" ? ` · <span class="chg-up">LIVE</span>` : ""}</div></div>`;
   }
 
+  // ESPN answers dates=YYYYMMDD-YYYYMMDD with HTTP 400 for team sports since
+  // Sept 2026; month queries (dates=YYYYMM) still work. Fetch every month the
+  // window touches (padded a day for timezone edges), merge, and let the
+  // caller filter to the exact window.
+  async function espnWindow(path, from, to) {
+    const lo = new Date(from.getTime() - 86400000), hi = new Date(to.getTime() + 86400000);
+    const months = [];
+    for (let y = lo.getUTCFullYear(), m = lo.getUTCMonth();
+      y < hi.getUTCFullYear() || (y === hi.getUTCFullYear() && m <= hi.getUTCMonth());
+      m === 11 ? (y++, m = 0) : m++) {
+      months.push(`${y}${String(m + 1).padStart(2, "0")}`);
+    }
+    const pages = await Promise.all(months.map(async ym => {
+      try {
+        const r = await fetch(`https://site.api.espn.com/apis/site/v2/sports/${path}/scoreboard?dates=${ym}`);
+        return r.ok ? (await r.json()).events || [] : null;
+      } catch { return null; }
+    }));
+    if (pages.every(p => p === null)) return null; // ESPN unreachable
+    const byId = new Map();
+    for (const p of pages) for (const e of p || []) byId.set(String(e.id), e);
+    return [...byId.values()];
+  }
+
   async function loadSports() {
-    const fmt = d => d.toISOString().slice(0, 10).replace(/-/g, "");
     let anyLive = false;
 
     // Australia matches always; Big Bash / Ashes / World Cups by name; plus
@@ -721,15 +761,15 @@
       if (lg.type === "cricket") return cricketBlock(lg);
       const from = new Date(Date.now() - lg.pastH * 3600 * 1000);
       const to = new Date(Date.now() + lg.futureD * 86400 * 1000);
-      let d;
-      try {
-        d = await (await fetch(
-          `https://site.api.espn.com/apis/site/v2/sports/${lg.path}/scoreboard?dates=${fmt(from)}-${fmt(to)}`
-        )).json();
-      } catch { return ""; }
-      const events = (d.events || []).slice().sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
+      const all = await espnWindow(lg.path, from, to);
+      if (!all) return "";
+      const isRace = lg.type === "race";
+      const when = e => Date.parse(isRace ? (raceComp(e).date || e.date) : e.date);
+      const state = isRace ? raceState : e => (e.status && e.status.type ? e.status.type.state : "pre");
+      const events = all
+        .filter(e => state(e) === "in" || (when(e) >= +from && when(e) <= +to))
+        .sort((a, b) => when(a) - when(b));
       if (!events.length) return "";
-      const state = e => (e.status && e.status.type ? e.status.type.state : "pre");
       if (events.some(e => state(e) === "in")) anyLive = true;
 
       let rows;

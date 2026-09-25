@@ -35,7 +35,9 @@ Validators exit non-zero and print `puzzle N: <problem>` per failure. For app ch
 - Secrets stay in repo secrets (`ANTHROPIC_API_KEY`, `VAPID_*`, `PUSH_SUBSCRIPTION`). js/config.js is public: only the VAPID public key belongs there.
 
 ## Gotchas
-- Bump `CACHE` in sw.js (currently `morning-brief-v22`) and add any new file to `SHELL`, or iOS keeps serving the old shell.
+- Bump `CACHE` in sw.js (currently `morning-brief-v24`) and add any new file to `SHELL`, or iOS keeps serving the old shell.
+- Never query ESPN scoreboards with date ranges (`dates=YYYYMMDD-YYYYMMDD`): since Sept 2026 they return HTTP 400 for team sports and the league silently hides. Always go through `espnWindow()` in js/app.js, which fetches month pages (`dates=YYYYMM`) and filters client-side.
+- Never read F1 results from `competitions[0]` or the event-level status: an ESPN F1 event is the whole weekend and is marked Final once practice ends. Always use `raceComp(e)`, the competition whose `type.abbreviation` is `Race`.
 - The daily refresh runs on four staggered crons (GitHub crons fire late). `.github/last-push` is the committed marker preventing duplicate 6am push sends.
 - refresh.yml deploys itself rather than relying on deploy.yml, because `GITHUB_TOKEN` commits do not trigger push-triggered workflows.
 - The app reads `data/data.json` with `cache: "no-cache"`; the service worker is network-first for that path only, stale-while-revalidate for everything else.
