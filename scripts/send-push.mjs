@@ -38,9 +38,12 @@ try {
   console.log("push sent");
 } catch (e) {
   if (e.statusCode === 404 || e.statusCode === 410) {
-    console.error("subscription expired or revoked — re-enable notifications in the app and update the PUSH_SUBSCRIPTION secret");
-  } else {
-    console.error(`push failed: ${e.statusCode || ""} ${e.message}`);
+    // A dead subscription never fixes itself, so fail the run: GitHub emails
+    // a failure notice. The workflow still records the day as handled, so
+    // this alerts once a day rather than on all four morning runs.
+    console.error("::error::Push subscription expired or revoked. Re-enable notifications in the app's Settings sheet and update the PUSH_SUBSCRIPTION secret.");
+    process.exit(1);
   }
-  process.exit(0); // never fail the workflow over a push hiccup
+  console.error(`push failed: ${e.statusCode || ""} ${e.message}`);
+  process.exit(0); // a transient hiccup shouldn't fail the workflow
 }

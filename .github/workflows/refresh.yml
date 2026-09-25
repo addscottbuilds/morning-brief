@@ -23,8 +23,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
       - run: npm ci
@@ -41,6 +41,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/data.json
           git diff --cached --quiet || git commit -m "Daily data refresh"
+          # another run may have committed the push marker since checkout
+          git pull --rebase
           git push
 
   # Deploy from this workflow directly — commits made with GITHUB_TOKEN don't
@@ -55,15 +57,15 @@ jobs:
       group: pages
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: .
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
   # Send the morning notification AFTER the fresh data is deployed, holding
   # until exactly 6:00am Melbourne when the pipeline ran early. The committed
@@ -77,7 +79,7 @@ jobs:
       group: morning-push
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: main
       - name: Skip if today's push was already sent
@@ -90,7 +92,7 @@ jobs:
             echo "skip=true" >> "$GITHUB_OUTPUT"
             echo "push already sent for $melb — skipping"
           fi
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         if: steps.guard.outputs.skip != 'true'
         with:
           node-version: 22
@@ -110,6 +112,7 @@ jobs:
             echo "already past 6:00 Melbourne — sending now"
           fi
       - name: Send push
+        id: send
         if: steps.guard.outputs.skip != 'true'
         run: node scripts/send-push.mjs
         env:
@@ -117,7 +120,9 @@ jobs:
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
       - name: Record the send
-        if: steps.guard.outputs.skip != 'true'
+        # also after a failed send (only an expired subscription fails it), so
+        # the alert fires once a day, not on every morning run
+        if: ${{ !cancelled() && steps.guard.outputs.skip != 'true' && (steps.send.outcome == 'success' || steps.send.outcome == 'failure') }}
         run: |
           git config user.name "morning-brief-bot"
           git config user.email "actions@users.noreply.github.com"

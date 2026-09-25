@@ -143,7 +143,7 @@ const FEEDS = [
   // Sports
   { outlet: "Guardian AU Sport", lean: "left", cat: "sports", url: "https://www.theguardian.com/au/sport/rss" },
   { outlet: "BBC Sport", lean: "centre", cat: "sports", url: "https://feeds.bbci.co.uk/sport/rss.xml" },
-  { outlet: "ESPN", lean: "centre", cat: "sports", url: "https://www.espn.com/espn/rss/news" },
+  { outlet: "ABC Sport", lean: "centre", cat: "sports", url: "https://www.abc.net.au/news/feed/2942460/rss.xml" },
   { outlet: "7News Sport", lean: "centre", cat: "sports", url: "https://7news.com.au/sport/feed" },
   // Entertainment: movies, shows, anime
   { outlet: "Variety", lean: "centre", cat: "entertainment", url: "https://variety.com/feed/" },
@@ -166,8 +166,21 @@ function tokens(title) {
   );
 }
 
+// Feed text is often HTML inside XML, so entities like &#8217; and &amp;
+// survive parsing. Decode them (the app escapes on output) rather than
+// blanking them, which turned "Google's" into "Google s".
+const NAMED_ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", ndash: "-", mdash: "-", hellip: "...", lsquo: "'", rsquo: "'", ldquo: '"', rdquo: '"' };
+function decodeEntities(s) {
+  return s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => {
+    if (e[0] === "#") {
+      const cp = e[1] === "x" || e[1] === "X" ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+      return cp > 0 && cp < 0x110000 ? String.fromCodePoint(cp) : " ";
+    }
+    return NAMED_ENTITIES[e.toLowerCase()] ?? " ";
+  });
+}
 function stripHtml(s) {
-  return (s || "").replace(/<[^>]*>/g, " ").replace(/&[#\w]+;/g, " ").replace(/\s+/g, " ").trim();
+  return decodeEntities((s || "").replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
 }
 
 // Some feeds ship stray "&" characters that break strict XML parsing —
@@ -278,7 +291,9 @@ function clusterCategory(items, maxStories) {
 // still sharp at card size (~460px covers 2x retina), largest otherwise.
 function itemImage(it) {
   const cands = [];
-  for (const m of it.media || []) if (m.$?.url) cands.push({ url: m.$.url, w: Number(m.$.width) || 0, kind: m.$.medium || m.$.type || "" });
+  // ABC nests its images inside <media:group>, so look there too
+  const media = [...(it.media || []), ...(it.mgroup || []).flatMap(g => g["media:content"] || [])];
+  for (const m of media) if (m.$?.url) cands.push({ url: m.$.url, w: Number(m.$.width) || 0, kind: m.$.medium || m.$.type || "" });
   for (const t of it.thumb || []) if (t.$?.url) cands.push({ url: t.$.url, w: Number(t.$.width) || 0, kind: "image" });
   if (it.enclosure?.url && /image/.test(it.enclosure.type || "")) cands.push({ url: it.enclosure.url, w: 0, kind: "image" });
   const imgs = cands.filter(c => !/video|audio/.test(c.kind) && /^https:/.test(c.url));
@@ -293,6 +308,7 @@ async function buildNews() {
       item: [
         ["media:content", "media", { keepArray: true }],
         ["media:thumbnail", "thumb", { keepArray: true }],
+        ["media:group", "mgroup", { keepArray: true }],
       ],
     },
   });
@@ -301,8 +317,10 @@ async function buildNews() {
   const cutoff = Date.now() - 36 * 3600 * 1000;
 
   await Promise.all(FEEDS.map(async f => {
+    let body = "";
     try {
-      const feed = await parser.parseString(await fetchFeed(f.url));
+      body = await fetchFeed(f.url);
+      const feed = await parser.parseString(body);
       let n = 0;
       for (const it of feed.items || []) {
         if (n >= 25) break;
@@ -313,7 +331,7 @@ async function buildNews() {
           outlet: f.outlet, lean: f.lean,
           title: stripHtml(it.title).slice(0, 200),
           desc: stripHtml(it.contentSnippet || it.content || it.summary).slice(0, 400),
-          link: it.link || "", ts,
+          link: /^https?:\/\//i.test(it.link || "") ? it.link : "", ts, // no javascript: hrefs
           img: itemImage(it),
         });
         n++;
@@ -321,7 +339,9 @@ async function buildNews() {
       ok.push(f.outlet);
     } catch (e) {
       failed.push(f.outlet);
-      console.error(`feed fail ${f.outlet}: ${e.message}`);
+      // the body's opening shows what CI actually received (bot page, empty shell, ...)
+      const head = body ? ` | body starts: ${body.slice(0, 200).replace(/\s+/g, " ")}` : "";
+      console.error(`feed fail ${f.outlet}: ${e.message}${head}`);
     }
   }));
 
@@ -744,6 +764,31 @@ ${JSON.stringify(input, null, 1)}`;
 // -------------------------------------------------------------------- main --
 const [markets, news, releases, wotd, commGames, movers, deals] = await Promise.all([buildMarkets(), buildNews(), buildReleases(), buildWotd(), buildCommGames(), buildMovers(), buildDeals()]);
 markets.movers = movers;
+
+// A source that fails for a few days (AniList returned 403 from 06 to 12/09)
+// shouldn't blank its section: reuse the last good copy, but only for a
+// limited time so a dead source can't freeze a section forever. `carried`
+// records when each carry started.
+let prev = {};
+try { prev = JSON.parse(readFileSync(join(root, "data/data.json"), "utf8")); } catch { /* first build */ }
+const carried = {};
+function lastGood(key, cur, prevVal, maxDays) {
+  if (Array.isArray(cur) && cur.length) return cur;
+  if (!Array.isArray(prevVal) || !prevVal.length) return cur;
+  const since = prev.carried?.[key] || new Date().toISOString();
+  if (Date.now() - Date.parse(since) > maxDays * 86400000) {
+    console.error(`${key}: source still failing after ${maxDays} days, section left empty`);
+    return cur;
+  }
+  console.error(`${key}: source returned nothing, reusing last good copy (carried since ${since.slice(0, 10)})`);
+  carried[key] = since;
+  return prevVal;
+}
+for (const k of ["movies", "shows", "anime"]) {
+  releases[k] = lastGood(`releases.${k}`, releases[k], prev.releases?.[k], 7);
+}
+const dealsOut = lastGood("deals", deals, prev.deals, 2);
+
 const out = {
   generatedAt: new Date().toISOString(),
   markets,
@@ -751,7 +796,8 @@ const out = {
   releases,
   wotd,
   commGames,
-  deals,
+  deals: dealsOut,
+  carried,
 };
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +
