@@ -3,7 +3,10 @@
 // append fully-clued puzzles to data/crosswords.json. Grids with any
 // uncluable word are dropped. Re-run any time the bank needs topping up.
 //
-//   node scripts/gen-crosswords.mjs [gridTarget] [maxAppend]
+//   node scripts/gen-crosswords.mjs [gridTarget] [maxAppend] [perSeed]
+//
+// perSeed > 1 keeps several grids per starting word once the one-per-seed
+// supply runs dry. New puzzles are also appended to the bank's play order.
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -11,6 +14,7 @@ import { dirname, join } from "node:path";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const gridTarget = Number(process.argv[2] || 200);
 const maxAppend = Number(process.argv[3] || 100);
+const perSeed = Number(process.argv[4] || 1);
 
 const { answers } = JSON.parse(readFileSync(join(root, "data/words.json"), "utf8"));
 const bank = JSON.parse(readFileSync(join(root, "data/crosswords.json"), "utf8"));
@@ -20,7 +24,11 @@ const commonSet = new Set(answers);
 const prefixes = new Set();
 for (const w of answers) for (let i = 1; i <= 5; i++) prefixes.add(w.slice(0, i));
 
-const existing = new Set(bank.puzzles.map(p => p.rows.join(",")));
+// A grid's transpose is the same puzzle (same ten words, across/down
+// swapped), so dedupe on the sorted word set, not the rows.
+const colsOf = rows => [0, 1, 2, 3, 4].map(c => rows.map(r => r[c]).join(""));
+const wordSet = rows => [...rows, ...colsOf(rows)].sort().join(",");
+const existing = new Set(bank.puzzles.map(p => wordSet(p.rows)));
 const results = [];
 let seedLimit = Infinity;
 
@@ -37,7 +45,9 @@ function search(rows) {
     const cols = [0, 1, 2, 3, 4].map(c => colPrefix(rows, c, 5));
     const all = [...rows, ...cols];
     if (new Set(all).size !== 10) return;
-    if (existing.has(rows.join(","))) return;
+    const ws = wordSet(rows);
+    if (existing.has(ws)) return;
+    existing.add(ws); // also blocks this grid's transpose later in the run
     results.push({ rows: [...rows], cols });
     return;
   }
@@ -57,7 +67,7 @@ function search(rows) {
 }
 for (const s of answers) {
   if (results.length >= gridTarget) break;
-  seedLimit = results.length + 1; // one grid per seed keeps variety
+  seedLimit = results.length + perSeed; // few grids per seed keeps variety
   search([s]);
 }
 console.log(`grids generated: ${results.length}`);
@@ -120,8 +130,12 @@ function pickClue(word, candidates) {
   const inflected = /^\s*(simple past|past (tense|participle)|plural|third-person|present participle|(alternative|obsolete|archaic|dated|informal) (form|spelling)|initialism|abbreviation|misspelling)/i;
   // prefer a real definition over "past tense of X" style entries; skip
   // self-referential ones that would give the answer away
+  // Wiktionary artifacts that read as nonsense out of context, and defs that
+  // contain the answer's stem ("rare" cluing RARER) are skipped too.
+  const artifact = /\bthe above\b|^senses? relating|^used other than|^\(/i;
+  const stem = word.length >= 5 ? word.slice(0, -1).toLowerCase() : word.toLowerCase();
   const real = candidates.find(d =>
-    !inflected.test(d) && d.length >= 10 && !d.toLowerCase().includes(word.toLowerCase()));
+    !inflected.test(d) && !artifact.test(d) && d.length >= 10 && !d.toLowerCase().includes(stem));
   if (real) return shapeClue(real);
   const infl = candidates.find(d => inflected.test(d) && /\bof\b/i.test(d));
   if (infl) {
@@ -144,6 +158,8 @@ for (const g of results) {
   if (puzzles.length % 10 === 0) console.log(`clued: ${puzzles.length} (dict cache: ${defCache.size} words)`);
 }
 
+const firstNew = bank.puzzles.length;
 bank.puzzles.push(...puzzles);
+if (Array.isArray(bank.order)) bank.order.push(...puzzles.map((_, k) => firstNew + k));
 writeFileSync(join(root, "data/crosswords.json"), JSON.stringify(bank, null, 1));
 console.log(`appended ${puzzles.length} puzzles — bank now ${bank.puzzles.length}`);

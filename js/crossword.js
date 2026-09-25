@@ -49,12 +49,14 @@
 
   // ------- persistence -------
   function stateSave() {
-    localStorage.setItem("mb_xword", JSON.stringify({ day: todayKey, letters, startedAt, revealed, recorded, todayMs }));
+    localStorage.setItem("mb_xword", JSON.stringify({ day: todayKey, sig: solution, letters, startedAt, revealed, recorded, todayMs }));
   }
   function restore() {
     try {
       const s = JSON.parse(localStorage.getItem("mb_xword"));
-      if (s && s.day === todayKey && Array.isArray(s.letters)) {
+      // letters only belong to the grid they were typed into (older saves
+      // have no sig and are accepted as before)
+      if (s && s.day === todayKey && Array.isArray(s.letters) && (!s.sig || s.sig === solution)) {
         letters = s.letters;
         startedAt = s.startedAt || null;
         revealed = !!s.revealed;
@@ -65,11 +67,17 @@
   }
 
   // ------- setup -------
-  fetch("data/crosswords.json").then(r => r.json()).then(({ puzzles }) => {
-    // bank growth gates (10→20 on day 23, 20→~120 on day 52): earlier days
-    // keep their original mapping so a mid-day bank update never swaps a
-    // puzzle in progress
-    puzzle = puzzles[DAY < 23 ? DAY % 10 : DAY < 52 ? DAY % 20 : DAY % puzzles.length];
+  fetch("data/crosswords.json").then(r => r.json()).then(bank => {
+    const { puzzles } = bank;
+    // From `orderStart`, day N plays order[N - orderStart]: never-served
+    // puzzles with no repeated word sets (many early auto grids were
+    // transposes of others). Appending to `order` never changes an earlier
+    // day. Before that, the original gates stand, frozen at the 103-puzzle
+    // bank they were written for.
+    const k = DAY - (bank.orderStart ?? Infinity);
+    puzzle = k >= 0 && bank.order && bank.order.length
+      ? puzzles[bank.order[k % bank.order.length]]
+      : puzzles[DAY < 23 ? DAY % 10 : DAY < 52 ? DAY % 20 : DAY % 103];
     solution = puzzle.rows.join("");
     restore();
     build();

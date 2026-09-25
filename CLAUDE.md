@@ -30,12 +30,13 @@ Validators exit non-zero and print `puzzle N: <problem>` per failure. For app ch
 ## Constraints and invariants
 - Never rename localStorage keys: `mb_qantas_spent` and `mb_focus` hold user data with no backup. Same for `mb_wordle`, `mb_wordle_stats`, `mb_xword`, `mb_xword_stats`, `mb_conn`, `mb_conn_stats`, `mb_loc`, `mb_push_enabled`.
 - `gameEpoch` in js/config.js is puzzle day zero. Changing it renumbers every puzzle.
-- Puzzle banks are append-only: `data/crosswords.json` and `data/connections.json` are indexed by day modulo bank length, so reordering or removing entries changes past and present puzzles. Generators append.
+- Puzzle banks are append-only: reordering or removing entries changes past and present puzzles. Crosswords from `orderStart` (day 79) play `order[day - orderStart]` in data/crosswords.json, so appending to both `puzzles` and `order` never changes an earlier day; gen-crosswords.mjs does both. Connections still index by day modulo bank length: when it grows, always add a gate at the NEXT day in js/connections.js so today's puzzle never swaps mid-day.
+- Never schedule two crosswords with the same ten words: a transposed grid is the same puzzle with across/down swapped (37 of the first 103 were). Dedupe on the sorted word set; validate-puzzles.mjs enforces it for `order` and prints how many days are left before it wraps.
 - `data/data.json` is a build artifact but is committed and deployed; do not gitignore it.
 - Secrets stay in repo secrets (`ANTHROPIC_API_KEY`, `VAPID_*`, `PUSH_SUBSCRIPTION`). js/config.js is public: only the VAPID public key belongs there.
 
 ## Gotchas
-- Bump `CACHE` in sw.js (currently `morning-brief-v25`) and add any new file to `SHELL`, or iOS keeps serving the old shell.
+- Bump `CACHE` in sw.js (currently `morning-brief-v26`) and add any new file to `SHELL`, or iOS keeps serving the old shell.
 - Never query ESPN scoreboards with date ranges (`dates=YYYYMMDD-YYYYMMDD`): since Sept 2026 they return HTTP 400 for team sports and the league silently hides. Always go through `espnWindow()` in js/app.js, which fetches month pages (`dates=YYYYMM`) and filters client-side.
 - Never read F1 results from `competitions[0]` or the event-level status: an ESPN F1 event is the whole weekend and is marked Final once practice ends. Always use `raceComp(e)`, the competition whose `type.abbreviation` is `Race`.
 - The daily refresh runs on four staggered crons (GitHub crons fire late). `.github/last-push` is the committed marker preventing duplicate 6am push sends.
