@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-29T00:00:27.109Z",
+ "generatedAt": "2026-09-29T00:30:48.170Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8679.7,
-    "chgPct": -0.256262928062506,
+    "price": 8696.8,
+    "chgPct": 0.3669936526254965,
     "high52": 9296.7,
-    "off52": -6.636763582776684
+    "off52": -6.452827347338317
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.4,
-    "chgPct": 0.011576120410028031,
+    "price": 86.27,
+    "chgPct": -0.1504647263692138,
     "high52": 87.32,
-    "off52": -1.053595968850192
+    "off52": -1.2024736601007755
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.47,
-    "chgPct": 0.11619750150110733,
+    "price": 146.78,
+    "chgPct": 0.21164660115607253,
     "high52": 155.03,
-    "off52": -5.521511965426048
+    "off52": -5.32155066761272
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 62.94,
-    "chgPct": -0.6785528469820014,
+    "price": 62.85,
+    "chgPct": -0.14299114819298941,
     "high52": 64.23,
-    "off52": -2.008407286314816
+    "off52": -2.1485287248949128
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 38.5,
-    "chgPct": -1.7355801426217738,
+    "price": 38.58,
+    "chgPct": 0.20779220779220337,
     "high52": 47.78,
-    "off52": -19.422352448723316
+    "off52": -19.2549183758895
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7018,
-    "chgPct": 0.12699878802474274,
+    "price": 0.7013,
+    "chgPct": 0.05566293821852035,
     "high52": 0.7277,
-    "off52": -3.559158994090976
+    "off52": -3.6278686271815275
    }
   ],
   "failed": [],
@@ -83,14 +83,6 @@
     "chgPct": -3.9396914699056067
    },
    {
-    "sym": "CSL.AX",
-    "name": "CSL",
-    "market": "ASX",
-    "price": 181.91,
-    "currency": "AUD",
-    "chgPct": 2.8030534825093034
-   },
-   {
     "sym": "NFLX",
     "name": "Netflix",
     "market": "US",
@@ -109,10 +101,45 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Beau Lamarre-Condon trial: Ex-cop’s alleged chilling conversation months before killings",
+      "summary": "More explosive claims have emerged about the accused double-murderer.",
+      "ts": 1790641161000,
+      "img": "https://images.7news.com.au/publication/C-22940129/98c05023842ba3ada6eed25ceae5f4260bd2f39c-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Moment Beau Lamarre-Condon and friend buy surfboard cover before he allegedly used it to conceal body: Trial updates live",
+        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+        "link": "https://www.dailymail.com/news/article-16168051/beau-lamarre-condon-surfboard-cover-trial-updates.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Beau Lamarre-Condon trial: Ex-cop’s alleged chilling conversation months before killings",
+        "desc": "More explosive claims have emerged about the accused double-murderer.",
+        "link": "https://7news.com.au/news/murder/beau-lamarre-condon-trial-ex-cops-alleged-chilling-conversation-months-before-killings-c-22940129"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Grandmother sues after alleged AI facial recognition error led to months in jail, experts sound alarm",
+        "desc": "Angela Lipps was arrested at gunpoint and jailed for nearly six months after Fargo police allegedly relied on an uncorroborated AI facial recognition match.",
+        "link": "https://www.foxnews.com/us/grandmother-sues-alleged-ai-facial-recognition-error-led-months-jail-experts-sound-alarm"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "SpaceX rocket makes orbital debut deploying Starlinks despite engine failure",
       "summary": "The mission was both a high-stakes test of the next-generation rocket and an operational endeavor carrying millions of dollars’ worth of satellites into orbit.",
       "ts": 1790638174000,
-      "img": "https://images.7news.com.au/publication/C-22939991/2552c286db942eda359198a19e47989596bc3ea7-16x9-x0y0w1280h720.png",
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/01ae0541e87ac0d016ac0368ce53d64a7d981d37",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -124,7 +151,7 @@
         "lean": "centre",
         "title": "SpaceX rocket makes orbital debut deploying Starlinks despite engine failure",
         "desc": "The mission was both a high-stakes test of the next-generation rocket and an operational endeavor carrying millions of dollars’ worth of satellites into orbit.",
-        "link": "https://7news.com.au/news/spacex-rocket-makes-orbital-debut-deploying-starlinks-despite-engine-failure-c-22939991"
+        "link": "https://7news.com.au/technology/space/spacex-rocket-makes-orbital-debut-deploying-starlinks-despite-engine-failure-c-22939991"
        },
        {
         "outlet": "The Age",
@@ -143,8 +170,8 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Five men released on bail as RAF Fairford terror probe continues",
+      "id": 2,
+      "headline": "Five men released on bail as RAF Fairford terror investigation continues",
       "summary": "Amid concerns about involvement by Iran, US President Donald Trump expressed surprise at news of the men's release.",
       "ts": 1790634561000,
       "img": "https://assets.sbs.com.au/dims4/default/dcabf4c/2147483647/strip/false/crop/8640x3970+0+895/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F28%2Fcc%2Fc4fafe584f0a8d7de284d773271a%2F20260928151567189041-original.jpg",
@@ -164,7 +191,7 @@
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Five men released on bail as RAF Fairford terror probe continues",
+        "title": "Five men released on bail as RAF Fairford terror investigation continues",
         "desc": "Amid concerns about involvement by Iran, US President Donald Trump expressed surprise at news of the men's release.",
         "link": "https://www.sbs.com.au/news/article/five-men-released-on-bail-as-raf-fairford-terror-probe-continues/qhqg4j0ib"
        },
@@ -178,46 +205,11 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Greens seek new leader after Larissa Waters steps down",
-      "summary": "The Greens will hold a partyroom meeting to decide who will succeed Waters, who has stepped down due to worsening kidney disease. Meanwhile, it's an inflation blame game ahead of the interest rate decision. The post Greens seek new leader after Larissa Waters steps down appeared first on Crikey.",
-      "ts": 1790630128000,
-      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/09/20260818136161965722-original-1.jpg?quality=70&w=840",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Greens seek new leader after Larissa Waters steps down",
-        "desc": "The Greens will hold a partyroom meeting to decide who will succeed Waters, who has stepped down due to worsening kidney disease. Meanwhile, it's an inflation blame game ahead of the interest rate decision. The post Greens seek new leader after Larissa Waters steps down appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/09/29/greens-seek-new-leader-after-larissa-waters-steps-down-jim-chalmers-medicare-hack-ai-anthropic-inflation-interest-rates/"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: RBA expected to announce fourth rate rise this year; Greens leader Larissa Waters steps down due to illness; Trump denies asking Xi about potential US arms sales",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
-        "link": "https://www.theage.com.au/national/australia-news-live-rba-expected-to-announce-fourth-rate-rise-this-year-greens-leader-larissa-waters-steps-down-due-to-illness-trump-denies-asking-xi-about-potential-us-arms-sales-20260929-p6118p.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Larissa Waters steps down as Greens leader due to ill health",
-        "desc": "Ballot for new leader expected next week after Waters quits to manage pre-existing kidney disease that has ‘declined significantly’ Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Greens leader Larissa Waters has announced she will step down due to ill health, with a party room meeting scheduled for next week to choose her successo",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/28/larissa-waters-steps-down-as-greens-leader-due-to-ill-health-ntnwfb"
-       }
-      ]
-     },
-     {
       "id": 3,
-      "headline": "Live: Chalmers does not want to see workers 'carry the can' for Middle East war",
-      "summary": "The treasurer says Australians should not be affected by decisions on the other side of the world about a war that has been \"absolutely disastrous\" for the cost of living. Follow live.",
-      "ts": 1790639715000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/f90db2d67673b5af484966cc882d0d85?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
+      "headline": "'A story of hope': Bogong Moths swarming the east coast are exciting researchers",
+      "summary": "Large moths have been visiting homes in NSW, ACT, and Victoria, which scientists say is great news for the species.",
+      "ts": 1790641591000,
+      "img": "https://assets.sbs.com.au/dims4/default/3e6b542/2147483647/strip/false/crop/5184x2382+0+267/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F12%2F9c%2F2206ac764113a71b71218c5ec280%2Fafp-20250618-62u96g2-v1-highres-franceaustraliazoologymothnavigation.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -227,80 +219,24 @@
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Australia news live: Chalmers says Australians shouldn’t ‘carry the can’ of overseas decisions as cash rate decision due",
+        "title": "Australia news live: Greens to choose new leader next week after Waters steps down; bogong moths back at parliament",
         "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
         "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Live: Chalmers does not want to see workers 'carry the can' for Middle East war",
-        "desc": "The treasurer says Australians should not be affected by decisions on the other side of the world about a war that has been \"absolutely disastrous\" for the cost of living. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-09-29/federal-politics-live-blog-interest-rates/107205104"
+        "title": "'A story of hope': Bogong Moths swarming the east coast are exciting researchers",
+        "desc": "Large moths have been visiting homes in NSW, ACT, and Victoria, which scientists say is great news for the species.",
+        "link": "https://www.sbs.com.au/news/article/bogong-moth-migration-australia-2026/p6jdonqa6"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Beau Lamarre-Condon trial: Ex-cop’s alleged chilling conversation months before killings",
-      "summary": "More explosive claims have emerged about the accused double-murderer.",
-      "ts": 1790639263000,
-      "img": "https://images.7news.com.au/publication/C-22940129/98c05023842ba3ada6eed25ceae5f4260bd2f39c-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Beau Lamarre-Condon trial: Ex-cop’s alleged chilling conversation months before killings",
-        "desc": "More explosive claims have emerged about the accused double-murderer.",
-        "link": "https://7news.com.au/news/murder/beau-lamarre-condon-trial-ex-cops-alleged-chilling-conversation-months-before-killings-c-22940129"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Grandmother sues after alleged AI facial recognition error led to months in jail, experts sound alarm",
-        "desc": "Angela Lipps was arrested at gunpoint and jailed for nearly six months after Fargo police allegedly relied on an uncorroborated AI facial recognition match.",
-        "link": "https://www.foxnews.com/us/grandmother-sues-alleged-ai-facial-recognition-error-led-months-jail-experts-sound-alarm"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Three people escape suspicious house fire south of Brisbane",
-      "summary": "The Woodridge two-storey house was gutted in the blaze, and a crime scene has been declared.",
-      "ts": 1790638641000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2762bc22ef3eb94e75377f7ec039ef9d?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=519&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Three people escape suspicious house fire south of Brisbane",
-        "desc": "The Woodridge two-storey house was gutted in the blaze, and a crime scene has been declared.",
-        "link": "https://www.abc.net.au/news/2026-09-29/three-people-escape-suspicious-woodridge-house-fire/107206482"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "People escape historic Kyiv building hit by Russian drone",
-        "desc": "The BBC's Paul Adams reports from the scene of the strike on Ukraine's National Academy of Sciences.",
-        "link": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 6,
       "headline": "Treasurer Jim Chalmers touts stronger budget amid darkening economic outlook",
       "summary": "The treasurer's jolt of positive fiscal news came a day ahead of a widely expected interest rate rise on Tuesday.",
-      "ts": 1790638524000,
+      "ts": 1790641515000,
       "img": "https://assets.sbs.com.au/dims4/default/69fc7e3/2147483647/strip/false/crop/3000x1378+0+311/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fd1%2Fc2%2Fb0d4e6994f26a1e94833256894ca%2F20260921126638973384-original.jpg",
       "divergent": null,
       "left_view": null,
@@ -311,9 +247,9 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Nat Barr unleashes on Jim Chalmers as mortgage pain is set to worsen - and asks why Australia is falling behind: 'Highest-taxing Treasurer'",
-        "desc": "Nat Barr has unleashed on Treasurer Jim Chalmers over Australia's soaring interest rates, government spending, and high taxes as households brace for more mortgage pain.",
-        "link": "https://www.dailymail.com/news/article-16167927/nat-barr-jim-chalmers.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Wait a minute, Jim Chalmers. Who's blaming 'workers' for inflation!? Treasurer starts day of interest rate hell with comment that should astound Australians: PETER VAN ONSELEN",
+        "desc": "The consequences of today's expected rate rise will also extend well beyond mortgage holders.",
+        "link": "https://www.dailymail.com/news/article-16167713/interest-rate-hike-australia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "SBS News",
@@ -321,6 +257,62 @@
         "title": "Treasurer Jim Chalmers touts stronger budget amid darkening economic outlook",
         "desc": "The treasurer's jolt of positive fiscal news came a day ahead of a widely expected interest rate rise on Tuesday.",
         "link": "https://www.sbs.com.au/news/article/treasurer-jim-chalmers-touts-stronger-budget-amid-darkening-economic-outlook/003z4c0rk"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Save 78 per cent on incredible Dreame robovac this Amazon Prime sales period: ‘Floors have never been cleaner’",
+      "summary": "The vacuum has been marked down from $2,199 to just $474.99 for a limited time only.",
+      "ts": 1790640671000,
+      "img": "https://images.7news.com.au/publication/C-22939874/acab2b99d9c94a3d4ca2fa3de936946654c543ee-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Amazon Australia Prime Big Deal Days Sale 2026 is here: Shop top-rated tech, bestselling beauty buys and everyday essentials",
+        "desc": "The Daily Mail Australia Shopping team are scouring the marketplace to find all of the best deals for you, as they drop",
+        "link": "https://www.dailymail.com/buyline/article-16156349/Amazon-Australia-Prime-Big-Deal-Days-Sale-2026.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Save 78 per cent on incredible Dreame robovac this Amazon Prime sales period: ‘Floors have never been cleaner’",
+        "desc": "The vacuum has been marked down from $2,199 to just $474.99 for a limited time only.",
+        "link": "https://7news.com.au/7you/tech/save-78-per-cent-on-incredible-dreame-robovac-this-amazon-prime-sales-period-floors-have-never-been-cleaner-c-22939874"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Fears grow for Australian human rights activist missing in Cambodia for over a week",
+      "summary": "An Australian human rights defender who met with Vietnamese activists has been missing in Cambodia for 10 days as his wife pleads for his safe return.",
+      "ts": 1790640491000,
+      "img": "https://images.7news.com.au/publication/C-22939579/dff8e00da3fe559b52dc63bf1c1ea101ade4d14c-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Vietnamese government accused of abducting Melbourne human rights activist",
+        "desc": "Tran Hiep, a 50-year-old Vietnamese Australian anti-human trafficking campaigner, not heard from since 18 September Vietnamese authorities have detained three activists, including an Australian, on what have been described as “fabricated” charges. The Vietnamese government said the three confessed to being members of Viet Tan – a pro-democracy organisation – which it describes as a terrorist organ",
+        "link": "https://www.theguardian.com/australia-news/2026/sep/29/melbourne-human-rights-activist-tran-hiep-missing-cambodia-ntwnfb"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Fears grow for Australian human rights activist missing in Cambodia for over a week",
+        "desc": "An Australian human rights defender who met with Vietnamese activists has been missing in Cambodia for 10 days as his wife pleads for his safe return.",
+        "link": "https://7news.com.au/news/australian-human-rights-activist-missing-in-cambodia-for-over-a-week-c-22939579"
        }
       ]
      }
@@ -334,8 +326,8 @@
       "id": 7,
       "headline": "Larissa Waters steps down as Greens leader due to health reasons",
       "summary": "Greens leader Senator Larissa Waters has quit the party leadership in a surprise move due to ill health. Waters, who has been leader since former leader Adam Bandt was defeated at the 2025 election, is managing a “pre-existing kidney disease” that has “declined significantly” in recent months. A Monday night statement said the prognosis for her recovery was “positive”, but she had decided the dema",
-      "ts": 1790595711000,
-      "img": "https://i.guim.co.uk/img/media/7f9e591b0f2f0d2067893b765d117f60aacb1479/295_0_2953_2362/master/2953.jpg?width=460&quality=85&auto=format&fit=max&s=49e222661ccf0905199d5bace3cf939f",
+      "ts": 1790641591000,
+      "img": "https://i.guim.co.uk/img/media/550ea96769527225bcc579750d3c4cc6e4fc5ffe/542_0_5423_4338/master/5423.jpg?width=460&quality=85&auto=format&fit=max&s=5e2c076c7b0165678f9367252e072754",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -345,9 +337,9 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Larissa Waters steps down as Greens leader due to ill health",
-        "desc": "Ballot for new leader expected next week after Waters quits to manage pre-existing kidney disease that has ‘declined significantly’ Follow our Australia news live blog for latest updates Get our breaking news email, free app or daily news podcast Greens leader Larissa Waters has announced she will step down due to ill health, with a party room meeting scheduled for next week to choose her successo",
-        "link": "https://www.theguardian.com/australia-news/2026/sep/28/larissa-waters-steps-down-as-greens-leader-due-to-ill-health-ntnwfb"
+        "title": "Australia news live: Greens to choose new leader next week after Waters steps down; bogong moths back at parliament",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb"
        },
        {
         "outlet": "The Conversation",
@@ -395,27 +387,6 @@
      },
      {
       "id": 9,
-      "headline": "Australia news live: Chalmers says Australians shouldn’t ‘carry the can’ of overseas decisions as cash rate decision due",
-      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
-      "ts": 1790639715000,
-      "img": "https://i.guim.co.uk/img/media/515d1119e357fd1f5e6b9348d6501616a51f1a16/250_0_2500_2000/master/2500.jpg?width=460&quality=85&auto=format&fit=max&s=f0dc17ac0db9cdbd6a7e3c3b1291d48d",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia news live: Chalmers says Australians shouldn’t ‘carry the can’ of overseas decisions as cash rate decision due",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
-        "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 10,
       "headline": "Trump CMS faces bipartisan pushback over Medicare proposal tied to Biden-era drug pricing law",
       "summary": "Lawmakers say the proposed Medicare policy could make it harder for patients to access newer cancer treatments by discouraging medical innovation.",
       "ts": 1790639165000,
@@ -436,7 +407,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 10,
       "headline": "Dem Senate nominee breaks silence after Susan Collins' office was vandalized with vulgar message",
       "summary": "Republican Sen. Susan Collins vowed she won't be \"intimidated\" after her Biddeford office was vandalized, while her Dem rival Troy Jackson initially stayed silent.",
       "ts": 1790634907000,
@@ -457,7 +428,7 @@
       ]
      },
      {
-      "id": 12,
+      "id": 11,
       "headline": "'Insulting': Ex-Trump official's 'dishonest' campaign ad triggers conservative revolt",
       "summary": "GOP Arkansas Gov. Sarah Huckabee Sanders' reelection ad depicting a white-male welfare recipient named \"Brad\" drew conservative backlash online.",
       "ts": 1790631978000,
@@ -474,6 +445,27 @@
         "title": "'Insulting': Ex-Trump official's 'dishonest' campaign ad triggers conservative revolt",
         "desc": "GOP Arkansas Gov. Sarah Huckabee Sanders' reelection ad depicting a white-male welfare recipient named \"Brad\" drew conservative backlash online.",
         "link": "https://www.foxnews.com/politics/insulting-ex-trump-officials-dishonest-campaign-ad-triggers-conservative-revolt"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "NZ election poll watch: minor parties gain as Labour and National slide",
+      "summary": "Getty Images Six weeks out from the November 7 election, the latest 1News Verian poll (conducted September 23–27 from a sample of 1,004 voters) recorded a fall for the major parties and gains for most minors: National: 28% (down one since the mid-August Verian poll) Labour: 28% (down two) Greens: 16% (up four) ACT 11% (up two) NZ First 9% (up one) Opportunity: 6% (down two) Te Pāti Māori: 1.2% (up",
+      "ts": 1790631042000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "NZ election poll watch: minor parties gain as Labour and National slide",
+        "desc": "Getty Images Six weeks out from the November 7 election, the latest 1News Verian poll (conducted September 23–27 from a sample of 1,004 voters) recorded a fall for the major parties and gains for most minors: National: 28% (down one since the mid-August Verian poll) Labour: 28% (down two) Greens: 16% (up four) ACT 11% (up two) NZ First 9% (up one) Opportunity: 6% (down two) Te Pāti Māori: 1.2% (up",
+        "link": "https://theconversation.com/nz-election-poll-watch-minor-parties-gain-as-labour-and-national-slide-292993"
        }
       ]
      }
@@ -624,62 +616,41 @@
     "stories": [
      {
       "id": 19,
-      "headline": "‘Not always honest’: OpenAI scraps new model release on safety fears",
-      "summary": "The move follows a string of reports of artificial intelligence systems going rogue, including revelations last week that an OpenAI agent breached Medicare.",
-      "ts": 1790639463000,
+      "headline": "OpenAI halts new model on fears of going rogue",
+      "summary": "The agent showed high levels of deception and comes after reports of AI agents going rogue, including revelations last week that an OpenAI one breached Medicare.",
+      "ts": 1790635966000,
       "img": "https://static.ffx.io/images/$zoom_0.2019%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_156%2C$y_0/t_crop_custom/q_86%2Cf_auto/2f005499c042f1f9f6ca8a389d113118f1378473",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "OpenAI halts powerful new AI model over fears it could go rogue",
-        "desc": "News of OpenAI’s decision came as the giant chipmaker Nvidia announced a new tool it claimed would ensure bots stayed within their instructions.",
-        "link": "https://www.theage.com.au/business/companies/nvidia-unveils-security-platform-to-stop-ai-agents-from-going-rogue-20260929-p6118f.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "‘Not always honest’: OpenAI scraps new model release on safety fears",
-        "desc": "The move follows a string of reports of artificial intelligence systems going rogue, including revelations last week that an OpenAI agent breached Medicare.",
+        "title": "OpenAI halts new model on fears of going rogue",
+        "desc": "The agent showed high levels of deception and comes after reports of AI agents going rogue, including revelations last week that an OpenAI one breached Medicare.",
         "link": "https://www.afr.com/world/north-america/nvidia-boosts-share-buyback-by-a-record-200b-20260929-p61186?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
+        "desc": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companies Nvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue. The company announced a $150bn stock buyback the same day, the largest in US corporate history. Continue reading...",
+        "link": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Nvidia launches security platform to keep AI agents from going rogue",
+        "desc": "Nvidia's new open source AI security platform could have prevented the rogue OpenAI agents that hacked Hugging Face, the company's VP claims.",
+        "link": "https://www.foxbusiness.com/markets/nvidia-launches-security-platform-keep-ai-agents-from-going-rogue"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "Cochlear hit with class action; reports say Goldmans boss to exit",
-      "summary": "Goldmans chief David Solomon to step down next year: WSJ; Codan flags profit jump; Adairs boss resigns; Megaport wins $1b of contracts. Follow updates live.",
-      "ts": 1790639219000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Cochlear hit with class action; reports say Goldmans boss to exit",
-        "desc": "Goldmans chief David Solomon to step down next year: WSJ; Codan flags profit jump; Adairs boss resigns; Megaport wins $1b of contracts. Follow updates live.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-us-bond-yields-surge-higher-rba-awaited-20260929-p6118b?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Crown sues insurer refusing to help it cover mammoth class action payout",
-        "desc": "Casino operator is suing a multinational insurer, which has declined to pay out a policy the gambling giant expects to help it fund a $72 million class action.",
-        "link": "https://www.theage.com.au/business/companies/crown-sues-insurer-refusing-to-help-it-cover-mammoth-class-action-payout-20260928-p610yr.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 21,
       "headline": "ASX to open flat ahead of RBA rate call; Wall Street wobbles as bonds spike",
       "summary": "The Australian sharemarket is set for a cautious start on RBA day, with investors looking to the Reserve Bank’s press conference after its expected rise in interest rates for clues on whether a follow-up hike will be needed.",
       "ts": 1790628953000,
@@ -707,35 +678,7 @@
       ]
      },
      {
-      "id": 22,
-      "headline": "Nvidia launches security platform to keep AI agents from going rogue",
-      "summary": "Nvidia's new open source AI security platform could have prevented the rogue OpenAI agents that hacked Hugging Face, the company's VP claims.",
-      "ts": 1790623447000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/11/jensen-huang-nvidia-ceo.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Nvidia unveils security platform to rein in AI agents and $150bn stock buyback",
-        "desc": "Chipmaker says new system was designed to prevent AI agents from going rogue amid incidents at top companies Nvidia on Monday unveiled a new security platform that the chipmaker said can stop artificial intelligence agents from going rogue. The company announced a $150bn stock buyback the same day, the largest in US corporate history. Continue reading...",
-        "link": "https://www.theguardian.com/technology/2026/sep/28/nvidia-ai-agent-security-platform-stock-buyback"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Nvidia launches security platform to keep AI agents from going rogue",
-        "desc": "Nvidia's new open source AI security platform could have prevented the rogue OpenAI agents that hacked Hugging Face, the company's VP claims.",
-        "link": "https://www.foxbusiness.com/markets/nvidia-launches-security-platform-keep-ai-agents-from-going-rogue"
-       }
-      ]
-     },
-     {
-      "id": 23,
+      "id": 21,
       "headline": "How US bonds and budget could crash the AI boom",
       "summary": "Inflation and excess AI investment funding are the biggest risks facing the US and other economies. They argue for moving quickly to slow the US economy.",
       "ts": 1790622000000,
@@ -763,7 +706,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 22,
       "headline": "A 175-year-old golden rule in markets is starting to break",
       "summary": "Gold has effectively always cost much more than silver, and nickel more than copper. But the age of electricity is starting to wreak havoc on accepted wisdom.",
       "ts": 1790573400000,
@@ -789,6 +732,48 @@
         "link": "https://www.foxbusiness.com/business-leaders/ceo-sunday-golden-corral-ceo-reveals-one-habit-hell-never-break-41-years"
        }
       ]
+     },
+     {
+      "id": 23,
+      "headline": "ASX rises; Codan surges 16pc; reports say Goldmans boss to exit",
+      "summary": "Goldmans chief David Solomon to step down next year: WSJ; Cochlear hit with class action; Adairs boss resigns; Megaport wins $1b of contracts. Follow updates live.",
+      "ts": 1790641519000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX rises; Codan surges 16pc; reports say Goldmans boss to exit",
+        "desc": "Goldmans chief David Solomon to step down next year: WSJ; Cochlear hit with class action; Adairs boss resigns; Megaport wins $1b of contracts. Follow updates live.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-us-bond-yields-surge-higher-rba-awaited-20260929-p6118b?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Australia news live: Greens to choose new leader next week after Waters steps down; bogong moths back at parliament",
+      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
+      "ts": 1790641125000,
+      "img": "https://i.guim.co.uk/img/media/550ea96769527225bcc579750d3c4cc6e4fc5ffe/542_0_5423_4338/master/5423.jpg?width=460&quality=85&auto=format&fit=max&s=5e2c076c7b0165678f9367252e072754",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia news live: Greens to choose new leader next week after Waters steps down; bogong moths back at parliament",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast New South Wales police say they are investigating the suspicious deaths of two men in the state’s north. Police said they found the first man – who has since been identified as a 79-year-old – dead at a property on Summerland Way at Gurranang, near Grafton, on 13 September. And that’s equally important in the Re",
+        "link": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb"
+       }
+      ]
      }
     ]
    },
@@ -798,7 +783,7 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Littler stunned by Waterhouse at World Grand Prix",
+      "headline": "Littler stunned by Woodhouse at World Grand Prix",
       "summary": "World champion Luke Littler's hopes of defending his World Grand Prix title are dashed as he falls to a shock shock first-round defeat by Luke Woodhouse in Leicester.",
       "ts": 1790636692000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06a9/live/79fb6490-bb8c-11f1-b4b2-4914e607e7be.jpg",
@@ -818,7 +803,7 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Littler stunned by Waterhouse at World Grand Prix",
+        "title": "Littler stunned by Woodhouse at World Grand Prix",
         "desc": "World champion Luke Littler's hopes of defending his World Grand Prix title are dashed as he falls to a shock shock first-round defeat by Luke Woodhouse in Leicester.",
         "link": "https://www.bbc.co.uk/sport/darts/articles/cmzxzjv5gwzqo?at_medium=RSS&at_campaign=rss"
        }
@@ -972,38 +957,38 @@
     "stories": [
      {
       "id": 31,
-      "headline": "John Le Carré’s Cold War Spymaster George Smiley Returns in First Look at Matthew Macfadyen in ‘Legacy of Spies’",
-      "summary": "John Le Carré’s legendary British Cold War spy George Smiley, last seen on screens in the acclaimed film “Tinker Tailer Soldier Spy’ (played by Gary Oldman, coincidentally now starring as another fictitious agent in “Slow Horses”), has finally returned. In the first image from BBC and MGM+ upcoming espionage thriller series “Legacy of Spies,” two-time […]",
+      "headline": "Matthew Macfadyen Is Iconic Le Carré Spy George Smiley In First Glimpse At The BBC & MGM+’s ‘Legacy Of Spies’",
+      "summary": "We’ve got first glimpse at Matthew Macfadyen descending into the John le Carré universe to play iconic spymaster George Smiley. The BBC and MGM+’s Legacy of Spies has dropped first-look images including the Succession star donning those trademark glasses and Charlie Hunnam as Alec Leamas, which can be seen below. The eight-part drama marks Smiley’s […]",
       "ts": 1790636460000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/GEORGE-SMILEY.jpg",
+      "img": "https://deadline.com/wp-content/uploads/2026/09/GEORGE-SMILEY.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "John Le Carré’s Cold War Spymaster George Smiley Returns in First Look at Matthew Macfadyen in ‘Legacy of Spies’",
-        "desc": "John Le Carré’s legendary British Cold War spy George Smiley, last seen on screens in the acclaimed film “Tinker Tailer Soldier Spy’ (played by Gary Oldman, coincidentally now starring as another fictitious agent in “Slow Horses”), has finally returned. In the first image from BBC and MGM+ upcoming espionage thriller series “Legacy of Spies,” two-time […]",
-        "link": "https://variety.com/2026/tv/global/legacy-of-spies-first-look-matthew-macfadyen-george-smiley-1236877483/"
-       },
        {
         "outlet": "Deadline",
         "lean": "centre",
         "title": "Matthew Macfadyen Is Iconic Le Carré Spy George Smiley In First Glimpse At The BBC & MGM+’s ‘Legacy Of Spies’",
         "desc": "We’ve got first glimpse at Matthew Macfadyen descending into the John le Carré universe to play iconic spymaster George Smiley. The BBC and MGM+’s Legacy of Spies has dropped first-look images including the Succession star donning those trademark glasses and Charlie Hunnam as Alec Leamas, which can be seen below. The eight-part drama marks Smiley’s […]",
         "link": "https://deadline.com/2026/09/legacy-of-spies-matthew-macfadyen-george-smiley-le-carre-1237115171/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "John Le Carré’s Cold War Spymaster George Smiley Returns in First Look at Matthew Macfadyen in ‘Legacy of Spies’",
+        "desc": "John Le Carré’s legendary British Cold War spy George Smiley, last seen on screens in the acclaimed film “Tinker Tailer Soldier Spy’ (played by Gary Oldman, coincidentally now starring as another fictitious agent in “Slow Horses”), has finally returned. In the first image from BBC and MGM+ upcoming espionage thriller series “Legacy of Spies,” two-time […]",
+        "link": "https://variety.com/2026/tv/global/legacy-of-spies-first-look-matthew-macfadyen-george-smiley-1236877483/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Mohammad Rasoulof, O Mipo to Receive Tokyo Film Festival’s Kurosawa Akira Award",
-      "summary": "Mohammad Rasoulof, the Iranian filmmaker who secretly left his country in 2024 after being sentenced to eight years in prison, will receive the Kurosawa Akira Award at the 39th Tokyo International Film Festival. He will share the honor with director O Mipo. The two were chosen by a committee of filmmakers Yamada Yoji and Lee […]",
+      "headline": "Iran’s Mohammad Rasoulof & Japanese-Korean Filmmaker Mipo O To Receive Kurosawa Akira Award At Tokyo Film Festival",
+      "summary": "Tokyo International Film Festival has announced that Japanese-Korean filmmaker Mipo O and Iranian filmmaker Mohammad Rasoulof will be presented with the Kurosawa Akira Award at this year’s edition of the festival. The award is designed to recognize the legacy and ongoing influence of renowned auteurs and is presented to filmmakers who have “made waves in […]",
       "ts": 1790636400000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/Mohammad-Rasoulof-O-Mipo.jpg",
+      "img": "https://deadline.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-04-56-PM-1184.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1011,18 +996,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Mohammad Rasoulof, O Mipo to Receive Tokyo Film Festival’s Kurosawa Akira Award",
-        "desc": "Mohammad Rasoulof, the Iranian filmmaker who secretly left his country in 2024 after being sentenced to eight years in prison, will receive the Kurosawa Akira Award at the 39th Tokyo International Film Festival. He will share the honor with director O Mipo. The two were chosen by a committee of filmmakers Yamada Yoji and Lee […]",
-        "link": "https://variety.com/2026/film/festivals/mohammad-rasoulof-o-mipo-tokyo-kurosawa-akira-award-1236877201/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
         "title": "Iran’s Mohammad Rasoulof & Japanese-Korean Filmmaker Mipo O To Receive Kurosawa Akira Award At Tokyo Film Festival",
         "desc": "Tokyo International Film Festival has announced that Japanese-Korean filmmaker Mipo O and Iranian filmmaker Mohammad Rasoulof will be presented with the Kurosawa Akira Award at this year’s edition of the festival. The award is designed to recognize the legacy and ongoing influence of renowned auteurs and is presented to filmmakers who have “made waves in […]",
         "link": "https://deadline.com/2026/09/mohammad-rasoulof-iran-mipo-o-kurosawa-tokyo-film-festival-1237115073/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Mohammad Rasoulof, O Mipo to Receive Tokyo Film Festival’s Kurosawa Akira Award",
+        "desc": "Mohammad Rasoulof, the Iranian filmmaker who secretly left his country in 2024 after being sentenced to eight years in prison, will receive the Kurosawa Akira Award at the 39th Tokyo International Film Festival. He will share the honor with director O Mipo. The two were chosen by a committee of filmmakers Yamada Yoji and Lee […]",
+        "link": "https://variety.com/2026/film/festivals/mohammad-rasoulof-o-mipo-tokyo-kurosawa-akira-award-1236877201/"
        }
       ]
      },
@@ -1056,10 +1041,10 @@
      },
      {
       "id": 34,
-      "headline": "Brendan Fraser's The Mummy 4 Set Photos Unveil Rick O'Connell's Return",
-      "summary": "The first look at Brendan Fraser as Rick O'Connell in The Mummy 4 has finally been revealed in new set photos, which show a story surprise.",
-      "ts": 1790639727000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/brendan-fraser-in-the-mummy-tomb-of-the-dragon-emperor.jpg",
+      "headline": "‘ESPN Jeopardy!’ Renewed For Season 2 On Hulu & Disney+, Pivots From Celebrities To Sports Fan",
+      "summary": "Civilian sports fans can now apply to play the latest version of Jeopardy! after it was revealed that ESPN Jeopardy! is returning for a second season. Disney+ and Hulu premiered the first season of the show in July with stars such as Jon Hamm, Hannah Storm, Manti Te’o and Adam Pally. It will now return […]",
+      "ts": 1790641107000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/182048_0186.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1067,41 +1052,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Brendan Fraser's The Mummy 4 Set Photos Unveil Rick O'Connell's Return",
-        "desc": "The first look at Brendan Fraser as Rick O'Connell in The Mummy 4 has finally been revealed in new set photos, which show a story surprise.",
-        "link": "https://screenrant.com/the-mummy-4-brendan-fraser-set-photos/"
+        "title": "‘ESPN Jeopardy!’ Renewed For Season 2 On Hulu & Disney+, Pivots From Celebrities To Sports Fan",
+        "desc": "Civilian sports fans can now apply to play the latest version of Jeopardy! after it was revealed that ESPN Jeopardy! is returning for a second season. Disney+ and Hulu premiered the first season of the show in July with stars such as Jon Hamm, Hannah Storm, Manti Te’o and Adam Pally. It will now return […]",
+        "link": "https://deadline.com/2026/09/espn-jeopardy-renewed-season-2-hulu-disney-1237115867/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Rob Lowe Says ‘St. Elmo’s Fire’ Sequel Is Still ‘In the Works,’ Confirms There’s a Script: ‘All of Us Actors Want to Do It’",
-      "summary": "Rob Lowe finally has an update on the long-discussed “St. Elmo’s Fire” sequel. “It is definitely in the works, for sure,” the actor said when asked about the project’s current status during a “Watch What Happens Live” appearance on Sunday. “All of us actors want to do it, and we’re supposed to get a draft […]",
-      "ts": 1790639303000,
-      "img": "https://variety.com/wp-content/uploads/2026/09/MSDSTEL_EC034.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Rob Lowe Says ‘St. Elmo’s Fire’ Sequel Is Still ‘In the Works,’ Confirms There’s a Script: ‘All of Us Actors Want to Do It’",
-        "desc": "Rob Lowe finally has an update on the long-discussed “St. Elmo’s Fire” sequel. “It is definitely in the works, for sure,” the actor said when asked about the project’s current status during a “Watch What Happens Live” appearance on Sunday. “All of us actors want to do it, and we’re supposed to get a draft […]",
-        "link": "https://variety.com/2026/film/news/rob-lowe-st-elmos-fire-sequel-in-the-works-1236877779/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Andrew Garfield’s New Action Movie Sets Digital Release After Historic Box Office Low",
-      "summary": "After setting a historic box office low, Andrew Garfield's new historical action thriller, The Uprising, has announced its digital release date.",
-      "ts": 1790638916000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/andrew-garfield-dressed-in-medieval-outfit-in-the-uprising.jpg",
+      "headline": "Over 12 Major Easter Eggs, Comics References, And DCU Ties in Lanterns Episode 7",
+      "summary": "Lanterns episode 7 is now streaming on HBO Max, featuring an exciting collection of Easter eggs, references to the comics, and key DCU connections.",
+      "ts": 1790640905000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/john-stewart-and-hal-jordan-on-antoher-planet-in-lanterns-episode-7.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1111,9 +1075,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Andrew Garfield’s New Action Movie Sets Digital Release After Historic Box Office Low",
-        "desc": "After setting a historic box office low, Andrew Garfield's new historical action thriller, The Uprising, has announced its digital release date.",
-        "link": "https://screenrant.com/the-uprising-digital-release-date-andrew-garfield-movie/"
+        "title": "Over 12 Major Easter Eggs, Comics References, And DCU Ties in Lanterns Episode 7",
+        "desc": "Lanterns episode 7 is now streaming on HBO Max, featuring an exciting collection of Easter eggs, references to the comics, and key DCU connections.",
+        "link": "https://screenrant.com/lanterns-episode-7-easter-eggs-comics-references-dcu-ties/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Charlie Hunnam's New Spy Thriller Releases First Images Amid Major Filming Update",
+      "summary": "Along with a major filming update, MGM+ has released the first images of Charlie Hunnam and Matthew Macfadyen in their new spy thriller series.",
+      "ts": 1790640340000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/wm/2026/09/download-1.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Charlie Hunnam's New Spy Thriller Releases First Images Amid Major Filming Update",
+        "desc": "Along with a major filming update, MGM+ has released the first images of Charlie Hunnam and Matthew Macfadyen in their new spy thriller series.",
+        "link": "https://screenrant.com/legacy-of-spies-series-charlie-hunnam-first-images-filming-wrap/"
        }
       ]
      }
@@ -1121,37 +1106,37 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
    "Crikey",
+   "The Age",
    "ABC News",
-   "Guardian Australia",
-   "BBC World",
-   "The Age Federal Politics",
    "Fox News",
-   "Ars Technica",
-   "BBC Tech",
+   "Guardian AU Politics",
+   "Guardian Australia",
+   "The Conversation",
    "Fox News Politics",
+   "The Age Federal Politics",
    "Guardian Tech",
+   "7News",
    "The Verge",
    "The Age Business",
-   "Guardian AU Business",
-   "The Conversation",
-   "AFR",
-   "BBC Sport",
-   "ABC Sport",
-   "Fox Business",
-   "Variety",
-   "Guardian AU Politics",
-   "Deadline",
+   "BBC World",
    "ABC Business",
+   "Ars Technica",
+   "Fox Business",
+   "AFR",
+   "Guardian AU Business",
+   "BBC Sport",
+   "Deadline",
    "Guardian AU Sport",
+   "BBC Tech",
+   "ABC Sport",
+   "Variety",
+   "SBS News",
+   "7News Sport",
    "Guardian Film",
    "Screen Rant",
-   "SBS News",
    "Anime News Network",
-   "Daily Mail Australia",
-   "7News Sport",
-   "7News"
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1182,6 +1167,18 @@
     "released": "2026-09-25"
    },
    {
+    "title": "Forgotten Island",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Animation",
+     "Action",
+     "Adventure"
+    ],
+    "overview": "Two best friends become stranded on the mystical world of Nakali, where their only escape might cost them their shared lifetime of memories.",
+    "released": "2026-09-25"
+   },
+   {
     "title": "The Love Hypothesis",
     "year": "2026",
     "rating": null,
@@ -1200,18 +1197,6 @@
      "Comedy"
     ],
     "overview": "A raucous comedy set in the cut-throat world of collegiate Bollywood dance competitions.",
-    "released": "2026-09-18"
-   },
-   {
-    "title": "Resident Evil",
-    "year": "2026",
-    "rating": null,
-    "genres": [
-     "Action",
-     "Horror",
-     "Sci-Fi"
-    ],
-    "overview": "Follows a hapless courier tasked with delivering a package to a remote hospital. He soon finds himself caught in the middle of an outbreak and must fight through hordes of mutated creatures to survive.",
     "released": "2026-09-18"
    }
   ],
@@ -1350,7 +1335,7 @@
   {
    "title": "$5 Bonus Cashback on $30 Spend at Amazon AU (Single Transaction, All Categories, Activation Required) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/976839",
-   "votes": 223,
+   "votes": 308,
    "neg": 0,
    "category": "Other",
    "ts": 1790636588000
@@ -1358,7 +1343,7 @@
   {
    "title": "BYD Atto 2 DM-i Essential $25,990 Driveaway @ BYD",
    "link": "https://www.ozbargain.com.au/node/976680",
-   "votes": 163,
+   "votes": 166,
    "neg": 0,
    "category": "Automotive",
    "ts": 1790564473000
@@ -1366,7 +1351,7 @@
   {
    "title": "[Prime] Quilton 4-Ply Gold Toilet Tissue 30 Rolls $15.20 ($13.68 Sub & Save) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/976781",
-   "votes": 141,
+   "votes": 150,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1790607948000
@@ -1374,7 +1359,7 @@
   {
    "title": "[Prime] Quilton 2-Ply Hypo-Allergenic 250 Facial Tissue 12 Packs $18.50 ($16.65 Sub & Save) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/976760",
-   "votes": 122,
+   "votes": 136,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1790604295000
@@ -1382,10 +1367,18 @@
   {
    "title": "adidas Originals AU Men Stadt Sneakers Black $42 (RRP $140) Delivered @ adidas Australia eBay",
    "link": "https://www.ozbargain.com.au/node/976747",
-   "votes": 112,
+   "votes": 115,
    "neg": 0,
    "category": "Fashion & Apparel",
    "ts": 1790596095000
+  },
+  {
+   "title": "[Prime] Alienware 39 5K OLED Gaming Monitor - AW3926QW $1449.99 (RRP $1,999) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/976762",
+   "votes": 86,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1790604422000
   },
   {
    "title": "[VIC, QLD, NSW, WA] Free Battery Change for Swatch Watches @ Swatch",
@@ -1394,14 +1387,6 @@
    "neg": 0,
    "category": "Fashion & Apparel",
    "ts": 1554701287000
-  },
-  {
-   "title": "[Prime] Alienware 39 5K OLED Gaming Monitor - AW3926QW $1449.99 (RRP $1,999) Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/976762",
-   "votes": 81,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1790604422000
   },
   {
    "title": "[eBook] Free: \"The Best Things in Life are Free\" $0 @ Lonely Planet",
@@ -1414,10 +1399,18 @@
   {
    "title": "12.5% Cashback on Uber and Uber Eats Gift Cards @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/976759",
-   "votes": 72,
+   "votes": 75,
    "neg": 0,
    "category": "Other",
    "ts": 1790604273000
+  },
+  {
+   "title": "4.5% off $50-$500 Amazon Gift Cards ($22.50 Max Discount Per Order, 3 Uses Per Account) @ Samsung Wallet",
+   "link": "https://www.ozbargain.com.au/node/976815",
+   "votes": 62,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1790630099000
   },
   {
    "title": "[VIC, SA] Dr. Oetker Ristorante Diavola Spicy Pepperoni Frozen Pizza 360g $1 @ NQR",
@@ -1428,25 +1421,9 @@
    "ts": 1790563987000
   },
   {
-   "title": "4.5% off $50-$500 Amazon Gift Cards ($22.50 Max Discount Per Order, 3 Uses Per Account) @ Samsung Wallet",
-   "link": "https://www.ozbargain.com.au/node/976815",
-   "votes": 58,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1790630099000
-  },
-  {
-   "title": "Workwear Heavy Duty Work Belt - 100% Leather (Black or Brown) or Webbing Belt $9.99 @ ALDI",
-   "link": "https://www.ozbargain.com.au/node/976674",
-   "votes": 57,
-   "neg": 0,
-   "category": "Fashion & Apparel",
-   "ts": 1790562239000
-  },
-  {
-   "title": "[Prime] Pepsi Max No Sugar Soft Drink Can 375 ml (Pack of 24) $21 ($18.90 Sub & Save) Delivered @ Amazon AU",
+   "title": "[Prime] Pepsi Max No Sugar Soft Drink Can 375 ml (Pack of 24) $21 ($18.90 Subscribe & Save) Delivered @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/976818",
-   "votes": 51,
+   "votes": 58,
    "neg": 0,
    "category": "Groceries",
    "ts": 1790632832000
@@ -1454,18 +1431,26 @@
   {
    "title": "½ Price: Sanitarium Weet-Bix 575g $2.50 & Protein Weet-Bix Bites 510g $4.00 @ Coles + 191 More @ Coles and Woolworths",
    "link": "https://www.ozbargain.com.au/node/976711",
-   "votes": 51,
+   "votes": 53,
    "neg": 0,
    "category": "Groceries",
    "ts": 1790579838000
   },
   {
-   "title": "[Prime] Oral-B iO Advanced Clean Toothbrush Heads Black 4 Pack $19.95 ($17.95 Sub & Save) Delivered @ Amazo",
-   "link": "https://www.ozbargain.com.au/node/976816",
-   "votes": 26,
+   "title": "2.5% Cashback on Amazon Gift Cards @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/976712",
+   "votes": 41,
    "neg": 0,
-   "category": "Health & Beauty",
-   "ts": 1790630721000
+   "category": "Other",
+   "ts": 1790580343000
+  },
+  {
+   "title": "[Prime] Roborock Qrevo L Robot Vacuum and Mop $429 Delivered @ Roborock via Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/976843",
+   "votes": 39,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1790637186000
   }
  ],
  "carried": {}
