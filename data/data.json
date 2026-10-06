@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T23:33:05.032Z",
+ "generatedAt": "2026-10-06T00:24:28.893Z",
  "markets": {
   "items": [
    {
@@ -7,82 +7,65 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8712.7,
-    "chgPct": 0.35245380727903863,
+    "price": 8714.4,
+    "chgPct": 0.3720343243945441,
     "high52": 9296.7,
-    "off52": -6.281798917895596
+    "off52": -6.263512859401735
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.11,
-    "chgPct": 0.4149855907780974,
-    "high52": 87.32,
-    "off52": -0.24049473202014862
+    "price": 87.34,
+    "chgPct": 0.3792642864815256,
+    "high52": 87.42,
+    "off52": -0.09151223976206622
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 145.39,
-    "chgPct": 0.33816847767824515,
+    "price": 145.37,
+    "chgPct": 0.33820755154159576,
     "high52": 155.03,
-    "off52": -6.218151325549903
+    "off52": -6.231052054441074
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 64.6,
-    "chgPct": 0.6544089947446483,
-    "high52": 64.66,
-    "off52": -0.09279307145066854
+    "price": 64.89,
+    "chgPct": 0.4489187813140306,
+    "high52": 64.9,
+    "off52": -0.015408320493074138
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 40.92,
-    "chgPct": 1.8417115211641684,
+    "price": 40.8,
+    "chgPct": -0.36630222257580414,
     "high52": 47.78,
-    "off52": -14.357471745500208
+    "off52": -14.60862285475095
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6955,
-    "chgPct": 0.37956892685758226,
+    "price": 0.6967,
+    "chgPct": 0.2186227916415286,
     "high52": 0.7277,
-    "off52": -4.424900371032019
+    "off52": -4.25999725161468
    }
   ],
   "failed": [],
-  "note": "SEMI is 14% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
-  "movers": [
-   {
-    "sym": "TSLA",
-    "name": "Tesla",
-    "market": "US",
-    "price": 370.59,
-    "currency": "USD",
-    "chgPct": 4.6539254271737125
-   },
-   {
-    "sym": "AVGO",
-    "name": "Broadcom",
-    "market": "US",
-    "price": 355.14,
-    "currency": "USD",
-    "chgPct": 3.3465210282125026
-   }
-  ]
+  "note": "SEMI is 15% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "movers": []
  },
  "news": {
   "mode": "basic",
@@ -93,87 +76,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "German Chancellor urges Putin to 'stop this senseless war' during Kyiv visit",
-      "summary": "Friedrich Merz visited the Ukrainian capital amid drone alerts, calling Russian attacks on civilians \"daily war crimes\".",
-      "ts": 1791149209000,
-      "img": "https://assets.sbs.com.au/dims4/default/0cb5507/2147483647/strip/false/crop/5000x2297+0+103/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F24%2F96%2Fcaa8fd9442f585bef650dbeb7890%2F20261005115287773360-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Russian drones attack Kyiv as Merz meets Zelensky",
-        "desc": "Two people were injured when a bridge over the Dnipro River was targeted during German Chancellor Friedrich Merz’s visit to Ukraine on Sunday.",
-        "link": "https://www.theage.com.au/world/europe/russian-drones-attack-kyiv-as-merz-meets-zelensky-20261005-p612t7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "German Chancellor urges Putin to 'stop this senseless war' during Kyiv visit",
-        "desc": "Friedrich Merz visited the Ukrainian capital amid drone alerts, calling Russian attacks on civilians \"daily war crimes\".",
-        "link": "https://www.sbs.com.au/news/article/german-chancellor-tells-putin-to-stop-this-senseless-war-during-kyiv-visit/a3juutw40"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Russia strikes Kyiv bridge as German chancellor visits Ukraine in show of support",
-        "desc": "Attack shortly after Friedrich Merz arrived on unannounced visit intended to underline Germany’s backing Russia has struck another major bridge in Kyiv as the German chancellor, Friedrich Merz, arrived in the capital in a show of support for Ukraine. A Russian drone hit Kyiv’s key Northern Bridge over the Dnipro River, marking the fourth consecutive day that Russia has targeted bridges used by ten",
-        "link": "https://www.theguardian.com/world/2026/oct/04/russia-strikes-kyiv-bridge-german-chancellor-merz-visits-ukraine"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-        "desc": "Footage shows a drone hitting the Pivnichyi (Northern) Bridge as vehicles move across it, creating a large fireball.",
-        "link": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 1,
-      "headline": "Death row killer Christa Pike ‘may not fully recover’ after botched execution",
-      "summary": "‘We may never know what sort of torture she endured.’",
-      "ts": 1791155563000,
-      "img": "https://images.7news.com.au/publication/C-22968441/eed863321b66319faa0f17e28bec7a572669ddc8-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Death row killer Christa Pike ‘may not fully recover’ after botched execution",
-        "desc": "‘We may never know what sort of torture she endured.’",
-        "link": "https://7news.com.au/news/murder/death-row-killer-christa-pike-may-not-fully-recover-after-botched-execution-c-22968441"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Christa Pike's hospital room surrounded by guards as lawyer says she may never 'fully recover' after botched execution",
-        "desc": "Pike remains alive but unconscious as of Sunday after a Tennessee execution team used at least seven needles to administer two doses of pentobarbital on Wednesday.",
-        "link": "https://www.dailymail.com/news/article-16182373/Christa-Pike-hospital-room-guarded-never-recover-botched-execution.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Tennessee prison chief resigns following botched Christa Pike execution",
-        "desc": "Lawyers representing Pike said on Saturday that she is in hospital, unconscious and on a ventilator.",
-        "link": "https://www.sbs.com.au/news/article/tennessee-prison-chief-resigns-following-botched-christa-pike-execution/n14w1ypex"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Epstein files fallout: former Prince takes UK police to court over arrest",
-      "summary": "Andrew, the former Duke of York, has been granted permission to challenge whether police acted lawfully over the searches relating to his arrest.",
-      "ts": 1791155446000,
-      "img": "https://images.7news.com.au/publication/C-22968369/6e1a1961b27b279a48ef6459bdc066a41a254b05-16x9-x0y0w1280h720.png",
+      "headline": "Best-selling British author Jeffrey Archer dies a day before releasing final book",
+      "summary": "The former politician sold more than 300 million books during his five-decade-long career.",
+      "ts": 1791244545000,
+      "img": "https://images.7news.com.au/publication/C-22972361/ec009b9e984c71a0e60ce403ae01d0a67ce74e7c-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -181,34 +87,118 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Epstein files fallout: former Prince takes UK police to court over arrest",
-        "desc": "Andrew, the former Duke of York, has been granted permission to challenge whether police acted lawfully over the searches relating to his arrest.",
-        "link": "https://7news.com.au/entertainment/royal-family/epstein-files-fallout-former-prince-takes-uk-police-to-court-over-arrest-c-22968369"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Robert Kelker-Kelly dead at 62: Days of Our Lives actor best known for on-screen romance with Lisa Rinna",
+        "desc": "The soap opera star's - who is best known for his on-screen romance with Lisa Rinna - cause of death is unknown according to the Missouri medical examiner via TMZ on Monday",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16184937/Robert-Kelker-Kelly-dead-62-Days-Lives-Lisa-Rinna.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Jeffrey Archer, former Conservative politician and novelist, dies aged 86",
+        "desc": "Publisher says author died peacefully at home ‘between writing sessions’ Jeffrey Archer, the bestselling author and former MP whose political career ended in disgrace when he was imprisoned for perjury, has died at the age of 86. Archer, who was a Conservative MP for five years before serving as the party’s deputy chair, died “suddenly and peacefully” at his home “between writing sessions” on Mond",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86"
        },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Andrew takes police to court over Epstein files arrest",
-        "desc": "The former Duke of York, who was detained in a blaze of publicity eight months ago, has asked a judge to determine whether the force’s action towards him was lawful.",
-        "link": "https://www.theage.com.au/world/europe/andrew-takes-police-to-court-over-epstein-files-arrest-20261005-p612u3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "British author and disgraced politician Jeffrey Archer dies aged 86",
+        "desc": "The novelist was best known for pacy thrillers such as Not a Penny More, Not a Penny Less and the Kane and Abel series.",
+        "link": "https://www.theage.com.au/culture/celebrity/british-author-and-disgraced-politician-jeffrey-archer-dies-aged-86-20261006-p61330.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Best-selling British author Jeffrey Archer dies a day before releasing final book",
+        "desc": "The former politician sold more than 300 million books during his five-decade-long career.",
+        "link": "https://7news.com.au/news/best-selling-british-author-jeffrey-archer-dies-days-from-releasing-final-book-c-22972361"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Best-selling UK novelist Jeffrey Archer dies days before latest book release",
+        "desc": "Jeffrey Archer was a best-selling author who sold more than 300 million copies worldwide, with his final novel due to be published this month.",
+        "link": "https://www.abc.net.au/news/2026-10-06/uk-author-politician-jeffrey-archer-dies-aged-86/107232026"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Mary Fowler suddenly sidelined from Matildas friendlies ‘due to personal circumstances’",
+      "summary": "The Matildas superstar has curiously pulled out just a day after a milestone match.",
+      "ts": 1791244558000,
+      "img": "https://images.7news.com.au/publication/C-22972953/45dccdf241ed5b0447ed8940136e906396d84727-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Mary Fowler suddenly sidelined from Matildas friendlies ‘due to personal circumstances’",
+        "desc": "The Matildas superstar has curiously pulled out just a day after a milestone match.",
+        "link": "https://7news.com.au/sport/soccer/mary-fowler-suddenly-sidelined-from-matildas-friendlies-due-to-personal-circumstances-c-22972953"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Former-Prince Andrew 'is bringing legal challenge against courts and police over his Epstein files arrest'",
-        "desc": "The disgraced former prince has served Thames Valley Police (TVP) and the Old Bailey with a judicial review claim - understood to concern the lawfulness of search warrants.",
-        "link": "https://www.dailymail.com/news/article-16182699/Andrew-legal-challenge-police-Epstein-arrest.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Mary Fowler out: Matildas superstar withdraws from squad over 'personal circumstances'",
+        "desc": "Fresh intrigue surrounds Mary Fowler after the Matildas superstar suddenly pulled out of Australia's upcoming international matches for undisclosed 'personal circumstances'",
+        "link": "https://www.dailymail.com/sport/football/article-16185409/mary-fowler-matildas-pulls-out.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Mary Fowler withdraws from Matildas squad for Germany, Haiti games",
+        "desc": "Mary Fowler will be replaced by Leah Davidson for the upcoming friendlies, with the Matildas star withdrawing due to personal circumstances.",
+        "link": "https://www.abc.net.au/news/2026-10-06/mary-fowler-withdraws-matildas-squad-for-germany-haiti-games/107231866"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Australian soldier dies during training exercise in the Northern Territory",
+      "summary": "One solider has been killed and five others have been injured at the Mount Bundey Training Area, roughly 130km south-east of Darwin.",
+      "ts": 1791244508000,
+      "img": "https://assets.sbs.com.au/dims4/default/69230cd/2147483647/strip/false/crop/5472x2514+0+282/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F0f%2F31%2Fa82457f9433687c98acf8484546e%2Fgettyimages-2245753063.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australian soldier killed and five others injured in training exercise in the Northern Territory",
+        "desc": "Defence confirmed the fatality occurred on Monday at the Mount Bundey training area, with next of kin informed Get our breaking news email, free app or daily news podcast An Australian soldier has died and five others were injured in a training accident at a facility outside Darwin yesterday, according to the defence department. The department on Tuesday morning released a statement confirming the",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/06/australian-defence-force-soldier-killed-five-injuried-mount-bundey-training-northern-territory"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Australian soldier dies during training exercise in the Northern Territory",
+        "desc": "One solider has been killed and five others have been injured at the Mount Bundey Training Area, roughly 130km south-east of Darwin.",
+        "link": "https://www.sbs.com.au/news/article/australian-soldier-death-training-exercise-northern-territory/ed39ann6r"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Australian soldier killed in training exercise at Northern Territory military base",
+        "desc": "Five other soldiers were injured in the incident.",
+        "link": "https://7news.com.au/news/australian-soldier-killed-in-training-exercise-at-northern-territory-military-base-c-22972550"
        }
       ]
      },
      {
       "id": 3,
-      "headline": "Long recovery for victims as Newcastle Knights crash driver held",
-      "summary": "‘I honestly thought I was going to die.’",
-      "ts": 1791154977000,
-      "img": "https://images.7news.com.au/publication/C-22968199/d9686cc2c6c0dd3f11db47718289d375c34a8f01-16x9-x0y0w1280h720.png",
+      "headline": "Tables turn for Novak Djokovic as Daniil Medvedev defaulted from Beijing Open semi-final for hitting ball into the crowd",
+      "summary": "Even the Serbian great was ‘shocked’ as he admitted he felt sorry for the disqualified former world No.1.",
+      "ts": 1791235743000,
+      "img": "https://images.7news.com.au/publication/C-22972336/758eeeabb81a45326ba25c6628e80130b9e40f1b-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -216,34 +206,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Hero grandad's brave act revealed as he suffers multiple fractures saving his two granddaughters in Newcastle crowd crash",
-        "desc": "Dave 'The Barber' Martin, a longtime Knights fan, was caring for his two young granddaughters as they waited to cheer the team bus carrying the Knights to Sydney.",
-        "link": "https://www.dailymail.com/news/article-16181485/newcastle-knights-crash-hero-grandad-dave-martin-granddaughters.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Medvedev disqualified for hitting fan with ball, De Minaur reaches China final",
+        "desc": "The temperamental Russian offered an apology after a spectator in Beijing was hit in the face by a tennis ball.",
+        "link": "https://www.theage.com.au/sport/tennis/medvedev-disqualified-for-hitting-fan-with-ball-as-de-minaur-reaches-china-final-20261005-p61318.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Long recovery for victims as Newcastle Knights crash driver held",
-        "desc": "‘I honestly thought I was going to die.’",
-        "link": "https://7news.com.au/news/car-accidents/long-recovery-for-victims-as-newcastle-knights-crash-driver-held-c-22968199"
+        "title": "Tables turn for Novak Djokovic as Daniil Medvedev defaulted from Beijing Open semi-final for hitting ball into the crowd",
+        "desc": "Even the Serbian great was ‘shocked’ as he admitted he felt sorry for the disqualified former world No.1.",
+        "link": "https://7news.com.au/sport/tennis/tables-turn-for-novak-djokovic-as-daniil-medvedev-defaulted-from-beijing-open-semi-final-for-hitting-ball-into-the-crowd-c-22972336"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Injured Knights fans prepare for grand final as crash driver formally refused bail",
-        "desc": "Seven people are still being cared for at John Hunter Hospital after a car crashed into a crowd of Newcastle Knights supporters on Saturday.",
-        "link": "https://www.sbs.com.au/news/article/injured-knights-fans-prepare-for-grand-final-as-crash-driver-formally-refused-bail/hni94kgmd"
+        "title": "Demon faces Djokovic in China final after Medvedev disqualified",
+        "desc": "Drama at the China Open as Daniil Medvedev is disqualified for hitting a spectator with a tennis ball, while Australia's Alex de Minaur reaches the final after his opponent retires due to injury.",
+        "link": "https://www.abc.net.au/news/2026-10-06/demon-faces-djokovic-china-final-after-medvedev-disqualified/107231760"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "FlyDubai attempted hijacking: co-pilot under investigation over stay in Australia",
-      "summary": "The Omani national is in custody after allegedly attempting to crash a plane bound for Israel.",
-      "ts": 1791151558000,
-      "img": "https://images.7news.com.au/publication/C-22968111/0cbb8e2256e2165ff1d06a9953975118bd86d7ed-16x9-x0y0w1280h720.png",
+      "headline": "Spain's prime minister calls early election after housing crisis triggers mass protests",
+      "summary": "Pedro Sánchez's move follows growing outrage over runaway housing prices in Spain.",
+      "ts": 1791189393000,
+      "img": "https://assets.sbs.com.au/dims4/default/e65ef9f/2147483647/strip/false/crop/3744x1720+0+388/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe6%2Ff1%2Fb93892da4908b0e35a591ec45410%2Fgettyimages-2298230668.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -251,34 +241,62 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "FlyDubai attempted hijacking: co-pilot under investigation over stay in Australia",
-        "desc": "The Omani national is in custody after allegedly attempting to crash a plane bound for Israel.",
-        "link": "https://7news.com.au/news/flydubai-attempted-hijacking-co-pilot-under-investigation-over-stay-in-australia-c-22968111"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Australia investigating Flydubai co-pilot's links to country",
-        "desc": "State police and the country's security agency are looking into the co-pilot, who attempted to take control of a Flydubai plane travelling to Israel.",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "AFP opens investigation into flydubai co-pilot's Australian links",
-        "desc": "The Victorian Joint Counter Terrorism Team is looking into details surrounding a student visa the co-pilot once held.",
-        "link": "https://www.sbs.com.au/news/article/afp-opens-investigation-into-flydubai-co-pilots-australian-links/zeyj7xsil"
+        "title": "Spain's prime minister calls early election after housing crisis triggers mass protests",
+        "desc": "Pedro Sánchez's move follows growing outrage over runaway housing prices in Spain.",
+        "link": "https://www.sbs.com.au/news/article/pedro-sanchez-spain-calls-early-election/cvnco65bn"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Is Anthony Albanese destined to be the most disappointing prime minister ever? | First Dog on the Moon",
+        "desc": "How could this happen? Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
+        "link": "https://www.theguardian.com/commentisfree/picture/2026/oct/05/is-anthony-albanese-destined-to-be-the-most-disappointing-prime-minister-ever"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Malinauskas as prime minister? Not if his litany of controversies are anything to go by",
+        "desc": "Speculation is afoot about whether the South Australian premier could have his eyes on The Lodge. But with his \"Teflon Pete\" image waning, don't hold your breath. The post Malinauskas as prime minister? Not if his litany of controversies are anything to go by appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/10/05/peter-malinauskas-prime-minister-anthony-albanese-south-australia/"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Jane Doe at center of Cornell rape allegations targeted with threats, lawyer says",
-      "summary": "‘They should stay in their mother’s basement and stay out of the ​world.’",
-      "ts": 1791149572000,
-      "img": "https://images.7news.com.au/publication/C-22968149/0fca093d59fed769b14f5336939091be7ee1d605-16x9-x0y313w6000h3375.jpg",
+      "headline": "Coalition set to unveil dramatically deeper cuts to overseas migration as it fends off One Nation’s rise",
+      "summary": "Sources say the opposition’s target will be below Labor’s but won’t match One Nation’s goal to limit net arrivals to 130,000 Get our new political email, free app or daily news podcast The Coalition is expected to reveal deep cuts to immigration today which the party says would maintain working holidaymaker places and prioritise skills as part of attempts to dent growing support for One Nation. Th",
+      "ts": 1791245388000,
+      "img": "https://i.guim.co.uk/img/media/19f445a77f4e076c89dc104f6ac2189ed6ede42a/606_0_3019_2416/master/3019.jpg?width=460&quality=85&auto=format&fit=max&s=ad06489e6932a3a85626ff959e161508",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: Coalition set to announce migration cuts to third of intake; Greens under fire for Ukraine miltary aid opposition",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-coalition-to-slash-immigration-greens-under-fire-for-ukraine-stance-20261006-p6131y.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Coalition set to unveil dramatically deeper cuts to overseas migration as it fends off One Nation’s rise",
+        "desc": "Sources say the opposition’s target will be below Labor’s but won’t match One Nation’s goal to limit net arrivals to 130,000 Get our new political email, free app or daily news podcast The Coalition is expected to reveal deep cuts to immigration today which the party says would maintain working holidaymaker places and prioritise skills as part of attempts to dent growing support for One Nation. Th",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/06/coalition-immigration-policy-angus-taylor-one-nation-labor-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "North Melbourne officially unveil Jaymie Graham as new senior coach",
+      "summary": "The Kangaroos have welcomed the man appointed to replace Alastair Clarkson.",
+      "ts": 1791245118000,
+      "img": "https://images.7news.com.au/publication/C-22972945/50ad3e8a892ce6dac987c2f66696daed03356b20-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -288,51 +306,16 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Jane Doe at center of Cornell rape allegations targeted with threats, lawyer says",
-        "desc": "‘They should stay in their mother’s basement and stay out of the ​world.’",
-        "link": "https://7news.com.au/news/united-states/jane-doe-at-center-of-cornell-rape-allegations-targeted-with-threats-lawyer-says-c-22968149"
+        "title": "North Melbourne officially unveil Jaymie Graham as new senior coach",
+        "desc": "The Kangaroos have welcomed the man appointed to replace Alastair Clarkson.",
+        "link": "https://7news.com.au/sport/afl/north-melbourne-officially-unveil-jayne-graham-as-new-senior-coach-c-22972945"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Jane Doe threatened in Cornell University rape case, lawyer says",
-        "desc": "People have threatened to harm the woman identified as Jane Doe in the Cornell University case unless she withdraws her lawsuit, her lawyer says.",
-        "link": "https://www.abc.net.au/news/2026-10-05/woman-at-center-of-cornell-rape-allegations-targeted-threats/107228278"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Cornell president says university 'must do better' after frat house rape allegations",
-        "desc": "Michael Kotlikoff described the allegations of a woman who says she was drugged and gang raped as \"deeply disturbing\".",
-        "link": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Residents fear there is no stopping $32b hyperscale data centre",
-      "summary": "Anthropic has already signed a deal to use a portion of the facility earmarked for the Western Downs, but it has not actually been approved yet",
-      "ts": 1791156731000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/f8a98818ddb2ac8356c61ad64201a615?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "CALL OUT: We want your data centre questions for Ketan Joshi and Ben Eltham",
-        "desc": "Crikey is interviewing Ben Eltham and Ketan Joshi on data centres for our Cut Through podcast. What do you want to ask them? The post CALL OUT: We want your data centre questions for Ketan Joshi and Ben Eltham appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/10/05/data-centres-ai-artificial-intelligence-technology-ben-eltham-ketan-joshi-cut-through/"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Residents fear there is no stopping $32b hyperscale data centre",
-        "desc": "Anthropic has already signed a deal to use a portion of the facility earmarked for the Western Downs, but it has not actually been approved yet",
-        "link": "https://www.abc.net.au/news/2026-10-05/western-downs-data-centre-fast-tracking-approvals-concerns/107223638"
+        "title": "Breaking: Jaymie Graham named new North Melbourne AFL coach",
+        "desc": "North Melbourne confirms that Fremantle assistant coach Jaymie Graham is the new Kangaroos coach, succeeding Alastair Clarkson.",
+        "link": "https://www.abc.net.au/news/2026-10-06/jaymie-graham-named-new-north-melbourne-afl-coach/107232272"
        }
       ]
      }
@@ -344,10 +327,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Albanese’s ratings slump in Redbridge poll after interest rate hike",
-      "summary": "In a federal Redbridge poll, the total vote for One Nation and the Coalition has been steady since late August at 50%, but Anthony Albanese’s net favourability slumped ten points to a record low -27, possibly reflecting the Reserve Bank’s interest rate hike last Tuesday. The two other federal polls were both taken before the rate hike. The total right vote was down two points to 47% in Essential a",
-      "ts": 1791153513000,
-      "img": null,
+      "headline": "Taylor to slash migration by two-thirds in bid to rival One Nation",
+      "summary": "International students would be forced to go offshore to apply for another visa, which could push temporary migrants to leave Australia.",
+      "ts": 1791238698000,
+      "img": "https://static.ffx.io/images/$zoom_1.0086%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_219/t_crop_custom/q_86%2Cf_auto/e76daebecbd94f264adaa85b44dab67f91294410c6cfa0f88ba9b76816773f4d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -355,104 +338,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Albanese’s ratings slump in Redbridge poll after interest rate hike",
-        "desc": "In a federal Redbridge poll, the total vote for One Nation and the Coalition has been steady since late August at 50%, but Anthony Albanese’s net favourability slumped ten points to a record low -27, possibly reflecting the Reserve Bank’s interest rate hike last Tuesday. The two other federal polls were both taken before the rate hike. The total right vote was down two points to 47% in Essential a",
-        "link": "https://theconversation.com/albaneses-ratings-slump-in-redbridge-poll-after-interest-rate-hike-293202"
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Coalition set to unveil dramatically deeper cuts to overseas migration as it fends off One Nation’s rise",
+        "desc": "Sources say the opposition’s target will be below Labor’s but won’t match One Nation’s goal to limit net arrivals to 130,000 Get our new political email, free app or daily news podcast The Coalition is expected to reveal deep cuts to immigration today which the party says would maintain working holidaymaker places and prioritise skills as part of attempts to dent growing support for One Nation. Th",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/06/coalition-immigration-policy-angus-taylor-one-nation-labor-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Taylor to slash migration by two-thirds in bid to rival One Nation",
+        "desc": "International students would be forced to go offshore to apply for another visa, which could push temporary migrants to leave Australia.",
+        "link": "https://www.theage.com.au/politics/federal/taylor-to-slash-migration-by-two-thirds-in-bid-to-rival-one-nation-20261005-p612wv.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "A new study finds that to counter misinformation online, we need to copy its style",
-      "summary": "SimonSkafar/Getty Imagine you’re worried about vaccinating your baby. A message on Facebook tells you: “Protect the community and your kids by booking their vaccinations today.” Another asks: “Do you know all the effects of childhood vaccinations on your babies?” Both link to the same reliable vaccination information. But in our recently published research, the second message was about 52% more li",
-      "ts": 1791140850000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "A new study finds that to counter misinformation online, we need to copy its style",
-        "desc": "SimonSkafar/Getty Imagine you’re worried about vaccinating your baby. A message on Facebook tells you: “Protect the community and your kids by booking their vaccinations today.” Another asks: “Do you know all the effects of childhood vaccinations on your babies?” Both link to the same reliable vaccination information. But in our recently published research, the second message was about 52% more li",
-        "link": "https://theconversation.com/a-new-study-finds-that-to-counter-misinformation-online-we-need-to-copy-its-style-293220"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "Cruz-Vance rivalry heats up as Texas senator suggests VP is 'feeling insecure'",
-      "summary": "Sen. Ted Cruz fired back at Vice President JD Vance's presidential campaign accusation, saying he is focused on helping Republicans win in the midterms.",
-      "ts": 1791140456000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/ted-cruz-jd-vance-republican-convention.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Cruz-Vance rivalry heats up as Texas senator suggests VP is 'feeling insecure'",
-        "desc": "Sen. Ted Cruz fired back at Vice President JD Vance's presidential campaign accusation, saying he is focused on helping Republicans win in the midterms.",
-        "link": "https://www.foxnews.com/politics/cruz-vance-rivalry-heats-texas-senator-suggests-vp-feeling-insecure"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Tech powerhouse’s regulatory push bears similarities to a notorious Washington strategy",
-      "summary": "Anthropic's AI regulation push mirrors Sam Bankman-Fried's crypto lobbying playbook, with millions in donations and safety rhetoric critics call capture.",
-      "ts": 1791140405000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Bankman-Fried.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Tech powerhouse’s regulatory push bears similarities to a notorious Washington strategy",
-        "desc": "Anthropic's AI regulation push mirrors Sam Bankman-Fried's crypto lobbying playbook, with millions in donations and safety rhetoric critics call capture.",
-        "link": "https://www.foxnews.com/politics/tech-powerhouse-regulatory-push-bears-similarities-notorious-washington-strategy"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Rahm Emanuel urges Dems not to impeach Trump if they win the House",
-      "summary": "Rahm Emanuel warns Democrats against impeaching Trump if they win the House, pushing for a comprehensive ethics package instead of a \"food fight.\"",
-      "ts": 1791139501000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/rahm-emanuel-speaking.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Rahm Emanuel urges Dems not to impeach Trump if they win the House",
-        "desc": "Rahm Emanuel warns Democrats against impeaching Trump if they win the House, pushing for a comprehensive ethics package instead of a \"food fight.\"",
-        "link": "https://www.foxnews.com/politics/rahm-emanuel-urges-dems-not-impeach-trump-win-house"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Federal government backs Queensland blueprint to hit illicit cigarette gangs",
-      "summary": "Federal cabinet holds up Queensland’s 55 per cent surge in legal cigarette sales as proof that street-level enforcement can break the $8.5 billion black market.",
-      "ts": 1791136800000,
-      "img": "https://static.ffx.io/images/$zoom_0.5171%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/d670bdc345753de00f2bd64cc1a4b11499de2c1b",
+      "headline": "‘Shameful, repugnant’: Greens under fire over opposition to Ukraine military aid",
+      "summary": "Australia would be handing Vladimir Putin a gift by cutting off military aid to Ukraine, both major parties and the Ukrainian diaspora say.",
+      "ts": 1791244453000,
+      "img": "https://static.ffx.io/images/$zoom_0.1226%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/058e934ec7a3f646259a600edb363df9b2f037ee",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -462,9 +368,93 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Federal government backs Queensland blueprint to hit illicit cigarette gangs",
-        "desc": "Federal cabinet holds up Queensland’s 55 per cent surge in legal cigarette sales as proof that street-level enforcement can break the $8.5 billion black market.",
-        "link": "https://www.theage.com.au/politics/federal/federal-government-backs-queensland-blueprint-to-hit-illicit-cigarette-gangs-20261005-p612fh.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "‘Shameful, repugnant’: Greens under fire over opposition to Ukraine military aid",
+        "desc": "Australia would be handing Vladimir Putin a gift by cutting off military aid to Ukraine, both major parties and the Ukrainian diaspora say.",
+        "link": "https://www.theage.com.au/politics/federal/shameful-repugnant-greens-under-fire-over-opposition-to-ukraine-military-aid-20261006-p612uq.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "Australia’s housing market is definitely in a downturn – but let’s put that in perspective | Hal Pawson",
+      "summary": "While tax reforms and interest rate hikes have resulted in a slide in property prices across Australia, is the market truly in ‘freefall’? With national property values down by 5.2% in September from their March peak, Australia’s housing market is in a distinct downturn. This has sparked concerns voiced by the opposition leader, Angus Taylor, of a housing market “in freefall”. Translated into doll",
+      "ts": 1791243486000,
+      "img": "https://i.guim.co.uk/img/media/d2f12e35ef3c39a3e8da78a34760461db6571542/264_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=12d82bc65cc4a464f3b0d11b4c1a90e2",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australia’s housing market is definitely in a downturn – but let’s put that in perspective | Hal Pawson",
+        "desc": "While tax reforms and interest rate hikes have resulted in a slide in property prices across Australia, is the market truly in ‘freefall’? With national property values down by 5.2% in September from their March peak, Australia’s housing market is in a distinct downturn. This has sparked concerns voiced by the opposition leader, Angus Taylor, of a housing market “in freefall”. Translated into doll",
+        "link": "https://www.theguardian.com/australia-news/commentisfree/2026/oct/06/australia-housing-market-downturn-rates-tax-reform-opinion"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Biden-era FBI tracked Trump family travel and Wiles’ calls with lawyers in secret probe: docs",
+      "summary": "Declassified records reveal the Biden-era FBI tracked Melania and Barron Trump's travel while planning the Mar-a-Lago classified documents search.",
+      "ts": 1791236387000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/barron-trump-melania-trump-inaugural-address-fox-news-001.jpeg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Biden-era FBI tracked Trump family travel and Wiles’ calls with lawyers in secret probe: docs",
+        "desc": "Declassified records reveal the Biden-era FBI tracked Melania and Barron Trump's travel while planning the Mar-a-Lago classified documents search.",
+        "link": "https://www.foxnews.com/politics/biden-era-fbi-tracked-trump-family-travel-wiles-calls-lawyers-secret-probe-docs"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Supreme Court begins new term with high-profile look at clean air and federal authority",
+      "summary": "The Supreme Court heard arguments on whether Boulder County's climate lawsuit against Suncor and ExxonMobil belongs in state or federal court.",
+      "ts": 1791233119000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/02/931/523/supreme-court-building.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Supreme Court begins new term with high-profile look at clean air and federal authority",
+        "desc": "The Supreme Court heard arguments on whether Boulder County's climate lawsuit against Suncor and ExxonMobil belongs in state or federal court.",
+        "link": "https://www.foxnews.com/politics/supreme-court-begins-new-term-high-profile-look-clean-air-federal-authority"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "America’s new blue-collar job boom is one nobody saw coming — and it’s just getting started",
+      "summary": "Compass Datacenters CEO Chris Crosby says the Red Oak, Texas, campus proves data centers need electricians, welders and carpenters over degrees.",
+      "ts": 1791232456000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/american-flag-construction-worker.png?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "America’s new blue-collar job boom is one nobody saw coming — and it’s just getting started",
+        "desc": "Compass Datacenters CEO Chris Crosby says the Red Oak, Texas, campus proves data centers need electricians, welders and carpenters over degrees.",
+        "link": "https://www.foxnews.com/politics/americas-blue-collar-job-boom-nobody-saw-coming-just-getting-started"
        }
       ]
      }
@@ -476,10 +466,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "The new Fitbit Edge leaks",
-      "summary": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and the Fitbit Air. It has a small screen that is able to display some widgets, but clearly isn't",
-      "ts": 1791147729000,
-      "img": null,
+      "headline": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+      "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, without elaborating on the potential benefits. His comments come as OpenAI pushe",
+      "ts": 1791218661000,
+      "img": "https://i.guim.co.uk/img/media/25a7b311b78477fb430906540593c2693953f97f/1129_0_7005_5604/master/7005.jpg?width=460&quality=85&auto=format&fit=max&s=9893789d26a0eaf21f8babac8131ffd5",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -489,17 +479,24 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "The new Fitbit Edge leaks",
-        "desc": "We don't know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google's rumored fitness tracker sort of splits the difference between the Pixel Watch and the Fitbit Air. It has a small screen that is able to display some widgets, but clearly isn't",
-        "link": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks"
+        "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+        "desc": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, without elaborating on the potential benefits. His comments come as OpenAI pushe",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Accept ‘bad things’ in return for benefits of AI, says Sam Altman",
+        "desc": "Boss of OpenAI calls for a regulatory light touch because of the ‘good stuff’ the technology can deliver Sam Altman says he believes the world should accept “bad things” happening with AI in exchange for the benefits of the technology. The chief executive of OpenAI cited hacks, scams and “other bad things that will happen” in an interview that sparked an instant backlash from critics of the big AI",
+        "link": "https://www.theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Prick’s theatrical industrial punk is perfect for spooky season",
-      "summary": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints are all over it. But McMahon also can't suppress his inner theater ki",
-      "ts": 1791144000000,
+      "headline": "Gemini Call for Me might tell your mom you’re running late",
+      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call John and ask if he is coming for dinner.\" Based on those examples, even with this expans",
+      "ts": 1791241795000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -510,81 +507,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Prick’s theatrical industrial punk is perfect for spooky season",
-        "desc": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick's self-titled debut record, his fingerprints are all over it. But McMahon also can't suppress his inner theater ki",
-        "link": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review"
+        "title": "Gemini Call for Me might tell your mom you’re running late",
+        "desc": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call John and ask if he is coming for dinner.\" Based on those examples, even with this expans",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Trump names intelligence chief Jay Clayton as new White House AI czar",
-      "summary": "Clayton had said AI was a ‘gamechanger’ but also posed ‘a threat’ during his confirmation hearing Donald Trump on Sunday named Jay Clayton, the director of national intelligence, to also serve as the new White House AI czar. Clayton, who leads the US’s 18 intelligence agencies, previously served as the top federal prosecutor in Manhattan and led the Securities and Exchange Commission during Trump’",
-      "ts": 1791135928000,
-      "img": "https://i.guim.co.uk/img/media/144d386f8c00039748c3a55ec9b55f147d589d98/2296_881_2186_1748/master/2186.jpg?width=460&quality=85&auto=format&fit=max&s=76287c658ddacdd2e0baa3c5655eda99",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Trump names intelligence chief Jay Clayton as new White House AI czar",
-        "desc": "Clayton had said AI was a ‘gamechanger’ but also posed ‘a threat’ during his confirmation hearing Donald Trump on Sunday named Jay Clayton, the director of national intelligence, to also serve as the new White House AI czar. Clayton, who leads the US’s 18 intelligence agencies, previously served as the top federal prosecutor in Manhattan and led the Securities and Exchange Commission during Trump’",
-        "link": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar"
-       }
-      ]
-     },
-     {
-      "id": 16,
-      "headline": "The best early October Prime Day deals happening now",
-      "summary": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re on the East Coast (12AM PT). October Prime Day offers a glimpse of deals that will likely be available again during Black F",
-      "ts": 1791134280000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The best early October Prime Day deals happening now",
-        "desc": "It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts through 3AM ET on the 8th if you’re on the East Coast (12AM PT). October Prime Day offers a glimpse of deals that will likely be available again during Black F",
-        "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october"
-       }
-      ]
-     },
-     {
-      "id": 17,
-      "headline": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
-      "summary": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview ",
-      "ts": 1791130564000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
-        "desc": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview ",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
-      "summary": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
-      "ts": 1791128054000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/africa3-1152x648.jpg",
+      "headline": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+      "ts": 1791239195000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -594,9 +528,72 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Lions and cheetahs and chimps, oh my: a spotlight on Africa's diverse wildlife",
-        "desc": "Wunmi Mosaku (Sinners, Loki) narrates NatGeo's new documentary Africa: Earth's Wild Home",
-        "link": "https://arstechnica.com/science/2026/10/lions-and-cheetahs-and-chimps-oh-my-a-spotlight-on-africas-diverse-wildlife/"
+        "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+        "desc": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+        "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
+       }
+      ]
+     },
+     {
+      "id": 16,
+      "headline": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+      "summary": "It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding in Call of Duty? Or playing the original Halo right in your web browser, complete with multiplayer? T",
+      "ts": 1791235065000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Reverse-engineered games: All the news on video game decomps, recomps, VR and web and 3D ports",
+        "desc": "It’s a wild time for retro gaming. Thanks to decompilations and recompilations of classic titles, those games are becoming unshackled from their proprietary code and original hardware to be ported to new devices or updated in ways to completely change the original game. Ever imagined skateboarding in Call of Duty? Or playing the original Halo right in your web browser, complete with multiplayer? T",
+        "link": "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "The Matic is the first robovac to get an FCC ban waiver, not that it needs it",
+      "summary": "The Matic is our favorite robot vacuum and robo-mop, and it's also now the first to escape the FCC's Roomba ban. Well, sort of - because the Matic wasn't banned to begin with. Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, and its charging dock model 4DK0008 to its ban waiver list. That allows the FCC to approve these radio products for import, m",
+      "ts": 1791234905000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "The Matic is the first robovac to get an FCC ban waiver, not that it needs it",
+        "desc": "The Matic is our favorite robot vacuum and robo-mop, and it's also now the first to escape the FCC's Roomba ban. Well, sort of - because the Matic wasn't banned to begin with. Here's what's actually happening: On October 2nd, the FCC added the original Matic, model 4MA0001, and its charging dock model 4DK0008 to its ban waiver list. That allows the FCC to approve these radio products for import, m",
+        "link": "https://www.theverge.com/policy/1004926/matic-fcc-ban-waiver-conditional-approval"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
+      "summary": "Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.",
+      "ts": 1791233268000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/brendan-carr-fcc-crest-1152x648-1771622570.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
+        "desc": "Cable industry to sue, says FCC can't repeal TV ownership limit set by Congress.",
+        "link": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/"
        }
       ]
      }
@@ -608,10 +605,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Firmus tells fundies interest ‘well in excess’ of $79b IPO target",
-      "summary": "While the email did not list which existing backers had put in for half the IPO, Nvidia and Blackstone own 7.2 per cent and 6.7 per cent respectively.",
-      "ts": 1791156607000,
-      "img": "https://static.ffx.io/images/$zoom_0.2845%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_189/t_crop_custom/q_86%2Cf_auto/466587ef1c71a1cbdb7ad33d4247e23b9b95c19b",
+      "headline": "The most painful housing market plunge is here. And it’s not prices",
+      "summary": "Falling house prices are the new national obsession. But there’s another property market metric that spells real trouble for the broader economy.",
+      "ts": 1791239886000,
+      "img": "https://static.ffx.io/images/$zoom_0.3146%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/0acde308458dbd55befa993340dcb4bd2db08965",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -621,18 +618,25 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Firmus tells fundies interest ‘well in excess’ of $79b IPO target",
-        "desc": "While the email did not list which existing backers had put in for half the IPO, Nvidia and Blackstone own 7.2 per cent and 6.7 per cent respectively.",
-        "link": "https://www.afr.com/street-talk/firmus-tells-fundies-indications-of-interest-exceed-7-9b-ipo-size-20261005-p612v5?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "The most painful housing market plunge is here. And it’s not prices",
+        "desc": "Falling house prices are the new national obsession. But there’s another property market metric that spells real trouble for the broader economy.",
+        "link": "https://www.afr.com/chanticleer/the-most-painful-housing-market-plunge-is-here-and-it-s-not-prices-20261006-p6133t?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "ASX edges higher supported by miners, housing market weakens as auction clearance rates fall — as it happened",
+        "desc": "The ASX wilted across the session to close marginally higher thanks to buying in banking and healthcare stocks.",
+        "link": "https://www.abc.net.au/news/2026-10-05/asx-markets-business-live-news/107227606"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "El Niño threatens to send the price of chocolate through the roof",
-      "summary": "Higher temperatures and disrupted rainfall pose an increasing threat to cocoa crops around the world, with prices already doubling since the start of the year.",
-      "ts": 1791156600000,
-      "img": "https://static.ffx.io/images/$zoom_0.6116705555555555%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_162%2C$y_219/t_crop_custom/q_86%2Cf_auto/8515af769aec5b9381f7e88baf5d2219952153b6",
+      "headline": "ASX gains; Macquarie rises after KPMG review",
+      "summary": "Shares rise; oil hovers near $US100; Macquarie to review board policy after KPMG probe; Dicker Data in trading halt ahead of acquisition. Follow live updates.",
+      "ts": 1791246172000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5b8a026528c138672204a71987201a7dbbb7f1455d29ea68d8d0f942dd4efe53",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -642,18 +646,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "El Niño threatens to send the price of chocolate through the roof",
-        "desc": "Higher temperatures and disrupted rainfall pose an increasing threat to cocoa crops around the world, with prices already doubling since the start of the year.",
-        "link": "https://www.afr.com/markets/commodities/el-ni-o-threatens-to-send-the-price-of-chocolate-through-the-roof-20261005-p612e7?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX gains; Macquarie rises after KPMG review",
+        "desc": "Shares rise; oil hovers near $US100; Macquarie to review board policy after KPMG probe; Dicker Data in trading halt ahead of acquisition. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-nasdaq-resets-record-high-even-as-bond-yields-surge-20261006-p6131e?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Andrew takes police to court over Epstein files arrest",
-      "summary": "The former Duke of York, who was detained in a blaze of publicity eight months ago, has asked a judge to determine whether the force’s action towards him was lawful.",
-      "ts": 1791156490000,
-      "img": "https://static.ffx.io/images/$zoom_0.427%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/9901bf2e9f147e4c6d54567945b8925918821be4",
+      "headline": "No plan for AI newsreaders, ABC tells inquiry; OpenAI to apologise for hack",
+      "summary": "WATCH LIVE: Parliamentary committee holds AI hearings; Australian soldier dies, five injured in NT training incident. Follow live updates.",
+      "ts": 1791245317000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_82/t_crop_custom/q_86%2Cf_auto/73aef080c04d6ca8562fda4e2596a63e4f8f842b",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -663,60 +667,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Andrew takes police to court over Epstein files arrest",
-        "desc": "The former Duke of York, who was detained in a blaze of publicity eight months ago, has asked a judge to determine whether the force’s action towards him was lawful.",
-        "link": "https://www.afr.com/world/europe/andrew-takes-police-to-court-over-epstein-files-arrest-20261005-p612v4?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "No plan for AI newsreaders, ABC tells inquiry; OpenAI to apologise for hack",
+        "desc": "WATCH LIVE: Parliamentary committee holds AI hearings; Australian soldier dies, five injured in NT training incident. Follow live updates.",
+        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-flydubai-pilot-planned-attack-before-being-hired-israel-says-20261006-p6131d?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "ASX rises; CSL strikes exclusive drug deal",
-      "summary": "Shares open higher; CSL strikes deal for rare kidney disease treatment; Ingenia rises 2.7pc on Warburg Pincus update. Follow updates live.",
-      "ts": 1791156383000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX rises; CSL strikes exclusive drug deal",
-        "desc": "Shares open higher; CSL strikes deal for rare kidney disease treatment; Ingenia rises 2.7pc on Warburg Pincus update. Follow updates live.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-trump-aide-says-powell-should-move-on-from-fed-board-20261005-p612t1?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Who let the dogs into restaurants? Please put them back outside",
-      "summary": "These places are for humans to eat, drink and converse – not dodge excitable puppies while snatching a word in the brief silence between the howling of hounds.",
-      "ts": 1791155535000,
-      "img": "https://static.ffx.io/images/$zoom_0.27421025375453134%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/3a9bc3611d1170e0e9e3c81ac3522cfa4529327d",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Who let the dogs into restaurants? Please put them back outside",
-        "desc": "These places are for humans to eat, drink and converse – not dodge excitable puppies while snatching a word in the brief silence between the howling of hounds.",
-        "link": "https://www.afr.com/life-and-luxury/food-and-wine/who-let-the-dogs-into-restaurants-please-put-them-back-outside-20261005-p612u4?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "ASX advances, Wall Street climbs after US jobs report eases worries about inflation",
-      "summary": "The Australian sharemarket has made a positive start to the week after Wall Street indexes climbed near their all-time high on Friday in New York after the latest update on the US job market",
-      "ts": 1791155027000,
-      "img": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_37/t_crop_custom/q_86%2Cf_auto/bb03c831749f6f3fd53dab2b3269af2eeaf7f595",
+      "headline": "‘Work to do’: OpenAI to say sorry for Australian hacks as it faces grilling",
+      "summary": "OpenAI’s chief strategy officer will tell a parliamentary committee the company must rebuild trust after its models accessed Australian government websites.",
+      "ts": 1791245086000,
+      "img": "https://static.ffx.io/images/$zoom_0.1494920544577337%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_92%2C$y_25/t_crop_custom/q_86%2Cf_auto/071f0eee35b0ae9a4e5f24c835e32e5d7b30712b",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -726,9 +688,51 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "ASX advances, Wall Street climbs after US jobs report eases worries about inflation",
-        "desc": "The Australian sharemarket has made a positive start to the week after Wall Street indexes climbed near their all-time high on Friday in New York after the latest update on the US job market",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-rise-wall-street-climbs-as-jobs-report-eases-worries-about-inflation-20261005-p612si.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "‘Work to do’: OpenAI to say sorry for Australian hacks as it faces grilling",
+        "desc": "OpenAI’s chief strategy officer will tell a parliamentary committee the company must rebuild trust after its models accessed Australian government websites.",
+        "link": "https://www.theage.com.au/business/companies/abc-has-no-plans-to-create-ai-newsreaders-20261006-p61345.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 23,
+      "headline": "Phosphate: An old workhorse turned critical commodity",
+      "summary": "For decades, humble phosphate fertiliser was a simple story of digging up rock to help grow crops. Now, amid the US-Iran war, prices are surging and major global supply chains are at a tipping point.",
+      "ts": 1791244131000,
+      "img": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_95/t_crop_custom/q_86%2Cf_auto/3f438bdfde8e075e4158d026d461c52d1fe0af774df241ca4f94324d3bfed68d",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Phosphate: An old workhorse turned critical commodity",
+        "desc": "For decades, humble phosphate fertiliser was a simple story of digging up rock to help grow crops. Now, amid the US-Iran war, prices are surging and major global supply chains are at a tipping point.",
+        "link": "https://www.theage.com.au/business/companies/phosphate-an-old-workhorse-turned-critical-commodity-20261006-p6135t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "ASX gains in early trade after tech rally lifts Wall Street; Oil price eases",
+      "summary": "The Australian sharemarket advanced in early trade after a tech-led rally pushed Wall Street higher as investors largely shrugged off concerns about bond yields at multi-decade highs. Oil prices fell.",
+      "ts": 1791243216000,
+      "img": "https://static.ffx.io/images/$zoom_0.5764%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_55%2C$y_172/t_crop_custom/q_86%2Cf_auto/a535b34fa4288175ec5a2a0ce8ca894baafcc0e6",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX gains in early trade after tech rally lifts Wall Street; Oil price eases",
+        "desc": "The Australian sharemarket advanced in early trade after a tech-led rally pushed Wall Street higher as investors largely shrugged off concerns about bond yields at multi-decade highs. Oil prices fell.",
+        "link": "https://www.theage.com.au/business/markets/asx-eyes-gains-as-wall-street-climbs-towards-records-20261006-p6131f.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -740,9 +744,79 @@
     "stories": [
      {
       "id": 25,
+      "headline": "Mary Fowler suddenly sidelined from Matildas friendlies ‘due to personal circumstances’",
+      "summary": "The Matildas superstar has curiously pulled out just a day after a milestone match.",
+      "ts": 1791244558000,
+      "img": "https://images.7news.com.au/publication/C-22972953/45dccdf241ed5b0447ed8940136e906396d84727-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Mary Fowler suddenly sidelined from Matildas friendlies ‘due to personal circumstances’",
+        "desc": "The Matildas superstar has curiously pulled out just a day after a milestone match.",
+        "link": "https://7news.com.au/sport/soccer/mary-fowler-suddenly-sidelined-from-matildas-friendlies-due-to-personal-circumstances-c-22972953"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Mary Fowler withdraws from Matildas squad for Germany, Haiti games",
+        "desc": "Mary Fowler will be replaced by Leah Davidson for the upcoming friendlies, with the Matildas star withdrawing due to personal circumstances.",
+        "link": "https://www.abc.net.au/news/2026-10-06/mary-fowler-withdraws-matildas-squad-for-germany-haiti-games/107231866"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Man City fight back to beat struggling Arsenal",
+        "desc": "Manchester City twice came from behind to beat Arsenal 4-2 at the Etihad Stadium and increase the pressure on Gunners manager Renee Slegers.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/c64g71j3dkw7o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 26,
+      "headline": "Demon faces Djokovic in China final after Medvedev disqualified",
+      "summary": "Drama at the China Open as Daniil Medvedev is disqualified for hitting a spectator with a tennis ball, while Australia's Alex de Minaur reaches the final after his opponent retires due to injury.",
+      "ts": 1791230453000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/907997242078876b8255518bd7fec686?impolicy=wcms_crop_resize&cropH=2812&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Demon faces Djokovic in China final after Medvedev disqualified",
+        "desc": "Drama at the China Open as Daniil Medvedev is disqualified for hitting a spectator with a tennis ball, while Australia's Alex de Minaur reaches the final after his opponent retires due to injury.",
+        "link": "https://www.abc.net.au/news/2026-10-06/demon-faces-djokovic-china-final-after-medvedev-disqualified/107231760"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Medvedev disqualified from Djokovic match for hitting spectator with ball",
+        "desc": "Daniil Medvedev is disqualified from the China Open after hitting a spectator in the face with a ball during his semi-final against Novak Djokovic.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cqkg5npg0r9vo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Daniil Medvedev disqualified from China Open semi after hitting fan with ball",
+        "desc": "Player struck rebounding ball into Beijing crowd Djokovic advances to final against De Minaur Daniil Medvedev was disqualified from his China Open semi-final with Novak Djokovic on Monday after hitting a rebounding ball into the crowd that struck a ​spectator in the eye. The Russian world ‌No 5 was ‌trailing 7-5, 5-3 and had lost a point ‌when, in frustration, he struck a ball that had come off th",
+        "link": "https://www.theguardian.com/sport/2026/oct/05/daniil-medvedev-disqualified-from-china-open-semi-after-hitting-fan-with-ball"
+       }
+      ]
+     },
+     {
+      "id": 27,
       "headline": "Marnus Labuschagne breaks through with drought-breaking century on eve of South Africa Test series",
       "summary": "The under-fire Aussie batter may have just saved his career.",
-      "ts": 1791153871000,
+      "ts": 1791208827000,
       "img": "https://images.7news.com.au/publication/C-22968142/3fbfc0e53f9693056654a1c3dbff574ee1ba8fe6-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
@@ -753,9 +827,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Australia’s Marnus Labuschagne set for South Africa Test after first ton in 11 months",
-        "desc": "Batter makes 111 against Cricket South Africa Invitation XI Three-match Test series starts in Durban on Friday The indefatigable Marnus Labuschagne has responded to all the hand-wringing over whether he merits a place in Australia’s Test future by just doing what he likes doing best – scoring runs. After a difficult year, the under-pressure 32-year-old chose the most timely moment to score his fir",
-        "link": "https://www.theguardian.com/sport/2026/oct/05/australia-marnus-labuschagne-south-africa-cricket-test"
+        "title": "Sandpaper made Australia the story in 2018 while South Africa’s achievement faded into irrelevance",
+        "desc": "The hosts’ stunning Test victory was overshadowed by the scale of national angst felt in Australia after the team’s ball tampering For South African cricketers, administrators and supporters, the most surprising aspect of the Sandpaper scandal was not that it happened. After all, the ball had been suspiciously reverse-swinging during the first two Tests of that ill-fated series in 2018. The atmosp",
+        "link": "https://www.theguardian.com/sport/blog/2026/oct/05/sandpaper-ball-tampering-australia-south-africa-test-cricket-2018"
        },
        {
         "outlet": "7News Sport",
@@ -763,71 +837,22 @@
         "title": "Marnus Labuschagne breaks through with drought-breaking century on eve of South Africa Test series",
         "desc": "The under-fire Aussie batter may have just saved his career.",
         "link": "https://7news.com.au/sport/cricket/marnus-labuschagne-breaks-through-with-drought-breaking-century-on-eve-of-south-africa-test-series-c-22968142"
-       }
-      ]
-     },
-     {
-      "id": 26,
-      "headline": "Real Madrid join race for Scott - Monday's gossip",
-      "summary": "Bournemouth's Alex Scott at the centre of a transfer tussle, Arsenal show interest in Juventus winger Kenan Yildiz, Real Betis rebuff speculation linking Troy Parrott with a move away, plus more.",
-      "ts": 1791152918000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3536/live/68d05a40-c014-11f1-b8fc-7927883c19e9.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Clàudia Pina hits four as Barcelona score seven goals to demolish Real Madrid",
-        "desc": "Barcelona 7-0 Real Madrid Lead at the top stretched to five points Clàudia Pina smashed in four goals as Barcelona demolished Real Madrid 7-0 to earn a five point lead at the top of Liga F on Sunday over their rivals. The 25-year-old Spain international was in lethal form in front of goal as a dominant Barça won the Clásico battle with ease at the Camp Nou in front of over 40,000 fans, continuing ",
-        "link": "https://www.theguardian.com/football/2026/oct/04/claudia-pina-hits-four-as-barcelona-demolish-real-madrid"
        },
        {
-        "outlet": "BBC Sport",
+        "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Real Madrid join race for Scott - Monday's gossip",
-        "desc": "Bournemouth's Alex Scott at the centre of a transfer tussle, Arsenal show interest in Juventus winger Kenan Yildiz, Real Betis rebuff speculation linking Troy Parrott with a move away, plus more.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cke8r1v3jndlo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 27,
-      "headline": "Portugal boss says door open for Ronaldo return",
-      "summary": "Cristiano Ronaldo could still return for Portugal, according to boss Jorge Jesus.",
-      "ts": 1791151859000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/43de/live/68de2c00-c00b-11f1-b8fc-7927883c19e9.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Portugal boss says door open for Ronaldo return",
-        "desc": "Cristiano Ronaldo could still return for Portugal, according to boss Jorge Jesus.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c3dxwry8vydvo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Nations League roundup: Haaland limps off in Norway’s loss to Portugal",
-        "desc": "Portugal victory seals place in quarter-finals Greece hold Germany to goalless draw Title-holders Portugal maintained their 100% record in the Nations League with a 2-1 home win over Norway on Sunday to seal a place in ⁠the March quarter-finals, while Manchester City’s problems may have got worse after Erling Haaland limped off for the visitors. Portugal hope their victory at the Estádio Do Dragão",
-        "link": "https://www.theguardian.com/football/2026/oct/04/nations-league-roundup-haaland-limps-off-in-norways-loss-to-portugal"
+        "title": "Labuschagne set for Test after first ton in 11 months",
+        "desc": "Marnus Labuschagne makes his case to keep the number three spot in Friday's first Test against South Africa, with a timely century in a warm-up match.",
+        "link": "https://www.abc.net.au/news/2026-10-05/labuschagne-set-for-test-after-first-ton-in-11-months/107228250"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Newcastle coach Justin Holbrook full of pride after shattering grand final defeat",
-      "summary": "Justin Holbrook was full of emotion after Sunday’s heartbreaking defeat in one of the hardest games he’s ever seen.",
-      "ts": 1791144259000,
-      "img": "https://images.7news.com.au/publication/C-22968035/77b7c0716a0d903c7f431b6edd9a951c88e8cacd-16x9-x0y2w1304h733.jpg",
+      "headline": "North Melbourne officially unveil Jaymie Graham as new senior coach",
+      "summary": "The Kangaroos have welcomed the man appointed to replace Alastair Clarkson.",
+      "ts": 1791245118000,
+      "img": "https://images.7news.com.au/publication/C-22972945/50ad3e8a892ce6dac987c2f66696daed03356b20-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -837,25 +862,25 @@
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Newcastle coach Justin Holbrook full of pride after shattering grand final defeat",
-        "desc": "Justin Holbrook was full of emotion after Sunday’s heartbreaking defeat in one of the hardest games he’s ever seen.",
-        "link": "https://7news.com.au/sport/rugby-league/newcastle-coach-justin-holbrook-full-of-pride-after-shattering-grand-final-defeat-c-22968035"
+        "title": "North Melbourne officially unveil Jaymie Graham as new senior coach",
+        "desc": "The Kangaroos have welcomed the man appointed to replace Alastair Clarkson.",
+        "link": "https://7news.com.au/sport/afl/north-melbourne-officially-unveil-jayne-graham-as-new-senior-coach-c-22972945"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Newcastle's magic NRL premiership tilt ends in defeat, pride and honour",
-        "desc": "Newcastle came as close to winning a premiership as a team can without winning one but there is still honour to be found after their grand final loss.",
-        "link": "https://www.abc.net.au/news/2026-10-04/nrl-grand-final-newcastle-knights-lose-but-keep-pride/107227446"
+        "title": "Breaking: Jaymie Graham named new North Melbourne AFL coach",
+        "desc": "North Melbourne confirms that Fremantle assistant coach Jaymie Graham is the new Kangaroos coach, succeeding Alastair Clarkson.",
+        "link": "https://www.abc.net.au/news/2026-10-06/jaymie-graham-named-new-north-melbourne-afl-coach/107232272"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "'We fought for every ball' - Hemp on Man City's thrilling win",
-      "summary": "Two-goal Lauren Hemp says Manchester City showed passion and character in their 4-2 win over Arsenal in the WSL.",
-      "ts": 1791138005000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28f2/live/9b50ed40-c01e-11f1-babe-4199b0e7ccea.jpg",
+      "headline": "Highlights: Northern Ireland frustrated by Georgia",
+      "summary": "Watch highlights as Northern Ireland end the extended window with a 0-0 Nations League draw against Georgia at Windsor Park.",
+      "ts": 1791237365000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b7c8/live/96cce150-c106-11f1-a64c-550be9e3c66b.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -865,25 +890,25 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "'We fought for every ball' - Hemp on Man City's thrilling win",
-        "desc": "Two-goal Lauren Hemp says Manchester City showed passion and character in their 4-2 win over Arsenal in the WSL.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cqly0lgy37z8o?at_medium=RSS&at_campaign=rss"
+        "title": "Highlights: Northern Ireland frustrated by Georgia",
+        "desc": "Watch highlights as Northern Ireland end the extended window with a 0-0 Nations League draw against Georgia at Windsor Park.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/ck5ynp3ej7m8o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Shaw seals thrilling win over Arsenal to extend Manchester City’s 100% WSL start",
-        "desc": "Arsenal’s under-pressure head coach Renée Slegers still believes they will turn their form around, despite falling 10 points behind Manchester City with Sunday’s defeat in an absorbing six-goal thriller against the defending champions. Arsenal were last season’s runners-up in the Women’s Super League and had high hopes of mounting a strong challenge this term but their chances of lifting a first W",
-        "link": "https://www.theguardian.com/football/2026/oct/04/manchester-city-arsenal-wsl-match-report"
+        "title": "Nations League roundup: Olise leads late charge as France bowl over Belgium",
+        "desc": "France score four goals in 14 minutes to triumph Italy see off Turkey, Hungary edge out Ukraine Michael Olise came off the bench to inspire France to a 4-1 win over Belgium in the Nations League, handing Zinedine Zidane his first home victory since taking charge. Dodi Lukébakio put Belgium on course for their first competitive win over Les Bleus in 45 years when he fired the visitors in front in t",
+        "link": "https://www.theguardian.com/football/2026/oct/05/nations-league-roundup-olise-leads-late-charge-as-france-bowl-over-belgium"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Sabalenka crashes out of China Open after defeat by Bartunkova",
-      "summary": "World number two Aryna Sabalenka crashes out of the China Open after a surprise straight-set defeat by 34th-ranked Nikola Bartunkova.",
-      "ts": 1791127988000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6682/live/dd04e410-bfe4-11f1-babe-4199b0e7ccea.jpg",
+      "headline": "Live: Wantaway Saints star boycotts best and fairest as Cats eye AFL trade",
+      "summary": "St Kilda ruck Rowan Marshall does not attend the Saints' best and fairest event as he tries to force through a trade to Geelong. Follow all the news and debate from the AFL trade period in our live blog.",
+      "ts": 1791235116000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/9374faa747a44a5f5935bf29aa99b055?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=75&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -891,18 +916,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Djokovic rolls back years to beat Zverev as Sabalenka swept out in China Open",
-        "desc": "Novak Djokovic into semi-finals after 4-6, 6-4, 6-4 win Aryna Sabalenka loses to 34th-ranked Bartunkova Novak Djokovic rolled back the years to oust Alexander Zverev from the China Open on Sunday, beating the top seed 4-6, 6-4, 6-4 to set up a semi-final with Daniil Medvedev. The 39-year-old electrified a packed crowd in Beijing, where he extended an astonishing winning streak to 32 matches. Djoko",
-        "link": "https://www.theguardian.com/sport/2026/oct/04/aryna-sabalenka-out-of-china-open-straight-sets-tennis-defeat-nikola-bartunkova"
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Live: Wantaway Saints star boycotts best and fairest as Cats eye AFL trade",
+        "desc": "St Kilda ruck Rowan Marshall does not attend the Saints' best and fairest event as he tries to force through a trade to Geelong. Follow all the news and debate from the AFL trade period in our live blog.",
+        "link": "https://www.abc.net.au/news/2026-10-06/afl-trade-period-live-blog-tuesday-october-6/107232060"
        },
        {
-        "outlet": "BBC Sport",
+        "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Sabalenka crashes out of China Open after defeat by Bartunkova",
-        "desc": "World number two Aryna Sabalenka crashes out of the China Open after a surprise straight-set defeat by 34th-ranked Nikola Bartunkova.",
-        "link": "https://www.bbc.co.uk/sport/tennis/videos/cme3xwl1gjjzo?at_medium=RSS&at_campaign=rss"
+        "title": "St Kilda star Rowan Marshall boycotts best and fairest night amid trade request to Geelong",
+        "desc": "The 30-year-old feels it would be disingenuous to attend while he’s seeking a move.",
+        "link": "https://7news.com.au/sport/afl/st-kilda-star-rowan-marshall-boycotts-best-and-fairest-night-amid-trade-request-to-geelong-c-22970913"
        }
       ]
      }
@@ -914,10 +939,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "James Gunn’s New Hit Comedy With All-Time Rotten Tomatoes Record Is Officially Streaming's #1 Movie",
-      "summary": "While expanding the DC Universe franchise, James Gunn's new comedy film with a strong Rotten Tomatoes score is becoming a streaming success.",
-      "ts": 1791151216000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/james-gunn-at-the-los-angeles-premiere-of-superman.jpg",
+      "headline": "Stephen King’s “Bats--t Insane” Horror Adaptation Is Officially One Of The Biggest Movies In The World",
+      "summary": "One of Stephen King's horror adaptations that he himself was thrilled by and holds a record box office spot is back as a global streaming hit.",
+      "ts": 1791244817000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/theo-james-hal-looking-shocked-and-covered-in-blood-in-the-monkey.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -927,32 +952,25 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "James Gunn’s New Hit Comedy With All-Time Rotten Tomatoes Record Is Officially Streaming's #1 Movie",
-        "desc": "While expanding the DC Universe franchise, James Gunn's new comedy film with a strong Rotten Tomatoes score is becoming a streaming success.",
-        "link": "https://screenrant.com/james-gunn-coyote-vs-acme-rotten-tomatoes-record-amazon-apple-vod-streaming-success-october-2026/"
+        "title": "Stephen King’s “Bats--t Insane” Horror Adaptation Is Officially One Of The Biggest Movies In The World",
+        "desc": "One of Stephen King's horror adaptations that he himself was thrilled by and holds a record box office spot is back as a global streaming hit.",
+        "link": "https://screenrant.com/stephen-king-the-monkey-hbo-max-global-streaming-success-october-2026/"
        },
        {
-        "outlet": "Deadline",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "James Gunn Is Writing His Next Movie Following ‘Man of Tomorrow’: “Already In It”",
-        "desc": "Amid Paramount’s industry-shaking acquisition of Warner Bros., James Gunn is remaining focused on his work. When asked if he’s ready to start writing his next film to follow Man of Tomorrow, the DC Studios co-CEO revealed he’s “already in it” while awaiting the edit for his upcoming sequel to 2025’s Superman. “I had to do […]",
-        "link": "https://deadline.com/2026/10/james-gunn-writing-next-movie-following-man-of-tomorrow-1237146258/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "James Gunn Confirms He’s ‘Already’ Writing His Next Film Ahead of ‘Superman: Man of Tomorrow’",
-        "desc": "James Gunn announced on Threads that he is actively working on writing his next film ahead of the release of “Superman: Man of Tomorrow,” due in theaters July 9, 2027. In response to a comment that asked, “Are you ready to write your next film, James, or not quite yet?” Gunn wrote, “Already in it. […]",
-        "link": "https://variety.com/2026/film/news/james-gunn-next-project-superman-man-of-tomorrow-1236898696/"
+        "title": "Mikito Chinen's Horror Novel Gets Manga Adaptation",
+        "desc": "Etsuran Genkin Ryōki Satsujin-han no Seishin Kantei Hōkoku-sho manga launched on September 25",
+        "link": "https://www.animenewsnetwork.com/news/2026-10-05/mikito-chinen-horror-novel-gets-manga-adaptation/.242477"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Recasting The Golden Girls For New Mystery Series Adaptation: All 6 Main Characters",
-      "summary": "A potential new cast for The Golden Girls in a mystery novel adaptation, pulling new performers to embody the classic characters in a new way.",
-      "ts": 1791155717000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/the-golden-girls_c9cdc1-1.jpg",
+      "headline": "‘Verity’ Lures 2nd Best Opening For Colleen Hoover Pic With $62M+ WW; ‘Digger’ DOA At $20M WW – Top 10 Global Box Office Update",
+      "summary": "UPDATED MONDAY after Sunday AM post: Colleen Hoover fever came back at the box office as the feature take of the author’s novel Verity starring Anne Hathaway, Dakota Johnson and Josh Hartnett scored her second best global debut ever at $62.1 million worldwide. That files behind the 2024 blockbuster It Ends With Us, in like-for-likes, […]",
+      "ts": 1791238920000,
+      "img": "https://deadline.com/wp-content/uploads/2026/10/Verity-and-Digger.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -960,27 +978,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Recasting The Golden Girls For New Mystery Series Adaptation: All 6 Main Characters",
-        "desc": "A potential new cast for The Golden Girls in a mystery novel adaptation, pulling new performers to embody the classic characters in a new way.",
-        "link": "https://screenrant.com/golden-girls-recasting-2027-new-book-adaptation-main-characters/"
+        "title": "‘Verity’ Lures 2nd Best Opening For Colleen Hoover Pic With $62M+ WW; ‘Digger’ DOA At $20M WW – Top 10 Global Box Office Update",
+        "desc": "UPDATED MONDAY after Sunday AM post: Colleen Hoover fever came back at the box office as the feature take of the author’s novel Verity starring Anne Hathaway, Dakota Johnson and Josh Hartnett scored her second best global debut ever at $62.1 million worldwide. That files behind the 2024 blockbuster It Ends With Us, in like-for-likes, […]",
+        "link": "https://deadline.com/2026/10/box-office-global-verity-digger-1237146180/"
        },
        {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Manhwa-Based Live-Action Series The Blue Road Set to Premiere on November 20",
-        "desc": "Netflix also releases show's 1st poster, trailer",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-04/manhwa-based-live-action-series-the-blue-road-set-to-premiere-on-november-20/.242463"
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Tom Cruise’s Digger has flopped spectacularly – but I think it is a misunderstood masterpiece",
+        "desc": "Alejandro G Iñárritu’s film may be about to become one of the biggest bombs Hollywood has ever seen – but it is destined to be re-evaluated with time This article contains spoilers for Digger I feel for film critics, I really do. Tom Cruise’s latest film Digger put them in an impossible position: you can’t really talk about it without spoiling what makes it, in my eyes, a masterpiece. Or completel",
+        "link": "https://www.theguardian.com/film/2026/oct/05/digger-tom-cruise-movie-box-office-critics-reviews-misunderstood-masterpiece"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "10 Psychological Thrillers With Twist Endings You Never Saw Coming",
-      "summary": "The biggest selling point of many psychological thrillers are the twist endings and these films have shocking endings that no one saw coming.",
-      "ts": 1791155717000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/6327181e-f731-43b1-92b0-05a0055376b9.jpeg",
+      "headline": "Man Of Tomorrow Is The DCU's Empire Strikes Back",
+      "summary": "Superman actor David Corenswet teases how the upcoming Man of Tomorrow is the DC Universe's version of The Empire Strikes Back.",
+      "ts": 1791245942000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/david-corenswet-s-superman-looking-serious-in-superman-2025.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -990,18 +1008,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "10 Psychological Thrillers With Twist Endings You Never Saw Coming",
-        "desc": "The biggest selling point of many psychological thrillers are the twist endings and these films have shocking endings that no one saw coming.",
-        "link": "https://screenrant.com/psychological-thriller-movies-twist-endings/"
+        "title": "Man Of Tomorrow Is The DCU's Empire Strikes Back",
+        "desc": "Superman actor David Corenswet teases how the upcoming Man of Tomorrow is the DC Universe's version of The Empire Strikes Back.",
+        "link": "https://screenrant.com/man-of-tomorrow-empire-strikes-back-comparison-david-corenswet-explained/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Naruto's Officially Confirmed Anime Sequel Will Revive The Franchise",
-      "summary": "Three and a half years later, Naruto fans are ready to see its big anime return unveiled this weekend.",
-      "ts": 1791154817000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/new-naruto-anime.jpg",
+      "headline": "Donald Trump Says His Political Entity Will Now Pay For TV Ads Rather Than Taxpayers",
+      "summary": "Donald Trump said that his super PAC MAGA Inc. would now pay for advertisements that the White House has run at taxpayer expense, stirring an outcry among Democrats and some Republicans. Trump posted on Truth Social on Monday, “The Radical Left is upset with the fact that I am taking Ads, which I consider to […]",
+      "ts": 1791245937000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/GettyImages-2296569840.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1009,41 +1027,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Naruto's Officially Confirmed Anime Sequel Will Revive The Franchise",
-        "desc": "Three and a half years later, Naruto fans are ready to see its big anime return unveiled this weekend.",
-        "link": "https://screenrant.com/naruto-new-anime-sequel-revive-franchise/"
+        "title": "Donald Trump Says His Political Entity Will Now Pay For TV Ads Rather Than Taxpayers",
+        "desc": "Donald Trump said that his super PAC MAGA Inc. would now pay for advertisements that the White House has run at taxpayer expense, stirring an outcry among Democrats and some Republicans. Trump posted on Truth Social on Monday, “The Radical Left is upset with the fact that I am taking Ads, which I consider to […]",
+        "link": "https://deadline.com/2026/10/trump-tv-ads-taxpayers-maga-inc-1237147451/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Star Wars Is Officially Switching Genre In New 2026 Release",
-      "summary": "Discover Star Wars: Galactic Racer, a high-stakes racing game set in the chaotic post-Empire galaxy. Launching October 6.",
-      "ts": 1791154817000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/ss_1b60e7b2fb3946c54d7263a802d6a3ae67bc27b6-1920x1080.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Star Wars Is Officially Switching Genre In New 2026 Release",
-        "desc": "Discover Star Wars: Galactic Racer, a high-stakes racing game set in the chaotic post-Empire galaxy. Launching October 6.",
-        "link": "https://screenrant.com/star-wars-switching-genres-new-galactic-racer-release/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Marvel Canceled ‘Blade,’ But the Gory Vampire Brawler ‘Half’ Will Thrill Genre Fans",
-      "summary": "Marvel mastermind Kevin Feige has made some of the shrewdest financial decisions in Hollywood history, but he sure dropped the bag when he didn’t make a new “Blade.” (Just ask would-be star Mahershala Ali.) Luckily, Indian auteur Samjad has directed a film that will bring joy to fans of the battle-ready half-vampire Wesley Snipes popularized […]",
-      "ts": 1791154800000,
-      "img": "https://variety.com/wp-content/uploads/2026/08/Half.jpg",
+      "headline": "Trump Says He’ll Pay for ‘Patriotic Ads’ Himself Following Controversy Around Taxpayer-Funded TV Spots",
+      "summary": "After controversy erupted over Donald Trump’s administration buying TV ad time (with taxpayer dollars) to air advertisements endorsing the president, Trump has now said he will fund what he calls “patriotic ads” himself. In a statement posted to Truth Social on Monday, Trump wrote: “The Radical Left is upset with the fact that I am […]",
+      "ts": 1791245096000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2280583841.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1053,9 +1050,30 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Marvel Canceled ‘Blade,’ But the Gory Vampire Brawler ‘Half’ Will Thrill Genre Fans",
-        "desc": "Marvel mastermind Kevin Feige has made some of the shrewdest financial decisions in Hollywood history, but he sure dropped the bag when he didn’t make a new “Blade.” (Just ask would-be star Mahershala Ali.) Luckily, Indian auteur Samjad has directed a film that will bring joy to fans of the battle-ready half-vampire Wesley Snipes popularized […]",
-        "link": "https://variety.com/2026/film/features/half-vampire-action-movie-india-blade-1236898106/"
+        "title": "Trump Says He’ll Pay for ‘Patriotic Ads’ Himself Following Controversy Around Taxpayer-Funded TV Spots",
+        "desc": "After controversy erupted over Donald Trump’s administration buying TV ad time (with taxpayer dollars) to air advertisements endorsing the president, Trump has now said he will fund what he calls “patriotic ads” himself. In a statement posted to Truth Social on Monday, Trump wrote: “The Radical Left is upset with the fact that I am […]",
+        "link": "https://variety.com/2026/tv/news/trump-pay-for-political-ads-himself-1236899674/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Terry Pratchett's 3-Hour Fantasy Series Has Hands Down The Best Casting Since LOTR",
+      "summary": "The Lord of the Rings is regularly lauded for its excellent casting, but an oft-forgotten Terry Pratchett adaptation comes close to matching it.",
+      "ts": 1791244817000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/a-bearded-man-aims-an-arrow-in-the-colour-of-magic.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Terry Pratchett's 3-Hour Fantasy Series Has Hands Down The Best Casting Since LOTR",
+        "desc": "The Lord of the Rings is regularly lauded for its excellent casting, but an oft-forgotten Terry Pratchett adaptation comes close to matching it.",
+        "link": "https://screenrant.com/the-color-of-magic-terry-pratchett-best-fantasy-casting/"
        }
       ]
      }
@@ -1064,36 +1082,36 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
-   "The Age",
-   "ABC News",
-   "BBC World",
-   "Fox News",
-   "The Age Federal Politics",
-   "Fox News Politics",
-   "Guardian Tech",
-   "BBC Tech",
-   "Ars Technica",
-   "Guardian AU Politics",
-   "The Age Business",
-   "The Conversation",
    "Crikey",
+   "The Age",
+   "BBC World",
+   "ABC News",
+   "Fox News",
+   "Fox News Politics",
+   "Guardian AU Politics",
+   "The Conversation",
+   "Guardian Tech",
+   "Ars Technica",
    "The Verge",
-   "Guardian AU Business",
-   "7News",
+   "The Age Business",
+   "The Age Federal Politics",
    "AFR",
-   "Fox Business",
-   "ABC Business",
-   "Deadline",
-   "Variety",
-   "ABC Sport",
+   "Guardian AU Business",
+   "BBC Tech",
    "BBC Sport",
-   "Guardian AU Sport",
+   "Fox Business",
+   "Deadline",
    "Guardian Film",
+   "Guardian AU Sport",
+   "ABC Business",
+   "7News",
+   "ABC Sport",
    "Screen Rant",
-   "SBS News",
-   "7News Sport",
    "Anime News Network",
-   "Daily Mail Australia"
+   "SBS News",
+   "Daily Mail Australia",
+   "7News Sport",
+   "Variety"
   ],
   "sourcesFailed": []
  },
@@ -1221,9 +1239,20 @@
   ],
   "anime": [
    {
+    "title": "Firefly Wedding",
+    "year": "2026",
+    "rating": 6.2,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "overview": "On the surface, Satoko has it all—she’s beautiful, the daughter of a nobleman, and at a prime age for marriage. Unfortunately, she is also quite ill and only has a short time left to live.…",
+    "released": "2026-10-09"
+   },
+   {
     "title": "The Lonely Snow Widow and the Cursed Ring",
     "year": "2026",
-    "rating": 5.8,
+    "rating": 5.9,
     "genres": [
      "Hentai",
      "Supernatural"
@@ -1232,9 +1261,21 @@
     "released": "2026-10-05"
    },
    {
+    "title": "From Far Away",
+    "year": "2026",
+    "rating": 5.9,
+    "genres": [
+     "Adventure",
+     "Fantasy",
+     "Romance"
+    ],
+    "overview": "On her way home from school one day, Noriko is unexpectedly plunged into a strange and extraordinary fantasy world. Her troubles compound exponentially when she is rescued and befriended by a handsome young man by the name of Izark.…",
+    "released": "2026-10-05"
+   },
+   {
     "title": "Ranma1/2 (2024) Season 3",
     "year": "2026",
-    "rating": 7.3,
+    "rating": 7.5,
     "genres": [
      "Action",
      "Comedy",
@@ -1244,49 +1285,25 @@
     "released": "2026-10-04"
    },
    {
-    "title": "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+    "title": "TANK CHAIR",
     "year": "2026",
-    "rating": 5.9,
+    "rating": 5.8,
     "genres": [
      "Action",
-     "Adventure",
-     "Fantasy"
+     "Sci-Fi"
     ],
-    "overview": "If there's one thing you can never have enough of in a world of RPG-style swords and sorcery, it's magic points! Whether you're fueling spells, techniques, or showing off an incred…",
+    "overview": "Shizuka takes on the most dangerous of assassin jobs, but she's not the one doing the killing. Rather, it's her brother, Nagi, a strong assassin who took a bullet to protect his si…",
     "released": "2026-10-04"
-   },
-   {
-    "title": "Even the Student Council Has Its Holes!",
-    "year": "2026",
-    "rating": 7.2,
-    "genres": [
-     "Comedy",
-     "Ecchi",
-     "Slice of Life"
-    ],
-    "overview": "This is Fujinasu Academy, a private high school with top-achieving students located on the outskirts of town.",
-    "released": "2026-10-04"
-   },
-   {
-    "title": "Firefly Wedding",
-    "year": "2026",
-    "rating": null,
-    "genres": [
-     "Drama",
-     "Romance"
-    ],
-    "overview": "On the surface, Satoko has it all—she’s beautiful, the daughter of a nobleman, and at a prime age for marriage. Unfortunately, she is also quite ill and only has a short time left to live.…",
-    "released": "2026-10-09"
    }
   ]
  },
  "wotd": {
-  "word": "coruscate",
+  "word": "heliotrope",
   "phonetic": "",
-  "pos": "Verb",
-  "def": "To give off light; to reflect in flashes; to sparkle.",
+  "pos": "Noun",
+  "def": "A plant with flowers which turn to face and follow the sun, such as marigolds and sunflowers.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/LL-Q1860_%28eng%29-Vealhurl-coruscate.wav/LL-Q1860_%28eng%29-Vealhurl-coruscate.wav.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/LL-Q1860_%28eng%29-Vealhurl-heliotrope.wav/LL-Q1860_%28eng%29-Vealhurl-heliotrope.wav.mp3"
  },
  "commGames": null,
  "deals": [
@@ -1411,5 +1428,7 @@
    "ts": 1791096025000
   }
  ],
- "carried": {}
+ "carried": {
+  "deals": "2026-10-06T00:24:28.893Z"
+ }
 }
