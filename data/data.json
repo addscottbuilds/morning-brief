@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T23:37:35.736Z",
+ "generatedAt": "2026-10-07T23:55:09.422Z",
  "markets": {
   "items": [
    {
@@ -7,40 +7,40 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8698.8,
-    "chgPct": -0.4224068418957538,
+    "price": 8697.8,
+    "chgPct": -0.4338541211938299,
     "high52": 9296.7,
-    "off52": -6.431314337345524
+    "off52": -6.442070842341921
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.47,
-    "chgPct": -0.21675068922168472,
+    "price": 87.46,
+    "chgPct": -0.22815840035816914,
     "high52": 87.58,
-    "off52": -0.12559945192966365
+    "off52": -0.13701758392327534
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 145.08,
-    "chgPct": -0.4391992968307665,
+    "price": 145.17,
+    "chgPct": -0.3774370135161626,
     "high52": 155.03,
-    "off52": -6.418112623363213
+    "off52": -6.3600593433529085
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 65.15,
-    "chgPct": 0.01535248763474414,
-    "high52": 65.17,
-    "off52": -0.0306889673162437
+    "price": 65.17,
+    "chgPct": 0.0460555889356236,
+    "high52": 65.18,
+    "off52": -0.015342129487580722
    },
    {
     "sym": "SEMI.AX",
@@ -57,15 +57,31 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6965,
-    "chgPct": -0.24065401348185572,
+    "price": 0.6963,
+    "chgPct": -0.2692999132626187,
     "high52": 0.7277,
-    "off52": -4.287481104850901
+    "off52": -4.314964958087121
    }
   ],
   "failed": [],
   "note": "SEMI is 15% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 15.52,
+    "currency": "AUD",
+    "chgPct": -3.060588518905092
+   },
+   {
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
+    "market": "ASX",
+    "price": 161.9,
+    "currency": "AUD",
+    "chgPct": -2.9027260007871867
+   },
    {
     "sym": "LLY",
     "name": "Eli Lilly",
@@ -73,14 +89,6 @@
     "price": 1188.72,
     "currency": "USD",
     "chgPct": 2.698080331502599
-   },
-   {
-    "sym": "RIO.AX",
-    "name": "Rio Tinto",
-    "market": "ASX",
-    "price": 162.37,
-    "currency": "AUD",
-    "chgPct": -2.6208500355022584
    }
   ]
  },
@@ -93,10 +101,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-      "summary": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
-      "ts": 1791411099000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d466/live/028c9160-c28d-11f1-81d9-d568e8babc26.jpg",
+      "headline": "South Africa secure advantage in exclusive pitch training ahead of first Test with Australia",
+      "summary": "If the Aussies thought the hosts were going to play nice, reality has very much set in.",
+      "ts": 1791417086000,
+      "img": "https://images.7news.com.au/publication/C-22984860/fec9cbde4ddb4e19adbfcc14fdd9590851ad2ba2-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -104,18 +112,53 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Our cameras will be sharp’: Ball-tampering scandal used to promote Test series in South Africa",
+        "desc": "While the Australians have attempted to downplay the seismic events of 2018 in their first Test tour of South Africa since the ball tampering scandal, the episode has not been forgotten by the South African broadcaster.",
+        "link": "https://www.theage.com.au/sport/cricket/our-cameras-will-be-sharp-ball-tampering-scandal-used-to-promote-test-series-in-south-africa-20261008-p613ru.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "South Africa secure advantage in exclusive pitch training ahead of first Test with Australia",
+        "desc": "If the Aussies thought the hosts were going to play nice, reality has very much set in.",
+        "link": "https://7news.com.au/sport/cricket/south-africa-secure-advantage-in-exclusive-pitch-training-ahead-of-first-test-with-australia-c-22984860"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Aussies hit back at ex-players in build-up to first South Africa Test",
+        "desc": "Travis Head accuses former Australian players of levelling unfair criticism at the current Test squad, saying the game has changed significantly since they played.",
+        "link": "https://www.abc.net.au/news/2026-10-08/australia-south-africa-first-test-durban-travis-head/107241292"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "'I chose life': Survivors and supporters mark third anniversary of October 7 attacks",
+      "summary": "Thousands have gathered across the world to reflect and remember one of Israel's darkest days.",
+      "ts": 1791415605000,
+      "img": "https://assets.sbs.com.au/dims4/default/4f8d80b/2147483647/strip/false/crop/9192x4224+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fbb%2Fbf%2F3d92ab2f42b6b00d129367c09376%2F20261007127027988299-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Terror group's flag is waved in Sydney at radical pro-Palestine rally held on the anniversary of the Hamas attacks on Israel",
+        "desc": "Dozens of people gathered in Sydney on Wednesday night for the event organised by Jews Against the Occupation '48.",
+        "link": "https://www.dailymail.com/news/article-16191569/sydney-palestine-vigil-hamas-sinwar-terror-flag.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
         "outlet": "Fox News",
         "lean": "right",
         "title": "Anti-Israel groups rally across US on October 7 anniversary, chanting 'long live the intifada'",
         "desc": "Anti-Israel groups chanted \"long live the intifada\" and celebrated the Hamas attack as October 7 anniversary protests swept across the country.",
         "link": "https://www.foxnews.com/politics/anti-israel-groups-rally-across-us-october-7-anniversary-chanting-long-live-intifada"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-        "desc": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
-        "link": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "SBS News",
@@ -127,7 +170,7 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "Aussie cricket’s generational divide opens up again as Travis Head accuses golden generation of ‘unfair’ criticism",
       "summary": "A ‘sticky situation’ has reared its ugly head on the eve of the first Test in South Africa.",
       "ts": 1791408340000,
@@ -162,7 +205,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "LIV Golf loses star over 'unacceptable' terms",
       "summary": "As it ​fights to emerge from bankruptcy, LIV Golf learns one of its major drawcards intends to leave the breakaway circuit.",
       "ts": 1791408312000,
@@ -197,10 +240,10 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "Prominent Sydney Indigenous leader arrested over child sex allegations",
       "summary": "Mick Mundine, chief executive of the Aboriginal Housing Company, has been arrested over allegations of historical child sexual offences involving a 15-year-old girl.",
-      "ts": 1791415816000,
+      "ts": 1791416929000,
       "img": "https://static.ffx.io/images/$zoom_1.059%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/aa5b63ead24ee90a10b0e5cd54d0ae59ff856da8",
       "divergent": null,
       "left_view": null,
@@ -225,67 +268,39 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "Former Venezuelan president Nicolás Maduro could face new torture charges",
-      "summary": "Nicolás Maduro and his wife Cilia Flores are being held in a New York prison on drug trafficking charges, with their trial expected to begin in June.",
-      "ts": 1791415733000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/46e52aef02c194846532c1a570513a41?impolicy=wcms_crop_resize&cropH=720&cropW=1280&xPos=0&yPos=63&width=862&height=485",
+      "id": 5,
+      "headline": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
+      "summary": "The Ukrainian president had warned that intelligence services had determined Russia was preparing for a \"massive\" strike.",
+      "ts": 1791416711000,
+      "img": "https://assets.sbs.com.au/dims4/default/4311e80/2147483647/strip/false/crop/5000x2297+0+321/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe5%2Fb4%2F546031a64f20be94918c03e46e98%2Frussia-ukraine-war.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Former Venezuelan president Nicolás Maduro could face new torture charges",
-        "desc": "Nicolás Maduro and his wife Cilia Flores are being held in a New York prison on drug trafficking charges, with their trial expected to begin in June.",
-        "link": "https://www.abc.net.au/news/2026-10-08/torture-charges-expected-for-nicol%C3%A1s-maduro/107241718"
-       },
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Nicolás Maduro and his wife expected to face new charges related to alleged torture of Americans",
-        "desc": "Former Venezuelan President Nicolas Maduro and wife Cilia Flores face new charges tied to alleged torture of Americans in Manhattan court Thursday.",
-        "link": "https://www.foxnews.com/politics/nicolas-maduro-his-wife-expected-face-new-charges-related-alleged-torture-americans"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Live: Labor views split over ATO decision to stop accepting credit card payments",
-      "summary": "Andrew Charlton says the government supports the tax office's decision to stop accepting credit card payments despite the housing minister saying Labor has \"real concerns\". Follow live.",
-      "ts": 1791415619000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/176938ec4f9b536625102abea96d5cc9?impolicy=wcms_crop_resize&cropH=3274&cropW=5821&xPos=0&yPos=1&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "ATO stands firm on credit card surcharges",
-        "desc": "The Australian Tax Office is standing firm on its decision to ban credit cards for tax payments.",
-        "link": "https://www.theage.com.au/national/ato-stands-firm-on-credit-card-surcharges-20261008-p613tj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Driver opens fire on strangers along major US interstate, tells cops he ‘had to kill people today’",
+        "desc": "Andrew Darrick Tanaka allegedly told police \"I had to kill people today\" after opening fire on vehicles along Interstate 35 in Warren County.",
+        "link": "https://www.foxnews.com/us/driver-opens-fire-strangers-major-us-interstate-tells-cops-had-kill-people-today"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Live: Labor views split over ATO decision to stop accepting credit card payments",
-        "desc": "Andrew Charlton says the government supports the tax office's decision to stop accepting credit card payments despite the housing minister saying Labor has \"real concerns\". Follow live.",
-        "link": "https://www.abc.net.au/news/2026-10-08/federal-politics-live-blog-ato-surcharge-oct-8/107240250"
+        "title": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
+        "desc": "The Ukrainian president had warned that intelligence services had determined Russia was preparing for a \"massive\" strike.",
+        "link": "https://www.sbs.com.au/news/article/russian-strikes-on-ukraine-kill-at-least-25-in-a-major-attack/vye3uk52v"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Australia’s ‘Roo-ver’ takes next step towards moon mission in Queensland space exploration tests",
-      "summary": "The suitcase-sized vehicle could help pave the way for a permanent human presence beyond Earth.",
-      "ts": 1791414819000,
-      "img": "https://images.7news.com.au/publication/C-22983030/da7aef4d14ed073b216bf834266e3fc761445dab-16x9-x0y0w1920h1080.jpg",
+      "headline": "Marlon Humphrey says meeting President Trump inspired him to vote in the next election",
+      "summary": "Marlon Humphrey rode in Trump's presidential motorcade near Baltimore and says the experience has inspired him to vote for the first time ever.",
+      "ts": 1791415960000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/trump-baltimore-ravens-sparrows-point.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -295,16 +310,16 @@
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Jeff Bezos reveals his vision for America's next frontier — from AI to the moon",
-        "desc": "Blue Origin's Jeff Bezos unveiled plans for orbital data centers, a sustainable lunar base and launching rockets every minute from Cape Canaveral.",
-        "link": "https://www.foxnews.com/media/jeff-bezos-reveals-his-vision-americas-next-frontier-ai-moon"
+        "title": "Marlon Humphrey says meeting President Trump inspired him to vote in the next election",
+        "desc": "Marlon Humphrey rode in Trump's presidential motorcade near Baltimore and says the experience has inspired him to vote for the first time ever.",
+        "link": "https://www.foxnews.com/outkick-sports/marlon-humphrey-meeting-president-trump-inspired-vote-next-election"
        },
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Australia’s ‘Roo-ver’ takes next step towards moon mission in Queensland space exploration tests",
-        "desc": "The suitcase-sized vehicle could help pave the way for a permanent human presence beyond Earth.",
-        "link": "https://7news.com.au/technology/australias-roo-ver-takes-next-step-towards-moon-mission-in-queensland-space-exploration-tests-c-22983030"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "European Parliament's 'Orange Plague' insult to Trump: Statue depicting obese, naked president is put on display",
+        "desc": "The statue titled the 'Orange Plague' (pictured) depicts US President Donald Trump overweight and naked holding a long gold club and sitting on the shoulders of a shorter man.",
+        "link": "https://www.dailymail.com/news/article-16189127/Statue-obese-naked-Donald-Trump-European-Parliament-Orange-Plague.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -539,10 +554,10 @@
      },
      {
       "id": 16,
-      "headline": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
-      "summary": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is the third vehicle to be released on BMW's next-generation Neue ",
-      "ts": 1791410460000,
-      "img": null,
+      "headline": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+      "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+      "ts": 1791417029000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e42/live/60b35020-c25c-11f1-a64c-550be9e3c66b.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -550,16 +565,37 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
-        "desc": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is the third vehicle to be released on BMW's next-generation Neue ",
-        "link": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china"
+        "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+        "desc": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+        "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 17,
+      "headline": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+      "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+      "ts": 1791410202000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/greatwave-1152x648.webp",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+        "desc": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
+        "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/"
+       }
+      ]
+     },
+     {
+      "id": 18,
       "headline": "Teenage Engineering’s CEO says it’ll stop making synths",
       "summary": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything the company makes itself - the OP-1, the OP-XY, EP-133, TP",
       "ts": 1791407994000,
@@ -576,27 +612,6 @@
         "title": "Teenage Engineering’s CEO says it’ll stop making synths",
         "desc": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything the company makes itself - the OP-1, the OP-XY, EP-133, TP",
         "link": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Android’s physical navigation buttons are back on Googlebooks, but not the way you think",
-      "summary": "What year is it, and what dessert name of Android are we up to? | Photo: Antonio G. Di Benedetto / The Verge A common misconception I've seen with Googlebooks is that the Quick Insert and Google logo keys are new. They're not, as they first debuted a couple of years ago on some Chromebooks. But there is something new for Googlebooks that's ripped straight from Android phones circa 2014. On every G",
-      "ts": 1791405874000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Android’s physical navigation buttons are back on Googlebooks, but not the way you think",
-        "desc": "What year is it, and what dessert name of Android are we up to? | Photo: Antonio G. Di Benedetto / The Verge A common misconception I've seen with Googlebooks is that the Quick Insert and Google logo keys are new. They're not, as they first debuted a couple of years ago on some Chromebooks. But there is something new for Googlebooks that's ripped straight from Android phones circa 2014. On every G",
-        "link": "https://www.theverge.com/tech/1007409/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-the-way-you-think"
        }
       ]
      }
@@ -720,10 +735,10 @@
      },
      {
       "id": 23,
-      "headline": "Pockets of pain: Outer Sydney, Melbourne hit hardest by rate rises",
-      "summary": "Younger buyers and those who bought properties at the height of the market are at significantly greater risk of falling behind on mortgages, S&P warns.",
-      "ts": 1791416182000,
-      "img": "https://static.ffx.io/images/$zoom_0.1964%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_109/t_crop_custom/q_86%2Cf_auto/d4166e93e5786905ffb2da5dc7da927a192a49b3",
+      "headline": "France just set the bond market on fire again",
+      "summary": "Fears that the country’s debt crisis could spread across global markets are getting more real. And there are no easy solutions.",
+      "ts": 1791417088000,
+      "img": "https://static.ffx.io/images/$zoom_0.25484230324074075%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_676%2C$y_155/t_crop_custom/q_86%2Cf_auto/d9579611a37ccf274ad7b8e0e08780e2556c806d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -733,18 +748,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Pockets of pain: Outer Sydney, Melbourne hit hardest by rate rises",
-        "desc": "Younger buyers and those who bought properties at the height of the market are at significantly greater risk of falling behind on mortgages, S&P warns.",
-        "link": "https://www.afr.com/property/residential/suburban-sydney-and-melbourne-groan-under-the-pain-of-rising-rates-20261008-p6139d?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "France just set the bond market on fire again",
+        "desc": "Fears that the country’s debt crisis could spread across global markets are getting more real. And there are no easy solutions.",
+        "link": "https://www.afr.com/chanticleer/france-just-set-the-bond-market-on-fire-again-20261008-p613sy?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "ASX opens lower as materials plunge; Maas dives 25pc",
-      "summary": "Shares drop on the open as materials shed 2pc; US bonds rebound after 10-yr auction; Maas shares dive 25pc at the open. Follow live.",
-      "ts": 1791416111000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/32437f5c8bfd2415073fd80dd4a01c4703486a1ff5b291a29ca1a62bfda7c344",
+      "headline": "How the global bond sell-off hits your share portfolio",
+      "summary": "From sticky inflation to the AI boom, global forces are pushing bond yields up – and shaking share portfolios in the process.",
+      "ts": 1791417047000,
+      "img": "https://static.ffx.io/images/$zoom_0.3603133101851852%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_47%2C$y_56/t_crop_custom/q_86%2Cf_auto/02ef396682f54f21737a8ac1b43f3676052056acec652a5179f30b2120100974",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -754,9 +769,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX opens lower as materials plunge; Maas dives 25pc",
-        "desc": "Shares drop on the open as materials shed 2pc; US bonds rebound after 10-yr auction; Maas shares dive 25pc at the open. Follow live.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-drop-global-bond-yields-surge-anew-20261008-p613pn?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "How the global bond sell-off hits your share portfolio",
+        "desc": "From sticky inflation to the AI boom, global forces are pushing bond yields up – and shaking share portfolios in the process.",
+        "link": "https://www.afr.com/wealth/personal-finance/how-the-global-bond-sell-off-hits-your-share-portfolio-20261008-p612v2?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -984,10 +999,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Carrie Series' Stephen King Book Ending Changes & Season 2 Story Setup Clarified By Mike Flanagan And Cast",
-      "summary": "Exclusive: Mike Flanagan and his Carrie cast break down the series' ending, changes from Stephen King's book and how it sets up a season 2.",
-      "ts": 1791413501000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/summer-h.jpg",
+      "headline": "Loki Star Addresses Avengers: Doomsday Return Status After New TVA Post-Credits Scene",
+      "summary": "Exclusive: Following Avengers Endgame: Encore's release, one of Loki's actors has commented on whether they'll be in Avengers: Doomsday.",
+      "ts": 1791417092000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/loki_ltj92p.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -997,9 +1012,65 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Carrie Series' Stephen King Book Ending Changes & Season 2 Story Setup Clarified By Mike Flanagan And Cast",
-        "desc": "Exclusive: Mike Flanagan and his Carrie cast break down the series' ending, changes from Stephen King's book and how it sets up a season 2.",
-        "link": "https://screenrant.com/carrie-finale-book-changes-season-2-setup-mike-flanagan-summer-howell-amber-midthunder/"
+        "title": "Loki Star Addresses Avengers: Doomsday Return Status After New TVA Post-Credits Scene",
+        "desc": "Exclusive: Following Avengers Endgame: Encore's release, one of Loki's actors has commented on whether they'll be in Avengers: Doomsday.",
+        "link": "https://screenrant.com/avengers-doomsday-hunter-b15-return-status-wunmi-mosaku/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘You Can See Everything’: Elizabeth Holmes Docu Presales At Alamo Drafthouse A Record For A24 Film & No. 2 Behind ‘Avengers: Doomsday’",
+        "desc": "EXCLUSIVE: You Can See Everything, A24’s documentary about fallen Theranos founder Elizabeth Holmes and her days before going to federal prison, is a hot ticket at Alamo Drafthouse. So hot that presales for the doc directed by Lance Oppenheim and Nathan Fielder are the highest of any A24 title and any documentary that has played […]",
+        "link": "https://deadline.com/2026/10/you-can-see-everything-avengers-doomsday-presales-alamo-1237149411/"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "‘Marshals’ Star Luke Grimes Says He Hasn’t Spoken to ‘Yellowstone’ Co-Star Kevin Costner ‘Since We Stopped Working Together’",
+      "summary": "Kevin Costner and Luke Grimes may have played a father-son duo on-screen in “Yellowstone,” but off-screen, the two actors haven’t spoken since Taylor Sheridan’s Western drama concluded. “I’ve never spoken to Kevin since we stopped working together,” Grimes, who now stars in the “Yellowstone” spin-off “Marshals,” said in a recent interview with USA Today. “Not […]",
+      "ts": 1791416612000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/TCDYELL_PT005.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Marshals’ Star Luke Grimes Says He Hasn’t Spoken to ‘Yellowstone’ Co-Star Kevin Costner ‘Since We Stopped Working Together’",
+        "desc": "Kevin Costner and Luke Grimes may have played a father-son duo on-screen in “Yellowstone,” but off-screen, the two actors haven’t spoken since Taylor Sheridan’s Western drama concluded. “I’ve never spoken to Kevin since we stopped working together,” Grimes, who now stars in the “Yellowstone” spin-off “Marshals,” said in a recent interview with USA Today. “Not […]",
+        "link": "https://variety.com/2026/tv/news/marshals-luke-grimes-kevin-costner-yellowstone-1236905016/"
+       },
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Marshals Season 2's Major Returning Star Originally Wanted His Yellowstone Character Killed Off",
+        "desc": "EXCLUSIVE: Several characters almost didn’t make it to Marshals season 2, and one cast member makes a shocking revelation about his fate.",
+        "link": "https://screenrant.com/yellowstone-marshals-season-2-cal-killed-logan-marshall-green-wanted/"
+       }
+      ]
+     },
+     {
+      "id": 33,
+      "headline": "Mark Hamill's New Stephen King Horror Series Cameo Detailed By Mike Flanagan",
+      "summary": "Exclusive: Mike Flanagan details how he got Mark Hamill for a sneaky cameo in his new Stephen King horror series and how it continues a trend.",
+      "ts": 1791416525000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/ec9f3132-8a2d-40bd-b87b-989f61dd0620.jpeg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Mark Hamill's New Stephen King Horror Series Cameo Detailed By Mike Flanagan",
+        "desc": "Exclusive: Mike Flanagan details how he got Mark Hamill for a sneaky cameo in his new Stephen King horror series and how it continues a trend.",
+        "link": "https://screenrant.com/mark-hamill-stephen-king-carrie-series-cameo-mike-flanagan-details/"
        },
        {
         "outlet": "Deadline",
@@ -1011,7 +1082,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 34,
       "headline": "‘Ted Lasso’: Brendan Hunt Breaks Down Season 4 Finale, “Passing The Torch” Moment, Coaching Team Shakeup & Who May Be Leaving Amid Renewal Buzz",
       "summary": "SPOILER ALERT: The story includes details about the Season 4 finale of Apple TV’s Ted Lasso, titled “Being Alive.” If you thought the penultimate episode of Ted Lasso was packed with Mae’s shocking death, Keeley’s (Juno Temple) surprise pregnancy and Zelda’s (Tracey Ullman) unexpected (for some) deceit, you’d better buckled up for the finale. The […]",
       "ts": 1791412861000,
@@ -1039,7 +1110,7 @@
       ]
      },
      {
-      "id": 33,
+      "id": 35,
       "headline": "Miles Teller to Be Honored by Newport Beach Film Festival (EXCLUSIVE)",
       "summary": "Miles Teller will be honored with the Artist of Distinction Award at the Newport Beach Film Festival. He will be presented with the recognition at the fest’s annual Honors ceremony on Oct. 18. “Miles Teller brings extraordinary dedication to every role he takes on,” Newport Beach Film Festival CEO and executive director Gregg Schwenk said. […]",
       "ts": 1791411593000,
@@ -1067,39 +1138,11 @@
       ]
      },
      {
-      "id": 34,
-      "headline": "PlayStation to Launch New Crunchyroll Anime Hub for PS5",
-      "summary": "Sony’s PlayStation will launch a new Crunchyroll anime hub within its PlayStation 5 gaming console’s home screen next year to more closely align the company’s anime projects and anime-inspired games. Launching in spring 2027, the new PS5 anime destination is “designed to make it easier for the PlayStation community to discover and explore the anime […]",
-      "ts": 1791408600000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/PS5-Crunchyroll.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "PlayStation to Launch New Crunchyroll Anime Hub for PS5",
-        "desc": "Sony’s PlayStation will launch a new Crunchyroll anime hub within its PlayStation 5 gaming console’s home screen next year to more closely align the company’s anime projects and anime-inspired games. Launching in spring 2027, the new PS5 anime destination is “designed to make it easier for the PlayStation community to discover and explore the anime […]",
-        "link": "https://variety.com/2026/gaming/news/playstation-ps5-new-crunchyroll-anime-hub-1236904550/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Sony Pictures Entertainment Launches Crunchyroll Storyworks Division for Anime, Live-Action Adaptations",
-        "desc": "Crunchyroll's new division to work with Japanese creators, provide projects for HAYATE venture",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-07/sony-pictures-entertainment-launches-crunchyroll-storyworks-division-for-anime-live-action-/.242593"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "‘Other Mommy’ To Cook Up $20M Opening, ‘Social Reckoning’ Won’t Have Many Friends – U.S. Box Office Preview",
-      "summary": "With potential MLB playoff games this weekend in addition to the NFL in full swing, the majors have booked the upcoming box office weekend adequately without any mega-tentpole fare, instead offering lower-budget pics aimed at specific demos. Sometimes during the tricky days of early October, studios will go with a tentpole and watch a film […]",
-      "ts": 1791403854000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Other-Mommy-The-Social-Reckoning.jpg",
+      "id": 36,
+      "headline": "SiriusXM Reaffirms Commitment To Comics “At Every Stage Of Their Careers,” Says Raw Comedy Decision Predated Maniscalco’s Arrival",
+      "summary": "EXCLUSIVE: SiriusXM has reframed its statement on the viral Raw Dog Comedy debacle amid ongoing fallout with comics online. A spokesperson tells Deadline in an exclusive statement, “SiriusXM has proudly supported the comedy community, and we have been listening to comedians speak out this week. Our decision to end Raw Comedy was due to the […]",
+      "ts": 1791417003000,
+      "img": "https://deadline.com/wp-content/uploads/2026/04/26-2215-sebastian-maniscalcos-comedy-radio-logo-app_16x9-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1109,37 +1152,9 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Other Mommy’ To Cook Up $20M Opening, ‘Social Reckoning’ Won’t Have Many Friends – U.S. Box Office Preview",
-        "desc": "With potential MLB playoff games this weekend in addition to the NFL in full swing, the majors have booked the upcoming box office weekend adequately without any mega-tentpole fare, instead offering lower-budget pics aimed at specific demos. Sometimes during the tricky days of early October, studios will go with a tentpole and watch a film […]",
-        "link": "https://deadline.com/2026/10/box-office-other-mommy-social-reckoning-projection-1237149247/"
-       },
-       {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "The Social Reckoning review – Aaron Sorkin’s jittery sequel with all-new evil puppet Zuckerberg",
-        "desc": "Jeremy Strong’s slow-talking Facebook founder turns into a cameo, background to a thriller about a whistleblower that somehow never mentions Trump Here is a film for all those people who solemnly deplore social media in conversation but haven’t quite got round to deleting their accounts. Sixteen years have gone by since The Social Network, written by Aaron Sorkin and directed by David Fincher; thi",
-        "link": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-review-aaron-sorkin-jeremy-strong-mikey-madison"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Charlamagne tha God on Mental Health, Social Media and Prioritizing Real-Life Connection: ‘You Got to Constantly Weed Out Your Garden’",
-      "summary": "Once dubbed “hip-hop’s Howard Stern” by Rolling Stone, Charlamagne tha God has built a career as a prolific radio host, television presenter and mental health advocate. Charlamagne has co-hosted the nationally syndicated radio show “The Breakfast Club” since 2010. He and his fellow hosts were inducted into the Radio Hall of Fame in 2020 for […]",
-      "ts": 1791416121000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/KBZ_0259.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Charlamagne tha God on Mental Health, Social Media and Prioritizing Real-Life Connection: ‘You Got to Constantly Weed Out Your Garden’",
-        "desc": "Once dubbed “hip-hop’s Howard Stern” by Rolling Stone, Charlamagne tha God has built a career as a prolific radio host, television presenter and mental health advocate. Charlamagne has co-hosted the nationally syndicated radio show “The Breakfast Club” since 2010. He and his fellow hosts were inducted into the Radio Hall of Fame in 2020 for […]",
-        "link": "https://variety.com/2026/biz/news/charlamagne-tha-god-mental-health-real-life-connection-1236904652/"
+        "title": "SiriusXM Reaffirms Commitment To Comics “At Every Stage Of Their Careers,” Says Raw Comedy Decision Predated Maniscalco’s Arrival",
+        "desc": "EXCLUSIVE: SiriusXM has reframed its statement on the viral Raw Dog Comedy debacle amid ongoing fallout with comics online. A spokesperson tells Deadline in an exclusive statement, “SiriusXM has proudly supported the comedy community, and we have been listening to comedians speak out this week. Our decision to end Raw Comedy was due to the […]",
+        "link": "https://deadline.com/2026/10/siriusxm-new-statement-raw-dog-sebastian-maniscalco-1237149547/"
        }
       ]
      }
@@ -1147,37 +1162,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "Guardian Australia",
-   "The Age",
-   "BBC World",
-   "ABC News",
-   "Fox News",
    "Guardian Tech",
-   "Ars Technica",
-   "Fox News Politics",
-   "The Conversation",
-   "Guardian AU Politics",
-   "The Age Federal Politics",
-   "The Verge",
+   "Guardian Australia",
+   "BBC World",
    "BBC Tech",
-   "Guardian AU Business",
+   "The Age",
+   "ABC News",
+   "The Conversation",
+   "The Age Federal Politics",
+   "Ars Technica",
+   "AFR",
+   "The Verge",
    "Fox Business",
-   "The Age Business",
+   "Fox News",
+   "Guardian AU Politics",
+   "Deadline",
    "Variety",
    "BBC Sport",
-   "Deadline",
-   "AFR",
-   "ABC Business",
+   "Fox News Politics",
+   "7News",
+   "Guardian AU Business",
    "Guardian AU Sport",
+   "The Age Business",
+   "ABC Business",
    "ABC Sport",
+   "Screen Rant",
    "Guardian Film",
    "Anime News Network",
-   "Screen Rant",
-   "7News Sport",
-   "SBS News",
    "Daily Mail Australia",
-   "7News"
+   "7News Sport",
+   "Crikey",
+   "SBS News"
   ],
   "sourcesFailed": []
  },
@@ -1391,7 +1406,7 @@
   {
    "title": "AliExpress: 23% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/978046",
-   "votes": 181,
+   "votes": 182,
    "neg": 0,
    "category": "Other",
    "ts": 1791352957000
@@ -1407,7 +1422,7 @@
   {
    "title": "$20 off Minimum $200 Spend @ Coles Online",
    "link": "https://www.ozbargain.com.au/node/978044",
-   "votes": 98,
+   "votes": 99,
    "neg": 0,
    "category": "Groceries",
    "ts": 1791352560000
@@ -1415,7 +1430,7 @@
   {
    "title": "[PC, Steam] Free - Hex Reverse @ Steam",
    "link": "https://www.ozbargain.com.au/node/978079",
-   "votes": 94,
+   "votes": 95,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791366450000
@@ -1423,7 +1438,7 @@
   {
    "title": "nbn 500/50 $69/M for 6 Months, $10/M SubHub Streaming Credit, 34,000 Flybuys Points After 3 Months (New Customers) @ Optus",
    "link": "https://www.ozbargain.com.au/node/978039",
-   "votes": 83,
+   "votes": 86,
    "neg": 0,
    "category": "Internet",
    "ts": 1791350919000
@@ -1439,7 +1454,7 @@
   {
    "title": "[PC, Mac, Steam] Free - Spooky Cats (Newsletter Subscription & Unlimited Steam Account Required) @ Fanatical",
    "link": "https://www.ozbargain.com.au/node/978083",
-   "votes": 69,
+   "votes": 70,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791367371000
@@ -1447,7 +1462,7 @@
   {
    "title": "KB's Raw Prawns, Tail On, Large, 500g $12.00 (Was $24.00, 50% off) @ Coles",
    "link": "https://www.ozbargain.com.au/node/978048",
-   "votes": 70,
+   "votes": 71,
    "neg": 1,
    "category": "Groceries",
    "ts": 1791356447000
@@ -1455,7 +1470,7 @@
   {
    "title": "OnePass Mobile 350GB (200GB + 150GB Bonus) 12-Month Plan $139 + Free OnePass Membership @ OnePass Mobile",
    "link": "https://www.ozbargain.com.au/node/978037",
-   "votes": 69,
+   "votes": 70,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791350766000
@@ -1463,7 +1478,7 @@
   {
    "title": "Tostitos Mexican Salsa/Lime Salsa Chips 165g $2.60 ($2.34 Sub & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/978042",
-   "votes": 41,
+   "votes": 43,
    "neg": 0,
    "category": "Groceries",
    "ts": 1791352250000
@@ -1479,18 +1494,18 @@
   {
    "title": "DampRid 3.4kg Moisture Absorber Super Refill $13.90 ($12.51 Sub & Save) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/978115",
-   "votes": 34,
+   "votes": 37,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1791409990000
   },
   {
-   "title": "Apple iPhone 17 Pro 256GB (All Colours) $1699 + Del ($0 to Metro/ OnePass/ C&C/ in Select Stores) @ Officeworks",
-   "link": "https://www.ozbargain.com.au/node/978112",
-   "votes": 31,
+   "title": "SanDisk 64GB Extreme SDXC Memory Card $20 (C&C/in Store Only) @ Officeworks",
+   "link": "https://www.ozbargain.com.au/node/978114",
+   "votes": 34,
    "neg": 0,
-   "category": "Mobile",
-   "ts": 1791406515000
+   "category": "Electrical & Electronics",
+   "ts": 1791409772000
   }
  ],
  "carried": {}
