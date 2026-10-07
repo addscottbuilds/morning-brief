@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-06T23:23:39.522Z",
+ "generatedAt": "2026-10-07T00:03:59.507Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8731,
-    "chgPct": 0.513441786808897,
+    "price": 8732.3,
+    "chgPct": 0.5284077098787375,
     "high52": 9296.7,
-    "off52": -6.0849548764615475
+    "off52": -6.07097141996624
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.72,
-    "chgPct": 0.44657982453703254,
+    "price": 87.67,
+    "chgPct": 0.3893257320697895,
     "high52": 87.72,
-    "off52": 0
+    "off52": -0.05699954400364473
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 145.72,
-    "chgPct": -0.0959828669722547,
+    "price": 145.7,
+    "chgPct": -0.10969464533254553,
     "high52": 155.03,
-    "off52": -6.005289298845386
+    "off52": -6.018190027736575
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 65.09,
-    "chgPct": 0.3546089847118092,
-    "high52": 65.1,
-    "off52": -0.015360983102904617
+    "price": 65.08,
+    "chgPct": 0.33919116185349557,
+    "high52": 65.11,
+    "off52": -0.04607587160190622
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 40.64,
-    "chgPct": -0.09832916636112064,
+    "price": 40.6,
+    "chgPct": -0.19665758253595997,
     "high52": 47.78,
-    "off52": -14.943491000418586
+    "off52": -15.027208036835496
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6983,
-    "chgPct": 0.2253272514753205,
+    "price": 0.6985,
+    "chgPct": 0.25403277267006896,
     "high52": 0.7277,
-    "off52": -4.040126425724884
+    "off52": -4.012642572488663
    }
   ],
   "failed": [],
@@ -73,6 +73,14 @@
     "price": 375.81,
     "currency": "USD",
     "chgPct": 3.668861514465186
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 380.68,
+    "currency": "USD",
+    "chgPct": 2.7226864626182947
    }
   ]
  },
@@ -85,6 +93,146 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Crew missing after drone strike sinks commercial ship in the Black Sea",
+      "summary": "Ukraine has accused Russia of the drone attack on the two vessels near Bulgaria, raising fears of a widening conflict.",
+      "ts": 1791330147000,
+      "img": "https://assets.sbs.com.au/dims4/default/fe3d4ad/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Ffb%2F21%2Fbdc1d09b46a1827665fdb7628a8a%2F20261006166240646319-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Drone strike sinks ship in NATO waters as Zelenskyy warns of looming ‘massive strike’",
+        "desc": "A cargo ship sank and a second vessel caught fire in a combined aerial and maritime drone attack inside Bulgaria's exclusive economic zone in the Black Sea.",
+        "link": "https://www.foxnews.com/world/drone-strike-sinks-ship-nato-waters-zelenskyy-warns-looming-massive-strike"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Crew missing after drone strike sinks commercial ship in the Black Sea",
+        "desc": "Ukraine has accused Russia of the drone attack on the two vessels near Bulgaria, raising fears of a widening conflict.",
+        "link": "https://www.sbs.com.au/news/article/crew-missing-after-drone-strike-sinks-commercial-ship-in-the-black-sea/id6n2hnxg"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Ship sinks and crew missing after Black Sea drone attack",
+        "desc": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine.",
+        "link": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Comedian Judith Lucy announces cancer diagnosis: 'I'll be keeping you abreast'",
+      "summary": "The Australian comedian said she was still \"in shock\" but expected to be okay.",
+      "ts": 1791329876000,
+      "img": "https://assets.sbs.com.au/dims4/default/d0c1d6c/2147483647/strip/false/crop/2470x1135+0+129/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F05%2F10%2Fd0a1f6fb4fe5ace513caae73f523%2Fjudith-lucy-bigger-pic.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "How former TV presenter Richard Morecroft found love through a fountain pen",
+        "desc": "This Two of Us article, first published four years ago, is being re-run following the death of Richard Morecroft this week.",
+        "link": "https://www.theage.com.au/national/how-former-tv-presenter-richard-morecroft-found-love-through-a-fountain-pen-20220318-p5a5v9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Richard Morecroft, veteran ABC news presenter, dies aged 70 after cancer diagnosis",
+        "desc": "Anthony Albanese fondly recalls the passionate environmental advocate keeping an infant flying fox under his desk as he presented the news Get our new political email, free app or daily news podcast Former ABC news presenter Richard Morecroft has been remembered as “one of the great broadcasters of his generation” and a “trusted presence” for Australians after his death at the age of 70. Morecroft",
+        "link": "https://www.theguardian.com/media/2026/oct/06/richard-morecroft-veteran-abc-news-presenter-dies-age-70-after-cancer-diagnosis"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Comedian Judith Lucy announces cancer diagnosis: 'I'll be keeping you abreast'",
+        "desc": "The Australian comedian said she was still \"in shock\" but expected to be okay.",
+        "link": "https://www.sbs.com.au/news/article/judith-lucy-breast-cancer-diagnosis/u1u6lvevw"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Officeworks slashes prices permanently across their bestsellers ahead of final school term",
+      "summary": "Pick up a year’s worth of schooling essentials for a fraction of the price year round.",
+      "ts": 1791328559000,
+      "img": "https://images.7news.com.au/publication/C-22978896/e72ce74d139134ace74346ea9fa5c6e8815f7ff6-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Officeworks slashes prices permanently across their bestsellers ahead of final school term",
+        "desc": "Pick up a year’s worth of schooling essentials for a fraction of the price year round.",
+        "link": "https://7news.com.au/7you/home/officeworks-slashes-prices-permanently-across-their-bestsellers-ahead-of-final-school-term-c-22978896"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "The Guardian view on the Green party and Palestine: rejecting two states is no shortcut to peace | Editorial",
+        "desc": "Zack Polanski must defend Palestinian freedom while reassuring Jewish members and showing that his party can handle disagreements Last year, the UN general assembly endorsed the New York Declaration supporting two states in the Holy Land by 142 votes to 10. Those voting against included the US and Israel. The wider international diplomatic consensus rests on a 2002 UN security council resolution, ",
+        "link": "https://www.theguardian.com/commentisfree/2026/oct/06/the-guardian-view-on-the-green-party-and-palestine-rejecting-two-states-is-no-shortcut-to-peace"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Tear gas in Paris and Marseille as school protests grow across France",
+        "desc": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
+        "link": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "‘Deeply traumatic’: Jewish leader condemns celebrations of October 7 attacks as controversial vigils planned across Australia",
+      "summary": "NSW Premier Chris Minns has labelled the planned gatherings as ‘heartless’.",
+      "ts": 1791327994000,
+      "img": "https://images.7news.com.au/publication/C-22978503/4719cb95e998d3eee61285306470bbf3258697ac-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "‘Deeply traumatic’: Jewish leader condemns celebrations of October 7 attacks as controversial vigils planned across Australia",
+        "desc": "NSW Premier Chris Minns has labelled the planned gatherings as ‘heartless’.",
+        "link": "https://7news.com.au/sunrise/deeply-traumatic-jewish-leader-condemns-celebrations-of-october-7-attacks-as-controversial-vigils-planned-across-australia-c-22978503"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Hundreds attend October 7 vigil at Bondi, three years after terror attack",
+        "desc": "People at the event in Bondi held a minute's silence at 6:29am, the same time of day Hamas militants launched their deadly assault in Israel in 2023.",
+        "link": "https://www.abc.net.au/news/2026-10-07/october-7-bondi-sydney-vigil-jewish-community/107234708"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘All I want to do is cry’: trauma of 7 October survivors three years after the attacks",
+        "desc": "Israeli communities shattered by Hamas massacres are torn between rebuilding their lives and remembering lost friends and relatives Keith Siegel spent many of his long hours in Hamas captivity in Gaza etching everything that happened after 7 October 2023 into his memory. For 484 days, he recited to himself every place he was held, the dates he was moved and every attack or humiliation he endured o",
+        "link": "https://www.theguardian.com/world/2026/oct/06/trauma-of-7-october-israel-survivors-three-years-hamas-after-attacks"
+       }
+      ]
+     },
+     {
+      "id": 4,
       "headline": "Smoke blackens skies in Russia as suspected Ukraine strike on oil tanker sparks ocean blaze",
       "summary": "Ukrainian President Volodymyr Zelensky is now warning of ‘Russia’s preparations for a massive strike’.",
       "ts": 1791327856000,
@@ -110,13 +258,6 @@
         "link": "https://www.abc.net.au/news/2026-10-07/south-korea-weapons-to-russia-ukraine-says-easing-crisis/107237356"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "I was at the helm of the Soviet Union's secret bioweapons program. This is what I fear most about the mystery plague lab death in Russia",
-        "desc": "If anyone knows what Russia's secret biological weapons program is capable of, it is Dr Ken Alibek.",
-        "link": "https://www.dailymail.com/news/article-16184049/Soviet-Union-secret-bioweapons-plague-lab-death-Russia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
         "outlet": "BBC World",
         "lean": "centre",
         "title": "Fear and disruption for Ukraine's rail passengers as Russia escalates drone attacks",
@@ -126,119 +267,7 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Trump says Iran could 'take out' Los Angeles and San Diego",
-      "summary": "Donald Trump has been labelled \"deranged and dangerous\" after saying, \"Let 'em take out Los Angeles\" and San Diego, referring to Iran.",
-      "ts": 1791320505000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2894898ffa172863f016d58181ad5149?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Trump’s ‘take out’ LA, San Diego remark",
-        "desc": "Speaking at a political rally in Nebraska, the US president suggested to a crowd that Iran could \"take out\" a major US city like Los Angeles or San Diego.",
-        "link": "https://www.theage.com.au/world/trump-s-take-out-la-san-diego-remark-20261007-p613ef.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Trump says Iran could 'take out' Los Angeles and San Diego",
-        "desc": "Donald Trump has been labelled \"deranged and dangerous\" after saying, \"Let 'em take out Los Angeles\" and San Diego, referring to Iran.",
-        "link": "https://www.abc.net.au/news/2026-10-07/californians-blast-trump-remark-iran-could-take-out-los-angeles/107236972"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
-        "desc": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran.",
-        "link": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Trump says Iran-linked threats prompted bomber withdrawal from UK base",
-        "desc": "Speculation around the RAF Fairford base has risen since a group of five men with vans were arrested close to the site.",
-        "link": "https://www.sbs.com.au/news/article/trump-says-iran-linked-threats-prompted-bomber-withdrawal-from-uk-base/9a52fyrwc"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Officeworks slashes prices permanently across their bestsellers ahead of final school term",
-      "summary": "Pick up a year’s worth of schooling essentials for a fraction of the price year round.",
-      "ts": 1791328559000,
-      "img": "https://images.7news.com.au/publication/C-22978896/e72ce74d139134ace74346ea9fa5c6e8815f7ff6-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Officeworks slashes prices permanently across their bestsellers ahead of final school term",
-        "desc": "Pick up a year’s worth of schooling essentials for a fraction of the price year round.",
-        "link": "https://7news.com.au/7you/home/officeworks-slashes-prices-permanently-across-their-bestsellers-ahead-of-final-school-term-c-22978896"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Flames, tear gas and stun grenades: How a stoush over classrooms and toilets exploded into violent mass protests",
-        "desc": "The fury in France reached a new peak when at least 250,000 people joined rallies that have confronted police and spread flames on the streets.",
-        "link": "https://www.theage.com.au/world/europe/flames-tear-gas-and-stun-grenades-how-a-stoush-over-classrooms-and-toilets-exploded-into-violent-mass-protests-20261007-p613d7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Tear gas in Paris and Marseille as school protests grow across France",
-        "desc": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
-        "link": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Sarah Macdonald returns to presenting at 702 ABC Sydney",
-      "summary": "The former Mornings show presenter says James Valentine, the longtime Afternoons announcer who died earlier this year, will be the \"patron saint\" of the show.",
-      "ts": 1791327554000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/62b35fbe969ddaeb12fdc5d1c11eb16a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=80&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Sarah Macdonald returns to ABC radio after being sacked in 2024",
-        "desc": "Manager who removed Macdonald announces she will replace the late James Valentine from March Get our breaking news email, free app or daily news podcast Two years after her shock axing, the ABC has backflipped and reinstated ABC Radio presenter Sarah Macdonald to Sydney’s local radio schedule, where she will replace the late James Valentine from March. The manager who had removed Macdonald without",
-        "link": "https://www.theguardian.com/media/2026/oct/07/sarah-macdonald-returns-abc-radio-james-valentine-ntwnfb"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘It’s very emotional’: Axed presenter Sarah Macdonald to return to ABC 702 Sydney",
-        "desc": "After receiving the blessing of James Valentine’s widow, the former Mornings host will take over her dear friend’s radio show next year.",
-        "link": "https://www.theage.com.au/culture/tv-and-radio/it-s-very-emotional-axed-presenter-sarah-macdonald-to-return-to-abc-702-sydney-20261007-p613a0.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Sarah Macdonald returns to presenting at 702 ABC Sydney",
-        "desc": "The former Mornings show presenter says James Valentine, the longtime Afternoons announcer who died earlier this year, will be the \"patron saint\" of the show.",
-        "link": "https://www.abc.net.au/news/2026-10-07/sarah-macdonald-returns-to-presenting-at-702-abc-sydney/107232544"
-       }
-      ]
-     },
-     {
-      "id": 4,
+      "id": 5,
       "headline": "Christa Pike conscious after surviving Tennessee execution attempt",
       "summary": "The Tennessee inmate who survived two lethal injections is awake and speaking, but remains in intensive care.",
       "ts": 1791326558000,
@@ -273,72 +302,37 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Cameron Green injury blow opens door for Aussie veteran Nic Maddinson to play first Test in 10 years",
-      "summary": "The 35-year-old is firming to make a fairytale return despite not playing any first-class cricket in 18 months.",
-      "ts": 1791325757000,
-      "img": "https://images.7news.com.au/publication/C-22978317/9f396938a1ae94d4a3d801d2933ccff9d045bd43-16x9-x0y2w1280h720.jpg",
+      "id": 6,
+      "headline": "Coalition defends migration overhaul prioritising skilled workers who ‘share our values’ and ‘speak really good English’",
+      "summary": "The Liberals and Nationals defended the plan amid accusations of ‘scrambling after’ One Nation.",
+      "ts": 1791324062000,
+      "img": "https://images.7news.com.au/publication/C-22978122/d92aa682867c296c9ff6322b09baa03e085f96b2-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Cameron Green injury opens door to Nic Maddinson ahead of first South Africa Test",
-        "desc": "Australia all-rounder fails to overcome abdominal strain Maddinson or Cooper Connolly to fill No 5 spot in Durban opener Andrew McDonald insists Nic Maddinson’s Test squad call-up should be no shock, with the left-hander edging closer to replacing the injured Cameron Green in Durban. Green has been officially ruled out of Australia’s side for the opening Test against South Africa, after failing to",
-        "link": "https://www.theguardian.com/sport/2026/oct/07/australia-cameron-green-ruled-out-of-first-cricket-test-south-africa"
-       },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Cameron Green injury blow opens door for Aussie veteran Nic Maddinson to play first Test in 10 years",
-        "desc": "The 35-year-old is firming to make a fairytale return despite not playing any first-class cricket in 18 months.",
-        "link": "https://7news.com.au/sport/cricket/cameron-green-injury-blow-opens-door-for-aussie-veteran-nic-maddinson-to-play-first-test-in-10-years-c-22978317"
+        "title": "Coalition defends migration overhaul prioritising skilled workers who ‘share our values’ and ‘speak really good English’",
+        "desc": "The Liberals and Nationals defended the plan amid accusations of ‘scrambling after’ One Nation.",
+        "link": "https://7news.com.au/sunrise/less-uber-drivers-more-construction-workers-coalition-defends-sweeping-migration-overhaul-prioritising-skilled-workers-c-22978122"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Aussies dealt major injury blow ahead of first South Africa Test",
-        "desc": "Australia will have to reshuffle its line-up for the series opener against the Proteas in Durban after one of its stars is ruled out with an injury.",
-        "link": "https://www.abc.net.au/news/2026-10-07/cricket-australia-south-africa-first-test-cameron-green-durban/107236966"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-      "summary": "Experts say her survival after the lethal injections is highly unusual.",
-      "ts": 1791324842000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/226c/live/7221efd0-c1c9-11f1-b8a9-47f21beea0a3.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
+        "title": "Coalition's 'biggest' ever migration slashing has three major issues, critic says",
+        "desc": "The Coalition plans to reduce migration by over 100,000 people by focusing on \"high-value\" migrants.",
+        "link": "https://www.sbs.com.au/news/article/coalition-migration-policy-would-halve-humanitarian-visas-slash-arrivals-by-100-000/tuyiygc0q"
+       },
        {
-        "outlet": "Guardian Australia",
+        "outlet": "Crikey",
         "lean": "left",
-        "title": "Christa Pike is conscious and speaking after botched execution attempt, lawyers say",
-        "desc": "The prisoner received two doses of pentobarbital as authorities tried to put her to death on 30 September Christa Pike, a Tennessee prisoner who survived the state’s attempt to execute her, is awake and speaking as she receives treatment at a hospital, her attorneys said on Tuesday. Pike, 50, survived two doses of pentobarbital as Tennessee officials attempted to put her to death last Wednesday in",
-        "link": "https://www.theguardian.com/us-news/2026/oct/06/christa-pike-execution-awake"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-        "desc": "Experts say her survival after the lethal injections is highly unusual.",
-        "link": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Death row inmate Christa Pike wakes after botched execution",
-        "desc": "Christa Pike wakes up and speaks almost a week after a botched execution attempt at a US prison.",
-        "link": "https://www.abc.net.au/news/2026-10-07/christa-pike-wakes-after-botched-execution/107229618"
+        "title": "Coalition’s migration plans finally come into view",
+        "desc": "Angus Taylor is taking the plans, which will reportedly see migration cut to about a third of the current intake, to his partyroom this morning. Meanwhile, the PM and energy minister are justifying the pre-COP summit and brace for fireworks as the AI firms front a parliamentary committee. The post Coalition’s migration plans finally come into view appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/10/06/coalitions-migration-plans-finally-come-into-view-pre-cop31-anthony-albanese-fiji-angus-taylor-jason-kwon-openai/"
        }
       ]
      }
@@ -406,6 +400,69 @@
      },
      {
       "id": 9,
+      "headline": "Foreign adversaries running 'psyop' to fuel anti-AI and anti-data center movement, war official says",
+      "summary": "A Department of War official says foreign adversaries are running psyop campaigns to turn Americans against data centers and AI infrastructure.",
+      "ts": 1791330338000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/ai-protest-signs-blurred.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Foreign adversaries running 'psyop' to fuel anti-AI and anti-data center movement, war official says",
+        "desc": "A Department of War official says foreign adversaries are running psyop campaigns to turn Americans against data centers and AI infrastructure.",
+        "link": "https://www.foxnews.com/politics/foreign-adversaries-running-psyop-fuel-anti-ai-anti-data-center-movement-war-official-says"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Veterans of 'unbearable' Chinese factory in Ohio detail brutal work conditions amid top Dem's oversight visit",
+      "summary": "Former Fuyao Glass America Inc. workers in Dayton, Ohio, described unbearable heat, union-busting tactics and a fatal accident to Rep. Ro Khanna.",
+      "ts": 1791329400000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Khanna_Oversight.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Veterans of 'unbearable' Chinese factory in Ohio detail brutal work conditions amid top Dem's oversight visit",
+        "desc": "Former Fuyao Glass America Inc. workers in Dayton, Ohio, described unbearable heat, union-busting tactics and a fatal accident to Rep. Ro Khanna.",
+        "link": "https://www.foxnews.com/politics/veterans-unbearable-chinese-factory-ohio-detail-brutal-work-conditions-amid-top-dems-oversight-visit"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Taylor scoffs at business group’s claim his migration policy a ‘flat tyre’",
+      "summary": "Angus Taylor’s dismissal of “vested interests” comes as one Labor figure describes the Coalition’s new migration policy as looking like it was written by AI.",
+      "ts": 1791328990000,
+      "img": "https://static.ffx.io/images/$zoom_0.2018%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_128%2C$y_0/t_crop_custom/q_86%2Cf_auto/8b858ecbbe550c013ea4d9b53a64258ad2ff4241",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Taylor scoffs at business group’s claim his migration policy a ‘flat tyre’",
+        "desc": "Angus Taylor’s dismissal of “vested interests” comes as one Labor figure describes the Coalition’s new migration policy as looking like it was written by AI.",
+        "link": "https://www.theage.com.au/politics/federal/taylor-scoffs-at-business-group-s-claim-his-migration-policy-a-flat-tyre-20261007-p613ek.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 12,
       "headline": "Unearthed social media posts contradict El-Sayed’s ‘capitalist’ narrative",
       "summary": "Abdul El-Sayed, the Democratic U.S. Senate candidate in Michigan, faces scrutiny over Detroit DSA ties as he prepares to face Mike Rogers.",
       "ts": 1791324058000,
@@ -422,69 +479,6 @@
         "title": "Unearthed social media posts contradict El-Sayed’s ‘capitalist’ narrative",
         "desc": "Abdul El-Sayed, the Democratic U.S. Senate candidate in Michigan, faces scrutiny over Detroit DSA ties as he prepares to face Mike Rogers.",
         "link": "https://www.foxnews.com/politics/unearthed-dsa-posts-contradict-el-sayed-capitalist-narrative"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "NZ election poll watch: Opportunity holds as potential kingmaker in tight race",
-      "summary": "Getty Images With a month to go to the New Zealand election on November 7, a Reid Research poll for RNZ has given the left bloc its first lead over the right in any poll since June. Later the same day, a Verian poll for TVNZ’s 1News had the right holding its three-point lead from the same poll last week. Reid Research poll Conducted from September 24 to October 1 from a sample of 1,000 eligible vo",
-      "ts": 1791323854000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "NZ election poll watch: Opportunity holds as potential kingmaker in tight race",
-        "desc": "Getty Images With a month to go to the New Zealand election on November 7, a Reid Research poll for RNZ has given the left bloc its first lead over the right in any poll since June. Later the same day, a Verian poll for TVNZ’s 1News had the right holding its three-point lead from the same poll last week. Reid Research poll Conducted from September 24 to October 1 from a sample of 1,000 eligible vo",
-        "link": "https://theconversation.com/nz-election-poll-watch-opportunity-holds-as-potential-kingmaker-in-tight-race-293706"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Macron trashes American free speech as riots grip France — internet unloads: ‘Enormous fool’",
-      "summary": "French President Emmanuel Macron called American free speech \"the opposite of free speech\" as student protests and school fires sweep across France.",
-      "ts": 1791317718000,
-      "img": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/fire-police-fireworks-reuters.gif",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Macron trashes American free speech as riots grip France — internet unloads: ‘Enormous fool’",
-        "desc": "French President Emmanuel Macron called American free speech \"the opposite of free speech\" as student protests and school fires sweep across France.",
-        "link": "https://www.foxnews.com/politics/macron-trashes-american-free-speech-riots-grip-france-internet-unloads-enormous-fool"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Russian researcher's mystery death could be ‘far worse’ than the plague, former senior Trump official warns",
-      "summary": "Marshall Billingslea warns the Irkutsk researcher's death could involve antibiotic-resistant plague engineered under the Soviet bioweapons program.",
-      "ts": 1791311954000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Russia-Medical-Facilty-Sibiria.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Russian researcher's mystery death could be ‘far worse’ than the plague, former senior Trump official warns",
-        "desc": "Marshall Billingslea warns the Irkutsk researcher's death could involve antibiotic-resistant plague engineered under the Soviet bioweapons program.",
-        "link": "https://www.foxnews.com/politics/russian-researchers-mystery-death-could-be-far-worse-than-plague-former-senior-trump-official-warns"
        }
       ]
      }
@@ -524,34 +518,6 @@
      },
      {
       "id": 14,
-      "headline": "Alexa can’t control the aux input on Amazon Echo speakers anymore",
-      "summary": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon about the change, which the company has confirmed. According to Amazon spokesperson Claudia Chavira Velez, \"We recently notified the very small number of",
-      "ts": 1791313436000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2018/11/71I6oj6ZFBL._SL1000_-1000x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Alexa can’t control the aux input on Amazon Echo speakers anymore",
-        "desc": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon about the change, which the company has confirmed. According to Amazon spokesperson Claudia Chavira Velez, \"We recently notified the very small number of",
-        "link": "https://www.theverge.com/tech/1006103/amazon-alexa-aux-voice-commands"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Amazon kills Alexa’s ability to control Echo speakers' AUX input",
-        "desc": "Amazon hasn't made an Echo with a 3.5mm port in six years.",
-        "link": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/"
-       }
-      ]
-     },
-     {
-      "id": 15,
       "headline": "Ofcom investigates Meta over Instagram Instants feature",
       "summary": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
       "ts": 1791292963000,
@@ -575,6 +541,27 @@
         "title": "Ofcom investigates Meta over Instagram Instants feature",
         "desc": "The regulator said Instagram had not fully assessed risks posed by its Instants feature prior to launching it.",
         "link": "https://www.bbc.co.uk/news/articles/cq8jzyey8e2ro?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 15,
+      "headline": "OpenAI drops another batch of mathematical breakthroughs",
+      "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and academic conduct. According to AG",
+      "ts": 1791329198000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "OpenAI drops another batch of mathematical breakthroughs",
+        "desc": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and academic conduct. According to AG",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github"
        }
       ]
      },
@@ -651,7 +638,7 @@
       "id": 19,
       "headline": "ASX rises for third straight day, Nasdaq hits new record high — as it happened",
       "summary": "The Australian share market ended its day higher, driven by gains across banks, miners and real estate stocks.The Nasdaq hit a record high after Wall Street's tech stocks surged, while the euro has fallen to an almost two-year low against the Australian dollar.",
-      "ts": 1791318522000,
+      "ts": 1791329699000,
       "img": "https://live-production.wcms.abc-cdn.net.au/ca64714984ce2d55e0a9f3af4412813f?impolicy=wcms_crop_resize&cropH=2806&cropW=4988&xPos=0&yPos=294&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -660,18 +647,18 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX edges higher after Wall Street hits record; Paramount completes $158b Warner takeover",
+        "desc": "The Australian sharemarket is posting modest gains in early trade after Wall Street traders drove US stocks to all-time highs overnight.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-wall-street-rallies-towards-an-all-time-high-20261007-p613dd.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
         "outlet": "Guardian AU Business",
         "lean": "left",
         "title": "S&P 500 and Nasdaq surge to record highs after AI chipmaker rally",
         "desc": "S&P tops 7,800 for first time in history as investors optimistic despite signs of instability in US economy The S&P 500 and Nasdaq closed at a record high after a rally around AI chipmakers and a dip in US treasury yields. At market’s close, the S&P 500 was up 0.58%, topping 7,800 for the first time in its history. The tech-heavy Nasdaq index rose 0.45%, while the Dow, which is slightly down from ",
         "link": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Aguia hits Colombia gold record and breaks even",
-        "desc": "Aguia Resources has set a gold production record in Colombia, with September revenue of A$218,000 covering its local corporate and operating costs for the first time.",
-        "link": "https://www.theage.com.au/business/companies/aguia-hits-colombia-gold-record-and-breaks-even-20261006-p613ad.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
         "outlet": "ABC Business",
@@ -684,34 +671,6 @@
      },
      {
       "id": 20,
-      "headline": "Paramount completes Warner Bros takeover to form media giant Skydance",
-      "summary": "The combined company brings together Paramount Pictures and Warner Bros Pictures, the CBS News and CNN networks, and the HBO and CBS television brands under the control of David Ellison.",
-      "ts": 1791320415000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/d64397d91e07229a0b8ba77c16168f14?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX set for flat start, Wall Street closes at record; Paramount completes $158b Warner Bros takeover",
-        "desc": "Even with worries about war, high inflation and cranked-up pressure from the bond market continuing to weigh on it, Wall Street’s benchmark index soared 23 per cent since hitting a bottom in late March.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-wall-street-rallies-towards-an-all-time-high-20261007-p613dd.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Paramount completes Warner Bros takeover to form media giant Skydance",
-        "desc": "The combined company brings together Paramount Pictures and Warner Bros Pictures, the CBS News and CNN networks, and the HBO and CBS television brands under the control of David Ellison.",
-        "link": "https://www.abc.net.au/news/2026-10-07/paramount-takes-over-warner-bros-to-form-skydance/107236848"
-       }
-      ]
-     },
-     {
-      "id": 21,
       "headline": "ASOS says customers sent notifications in possible hack",
       "summary": "\"Engage with us, or we will leak it,\" ASOS shoppers are warned in an alarming message sent from the online retailer's app.",
       "ts": 1791304683000,
@@ -739,11 +698,32 @@
       ]
      },
      {
+      "id": 21,
+      "headline": "Breaking: High Court rules in favour of climate in Hunter Valley coal mine case",
+      "summary": "Australia's High Court rules in favour of a Hunter Valley community group in a landmark climate ruling that could redraw how fossil fuel projects are approved in Australia.",
+      "ts": 1791330534000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/75912ca2129d11b23d106a98b10d270f?impolicy=wcms_crop_resize&cropH=1628&cropW=2895&xPos=0&yPos=151&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Breaking: High Court rules in favour of climate in Hunter Valley coal mine case",
+        "desc": "Australia's High Court rules in favour of a Hunter Valley community group in a landmark climate ruling that could redraw how fossil fuel projects are approved in Australia.",
+        "link": "https://www.abc.net.au/news/2026-10-07/mount-pleasant-coal-mine-high-court-ruling/107233650"
+       }
+      ]
+     },
+     {
       "id": 22,
-      "headline": "Property agent tip-offs surge as AUSTRAC money laundering reforms bite",
-      "summary": "The financial crimes watchdog says enhanced co-operation across the sector is helping to identify money laundering in the housing market.",
-      "ts": 1791328112000,
-      "img": "https://static.ffx.io/images/$zoom_0.2064%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_5/t_crop_custom/q_86%2Cf_auto/dcd2b8debffca61e6e44cca950c4fe5511a6bb9d",
+      "headline": "BHP bypasses Forrest’s Wyloo, selling nickel assets to gold giant",
+      "summary": "The Big Australian did not disclose the price paid by South Africa’s Gold Fields for its Kambalda concentrator and tenements, placed on the market last year.",
+      "ts": 1791330332000,
+      "img": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/2c9ea1c614b872e60920d42e3f4eb011395355b5",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -753,38 +733,17 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Property agent tip-offs surge as AUSTRAC money laundering reforms bite",
-        "desc": "The financial crimes watchdog says enhanced co-operation across the sector is helping to identify money laundering in the housing market.",
-        "link": "https://www.afr.com/companies/financial-services/property-agent-tip-offs-surge-as-austrac-money-laundering-reforms-bite-20261007-p6136g?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "BHP bypasses Forrest’s Wyloo, selling nickel assets to gold giant",
+        "desc": "The Big Australian did not disclose the price paid by South Africa’s Gold Fields for its Kambalda concentrator and tenements, placed on the market last year.",
+        "link": "https://www.afr.com/companies/mining/bhp-bypasses-forrest-s-wyloo-selling-nickel-assets-to-gold-giant-20261007-p613fz?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Mystery Canberra collector to offload $10m in ‘A+’ Australian art",
-      "summary": "A Canberra-based private collector spent 25 years gathering top works from some of Australia’s greatest artists with ‘military precision’.",
-      "ts": 1791328030000,
-      "img": "https://static.ffx.io/images/$zoom_0.353%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_26/t_crop_custom/q_86%2Cf_auto/4d4254e40e626e4344fa28d7e5b673cf2d809cab",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Mystery Canberra collector to offload $10m in ‘A+’ Australian art",
-        "desc": "A Canberra-based private collector spent 25 years gathering top works from some of Australia’s greatest artists with ‘military precision’.",
-        "link": "https://www.afr.com/life-and-luxury/arts-and-culture/mystery-canberra-collector-to-offload-10m-in-a-australian-art-20261007-p611hc?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 24,
       "headline": "ASX wavers; SpaceX to raise $US40b to buy Nvidia chips",
-      "summary": "Shares open flat after Wall Street resets record; SpaceX seeks $US40b for Nvidia chips; Dicker Data to acquire NZ’s Sektor for $112m. Follow live.",
-      "ts": 1791327796000,
+      "summary": "Shares open flat after Wall Street resets record; SpaceX seeks $US40b for Nvidia chips; SKS Technologies plummets 10pc on share sale. Follow live.",
+      "ts": 1791330313000,
       "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/58e04edaf697ca035322f928d0a7caeac1442af28f7e445bb4496439310a2058",
       "divergent": null,
       "left_view": null,
@@ -796,8 +755,29 @@
         "outlet": "AFR",
         "lean": "centre",
         "title": "ASX wavers; SpaceX to raise $US40b to buy Nvidia chips",
-        "desc": "Shares open flat after Wall Street resets record; SpaceX seeks $US40b for Nvidia chips; Dicker Data to acquire NZ’s Sektor for $112m. Follow live.",
+        "desc": "Shares open flat after Wall Street resets record; SpaceX seeks $US40b for Nvidia chips; SKS Technologies plummets 10pc on share sale. Follow live.",
         "link": "https://www.afr.com/markets/equity-markets/s-and-p-500-resets-record-high-20261007-p613d9?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Why Darwin could become 'a major interconnection point' for global data",
+      "summary": "As data centres and fibre-optic cable networks proliferate, planning documents show two international subsea cables could soon dock in the Darwin suburb of Fannie Bay.",
+      "ts": 1791330000000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/dfc744c034bcb452079a31619a5156a9?impolicy=wcms_crop_resize&cropH=580&cropW=1031&xPos=84&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Why Darwin could become 'a major interconnection point' for global data",
+        "desc": "As data centres and fibre-optic cable networks proliferate, planning documents show two international subsea cables could soon dock in the Darwin suburb of Fannie Bay.",
+        "link": "https://www.abc.net.au/news/2026-10-07/fannie-bay-subsea-cables-development-northern-territory-darwin/107235602"
        }
       ]
      }
@@ -1013,22 +993,15 @@
         "title": "Eva Marie Saint Dies: Oscar-Winning Star Of Hollywood Classics ‘On The Waterfront’ And ‘North By Northwest’ Was 102",
         "desc": "Eva Marie Saint, the Oscar- and Emmy-winning actor who graced some of the most beloved and revered Hollywood films of the mid-20th century with an incisive Actors Studio-honed talent for character and a stunning beauty, has died. She was 102. Her rep said she died Tuesday of natural causes at her Los Angeles home, surrounded […]",
         "link": "https://deadline.com/2026/10/eva-marie-saint-dead-on-the-waterfront-1237148334/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Eva Marie Saint, ‘North by Northwest’ Star, Dies at 102",
-        "desc": "Oscar-winning actress Eva Marie Saint, who starred in such memorable classic films as “On the Waterfront” and “North by Northwest,” died Tuesday at her home in Los Angeles. She was 102. The delicate, fine-boned actress, one of the first breakout talents from early television, won her Academy Award as best supporting actress for “On the […]",
-        "link": "https://variety.com/2026/film/news/eva-marie-saint-dead-north-by-northwest-1236903677/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Skydance Sets Board With Laurene Powell Jobs, Bobby Kotick New Directors, Tony Blair As Advisor",
-      "summary": "The new Skydance has unveiled its board of directors, effective immediately, led by chairman and CEO David Ellison and including newcomers Laurene Powell Jobs, founder and president of Emerson Collective, and Bobby Kotick, founder and former CEO of Activision. They will service as independent directors. Co-CEO Ynon Kreiz, who joined Skydance last week, also has […]",
-      "ts": 1791324181000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Skydance-Company.jpg",
+      "headline": "15 Best Shows Like Criminal Minds",
+      "summary": "From Dexter to NCIS, these are other investigative TV shows & series to watch after binging Criminal Minds.",
+      "ts": 1791331221000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/criminal-minds_3awt76.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1036,27 +1009,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Skydance Sets Board With Laurene Powell Jobs, Bobby Kotick New Directors, Tony Blair As Advisor",
-        "desc": "The new Skydance has unveiled its board of directors, effective immediately, led by chairman and CEO David Ellison and including newcomers Laurene Powell Jobs, founder and president of Emerson Collective, and Bobby Kotick, founder and former CEO of Activision. They will service as independent directors. Co-CEO Ynon Kreiz, who joined Skydance last week, also has […]",
-        "link": "https://deadline.com/2026/10/skydancs-board-of-directors-laurene-powell-jobs-bobby-kotick-1237148375/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Skydance Adds Bobby Kotick and Laurene Powell Jobs to Board, Taps Tony Blair as Adviser",
-        "desc": "Skydance Corp., formed from the megamerger of Paramount and Warner Bros. Discovery, is bringing new blood to its board of directors. On Tuesday, the company announced that Laurene Powell Jobs, founder and president of Emerson Collective, and Bobby Kotick, founder and former CEO of Activision, are joining the board as independent directors. As previously announced, […]",
-        "link": "https://variety.com/2026/film/news/skydance-board-bobby-kotick-laurene-powell-jobs-tony-blair-1236903730/"
+        "title": "15 Best Shows Like Criminal Minds",
+        "desc": "From Dexter to NCIS, these are other investigative TV shows & series to watch after binging Criminal Minds.",
+        "link": "https://screenrant.com/criminal-minds-fans-great-shows-recommended/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Donald Trump Weighs In On New Skydance: “They’re Terrific People, And It’s Going To Be A Great Company”",
-      "summary": "President Donald Trump commented on Skydance’s acquisition of Warner Bros. Discovery, completed on Tuesday, by apparently showering praised on its CEO David Ellison and his father Larry. “It’s going to be a great company,” Trump told reporters when asked about the deal. “They’re terrific people, and it’s going to be a great company.” Trump’s ties […]",
-      "ts": 1791322964000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Donald-Trump-David-Ellison-Larry-Ellison.jpg",
+      "headline": "Russell Crowe’s R-Rated Mystery Thriller Finds New Life As A Streaming Sensation",
+      "summary": "Russell Crowe's R-rated mystery thriller finds new life as a streaming sensation in the United States, over two years after its release.",
+      "ts": 1791331218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/untitled-6.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1064,27 +1030,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Donald Trump Weighs In On New Skydance: “They’re Terrific People, And It’s Going To Be A Great Company”",
-        "desc": "President Donald Trump commented on Skydance’s acquisition of Warner Bros. Discovery, completed on Tuesday, by apparently showering praised on its CEO David Ellison and his father Larry. “It’s going to be a great company,” Trump told reporters when asked about the deal. “They’re terrific people, and it’s going to be a great company.” Trump’s ties […]",
-        "link": "https://deadline.com/2026/10/trump-skydance-paramount-david-ellison-1237148324/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Donald Trump Praises Newly Merged Paramount-Warner Bros.: ‘They’re Terrific People, and It’s Gonna Be a Great Company’",
-        "desc": "President Donald Trump, who is friendly with David Ellison and his father, Larry Ellison, gave a big thumbs-up to Paramount’s megamerger with Warner Bros. Discovery, which closed earlier Tuesday to form Skydance Corp. “I’m happy about that. That’s great,” Trump told reporters Tuesday on the lawn of the White House when he was informed that […]",
-        "link": "https://variety.com/2026/tv/news/trump-praises-paramount-warner-bros-skydance-merger-terrific-people-1236903643/"
+        "title": "Russell Crowe’s R-Rated Mystery Thriller Finds New Life As A Streaming Sensation",
+        "desc": "Russell Crowe's R-rated mystery thriller finds new life as a streaming sensation in the United States, over two years after its release.",
+        "link": "https://screenrant.com/russell-crowe-sleeping-dogs-paramount-plus-streaming-success-october-2026/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Next Generation Collective Launches in Support of Young Hollywood Talent’s Mental Health",
-      "summary": "Next Generation Collective (NGC), a new group built around helping young people in entertainment with their mental health, was launched today at Hollywood & Mind’s inaugural summit in New York City. Founded by Hollywood PR veteran Lilah Kojoori, NGC brings together clinical mental health expertise, entertainment industry leadership, and lived experience to provide guidance on […]",
-      "ts": 1791321416000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/NGC-Official-Press-Logo-High-Res-e1791318951601.jpeg",
+      "headline": "6 Cutest Peanuts Characters Of All Time",
+      "summary": "The Peanuts franchise has many adorable and beloved characters, but these six are the cutest Peanuts characters of all time in the series.",
+      "ts": 1791331218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/peanuts-snoopy-and-linus-van-pelt-comics-featured-image.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1092,27 +1051,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Next Generation Collective Launches in Support of Young Hollywood Talent’s Mental Health",
-        "desc": "Next Generation Collective (NGC), a new group built around helping young people in entertainment with their mental health, was launched today at Hollywood & Mind’s inaugural summit in New York City. Founded by Hollywood PR veteran Lilah Kojoori, NGC brings together clinical mental health expertise, entertainment industry leadership, and lived experience to provide guidance on […]",
-        "link": "https://variety.com/2026/biz/news/next-generation-collective-young-hollywood-mental-health-1236903647/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Hunter X Hunter Manga Creator Yoshihiro Togashi to Limit Work Due to Physical/Mental Health Issues",
-        "desc": "Togashi to decline future work requests with deadlines in order to focus on his own manuscripts",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-05/hunter-x-hunter-manga-creator-yoshihiro-togashi-to-limit-work-due-to-physical-mental-health-issues/.242517"
+        "title": "6 Cutest Peanuts Characters Of All Time",
+        "desc": "The Peanuts franchise has many adorable and beloved characters, but these six are the cutest Peanuts characters of all time in the series.",
+        "link": "https://screenrant.com/peanuts-cutest-characters-charlie-brown/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Ben Shapiro Decries Suspension Of Production On Daily Wire Immigration Movie ‘Pawn Shop’ As Production Resumes: “Politics, Pure And Simple”",
-      "summary": "Ben Shapiro has officially responded to the recent shutdown of production on his immigration-themed Daily Wire movie Pawn Shop, which is now back in production in Livingston, Montana. In an appearance on his podcast The Ben Shapiro Show, Shapiro said, “Let us be clear: there’s only one reason the city commissioners ruled they were going […]",
-      "ts": 1791328406000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Pawn-Shop-Ben-Shapiro.jpg",
+      "headline": "3 PS1 RPGs Still Worth Playing In 2026",
+      "summary": "The original PlayStation had a slew of great RPGs, and some of them still offer unique charms that more recent games have failed to recapture.",
+      "ts": 1791331218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/suikoden-2-character-art.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1120,20 +1072,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Ben Shapiro Decries Suspension Of Production On Daily Wire Immigration Movie ‘Pawn Shop’ As Production Resumes: “Politics, Pure And Simple”",
-        "desc": "Ben Shapiro has officially responded to the recent shutdown of production on his immigration-themed Daily Wire movie Pawn Shop, which is now back in production in Livingston, Montana. In an appearance on his podcast The Ben Shapiro Show, Shapiro said, “Let us be clear: there’s only one reason the city commissioners ruled they were going […]",
-        "link": "https://deadline.com/2026/10/ben-shapiro-issues-statement-on-pawn-shop-production-shutdown-1237148439/"
+        "title": "3 PS1 RPGs Still Worth Playing In 2026",
+        "desc": "The original PlayStation had a slew of great RPGs, and some of them still offer unique charms that more recent games have failed to recapture.",
+        "link": "https://screenrant.com/playstation-1-rpgs-worth-playing-today/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "André Holland Joins Universal’s ‘Miami Vice ’85’",
-      "summary": "EXCLUSIVE: André Holland (Moonlight, The Knick) is the latest to join the all-star cast of Universal’s Miami Vice ’85, led by Michael B. Jordan and Austin Butler. A character description for Holland is under wraps. From screenwriter Dan Gilroy and director Joseph Kosinski, Miami Vice ’85 explores the glamour and corruption of mid-1980s Miami in […]",
-      "ts": 1791327945000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Andre-Holland-1500.jpg",
+      "headline": "CBS Is Turning CIA On Its Head For Its Season 2 Redemption",
+      "summary": "That stunning revelation that dropped into Bill's lap at the end of episode 1 has the potential to seriously shake things up in CIA season 2.",
+      "ts": 1791331218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/untitled-design-23.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1141,11 +1093,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "André Holland Joins Universal’s ‘Miami Vice ’85’",
-        "desc": "EXCLUSIVE: André Holland (Moonlight, The Knick) is the latest to join the all-star cast of Universal’s Miami Vice ’85, led by Michael B. Jordan and Austin Butler. A character description for Holland is under wraps. From screenwriter Dan Gilroy and director Joseph Kosinski, Miami Vice ’85 explores the glamour and corruption of mid-1980s Miami in […]",
-        "link": "https://deadline.com/2026/10/andre-holland-miami-vice-85-cast-1237148404/"
+        "title": "CBS Is Turning CIA On Its Head For Its Season 2 Redemption",
+        "desc": "That stunning revelation that dropped into Bill's lap at the end of episode 1 has the potential to seriously shake things up in CIA season 2.",
+        "link": "https://screenrant.com/cia-season-2-bill-dark-twist-redemption/"
        }
       ]
      }
@@ -1154,36 +1106,36 @@
   ],
   "sourcesOk": [
    "The Age",
-   "ABC News",
    "Crikey",
    "Guardian Australia",
+   "ABC News",
    "BBC World",
-   "The Age Federal Politics",
-   "Fox News",
-   "Fox News Politics",
    "Guardian AU Politics",
+   "The Age Federal Politics",
    "Guardian Tech",
-   "BBC Tech",
-   "Ars Technica",
-   "The Age Business",
-   "The Conversation",
-   "The Verge",
+   "Fox News Politics",
+   "Fox News",
    "7News",
+   "BBC Tech",
+   "The Conversation",
+   "Ars Technica",
+   "The Verge",
+   "The Age Business",
    "AFR",
-   "Fox Business",
-   "Variety",
-   "Deadline",
    "Guardian AU Business",
-   "BBC Sport",
-   "Guardian AU Sport",
    "ABC Business",
+   "Guardian AU Sport",
+   "Fox Business",
+   "7News Sport",
+   "Deadline",
+   "BBC Sport",
    "Guardian Film",
-   "ABC Sport",
    "Screen Rant",
-   "SBS News",
+   "ABC Sport",
    "Anime News Network",
+   "SBS News",
    "Daily Mail Australia",
-   "7News Sport"
+   "Variety"
   ],
   "sourcesFailed": []
  },
@@ -1383,7 +1335,7 @@
   {
    "title": "Free Lifetime Travel eSIM (Unlimited Access to Google Maps, WhatsApp, Uber and Grab) + 100MB Data 4 Times a Year @ Jetpac",
    "link": "https://www.ozbargain.com.au/node/977968",
-   "votes": 164,
+   "votes": 190,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791319052000
@@ -1391,31 +1343,31 @@
   {
    "title": "Amaysim: Unlimited 240GB 12-Month Plan $199 (was $320), Plus $85 Cashback at TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/977921",
-   "votes": 157,
+   "votes": 158,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791268156000
   },
   {
-   "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500T 16GB RAM 256GB SSD Win 11 Wi-Fi $299 Delivered @ Australian Computer Traders",
-   "link": "https://www.ozbargain.com.au/node/977881",
-   "votes": 139,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1791252358000
-  },
-  {
    "title": "Up to 80% off Select Subway Footlongs at Select Stores @ Uber Eats",
    "link": "https://www.ozbargain.com.au/node/977973",
-   "votes": 110,
+   "votes": 140,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1791322151000
   },
   {
+   "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500T 16GB RAM 256GB SSD Win 11 Wi-Fi $299 Delivered @ Australian Computer Traders",
+   "link": "https://www.ozbargain.com.au/node/977881",
+   "votes": 140,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1791252358000
+  },
+  {
    "title": "$0.15 Bonus Cashback for Checking in to Disney+ (Limited Rewards) @ ShopBack App",
    "link": "https://www.ozbargain.com.au/node/977954",
-   "votes": 110,
+   "votes": 115,
    "neg": 0,
    "category": "Other",
    "ts": 1791291799000
@@ -1423,7 +1375,7 @@
   {
    "title": "SanDisk High Endurance 128GB UHS-I Class 10 U3 V30 4K UHD MicroSD Card $49 + Delivery ($0 C&C) @ Centre Com",
    "link": "https://www.ozbargain.com.au/node/977903",
-   "votes": 82,
+   "votes": 85,
    "neg": 0,
    "category": "Computing",
    "ts": 1791259276000
@@ -1431,7 +1383,7 @@
   {
    "title": "Catan: The Game 6th Edition $49 + $9 Delivery ($0 C&C/ in-Store/ OnePass/ $60 Spend) @ Target",
    "link": "https://www.ozbargain.com.au/node/977927",
-   "votes": 62,
+   "votes": 64,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791271030000
@@ -1439,7 +1391,7 @@
   {
    "title": "Free - 5 Spider-Man: Brand New Day Avatars @ PlayStation",
    "link": "https://www.ozbargain.com.au/node/977950",
-   "votes": 56,
+   "votes": 58,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791288679000
@@ -1455,10 +1407,18 @@
   {
    "title": "Wicked Cheeseburger Deal for Two $14.95 Pickup @ KFC (Online/App Order Required)",
    "link": "https://www.ozbargain.com.au/node/977902",
-   "votes": 49,
+   "votes": 50,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1791259229000
+  },
+  {
+   "title": "Nothing CMF Phone 2 Pro 8GB/128GB $199, Samsung Galaxy A16 5G 4GB/128GB $99 Delivered (New Customers Must Add Plan) @ amaysim",
+   "link": "https://www.ozbargain.com.au/node/977982",
+   "votes": 39,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1791327540000
   },
   {
    "title": "Endeavor Deep Sea $79.54, Expeditions $85.03, Moon Colony Bloodbath $76.07, SETI $82.98, Unmatched $47 Delivered @ Amazon AU",
@@ -1477,28 +1437,20 @@
    "ts": 1791252962000
   },
   {
+   "title": "Free A2 Lactose Free Full Cream Milk 1L @ Woolworths via Everyday Rewards",
+   "link": "https://www.ozbargain.com.au/node/977983",
+   "votes": 29,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1791327566000
+  },
+  {
    "title": "Tesla Model 3 Premium (Inventory Only) from $52,150 (Save $2,950) + $1,400 Delivery + $400 Order Fee + on-Road Costs @ Tesla",
    "link": "https://www.ozbargain.com.au/node/977974",
-   "votes": 24,
+   "votes": 28,
    "neg": 0,
    "category": "Automotive",
    "ts": 1791322972000
-  },
-  {
-   "title": "[PC, Steam] Humble Choice Oct - LaD: Pirate Yakuza in Hawaii, Prince of Persia: TLC, Psychonauts 2 + More $20.95 @ Humble Bundle",
-   "link": "https://www.ozbargain.com.au/node/977962",
-   "votes": 20,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1791316095000
-  },
-  {
-   "title": "ShopBack Super Swap Gift Cards: 3% Cashback on $100, [Westpac, StG, BoM, BSA] 2% Bonus Cashback @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/977959",
-   "votes": 20,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1791312045000
   }
  ],
  "carried": {}
