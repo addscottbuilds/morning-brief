@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T23:55:09.422Z",
+ "generatedAt": "2026-10-08T00:22:39.053Z",
  "markets": {
   "items": [
    {
@@ -7,80 +7,104 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8697.8,
-    "chgPct": -0.4338541211938299,
+    "price": 8689.3,
+    "chgPct": -0.5311559952274767,
     "high52": 9296.7,
-    "off52": -6.442070842341921
+    "off52": -6.533501134811292
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.46,
-    "chgPct": -0.22815840035816914,
+    "price": 87.41,
+    "chgPct": -0.28519695604055895,
     "high52": 87.58,
-    "off52": -0.13701758392327534
+    "off52": -0.19410824389130132
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 145.17,
-    "chgPct": -0.3774370135161626,
+    "price": 145.1,
+    "chgPct": -0.4254743449830854,
     "high52": 155.03,
-    "off52": -6.3600593433529085
+    "off52": -6.405211894472042
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 65.17,
-    "chgPct": 0.0460555889356236,
+    "price": 65.15,
+    "chgPct": 0.01535248763474414,
     "high52": 65.18,
-    "off52": -0.015342129487580722
+    "off52": -0.04602638846272036
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 40.49,
-    "chgPct": 0.22276849188593642,
+    "price": 40.47,
+    "chgPct": 0.17326354326064544,
     "high52": 47.78,
-    "off52": -15.257429886981999
+    "off52": -15.299288405190461
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6963,
-    "chgPct": -0.2692999132626187,
+    "price": 0.696,
+    "chgPct": -0.31226876293377914,
     "high52": 0.7277,
-    "off52": -4.314964958087121
+    "off52": -4.356190737941468
    }
   ],
   "failed": [],
   "note": "SEMI is 15% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "market": "US",
+    "price": 376.51,
+    "currency": "USD",
+    "chgPct": 3.861959630694462
+   },
+   {
     "sym": "FMG.AX",
     "name": "Fortescue",
     "market": "ASX",
-    "price": 15.52,
+    "price": 15.415,
     "currency": "AUD",
-    "chgPct": -3.060588518905092
+    "chgPct": -3.7164286094666257
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "market": "US",
+    "price": 259.92,
+    "currency": "USD",
+    "chgPct": 3.389023989803202
+   },
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "market": "US",
+    "price": 69.7,
+    "currency": "USD",
+    "chgPct": 3.259259259259263
    },
    {
     "sym": "RIO.AX",
     "name": "Rio Tinto",
     "market": "ASX",
-    "price": 161.9,
+    "price": 161.7,
     "currency": "AUD",
-    "chgPct": -2.9027260007871867
+    "chgPct": -3.0226732200573796
    },
    {
     "sym": "LLY",
@@ -101,6 +125,41 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+      "ts": 1791418157000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9ee/live/06010330-c283-11f1-98ea-35e6bf307fc9.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+        "desc": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+        "link": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Disabled elderly woman, 87, whose eviction has sparked weeks of riots in Spain has died",
+        "desc": "Maricarmen Abascal, 87, was forcibly removed from the home she had lived in for more than 70 years after reportedly being unable to afford steep rent rises.",
+        "link": "https://www.dailymail.com/news/article-16191275/Disabled-87-year-old-eviction-sparked-mass-riots-Spain-died.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Evicted octogenarian who sparked Spain's housing protests dies",
+        "desc": "Thousands of people marched on Madrid's parliament following news of Maricarmen Abascal's death.",
+        "link": "https://www.sbs.com.au/news/article/maricarmen-abascal-who-sparked-spains-housing-protests-has-died/6xgod4okk"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "South Africa secure advantage in exclusive pitch training ahead of first Test with Australia",
       "summary": "If the Aussies thought the hosts were going to play nice, reality has very much set in.",
       "ts": 1791417086000,
@@ -135,7 +194,7 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "'I chose life': Survivors and supporters mark third anniversary of October 7 attacks",
       "summary": "Thousands have gathered across the world to reflect and remember one of Israel's darkest days.",
       "ts": 1791415605000,
@@ -166,41 +225,6 @@
         "title": "'I chose life': Survivors and supporters mark third anniversary of October 7 attacks",
         "desc": "Thousands have gathered across the world to reflect and remember one of Israel's darkest days.",
         "link": "https://www.sbs.com.au/news/article/survivors-and-supporters-mark-third-anniversary-of-october-7-attacks/yciddd6iu"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Aussie cricket’s generational divide opens up again as Travis Head accuses golden generation of ‘unfair’ criticism",
-      "summary": "A ‘sticky situation’ has reared its ugly head on the eve of the first Test in South Africa.",
-      "ts": 1791408340000,
-      "img": "https://images.7news.com.au/publication/C-22984492/a0fd5ae85e7c2e71bd30dff4b1695ca5f73f776e-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Travis Head hits back at Australia greats for firing a ‘bullet through’ current Test players",
-        "desc": "Opener said it is unfair for ex-players to criticise modern batting lineup Australia’s vice-captain eager to open in Tests against South Africa Travis Head has accused Australia’s golden generation of being unfair in “putting a bullet through” current players, saying the game has changed significantly since they played. Just a day after Matthew Hayden slammed selectors and accused them of promotin",
-        "link": "https://www.theguardian.com/sport/2026/oct/08/australia-south-africa-first-test-cricket-travis-head"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Aussie cricket tradition under threat",
-        "desc": "Cricket Australia bosses are open to the idea of moving the Sydney Test away from its traditional New Year spot.",
-        "link": "https://www.theage.com.au/national/aussie-cricket-tradition-under-threat-20261008-p613qr.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Aussie cricket’s generational divide opens up again as Travis Head accuses golden generation of ‘unfair’ criticism",
-        "desc": "A ‘sticky situation’ has reared its ugly head on the eve of the first Test in South Africa.",
-        "link": "https://7news.com.au/sport/cricket/aussie-crickets-generational-split-opens-up-again-as-travis-head-accuses-golden-generation-of-unfair-criticism-c-22984492"
        }
       ]
      },
@@ -241,9 +265,37 @@
      },
      {
       "id": 4,
+      "headline": "New Houthi attacks pull Saudi Arabia further into expanding Iran conflict",
+      "summary": "Yemeni territory seized by Iran-backed Houthi rebels is now under fire from Saudi Arabia and its allies in Yemen.",
+      "ts": 1791418468000,
+      "img": "https://assets.sbs.com.au/dims4/default/8d4be91/2147483647/strip/false/crop/1643x755+0+163/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F1c%2F74%2F7dd30f4145d8a94ba4cfb7c232aa%2F20260810137218808873-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Pain coming to the checkout? Sting as Woolworths-owned supplier hikes prices for using its freight network as Iran conflict drags on",
+        "desc": "Logistic companies both in metro and regional areas have upped their fuel levies, with grocery price hikes likely on the way.",
+        "link": "https://www.dailymail.com/news/article-16189047/woolworths-prices-supply-chain-fuel-cost.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "New Houthi attacks pull Saudi Arabia further into expanding Iran conflict",
+        "desc": "Yemeni territory seized by Iran-backed Houthi rebels is now under fire from Saudi Arabia and its allies in Yemen.",
+        "link": "https://www.sbs.com.au/news/article/houthi-saudi-arabia-iran-conflict-071026/7ej0ifr6c"
+       }
+      ]
+     },
+     {
+      "id": 5,
       "headline": "Prominent Sydney Indigenous leader arrested over child sex allegations",
       "summary": "Mick Mundine, chief executive of the Aboriginal Housing Company, has been arrested over allegations of historical child sexual offences involving a 15-year-old girl.",
-      "ts": 1791416929000,
+      "ts": 1791418443000,
       "img": "https://static.ffx.io/images/$zoom_1.059%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/aa5b63ead24ee90a10b0e5cd54d0ae59ff856da8",
       "divergent": null,
       "left_view": null,
@@ -268,38 +320,10 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
-      "summary": "The Ukrainian president had warned that intelligence services had determined Russia was preparing for a \"massive\" strike.",
-      "ts": 1791416711000,
-      "img": "https://assets.sbs.com.au/dims4/default/4311e80/2147483647/strip/false/crop/5000x2297+0+321/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe5%2Fb4%2F546031a64f20be94918c03e46e98%2Frussia-ukraine-war.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Driver opens fire on strangers along major US interstate, tells cops he ‘had to kill people today’",
-        "desc": "Andrew Darrick Tanaka allegedly told police \"I had to kill people today\" after opening fire on vehicles along Interstate 35 in Warren County.",
-        "link": "https://www.foxnews.com/us/driver-opens-fire-strangers-major-us-interstate-tells-cops-had-kill-people-today"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
-        "desc": "The Ukrainian president had warned that intelligence services had determined Russia was preparing for a \"massive\" strike.",
-        "link": "https://www.sbs.com.au/news/article/russian-strikes-on-ukraine-kill-at-least-25-in-a-major-attack/vye3uk52v"
-       }
-      ]
-     },
-     {
       "id": 6,
       "headline": "Marlon Humphrey says meeting President Trump inspired him to vote in the next election",
       "summary": "Marlon Humphrey rode in Trump's presidential motorcade near Baltimore and says the experience has inspired him to vote for the first time ever.",
-      "ts": 1791415960000,
+      "ts": 1791418436000,
       "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/trump-baltimore-ravens-sparrows-point.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
@@ -308,18 +332,18 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Chaos erupts at Trump rally in Texas as series of protesters disrupt president who strikes back: 'They're all paid'",
+        "desc": "President Donald Trump's Texas rally was disrupted by at least three protesters on Wednesday night.",
+        "link": "https://www.dailymail.com/news/article-16191761/Chaos-erupts-Trump-rally-Texas-protesters-disrupt.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
         "outlet": "Fox News",
         "lean": "right",
         "title": "Marlon Humphrey says meeting President Trump inspired him to vote in the next election",
         "desc": "Marlon Humphrey rode in Trump's presidential motorcade near Baltimore and says the experience has inspired him to vote for the first time ever.",
         "link": "https://www.foxnews.com/outkick-sports/marlon-humphrey-meeting-president-trump-inspired-vote-next-election"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "European Parliament's 'Orange Plague' insult to Trump: Statue depicting obese, naked president is put on display",
-        "desc": "The statue titled the 'Orange Plague' (pictured) depicts US President Donald Trump overweight and naked holding a long gold club and sitting on the shoulders of a shorter man.",
-        "link": "https://www.dailymail.com/news/article-16189127/Statue-obese-naked-Donald-Trump-European-Parliament-Orange-Plague.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -359,6 +383,27 @@
      },
      {
       "id": 8,
+      "headline": "Critical House race that could decide control of Congress hits home stretch as GOP rep warns what's at stake",
+      "summary": "Mariannette Miller-Meeks accuses Christina Bohannan of aligning with the Democratic Socialists of America on open borders and defunding police.",
+      "ts": 1791417622000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Miller-Meeks-Bohannan.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Critical House race that could decide control of Congress hits home stretch as GOP rep warns what's at stake",
+        "desc": "Mariannette Miller-Meeks accuses Christina Bohannan of aligning with the Democratic Socialists of America on open borders and defunding police.",
+        "link": "https://www.foxnews.com/politics/critical-house-race-decide-control-congress-hits-home-stretch-gop-rep-warns-whats-stake"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "DHS proposes massive $70K fee for foreign students seeking work authorization",
       "summary": "DHS proposes a $70,000 OPT fee for F-1 visa holders in the United States, calling the program a pipeline for cheap foreign labor into the workforce.",
       "ts": 1791415326000,
@@ -379,7 +424,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Anti-Israel groups rally across US on October 7 anniversary, chanting 'long live the intifada'",
       "summary": "Anti-Israel groups chanted \"long live the intifada\" and celebrated the Hamas attack as October 7 anniversary protests swept across the country.",
       "ts": 1791411099000,
@@ -400,7 +445,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "DNC lawsuit accuses Trump administration of diverting $20M in federal funds for 'propaganda' ads",
       "summary": "The Democratic National Committee alleges the Trump administration directed $20 million in taxpayer funds toward ads designed to boost Republicans ahead of 2026 midterms.",
       "ts": 1791408582000,
@@ -421,7 +466,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "100-shot Somali gang gun battle rocks Minnesota as sheriff warns 'we're in trouble'",
       "summary": "CCTV captured a gunfight that left 97 casings in Bloomington as Somali gang violence across Minnesota's Twin Cities draws national attention.",
       "ts": 1791408078000,
@@ -438,27 +483,6 @@
         "title": "100-shot Somali gang gun battle rocks Minnesota as sheriff warns 'we're in trouble'",
         "desc": "CCTV captured a gunfight that left 97 casings in Bloomington as Somali gang violence across Minnesota's Twin Cities draws national attention.",
         "link": "https://www.foxnews.com/politics/100-shot-somali-gang-gun-battle-rocks-minnesota-sheriff-warns-trouble"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Nicolás Maduro and his wife expected to face new charges related to alleged torture of Americans",
-      "summary": "Former Venezuelan President Nicolas Maduro and wife Cilia Flores face new charges tied to alleged torture of Americans in Manhattan court Thursday.",
-      "ts": 1791407663000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/maduro-and-wife.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Nicolás Maduro and his wife expected to face new charges related to alleged torture of Americans",
-        "desc": "Former Venezuelan President Nicolas Maduro and wife Cilia Flores face new charges tied to alleged torture of Americans in Manhattan court Thursday.",
-        "link": "https://www.foxnews.com/politics/nicolas-maduro-his-wife-expected-face-new-charges-related-alleged-torture-americans"
        }
       ]
      }
@@ -575,6 +599,27 @@
      },
      {
       "id": 17,
+      "headline": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+      "summary": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is the third vehicle to be released on BMW's next-generation Neue ",
+      "ts": 1791410460000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+        "desc": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spin on the automaker's iX3. The iX4 is the third vehicle to be released on BMW's next-generation Neue ",
+        "link": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china"
+       }
+      ]
+     },
+     {
+      "id": 18,
       "headline": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
       "summary": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
       "ts": 1791410202000,
@@ -591,27 +636,6 @@
         "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
         "desc": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
         "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Teenage Engineering’s CEO says it’ll stop making synths",
-      "summary": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything the company makes itself - the OP-1, the OP-XY, EP-133, TP",
-      "ts": 1791407994000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Teenage Engineering’s CEO says it’ll stop making synths",
-        "desc": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Playdate, among others. But almost everything the company makes itself - the OP-1, the OP-XY, EP-133, TP",
-        "link": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths"
        }
       ]
      }
@@ -735,10 +759,10 @@
      },
      {
       "id": 23,
-      "headline": "France just set the bond market on fire again",
-      "summary": "Fears that the country’s debt crisis could spread across global markets are getting more real. And there are no easy solutions.",
-      "ts": 1791417088000,
-      "img": "https://static.ffx.io/images/$zoom_0.25484230324074075%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_676%2C$y_155/t_crop_custom/q_86%2Cf_auto/d9579611a37ccf274ad7b8e0e08780e2556c806d",
+      "headline": "BGH Capital’s ForHealth in pink of health, bankers hired for $1b sale",
+      "summary": "The local private equity giant, which acquired the business in 2020 for about $500 million, is gunning for an earnings multiple in “the teens”.",
+      "ts": 1791418387000,
+      "img": "https://static.ffx.io/images/$zoom_1.2172%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/b21fa36e30a1cc27cd26a19c8359070b39c49a48",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -748,18 +772,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "France just set the bond market on fire again",
-        "desc": "Fears that the country’s debt crisis could spread across global markets are getting more real. And there are no easy solutions.",
-        "link": "https://www.afr.com/chanticleer/france-just-set-the-bond-market-on-fire-again-20261008-p613sy?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "BGH Capital’s ForHealth in pink of health, bankers hired for $1b sale",
+        "desc": "The local private equity giant, which acquired the business in 2020 for about $500 million, is gunning for an earnings multiple in “the teens”.",
+        "link": "https://www.afr.com/street-talk/bgh-capital-s-forhealth-in-pink-of-health-bankers-hired-for-1b-sale-20261008-p612z1?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "How the global bond sell-off hits your share portfolio",
-      "summary": "From sticky inflation to the AI boom, global forces are pushing bond yields up – and shaking share portfolios in the process.",
-      "ts": 1791417047000,
-      "img": "https://static.ffx.io/images/$zoom_0.3603133101851852%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_47%2C$y_56/t_crop_custom/q_86%2Cf_auto/02ef396682f54f21737a8ac1b43f3676052056acec652a5179f30b2120100974",
+      "headline": "ASX declines as materials plunge; Maas dives 25pc on Firmus worries",
+      "summary": "Shares decline as materials shed 2pc; Maas dives 25pc on Firmus IPO jitters; Lovisa sheds 8pc as CFO departs; Fortescue iron ore shipments drop. Follow live.",
+      "ts": 1791418292000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/32437f5c8bfd2415073fd80dd4a01c4703486a1ff5b291a29ca1a62bfda7c344",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -769,9 +793,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "How the global bond sell-off hits your share portfolio",
-        "desc": "From sticky inflation to the AI boom, global forces are pushing bond yields up – and shaking share portfolios in the process.",
-        "link": "https://www.afr.com/wealth/personal-finance/how-the-global-bond-sell-off-hits-your-share-portfolio-20261008-p612v2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX declines as materials plunge; Maas dives 25pc on Firmus worries",
+        "desc": "Shares decline as materials shed 2pc; Maas dives 25pc on Firmus IPO jitters; Lovisa sheds 8pc as CFO departs; Fortescue iron ore shipments drop. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-drop-global-bond-yields-surge-anew-20261008-p613pn?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -1027,34 +1051,6 @@
      },
      {
       "id": 32,
-      "headline": "‘Marshals’ Star Luke Grimes Says He Hasn’t Spoken to ‘Yellowstone’ Co-Star Kevin Costner ‘Since We Stopped Working Together’",
-      "summary": "Kevin Costner and Luke Grimes may have played a father-son duo on-screen in “Yellowstone,” but off-screen, the two actors haven’t spoken since Taylor Sheridan’s Western drama concluded. “I’ve never spoken to Kevin since we stopped working together,” Grimes, who now stars in the “Yellowstone” spin-off “Marshals,” said in a recent interview with USA Today. “Not […]",
-      "ts": 1791416612000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/TCDYELL_PT005.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Marshals’ Star Luke Grimes Says He Hasn’t Spoken to ‘Yellowstone’ Co-Star Kevin Costner ‘Since We Stopped Working Together’",
-        "desc": "Kevin Costner and Luke Grimes may have played a father-son duo on-screen in “Yellowstone,” but off-screen, the two actors haven’t spoken since Taylor Sheridan’s Western drama concluded. “I’ve never spoken to Kevin since we stopped working together,” Grimes, who now stars in the “Yellowstone” spin-off “Marshals,” said in a recent interview with USA Today. “Not […]",
-        "link": "https://variety.com/2026/tv/news/marshals-luke-grimes-kevin-costner-yellowstone-1236905016/"
-       },
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Marshals Season 2's Major Returning Star Originally Wanted His Yellowstone Character Killed Off",
-        "desc": "EXCLUSIVE: Several characters almost didn’t make it to Marshals season 2, and one cast member makes a shocking revelation about his fate.",
-        "link": "https://screenrant.com/yellowstone-marshals-season-2-cal-killed-logan-marshall-green-wanted/"
-       }
-      ]
-     },
-     {
-      "id": 33,
       "headline": "Mark Hamill's New Stephen King Horror Series Cameo Detailed By Mike Flanagan",
       "summary": "Exclusive: Mike Flanagan details how he got Mark Hamill for a sneaky cameo in his new Stephen King horror series and how it continues a trend.",
       "ts": 1791416525000,
@@ -1073,16 +1069,16 @@
         "link": "https://screenrant.com/mark-hamill-stephen-king-carrie-series-cameo-mike-flanagan-details/"
        },
        {
-        "outlet": "Deadline",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Carrie’s Matthew Lillard & Amber Midthunder On How The “Catastrophic” Finale Deviates From The Book: “It’s Part Of The Tragedy”",
-        "desc": "SPOILERS: This post contains details about the Season 1 finale of Prime Video’s Carrie As Mike Flanagan leaves another mark on the Stephen King onscreen universe with Prime Video’s Carrie, Matthew Lillard and Amber Midthunder have joined his talented troupe of horror actors. While speaking to Deadline, the actors who play Principal Grayle and Miss […]",
-        "link": "https://deadline.com/2026/10/carrie-matthew-lillard-amber-midthunder-catastrophic-finale-1237149241/"
+        "title": "‘Carrie’ Star Samantha Sloyan on Modernizing an Iconic Evil Mom, Playing a Character Who ‘Chooses Violence’ and Being Mike Flanagan’s Secret Weapon",
+        "desc": "“Why would I do ‘Carrie’ now?” Samantha Sloyan says this was one of the first things writer, director and showrunner Mike Flanagan said to her when he revealed his idea to turn Stephen King’s 1974 novel of the same name into a miniseries. Sure, Flanagan had tackled King before, adapting novels such as “Gerald’s Game” and […]",
+        "link": "https://variety.com/2026/tv/features/carrie-mom-samantha-sloyan-evil-mike-flanagan-series-1236899761/"
        }
       ]
      },
      {
-      "id": 34,
+      "id": 33,
       "headline": "‘Ted Lasso’: Brendan Hunt Breaks Down Season 4 Finale, “Passing The Torch” Moment, Coaching Team Shakeup & Who May Be Leaving Amid Renewal Buzz",
       "summary": "SPOILER ALERT: The story includes details about the Season 4 finale of Apple TV’s Ted Lasso, titled “Being Alive.” If you thought the penultimate episode of Ted Lasso was packed with Mae’s shocking death, Keeley’s (Juno Temple) surprise pregnancy and Zelda’s (Tracey Ullman) unexpected (for some) deceit, you’d better buckled up for the finale. The […]",
       "ts": 1791412861000,
@@ -1110,7 +1106,7 @@
       ]
      },
      {
-      "id": 35,
+      "id": 34,
       "headline": "Miles Teller to Be Honored by Newport Beach Film Festival (EXCLUSIVE)",
       "summary": "Miles Teller will be honored with the Artist of Distinction Award at the Newport Beach Film Festival. He will be presented with the recognition at the fest’s annual Honors ceremony on Oct. 18. “Miles Teller brings extraordinary dedication to every role he takes on,” Newport Beach Film Festival CEO and executive director Gregg Schwenk said. […]",
       "ts": 1791411593000,
@@ -1138,11 +1134,11 @@
       ]
      },
      {
-      "id": 36,
-      "headline": "SiriusXM Reaffirms Commitment To Comics “At Every Stage Of Their Careers,” Says Raw Comedy Decision Predated Maniscalco’s Arrival",
-      "summary": "EXCLUSIVE: SiriusXM has reframed its statement on the viral Raw Dog Comedy debacle amid ongoing fallout with comics online. A spokesperson tells Deadline in an exclusive statement, “SiriusXM has proudly supported the comedy community, and we have been listening to comedians speak out this week. Our decision to end Raw Comedy was due to the […]",
-      "ts": 1791417003000,
-      "img": "https://deadline.com/wp-content/uploads/2026/04/26-2215-sebastian-maniscalcos-comedy-radio-logo-app_16x9-1.jpg",
+      "id": 35,
+      "headline": "9 Great Banned Books You Probably Haven’t Read",
+      "summary": "Unflinching narratives and strange worlds reveal how censorship reshapes youth reading and cultural memory.",
+      "ts": 1791418576000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/old-books-arranged-on-handmade-wooden-shelves.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1150,11 +1146,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "SiriusXM Reaffirms Commitment To Comics “At Every Stage Of Their Careers,” Says Raw Comedy Decision Predated Maniscalco’s Arrival",
-        "desc": "EXCLUSIVE: SiriusXM has reframed its statement on the viral Raw Dog Comedy debacle amid ongoing fallout with comics online. A spokesperson tells Deadline in an exclusive statement, “SiriusXM has proudly supported the comedy community, and we have been listening to comedians speak out this week. Our decision to end Raw Comedy was due to the […]",
-        "link": "https://deadline.com/2026/10/siriusxm-new-statement-raw-dog-sebastian-maniscalco-1237149547/"
+        "title": "9 Great Banned Books You Probably Haven’t Read",
+        "desc": "Unflinching narratives and strange worlds reveal how censorship reshapes youth reading and cultural memory.",
+        "link": "https://screenrant.com/best-underrated-banned-books/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "All 5 Seasons Of Fargo & The Movie, Ranked",
+      "summary": "Fargo is synonymous with quality, with all five seasons and the movie being beloved, so here is every Fargo story ranked from worst to best.",
+      "ts": 1791418576000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/fargo_c76d71.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "All 5 Seasons Of Fargo & The Movie, Ranked",
+        "desc": "Fargo is synonymous with quality, with all five seasons and the movie being beloved, so here is every Fargo story ranked from worst to best.",
+        "link": "https://screenrant.com/fargo-tv-seasons-movie-ranked-worst-best/"
        }
       ]
      }
@@ -1162,36 +1179,36 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Tech",
    "Guardian Australia",
-   "BBC World",
-   "BBC Tech",
+   "Crikey",
    "The Age",
    "ABC News",
-   "The Conversation",
-   "The Age Federal Politics",
-   "Ars Technica",
-   "AFR",
-   "The Verge",
-   "Fox Business",
+   "BBC World",
    "Fox News",
-   "Guardian AU Politics",
-   "Deadline",
-   "Variety",
-   "BBC Sport",
+   "Guardian Tech",
    "Fox News Politics",
-   "7News",
+   "The Conversation",
+   "Guardian AU Politics",
+   "Ars Technica",
+   "BBC Tech",
+   "The Verge",
    "Guardian AU Business",
-   "Guardian AU Sport",
+   "The Age Federal Politics",
+   "Fox Business",
+   "AFR",
+   "Deadline",
    "The Age Business",
+   "BBC Sport",
    "ABC Business",
+   "Guardian AU Sport",
+   "Variety",
+   "7News",
    "ABC Sport",
-   "Screen Rant",
    "Guardian Film",
+   "Screen Rant",
    "Anime News Network",
    "Daily Mail Australia",
    "7News Sport",
-   "Crikey",
    "SBS News"
   ],
   "sourcesFailed": []
@@ -1406,7 +1423,7 @@
   {
    "title": "AliExpress: 23% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/978046",
-   "votes": 182,
+   "votes": 185,
    "neg": 0,
    "category": "Other",
    "ts": 1791352957000
@@ -1422,7 +1439,7 @@
   {
    "title": "$20 off Minimum $200 Spend @ Coles Online",
    "link": "https://www.ozbargain.com.au/node/978044",
-   "votes": 99,
+   "votes": 100,
    "neg": 0,
    "category": "Groceries",
    "ts": 1791352560000
@@ -1430,7 +1447,7 @@
   {
    "title": "[PC, Steam] Free - Hex Reverse @ Steam",
    "link": "https://www.ozbargain.com.au/node/978079",
-   "votes": 95,
+   "votes": 96,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791366450000
@@ -1438,7 +1455,7 @@
   {
    "title": "nbn 500/50 $69/M for 6 Months, $10/M SubHub Streaming Credit, 34,000 Flybuys Points After 3 Months (New Customers) @ Optus",
    "link": "https://www.ozbargain.com.au/node/978039",
-   "votes": 86,
+   "votes": 87,
    "neg": 0,
    "category": "Internet",
    "ts": 1791350919000
@@ -1454,7 +1471,7 @@
   {
    "title": "[PC, Mac, Steam] Free - Spooky Cats (Newsletter Subscription & Unlimited Steam Account Required) @ Fanatical",
    "link": "https://www.ozbargain.com.au/node/978083",
-   "votes": 70,
+   "votes": 71,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791367371000
@@ -1462,7 +1479,7 @@
   {
    "title": "KB's Raw Prawns, Tail On, Large, 500g $12.00 (Was $24.00, 50% off) @ Coles",
    "link": "https://www.ozbargain.com.au/node/978048",
-   "votes": 71,
+   "votes": 72,
    "neg": 1,
    "category": "Groceries",
    "ts": 1791356447000
@@ -1484,17 +1501,9 @@
    "ts": 1791352250000
   },
   {
-   "title": "JBL Charge 5 Bluetooth Speaker (Black/Blue) $99 Delivered @ Amazon AU / JB Hi-Fi (C&C/+ Delivery)",
-   "link": "https://www.ozbargain.com.au/node/978113",
-   "votes": 38,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1791407897000
-  },
-  {
    "title": "DampRid 3.4kg Moisture Absorber Super Refill $13.90 ($12.51 Sub & Save) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/978115",
-   "votes": 37,
+   "votes": 42,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1791409990000
@@ -1502,10 +1511,18 @@
   {
    "title": "SanDisk 64GB Extreme SDXC Memory Card $20 (C&C/in Store Only) @ Officeworks",
    "link": "https://www.ozbargain.com.au/node/978114",
-   "votes": 34,
+   "votes": 42,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1791409772000
+  },
+  {
+   "title": "JBL Charge 5 Bluetooth Speaker (Black/Blue) $99 Delivered @ Amazon AU / JB Hi-Fi (C&C/+ Delivery)",
+   "link": "https://www.ozbargain.com.au/node/978113",
+   "votes": 42,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1791407897000
   }
  ],
  "carried": {}
