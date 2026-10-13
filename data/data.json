@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T23:19:46.733Z",
+ "generatedAt": "2026-10-13T23:28:38.900Z",
  "markets": {
   "items": [
    {
@@ -7,50 +7,50 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8783.9,
-    "chgPct": 0.772094551097836,
+    "price": 8736.4,
+    "chgPct": -0.5328376249180468,
     "high52": 9296.7,
-    "off52": -5.515935762152173
+    "off52": -6.02686974948101
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.43,
-    "chgPct": -0.2282292133817922,
+    "price": 87.31,
+    "chgPct": -0.13725300784274969,
     "high52": 88,
-    "off52": -0.647727272727265
+    "off52": -0.7840909090909065
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.71,
-    "chgPct": 0.11601386765129823,
+    "price": 145.92,
+    "chgPct": -0.5384818197220679,
     "high52": 155.03,
-    "off52": -5.366703218731854
+    "off52": -5.87628200993357
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 63.61,
-    "chgPct": -1.5629877803362584,
+    "price": 63.62,
+    "chgPct": 0.015719838944330544,
     "high52": 65.18,
-    "off52": -2.4087143295489524
+    "off52": -2.3933722000613824
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 37.22,
-    "chgPct": -4.466116851543066,
+    "price": 37.53,
+    "chgPct": 0.8328822383929516,
     "high52": 47.78,
-    "off52": -22.101297614064467
+    "off52": -21.452490581833402
    },
    {
     "sym": "AUDUSD=X",
@@ -64,32 +64,8 @@
    }
   ],
   "failed": [],
-  "note": "SEMI is 22% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 21% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
-   {
-    "sym": "QAN.AX",
-    "name": "Qantas",
-    "market": "ASX",
-    "price": 8.3,
-    "currency": "AUD",
-    "chgPct": -2.9239787737756218
-   },
-   {
-    "sym": "FMG.AX",
-    "name": "Fortescue",
-    "market": "ASX",
-    "price": 15.32,
-    "currency": "AUD",
-    "chgPct": -2.9150807398941474
-   },
-   {
-    "sym": "XRO.AX",
-    "name": "Xero",
-    "market": "ASX",
-    "price": 59.71,
-    "currency": "AUD",
-    "chgPct": -2.894782289606174
-   },
    {
     "sym": "META",
     "name": "Meta",
@@ -109,6 +85,41 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Man killed by tiger at UK wildlife park identified as former child star William Chapman as new footage surfaces",
+      "summary": "The man, identified as a former child star, could be seen approaching the tiger as horrified visitors screamed out.",
+      "ts": 1791933732000,
+      "img": "https://images.7news.com.au/publication/C-23015049/e9aab2ed0ab8d1b1e78b484880b46fadc2731984-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Family of 24-year-old mauled to death by tiger at Yorkshire zoo pay tribute to 'bright young man' who was a 'passionate' child actor and appeared alongside Harry Potter star in ITV show",
+        "desc": "William Chapman, 24, appeared in the two-part ITV comedy May Contain Nuts starring Shirley Henderson who is best known for playing Moaning Myrtle in the Harry Potter films.",
+        "link": "https://www.dailymail.com/news/article-16206573/Man-mauled-death-tiger-child-actor-Harry-Potter.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Man killed by tiger at UK wildlife park identified as former child star William Chapman as new footage surfaces",
+        "desc": "The man, identified as a former child star, could be seen approaching the tiger as horrified visitors screamed out.",
+        "link": "https://7news.com.au/news/animals/man-killed-by-tiger-at-uk-wildlife-park-identified-as-former-child-star-william-chapman-as-new-footage-surfaces-c-23015049"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Man killed by tiger at Yorkshire Wildlife Park named",
+        "desc": "William Chapman was pronounced dead at scene on Saturday after scaling fence and entering enclosure A man killed by a tiger at a zoo in South Yorkshire has been named locally as William Chapman. Chapman scaled the fence and entered the enclosure at Yorkshire Wildlife Park near Doncaster on Saturday afternoon. Witnesses described seeing Chapman, who has not been officially named by police, walking ",
+        "link": "https://www.theguardian.com/uk-news/2026/oct/13/man-killed-by-tiger-at-yorkshire-wildlife-park-named"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "Extra charges for teen driver Indika Bambrick Samarasinghe after Newcastle crash",
       "summary": "The incident on the eve of the NRL grand final left 10 people in hospital, including a five-year-old girl.",
       "ts": 1791928350000,
@@ -143,7 +154,7 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
       "summary": "Pope Leo had successful surgery to remove a lower lobe of his right lung, the Vatican said.",
       "ts": 1791924366000,
@@ -178,7 +189,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Thirty years after Tupac Shakur's killing, a sentence is handed down",
       "summary": "Police said they had long suspected Duane Davis but lacked evidence to charge him until he went public with his story.",
       "ts": 1791924128000,
@@ -213,7 +224,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "Kelly Clarkson feuds with a Brooklyn novelty shop, and the internet piles on",
       "summary": "The US star likened herself to Julia Roberts’ character in Pretty Woman over her treatment as she took aim at the store – then a furore erupted.",
       "ts": 1791933460000,
@@ -241,7 +252,7 @@
       ]
      },
      {
-      "id": 4,
+      "id": 5,
       "headline": "Actor Selma Blair faces court after alleged midair rampage on flight to New York",
       "summary": "The Cruel Intentions star allegedly assaulted two flight attendants during the flight then later allegedly hit out at a nurse and a police officer.",
       "ts": 1791933047000,
@@ -269,7 +280,7 @@
       ]
      },
      {
-      "id": 5,
+      "id": 6,
       "headline": "AFL premiership hero Nick Davis and Wallabies great Will Genia cross codes to join Lebanon’s Rugby League World Cup squad",
       "summary": "‘We’re really out here assembling the Avengers of Australian sport.’",
       "ts": 1791932822000,
@@ -293,34 +304,6 @@
         "title": "Major League Baseball is experimenting with new rules this fall to fundamentally change the sport",
         "desc": "Beyond the infield shift ban, MLB is now testing outfield positioning rules in the Arizona Fall League to combat plunging fly ball batting averages.",
         "link": "https://www.foxnews.com/outkick-sports/major-league-baseball-experimenting-new-rules-fall-fundamentally-change-sport"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Albanese and Chalmers try to calm Labor nerves",
-      "summary": "The prime minister and his treasurer have been out and about trying to ease worries about the government's performance. Meanwhile, Small Business Minister Anne Aly says she has received 19 death threats over the last week. The post Albanese and Chalmers try to calm Labor nerves appeared first on Crikey.",
-      "ts": 1791932148000,
-      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/10/20260917121481371066-original-1.jpg?quality=70&w=840",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: Albanese wants to block livestream of US execution in Australia; Chalmers says progressives have to take One Nation’s rise seriously",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
-        "link": "https://www.theage.com.au/national/australia-news-live-albanese-wants-to-block-livestream-of-us-execution-in-australia-chalmers-says-progressives-have-to-take-one-nation-s-rise-seriously-20261014-p615bl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Albanese and Chalmers try to calm Labor nerves",
-        "desc": "The prime minister and his treasurer have been out and about trying to ease worries about the government's performance. Meanwhile, Small Business Minister Anne Aly says she has received 19 death threats over the last week. The post Albanese and Chalmers try to calm Labor nerves appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/10/14/albanese-chalmers-labor-nerves-jim-chalmers-anne-aly-angie-bell-madeleine-king/"
        }
       ]
      }
@@ -360,6 +343,27 @@
      },
      {
       "id": 8,
+      "headline": "Australian politics live: Hanson dismisses ‘shamed and stoned’ remark as ‘heat of moment’; PM extends ‘thoughts and prayers’ to pope",
+      "summary": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast Australia missing out on $45bn of revenue from resources: Greens As Labor prepares to introduce its bill for a gas reserve, the Greens are pointing out that there are tens of billions being left on the table because the government won’t properly tax the resource. We’re giving away billions in resource wealth wh",
+      "ts": 1791933681000,
+      "img": "https://i.guim.co.uk/img/media/89abba2191f407c67386c069bd00bb78e6d3900a/0_0_5583_4469/master/5583.jpg?width=460&quality=85&auto=format&fit=max&s=cb2093071b4fa277c2dae26c9c6b354b",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australian politics live: Hanson dismisses ‘shamed and stoned’ remark as ‘heat of moment’; PM extends ‘thoughts and prayers’ to pope",
+        "desc": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast Australia missing out on $45bn of revenue from resources: Greens As Labor prepares to introduce its bill for a gas reserve, the Greens are pointing out that there are tens of billions being left on the table because the government won’t properly tax the resource. We’re giving away billions in resource wealth wh",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/14/treasurer-jim-chalmers-labor-one-nation-pauline-hanson-one-nation-gas-reservation-scheme-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "Pentagon pushes hypersonic weapons production as startups slash costs",
       "summary": "Dark Eagle missiles could cost over $40 million each, but startups like Castelion aim to produce hypersonic weapons for under $500,000 apiece.",
       "ts": 1791933178000,
@@ -376,27 +380,6 @@
         "title": "Pentagon pushes hypersonic weapons production as startups slash costs",
         "desc": "Dark Eagle missiles could cost over $40 million each, but startups like Castelion aim to produce hypersonic weapons for under $500,000 apiece.",
         "link": "https://www.foxnews.com/politics/pentagon-pushes-hypersonic-weapons-production-startups-slash-costs"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "Australian politics live: Hanson dismisses ‘shamed and stoned’ remark as ‘heat of moment’; PM extends ‘thoughts and prayers’ to pope",
-      "summary": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast Australia missing out on $45bn of revenue from resources: Greens As Labor prepares to introduce its bill for a gas reserve, the Greens are pointing out that there are tens of billions being left on the table because the government won’t properly tax the resource. We’re giving away billions in resource wealth wh",
-      "ts": 1791932965000,
-      "img": "https://i.guim.co.uk/img/media/89abba2191f407c67386c069bd00bb78e6d3900a/0_0_5583_4469/master/5583.jpg?width=460&quality=85&auto=format&fit=max&s=cb2093071b4fa277c2dae26c9c6b354b",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australian politics live: Hanson dismisses ‘shamed and stoned’ remark as ‘heat of moment’; PM extends ‘thoughts and prayers’ to pope",
-        "desc": "Follow the day’s news live. Get our breaking news email, free app or daily news podcast Australia missing out on $45bn of revenue from resources: Greens As Labor prepares to introduce its bill for a gas reserve, the Greens are pointing out that there are tens of billions being left on the table because the government won’t properly tax the resource. We’re giving away billions in resource wealth wh",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/14/treasurer-jim-chalmers-labor-one-nation-pauline-hanson-one-nation-gas-reservation-scheme-ntwnfb"
        }
       ]
      },
@@ -527,34 +510,6 @@
      },
      {
       "id": 15,
-      "headline": "Apple’s HomeView ad is confusing to everyone except parents",
-      "summary": "Nothing like a little family togetherness in the morning. | Image: Apple Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells. Apple's typical vibe is clean, simple, orderly; this commercial is chaos. But the spot ha",
-      "ts": 1791929400000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Apple-HomeView-lifestyle-living-room-261013-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Apple’s HomeView ad is confusing to everyone except parents",
-        "desc": "Nothing like a little family togetherness in the morning. | Image: Apple Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells. Apple's typical vibe is clean, simple, orderly; this commercial is chaos. But the spot ha",
-        "link": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Apple’s first smart display is the 7-inch HomeView for $299",
-        "desc": "It can recognize up to six users with its camera.",
-        "link": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/"
-       }
-      ]
-     },
-     {
-      "id": 16,
       "headline": "AI minister warns 'likely' UK's cyber defences will be breached",
       "summary": "Kanishka Narayan said the government will use advanced AI to strengthen the UK against cyber attacks.",
       "ts": 1791860226000,
@@ -582,7 +537,7 @@
       ]
      },
      {
-      "id": 17,
+      "id": 16,
       "headline": "Is it OK for jobseekers or employers to use AI?",
       "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
       "ts": 1791932679000,
@@ -603,7 +558,7 @@
       ]
      },
      {
-      "id": 18,
+      "id": 17,
       "headline": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
       "summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
       "ts": 1791928549000,
@@ -620,6 +575,27 @@
         "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
         "desc": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
         "link": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Topgolf saved over $11.3 million after leaving VMware",
+      "summary": "Topgolf and VMware \"ran deep\" before the migration.",
+      "ts": 1791927223000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/11-TGFW-Tee-Line-X2-1152x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Topgolf saved over $11.3 million after leaving VMware",
+        "desc": "Topgolf and VMware \"ran deep\" before the migration.",
+        "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/"
        }
       ]
      }
@@ -1100,37 +1076,37 @@
    }
   ],
   "sourcesOk": [
-   "ABC News",
-   "The Age",
-   "BBC World",
-   "Guardian Australia",
-   "Fox News",
-   "BBC Tech",
-   "Ars Technica",
-   "Fox News Politics",
-   "BBC Sport",
-   "ABC Sport",
-   "The Conversation",
    "The Age Federal Politics",
-   "Variety",
+   "Crikey",
+   "The Age",
+   "BBC Tech",
+   "BBC World",
+   "7News",
+   "ABC News",
+   "Ars Technica",
+   "The Age Business",
    "The Verge",
    "Guardian AU Politics",
-   "Deadline",
-   "Fox Business",
-   "The Age Business",
-   "ABC Business",
-   "Guardian Film",
-   "Guardian AU Business",
    "AFR",
    "Guardian Tech",
+   "Variety",
+   "The Conversation",
+   "ABC Business",
+   "Fox Business",
+   "BBC Sport",
+   "Guardian Australia",
+   "Guardian AU Business",
+   "Fox News",
+   "Deadline",
+   "Fox News Politics",
+   "Guardian Film",
    "Guardian AU Sport",
-   "7News",
-   "Anime News Network",
-   "Crikey",
+   "ABC Sport",
    "Screen Rant",
+   "Anime News Network",
    "Daily Mail Australia",
-   "SBS News",
-   "7News Sport"
+   "7News Sport",
+   "SBS News"
   ],
   "sourcesFailed": []
  },
@@ -1324,7 +1300,7 @@
   {
    "title": "Apple iPhone Air (eSim) 256GB - Sky Blue $999 Delivered @ Big W Online",
    "link": "https://www.ozbargain.com.au/node/978863",
-   "votes": 191,
+   "votes": 196,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791923345000
@@ -1364,7 +1340,7 @@
   {
    "title": "[NSW] Tap Installation $150 (Was $180), Taps Supplied & Installed from $183 @ TapLife (Sydney Metro Only)",
    "link": "https://www.ozbargain.com.au/node/978829",
-   "votes": 67,
+   "votes": 68,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1791878892000
@@ -1412,7 +1388,7 @@
   {
    "title": "Apple iPhone 17 Pro Max 256GB $1,879.99 Delivered @ Costco (Membership Required)",
    "link": "https://www.ozbargain.com.au/node/978852",
-   "votes": 51,
+   "votes": 52,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791895310000
