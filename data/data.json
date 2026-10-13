@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T01:40:47.806Z",
+ "generatedAt": "2026-10-13T02:13:30.472Z",
  "markets": {
   "items": [
    {
@@ -7,65 +7,89 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8750.3,
-    "chgPct": -0.37458095660917773,
+    "price": 8763,
+    "chgPct": -0.229986734485235,
     "high52": 9296.7,
-    "off52": -5.8773543300311015
+    "off52": -5.740746716576857
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.38,
-    "chgPct": -0.2852873003008365,
+    "price": 87.4,
+    "chgPct": -0.2624640655332123,
     "high52": 88,
-    "off52": -0.7045454545454597
+    "off52": -0.6818181818181753
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.11,
-    "chgPct": -0.2934306713752862,
+    "price": 146.27,
+    "chgPct": -0.18424546096819833,
     "high52": 155.03,
-    "off52": -5.7537250854673205
+    "off52": -5.650519254337865
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 63.74,
-    "chgPct": -1.3618116824183755,
+    "price": 63.69,
+    "chgPct": -1.4391871046944895,
     "high52": 65.18,
-    "off52": -2.209266646210501
+    "off52": -2.285977293648372
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 37.4,
-    "chgPct": -4.004104520357622,
+    "price": 37.22,
+    "chgPct": -4.466116851543066,
     "high52": 47.78,
-    "off52": -21.72457095018837
+    "off52": -22.101297614064467
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6958,
-    "chgPct": -0.014373182964159145,
+    "price": 0.696,
+    "chgPct": 0.014366577546626952,
     "high52": 0.7277,
-    "off52": -4.383674591177689
+    "off52": -4.356190737941468
    }
   ],
   "failed": [],
   "note": "SEMI is 22% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "WBC.AX",
+    "name": "Westpac",
+    "market": "ASX",
+    "price": 34.92,
+    "currency": "AUD",
+    "chgPct": 3.558715112264324
+   },
+   {
+    "sym": "NAB.AX",
+    "name": "NAB",
+    "market": "ASX",
+    "price": 39.01,
+    "currency": "AUD",
+    "chgPct": 3.5297231530051922
+   },
+   {
+    "sym": "TLS.AX",
+    "name": "Telstra",
+    "market": "ASX",
+    "price": 4.605,
+    "currency": "AUD",
+    "chgPct": -3.4591191108236448
+   },
    {
     "sym": "META",
     "name": "Meta",
@@ -75,44 +99,20 @@
     "chgPct": 3.3798569117197115
    },
    {
-    "sym": "TLS.AX",
-    "name": "Telstra",
-    "market": "ASX",
-    "price": 4.61,
-    "currency": "AUD",
-    "chgPct": -3.354297307469493
-   },
-   {
-    "sym": "NAB.AX",
-    "name": "NAB",
-    "market": "ASX",
-    "price": 38.92,
-    "currency": "AUD",
-    "chgPct": 3.2908696517549982
-   },
-   {
-    "sym": "WBC.AX",
-    "name": "Westpac",
-    "market": "ASX",
-    "price": 34.81,
-    "currency": "AUD",
-    "chgPct": 3.2324992284628062
-   },
-   {
     "sym": "GMG.AX",
     "name": "Goodman",
     "market": "ASX",
-    "price": 26.34,
+    "price": 26.325,
     "currency": "AUD",
-    "chgPct": -3.0191452578017657
+    "chgPct": -3.0743735349898076
    },
    {
-    "sym": "QAN.AX",
-    "name": "Qantas",
+    "sym": "ANZ.AX",
+    "name": "ANZ",
     "market": "ASX",
-    "price": 8.27,
+    "price": 38.24,
     "currency": "AUD",
-    "chgPct": -2.9342775156292933
+    "chgPct": 2.8509943144800336
    }
   ]
  },
@@ -125,48 +125,6 @@
     "stories": [
      {
       "id": 0,
-      "headline": "One person dead and several others injured in ‘incident’ on US amusement park ride",
-      "summary": "Circumstances surrounding the man’s death or what caused the others to be injured were unclear.",
-      "ts": 1791851181000,
-      "img": "https://images.7news.com.au/publication/C-23008750/fc11cf8558cd53da4a84417bce5d44a9953bd426-16x9-x33y0w1792h1008.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "One person dead and several others injured in ‘incident’ on US amusement park ride",
-        "desc": "Circumstances surrounding the man’s death or what caused the others to be injured were unclear.",
-        "link": "https://7news.com.au/news/united-states/one-person-dead-and-several-others-injured-in-incident-on-us-amusement-park-ride-c-23008750"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "One person dies after falling off Georgia's biggest roller coaster at Six Flags and several others injured as theme park is evacuated",
-        "desc": "A parkgoer at Six Flags over Georgia died on Monday and several others were injured, prompting officials to evacuate one of the park's largest rollercoasters.",
-        "link": "https://www.dailymail.com/news/article-16203785/One-dead-six-flags-Georgia-evacuations.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Roller coaster incident at US theme park kills one and injures several",
-        "desc": "One person has died, and several others have been injured in an incident involving a Six Flags roller coaster in Georgia, according to police.",
-        "link": "https://www.abc.net.au/news/2026-10-13/one-person-dead-several-others-injured-in-incident-at-six-flags/107259434"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Man dies after falling from Goliath roller coaster at Six Flags Over Georgia",
-        "desc": "A fatal incident on the 200-foot-tall Goliath hypercoaster left passengers stranded before emergency personnel evacuated the ride at Six Flags Over Georgia.",
-        "link": "https://www.foxnews.com/us/man-dies-after-falling-from-goliath-roller-coaster-six-flags-over-georgia"
-       }
-      ]
-     },
-     {
-      "id": 1,
       "headline": "Middle East travel advice updated after Saudi Arabia attack and alleged attempted plane hijacking",
       "summary": "Aussies visiting the region are advised to exercise caution and use ‘common sense’.",
       "ts": 1791850788000,
@@ -208,11 +166,81 @@
       ]
      },
      {
+      "id": 1,
+      "headline": "'One of the world's most invasive species' discovered in Sydney",
+      "summary": "Specialist fire ant detection dog teams have been deployed to the site in Sydney's Enfield and a nearby area with no other nests having been discovered.",
+      "ts": 1791856991000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/b254006e076c05856ff3d03c5ffaee84?impolicy=wcms_crop_resize&cropH=1954&cropW=3473&xPos=0&yPos=263&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australian politics live: businesses increasing prices under cover of surcharge ban, UBS economists warn; fire ants in Sydney’s inner west",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Robert Pether has stressed his innocence and recalled his brush with death in his first comments since the Australian engineer departed Iraq after serving more than five years in jail. Pether and his Egyptian colleague Khalid Radwan were detained in Baghdad in 2021 after flying in for a meeting with bank officia",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/13/labor-anthony-albanese-charity-boost-greens-ukraine-coalition-one-nation-ntwnfb"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: Deadly fire ants detected at Sydney logistics centre; Hanson-Young won’t run for Greens leadership again; Russia continues striking energy facilities despite ceasefire",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
+        "link": "https://www.theage.com.au/national/australia-news-live-several-labor-mps-want-government-to-retain-ato-credit-card-payments-russia-continues-striking-energy-facilities-despite-ceasefire-says-zelensky-20261013-p614y8.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "'One of the world's most invasive species' discovered in Sydney",
+        "desc": "Specialist fire ant detection dog teams have been deployed to the site in Sydney's Enfield and a nearby area with no other nests having been discovered.",
+        "link": "https://www.abc.net.au/news/2026-10-13/nsw-fire-ants-detected-at-logistics-centre-in-sydney-enfield/107259332"
+       }
+      ]
+     },
+     {
       "id": 2,
-      "headline": "'Super pest' fire ant nest found in logistics warehouse in Sydney",
-      "summary": "A nest of red imported fire ants has triggered a comprehensive biosecurity response to stop the invasive pest from spreading.",
-      "ts": 1791854475000,
-      "img": "https://assets.sbs.com.au/dims4/default/d318872/2147483647/strip/false/crop/4060x1865+0+70/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F57%2Fb9%2F9c809d1c4e19ad0dd0a66ab8cc4f%2Ffire-ants.jpg",
+      "headline": "One person dead and several others injured in ‘incident’ on US amusement park ride",
+      "summary": "Circumstances surrounding the man’s death or what caused the others to be injured were unclear.",
+      "ts": 1791856449000,
+      "img": "https://images.7news.com.au/publication/C-23008750/fc11cf8558cd53da4a84417bce5d44a9953bd426-16x9-x33y0w1792h1008.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "One person killed, several injured in US roller coaster incident",
+        "desc": "The tragedy occurred on the Goliath rollercoaster at Six Flags Over Georgia amusement park, north-west of Atlanta, police said.",
+        "link": "https://www.theage.com.au/world/north-america/one-person-killed-several-injured-in-us-roller-coaster-incident-20261013-p6151f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "One person dead and several others injured in ‘incident’ on US amusement park ride",
+        "desc": "Circumstances surrounding the man’s death or what caused the others to be injured were unclear.",
+        "link": "https://7news.com.au/news/united-states/one-person-dead-and-several-others-injured-in-incident-on-us-amusement-park-ride-c-23008750"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Roller coaster incident at US theme park kills one and injures several",
+        "desc": "One person has died and several others have been injured in an incident involving a Six Flags roller coaster in Georgia, according to police.",
+        "link": "https://www.abc.net.au/news/2026-10-13/one-person-dead-several-others-injured-in-incident-at-six-flags/107259434"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Hackers hit French supermarket fridges, sparking fires and spoiling food",
+      "summary": "A 'large-scale' cyberattack has disrupted the refrigeration systems of several major food retailers across France.",
+      "ts": 1791834003000,
+      "img": "https://assets.sbs.com.au/dims4/default/13214bd/2147483647/strip/false/crop/5000x2297+0+740/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F63%2F64%2F731bf30542a39a4653a418fc7cee%2Fcyberattack-fridge-france.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -222,31 +250,59 @@
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "'Super pest' fire ant nest found in logistics warehouse in Sydney",
-        "desc": "A nest of red imported fire ants has triggered a comprehensive biosecurity response to stop the invasive pest from spreading.",
-        "link": "https://www.sbs.com.au/news/article/fire-ant-nest-found-in-sydney-warehouse/izzkfvhfi"
+        "title": "Hackers hit French supermarket fridges, sparking fires and spoiling food",
+        "desc": "A 'large-scale' cyberattack has disrupted the refrigeration systems of several major food retailers across France.",
+        "link": "https://www.sbs.com.au/news/article/hackers-hit-french-store-fridges-sparks-fires/4y35b0buh"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Invasive deadly red fire ants found in Sydney’s inner west",
-        "desc": "A nest of invasive fire ants, one of the world’s worst pests, was found in a logistics hub in Enfield.",
-        "link": "https://www.theage.com.au/national/nsw/invasive-deadly-red-fire-ants-found-in-sydney-s-inner-west-20261013-p6150i.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Invasive fire ant nest discovered in Sydney's inner west",
-        "desc": "Specialist fire ant detection dog teams have been deployed to the site in Sydney's Enfield and a nearby area with no other nests having been discovered.",
-        "link": "https://www.abc.net.au/news/2026-10-13/nsw-fire-ants-detected-at-logistics-centre-in-sydney-enfield/107259332"
+        "title": "Fridges in French supermarkets hit by cyber attack",
+        "desc": "Hundreds of stores were targeted by the overnight hack, which spoiled fresh and frozen food estimated to be worth millions of euros.",
+        "link": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Hackers force French supermarket fridges to heat up to 50C in ‘unprecedented’ cyber-attack",
+        "desc": "Hundreds of Intermarché shops and Coopérative U outlets in France hit, with fears Dutch chains also affected Hackers have forced the temperature of many French supermarket fridges up to 50C overnight, in an “unprecedented” cyber-attack affecting several hundred stores across the country, with fires and food losses reported. The Paris prosecutor’s office said on Monday ⁠the large-scale attack was “",
+        "link": "https://www.theguardian.com/world/2026/oct/12/cyber-attack-defrosts-refrigerators-france-supermarket-chains-intermarche-cooperative-u"
        }
       ]
      },
      {
-      "id": 3,
+      "id": 4,
+      "headline": "RJ Mitte, ‘Breaking Bad’ actor who played Walter White Jr., dies at 34",
+      "summary": "Actor and disability advocate RJ Mitte, who played Walter \"Flynn\" White Jr. on \"Breaking Bad,\" has died at age 34.",
+      "ts": 1791857447000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/rj-mitte-found-dead.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Breaking Bad star RJ Mitte dead at 34: Actor known for Walter White Jr role and cerebral palsy advocacy dies by suicide",
+        "desc": "Mitte was found dead at 1.30pm Monday at what's believed to be his home in Brownsville, Texas. Local officials say an investigation is underway and an autopsy will be performed.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16203655/breaking-Bad-star-RJ-Mitte-dead.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "RJ Mitte, ‘Breaking Bad’ actor who played Walter White Jr., dies at 34",
+        "desc": "Actor and disability advocate RJ Mitte, who played Walter \"Flynn\" White Jr. on \"Breaking Bad,\" has died at age 34.",
+        "link": "https://www.foxnews.com/entertainment/rj-mitte-breaking-bad-actor-who-played-walter-white-jr-dies-34"
+       }
+      ]
+     },
+     {
+      "id": 5,
       "headline": "Selma Blair arrested at JFK after she allegedly attacked flight attendants",
       "summary": "Several news outlets reported Blair allegedly punched a flight attendant, bit another and tried to open plane door The actor Selma Blair was arrested on Sunday at John F Kennedy (JFK) airport in New York on allegations that she attacked flight attendants on a Delta Air Lines flight, according to officials. Blair’s arrest happened at about 11pm, after Port Authority of New York and New Jersey offic",
-      "ts": 1791855475000,
+      "ts": 1791857414000,
       "img": "https://i.guim.co.uk/img/media/036b6f38d54795f9ad7d9c24c5b537abb29cb0b8/458_0_4583_3667/master/4583.jpg?width=460&quality=85&auto=format&fit=max&s=6cfaabb1e9e5f9e82708bd3d9cebb592",
       "divergent": null,
       "left_view": null,
@@ -271,67 +327,11 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "Ruthless Roos leap towards relevance with Blakey blockbuster",
-      "summary": "Nick Blakey is not a gun midfielder or a Coleman Medal-winning spearhead, but he is a legitimate All-Australian star with two grand final appearances on his resume.",
-      "ts": 1791855166000,
-      "img": "https://static.ffx.io/images/$zoom_0.282475326753801%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_65/t_crop_custom/q_86%2Cf_auto/21f5144a81d8b50a4d2068c1df6d306185713e2c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Ruthless Roos leap towards relevance with Blakey blockbuster",
-        "desc": "Nick Blakey is not a gun midfielder or a Coleman Medal-winning spearhead, but he is a legitimate All-Australian star with two grand final appearances on his resume.",
-        "link": "https://www.theage.com.au/sport/afl/ruthless-roos-leap-towards-relevance-with-blakey-blockbuster-20261013-p6151t.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Embattled Sydney Swans star Nick Blakey to officially leave the club and move to Melbourne",
-        "desc": "Sydney Swans defender Nick Blakey has been traded to North Melbourne in one of the biggest deals of the AFL trade period.",
-        "link": "https://www.dailymail.com/sport/afl/article-16203985/sydney-swans-north-melbourne.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Breaking: Charges laid after baby found dead at Adelaide motel",
-      "summary": "South Australia's police minister says charges have been laid following the death of an infant, who was found by police at the Tollgate Motel on Saturday.",
-      "ts": 1791855125000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/f6d9e9678119d14b3ff4a54e27fbea2a?impolicy=wcms_crop_resize&cropH=636&cropW=1131&xPos=0&yPos=92&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Breaking: Charges laid after baby found dead at Adelaide motel",
-        "desc": "South Australia's police minister says charges have been laid following the death of an infant, who was found by police at the Tollgate Motel on Saturday.",
-        "link": "https://www.abc.net.au/news/2026-10-13/charges-laid-after-baby-found-dead-at-tollgate-motel-adelaide/107259740"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Princess Eugenie shares sweet clip of her baby girl Adelaide as she celebrates eight years married to husband Jack Brooksbank",
-        "desc": "The King's niece, 36, gave royal fans a rare glimpse into family life as she paid a touching tribute to her husband of eight years, describing him as the 'best Dada'.",
-        "link": "https://www.dailymail.com/news/royals/article-16203983/Princess-Eugenie-baby-girl-Adelaide-celebrates-eight-years-married.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
       "id": 6,
-      "headline": "RJ Mitte, ‘Breaking Bad’ actor who played Walter White Jr., dies at 34",
-      "summary": "Actor and disability advocate RJ Mitte, who played Walter \"Flynn\" White Jr. on \"Breaking Bad,\" has died at age 34.",
-      "ts": 1791854528000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/rj-mitte-found-dead.jpg?ve=1&tl=1",
+      "headline": "Man dies after falling from Goliath roller coaster at Six Flags Over Georgia",
+      "summary": "A fatal incident on the 200-foot-tall Goliath hypercoaster left passengers stranded before emergency personnel evacuated the ride at Six Flags Over Georgia.",
+      "ts": 1791857015000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/six-flags-guests-evacuate-goliath-ride-after-deadly-incident.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -341,16 +341,16 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Breaking Bad star RJ Mitte dead at 34: Actor known for Walter White Jr role and cerebral palsy advocacy dies by suicide",
-        "desc": "Mitte was found dead at 1.30pm Monday at what's believed to be his home in Brownsville, Texas. Local officials say an investigation is underway and an autopsy will be performed.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16203655/breaking-Bad-star-RJ-Mitte-dead.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "One person dies after falling off Georgia's biggest roller coaster at Six Flags and several others injured as theme park is evacuated",
+        "desc": "A parkgoer at Six Flags over Georgia died on Monday and several others were injured, prompting officials to evacuate one of the park's largest rollercoasters.",
+        "link": "https://www.dailymail.com/news/article-16203785/One-dead-six-flags-Georgia-evacuations.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "RJ Mitte, ‘Breaking Bad’ actor who played Walter White Jr., dies at 34",
-        "desc": "Actor and disability advocate RJ Mitte, who played Walter \"Flynn\" White Jr. on \"Breaking Bad,\" has died at age 34.",
-        "link": "https://www.foxnews.com/entertainment/rj-mitte-breaking-bad-actor-who-played-walter-white-jr-dies-34"
+        "title": "Man dies after falling from Goliath roller coaster at Six Flags Over Georgia",
+        "desc": "A fatal incident on the 200-foot-tall Goliath hypercoaster left passengers stranded before emergency personnel evacuated the ride at Six Flags Over Georgia.",
+        "link": "https://www.foxnews.com/us/man-dies-after-falling-from-goliath-roller-coaster-six-flags-over-georgia"
        }
       ]
      }
@@ -362,44 +362,9 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Labor and the Greens improve in Newspoll and Resolve and One Nation drops",
-      "summary": "Two federal polls taken last week (Newspoll and Resolve) have gains for Labor and the Greens and drops for One Nation. The total One Nation and Coalition vote was 48% in both Newspoll and Resolve (down one in Newspoll and down three in Resolve). I had expected Labor to be adversely affected by the Reserve Bank’s September 29 interest rate hike. Voters may be blaming Donald Trump and the Iran war m",
-      "ts": 1791799927000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/roger-marshall-2026-1-scaled.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Senate Republican settles six-year-old campaign bill after being called out on social media",
-        "desc": "After the founder of Holly's Sweet Treats called out Sen. Roger Marshall's campaign for stiffing her company on a 2020 purchase, the debt was paid off.",
-        "link": "https://www.foxnews.com/politics/roger-marshall-unpaid-campaign-cookie-bill"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "The fight to switch off your algorithm – podcast",
-        "desc": "Chanel Contos talks about her campaign against social media algorithms and how it has helped shape a groundbreaking bill in her native Australia to increase regulation of big tech Chanel Contos is in her mid-20s and has already changed Australia once. As she tells Annie Kelly, after she founded Teach Us Consent at university, the advocacy group successfully campaigned to change Australian’s nation",
-        "link": "https://www.theguardian.com/news/audio/2026/oct/12/the-fight-to-switch-off-your-algorithm-podcast"
-       },
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Labor and the Greens improve in Newspoll and Resolve and One Nation drops",
-        "desc": "Two federal polls taken last week (Newspoll and Resolve) have gains for Labor and the Greens and drops for One Nation. The total One Nation and Coalition vote was 48% in both Newspoll and Resolve (down one in Newspoll and down three in Resolve). I had expected Labor to be adversely affected by the Reserve Bank’s September 29 interest rate hike. Voters may be blaming Donald Trump and the Iran war m",
-        "link": "https://theconversation.com/labor-and-the-greens-improve-in-newspoll-and-resolve-and-one-nation-drops-293931"
-       }
-      ]
-     },
-     {
-      "id": 8,
       "headline": "Caucus dismay as economists issue inflation warning on surcharge ban",
       "summary": "As the treasurer steps in to delay the tax office’s credit card ban, his colleagues are alarmed by the backlash over the surcharge ban they championed.",
-      "ts": 1791855500000,
+      "ts": 1791857341000,
       "img": "https://static.ffx.io/images/$zoom_0.1814%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/1bbaac12bee0fec81307bf0496079eb31783ca99",
       "divergent": null,
       "left_view": null,
@@ -424,7 +389,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 8,
       "headline": "Joyce likens US public execution to ‘Roman amphitheatre’ – as it happened",
       "summary": "This blog is now closed Get our breaking news email, free app or daily news podcast Labor not watering down 30% tax on discretionary trusts, says assistant treasurer The assistant treasurer, Daniel Mulino, says Labor is not watering down proposed changes to put a minimum 30% tax on discretionary trusts. We’re not watering this down. This is a very substantial review. This is about fairness in our ",
       "ts": 1791786108000,
@@ -448,6 +413,27 @@
         "title": "Joyce likens US public execution to ‘Roman amphitheatre’ – as it happened",
         "desc": "This blog is now closed Get our breaking news email, free app or daily news podcast Labor not watering down 30% tax on discretionary trusts, says assistant treasurer The assistant treasurer, Daniel Mulino, says Labor is not watering down proposed changes to put a minimum 30% tax on discretionary trusts. We’re not watering this down. This is a very substantial review. This is about fairness in our ",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/12/labor-anthony-albanese-greens-digital-duty-of-care-coalition-angus-taylor-one-nation-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "Australia facing biggest jobless rate spike of developed world",
+      "summary": "New forecasts suggest Australia’s economy will continue to grow next year – but the number of people out of work will also climb.",
+      "ts": 1791856800000,
+      "img": "https://static.ffx.io/images/$zoom_0.2118%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/eb5c0abb4027ca1f211acfe8a4d6864b0de07d6b",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Australia facing biggest jobless rate spike of developed world",
+        "desc": "New forecasts suggest Australia’s economy will continue to grow next year – but the number of people out of work will also climb.",
+        "link": "https://www.theage.com.au/politics/federal/australia-facing-biggest-jobless-rate-spike-of-developed-world-20261013-p614z0.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
@@ -634,9 +620,30 @@
      },
      {
       "id": 17,
+      "headline": "IMF warns global economy ‘could soon test the limits of resilience’",
+      "summary": "World Economic Outlook says states’ oil stocks are low and budgets are overstretched, as it upgrades UK GDP growth forecast for 2026 Developing nations face triple shock, UN warns The global economy “could soon test the limits of resilience”, as emergency oil stocks run low and government budgets become overstretched, the International Monetary Fund has warned. In its twice-yearly World Economic O",
+      "ts": 1791856811000,
+      "img": "https://i.guim.co.uk/img/media/ebc2fbfb05a20eb6eda10742da9aad5434fc5293/400_0_4209_3368/master/4209.jpg?width=460&quality=85&auto=format&fit=max&s=c51e530195903349cb6ca86977c863c2",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "IMF warns global economy ‘could soon test the limits of resilience’",
+        "desc": "World Economic Outlook says states’ oil stocks are low and budgets are overstretched, as it upgrades UK GDP growth forecast for 2026 Developing nations face triple shock, UN warns The global economy “could soon test the limits of resilience”, as emergency oil stocks run low and government budgets become overstretched, the International Monetary Fund has warned. In its twice-yearly World Economic O",
+        "link": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026"
+       }
+      ]
+     },
+     {
+      "id": 18,
       "headline": "Bumble shares soar after report dating firm in $1bn takeover talks",
       "summary": "The jump pushed Bumble's stock market valuation to more than $580m but that is still far below their peak of more than $14bn.",
-      "ts": 1791855396000,
+      "ts": 1791856247000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b3e/live/9d1f7420-c69f-11f1-8a85-c72eae042e5a.jpg",
       "divergent": null,
       "left_view": null,
@@ -652,27 +659,6 @@
         "link": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo?at_medium=RSS&at_campaign=rss"
        }
       ]
-     },
-     {
-      "id": 18,
-      "headline": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
-      "summary": "As of Friday, state health officials reported 1,136 cases across 41 counties.",
-      "ts": 1791842075000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-930111236-1152x648.jpeg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
-        "desc": "As of Friday, state health officials reported 1,136 cases across 41 counties.",
-        "link": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/"
-       }
-      ]
      }
     ]
    },
@@ -682,6 +668,62 @@
     "stories": [
      {
       "id": 19,
+      "headline": "National petrol prices surge past $2.40 a litre with little relief in sight",
+      "summary": "Drivers in Australia have not faced pump prices this high since the opening weeks of the Iran war. Things are unlikely to change until the situation is resolved.",
+      "ts": 1791856849000,
+      "img": "https://static.ffx.io/images/$zoom_0.2526%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/189d53550545f8ca9f42037015c49983d3efa331",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "‘Clear and present danger’: fuel prices could rise by 30c a litre across Australia under IMF scenario",
+        "desc": "IMF’s World Economic Outlook shows how a worsening Middle East crisis could affect global growth and inflation An International Monetary Fund scenario where global oil prices jump to $US130 a barrel over coming months could push Australian petrol prices up by another 30 cents and pile pressure on the Reserve Bank to hike interest rates, economists say. In its latest World Economic Outlook, the IMF",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/13/australia-fuel-prices-rise-imf-rba-us-oil-interest-rates"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "National petrol prices surge past $2.40 a litre with little relief in sight",
+        "desc": "Drivers in Australia have not faced pump prices this high since the opening weeks of the Iran war. Things are unlikely to change until the situation is resolved.",
+        "link": "https://www.theage.com.au/business/the-economy/national-petrol-prices-surge-past-2-40-a-litre-with-little-relief-in-sight-20261012-p614pa.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "Labor smothers Wilson’s attempt to amend ATO credit card ban",
+      "summary": "AI committee denies claims of “stitch-up”; Donald Trump insists Ukraine, Russia have energy ceasefire despite ongoing strikes. Follow live updates.",
+      "ts": 1791854417000,
+      "img": "https://static.ffx.io/images/$zoom_0.2688%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_141%2C$y_0/t_crop_custom/q_86%2Cf_auto/a081667965f98b6013bcf2851d42e7a02f92c6ad",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Labor smothers Wilson’s attempt to amend ATO credit card ban",
+        "desc": "AI committee denies claims of “stitch-up”; Donald Trump insists Ukraine, Russia have energy ceasefire despite ongoing strikes. Follow live updates.",
+        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-saudi-airspace-stays-closed-as-strikes-hit-houthis-20261013-p614xn?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Rent-tech platforms sidestepping credit card surcharge ban with new fees and paid ‘memberships’",
+        "desc": "Tenants encouraged to seek free options after online property platforms respond to Reserve Bank’s credit card payment reform Follow our Australia politics live blog for latest updates Get our breaking news email, free app or daily news podcast Online property management platforms are charging renters new fees or pushing them on to paid “memberships” to avoid processing costs associated with card p",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/13/renters-credit-card-surcharge-ban-paid-memberships-online-property-management"
+       }
+      ]
+     },
+     {
+      "id": 21,
       "headline": "ASX falls on lithium stocks; RBA open to further tightening: minutes",
       "summary": "Shares decline as lithium stocks fall; ACCC alleges egg producers engaged in cartel conduct; RBA minutes show bank is open to further tightening. Follow live.",
       "ts": 1791854187000,
@@ -709,7 +751,7 @@
       ]
      },
      {
-      "id": 20,
+      "id": 22,
       "headline": "‘Cowardice’: McKinsey demotion for ‘glass cliff’ comment sparks fierce debate",
       "summary": "While author Julia Carreon hailed Chris Bradley’s removal as accountability, colleague Parnell Palme McGuinness accused McKinsey of caving to cancel culture.",
       "ts": 1791852863000,
@@ -737,7 +779,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 23,
       "headline": "American professors Hall and Woodford win Nobel economics prize",
       "summary": "The award was announced by the Royal Swedish Academy of Sciences in Stockholm, honouring Robert E Hall who is affiliated with Stanford University in California and Michael Woodford from Columbia University in New York.",
       "ts": 1791814853000,
@@ -765,10 +807,10 @@
       ]
      },
      {
-      "id": 22,
+      "id": 24,
       "headline": "Australian politics live: businesses increasing prices under cover of surcharge ban, UBS economists warn; fire ants in Sydney’s inner west",
       "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Robert Pether has stressed his innocence and recalled his brush with death in his first comments since the Australian engineer departed Iraq after serving more than five years in jail. Pether and his Egyptian colleague Khalid Radwan were detained in Baghdad in 2021 after flying in for a meeting with bank officia",
-      "ts": 1791854799000,
+      "ts": 1791857341000,
       "img": "https://i.guim.co.uk/img/media/c3f1358c5c393fc580a9132ca16c10a7841db539/273_0_2829_2264/master/2829.jpg?width=460&quality=85&auto=format&fit=max&s=2a611cc3f02870bc5963010c7ec8abfb",
       "divergent": null,
       "left_view": null,
@@ -782,48 +824,6 @@
         "title": "Australian politics live: businesses increasing prices under cover of surcharge ban, UBS economists warn; fire ants in Sydney’s inner west",
         "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Robert Pether has stressed his innocence and recalled his brush with death in his first comments since the Australian engineer departed Iraq after serving more than five years in jail. Pether and his Egyptian colleague Khalid Radwan were detained in Baghdad in 2021 after flying in for a meeting with bank officia",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/13/labor-anthony-albanese-charity-boost-greens-ukraine-coalition-one-nation-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "The comfortable lie driving Australia towards an energy cliff",
-      "summary": "Don’t let a sweet spot fool you that Australia’s electricity market is sorted. Political leadership is needed to tackle the nation’s long-term energy challenge.",
-      "ts": 1791854736000,
-      "img": "https://static.ffx.io/images/$zoom_0.7933%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_82/t_crop_custom/q_86%2Cf_jpg/da6a45186519b3ccd3620dcc0e1fe09d07d511df",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "The comfortable lie driving Australia towards an energy cliff",
-        "desc": "Don’t let a sweet spot fool you that Australia’s electricity market is sorted. Political leadership is needed to tackle the nation’s long-term energy challenge.",
-        "link": "https://www.afr.com/chanticleer/the-comfortable-lie-driving-australia-toward-an-energy-cliff-20261013-p61527?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Full throttle for FleetPartners bidders, chequered flag on the horizon",
-      "summary": "Three suitors including two Japanese giants remain locked in to make a bid for the vehicle leasing giant as an auction run by UBS comes toward its close.",
-      "ts": 1791854683000,
-      "img": "https://static.ffx.io/images/$zoom_0.2478%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/2ed1afd624f36b90299c8e5f72a042d69e1d7524",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Full throttle for FleetPartners bidders, chequered flag on the horizon",
-        "desc": "Three suitors including two Japanese giants remain locked in to make a bid for the vehicle leasing giant as an auction run by UBS comes toward its close.",
-        "link": "https://www.afr.com/street-talk/full-throttle-for-fleetpartners-bidders-chequered-flag-on-the-horizon-20261013-p614ry?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -1010,7 +1010,7 @@
      {
       "id": 31,
       "headline": "Selma Blair Charged with Second-Degree Assault Following Plane Incident, Released on $20,000 Bail",
-      "summary": "Selma Blair has been charged with second-degree assault after being arrested following a violent incident on a Delta flight on Sunday, according to Queens Criminal Court. The actress posted $20,000 in bail, paid by credit card, and was released on Monday. Following her removal from the plane on Sunday, the “Cruel Intentions” actress was arrested […]",
+      "summary": "Selma Blair has been charged with second-degree assault after being arrested following a violent incident on a Delta flight on Sunday, according to Queens Criminal Court. The actress posted $20,000 in bail, paid by credit card, and was released on Monday. Following her removal from the Delta plane on Sunday, the “Cruel Intentions” actress was […]",
       "ts": 1791854432000,
       "img": "https://variety.com/wp-content/uploads/2026/10/2247216170-e1791835325992.jpg",
       "divergent": null,
@@ -1023,7 +1023,7 @@
         "outlet": "Variety",
         "lean": "centre",
         "title": "Selma Blair Charged with Second-Degree Assault Following Plane Incident, Released on $20,000 Bail",
-        "desc": "Selma Blair has been charged with second-degree assault after being arrested following a violent incident on a Delta flight on Sunday, according to Queens Criminal Court. The actress posted $20,000 in bail, paid by credit card, and was released on Monday. Following her removal from the plane on Sunday, the “Cruel Intentions” actress was arrested […]",
+        "desc": "Selma Blair has been charged with second-degree assault after being arrested following a violent incident on a Delta flight on Sunday, according to Queens Criminal Court. The actress posted $20,000 in bail, paid by credit card, and was released on Monday. Following her removal from the Delta plane on Sunday, the “Cruel Intentions” actress was […]",
         "link": "https://variety.com/2026/film/news/selma-blair-second-degree-assault-plane-released-on-bail-1236909649/"
        },
        {
@@ -1037,34 +1037,6 @@
      },
      {
       "id": 32,
-      "headline": "High Potential Season 3 Officially Confirms Early ABC Release",
-      "summary": "High Potential viewers got some exciting news regarding its upcoming third season as ABC announces the series unexpected release date.",
-      "ts": 1791853197000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/morgan-in-high-potential-7.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "High Potential Season 3 Officially Confirms Early ABC Release",
-        "desc": "High Potential viewers got some exciting news regarding its upcoming third season as ABC announces the series unexpected release date.",
-        "link": "https://screenrant.com/high-potential-season-3-abc-early-release/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Tekken 8 Game Reveals Roger Jr.'s November 11 Early Access Release in Gameplay Trailer",
-        "desc": "Video also previews Season 3 character Yūjirō Hanma",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-12/tekken-8-game-reveals-roger-jr.s-november-11-early-access-release-in-gameplay-trailer/.242737"
-       }
-      ]
-     },
-     {
-      "id": 33,
       "headline": "‘High Potential’ Lands Post-Super Bowl LXI Slot on ABC Next February",
       "summary": "ABC will take advantage of the post-Super Bowl glow to promote the Kaitlin Olson drama “High Potential,” the network announced Monday. That means the show will air immediately following Super Bowl LXI on ABC and Disney+ on Sunday, Feb. 14, 2027. That’s not the only show that Disney hopes to give a Super Bowl halo […]",
       "ts": 1791851400000,
@@ -1092,7 +1064,7 @@
       ]
      },
      {
-      "id": 34,
+      "id": 33,
       "headline": "RJ Mitte Remembered By ‘Breaking Bad’ Co-Stars: “This Is So Heartbreaking”",
       "summary": "RJ Mitte, the Breaking Bad actor, died at 34, and his co-stars are mourning his loss. Dean Norris, who played DEA agent Hank Schrader on the AMC series, took to social media to remember Mitte. “Oh my God! Was working just found out about RJ. I am heartbroken,” he wrote. “Though RJ didn’t play my […]",
       "ts": 1791847366000,
@@ -1120,7 +1092,7 @@
       ]
      },
      {
-      "id": 35,
+      "id": 34,
       "headline": "Jessica Lange Says FX Was ‘Too F—ing Cheap’ to Pay for Cars Home From ‘American Horror Story’ Set, So ‘We Had to Drive Ourselves’",
       "summary": "Jessica Lange shaded “American Horror Story” network FX during a panel at PaleyFest (via Entertainment Weekly) in which she remembered having to drive herself home from the anthology series’ set during production on previous seasons. The Oscar and Emmy-winning icon currently stars in “AHS 13,” marking her first appearance on the show since 2018’s “AHS: […]",
       "ts": 1791843605000,
@@ -1148,11 +1120,11 @@
       ]
      },
      {
-      "id": 36,
-      "headline": "Fallout Meets Mad Max In The Post-Apocalyptic Masterpiece That's Gearing Up For A Massive Crossover",
-      "summary": "Image Comics Ghost Machine universe gets even more intense as Tariq Geiger's destiny becomes clearer while he’s being hunted by Simon Pure.",
-      "ts": 1791855033000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/image-1-1.jpg",
+      "id": 35,
+      "headline": "Kishimoto Has Already Confirmed Where On The Naruto Timeline His New Manga Is Set",
+      "summary": "The big Naruto return fans could only dream of sets up the most mysterious chunk of its heroes timeline to date.",
+      "ts": 1791856832000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/naruto-creator-masashi-kishimoto-shadow-rising-sequel-timeline.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1162,9 +1134,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Fallout Meets Mad Max In The Post-Apocalyptic Masterpiece That's Gearing Up For A Massive Crossover",
-        "desc": "Image Comics Ghost Machine universe gets even more intense as Tariq Geiger's destiny becomes clearer while he’s being hunted by Simon Pure.",
-        "link": "https://screenrant.com/geiger-mad-max-meets-fallout-post-apocalypse-crossover/"
+        "title": "Kishimoto Has Already Confirmed Where On The Naruto Timeline His New Manga Is Set",
+        "desc": "The big Naruto return fans could only dream of sets up the most mysterious chunk of its heroes timeline to date.",
+        "link": "https://screenrant.com/naruto-new-kishimoto-manga-shadow-rising-timeline/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Avengers: Doomsday's Missing Hero Predicts Marvel Team Will Lose Against Dr. Doom",
+      "summary": "One of the major missing heroes from Avengers: Doomsday addresses if they will be back while predicting that the team will be defeated by Doctor Doom.",
+      "ts": 1791856827000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/doctor-doom-with-his-head-down-in-avengers-doomsday.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Avengers: Doomsday's Missing Hero Predicts Marvel Team Will Lose Against Dr. Doom",
+        "desc": "One of the major missing heroes from Avengers: Doomsday addresses if they will be back while predicting that the team will be defeated by Doctor Doom.",
+        "link": "https://screenrant.com/avengers-doomsday-jeremy-renner-hawkeye-return-comments/"
        }
       ]
      }
@@ -1173,36 +1166,36 @@
   ],
   "sourcesOk": [
    "Crikey",
-   "Guardian Australia",
    "The Age",
-   "ABC News",
+   "Guardian Australia",
+   "Fox News",
    "BBC World",
-   "The Age Federal Politics",
-   "The Conversation",
-   "Guardian AU Politics",
-   "SBS News",
-   "7News",
+   "ABC News",
    "Guardian Tech",
    "Fox News Politics",
-   "Fox News",
    "Ars Technica",
-   "Guardian AU Business",
-   "The Age Business",
+   "The Conversation",
    "BBC Tech",
    "The Verge",
+   "Guardian AU Politics",
+   "The Age Federal Politics",
+   "The Age Business",
    "ABC Business",
+   "Guardian AU Business",
    "Variety",
-   "Deadline",
+   "Fox Business",
    "Guardian AU Sport",
    "AFR",
-   "Fox Business",
-   "Screen Rant",
-   "BBC Sport",
-   "Guardian Film",
    "ABC Sport",
+   "Deadline",
+   "BBC Sport",
+   "7News",
+   "Guardian Film",
+   "7News Sport",
    "Anime News Network",
-   "Daily Mail Australia",
-   "7News Sport"
+   "Screen Rant",
+   "SBS News",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1404,7 +1397,7 @@
   {
    "title": "20x Everyday Rewards Points on Ultimate Gift Cards (Excl. Variable and $100 Birthday, In-Store Only) @ Woolworths",
    "link": "https://www.ozbargain.com.au/node/978709",
-   "votes": 76,
+   "votes": 77,
    "neg": 0,
    "category": "Other",
    "ts": 1791795567000
@@ -1412,7 +1405,7 @@
   {
    "title": "Apple AirPods 5 $183, AirPods 5 with Wireless Charging Case $213 Delivered @ Hub by Triforce",
    "link": "https://www.ozbargain.com.au/node/978735",
-   "votes": 72,
+   "votes": 74,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1791834891000
@@ -1434,9 +1427,9 @@
    "ts": 1791802552000
   },
   {
-   "title": "American Airlines: Sydney to New York $1019, Chicago $1019, Houston $1017, Denver $1017, LA $1019 Return - Oct to Jun @ BTF",
+   "title": "American Airlines: Sydney to New York $1019, Chicago $1019, Houston $1017, Denver $1017, LA $1026 Return - Oct to Jun @ BTF",
    "link": "https://www.ozbargain.com.au/node/978722",
-   "votes": 54,
+   "votes": 55,
    "neg": 0,
    "category": "Travel",
    "ts": 1791805538000
@@ -1452,7 +1445,7 @@
   {
    "title": "Arlo Black Wired Security Floodlight & 2K Camera $49 + Delivery ($0 OnePass/ C&C) @ Bunnings Warehouse",
    "link": "https://www.ozbargain.com.au/node/978754",
-   "votes": 39,
+   "votes": 46,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1791850223000
@@ -1460,7 +1453,7 @@
   {
    "title": "Valvoline Restore & Protect 5W-30 Premium Full Synthetic Engine Oil 6L $49 + $12 Delivery ($0 C&C/ in-Store) @ Repco",
    "link": "https://www.ozbargain.com.au/node/978690",
-   "votes": 37,
+   "votes": 38,
    "neg": 0,
    "category": "Automotive",
    "ts": 1791787240000
@@ -1468,10 +1461,18 @@
   {
    "title": "Cygnett Power & Protect Bundle for iPhone 17 Pro Max $10 C&C/ in-Store Only @ Officeworks (Limited Stores)",
    "link": "https://www.ozbargain.com.au/node/978687",
-   "votes": 37,
+   "votes": 38,
    "neg": 0,
    "category": "Mobile",
    "ts": 1791786196000
+  },
+  {
+   "title": "BWS: 20% Cashback ($50 Cap Per Transaction, Exclusions Apply) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/978732",
+   "votes": 29,
+   "neg": 0,
+   "category": "Alcohol",
+   "ts": 1791817525000
   },
   {
    "title": "[iOS] Free Lifetime Subscription (Normally $39.99) to TV Remote Control - Clicker @ Apple App Store",
@@ -1482,31 +1483,23 @@
    "ts": 1791802887000
   },
   {
-   "title": "BWS: 20% Cashback ($50 Cap Per Transaction, Exclusions Apply) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/978732",
-   "votes": 26,
-   "neg": 0,
-   "category": "Alcohol",
-   "ts": 1791817525000
-  },
-  {
-   "title": "[WA] Pepsi Max or Solo 30 Cans 375ml $19.99 @ Spudshed Ballajura",
-   "link": "https://www.ozbargain.com.au/node/978666",
-   "votes": 24,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1791776403000
-  },
-  {
    "title": "[PC] MOUSE: P.I. For Hire $32.95 @ GOG",
    "link": "https://www.ozbargain.com.au/node/978742",
-   "votes": 23,
+   "votes": 24,
    "neg": 0,
    "category": "Gaming",
    "ts": 1791845808000
   },
   {
-   "title": "Select 4K UltraHD Titles: 2 for $50 + Delivery ($0 C&C/ in-Store) @ JB Hi-Fi",
+   "title": "Estilo Stainless Steel Double Bowl Sink $49 + Delivery ($0 OnePass/ C&C) @ Bunnings Warehouse",
+   "link": "https://www.ozbargain.com.au/node/978756",
+   "votes": 23,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1791850321000
+  },
+  {
+   "title": "Select 4K UltraHD Movie Titles: 2 for $50 + Delivery ($0 C&C/ in-Store) @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/978715",
    "votes": 21,
    "neg": 0,
