@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T22:55:37.259Z",
+ "generatedAt": "2026-10-19T23:09:53.878Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8845.7,
-    "chgPct": 0.44284242477402563,
+    "chgPct": 1.4450015696094136,
     "high52": 9296.7,
     "off52": -4.851183753374853
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 86.84,
-    "chgPct": 0.000004217076845744555,
+    "chgPct": -0.7429396269750035,
     "high52": 88,
     "off52": -1.3181818181818143
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 147.55,
-    "chgPct": -0.000002068287182658218,
+    "chgPct": 0.39463752771282146,
     "high52": 155.03,
     "off52": -4.824872605302193
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 61.68,
-    "chgPct": -4.947726654090316e-7,
+    "chgPct": -1.7677988522737096,
     "high52": 65.18,
     "off52": -5.369745320650517
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 34.88,
-    "chgPct": -0.000003062256878178365,
+    "chgPct": -2.2969208555051406,
     "high52": 47.78,
     "off52": -26.998744244453743
    },
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6982,
-    "chgPct": 0.1419925293507258,
+    "price": 0.6984,
+    "chgPct": 0.17067829060232698,
     "high52": 0.7277,
-    "off52": -4.053868352342994
+    "off52": -4.026384499106774
    }
   ],
   "failed": [],
@@ -81,6 +81,14 @@
     "price": 368.06,
     "currency": "USD",
     "chgPct": 3.76071231771249
+   },
+   {
+    "sym": "WDS.AX",
+    "name": "Woodside",
+    "market": "ASX",
+    "price": 34.03,
+    "currency": "AUD",
+    "chgPct": 2.685578233986217
    }
   ]
  },
@@ -142,6 +150,76 @@
      },
      {
       "id": 1,
+      "headline": "Helen Haines: Police reveal fresh details about alleged attack on independent MP",
+      "summary": "The 65-year-old MP remains in a critical condition after undergoing surgery.",
+      "ts": 1792451330000,
+      "img": "https://images.7news.com.au/publication/C-23044516/0c7610bb08de5edf26b092dd294957d661a5be1b-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Helen Haines: Police reveal fresh details about alleged attack on independent MP",
+        "desc": "The 65-year-old MP remains in a critical condition after undergoing surgery.",
+        "link": "https://7news.com.au/politics/helen-haines-police-reveal-fresh-details-about-alleged-attack-on-independent-mp-c-23044516"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Details emerge about man arrested over Helen Haines attack - as citizen's arrest hero breaks silence",
+        "desc": "Follow our live updates here.",
+        "link": "https://www.dailymail.com/news/article-16221727/helen-haines-blog-updates.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Humbled, not a hero’: Dad who put himself in danger to save Helen Haines speaks",
+        "desc": "Ricky Jefferies thought it was a car accident. Then he saw the knife.",
+        "link": "https://www.theage.com.au/national/victoria/the-split-second-decision-that-put-a-dad-in-danger-to-save-helen-haines-20261020-p616x7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Ten songs named after famous people from Nicole Kidman to Elon Musk",
+      "summary": "Songs are designed to evoke emotion and some will have you dancing around reciting a celebrity's name.",
+      "ts": 1792450800000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/7cb9100a4e7cd72f0150987f0bcff7d9?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Ten songs named after famous people from Nicole Kidman to Elon Musk",
+        "desc": "Songs are designed to evoke emotion and some will have you dancing around reciting a celebrity's name.",
+        "link": "https://www.abc.net.au/news/2026-10-20/ten-songs-named-after-famous-people-nicole-kidman-elon-musk/107283250"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "ASX set to fall, AI stocks rebound on Wall Street; Musk pledges to give SpaceX shares to kids",
+        "desc": "Stocks in the AI industry bounced back on Wall Street and recovered some of their steep losses from last week, but the rest of the market and stocks worldwide were shaky.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-fall-ai-stocks-rebound-on-wall-street-20261020-p616wq.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "SpaceX CEO Elon Musk pledges to give a share to every US child",
+        "desc": "His announcement may have been prompted by a move over the weekend by rival artificial intelligence company Anthropic.",
+        "link": "https://7news.com.au/news/world/spacex-ceo-elon-musk-pledges-to-give-a-share-to-every-us-child-c-23044087"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Live updates: Helen Haines remains in critical condition; hero barber speaks; Albanese says attack 'deliberate'",
       "summary": "Independent MP Helen Haines was struck by a vehicle in Wangaratta on Monday, in what authorities say was a deliberate attack.",
       "ts": 1792450413000,
@@ -176,42 +254,7 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Albanese calls for civility as joint counter-terrorism team investigates alleged attack on independent MP Helen Haines",
-      "summary": "‘We need to not normalise this activity.’",
-      "ts": 1792450059000,
-      "img": "https://images.7news.com.au/publication/C-23044385/30e6d0dab810fac6d762f76429a54b92f73ebe0c-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta – follow updates",
-        "desc": "A joint counter-terrorism taskforce is investigating the incident, which Anthony Albanese alleged ‘wasn’t an accident’ ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament ‘It’s very clear that this was a deliberate act’, PM says The prime minister, Anthony Albanese, said Haines’ alleged attacker “di",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Albanese calls for civility as joint counter-terrorism team investigates alleged attack on independent MP Helen Haines",
-        "desc": "‘We need to not normalise this activity.’",
-        "link": "https://7news.com.au/sunrise/albanese-calls-for-civility-as-joint-counter-terrorism-team-investigates-alleged-attack-on-independent-mp-helen-haines-c-23044385"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Federal MP in critical condition after alleged vehicle attack",
-        "desc": "A man has been arrested after federal MP Helen Haines was struck by a vehicle in front of her Victorian electorate office.",
-        "link": "https://www.theage.com.au/national/federal-mp-in-critical-condition-after-alleged-vehicle-attack-20261020-p616xd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 3,
+      "id": 4,
       "headline": "Tennis power couple’s split explains Gael Monfils’ sudden retirement",
       "summary": "The much-loved veteran abruptly ditched his farewell plans and now it’s clear why.",
       "ts": 1792447792000,
@@ -242,41 +285,6 @@
         "title": "Toll of war in Ukraine cited as Svitolina, Monfils announce end of marriage",
         "desc": "World number six Elina Svitolina says she and former tennis player Gael Monfils are ending their marriage, with the Ukrainian adding that the emotional toll of Russia's war in her homeland has left her needing to rediscover herself.",
         "link": "https://www.abc.net.au/news/2026-10-20/elina-svitolina-gael-monfils-end-marriage-cite-ukraine-war/107286014"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Curfew imposed in parts of central Paris and other cities after rioting across France",
-      "summary": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
-      "ts": 1792444493000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d92/live/581e2ba0-cbfe-11f1-a0c1-e5a096ec3cfb.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
-        "desc": "It comes after the country's interior minister admits that police \"lost control\" in some cities.",
-        "link": "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Students blockade Louvre as France rolls out local curfews",
-        "desc": "As protesters shut down the entrance to the world’s most-visited art museum, French officials are preparing to get tougher on would-be rioters with curfews and other measures.",
-        "link": "https://www.theage.com.au/world/europe/students-blockade-louvre-as-france-rolls-out-local-curfews-20261020-p616wy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "It began as a local protest. Then it tapped into anger simmering across France",
-        "desc": "What is driving the most widespread and damaging protests France has seen in years?",
-        "link": "https://www.sbs.com.au/news/article/what-is-happening-paris-france-protests/bogrd719s"
        }
       ]
      },
@@ -317,29 +325,29 @@
      },
      {
       "id": 6,
-      "headline": "‘Humbled, not a hero’: Dad who put himself in danger to save Helen Haines speaks",
-      "summary": "Ricky Jefferies thought it was a car accident. Then he saw the knife.",
-      "ts": 1792450339000,
-      "img": "https://static.ffx.io/images/$zoom_0.4050436119727458%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_478%2C$y_271/t_crop_custom/q_86%2Cf_auto/60c78dc923921aa2558e2aea8824af3f35d91561",
+      "headline": "Mars mission: Japan launches spacecraft to explore the mysterious moons of the red planet",
+      "summary": "It is hoped the world-first, five-year mission will help to answer the burning question of whether there was ever life on Mars.",
+      "ts": 1792451163000,
+      "img": "https://images.7news.com.au/publication/C-23044510/10870550fcf2ddfa770e4fc5717694494cb32386-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "New details emerge about hero bystander who intervened after Helen Haines attack as Albo issues update on MP's emergency surgery",
-        "desc": "Follow our live updates here.",
-        "link": "https://www.dailymail.com/news/article-16221727/helen-haines-blog-updates.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Mars mission: Japan launches spacecraft to explore the mysterious moons of the red planet",
+        "desc": "It is hoped the world-first, five-year mission will help to answer the burning question of whether there was ever life on Mars.",
+        "link": "https://7news.com.au/news/mars-mission-japan-launches-spacecraft-to-explore-the-mysterious-moons-of-the-red-planet-c-23044510"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘Humbled, not a hero’: Dad who put himself in danger to save Helen Haines speaks",
-        "desc": "Ricky Jefferies thought it was a car accident. Then he saw the knife.",
-        "link": "https://www.theage.com.au/national/victoria/the-split-second-decision-that-put-a-dad-in-danger-to-save-helen-haines-20261020-p616x7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Japan launches first mission to collect samples from Martian moon",
+        "desc": "An international space mission aiming to collect sand and rock from one of Mars's moons is expected to land in Australia once the sample is retrieved.",
+        "link": "https://www.abc.net.au/news/2026-10-20/japan-launches-mission-to-collect-mars-moon-samples/107283312"
        }
       ]
      }
@@ -353,7 +361,7 @@
       "id": 7,
       "headline": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta – follow updates",
       "summary": "A joint counter-terrorism taskforce is investigating the incident, which Anthony Albanese alleged ‘wasn’t an accident’ ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament ‘It’s very clear that this was a deliberate act’, PM says The prime minister, Anthony Albanese, said Haines’ alleged attacker “di",
-      "ts": 1792450059000,
+      "ts": 1792450881000,
       "img": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/464_0_5541_4435/master/5541.jpg?width=460&quality=85&auto=format&fit=max&s=071865a95cd6a5600d3ae4d8a2bb6ff0",
       "divergent": null,
       "left_view": null,
@@ -720,6 +728,27 @@
      },
      {
       "id": 21,
+      "headline": "ASX falls; NAB expects restructure, redundancies to cost bank $300m",
+      "summary": "Australian shares open lower; NAB to slash 2500 jobs over the next financial year; Codan CEO to sell up to $2.7m in shares; BHP copper production drops. Follow live updates.",
+      "ts": 1792450874000,
+      "img": "https://static.ffx.io/images/$zoom_0.7592%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/ed184714005905bcf991b4a40e1805d34f7c3346",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX falls; NAB expects restructure, redundancies to cost bank $300m",
+        "desc": "Australian shares open lower; NAB to slash 2500 jobs over the next financial year; Codan CEO to sell up to $2.7m in shares; BHP copper production drops. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-lifts-on-tech-rebound-20261020-p616wl?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "NAB announces it will cut thousands of jobs",
       "summary": "The National Australia Bank has announced it will axe up to 2500 jobs over this financial year.",
       "ts": 1792450168000,
@@ -736,27 +765,6 @@
         "title": "NAB announces it will cut thousands of jobs",
         "desc": "The National Australia Bank has announced it will axe up to 2500 jobs over this financial year.",
         "link": "https://www.theage.com.au/business/banking-and-finance/nab-announces-it-will-cut-thousands-of-jobs-20261020-p616yq.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "ASX to fall; NAB expects restructure, redundancies to cost bank $300m",
-      "summary": "Australian shares to open lower; NAB to slash 2500 jobs over the next financial year; Codan CEO to sell up to $2.7m in shares; BHP copper production drops. Follow live updates.",
-      "ts": 1792449539000,
-      "img": "https://static.ffx.io/images/$zoom_0.7592%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/ed184714005905bcf991b4a40e1805d34f7c3346",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX to fall; NAB expects restructure, redundancies to cost bank $300m",
-        "desc": "Australian shares to open lower; NAB to slash 2500 jobs over the next financial year; Codan CEO to sell up to $2.7m in shares; BHP copper production drops. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-lifts-on-tech-rebound-20261020-p616wl?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
@@ -1005,6 +1013,34 @@
     "stories": [
      {
       "id": 31,
+      "headline": "5 Best New HBO Max Series To Binge-Watch This Week (October 19–23, 2026)",
+      "summary": "Binge-watch Lanterns, War, The Pet Cemetery Murders, Rage season 2, and The Torment on HBO Max from October 19–23, 2026.",
+      "ts": 1792450818000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/tv-binge-guide-22.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "5 Best New HBO Max Series To Binge-Watch This Week (October 19–23, 2026)",
+        "desc": "Binge-watch Lanterns, War, The Pet Cemetery Murders, Rage season 2, and The Torment on HBO Max from October 19–23, 2026.",
+        "link": "https://screenrant.com/best-new-hbo-max-shows-to-watch-week-october-19-2026/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "EST N8 Picks Up Korean-Animated Film Pilgrims for Worldwide Sales",
+        "desc": "Japan Sinks: 2020's Pyoungkang Heo directs film starring Hyang-gi Kim, Ji-hu Park, Joo-young Lee",
+        "link": "https://www.animenewsnetwork.com/news/2026-10-19/est-n8-picks-up-korean-animated-film-pilgrims-for-worldwide-sales/.242974"
+       }
+      ]
+     },
+     {
+      "id": 32,
       "headline": "Fox Legal Chief Adam Ciongoli Steps Down, Nicholas Trutanich Named General Counsel",
       "summary": "Fox said Adam Ciongoli, Chief Legal and Policy Officer, will step down when his contract ends effective December 1. Nicholas Trutanich was promoted to General Counsel and will serve as the company’s top lawyer. Currently EVP, Principal Deputy General Counsel, he will report to Fox CEO Lachlan Murdoch. “It is an exciting time of growth […]",
       "ts": 1792450269000,
@@ -1028,34 +1064,6 @@
         "title": "Fox Corp. Top Lawyer Adam Ciongoli Is Exiting, Nick Trutanich to Take Over as General Counsel",
         "desc": "Fox Corp. said Adam Ciongoli, chief legal and policy officer, will not renew his contract — and that he will step down from the role effective Dec. 1. Ciongoli will serve as a special adviser to Fox through June 2028. Nicholas Trutanich, currently Fox Corp.’s executive vice president, principal deputy general counsel, will become general […]",
         "link": "https://variety.com/2026/tv/news/fox-corp-adam-ciongoli-exiting-nicholas-trutanich-general-counsel-1236916844/"
-       }
-      ]
-     },
-     {
-      "id": 32,
-      "headline": "5 Best New Paramount+ Series To Binge-Watch This Week (October 19–23, 2026)",
-      "summary": "Watch Tulsa King season 4, South Park, MobLand season 2, Cupertino, and Avatar: Seven Havens on Paramount+ from October 19–23, 2026.",
-      "ts": 1792447218000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/tv-binge-guide-25.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "5 Best New Paramount+ Series To Binge-Watch This Week (October 19–23, 2026)",
-        "desc": "Watch Tulsa King season 4, South Park, MobLand season 2, Cupertino, and Avatar: Seven Havens on Paramount+ from October 19–23, 2026.",
-        "link": "https://screenrant.com/best-new-paramount-plus-shows-to-watch-week-october-19-2026/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "EST N8 Picks Up Korean-Animated Film Pilgrims for Worldwide Sales",
-        "desc": "Japan Sinks: 2020's Pyoungkang Heo directs film starring Hyang-gi Kim, Ji-hu Park, Joo-young Lee",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-19/est-n8-picks-up-korean-animated-film-pilgrims-for-worldwide-sales/.242974"
        }
       ]
      },
@@ -1089,31 +1097,10 @@
      },
      {
       "id": 34,
-      "headline": "‘Orphan Black’ Lands On HBO Max & Peacock In Co-Exclusive Streaming Deal",
-      "summary": "Boat Rocker Studios has closed new U.S. deals for its critically acclaimed sci-fi drama series Orphan Black. Under the co-exclusive pacts, all five seasons of Orphan Black are now available to stream on HBO Max and Peacock. Emmy-winning Tatiana Maslany stars as Sarah Manning, an outsider and street-smart chameleon who witnesses the suicide of a […]",
-      "ts": 1792450144000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/TCDORBL_EC064.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Orphan Black’ Lands On HBO Max & Peacock In Co-Exclusive Streaming Deal",
-        "desc": "Boat Rocker Studios has closed new U.S. deals for its critically acclaimed sci-fi drama series Orphan Black. Under the co-exclusive pacts, all five seasons of Orphan Black are now available to stream on HBO Max and Peacock. Emmy-winning Tatiana Maslany stars as Sarah Manning, an outsider and street-smart chameleon who witnesses the suicide of a […]",
-        "link": "https://deadline.com/2026/10/orphan-black-hbo-max-peacock-co-exclusive-streaming-deal-1237168150/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "68 Years Later, Perry Mason’s Best Line Is Still The Greatest Legal Drama Quote In TV History",
-      "summary": "68 years after it was said, this Perry Mason quote remains the greatest legal drama quote of all time and remains an important real-life lesson.",
-      "ts": 1792449918000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/perry-mason_dnwtbi-1.jpg",
+      "headline": "Prime Video's 16-Episode High Fantasy Series Has Two Of The Genre's Best Battles Ever",
+      "summary": "This ambitious Prime Video high fantasy series features some of the genre's best battles, and the show's action just seems to keep improving.",
+      "ts": 1792451252000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/02/robert-aramayo-as-elrond-in-the-rings-of-power-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1123,18 +1110,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "68 Years Later, Perry Mason’s Best Line Is Still The Greatest Legal Drama Quote In TV History",
-        "desc": "68 years after it was said, this Perry Mason quote remains the greatest legal drama quote of all time and remains an important real-life lesson.",
-        "link": "https://screenrant.com/perry-mason-best-quote-legal-tv-shows/"
+        "title": "Prime Video's 16-Episode High Fantasy Series Has Two Of The Genre's Best Battles Ever",
+        "desc": "This ambitious Prime Video high fantasy series features some of the genre's best battles, and the show's action just seems to keep improving.",
+        "link": "https://screenrant.com/lord-of-the-rings-of-power-prime-video-fantasy-series-best-battles/"
        }
       ]
      },
      {
-      "id": 36,
-      "headline": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
-      "summary": "Netflix’s flurry of C-suite changes (Peter Rice in, Bela Bajaria and others out) along with its deepest round of layoffs since 2022 are setting the company on a new path – but to where? That’s the question Wall Street is asking as the company preps its latest quarterly earnings and investor call set for after […]",
-      "ts": 1792449900000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Netflix.jpg",
+      "id": 35,
+      "headline": "Netflix's 37-Episode Psychological Masterpiece Is Everything Dexter Should Have Been",
+      "summary": "Dexter ruined its legacy with a bloated run, but this dark psychological series delivers a perfect crime thriller in 37 episodes.",
+      "ts": 1792450818000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/netflix-logo-cinematic-lighting.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1142,11 +1129,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Netflix Faces Anxious Wall Street As Earnings Season Kicks Off",
-        "desc": "Netflix’s flurry of C-suite changes (Peter Rice in, Bela Bajaria and others out) along with its deepest round of layoffs since 2022 are setting the company on a new path – but to where? That’s the question Wall Street is asking as the company preps its latest quarterly earnings and investor call set for after […]",
-        "link": "https://deadline.com/2026/10/netflix-earnings-layoffs-future-1237167505/"
+        "title": "Netflix's 37-Episode Psychological Masterpiece Is Everything Dexter Should Have Been",
+        "desc": "Dexter ruined its legacy with a bloated run, but this dark psychological series delivers a perfect crime thriller in 37 episodes.",
+        "link": "https://screenrant.com/netflix-psychological-thriller-death-note-everything-dexter/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Pokémon Ghost Grey Is A Terrifying RPG Set 50 Years After Gold & Silver",
+      "summary": "A brand-new Pokémon RPG titled Ghost Grey looks to deliver a horror-focused sequel set 50 years after the events of Gold & Silver.",
+      "ts": 1792450818000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/pokemon-ghost-pokemon.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Pokémon Ghost Grey Is A Terrifying RPG Set 50 Years After Gold & Silver",
+        "desc": "A brand-new Pokémon RPG titled Ghost Grey looks to deliver a horror-focused sequel set 50 years after the events of Gold & Silver.",
+        "link": "https://screenrant.com/pokemon-ghost-grey-gold-silver-horror-sequel/"
        }
       ]
      }
@@ -1154,35 +1162,35 @@
    }
   ],
   "sourcesOk": [
+   "Guardian Australia",
    "The Age",
+   "BBC World",
    "Crikey",
    "ABC News",
-   "Guardian Australia",
-   "BBC World",
-   "Guardian Tech",
+   "Guardian AU Politics",
+   "The Age Federal Politics",
    "Fox News",
+   "Guardian Tech",
    "Fox News Politics",
    "Ars Technica",
-   "BBC Tech",
+   "Guardian AU Business",
+   "ABC Business",
    "The Conversation",
-   "The Age Federal Politics",
+   "The Age Business",
    "The Verge",
-   "Guardian AU Sport",
+   "BBC Sport",
    "AFR",
    "Fox Business",
-   "Guardian AU Business",
+   "BBC Tech",
    "Variety",
-   "The Age Business",
-   "Deadline",
-   "ABC Business",
-   "ABC Sport",
    "7News",
-   "BBC Sport",
-   "Anime News Network",
-   "Guardian AU Politics",
+   "Guardian AU Sport",
+   "Deadline",
    "Screen Rant",
+   "Anime News Network",
    "Guardian Film",
    "Daily Mail Australia",
+   "ABC Sport",
    "SBS News",
    "7News Sport"
   ],
@@ -1377,7 +1385,7 @@
   {
    "title": "The Good Guys: 20% Uncapped Cashback (Exclusions Apply, See Terms) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/979596",
-   "votes": 185,
+   "votes": 194,
    "neg": 0,
    "category": "Other",
    "ts": 1792408531000
@@ -1385,10 +1393,18 @@
   {
    "title": "Sign up to Receive 2 x $50 off Voucher for $300 Spend @ Samsung",
    "link": "https://www.ozbargain.com.au/node/979587",
-   "votes": 95,
+   "votes": 99,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1792402224000
+  },
+  {
+   "title": "Link Your Velocity Frequent Flyer Account to ShopBack & Get 100 Velocity Points @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/979616",
+   "votes": 66,
+   "neg": 0,
+   "category": "Travel",
+   "ts": 1792430592000
   },
   {
    "title": "$10 Promo Credit on $250 Amazon Gift Card Spend (First 5,000 Orders) @ Amazon AU",
@@ -1399,12 +1415,12 @@
    "ts": 1792394066000
   },
   {
-   "title": "Link Your Velocity Frequent Flyer Account to ShopBack & Get 100 Velocity Points @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/979616",
-   "votes": 62,
+   "title": "[PC, Epic] Free - GetHigh.EXE @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/979614",
+   "votes": 60,
    "neg": 0,
-   "category": "Travel",
-   "ts": 1792430592000
+   "category": "Gaming",
+   "ts": 1792422335000
   },
   {
    "title": "TP-Link LS1008G Gigabit Network Switch, 8-Port $19.99 (RRP $34) + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
@@ -1413,14 +1429,6 @@
    "neg": 0,
    "category": "Computing",
    "ts": 1792383936000
-  },
-  {
-   "title": "[PC, Epic] Free - GetHigh.EXE @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/979614",
-   "votes": 56,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1792422335000
   },
   {
    "title": "Optus: $300 Cashback for 5G Home Internet, $250 Cashback for NBN Home Internet (New Optus Customers) @ TopCashback AU",
@@ -1433,7 +1441,7 @@
   {
    "title": "½ Price: Tegel Take Outs Buttermilk/Karaage/Korean Chicken Tenders 360-400g $6 @ Woolworths + 237 More @ Coles and Woolworths",
    "link": "https://www.ozbargain.com.au/node/979557",
-   "votes": 46,
+   "votes": 47,
    "neg": 0,
    "category": "Groceries",
    "ts": 1792390865000
@@ -1449,7 +1457,7 @@
   {
    "title": "Free US$1.01 (~A$1.40) Cashback for Search & Click-through at Trivago (1 Transaction Per Day Per Member) @ TopCashback US",
    "link": "https://www.ozbargain.com.au/node/979590",
-   "votes": 41,
+   "votes": 42,
    "neg": 0,
    "category": "Travel",
    "ts": 1792404824000
@@ -1457,7 +1465,7 @@
   {
    "title": "iPhone 18 Pro 256GB Black $1949 Delivered @ Skytree Phones",
    "link": "https://www.ozbargain.com.au/node/979588",
-   "votes": 39,
+   "votes": 40,
    "neg": 0,
    "category": "Mobile",
    "ts": 1792403791000
@@ -1489,7 +1497,7 @@
   {
    "title": "Sydney & Blue Mountains Street Directory 63rd Edition: SE $36 (RRP $56.99) + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/979618",
-   "votes": 29,
+   "votes": 30,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1792439333000
