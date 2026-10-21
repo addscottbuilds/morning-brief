@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-21T22:50:03.605Z",
+ "generatedAt": "2026-10-21T23:34:47.903Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8831.3,
-    "chgPct": 0.1633182721482298,
+    "price": 8789.8,
+    "chgPct": -0.3073686831464779,
     "high52": 9296.7,
-    "off52": -5.006077425322979
+    "off52": -5.452472382673437
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.41,
-    "chgPct": -0.0000042380618252611335,
+    "price": 86.23,
+    "chgPct": -0.20831345270304885,
     "high52": 88,
-    "off52": -1.8068181818181859
+    "off52": -2.011363636363632
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.28,
-    "chgPct": 8.288315699717824e-7,
+    "price": 146.72,
+    "chgPct": -0.3802273112020117,
     "high52": 155.03,
-    "off52": -4.999032445333161
+    "off52": -5.360252854286269
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 61.55,
-    "chgPct": 0.000001239544207538263,
+    "price": 61.38,
+    "chgPct": -0.2761969767144761,
     "high52": 65.18,
-    "off52": -5.5691930039889685
+    "off52": -5.830009205277698
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.89,
-    "chgPct": 0.000001749359626671476,
+    "price": 34.55,
+    "chgPct": -0.9744895259279232,
     "high52": 47.78,
-    "off52": -26.977814985349518
+    "off52": -27.689409794893265
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7026,
-    "chgPct": 0.2771817516651728,
+    "price": 0.7028,
+    "chgPct": 0.30572635222072475,
     "high52": 0.7277,
-    "off52": -3.4492235811460783
+    "off52": -3.4217397279098574
    }
   ],
   "failed": [],
-  "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 28% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "NFLX",
@@ -81,6 +81,14 @@
     "price": 386.47,
     "currency": "USD",
     "chgPct": 3.41441460937116
+   },
+   {
+    "sym": "WDS.AX",
+    "name": "Woodside",
+    "market": "ASX",
+    "price": 33.03,
+    "currency": "AUD",
+    "chgPct": -2.738513278988495
    },
    {
     "sym": "NVDA",
@@ -101,16 +109,23 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Pope Leo XIV’s full cancer diagnosis revealed by doctors",
-      "summary": "His doctor has confirmed the type of cancer and if further treatment is necessary.",
-      "ts": 1792619584000,
-      "img": "https://images.7news.com.au/publication/C-23055786/70d2ef46c6dc8bf37034ae4d83a312ea24cd9ee1-16x9-x0y0w1280h720.png",
+      "headline": "Pope Leo will not need further cancer treatment, doctors say",
+      "summary": "Pope Leo will not need further treatment after undergoing surgery for lung cancer last week, his doctors say.",
+      "ts": 1792623983000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/55ab14b73be9b1458a3e97a2e35aebdb?impolicy=wcms_crop_resize&cropH=1978&cropW=3516&xPos=0&yPos=102&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Pope Leo will not need further cancer treatment, doctors say",
+        "desc": "Pope Leo will not need further treatment after undergoing surgery for lung cancer last week, his doctors say.",
+        "link": "https://www.abc.net.au/news/2026-10-22/pope-leo-will-not-need-further-cancer-treatment-doctors-say/107295358"
+       },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
@@ -119,34 +134,20 @@
         "link": "https://www.dailymail.com/news/article-16228203/pope-leo-lung-cancer-treatment-successfull-vatican.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Pope Leo XIV’s full cancer diagnosis revealed by doctors",
-        "desc": "His doctor has confirmed the type of cancer and if further treatment is necessary.",
-        "link": "https://7news.com.au/news/pope-leo-xivs-full-cancer-diagnosis-revealed-by-doctors-c-23055786"
-       },
-       {
         "outlet": "BBC World",
         "lean": "centre",
         "title": "Pope does not need further treatment after lung cancer surgery",
         "desc": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
         "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Pope Leo XIV needs no further cancer treatment after lung tumor removed, doctors say",
-        "desc": "Pope Leo XIV's doctors say the lung adenocarcinoma tumor removed Oct. 13 was localized, and a cancer assessment found no further treatment needed.",
-        "link": "https://www.foxnews.com/world/pope-leo-xiv-needs-no-further-cancer-treatment-after-lung-tumor-removed-doctors-say"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Sydney Southwest Metro set to open after 130yo train line replaced",
-      "summary": "Commuters will be able to cut down on travel time, with the service connecting the south-western suburbs to the Sydney CBD, north-Sydney and the north-western suburbs.",
-      "ts": 1792612914000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/5f648805f15f92f47d949d3db1e293d6?impolicy=wcms_crop_resize&cropH=748&cropW=1330&xPos=0&yPos=70&width=862&height=485",
+      "headline": "Australian Test veteran Marnus Labuschagne’s staggering fall from grace highlighted after ‘brain fade’ in South Africa",
+      "summary": "The critics have come hard with the baffling act called ‘career ending’ and ‘simply unacceptable’.",
+      "ts": 1792623123000,
+      "img": "https://images.7news.com.au/publication/C-23056140/a1b4c34723a654d12311a9dd695de9906deacf2f-16x9-x0y2w1304h733.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -154,53 +155,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "‘Huge moment’: long-awaited extension to Sydney’s metro line to open next week",
-        "desc": "The south-west metro extension will open on Friday 30 October, more than two years after the former T3 heavy rail line closed Get our breaking news email, free app or daily news podcast A long-awaited extension to Sydney’s metro line will open next week, bringing an end to more than two years of replacement buses for residents in the city’s south-west. In a video shared on Instagram on Thursday mo",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/22/sydney-southwest-metro-extension-opening-friday-chris-minns"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Australian Test veteran Marnus Labuschagne’s staggering fall from grace highlighted after ‘brain fade’ in South Africa",
+        "desc": "The critics have come hard with the baffling act called ‘career ending’ and ‘simply unacceptable’.",
+        "link": "https://7news.com.au/sport/cricket/australian-test-veteran-marnus-labuschagnes-staggering-fall-from-grace-highlighted-after-brain-fade-in-south-africa-c-23056140"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Sydney Southwest Metro set to open after 130yo train line replaced",
-        "desc": "Commuters will be able to cut down on travel time, with the service connecting the south-western suburbs to the Sydney CBD, north-Sydney and the north-western suburbs.",
-        "link": "https://www.abc.net.au/news/2026-10-22/nsw-south-west-metro-opening-date-october-30/107294482"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Announcement imminent for Sydney’s new Southwest Metro rail line",
-        "desc": "A long-awaited opening date for a crucial rail project is near.",
-        "link": "https://7news.com.au/news/announcement-imminent-for-sydneys-new-southwest-metro-rail-line-c-23054651"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Bibra Lake: Joseph Paratore, 40, identified as cyclist killed in hit-and-run crash in Perth’s south",
-      "summary": "A beloved father-of-two has been revealed as the victim of Tuesday’s crash.",
-      "ts": 1792601388000,
-      "img": "https://images.7news.com.au/publication/C-23053942/9fccd1ef01a0c6ece7e570c64a3ef66f70a827f2-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
-        "desc": "Tourists all out for 99 and forced to follow on Batters left to conduct desperate rearguard on last day There it was, another entry in Australia’s hall of infamy against South Africa. There was 47 all out, in the innocent days when the 2011 Test was the worst humiliation in Cape Town. There was 85 all out in Hobart, 2016, that led to half the side being sacked. Now there is 99 all out in Gqeberha,",
-        "link": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Bibra Lake: Joseph Paratore, 40, identified as cyclist killed in hit-and-run crash in Perth’s south",
-        "desc": "A beloved father-of-two has been revealed as the victim of Tuesday’s crash.",
-        "link": "https://7news.com.au/news/bibra-lake-joseph-paratore-40-identified-as-cyclist-killed-in-hit-and-run-crash-in-perths-south-c-23053942"
+        "title": "Roads and schools closed as flash flooding hits south-east Queensland",
+        "desc": "Schools and roads closed as flash flooding hits south east Queensland.",
+        "link": "https://www.abc.net.au/news/2026-10-22/queensland-south-east-storm-warning/107294406"
        },
        {
         "outlet": "BBC World",
@@ -212,45 +178,10 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-      "summary": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-      "ts": 1792565440000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f8fb/live/9d496cd0-cc9e-11f1-94e6-edd4c60b2e1d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-        "desc": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
-        "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "From strife-torn France to the UK, rightwing populists win when they stir chaos while promising order | Rafael Behr",
-        "desc": "Marine Le Pen and Donald Trump are arsonists who play at being firefighters. Nigel Farage is finding that act harder to pull off in Andy Burnham’s Britain An election where one side represents chaos will nearly always be won by the party that promises order instead. Public fatigue after years of turbulent Tory rule accounted for Labour’s 2024 landslide victory more than any policy in Keir Starmer’",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/21/france-uk-rightwing-populists-marine-le-pen-donald-trump"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "France to impose new curfews as authorities seek to restore order after riots",
-        "desc": "As curfews expand across France, questions are growing over what comes next.",
-        "link": "https://www.sbs.com.au/news/article/france-to-impose-new-curfews-as-authorities-seek-to-restore-order-after-riots/4pkni8mrz"
-       }
-      ]
-     },
-     {
-      "id": 4,
+      "id": 2,
       "headline": "Major Australian websites go down due to critical security flaw",
       "summary": "Some of Australia's major government websites were taken offline after security vulnerabilities were identified.",
-      "ts": 1792622967000,
+      "ts": 1792625007000,
       "img": "https://i.dailymail.com/1s/2026/10/21/23/112011747-0-image-a-11_1792622236657.jpg",
       "divergent": null,
       "left_view": null,
@@ -275,11 +206,39 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Eastern Sydney beaches close after whale carcass washes up",
-      "summary": "A dead whale washes up on rocky shoreline in Sydney's east, prompting Randwick Council to close two popular beaches.",
-      "ts": 1792622756000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/00efc2dfe35c419860b816f966f87422?impolicy=wcms_crop_resize&cropH=360&cropW=639&xPos=42&yPos=472&width=862&height=485",
+      "id": 3,
+      "headline": "Titans coach Robert Saleh’s incredible response as Jordan Elliott sacked for pulling a gun in parking lot",
+      "summary": "The 28-year-old went straight to get his weapon following an argument with a teammate, who has also spoken out.",
+      "ts": 1792624463000,
+      "img": "https://images.7news.com.au/publication/C-23056609/33c55aa410108faa7fed6ff1aa5100b0ee24567d-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Titans coach Robert Saleh’s incredible response as Jordan Elliott sacked for pulling a gun in parking lot",
+        "desc": "The 28-year-old went straight to get his weapon following an argument with a teammate, who has also spoken out.",
+        "link": "https://7news.com.au/sport/nfl/titans-coach-robert-salehs-incredible-response-as-jordan-elliott-sacked-for-pulling-a-gun-in-parking-lot-c-23056609"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Titans coach passionately defends Jordan Elliott after gun-related incident led to release",
+        "desc": "Robert Saleh passionately defended Jordan Elliott's character after the Tennessee Titans released the defensive lineman, calling the gun incident a cry for help.",
+        "link": "https://www.foxnews.com/outkick-sports/titans-coach-passionately-defends-jordan-elliott-gun-related-incident-led-release"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Breaking: Alleged driver charged over hit-and-run that killed cyclist in Perth's south",
+      "summary": "Police charge a 40-year-old man over a hit-and-run crash that left cyclist Joseph Paratore dead in Bibra Lake on Tuesday.",
+      "ts": 1792624239000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/a2060c284004452ee44f07607ed0f7f8?impolicy=wcms_crop_resize&cropH=909&cropW=1616&xPos=0&yPos=86&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -289,44 +248,72 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Eastern Sydney beaches close after whale carcass washes up",
-        "desc": "A dead whale washes up on rocky shoreline in Sydney's east, prompting Randwick Council to close two popular beaches.",
-        "link": "https://www.abc.net.au/news/2026-10-22/sydney-beaches-close-after-whale-carcass-found/107295288"
+        "title": "Breaking: Alleged driver charged over hit-and-run that killed cyclist in Perth's south",
+        "desc": "Police charge a 40-year-old man over a hit-and-run crash that left cyclist Joseph Paratore dead in Bibra Lake on Tuesday.",
+        "link": "https://www.abc.net.au/news/2026-10-22/alleged-driver-charged-over-bibra-lake-fatal-hit-and-run-crash/107295464"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Baby whale carcass closes Sydney beaches",
-        "desc": "Maroubra and Coogee beaches have been closed in Sydney after a baby whale carcass was discovered in the water.",
-        "link": "https://www.theage.com.au/national/baby-whale-carcass-closes-sydney-beaches-20261022-p617pe.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Bibra Lake: Joseph Paratore, 40, identified as cyclist killed in alleged hit-and-run crash in Perth’s south",
+        "desc": "A beloved father-of-two has been revealed as the victim of Tuesday’s crash.",
+        "link": "https://7news.com.au/news/bibra-lake-joseph-paratore-40-identified-as-cyclist-killed-in-hit-and-run-crash-in-perths-south-c-23053942"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "ts": 1792623843000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a691/live/0777e580-cd28-11f1-bc2e-018d645d8d21.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+        "desc": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Elon Musk has hinted at a SpaceX-Tesla mega merger. Could it really happen?",
+        "desc": "Elon Musk said a merger ‌of SpaceX and Tesla is \"a good idea\".",
+        "link": "https://www.sbs.com.au/news/article/spacex-tesla-merger-elon-musk/cdmssm35e"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Dramatic opening of Ben Roberts-Smith interview on 2GB's YouTube",
-      "summary": "Ben Roberts-Smith interview with 2GB’s Ben Fordham is streaming on 2GB’s YouTube channel. It started with a countdown clock, accompanied by dramatic introductory music.",
-      "ts": 1792622674000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/2d1b7c1356ceebf0c5bffba14c2f392d5c4ff1f2",
+      "headline": "Breaking: Man charged after allegedly taking nunchucks to WA MP's office",
+      "summary": "A 56-year-old man is due to face court after he allegedly wielded a pair of nunchucks and made threats at Hannah Beazley's electoral office in Perth.",
+      "ts": 1792622055000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/d42abdaedcc351abe98952601db5092f?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=63&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Ben Roberts-Smith breaks silence on the photo that shocked Australia - and reveals why he almost took his own life",
-        "desc": "Ben Roberts-Smith has broken his silence.",
-        "link": "https://www.dailymail.com/news/article-16228067/ben-roberts-smith-ben-fordham.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Breaking: Man charged after allegedly taking nunchucks to WA MP's office",
+        "desc": "A 56-year-old man is due to face court after he allegedly wielded a pair of nunchucks and made threats at Hannah Beazley's electoral office in Perth.",
+        "link": "https://www.abc.net.au/news/2026-10-22/man-charged-with-making-threats-at-wa-mp-hannah-beazley-office/107295330"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Dramatic opening of Ben Roberts-Smith interview on 2GB's YouTube",
-        "desc": "Ben Roberts-Smith interview with 2GB’s Ben Fordham is streaming on 2GB’s YouTube channel. It started with a countdown clock, accompanied by dramatic introductory music.",
-        "link": "https://www.theage.com.au/national/dramatic-opening-of-ben-roberts-smith-interview-on-2gbs-youtube-20261022-p617pf.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Man with 'nunchucks' arrested after alleged threats at WA MP's office",
+        "desc": "The arrest comes as the attack on Helen Haines prompted debate about threats of violence against public officials.",
+        "link": "https://www.sbs.com.au/news/article/alleged-treats-wa-mp-office-hannah-beazley/3rvf9hnqc"
        }
       ]
      }
@@ -340,43 +327,8 @@
       "id": 7,
       "headline": "Governor-general appeals to Australians to ‘exercise our muscle of decency’; Haines’ husband reveals MP has lost second leg",
       "summary": "Governor-General Sam Mostyn has appealed to Australians to “learn or relearn to exercise our muscle of decency” in the wake of Monday’s horrific attack on Helen Haines. Mostyn appeared late Wednesday at Melbourne’s Alfred Hospital with Haines’ husband Phil, at his invitation. He revealed that earlier in the day, Haines’ second leg had been amputated. Haines remains in a critical but stable conditi",
-      "ts": 1792572601000,
-      "img": "https://i.guim.co.uk/img/media/041be61a21bde41aae4188d238b2c424ddeb1f36/651_0_4560_3648/master/4560.jpg?width=460&quality=85&auto=format&fit=max&s=a056ad9972dd159c58fb60a5f3618e5c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Governor-general appeals to Australians to ‘exercise our muscle of decency’; Haines’ husband reveals MP has lost second leg",
-        "desc": "Governor-General Sam Mostyn has appealed to Australians to “learn or relearn to exercise our muscle of decency” in the wake of Monday’s horrific attack on Helen Haines. Mostyn appeared late Wednesday at Melbourne’s Alfred Hospital with Haines’ husband Phil, at his invitation. He revealed that earlier in the day, Haines’ second leg had been amputated. Haines remains in a critical but stable conditi",
-        "link": "https://theconversation.com/governor-general-appeals-to-australians-to-exercise-our-muscle-of-decency-haines-husband-reveals-mp-has-lost-second-leg-294863"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Helen Haines’s second leg amputated but she is stable and ‘a fighter’, husband says – as it happened",
-        "desc": "Independent MP was struck by a car on Monday and her alleged attacker appeared in court on Wednesday ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament Anthony Albanese has described the police interview on Tuesday with Brendan Nugent as “extensive” but that the motivation of the alleged “violent” ",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Helen Haines attack as it happened: Indi MP has both legs amputated, husband confirms; alleged attacker charged",
-        "desc": "Independent MP Helen Haines has lost both her legs but is in a stable condition, her husband confirmed. The community rallies behind Haines and her family during a vigil in Wodonga.",
-        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-brendan-nugent-facing-three-charges-over-alleged-intentional-attack-mp-for-indi-loses-leg-with-surgeons-trying-to-save-other-20261021-p6174q.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 8,
-      "headline": "Politicians say more security would ‘let bad people win’ after alleged attack on Helen Haines: ‘We don’t want to be locked off’",
-      "summary": "Despite the horrific injuries sustained by the Indi MP, public figures say they must not hide themselves away from voters behind guards Follow our live blog for latest updates Helen Haines loses leg as surgeons fight to save the other Get our new political email, free app or daily news podcast Crossbench MPs have a saying among themselves: “What would Helen do?” It’s a phrase they have worn on T-s",
-      "ts": 1792610760000,
-      "img": "https://i.guim.co.uk/img/media/631e7ae4799b0e6771af15d0d814ea3c898fc61b/0_0_2500_2000/master/2500.jpg?width=460&quality=85&auto=format&fit=max&s=70982cb4462dd16f213701221acab087",
+      "ts": 1792623423000,
+      "img": "https://static.ffx.io/images/$zoom_0.30257142857142855%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_49/t_crop_custom/q_86%2Cf_auto/4262f9d3f685ba68d3606c8bcc076feaf8945366",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -391,16 +343,23 @@
         "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-indi-mp-loses-both-legs-husband-confirms-as-vigil-held-in-wodonga-more-details-emerge-about-alleged-attacker-brendan-nugent-s-past-20261022-p617m7.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Governor-general appeals to Australians to ‘exercise our muscle of decency’; Haines’ husband reveals MP has lost second leg",
+        "desc": "Governor-General Sam Mostyn has appealed to Australians to “learn or relearn to exercise our muscle of decency” in the wake of Monday’s horrific attack on Helen Haines. Mostyn appeared late Wednesday at Melbourne’s Alfred Hospital with Haines’ husband Phil, at his invitation. He revealed that earlier in the day, Haines’ second leg had been amputated. Haines remains in a critical but stable conditi",
+        "link": "https://theconversation.com/governor-general-appeals-to-australians-to-exercise-our-muscle-of-decency-haines-husband-reveals-mp-has-lost-second-leg-294863"
+       },
+       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Politicians say more security would ‘let bad people win’ after alleged attack on Helen Haines: ‘We don’t want to be locked off’",
-        "desc": "Despite the horrific injuries sustained by the Indi MP, public figures say they must not hide themselves away from voters behind guards Follow our live blog for latest updates Helen Haines loses leg as surgeons fight to save the other Get our new political email, free app or daily news podcast Crossbench MPs have a saying among themselves: “What would Helen do?” It’s a phrase they have worn on T-s",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-alleged-attack-response-tightened-security-ntwnfb"
+        "title": "Helen Haines’s second leg amputated but she is stable and ‘a fighter’, husband says – as it happened",
+        "desc": "Independent MP was struck by a car on Monday and her alleged attacker appeared in court on Wednesday ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament Anthony Albanese has described the police interview on Tuesday with Brendan Nugent as “extensive” but that the motivation of the alleged “violent” ",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
        }
       ]
      },
      {
-      "id": 9,
+      "id": 8,
       "headline": "Helen Haines has lost her legs after an alleged attack. Here’s what we know so far",
       "summary": "Independent MP for Victorian seat of Indi in stable condition after incident on Monday afternoon Follow our live blog for latest updates Helen Haines loses leg after car allegedly did U-turn and struck her twice Barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast Helen Haines, the independent federal MP for the Victorian seat of Indi, ha",
       "ts": 1792569535000,
@@ -428,7 +387,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 9,
       "headline": "One person a week charged with threatening politicians",
       "summary": "AFP commissioner Krissy Barrett says federal politicians are increasingly worried about their safety and police increasingly concerned about the online abuse hurled at federal politicians.",
       "ts": 1792541187000,
@@ -452,6 +411,27 @@
         "title": "One person a week charged with threatening politicians",
         "desc": "AFP commissioner Krissy Barrett says federal politicians are increasingly worried about their safety and police increasingly concerned about the online abuse hurled at federal politicians.",
         "link": "https://www.theage.com.au/politics/federal/one-person-a-week-charged-with-threatening-politicians-20261021-p617dw.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Australian politicians say they are paying thousands for their own security upgrades amid rising threats",
+      "summary": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email, free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about wid",
+      "ts": 1792623889000,
+      "img": "https://i.guim.co.uk/img/media/38a1cb8826750230c1b0427be62a4322ad2af700/672_0_6718_5375/master/6718.jpg?width=460&quality=85&auto=format&fit=max&s=e4cf385b0c09c626279e5a53ccbca723",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Australian politicians say they are paying thousands for their own security upgrades amid rising threats",
+        "desc": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email, free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about wid",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb"
        }
       ]
      },
@@ -540,6 +520,34 @@
      },
      {
       "id": 14,
+      "headline": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+      "summary": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+      "ts": 1792623843000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a691/live/0777e580-cd28-11f1-bc2e-018d645d8d21.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+        "desc": "Musk says there's \"a lot to be gained\" by combining the firms in what would be the biggest merger in history.",
+        "link": "https://www.bbc.co.uk/news/articles/cr93z1e87e0do?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+        "desc": "\"I do think there's a lot of merit to combining the companies.\"",
+        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+       }
+      ]
+     },
+     {
+      "id": 15,
       "headline": "Just Eat apologises for AI food mistakes after social media ridicule",
       "summary": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
       "ts": 1792602253000,
@@ -563,34 +571,6 @@
         "title": "UK watchdogs urged to tackle suicide social media content after death of girl, 14",
         "desc": "Adriana Retyte took her own life after viewing ‘high-risk’ material on the video-sharing platform TikTok A 14-year-old schoolgirl’s death after TikTok served her suicide content has prompted renewed calls for UK watchdogs to crack down on “toxic” social media feeds. Adriana Retyte, a pupil at Langley school in Norfolk, took her own life after she viewed videos and images related to suicide on the ",
         "link": "https://www.theguardian.com/technology/2026/oct/21/uk-watchdogs-urged-to-tackle-suicide-social-media-content-after-death-of-girl-14"
-       }
-      ]
-     },
-     {
-      "id": 15,
-      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-      "ts": 1792572169000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-        "desc": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-        "desc": "\"I do think there's a lot of merit to combining the companies.\"",
-        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
        }
       ]
      },
@@ -624,6 +604,27 @@
      },
      {
       "id": 17,
+      "headline": "Trump's green card curbs test Indian tech workers' American dream",
+      "summary": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians.",
+      "ts": 1792623997000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/51e1/live/804b8da0-cc6e-11f1-baeb-8d65d4bcd7ab.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Trump's green card curbs test Indian tech workers' American dream",
+        "desc": "With immigration curbs and tech firms cutting foreign hiring, US residency is becoming a distant dream for many Indians.",
+        "link": "https://www.bbc.co.uk/news/articles/cqj34j7dk771o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 18,
       "headline": "Data centers could erase decades of air quality gains",
       "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas turbines or renewable energy - will determine just how dirty things w",
       "ts": 1792622024000,
@@ -642,27 +643,6 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
        }
       ]
-     },
-     {
-      "id": 18,
-      "headline": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
-      "summary": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
-      "ts": 1792620367000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought",
-        "desc": "Time-based a la carte charges come on top of the purchase price for the games themselves.",
-        "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/"
-       }
-      ]
      }
     ]
    },
@@ -673,8 +653,8 @@
      {
       "id": 19,
       "headline": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
-      "summary": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of Tesla shareholders Investors will be paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. On a call with SpaceX investors on Tuesday, Musk said: “There’s a lo",
-      "ts": 1792617717000,
+      "summary": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further informa",
+      "ts": 1792623796000,
       "img": "https://i.guim.co.uk/img/media/5079e04428f0108241397eee4e3383a1344455f5/436_0_4565_3655/master/4565.jpg?width=460&quality=85&auto=format&fit=max&s=d8c7c23ea1726277b270807aec4513cd",
       "divergent": null,
       "left_view": null,
@@ -686,7 +666,7 @@
         "outlet": "Guardian AU Business",
         "lean": "left",
         "title": "Tesla beats earnings projections after Musk floats SpaceX merger plan",
-        "desc": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of Tesla shareholders Investors will be paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. On a call with SpaceX investors on Tuesday, Musk said: “There’s a lo",
+        "desc": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of all Tesla shareholders, but he declined to elaborate Investors were paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. But they didn’t glean further informa",
         "link": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex"
        },
        {
@@ -742,34 +722,6 @@
      },
      {
       "id": 21,
-      "headline": "Ben Roberts-Smith rejects war crime allegations in radio interview",
-      "summary": "Alleged war criminal Ben Roberts-Smith, while on bail, says he doesn’t “regret a single thing”; Tim Ayres says there was no breach during PHP outage. Follow live updates.",
-      "ts": 1792621978000,
-      "img": "https://static.ffx.io/images/$zoom_1.059%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/ef385af871b64b84ad6191e2de716b0bffdd4e62ed3a16e22c78e0ef9ae6ab9f",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Ben Roberts-Smith rejects war crime allegations in radio interview",
-        "desc": "Alleged war criminal Ben Roberts-Smith, while on bail, says he doesn’t “regret a single thing”; Tim Ayres says there was no breach during PHP outage. Follow live updates.",
-        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-putin-offers-to-resume-peace-talks-with-us-ukraine-20261022-p617mm?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Inside Ben Roberts-Smith’s media campaign for support",
-        "desc": "The disgraced war hero’s public relations offensive includes a two-and-a-half hour media interview, the launch of a clothing brand and an Instagram page.",
-        "link": "https://www.theage.com.au/business/companies/inside-ben-roberts-smith-s-media-campaign-for-support-20261021-p617ep.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 22,
       "headline": "Travellers weigh up the cost to get to Sydney's new airport opening this week",
       "summary": "The doors to Western Sydney International Airport are set to soon welcome commercial passengers.",
       "ts": 1792591222000,
@@ -797,7 +749,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 22,
       "headline": "Data centre gas plant could be mothballed after two years, court told",
       "summary": "Developers behind a proposed $23 million gas-powered power plant required for a data centre have told a court they want the project to be powered by the grid as soon as possible.",
       "ts": 1792570084000,
@@ -825,7 +777,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 23,
       "headline": "Fortescue senior executive sacked after sexual harassment probe",
       "summary": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner.",
       "ts": 1792559669000,
@@ -849,6 +801,34 @@
         "title": "Mining giant fires top executive after sexual harassment probe",
         "desc": "The Andrew Forrest-backed miner has sacked a manager at the centre of a months-long sexual harassment and bullying investigation.",
         "link": "https://www.theage.com.au/business/companies/mining-giant-fires-top-executive-after-sexual-harassment-probe-20261021-p617in.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+      "summary": "As markets put the chance of a rate hike in November at more than 50 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+      "ts": 1792547281000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/88556f9347e5b5988f37e7ef10a437a8?impolicy=wcms_crop_resize&cropH=1177&cropW=2092&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Odds of fifth interest rate hike this year shorten as RBA deputy warns inflation outlook ‘worsening’",
+        "desc": "Andrew Hauser says central bank faces ‘hard choices’ as it looks to balance risks of entrenched inflation with desire to protect labour market Get our breaking news email, free app or daily news podcast The chance of a fifth interest rate hike on Melbourne Cup day has jumped after Andrew Hauser, the Reserve Bank’s deputy governor, warned of “hard choices” amid a “materially worse” inflation outloo",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+        "desc": "As markets put the chance of a rate hike in November at more than 50 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+        "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574"
        }
       ]
      }
@@ -895,6 +875,90 @@
      },
      {
       "id": 26,
+      "headline": "Former Open champion Oosthuizen quits LIV Golf",
+      "summary": "Former Open Championship winner Louis Oosthuizen becomes the latest high-profile player to quit LIV Golf.",
+      "ts": 1792623637000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d9c0/live/d9ac0250-cd5c-11f1-b962-b7ff822cde72.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Former Australia sprint champion Jake Doran charged with alleged child abuse",
+        "desc": "Police charge 26-year-old with indecent treatment of child under 16 Australian Athletics ban sprinter from any involvement in the sport Australia’s 2022 men’s 100m sprint champion has been arrested in Townsville for alleged indecent treatment of children. Queensland police arrested Jake Doran on 13 October and he has been charged with one count of “indecent treatment of child under 16 (indecent fi",
+        "link": "https://www.theguardian.com/sport/2026/oct/22/australia-sprint-champion-jake-doran-charged-alleged-child-abuse-ntwnfb"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Former Open champion Oosthuizen quits LIV Golf",
+        "desc": "Former Open Championship winner Louis Oosthuizen becomes the latest high-profile player to quit LIV Golf.",
+        "link": "https://www.bbc.co.uk/sport/golf/articles/ck62y977vm33o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 27,
+      "headline": "Saka injury 'does not look good' - how will Arsenal cope?",
+      "summary": "Mikel Arteta says the quadriceps injury Arsenal's Bukayo Saka picked up in the Champions League draw with Bayern Munich \"does not look good at all\".",
+      "ts": 1792623402000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f158/live/7c215a80-cda3-11f1-a307-df5709f146ff.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "‘It doesn’t look good’: Arteta concerned as Saka limps off against Bayern Munich",
+        "desc": "‘A player off with really sharp pain is never good news’ Winger forced off 10 minutes into Arsenal’s 2-2 draw Mikel Arteta made no attempt to conceal his concern over the quad injury that forced Bukayo Saka out of Arsenal’s 2-2 Champions League draw at Bayern Munich, saying it did not “look good at all”. The manager was delighted with the fight that his players showed, Declan Rice earning a deserv",
+        "link": "https://www.theguardian.com/football/2026/oct/21/champions-league-bayern-munich-arsenal-mikel-arteta-bukayo-saka-injury"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Saka injury 'does not look good' - how will Arsenal cope?",
+        "desc": "Mikel Arteta says the quadriceps injury Arsenal's Bukayo Saka picked up in the Champions League draw with Bayern Munich \"does not look good at all\".",
+        "link": "https://www.bbc.co.uk/sport/football/articles/ckg5j1zdn4m3o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Australian Test veteran Marnus Labuschagne’s staggering fall from grace highlighted after ‘brain fade’ in South Africa",
+      "summary": "The critics have come hard with the baffling act called ‘career ending’ and ‘simply unacceptable’.",
+      "ts": 1792623123000,
+      "img": "https://images.7news.com.au/publication/C-23056140/a1b4c34723a654d12311a9dd695de9906deacf2f-16x9-x0y2w1304h733.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Australian Test veteran Marnus Labuschagne’s staggering fall from grace highlighted after ‘brain fade’ in South Africa",
+        "desc": "The critics have come hard with the baffling act called ‘career ending’ and ‘simply unacceptable’.",
+        "link": "https://7news.com.au/sport/cricket/australian-test-veteran-marnus-labuschagnes-staggering-fall-from-grace-highlighted-after-brain-fade-in-south-africa-c-23056140"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
+        "desc": "Tourists all out for 99 and forced to follow on Batters left to conduct desperate rearguard on last day There it was, another entry in Australia’s hall of infamy against South Africa. There was 47 all out, in the innocent days when the 2011 Test was the worst humiliation in Cape Town. There was 85 all out in Hobart, 2016, that led to half the side being sacked. Now there is 99 all out in Gqeberha,",
+        "link": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket"
+       }
+      ]
+     },
+     {
+      "id": 29,
       "headline": "Real Madrid dominate Leipzig for third straight win",
       "summary": "Real Madrid maintain their 100 per cent start in the Champions League as they comfortably beat Leipzig 4-1, with Bernardo Silva scoring his first goal for Madrid since moving from Manchester City in the summer.",
       "ts": 1792621512000,
@@ -922,10 +986,10 @@
       ]
      },
      {
-      "id": 27,
+      "id": 30,
       "headline": "Rice strikes to earn Arsenal draw at Bayern",
       "summary": "Declan Rice scores a late equaliser as Arsenal and Bayern Munich play out an entertaining draw in the league phase of the Champions League while Bukayo Saka limps off with an early injury.",
-      "ts": 1792618215000,
+      "ts": 1792617271000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6de1/live/e75a4c50-cd92-11f1-bc2e-018d645d8d21.jpg",
       "divergent": null,
       "left_view": null,
@@ -936,9 +1000,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Bayern Munich 2-2 Arsenal: Champions League – as it happened",
-        "desc": "Declan Rice struck to earn Arsenal a point after Harry Kane scored from the spot, but Bukayo Saka’s early injury will be a concern The teams are out! Bayern are in one of their all-red phases, while Arsenal are harking back to the early 90s with a blue version of the famous bruised banana. Vincent Kompany is in the house, by the way, having recovered from a virus that threatened to keep him in bed",
-        "link": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live"
+        "title": "Arsenal’s Declan Rice strikes late to deny Bayern Munich after Harry Kane penalty",
+        "desc": "It is as if Harry Kane cannot get enough of tormenting Arsenal. The Bayern Munich striker has plenty of form from his Tottenham days. He remains the top scorer in north London derby history with 14 goals. He made an impact yet again here and yet it was not a night when he had the final word. That honour fell to Declan Rice, the Arsenal midfielder storming into the Bayern area in the 82nd minute to",
+        "link": "https://www.theguardian.com/football/2026/oct/21/bayern-munich-arsenal-champions-league-match-report"
        },
        {
         "outlet": "BBC Sport",
@@ -946,90 +1010,6 @@
         "title": "Rice strikes to earn Arsenal draw at Bayern",
         "desc": "Declan Rice scores a late equaliser as Arsenal and Bayern Munich play out an entertaining draw in the league phase of the Champions League while Bukayo Saka limps off with an early injury.",
         "link": "https://www.bbc.co.uk/sport/football/videos/crx23nx0vp8jo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Villa maintain perfect Champions League start with Viking victory",
-      "summary": "Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.",
-      "ts": 1792617540000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe66/live/d0737470-cd93-11f1-a64c-550be9e3c66b.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Villa maintain perfect Champions League start with Viking victory",
-        "desc": "Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Aston Villa 3-1 Viking, Real Madrid 4-1 RB Leipzig and more: Champions League – as it happened",
-        "desc": "Arsenal and Bayern draw is a classic, while Real Madrid beat Leipzig 4-1 Real Madrid: Courtois; Valverde, Huijsen, Rudiger, Carreras; Silva, Camavinga, Bellingham; Guler, Mbappe, Vini Jr. Bench: Lunin, Éder Militão, Endrick, Alexander-Arnold, Tchouaméni, Konaté, Cucurella, Carlos Espí, Brahim Díaz, Dumfries, Diomande, Thiago Pitarch Continue reading...",
-        "link": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Man Utd humbled by four-goal Como to pile pressure on Carrick",
-      "summary": "Manchester United suffer a heavy defeat to a Como side playing just their third ever game of Champions League football, as Nico Paz stars for the hosts to pile the pressure on Michael Carrick.",
-      "ts": 1792617323000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e9b/live/99b2e770-cd81-11f1-9a39-31b474234113.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "‘Angry’ Carrick on the brink as Fernandes hits out at Manchester United tactics",
-        "desc": "Manager apologises to fans after 4-1 defeat in Como Captain criticises ‘decision from the staff’ not to press Michael Carrick’s future as Manchester United manager is in the balance after the club’s humiliating 4-1 Champions League defeat away against Como on Wednesday. Before Bournemouth’s visit to Old Trafford on Sunday his future may be discussed by Jason Wilcox, the director of football, Omar ",
-        "link": "https://www.theguardian.com/football/2026/oct/21/michael-carrick-bruno-fernandes-manchester-united-como-champions-league"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Man Utd humbled by four-goal Como to pile pressure on Carrick",
-        "desc": "Manchester United suffer a heavy defeat to a Como side playing just their third ever game of Champions League football, as Nico Paz stars for the hosts to pile the pressure on Michael Carrick.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cmz7xr3z2vz7o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Scatterbrained Australian approach opens door to South African victory",
-      "summary": "Australia shows a needless sense of urgency at the crease on day four and it backfires spectacularly as South Africa takes firm control in Gqeberha.",
-      "ts": 1792616715000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2223fc747ce6315093b9791930ecf75a?impolicy=wcms_crop_resize&cropH=1590&cropW=2826&xPos=0&yPos=147&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Scatterbrained Australian approach opens door to South African victory",
-        "desc": "Australia shows a needless sense of urgency at the crease on day four and it backfires spectacularly as South Africa takes firm control in Gqeberha.",
-        "link": "https://www.abc.net.au/news/2026-10-22/cricket-south-africa-vs-australia-day-four-analysis/107295048"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
-        "desc": "Tourists all out for 99 and forced to follow on Batters left to conduct desperate rearguard on last day There it was, another entry in Australia’s hall of infamy against South Africa. There was 47 all out, in the innocent days when the 2011 Test was the worst humiliation in Cape Town. There was 85 all out in Hobart, 2016, that led to half the side being sacked. Now there is 99 all out in Gqeberha,",
-        "link": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket"
        }
       ]
      }
@@ -1041,10 +1021,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "NBC's One Chicago Franchise Hits Major New Milestone After Premiere Week",
-      "summary": "NBC's major procedural drama franchise, One Chicago, came back stronger than ever as all three shows exceeded expectations after their season debuts.",
-      "ts": 1792620353000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/mixcollage-09-jun-2026-02-49-pm-5268.jpg",
+      "headline": "'Modern Day Peaky Blinders' Series Is So Good, It's Already Renewed For 2 More Seasons",
+      "summary": "The BBC's gritty Liverpool underworld crime drama channels Peaky Blinders' tense power shifts while shredding any sense of safety or certainty.",
+      "ts": 1792623618000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/cillian-murphy-s-tommy-shelby-in-peaky-blinders.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1054,16 +1034,16 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "NBC's One Chicago Franchise Hits Major New Milestone After Premiere Week",
-        "desc": "NBC's major procedural drama franchise, One Chicago, came back stronger than ever as all three shows exceeded expectations after their season debuts.",
-        "link": "https://screenrant.com/one-chicago-franchise-premiere-ratings-milestone/"
+        "title": "'Modern Day Peaky Blinders' Series Is So Good, It's Already Renewed For 2 More Seasons",
+        "desc": "The BBC's gritty Liverpool underworld crime drama channels Peaky Blinders' tense power shifts while shredding any sense of safety or certainty.",
+        "link": "https://screenrant.com/this-city-is-ours-renewed-2-more-seasons/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Abbott Elementary’ Season 6 Premiere Hits 6.3 Million Viewers in Seven Days (EXCLUSIVE)",
-        "desc": "The school year is off to a strong start: “Abbott Elementary” returned to ABC with the premiere of its sixth season on Oct. 7 and achieved its strongest viewership in a year. After seven days of viewing, the Season 6 premiere reached a total of 6.3 million viewers and a across all platforms. Not only […]",
-        "link": "https://variety.com/2026/tv/news/abbott-elementary-season-6-premiere-ratings-1236919286/"
+        "title": "‘ComicView: Rooftop Series’ Renewed for Season 2 at BET (EXCLUSIVE)",
+        "desc": "Keep on laughing: BET’s “ComicView” reboot has been renewed for Season 2. BET has ordered 20 more episodes of the revived stand-up franchise, which premiered in June as “ComicView: Rooftop Series.” Chris “CP” Powell returns as host of the program, which will see 60 comedians performing on a Hollywood rooftop. Veteran comics Affion Crockett, Cocoa […]",
+        "link": "https://variety.com/2026/tv/news/comicview-rooftop-series-renewed-season-2-bet-1236918801/"
        }
       ]
      },
@@ -1097,10 +1077,52 @@
      },
      {
       "id": 33,
-      "headline": "‘Paper Tiger’ Producer Rodrigo Teixeira Set for GLAFF’s First Visionary Award, Presented by Wagner Moura (EXCLUSIVE)",
-      "summary": "Two-time Oscar-nominated producer Rodrigo Teixeira will receive the inaugural Árbol de la Vida Visionary Award at the GuadaLAjara Film Festival (GLAFF), the Los Angeles offshoot of the Guadalajara International Film Festival, on Nov. 6. The honor will be presented by Oscar-nominated actor Wagner Moura ahead of a screening of James Gray’s “Paper Tiger,” which Teixeira […]",
-      "ts": 1792622107000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/split-2-split-1000x667-9.jpg",
+      "headline": "Black Clover Season 2, Episode 4 Release Date & Time",
+      "summary": "The Spade Kingdom raid gets noticeably darker this weekend as the Black Bulls finally start facing the worst underworld threats.",
+      "ts": 1792625418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/black-clover-asta-3.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Black Clover Season 2, Episode 4 Release Date & Time",
+        "desc": "The Spade Kingdom raid gets noticeably darker this weekend as the Black Bulls finally start facing the worst underworld threats.",
+        "link": "https://screenrant.com/black-clover-season-2-episode-4-release-date-time/"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "Guy Ritchie’s MobLand Successor Is Officially Confirmed",
+      "summary": "While MobLand's gripping second season continues on Paramount+, Guy Ritchie already has the show's successor lined up with a rival streaming platform.",
+      "ts": 1792625418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/tcdmobl_i8099.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Guy Ritchie’s MobLand Successor Is Officially Confirmed",
+        "desc": "While MobLand's gripping second season continues on Paramount+, Guy Ritchie already has the show's successor lined up with a rival streaming platform.",
+        "link": "https://screenrant.com/capital-guy-ritchie-mobland-sequel-in-development/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "Hur Jin-ho Thanks Singapore Festival for Protecting Freedom of Expression as ‘The Assassin(s)’ Opens, SGIFF Chair Boo Junfeng Says: ‘We Refuse to Show Anything That Has Been Censored’",
+      "summary": "South Korean director Hur Jin-ho thanked the Singapore International Film Festival (SGIFF) for defending freedom of expression as his political thriller “The Assassin(s)” opened the festival’s 37th edition on Wednesday, two weeks after the Korea’s conservative opposition asked SGIFF to pull it. “I am truly grateful to the film festival for protecting artistic freedom and […]",
+      "ts": 1792625393000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/SGIFF-2026-opening.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1110,18 +1132,18 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Paper Tiger’ Producer Rodrigo Teixeira Set for GLAFF’s First Visionary Award, Presented by Wagner Moura (EXCLUSIVE)",
-        "desc": "Two-time Oscar-nominated producer Rodrigo Teixeira will receive the inaugural Árbol de la Vida Visionary Award at the GuadaLAjara Film Festival (GLAFF), the Los Angeles offshoot of the Guadalajara International Film Festival, on Nov. 6. The honor will be presented by Oscar-nominated actor Wagner Moura ahead of a screening of James Gray’s “Paper Tiger,” which Teixeira […]",
-        "link": "https://variety.com/2026/film/news/rodrigo-teixeira-glaff-visionary-award-wagner-moura-1236919290/"
+        "title": "Hur Jin-ho Thanks Singapore Festival for Protecting Freedom of Expression as ‘The Assassin(s)’ Opens, SGIFF Chair Boo Junfeng Says: ‘We Refuse to Show Anything That Has Been Censored’",
+        "desc": "South Korean director Hur Jin-ho thanked the Singapore International Film Festival (SGIFF) for defending freedom of expression as his political thriller “The Assassin(s)” opened the festival’s 37th edition on Wednesday, two weeks after the Korea’s conservative opposition asked SGIFF to pull it. “I am truly grateful to the film festival for protecting artistic freedom and […]",
+        "link": "https://variety.com/2026/film/festivals/hur-jin-ho-thanks-singapore-festival-assassins-opens-1236919346/"
        }
       ]
      },
      {
-      "id": 34,
-      "headline": "Everything We Know About The ‘Fourth Wing’ TV Show So Far",
-      "summary": "Not long after Rebecca Yarros’ Fourth Wing took the reading world by storm when it arrived in May 2023, the book was optioned for a television series adaptation. The news came just before the second book in The Empyrean series Iron Flame published in November 2023. The show remains in early stages of development, but […]",
-      "ts": 1792622097000,
-      "img": "https://deadline.com/wp-content/uploads/2023/10/Amazon-Fourth-Wing-book-cover-MGM.jpg",
+      "id": 36,
+      "headline": "Oscar Nuñez, Marlene Forte, Otmara Marrero & Vivian Ruiz To Star In Adrian Cardenas’ Directorial Debut ‘In An Orderly Fashion’",
+      "summary": "EXCLUSIVE: Writer Adrian Cardenas is making his directorial debut with the film In An Orderly Fashion, which just completed production in Miami with Oscar Nuñez (The Office, The Paper), Marlene Forte (The Rookie, Star Trek), Otmara Marrero (Florida Man, StartUp), and Vivian Ruiz (Bloodline, Pain & Gain) in lead roles. In An Orderly Fashion follows Rafa […]",
+      "ts": 1792625104000,
+      "img": "https://deadline.com/wp-content/uploads/2026/10/split-4-split-a-1500x845-1-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1131,51 +1153,9 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Everything We Know About The ‘Fourth Wing’ TV Show So Far",
-        "desc": "Not long after Rebecca Yarros’ Fourth Wing took the reading world by storm when it arrived in May 2023, the book was optioned for a television series adaptation. The news came just before the second book in The Empyrean series Iron Flame published in November 2023. The show remains in early stages of development, but […]",
-        "link": "https://deadline.com/feature/fourth-wing-tv-show-everything-we-know-1236019668/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "X-Men Just Officially Announced Historic New Team, All Members And Powers",
-      "summary": "New team 'THE SCAVENGED' explained.",
-      "ts": 1792621818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/cyclops-alongside-new-x-men-team-the-scavenged.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "X-Men Just Officially Announced Historic New Team, All Members And Powers",
-        "desc": "New team 'THE SCAVENGED' explained.",
-        "link": "https://screenrant.com/x-men-new-team-scavenged-members-explained/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "James Bond 26's Biggest Challenge Isn't Replacing Daniel Craig",
-      "summary": "Daniel Craig offered a unique portrayal of James Bond that will be difficult to emulate, but the next Bond actor will have to do more than that.",
-      "ts": 1792621818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/spectre_xgir36.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "James Bond 26's Biggest Challenge Isn't Replacing Daniel Craig",
-        "desc": "Daniel Craig offered a unique portrayal of James Bond that will be difficult to emulate, but the next Bond actor will have to do more than that.",
-        "link": "https://screenrant.com/james-bond-26-daniel-craig-replacement-character-reinvention/"
+        "title": "Oscar Nuñez, Marlene Forte, Otmara Marrero & Vivian Ruiz To Star In Adrian Cardenas’ Directorial Debut ‘In An Orderly Fashion’",
+        "desc": "EXCLUSIVE: Writer Adrian Cardenas is making his directorial debut with the film In An Orderly Fashion, which just completed production in Miami with Oscar Nuñez (The Office, The Paper), Marlene Forte (The Rookie, Star Trek), Otmara Marrero (Florida Man, StartUp), and Vivian Ruiz (Bloodline, Pain & Gain) in lead roles. In An Orderly Fashion follows Rafa […]",
+        "link": "https://deadline.com/2026/10/oscar-nunez-star-in-an-orderly-fashion-film-1237170213/"
        }
       ]
      }
@@ -1184,35 +1164,35 @@
   ],
   "sourcesOk": [
    "The Age",
-   "Guardian Australia",
    "Crikey",
-   "The Age Federal Politics",
+   "Guardian Australia",
    "ABC News",
-   "Fox News",
-   "Guardian Tech",
-   "Fox News Politics",
    "BBC World",
-   "Guardian AU Politics",
-   "The Conversation",
+   "Fox News",
+   "Fox News Politics",
    "Ars Technica",
+   "Guardian AU Politics",
    "The Verge",
+   "The Conversation",
+   "The Age Federal Politics",
+   "Guardian Tech",
    "BBC Tech",
+   "Fox Business",
+   "Variety",
+   "The Age Business",
+   "Guardian AU Business",
+   "Deadline",
    "ABC Business",
    "AFR",
-   "Guardian AU Business",
-   "Variety",
-   "Fox Business",
-   "The Age Business",
-   "ABC Sport",
-   "Deadline",
    "Guardian AU Sport",
+   "ABC Sport",
+   "SBS News",
+   "Screen Rant",
+   "Guardian Film",
    "7News",
    "BBC Sport",
-   "SBS News",
-   "Guardian Film",
-   "Screen Rant",
-   "7News Sport",
    "Anime News Network",
+   "7News Sport",
    "Daily Mail Australia"
   ],
   "sourcesFailed": []
@@ -1404,25 +1384,25 @@
  "commGames": null,
  "deals": [
   {
-   "title": "½ Price: Mayver's Upside Down Smooth Peanut Butter 450g $4.25 (Was $8.50) & 2 More @ Coles",
-   "link": "https://www.ozbargain.com.au/node/979831",
-   "votes": 64,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1792563669000
-  },
-  {
    "title": "2026 Macbook Air 13 inch M5 (16 GB RAM/512 GB SSD) $1747 Delievered @ Amazon",
    "link": "https://www.ozbargain.com.au/node/979892",
-   "votes": 54,
+   "votes": 77,
    "neg": 0,
    "category": "Computing",
    "ts": 1792615048000
   },
   {
+   "title": "½ Price: Mayver's Upside Down Smooth Peanut Butter 450g $4.25 (Was $8.50) & 2 More @ Coles",
+   "link": "https://www.ozbargain.com.au/node/979831",
+   "votes": 65,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1792563669000
+  },
+  {
    "title": "[PS5] Death Stranding Director’s Cut Digital Deluxe Edition $9.49 @ PlayStation",
    "link": "https://www.ozbargain.com.au/node/979839",
-   "votes": 53,
+   "votes": 56,
    "neg": 0,
    "category": "Gaming",
    "ts": 1792567837000
@@ -1430,7 +1410,7 @@
   {
    "title": "M&M's Snack Time Bundle (Milk Chocolate 380g, Peanut 380g, Crispy 335g) $15.99 + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/979852",
-   "votes": 52,
+   "votes": 53,
    "neg": 0,
    "category": "Groceries",
    "ts": 1792574521000
@@ -1438,23 +1418,15 @@
   {
    "title": "10% off Uber & Uber Eats eGift Cards @ Giftcards.com.au",
    "link": "https://www.ozbargain.com.au/node/979837",
-   "votes": 46,
+   "votes": 47,
    "neg": 0,
    "category": "Other",
    "ts": 1792566281000
   },
   {
-   "title": "Samsung P9 Express MicroSD Express Card, 512GB $160.88 (RRP $219.99) Delivered @ Amazon US via AU",
-   "link": "https://www.ozbargain.com.au/node/979774",
-   "votes": 45,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1792544556000
-  },
-  {
    "title": "[PS4] Bloodborne $6.23, Shadow of The Colossus $6.59 @ PlayStation Store",
    "link": "https://www.ozbargain.com.au/node/979783",
-   "votes": 44,
+   "votes": 46,
    "neg": 0,
    "category": "Gaming",
    "ts": 1792547753000
@@ -1462,10 +1434,18 @@
   {
    "title": "Red Rock Deli Sweet Chili & Sour Cream Chips 290g $4.25 ($3.82 S&S / [Prime] 2 for $7.22) + Del ($0 Prime) @ Amazon AU (Excl NT)",
    "link": "https://www.ozbargain.com.au/node/979857",
-   "votes": 37,
+   "votes": 41,
    "neg": 0,
    "category": "Groceries",
    "ts": 1792577736000
+  },
+  {
+   "title": "[PC, Epic] Free: Terraspace @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/979890",
+   "votes": 38,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1792613130000
   },
   {
    "title": "Doritos Original/Cheese 380g, Smiths Original/S&V 380g $4.25 ($3.82 S&S / [Prime] 2 for $7.22) + Delivery ($0 Prime) @ Amazon AU",
@@ -1484,12 +1464,12 @@
    "ts": 1651062784000
   },
   {
-   "title": "[PC, Epic] Free: Terraspace @ Epic Games",
-   "link": "https://www.ozbargain.com.au/node/979890",
-   "votes": 27,
+   "title": "MacBook Air 15\" M5 1TB Storage 24GB RAM $2,999 Delivered @ Costco (Membership Req., Officeworks $2,850 Price Beat)",
+   "link": "https://www.ozbargain.com.au/node/979848",
+   "votes": 28,
    "neg": 0,
-   "category": "Gaming",
-   "ts": 1792613130000
+   "category": "Computing",
+   "ts": 1792570855000
   },
   {
    "title": "Kirks Soft Drink Multipack Cans 375ml 20pk $16 ($15.20 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU (Excl. NT)",
@@ -1500,14 +1480,6 @@
    "ts": 1792581649000
   },
   {
-   "title": "MacBook Air 15\" M5 1TB Storage 24GB RAM $2,999 Delivered @ Costco (Membership Req., Officeworks $2,850 Price Beat)",
-   "link": "https://www.ozbargain.com.au/node/979848",
-   "votes": 27,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1792570855000
-  },
-  {
    "title": "Seagate 1TB Storage Expansion Card for Xbox Series X/S$250 @ Officeworks (in-Store Only, Limited Stock)",
    "link": "https://www.ozbargain.com.au/node/979786",
    "votes": 25,
@@ -1516,16 +1488,23 @@
    "ts": 1792548658000
   },
   {
-   "title": "[VIC] Sungrow 30kWh SBH300 Solar Battery + 10kW Hybrid Inverter (Single or 3-Phase) $5000 Installed (No VPP Required) @Hytech",
-   "link": "https://www.ozbargain.com.au/node/979866",
-   "votes": 17,
+   "title": "[NSW] Free Iced boss coffee @ Pitt St Mall",
+   "link": "https://www.ozbargain.com.au/node/979899",
+   "votes": 20,
+   "neg": 0,
+   "category": "Dining & Takeaway",
+   "ts": 1792619136000
+  },
+  {
+   "title": "OXO 1119100 Good Grips Hand-Held Mandoline Slicer, White $18.95 (RRP $39.95) +Delivery ($0 Prime/$59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/979901",
+   "votes": 19,
    "neg": 0,
    "category": "Home & Garden",
-   "ts": 1792582921000
+   "ts": 1792621590000
   }
  ],
  "carried": {
-  "releases.anime": "2026-10-21T22:00:38.504Z",
-  "deals": "2026-10-21T22:50:03.605Z"
+  "releases.anime": "2026-10-21T22:00:38.504Z"
  }
 }
