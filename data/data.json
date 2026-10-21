@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T23:21:02.677Z",
+ "generatedAt": "2026-10-21T22:00:38.504Z",
  "markets": {
   "items": [
    {
@@ -7,72 +7,88 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8829.7,
-    "chgPct": -0.18088104908843813,
+    "price": 8831.3,
+    "chgPct": 0.1633182721482298,
     "high52": 9296.7,
-    "off52": -5.023287833317198
+    "off52": -5.006077425322979
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.45,
-    "chgPct": 0.23188405797101777,
+    "price": 86.41,
+    "chgPct": -0.0000042380618252611335,
     "high52": 88,
-    "off52": -1.7613636363636331
+    "off52": -1.8068181818181859
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.3,
-    "chgPct": 0.12235242576587202,
+    "price": 147.28,
+    "chgPct": 8.288315699717824e-7,
     "high52": 155.03,
-    "off52": -4.986131716441973
+    "off52": -4.999032445333161
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 61.64,
-    "chgPct": 0.5218530769216422,
+    "price": 61.55,
+    "chgPct": 0.000001239544207538263,
     "high52": 65.18,
-    "off52": -5.431113838600806
+    "off52": -5.5691930039889685
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.9,
-    "chgPct": 2.1961886987113095,
+    "price": 34.89,
+    "chgPct": 0.000001749359626671476,
     "high52": 47.78,
-    "off52": -26.956885726245293
+    "off52": -26.977814985349518
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7012,
-    "chgPct": 0.4181565481277545,
+    "price": 0.7033,
+    "chgPct": 0.37708785360962055,
     "high52": 0.7277,
-    "off52": -3.641610553799638
+    "off52": -3.3530300948192906
    }
   ],
   "failed": [],
   "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "LLY",
-    "name": "Eli Lilly",
+    "sym": "NFLX",
+    "name": "Netflix",
     "market": "US",
-    "price": 1283.66,
+    "price": 65.04,
     "currency": "USD",
-    "chgPct": 3.4925935931635808
+    "chgPct": -5.3137317101127755
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 386.47,
+    "currency": "USD",
+    "chgPct": 3.41441460937116
+   },
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 221.97,
+    "currency": "USD",
+    "chgPct": 2.5407671955844457
    }
   ]
  },
@@ -85,10 +101,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Helen Haines remains critical as man charged with Commonwealth offence",
-      "summary": "A 43-year-old man has been charged in connection with an alleged attack on MP Helen Haines and is expected to appear in court.",
-      "ts": 1792537579000,
-      "img": "https://assets.sbs.com.au/dims4/default/c6df4d9/2147483647/strip/false/crop/7623x3503+0+790/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Ff7%2F30%2Fe13edb1244a5a423f798bbe6caef%2F20260908161563617103-original.jpg",
+      "headline": "Pope Leo XIV’s full cancer diagnosis revealed by doctors",
+      "summary": "His doctor has confirmed the type of cancer and if further treatment is necessary.",
+      "ts": 1792619584000,
+      "img": "https://images.7news.com.au/publication/C-23055786/70d2ef46c6dc8bf37034ae4d83a312ea24cd9ee1-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -96,69 +112,83 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Helen Haines live updates: Police are charging ‘almost one individual every week’ for targeting politicians, MP critical after surgery to save second leg",
-        "desc": "Follow the day’s news live. ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament Anthony Albanese has described the police interview on Tuesday with Brendan Nugent as “extensive” but that the motivation of the alleged “violent” attack against Helen Haines is still unknown. Certainly, it’s a reminder ",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Pope Leo's treatment for lung cancer was successful, Vatican announces",
+        "desc": "Pope Leo's treatment for lung cancer was successful, the Vatican announced on Wednesday.",
+        "link": "https://www.dailymail.com/news/article-16228203/pope-leo-lung-cancer-treatment-successfull-vatican.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Helen Haines attack live updates: Indi MP’s condition remains critical after losing leg with surgeons trying to save other; Brendan Nugent facing three charges over alleged ‘intentional’ attack",
-        "desc": "Brendan Nugent faces three charges over the alleged attack as the member for Indi remains in a critical condition.",
-        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-brendan-nugent-facing-three-charges-over-alleged-intentional-attack-mp-for-indi-loses-leg-with-surgeons-trying-to-save-other-20261021-p6174q.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Helen Haines remains critical as man charged with Commonwealth offence",
-        "desc": "A 43-year-old man has been charged in connection with an alleged attack on MP Helen Haines and is expected to appear in court.",
-        "link": "https://www.sbs.com.au/news/article/helen-haines-still-in-hospital-as-attack-suspect-named-what-we-know-so-far/d3li4b1b6"
+        "title": "Pope Leo XIV’s full cancer diagnosis revealed by doctors",
+        "desc": "His doctor has confirmed the type of cancer and if further treatment is necessary.",
+        "link": "https://7news.com.au/news/pope-leo-xivs-full-cancer-diagnosis-revealed-by-doctors-c-23055786"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Pope does not need further treatment after lung cancer surgery",
+        "desc": "Test results have confirmed his diagnosis as a lung adenocarcinoma that was localised.",
+        "link": "https://www.bbc.co.uk/news/articles/cqrly2dg5xzzo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Pope Leo XIV needs no further cancer treatment after lung tumor removed, doctors say",
+        "desc": "Pope Leo XIV's doctors say the lung adenocarcinoma tumor removed Oct. 13 was localized, and a cancer assessment found no further treatment needed.",
+        "link": "https://www.foxnews.com/world/pope-leo-xiv-needs-no-further-cancer-treatment-after-lung-tumor-removed-doctors-say"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Victorian premier forgets to pay for fuel",
-      "summary": "Victorian Premier Ben Carroll has admitted he forgot to pay for his fuel after visiting a petrol station on Monday.",
-      "ts": 1792537539000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/c402bdf1233f6f733726da0d58f32ec591b57079",
+      "headline": "'We haven't lost her': Helen Haines' predecessor speaks of relief after condition update",
+      "summary": "Former independent MP Cathy McGowan has spoken of the incident that seriously injured her friend and successor, Helen Haines.",
+      "ts": 1792613633000,
+      "img": "https://assets.sbs.com.au/dims4/default/f69e83a/2147483647/strip/false/crop/5568x2558+0+577/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F9d%2F02%2Fdcc1d97e45579a73b6a6e3badc3b%2F20190801001411413416-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
+        "outlet": "Crikey",
         "lean": "left",
-        "title": "‘I forgot to pay’: Victorian premier Ben Carroll drove off with paying for petrol, sparking police inquiries",
-        "desc": "Premier says after being contacted by officers, he paid the bill and was ‘grateful for the team at the servo for their understanding’ Get our breaking news email, free app or daily news podcast On Tuesday night, Ben Carroll received a phone call: police were looking for him. The Victorian premier had met with the state’s police commissioner earlier that morning – so he wasn’t exactly hard to find.",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/21/i-forgot-to-pay-victorian-premier-ben-carroll-drove-off-with-paying-for-petrol-sparking-police-inquiries-ntwnfb"
+        "title": "‘Don’t let violence win’: Vigils held for Helen Haines",
+        "desc": "Independent MP Helen Haines remains in a critical but stable condition in hospital, having lost both her legs after being hit by a car on Monday. Meanwhile, politicians have expressed their safety fears to security officials and the odds of another interest rate rise have shortened. The post ‘Don’t let violence win’: Vigils held for Helen Haines appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/10/22/helen-haines-vigil-phil-haines-politician-safety-fears-rba-interest-rate-rise/"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Premier Ben Carroll admits driving off without paying for fuel after servo alerts police",
-        "desc": "Victoria's Premier Ben Carroll has admitted driving away from a petrol station without paying for fuel.",
-        "link": "https://www.dailymail.com/news/article-16225049/ben-carroll-petrol-station-fuel-payment-police-victoria.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'We haven't lost her': Helen Haines' predecessor speaks of relief after condition update",
+        "desc": "Former independent MP Cathy McGowan has spoken of the incident that seriously injured her friend and successor, Helen Haines.",
+        "link": "https://www.sbs.com.au/news/article/helen-haines-cathy-mcgowan-relief-after-condition-update/rk78lrzpf"
        },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Victorian premier forgets to pay for fuel",
-        "desc": "Victorian Premier Ben Carroll has admitted he forgot to pay for his fuel after visiting a petrol station on Monday.",
-        "link": "https://www.theage.com.au/national/victorian-premier-forgets-to-pay-for-fuel-20261021-p617b7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Helen Haines attack live updates: Indi MP loses both legs, in stable condition, husband confirms; vigil held in Wodonga; more details emerge about alleged attacker Brendan Nugent’s past",
+        "desc": "Follow along as we bring you rolling updates on this evolving story.",
+        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-indi-mp-loses-both-legs-husband-confirms-as-vigil-held-in-wodonga-more-details-emerge-about-alleged-attacker-brendan-nugent-s-past-20261022-p617m7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Helen Haines’ husband Phil reveals surgeons have amputated both of MP’s legs injured in alleged attack",
+        "desc": "The husband of Helen Haines has delivered a major update on her health on Wednesday.",
+        "link": "https://7news.com.au/news/helen-haines-husband-phil-reveals-surgeons-have-amputated-both-of-mps-legs-injured-in-alleged-attack-c-23054099"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Prince Harry extends olive branch to King Charles and Prince William in emotional interview",
-      "summary": "The King’s youngest son has spoken out about ‘drama’ in the royal family.",
-      "ts": 1792537328000,
-      "img": "https://images.7news.com.au/publication/C-23050918/5090bb997d33878e31e215cf13d495b5fbc0a925-16x9-x0y0w1280h720.png",
+      "headline": "Bibra Lake: Joseph Paratore, 40, identified as cyclist killed in hit-and-run crash in Perth’s south",
+      "summary": "A beloved father-of-two has been revealed as the victim of Tuesday’s crash.",
+      "ts": 1792612535000,
+      "img": "https://images.7news.com.au/publication/C-23053942/9fccd1ef01a0c6ece7e570c64a3ef66f70a827f2-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -166,46 +196,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Prince and Princess of Wales dazzle as they join King hosting Sultan of Oman at glittering State Banquet - with royals bidding to put 'distraction' of Harry's latest interview behind them",
-        "desc": "The monarch was accompanied by William and Kate, Queen Camilla, the Princess Royal and her husband Vice Admiral Sir Tim Laurence, as well as the Duke and Duchess of Gloucester.",
-        "link": "https://www.dailymail.com/news/royals/article-16224469/king-state-banquet-sultan-oman-princess-kate.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Aussies crumble to South Africa",
+        "desc": "Australia's batting line up crumbles in Gqeberha as South Africa takes control of the second Test match.",
+        "link": "https://www.theage.com.au/national/aussies-crumble-to-south-africa-20261022-p617nj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
+        "desc": "Tourists all out for 99 and forced to follow on Batters left to conduct desperate rearguard on last day There it was, another entry in Australia’s hall of infamy against South Africa. There was 47 all out, in the innocent days when the 2011 Test was the worst humiliation in Cape Town. There was 85 all out in Hobart, 2016, that led to half the side being sacked. Now there is 99 all out in Gqeberha,",
+        "link": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Prince Harry extends olive branch to King Charles and Prince William in emotional interview",
-        "desc": "The King’s youngest son has spoken out about ‘drama’ in the royal family.",
-        "link": "https://7news.com.au/entertainment/royal-family/prince-harry-extends-olive-branch-to-king-charles-and-prince-william-in-emotional-interview-c-23050918"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Kate Middleton brings back Princess Diana's famous tiara for glamorous night alongside Prince William",
-        "desc": "Kate Middleton chose Queen Mary's Lover's Knot tiara and a yellow Elie Saab gown for the Oman state banquet at Windsor Castle alongside Prince William.",
-        "link": "https://www.foxnews.com/entertainment/kate-middleton-brings-back-princess-diana-famous-tiara-glamorous-night-prince-william"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Swimmer, 65, killed in shark attack off South Africa's east coast",
-      "summary": "Janine Lochrenberg, 65, was out on her daily morning swim with her club when she was attacked, her family tell the BBC.",
-      "ts": 1792537789000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/040a/live/55e91860-cc9c-11f1-94e6-edd4c60b2e1d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "After dark, these YouTubers watch over an unlikely charge - a shark stuck in a South Korean canal",
-        "desc": "A group of self-appointed guardians wearing hi-vis and carrying selfie sticks watch over the animal that has been trapped for a month, drawing more than 1.6 million visitors In South Korea, they call them jagyeongdan, a word that sits somewhere between a vigilante group and a neighbourhood watch. Each night they don hi-vis vests, pick up their selfie sticks, and gather around the harbour in Busan ",
-        "link": "https://www.theguardian.com/world/2026/oct/21/youtube-watch-over-shark-stuck-south-korea-canal-busan-bukang-i"
+        "title": "Bibra Lake: Joseph Paratore, 40, identified as cyclist killed in hit-and-run crash in Perth’s south",
+        "desc": "A beloved father-of-two has been revealed as the victim of Tuesday’s crash.",
+        "link": "https://7news.com.au/news/bibra-lake-joseph-paratore-40-identified-as-cyclist-killed-in-hit-and-run-crash-in-perths-south-c-23053942"
        },
        {
         "outlet": "BBC World",
@@ -217,11 +226,46 @@
       ]
      },
      {
+      "id": 3,
+      "headline": "Meta fined $25bn for 'lies' over user data privacy",
+      "summary": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+      "ts": 1792619347000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6026/live/1fd68c80-cd78-11f1-bc2e-018d645d8d21.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Meta fined $25bn for 'lies' over user data privacy",
+        "desc": "The fine is the largest to date against Facebook's owner, larger than an $18bn deal with California.",
+        "link": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: ASX to open higher as Wall Street surges",
+        "desc": "The Aussie share market is set to open higher after Wall Street surges. Meta raises the lower end of its spending forecast to fund its AI expansion. Follow the latest on our live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-10-22/asx-markets-business-news-live-updates-thursday-22-october/107295020"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "ASX set for flat start, Wall Street climbs; Meta ordered to pay $36 billion in privacy case; Tesla beats expectations",
+        "desc": "The US stock market rose following strong profit reports from SpaceX, Capital One Financial and other big companies, while Meta and Tesla delivered results after the closing bell.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-for-flat-start-wall-street-climbs-meta-ordered-to-pay-36-billion-in-privacy-case-tesla-results-ahead-20261022-p617mw.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
       "id": 4,
-      "headline": "Trump calls reporter a 'sick person'",
-      "summary": "Donald Trump has labelled a reporter a \"sick person\" when he asked a question he didn't like.",
-      "ts": 1792537762000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/c3c27837433b8ca3df980d929c5e13c35a796b08",
+      "headline": "Ben Roberts-Smith breaks silence",
+      "summary": "War hero and accused war criminal Ben Roberts-Smith has broken his silence in a new interview with 2GB.",
+      "ts": 1792619701000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/366338a517b416dc4c476d643b10f8f88cf4dfde",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -229,74 +273,74 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Trump calls reporter a 'sick person'",
-        "desc": "Donald Trump has labelled a reporter a \"sick person\" when he asked a question he didn't like.",
-        "link": "https://www.theage.com.au/world/trump-calls-reporter-a-sick-person-20261021-p617db.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Trump snaps at reporter in Oval Office skirmish: 'What's wrong with you?'",
-        "desc": "President Donald Trump unleashed fury at a reporter in the Oval Office, deriding the journalist as a 'sick person' after repeatedly getting peppered with questions.",
-        "link": "https://www.dailymail.com/news/article-16224743/trump-snaps-reporter-oval-office-skirmish.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Lindsay Clancy judge denies bid to question holdout juror who refused to acquit mom in murder of her three children",
+        "desc": "The Massachusetts judge who oversaw the Lindsay Clancy trial has denied a motion to question the one juror who refused to acquit the mother in the murder of her three children.",
+        "link": "https://www.dailymail.com/news/article-16228283/Lindsay-Clancy-denies-question-holdout-juror.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Ben Roberts-Smith breaks silence",
+        "desc": "War hero and accused war criminal Ben Roberts-Smith has broken his silence in a new interview with 2GB.",
+        "link": "https://www.theage.com.au/national/ben-roberts-smith-breaks-silence-20261022-p617op.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Prince Harry: I would like a reconciliation",
-      "summary": "In his first interview since moving back to the UK, the Duke of Sussex says reuniting with family is \"the most important thing\" to him.",
-      "ts": 1792537545000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/eda0a13591efab384861751d1cb276bdcb9b562d",
+      "headline": "Health issue forces The Offspring’s Kevin ‘Noodles’ Wasserman to step away from live shows",
+      "summary": "The 63-year-old guitarist made the announcement two days before the band are set to play in Los Angeles.",
+      "ts": 1792618943000,
+      "img": "https://images.7news.com.au/publication/C-23055959/46a066373a167186e604c9ac991e31c795198d71-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Health issue forces The Offspring’s Kevin ‘Noodles’ Wasserman to step away from live shows",
+        "desc": "The 63-year-old guitarist made the announcement two days before the band are set to play in Los Angeles.",
+        "link": "https://7news.com.au/entertainment/music/health-issue-forces-the-offsprings-kevin-noodles-wasserman-to-step-away-from-live-shows-c-23055959"
+       },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Inside the King's state banquet for the Sultan of Oman: From the Royal procession to the Omani-inspired cocktail adapted through a 'distinctly British lens'",
-        "desc": "From its sparkling table decorations to the Omani-inspired cocktails and royal guest list, Charles's state banquet at Windsor Castle on Tuesday night was fit for a king.",
-        "link": "https://www.dailymail.com/news/royals/article-16224857/Inside-King-state-banquet-Sultan-Oman-Kate.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Prince Harry: I would like a reconciliation",
-        "desc": "In his first interview since moving back to the UK, the Duke of Sussex says reuniting with family is \"the most important thing\" to him.",
-        "link": "https://www.theage.com.au/world/prince-harry-i-would-like-a-reconciliation-20261021-p617bw.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "The Offspring star Noodles, 63, stepping away from performing amid 'serious health issue'",
+        "desc": "The 63-year-old musician - born Kevin John Wasserman - made the announcement on Instagram that he will no longer be performing with the rock act.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16227973/Offspring-Noodles-stepping-away-health-issue.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Weight loss in middle age can restore cardiovascular health, research suggests",
-      "summary": "UK study of 6,000 patients shows shedding 5% of body weight may help cut the risk of stroke and heart disease Losing just 5% of your body weight in middle age can reduce inflammation, lower the risk of stroke and make your heart as healthy as if you had never gained weight, research suggests. Millions of men and women worldwide gain weight as they age, putting extra stress on their body, reducing ",
-      "ts": 1792537308000,
-      "img": "https://i.guim.co.uk/img/media/ea0ef1e68e4138b6d30f4a4dfa0d09d024ecf943/439_0_4345_3477/master/4345.jpg?width=460&quality=85&auto=format&fit=max&s=053a112396eeb2613a51196287ca3c69",
+      "headline": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+      "summary": "Russia says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+      "ts": 1792618061000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/abac/live/5ed152f0-cd8f-11f1-b1e7-39558e114359.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Weight loss in middle age can restore cardiovascular health, research suggests",
-        "desc": "UK study of 6,000 patients shows shedding 5% of body weight may help cut the risk of stroke and heart disease Losing just 5% of your body weight in middle age can reduce inflammation, lower the risk of stroke and make your heart as healthy as if you had never gained weight, research suggests. Millions of men and women worldwide gain weight as they age, putting extra stress on their body, reducing ",
-        "link": "https://www.theguardian.com/society/2026/oct/21/weight-loss-in-middle-age-can-restore-cardiovascular-health"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+        "desc": "Russia says it is \"ready in principle\" to resume peace talks and US President Donald Trump says the world is \"the closest we've been\" to ending the war.",
+        "link": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Amy Schumer shares swimsuit photos from Caribbean getaway nearly a year after 50-pound weight-loss reveal",
-        "desc": "Amy Schumer showed off her floral swimsuit and scuba diving adventure in Turks and Caicos, calling her PADI certification one of her best decisions.",
-        "link": "https://www.foxnews.com/entertainment/amy-schumer-shares-swimsuit-photos-caribbean-getaway-nearly-year-after-50-pound-weight-loss-reveal"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Putin agrees to resume three-way peace talks with Ukraine and US",
+        "desc": "Russian President Vladimir Putin agrees to resume US-mediated peace talks with Ukraine as soon as next month, following a meeting with US envoy Steve Witkoff.",
+        "link": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994"
        }
       ]
      }
@@ -308,10 +352,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Helen Haines loses leg as surgeons fight to save the other after alleged attack in Wangaratta",
-      "summary": "Independent MP is in critical yet stable condition after man allegedly did U-turn to strike her twice with his car Brendan Nugent’s family say Helen Haines has been their friend for more than 20 years ‘I don’t want to be known as a hero’: barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast The man accused of attacking Helen Haines allege",
-      "ts": 1792536130000,
-      "img": "https://i.guim.co.uk/img/media/fc5cfde7e2fb473869454a0afb7c782394d83bd7/464_0_4640_3712/master/4640.jpg?width=460&quality=85&auto=format&fit=max&s=72899179f83aed07f631d1220704295a",
+      "headline": "Governor-general appeals to Australians to ‘exercise our muscle of decency’; Haines’ husband reveals MP has lost second leg",
+      "summary": "Governor-General Sam Mostyn has appealed to Australians to “learn or relearn to exercise our muscle of decency” in the wake of Monday’s horrific attack on Helen Haines. Mostyn appeared late Wednesday at Melbourne’s Alfred Hospital with Haines’ husband Phil, at his invitation. He revealed that earlier in the day, Haines’ second leg had been amputated. Haines remains in a critical but stable conditi",
+      "ts": 1792572601000,
+      "img": "https://i.guim.co.uk/img/media/041be61a21bde41aae4188d238b2c424ddeb1f36/651_0_4560_3648/master/4560.jpg?width=460&quality=85&auto=format&fit=max&s=a056ad9972dd159c58fb60a5f3618e5c",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -319,27 +363,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Helen Haines attack live updates: Indi MP’s condition remains critical after losing leg with surgeons trying to save other; Brendan Nugent facing three charges over alleged ‘intentional’ attack",
-        "desc": "Brendan Nugent faces three charges over the alleged attack as the member for Indi remains in a critical condition.",
-        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-brendan-nugent-facing-three-charges-over-alleged-intentional-attack-mp-for-indi-loses-leg-with-surgeons-trying-to-save-other-20261021-p6174q.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Governor-general appeals to Australians to ‘exercise our muscle of decency’; Haines’ husband reveals MP has lost second leg",
+        "desc": "Governor-General Sam Mostyn has appealed to Australians to “learn or relearn to exercise our muscle of decency” in the wake of Monday’s horrific attack on Helen Haines. Mostyn appeared late Wednesday at Melbourne’s Alfred Hospital with Haines’ husband Phil, at his invitation. He revealed that earlier in the day, Haines’ second leg had been amputated. Haines remains in a critical but stable conditi",
+        "link": "https://theconversation.com/governor-general-appeals-to-australians-to-exercise-our-muscle-of-decency-haines-husband-reveals-mp-has-lost-second-leg-294863"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Helen Haines loses leg as surgeons fight to save the other after alleged attack in Wangaratta",
-        "desc": "Independent MP is in critical yet stable condition after man allegedly did U-turn to strike her twice with his car Brendan Nugent’s family say Helen Haines has been their friend for more than 20 years ‘I don’t want to be known as a hero’: barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast The man accused of attacking Helen Haines allege",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/20/helen-haines-mp-alleged-attack-wangaratta-surgery-ntwnfb"
+        "title": "Helen Haines’s second leg amputated but she is stable and ‘a fighter’, husband says – as it happened",
+        "desc": "Independent MP was struck by a car on Monday and her alleged attacker appeared in court on Wednesday ‘Deeply appalled’: politicians condemn alleged attack after Helen Haines critically injured Helen Haines, the principled MP respected across parliament Anthony Albanese has described the police interview on Tuesday with Brendan Nugent as “extensive” but that the motivation of the alleged “violent” ",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/21/helen-haines-independent-mp-alleged-attack-wangaratta-vigils-court-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Helen Haines attack as it happened: Indi MP has both legs amputated, husband confirms; alleged attacker charged",
+        "desc": "Independent MP Helen Haines has lost both her legs but is in a stable condition, her husband confirmed. The community rallies behind Haines and her family during a vigil in Wodonga.",
+        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-brendan-nugent-facing-three-charges-over-alleged-intentional-attack-mp-for-indi-loses-leg-with-surgeons-trying-to-save-other-20261021-p6174q.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Who is Brendan Nugent? What we know so far about the alleged attack on Helen Haines",
-      "summary": "The MP was struck by a four-wheel drive outside her Wangaratta electorate office and is being treated at The Alfred hospital in Melbourne. Here’s what we know so far.",
-      "ts": 1792494376000,
-      "img": "https://static.ffx.io/images/$zoom_0.8235185185185185%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_244%2C$y_104/t_crop_custom/q_86%2Cf_auto/1d364d2dd9410bfaeb9868bd338ad354b57c353d26cc408c27b65eba89a34c06",
+      "headline": "Australian politicians say they are paying thousands for their own security upgrades amid rising threats",
+      "summary": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email, free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about wid",
+      "ts": 1792610760000,
+      "img": "https://i.guim.co.uk/img/media/2c1620ea6466a418bd47d03c09bf1fdab610c52f/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=d61cf90f27d6b879bcf669bc1040ed94",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -349,25 +400,25 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Who is Brendan Nugent? What we know so far about the alleged attack on Helen Haines",
-        "desc": "The MP was struck by a four-wheel drive outside her Wangaratta electorate office and is being treated at The Alfred hospital in Melbourne. Here’s what we know so far.",
-        "link": "https://www.theage.com.au/politics/federal/what-we-know-so-far-about-the-attack-on-helen-haines-20261019-p616vv.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Helen Haines attack live updates: Indi MP loses both legs, in stable condition, husband confirms; vigil held in Wodonga; more details emerge about alleged attacker Brendan Nugent’s past",
+        "desc": "Follow along as we bring you rolling updates on this evolving story.",
+        "link": "https://www.theage.com.au/politics/federal/helen-haines-attack-live-updates-indi-mp-loses-both-legs-husband-confirms-as-vigil-held-in-wodonga-more-details-emerge-about-alleged-attacker-brendan-nugent-s-past-20261022-p617m7.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Helen Haines is in a critical condition after an alleged attack. Here’s what we know so far",
-        "desc": "Independent MP for Victorian seat of Indi in critical condition after incident on Monday afternoon Follow our live blog for latest updates Helen Haines loses leg after car allegedly did U-turn and struck her twice Barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast Helen Haines, the independent federal MP for the Victorian seat of Indi, ",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/19/helen-haines-alleged-attack-wangaratta-what-we-know-so-far-ntwnfb"
+        "title": "Australian politicians say they are paying thousands for their own security upgrades amid rising threats",
+        "desc": "Home and office safety a common concern in Australian federal police and Asio safety briefings with politicians following alleged attack on MP Helen Haines Get our new political email, free app or daily news podcast Security agencies will review safety precautions for MPs’ homes and offices after numerous federal politicians told police and Asio in safety briefings that they were worried about wid",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/22/politicians-say-they-are-paying-thousands-for-own-security-upgrades-amid-rising-threats-ntwnfb"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "Making the country safer must start in the building where Helen and I work",
-      "summary": "Politicians are regularly asking our community to disagree well, but our own hypocrisy is often on display. We need to collectively look in the mirror and consider how we got here.",
-      "ts": 1792474791000,
-      "img": "https://static.ffx.io/images/$zoom_0.2200350779657427%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_139%2C$y_224/t_crop_custom/q_86%2Cf_auto/addf9f1f30815c08fb7b41c39727df3c310dbd7e",
+      "headline": "Helen Haines has lost her legs after an alleged attack. Here’s what we know so far",
+      "summary": "Independent MP for Victorian seat of Indi in stable condition after incident on Monday afternoon Follow our live blog for latest updates Helen Haines loses leg after car allegedly did U-turn and struck her twice Barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast Helen Haines, the independent federal MP for the Victorian seat of Indi, ha",
+      "ts": 1792569535000,
+      "img": "https://i.guim.co.uk/img/media/630b95628c4046f9bd361bd5bd7275e70f8d14cd/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=d5b8c0fdc92ada86980b6de491ff0d9d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -375,27 +426,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Making the country safer must start in the building where Helen and I work",
-        "desc": "Politicians are regularly asking our community to disagree well, but our own hypocrisy is often on display. We need to collectively look in the mirror and consider how we got here.",
-        "link": "https://www.theage.com.au/politics/federal/if-we-re-going-to-make-the-country-safer-it-starts-in-the-building-where-helen-and-i-work-20261020-p616xr.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Political hate speech can have real-world fallout. After the alleged attack on Helen Haines, our leaders must act | Paul Daley",
-        "desc": "Social media amplify the worst excesses of what passes for public discourse, while some media outlets foment polarisation If the increasingly vituperative tenor of our public discourse, online and verbal, has fully trailed America’s into the murky dungeon of political violence with the appalling alleged attack on Helen Haines, Australia’s political class has only itself to blame. Amid outpourings ",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/20/helen-haines-political-hate-speech-ntwnfb"
+        "title": "Helen Haines has lost her legs after an alleged attack. Here’s what we know so far",
+        "desc": "Independent MP for Victorian seat of Indi in stable condition after incident on Monday afternoon Follow our live blog for latest updates Helen Haines loses leg after car allegedly did U-turn and struck her twice Barber who rushed to help Helen Haines praised by PM Get our new political email, free app or daily news podcast Helen Haines, the independent federal MP for the Victorian seat of Indi, ha",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/19/helen-haines-alleged-attack-wangaratta-what-we-know-so-far-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "What has Brendan Nugent been charged with? What we know about the alleged attack on Helen Haines",
+        "desc": "The MP was struck by a four-wheel drive outside her Wangaratta electorate office and is being treated at The Alfred hospital in Melbourne. Here’s what we know so far.",
+        "link": "https://www.theage.com.au/politics/federal/what-we-know-so-far-about-the-attack-on-helen-haines-20261019-p616vv.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "My wife Jo Cox was murdered in her constituency in 2016. The alleged attack on Helen Haines is a punch to the gut | Brendan Cox",
-      "summary": "Moments like these can reinforce our divisions or remind us of what we stand to lose when hatred and intimidation are allowed to brutalise our democracy It’s never a good sign when you turn on your phone to find a dozen messages asking if you are OK. For reasons you will come to understand, I only get those messages when something awful has happened. So yesterday, when I came out of an all-day mee",
-      "ts": 1792537895000,
-      "img": "https://i.guim.co.uk/img/media/4da4289147d50648252159d2362d497ea1891f26/486_0_4319_3456/master/4319.jpg?width=460&quality=85&auto=format&fit=max&s=dcd5e32b2ca1af245a0f163a9f7b2592",
+      "headline": "One person a week charged with threatening politicians",
+      "summary": "AFP commissioner Krissy Barrett says federal politicians are increasingly worried about their safety and police increasingly concerned about the online abuse hurled at federal politicians.",
+      "ts": 1792541187000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/e7ed4dc5179b1e39d94ba129925632f1ebae2767",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -405,18 +456,25 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "My wife Jo Cox was murdered in her constituency in 2016. The alleged attack on Helen Haines is a punch to the gut | Brendan Cox",
-        "desc": "Moments like these can reinforce our divisions or remind us of what we stand to lose when hatred and intimidation are allowed to brutalise our democracy It’s never a good sign when you turn on your phone to find a dozen messages asking if you are OK. For reasons you will come to understand, I only get those messages when something awful has happened. So yesterday, when I came out of an all-day mee",
-        "link": "https://www.theguardian.com/commentisfree/2026/oct/21/my-wife-jo-cox-was-murdered-in-her-constituency-in-2016-the-alleged-attack-on-helen-haines-is-a-punch-to-the-gut-ntwnfb"
+        "title": "AFP charging almost one person a week for targeting politicians, says commissioner - video",
+        "desc": "The Australian federal police commissioner, Krissy Barrett, says police are ‘charging almost one individual every week for targeting commonwealth parliamentarians or high office holders’. Speaking at a joint press conference with Victoria police on the investigation into Monday afternoon’s attack on the Indi MP, Helen Haines, Barrett says people who make online threats against parliamentarians are",
+        "link": "https://www.theguardian.com/australia-news/video/2026/oct/21/afp-charging-almost-one-person-a-week-for-targeting-politicians-says-commissioner-video-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "One person a week charged with threatening politicians",
+        "desc": "AFP commissioner Krissy Barrett says federal politicians are increasingly worried about their safety and police increasingly concerned about the online abuse hurled at federal politicians.",
+        "link": "https://www.theage.com.au/politics/federal/one-person-a-week-charged-with-threatening-politicians-20261021-p617dw.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3",
-      "summary": "Judge Ana Reyes reversed her Rule 11 demand against DOJ attorneys during a nearly seven-hour hearing over the East Potomac Golf Links dispute.",
-      "ts": 1792534085000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/03/931/523/trump_reyes.png?ve=1&tl=1",
+      "headline": "US pulls personnel from Saudi Arabia as kingdom comes under Houthi fire",
+      "summary": "Trump weighs direct military strikes against the Houthis as deadly attacks on Saudi Arabia escalate and Riyadh urgently seeks U.S. interceptors.",
+      "ts": 1792616581000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/us-embassy-riyadh.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -426,18 +484,18 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Judge Trump called a ‘lunatic’ abruptly backs off demand after showdown with DOJ No. 3",
-        "desc": "Judge Ana Reyes reversed her Rule 11 demand against DOJ attorneys during a nearly seven-hour hearing over the East Potomac Golf Links dispute.",
-        "link": "https://www.foxnews.com/politics/judge-trump-called-lunatic-abruptly-backs-off-demand-showdown-doj-3"
+        "title": "US pulls personnel from Saudi Arabia as kingdom comes under Houthi fire",
+        "desc": "Trump weighs direct military strikes against the Houthis as deadly attacks on Saudi Arabia escalate and Riyadh urgently seeks U.S. interceptors.",
+        "link": "https://www.foxnews.com/politics/us-pulls-personnel-saudi-arabia-kingdom-comes-under-houthi-fire"
        }
       ]
      },
      {
       "id": 12,
-      "headline": "Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’",
-      "summary": "President Donald Trump said Ilhan Omar could face jail in addition to deportation, calling her \"a disgrace\" amid a federal immigration fraud probe.",
-      "ts": 1792530685000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/omar-trump-2.jpg?ve=1&tl=1",
+      "headline": "WA has less gambling harm than the rest of Australia. There’s one simple reason",
+      "summary": "Miikka Luotio/Unsplash Western Australia is a unique part of Australia in many ways. It gets a special deal on the distribution of the Goods and Services Tax (GST). Its flora, fauna and cultural attributes are extraordinary. And it has the lowest rate of gambling harm in the country. Our recently published research on the gambling behaviour of Western Australians reinforces this. It demonstrates t",
+      "ts": 1792609831000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -445,11 +503,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’",
-        "desc": "President Donald Trump said Ilhan Omar could face jail in addition to deportation, calling her \"a disgrace\" amid a federal immigration fraud probe.",
-        "link": "https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country"
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "WA has less gambling harm than the rest of Australia. There’s one simple reason",
+        "desc": "Miikka Luotio/Unsplash Western Australia is a unique part of Australia in many ways. It gets a special deal on the distribution of the Goods and Services Tax (GST). Its flora, fauna and cultural attributes are extraordinary. And it has the lowest rate of gambling harm in the country. Our recently published research on the gambling behaviour of Western Australians reinforces this. It demonstrates t",
+        "link": "https://theconversation.com/wa-has-less-gambling-harm-than-the-rest-of-australia-theres-one-simple-reason-294146"
        }
       ]
      }
@@ -461,79 +519,23 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Elon Musk says Tesla-SpaceX merger being considered",
-      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-      "ts": 1792537877000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
+      "headline": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+      "ts": 1792608702000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Elon Musk says Tesla-SpaceX merger being considered",
-        "desc": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
-        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
-       },
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-        "desc": "\"I do think there's a lot of merit to combining the companies.\"",
-        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+        "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+        "desc": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+        "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/"
        },
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Tesla and SpaceX are discussing a possible merger, Musk says",
-        "desc": "Tesla and SpaceX have formed special committees to discuss a possible merger, Elon Musk said during the latter's third quarter earnings call Tuesday. Musk, who serves as CEO of both companies, said the special committees were formed at the request of shareholders and consist of independent directors (though he did not name them). He also noted that he is not a member of either committee, nor invol",
-        "link": "https://www.theverge.com/science/1014984/spacex-tesla-merger-elon-musk-special-committees"
-       }
-      ]
-     },
-     {
-      "id": 14,
-      "headline": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or meet other deadlines, despite warnings that it would resul",
-      "ts": 1792537459000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b56/live/9be50560-cc9f-11f1-94e6-edd4c60b2e1d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-        "desc": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the last year, Ann had failed to appear for an independent medical examination or meet other deadlines, despite warnings that it would resul",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
-        "desc": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
-        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 15,
-      "headline": "Google resolves cloud outage affecting UK banks and websites",
-      "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
-      "ts": 1792519399000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/06fb/live/5e172460-ccc3-11f1-951b-8fbc7a9ea030.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "BBC Tech",
         "lean": "centre",
@@ -551,11 +553,11 @@
       ]
      },
      {
-      "id": 16,
-      "headline": "US bans China's DeepSeek from government in race for AI dominance",
-      "summary": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
-      "ts": 1792499607000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76fb/live/a102f4a0-cbe9-11f1-ad7b-fd8c269705fe.jpg",
+      "id": 14,
+      "headline": "Just Eat apologises for AI food mistakes after social media ridicule",
+      "summary": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
+      "ts": 1792602253000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f80b/live/ce035410-cd6d-11f1-bc2e-018d645d8d21.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -563,27 +565,83 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Just Eat apologises for AI food mistakes after social media ridicule",
+        "desc": "A spokesperson said it was removing inaccurate AI images and pausing the rollout of the tool.",
+        "link": "https://www.bbc.co.uk/news/articles/crz981p0klvgo?at_medium=RSS&at_campaign=rss"
+       },
+       {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-        "desc": "Use of tools ‘may result in the transfer of sensitive data’ to China, defense department says The US government on Monday ordered its agencies to stop using artificial intelligence (AI) tools from the Chinese startup DeepSeek, as the countries race for dominance in the fast-moving sector. A notice from the Department of Homeland Security (DHS) announced the ban on products developed by DeepSeek – ",
-        "link": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies"
-       },
+        "title": "UK watchdogs urged to tackle suicide social media content after death of girl, 14",
+        "desc": "Adriana Retyte took her own life after viewing ‘high-risk’ material on the video-sharing platform TikTok A 14-year-old schoolgirl’s death after TikTok served her suicide content has prompted renewed calls for UK watchdogs to crack down on “toxic” social media feeds. Adriana Retyte, a pupil at Langley school in Norfolk, took her own life after she viewed videos and images related to suicide on the ",
+        "link": "https://www.theguardian.com/technology/2026/oct/21/uk-watchdogs-urged-to-tackle-suicide-social-media-content-after-death-of-girl-14"
+       }
+      ]
+     },
+     {
+      "id": 15,
+      "headline": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+      "summary": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+      "ts": 1792572169000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/819f/live/f7b5d9b0-ccd0-11f1-b06b-25a52a186d15.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
         "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "US bans China's DeepSeek from government in race for AI dominance",
-        "desc": "The Chinese technology is removed from most US government agencies as race for AI dominance steps up.",
-        "link": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss"
+        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+        "desc": "Musk says special committees within both companies have been formed to look at a possible mega-merger.",
+        "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
+        "desc": "\"I do think there's a lot of merit to combining the companies.\"",
+        "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/"
+       }
+      ]
+     },
+     {
+      "id": 16,
+      "headline": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+      "summary": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
+      "ts": 1792525352000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4b56/live/9be50560-cc9f-11f1-94e6-edd4c60b2e1d.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+        "desc": "A US district judge dismissed the case after Ann Altman had refused to attend an independent medical examination.",
+        "link": "https://www.bbc.co.uk/news/articles/c94g1502el58o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "US judge dismisses sexual abuse lawsuit from Sam Altman’s sister",
+        "desc": "Ann Altman, the Open AI CEO’s sister, accused her brother of repeatedly sexually abusing her over two decades ago A judge dismissed a lawsuit filed by Sam Altman’s sister against him on Tuesday. Ann Altman accused the OpenAI CEO of repeatedly sexually abusing her more than two decades ago, which he has denied. In dismissing Ann Altman’s ⁠lawsuit, the US district judge Zachary Bluestone wrote that ",
+        "link": "https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-      "summary": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
-      "ts": 1792444350000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ad18/live/95af9980-cbd2-11f1-aba9-2bb2608f11d9.png",
+      "headline": "Meta to create a new class of shares to fund AI push",
+      "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, and pursue new strategic initiativ",
+      "ts": 1792618202000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -591,27 +649,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "Ex-OpenAI worker accused of planting bug had Saudi support, claims prosecutors",
-        "desc": "Abdulrahman Alfozan, who is accused of planting a recording device, has been denied bail.",
-        "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-        "desc": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
-        "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+        "title": "Meta to create a new class of shares to fund AI push",
+        "desc": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, and pursue new strategic initiativ",
+        "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "The tech helping crack decades-old cold cases",
-      "summary": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
-      "ts": 1792538004000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d033/live/5b8c8300-c16c-11f1-babe-4199b0e7ccea.jpg",
+      "headline": "New York’s first microdrama film festival searches for its audience",
+      "summary": "Actors Taye Diggs, Autumn Federici, Gary Entin, Troy Brookins, Edmund Entin and Eric Guilmette attend the world premiere of Microhouse Films and Lifetime's Reunion Island during the ALZA Festival. | Getty Images for Lifetime. It remains to be seen if people really want to watch vertical content on horizontal TV screens, but many filmmakers and creators were confident that their latest projects wou",
+      "ts": 1792615747000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -619,11 +670,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "The Verge",
         "lean": "centre",
-        "title": "The tech helping crack decades-old cold cases",
-        "desc": "Investigative genetic genealogy can help hunt down criminals but raises worries over privacy.",
-        "link": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo?at_medium=RSS&at_campaign=rss"
+        "title": "New York’s first microdrama film festival searches for its audience",
+        "desc": "Actors Taye Diggs, Autumn Federici, Gary Entin, Troy Brookins, Edmund Entin and Eric Guilmette attend the world premiere of Microhouse Films and Lifetime's Reunion Island during the ALZA Festival. | Getty Images for Lifetime. It remains to be seen if people really want to watch vertical content on horizontal TV screens, but many filmmakers and creators were confident that their latest projects wou",
+        "link": "https://www.theverge.com/entertainment/1014494/alza-vertical-film-festival-bill-block-salvador-paskowitz-microdramas-verticals"
        }
       ]
      }
@@ -635,45 +686,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "SpaceX and Tesla form special committees to study potential merger",
-      "summary": "Investors have been weighing the chance of a mega-merger between Elon Musk’s two companies after he previously consolidated parts of his business empire.",
-      "ts": 1792536327000,
-      "img": "https://static.ffx.io/images/$zoom_0.51708984375%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_22/t_crop_custom/q_86%2Cf_auto/586d4c0a1d9ec5f4941f2619f2d504d188264030",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "SpaceX and Tesla form special committees to study potential merger",
-        "desc": "Investors have been weighing the chance of a mega-merger between Elon Musk’s two companies after he previously consolidated parts of his business empire.",
-        "link": "https://www.afr.com/technology/spacex-and-tesla-form-special-committees-to-study-potential-merger-20261021-p617bi?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "‘A good idea’: Elon Musk’s Tesla and SpaceX exploring merger to create $5 trillion giant",
-        "desc": "Elon Musk says the companies have taken preliminary steps towards sealing what would rank as the largest corporate tie-up of all time.",
-        "link": "https://www.theage.com.au/business/companies/elon-musk-wants-to-merge-tesla-and-spacex-to-create-a-5-trillion-giant-20261021-p617c1.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Anthropic silent on whether it will distribute shares to Americans following Musk SpaceX pledge",
-        "desc": "Elon Musk urged the artificial intelligence company to give shares to the public, then pledged to give SpaceX stock to every American child.",
-        "link": "https://www.foxbusiness.com/technology/anthropic-silent-whether-distribute-shares-americans-following-musk-spacex-pledge"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "United CEO silent on $32M compensation after calling wealth gap a 'danger'",
-      "summary": "United CEO Scott Kirby stays mum on his $32 million compensation package after warning wealth inequality threatens society and calling for a national wealth tax and steep inheritance taxes.",
-      "ts": 1792526791000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/10/united-airlines-ceo-scott-kirby.jpg",
+      "headline": "Tesla to report earnings after Elon Musk floats SpaceX merger plan",
+      "summary": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of Tesla shareholders Investors will be paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. On a call with SpaceX investors on Tuesday, Musk said: “There’s a lo",
+      "ts": 1792617717000,
+      "img": "https://i.guim.co.uk/img/media/5079e04428f0108241397eee4e3383a1344455f5/436_0_4565_3655/master/4565.jpg?width=460&quality=85&auto=format&fit=max&s=d8c7c23ea1726277b270807aec4513cd",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -683,25 +699,60 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "United Airlines CEO faces rightwing backlash after calling for US wealth tax",
-        "desc": "Scott Kirby says wealth inequality is a ‘danger to society’ and calls for inheritance tax in recent interview Scott Kirby, the CEO of United Airlines, is under scrutiny from conservative politicians and commentators for saying wealth inequality is a “danger to society” and calling for a national wealth and inheritance tax in a recent interview. Talking to the New York Times, Kirby was asked about ",
-        "link": "https://www.theguardian.com/business/2026/oct/20/scott-kirby-united-wealth-tax-backlash"
+        "title": "Tesla to report earnings after Elon Musk floats SpaceX merger plan",
+        "desc": "Musk says ‘there’s a lot of merit’ to potential merger that would require approval of 50% of Tesla shareholders Investors will be paying close attention to Tesla’s third-quarter earnings call on Wednesday afternoon, after chief executive Elon Musk floated the idea of merging the car company with his rocket and AI company, SpaceX. On a call with SpaceX investors on Tuesday, Musk said: “There’s a lo",
+        "link": "https://www.theguardian.com/technology/2026/oct/21/elon-musk-tesla-spacex"
        },
        {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "United CEO silent on $32M compensation after calling wealth gap a 'danger'",
-        "desc": "United CEO Scott Kirby stays mum on his $32 million compensation package after warning wealth inequality threatens society and calling for a national wealth tax and steep inheritance taxes.",
-        "link": "https://www.foxbusiness.com/business-leaders/united-ceo-silent-32m-compensation-after-calling-wealth-gap-danger"
+        "title": "Elon Musk says Tesla-SpaceX merger would be 'a good idea' as companies form special committees",
+        "desc": "Both Tesla and SpaceX have formed special committees to explore a potential merger, with Elon Musk citing overlap in robotics and chip design.",
+        "link": "https://www.foxbusiness.com/technology/elon-musk-says-tesla-spacex-merger-would-a-good-idea-companies-form-special-committees"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Elon Musk’s $5 trillion monster: Tesla and SpaceX exploring the biggest merger in history",
+        "desc": "Elon Musk says the companies have taken preliminary steps towards sealing what would rank as the largest corporate tie-up of all time.",
+        "link": "https://www.theage.com.au/business/companies/elon-musk-wants-to-merge-tesla-and-spacex-to-create-a-5-trillion-giant-20261021-p617c1.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "Meta ordered to pay $25B after jury finds it misled users on data privacy",
+      "summary": "The $25 billion penalty comes after jurors found Meta committed more than 43 million violations of New Mexico's consumer protection laws.",
+      "ts": 1792616956000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/01/mark-zuckerberg-meta-2024.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Meta ordered to pay $25B after jury finds it misled users on data privacy",
+        "desc": "The $25 billion penalty comes after jurors found Meta committed more than 43 million violations of New Mexico's consumer protection laws.",
+        "link": "https://www.foxbusiness.com/technology/meta-ordered-pay-25b-jury-finds-misled-facebook-users"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set for flat start, Wall Street climbs; Meta ordered to pay $36 billion in privacy case; Tesla beats expectations",
+        "desc": "The US stock market rose following strong profit reports from SpaceX, Capital One Financial and other big companies, while Meta and Tesla delivered results after the closing bell.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-for-flat-start-wall-street-climbs-meta-ordered-to-pay-36-billion-in-privacy-case-tesla-results-ahead-20261022-p617mw.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Qatar Airways to start Western Sydney flights, pushes for new rights",
-      "summary": "The push comes as the airline’s chief executive prepares to visit Australia and as it agrees to use the new airport from December next year.",
-      "ts": 1792522800000,
-      "img": "https://static.ffx.io/images/$zoom_0.2711064315663372%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_132%2C$y_314/t_crop_custom/q_86%2Cf_auto/7bc4f629541e1b306b7f65b32b51d1d1839466b7",
+      "headline": "Travellers weigh up the cost to get to Sydney's new airport opening this week",
+      "summary": "The doors to Western Sydney International Airport are set to soon welcome commercial passengers.",
+      "ts": 1792591222000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/30813a605ddd66b97119b60a091c2d1c?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -709,27 +760,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
+        "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Qatar Airways plans flights to western Sydney from late 2027",
-        "desc": "The Gulf carrier will fly from Western Sydney International three times a week, making it the fifth foreign carrier to serve Australia’s newest airport.",
-        "link": "https://www.theage.com.au/business/companies/qatar-airways-plans-flights-to-western-sydney-from-late-2027-20261021-p616ug.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Sydney’s second airport will soon be up and running. How different will it be to Melbourne’s Avalon?",
+        "desc": "With Western Sydney international airport due to start commercial flights, the title of Australia’s leading secondary airport is up for grabs Get our breaking news email, free app or daily news podcast This weekend, the first commercial flight will take off from Sydney’s much-anticipated new airport. Passengers will depart from Western Sydney international airport’s architecturally lauded terminal",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/22/western-sydney-international-airport-melbourne-avalon"
        },
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Qatar Airways to start Western Sydney flights, pushes for new rights",
-        "desc": "The push comes as the airline’s chief executive prepares to visit Australia and as it agrees to use the new airport from December next year.",
-        "link": "https://www.afr.com/companies/transport/qatar-airways-to-start-western-sydney-flights-pushes-for-new-rights-20261021-p6176e?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Travellers weigh up the cost to get to Sydney's new airport opening this week",
+        "desc": "The doors to Western Sydney International Airport are set to soon welcome commercial passengers.",
+        "link": "https://www.abc.net.au/news/2026-10-21/nsw-travel-western-sydney-international-airport-flight-savings/106785424"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "AirTrunk, Iren warn data centre investors now ‘a lot more selective’",
-      "summary": "The comments come as the corporate regulator confirmed it was “undertaking inquiries” into the failed $44 billion float of Firmus earlier this month.",
-      "ts": 1792519200000,
-      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/77eb0df5e0ef1c15d149b8abebef92eafb528be8",
+      "headline": "Data centre gas plant could be mothballed after two years, court told",
+      "summary": "Developers behind a proposed $23 million gas-powered power plant required for a data centre have told a court they want the project to be powered by the grid as soon as possible.",
+      "ts": 1792570084000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/f137592aebb2dd29f5cfde674c4a8be5?impolicy=wcms_crop_resize&cropH=2268&cropW=4032&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -737,27 +788,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "AirTrunk, Iren warn data centre investors now ‘a lot more selective’",
-        "desc": "The comments come as the corporate regulator confirmed it was “undertaking inquiries” into the failed $44 billion float of Firmus earlier this month.",
-        "link": "https://www.afr.com/companies/infrastructure/airtrunk-iren-warn-data-centre-investors-now-a-lot-more-selective-20261021-p6174y?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "European banks, websites hit as Google Cloud data centre goes offline for hours",
-        "desc": "The technology giant's London data centre reports \"service disruption\" as major banking institutions experience outages.",
-        "link": "https://www.abc.net.au/news/2026-10-20/google-cloud-failure-europe-banks/107290238"
+        "title": "Data centre gas plant could be mothballed after two years, court told",
+        "desc": "Developers behind a proposed $23 million gas-powered power plant required for a data centre have told a court they want the project to be powered by the grid as soon as possible.",
+        "link": "https://www.abc.net.au/news/2026-10-21/moss-vale-data-centre-gas-plant-court-appeal/107294066"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia’s largest datacentre operator NextDC’s shares dive as Melbourne expansion delayed",
+        "desc": "NextDC tells investors plans to double the size of its west Melbourne datacentre have hit obstacle after community objects to 22 metres-high power poles Get our breaking news email, free app or daily news podcast Australia’s largest datacentre operator has been forced to delay the controversial expansion of its M3 site in Melbourne’s west amid a pause in construction of new 22m power poles followi",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/21/australias-largest-datacentre-operator-nextdcs-shares-dive-as-melbourne-expansion-delayed"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "ASX rises as NextDC plummets 40pc; ‘hard choices’ ahead for RBA",
-      "summary": "NextDC plummets after slashing guidance on M3 power delays; RBA deputy governor Hauser says inflation outlook “materially worse” than forecast; SpaceX reports 161 per cent rise in revenue. Follow live updates.",
-      "ts": 1792537837000,
-      "img": "https://static.ffx.io/images/$zoom_0.7592%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/ed184714005905bcf991b4a40e1805d34f7c3346",
+      "headline": "Fortescue senior executive sacked after sexual harassment probe",
+      "summary": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner.",
+      "ts": 1792559669000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/5d63280bbfe8a579513aac5f0ba4cb1d?impolicy=wcms_crop_resize&cropH=1687&cropW=2997&xPos=1&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -765,20 +816,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "ASX rises as NextDC plummets 40pc; ‘hard choices’ ahead for RBA",
-        "desc": "NextDC plummets after slashing guidance on M3 power delays; RBA deputy governor Hauser says inflation outlook “materially worse” than forecast; SpaceX reports 161 per cent rise in revenue. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-spacex-to-report-oil-retreats-20261021-p6179b?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Fortescue senior executive sacked after sexual harassment probe",
+        "desc": "A senior executive at Andrew Forrest's Fortescue Metals Group has been sacked following an investigation into allegations of sexual harassment and bullying at the iron ore miner.",
+        "link": "https://www.abc.net.au/news/2026-10-21/fortescue-executive-sacked-sexual-harassment-bullying/107293046"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Mining giant fires top executive after sexual harassment probe",
+        "desc": "The Andrew Forrest-backed miner has sacked a manager at the centre of a months-long sexual harassment and bullying investigation.",
+        "link": "https://www.theage.com.au/business/companies/mining-giant-fires-top-executive-after-sexual-harassment-probe-20261021-p617in.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Broken body clocks: Australian study uncovers new depression subtype",
-      "summary": "Perpetually exhausted and resistant to standard antidepressants, 23 per cent of depressed patients may actually have a disrupted internal body clock.",
-      "ts": 1792537260000,
-      "img": "https://static.ffx.io/images/$zoom_0.3309%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/8f0ed3d819b4a888f09a89b1e4f0dda055e69f29d827b754deca2dabdf249fe0",
+      "headline": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+      "summary": "As markets put the chance of a rate hike in November at more than 50 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+      "ts": 1792547281000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/88556f9347e5b5988f37e7ef10a437a8?impolicy=wcms_crop_resize&cropH=1177&cropW=2092&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -786,11 +844,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Odds of fifth interest rate hike this year shorten as RBA deputy warns inflation outlook ‘worsening’",
+        "desc": "Andrew Hauser says central bank faces ‘hard choices’ as it looks to balance risks of entrenched inflation with desire to protect labour market Get our breaking news email, free app or daily news podcast The chance of a fifth interest rate hike on Melbourne Cup day has jumped after Andrew Hauser, the Reserve Bank’s deputy governor, warned of “hard choices” amid a “materially worse” inflation outloo",
+        "link": "https://www.theguardian.com/australia-news/2026/oct/21/odds-of-fifth-interest-rate-hike-this-year-likely-to-shorten-as-rba-deputy-warns-inflation-outlook-worsening"
+       },
+       {
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Broken body clocks: Australian study uncovers new depression subtype",
-        "desc": "Perpetually exhausted and resistant to standard antidepressants, 23 per cent of depressed patients may actually have a disrupted internal body clock.",
-        "link": "https://www.afr.com/life-and-luxury/health-and-wellness/broken-body-clocks-australian-study-uncovers-new-depression-subtype-20261021-p616n6?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "RBA deputy warns inflation outlook 'materially worse' as next decision looms",
+        "desc": "As markets put the chance of a rate hike in November at more than 50 per cent, Reserve Bank deputy governor Andrew Hauser warns of a \"central banker's nightmare\".",
+        "link": "https://www.abc.net.au/news/2026-10-21/reserve-bank-hauser-warns-inflation-outlook-materially-worse/107288574"
        }
       ]
      }
@@ -802,10 +867,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Victory in second T20 extends Australia’s Rose Bowl reign over New Zealand to 26 years",
-      "summary": "Ash Gardner starred with the bat then helped smother the Kiwis with the ball to secure a 40-run win.",
-      "ts": 1792529927000,
-      "img": "https://images.7news.com.au/publication/C-23050795/0dc835b1b2201491531546ac86f0533ffcfeea50-16x9-x0y0w1280h720.jpg",
+      "headline": "Fans hand down immediate verdict on new PNG Chiefs’ logo and jersey",
+      "summary": "The reaction was immediate with the critics all having the same issue.",
+      "ts": 1792546402000,
+      "img": "https://images.7news.com.au/publication/C-23051587/30c74a1cc711f64bdd85243ef43c8d7f3a4e5070-16x9-x0y0w1304h734.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -813,34 +878,34 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "PNG Chiefs unveil logo and jersey for first NRL season amid naming dispute with rival code",
+        "desc": "Design includes face of a chief and cultural drawings by artist Tabu NZ Rugby injunction over use of Chiefs moniker denied in high court The PNG Chiefs have pushed ahead with the unveiling of their logo and jersey despite lingering legal issues with New Zealand Rugby over its rights to use the name. Pending the outcome of a dispute in New Zealand, the Chiefs will run on to an NRL field for the fir",
+        "link": "https://www.theguardian.com/sport/2026/oct/21/png-chiefs-unveil-logo-and-jersey-for-first-nrl-season"
+       },
+       {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Victory in second T20 extends Australia’s Rose Bowl reign over New Zealand to 26 years",
-        "desc": "Ash Gardner starred with the bat then helped smother the Kiwis with the ball to secure a 40-run win.",
-        "link": "https://7news.com.au/sport/cricket/victory-in-second-t20-extends-australias-rose-bowl-reign-over-new-zealand-to-26-years--c-23050795"
+        "title": "Fans hand down immediate verdict on new PNG Chiefs’ logo and jersey",
+        "desc": "The reaction was immediate with the critics all having the same issue.",
+        "link": "https://7news.com.au/sport/rugby-league/fans-hand-down-immediate-verdict-on-new-png-chiefs-logo-and-jersey--c-23051587"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Gardner smashes 84 as Australia retains Rose Bowl over NZ",
-        "desc": "Australia retains the Rose Bowl with a comfortable 40-run victory in the Twenty20 International against New Zealand at North Sydney Oval.",
-        "link": "https://www.abc.net.au/news/2026-10-21/australia-defeats-new-zealand-in-second-t20/107290720"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Australia retain Rose Bowl with 40-run T20 win over New Zealand",
-        "desc": "Australia 167-7; New Zealand 127-8 | Australia win by 40 runs Ashleigh Gardner blasts 84 from 45 balls to set strong target Australia have retained the Rose Bowl with a comfortable 40-run victory in the Twenty20 International against New Zealand at North Sydney Oval. Led by a blazing 84 from vice-captain Ashleigh Gardner, Australia scored a competitive 167-7 and held New Zealand to 8-127 on Tuesda",
-        "link": "https://www.theguardian.com/sport/2026/oct/20/australia-retain-rose-bowl-with-40-run-t20-win-over-new-zealand"
+        "title": "PNG Chiefs unveil new logo ahead of 2028 NRL entry",
+        "desc": "The PNG Chiefs logo brings together elements representative of the country ahead of its NRL debut in 2028.",
+        "link": "https://www.abc.net.au/news/2026-10-21/png-chiefs-unveil-new-logo-ahead-of-2028-nrl-entry/107291628"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Carrick wants more clean sheets to turn season around",
-      "summary": "Manchester United boss Michael Carrick needs more clean sheets as he looks to change his team's fortunes, as they take on Como in the Champions League.",
-      "ts": 1792531655000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8ca/live/8a1f7fa0-ccd0-11f1-9a39-31b474234113.jpg",
+      "headline": "Rice strikes to earn Arsenal draw at Bayern",
+      "summary": "Declan Rice scores a late equaliser as Arsenal and Bayern Munich play out an entertaining draw in the league phase of the Champions League while Bukayo Saka limps off with an early injury.",
+      "ts": 1792618215000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6de1/live/e75a4c50-cd92-11f1-bc2e-018d645d8d21.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -848,27 +913,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Carrick wants more clean sheets to turn season around",
-        "desc": "Manchester United boss Michael Carrick needs more clean sheets as he looks to change his team's fortunes, as they take on Como in the Champions League.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cje362v35175o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Brighton peck Palace and will a point silence the noise around Carrick? | Football Weekly – video",
-        "desc": "Max Rushden is joined by Jonathan Wilson, Mark Langdon and Dan Bardell to discuss the weekend’s Premier League action Continue reading...",
-        "link": "https://www.theguardian.com/football/video/2026/oct/19/brighton-peck-palace-and-will-a-point-silence-the-noise-around-carrick-football-weekly-video"
+        "title": "Bayern Munich 2-2 Arsenal: Champions League – as it happened",
+        "desc": "Declan Rice struck to earn Arsenal a point after Harry Kane scored from the spot, but Bukayo Saka’s early injury will be a concern The teams are out! Bayern are in one of their all-red phases, while Arsenal are harking back to the early 90s with a blue version of the famous bruised banana. Vincent Kompany is in the house, by the way, having recovered from a virus that threatened to keep him in bed",
+        "link": "https://www.theguardian.com/football/live/2026/oct/21/bayern-munich-v-arsenal-champions-league-live"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Rice strikes to earn Arsenal draw at Bayern",
+        "desc": "Declan Rice scores a late equaliser as Arsenal and Bayern Munich play out an entertaining draw in the league phase of the Champions League while Bukayo Saka limps off with an early injury.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/crx23nx0vp8jo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Ronaldo let Manchester United down - Ten Hag",
-      "summary": "Former Manchester United manager Erik ten Hag says Cristiano Ronaldo \"let the team and let me down\" during the Dutchman's spell at Old Trafford.",
-      "ts": 1792530808000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e6d/live/b98ab360-cc79-11f1-bed8-c51b95c602ec.jpg",
+      "headline": "Villa maintain perfect Champions League start with Viking victory",
+      "summary": "Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.",
+      "ts": 1792617540000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fe66/live/d0737470-cd93-11f1-a64c-550be9e3c66b.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -876,27 +941,83 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Carrick insists Manchester United board back him after Ten Hag points to ‘toxic culture’",
-        "desc": "Manager acknowledges he needs to start winning games Ten Hag accuses Cristiano Ronaldo of letting club down Michael Carrick believes Manchester United’s board continue to back him, although the manager admits he must start winning matches to keep his job. Carrick also denied there is a toxic culture at the club, after Erik ten Hag’s claim there had been when he was manager. Carrick’s side travel t",
-        "link": "https://www.theguardian.com/football/2026/oct/20/erik-ten-hag-accuses-cristiano-ronaldo-of-letting-down-manchester-united"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Ronaldo let Manchester United down - Ten Hag",
-        "desc": "Former Manchester United manager Erik ten Hag says Cristiano Ronaldo \"let the team and let me down\" during the Dutchman's spell at Old Trafford.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c8dx32rn297wo?at_medium=RSS&at_campaign=rss"
+        "title": "Villa maintain perfect Champions League start with Viking victory",
+        "desc": "Aston Villa win their third game from three in the Champions League by defeating Norwegian side Viking - the dominant display taking them up to second in the league phase.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/cmj47yxry4k9o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Aston Villa 3-1 Viking, Real Madrid 4-1 RB Leipzig and more: Champions League – as it happened",
+        "desc": "Arsenal and Bayern draw is a classic, while Real Madrid beat Leipzig 4-1 Real Madrid: Courtois; Valverde, Huijsen, Rudiger, Carreras; Silva, Camavinga, Bellingham; Guler, Mbappe, Vini Jr. Bench: Lunin, Éder Militão, Endrick, Alexander-Arnold, Tchouaméni, Konaté, Cucurella, Carlos Espí, Brahim Díaz, Dumfries, Diomande, Thiago Pitarch Continue reading...",
+        "link": "https://www.theguardian.com/football/live/2026/oct/21/real-madrid-v-rb-leipzig-aston-villa-v-viking-and-more-champions-league-live"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Bavuma epic drags SA back into Test - do they have time to beat Australia?",
-      "summary": "Captain Temba Bavuma drags South Africa back into their Test series against Australia but did his side bat on too long on day three?",
-      "ts": 1792513659000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/660e/live/84175a80-cca1-11f1-94e6-edd4c60b2e1d.jpg",
+      "headline": "Man Utd humbled by four-goal Como to pile pressure on Carrick",
+      "summary": "Manchester United suffer a heavy defeat to a Como side playing just their third ever game of Champions League football, as Nico Paz stars for the hosts to pile the pressure on Michael Carrick.",
+      "ts": 1792617323000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e9b/live/99b2e770-cd81-11f1-9a39-31b474234113.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "‘Angry’ Carrick on the brink as Fernandes hits out at Manchester United tactics",
+        "desc": "Manager apologises to fans after 4-1 defeat in Como Captain criticises ‘decision from the staff’ not to press Michael Carrick’s future as Manchester United manager is in the balance after the club’s humiliating 4-1 Champions League defeat away against Como on Wednesday. Before Bournemouth’s visit to Old Trafford on Sunday his future may be discussed by Jason Wilcox, the director of football, Omar ",
+        "link": "https://www.theguardian.com/football/2026/oct/21/michael-carrick-bruno-fernandes-manchester-united-como-champions-league"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Man Utd humbled by four-goal Como to pile pressure on Carrick",
+        "desc": "Manchester United suffer a heavy defeat to a Como side playing just their third ever game of Champions League football, as Nico Paz stars for the hosts to pile the pressure on Michael Carrick.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/cmz7xr3z2vz7o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Scatterbrained Australian approach opens door to South African victory",
+      "summary": "Australia shows a needless sense of urgency at the crease on day four and it backfires spectacularly as South Africa takes firm control in Gqeberha.",
+      "ts": 1792616715000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/2223fc747ce6315093b9791930ecf75a?impolicy=wcms_crop_resize&cropH=1590&cropW=2826&xPos=0&yPos=147&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Scatterbrained Australian approach opens door to South African victory",
+        "desc": "Australia shows a needless sense of urgency at the crease on day four and it backfires spectacularly as South Africa takes firm control in Gqeberha.",
+        "link": "https://www.abc.net.au/news/2026-10-22/cricket-south-africa-vs-australia-day-four-analysis/107295048"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Australia collapse in chaotic fashion to leave South Africa in sight of victory",
+        "desc": "Tourists all out for 99 and forced to follow on Batters left to conduct desperate rearguard on last day There it was, another entry in Australia’s hall of infamy against South Africa. There was 47 all out, in the innocent days when the 2011 Test was the worst humiliation in Cape Town. There was 85 all out in Hobart, 2016, that led to half the side being sacked. Now there is 99 all out in Gqeberha,",
+        "link": "https://www.theguardian.com/sport/2026/oct/21/south-africa-australia-second-test-day-four-match-report-cricket"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "McTominay scores twice as Napoli beat Bodo/Glimt",
+      "summary": "Scott McTominay scores his first goals since undergoing heart surgery as Napoli earn a thrilling 4-3 victory over Bodo/Glimt.",
+      "ts": 1792616478000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bea8/live/2847b040-cd84-11f1-bc2e-018d645d8d21.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -906,72 +1027,16 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Bavuma epic drags SA back into Test - do they have time to beat Australia?",
-        "desc": "Captain Temba Bavuma drags South Africa back into their Test series against Australia but did his side bat on too long on day three?",
-        "link": "https://www.bbc.co.uk/sport/cricket/articles/crx2d3y6gd80o?at_medium=RSS&at_campaign=rss"
+        "title": "McTominay scores twice as Napoli beat Bodo/Glimt",
+        "desc": "Scott McTominay scores his first goals since undergoing heart surgery as Napoli earn a thrilling 4-3 victory over Bodo/Glimt.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/cq99zg052g38o?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "The Breakdown | ‘Freer’ Red Roses resolve to come back stronger after Canada end epic run",
-        "desc": "A first defeat in four years could be liberating for England after so long fighting to preserve their historic unbeaten run England’s glittering unbeaten era is over. Canada defeated the Red Roses to deal them a first defeat in four years after 40 wins and one draw. It was a landmark result for the Canadians, who will look to replicate the outcome this weekend when the two nations meet again. Engl",
-        "link": "https://www.theguardian.com/sport/2026/oct/20/england-women-red-roses-canada-end-epic-winning-run-rugby-union"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Scott Boland on fire again as Australia take control on rain-soaked day in South Africa",
-      "summary": "The Aussie veteran dominated Day 2 but one of his fast-bowling partners was nowhere to be seen.",
-      "ts": 1792513298000,
-      "img": "https://images.7news.com.au/publication/C-23044531/215344e40f010721a2ad4e3d3d2cada7974b1ce5-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Australia on the back foot as Bavuma plays captain’s innings for South Africa",
-        "desc": "Magnificent 179 puts hosts in charge on day three Nic Maddison dismissed for a duck before close In the first Test in Durban, it was Australia’s lower order hanging in with one established batter that first frustrated, then demoralised South Africa. In the second, on the third day in Gqeberha, South Africa returned the favour. Temba Bavuma played the role of Matthew Renshaw, assembling a near-flaw",
-        "link": "https://www.theguardian.com/sport/2026/oct/20/australia-on-the-back-foot-as-bavuma-plays-captains-innings-for-south-africa"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Scott Boland on fire again as Australia take control on rain-soaked day in South Africa",
-        "desc": "The Aussie veteran dominated Day 2 but one of his fast-bowling partners was nowhere to be seen.",
-        "link": "https://7news.com.au/sport/cricket/scott-boland-on-fire-again-as-australia-take-control-on-rain-soaked-day-in-south-africa-c-23044531"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "NFL superstar Jalen Hurts allowed to play despite blood clot diagnosis that has since ended his season",
-      "summary": "The coach has defended the medical staff’s handling of the scary situation.",
-      "ts": 1792505751000,
-      "img": "https://images.7news.com.au/publication/C-23045353/4609ffeadb8f55fd35a9a4fb59d484ac2f930797-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Jalen Hurts played through a blood clot. Are NFL players cattle?",
-        "desc": "The Eagles quarterback’s recent health issues highlight how football’s toughness culture puts its players at risk Jalen Hurts is likely to miss the rest of the NFL season after an ultrasound revealed blood clots in his lungs. Thankfully, he’s now restricted from playing for the immediate future, meaning he won’t be risking serious complications – or even his life – as he did when he played in the ",
-        "link": "https://www.theguardian.com/sport/2026/oct/20/jalen-hurts-blood-clots-eagles-nfl"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "NFL superstar Jalen Hurts allowed to play despite blood clot diagnosis that has since ended his season",
-        "desc": "The coach has defended the medical staff’s handling of the scary situation.",
-        "link": "https://7news.com.au/sport/nfl/nfl-superstar-jalen-hurts-allowed-to-play-despite-blood-clot-diagnosis-that-has-since-ended-his-season-c-23045353"
+        "title": "PSG beat Barça, Rio’s grand for Liverpool and Ronaldo’s CV | Football Weekly – video",
+        "desc": "Max Rushden is joined by Nicky Bandini, Lars Sivertsen and Will Unwin to discuss Tuesday night’s Champions League action Continue reading...",
+        "link": "https://www.theguardian.com/football/video/2026/oct/21/psg-beat-barca-rios-grand-for-liverpool-and-ronaldos-cv-football-weekly-video"
        }
       ]
      }
@@ -983,10 +1048,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Netflix’s Narnia Trailer With Bold Soundtrack Choice Just Broke Massive All-Time Record",
-      "summary": "Greta Gerwig and Netflix's Narnia adaptation is already on its way to being a hit as its trailer with a bold soundtrack choice just broke a record.",
-      "ts": 1792536356000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/beatrice-campbell-s-polly-looking-curiously-with-galactic-swirls-behind-her-in-narnia-the-magician-s-nephew.jpg",
+      "headline": "After Nearly 50 Years, An Iconic Horror Franchise Is Officially Getting The Praise It Deserves With New 2026 Release",
+      "summary": "After decades of critical derision, a daring reimagining uncovers new layers of horror, grief and surprising humanity in one iconic slasher series.",
+      "ts": 1792620018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/jason-stands-at-the-corner-of-the-lake-in-friday-the-13th-2009.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -996,25 +1061,32 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Netflix’s Narnia Trailer With Bold Soundtrack Choice Just Broke Massive All-Time Record",
-        "desc": "Greta Gerwig and Netflix's Narnia adaptation is already on its way to being a hit as its trailer with a bold soundtrack choice just broke a record.",
-        "link": "https://screenrant.com/netflix-narnia-magicians-nephew-trailer-all-time-record/"
+        "title": "After Nearly 50 Years, An Iconic Horror Franchise Is Officially Getting The Praise It Deserves With New 2026 Release",
+        "desc": "After decades of critical derision, a daring reimagining uncovers new layers of horror, grief and surprising humanity in one iconic slasher series.",
+        "link": "https://screenrant.com/friday-the-13th-franchise-crystal-lake-2026-deserves-praise/"
        },
        {
-        "outlet": "Deadline",
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Clayface review – flesh-stretching DC body horror is very gory but not very good",
+        "desc": "Liverpool makes for an unconvincing Gotham City in this effectively gross but otherwise middling attempt to milk money from a lesser-known Batman villain A sense of desperation is understandably in the air over at DC, the company, like Marvel, slowly realising that the mass superhero fever has finally broken. There’s still interest there, of course (this summer’s Spider-Man is now the biggest film",
+        "link": "https://www.theguardian.com/film/2026/oct/21/clayface-movie-review-body-horror"
+       },
+       {
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Narnia: The Magician’s Nephew’ Trailer Clocks Massive 481M+ First-Week Views, More Than ‘Barbie’",
-        "desc": "EXCLUSIVE: We just got wind after the Netflix earnings call that the viewership for the trailer of the streamer’s mega-wide theatrical release Narnia: The Magician’s Nephew from Greta Gerwig garnered more than 481.3 million views in its first seven days, according to WaveMetrix. That seven-day traffic bests that of Gerwig’s Barbie (240M views), Wonka (237.2M […]",
-        "link": "https://deadline.com/2026/10/narnia-the-magicians-nephew-trailer-viewership-1237169108/"
+        "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
+        "desc": "We are now three movies into the so-called DC Universe — branding that so far doesn’t appear to have cut through to any but the most devoted of nerds. Last year’s “Superman” reboot was respectable enough, this summer’s “Supergirl” a bit less so, but the prospect of a larger story world connecting them hardly sets […]",
+        "link": "https://variety.com/2026/film/news/clayface-review-1236918659/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Denzel Washington Sets New Crime Thriller With Mission: Impossible Director",
-      "summary": "A new crime thriller starring Denzel Washington is in the works, and it is helmed by the director of multiple Mission: Impossible movies.",
-      "ts": 1792535430000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/denzel-washington-at-cannes-film-festival.jpg",
+      "headline": "Meta Tops Q3 Revenue Estimates, But Earnings Hit By Teen Lawsuit Settlement; Stock Split Creates Class C Shares",
+      "summary": "Meta’s third-quarter revenue beat Wall Street expectations, but earnings took a hit from the company’s settlement of a lawsuit filed on behalf of teenage social media users. Revenue for the July-to-September period set a new record at $64 billion, beating the consensus forecast of analysts of $63.3 billion. Earnings per share of $3.83 also beat […]",
+      "ts": 1792614641000,
+      "img": "https://deadline.com/wp-content/uploads/2025/05/Meta-Platforms.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1022,111 +1094,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Denzel Washington Sets New Crime Thriller With Mission: Impossible Director",
-        "desc": "A new crime thriller starring Denzel Washington is in the works, and it is helmed by the director of multiple Mission: Impossible movies.",
-        "link": "https://screenrant.com/denzel-washington-christopher-mcquarrie-crime-thriller-movie-announced/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Denzel Washington And Christopher McQuarrie Team On New Thriller At United Artists And Amazon MGM Studios",
-        "desc": "EXCLUSIVE: United Artists isn’t done adding to an already loaded film slate as sources tell Deadline that Scott Stuber’s company and Amazon MGM Studios have greenlit an untitled thriller with Denzel Washington set to star Christopher McQuarrie on board to direct. Scott Barkan and Gregg Zehentner penned the script. The film will bow in theaters […]",
-        "link": "https://deadline.com/2026/10/denzel-washington-chris-mcquarrie-united-artists-1237168034/"
+        "title": "Meta Tops Q3 Revenue Estimates, But Earnings Hit By Teen Lawsuit Settlement; Stock Split Creates Class C Shares",
+        "desc": "Meta’s third-quarter revenue beat Wall Street expectations, but earnings took a hit from the company’s settlement of a lawsuit filed on behalf of teenage social media users. Revenue for the July-to-September period set a new record at $64 billion, beating the consensus forecast of analysts of $63.3 billion. Earnings per share of $3.83 also beat […]",
+        "link": "https://deadline.com/2026/10/meta-q3-2026-earnings-muse-ai-stock-split-1237170051/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Meta’s Almost $10 Billion Legal Costs Take Huge Toll on Q3 Earnings, Wall Street Shrugs",
+        "desc": "Meta’s $18 billion nationwide settlement with state attorneys general forced nearly $10 billion in additional costs for the company during its third quarter in 2026, missing Wall Street expectations on per-share earnings Wednesday even as its quarterly revenue was up 28%. The company’s revenue for the quarter hit $64.6 billion, up 26%, while its net […]",
+        "link": "https://variety.com/2026/biz/news/meta-q3-earnings-2026-1236918874/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Peter Rice Will Blend “Art And Commerce” In Heading Content For Netflix, Ted Sarandos Says",
-      "summary": "Newly appointed Netflix content chief Peter Rice will blend “art and commerce” in re-orienting the company’s film and TV operations, Co-CEO Ted Sarandos said. The executive turnover was a key topic during Netflix’s third-quarter earnings call Tuesday with Wall Street analysts. The call followed the release of solid financial results for the July-to-September quarter, though […]",
-      "ts": 1792531104000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Peter-Rice-social-reckoning-1.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Peter Rice Will Blend “Art And Commerce” In Heading Content For Netflix, Ted Sarandos Says",
-        "desc": "Newly appointed Netflix content chief Peter Rice will blend “art and commerce” in re-orienting the company’s film and TV operations, Co-CEO Ted Sarandos said. The executive turnover was a key topic during Netflix’s third-quarter earnings call Tuesday with Wall Street analysts. The call followed the release of solid financial results for the July-to-September quarter, though […]",
-        "link": "https://deadline.com/2026/10/peter-rice-netflix-content-ted-sarandos-q3-earnings-1237169028/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Ted Sarandos Addresses Netflix Content Exec Purge: ‘I Know That We Could Do Better’",
-        "desc": "Netflix, looking to boost its viewing engagement as revenue growth cools off, made a major overhaul of its executive leadership overseeing content. Last week, amid its layoff of 1,000 employees, Netflix ousted chief content officer Bela Bajaria and has tapped veteran TV exec Peter Rice to replace her. The company also let go head of […]",
-        "link": "https://variety.com/2026/tv/news/ted-sarandos-addresses-netflix-content-exec-purge-1236917998/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "Emily Wickersham Joins ‘NCIS: Origins’ Season 3 In Return To Her Original Role",
-      "summary": "Mark Harmon’s character, Leroy Jethro Gibbs, will have another blast-from-the-past connection visiting NCIS: Origins this season. Emily Wickersham will guest star as her original NCIS character, Eleanor “Ellie” Bishop, in multiple episodes of Season 3. Her first appearance will be in the Tuesday, Oct. 27 episode titled “Shimmy Shimmy Ya.” Wickersham starred as Bishop on […]",
-      "ts": 1792529225000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Bishop.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Emily Wickersham Joins ‘NCIS: Origins’ Season 3 In Return To Her Original Role",
-        "desc": "Mark Harmon’s character, Leroy Jethro Gibbs, will have another blast-from-the-past connection visiting NCIS: Origins this season. Emily Wickersham will guest star as her original NCIS character, Eleanor “Ellie” Bishop, in multiple episodes of Season 3. Her first appearance will be in the Tuesday, Oct. 27 episode titled “Shimmy Shimmy Ya.” Wickersham starred as Bishop on […]",
-        "link": "https://deadline.com/2026/10/emily-wickersham-cast-ncis-origins-season-3-1237168913/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘NCIS: Origins’ Producer on the Show’s Historic Mark Harmon/Michael Weatherly Reunion: ‘It Was a Special Day in My Life, Seeing That Happen After a Decade’",
-        "desc": "When the characters of Jethro Gibbs and Tony DiNozzo reunite for the first time in a decade in Tuesday night’s episode of “NCIS: Origins,” there will be no head slaps — something that may disappoint a few original “NCIS” but will probably be a relief to most. After all, there’s been a lot of water […]",
-        "link": "https://variety.com/2026/tv/news/ncis-origins-mark-harmon-michael-weatherly-reunion-producer-1236917961/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "Skeptical Wall Street Dings Netflix On Soft Revenue Forecast",
-      "summary": "Netflix numbers for the third quarter are out and Wall Street is not impressed, dining the giant streamer’s stock in particular for its softer than expected revenue forecast. “It’s a more competitive landscape and they need to make some changes,” said Mark Mahaney, an analyst at Evercore, said on CNBC Tuesday, parsing the numbers. The […]",
-      "ts": 1792529012000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/HUNTING_202_Unit_00025RC.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Skeptical Wall Street Dings Netflix On Soft Revenue Forecast",
-        "desc": "Netflix numbers for the third quarter are out and Wall Street is not impressed, dining the giant streamer’s stock in particular for its softer than expected revenue forecast. “It’s a more competitive landscape and they need to make some changes,” said Mark Mahaney, an analyst at Evercore, said on CNBC Tuesday, parsing the numbers. The […]",
-        "link": "https://deadline.com/2026/10/netflix-stock-hit-by-skeptical-wall-street-1237168979/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Netflix Q3 Revenue Meets Wall Street Estimates, Forecasts Q4 Slowdown and Says It Will Miss Ad Sales Target for the Year",
-        "desc": "Netflix’s third-quarter 2026 earnings met revenue expectations and it slightly beat on the bottom line. But the streamer faces an urgent need to refresh its queue: Revenue growth in the period slowed to its lowest rate in three years, and the company just laid off 1,000 employees in a restructuring effort to reposition itself. Netflix […]",
-        "link": "https://variety.com/2026/tv/news/netflix-q3-2026-earnings-wall-street-layoffs-exec-firings-1236917438/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Reacher Officially Returns Today In New Release",
-      "summary": "Jack Reacher's latest adventure comes to life in the 31st novel of the Lee Child series, Chain Reaction.",
-      "ts": 1792538118000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/tcdreac_zu081.jpg",
+      "headline": "Battlestar Galactica: Fleet Commander Is Keeping The Series Alive",
+      "summary": "It's possible that Battlestar Galactica will never go away, even if we don't get another official iteration anytime soon, thanks to the fans.",
+      "ts": 1792620018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/battlestar-galactica-season-1-still.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1136,9 +1124,72 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Reacher Officially Returns Today In New Release",
-        "desc": "Jack Reacher's latest adventure comes to life in the 31st novel of the Lee Child series, Chain Reaction.",
-        "link": "https://screenrant.com/reacher-returns-today-new-release-chain-reaction-book/"
+        "title": "Battlestar Galactica: Fleet Commander Is Keeping The Series Alive",
+        "desc": "It's possible that Battlestar Galactica will never go away, even if we don't get another official iteration anytime soon, thanks to the fans.",
+        "link": "https://screenrant.com/battlestar-galactica-fleet-commander-fan-project/"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "Marvel Officially Announces Captain Marvel's New Power Level, Making Her 90% Weaker",
+      "summary": "Captain Marvel drops to 10% power for Avengers' new era.",
+      "ts": 1792620018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/brie-larson-as-captain-marvel-in-the-mcu.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Marvel Officially Announces Captain Marvel's New Power Level, Making Her 90% Weaker",
+        "desc": "Captain Marvel drops to 10% power for Avengers' new era.",
+        "link": "https://screenrant.com/captain-marvel-new-powers-change-avengers/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "‘Glee’ Reboot: Who’s Coming Back? Will Rachel Sing Olivia Rodrigo? How MAGA Is Sue? And More Fan Questions",
+      "summary": "What have we missed on “Glee”? For six glorious, terrifying seasons from 2009 to 2015, we witnessed Ryan Murphy bring a fever dream to life. With each new episode, the musical dramedy series’ unique blend of satire and earnestness had girls, the gays and their allies pondering: What song that should be sung by Mercedes […]",
+      "ts": 1792620000000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/TCDGLEE_EC087.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Glee’ Reboot: Who’s Coming Back? Will Rachel Sing Olivia Rodrigo? How MAGA Is Sue? And More Fan Questions",
+        "desc": "What have we missed on “Glee”? For six glorious, terrifying seasons from 2009 to 2015, we witnessed Ryan Murphy bring a fever dream to life. With each new episode, the musical dramedy series’ unique blend of satire and earnestness had girls, the gays and their allies pondering: What song that should be sung by Mercedes […]",
+        "link": "https://variety.com/lists/glee-reboot-actors-return-sue-maga-fan-questions/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Jane Levy Temp-Checks ‘Evil Dead’ Fans About Potential Franchise Return: “Let’s Call Sam Raimi Right Now”",
+      "summary": "Three movies later, Jane Levy is teasing Evil Dead fans about a potential return for her character Mia Allen after she survived the bloody events of the 2013 reboot. During a post-screening Q&A for the Fede Álvarez-written/directed horror film, the actress appeared to fuel recent rumors that she will reprise her character for the 2028 […]",
+      "ts": 1792619837000,
+      "img": "https://deadline.com/wp-content/uploads/2026/10/MCDEVDE_EC010.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Jane Levy Temp-Checks ‘Evil Dead’ Fans About Potential Franchise Return: “Let’s Call Sam Raimi Right Now”",
+        "desc": "Three movies later, Jane Levy is teasing Evil Dead fans about a potential return for her character Mia Allen after she survived the bloody events of the 2013 reboot. During a post-screening Q&A for the Fede Álvarez-written/directed horror film, the actress appeared to fuel recent rumors that she will reprise her character for the 2028 […]",
+        "link": "https://deadline.com/2026/10/jane-levy-temp-checks-evil-dead-fans-franchise-return-1237170174/"
        }
       ]
      }
@@ -1146,36 +1197,36 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
    "The Age",
-   "7News",
-   "BBC World",
    "ABC News",
-   "The Age Federal Politics",
-   "BBC Tech",
-   "Guardian Tech",
+   "Guardian Australia",
+   "BBC World",
+   "Crikey",
    "Ars Technica",
+   "Fox News",
+   "BBC Tech",
    "Fox News Politics",
    "The Verge",
-   "The Age Business",
-   "Fox News",
    "The Conversation",
-   "Fox Business",
-   "AFR",
-   "Variety",
-   "Deadline",
-   "Guardian AU Sport",
-   "Guardian Film",
+   "The Age Federal Politics",
    "Guardian AU Politics",
-   "ABC Business",
-   "Guardian AU Business",
-   "BBC Sport",
+   "Fox Business",
+   "Guardian Tech",
+   "Deadline",
+   "Variety",
    "ABC Sport",
+   "Guardian AU Business",
+   "7News",
+   "ABC Business",
+   "The Age Business",
+   "Guardian AU Sport",
+   "BBC Sport",
    "Anime News Network",
    "Screen Rant",
-   "Crikey",
-   "7News Sport",
+   "Guardian Film",
+   "AFR",
    "SBS News",
+   "7News Sport",
    "Daily Mail Australia"
   ],
   "sourcesFailed": []
@@ -1357,135 +1408,137 @@
   ]
  },
  "wotd": {
-  "word": "evanescent",
+  "word": "lissome",
   "phonetic": "",
   "pos": "Adjective",
-  "def": "Disappearing, vanishing.",
+  "def": "Alternative spelling of lissom.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/LL-Q1860_%28eng%29-AcpoKrane-evanescent.wav/LL-Q1860_%28eng%29-AcpoKrane-evanescent.wav.mp3"
+  "audio": null
  },
  "commGames": null,
  "deals": [
   {
-   "title": "30 Chicken Nuggets $10 Pickup @ KFC (Online/App Order Required)",
-   "link": "https://www.ozbargain.com.au/node/979682",
-   "votes": 92,
+   "title": "½ Price: Mayver's Upside Down Smooth Peanut Butter 450g $4.25 (Was $8.50) & 2 More @ Coles",
+   "link": "https://www.ozbargain.com.au/node/979831",
+   "votes": 64,
    "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1792472902000
+   "category": "Groceries",
+   "ts": 1792563669000
   },
   {
-   "title": "$7.95 Crunch Pack for 2 Pieces of Fried Chicken, Small Chips and a Drink @ Red Rooster",
-   "link": "https://www.ozbargain.com.au/node/979708",
-   "votes": 68,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1792483075000
-  },
-  {
-   "title": "Free 2027 Calendar Delivered @ Lutheran Media",
-   "link": "https://www.ozbargain.com.au/node/979694",
-   "votes": 65,
-   "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1792477237000
-  },
-  {
-   "title": "Apple iPhone 17 Pro 256GB (All Colours) $1689 + Delivery ($0 to Metro/ OnePass/ C&C/ In-Store) @ Officeworks",
-   "link": "https://www.ozbargain.com.au/node/979685",
-   "votes": 65,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1792473438000
-  },
-  {
-   "title": "DaVinci Resolve Studio 21 US$236 / A$360 (Was US$295), & 20% off Editing Keyboards / Color Panels @ Black Magic Design",
-   "link": "https://www.ozbargain.com.au/node/979728",
-   "votes": 61,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1792495954000
-  },
-  {
-   "title": "Add 5+ Items to Woolworths App Watchlist, Get 500 Everyday Rewards Points (Activation Required 2h Prior) @Everyday Rewards",
-   "link": "https://www.ozbargain.com.au/node/979740",
+   "title": "[PS5] Death Stranding Director’s Cut Digital Deluxe Edition $9.49 @ PlayStation",
+   "link": "https://www.ozbargain.com.au/node/979839",
    "votes": 53,
    "neg": 0,
-   "category": "Groceries",
-   "ts": 1792510581000
-  },
-  {
-   "title": "Bonds: 40% off Sitewide (Stack with 14% Cashback @ TopCashback)",
-   "link": "https://www.ozbargain.com.au/node/979649",
-   "votes": 51,
-   "neg": 0,
-   "category": "Fashion & Apparel",
-   "ts": 1792460078000
-  },
-  {
-   "title": "[PC, Steam] Hogwarts Legacy $8.99, Digital Deluxe Edition $9.99 @ Steam",
-   "link": "https://www.ozbargain.com.au/node/979686",
-   "votes": 50,
-   "neg": 0,
    "category": "Gaming",
-   "ts": 1792473876000
+   "ts": 1792567837000
   },
   {
-   "title": "Motorola Moto G56 5G (128GB/4GB) $139 Delivered (New Customer Must Add Plan) @ amaysim",
-   "link": "https://www.ozbargain.com.au/node/979655",
-   "votes": 42,
+   "title": "M&M's Snack Time Bundle (Milk Chocolate 380g, Peanut 380g, Crispy 335g) $15.99 + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/979852",
+   "votes": 52,
    "neg": 0,
-   "category": "Mobile",
-   "ts": 1792462803000
+   "category": "Groceries",
+   "ts": 1792574521000
   },
   {
-   "title": "[VIC] Up to $200 Sports/Activity Vouchers for Kids (0-18 Year Olds) of Eligible Families @ Get Active Victoria",
-   "link": "https://www.ozbargain.com.au/node/979706",
-   "votes": 39,
+   "title": "10% off Uber & Uber Eats eGift Cards @ Giftcards.com.au",
+   "link": "https://www.ozbargain.com.au/node/979837",
+   "votes": 46,
    "neg": 0,
-   "category": "Toys & Kids",
-   "ts": 1792482363000
+   "category": "Other",
+   "ts": 1792566281000
   },
   {
-   "title": "50% off Spirits (Gin, Vodka) + $20 Delivery ($0 with $150 Order) @ Hartshorn Distillery",
-   "link": "https://www.ozbargain.com.au/node/979647",
-   "votes": 39,
-   "neg": 0,
-   "category": "Alcohol",
-   "ts": 1792459526000
-  },
-  {
-   "title": "Galaxy Buds 4 Pro $208.24 Delivered (with $50 Birthday Voucher & $50 Eco Voucher & 5% off First Purchase) @ Samsung Education",
-   "link": "https://www.ozbargain.com.au/node/979733",
-   "votes": 33,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1792501645000
-  },
-  {
-   "title": "SanDisk Ultra 1TB microSDXC Memory Card $200 C&C / In Limited Stores Only @ Officeworks (Excl. TAS, NT)",
-   "link": "https://www.ozbargain.com.au/node/979746",
-   "votes": 23,
+   "title": "Samsung P9 Express MicroSD Express Card, 512GB $160.88 (RRP $219.99) Delivered @ Amazon US via AU",
+   "link": "https://www.ozbargain.com.au/node/979774",
+   "votes": 45,
    "neg": 0,
    "category": "Computing",
-   "ts": 1792531753000
+   "ts": 1792544556000
   },
   {
-   "title": "½ Price: Suntory Boss Iced Coffee 237ml Varieties $2ea @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/979753",
-   "votes": 19,
+   "title": "[PS4] Bloodborne $6.23, Shadow of The Colossus $6.59 @ PlayStation Store",
+   "link": "https://www.ozbargain.com.au/node/979783",
+   "votes": 44,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1792547753000
+  },
+  {
+   "title": "2026 Macbook Air M5 (16 GB RAM/512 GB SSD) for $1747 at Amazon",
+   "link": "https://www.ozbargain.com.au/node/979892",
+   "votes": 43,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1792615048000
+  },
+  {
+   "title": "Red Rock Deli Sweet Chili & Sour Cream Chips 290g $4.25 ($3.82 S&S / [Prime] 2 for $7.22) + Del ($0 Prime) @ Amazon AU (Excl NT)",
+   "link": "https://www.ozbargain.com.au/node/979857",
+   "votes": 37,
    "neg": 0,
    "category": "Groceries",
-   "ts": 1792536263000
+   "ts": 1792577736000
   },
   {
-   "title": "fanxiang SSD 2TB 2.5\" SATA III SSD 550MB $251.78 + Delivery @ eBay",
-   "link": "https://www.ozbargain.com.au/node/979656",
-   "votes": 19,
+   "title": "Doritos Original/Cheese 380g, Smiths Original/S&V 380g $4.25 ($3.82 S&S / [Prime] 2 for $7.22) + Delivery ($0 Prime) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/979845",
+   "votes": 32,
    "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1792463119000
+   "category": "Groceries",
+   "ts": 1792570623000
+  },
+  {
+   "title": "Sign up to Dough Getters & Get a Free Hi-Lo Block Loaf with Next Purchase of $5+ (within 14 Days of Joining) @ Bakers Delight",
+   "link": "https://www.ozbargain.com.au/node/697018",
+   "votes": 28,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1651062784000
+  },
+  {
+   "title": "Kirks Soft Drink Multipack Cans 375ml 20pk $16 ($15.20 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU (Excl. NT)",
+   "link": "https://www.ozbargain.com.au/node/979863",
+   "votes": 27,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1792581649000
+  },
+  {
+   "title": "MacBook Air 15\" M5 1TB Storage 24GB RAM $2,999 Delivered @ Costco (Membership Req., Officeworks $2,850 Price Beat)",
+   "link": "https://www.ozbargain.com.au/node/979848",
+   "votes": 27,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1792570855000
+  },
+  {
+   "title": "Seagate 1TB Storage Expansion Card for Xbox Series X/S$250 @ Officeworks (in-Store Only, Limited Stock)",
+   "link": "https://www.ozbargain.com.au/node/979786",
+   "votes": 25,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1792548658000
+  },
+  {
+   "title": "[PC, Epic] Free: Terraspace @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/979890",
+   "votes": 22,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1792613130000
+  },
+  {
+   "title": "[VIC] Sungrow 30kWh SBH300 Solar Battery + 10kW Hybrid Inverter (Single or 3-Phase) $5000 Installed (No VPP Required) @Hytech",
+   "link": "https://www.ozbargain.com.au/node/979866",
+   "votes": 17,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1792582921000
   }
  ],
- "carried": {}
+ "carried": {
+  "releases.anime": "2026-10-21T22:00:38.504Z"
+ }
 }
