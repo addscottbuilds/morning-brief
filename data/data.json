@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-26T22:54:00.232Z",
+ "generatedAt": "2026-10-26T23:10:33.602Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8809.9,
-    "chgPct": 0.16713439559151888,
+    "chgPct": 0.189917257842054,
     "high52": 9296.7,
     "off52": -5.2362666322458615
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 85.24,
-    "chgPct": 0.000002506136223804479,
+    "chgPct": -0.4321932107390136,
     "high52": 88,
     "off52": -3.136363636363642
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 147.14,
-    "chgPct": 4.148100797807389e-7,
+    "chgPct": 0.2589298905611151,
     "high52": 155.03,
     "off52": -5.089337547571447
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 59.98,
-    "chgPct": 7.631938516876228e-7,
+    "chgPct": -0.19966468746711852,
     "high52": 65.18,
     "off52": -7.977907333537909
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 33.03,
-    "chgPct": 0.0000036957407546197133,
+    "chgPct": 0.09090909090909435,
     "high52": 47.78,
     "off52": -30.870657178735872
    },
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7015,
-    "chgPct": -0.06838575761736136,
+    "price": 0.7013,
+    "chgPct": -0.09687659560520788,
     "high52": 0.7277,
-    "off52": -3.6003847739453074
+    "off52": -3.6278686271815275
    }
   ],
   "failed": [],
@@ -81,6 +81,14 @@
     "price": 63.9,
     "currency": "USD",
     "chgPct": -2.961273377838331
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 25.92,
+    "currency": "AUD",
+    "chgPct": 2.572218165657497
    }
   ]
  },
@@ -95,7 +103,7 @@
       "id": 0,
       "headline": "Sydney University hires Jacinda Ardern as lecturer and mentor",
       "summary": "The former New Zealand prime minister has been appointed a professor of practice, with a focus on empathetic leadership, social cohesion and civic trust.",
-      "ts": 1793054584000,
+      "ts": 1793055739000,
       "img": "https://live-production.wcms.abc-cdn.net.au/8ac0bc458bf518f7076f714283ce723c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -130,7 +138,7 @@
       "id": 1,
       "headline": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
       "summary": "Millions joined a 'Lula's Army' channel that helped to transform online enthusiasm into real-world mobilisation.",
-      "ts": 1793051809000,
+      "ts": 1793055737000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bd/live/33178300-d14a-11f1-93e1-3b657b665bcf.jpg",
       "divergent": null,
       "left_view": null,
@@ -163,6 +171,41 @@
      },
      {
       "id": 2,
+      "headline": "Five ways Trump has changed immigration in the US",
+      "summary": "This is how his signature policy has played out after returning to power promising a closed border and mass deportations.",
+      "ts": 1793053099000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eeb3/live/8c0c5bf0-d138-11f1-be77-d1864d279cb0.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "From royalty to reality TV! Meghan set to spend weeks in Australia filming new show - and Prince Harry and their children may join her",
+        "desc": "The Duchess of Sussex is reportedly heading to Australia to take a starring role on one of the country's most popular television shows.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16240529/meghan-markle-junior-masterchef-australia-poh-ling-yeow.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Five ways Trump has changed immigration in the US",
+        "desc": "This is how his signature policy has played out after returning to power promising a closed border and mass deportations.",
+        "link": "https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
+        "desc": "As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump With the midterm elections fast approaching, many Americans have the economy on their minds. US voters are exhausted by years of higher prices. Donald Trump won the presidency in 2024 on promises to lower inflation and undo the damage he said the Biden administration had inflicted on th",
+        "link": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Aussie musician G Flip and Selling Sunset star Chrishell Stause announce split after four years together",
       "summary": "The couple had been open about their struggles with trying to start a family.",
       "ts": 1793050730000,
@@ -197,7 +240,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "Roosters stunningly withdraw contract offer to halfback Sam Walker",
       "summary": "Sam Walker's future at the Sydney Roosters is uncertain after the club pulled a contract extension offer to the premiership-winning halfback.",
       "ts": 1793046721000,
@@ -232,7 +275,7 @@
       ]
      },
      {
-      "id": 4,
+      "id": 5,
       "headline": "Sydney's new $5bn airport has one big problem: Getting there is tough",
       "summary": "The airport won’t have direct public transportation for a year. How do locals feel about getting there?",
       "ts": 1793037610000,
@@ -267,39 +310,11 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Magnitude-4.9 earthquake strikes off South Australia coast",
-      "summary": "Residents around Adelaide have reported feeling an earthquake this morning, with Geoscience Australia saying the epicentre was about 100 kilometres offshore, between Kangaroo Island and the south-east coast.",
-      "ts": 1793055058000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/14d1a171bccc639ae3f65547ea45bd4f?impolicy=wcms_crop_resize&cropH=859&cropW=1528&xPos=0&yPos=126&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Adelaide rattled as magnitude 4.8 earthquake strikes - with residents reporting shaking homes",
-        "desc": "A magnitude 4.9 earthquake struck off South Australia's coast on Tuesday morning, with dozens of people in Adelaide reporting they felt the tremor.",
-        "link": "https://www.dailymail.com/news/article-16240787/Adelaide-rattled-magnitude-4-8-earthquake-strikes-residents-reporting-shaking-homes.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Magnitude-4.9 earthquake strikes off South Australia coast",
-        "desc": "Residents around Adelaide have reported feeling an earthquake this morning, with Geoscience Australia saying the epicentre was about 100 kilometres offshore, between Kangaroo Island and the south-east coast.",
-        "link": "https://www.abc.net.au/news/2026-10-27/earthquake-reported-by-residents-around-adelaide/107312622"
-       }
-      ]
-     },
-     {
       "id": 6,
-      "headline": "Trump lashes out at Obama for joking that White House looks ‘like Saddam Hussein opened a Cheesecake Factory’ – live",
-      "summary": "Trump defends his renovations and jabs back at his predecessor before boarding plane for rally in Mississippi What are the US midterm elections and why do they matter? Sign up for Breaking News US email In a post to social media on Monday, Ukrainian president Volodymyr Zelenskyy said that Ukraine was facing dwindling stocks of Patriot interceptor missiles after Pete Hegseth, Trump’s defense secret",
-      "ts": 1793054573000,
-      "img": "https://i.guim.co.uk/img/media/0043f8dc9d8890fed7f6ee6ce1c6166bd35eb791/0_0_5474_4381/master/5474.jpg?width=460&quality=85&auto=format&fit=max&s=ef5a7066424e3d9a3ffbb771efadd223",
+      "headline": "Seething Trump brands Obama a 'lousy president' who's 'not smart at all' after Cheesecake Factory jab at White House",
+      "summary": "Hitting back at Barack Obama's weekend gibe comparing the refurbished White House to a chain restaurant, President Donald Trump insisted Monday that Obama was a lousy president.",
+      "ts": 1793055781000,
+      "img": "https://i.dailymail.com/1s/2026/10/26/21/112106555-0-image-a-8_1793051338846.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -307,18 +322,18 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Trump lashes out at Obama for joking that White House looks ‘like Saddam Hussein opened a Cheesecake Factory’ – live",
-        "desc": "Trump defends his renovations and jabs back at his predecessor before boarding plane for rally in Mississippi What are the US midterm elections and why do they matter? Sign up for Breaking News US email In a post to social media on Monday, Ukrainian president Volodymyr Zelenskyy said that Ukraine was facing dwindling stocks of Patriot interceptor missiles after Pete Hegseth, Trump’s defense secret",
-        "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates"
-       },
-       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
         "title": "Seething Trump brands Obama a 'lousy president' who's 'not smart at all' after Cheesecake Factory jab at White House",
         "desc": "Hitting back at Barack Obama's weekend gibe comparing the refurbished White House to a chain restaurant, President Donald Trump insisted Monday that Obama was a lousy president.",
         "link": "https://www.dailymail.com/news/article-16240789/Trump-Obama-lousy-president-White-House.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Trump lashes out at Obama for joking that White House looks ‘like Saddam Hussein opened a Cheesecake Factory’ – live",
+        "desc": "Trump defends his renovations and jabs back at his predecessor before boarding plane for rally in Mississippi What are the US midterm elections and why do they matter? Sign up for Breaking News US email In a post to social media on Monday, Ukrainian president Volodymyr Zelenskyy said that Ukraine was facing dwindling stocks of Patriot interceptor missiles after Pete Hegseth, Trump’s defense secret",
+        "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates"
        }
       ]
      }
@@ -332,7 +347,7 @@
       "id": 7,
       "headline": "Lidia Thorpe rebukes defiant Hanson over bus attack cartoon",
       "summary": "One Nation leader Pauline Hanson has defended a cartoon showing independent senator Lidia Thorpe being run over by a bus.",
-      "ts": 1793055097000,
+      "ts": 1793055556000,
       "img": "https://static.ffx.io/images/$zoom_1.0342%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/c1076d1cc83fcbcb35eb5c60cfae66d4da9cd48737a4395e4fc164c02af8faa1",
       "divergent": null,
       "left_view": null,
@@ -626,6 +641,13 @@
         "link": "https://www.afr.com/world/north-america/microsoft-to-offer-buyouts-to-60-000-workers-in-new-ai-cost-cut-20261027-p618sv?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set to dip, Wall Street climbs; Anthropic files for IPO; Microsoft offers buyouts to 60,000 workers",
+        "desc": "US stocks are climbing as investors digest Anthropic’s filing for its initial public offering and look forward to key big tech earnings this week.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-wall-street-climbs-anthropic-files-for-ipo-20261027-p618sc.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
         "outlet": "Fox Business",
         "lean": "right",
         "title": "Microsoft offers voluntary buyouts to 60,000 employees as tech giant reshapes its workforce",
@@ -643,72 +665,9 @@
      },
      {
       "id": 20,
-      "headline": "ASX to rise; Wall Street lifts; Anthropic files for IPO",
-      "summary": "Shares are set to rise; AirTrunk secures $4.25 billion green loan; Anthropic discloses $114 billion loss, 1368pc revenue growth; Meta in $135 billion equity raise. Follow live updates.",
-      "ts": 1793051868000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX to rise; Wall Street lifts; Anthropic files for IPO",
-        "desc": "Shares are set to rise; AirTrunk secures $4.25 billion green loan; Anthropic discloses $114 billion loss, 1368pc revenue growth; Meta in $135 billion equity raise. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-wall-street-lifts-anthropic-files-for-ipo-20261027-p618s2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX set to dip, Wall Street climbs; Anthropic files for IPO; Microsoft offers buyouts to 60,000 workers",
-        "desc": "US stocks are climbing as investors digest Anthropic’s filing for its initial public offering and look forward to key big tech earnings this week.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-wall-street-climbs-anthropic-files-for-ipo-20261027-p618sc.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "CEO SUNDAY: Atomic Wings CEO shares his journey from Wall Street to the restaurant business",
-        "desc": "Atomic Wings CEO Zak Omar shares how his father’s influence, a leukemia diagnosis and a commitment to customer service shaped his path to building a 35-location restaurant chain.",
-        "link": "https://www.foxbusiness.com/business-leaders/ceo-sunday-atomic-wings-ceo-shares-his-journey-from-wall-street-restaurant-business"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "Deloitte boss gets 45pc pay rise as firm cuts jobs",
-      "summary": "Richard Houston’s new $13.5 million pay packet puts him among the world’s best-remunerated consultants.",
-      "ts": 1793055079000,
-      "img": "https://static.ffx.io/images/$zoom_0.7516%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_2537%2C$y_2/t_crop_custom/q_86%2Cf_auto/a5d0a38b3108942eb61ecd388a21d4225d14c822",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Deloitte boss gets 45pc pay rise as firm cuts jobs",
-        "desc": "Richard Houston’s new $13.5 million pay packet puts him among the world’s best-remunerated consultants.",
-        "link": "https://www.afr.com/world/europe/deloitte-boss-gets-45pc-pay-rise-as-firm-cuts-jobs-20261027-p618u2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Outback mining jobs are on the rise, with no workers to fill them",
-        "desc": "A number of mining operations are set to restart in outback Queensland but, with a national shortage of skilled workers, companies fear production will suffer.",
-        "link": "https://www.abc.net.au/news/2026-10-27/outback-mining-jobs-queensland-workforce-shortage/107308390"
-       }
-      ]
-     },
-     {
-      "id": 22,
       "headline": "Melbourne Market board quits over appointment of former Demons chief Paul Guerra",
       "summary": "The Victorian government says Paul Guerra brings significant commercial, governance and stakeholder engagement experience to the role as chair of the Melbourne Market Authority.",
-      "ts": 1793051720000,
+      "ts": 1793056120000,
       "img": "https://live-production.wcms.abc-cdn.net.au/fe8b3c9f962325d0b4243d3bfc9f95d9?impolicy=wcms_crop_resize&cropH=1368&cropW=2432&xPos=277&yPos=212&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -733,7 +692,35 @@
       ]
      },
      {
-      "id": 23,
+      "id": 21,
+      "headline": "Deloitte boss receives 45pc pay rise as firm cuts jobs",
+      "summary": "Richard Houston’s new $13.5 million pay packet puts him among the world’s best-remunerated consultants.",
+      "ts": 1793055079000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/a5d0a38b3108942eb61ecd388a21d4225d14c822",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Deloitte boss receives 45pc pay rise as firm cuts jobs",
+        "desc": "Richard Houston’s new $13.5 million pay packet puts him among the world’s best-remunerated consultants.",
+        "link": "https://www.afr.com/world/europe/deloitte-boss-gets-45pc-pay-rise-as-firm-cuts-jobs-20261027-p618u2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Outback mining jobs are on the rise, with no workers to fill them",
+        "desc": "A number of mining operations are set to restart in outback Queensland but, with a national shortage of skilled workers, companies fear production will suffer.",
+        "link": "https://www.abc.net.au/news/2026-10-27/outback-mining-jobs-queensland-workforce-shortage/107308390"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "Anthropic files to list on stock market in potential $US1.5tn float",
       "summary": "The company behind Claude could be floated on the Nasdaq as soon as next month, despite making a $114 billion loss in the first half of 2026.",
       "ts": 1793031748000,
@@ -761,7 +748,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 23,
       "headline": "'Meant to be in Perth': Passengers confused by Sydney's new airport",
       "summary": "Some passengers were unaware their flights were to Western Sydney International Airport.",
       "ts": 1792977334000,
@@ -787,6 +774,27 @@
         "link": "https://www.abc.net.au/news/2026-10-26/nsw-wsi-western-sydney-airport-confusion-travellers-open/107308302"
        }
       ]
+     },
+     {
+      "id": 24,
+      "headline": "ASX opens flat after Wall Street rally; Anthropic files for IPO",
+      "summary": "Shares open flat after strong tech rally on Anthropic IPO; AirTrunk secures $4.25 billion green loan; Meta in $135 billion equity raise. Follow live updates.",
+      "ts": 1793055806000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX opens flat after Wall Street rally; Anthropic files for IPO",
+        "desc": "Shares open flat after strong tech rally on Anthropic IPO; AirTrunk secures $4.25 billion green loan; Meta in $135 billion equity raise. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-wall-street-lifts-anthropic-files-for-ipo-20261027-p618s2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
      }
     ]
    },
@@ -796,6 +804,41 @@
     "stories": [
      {
       "id": 25,
+      "headline": "Lancashire consider Anderson farewell amid fan unrest",
+      "summary": "Lancashire will look into organising a farewell for bowler James Anderson amid fan unrest over his departure from the club.",
+      "ts": 1793055494000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ef2/live/1df62d70-d18e-11f1-826a-d3f8b2f29c2a.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Lancashire consider Anderson farewell amid fan unrest",
+        "desc": "Lancashire will look into organising a farewell for bowler James Anderson amid fan unrest over his departure from the club.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cme8rw2gkd9go?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "English cricket icon James Anderson sacked by county in sad end to 25-year Lancashire career",
+        "desc": "‘If it was up to me it wouldn’t have ended like this.’",
+        "link": "https://7news.com.au/sport/cricket/english-cricket-icon-james-anderson-sacked-by-county-in-sad-end-to-25-year-lancashire-career-c-23069916"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "England legend Anderson disappointed over Lancashire exit",
+        "desc": "Jimmy Anderson says if it was up to him, his Lancashire career \"wouldn't have ended like this\", after the club ended its 25-year association with England's leading Test wicket taker.",
+        "link": "https://www.abc.net.au/news/2026-10-26/england-legend-jimmy-anderson-sad-over-lancashire-exit/107307692"
+       }
+      ]
+     },
+     {
+      "id": 26,
       "headline": "Veteran rugby prop cited for allegedly grabbing opponent's genitals",
       "summary": "Veteran Ireland prop Leinster's Tadhg Furlong has been cited for allegedly grabbing the genitals of Munster's Gavin Coombes during their United Rugby Championship match last weekend.",
       "ts": 1793051993000,
@@ -830,10 +873,10 @@
       ]
      },
      {
-      "id": 26,
+      "id": 27,
       "headline": "London City's Putellas wins record-equalling third Ballon d'Or",
       "summary": "Barcelona and Spain midfielder Alexia Putellas wins the Ballon d'Or Feminin for a record-equalling third time.",
-      "ts": 1793054831000,
+      "ts": 1793055165000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d858/live/0bd98bd0-cef2-11f1-b06d-c73dff29919e.jpg",
       "divergent": null,
       "left_view": null,
@@ -858,7 +901,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 28,
       "headline": "Frustrated Steve Smith kicks out and suddenly ends fitness test ahead of third Test against South Africa",
       "summary": "The Australian star is ‘probably not going to be 100 per cent’ for the deciding Test against South Africa.",
       "ts": 1793051717000,
@@ -886,7 +929,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 29,
       "headline": "George Bailey reveals exactly why Marnus Labuschagne has received one more chance for third Test",
       "summary": "Australia’s chief selector knows he’s not ‘in a position to defend the performance’ but says there is a justification for backing in the No.3 batsman.",
       "ts": 1793046842000,
@@ -914,7 +957,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Roosters stunningly withdraw contract offer to halfback Sam Walker",
       "summary": "Sam Walker's future at the Sydney Roosters is uncertain after the club pulled a contract extension offer to the premiership-winning halfback.",
       "ts": 1793046625000,
@@ -940,34 +983,6 @@
         "link": "https://7news.com.au/sport/rugby-league/raiders-withdraw-44m-offer-to-nsw-origin-star-hudson-young-done-all-we-can-c-23074021"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "'Cutting doubles would destroy careers' - angry players urge ATP rethink",
-      "summary": "More than 150 doubles players - including Wimbledon champions and tennis legends - urge the ATP to rethink \"drastic\" cuts which they believe could kill the format.",
-      "ts": 1793030840000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f313/live/bbf1e2a0-d14b-11f1-9eb5-811878e0f07d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "'Cutting doubles would destroy careers' - angry players urge ATP rethink",
-        "desc": "More than 150 doubles players - including Wimbledon champions and tennis legends - urge the ATP to rethink \"drastic\" cuts which they believe could kill the format.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/cr78pxd66d47o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Doubles players sign open letter pleading with tennis chiefs to ‘protect’ format",
-        "desc": "Plans to slash games by half and prize money criticised ‘Hard for players to build and sustain a doubles career’ More than 150 doubles players on the men’s ATP tour have signed an open letter addressed to the ATP board and management imploring the men’s tennis governing bodies to reconsider controversial doubles reforms and “protect” the format in professional tennis. The subject of potential refo",
-        "link": "https://www.theguardian.com/sport/2026/oct/26/doubles-players-sign-open-letter-pleading-with-tennis-chiefs-to-protect-format"
-       }
-      ]
      }
     ]
    },
@@ -978,7 +993,7 @@
      {
       "id": 31,
       "headline": "Indio Downey Books First Lead Movie Role With Addiction Drama ‘Love In Vein’; ‘American Psycho’ Producer Aboard",
-      "summary": "Indio Downey, son of Robert Downey Jr, has booked his first lead role in a movie with indie pic Love In Vein. Written and directed by Will De Los Santos (Spun), adapted from the Ryan Leone’s novel Wasting Talent, the film is being produced by Muse Productions in association with ArtHouse Gooning, with principal photography […]",
+      "summary": "Indio Downey, son of Robert Downey Jr, has booked his first lead role in a movie with indie pic Love In Vein. Written and directed by Will De Los Santos (Spun), adapted from the late Ryan Leone novel Wasting Talent, the film is being produced by Muse Productions in association with ArtHouse Gooning, with principal […]",
       "ts": 1793054346000,
       "img": "https://deadline.com/wp-content/uploads/2026/10/Indio-Falconer-Downey-e1793052088749.png",
       "divergent": null,
@@ -991,7 +1006,7 @@
         "outlet": "Deadline",
         "lean": "centre",
         "title": "Indio Downey Books First Lead Movie Role With Addiction Drama ‘Love In Vein’; ‘American Psycho’ Producer Aboard",
-        "desc": "Indio Downey, son of Robert Downey Jr, has booked his first lead role in a movie with indie pic Love In Vein. Written and directed by Will De Los Santos (Spun), adapted from the Ryan Leone’s novel Wasting Talent, the film is being produced by Muse Productions in association with ArtHouse Gooning, with principal photography […]",
+        "desc": "Indio Downey, son of Robert Downey Jr, has booked his first lead role in a movie with indie pic Love In Vein. Written and directed by Will De Los Santos (Spun), adapted from the late Ryan Leone novel Wasting Talent, the film is being produced by Muse Productions in association with ArtHouse Gooning, with principal […]",
         "link": "https://deadline.com/2026/10/indio-downey-cast-addiction-drama-love-in-vein-1237200705/"
        },
        {
@@ -1012,6 +1027,34 @@
      },
      {
       "id": 32,
+      "headline": "Parallax Films Boards Sales On ‘Fuxi: Four Tales Of Feasting’ Ahead of Tokyo World Premiere",
+      "summary": "EXCLUSIVE: Parallax Films has boarded international sales for Fuxi: Four Tales Of Feasting, directed by Chinese artist-filmmaker Qiu Jiongjiong, which is receiving its world premiere in the main competition section of Tokyo International Film Festival. Qiu is known internationally for his debut narrative feature A New Old Play, which won the Special Jury Prize at […]",
+      "ts": 1793055600000,
+      "img": "https://deadline.com/wp-content/uploads/2026/10/Fuxi-Four-Tales-Of-Feasting.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Parallax Films Boards Sales On ‘Fuxi: Four Tales Of Feasting’ Ahead of Tokyo World Premiere",
+        "desc": "EXCLUSIVE: Parallax Films has boarded international sales for Fuxi: Four Tales Of Feasting, directed by Chinese artist-filmmaker Qiu Jiongjiong, which is receiving its world premiere in the main competition section of Tokyo International Film Festival. Qiu is known internationally for his debut narrative feature A New Old Play, which won the Special Jury Prize at […]",
+        "link": "https://deadline.com/2026/10/tokyo-film-festival-qiu-jiongjiong-parallax-films-fuxi-1237172993/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘The Odyssey’ VFX House DNEG Co-Finances Francesco Lucente’s Fantasy Adventure ‘Sinbad,’ Cappu Films Boards Sales (EXCLUSIVE)",
+        "desc": "DNEG, the visual effects house on Christopher Nolan’s “The Odyssey,” has come aboard Francesco Lucente’s fantasy adventure “Sinbad” as co-financier and producer, with Hong Kong-based Cappu Films handling sales in a wide spread of territories. The deal was unveiled ahead of the Tokyo International Film Festival’s TIFFCOM market. Lucente’s fresh screen version of the classic […]",
+        "link": "https://variety.com/2026/film/markets-festivals/odyssey-vfx-dneg-fantasy-adventure-sinbad-cappu-films-1236931640/"
+       }
+      ]
+     },
+     {
+      "id": 33,
       "headline": "‘Star Trek’s George Takei Pays Tribute To Walter Koenig: “My Heart Is Heavy”",
       "summary": "George Takei is paying tribute to his Star Trek co-star Walter Koenig after news of his death. The actor who originated the role of Ensign Pavel Chekov in the sci-fi series died at 90, and his former co-star, Takei, took to social media to remember him. “My heart is heavy. Walter Koenig, our Ensign Pavel […]",
       "ts": 1793055128000,
@@ -1039,8 +1082,8 @@
       ]
      },
      {
-      "id": 33,
-      "headline": "The Last Of Us Star Lands Major Role in Godzilla Minus Zero Director's Next Movie",
+      "id": 34,
+      "headline": "The Last Of Us Star Lands Major Role In Godzilla Minus Zero Director's Next Movie",
       "summary": "After Godzilla Minus Zero, Takashi Yamazaki is making Grandgear, a movie that has found its lead star, one of whom is from The Last of Us.",
       "ts": 1793054768000,
       "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/gojira-in-the-godzilla-minus-zero-poster.jpg",
@@ -1053,7 +1096,7 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "The Last Of Us Star Lands Major Role in Godzilla Minus Zero Director's Next Movie",
+        "title": "The Last Of Us Star Lands Major Role In Godzilla Minus Zero Director's Next Movie",
         "desc": "After Godzilla Minus Zero, Takashi Yamazaki is making Grandgear, a movie that has found its lead star, one of whom is from The Last of Us.",
         "link": "https://screenrant.com/grandgear-takashi-yamazaki-movie-nico-parker-sam-nivola-cast/"
        },
@@ -1067,39 +1110,11 @@
       ]
      },
      {
-      "id": 34,
-      "headline": "All 8 Street Fighter Movies, Ranked (Including 2026's Reboot)",
-      "summary": "Street Fighter has a rich history in the movies as well as the video games, and here's how they compare for fans and newcomers alike.",
-      "ts": 1793053818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/jason-momoa-as-blanka-grimacing-in-street-fighter-2026.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "All 8 Street Fighter Movies, Ranked (Including 2026's Reboot)",
-        "desc": "Street Fighter has a rich history in the movies as well as the video games, and here's how they compare for fans and newcomers alike.",
-        "link": "https://screenrant.com/street-fighter-movies-ranked-worst-best/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "New Live-Action Street Fighter Film Drops to #4 in the U.S.",
-        "desc": "Film earned estimated US$8.6 million in 2nd weekend, a 72.1% drop",
-        "link": "https://www.animenewsnetwork.com/news/2026-10-25/new-live-action-street-fighter-film-drops-to-no.4-in-the-u.s/.243195"
-       }
-      ]
-     },
-     {
       "id": 35,
-      "headline": "2027's Most Anticipated Book Adaptation Comes From Literature's Most Unlikely Duo",
-      "summary": "Discover the unique collaboration behind Remain, a project with Nicholas Sparks and M. Night Shyamalan, blending romance and supernatural mystery.",
-      "ts": 1793054718000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/remain_hamh98.jpg",
+      "headline": "Macklemore Calls for Unity During First ‘Free Palestine’ Show: ‘Those Two Words Are So Threatening to Some People’",
+      "summary": "Macklemore dedicated his “Free Palestine” tour date to “love and liberation” as he kicked off the three-show trek in Dublin, Ireland, just over a month after he was dropped as an opener for Ed Sheeran following a political speech on stage. After bringing out Hozier and Kneecap as surprise guests, Macklemore took a moment to […]",
+      "ts": 1793055749000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/macklemore-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1107,20 +1122,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "2027's Most Anticipated Book Adaptation Comes From Literature's Most Unlikely Duo",
-        "desc": "Discover the unique collaboration behind Remain, a project with Nicholas Sparks and M. Night Shyamalan, blending romance and supernatural mystery.",
-        "link": "https://screenrant.com/2027-anticipated-adaptation-remain-unlikely-duo-nicholas-sparks-m-night-shyamalan/"
+        "title": "Macklemore Calls for Unity During First ‘Free Palestine’ Show: ‘Those Two Words Are So Threatening to Some People’",
+        "desc": "Macklemore dedicated his “Free Palestine” tour date to “love and liberation” as he kicked off the three-show trek in Dublin, Ireland, just over a month after he was dropped as an opener for Ed Sheeran following a political speech on stage. After bringing out Hozier and Kneecap as surprise guests, Macklemore took a moment to […]",
+        "link": "https://variety.com/2026/music/global/macklemore-free-palestine-show-call-for-unity-dublin-1236931074/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "WNBA Moves Game 6 Of Final Series To Mid-Day Thursday Timeslot Due To Arena Shuffle",
-      "summary": "The WNBA has shifted Game 6 of its championship series to 12:30 p.m. ET on Thursday, meaning the sport’s ultimate winner could be crowned in a daypart better known for soap operas than live sports. The best-of-seven series between the Atlanta Dream and Golden State Valkyries is tied at two games apiece, with Game 5 […]",
-      "ts": 1793054507000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/GettyImages-2301059912.jpg",
+      "headline": "Disney+ Strikes Landmark Content Deal With U.K.’s Channel 4 That Streamer Says Is Among Its ‘Most Significant’ Globally",
+      "summary": "Disney+ has made what it claims is one of the “most significant’ content arrangements with broadcasters around the world to bring local content to its platform, striking a landmark deal with U.K. network Channel 4. The first-of-its-kind deal will see the Channel 4 service launch on Disney+ in the U.K. and Ireland in early 2027, […]",
+      "ts": 1793055660000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/Medium_77376_Maya-First-Looks.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1128,11 +1143,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "WNBA Moves Game 6 Of Final Series To Mid-Day Thursday Timeslot Due To Arena Shuffle",
-        "desc": "The WNBA has shifted Game 6 of its championship series to 12:30 p.m. ET on Thursday, meaning the sport’s ultimate winner could be crowned in a daypart better known for soap operas than live sports. The best-of-seven series between the Atlanta Dream and Golden State Valkyries is tied at two games apiece, with Game 5 […]",
-        "link": "https://deadline.com/2026/10/wnba-moves-game-6-final-series-midday-thursday-usa-network-1237201077/"
+        "title": "Disney+ Strikes Landmark Content Deal With U.K.’s Channel 4 That Streamer Says Is Among Its ‘Most Significant’ Globally",
+        "desc": "Disney+ has made what it claims is one of the “most significant’ content arrangements with broadcasters around the world to bring local content to its platform, striking a landmark deal with U.K. network Channel 4. The first-of-its-kind deal will see the Channel 4 service launch on Disney+ in the U.K. and Ireland in early 2027, […]",
+        "link": "https://variety.com/2026/tv/global/disney-landmark-content-deal-uk-channel-4-1236931195/"
        }
       ]
      }
@@ -1142,35 +1157,35 @@
   "sourcesOk": [
    "The Age",
    "Crikey",
-   "Guardian Australia",
    "ABC News",
+   "Guardian Australia",
+   "BBC World",
    "Fox News",
-   "The Age Federal Politics",
    "Guardian Tech",
    "Fox News Politics",
-   "Ars Technica",
+   "The Age Federal Politics",
    "Guardian AU Politics",
-   "BBC Tech",
-   "BBC World",
    "The Conversation",
-   "The Age Business",
    "The Verge",
-   "AFR",
+   "BBC Tech",
+   "The Age Business",
+   "Ars Technica",
    "Guardian AU Business",
+   "Fox Business",
    "Variety",
    "Deadline",
-   "Guardian AU Sport",
-   "Fox Business",
-   "7News",
    "ABC Business",
-   "Anime News Network",
-   "Screen Rant",
    "ABC Sport",
+   "Guardian Film",
+   "Screen Rant",
+   "Anime News Network",
    "BBC Sport",
    "7News Sport",
-   "Daily Mail Australia",
-   "Guardian Film",
-   "SBS News"
+   "Guardian AU Sport",
+   "7News",
+   "SBS News",
+   "AFR",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1380,7 +1395,7 @@
   {
    "title": "AliExpress: 23% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/980430",
-   "votes": 159,
+   "votes": 161,
    "neg": 0,
    "category": "Other",
    "ts": 1792999573000
@@ -1388,7 +1403,7 @@
   {
    "title": "10% off $150-$500 TCN Him (Redeemable at JB Hi-Fi), Her and Shop eGift Cards (Limit of 1 Per Day) @ Everyday Gifting",
    "link": "https://www.ozbargain.com.au/node/980465",
-   "votes": 150,
+   "votes": 153,
    "neg": 0,
    "category": "Other",
    "ts": 1793020224000
@@ -1426,20 +1441,20 @@
    "ts": 1792994871000
   },
   {
+   "title": "Merida Big.Nine 15 Essa Hardtail Mountain Bike Gunmetal Grey $462 @ 99 bikes",
+   "link": "https://www.ozbargain.com.au/node/980474",
+   "votes": 56,
+   "neg": 0,
+   "category": "Sports & Outdoors",
+   "ts": 1793043548000
+  },
+  {
    "title": "Calvin Klein Deodorant Stick 75g Various Scents $10-$12.10 + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/980406",
    "votes": 54,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1792989518000
-  },
-  {
-   "title": "Merida Big.Nine 15 Essa Hardtail Mountain Bike Gunmetal Grey $462 @ 99 bikes",
-   "link": "https://www.ozbargain.com.au/node/980474",
-   "votes": 52,
-   "neg": 0,
-   "category": "Sports & Outdoors",
-   "ts": 1793043548000
   },
   {
    "title": "Apple 2026 MacBook Air (15-Inch; M5 10-Core; 16GB Memory, 512GB) Midnight/Silver/Blue $2,047 (RRP $2,499) Delivered @ Amazon AU",
@@ -1460,18 +1475,18 @@
   {
    "title": "Klook: 25% Cashback on Hotels, Attractions & Shows, Car Rentals, Experiences, Insurance, Tours & Sightseeing @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/980468",
-   "votes": 29,
+   "votes": 30,
    "neg": 0,
    "category": "Travel",
    "ts": 1793021001000
   },
   {
-   "title": "BOGOF SKIN1004 Madagascar Centella Hyalu-Cica SPF50+ 50ml x 2 for $15.80 + $7.99 Delivery ($0 with $48 Order) @ Beauty Amora",
-   "link": "https://www.ozbargain.com.au/node/980373",
-   "votes": 29,
+   "title": "$3 off $15, $6 off $39, $12 off $70, $20 off $120, $35 off $200, $55 off $310, $75 off $419, $90 off $519 (in USD) @ AliExpress",
+   "link": "https://www.ozbargain.com.au/node/980490",
+   "votes": 24,
    "neg": 0,
-   "category": "Health & Beauty",
-   "ts": 1792975856000
+   "category": "Other",
+   "ts": 1793055016000
   },
   {
    "title": "[PC, Steam, Pre Order] Phantom Blade Zero: Standard Edition $79 @ Fanatical",
