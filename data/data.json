@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T22:59:59.951Z",
+ "generatedAt": "2026-10-27T23:16:49.707Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8850.1,
-    "chgPct": 0.4563003847101214,
+    "chgPct": 0.6242018768004829,
     "high52": 9296.7,
     "off52": -4.803855131390712
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 85.7,
-    "chgPct": 0.0000035609777409738473,
+    "chgPct": 0.5396552648507178,
     "high52": 88,
     "off52": -2.61363636363636
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 147.66,
-    "chgPct": -0.0000024800956844011842,
+    "chgPct": 0.3534053367599389,
     "high52": 155.03,
     "off52": -4.7539185964007
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 60.56,
-    "chgPct": -0.0000022676535373345126,
+    "chgPct": 0.9669897669059719,
     "high52": 65.18,
     "off52": -7.0880638232586755
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 33.93,
-    "chgPct": -8.994275826389092e-7,
+    "chgPct": 2.724799436769109,
     "high52": 47.78,
     "off52": -28.987023859355382
    },
@@ -57,15 +57,23 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7029,
-    "chgPct": -0.009944766259244972,
+    "price": 0.7031,
+    "chgPct": 0.01850595368206382,
     "high52": 0.7277,
-    "off52": -3.407997801291747
+    "off52": -3.3805139480555266
    }
   ],
   "failed": [],
   "note": "SEMI is 29% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 57.99,
+    "currency": "AUD",
+    "chgPct": 4.261059175886837
+   },
    {
     "sym": "TSLA",
     "name": "Tesla",
@@ -81,6 +89,30 @@
     "price": 342.33,
     "currency": "USD",
     "chgPct": 3.9979299557779244
+   },
+   {
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 160.47,
+    "currency": "AUD",
+    "chgPct": -3.2788882780018693
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 26.76,
+    "currency": "AUD",
+    "chgPct": 3.2407404368578994
+   },
+   {
+    "sym": "QAN.AX",
+    "name": "Qantas",
+    "market": "ASX",
+    "price": 8.65,
+    "currency": "AUD",
+    "chgPct": 2.976195152654886
    }
   ]
  },
@@ -93,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-      "summary": "The three brothers were found guilty of drugging and raping several women over the course of decades.",
-      "ts": 1793136992000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c228/live/e6371090-d249-11f1-8ba3-9fd3e261415f.jpg",
+      "headline": "No clear winner in Israel election as Benjamin Netanyahu and his main rival Gadi Eisenkot locked in stalemate",
+      "summary": "The vote drew record turnout as Israelis passed wartime judgement on Netanyahu in the first election since the Hamas-led October 7 attacks.",
+      "ts": 1793139429000,
+      "img": "https://images.7news.com.au/publication/C-23081377/608f0a61ca1faff8346f94f5498b425aa0f2d089-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -104,25 +136,60 @@
       "hasBothSides": true,
       "sources": [
        {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "On the ground in Tel Aviv as Israel exit polls show no clear winner",
+        "desc": "Israelis have sprinted to the polls in the highest numbers in 50 years to deliver a verdict on Benjamin Netanyahu's prime ministership. Matthew Knott is on the ground in Tel Aviv.",
+        "link": "https://www.theage.com.au/world/middle-east/on-the-ground-in-tel-aviv-as-israel-exit-polls-show-no-clear-winner-20261028-p61967.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "No clear winner in Israeli general election: Exit polls predict Netanyahu's party to win most seats but rival bloc 'will be bigger and could still oust him'",
+        "desc": "The latest polls published on Friday ahead of today's voting suggest the 77-year-old, who has been in power for four years, is almost neck-and-neck with his main rival Gadi Eisenkot.",
+        "link": "https://www.dailymail.com/news/article-16243831/israel-election-netanyahu.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "No clear winner in Israel election as Benjamin Netanyahu and his main rival Gadi Eisenkot locked in stalemate",
+        "desc": "The vote drew record turnout as Israelis passed wartime judgement on Netanyahu in the first election since the Hamas-led October 7 attacks.",
+        "link": "https://7news.com.au/news/no-clear-winner-in-israel-election-as-benjamin-netanyahu-and-his-main-rival-gadi-eisenkot-locked-in-a-stalemate-c-23081377"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Polls open in Israel after Netanyahu and Eisenkot's election-eve security clash",
+        "desc": "Israelis are now casting their ballots in an election centred on issues of national security and accountability for October 7.",
+        "link": "https://www.sbs.com.au/news/article/netanyahu-eisenkot-clash-over-security-on-eve-of-israeli-vote/b9r7ndvko"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Alexander brothers each sentenced to 30 years behind bars for drugging, raping and trafficking women",
+      "summary": "Eleven women testified at the trial, though prosecutors said at least 70 claim to have been assaulted by the trio.",
+      "ts": 1793142373000,
+      "img": "https://images.7news.com.au/publication/C-23081587/e437cda17b1a4d178b46f83764a2c3e54552bcd5-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Alexander brothers each sentenced to 30 years behind bars for drugging, raping and trafficking women",
+        "desc": "Eleven women testified at the trial, though prosecutors said at least 70 claim to have been assaulted by the trio.",
+        "link": "https://7news.com.au/news/alexander-brothers-each-sentenced-to-30-years-behind-bars-for-drugging-raping-and-trafficking-women-c-23081587"
+       },
+       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
         "title": "Alexander brothers each jailed for 30 years for drugging, raping and trafficking women as victims confront siblings in court",
         "desc": "Twins Oren and Alon Alexander, 39, and Tal Alexander, 40, were sentenced on Tuesday for rape, sex trafficking, sex abuse and sexual exploitation.",
         "link": "https://www.dailymail.com/crime-desk/article-16242553/alexander-brothers-rape-sex-trafficking-sentence.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Luxury real estate brothers sentenced to 30 years in prison for yearslong sex-trafficking scheme",
-        "desc": "Luxury real estate brokers Tal and Oren Alexander and their brother Alon were sentenced after convictions in a sex-trafficking scheme prosecutors say involved dozens of women.",
-        "link": "https://www.foxnews.com/us/luxury-real-estate-brothers-sentenced-30-years-prison-yearslong-sex-trafficking-scheme"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
-        "desc": "The three brothers were found guilty of drugging and raping several women over the course of decades.",
-        "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian Australia",
@@ -134,7 +201,7 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "Arsenal stunned by fourth-tier Fleetwood",
       "summary": "Arsenal are stunned by fourth-tier Fleetwood Town in the round-of-16 in the EFL Cup.",
       "ts": 1793141412000,
@@ -169,7 +236,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Bolsonaro agrees to surrender passports after acknowledging loss in Brazil's presidential race",
       "summary": "Flávio Bolsonaro said police had ordered him to surrender his passports, adding: \"I am now prohibited from leaving the country.\"",
       "ts": 1793140718000,
@@ -204,42 +271,42 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "No clear winner in Israel election as Benjamin Netanyahu and his main rival Gadi Eisenkot locked in stalemate",
-      "summary": "The vote drew record turnout as Israelis passed wartime judgement on Netanyahu in the first election since the Hamas-led October 7 attacks.",
-      "ts": 1793137812000,
-      "img": "https://images.7news.com.au/publication/C-23081377/608f0a61ca1faff8346f94f5498b425aa0f2d089-16x9-x0y0w1280h720.png",
+      "id": 4,
+      "headline": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
+      "summary": "The three brothers were found guilty of drugging and raping several women over the course of decades.",
+      "ts": 1793135715000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c228/live/e6371090-d249-11f1-8ba3-9fd3e261415f.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
+        "outlet": "Fox News",
         "lean": "right",
-        "title": "No clear winner in Israeli general election: Exit polls predict Netanyahu's party to win most seats but rival bloc 'will be bigger and could still oust him'",
-        "desc": "The latest polls published on Friday ahead of today's voting suggest the 77-year-old, who has been in power for four years, is almost neck-and-neck with his main rival Gadi Eisenkot.",
-        "link": "https://www.dailymail.com/news/article-16243831/israel-election-netanyahu.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Luxury real estate brothers sentenced to 30 years in prison for yearslong sex-trafficking scheme",
+        "desc": "Luxury real estate brokers Tal and Oren Alexander and their brother Alon were sentenced after convictions in a sex-trafficking scheme prosecutors say involved dozens of women.",
+        "link": "https://www.foxnews.com/us/luxury-real-estate-brothers-sentenced-30-years-prison-yearslong-sex-trafficking-scheme"
        },
        {
-        "outlet": "7News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "No clear winner in Israel election as Benjamin Netanyahu and his main rival Gadi Eisenkot locked in stalemate",
-        "desc": "The vote drew record turnout as Israelis passed wartime judgement on Netanyahu in the first election since the Hamas-led October 7 attacks.",
-        "link": "https://7news.com.au/news/no-clear-winner-in-israel-election-as-benjamin-netanyahu-and-his-main-rival-gadi-eisenkot-locked-in-a-stalemate-c-23081377"
+        "title": "Alexander brothers each sentenced to 30 years in prison for sex trafficking case",
+        "desc": "The three brothers were found guilty of drugging and raping several women over the course of decades.",
+        "link": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Polls open in Israel after Netanyahu and Eisenkot's election-eve security clash",
-        "desc": "Israelis are now casting their ballots in an election centred on issues of national security and accountability for October 7.",
-        "link": "https://www.sbs.com.au/news/article/netanyahu-eisenkot-clash-over-security-on-eve-of-israeli-vote/b9r7ndvko"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Alexander brothers each get 30 years in prison for sex trafficking",
+        "desc": "Three brothers convicted of exploiting their wealth have received their punishment after 11 of their accusers spoke in court.",
+        "link": "https://www.theage.com.au/world/north-america/alexander-brothers-each-get-30-years-in-prison-for-sex-trafficking-20261028-p6196i.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
-      "id": 4,
+      "id": 5,
       "headline": "Australia clawed its way back into the third Test, but big challenges await",
       "summary": "Both Australia and South Africa will feel they had the better of certain moments on day one, setting up a fascinating second day's play.",
       "ts": 1793132204000,
@@ -274,58 +341,30 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Why some October 7 survivors want Netanyahu gone — and others don't",
-      "summary": "The imminent Israeli elections are widely considered to be a referendum on Prime Minister Benjamin Netanyahu's leadership.",
-      "ts": 1793141016000,
-      "img": "https://assets.sbs.com.au/dims4/default/aa8c417/2147483647/strip/false/crop/5472x2514+0+567/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F91%2F27%2F86dba68c40fba5c0aa90a7251e0d%2F20261026196945138696-original.jpg",
+      "id": 6,
+      "headline": "On-air spat between Credlin and Clennell",
+      "summary": "The News24 clashed with the network's political editor over an interview the day before with One Nation's national director James Ashby.",
+      "ts": 1793142817000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/27bca330c0e8281adf1317b47c2817dc798f00b5",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Israel election 2026 LIVE updates: Exit polls project no clear winner as Netanyahu, Eisenkot set for lengthy battle to win power in nation’s first election since October 7 attacks",
-        "desc": "Follow along as we bring you the latest live news updates from an election widely seen as a referendum on Benjamin Netanyahu’s almost two decades in power.",
-        "link": "https://www.theage.com.au/world/middle-east/israel-election-2026-live-updates-netanyahu-eisenkot-go-head-to-head-in-nation-s-first-and-most-consequential-election-since-october-7-attacks-20261028-p618xw.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "On-air spat between Credlin and Clennell",
+        "desc": "The News24 clashed with the network's political editor over an interview the day before with One Nation's national director James Ashby.",
+        "link": "https://www.theage.com.au/national/on-air-spat-between-credlin-and-clennell-20261028-p61990.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Why some October 7 survivors want Netanyahu gone — and others don't",
-        "desc": "The imminent Israeli elections are widely considered to be a referendum on Prime Minister Benjamin Netanyahu's leadership.",
-        "link": "https://www.sbs.com.au/news/article/why-some-october-7-survivors-want-netanyahu-gone-and-others-dont/ligb0yg9u"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Trump embarks on Texas campaign swing to shore up votes for lagging ally",
-      "summary": "Donald Trump is mounting a rally blitz in Texas to support his party's candidate for the US Senate. Meanwhile, Democrats have worries of their own.",
-      "ts": 1793140747000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/23ae33bdc1d4c8593e2dff85cc0f2a2a?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Trump, campaigning in Texas for Republicans, touts Iran war and ‘51st state’ Venezuela: ‘I knew that oil would go up’ – live",
-        "desc": "Trump says ‘I actually thought [oil] would go up two or three time higher, and I was still willing to [go to war with Iran]’ Sign up for the Breaking News US email US voters: tell us what issues will decide your vote? Speaking to reporters on the tarmac before departing for a campaign event in Michigan, JD Vance responded to a question about President Trump’s remarks branding Democratic Senate can",
-        "link": "https://www.theguardian.com/us-news/live/2026/oct/27/comey-trump-rubio-texas-vance-israel-midterms-politics-latest-news-updates"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Trump embarks on Texas campaign swing to shore up votes for lagging ally",
-        "desc": "Donald Trump is mounting a rally blitz in Texas to support his party's candidate for the US Senate. Meanwhile, Democrats have worries of their own.",
-        "link": "https://www.abc.net.au/news/2026-10-28/us-midterms-daily-news-briefing-/107315208"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Fiery moment Peta Credlin erupts at colleague Andrew Clennell on live television: 'Hijack my show'",
+        "desc": "The awkward moment played out as cameras were rolling.",
+        "link": "https://www.dailymail.com/news/article-16242141/Peta-Credlin-Andrew-Clennell-Pauline-Hanson.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -337,62 +376,34 @@
     "stories": [
      {
       "id": 7,
-      "headline": "175 Democrats demand Trump admin stop Ilhan Omar investigation, warn it could hurt her re-election bid",
-      "summary": "Rep. Pramila Jayapal led 175 House Democrats in accusing DHS and DOJ of weaponizing the federal investigation into Ilhan Omar's immigration history.",
-      "ts": 1793141879000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/omar-town-hall.jpg?ve=1&tl=1",
+      "headline": "ABC to demand rightwing One Nation party stop using Bluey in ‘shocking and disrespectful’ cartoon",
+      "summary": "Head of Australia’s national broadcaster says depiction of globally beloved character ramming politicians with a car breaches intellectual property Australia’s national broadcaster will send a cease and desist letter to the rightwing populist party One Nation for using Bluey in a “shocking and disrespectful” cartoon which sees the beloved character repeatedly ramming politicians with an SUV. The A",
+      "ts": 1793128003000,
+      "img": "https://i.guim.co.uk/img/media/9491addf7030ca2dd72208a17f9f5d0b55490b1a/534_0_2531_2025/master/2531.jpg?width=460&quality=85&auto=format&fit=max&s=a7daf0b92ec14d5823e2f93f03be396a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; Labor says One Nation should justify Bluey ‘satire’",
-        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of pers",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb"
-       },
        {
         "outlet": "Fox News Politics",
         "lean": "right",
         "title": "175 Democrats demand Trump admin stop Ilhan Omar investigation, warn it could hurt her re-election bid",
         "desc": "Rep. Pramila Jayapal led 175 House Democrats in accusing DHS and DOJ of weaponizing the federal investigation into Ilhan Omar's immigration history.",
         "link": "https://www.foxnews.com/politics/175-democrats-demand-trump-admin-stop-ilhan-omar-investigation-warn-could-hurt-her-re-election-bid"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "ABC to demand rightwing One Nation party stop using Bluey in ‘shocking and disrespectful’ cartoon",
+        "desc": "Head of Australia’s national broadcaster says depiction of globally beloved character ramming politicians with a car breaches intellectual property Australia’s national broadcaster will send a cease and desist letter to the rightwing populist party One Nation for using Bluey in a “shocking and disrespectful” cartoon which sees the beloved character repeatedly ramming politicians with an SUV. The A",
+        "link": "https://www.theguardian.com/tv-and-radio/2026/oct/27/abc-to-take-legal-action-after-right-wing-one-nation-party-used-bluey-in-shocking-and-disrespectful-cartoon-ntwnfb"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "DHS suspends visa-free travel program for Chinese nationals amid birth tourism, security concerns",
-      "summary": "The Trump administration suspended visa-free travel for Chinese nationals to the Northern Mariana Islands amid birth tourism and espionage concerns.",
-      "ts": 1793109636000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/Trump-Visa.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Coalition MP calls for rethink of pre-poll voting amid heightened security concerns in wake of Haines incident",
-        "desc": "Queensland MP Garth Hamilton says he has ‘witnessed three interactions between cars and people at pre-poll, two accidental’ Follow our Australian politics live blog for latest updates Get our daily political email, free app or daily news podcast A Coalition MP has called for a rethink of pre-poll voting at federal elections, including potentially shortening the amount of time booths are open, amid",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/27/mp-calls-rethink-pre-poll-voting-helen-haines-heightened-security-concerns-ntwnfb"
-       },
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "DHS suspends visa-free travel program for Chinese nationals amid birth tourism, security concerns",
-        "desc": "The Trump administration suspended visa-free travel for Chinese nationals to the Northern Mariana Islands amid birth tourism and espionage concerns.",
-        "link": "https://www.foxnews.com/politics/dhs-suspends-visa-free-travel-program-chinese-nationals-amid-birth-tourism-security-concerns"
-       }
-      ]
-     },
-     {
-      "id": 9,
       "headline": "‘Are you waiting for me to be attacked?’ Fatima Payman slams PM over staffing",
       "summary": "Albanese promises ‘swift response’ on MP safety as he mulls panic buttons for politicians Follow our Australian politics live blog for latest updates Get our daily political email, free app or daily news podcast Anthony Albanese has promised a “swift government response” to safety threats to MPs and floated the provision of duress alarms for electorate offices, saying politicians and their staff h",
       "ts": 1793103495000,
@@ -420,7 +431,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 9,
       "headline": "Albanese admits ‘sewage’ claim for $6 million grant was wrong",
       "summary": "The prime minister’s admission came after bureaucrats said Albanese’s stated use for the funding was not what it was designed for.",
       "ts": 1793091147000,
@@ -448,7 +459,49 @@
       ]
      },
      {
+      "id": 10,
+      "headline": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; man charged over alleged false Bondi shooting claim",
+      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of pers",
+      "ts": 1793142655000,
+      "img": "https://i.guim.co.uk/img/media/deabf15655294f18e7f6c22a6e1a7643744119d2/479_0_4785_3828/master/4785.jpg?width=460&quality=85&auto=format&fit=max&s=b3fba00857053a576278ede723c37b19",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; man charged over alleged false Bondi shooting claim",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of pers",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb"
+       }
+      ]
+     },
+     {
       "id": 11,
+      "headline": "Russian diesel tankers close in on US ports as Trump, Putin deal triggers legal showdown",
+      "summary": "Three tankers carrying Russian diesel are heading to U.S. ports as Congress threatens to investigate companies involved in Trump's fuel deal with Moscow.",
+      "ts": 1793142580000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/ce4a5cc3-ce4a5cc3-vladimir-putin-donald-trump-2025-scaled.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Russian diesel tankers close in on US ports as Trump, Putin deal triggers legal showdown",
+        "desc": "Three tankers carrying Russian diesel are heading to U.S. ports as Congress threatens to investigate companies involved in Trump's fuel deal with Moscow.",
+        "link": "https://www.foxnews.com/politics/russian-diesel-tankers-close-us-ports-trump-putin-deal-triggers-legal-showdown"
+       }
+      ]
+     },
+     {
+      "id": 12,
       "headline": "Haitian illegal immigrant charged in Walmart killing entered US via Biden parole program: DHS",
       "summary": "DHS sources told Fox News that Destino Jean-Louis entered the US in 2023 through the Biden-era CHNV parole program before his legal status was revoked in 2025.",
       "ts": 1793140554000,
@@ -465,27 +518,6 @@
         "title": "Haitian illegal immigrant charged in Walmart killing entered US via Biden parole program: DHS",
         "desc": "DHS sources told Fox News that Destino Jean-Louis entered the US in 2023 through the Biden-era CHNV parole program before his legal status was revoked in 2025.",
         "link": "https://www.foxnews.com/politics/haitian-illegal-immigrant-charged-walmart-killing-entered-us-via-biden-parole-program-dhs"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Most New Zealanders worry about AI’s risks, even as many expect to use it – new survey",
-      "summary": "Getty Images Depending on which headlines we read, artificial intelligence (AI) could be one of humanity’s greatest advances – or one of its gravest threats. It might transform the way we work, or take away our jobs altogether. Cure diseases, or create dangerous new biological threats. Make the world a better place, or pose an existential threat to humanity. Whatever we make of these competing pre",
-      "ts": 1793135605000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Most New Zealanders worry about AI’s risks, even as many expect to use it – new survey",
-        "desc": "Getty Images Depending on which headlines we read, artificial intelligence (AI) could be one of humanity’s greatest advances – or one of its gravest threats. It might transform the way we work, or take away our jobs altogether. Cure diseases, or create dangerous new biological threats. Make the world a better place, or pose an existential threat to humanity. Whatever we make of these competing pre",
-        "link": "https://theconversation.com/most-new-zealanders-worry-about-ais-risks-even-as-many-expect-to-use-it-new-survey-294573"
        }
       ]
      }
@@ -678,34 +710,6 @@
      },
      {
       "id": 20,
-      "headline": "On the day that ‘stops the nation’, the RBA will stop inflation (again)",
-      "summary": "On Melbourne Cup day – bet on interest rates rising. It’s a sure thing.",
-      "ts": 1793141447000,
-      "img": "https://static.ffx.io/images/$zoom_0.8716%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_73/t_crop_custom/q_86%2Cf_auto/02ad71d8dcccbcaa18b04f6065421cad126459b7",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; Labor says One Nation should justify Bluey ‘satire’",
-        "desc": "Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of personal grievances, mental hea",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "On the day that ‘stops the nation’, the RBA will stop inflation (again)",
-        "desc": "On Melbourne Cup day – bet on interest rates rising. It’s a sure thing.",
-        "link": "https://www.theage.com.au/business/the-economy/on-the-day-that-stops-the-nation-the-rba-will-tackle-inflation-again-20261028-p61918.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 21,
       "headline": "David Jones squeezes extra $10m from lender, needs leases deal",
       "summary": "The department store chain can use the funding injection to buy Christmas stock, however its challenges loom large.",
       "ts": 1793135875000,
@@ -733,7 +737,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 21,
       "headline": "WA set to become first state to legalise plug-in solar panels, batteries",
       "summary": "WA is set to be the first Australian state to unlock access to the technology, commonly known as \"balcony solar\", which is already used by millions of people in Europe and the UK.",
       "ts": 1793135679000,
@@ -761,11 +765,32 @@
       ]
      },
      {
+      "id": 22,
+      "headline": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; man charged over alleged false Bondi shooting claim",
+      "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of pers",
+      "ts": 1793142655000,
+      "img": "https://i.guim.co.uk/img/media/deabf15655294f18e7f6c22a6e1a7643744119d2/479_0_4785_3828/master/4785.jpg?width=460&quality=85&auto=format&fit=max&s=b3fba00857053a576278ede723c37b19",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Politics live: Australia Post chief paid ‘mind-blowing’ bonus; man charged over alleged false Bondi shooting claim",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines. Lone actors are being motivated by a convergence of pers",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb"
+       }
+      ]
+     },
+     {
       "id": 23,
-      "headline": "ASX to rise before CPI; Woolworths sales up; Accent bid ‘best and final’",
-      "summary": "Traders on edge before inflation; Woolworths sales up 4.7 per cent, Frasers won’t sweeten 65c Accent bid; NextDC reassures on debt; Star in trading halt; Follow live.",
-      "ts": 1793141732000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "headline": "Don’t look now, but the iron ore price has a scary message on China",
+      "summary": "Analysts see it as yet another bullet point on a growing list of worrying signs about financial markets and the Asian nation’s economy. Pity Jim Chalmers.",
+      "ts": 1793142617000,
+      "img": "https://static.ffx.io/images/$zoom_0.28552170396333243%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_117/t_crop_custom/q_86%2Cf_jpg/1183110dd661f3738d13882b5788f66a60e55a83",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -775,18 +800,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX to rise before CPI; Woolworths sales up; Accent bid ‘best and final’",
-        "desc": "Traders on edge before inflation; Woolworths sales up 4.7 per cent, Frasers won’t sweeten 65c Accent bid; NextDC reassures on debt; Star in trading halt; Follow live.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-steady-wall-street-gains-oil-slips-20261028-p61959?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Don’t look now, but the iron ore price has a scary message on China",
+        "desc": "Analysts see it as yet another bullet point on a growing list of worrying signs about financial markets and the Asian nation’s economy. Pity Jim Chalmers.",
+        "link": "https://www.afr.com/chanticleer/don-t-look-now-but-the-iron-ore-price-has-a-scary-message-on-china-20261028-p6197s?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "Australia has forgotten what the good life means",
-      "summary": "The country is asking if the rising cost of living, falling productivity and competitiveness have been worsened by the people in charge. The simple answer is yes.",
-      "ts": 1793141396000,
-      "img": "https://static.ffx.io/images/$zoom_0.1793980315327922%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_113%2C$y_15/t_crop_custom/q_86%2Cf_auto/92bf3789018835d2d233104029dc666931973081",
+      "headline": "US to issue visa to election loser Bolsonaro after he flees Brazil",
+      "summary": "The son of former president Jair Bolsonaro is en route to the US and is likely to land in either Dallas or Miami, according to a Sao Paulo media outlet.",
+      "ts": 1793142404000,
+      "img": "https://static.ffx.io/images/$zoom_0.2076%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/08249ed8c6b22d0e5cb652a5394520c2e77af334",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -796,9 +821,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Australia has forgotten what the good life means",
-        "desc": "The country is asking if the rising cost of living, falling productivity and competitiveness have been worsened by the people in charge. The simple answer is yes.",
-        "link": "https://www.afr.com/policy/economy/australia-has-forgotten-what-the-good-life-means-20261028-p616on?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "US to issue visa to election loser Bolsonaro after he flees Brazil",
+        "desc": "The son of former president Jair Bolsonaro is en route to the US and is likely to land in either Dallas or Miami, according to a Sao Paulo media outlet.",
+        "link": "https://www.afr.com/world/south-america/bolsonaro-flees-brazil-to-us-after-losing-election-local-media-says-20261028-p6196b?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -812,7 +837,7 @@
       "id": 25,
       "headline": "Fleetwood-Arsenal halted for eight minutes because of drone",
       "summary": "Arsenal's match with Fleetwood Town in the last-16 of the Carabao Cup is delayed for more than eight minutes after a drone is spotted above the stadium during the match.",
-      "ts": 1793141875000,
+      "ts": 1793142263000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35c3/live/38ec2910-d24a-11f1-8ba3-9fd3e261415f.jpg",
       "divergent": null,
       "left_view": null,
@@ -823,8 +848,8 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Fleetwood Town stun Arsenal on penalties: Carabao Cup fourth round – live",
-        "desc": "⚽ League Cup last-16 tie ends 1-1 after 90 minutes ⚽ Game briefly delayed by drone over Highbury | Mail Niall Here’s the Fleetwood head coach, Matt Lawlor: “We’ve had to make changes, with the champions in town. But we’ve got a plan with substitutions to manage the game. Arsenal have paid us a lot of respect by naming such a strong team … it’s a very difficult challenge, but one we should enjoy, a",
+        "title": "Fleetwood Town stun Arsenal on penalties: Carabao Cup fourth round – as it happened",
+        "desc": "Fourth-tier Fleetwood produced one of the League Cup’s biggest ever shocks, defeating the champions 5-3 on penalties after a 1-1 draw Here’s the Fleetwood head coach, Matt Lawlor: “We’ve had to make changes, with the champions in town. But we’ve got a plan with substitutions to manage the game. Arsenal have paid us a lot of respect by naming such a strong team … it’s a very difficult challenge, bu",
         "link": "https://www.theguardian.com/football/live/2026/oct/27/fleetwood-town-v-arsenal-carabao-cup-fourth-round-live"
        },
        {
@@ -1012,10 +1037,10 @@
      },
      {
       "id": 32,
-      "headline": "Connor Storrie in Talks to Play Villain Opposite Ryan Gosling in Marvel’s ‘Ghost Rider’",
-      "summary": "“Heated Rivalry” star Connor Storrie is in talks to play the villain opposite Ryan Gosling in Marvel’s “Ghost Rider” movie. Shawn Levy is directing the film, from a script by “Star Wars: Starfighter” screenwriter Jonathan Tropper. “Ghost Rider” is slated to release on July 28, 2028. Levy and Gosling also produce the project alongside Marvel […]",
-      "ts": 1793135748000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/2300738674-rotated.jpg",
+      "headline": "Joy Behar Returned To ‘The View’ After Nearly A Month-Long Absence To The Tune Of Elton John’s “The B***h Is Back”",
+      "summary": "Joy Behar returned to The View on Tuesday after a month-long absence following an accident that dislocated her shoulder. The ABC daytime talk show co-host was greeted by an effusive live audience cheering her comeback as Elton John’s “The B**h Is Back” played in the background. “You should’ve played ‘God Save the Queen ‘; that would’ve been […]",
+      "ts": 1793142410000,
+      "img": "https://deadline.com/wp-content/uploads/2026/10/joy-behar-the-view-return.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1023,27 +1048,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Connor Storrie in Talks to Play Villain Opposite Ryan Gosling in Marvel’s ‘Ghost Rider’",
-        "desc": "“Heated Rivalry” star Connor Storrie is in talks to play the villain opposite Ryan Gosling in Marvel’s “Ghost Rider” movie. Shawn Levy is directing the film, from a script by “Star Wars: Starfighter” screenwriter Jonathan Tropper. “Ghost Rider” is slated to release on July 28, 2028. Levy and Gosling also produce the project alongside Marvel […]",
-        "link": "https://variety.com/2026/film/news/connor-storrie-ryan-gosling-marvel-ghost-rider-1236932383/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Connor Storrie Circling Role In Marvel’s ‘Ghost Rider’ Opposite Ryan Gosling",
-        "desc": "Connor Storrie is circling a role opposite Ryan Gosling in Marvel Studios’ Ghost Rider, sources have confirmed to Deadline. Reps for Marvel declined to comment. There’s word yet on the role to be played by Storrie, though he’s reportedly the film’s villain. Reuniting Gosling with his Star Wars: Starfighter director Shawn Levy and that film’s […]",
-        "link": "https://deadline.com/2026/10/connor-storrie-circling-ghost-rider-ryan-gosling-1237206577/"
+        "title": "Joy Behar Returned To ‘The View’ After Nearly A Month-Long Absence To The Tune Of Elton John’s “The B***h Is Back”",
+        "desc": "Joy Behar returned to The View on Tuesday after a month-long absence following an accident that dislocated her shoulder. The ABC daytime talk show co-host was greeted by an effusive live audience cheering her comeback as Elton John’s “The B**h Is Back” played in the background. “You should’ve played ‘God Save the Queen ‘; that would’ve been […]",
+        "link": "https://deadline.com/2026/10/joy-behar-return-the-view-dislocated-shoulder-1237206686/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Kevin Bleyer, Emmy-winning ‘Daily Show’ Writer, Dies at 54 in Car Accident",
-      "summary": "Kevin Bleyer, a writer who worked on “The Daily Show” and won four Primetime Emmy Awards, a Peabody Award and a Writers Guild Award, died Sunday in a car accident in Millrift, Pennsylvania. He was 54. His family said the accident occurred on a rural road where he had a country home. He spent nine […]",
-      "ts": 1793133878000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/EmmyKB.jpeg",
+      "headline": "Acrobatic Pastor’s Secret Obsession Drives Boo Junfeng’s ‘Trinity’ at Tokyo Gap-Financing Market",
+      "summary": "A celebrity preacher who performs daredevil stunts for his congregation while hiding his fixation on a young follower sits at the center of “Trinity,” the new feature from director Boo Junfeng, which is among the projects at this year’s Tokyo Gap-Financing Market. Structured in three chapters modeled on the Father, Son and Holy Spirit, the […]",
+      "ts": 1793142291000,
+      "img": "https://variety.com/wp-content/uploads/2026/09/Trinity-still.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1053,25 +1071,18 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Kevin Bleyer, Emmy-winning ‘Daily Show’ Writer, Dies at 54 in Car Accident",
-        "desc": "Kevin Bleyer, a writer who worked on “The Daily Show” and won four Primetime Emmy Awards, a Peabody Award and a Writers Guild Award, died Sunday in a car accident in Millrift, Pennsylvania. He was 54. His family said the accident occurred on a rural road where he had a country home. He spent nine […]",
-        "link": "https://variety.com/2026/tv/news/kevin-bleyer-dead-daily-show-1236932357/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Kevin Bleyer Dies: Emmy Winning ‘Daily Show’ Writer & Barack Obama Speech Writer Dies In Car Crash At 54",
-        "desc": "Kevin Bleyer, an Emmy- and Peabody Award-winning television writer whose credits included The Daily Show and Politically Incorrect with Bill Maher and who contributed speeches for President Barack Obama including all of his addresses to the annual White House Correspondents’ Dinner, died October 25 in a car accident on a rural road in Millrift, PA, […]",
-        "link": "https://deadline.com/2026/10/kevin-bleyer-dead-1237206488/"
+        "title": "Acrobatic Pastor’s Secret Obsession Drives Boo Junfeng’s ‘Trinity’ at Tokyo Gap-Financing Market",
+        "desc": "A celebrity preacher who performs daredevil stunts for his congregation while hiding his fixation on a young follower sits at the center of “Trinity,” the new feature from director Boo Junfeng, which is among the projects at this year’s Tokyo Gap-Financing Market. Structured in three chapters modeled on the Father, Son and Holy Spirit, the […]",
+        "link": "https://variety.com/2026/film/markets-festivals/acrobatic-pastor-drama-trinity-tokyo-gap-financing-market-1236932480/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Marvel Confirms Iconic Fantastic Four Heroes Are Brothers",
-      "summary": "Marvel hasn't finished developing the cherished relationships that the Fantastic Four family has fostered, and two brothers are proof of that.",
-      "ts": 1793141425000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/09/mcu-fantastic-four-and-galactus.jpg",
+      "headline": "All 24 Major Slow Horses Character Deaths Explained",
+      "summary": "Slow Horses has featured many prominent character deaths across its six seasons, with each of them contributing significantly to the overall story.",
+      "ts": 1793142020000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/river-looking-suspicious-in-slow-horses.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1081,18 +1092,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Marvel Confirms Iconic Fantastic Four Heroes Are Brothers",
-        "desc": "Marvel hasn't finished developing the cherished relationships that the Fantastic Four family has fostered, and two brothers are proof of that.",
-        "link": "https://screenrant.com/fantastic-four-thing-human-torch-brothers/"
+        "title": "All 24 Major Slow Horses Character Deaths Explained",
+        "desc": "Slow Horses has featured many prominent character deaths across its six seasons, with each of them contributing significantly to the overall story.",
+        "link": "https://screenrant.com/slow-horses-every-death-explained/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Ana Huang On What She Would Change In Twisted Love, Upcoming Adaptations, & Gods Of The Game",
-      "summary": "Ana Huang reflects on evolving cultural touchpoints and fast moving adaptations while closing out a heartfelt World Cup nanny romance.",
-      "ts": 1793141393000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/the-keeper-interview.jpg",
+      "headline": "Steam Officially Drops 5 Free Games You Can Download And Keep Forever (October 27)",
+      "summary": "Steam's newest lineup of free downloads includes five different titles from a range of genres, and there's a little something for everyone here.",
+      "ts": 1793142018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/steam-os-logo.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1102,18 +1113,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Ana Huang On What She Would Change In Twisted Love, Upcoming Adaptations, & Gods Of The Game",
-        "desc": "Ana Huang reflects on evolving cultural touchpoints and fast moving adaptations while closing out a heartfelt World Cup nanny romance.",
-        "link": "https://screenrant.com/ana-huang-interview-romance-recommendations-twisted-love-the-keeper/"
+        "title": "Steam Officially Drops 5 Free Games You Can Download And Keep Forever (October 27)",
+        "desc": "Steam's newest lineup of free downloads includes five different titles from a range of genres, and there's a little something for everyone here.",
+        "link": "https://screenrant.com/steam-5-free-games-october-27-2026/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Japanese Producers Drive Tokyo Market Growth as Exhibition Space Sells Out",
-      "summary": "The Tokyo International Film Festival’s TIFFCOM market exhibition space sold out early this year, according to managing director Ikeda Kaori. More Japanese producers are using the Tokyo market to find partners while projects are still in development. Last year’s edition drew more than 4,600 industry professionals from 46 countries and regions, and attendance rose 13%. […]",
-      "ts": 1793140965000,
-      "img": "https://variety.com/wp-content/uploads/2025/10/Ikeda-Kaori.jpg",
+      "headline": "Stan Lee Secretly Created Marvel’s Ultimate Horror Hero, And No One Noticed For 55 Years",
+      "summary": "One of Stan Lee's last great Marvel creations.",
+      "ts": 1793142018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/stan-lee-close-up.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1121,11 +1132,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Japanese Producers Drive Tokyo Market Growth as Exhibition Space Sells Out",
-        "desc": "The Tokyo International Film Festival’s TIFFCOM market exhibition space sold out early this year, according to managing director Ikeda Kaori. More Japanese producers are using the Tokyo market to find partners while projects are still in development. Last year’s edition drew more than 4,600 industry professionals from 46 countries and regions, and attendance rose 13%. […]",
-        "link": "https://variety.com/2026/film/markets-festivals/japanese-producers-drive-tokyo-market-growth-1236932465/"
+        "title": "Stan Lee Secretly Created Marvel’s Ultimate Horror Hero, And No One Noticed For 55 Years",
+        "desc": "One of Stan Lee's last great Marvel creations.",
+        "link": "https://screenrant.com/stan-lee-man-thing-origin-story/"
        }
       ]
      }
@@ -1134,36 +1145,36 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
+   "Crikey",
    "The Age",
    "ABC News",
    "BBC World",
-   "The Age Federal Politics",
-   "Guardian Tech",
-   "Fox News",
-   "Fox News Politics",
-   "BBC Tech",
    "Guardian AU Politics",
+   "Guardian Tech",
+   "Fox News Politics",
    "Ars Technica",
-   "The Verge",
-   "The Conversation",
-   "AFR",
-   "Crikey",
-   "7News",
-   "Guardian AU Business",
-   "Fox Business",
+   "The Age Federal Politics",
+   "BBC Tech",
+   "Fox News",
    "The Age Business",
    "ABC Business",
-   "ABC Sport",
-   "Variety",
+   "The Verge",
+   "Guardian AU Business",
    "BBC Sport",
-   "Deadline",
-   "Guardian Film",
+   "AFR",
+   "The Conversation",
+   "ABC Sport",
+   "Fox Business",
    "Guardian AU Sport",
+   "Variety",
+   "Deadline",
    "Screen Rant",
+   "Guardian Film",
    "Anime News Network",
-   "7News Sport",
+   "7News",
+   "Daily Mail Australia",
    "SBS News",
-   "Daily Mail Australia"
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1355,9 +1366,9 @@
  "commGames": null,
  "deals": [
   {
-   "title": "New Balance SuperComp Elite V5 $104.50 + Shipping ($0 with $150 Spend) @ Running Warehouse",
+   "title": "New Balance FuelCell SuperComp Elite v5 $104.50 + Shipping ($0 with $150 Spend) @ Running Warehouse",
    "link": "https://www.ozbargain.com.au/node/980594",
-   "votes": 159,
+   "votes": 161,
    "neg": 0,
    "category": "Sports & Outdoors",
    "ts": 1793094383000
@@ -1373,7 +1384,7 @@
   {
    "title": "15 Wicked Wings for $15.95 Pickup @ KFC (Online/App Order Required)",
    "link": "https://www.ozbargain.com.au/node/980548",
-   "votes": 114,
+   "votes": 116,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1793076688000
@@ -1389,18 +1400,10 @@
   {
    "title": "eBay: 10% Cashback ($20 Cap Per Day) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/980617",
-   "votes": 79,
+   "votes": 85,
    "neg": 0,
    "category": "Other",
    "ts": 1793106811000
-  },
-  {
-   "title": "[Refurb] Dell 7490 AIO Intel i5 11500 2.70GHz 16GB 256GB 23.8\" NO Stand $315 Delivered @ Australian Computer Traders",
-   "link": "https://www.ozbargain.com.au/node/980518",
-   "votes": 75,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1793062382000
   },
   {
    "title": "½ Price: Cobram Estate Classic Extra Virgin Olive Oil 750mL $12.50 (Was $25.00) & 1 More @ Woolworths",
@@ -1419,6 +1422,14 @@
    "ts": 1793065778000
   },
   {
+   "title": "Signature 40% Chocolate Chip Cookies 400g $4 (Was $5) @ ALDI",
+   "link": "https://www.ozbargain.com.au/node/980601",
+   "votes": 53,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1793097648000
+  },
+  {
    "title": "Unlimited Easynews + Unlimited Tweaknews US$25.05 (~A$35.66) for 15 Months @ Newshosting",
    "link": "https://www.ozbargain.com.au/node/980596",
    "votes": 53,
@@ -1427,17 +1438,9 @@
    "ts": 1793095707000
   },
   {
-   "title": "Signature 40% Chocolate Chip Cookies 400g $4 (Was $5) @ ALDI",
-   "link": "https://www.ozbargain.com.au/node/980601",
-   "votes": 52,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1793097648000
-  },
-  {
    "title": "Upsized Referral Bonus: $50 for Referrer & $50 for Referee ($10 Earned Cashback in 180 Days Required) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/980615",
-   "votes": 38,
+   "votes": 41,
    "neg": 0,
    "category": "Other",
    "ts": 1793106089000
@@ -1445,7 +1448,7 @@
   {
    "title": "Amazon Fire TV Stick 4K Select (2025) $39 + Delivery ($0 C&C/ in-Store) @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/980631",
-   "votes": 31,
+   "votes": 34,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1793134675000
@@ -1453,7 +1456,7 @@
   {
    "title": "Hugo Boss Bottled Absolu Parfum Intense for Men 100ml $90 (RRP $202) Delivered to Selected Postcodes @ Amazon AU (Excl. TAS, NT)",
    "link": "https://www.ozbargain.com.au/node/980602",
-   "votes": 30,
+   "votes": 31,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1793097753000
@@ -1461,7 +1464,7 @@
   {
    "title": "[Westpac, StG, BoM, BSA] 3% Bonus Cashback on Coles Gift Cards (+3% Upsized Cashback) @ ShopBack",
    "link": "https://www.ozbargain.com.au/node/980621",
-   "votes": 28,
+   "votes": 29,
    "neg": 0,
    "category": "Groceries",
    "ts": 1793110543000
@@ -1469,10 +1472,18 @@
   {
    "title": "David Beckham Perfume & Deodorant from $3.79ea + Delivery ($0 with Prime/$59+ Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/980530",
-   "votes": 23,
+   "votes": 24,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1793067474000
+  },
+  {
+   "title": "The Dropout Season 1 - Free to Stream with Ads @ SBS on Demand",
+   "link": "https://www.ozbargain.com.au/node/980571",
+   "votes": 22,
+   "neg": 0,
+   "category": "Entertainment",
+   "ts": 1793082714000
   }
  ],
  "carried": {}
