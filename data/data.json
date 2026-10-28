@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T23:19:24.348Z",
+ "generatedAt": "2026-10-28T23:40:20.629Z",
  "markets": {
   "items": [
    {
@@ -7,65 +7,73 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8847.3,
-    "chgPct": 0.4245179595310502,
+    "price": 8888.5,
+    "chgPct": 0.43389783527771913,
     "high52": 9296.7,
-    "off52": -4.833973345380635
+    "off52": -4.390805339529088
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.81,
-    "chgPct": 0.12835829133605478,
+    "price": 85.7,
+    "chgPct": -0.2328306429874153,
     "high52": 88,
-    "off52": -2.488636363636361
+    "off52": -2.61363636363636
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 148.08,
-    "chgPct": 0.28443473349202664,
+    "price": 148.36,
+    "chgPct": 0.5149009925862643,
     "high52": 155.03,
-    "off52": -4.48300328968586
+    "off52": -4.302393085209307
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.95,
-    "chgPct": 0.6439871497113103,
+    "price": 60.91,
+    "chgPct": -0.8464924346288374,
     "high52": 65.18,
-    "off52": -6.489720773243332
+    "off52": -6.551089291193633
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.25,
-    "chgPct": 3.8903615766335906,
+    "price": 35.33,
+    "chgPct": -0.05657277223289237,
     "high52": 47.78,
-    "off52": -26.224361657597324
+    "off52": -26.056927584763507
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7055,
-    "chgPct": 0.5071573119576132,
+    "price": 0.7056,
+    "chgPct": 0.5214035426184135,
     "high52": 0.7277,
-    "off52": -3.0507077092208323
+    "off52": -3.036965782602722
    }
   ],
   "failed": [],
   "note": "SEMI is 26% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "WES.AX",
+    "name": "Wesfarmers",
+    "market": "ASX",
+    "price": 74.74,
+    "currency": "AUD",
+    "chgPct": -3.1112255751074107
+   },
    {
     "sym": "AVGO",
     "name": "Broadcom",
@@ -73,14 +81,6 @@
     "price": 351.81,
     "currency": "USD",
     "chgPct": 2.7692617648419624
-   },
-   {
-    "sym": "WDS.AX",
-    "name": "Woodside",
-    "market": "ASX",
-    "price": 32.33,
-    "currency": "AUD",
-    "chgPct": -2.561785103549835
    }
   ]
  },
@@ -135,41 +135,6 @@
      },
      {
       "id": 1,
-      "headline": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
-      "summary": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
-      "ts": 1793229055000,
-      "img": "https://images.7news.com.au/publication/C-23085436/dfd59ae591890cf4e800e18cc626c03ccf958bea-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Beau Lamarre-Condon's cop friend tearfully describes the moment she realised he was a suspect in alleged double murder: 'He's here!'",
-        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16247361/Beau-Lamarre-Condon-murder-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
-        "desc": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
-        "link": "https://7news.com.au/news/robert-crawford-murder-trial-hears-claims-wife-frances-feared-divorce-as-details-of-alleged-break-in-emerge-c-23085436"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Ex-wife of Zimbabwe's vice-president freed after collapse of attempted murder case",
-        "desc": "Marry Mubaiwa had been held on remand for seven years after being charged in 2019 for her then husband's attempted murder.",
-        "link": "https://www.bbc.co.uk/news/articles/c6e3xgq11jqlo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 2,
       "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
       "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
       "ts": 1793219079000,
@@ -204,94 +169,38 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "Live: US staring down December and March rate hikes as Fed leaves rates on hold",
-      "summary": "The US Federal Reserve has held interest rates unchanged at its most recent meeting, but in Australia, high inflation data means we're likely to hike. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "ts": 1793228662000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2bcc5de27112144035164dd51dacf77e?impolicy=wcms_crop_resize&cropH=530&cropW=942&xPos=0&yPos=14&width=862&height=485",
+      "id": 2,
+      "headline": "Woman fatally stabbed in alleged domestic violence incident",
+      "summary": "A 53-year-old man is in custody after police found the woman, aged in her 40s, with multiple stab wounds.",
+      "ts": 1793230581000,
+      "img": "https://static.ffx.io/images/$zoom_0.1902%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/ee481cebe7d4a2258520639a983c98ea151a0e04",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Sam Wood's fitness empire rebrands and unveils a new 'fresh' name in the wake of his domestic violence charges",
+        "desc": "On Wednesday, a video shared to the company's social media featured a group of well-known fitness trainers who introduced the new brand and 'fresh' look.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16247095/sam-wood-fitness-empire-rebrand-domestic-violence-charges.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "ASX rises, Fed keeps rates on hold despite inflation surge",
-        "desc": "The Australian sharemarket has made a bright start this morning on the back of a positive lead from Wall Street after the Federal Reserve, as expected, kept interest rates on hold.",
-        "link": "https://www.theage.com.au/business/markets/fed-keeps-rates-on-hold-asx-set-to-rise-wall-street-steady-20261029-p619jc.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: US staring down December and March rate hikes as Fed leaves rates on hold",
-        "desc": "The US Federal Reserve has held interest rates unchanged at its most recent meeting, but in Australia, high inflation data means we're likely to hike. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-10-29/asx-markets-business-live-news-29-october-2026/107321622"
+        "title": "Woman fatally stabbed in alleged domestic violence incident",
+        "desc": "A 53-year-old man is in custody after police found the woman, aged in her 40s, with multiple stab wounds.",
+        "link": "https://www.theage.com.au/national/nsw/woman-fatally-stabbed-in-alleged-domestic-violence-incident-20261029-p619jt.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
-      "id": 4,
-      "headline": "Helen Haines's offices reopen after event that shocked nation",
-      "summary": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
-      "ts": 1793228181000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e3269374e7c73c0f1451c666760ba3ac?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Extraordinary claim from man accused of mowing down MP Helen Haines in horror attack that cost her both legs: 'Accident'",
-        "desc": "Brendan Nugent, 43, is accused of ramming his Toyota LandCruiser into MP Helen Haines outside her office in Wangaratta on October 19 in what police alleged was a deliberate attack.",
-        "link": "https://www.dailymail.com/news/article-16247151/helen-haines-brendan-nugent-alleged-attack-new-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Helen Haines's offices reopen after event that shocked nation",
-        "desc": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
-        "link": "https://www.abc.net.au/news/2026-10-29/indi-mp-helen-haines-offices-reopen-after-attack/107313698"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Jerry Seinfeld reveals his top four episodes of eponymous show, sparking furious debate among fans",
-      "summary": "The 72-year-old funnyman was recently asked about his four favorite episodes of the NBC series and some of his answers surprised fans.",
-      "ts": 1793228149000,
-      "img": "https://i.dailymail.com/1s/2026/10/28/22/112156973-0-image-a-26_1793225525404.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Jerry Seinfeld reveals his top four episodes of eponymous show, sparking furious debate among fans",
-        "desc": "The 72-year-old funnyman was recently asked about his four favorite episodes of the NBC series and some of his answers surprised fans.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16247097/jerry-seinfeld-episodes-fans.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Madison Beer heckled by Chargers fans during Disney show, Madden impressions & Rays reporter Aileen Hnatiuk!",
-        "desc": "The final Hump Day of October brings Madison Beer hearing \"Fix the Chargers!\" from fans at Disneyland as Justin Herbert's NFL season spirals.",
-        "link": "https://www.foxnews.com/outkick-sports/madison-beer-heckled-chargers-fans-disney-show-madden-impressions-rays-reporter-aileen-hnatiuk"
-       }
-      ]
-     },
-     {
-      "id": 6,
+      "id": 3,
       "headline": "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
       "summary": "High-speed service travelling from Madrid to Seville ran into back of another, knocking two carriages off track The Spanish prime minister has declared three days of mourning after at least 68 people were killed and dozens more injured in a collision between two high-speed trains that officials suggested was caused by an “inexplicable” error at the central command centre. The trains, one from Spai",
-      "ts": 1793228017000,
+      "ts": 1793229984000,
       "img": "https://i.guim.co.uk/img/media/d28665ea56d701cb26a0e865a3faf8ea726c2a42/474_0_2370_1896/master/2370.jpg?width=460&quality=85&auto=format&fit=max&s=654c9bf4ef1556b1c56605fdf9da7270",
       "divergent": null,
       "left_view": null,
@@ -312,6 +221,90 @@
         "title": "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
         "desc": "High-speed service travelling from Madrid to Seville ran into back of another, knocking two carriages off track The Spanish prime minister has declared three days of mourning after at least 68 people were killed and dozens more injured in a collision between two high-speed trains that officials suggested was caused by an “inexplicable” error at the central command centre. The trains, one from Spai",
         "link": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Helen Haines's offices reopen after event that shocked nation",
+      "summary": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
+      "ts": 1793229954000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/e3269374e7c73c0f1451c666760ba3ac?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Claim from man accused of mowing down MP Helen Haines in horror attack that cost her both legs: 'Accident'",
+        "desc": "Brendan Nugent, 43, is accused of ramming his Toyota LandCruiser into MP Helen Haines outside her office in Wangaratta on October 19 in what police alleged was a deliberate attack.",
+        "link": "https://www.dailymail.com/news/article-16247151/helen-haines-brendan-nugent-alleged-attack-new-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Helen Haines's offices reopen after event that shocked nation",
+        "desc": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
+        "link": "https://www.abc.net.au/news/2026-10-29/indi-mp-helen-haines-offices-reopen-after-attack/107313698"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "ts": 1793229708000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+        "desc": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Flávio Bolsonaro lands in Miami after fleeing Brazil following election loss",
+        "desc": "Brazilian President Luiz Inácio Lula da Silva labelled his rival's departure from Brazil \"shameful\".",
+        "link": "https://www.sbs.com.au/news/article/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-following-election-loss/8p2y68aoq"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
+      "summary": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
+      "ts": 1793229055000,
+      "img": "https://images.7news.com.au/publication/C-23085436/dfd59ae591890cf4e800e18cc626c03ccf958bea-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Beau Lamarre-Condon's cop friend tearfully describes the moment she realised he was a suspect in alleged double murder: 'He's here!'",
+        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+        "link": "https://www.dailymail.com/news/article-16247361/Beau-Lamarre-Condon-murder-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
+        "desc": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
+        "link": "https://7news.com.au/news/robert-crawford-murder-trial-hears-claims-wife-frances-feared-divorce-as-details-of-alleged-break-in-emerge-c-23085436"
        }
       ]
      }
@@ -381,7 +374,7 @@
       "id": 9,
       "headline": "Australian politics live: Man cautioned after allegedly stalking female Labor MPs; PM dismisses Costello criticism",
       "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Gas reservation policy set for lower house vote today Australia’s domestic gas reservation is set to be debated and voted on in the lower house today. Rather than international base companies, determining through algorithms what Australians receive, it empowers people themselves to determine what you receive on ",
-      "ts": 1793229257000,
+      "ts": 1793230743000,
       "img": "https://i.guim.co.uk/img/media/bb0be3bec622747fc31de09618f7d7eddb8b24b1/710_0_3550_2840/master/3550.jpg?width=460&quality=85&auto=format&fit=max&s=cbeda6e1e3073ee8e8457679988e0af6",
       "divergent": null,
       "left_view": null,
@@ -567,10 +560,10 @@
      },
      {
       "id": 17,
-      "headline": "A hacker stole more than 40,000 DHS employee records",
-      "summary": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP), according to TechCrunch and Wired. The data also linked the agencies to sp",
-      "ts": 1793224665000,
-      "img": null,
+      "headline": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+      "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
+      "ts": 1793227875000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/55617683176_c8f6425b60_o-1152x648-1793207864.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -578,20 +571,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "A hacker stole more than 40,000 DHS employee records",
-        "desc": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP), according to TechCrunch and Wired. The data also linked the agencies to sp",
-        "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak"
+        "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+        "desc": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
+        "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "summary": "The MPC Sample Key looks like the MPC Sample just with keys instead of pads. | Image: Akai The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmwa",
-      "ts": 1793223244000,
-      "img": null,
+      "headline": "As US ties fray, Europe plans first undersea cable link to Greenland",
+      "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+      "ts": 1793226950000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/EU-and-Greenland-meeting-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -599,11 +592,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Akai is embracing vibe-coded mods with an open-source MPC",
-        "desc": "The MPC Sample Key looks like the MPC Sample just with keys instead of pads. | Image: Akai The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmwa",
-        "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
+        "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+        "desc": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+        "link": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/"
        }
       ]
      }
@@ -769,10 +762,10 @@
      },
      {
       "id": 24,
-      "headline": "Sam Wood’s name stripped from fitness brand",
-      "summary": "DBG Health has revealed a new name and look for 28 by Sam Wood, following domestic violence charges laid against the Melbourne fitness guru.",
-      "ts": 1793229389000,
-      "img": "https://static.ffx.io/images/$zoom_0.6499%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_603%2C$y_331/t_crop_custom/q_86%2Cf_auto/4dd92a54400f08e467e41de701070757a527cb79",
+      "headline": "ASX rises; Champion Iron dives on iron ore worries; retail giants slump",
+      "summary": "Shares rise after Fed holds fire on rates; Aussie dollar jumps; Alphabet, Microsoft report mixed results; retail giants post slowing sales; NAB raises November rate bets. Follow live updates.",
+      "ts": 1793230672000,
+      "img": "https://static.ffx.io/images/$zoom_0.5518518518518518%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -782,9 +775,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Sam Wood’s name stripped from fitness brand",
-        "desc": "DBG Health has revealed a new name and look for 28 by Sam Wood, following domestic violence charges laid against the Melbourne fitness guru.",
-        "link": "https://www.afr.com/companies/healthcare-and-fitness/sam-wood-s-name-stripped-from-fitness-brand-20261029-p619ks?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX rises; Champion Iron dives on iron ore worries; retail giants slump",
+        "desc": "Shares rise after Fed holds fire on rates; Aussie dollar jumps; Alphabet, Microsoft report mixed results; retail giants post slowing sales; NAB raises November rate bets. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/markets-wait-on-fed-rates-call-oil-tops-us116-20261029-p619j6?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -796,41 +789,6 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Russo scores hat-trick as Arsenal beat Benfica",
-      "summary": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
-      "ts": 1793226112000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e961/live/0fec4210-d31d-11f1-a701-fddedf244c16.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Alessia Russo makes history with hat-trick as Arsenal cruise to Benfica win",
-        "desc": "Alessia Russo wrote herself into the history books once again as she became the highest English goal-scorer in the Women’s Champions League. Her hat-trick gave Arsenal a 3-0 win over Benfica to send the Gunners up to second in the league phase table. It is safe to say that Arsenal’s season has yet to fully burst into life. Struggles in front of goal, unforced errors and rather lackadaisical perfor",
-        "link": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Russo scores hat-trick as Arsenal beat Benfica",
-        "desc": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Arsenal knocked out of League Cup by fourth-tier minnow in all-time upset",
-        "desc": "Reigning English champion Arsenal has been knocked out of the EFL League Cup by fourth-tier side Fleetwood Town, in a massive boilover.",
-        "link": "https://www.abc.net.au/news/2026-10-28/arsenal-eliminated-efl-league-cup-fleetwood-town/107317536"
-       }
-      ]
-     },
-     {
-      "id": 26,
       "headline": "Beale called up for Wallabies Spring Tour ahead of Rugby World Cup",
       "summary": "Kurtley Beale is a chance to play his first Wallabies Test in five years as the veteran playmaker is named in Australia's squad for their Spring Tour of the UK.",
       "ts": 1793169554000,
@@ -865,7 +823,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 26,
       "headline": "'He knows his role' - Rulli provides heroics but no worries for Donnarumma",
       "summary": "Geronimo Rulli's penalty shootout heroics may have put the pressure on Gianluigi Donnarumma at Manchester City, but manager Enzo Maresca has no doubt about his number one.",
       "ts": 1793229006000,
@@ -893,7 +851,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 27,
       "headline": "Diamonds coach Stacey Marinkovich addresses future after tumultuous New Zealand series",
       "summary": "The Aussies narrowly avoided losing the world No.1 ranking but now won’t play a single game until the 2027 World Cup.",
       "ts": 1793228436000,
@@ -921,7 +879,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 28,
       "headline": "Scans reveal extent of Steve Smith's neck injury ahead of Test summer",
       "summary": "The Australian team says Steve Smith is expected to return for the New Zealand Test series, kicking off a run of 10 Tests in three months.",
       "ts": 1793227991000,
@@ -945,6 +903,34 @@
         "title": "Cricket Australia issues shock statement on Steve Smith’s neck injury",
         "desc": "The star batsman pulled himself out of the third Test in a decision that divided the Aussie team.",
         "link": "https://7news.com.au/sport/cricket/cricket-australia-issues-shock-statement-on-steve-smiths-neck-injury-c-23086514"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Russo scores hat-trick as Arsenal beat Benfica",
+      "summary": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
+      "ts": 1793226112000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e961/live/0fec4210-d31d-11f1-a701-fddedf244c16.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Alessia Russo makes history with hat-trick as Arsenal cruise to Benfica win",
+        "desc": "Alessia Russo wrote herself into the history books once again as she became the highest English goal-scorer in the Women’s Champions League. Her hat-trick gave Arsenal a 3-0 win over Benfica to send the Gunners up to second in the league phase table. It is safe to say that Arsenal’s season has yet to fully burst into life. Struggles in front of goal, unforced errors and rather lackadaisical perfor",
+        "link": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Russo scores hat-trick as Arsenal beat Benfica",
+        "desc": "Alessia Russo becomes England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/crd6dzxwlqjlo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
@@ -1124,10 +1110,10 @@
      },
      {
       "id": 36,
-      "headline": "Skydance Sports Chief Jesse Sisgold Exits For RedBird Capital Role As Part Of George Cheeks Restructuring",
-      "summary": "Longtime Skydance Sports chief Jesse Sisgold is exiting his post and moving to an advisory role at company backer RedBird Capital. Sisgold was formerly president and COO of Skydance when it was a boutique production shingle being scaled up by David Ellison. Now that Ellison is running a massive media entity after the merger of […]",
-      "ts": 1793220317000,
-      "img": "https://deadline.com/wp-content/uploads/2026/10/Jesse-S-Skydance-.jpg",
+      "headline": "Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller",
+      "summary": "Alfonso Cuarón’s upcoming Apple TV series “Ascension” has added three new series regulars. Variety has learned that Amanda Plummer (“Run,” “Butterfly Kiss”), Christopher Chung (“Slow Horses,” “My Brilliant Career”) and T’Nia Miller (“The Haunting of Bly Manor,” “VisionQuest”) have all been cast in the series. Exact character details are being kept under wraps. As previously […]",
+      "ts": 1793219400000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/Ascension-Apple-TV-1000.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1135,18 +1121,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Skydance Sports Chief Jesse Sisgold Exits For RedBird Capital Role As Part Of George Cheeks Restructuring",
-        "desc": "Longtime Skydance Sports chief Jesse Sisgold is exiting his post and moving to an advisory role at company backer RedBird Capital. Sisgold was formerly president and COO of Skydance when it was a boutique production shingle being scaled up by David Ellison. Now that Ellison is running a massive media entity after the merger of […]",
-        "link": "https://deadline.com/2026/10/skydance-sports-jesse-sisgold-exits-redbird-capital-1237207469/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Skydance TV Co-Chair George Cheeks Reveals Executive Structure Following Paramount-Warner Bros. Merger",
-        "desc": "Skydance TV co-chair and chief content officer George Cheeks formalized his division’s executive structure. In a memo to staff, Cheeks shared the specific titles for his direct reports, as well as how Skydance TV will now operate post-Warner Bros. and Paramount merger. “Reporting to me, these accomplished leaders will work together to advance our strategy […]",
-        "link": "https://variety.com/2026/tv/news/skydance-george-cheeks-channing-dungey-executive-structure-1236933612/"
+        "title": "Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller",
+        "desc": "Alfonso Cuarón’s upcoming Apple TV series “Ascension” has added three new series regulars. Variety has learned that Amanda Plummer (“Run,” “Butterfly Kiss”), Christopher Chung (“Slow Horses,” “My Brilliant Career”) and T’Nia Miller (“The Haunting of Bly Manor,” “VisionQuest”) have all been cast in the series. Exact character details are being kept under wraps. As previously […]",
+        "link": "https://variety.com/2026/tv/news/alfonso-cuaron-apple-tv-ascension-cast-1236933558/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Amanda Plummer, Christopher Chung & T’Nia Miller Join Alfonso Cuarón’s Apple Series ‘Ascension’",
+        "desc": "The series regular cast of Alfonso Cuarón’s Apple TV series Ascension has grown by three: Amanda Plummer (Run, Butterfly Kiss), Christopher Chung (Slow Horses, My Brilliant Career), and T’Nia Miller (The Haunting of Bly Manor, VisionQuest). They join the previously announced Caitríona Balfe, who leads the cast and executive produces, and Bill Nighy. Inspired by […]",
+        "link": "https://deadline.com/2026/10/amanda-plummer-christopher-chung-tnia-miller-cast-ascension-1237207379/"
        }
       ]
      }
@@ -1154,37 +1140,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "ABC News",
    "Guardian Australia",
    "The Age",
    "BBC World",
+   "ABC News",
    "Fox News",
-   "Guardian Tech",
-   "Guardian AU Politics",
    "Fox News Politics",
-   "Ars Technica",
-   "The Age Business",
    "The Conversation",
-   "The Age Federal Politics",
-   "ABC Business",
-   "The Verge",
-   "Guardian AU Business",
    "BBC Tech",
-   "AFR",
-   "Fox Business",
-   "BBC Sport",
-   "Deadline",
+   "The Verge",
+   "Guardian Tech",
+   "Ars Technica",
+   "The Age Federal Politics",
+   "Guardian AU Business",
+   "ABC Business",
+   "Crikey",
+   "Guardian AU Politics",
+   "The Age Business",
    "Guardian AU Sport",
+   "Variety",
+   "BBC Sport",
+   "Fox Business",
+   "7News",
+   "AFR",
+   "Anime News Network",
    "Guardian Film",
    "ABC Sport",
    "Screen Rant",
-   "Anime News Network",
-   "SBS News",
    "Daily Mail Australia",
-   "7News",
+   "SBS News",
    "7News Sport",
-   "Variety"
+   "Deadline"
   ],
   "sourcesFailed": []
  },
@@ -1386,7 +1372,7 @@
   {
    "title": "Ubiquiti UniFi Dream Wall All In One Internet Gateway $499 (Was $1889) + Delivery ($0 to Metro Areas/ C&C/ in-Store) @ Scorptec",
    "link": "https://www.ozbargain.com.au/node/980746",
-   "votes": 160,
+   "votes": 164,
    "neg": 0,
    "category": "Computing",
    "ts": 1793183846000
@@ -1402,7 +1388,7 @@
   {
    "title": "[SUBS, Prime] Ali G: Who Iz I? (2026) - Movie Streaming @ Prime Video",
    "link": "https://www.ozbargain.com.au/node/980718",
-   "votes": 142,
+   "votes": 143,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1793171236000
@@ -1410,7 +1396,7 @@
   {
    "title": "Bonus Nintendo Switch 2 Console with Purchase of Google Pixel 11 Pro $1849 / 11 Pro XL $2099 ($0 C&C/ in-Store) @ JB Hi-FI",
    "link": "https://www.ozbargain.com.au/node/980762",
-   "votes": 136,
+   "votes": 141,
    "neg": 0,
    "category": "Mobile",
    "ts": 1793196534000
@@ -1426,7 +1412,7 @@
   {
    "title": "Earn 20x Flybuys Points on Apple Gift Cards (In-Store Only) @ Coles",
    "link": "https://www.ozbargain.com.au/node/980697",
-   "votes": 109,
+   "votes": 110,
    "neg": 0,
    "category": "Other",
    "ts": 1793163608000
@@ -1434,7 +1420,7 @@
   {
    "title": "4-Piece Cleaning Tool Set $2 + $10 Delivery ($0 C&C/ in-Store/ $65 Order) @ Kmart",
    "link": "https://www.ozbargain.com.au/node/980742",
-   "votes": 74,
+   "votes": 76,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1793181089000
@@ -1450,7 +1436,7 @@
   {
    "title": "[Windows] Ashampoo Burning Studio 2027, Lifetime License $0 (Normally $30) @ Ashampoo",
    "link": "https://www.ozbargain.com.au/node/980749",
-   "votes": 64,
+   "votes": 65,
    "neg": 0,
    "category": "Computing",
    "ts": 1793186101000
@@ -1480,9 +1466,9 @@
    "ts": 1793153092000
   },
   {
-   "title": "[SUBS, Prime] Harry Potter 1-8, Fantastic Beasts 1-3 - Movie Streaming @ Prime Video",
+   "title": "[SUBS, Prime] Harry Potter 1-8, Fantastic Beasts 1-3 - Movies Streaming @ Prime Video",
    "link": "https://www.ozbargain.com.au/node/980758",
-   "votes": 38,
+   "votes": 43,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1793194581000
