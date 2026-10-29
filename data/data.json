@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-29T23:01:02.792Z",
+ "generatedAt": "2026-10-29T23:23:26.438Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8891.8,
-    "chgPct": 0.47118555118662875,
+    "price": 8936,
+    "chgPct": 1.0025679842510211,
     "high52": 9296.7,
-    "off52": -4.355308873040987
+    "off52": -3.879871352200251
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.8,
-    "chgPct": -0.11641620966535354,
+    "price": 85.65,
+    "chgPct": -0.1748287254340997,
     "high52": 88,
-    "off52": -2.500000000000003
+    "off52": -2.670454545454539
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 148.36,
-    "chgPct": 0.5149009925862643,
+    "price": 149.21,
+    "chgPct": 0.5729302953299787,
     "high52": 155.03,
-    "off52": -4.302393085209307
+    "off52": -3.75411210733406
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.84,
-    "chgPct": -0.9604432724153307,
+    "price": 59.85,
+    "chgPct": -1.6272191816320674,
     "high52": 65.18,
-    "off52": -6.658484197606632
+    "off52": -8.17735501687635
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 34.98,
-    "chgPct": -1.0466718248714044,
+    "price": 33.89,
+    "chgPct": -3.116065055747688,
     "high52": 47.78,
-    "off52": -26.78945165341148
+    "off52": -29.07074089577229
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7023,
-    "chgPct": -0.1052661746808252,
+    "price": 0.7027,
+    "chgPct": -0.04837041285521896,
     "high52": 0.7277,
-    "off52": -3.490449361000409
+    "off52": -3.435481654527968
    }
   ],
   "failed": [],
-  "note": "SEMI is 27% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 29% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "GOOGL",
@@ -73,6 +73,14 @@
     "price": 283.82,
     "currency": "USD",
     "chgPct": -12.64120557625609
+   },
+   {
+    "sym": "COL.AX",
+    "name": "Coles",
+    "market": "ASX",
+    "price": 21.06,
+    "currency": "AUD",
+    "chgPct": -10.230175524862368
    },
    {
     "sym": "LLY",
@@ -91,20 +99,12 @@
     "chgPct": -4.245878179248938
    },
    {
-    "sym": "WES.AX",
-    "name": "Wesfarmers",
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
     "market": "ASX",
-    "price": 74.02,
+    "price": 145.93,
     "currency": "AUD",
-    "chgPct": -4.044593485007365
-   },
-   {
-    "sym": "WOW.AX",
-    "name": "Woolworths",
-    "market": "ASX",
-    "price": 39.48,
-    "currency": "AUD",
-    "chgPct": -3.282703833518469
+    "chgPct": -2.511859429542087
    }
   ]
  },
@@ -117,10 +117,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Mushroom killer Erin Patterson's fate to be decided in Supreme Court appeal",
-      "summary": "The judgement will be handed down at 10am.",
-      "ts": 1793314444000,
-      "img": "https://images.7news.com.au/publication/C-23090245/8fa4323c0f6b5e7ec2a8d932a03a65c946201f79-16x9-x0y0w1280h720.png",
+      "headline": "Erin Patterson to learn fate as appeal handed down in mushroom murders case",
+      "summary": "The convicted killer wants her convictions overturned, while prosecutors argue she should never be released.",
+      "ts": 1793310695000,
+      "img": "https://assets.sbs.com.au/dims4/default/388c840/2147483647/strip/false/crop/3878x1782+0+200/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fb4%2Ff1%2Fd8cecf0849859ebc6f9061e211c0%2F20250825141569365490-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -128,11 +128,11 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Erin Patterson appeal LIVE: Mushroom killer attempts to appeal triple murder charges",
-        "desc": "As three justices weigh the fate of Erin Patterson’s triple murder conviction, this legal ruling could decide whether she faces a complete retrial or spends the rest of her natural life behind bars.",
-        "link": "https://www.theage.com.au/national/victoria/erin-patterson-appeal-live-mushroom-killer-attempts-to-appeal-triple-murder-charges-20261030-p619ol.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Erin Patterson to learn fate as appeal handed down in mushroom murders case",
+        "desc": "The convicted killer wants her convictions overturned, while prosecutors argue she should never be released.",
+        "link": "https://www.sbs.com.au/news/article/mushroom-murders-erin-patterson-appeal-ruling-victoria-supreme-court/o0b1fpgp7"
        },
        {
         "outlet": "Daily Mail Australia",
@@ -140,6 +140,13 @@
         "title": "Judgment day for Erin Patterson: Mushroom killer to learn if she gets a new trial - or faces dying behind bars",
         "desc": "It's judgment day for murderer Erin Patterson who will soon learn whether she will be retried over a deadly mushroom lunch.",
         "link": "https://www.dailymail.com/news/article-16250589/erin-patterson.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Mushroom murderer Erin Patterson to learn her fate",
+        "desc": "Mushroom murderer Erin Patterson will learn today whether her convictions will stand or if she'll face a retrial.",
+        "link": "https://www.theage.com.au/national/mushroom-murderer-erin-patterson-to-learn-her-fate-20261030-p619wd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
@@ -152,41 +159,6 @@
      },
      {
       "id": 1,
-      "headline": "Live: Appeal decision due shortly for triple murderer Erin Patterson",
-      "summary": "Three judges from Victoria's Court of Appeal will hand down their judgment on Erin Patterson's appeal against her murder convictions and on the prosecution's appeal over her sentence.",
-      "ts": 1793313346000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/05c3f5a1a677ec98e51bffcc88e28cff?impolicy=wcms_crop_resize&cropH=1537&cropW=2732&xPos=0&yPos=508&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Erin Patterson appeal live updates: mushroom murderer to learn fate in retrial bid",
-        "desc": "Court of appeal is set to rule on the two appeals from 10am in the high profile Australian mushroom triple-murder case Erin Patterson to learn if she could face retrial or longer jail term Director of public prosecution argued Patterson’s initial sentence inadequate During the hearings, Brendan Kissane KC, the director of public prosecution, appealed against Patterson’s sentence, arguing that it w",
-        "link": "https://www.theguardian.com/australia-news/live/2026/oct/30/erin-patterson-appeal-live-updates-australia-mushroom-murders-case-retrial-bid-latest-news-ntwnfb"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Appeal decision due shortly for triple murderer Erin Patterson",
-        "desc": "Three judges from Victoria's Court of Appeal will hand down their judgment on Erin Patterson's appeal against her murder convictions and on the prosecution's appeal over her sentence.",
-        "link": "https://www.abc.net.au/news/2026-10-30/erin-patterson-appeal-decision-live-updates/107322086"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Mushroom murderer Erin Patterson to learn her fate",
-        "desc": "Mushroom murderer Erin Patterson will learn today whether her convictions will stand or if she'll face a retrial.",
-        "link": "https://www.theage.com.au/national/mushroom-murderer-erin-patterson-to-learn-her-fate-20261030-p619wd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 2,
       "headline": "Court hears Robert John Crawford, accused of murdering wife Frances Crawford, 'kissed, held, spoke to' wife's body",
       "summary": "A jury has heard what an adulterer accused of killing his wife said after her body was found next to a ride-on lawnmower.",
       "ts": 1793306850000,
@@ -221,7 +193,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 2,
       "headline": "The warning signs before a residential cruise ship stranded passengers in Cambodia",
       "summary": "The cruise ship 'Odyssey' docked in Cambodia after the company ran out of funds. Its occupants are now stranded.",
       "ts": 1793306241000,
@@ -256,7 +228,7 @@
       ]
      },
      {
-      "id": 4,
+      "id": 3,
       "headline": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
       "summary": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy.",
       "ts": 1793283455000,
@@ -291,11 +263,11 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "The ‘Chinese spy’ who sparked panic at the White House",
-      "summary": "A Chinese businesswoman who had a close relationship with Nvidia chief Jensen Huang was suspected of passing intelligence to Beijing. Donald Trump’s reaction is under scrutiny.",
-      "ts": 1793314668000,
-      "img": "https://static.ffx.io/images/$zoom_1.5362141816885309%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_278%2C$y_235/t_crop_custom/q_86%2Cf_auto/23d10439e5eff15a71c6dd4944981e9bec41bcb3",
+      "id": 4,
+      "headline": "Erin Patterson appeal LIVE: The ruling on the mushroom cook’s appeal and what it means for her future behind bars",
+      "summary": "Three Court of Appeal justices have handed down their decision and Erin Patterson, sitting in a small room near a window in prison, has learned her fate. Follow our live updates.",
+      "ts": 1793316151000,
+      "img": "https://static.ffx.io/images/$zoom_0.7458892668178383%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_3%2C$y_26/t_crop_custom/q_86%2Cf_auto/d2d45b6116caabdce2f7a3da42e353aa3558bb00",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -303,18 +275,46 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Trick or Trump! Donald and Melania hand out candy to adorable trick-or-treaters as Air Force One swoops over spooky White House",
-        "desc": "The themes of Harry Potter, Game of Thrones, Jaws and other spooky serenades sang out from violins and cellos courtesy of the US Air Force Strolling Strings.",
-        "link": "https://www.dailymail.com/news/article-16250437/Air-Force-One-buzzes-spooky-White-House-Donald-Trump-Melania-hand-candy-Halloween.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
         "outlet": "The Age",
         "lean": "left",
-        "title": "The ‘Chinese spy’ who sparked panic at the White House",
-        "desc": "A Chinese businesswoman who had a close relationship with Nvidia chief Jensen Huang was suspected of passing intelligence to Beijing. Donald Trump’s reaction is under scrutiny.",
-        "link": "https://www.theage.com.au/technology/the-chinese-spy-suspected-of-targeting-nvidia-s-chief-20261030-p619w4.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Erin Patterson appeal LIVE: The ruling on the mushroom cook’s appeal and what it means for her future behind bars",
+        "desc": "Three Court of Appeal justices have handed down their decision and Erin Patterson, sitting in a small room near a window in prison, has learned her fate. Follow our live updates.",
+        "link": "https://www.theage.com.au/national/victoria/erin-patterson-appeal-live-mushroom-killer-attempts-to-appeal-triple-murder-charges-20261030-p619ol.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Bachelor star Sam Wood seeks bail after almost a month behind bars over alleged attack on wife Snezana while on holiday in Noosa",
+        "desc": "Former The Bachelor star Sam Wood will face the Supreme Court in a bid for bail after he was charged with domestic violence offences against his wife, Snezana.",
+        "link": "https://www.dailymail.com/news/article-16250503/Bachelor-star-Sam-Wood-seeks-bail-month-bars-alleged-attack-wife-Snezana-holiday-Noosa.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Erin Patterson loses appeal for triple murder conviction over mushroom murders",
+      "summary": "The 51-year-old mother was found guilty of using death cap mushrooms to kill three people.",
+      "ts": 1793315708000,
+      "img": "https://images.7news.com.au/publication/C-23087830/c100c033beaf29ec987367da537b9e6f78d629f4-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Erin Patterson loses appeal for triple murder conviction over mushroom murders",
+        "desc": "The 51-year-old mother was found guilty of using death cap mushrooms to kill three people.",
+        "link": "https://7news.com.au/news/erin-patterson-loses-appeal-for-triple-murder-conviction-over-mushroom-murders-c-23087830"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Erin Patterson appeal live updates: Victorian woman loses bid to overturn triple-murder convictions over deadly mushroom-laced meal",
+        "desc": "Court of appeal ruling on the two appeals from 10am in the high profile Australian mushroom triple-murder case Erin Patterson to learn if she could face retrial or longer jail term Erin Patterson has lost her bid to overturn her convictions, with the court finding unsuccessful or rejecting all seven grounds her lawyers had argued. The director of public prosecution has succeeded and Paterson will ",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/30/erin-patterson-appeal-live-updates-australia-mushroom-murders-case-retrial-bid-latest-news-ntwnfb"
        }
       ]
      },
@@ -322,7 +322,7 @@
       "id": 6,
       "headline": "I’ve mailed off my vote in the US midterms. It will be a nail-biting watch, but easier from outside Trump’s America | Eleanor Limprecht",
       "summary": "I’m hopeful these elections will be a win for democracy rather than dictatorship, for peace rather than war, and humanity rather than hubris Recently I made my own envelope out of a sheet of paper and sticky tape, signed it and affixed a sticker. Then I took it to my nearest Australia Post shop in Sydney and mailed it. In other words, I voted from abroad in the US midterm elections. Because my las",
-      "ts": 1793314450000,
+      "ts": 1793315703000,
       "img": "https://i.guim.co.uk/img/media/b9a370a27cb700fa27a999f0950032bea361cbd0/393_0_6648_5321/master/6648.jpg?width=460&quality=85&auto=format&fit=max&s=0be24ea1c17dcd3b646341235fa277f9",
       "divergent": null,
       "left_view": null,
@@ -667,41 +667,6 @@
     "stories": [
      {
       "id": 19,
-      "headline": "ASX to rise as Coles flags slowing sales growth; Alphabet plunges 13pc",
-      "summary": "$US500 billion wiped from Google parent after earnings miss; Intel dives 22pc amid PC slump; Rio Tinto suspends Oyu Tolgoi mine operations; ECB head resigns. Follow live updates.",
-      "ts": 1793314325000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX to rise as Coles flags slowing sales growth; Alphabet plunges 13pc",
-        "desc": "$US500 billion wiped from Google parent after earnings miss; Intel dives 22pc amid PC slump; Rio Tinto suspends Oyu Tolgoi mine operations; ECB head resigns. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-alphabet-plunges-13pc-amazon-to-report-20261030-p619vm?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX set to rise, Alphabet’s historic plunge weighs down Wall Street; ECB chief Lagarde to exit",
-        "desc": "A potentially historic drop for Alphabet’s stock is dragging the US market lower after the company behind Google and YouTube reported weaker growth than analysts expected.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Wall Street law firm that handled Enron, Lehman Brothers bankruptcies plans to dissolve after nearly a century",
-        "desc": "Major law firm Weil, Gotshal & Manges plans an orderly wind-down after losing top attorneys, with partners expected to vote on the proposal in the coming days.",
-        "link": "https://www.foxbusiness.com/economy/wall-street-law-firm-handled-enron-lehman-brothers-bankruptcies-plans-dissolve-nearly-century"
-       }
-      ]
-     },
-     {
-      "id": 20,
       "headline": "Federal Reserve makes interest rate decision ahead of midterms",
       "summary": "Federal Reserve policymakers left interest rates unchanged at their October meeting ahead of next week's midterm elections while inflation remains elevated.",
       "ts": 1793235849000,
@@ -736,6 +701,34 @@
       ]
      },
      {
+      "id": 20,
+      "headline": "ASX set to rise, Alphabet’s historic plunge weighs down Wall Street; ECB chief Lagarde to exit",
+      "summary": "A potentially historic drop for Alphabet’s stock is dragging the US market lower after the company behind Google and YouTube reported weaker growth than analysts expected.",
+      "ts": 1793310279000,
+      "img": "https://static.ffx.io/images/$zoom_0.1833%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_181%2C$y_193/t_crop_custom/q_86%2Cf_auto/1c5c0f4c0e33697d44e1f0022b4fd5eea6d57ae2",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set to rise, Alphabet’s historic plunge weighs down Wall Street; ECB chief Lagarde to exit",
+        "desc": "A potentially historic drop for Alphabet’s stock is dragging the US market lower after the company behind Google and YouTube reported weaker growth than analysts expected.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Wall Street law firm that handled Enron, Lehman Brothers bankruptcies plans to dissolve after nearly a century",
+        "desc": "Major law firm Weil, Gotshal & Manges plans an orderly wind-down after losing top attorneys, with partners expected to vote on the proposal in the coming days.",
+        "link": "https://www.foxbusiness.com/economy/wall-street-law-firm-handled-enron-lehman-brothers-bankruptcies-plans-dissolve-nearly-century"
+       }
+      ]
+     },
+     {
       "id": 21,
       "headline": "Scrapped Firmus float casts doubt on billions in AI data centre builds",
       "summary": "Billions of dollars in commitments to buy AI chips by Firmus are in doubt as a result of the Australian data centre company's stalled attempt to go public, according to records filed with the financial regulator.",
@@ -765,52 +758,10 @@
      },
      {
       "id": 22,
-      "headline": "Property down turn blows $5b hole in Victorian budget",
-      "summary": "Government spending has soared $7 billion over the forward estimates compared to the May budget, raising serious questions over Premier Ben Carroll’s pledge to rein in expenditure.",
-      "ts": 1793314791000,
-      "img": "https://static.ffx.io/images/$zoom_0.3236%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_211%2C$y_0/t_crop_custom/q_86%2Cf_auto/5dae61c7e8e1d2aa2a389573408854390bb64344",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Property down turn blows $5b hole in Victorian budget",
-        "desc": "Government spending has soared $7 billion over the forward estimates compared to the May budget, raising serious questions over Premier Ben Carroll’s pledge to rein in expenditure.",
-        "link": "https://www.afr.com/politics/property-down-turn-blows-5b-hole-in-victorian-budget-20261030-p619xk?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Why investors are looking at private markets – and infrastructure",
-      "summary": "Investors do not have to look far to see the vital role that private investments can play in portfolios today.",
-      "ts": 1793314578000,
-      "img": "https://static.ffx.io/images/$zoom_0.9127%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_142%2C$y_0/t_crop_custom/q_86%2Cf_auto/1b26d06f521fc067e466ea6973d00165d379e93d757362f6b888c7840b166de0",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Why investors are looking at private markets – and infrastructure",
-        "desc": "Investors do not have to look far to see the vital role that private investments can play in portfolios today.",
-        "link": "https://www.afr.com/companies/financial-services/why-investors-are-looking-at-private-markets-and-infrastructure-20261030-p61730?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Permit seeks higher antibiotic dosage for diseased Tasmania salmon",
-      "summary": "An animal health company has applied to \"increase the dose rate\" of the controversial antibiotic florfenicol in Tasmanian salmon farms, the federal regulator has confirmed.",
-      "ts": 1793313609000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/fad4fd3c97c0628ddef9b599fe074de6?impolicy=wcms_crop_resize&cropH=714&cropW=1270&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Youth want a voice amid controversial fracking and mining proposals",
+      "summary": "As proposals to mine and frack are put forward in regional Australia, young people say their voices are going unheard.",
+      "ts": 1793315454000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/942672b1672f6bfe72e798813bddf8a2?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -820,9 +771,51 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Permit seeks higher antibiotic dosage for diseased Tasmania salmon",
-        "desc": "An animal health company has applied to \"increase the dose rate\" of the controversial antibiotic florfenicol in Tasmanian salmon farms, the federal regulator has confirmed.",
-        "link": "https://www.abc.net.au/news/2026-10-30/tasmanian-salmon-increased-florfenicol-use-request/107321996"
+        "title": "Youth want a voice amid controversial fracking and mining proposals",
+        "desc": "As proposals to mine and frack are put forward in regional Australia, young people say their voices are going unheard.",
+        "link": "https://www.abc.net.au/news/2026-10-30/limestone-coast-mining-fracking-youth-future/107016874"
+       }
+      ]
+     },
+     {
+      "id": 23,
+      "headline": "ASX rises; Coles plunges 10pc at market open",
+      "summary": "Shares rise, insulated from overseas tech slump after Google parent sheds 13pc; Coles update misses expectations; Rio Tinto suspends Oyu Tolgoi mine operations. Follow live updates.",
+      "ts": 1793315038000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX rises; Coles plunges 10pc at market open",
+        "desc": "Shares rise, insulated from overseas tech slump after Google parent sheds 13pc; Coles update misses expectations; Rio Tinto suspends Oyu Tolgoi mine operations. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-alphabet-plunges-13pc-amazon-to-report-20261030-p619vm?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "The people running the most consequential election in Victoria",
+      "summary": "When Victorian voters head to the polls on November 28, they will be delivering history. So, who is running the campaigns of the Labor and Liberal parties?",
+      "ts": 1793314922000,
+      "img": "https://static.ffx.io/images/$zoom_0.5883%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_24/t_crop_custom/q_86%2Cf_auto/342e8f83a7af047bc1716db43ff7350618eb2321",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "The people running the most consequential election in Victoria",
+        "desc": "When Victorian voters head to the polls on November 28, they will be delivering history. So, who is running the campaigns of the Labor and Liberal parties?",
+        "link": "https://www.afr.com/politics/the-people-running-the-most-consequential-election-in-victoria-20261029-p6181e?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -871,7 +864,7 @@
       "id": 26,
       "headline": "Grealish dropped by Everton after 'breach of club discipline'",
       "summary": "Jack Grealish is left out of Everton's Carabao Cup tie with Newcastle United on Thursday \"due to a breach of club discipline\".",
-      "ts": 1793312443000,
+      "ts": 1793314639000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ff6/live/0d5fec70-d3ce-11f1-9c32-1532a6164171.png",
       "divergent": null,
       "left_view": null,
@@ -882,9 +875,9 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Everton 3-1 Newcastle: Carabao Cup fourth round – as it happened",
-        "desc": "⚽ Everton dispatch the 2025 winners without too much fuss ⚽ Grealish misses last-16 tie over ‘breach of discipline’ 2 min: Dewsbury-Hall shoots. Deflected. Nothing comes of the corner. Everton are playing in blue, Newcastle a pinky purple. The match begins. Sky’s red-button treatment of this game, squirrelled away deep in its planner, is little short of a disgrace. Continue reading...",
-        "link": "https://www.theguardian.com/football/live/2026/oct/29/everton-v-newcastle-carabao-cup-fourth-round-live"
+        "title": "Everton drop Jack Grealish from Carabao Cup tie over ‘breach of club discipline’",
+        "desc": "England player left out of squad to face Newcastle Moyes confirms he ‘supports’ the club decision Jack Grealish was dropped from Everton’s Carabao Cup win over Newcastle following a breach of club discipline. Everton took the unusual step of announcing that Grealish’s omission from the fourth-round tie was for disciplinary reasons on social media, after listing David Moyes’s team for the fourth-ro",
+        "link": "https://www.theguardian.com/football/2026/oct/29/jack-grealish-axed-everton-breach-club-discipline-newcastle-caraboao-cup"
        },
        {
         "outlet": "BBC Sport",
@@ -897,6 +890,34 @@
      },
      {
       "id": 27,
+      "headline": "PSG score late to hold struggling Man City",
+      "summary": "Manchester City concede late to a draw 1-1 with Paris St-Germain, as their wait for a win in the Women's Champions League this season continues.",
+      "ts": 1793313617000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2032/live/17c3a580-d3e7-11f1-a701-fddedf244c16.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "PSG score late to hold struggling Man City",
+        "desc": "Manchester City concede late to a draw 1-1 with Paris St-Germain, as their wait for a win in the Women's Champions League this season continues.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Manchester City 1-1 Paris Saint-Germain: Women’s Champions League – as it happened",
+        "desc": "Tara Elimbi Gilbert scores late to cancel out Bunny Shaw’s penalty 4 min: City have the first real chance as they try and find Shaw in the box but Karchaoui marshals the threat well. The hosts come again with Fujino finding the Jamaica international but she can’t connect with the cross. 2 min: Can you believe this is the first time these two clubs have met? That fun fact blew my mind a bit. Both t",
+        "link": "https://www.theguardian.com/football/live/2026/oct/29/manchester-city-v-paris-saint-germain-womens-champions-league-live"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Australia's Cape Town desperation evident on another pulsating Test day",
       "summary": "Pat Cummins and Australia show just how much winning this series in South Africa means to them as the third Test is set up for a gripping finale.",
       "ts": 1793306358000,
@@ -924,7 +945,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 29,
       "headline": "Duckett and Dawson deliver in England's consolation win",
       "summary": "Ben Duckett hits 167 and Liam Dawson takes four wickets as England end the tri-series with victory over Sri Lanka.",
       "ts": 1793292412000,
@@ -952,7 +973,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Fresh details emerge surrounding Steve Smith’s scary injury: ‘Shooting pain in neck’",
       "summary": "The vice-captain took a pain-killing injection in a last-ditch bid to play, but that made things worse.",
       "ts": 1793264627000,
@@ -978,34 +999,6 @@
         "link": "https://www.abc.net.au/news/2026-10-29/steve-smith-neck-injury-confirmed-by-scans/107321994"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "Brewers complete underdog story with maiden World Series title",
-      "summary": "The small-ball Milwaukee Brewers, playing in the smallest market in the majors, are World Series champions for the first time.",
-      "ts": 1793250029000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1e048cb94bcc0c076f21fd138d9ddb9a?impolicy=wcms_crop_resize&cropH=2222&cropW=3951&xPos=0&yPos=244&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Brewers complete underdog story with maiden World Series title",
-        "desc": "The small-ball Milwaukee Brewers, playing in the smallest market in the majors, are World Series champions for the first time.",
-        "link": "https://www.abc.net.au/news/2026-10-29/milwaukee-brewers-world-series-victory/107324300"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Milwaukee Brewers end 58-year wait to finally clinch first World Series with win over Tampa Bay Rays",
-        "desc": "The perennial underdogs have been crowned champions for the first time in franchise history.",
-        "link": "https://7news.com.au/sport/baseball/milwaukee-brewers-end-58-year-wait-to-finally-clinch-first-world-series-with-win-over-tampa-bay-rays-c-23088992"
-       }
-      ]
      }
     ]
    },
@@ -1015,6 +1008,34 @@
     "stories": [
      {
       "id": 31,
+      "headline": "French Action Film ‘Red Bird’ Lands CIS Deal as D.C. Romance ‘Step Back, Doors Closing’ Bows at Tokyo Market (EXCLUSIVE)",
+      "summary": "A French action film and an American indie romance are both up for grabs with international buyers at the Tokyo International Film Festival’s TIFFCOM market. Cappu Films has sold “Red Bird” to Kinologistika LLC for the CIS region, which covers Russia and other former Soviet states, and has taken on international sales for “Step Back, […]",
+      "ts": 1793315797000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/Red-Bird.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "French Action Film ‘Red Bird’ Lands CIS Deal as D.C. Romance ‘Step Back, Doors Closing’ Bows at Tokyo Market (EXCLUSIVE)",
+        "desc": "A French action film and an American indie romance are both up for grabs with international buyers at the Tokyo International Film Festival’s TIFFCOM market. Cappu Films has sold “Red Bird” to Kinologistika LLC for the CIS region, which covers Russia and other former Soviet states, and has taken on international sales for “Step Back, […]",
+        "link": "https://variety.com/2026/film/markets-festivals/french-actioner-red-bird-cis-deal-dc-romance-tokyo-1236934672/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Chiikawa Anime Film Rises Back to #2, Made in Abyss: Mezameru Shinpi Anime Film Opens at #6",
+        "desc": "Live-action In the Clear Moonlit Dusk film opens at #4",
+        "link": "https://www.animenewsnetwork.com/news/2026-10-29/chiikawa-anime-film-rises-back-to-no.2-made-in-abyss-mezameru-shinpi-anime-film-opens-at-no.6/.243244"
+       }
+      ]
+     },
+     {
+      "id": 32,
       "headline": "Nathan Fillion’s Original DC Character Return Addressed By James Gunn After Guy Gardner Recast",
       "summary": "James Gunn offers an update on the chances of Nathan Fillion reprising his original DC role after getting recast in his new role of Guy Gardner.",
       "ts": 1793314372000,
@@ -1042,7 +1063,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 33,
       "headline": "Channing Dungey To Oversee Warner Bros. International TV Production As Division Moves Under Skydance TV Studios",
       "summary": "Warner Bros. International TV Production, the division that operates around 20 production companies around the world that make international versions of formats such as The Bachelor, has a new home within Skydance. The unit, which is run by President Ronald Goes, will sit under Skydance TV Studios and will be overseen by Warner Bros. Television […]",
       "ts": 1793311980000,
@@ -1070,7 +1091,7 @@
       ]
      },
      {
-      "id": 33,
+      "id": 34,
       "headline": "Patrick Stewart’s Final Movie Is ‘Avengers: Doomsday’; He Said Before His Death That ‘I Can’t Imagine Retiring. I’ll Forever Be an Actor’",
       "summary": "Patrick Stewart’s final movie role will be in the upcoming “Avengers: Doomsday,” which marks his ninth time playing the “X-Men” character Charles Xavier on the big screen. Marvel Studios confirmed the news in their tribute to the late actor, who died at 86 years old after a brief battle with Alzheimer’s and Lewy Body Dementia. […]",
       "ts": 1793311509000,
@@ -1098,7 +1119,7 @@
       ]
      },
      {
-      "id": 34,
+      "id": 35,
       "headline": "Byron Allen Earns Profit After Selling All the Starz Stock He Bought From Steven Mnuchin",
       "summary": "Buy low, sell high: Investor and media entrepreneur Byron Allen has sold all of the shares in Starz that he had acquired earlier this year from Steve Mnuchin, the former Hollywood producer who served as Treasury Secretary during President Trump’s first term. He sold all 1.8 million shares of Starz he had owned over the […]",
       "ts": 1793309475000,
@@ -1126,39 +1147,11 @@
       ]
      },
      {
-      "id": 35,
-      "headline": "Amazon Shares Fall On Q3 Earnings Miss As Big Tech Market Rout Continues",
-      "summary": "Amazon shares fell as much as 9% in after-market trading Thursday after the tech giant reported third-quarter earnings below Wall Street analysts’ expectations. Earnings per share came in at $1.89 on a diluted basis, down from $1.95 in the year-ago quarter, while total revenue climbed 12% to $201.9 billion. The consensus forecast from analysts called […]",
-      "ts": 1793305666000,
-      "img": "https://deadline.com/wp-content/uploads/2022/11/Amazon-HQ-headquarters.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Amazon Shares Fall On Q3 Earnings Miss As Big Tech Market Rout Continues",
-        "desc": "Amazon shares fell as much as 9% in after-market trading Thursday after the tech giant reported third-quarter earnings below Wall Street analysts’ expectations. Earnings per share came in at $1.89 on a diluted basis, down from $1.95 in the year-ago quarter, while total revenue climbed 12% to $201.9 billion. The consensus forecast from analysts called […]",
-        "link": "https://deadline.com/2026/10/amazon-q3-2026-earnings-miss-wall-street-tech-stocks-1237208697/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Amazon Ad Revenue Growth Slows in Q3, Ecommerce Giant Undershoots Earnings Estimates",
-        "desc": "Amazon saw slowed growth in its advertising revenue in the year’s third quarter, claiming its decision to host Prime Day for most larger countries in the year’s second quarter and unfavorable foreign exchange rates contributed to a softer earnings report than Wall Street analysts expected. The past four quarters for Amazon’s advertising segment saw growth […]",
-        "link": "https://variety.com/2026/digital/news/amazon-q3-2026-earnings-1236934415/"
-       }
-      ]
-     },
-     {
       "id": 36,
-      "headline": "Steam's Newest Free RPG Is A Gorgeous Pixel-Art Fantasy Adventure",
-      "summary": "A free-to-play pixel-art RPG is coming to Steam, featuring food-themed monsters, turn-based combat, and real food rewards. What could be better?",
-      "ts": 1793314818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/steam.jpg",
+      "headline": "Every Movie Releasing In Theaters In November 2026",
+      "summary": "November 2026 is kicking off the holiday season with a Christmas movie, a new Hunger Games movie, a Disney animated movie, and a lot more.",
+      "ts": 1793315388000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/snow-in-the-hunger-games-sunrise-of-the-reaping.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1168,9 +1161,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Steam's Newest Free RPG Is A Gorgeous Pixel-Art Fantasy Adventure",
-        "desc": "A free-to-play pixel-art RPG is coming to Steam, featuring food-themed monsters, turn-based combat, and real food rewards. What could be better?",
-        "link": "https://screenrant.com/steam-new-free-rpg-pixel-art/"
+        "title": "Every Movie Releasing In Theaters In November 2026",
+        "desc": "November 2026 is kicking off the holiday season with a Christmas movie, a new Hunger Games movie, a Disney animated movie, and a lot more.",
+        "link": "https://screenrant.com/every-movie-coming-to-theaters-in-november-2026/"
        }
       ]
      }
@@ -1179,34 +1172,34 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
-   "The Age",
    "Crikey",
    "ABC News",
+   "The Age",
    "BBC World",
-   "Guardian AU Politics",
-   "Fox News",
    "The Age Federal Politics",
-   "Fox News Politics",
-   "7News",
-   "Ars Technica",
+   "Fox News",
    "Guardian Tech",
+   "Fox News Politics",
    "BBC Tech",
-   "The Age Business",
-   "The Conversation",
+   "Ars Technica",
    "The Verge",
-   "Guardian AU Business",
-   "Fox Business",
+   "Guardian AU Politics",
+   "ABC Business",
    "AFR",
+   "Fox Business",
+   "The Conversation",
+   "7News",
    "ABC Sport",
    "Deadline",
    "Variety",
-   "Guardian AU Sport",
-   "Guardian Film",
-   "ABC Business",
    "BBC Sport",
+   "Guardian Film",
+   "Guardian AU Sport",
+   "Guardian AU Business",
    "Screen Rant",
-   "SBS News",
+   "The Age Business",
    "Anime News Network",
+   "SBS News",
    "7News Sport",
    "Daily Mail Australia"
   ],
@@ -1404,7 +1397,7 @@
   {
    "title": "Nintendo Switch 2 + Mario Kart World Bundle $649 @ Kmart",
    "link": "https://www.ozbargain.com.au/node/980857",
-   "votes": 262,
+   "votes": 267,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793258494000
@@ -1412,7 +1405,7 @@
   {
    "title": "Samsung Galaxy S26 FE 8GB RAM/128GB Storage $486.81 (with Loyalty Voucher, RRP $1149) Delivered @ Samsung EPP",
    "link": "https://www.ozbargain.com.au/node/980884",
-   "votes": 216,
+   "votes": 218,
    "neg": 0,
    "category": "Mobile",
    "ts": 1793277515000
@@ -1420,7 +1413,7 @@
   {
    "title": "[Back Order] Mac Studio: M5 Ultra 36C CPU, 80C GPU, 512GB RAM from $31489 for 1TB SSD Model Delivered @ Apple Education",
    "link": "https://www.ozbargain.com.au/node/980818",
-   "votes": 196,
+   "votes": 197,
    "neg": 1,
    "category": "Computing",
    "ts": 1793242834000
@@ -1428,7 +1421,7 @@
   {
    "title": "$20 Amazon Promo Credit on $200 Apple eGift Card Spend @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/980856",
-   "votes": 138,
+   "votes": 140,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1793258108000
@@ -1436,7 +1429,7 @@
   {
    "title": "Microsoft Surface Laptop Ultra, 128GB Unified Memory (Nvidia RTX Spark N1X) $9,166.55 Delivered @ Microsoft Store (Education)",
    "link": "https://www.ozbargain.com.au/node/980866",
-   "votes": 73,
+   "votes": 74,
    "neg": 0,
    "category": "Computing",
    "ts": 1793261488000
@@ -1444,7 +1437,7 @@
   {
    "title": "[PC, Linux, Steam] Free - Hexologic @ Steam",
    "link": "https://www.ozbargain.com.au/node/980897",
-   "votes": 66,
+   "votes": 70,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793293212000
@@ -1452,7 +1445,7 @@
   {
    "title": "[Android, Epic] Free - Galaxy Kart @ Epic Games",
    "link": "https://www.ozbargain.com.au/node/980895",
-   "votes": 62,
+   "votes": 67,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793286387000
@@ -1466,20 +1459,20 @@
    "ts": 1793250303000
   },
   {
+   "title": "Singapore Air to Singapore Rtn: PER $522, DRW $530, BNE $685, ADL $692, MEL $710, CNS $719, SYD $753 & More (Nov-Sep) @ BTF",
+   "link": "https://www.ozbargain.com.au/node/980876",
+   "votes": 53,
+   "neg": 0,
+   "category": "Travel",
+   "ts": 1793267031000
+  },
+  {
    "title": "Apple iPhone 17 Pro Max 256GB $1799.99 Delivered @ Costco Wholesale (Membership Required)",
    "link": "https://www.ozbargain.com.au/node/980812",
    "votes": 53,
    "neg": 0,
    "category": "Mobile",
    "ts": 1793239257000
-  },
-  {
-   "title": "Singapore Air to Singapore Rtn: PER $522, DRW $530, BNE $685, ADL $692, MEL $710, CNS $719, SYD $753 & More (Nov-Sep) @ BTF",
-   "link": "https://www.ozbargain.com.au/node/980876",
-   "votes": 52,
-   "neg": 0,
-   "category": "Travel",
-   "ts": 1793267031000
   },
   {
    "title": "DeWalt TStak VI Deep Power Tool Storage Box DWST1-71195 $24.95 In Store Only @ Sydney Tools",
