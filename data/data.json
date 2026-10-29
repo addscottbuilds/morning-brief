@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T23:40:20.629Z",
+ "generatedAt": "2026-10-29T00:20:14.743Z",
  "markets": {
   "items": [
    {
@@ -7,65 +7,81 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8888.5,
-    "chgPct": 0.43389783527771913,
+    "price": 8899.6,
+    "chgPct": 0.5593201524259015,
     "high52": 9296.7,
-    "off52": -4.390805339529088
+    "off52": -4.271408134069081
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.7,
-    "chgPct": -0.2328306429874153,
+    "price": 85.63,
+    "chgPct": -0.31432074631287177,
     "high52": 88,
-    "off52": -2.61363636363636
+    "off52": -2.6931818181818232
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 148.36,
-    "chgPct": 0.5149009925862643,
+    "price": 148.52,
+    "chgPct": 0.6233020721145297,
     "high52": 155.03,
-    "off52": -4.302393085209307
+    "off52": -4.19918725407985
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 60.91,
-    "chgPct": -0.8464924346288374,
+    "price": 60.82,
+    "chgPct": -0.9930006546400512,
     "high52": 65.18,
-    "off52": -6.551089291193633
+    "off52": -6.689168456581783
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 35.33,
-    "chgPct": -0.05657277223289237,
+    "price": 35.2,
+    "chgPct": -0.4243238489271825,
     "high52": 47.78,
-    "off52": -26.056927584763507
+    "off52": -26.329007953118456
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7056,
-    "chgPct": 0.5214035426184135,
+    "price": 0.7052,
+    "chgPct": 0.30722809855486743,
     "high52": 0.7277,
-    "off52": -3.036965782602722
+    "off52": -3.0919334890751635
    }
   ],
   "failed": [],
   "note": "SEMI is 26% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 27.75,
+    "currency": "AUD",
+    "chgPct": 4.010493562912908
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 404.22,
+    "currency": "USD",
+    "chgPct": 3.217405913873762
+   },
    {
     "sym": "WES.AX",
     "name": "Wesfarmers",
@@ -73,6 +89,22 @@
     "price": 74.74,
     "currency": "AUD",
     "chgPct": -3.1112255751074107
+   },
+   {
+    "sym": "NFLX",
+    "name": "Netflix",
+    "market": "US",
+    "price": 61.99,
+    "currency": "USD",
+    "chgPct": -2.989047699952513
+   },
+   {
+    "sym": "META",
+    "name": "Meta",
+    "market": "US",
+    "price": 612.49,
+    "currency": "USD",
+    "chgPct": -2.8657062973479563
    },
    {
     "sym": "AVGO",
@@ -135,6 +167,76 @@
      },
      {
       "id": 1,
+      "headline": "Live: Albanese warns inflation challenges 'won't be solved overnight'",
+      "summary": "Anthony Albanese says Australia faces domestic and global pressures and is not immune to their impact. Follow live.",
+      "ts": 1793232021000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/424b3adb8af9e44c1ed40a9b016cdfcc?impolicy=wcms_crop_resize&cropH=576&cropW=1024&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Albanese bets on trade brawl to bash Coalition amid inflation woes",
+        "desc": "The prime minister has seized on Coalition dissent after this masthead revealed one Liberal warned the Nationals’ position on the EU free trade deal was “nutty”.",
+        "link": "https://www.theage.com.au/politics/federal/albanese-bets-on-trade-brawl-to-bash-coalition-amid-inflation-woes-20261029-p619lf.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Albanese warns inflation challenges 'won't be solved overnight'",
+        "desc": "Anthony Albanese says Australia faces domestic and global pressures and is not immune to their impact. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-10-29/federal-politics-live-blog-oct-29/107320104"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese government braces for latest inflation data as rate rise looms",
+        "desc": "Will it be more difficult economic news for the Albanese government? Meanwhile, new Greens leader David Shoebridge has a tax cut proposal he wants to tell everyone about, and Israel goes to the polls. The post Albanese government braces for latest inflation data as rate rise looms appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/10/28/albanese-government-inflation-rate-rise-jim-chalmers-david-shoebridge-benjamin-netanyahu/"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Crash survivors recount chaotic scenes in Europe's worst train disaster since 2013",
+      "summary": "Residents of a rural village in central Spain have rallied into action to help a massive emergency response following the most deadly rail disaster in Europe in more than a decade.",
+      "ts": 1793224064000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/8f90e1695c88edae9472274ac0c909b8?impolicy=wcms_crop_resize&cropH=1095&cropW=1946&xPos=0&yPos=52&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Crash survivors recount chaotic scenes in Europe's worst train disaster since 2013",
+        "desc": "Residents of a rural village in central Spain have rallied into action to help a massive emergency response following the most deadly rail disaster in Europe in more than a decade.",
+        "link": "https://www.abc.net.au/news/2026-10-29/spain-train-crash-urda-village-supports-victims/107321724"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "How a suspected 'inexplicable' mistake led to Spain's train disaster",
+        "desc": "The incident that has claimed at least 68 lives \"should not happen\" in a modern EU country, experts say.",
+        "link": "https://www.sbs.com.au/news/article/spain-train-crash-castilla-la-mancha-2026-explainer/1k0jpb3p3"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+        "desc": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
+        "link": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
       "summary": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
       "ts": 1793219079000,
@@ -169,38 +271,66 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Woman fatally stabbed in alleged domestic violence incident",
-      "summary": "A 53-year-old man is in custody after police found the woman, aged in her 40s, with multiple stab wounds.",
-      "ts": 1793230581000,
-      "img": "https://static.ffx.io/images/$zoom_0.1902%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/ee481cebe7d4a2258520639a983c98ea151a0e04",
+      "id": 4,
+      "headline": "Watch: King dances in the streets of the Bahamas capital",
+      "summary": "The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the \"great suffering of the past\".",
+      "ts": 1793233058000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15f2/live/2647c7b0-d30d-11f1-a701-fddedf244c16.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Sam Wood's fitness empire rebrands and unveils a new 'fresh' name in the wake of his domestic violence charges",
-        "desc": "On Wednesday, a video shared to the company's social media featured a group of well-known fitness trainers who introduced the new brand and 'fresh' look.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16247095/sam-wood-fitness-empire-rebrand-domestic-violence-charges.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Woman fatally stabbed in alleged domestic violence incident",
-        "desc": "A 53-year-old man is in custody after police found the woman, aged in her 40s, with multiple stab wounds.",
-        "link": "https://www.theage.com.au/national/nsw/woman-fatally-stabbed-in-alleged-domestic-violence-incident-20261029-p619jt.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "King Charles gets into the groove in Bahamas",
+        "desc": "The 77-year-old monarch has started his tour of the Caribbean in a jovial mood, but there are tough conversations ahead.",
+        "link": "https://www.theage.com.au/world/king-charles-gets-into-the-groove-in-bahamas-20261029-p619np.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Watch: King dances in the streets of the Bahamas capital",
+        "desc": "The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the \"great suffering of the past\".",
+        "link": "https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
-      "id": 3,
+      "id": 5,
+      "headline": "Live: US staring down December and March rate hikes as Fed leaves rates on hold",
+      "summary": "The US Federal Reserve has held interest rates unchanged at its most recent meeting, but in Australia, high inflation data means we're likely to hike. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+      "ts": 1793231697000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/2bcc5de27112144035164dd51dacf77e?impolicy=wcms_crop_resize&cropH=530&cropW=942&xPos=0&yPos=14&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "ASX rises, Fed keeps rates on hold despite inflation surge",
+        "desc": "The Australian sharemarket has made a bright start this morning on the back of a positive lead from Wall Street after the Federal Reserve, as expected, kept interest rates on hold.",
+        "link": "https://www.theage.com.au/business/markets/fed-keeps-rates-on-hold-asx-set-to-rise-wall-street-steady-20261029-p619jc.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: US staring down December and March rate hikes as Fed leaves rates on hold",
+        "desc": "The US Federal Reserve has held interest rates unchanged at its most recent meeting, but in Australia, high inflation data means we're likely to hike. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-10-29/asx-markets-business-live-news-29-october-2026/107321622"
+       }
+      ]
+     },
+     {
+      "id": 6,
       "headline": "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
       "summary": "High-speed service travelling from Madrid to Seville ran into back of another, knocking two carriages off track The Spanish prime minister has declared three days of mourning after at least 68 people were killed and dozens more injured in a collision between two high-speed trains that officials suggested was caused by an “inexplicable” error at the central command centre. The trains, one from Spai",
-      "ts": 1793229984000,
+      "ts": 1793231304000,
       "img": "https://i.guim.co.uk/img/media/d28665ea56d701cb26a0e865a3faf8ea726c2a42/474_0_2370_1896/master/2370.jpg?width=460&quality=85&auto=format&fit=max&s=654c9bf4ef1556b1c56605fdf9da7270",
       "divergent": null,
       "left_view": null,
@@ -223,90 +353,6 @@
         "link": "https://www.theguardian.com/world/2026/oct/28/spain-train-crash-high-speed-toledo"
        }
       ]
-     },
-     {
-      "id": 4,
-      "headline": "Helen Haines's offices reopen after event that shocked nation",
-      "summary": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
-      "ts": 1793229954000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e3269374e7c73c0f1451c666760ba3ac?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Claim from man accused of mowing down MP Helen Haines in horror attack that cost her both legs: 'Accident'",
-        "desc": "Brendan Nugent, 43, is accused of ramming his Toyota LandCruiser into MP Helen Haines outside her office in Wangaratta on October 19 in what police alleged was a deliberate attack.",
-        "link": "https://www.dailymail.com/news/article-16247151/helen-haines-brendan-nugent-alleged-attack-new-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Helen Haines's offices reopen after event that shocked nation",
-        "desc": "Helen Haines's staff, some of whom rushed to her aid after witnessing the incident that cost her both her legs, say they want to ensure the community is supported.",
-        "link": "https://www.abc.net.au/news/2026-10-29/indi-mp-helen-haines-offices-reopen-after-attack/107313698"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-      "summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-      "ts": 1793229708000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
-        "desc": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
-        "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Flávio Bolsonaro lands in Miami after fleeing Brazil following election loss",
-        "desc": "Brazilian President Luiz Inácio Lula da Silva labelled his rival's departure from Brazil \"shameful\".",
-        "link": "https://www.sbs.com.au/news/article/flavio-bolsonaro-lands-in-miami-after-fleeing-brazil-following-election-loss/8p2y68aoq"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
-      "summary": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
-      "ts": 1793229055000,
-      "img": "https://images.7news.com.au/publication/C-23085436/dfd59ae591890cf4e800e18cc626c03ccf958bea-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Beau Lamarre-Condon's cop friend tearfully describes the moment she realised he was a suspect in alleged double murder: 'He's here!'",
-        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16247361/Beau-Lamarre-Condon-murder-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Robert Crawford murder trial hears claims wife Frances feared divorce as details of alleged break-in emerge",
-        "desc": "A former air force pilot stands accused of murdering his wife and staging her death as a lawnmower accident, as disturbing new details emerge in court.",
-        "link": "https://7news.com.au/news/robert-crawford-murder-trial-hears-claims-wife-frances-feared-divorce-as-details-of-alleged-break-in-emerge-c-23085436"
-       }
-      ]
      }
     ]
    },
@@ -316,66 +362,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Chalmers weighs infrastructure cuts as inflation locks in Cup Day rate hike",
-      "summary": "The highest monthly jump since March puts intense pressure on the Reserve Bank to deliver another interest rate increase when it meets next Tuesday.",
-      "ts": 1793171185000,
-      "img": "https://static.ffx.io/images/$zoom_0.2321%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_14%2C$y_70/t_crop_custom/q_86%2Cf_auto/630b0273b9b78895e7baad693ec0df0d604de95a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Chalmers weighs infrastructure cuts as inflation locks in Cup Day rate hike",
-        "desc": "The highest monthly jump since March puts intense pressure on the Reserve Bank to deliver another interest rate increase when it meets next Tuesday.",
-        "link": "https://www.theage.com.au/politics/federal/inflation-jumps-to-4-3-per-cent-fuelling-prospect-of-cup-day-rate-rise-20261028-p6196m.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Jim Chalmers is blaming Australia’s accelerating inflation on Trump – but voters aren’t buying it",
-        "desc": "As next week’s all but certain rate rise looms, there is one thing we can all agree on: the end of war in the Middle East can’t come soon enough Get our daily political email, free app or daily news podcast Jim Chalmers is blaming the latest shocking inflation figures on the worsening Middle East conflict, and he has a point. The trouble is, voters aren’t buying what the treasurer is selling. Cont",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/28/jim-chalmers-is-blaming-australias-accelerating-inflation-on-trump-but-voters-arent-buying-it"
-       }
-      ]
-     },
-     {
-      "id": 8,
-      "headline": "‘Are you waiting for me to be attacked?’ Fatima Payman slams PM over staffing",
-      "summary": "Albanese promises ‘swift response’ on MP safety as he mulls panic buttons for politicians Follow our Australian politics live blog for latest updates Get our daily political email, free app or daily news podcast Anthony Albanese has promised a “swift government response” to safety threats to MPs and floated the provision of duress alarms for electorate offices, saying politicians and their staff h",
-      "ts": 1793154316000,
-      "img": "https://i.guim.co.uk/img/media/da18bd0e34fb04e6b9a8548f96ae0d8207f048bb/930_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=da7379fd3f4a4e2d2443dc75ac72d505",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Payman apologises to Haines over attack comments, doubles down on staffing demand",
-        "desc": "The senator reached out directly to independent MP Helen Haines, but has slammed the government for its staffing provisions.",
-        "link": "https://www.theage.com.au/politics/federal/payman-apologises-to-haines-over-attack-comments-doubles-down-on-staffing-demand-20261028-p619ar.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "‘Are you waiting for me to be attacked?’ Fatima Payman slams PM over staffing",
-        "desc": "Albanese promises ‘swift response’ on MP safety as he mulls panic buttons for politicians Follow our Australian politics live blog for latest updates Get our daily political email, free app or daily news podcast Anthony Albanese has promised a “swift government response” to safety threats to MPs and floated the provision of duress alarms for electorate offices, saying politicians and their staff h",
-        "link": "https://www.theguardian.com/australia-news/2026/oct/27/albanese-promises-swift-response-on-mp-safety-as-he-mulls-panic-buttons-for-politicians-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "Australian politics live: Man cautioned after allegedly stalking female Labor MPs; PM dismisses Costello criticism",
+      "headline": "Australian politics live: Labor says ATO could have handled credit card ban better; man cautioned for allegedly stalking MPs",
       "summary": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Gas reservation policy set for lower house vote today Australia’s domestic gas reservation is set to be debated and voted on in the lower house today. Rather than international base companies, determining through algorithms what Australians receive, it empowers people themselves to determine what you receive on ",
-      "ts": 1793230743000,
-      "img": "https://i.guim.co.uk/img/media/bb0be3bec622747fc31de09618f7d7eddb8b24b1/710_0_3550_2840/master/3550.jpg?width=460&quality=85&auto=format&fit=max&s=cbeda6e1e3073ee8e8457679988e0af6",
+      "ts": 1793233070000,
+      "img": "https://i.guim.co.uk/img/media/a6420b2d142f6aab18e09ee1b677ceaf8c545559/829_0_4129_3305/master/4129.jpg?width=460&quality=85&auto=format&fit=max&s=ac0c60e860764ccc94a055142b7c8b4a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -385,18 +375,18 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Australian politics live: Man cautioned after allegedly stalking female Labor MPs; PM dismisses Costello criticism",
+        "title": "Australian politics live: Labor says ATO could have handled credit card ban better; man cautioned for allegedly stalking MPs",
         "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Gas reservation policy set for lower house vote today Australia’s domestic gas reservation is set to be debated and voted on in the lower house today. Rather than international base companies, determining through algorithms what Australians receive, it empowers people themselves to determine what you receive on ",
         "link": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb"
        }
       ]
      },
      {
-      "id": 10,
-      "headline": "Cracks emerge in reunited Coalition over trade deal and AI",
-      "summary": "The disruptive sway of One Nation on Coalition policy came to a head behind closed doors in Canberra this week.",
-      "ts": 1793228317000,
-      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/dbec7a7f181cf706366472feebd1ccebd28766b1",
+      "id": 8,
+      "headline": "Albanese bets on trade brawl to bash Coalition amid inflation woes",
+      "summary": "The prime minister has seized on Coalition dissent after this masthead revealed one Liberal warned the Nationals’ position on the EU free trade deal was “nutty”.",
+      "ts": 1793232021000,
+      "img": "https://static.ffx.io/images/$zoom_0.5516%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/fe4732db1d8166a2364fb41fd86fc0d501a5ef6c",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -406,9 +396,51 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Cracks emerge in reunited Coalition over trade deal and AI",
-        "desc": "The disruptive sway of One Nation on Coalition policy came to a head behind closed doors in Canberra this week.",
-        "link": "https://www.theage.com.au/politics/federal/cracks-emerge-in-reunited-coalition-over-trade-deal-and-ai-20261029-p6197x.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Albanese bets on trade brawl to bash Coalition amid inflation woes",
+        "desc": "The prime minister has seized on Coalition dissent after this masthead revealed one Liberal warned the Nationals’ position on the EU free trade deal was “nutty”.",
+        "link": "https://www.theage.com.au/politics/federal/albanese-bets-on-trade-brawl-to-bash-coalition-amid-inflation-woes-20261029-p619lf.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "Victorian state election: what’s at stake for treaty and Indigenous self-determination?",
+      "summary": "Victoria has made more progress in advancing Indigenous rights than any other jurisdiction in Australia. However, those achievements sit precariously as the state heads to an election on November 28. If Labor loses and there is a change of government, measures that have been established to support Indigenous self-determination in Victoria will likely be dismantled. Conservative parties in Victoria",
+      "ts": 1793228593000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Victorian state election: what’s at stake for treaty and Indigenous self-determination?",
+        "desc": "Victoria has made more progress in advancing Indigenous rights than any other jurisdiction in Australia. However, those achievements sit precariously as the state heads to an election on November 28. If Labor loses and there is a change of government, measures that have been established to support Indigenous self-determination in Victoria will likely be dismantled. Conservative parties in Victoria",
+        "link": "https://theconversation.com/victorian-state-election-whats-at-stake-for-treaty-and-indigenous-self-determination-294873"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Can a new government solve NZ’s local council crisis? Why a royal commission could help",
+      "summary": "Kai Schwoerer/Getty Images There is a famous truism that “all politics is local” – meaning citizens and voters care most about the things that affect their daily lives. Many of those things are bound up in the work of local councils: libraries, parks, community centres, roads, garbage removal, water drainage, sewerage, urban landscapes and clean environments. And yet, despite local government in N",
+      "ts": 1793227552000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Can a new government solve NZ’s local council crisis? Why a royal commission could help",
+        "desc": "Kai Schwoerer/Getty Images There is a famous truism that “all politics is local” – meaning citizens and voters care most about the things that affect their daily lives. Many of those things are bound up in the work of local councils: libraries, parks, community centres, roads, garbage removal, water drainage, sewerage, urban landscapes and clean environments. And yet, despite local government in N",
+        "link": "https://theconversation.com/can-a-new-government-solve-nzs-local-council-crisis-why-a-royal-commission-could-help-293705"
        }
       ]
      },
@@ -610,7 +642,7 @@
       "id": 19,
       "headline": "Fed holds US rates steady despite worsening inflation",
       "summary": "Investors expect further hikes will be needed, beginning in December, as a governor targeted by Donald Trump dissented against the decision to hold.",
-      "ts": 1793228662000,
+      "ts": 1793231697000,
       "img": "https://static.ffx.io/images/$zoom_0.693841111111111%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_119/t_crop_custom/q_86%2Cf_auto/06c793a87a40621f708927567fc1df3f68d55ff5",
       "divergent": null,
       "left_view": null,
@@ -650,6 +682,34 @@
      },
      {
       "id": 20,
+      "headline": "ATO boss ‘jumped to conclusion’ on credit card surcharge ban",
+      "summary": "Tax Commissioner says earlier consultation could have prevented credit card furore; Brendan Nugent reportedly claims no grudge against Helen Haines. Follow live.",
+      "ts": 1793231684000,
+      "img": "https://static.ffx.io/images/$zoom_0.2368%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_3/t_crop_custom/q_86%2Cf_auto/5b4d3de300f7ce76fb88b87e6de3de2974e4b09d",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australian politics live: Labor says ATO could have handled credit card ban better; man cautioned for allegedly stalking MPs",
+        "desc": "Follow the day’s news live Get our breaking news email, free app or daily news podcast Gas reservation policy set for lower house vote today Australia’s domestic gas reservation is set to be debated and voted on in the lower house today. Rather than international base companies, determining through algorithms what Australians receive, it empowers people themselves to determine what you receive on ",
+        "link": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ATO boss ‘jumped to conclusion’ on credit card surcharge ban",
+        "desc": "Tax Commissioner says earlier consultation could have prevented credit card furore; Brendan Nugent reportedly claims no grudge against Helen Haines. Follow live.",
+        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-netanyahu-edges-ahead-in-israel-election-death-toll-rises-in-spain-crash-20261029-p619j2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 21,
       "headline": "ASX ends flat as inflation boosts rate rise bets; tech stocks rally",
       "summary": "The Australian sharemarket erased its morning gains after the release of the nation’s latest inflation figures increased pressure on the Reserve Bank to lift interest rates next week.",
       "ts": 1793196006000,
@@ -677,7 +737,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 22,
       "headline": "Chalmers lowers expectations for fuel discounts after high inflation result",
       "summary": "Faced with another high inflation result and the likelihood of a rate hike next Tuesday, Treasurer Jim Chalmers calls for \"perspective\" and points to external factors.",
       "ts": 1793167104000,
@@ -705,7 +765,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "Federal government invests $180m in rare earths mine in western Victoria",
       "summary": "A controversial rare earths and mineral sands mine planned for western Victoria receives a government funding boost, but farmers and locals aren't happy.",
       "ts": 1793160493000,
@@ -733,7 +793,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 24,
       "headline": "Star Casino fined $260m for money laundering violations",
       "summary": "Australia's financial intelligence agency, AUSTRAC, had sought a much steeper fine that could have forced the casino company into financial collapse.",
       "ts": 1793145253000,
@@ -757,27 +817,6 @@
         "title": "Star Casino fined $260m for money laundering violations",
         "desc": "Australia's financial intelligence agency, AUSTRAC, had sought a much steeper fine that could have forced the casino company into financial collapse.",
         "link": "https://www.abc.net.au/news/2026-10-28/star-entertainment-fined-over-casino-money-laundering-austrac/107317384"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "ASX rises; Champion Iron dives on iron ore worries; retail giants slump",
-      "summary": "Shares rise after Fed holds fire on rates; Aussie dollar jumps; Alphabet, Microsoft report mixed results; retail giants post slowing sales; NAB raises November rate bets. Follow live updates.",
-      "ts": 1793230672000,
-      "img": "https://static.ffx.io/images/$zoom_0.5518518518518518%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX rises; Champion Iron dives on iron ore worries; retail giants slump",
-        "desc": "Shares rise after Fed holds fire on rates; Aussie dollar jumps; Alphabet, Microsoft report mixed results; retail giants post slowing sales; NAB raises November rate bets. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/markets-wait-on-fed-rates-call-oil-tops-us116-20261029-p619j6?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -824,10 +863,10 @@
      },
      {
       "id": 26,
-      "headline": "'He knows his role' - Rulli provides heroics but no worries for Donnarumma",
-      "summary": "Geronimo Rulli's penalty shootout heroics may have put the pressure on Gianluigi Donnarumma at Manchester City, but manager Enzo Maresca has no doubt about his number one.",
-      "ts": 1793229006000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4071/live/c953f890-d31a-11f1-ba7d-b5eab6da6837.jpg",
+      "headline": "Kompany discharged from hospital following collapse",
+      "summary": "Bayern Munich head coach Vincent Kompany is discharged from hospital and \"doing well\" following his collapse at the club's training ground, according to a club board member.",
+      "ts": 1793232058000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/047b/live/8acbc4e0-d315-11f1-ba7d-b5eab6da6837.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -835,18 +874,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "'He knows his role' - Rulli provides heroics but no worries for Donnarumma",
-        "desc": "Geronimo Rulli's penalty shootout heroics may have put the pressure on Gianluigi Donnarumma at Manchester City, but manager Enzo Maresca has no doubt about his number one.",
-        "link": "https://www.bbc.co.uk/sport/articles/cqrky1jnpy1no?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Rulli’s heroics earn Manchester City shootout success against Brighton",
-        "desc": "After Jérémy Doku’s second-half substitute appearance transformed Manchester City into a high-octane proposition, the smart money was on the momentum continuing into a victorious penalty shootout. So it proved as Enzo Maresca’s men triumphed 4-3, Gerónimo Rulli the hero: his save from Lewis Dunk’s fifth spot-kick was decisive, the Argentinean also having repelled Yasin Ayari’s fourth effort. Conti",
-        "link": "https://www.theguardian.com/football/2026/oct/28/manchester-city-brighton-carabao-cup-fourth-round-match-report"
+        "title": "European football: Bayern ease to Cup victory after Kompany leaves hospital",
+        "desc": "Kane gets guard of honour before 6-1 win over Magdeburg Serie A: Inter sink Venezia, Milan lose at home to Bologna Bayern Munich sailed to a 6-1 win over second-tier Magdeburg in the DFB-Pokal after their head coach, Vincent Kompany, was discharged from hospital earlier on Wednesday. Kompany’s assistant, Aaron Danks, was in the dugout for Bayern for the last-32 tie, while Harry Kane was rested. Th",
+        "link": "https://www.theguardian.com/football/2026/oct/28/european-football-two-late-own-goals-return-inter-top-serie-a-venezia"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Kompany discharged from hospital following collapse",
+        "desc": "Bayern Munich head coach Vincent Kompany is discharged from hospital and \"doing well\" following his collapse at the club's training ground, according to a club board member.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c678prmye8xvo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
@@ -921,8 +960,8 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Alessia Russo makes history with hat-trick as Arsenal cruise to Benfica win",
-        "desc": "Alessia Russo wrote herself into the history books once again as she became the highest English goal-scorer in the Women’s Champions League. Her hat-trick gave Arsenal a 3-0 win over Benfica to send the Gunners up to second in the league phase table. It is safe to say that Arsenal’s season has yet to fully burst into life. Struggles in front of goal, unforced errors and rather lackadaisical perfor",
+        "title": "Arsenal’s Slegers hails ‘role model’ Russo after historic hat-trick sinks Benfica",
+        "desc": "Alessia Russo wrote herself into the history books once more as she became the highest English goalscorer in the Women’s Champions League. Her hat-trick gave Arsenal a vital 3-0 win against Benfica to send the Gunners up to second in the league phase table. “I’m so happy. I think we’ve found a nice dynamic as well with the last two games,” Russo’s manager, Renée Slegers, said. “She’s one of the le",
         "link": "https://www.theguardian.com/football/2026/oct/28/arsenal-v-benfica-womens-champions-league-match-report"
        },
        {
@@ -970,16 +1009,23 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Lord of the Rings,’ ‘Spider-Man’ Digital-Human Pioneer Remington Scott to Head Eros Imagination (EXCLUSIVE)",
-      "summary": "The Hollywood technologist who led Gollum’s motion capture on “The Lord of the Rings: The Two Towers” and built the first digital humans made with Light Stage technology for “Spider-Man 2” will run Eros Imagination, a new creative technology and experiences business set up by Eros Innovation. Eros Innovation, an AI company founded by the […]",
-      "ts": 1793228997000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/Remington-Scott.jpg",
+      "headline": "The Best Quote From Every Lord Of The Rings Book",
+      "summary": "Tolkien packed his pages with some prescient words of wisdom. These are some of his best.",
+      "ts": 1793231501000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/msdloof_ec044.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "The Best Quote From Every Lord Of The Rings Book",
+        "desc": "Tolkien packed his pages with some prescient words of wisdom. These are some of his best.",
+        "link": "https://screenrant.com/best-quote-every-lord-of-rings-tolkien-book/"
+       },
        {
         "outlet": "Variety",
         "lean": "centre",
@@ -998,62 +1044,34 @@
      },
      {
       "id": 32,
-      "headline": "Everything We Know About Season 2 Of HBO’s ‘Harry Potter’ TV Series So Far",
-      "summary": "A second season of the HBO original Harry Potter TV series is in the works, and the cast continues to grow. The streamer has plans for an accelerated production of the series adaptation of J.K. Rowling’s books, with Season 1 on the way and production looking to start soon for Season 2. Read on for […]",
-      "ts": 1793228718000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/ruari-spooner-katherine-parkinson-alastair-stout-tristan-harland-gabriel-harland.jpg",
+      "headline": "Netflix's 34-Episode Dystopian Series Is So Good, Even Its Worst Episode Beats Most Sci-Fi Shows",
+      "summary": "Netflix's Black Mirror has still not run out of ways to disturb its audience, with even its worst episode being better than most sci-fi TV shows.",
+      "ts": 1793232018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/untitled-design-55-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Netflix's 34-Episode Dystopian Series Is So Good, Even Its Worst Episode Beats Most Sci-Fi Shows",
+        "desc": "Netflix's Black Mirror has still not run out of ways to disturb its audience, with even its worst episode being better than most sci-fi TV shows.",
+        "link": "https://screenrant.com/black-mirror-worst-episode-still-good/"
+       },
        {
         "outlet": "Deadline",
         "lean": "centre",
         "title": "Everything We Know About Season 2 Of HBO’s ‘Harry Potter’ TV Series So Far",
         "desc": "A second season of the HBO original Harry Potter TV series is in the works, and the cast continues to grow. The streamer has plans for an accelerated production of the series adaptation of J.K. Rowling’s books, with Season 1 on the way and production looking to start soon for Season 2. Read on for […]",
         "link": "https://deadline.com/feature/harry-potter-tv-show-season-2-news-updates-hbo-1237104618/"
-       },
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Netflix's 26-Part Sci-Fi Series Has Hands Down The Platform's Best Finale",
-        "desc": "A multilayered time travel puzzle meets a polyphonic ensemble drama that folds decades of fate and regret into Netflix's best series ending ever.",
-        "link": "https://screenrant.com/netflix-dark-best-finale-on-platform/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Emmy Award-Winning Actor, Comedian, Producer and Writer JB Smoove to Keynote at Variety’s Business Managers Breakfast",
-      "summary": "Variety will host its annual Business Managers Breakfast, presented by City National Bank, in Los Angeles on Nov. 12. The breakfast will bring together those featured in Variety’s Business Managers Elite issue to celebrate the achievements of top entertainment business managers over the past year. JB Smoove – Emmy Award-winning actor, comedian, producer and writer […]",
-      "ts": 1793227066000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/business-managers-split-V1-1.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Emmy Award-Winning Actor, Comedian, Producer and Writer JB Smoove to Keynote at Variety’s Business Managers Breakfast",
-        "desc": "Variety will host its annual Business Managers Breakfast, presented by City National Bank, in Los Angeles on Nov. 12. The breakfast will bring together those featured in Variety’s Business Managers Elite issue to celebrate the achievements of top entertainment business managers over the past year. JB Smoove – Emmy Award-winning actor, comedian, producer and writer […]",
-        "link": "https://variety.com/2026/biz/news/jb-smoove-to-keynote-varietys-business-managers-breakfast-1236933656/"
-       },
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Disney Writer Sues Oscar-Winning Movie's Director For Stealing 13-Year-Old Story",
-        "desc": "This movie received five Academy Award nominations and won for Best Supporting Actress, but the director is now facing a lawsuit from a Disney writer.",
-        "link": "https://screenrant.com/the-holdovers-simon-stephenson-sue-alexander-payne-plagiarism/"
-       }
-      ]
-     },
-     {
-      "id": 34,
       "headline": "Barbara Barrie, Oscar-Nominated Star of ‘Barney Miller’ and ‘Breaking Away,’ Dies at 95",
       "summary": "Barbara Barrie, the Oscar-, Emmy- and Tony-nominated actress who starred in the original production of “Company” and in films including “Breaking Away,” died Wednesday in Manhattan. She was 95. Her daughter confirmed her death to the New York Times and said Barrie’s death was medically assisted following a terminal cancer diagnosis. On stage, Barrie made […]",
       "ts": 1793225725000,
@@ -1081,7 +1099,7 @@
       ]
      },
      {
-      "id": 35,
+      "id": 34,
       "headline": "Hayden Panettiere’s Overdose Death Investigation Closed by Police",
       "summary": "Hayden Panettiere’s death has been ruled as accidental and the investigation has concluded, the Greenville, South Carolina police department announced Wednesday. “Based on the (coroner’s office’s) determination and the findings of the investigation, Hayden Panettiere’s death has been ruled accidental. The Greenville Police Department has concluded its investigation,” the police department told med",
       "ts": 1793223073000,
@@ -1109,11 +1127,32 @@
       ]
      },
      {
+      "id": 35,
+      "headline": "Paris Jackson Wants No More “Smoke & Mirrors” Over MJ Money After Estate Trashes Her Latest Claims As “Nonsensical”",
+      "summary": "Despite a court order to the contrary, Paris Jackson claims John Branca, the executor of her father’s fortune and legacy, has once again failed “to meet his fundamental disclosure obligations” and yet, at the same time, wants to hand out tens of millions to himself and his law firm. Calling the assertions and the demands […]",
+      "ts": 1793232232000,
+      "img": "https://deadline.com/wp-content/uploads/2026/03/Paris-JAckson-Michael-Jackson-and-John-Branca.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Paris Jackson Wants No More “Smoke & Mirrors” Over MJ Money After Estate Trashes Her Latest Claims As “Nonsensical”",
+        "desc": "Despite a court order to the contrary, Paris Jackson claims John Branca, the executor of her father’s fortune and legacy, has once again failed “to meet his fundamental disclosure obligations” and yet, at the same time, wants to hand out tens of millions to himself and his law firm. Calling the assertions and the demands […]",
+        "link": "https://deadline.com/2026/10/michael-jackson-estate-lawsuit-paris-1237207483/"
+       }
+      ]
+     },
+     {
       "id": 36,
-      "headline": "Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller",
-      "summary": "Alfonso Cuarón’s upcoming Apple TV series “Ascension” has added three new series regulars. Variety has learned that Amanda Plummer (“Run,” “Butterfly Kiss”), Christopher Chung (“Slow Horses,” “My Brilliant Career”) and T’Nia Miller (“The Haunting of Bly Manor,” “VisionQuest”) have all been cast in the series. Exact character details are being kept under wraps. As previously […]",
-      "ts": 1793219400000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/Ascension-Apple-TV-1000.jpg",
+      "headline": "‘Smile 3’ Sets David Bruckner to Direct While Franchise Creator Parker Finn Helms ‘Possession’ Remake (EXCLUSIVE)",
+      "summary": "Put on a happy face, because “Smile 3” is officially in the works. Paramount has hired David Bruckner to direct and Nick Antosca to write the screenplay. They’re taking over for Parker Finn, who created the series and will remain involved as a producer. (Finn pitched the framework for the third installment.) Bruckner’s credits include […]",
+      "ts": 1793232144000,
+      "img": "https://variety.com/wp-content/uploads/2024/10/smile-4.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1123,16 +1162,9 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Alfonso Cuaron’s Apple TV Cult Series ‘Ascension’ Adds Amanda Plummer, Christopher Chung, T’Nia Miller",
-        "desc": "Alfonso Cuarón’s upcoming Apple TV series “Ascension” has added three new series regulars. Variety has learned that Amanda Plummer (“Run,” “Butterfly Kiss”), Christopher Chung (“Slow Horses,” “My Brilliant Career”) and T’Nia Miller (“The Haunting of Bly Manor,” “VisionQuest”) have all been cast in the series. Exact character details are being kept under wraps. As previously […]",
-        "link": "https://variety.com/2026/tv/news/alfonso-cuaron-apple-tv-ascension-cast-1236933558/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Amanda Plummer, Christopher Chung & T’Nia Miller Join Alfonso Cuarón’s Apple Series ‘Ascension’",
-        "desc": "The series regular cast of Alfonso Cuarón’s Apple TV series Ascension has grown by three: Amanda Plummer (Run, Butterfly Kiss), Christopher Chung (Slow Horses, My Brilliant Career), and T’Nia Miller (The Haunting of Bly Manor, VisionQuest). They join the previously announced Caitríona Balfe, who leads the cast and executive produces, and Bill Nighy. Inspired by […]",
-        "link": "https://deadline.com/2026/10/amanda-plummer-christopher-chung-tnia-miller-cast-ascension-1237207379/"
+        "title": "‘Smile 3’ Sets David Bruckner to Direct While Franchise Creator Parker Finn Helms ‘Possession’ Remake (EXCLUSIVE)",
+        "desc": "Put on a happy face, because “Smile 3” is officially in the works. Paramount has hired David Bruckner to direct and Nick Antosca to write the screenplay. They’re taking over for Parker Finn, who created the series and will remain involved as a producer. (Finn pitched the framework for the third installment.) Bruckner’s credits include […]",
+        "link": "https://variety.com/2026/film/news/smile-3-director-writer-1236838500/"
        }
       ]
      }
@@ -1142,40 +1174,52 @@
   "sourcesOk": [
    "Guardian Australia",
    "The Age",
-   "BBC World",
    "ABC News",
-   "Fox News",
-   "Fox News Politics",
-   "The Conversation",
-   "BBC Tech",
-   "The Verge",
-   "Guardian Tech",
-   "Ars Technica",
+   "BBC World",
    "The Age Federal Politics",
-   "Guardian AU Business",
-   "ABC Business",
-   "Crikey",
+   "Fox News",
    "Guardian AU Politics",
+   "The Conversation",
+   "Guardian Tech",
    "The Age Business",
-   "Guardian AU Sport",
-   "Variety",
+   "BBC Tech",
+   "Ars Technica",
+   "Crikey",
+   "Guardian AU Business",
    "BBC Sport",
+   "ABC Business",
+   "Variety",
+   "Fox News Politics",
    "Fox Business",
-   "7News",
-   "AFR",
-   "Anime News Network",
-   "Guardian Film",
+   "Deadline",
    "ABC Sport",
-   "Screen Rant",
+   "Guardian AU Sport",
+   "The Verge",
+   "Guardian Film",
+   "7News",
    "Daily Mail Australia",
-   "SBS News",
+   "Screen Rant",
+   "Anime News Network",
+   "AFR",
    "7News Sport",
-   "Deadline"
+   "SBS News"
   ],
   "sourcesFailed": []
  },
  "releases": {
   "movies": [
+   {
+    "title": "Wicker",
+    "year": "2026",
+    "rating": 7.4,
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Fantasy"
+    ],
+    "overview": "An ostracized fisherwoman commissions the local basketmaker to weave her a husband, but when her wicker creation proves unexpectedly extraordinary, his presence ignites jealousy and upheaval that threatens their quiet village.",
+    "released": "2026-10-30"
+   },
    {
     "title": "Wildwood",
     "year": "2026",
@@ -1221,16 +1265,6 @@
      "Biography"
     ],
     "overview": "Thirty-four days before she's sent to prison, notorious Theranos founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait becomes a mind-bending three-year journey.",
-    "released": "2026-10-16"
-   },
-   {
-    "title": "Street Fighter",
-    "year": "2026",
-    "rating": 6.2,
-    "genres": [
-     "Action"
-    ],
-    "overview": "Street Fighters Ryu and Ken reunite when Chun-Li recruits them for the World Warrior Tournament. As they face a hidden conspiracy, they must confront each other and their past-or face destruction.",
     "released": "2026-10-16"
    }
   ],
@@ -1364,7 +1398,7 @@
   {
    "title": "Earn up to 10% Cashback as AliExpress Credit on Eligible Purchases (A$45 Cap Per Day, A$500 Total) @ AliExpress",
    "link": "https://www.ozbargain.com.au/node/980695",
-   "votes": 194,
+   "votes": 199,
    "neg": 0,
    "category": "Other",
    "ts": 1793162392000
@@ -1372,15 +1406,23 @@
   {
    "title": "Ubiquiti UniFi Dream Wall All In One Internet Gateway $499 (Was $1889) + Delivery ($0 to Metro Areas/ C&C/ in-Store) @ Scorptec",
    "link": "https://www.ozbargain.com.au/node/980746",
-   "votes": 164,
+   "votes": 169,
    "neg": 0,
    "category": "Computing",
    "ts": 1793183846000
   },
   {
+   "title": "Bonus Nintendo Switch 2 Console with Purchase of Google Pixel 11 Pro $1849 / 11 Pro XL $2099 + Del ($0 C&C/ in-Store) @ JB Hi-Fi",
+   "link": "https://www.ozbargain.com.au/node/980762",
+   "votes": 157,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1793196534000
+  },
+  {
    "title": "Hydralyte Effervescent Tablets 40-Pack $13 ($11.70 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/980729",
-   "votes": 156,
+   "votes": 157,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1793173147000
@@ -1388,23 +1430,15 @@
   {
    "title": "[SUBS, Prime] Ali G: Who Iz I? (2026) - Movie Streaming @ Prime Video",
    "link": "https://www.ozbargain.com.au/node/980718",
-   "votes": 143,
+   "votes": 145,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1793171236000
   },
   {
-   "title": "Bonus Nintendo Switch 2 Console with Purchase of Google Pixel 11 Pro $1849 / 11 Pro XL $2099 ($0 C&C/ in-Store) @ JB Hi-FI",
-   "link": "https://www.ozbargain.com.au/node/980762",
-   "votes": 141,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1793196534000
-  },
-  {
    "title": "Pay with PayPal for US$18 off US$160, US$36 off US$260, US$45 off US$360 Spend @ AliExpress",
    "link": "https://www.ozbargain.com.au/node/980683",
-   "votes": 131,
+   "votes": 135,
    "neg": 0,
    "category": "Other",
    "ts": 1793157532000
@@ -1412,7 +1446,7 @@
   {
    "title": "Earn 20x Flybuys Points on Apple Gift Cards (In-Store Only) @ Coles",
    "link": "https://www.ozbargain.com.au/node/980697",
-   "votes": 110,
+   "votes": 114,
    "neg": 0,
    "category": "Other",
    "ts": 1793163608000
@@ -1420,7 +1454,7 @@
   {
    "title": "4-Piece Cleaning Tool Set $2 + $10 Delivery ($0 C&C/ in-Store/ $65 Order) @ Kmart",
    "link": "https://www.ozbargain.com.au/node/980742",
-   "votes": 76,
+   "votes": 77,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1793181089000
@@ -1436,7 +1470,7 @@
   {
    "title": "[Windows] Ashampoo Burning Studio 2027, Lifetime License $0 (Normally $30) @ Ashampoo",
    "link": "https://www.ozbargain.com.au/node/980749",
-   "votes": 65,
+   "votes": 68,
    "neg": 0,
    "category": "Computing",
    "ts": 1793186101000
@@ -1444,10 +1478,18 @@
   {
    "title": "Samsung Odyssey OLED G7 G73SH 32\" 4K 165Hz / FHD 330Hz Dual Mode Gaming Monitor $759 + Delivery ($0 C&C) @ Centre Com",
    "link": "https://www.ozbargain.com.au/node/980702",
-   "votes": 59,
+   "votes": 60,
    "neg": 0,
    "category": "Computing",
    "ts": 1793164731000
+  },
+  {
+   "title": "[SUBS, Prime] Harry Potter 1-8, Fantastic Beasts 1-3 - Movies Streaming @ Prime Video",
+   "link": "https://www.ozbargain.com.au/node/980758",
+   "votes": 46,
+   "neg": 0,
+   "category": "Entertainment",
+   "ts": 1793194581000
   },
   {
    "title": "[NSW, Short Dated] Lindt Excellence Mint Intense Dark Chocolate Block 100g $0.99 @ Coles, West Ryde",
@@ -1458,25 +1500,17 @@
    "ts": 1793173135000
   },
   {
-   "title": "Sensodyne Daily Care Whitening Toothpaste 100g $5.25 ($4.72 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/980671",
-   "votes": 46,
+   "title": "Everyday Market from Woolworths: 28% Cashback on up to $1000 Spend (Minimum Spend to be Confirmed), Capped at $150 @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/980767",
+   "votes": 36,
    "neg": 0,
-   "category": "Health & Beauty",
-   "ts": 1793153092000
-  },
-  {
-   "title": "[SUBS, Prime] Harry Potter 1-8, Fantastic Beasts 1-3 - Movies Streaming @ Prime Video",
-   "link": "https://www.ozbargain.com.au/node/980758",
-   "votes": 43,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1793194581000
+   "category": "Other",
+   "ts": 1793214699000
   },
   {
    "title": "Hugo Boss Eau De Toilette for Men, Boss Bottled Night $47.69 + Delivery ($0 Prime/ $59 Spend) @ Amazon AU (Excl. TAS, NT)",
    "link": "https://www.ozbargain.com.au/node/980706",
-   "votes": 35,
+   "votes": 36,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1793165514000
