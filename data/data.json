@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:54:53.135Z",
+ "generatedAt": "2026-11-01T23:10:15.251Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8908.1,
-    "chgPct": 0.000004385054248301164,
+    "chgPct": 0.18331716492208217,
     "high52": 9296.7,
     "off52": -4.179977841599711
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 85.39,
-    "chgPct": 7.14781083769893e-7,
+    "chgPct": -0.4778590176861446,
     "high52": 88,
     "off52": -2.9659090909090904
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 148.76,
-    "chgPct": 0.000003692635289222619,
+    "chgPct": 0.2696140388263918,
     "high52": 155.03,
     "off52": -4.044378507385674
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 59.67,
-    "chgPct": 0.000003068635403709896,
+    "chgPct": -1.92307716905573,
     "high52": 65.18,
     "off52": -8.453513347652661
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 33.78,
-    "chgPct": 0.0000036136861167828527,
+    "chgPct": -3.4305304686679507,
     "high52": 47.78,
     "off52": -29.300962745918795
    },
@@ -57,15 +57,23 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7031,
-    "chgPct": 0.05689514598467884,
+    "price": 0.703,
+    "chgPct": 0.04266432602365287,
     "high52": 0.7277,
-    "off52": -3.3805139480555266
+    "off52": -3.3942558746736364
    }
   ],
   "failed": [],
   "note": "SEMI is 29% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "COL.AX",
+    "name": "Coles",
+    "market": "ASX",
+    "price": 21.66,
+    "currency": "AUD",
+    "chgPct": -7.672630668020834
+   },
    {
     "sym": "AVGO",
     "name": "Broadcom",
@@ -81,6 +89,14 @@
     "price": 204.64,
     "currency": "USD",
     "chgPct": -4.2216622238638495
+   },
+   {
+    "sym": "WES.AX",
+    "name": "Wesfarmers",
+    "market": "ASX",
+    "price": 76.69,
+    "currency": "AUD",
+    "chgPct": 3.607137906002183
    },
    {
     "sym": "LLY",
@@ -143,7 +159,77 @@
      },
      {
       "id": 1,
-      "headline": "Nationals leader Matt Canavan in lower house move amid One Nation surge",
+      "headline": "Live: Westpac reports $6.8b profit, ASX on edge ahead of RBA meeting",
+      "summary": "The ASX is poised for a flat opening despite a big sell-off on Wall Street amid mounting concerns about AI investments. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+      "ts": 1793574399000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/debfed2e0044be4282a2ce2fb167a21b?impolicy=wcms_crop_resize&cropH=448&cropW=796&xPos=4&yPos=34&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
+        "desc": "The nation’s second-biggest lender expects interest rates to remain “elevated” and for house prices to have fallen more than 10 per cent by March.",
+        "link": "https://www.theage.com.au/business/banking-and-finance/westpac-expects-11-per-cent-house-price-fall-posts-6-8-billion-profit-20261102-p61ah6.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Westpac reports $6.8b profit, ASX on edge ahead of RBA meeting",
+        "desc": "The ASX is poised for a flat opening despite a big sell-off on Wall Street amid mounting concerns about AI investments. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'No area exempt': Nothing off limits as Labor hunts for savings ahead of RBA meeting",
+        "desc": "The RBA is expected to hand down a 0.25 per cent cash rate hike on Tuesday, which would take rates to their highest in 18 years.",
+        "link": "https://www.sbs.com.au/news/article/labor-savings-budget-rba-meeting-november/yaymdthu9"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "House prices continue to fall as homeowners await rate decision",
+      "summary": "House prices have fallen for a seventh consecutive month, which experts suggest could represent the steepest downturn in 40 years. Meanwhile, new polling shows everyone is still fed up and trust in politicians is declining. The post House prices continue to fall as homeowners await rate decision appeared first on Crikey.",
+      "ts": 1793573845000,
+      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/20231009001850343405-original.jpg?quality=70&w=840",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: Westpac results released; bank expects interest rates to remain ‘elevated’; NSW gun buyback begins; Qantas provider Amadeus suffers data breach",
+        "desc": "Follow our rolling coverage of all the latest news and developments from around Australia and the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-qantas-seeks-answers-on-data-breach-storm-prompts-asthma-warning-property-values-fall-further-20261102-p61aft.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "House prices continue to fall as homeowners await rate decision",
+        "desc": "House prices have fallen for a seventh consecutive month, which experts suggest could represent the steepest downturn in 40 years. Meanwhile, new polling shows everyone is still fed up and trust in politicians is declining. The post House prices continue to fall as homeowners await rate decision appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/02/house-prices-fall-rba-interest-rate-labor-polls-anthony-albanese-commonwealth/"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "House prices fall for seventh consecutive month as interest rates dent demand",
+        "desc": "Centre of downturn shifts away from Sydney and Melbourne, but after such strong growth most homeowners still sit on sizeable gains Get our breaking news email, free app or daily news podcast Australian home values have dropped for a seventh consecutive month, with prices in the capital cities now falling at the fastest pace in 40 years as rising mortgage rates scare off buyers. Cotality data shows",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Nationals leader Matt Canavan gambles on lower house move amid One Nation surge",
       "summary": "‘I may very well die politically, but I’m not going to die wondering.’",
       "ts": 1793573595000,
       "img": "https://images.7news.com.au/publication/C-23101625/3247e344d028202592dce6c96c6c1465058c44ed-16x9-x0y0w1280h720.png",
@@ -156,7 +242,7 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Nationals leader Matt Canavan in lower house move amid One Nation surge",
+        "title": "Nationals leader Matt Canavan gambles on lower house move amid One Nation surge",
         "desc": "‘I may very well die politically, but I’m not going to die wondering.’",
         "link": "https://7news.com.au/politics/nationals-leader-matt-canavan-to-take-on-one-nation-seat-in-bid-to-join-lower-house-c-23101625"
        },
@@ -177,7 +263,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 4,
       "headline": "Over 100 police officers injured in Gen Z riots in Germany",
       "summary": "German Interior Minister said rioters would face \"severe penalties\" after protesters threw petrol bombs at police officers.",
       "ts": 1793572883000,
@@ -212,7 +298,42 @@
       ]
      },
      {
-      "id": 3,
+      "id": 5,
+      "headline": "More than 50m Americans cast ballots in early voting with three days to go before midterms",
+      "summary": "Record number of early votes cast, with Democrats outnumbering Republicans in states which collect that information There has been a surge of early voting for the US midterm elections, with millions more Americans going to the polls compared with the last such election amid a series of tight contests that will determine control of Congress. More than 50.5m early votes have been cast across the US ",
+      "ts": 1793572447000,
+      "img": "https://i.guim.co.uk/img/media/5be30a14eb0d454a08ebdb9b506b0bd380833fdb/2_0_6348_5081/master/6348.jpg?width=460&quality=85&auto=format&fit=max&s=21165571461812e4a6d18d71c23eac26",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Inside Trump's final days before the midterms aboard Air Force One: Natalie Harp, celebrity guests and a 'party vibe' sparking GOP alarm",
+        "desc": "President Donald Trump's approval ratings are at record lows, and polls for Congressional Republicans are bad, but on Air Force One energy levels are high and the party is going strong.",
+        "link": "https://www.dailymail.com/news/article-16250171/donald-trump-air-force-one-campaign-sprint.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "DHS official vows to prosecute and deport noncitizens caught illegally voting ahead of midterms",
+        "desc": "Department of Homeland Security general counsel James Percival vowed to find, charge and deport noncitizens who cast illegal ballots in midterm elections.",
+        "link": "https://www.foxnews.com/media/dhs-official-vows-to-prosecute-deport-noncitizens-caught-illegally-voting-ahead-midterms"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "More than 50m Americans cast ballots in early voting with three days to go before midterms",
+        "desc": "Record number of early votes cast, with Democrats outnumbering Republicans in states which collect that information There has been a surge of early voting for the US midterm elections, with millions more Americans going to the polls compared with the last such election amid a series of tight contests that will determine control of Congress. More than 50.5m early votes have been cast across the US ",
+        "link": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms"
+       }
+      ]
+     },
+     {
+      "id": 6,
       "headline": "Sydney council proposes AI-powered security cameras to monitor city streets",
       "summary": "The proposed changes would allow the network to look at what’s happening on the ground much more closely.",
       "ts": 1793570576000,
@@ -245,111 +366,6 @@
         "link": "https://www.theguardian.com/world/2026/nov/01/jacinda-ardern-sydney-opera-house-talk-advises-politicians-to-rebuild-trust"
        }
       ]
-     },
-     {
-      "id": 4,
-      "headline": "Alex de Minaur fails to break ‘annoying’ duck against Carlos Alcaraz in Vienna Open final",
-      "summary": "The Aussie No.1 has moved up in the world rankings but ultimately suffered more heartbreak.",
-      "ts": 1793569750000,
-      "img": "https://images.7news.com.au/publication/C-23101663/8baf8ce14b204f8cebdb3b0f4e32f4bc83755456-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Alex de Minaur fails to break ‘annoying’ duck against Carlos Alcaraz in Vienna Open final",
-        "desc": "The Aussie No.1 has moved up in the world rankings but ultimately suffered more heartbreak.",
-        "link": "https://7news.com.au/sport/tennis/alex-de-minaur-fails-to-break-annoying-duck-against-carlos-alcaraz-in-vienna-open-final-c-23101663"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Alcaraz cruises past Aussie de Minaur",
-        "desc": "Carlos Alcaraz has won the Vienna Open final, beating Australian Alex de Minaur in a one-sided, 97 minute match.",
-        "link": "https://www.theage.com.au/sport/tennis/alcaraz-cruises-past-aussie-de-minaur-20261102-p61agh.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "'Annoying' Alcaraz denies de Minaur Vienna Open title in final",
-        "desc": "Alex de Minaur's hopes of springing another major upset come undone at the hands of the rapant Spaniard in the final of the Vienna Open.",
-        "link": "https://www.abc.net.au/news/2026-11-02/tennis-de-minaur-beaten-vienna-open-final-alcaraz/107334926"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Live: Westpac reports $6.8b profit, ASX on edge ahead of RBA meeting",
-      "summary": "The ASX is poised for a flat opening despite a big sell-off on Wall Street amid mounting concerns about AI investments. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "ts": 1793569209000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/debfed2e0044be4282a2ce2fb167a21b?impolicy=wcms_crop_resize&cropH=448&cropW=796&xPos=4&yPos=34&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Westpac expects 11 per cent house price fall, posts $6.8 billion profit",
-        "desc": "The nation’s second-biggest lender expects interest rates to remain “elevated” and for house prices to have fallen more than 10 per cent by March.",
-        "link": "https://www.theage.com.au/business/banking-and-finance/westpac-expects-11-per-cent-house-price-fall-posts-6-8-billion-profit-20261102-p61ah6.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Westpac reports $6.8b profit, ASX on edge ahead of RBA meeting",
-        "desc": "The ASX is poised for a flat opening despite a big sell-off on Wall Street amid mounting concerns about AI investments. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "'No area exempt': Nothing off limits as Labor hunts for savings ahead of RBA meeting",
-        "desc": "The RBA is expected to hand down a 0.25 per cent cash rate hike on Tuesday, which would take rates to their highest in 18 years.",
-        "link": "https://www.sbs.com.au/news/article/labor-savings-budget-rba-meeting-november/yaymdthu9"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-      "summary": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
-      "ts": 1793563827000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5cde/live/f5e426a0-d586-11f1-a6a4-9b195a139571.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
-        "desc": "Incumbent Dan Sullivan says he will accept election results after ‘unprecedented intervention’ by Trump’s DoJ A judge has dismissed the Donald Trump-backed lawsuit seeking to block certification of Alaska’s US Senate race if Republican incumbent Dan Sullivan loses. Trump said on 23 October that he had ordered the justice department to file the lawsuit in a move that voting rights experts called an",
-        "link": "https://www.theguardian.com/us-news/2026/nov/01/alaska-senate-race-republican-dan-sullivan"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-        "desc": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
-        "link": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Judge dismisses Trump's defamation lawsuit over Epstein birthday letter report",
-        "desc": "The 2025 publication of the birthday letter heaped pressure on US President Donald Trump, even as he decried the scandal as a hoax.",
-        "link": "https://www.sbs.com.au/news/article/judge-dismisses-trump-defamation-lawsuit-epstein-birthday-letter-report/houoy4aww"
-       }
-      ]
      }
     ]
    },
@@ -359,29 +375,29 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Trust in politicians plunges, new polling shows, as education divide splits Australian voters",
-      "summary": "Three in four voters believe the nation is becoming more divided, with voters citing broken promises and dishonesty rather than the cost of living for a steep drop in political trust.",
-      "ts": 1793570576000,
-      "img": "https://static.ffx.io/images/$zoom_1.0342%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_20/t_crop_custom/q_86%2Cf_auto/813d9886085da8c0b5388c43f8e107c355e2c0c756382eabea6f41a60c697f12",
+      "headline": "Everything to know about House and Senate control, ballot measures and 2026 Election Day poll closing",
+      "summary": "Republicans defend slim congressional majorities as toss-up Senate races in Alaska, Texas and Iowa could decide control of the chamber in 2026.",
+      "ts": 1793574305000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/voting-line.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Trust in politicians plunges, new polling shows, as education divide splits Australian voters",
-        "desc": "Three in four voters believe the nation is becoming more divided, with voters citing broken promises and dishonesty rather than the cost of living for a steep drop in political trust.",
-        "link": "https://www.theage.com.au/politics/federal/trust-in-politicians-plunges-new-polling-shows-as-education-divide-splits-australian-voters-20261102-p61aag.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Jacinda Ardern in Sydney Opera House talk advises politicians to ‘rebuild trust by building financial security’",
-        "desc": "‘We’re making it worse, not better,’ former New Zealand prime minister warns leaders Jacinda Ardern, who now calls Sydney home, has delivered a message to Australian politicians from the stage of the city’s Opera House. The former New Zealand prime minister turned academic told the audience on Sunday that politicians were exacerbating the problem of polarisation within society and needed to be bet",
-        "link": "https://www.theguardian.com/world/2026/nov/01/jacinda-ardern-sydney-opera-house-talk-advises-politicians-to-rebuild-trust"
+        "title": "Nationals leader Matt Canavan to run for lower house seat in possible showdown with One Nation’s James Ashby",
+        "desc": "Tilt comes after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email, free app or daily news podcast The Nationals leader, Matt Canavan, will run in a lower house Queensland seat at the next federal election, in a move that may see him face off with Pauline Hanson’s national director. The announcement follows the retirement of the Capri",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb"
+       },
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Everything to know about House and Senate control, ballot measures and 2026 Election Day poll closing",
+        "desc": "Republicans defend slim congressional majorities as toss-up Senate races in Alaska, Texas and Iowa could decide control of the chamber in 2026.",
+        "link": "https://www.foxnews.com/politics/everything-know-house-senate-control-ballot-measures-2026-election-day-poll-closing"
        }
       ]
      },
@@ -436,10 +452,10 @@
      },
      {
       "id": 10,
-      "headline": "Nationals leader Matt Canavan to run for lower house seat in possible showdown with One Nation’s James Ashby",
-      "summary": "Tilt comes after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email, free app or daily news podcast The Nationals leader, Matt Canavan, will run in a lower house Queensland seat at the next federal election, in a move that may see him face off with Pauline Hanson’s chief of staff. The announcement follows the retirement of the Capricor",
-      "ts": 1793568318000,
-      "img": "https://i.guim.co.uk/img/media/3468fb281bb71900d7f19ac825f84190e284cb06/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=b5e11f884d3d73d59c0ee3aeeb5d2962",
+      "headline": "Trust in politicians plunges, new polling shows, as education divide splits Australian voters",
+      "summary": "Three in four voters believe the nation is becoming more divided, with voters citing broken promises and dishonesty rather than the cost of living for a steep drop in political trust.",
+      "ts": 1793570576000,
+      "img": "https://static.ffx.io/images/$zoom_1.0342%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_20/t_crop_custom/q_86%2Cf_auto/813d9886085da8c0b5388c43f8e107c355e2c0c756382eabea6f41a60c697f12",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -447,11 +463,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Politics",
+        "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Nationals leader Matt Canavan to run for lower house seat in possible showdown with One Nation’s James Ashby",
-        "desc": "Tilt comes after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email, free app or daily news podcast The Nationals leader, Matt Canavan, will run in a lower house Queensland seat at the next federal election, in a move that may see him face off with Pauline Hanson’s chief of staff. The announcement follows the retirement of the Capricor",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb"
+        "title": "Trust in politicians plunges, new polling shows, as education divide splits Australian voters",
+        "desc": "Three in four voters believe the nation is becoming more divided, with voters citing broken promises and dishonesty rather than the cost of living for a steep drop in political trust.",
+        "link": "https://www.theage.com.au/politics/federal/trust-in-politicians-plunges-new-polling-shows-as-education-divide-splits-australian-voters-20261102-p61aag.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
@@ -674,7 +690,7 @@
       "id": 20,
       "headline": "Westpac posts $6.8b profit, forecasts 10.9pc property drop",
       "summary": "The bank said that interest rates will remain “elevated” and the softening mortgage market is crimping margins in an uncertain economic environment.",
-      "ts": 1793569209000,
+      "ts": 1793574399000,
       "img": "https://static.ffx.io/images/$zoom_0.19353070175438594%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_34/t_crop_custom/q_86%2Cf_auto/025a1545399ae867cdff2911f81aec9abaa92d6e",
       "divergent": null,
       "left_view": null,
@@ -700,10 +716,10 @@
      },
      {
       "id": 21,
-      "headline": "Super funds issued with legal warning following regulator's damning report",
-      "summary": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
+      "headline": "ASIC threatens to sue super funds over customer service failures",
+      "summary": "The corporate regulator says it could take trustees to court and claw back executive bonuses after it catalogued a litany of failures on customer complaints.",
       "ts": 1793556000000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b8ac5abbb72f4d51c2f09dc0b3bcc2c5?impolicy=wcms_crop_resize&cropH=844&cropW=1500&xPos=0&yPos=78&width=862&height=485",
+      "img": "https://static.ffx.io/images/$zoom_0.4103%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_101/t_crop_custom/q_86%2Cf_auto/0ee4b7f4b784ee5e1233ac29f5af59d36ad65108",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -711,18 +727,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Super funds issued with legal warning following regulator's damning report",
-        "desc": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
-        "link": "https://www.abc.net.au/news/2026-11-02/superannuation-funds-failing-members-retirement-savings-asic/107319026"
-       },
-       {
         "outlet": "AFR",
         "lean": "centre",
         "title": "ASIC threatens to sue super funds over customer service failures",
         "desc": "The corporate regulator says it could take trustees to court and claw back executive bonuses after it catalogued a litany of failures on customer complaints.",
         "link": "https://www.afr.com/companies/financial-services/asic-threatens-to-sue-super-funds-over-customer-service-failures-20261102-p619c3?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Super funds issued with legal warning following regulator's damning report",
+        "desc": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
+        "link": "https://www.abc.net.au/news/2026-11-02/superannuation-funds-failing-members-retirement-savings-asic/107319026"
        }
       ]
      },
@@ -756,6 +772,27 @@
      },
      {
       "id": 23,
+      "headline": "ASX falls; Kathmandu owner in talks to sell to US fashion giant",
+      "summary": "Shares fall ahead of RBA, US midterm elections; Westpac reports $6.8 billion full-year profit; Avid matches Warburg’s Ingenia offer; Binance hit with $5.1b outflows. Follow live here.",
+      "ts": 1793574069000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX falls; Kathmandu owner in talks to sell to US fashion giant",
+        "desc": "Shares fall ahead of RBA, US midterm elections; Westpac reports $6.8 billion full-year profit; Avid matches Warburg’s Ingenia offer; Binance hit with $5.1b outflows. Follow live here.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-hold-westpac-s-results-ahead-20261102-p61adt?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
       "headline": "The Break pitches $136m Adelaide surf resort to family offices",
       "summary": "The team is knocking on the doors of potential investors to raise $56 million in equity for the nation’s first wave park with accommodation.",
       "ts": 1793572720000,
@@ -774,27 +811,6 @@
         "link": "https://www.afr.com/street-talk/the-break-pitches-136m-adelaide-surf-resort-to-family-offices-20261102-p61a44?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
-     },
-     {
-      "id": 24,
-      "headline": "Options trader’s Melbourne Cup dream built on models, family and fun",
-      "summary": "Tristan Standish built his career trading derivatives in London. Now he’s thrown his skills and experience into horse racing, and finds himself with a chance.",
-      "ts": 1793572200000,
-      "img": "https://static.ffx.io/images/$zoom_0.22358285452240292%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_168%2C$y_0/t_crop_custom/q_86%2Cf_auto/8d8685b3fbc398dfbe510bf511f1462113d5d9fa",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Options trader’s Melbourne Cup dream built on models, family and fun",
-        "desc": "Tristan Standish built his career trading derivatives in London. Now he’s thrown his skills and experience into horse racing, and finds himself with a chance.",
-        "link": "https://www.afr.com/companies/sport/options-trader-s-melbourne-cup-dream-built-on-models-family-and-fun-20261102-p61agy?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
      }
     ]
    },
@@ -804,41 +820,6 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Antonelli becomes world champion as Verstappen wins in Mexico",
-      "summary": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
-      "ts": 1793573022000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5e/live/10960270-d645-11f1-be49-c7d51bdcf05a.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Mexican Formula One Grand Prix: Antonelli becomes youngest F1 champion as Verstappen wins – as it happened",
-        "desc": "️ Report: Antonelli wins world championship at age of 20 Lap 4 of 71: Hamilton inquires as to what action is being taken. He’s assured that people are looking into it. For now: Continue reading...",
-        "link": "https://www.theguardian.com/sport/live/2026/nov/01/mexican-formula-one-grand-prix-kimi-antonelli-aims-to-seal-title-live"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
-        "desc": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
-        "link": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Live: Antonelli crowned F1 champ after horror crash stops race in Mexico",
-        "desc": "Kimi Antonelli has been crowned Formula 1 drivers' champion, the youngest ever at 20 years old, as Max Verstappen won a chaotic Mexico City Grand Prix on Monday. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-11-02/f1-live-mexico-city-grand-prix-oscar-piastri-kimi-antonelli/106998720"
-       }
-      ]
-     },
-     {
-      "id": 26,
       "headline": "Jillaroos record biggest victory in women’s rugby league history in World Cup bloodbath against Wales",
       "summary": "The hosts have broken new ground in an utterly insane display of dominance against Wales.",
       "ts": 1793531118000,
@@ -869,6 +850,34 @@
         "title": "Time to make lopsided international women's rugby league a fair fight",
         "desc": "The rise of Pasifika rugby league teams in the international men's game contrasts with a widening gulf in the women's game amid the Jillaroos' dominant World Cup run.",
         "link": "https://www.abc.net.au/news/2026-11-01/rugby-league-world-cup-jillaroos-dominance/107328024"
+       }
+      ]
+     },
+     {
+      "id": 26,
+      "headline": "Antonelli becomes world champion as Verstappen wins in Mexico",
+      "summary": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
+      "ts": 1793573822000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca5e/live/10960270-d645-11f1-be49-c7d51bdcf05a.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Antonelli becomes world champion as Verstappen wins in Mexico",
+        "desc": "Kimi Antonelli becomes the youngest world champion in Formula 1 history as Max Verstappen wins the Mexico City Grand Prix.",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/cv62y1e6wly6o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Live: Antonelli crowned F1 champ after horror crash stops race in Mexico",
+        "desc": "Kimi Antonelli has been crowned Formula 1 drivers' champion, the youngest ever at 20 years old, as Max Verstappen won a chaotic Mexico City Grand Prix on Monday. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-02/f1-live-mexico-city-grand-prix-oscar-piastri-kimi-antonelli/106998720"
        }
       ]
      },
@@ -1076,6 +1085,48 @@
      },
      {
       "id": 34,
+      "headline": "The Elder Scrolls Is Officially Switching Genre For November 2026 Return",
+      "summary": "Discover The Elder Scrolls: Betrayal of the Second Era tabletop game launching this November. Pre-order now!",
+      "ts": 1793574017000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/12/elder-scrolls-6-title-release-date-leak-roasted.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "The Elder Scrolls Is Officially Switching Genre For November 2026 Return",
+        "desc": "Discover The Elder Scrolls: Betrayal of the Second Era tabletop game launching this November. Pre-order now!",
+        "link": "https://screenrant.com/elder-scrolls-november-2026-genre-switch-betrayal/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "Every Batman Villain Movie & TV Show, Ranked",
+      "summary": "Batman has one of cinema and TV's greatest rogues' galleries, but which villains have delivered the best solo adventures, and which missed the mark?",
+      "ts": 1793573717000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/margot-robbie-in-suicide-squad.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Every Batman Villain Movie & TV Show, Ranked",
+        "desc": "Batman has one of cinema and TV's greatest rogues' galleries, but which villains have delivered the best solo adventures, and which missed the mark?",
+        "link": "https://screenrant.com/batman-villain-movies-tv-shows-ranked-worst-best/"
+       }
+      ]
+     },
+     {
+      "id": 36,
       "headline": "Rian Johnson Commissions ‘Knives Out’ Cinematographer For Curated RAW Camera App: “The Same Image Processing We Use”",
       "summary": "After nearly 30 years of collaboration behind the camera, Rian Johnson has enlisted his cinematographer Steve Yedlin to package their aesthetic in a new iPhone app. Thee 2x Oscar-nominated writer and director announced the launch of Chromagraph Camera this week, which he explained “uses the same image processing we use” on their movies like Brick […]",
       "ts": 1793573429000,
@@ -1094,84 +1145,42 @@
         "link": "https://deadline.com/2026/11/rian-johnson-knives-out-cinematographer-curated-raw-camera-app-1237210958/"
        }
       ]
-     },
-     {
-      "id": 35,
-      "headline": "Ghost Rider's New Era Officially Begins In 3 Days",
-      "summary": "Marvel's best Ghost Rider is getting their own solo title this week, confirmed with a tease of the Spirit of Vengeance's battle against Doctor Doom.",
-      "ts": 1793573397000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/ghost-rider-johnny-blaze-screams-in-marvel-comics-1.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Ghost Rider's New Era Officially Begins In 3 Days",
-        "desc": "Marvel's best Ghost Rider is getting their own solo title this week, confirmed with a tease of the Spirit of Vengeance's battle against Doctor Doom.",
-        "link": "https://screenrant.com/ghost-rider-kushala-1-new-era/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Korea Box Office: Anime Hit ‘Chiikawa’ Retains Lead as Brad Pitt Thriller ‘Heart of the Beast’ Debuts",
-      "summary": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” held the No. 1 position at the South Korean box office over the weekend of Oct. 30–Nov. 1, securing its third consecutive weekend atop the rankings. According to data from KOBIS, the tracking service operated by the Korean Film Council, the Toho-distributed fantasy […]",
-      "ts": 1793572738000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/Chiikawa-the-Movie-The-Secret-of-Mermaid-Island.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Korea Box Office: Anime Hit ‘Chiikawa’ Retains Lead as Brad Pitt Thriller ‘Heart of the Beast’ Debuts",
-        "desc": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” held the No. 1 position at the South Korean box office over the weekend of Oct. 30–Nov. 1, securing its third consecutive weekend atop the rankings. According to data from KOBIS, the tracking service operated by the Korean Film Council, the Toho-distributed fantasy […]",
-        "link": "https://variety.com/2026/film/box-office/korea-box-office-anime-hit-chiikawa-brad-pitt-heart-of-the-beast-1236936987/"
-       }
-      ]
      }
     ]
    }
   ],
   "sourcesOk": [
-   "Crikey",
    "Guardian Australia",
-   "ABC News",
-   "BBC World",
    "The Age",
+   "BBC World",
    "Fox News",
-   "Fox News Politics",
-   "The Conversation",
-   "BBC Tech",
-   "The Verge",
-   "The Age Federal Politics",
-   "Ars Technica",
-   "Guardian AU Politics",
    "Guardian Tech",
+   "ABC News",
+   "Fox News Politics",
+   "Guardian AU Politics",
+   "The Conversation",
+   "Ars Technica",
+   "The Age Business",
+   "The Age Federal Politics",
+   "BBC Tech",
+   "7News",
+   "Guardian AU Sport",
+   "AFR",
+   "Guardian AU Business",
+   "BBC Sport",
+   "The Verge",
+   "Variety",
+   "Deadline",
+   "ABC Business",
+   "Crikey",
+   "Guardian Film",
    "Fox Business",
    "ABC Sport",
-   "The Age Business",
-   "Deadline",
-   "Guardian AU Business",
-   "Variety",
-   "ABC Business",
-   "AFR",
-   "Guardian AU Sport",
-   "Anime News Network",
-   "BBC Sport",
    "Screen Rant",
-   "Guardian Film",
+   "Anime News Network",
    "SBS News",
-   "Daily Mail Australia",
-   "7News",
-   "7News Sport"
+   "7News Sport",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1366,23 +1375,15 @@
   {
    "title": "AliExpress: 35% Cashback on Affiliated Items, 1% Cashback on Non-Affiliated Items ($50 Cashback Cap per Order) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/981137",
-   "votes": 703,
+   "votes": 707,
    "neg": 1,
    "category": "Other",
    "ts": 1793498705000
   },
   {
-   "title": "GL.iNet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.64 (~A$116.43) AU Stock Delivered @ GL-iNet Overseas Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/981162",
-   "votes": 171,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1793517810000
-  },
-  {
    "title": "CUSU DDR4 32GB (2x16GB) 3200MHz CL16 RAM US$148 (~A$211.07) with PayPal Delivered @ CUSU Official Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/981187",
-   "votes": 86,
+   "votes": 87,
    "neg": 0,
    "category": "Computing",
    "ts": 1793524968000
@@ -1390,23 +1391,15 @@
   {
    "title": "8BitDo Ultimate 2C Wireless Gaming Controller ~AUD $25.45 Delivered @ 8Bitdo Official Store via AliExpress",
    "link": "https://www.ozbargain.com.au/node/981179",
-   "votes": 82,
+   "votes": 83,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793522282000
   },
   {
-   "title": "SHiFT Code for Borderlands 4 - Golden Keys @ Gearbox Software",
-   "link": "https://www.ozbargain.com.au/node/981157",
-   "votes": 45,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793515827000
-  },
-  {
    "title": "[PC, Epic] Free: Highway Driving, Maze - The Amazing Labyrinth, Balloon Strike, Dark Mystery, Math Fun @ Epic Games",
    "link": "https://www.ozbargain.com.au/node/981232",
-   "votes": 44,
+   "votes": 49,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793565728000
@@ -1414,10 +1407,18 @@
   {
    "title": "GOG Full Throttle Remastered $3.75",
    "link": "https://www.ozbargain.com.au/node/981203",
-   "votes": 43,
+   "votes": 47,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793534775000
+  },
+  {
+   "title": "SHiFT Code for Borderlands 4 - Golden Keys @ Gearbox Software",
+   "link": "https://www.ozbargain.com.au/node/981157",
+   "votes": 46,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793515827000
   },
   {
    "title": "Full Metal G-Shock with Bluetooth and Solar GMWB5000D-1D Sale Price $659 Delivered @ Shriro",
@@ -1428,20 +1429,20 @@
    "ts": 1793496062000
   },
   {
-   "title": "[PC, XSX] 007 First Light - Standard Edition - $59.97 @ Xbox Store",
-   "link": "https://www.ozbargain.com.au/node/981133",
-   "votes": 37,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793495032000
-  },
-  {
    "title": "[PC] Tomb Raider GOTY $2.99, Rise of the Tomb Raider: 20 Year Celebration $4.49 @ GOG",
    "link": "https://www.ozbargain.com.au/node/981181",
    "votes": 34,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793522388000
+  },
+  {
+   "title": "Purchase $40 Annual OnePass Membership & Get a $20 OnePass Reward @ OnePass",
+   "link": "https://www.ozbargain.com.au/node/981209",
+   "votes": 27,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1793538239000
   },
   {
    "title": "HIFIMAN Ananda Stealth Headphones US$150.17 (~A$214) AU Stock Delivered @ HIFIMAN Local AliExpress",
@@ -1452,12 +1453,12 @@
    "ts": 1793518493000
   },
   {
-   "title": "Purchase $40 Annual OnePass Membership & Get a $20 OnePass Reward @ OnePass",
-   "link": "https://www.ozbargain.com.au/node/981209",
+   "title": "Vention 45W 20000mAh CCC Certified Power Bank w/Built-in Cable US$21.03 (~A$29.99) Delivered @ VEnTIOn Flagship Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/981242",
    "votes": 24,
    "neg": 0,
-   "category": "Other",
-   "ts": 1793538239000
+   "category": "Electrical & Electronics",
+   "ts": 1793571813000
   },
   {
    "title": "Wolfbox Electric Air Duster DF100 US$33.04 (~A$46.96) Delivered @ WOLFBOX Global Store AliExpress",
@@ -1476,12 +1477,20 @@
    "ts": 1793510795000
   },
   {
-   "title": "DDPAI Z60 Pro 4K Dash Cam US$56.11 (~A$80.02) AU Stock Shipped @ DDPAI Overseas AliExpress",
-   "link": "https://www.ozbargain.com.au/node/981236",
+   "title": "GL.iNet GL-BE3600 (Slate 7) Wi-Fi 7 Travel Router US$76.56 (~A$108.94) AU Stock Delivered @ GL-iNet Overseas Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/981215",
    "votes": 18,
    "neg": 0,
-   "category": "Automotive",
-   "ts": 1793569083000
+   "category": "Computing",
+   "ts": 1793539242000
+  },
+  {
+   "title": "Up to $180 off International Flights (E.g. $80 off Economy / $180 off Business) @ Cathay Pacific",
+   "link": "https://www.ozbargain.com.au/node/981196",
+   "votes": 18,
+   "neg": 0,
+   "category": "Travel",
+   "ts": 1793531090000
   }
  ],
  "carried": {}
