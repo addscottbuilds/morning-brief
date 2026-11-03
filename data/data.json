@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T01:39:43.562Z",
+ "generatedAt": "2026-11-03T01:53:26.678Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8865.2,
-    "chgPct": -0.48157981226266444,
+    "price": 8875.8,
+    "chgPct": -0.36258698029160114,
     "high52": 9296.7,
-    "off52": -4.64143190594512
+    "off52": -4.527412952983332
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.96,
-    "chgPct": -0.2465635475637339,
+    "price": 84.95,
+    "chgPct": -0.25830477125162765,
     "high52": 88,
-    "off52": -3.4545454545454617
+    "off52": -3.4659090909090877
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.92,
-    "chgPct": 0.02028576000768439,
+    "price": 148.14,
+    "chgPct": 0.16904497355015044,
     "high52": 155.03,
-    "off52": -4.586209120815335
+    "off52": -4.44430110301233
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.34,
-    "chgPct": -1.602295329495511,
+    "price": 58.4,
+    "chgPct": -1.5010978272632554,
     "high52": 65.18,
-    "off52": -10.49401656949985
+    "off52": -10.401963792574422
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 32.34,
-    "chgPct": -3.6065551850264557,
+    "price": 32.44,
+    "chgPct": -3.308492585103858,
     "high52": 47.78,
-    "off52": -32.31477605692758
+    "off52": -32.105483465885314
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6998,
-    "chgPct": -0.43819221735683794,
+    "price": 0.6999,
+    "chgPct": -0.42396503705066013,
     "high52": 0.7277,
-    "off52": -3.8339975264532136
+    "off52": -3.8202555998351033
    }
   ],
   "failed": [],
@@ -78,9 +78,9 @@
     "sym": "QAN.AX",
     "name": "Qantas",
     "market": "ASX",
-    "price": 9.3,
+    "price": 9.285,
     "currency": "AUD",
-    "chgPct": 5.681815891226519
+    "chgPct": 5.51136134946647
    },
    {
     "sym": "NVDA",
@@ -94,17 +94,9 @@
     "sym": "WDS.AX",
     "name": "Woodside",
     "market": "ASX",
-    "price": 32.09,
+    "price": 32.17,
     "currency": "AUD",
-    "chgPct": -3.9796476415764026
-   },
-   {
-    "sym": "STO.AX",
-    "name": "Santos",
-    "market": "ASX",
-    "price": 8.84,
-    "currency": "AUD",
-    "chgPct": -3.0701742222874753
+    "chgPct": -3.7402700102684023
    },
    {
     "sym": "AAPL",
@@ -113,6 +105,14 @@
     "price": 338.32,
     "currency": "USD",
     "chgPct": -3.0351676796188767
+   },
+   {
+    "sym": "META",
+    "name": "Meta",
+    "market": "US",
+    "price": 606.73,
+    "currency": "USD",
+    "chgPct": -2.8485907536803627
    }
   ]
  },
@@ -127,25 +127,18 @@
       "id": 0,
       "headline": "Shock medication find after top trainer Chris Waller’s Melbourne Cup contender Asterix scratched on race morning",
       "summary": "Stewards acted quickly on the clear rule breach and will now open an inquiry into the Cup-winning trainer.",
-      "ts": 1793668667000,
+      "ts": 1793670516000,
       "img": "https://images.7news.com.au/publication/C-23107851/ff2d5d0100a4d7e47c45bcf85a84fa51f1d3fb91-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Who could win the Melbourne Cup? What you need to know about every horse in the race - and who is most likely to take out the race",
-        "desc": "Every Melbourne Cup runner assessed, with TAB odds, winning chances and the doubts that could derail them.",
-        "link": "https://www.dailymail.com/sport/racing/article-16257603/melbourne-cup-runners-horse-racing-flemington.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Melbourne Cup LIVE: Stewards order Cup runner to be scratched; Why Birdcage guests won’t be getting their make-up touched up this year; main race at 3pm",
+        "title": "Melbourne Cup LIVE: Champion trainer cops massive fine for Cup runner’s raceday breach; main race at 3pm",
         "desc": "It’s Melbourne Cup Day, and we will bring you all the news, colour, analysis and action from the track, the Birdcage, the movers and shakers and much more. Follow it live.",
         "link": "https://www.theage.com.au/sport/racing/melbourne-cup-live-punters-brave-a-rainy-day-at-flemington-trustyourinstinct-among-favourites-in-3pm-main-race-20261103-p61aju.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
@@ -159,51 +152,44 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: Melbourne Cup horse scratched after medication rules broken",
-        "desc": "British horse Hopewell Rock begins Melbourne Cup Day as the favourite for the race that stops the nation. Follow live.",
+        "title": "Live: Top trainer explains 'simple mistake' that led to Melbourne Cup scratching",
+        "desc": "Chris Waller explains the mistake that led to Asterix being scratched from the Melbourne Cup in disappointing scenes for owners. Follow live.",
         "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-2026-live-flemington/107335812"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-      "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
-      "ts": 1793666956000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b940/live/17a71660-d714-11f1-b19c-4d0080e30e42.jpg",
+      "headline": "Live: Journalist Kate McClymont faces cross-examination at Alan Jones trial",
+      "summary": "The Sydney Morning Herald reporter wrote a series of stories from late 2023 that contained accounts from a number of men who alleged Mr Jones indecently assaulted them. Follow live.",
+      "ts": 1793670151000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/9d96af9cbbb10465e108b26d152c39bb?impolicy=wcms_crop_resize&cropH=1852&cropW=3293&xPos=416&yPos=302&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Florida plane crash victims revealed: Tech tycoon, 45, and his wife, 40, were on private jet with their two toddlers, the children's nanny and friends",
-        "desc": "Adam Robinson, 45, and his wife Helen Sharp, 40, were aboard the doomed jet alongside their toddlers Emma, four, and Charlie, two, when it crashed near West Palm Beach, Florida, on Sunday.",
-        "link": "https://www.dailymail.com/news/article-16259889/Married-couple-toddlers-identified-victims-Learjet-crash.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-        "desc": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
-        "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
-        "desc": "The Learjet 60 crew reported icing and an overspeed condition before the Austin-to-Bahamas flight plunged into a South Florida neighborhood.",
-        "link": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Alan Jones trial live updates: SMH journalist Kate McClymont asked about Herald articles in former 2GB broadcaster’s indecent assault, sexual touching trial",
+        "desc": "The Herald’s chief investigative reporter wrote a series of reports detailing allegations against the former radio heavyweight before his arrest, the court has heard.",
+        "link": "https://www.theage.com.au/national/nsw/alan-jones-trial-live-updates-smh-journalist-kate-mcclymont-to-give-evidence-in-former-2gb-broadcaster-s-alleged-indecent-assault-sexual-touching-trial-20261103-p618v5.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-        "desc": "Family of four, two close friends and nanny also died in crash as pilot identified as 55-year-old Jeff Gregory Family members on Monday identified a young Florida pilot as one of nine victims of a plane crash in Palm Beach county that occurred during a heavy thunderstorm. Nathalia Filgueiras, 20, was co-pilot of the private Learjet 60 en route from Austin-Bergstrom international airport in Texas t",
-        "link": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash"
+        "title": "Investigative journalist Kate McClymont gives evidence in Alan Jones indecent assault trial",
+        "desc": "Jones, a former radio broadcaster, has pleaded not guilty to 21 charges of indecent assault and sexual touching The Sydney Morning Herald’s chief investigative reporter, Kate McClymont, has told a Sydney court the alleged victims of Alan Jones she interviewed received no benefit from her or the media company for telling their stories. McClymont, whose 2023 articles led to other alleged victims com",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/03/kate-mcclymont-evidence-alan-jones-trial-ntwnfb"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Journalist Kate McClymont faces cross-examination at Alan Jones trial",
+        "desc": "The Sydney Morning Herald reporter wrote a series of stories from late 2023 that contained accounts from a number of men who alleged Mr Jones indecently assaulted them. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-03/nsw-sydney-alan-jones-court-smh-kate-mcclymont/107312774"
        }
       ]
      },
@@ -244,41 +230,6 @@
      },
      {
       "id": 3,
-      "headline": "Live: Journalist Kate McClymont faces cross-examination at Alan Jones trial",
-      "summary": "The Sydney Morning Herald reporter wrote a series of stories from late 2023 that contained accounts from a number of men who alleged Mr Jones indecently assaulted them. Follow live.",
-      "ts": 1793669111000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/9d96af9cbbb10465e108b26d152c39bb?impolicy=wcms_crop_resize&cropH=1852&cropW=3293&xPos=416&yPos=302&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Alan Jones trial live updates: SMH journalist Kate McClymont asked about Herald articles in former 2GB broadcaster’s indecent assault, sexual touching trial",
-        "desc": "The Herald’s chief investigative reporter wrote a series of reports detailing allegations against the former radio heavyweight before his arrest, the court has heard.",
-        "link": "https://www.theage.com.au/national/nsw/alan-jones-trial-live-updates-smh-journalist-kate-mcclymont-to-give-evidence-in-former-2gb-broadcaster-s-alleged-indecent-assault-sexual-touching-trial-20261103-p618v5.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Investigative journalist Kate McClymont gives evidence in Alan Jones indecent assault trial",
-        "desc": "Jones, a former radio broadcaster, has pleaded not guilty to 21 charges of indecent assault and sexual touching The Sydney Morning Herald’s chief investigative reporter, Kate McClymont, has told a Sydney court the alleged victims of Alan Jones she interviewed received no benefit from her or the media company for telling their stories. McClymont, whose 2023 articles led to other alleged victims com",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/03/kate-mcclymont-evidence-alan-jones-trial-ntwnfb"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Journalist Kate McClymont faces cross-examination at Alan Jones trial",
-        "desc": "The Sydney Morning Herald reporter wrote a series of stories from late 2023 that contained accounts from a number of men who alleged Mr Jones indecently assaulted them. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-11-03/nsw-sydney-alan-jones-court-smh-kate-mcclymont/107312774"
-       }
-      ]
-     },
-     {
-      "id": 4,
       "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
       "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
       "ts": 1793668432000,
@@ -313,7 +264,7 @@
       ]
      },
      {
-      "id": 5,
+      "id": 4,
       "headline": "Trump closes campaign touting DC makeover, accused of misreading mood of Americans",
       "summary": "“We have a lot of great things planned for Washington – and I could get into the nation, but for that, you don’t have enough time,” the president said on the day before Americans vote.",
       "ts": 1793667525000,
@@ -344,6 +295,41 @@
         "title": "Trump unveils results of $14m reflecting pool makeover in final appeal before midterms",
         "desc": "US president shares delayed results of chaotic renovation on DC site as Americans prepare to head to the polls Donald Trump unveiled the delayed results of his $14m renovation of Washington DC’s Lincoln Memorial reflecting pool in what is expected to be his final press conference before voters head to the polls for the midterm elections. On the eve of a consequential election day, with polls indic",
         "link": "https://www.theguardian.com/us-news/2026/nov/02/trump-reflecting-pool-renovation-midterms"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+      "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
+      "ts": 1793664494000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b940/live/17a71660-d714-11f1-b19c-4d0080e30e42.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+        "desc": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
+        "link": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Florida plane crash victims identified after 9 people killed in fiery wreck",
+        "desc": "The Learjet 60 crew reported icing and an overspeed condition before the Austin-to-Bahamas flight plunged into a South Florida neighborhood.",
+        "link": "https://www.foxnews.com/us/florida-plane-crash-victims-identified-9-people-killed-fiery-wreck"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+        "desc": "Family of four, two close friends and nanny also died in crash as pilot identified as 55-year-old Jeff Gregory Family members on Monday identified a young Florida pilot as one of nine victims of a plane crash in Palm Beach county that occurred during a heavy thunderstorm. Nathalia Filgueiras, 20, was co-pilot of the private Learjet 60 en route from Austin-Bergstrom international airport in Texas t",
+        "link": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash"
        }
       ]
      },
@@ -447,8 +433,8 @@
      {
       "id": 9,
       "headline": "RBA interest rates live: Reserve Bank of Australia meeting today before cash rate decision and announcement – latest news",
-      "summary": "Reserve Bank is expected to raise interest rates to an 18-year high on Tuesday, the fifth hike this year Get our breaking news email, free app or daily news podcast Asked why Labor can’t guarantee it won’t find net savings in the mid-year budget update, Chalmers told RN the government is undertaking that task this month ahead of December’s release. We are currently working our way through the spen",
-      "ts": 1793669808000,
+      "summary": "Reserve Bank is expected to raise interest rates to an 18-year high on Tuesday, the fifth hike this year Get our breaking news email, free app or daily news podcast Anthony Albanese defended his government’s record in the face of a likely rate hike. The prime minister is in Saint John’s, Antigua and Barbuda, for the Commonwealth heads of government meeting at the request of King Charles. We work e",
+      "ts": 1793670514000,
       "img": "https://i.guim.co.uk/img/media/4b59f9affe07234b60bcd306cbe130d9aa41c2ee/10_0_2500_2000/master/2500.jpg?width=460&quality=85&auto=format&fit=max&s=af61a7832a4acf0398386b4f7aaf7bdc",
       "divergent": null,
       "left_view": null,
@@ -460,7 +446,7 @@
         "outlet": "Guardian AU Politics",
         "lean": "left",
         "title": "RBA interest rates live: Reserve Bank of Australia meeting today before cash rate decision and announcement – latest news",
-        "desc": "Reserve Bank is expected to raise interest rates to an 18-year high on Tuesday, the fifth hike this year Get our breaking news email, free app or daily news podcast Asked why Labor can’t guarantee it won’t find net savings in the mid-year budget update, Chalmers told RN the government is undertaking that task this month ahead of December’s release. We are currently working our way through the spen",
+        "desc": "Reserve Bank is expected to raise interest rates to an 18-year high on Tuesday, the fifth hike this year Get our breaking news email, free app or daily news podcast Anthony Albanese defended his government’s record in the face of a likely rate hike. The prime minister is in Saint John’s, Antigua and Barbuda, for the Commonwealth heads of government meeting at the request of King Charles. We work e",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/03/rba-interest-rates-meeting-today-latest-news-australia-reserve-bank-cash-rate-announcement-decision-live-updates"
        }
       ]
@@ -488,6 +474,27 @@
      },
      {
       "id": 11,
+      "headline": "JD Vance says Haley Stevens' endorsement of GOP's Mike Rogers will 'certainly' help Michigan Senate race",
+      "summary": "VP JD Vance says Haley Stevens' endorsement of Mike Rogers over Abdul El-Sayed will give certain Michigan voters \"permission\" to back the GOP candidate.",
+      "ts": 1793666344000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/el-sayed-vance-fox-news.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "JD Vance says Haley Stevens' endorsement of GOP's Mike Rogers will 'certainly' help Michigan Senate race",
+        "desc": "VP JD Vance says Haley Stevens' endorsement of Mike Rogers over Abdul El-Sayed will give certain Michigan voters \"permission\" to back the GOP candidate.",
+        "link": "https://www.foxnews.com/politics/jd-vance-says-haley-stevens-endorsement-gops-mike-rogers-certainly-help-michigan-senate-race"
+       }
+      ]
+     },
+     {
+      "id": 12,
       "headline": "The midterms will change US politics. But NZ will keep feeling the Trump effect",
       "summary": "Alex Wong/Getty Images As New Zealanders begin voting in their own general election, Americans are also heading to the polls in Congressional midterm elections with major implications for the years ahead. Despite being on the other side of the Pacific, what happens next in Washington DC will have potentially high stakes for New Zealand. In the United States, all 435 seats in the House of Represent",
       "ts": 1793664609000,
@@ -506,27 +513,6 @@
         "link": "https://theconversation.com/the-midterms-will-change-us-politics-but-nz-will-keep-feeling-the-trump-effect-294656"
        }
       ]
-     },
-     {
-      "id": 12,
-      "headline": "How a midterm tie gets settled in the case of the Senate",
-      "summary": "A tied Senate could leave control of the chamber uncertain after the 2026 midterm elections. Past 50-50 splits in 2000 and 2020 offer clues about how lawmakers could negotiate power sharing agreements in 2027.",
-      "ts": 1793662706000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/split-with-vertical-inset.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "How a midterm tie gets settled in the case of the Senate",
-        "desc": "A tied Senate could leave control of the chamber uncertain after the 2026 midterm elections. Past 50-50 splits in 2000 and 2020 offer clues about how lawmakers could negotiate power sharing agreements in 2027.",
-        "link": "https://www.foxnews.com/politics/how-midterm-tie-gets-settled-case-senate"
-       }
-      ]
      }
     ]
    },
@@ -539,7 +525,7 @@
       "headline": "North Korea denies being behind record $6.3bn Binance hack",
       "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
       "ts": 1793668983000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2b9c/live/3d06bb60-d721-11f1-b335-69af4183ea6e.jpg",
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a90/live/75145840-d727-11f1-b237-93d5595d4291.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -798,18 +784,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Super funds issued with legal warning following regulator's damning report",
-        "desc": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
-        "link": "https://www.abc.net.au/news/2026-11-02/superannuation-funds-failing-members-retirement-savings-asic/107319026"
-       },
-       {
         "outlet": "The Age Business",
         "lean": "left",
         "title": "Super funds slammed for ‘blaming customers for complaints’",
         "desc": "Complaints have surged in the multitrillion dollar super sector, but the watchdog says fund trustees are too readily blaming issues on members.",
         "link": "https://www.theage.com.au/business/banking-and-finance/super-funds-slammed-for-blaming-customers-for-complaints-20261102-p61a1n.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Super funds issued with legal warning following regulator's damning report",
+        "desc": "Australia's corporate regulator is threatening legal action against super funds that do not step up to resolve complaints.",
+        "link": "https://www.abc.net.au/news/2026-11-02/superannuation-funds-failing-members-retirement-savings-asic/107319026"
        }
       ]
      },
@@ -932,8 +918,8 @@
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Live: Melbourne Cup horse scratched after medication rules broken",
-        "desc": "British horse Hopewell Rock begins Melbourne Cup Day as the favourite for the race that stops the nation. Follow live.",
+        "title": "Live: Top trainer explains 'simple mistake' that led to Melbourne Cup scratching",
+        "desc": "Chris Waller explains the mistake that led to Asterix being scratched from the Melbourne Cup in disappointing scenes for owners. Follow live.",
         "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-2026-live-flemington/107335812"
        }
       ]
@@ -1142,10 +1128,10 @@
      },
      {
       "id": 35,
-      "headline": "Apple Services Revenue Hits New Record of $31.6 Billion in September Quarter, but Growth Is Slowing Down",
-      "summary": "Apple continued to see sales in its flagship iPhone family balloon, while the tech giant’s services business hit a new all-time high, in the first earnings report under CEO John Ternus. Apple’s Services segment revenue of $31.57 billion — a new record — was up 9.8%. But that’s slower growth than in the first two […]",
-      "ts": 1793657078000,
-      "img": "https://variety.com/wp-content/uploads/2024/01/Apple-App-Store-Rules.jpg",
+      "headline": "New Indian Horror Lab Aims to Push Genre Past Ghosts and Comedy Hybrids (EXCLUSIVE)",
+      "summary": "A new screenwriting lab in India wants to steer the country’s horror films away from ghost stories and horror-comedy hybrids. Independent outfit Platoon One Films will pick 15 writers for a three-month program built around original genre scripts. The Platoon One Horror Lab will run entirely online, and each of the 15 participants will bring […]",
+      "ts": 1793670491000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Platoon-One-Horror-Lab.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1155,16 +1141,9 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Apple Services Revenue Hits New Record of $31.6 Billion in September Quarter, but Growth Is Slowing Down",
-        "desc": "Apple continued to see sales in its flagship iPhone family balloon, while the tech giant’s services business hit a new all-time high, in the first earnings report under CEO John Ternus. Apple’s Services segment revenue of $31.57 billion — a new record — was up 9.8%. But that’s slower growth than in the first two […]",
-        "link": "https://variety.com/2026/digital/news/apple-september-2026-earnings-services-revenue-hits-new-record-1236937903/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Apple FYQ4 Revenue Tops Forecasts On iPhone Sales As New CEO John Ternus Steps Up",
-        "desc": "Apple revenue beat Wall Street forecasts rising 12% for the fiscal fourth quarter ended in September, led by strong iPhone sales. Mac sales boomed. The giant services sector, home of Apple TV, was a hair soft and numbers for iPads and Wearables were below estimates. Earnings per share were boosted by a hefty tariff refund. […]",
-        "link": "https://deadline.com/2026/11/apple-iphone-fyq4-earnings-new-ceo-john-ternus-1237211541/"
+        "title": "New Indian Horror Lab Aims to Push Genre Past Ghosts and Comedy Hybrids (EXCLUSIVE)",
+        "desc": "A new screenwriting lab in India wants to steer the country’s horror films away from ghost stories and horror-comedy hybrids. Independent outfit Platoon One Films will pick 15 writers for a three-month program built around original genre scripts. The Platoon One Horror Lab will run entirely online, and each of the 15 participants will bring […]",
+        "link": "https://variety.com/2026/film/news/indian-horror-lab-push-genre-past-ghosts-horror-comedies-1236938082/"
        }
       ]
      },
@@ -1193,37 +1172,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
    "The Age",
-   "BBC World",
-   "Guardian Australia",
    "ABC News",
-   "Fox News",
-   "The Conversation",
-   "Guardian Tech",
-   "Fox News Politics",
-   "The Verge",
-   "Ars Technica",
-   "ABC Business",
-   "The Age Federal Politics",
    "7News",
-   "AFR",
-   "Fox Business",
-   "ABC Sport",
-   "Guardian Film",
+   "Crikey",
+   "Guardian Australia",
+   "Fox News",
+   "BBC World",
+   "BBC Tech",
+   "Fox News Politics",
+   "Ars Technica",
+   "The Conversation",
    "Guardian AU Politics",
+   "The Verge",
+   "Guardian Tech",
+   "The Age Federal Politics",
+   "BBC Sport",
+   "AFR",
+   "Guardian AU Business",
    "Variety",
    "The Age Business",
-   "Guardian AU Business",
    "Deadline",
-   "BBC Tech",
+   "Fox Business",
    "Guardian AU Sport",
-   "Anime News Network",
-   "BBC Sport",
+   "Guardian Film",
+   "ABC Business",
+   "ABC Sport",
    "Screen Rant",
+   "Anime News Network",
    "7News Sport",
-   "Daily Mail Australia",
-   "SBS News"
+   "SBS News",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1418,7 +1397,7 @@
   {
    "title": "AmEx Statement Credit: 10% of Spend Back at Special Gift Cards (up to $20 Back One Time Only) @ American Express",
    "link": "https://www.ozbargain.com.au/node/981378",
-   "votes": 209,
+   "votes": 216,
    "neg": 0,
    "category": "Financial",
    "ts": 1793648767000
@@ -1426,7 +1405,7 @@
   {
    "title": "50% off nbn for 4 Months: 50/20, 100/20 or 500/50 $49/M, 750/50 $59/M, 1000/100 $64/M, 25/5 $44/M (New Services Only) @ Telstra",
    "link": "https://www.ozbargain.com.au/node/981368",
-   "votes": 169,
+   "votes": 171,
    "neg": 0,
    "category": "Internet",
    "ts": 1793631079000
@@ -1434,8 +1413,8 @@
   {
    "title": "AliExpress: 26% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/981339",
-   "votes": 168,
-   "neg": 0,
+   "votes": 169,
+   "neg": 1,
    "category": "Other",
    "ts": 1793605443000
   },
@@ -1450,26 +1429,34 @@
   {
    "title": "[PC, Epic] Free: Funtoon's World, Mountain Racing, Super Kids Racing - Mini Edition @ Epic Games",
    "link": "https://www.ozbargain.com.au/node/981332",
-   "votes": 91,
+   "votes": 93,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793602733000
   },
   {
+   "title": "$10 off Click & Collect Order with $50+ Spend @ Coles Online",
+   "link": "https://www.ozbargain.com.au/node/981397",
+   "votes": 91,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1793664450000
+  },
+  {
    "title": "Google Pixel 10 from $499, Motorola Edge 70 256GB $449 (with $99 184-Day 150GB Plan) @ amaysim",
    "link": "https://www.ozbargain.com.au/node/981374",
-   "votes": 84,
+   "votes": 86,
    "neg": 0,
    "category": "Mobile",
    "ts": 1793646623000
   },
   {
-   "title": "$10 off Click & Collect Order with $50+ Spend @ Coles Online",
-   "link": "https://www.ozbargain.com.au/node/981397",
+   "title": "[Switch 2] Final Fantasy VII Remake Intergrade $13.99, Final Fantasy VII Rebirth $12.74 @ Nintendo eShop",
+   "link": "https://www.ozbargain.com.au/node/981371",
    "votes": 80,
    "neg": 0,
-   "category": "Groceries",
-   "ts": 1793664450000
+   "category": "Gaming",
+   "ts": 1793640166000
   },
   {
    "title": "Vention 165W 20000mAh CCC Certified Power Bank w/Built-in Cable US$47.14 (~A$67.23) Shipped @ VEnTIOn Official Store AliExpress",
@@ -1488,14 +1475,6 @@
    "ts": 1793605618000
   },
   {
-   "title": "[Switch 2] Final Fantasy VII Remake Intergrade $13.99, Final Fantasy VII Rebirth $12.74 @ Nintendo eShop",
-   "link": "https://www.ozbargain.com.au/node/981371",
-   "votes": 77,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793640166000
-  },
-  {
    "title": "Li-Ning Men's RED Hare 9 PRO Racing Running Shoes US$57.67 (~AU$82.24) Delivered @ LINING Official Store via AliExpress",
    "link": "https://www.ozbargain.com.au/node/981351",
    "votes": 77,
@@ -1506,7 +1485,7 @@
   {
    "title": "nbn FTTP or HFC 500/50 $50/Month for 6 Months (New Customers) @ amaysim",
    "link": "https://www.ozbargain.com.au/node/981364",
-   "votes": 73,
+   "votes": 74,
    "neg": 2,
    "category": "Internet",
    "ts": 1793621999000
