@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-04T00:13:54.900Z",
+ "generatedAt": "2026-11-04T00:50:24.482Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8844.6,
-    "chgPct": -0.13436459097837333,
+    "price": 8859.5,
+    "chgPct": 0.03387342629706995,
     "high52": 9296.7,
-    "off52": -4.863015908870894
+    "off52": -4.702743984424588
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.5,
-    "chgPct": 0.5882352941176471,
+    "price": 85.07,
+    "chgPct": 0.08235294117646255,
     "high52": 88,
-    "off52": -2.840909090909091
+    "off52": -3.329545454545462
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.54,
-    "chgPct": -0.4789207419898874,
+    "price": 147.92,
+    "chgPct": -0.222596964586855,
     "high52": 155.03,
-    "off52": -4.831322969747796
+    "off52": -4.586209120815335
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.89,
-    "chgPct": 0.9946812091392853,
+    "price": 58.45,
+    "chgPct": 0.24009367760556044,
     "high52": 65.18,
-    "off52": -9.650199447683347
+    "off52": -10.32525314513655
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 33,
-    "chgPct": 2.6438520490796673,
+    "price": 32.63,
+    "chgPct": 1.4929967382263578,
     "high52": 47.78,
-    "off52": -30.933444956048557
+    "off52": -31.707827542904976
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6971,
-    "chgPct": -0.4128509329368186,
+    "price": 0.6968,
+    "chgPct": -0.45570869325833163,
     "high52": 0.7277,
-    "off52": -4.2050295451422235
+    "off52": -4.24625532499657
    }
   ],
   "failed": [],
-  "note": "SEMI is 31% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 32% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "AVGO",
@@ -81,6 +81,14 @@
     "price": 520.99,
     "currency": "USD",
     "chgPct": 2.735053836638283
+   },
+   {
+    "sym": "QAN.AX",
+    "name": "Qantas",
+    "market": "ASX",
+    "price": 9.125,
+    "currency": "AUD",
+    "chgPct": -2.510680184796821
    }
   ]
  },
@@ -93,10 +101,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Learjet tail part found kilometres from deadly Florida plane crash",
-      "summary": "Investigators say plane parts found kilometres from a crater caused by a deadly plane crash may reveal more about the final moments on board.",
+      "headline": "NTSB says crucial plane parts found three miles from Florida crash site",
+      "summary": "The NTSB said because the parts were found far from the accident site, they fell off before the crash.",
       "ts": 1793749540000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/ffc173ae4845835420b2f4b8f046ac1b?impolicy=wcms_crop_resize&cropH=1440&cropW=2560&xPos=0&yPos=0&width=862&height=485",
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c38/live/b5b1d720-d7cb-11f1-b441-2b33b063138f.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -109,13 +117,6 @@
         "title": "Crucial evidence found could help unlock Florida jet crash mystery",
         "desc": "A piece of debris found six kilometres from the crash site could provide vital clues to what caused the catastrophic accident.",
         "link": "https://www.theage.com.au/world/north-america/crucial-evidence-found-could-help-unlock-florida-jet-crash-mystery-20261104-p61b85.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Learjet tail part found kilometres from deadly Florida plane crash",
-        "desc": "Investigators say plane parts found kilometres from a crater caused by a deadly plane crash may reveal more about the final moments on board.",
-        "link": "https://www.abc.net.au/news/2026-11-04/final-moments-aboard-learjet-flight/107344066"
        },
        {
         "outlet": "Daily Mail Australia",
@@ -142,48 +143,6 @@
      },
      {
       "id": 1,
-      "headline": "Two Australians among those dead in Spain's high-speed train crash",
-      "summary": "Spain's transport minister has resigned after the crash, as calls mount for accountability.",
-      "ts": 1793746404000,
-      "img": "https://assets.sbs.com.au/dims4/default/b9ca5ca/2147483647/strip/false/crop/5088x2338+0+527/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe6%2Fc1%2F5f4ee3124aca82ca65b1ad751ff2%2Fafp-20261030-d4wr6cb-v1-highres-spaintrainaccidenttransport.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Two Australians confirmed dead in horror Spain train crash",
-        "desc": "The Spanish transport minister has resigned as local authorities confirmed that two Australians were among the 69 victims killed in last week’s devastating high-speed train collision in Spain.",
-        "link": "https://www.theage.com.au/world/europe/two-australians-confirmed-dead-in-horror-spain-train-crash-20261103-p61b4l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Two Australians among those dead in Spain's high-speed train crash",
-        "desc": "Spain's transport minister has resigned after the crash, as calls mount for accountability.",
-        "link": "https://www.sbs.com.au/news/article/two-australians-among-the-deceased-from-high-speed-train-crash-in-spain/3061rc76s"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
-        "desc": "Legal body handling identification says three latest victims include two Australians and a Japanese citizen Get our breaking news email, free app or daily news podcast Two Australians are among 69 people who died in last week’s high-speed train collision after Spanish authorities confirmed the identities of three more victims. A legal body set up to handle the identification work, made up of polic",
-        "link": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Two Australians killed in horror high-speed Spain train crash",
-        "desc": "Authorities have identified all 69 people killed in the horror collision.",
-        "link": "https://7news.com.au/news/world/two-australians-killed-in-horror-high-speed-spain-train-crash-c-23112521"
-       }
-      ]
-     },
-     {
-      "id": 2,
       "headline": "Spanish footballer dies after on-field collision",
       "summary": "Tenerife forward Jesús de Miguel dies after a horrific clash with an opposition goalkeeper that has sparked an investigation by Spanish police.",
       "ts": 1793744337000,
@@ -225,116 +184,11 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "‘A line you don’t come back from’: Political figures sound alarm over Trump’s plans for Iran, but how likely is a nuclear attack?",
-      "summary": "‘Almost like the genie being out of the bottle.’",
-      "ts": 1793750446000,
-      "img": "https://images.7news.com.au/publication/C-23108476/d00ee062fffa9efd2aa6e009c8a9e4926b6a672d-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "US midterms results 2026 LIVE updates: Trump says ‘no immediate plans to strike Iran’ as first polls close in key US battleground states; Republicans under threat from Democrats in House, Senate; ICE ",
-        "desc": "Follow our live coverage of the US midterm elections, where several critical races could have major consequences for Donald Trump’s presidency.",
-        "link": "https://www.theage.com.au/world/north-america/us-midterms-2026-live-updates-polls-begin-to-open-across-america-with-key-states-threatening-president-trump-republican-majority-blue-wave-predicted-for-democrats-in-house-and-senate-20261104-p61b0t.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Alexander brothers' prison kissing privileges revealed: Fellow inmates line up to attack next after pepper-spray incident... and they seek refuge in gang of Jewish cellmates",
-        "desc": "All three were sentenced to 30 years each in federal prison after a jury found them guilty in March of sex trafficking offenses, in a scheme in which they drugged and raped women over more than a decade.",
-        "link": "https://www.dailymail.com/crime-desk/article-16263131/alexander-brothers-prison-kissing-privileges-attack-gang.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "‘A line you don’t come back from’: Political figures sound alarm over Trump’s plans for Iran, but how likely is a nuclear attack?",
-        "desc": "‘Almost like the genie being out of the bottle.’",
-        "link": "https://7news.com.au/news/a-line-you-dont-come-back-from-political-figures-sound-alarm-over-trumps-plans-for-iran-but-how-likely-is-a-nuclear-attack-c-23108476"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Indian tourist killed after two helicopters collide near Everest base camp",
-      "summary": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
-      "ts": 1793748819000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/029f/live/4eb51590-d772-11f1-a701-fddedf244c16.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Footage shows deadly helicopter collision on Mount Everest",
-        "desc": "An Indian tourist was killed and at least two others were injured when the two aircraft crashed while trying to land on Mount Everest.",
-        "link": "https://www.theage.com.au/world/asia/footage-shows-deadly-helicopter-collision-on-mount-everest-20261104-p61b8m.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Two helicopters collide near Mount Everest during rescue flight, killing one, injuring others",
-        "desc": "A tourist died after two helicopters collided near Pheriche below Mount Everest base camp. A 47-year-old man who was killed was from Chennai, India.",
-        "link": "https://www.foxnews.com/travel/two-helicopters-collide-mount-everest-during-rescue-flight-killing-one-injuring-others"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Indian tourist killed after two helicopters collide near Everest base camp",
-        "desc": "The two aircraft crashed just metres from the ground after trying to land at the same spot.",
-        "link": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Government promises fresh spending cuts before Christmas as Aussies warned coming months will ‘feel like a recession’",
-      "summary": "Interest rates are now at an 18-year high after the RBA delivered its fifth hike this year.",
-      "ts": 1793748506000,
-      "img": "https://images.7news.com.au/publication/C-23113307/73ba5b9c76daee1f480b625e6ebe9453f389c30f-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Shocker as minister Katy Gallagher says Labor needs credit for its 'hard work' - as Australians cop 17th interest rate rise under Albanese: 'What breathtaking arrogance'",
-        "desc": "Finance Minister Katy Gallagher has complained that the Albanese government has not received credit for it's hard work on the economy.",
-        "link": "https://www.dailymail.com/news/article-16263417/albanese-gallagher-australia-rba-rate-interest.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Government promises fresh spending cuts before Christmas as Aussies warned coming months will ‘feel like a recession’",
-        "desc": "Interest rates are now at an 18-year high after the RBA delivered its fifth hike this year.",
-        "link": "https://7news.com.au/sunrise/government-promises-fresh-spending-cuts-before-christmas-as-aussies-warned-coming-months-will-feel-like-a-recession-c-23113307"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Blame game intensifies as RBA admits interest rate rise will ‘feel like a recession’",
-        "desc": "As expected, the Reserve Bank of Australia raised interest rates to an 18-year high and now everyone wants to know what Treasurer Jim Chalmers is going to do about it. Meanwhile, America heads to the polls with Congress on the line. The post Blame game intensifies as RBA admits interest rate rise will ‘feel like a recession’ appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/04/rba-interest-rate-rise-like-recession-jim-chalmers-us-midterms/"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Reddit and activists challenge Albanese government's under-16s social media ban in High Court",
-      "summary": "‘They shouldn’t be shut out.’",
-      "ts": 1793747560000,
-      "img": "https://images.7news.com.au/publication/C-23112231/310ad37443912cc688c5e46beb14c3f10c17c2d2-16x9-x0y75w800h450.jpg",
+      "id": 2,
+      "headline": "US President Donald Trump vows to stop funding Israel after year-end",
+      "summary": "‘The left uses the $US4 billion payment that everybody knows about, well it’s no secret, as a signal of unfairness, and we can’t allow that to happen’.",
+      "ts": 1793753108000,
+      "img": "https://images.7news.com.au/publication/C-23113224/7422efab32329eade828247712803da864d24f2c-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -344,16 +198,121 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Jasmine Yarbrough's sister Jade shares 'severe' health diagnosis after undergoing extensive surgery and going missing from social media for almost five months: 'No cure for endometriosis'",
-        "desc": "Jade Yarbrough has finally resurfaced on social media to reveal that she has been hiding a private health battle.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16260515/jade-yarbrough-endometriosis-surgery-instagram-health-stage-4.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "First midterm votes paint a bleak picture for Trump as Republicans brace for a bruising election night: Live updates",
+        "desc": "Election Day is here, and President Donald Trump's power is on the line as Republicans brace for a 'blue tsunami.' Follow along the Daily Mail's live blog for updates.",
+        "link": "https://www.dailymail.com/news/article-16259741/election-day-midterms-2026-live-updates.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Reddit and activists challenge Albanese government's under-16s social media ban in High Court",
-        "desc": "‘They shouldn’t be shut out.’",
-        "link": "https://7news.com.au/politics/reddit-and-activists-challenge-albanese-governments-under-16s-social-media-ban-in-high-court-c-23112231"
+        "title": "US President Donald Trump vows to stop funding Israel after year-end",
+        "desc": "‘The left uses the $US4 billion payment that everybody knows about, well it’s no secret, as a signal of unfairness, and we can’t allow that to happen’.",
+        "link": "https://7news.com.au/politics/world-politics/us-president-donald-trump-vows-to-stop-funding-israel-after-year-end-c-23113224"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+        "desc": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
+        "link": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
+      "summary": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
+      "ts": 1793752807000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/e69a268d5421d1e4db4516bfc892575f?impolicy=wcms_crop_resize&cropH=1196&cropW=2127&xPos=0&yPos=997&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Aussie software giant Canva cuts hundreds of jobs as AI reshapes the workforce",
+        "desc": "Design giant Canva is slashing more than a thousand roles, or 22 per cent of its workforce.",
+        "link": "https://www.dailymail.com/news/article-16263343/Aussie-software-giant-Canva-cuts-hundreds-jobs-AI-continues-reshape-workforce.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
+        "desc": "Chief executive Melanie Perkins describes job cuts as ‘without doubt the hardest moment in our thirteen-year history’ in email to staff Get our breaking news email, free app or daily news podcast Canva is cutting or relocating more than 1,200 jobs, representing 22% of its global workforce, as part of a major restructure that includes laying off staff who helped build the Australian-founded design ",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
+        "desc": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
+        "link": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Live updates: Midterm results trickle in as more polls close; historic firsts possible",
+      "summary": "A pivotal US midterm election is underway. Follow live as results come in and the battle for Congress takes shape.",
+      "ts": 1793752603000,
+      "img": "https://assets.sbs.com.au/dims4/default/65d802a/2147483647/strip/false/crop/3409x1566+0+707/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F72%2Ff3%2Ff4d52cd94e00953f1f8cebed3cfd%2Fgettyimages-2303393418.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "US midterms results 2026 LIVE updates: Democrats on track in Georgia as first polls close in key US battleground states; Republicans under threat from Democrats in House, Senate; ICE issues warning to",
+        "desc": "Follow our live coverage of the US midterm elections, where several critical races could have major consequences for Donald Trump’s presidency.",
+        "link": "https://www.theage.com.au/world/north-america/us-midterms-2026-live-updates-polls-begin-to-open-across-america-with-key-states-threatening-president-trump-republican-majority-blue-wave-predicted-for-democrats-in-house-and-senate-20261104-p61b0t.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "US midterm elections 2026 live updates: polls close in some key states as Americans deliver referendum on Trump’s second term",
+        "desc": "Polls close in Ohio, North Carolina, South Carolina and Georgia as Americans decide the direction of Congress for remainder of Trump’s term Track live results from all 50 states As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox News. “I can’t stand Jessica Tarlov’s voice,”",
+        "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Live updates: Midterm results trickle in as more polls close; historic firsts possible",
+        "desc": "A pivotal US midterm election is underway. Follow live as results come in and the battle for Congress takes shape.",
+        "link": "https://www.sbs.com.au/news/live-blog/us-midterm-elections-2026-live-results/1un8q7w91"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Major test for Australia's social media ban begins in High Court",
+      "summary": "Lawyers for Reddit and a digital rights group are arguing the world-leading policy robs children of their right to free communication.",
+      "ts": 1793748590000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/69114010-d75b-11f1-8f6b-d71817972456.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Man, 86, and his dog rescued hundreds of miles off California coast after going silent for 2 months",
+        "desc": "A Coast Guard aircrew spotted the sailboat 460 miles off San Diego after an emergency beacon alert launched a dramatic search and rescue mission.",
+        "link": "https://www.foxnews.com/us/man-86-dog-rescued-hundreds-miles-california-coast-going-silent-2-months"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Jasmine Yarbrough's sister Jade shares 'severe' health diagnosis after undergoing extensive surgery and going missing from social media for almost five months: 'No cure for endometriosis'",
+        "desc": "Jade Yarbrough has finally resurfaced on social media to reveal that she has been hiding a private health battle.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16260515/jade-yarbrough-endometriosis-surgery-instagram-health-stage-4.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "BBC World",
@@ -361,6 +320,41 @@
         "title": "Major test for Australia's social media ban begins in High Court",
         "desc": "Lawyers for Reddit and a digital rights group are arguing the world-leading policy robs children of their right to free communication.",
         "link": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Angus Taylor slams Anthony Albanese for showing ‘no interest’ in working with Coalition to tackle inflation crisis",
+      "summary": "The Opposition Leader has claimed that ‘all we’re getting from the government is excuses’.",
+      "ts": 1793746783000,
+      "img": "https://images.7news.com.au/publication/C-23113460/6f192038548576a7ed8eae556fcf931a65aebaef-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Angus Taylor slams Anthony Albanese for showing ‘no interest’ in working with Coalition to tackle inflation crisis",
+        "desc": "The Opposition Leader has claimed that ‘all we’re getting from the government is excuses’.",
+        "link": "https://7news.com.au/sunrise/angus-taylor-slams-anthony-albanese-for-showing-no-interest-in-working-with-coalition-to-tackle-inflation-crisis-c-23113460"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Anthony Albanese warns world leaders after alleged attack on Helen Haines",
+        "desc": "The prime minister said political polarisation is eroding social cohesion worldwide.",
+        "link": "https://www.sbs.com.au/news/article/anthony-albanese-helen-haines-world-leaders/6d02ietkj"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "How a post-Helen Haines attack motion split a NSW council",
+        "desc": "In the wake of the attack on Helen Haines, a local councillor raised two motion amendments to condemn violence and urge respectful debate. The area's mayor wasn't happy about it. The post How a post-Helen Haines attack motion split a NSW council appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/03/helen-haines-hilltops-council-motion-amendment-james-blackwell-brian-ingram/"
        }
       ]
      }
@@ -428,6 +422,69 @@
      },
      {
       "id": 9,
+      "headline": "How secure is postal voting in Victoria? We decided to find out",
+      "summary": "With state elections coming up on November 28, you might have wondered: how secure is postal voting in Victoria? To find out, one of us (Katharina Kretschmer) undertook a research internship at the Victorian Electoral Commission (VEC) between August 2024 and March 2025, with blocks of on-site work during important stages of the 2024 Victorian local government elections. This involved being inducte",
+      "ts": 1793751501000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "How secure is postal voting in Victoria? We decided to find out",
+        "desc": "With state elections coming up on November 28, you might have wondered: how secure is postal voting in Victoria? To find out, one of us (Katharina Kretschmer) undertook a research internship at the Victorian Electoral Commission (VEC) between August 2024 and March 2025, with blocks of on-site work during important stages of the 2024 Victorian local government elections. This involved being inducte",
+        "link": "https://theconversation.com/how-secure-is-postal-voting-in-victoria-we-decided-to-find-out-294360"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Paper ballot shortages spark Election Day scramble at polling places in several states",
+      "summary": "Election Day Tuesday saw ballot shortages in Kansas, Illinois and Maryland, with one voter saying the disruption feels like voter suppression.",
+      "ts": 1793748803000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/mail-in-ballot.png?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Paper ballot shortages spark Election Day scramble at polling places in several states",
+        "desc": "Election Day Tuesday saw ballot shortages in Kansas, Illinois and Maryland, with one voter saying the disruption feels like voter suppression.",
+        "link": "https://www.foxnews.com/politics/paper-ballot-shortages-spark-election-day-scramble-polling-places-several-states"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
+      "summary": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
+      "ts": 1793748695000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/06/931/523/dan-sullivan-alaska-senate-fox-news-001.jpeg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump admin puts alleged 'Decoy Dan' conspirators on notice in Alaska election spoiler probe",
+        "desc": "The Justice Department has issued more than 120 subpoenas and 20 target letters in its probe of Daniel J. Sullivan's Alaska Senate candidacy.",
+        "link": "https://www.foxnews.com/politics/trump-admin-puts-alleged-decoy-dan-conspirators-notice-alaska-election-spoiler-probe"
+       }
+      ]
+     },
+     {
+      "id": 12,
       "headline": "Kansas postal worker indicted for stealing mail, including hundreds of Republican election flyers",
       "summary": "Kelly R. Cram, a Kansas postal worker, was indicted for allegedly stealing 4,404 pieces of mail, including nearly 400 Republican political mailers.",
       "ts": 1793737575000,
@@ -444,69 +501,6 @@
         "title": "Kansas postal worker indicted for stealing mail, including hundreds of Republican election flyers",
         "desc": "Kelly R. Cram, a Kansas postal worker, was indicted for allegedly stealing 4,404 pieces of mail, including nearly 400 Republican political mailers.",
         "link": "https://www.foxnews.com/politics/kansas-postal-worker-indicted-stealing-mail-including-hundreds-republican-election-flyers"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "ASRA NOMANI: Muslim reformers reject ‘fire will rise’ warning if El-Sayed loses as 'Jihad First'",
-      "summary": "Wajahat Ali's warning that \"the fire will rise\" if Abdul El-Sayed loses the Michigan Senate race draws a sharp rebuke from Muslim reformers.",
-      "ts": 1793735690000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/12/931/523/wajahat-ali-speaks-at-event.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "ASRA NOMANI: Muslim reformers reject ‘fire will rise’ warning if El-Sayed loses as 'Jihad First'",
-        "desc": "Wajahat Ali's warning that \"the fire will rise\" if Abdul El-Sayed loses the Michigan Senate race draws a sharp rebuke from Muslim reformers.",
-        "link": "https://www.foxnews.com/politics/asra-nomani-muslim-reformers-reject-fire-rise-warning-el-sayed-loses-jihad-first"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Supreme Court offers support for Catholic preschools challenging state funding requirements",
-      "summary": "The Supreme Court's conservative majority signaled support for Catholic preschools claiming Colorado's funded program violates their religious liberty.",
-      "ts": 1793734994000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/St-Mary-School-children-entering-church.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Supreme Court offers support for Catholic preschools challenging state funding requirements",
-        "desc": "The Supreme Court's conservative majority signaled support for Catholic preschools claiming Colorado's funded program violates their religious liberty.",
-        "link": "https://www.foxnews.com/politics/supreme-court-offers-support-catholic-preschools-challenging-state-funding-requirements"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "US midterm elections: live results tracker",
-      "summary": "Millions of Americans have cast their ballots in the US midterm elections, with control of both the Senate and the House of Representatives at stake. The first major polls begin closing on the east coast around 7pm EST (11am AEDT). We will begin publishing results here as soon as the races are called by the Associated Press in the United States. In short, this is what’s at stake: the Democrats nee",
-      "ts": 1793731966000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "US midterm elections: live results tracker",
-        "desc": "Millions of Americans have cast their ballots in the US midterm elections, with control of both the Senate and the House of Representatives at stake. The first major polls begin closing on the east coast around 7pm EST (11am AEDT). We will begin publishing results here as soon as the races are called by the Associated Press in the United States. In short, this is what’s at stake: the Democrats nee",
-        "link": "https://theconversation.com/us-midterm-elections-live-results-tracker-295554"
        }
       ]
      }
@@ -602,6 +596,27 @@
      },
      {
       "id": 16,
+      "headline": "The biggest modding site in PC gaming is taking a stance on AI",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent concerns we've heard is that it's not clearly disclosed when AI has been used to creat",
+      "ts": 1793752930000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "The biggest modding site in PC gaming is taking a stance on AI",
+        "desc": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent concerns we've heard is that it's not clearly disclosed when AI has been used to creat",
+        "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures"
+       }
+      ]
+     },
+     {
+      "id": 17,
       "headline": "Graduates are managing AI - but are they learning much else?",
       "summary": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
       "ts": 1793750675000,
@@ -622,7 +637,7 @@
       ]
      },
      {
-      "id": 17,
+      "id": 18,
       "headline": "Please stop asking me when the AI bubble will pop",
       "summary": "Emmanuel Roman, chief executive officer of Pacific Investment Management Co. (Pimco), during the Global Financial Leaders' Investment Summit in Hong Kong, China, on Tuesday, Nov. 3, 2026. | Bloomberg via Getty Images People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I woul",
       "ts": 1793749065000,
@@ -641,27 +656,6 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds"
        }
       ]
-     },
-     {
-      "id": 18,
-      "headline": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
-      "summary": "Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. \"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs,\" says Perkins. \"Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.\" In her note to st",
-      "ts": 1793746776000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Canva is announcing changes and layoffs affecting 22 percent of its staff",
-        "desc": "Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. \"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs,\" says Perkins. \"Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.\" In her note to st",
-        "link": "https://www.theverge.com/tech/1025971/canva-changes-layoffs"
-       }
-      ]
      }
     ]
    },
@@ -671,7 +665,42 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Ticketek, Virgin and 'protein chips' win big at annual Shonky Awards",
+      "headline": "David Jones landlord talks break down; administrators to be appointed",
+      "summary": "David Jones has faced some of the toughest trading conditions in the last six decades as cost of living pressures have crushed consumer confidence.",
+      "ts": 1793751533000,
+      "img": "https://static.ffx.io/images/$zoom_0.1857%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_35%2C$y_147/t_crop_custom/q_86%2Cf_auto/b610a3108b0c5303188752857539bc4b5adc3998",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "David Jones landlord talks break down; administrators to be appointed",
+        "desc": "David Jones has faced some of the toughest trading conditions in the last six decades as cost of living pressures have crushed consumer confidence.",
+        "link": "https://www.afr.com/companies/financial-services/david-jones-landlord-talks-break-down-administrators-to-be-appointed-20261104-p61aco?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "David Jones facing 'alarming' financial speculation just before Christmas",
+        "desc": "The major retailer is being forced to defend its viability amikd speculation about department store closures and disgruntled suppliers.",
+        "link": "https://www.abc.net.au/news/2026-11-03/david-jones-future-debt-loan-stores/107339924"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "‘Alarming’: David Jones workers brace for job losses as store closures loom",
+        "desc": "The union representing thousands of David Jones workers is planning for the worst as the troubled department store chain prepares to close up to half its stores.",
+        "link": "https://www.theage.com.au/business/companies/alarming-david-jones-workers-brace-for-job-losses-as-store-closures-loom-20261103-p61av0.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "'Super energy efficient' washer-dryer one of the worst products of 2026",
       "summary": "Seven different companies have received the dishonour of being named in consumer group Choice's annual Shonky Awards, handed to the worst products and services of the year.",
       "ts": 1793746104000,
       "img": "https://live-production.wcms.abc-cdn.net.au/ae88132bfcb1a562ea4681ee1fefc528?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
@@ -691,7 +720,7 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Ticketek, Virgin and 'protein chips' win big at annual Shonky Awards",
+        "title": "'Super energy efficient' washer-dryer one of the worst products of 2026",
         "desc": "Seven different companies have received the dishonour of being named in consumer group Choice's annual Shonky Awards, handed to the worst products and services of the year.",
         "link": "https://www.abc.net.au/news/2026-11-04/choice-hands-shonky-awards-to-virgin-sony-ticketing-giants/107329220"
        },
@@ -705,10 +734,38 @@
       ]
      },
      {
-      "id": 20,
-      "headline": "ASX slides; tech stocks boost Wall Street",
-      "summary": "The Australian sharemarket had a soft start to Wednesday’s session, with investors digesting the latest rate hike by the Reserve Bank and waiting for news from the US, where polls began to close for the midterm elections.",
-      "ts": 1793750567000,
+      "id": 21,
+      "headline": "Rate rise traps young home loan borrowers as stress tests near 10pc",
+      "summary": "Data from Equifax shows demand for refinancing to a different lender is down by 14.2 per cent among 26- to 35-year-olds, but higher for older mortgagors.",
+      "ts": 1793753057000,
+      "img": "https://static.ffx.io/images/$zoom_0.137%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/d286e83fbd829e77a7872d5ac42a43e3a91e7b1a",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Rate rise traps young home loan borrowers as stress tests near 10pc",
+        "desc": "Data from Equifax shows demand for refinancing to a different lender is down by 14.2 per cent among 26- to 35-year-olds, but higher for older mortgagors.",
+        "link": "https://www.afr.com/companies/financial-services/rate-rise-traps-young-home-loan-borrowers-as-stress-tests-near-10pc-20261104-p61b31?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "The reason why another rate rise will hurt Sydneysiders most",
+        "desc": "NSW is “particularly sensitive” to interest rate increases, according to NSW Treasury modelling.",
+        "link": "https://www.theage.com.au/business/the-economy/the-reason-why-a-rate-rise-will-hurt-sydneysiders-most-20261103-p61aj1.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "ASX slides; tech stocks track Wall Street gains",
+      "summary": "The Australian sharemarket had a soft start to Wednesday’s session, with investors digesting the latest rate hike by the Reserve Bank and waiting for news from the US midterm elections.",
+      "ts": 1793752430000,
       "img": "https://static.ffx.io/images/$zoom_0.2572%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/2cef2749bd09cadc1a77b68bca305d1426f2a4c5",
       "divergent": null,
       "left_view": null,
@@ -719,8 +776,8 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "ASX slides; tech stocks boost Wall Street",
-        "desc": "The Australian sharemarket had a soft start to Wednesday’s session, with investors digesting the latest rate hike by the Reserve Bank and waiting for news from the US, where polls began to close for the midterm elections.",
+        "title": "ASX slides; tech stocks track Wall Street gains",
+        "desc": "The Australian sharemarket had a soft start to Wednesday’s session, with investors digesting the latest rate hike by the Reserve Bank and waiting for news from the US midterm elections.",
         "link": "https://www.theage.com.au/business/markets/asx-set-to-slide-tech-stocks-boost-wall-street-20261104-p61b54.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
@@ -733,7 +790,35 @@
       ]
      },
      {
-      "id": 21,
+      "id": 23,
+      "headline": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
+      "summary": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
+      "ts": 1793751289000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/e69a268d5421d1e4db4516bfc892575f?impolicy=wcms_crop_resize&cropH=1196&cropW=2127&xPos=0&yPos=997&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
+        "desc": "Chief executive Melanie Perkins describes job cuts as ‘without doubt the hardest moment in our thirteen-year history’ in email to staff Get our breaking news email, free app or daily news podcast Canva is cutting or relocating more than 1,200 jobs, representing 22% of its global workforce, as part of a major restructure that includes laying off staff who helped build the Australian-founded design ",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
+        "desc": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
+        "link": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304"
+       }
+      ]
+     },
+     {
+      "id": 24,
       "headline": "The fake job interview that helped spark a $9 billion theft",
       "summary": "Binance has released a report into one of the biggest financial heists in history, detailing how hackers tricked their employees.",
       "ts": 1793733409000,
@@ -759,90 +844,6 @@
         "link": "https://www.foxbusiness.com/fox-news-tech/binance-details-how-fake-job-interview-led-6-3b-crypto-heist"
        }
       ]
-     },
-     {
-      "id": 22,
-      "headline": "'Like they don't care': RBA's fifth rate hike a huge blow to mortgage borrowers",
-      "summary": "The Reserve Bank's fifth interest rate hike this year will mean mortgage borrowers already under financial pressure will need to find extra savings each month to meet repayments. It is particularly tough for those out of work or dealing with large mortgages.",
-      "ts": 1793728800000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/7ccf094ca8d18e9869a2032393922d65?impolicy=wcms_crop_resize&cropH=726&cropW=1290&xPos=0&yPos=114&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "'Like they don't care': RBA's fifth rate hike a huge blow to mortgage borrowers",
-        "desc": "The Reserve Bank's fifth interest rate hike this year will mean mortgage borrowers already under financial pressure will need to find extra savings each month to meet repayments. It is particularly tough for those out of work or dealing with large mortgages.",
-        "link": "https://www.abc.net.au/news/2026-11-04/interest-rates-putting-pressure-on-stressed-households/107340456"
-       },
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Chalmers must cut spending to solve inflation problem",
-        "desc": "Unless the treasurer and the expenditure review committee get serious about real savings in the MYEFO, the central bank could be forced to raise rates again.",
-        "link": "https://www.afr.com/policy/economy/chalmers-must-cut-spending-to-solve-inflation-problem-20261103-p61agp?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "North Korea denies role in Binance heist as customers withdraw billions",
-      "summary": "Pyongyang says allegations linking North Korea to the biggest crypto heist in history are \"nothing new\" from the US.",
-      "ts": 1793722026000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b6efc30c55e23d7c6900f26f63e89e44?impolicy=wcms_crop_resize&cropH=405&cropW=720&xPos=0&yPos=37&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Binance co-CEO says customers won't lose a dime after massive $6B heist",
-        "desc": "Binance co-CEO Richard Teng reveals Binance used dedicated reserve funds to cover the massive North Korea-linked crypto theft, with 98% of assets already replenished.",
-        "link": "https://www.foxbusiness.com/markets/binance-co-ceo-says-customers-wont-lose-dime-after-massive-6b-heist"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "North Korea denies role in Binance heist as customers withdraw billions",
-        "desc": "Pyongyang says allegations linking North Korea to the biggest crypto heist in history are \"nothing new\" from the US.",
-        "link": "https://www.abc.net.au/news/2026-11-03/north-korea-denies-binance-heist-customers-withdraw-billions/107340330"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "David Jones facing 'alarming' financial speculation just before Christmas",
-      "summary": "The major retailer is being forced to defend its viability amikd speculation about department store closures and disgruntled suppliers.",
-      "ts": 1793671058000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/ae92747dad2c53bb06f52fae277423a3?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=48&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "David Jones facing 'alarming' financial speculation just before Christmas",
-        "desc": "The major retailer is being forced to defend its viability amikd speculation about department store closures and disgruntled suppliers.",
-        "link": "https://www.abc.net.au/news/2026-11-03/david-jones-future-debt-loan-stores/107339924"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "‘Alarming’: David Jones workers brace for job losses as store closures loom",
-        "desc": "The union representing thousands of David Jones workers is planning for the worst as the troubled department store chain prepares to close up to half its stores.",
-        "link": "https://www.theage.com.au/business/companies/alarming-david-jones-workers-brace-for-job-losses-as-store-closures-loom-20261103-p61av0.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
      }
     ]
    },
@@ -852,6 +853,41 @@
     "stories": [
      {
       "id": 25,
+      "headline": "NZ teammates stunned as Ponga eyes return 22 days after breaking arm",
+      "summary": "Kalyn Ponga looms as potential game changer off the bench just weeks after breaking his arm as New Zealand tackles Tonga at the Rugby League World Cup.",
+      "ts": 1793752319000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/ab91845f38612f25f79364b4c2b4d3e9?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=47&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "NZ teammates stunned as Ponga eyes return 22 days after breaking arm",
+        "desc": "Kalyn Ponga looms as potential game changer off the bench just weeks after breaking his arm as New Zealand tackles Tonga at the Rugby League World Cup.",
+        "link": "https://www.abc.net.au/news/2026-11-04/rugby-league-world-cup-kalyn-ponga-miracle-return-broken-arm/107344704"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Teammates marvel as Kalyn Ponga miracle looms for Rugby League World Cup finals",
+        "desc": "‘I don’t think he gets enough credit or praise for it.’",
+        "link": "https://7news.com.au/sport/rugby-league/teammates-marvel-as-kalyn-ponga-miracle-looms-for-rugby-league-world-cup-finals-c-23114003"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Reece Walsh edges out Tedesco in Australia’s Rugby League World Cup semi-final team",
+        "desc": "Veteran full-back named on bench for Kangaroos’ clash with Samoa Kayln Ponga in New Zealand’s extended squad to face Tonga Reece Walsh and Kayln Ponga are on track to resume their compelling rivalry after two huge coach calls ahead of the Rugby League World Cup semi-finals. Walsh on Tuesday retained the Australian No 1 jumper ahead of James Tedesco for the Kangaroos’ semi-final against Samoa in Sy",
+        "link": "https://www.theguardian.com/sport/2026/nov/03/australia-kangaroos-rugby-league-world-cup-reece-walsh-tedesco-ponga-semi-final-teams"
+       }
+      ]
+     },
+     {
+      "id": 26,
       "headline": "Maxwell retires from international cricket but continues franchise T20 career",
       "summary": "Glenn Maxwell calls time on his international career after building a reputation as one of the world's most dangerous short-form players.",
       "ts": 1793714445000,
@@ -886,7 +922,35 @@
       ]
      },
      {
-      "id": 26,
+      "id": 27,
+      "headline": "Fernandes critical of media 'lies' about Carrick relationship",
+      "summary": "Bruno Fernandes says \"a lot of lies\" have been reported about his relationship with Manchester United head coach Michael Carrick.",
+      "ts": 1793753133000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60bc/live/f12e0680-d7d4-11f1-b441-2b33b063138f.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Fernandes critical of media 'lies' about Carrick relationship",
+        "desc": "Bruno Fernandes says \"a lot of lies\" have been reported about his relationship with Manchester United head coach Michael Carrick.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cqkg5dgvygr1o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "‘I wasn’t performing’: Bruno Fernandes says Carrick was right to drop him after criticism",
+        "desc": "‘If it was punishment for the words, it was right’ Carrick hails ‘magical’ Old Trafford after comeback win Bruno Fernandes said Michael ­Carrick was correct to drop him last month as he reflected on a remarkable Manchester United comeback win against Roma at Old Trafford. A twice-taken penalty from ­Fernandes set United’s revival from 2-0 down in motion, two goals from Matheus Cunha ultimately sea",
+        "link": "https://www.theguardian.com/football/2026/nov/03/bruno-fernandes-manchester-united-michael-carrick-roma-champions-league"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Socceroos coach Tony Popovic suddenly faces uncertain future amid Asian Cup delay",
       "summary": "The tournament has been pushed back 11 months, well after the coach’s contract expires.",
       "ts": 1793750053000,
@@ -914,7 +978,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 29,
       "headline": "Football world mourns Tenerife striker De Miguel",
       "summary": "Tributes were paid across Tuesday's Champions League fixtures to Tenerife striker Jesus de Miguel, who died following collision on the pitch.",
       "ts": 1793749032000,
@@ -942,7 +1006,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 30,
       "headline": "Man United claims comeback win after fans launch tennis balls in protest",
       "summary": "Manchester United comes back from two goals down to end a winless run as the club's fans launch another protest against the owners.",
       "ts": 1793746791000,
@@ -968,62 +1032,6 @@
         "link": "https://www.theguardian.com/football/live/2026/nov/03/manchester-united-v-roma-champions-league-live"
        }
       ]
-     },
-     {
-      "id": 29,
-      "headline": "Father shares final mid-race texts with daughter Rachel Apa who died during New York City Marathon",
-      "summary": "The 24-year-old athlete stopped replying after collapsing in the closing stages.",
-      "ts": 1793745435000,
-      "img": "https://images.7news.com.au/publication/C-23113651/22b9b9aaabb4868a718460908ed4583a47697268-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Father shares final mid-race texts with daughter Rachel Apa who died during New York City Marathon",
-        "desc": "The 24-year-old athlete stopped replying after collapsing in the closing stages.",
-        "link": "https://7news.com.au/sport/marathon/father-shares-final-mid-race-texts-with-daughter-rachel-apa-who-died-during-new-york-city-marathon--c-23113651"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "24-year-old woman dies after collapsing in final stages of New York City Marathon",
-        "desc": "Father says Rachel Apa died from rhabdomyolysis Runner was former college athlete in ‘perfect shape’ A 24-year-old woman died after collapsing during the final stages of Sunday’s New York City Marathon, her father has said. Rachel Apa’s father, Steve Apa, told the New York Times his daughter was in Central Park, two miles from the end of the race, when she collapsed. It was Rachel’s first marathon",
-        "link": "https://www.theguardian.com/sport/2026/nov/03/24-year-old-woman-dies-after-collapasing-in-final-stages-of-new-york-city-marathon"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Bec and Chris Judd soak up ‘breathtaking’ Melbourne Cup win as Point Of Law part-owners: ‘Is that mine?’",
-      "summary": "Point Of Law belonged to King Charles until this year. A different kind of royalty got the win at Flemington.",
-      "ts": 1793744009000,
-      "img": "https://images.7news.com.au/publication/C-23113592/9e819c53dcb09bf1bdbce695161132532fcd997d-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Bec and Chris Judd soak up ‘breathtaking’ Melbourne Cup win as Point Of Law part-owners: ‘Is that mine?’",
-        "desc": "Point Of Law belonged to King Charles until this year. A different kind of royalty got the win at Flemington.",
-        "link": "https://7news.com.au/sport/horse-racing/bec-and-chris-judd-soak-up-shock-melbourne-cup-win-as-point-of-law-part-owners-is-that-mine-c-23113592"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Quick hits: A-listers, mistakes and the king's Melbourne Cup connection",
-        "desc": "The 2026 Melbourne Cup was over before it even began for one runner, while another couldn't emulate his namesake's story, as celebrities stole the show on and off the course. Here's the quick hits from the 2026 Melbourne Cup.",
-        "link": "https://www.abc.net.au/news/2026-11-03/melbourne-cup-quick-hits-robbie-williams-jamie-foxx-king-charles/107341802"
-       }
-      ]
      }
     ]
    },
@@ -1033,10 +1041,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "BAFTA Unveils 2026 Breakthrough U.K. Cohort, Including ‘The Other Bennet Sister’ Star Ella Bruccoleri",
-      "summary": "BAFTA has unveiled its 2026 Breakthrough U.K. cohort, selecting 21 emerging creatives across film, television and games for its annual talent development program, supported by Netflix. Now in its 13th year, the initiative recognizes rising talent across the screen industries, offering year-round career support, mentorship, networking opportunities and full BAFTA membership. Among this year’s honor",
+      "headline": "BAFTA Breakthrough: ‘Ish’ Filmmaker Imran Perretta & ‘The Other Bennet Sister’ Star Ella Bruccoleri Among 2026 Cohort",
+      "summary": "Imran Perretta (Ish) and Ella Bruccoleri (The Other Bennet Sister) are among 21 creatives who have been selected for this year’s cohort of BAFTA Breakthrough talents. BAFTA Breakthrough is awarded to individuals in what the awards body describes as the “midst of or on the cusp of their breakthrough moment as creatives.” The award functions […]",
       "ts": 1793750460000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/bafta-breakthrough-2026.png",
+      "img": "https://deadline.com/wp-content/uploads/2026/11/IN2026_Sane-Seven_047_02S.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1044,18 +1052,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "BAFTA Unveils 2026 Breakthrough U.K. Cohort, Including ‘The Other Bennet Sister’ Star Ella Bruccoleri",
-        "desc": "BAFTA has unveiled its 2026 Breakthrough U.K. cohort, selecting 21 emerging creatives across film, television and games for its annual talent development program, supported by Netflix. Now in its 13th year, the initiative recognizes rising talent across the screen industries, offering year-round career support, mentorship, networking opportunities and full BAFTA membership. Among this year’s honor",
-        "link": "https://variety.com/2026/film/news/bafta-breakthrough-2026-other-bennet-sister-ella-bruccoleri-1236938267/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
         "title": "BAFTA Breakthrough: ‘Ish’ Filmmaker Imran Perretta & ‘The Other Bennet Sister’ Star Ella Bruccoleri Among 2026 Cohort",
         "desc": "Imran Perretta (Ish) and Ella Bruccoleri (The Other Bennet Sister) are among 21 creatives who have been selected for this year’s cohort of BAFTA Breakthrough talents. BAFTA Breakthrough is awarded to individuals in what the awards body describes as the “midst of or on the cusp of their breakthrough moment as creatives.” The award functions […]",
         "link": "https://deadline.com/2026/11/bafta-breakthrough-imran-perretta-2026-1237212332/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "BAFTA Unveils 2026 Breakthrough U.K. Cohort, Including ‘The Other Bennet Sister’ Star Ella Bruccoleri",
+        "desc": "BAFTA has unveiled its 2026 Breakthrough U.K. cohort, selecting 21 emerging creatives across film, television and games for its annual talent development program, supported by Netflix. Now in its 13th year, the initiative recognizes rising talent across the screen industries, offering year-round career support, mentorship, networking opportunities and full BAFTA membership. Among this year’s honor",
+        "link": "https://variety.com/2026/film/news/bafta-breakthrough-2026-other-bennet-sister-ella-bruccoleri-1236938267/"
        }
       ]
      },
@@ -1117,6 +1125,48 @@
      },
      {
       "id": 34,
+      "headline": "12 Most Universally Loved Sitcoms Of All Time, Ranked",
+      "summary": "From every decade, from slapstick to sarcastic, these 12 sitcoms are the most widely beloved, rewatched by fans over and over to this day.",
+      "ts": 1793752218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/gloria-sofia-vergara-and-jay-ed-o-neill-in-modern-family.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "12 Most Universally Loved Sitcoms Of All Time, Ranked",
+        "desc": "From every decade, from slapstick to sarcastic, these 12 sitcoms are the most widely beloved, rewatched by fans over and over to this day.",
+        "link": "https://screenrant.com/most-universally-loved-sitcom-of-all-time/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "6 Comic Book Villains Who Actually Made Great Heroes",
+      "summary": "These 6 comic book characters prove that being a villain isn’t always the answer. Sometimes becoming a hero is the better option.",
+      "ts": 1793751628000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/02/x-men-villain-magneto-hands-glowing-with-power.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "6 Comic Book Villains Who Actually Made Great Heroes",
+        "desc": "These 6 comic book characters prove that being a villain isn’t always the answer. Sometimes becoming a hero is the better option.",
+        "link": "https://screenrant.com/comic-villains-make-great-heroes/"
+       }
+      ]
+     },
+     {
+      "id": 36,
       "headline": "3 Years Ago, This X-Man Showed Everyone Why They’re More Dangerous Than Wolverine",
       "summary": "Wolverine is widely known as one of the most dangerous characters in Marvel Comics, but there’s one X-Man who’s scarier than him.",
       "ts": 1793751033000,
@@ -1135,83 +1185,41 @@
         "link": "https://screenrant.com/kitty-pryde-more-dangerous-wolverine-xmen/"
        }
       ]
-     },
-     {
-      "id": 35,
-      "headline": "Prime Video's New Answer To Game Of Thrones Is Less Than 3 Months Away",
-      "summary": "A gritty Viking saga arrives in January 2027, promising raw political drama, grounded 10th century battles and court intrigue in this historical epic.",
-      "ts": 1793750478000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/emilia-clarke-s-danaerys-in-game-of-thrones-season-6.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Prime Video's New Answer To Game Of Thrones Is Less Than 3 Months Away",
-        "desc": "A gritty Viking saga arrives in January 2027, promising raw political drama, grounded 10th century battles and court intrigue in this historical epic.",
-        "link": "https://screenrant.com/prime-video-bloodaxe-series-game-of-thrones-replacement-january-2027/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "LEGO Officially Enters The Monsterverse With 5,363-Piece Godzilla",
-      "summary": "The LEGO Group has officially announced the first-ever Godzilla set courtesy of LEGO Ideas, a massive new set featuring over 5,000 pieces.",
-      "ts": 1793750418000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/lego-ideas-godzilla-set-featured.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "LEGO Officially Enters The Monsterverse With 5,363-Piece Godzilla",
-        "desc": "The LEGO Group has officially announced the first-ever Godzilla set courtesy of LEGO Ideas, a massive new set featuring over 5,000 pieces.",
-        "link": "https://screenrant.com/new-lego-ideas-godzilla-monsterverse-set-announced/"
-       }
-      ]
      }
     ]
    }
   ],
   "sourcesOk": [
    "Guardian Australia",
-   "ABC News",
    "The Age",
    "BBC World",
    "Fox News",
    "Fox News Politics",
-   "Ars Technica",
-   "The Conversation",
+   "ABC News",
    "The Age Federal Politics",
+   "Ars Technica",
+   "The Verge",
    "Guardian Tech",
    "BBC Tech",
-   "The Verge",
-   "ABC Business",
-   "Guardian AU Business",
-   "The Age Business",
-   "Variety",
+   "The Conversation",
    "Fox Business",
+   "Guardian AU Business",
    "Deadline",
-   "Guardian AU Sport",
-   "Guardian AU Politics",
+   "The Age Business",
    "AFR",
-   "Crikey",
    "ABC Sport",
-   "Guardian Film",
-   "Screen Rant",
+   "ABC Business",
+   "Crikey",
+   "Guardian AU Politics",
    "BBC Sport",
+   "Variety",
+   "Screen Rant",
+   "Guardian Film",
+   "Guardian AU Sport",
    "Anime News Network",
    "SBS News",
-   "Daily Mail Australia",
    "7News",
+   "Daily Mail Australia",
    "7News Sport"
   ],
   "sourcesFailed": []
@@ -1407,7 +1415,7 @@
   {
    "title": "Macquarie Bank Savings Account 5.50% p.a. Interest on up to $250,000, 5.30% to $2M, 4.85% above $2M (No Hoops) @ Macquarie Bank",
    "link": "https://www.ozbargain.com.au/node/981441",
-   "votes": 168,
+   "votes": 170,
    "neg": 0,
    "category": "Financial",
    "ts": 1793676949000
@@ -1421,25 +1429,25 @@
    "ts": 1699327217000
   },
   {
-   "title": "30 Chicken Nuggets $10 Pickup @ KFC (Online/App Order Required)",
-   "link": "https://www.ozbargain.com.au/node/981447",
-   "votes": 103,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1793678302000
-  },
-  {
    "title": "Free Lifetime Travel eSIM (Unlimited Access to Google Maps, WhatsApp, Uber and Grab) + 100MB Data 4 Times a Year @ Jetpac",
    "link": "https://www.ozbargain.com.au/node/981530",
-   "votes": 97,
+   "votes": 107,
    "neg": 0,
    "category": "Travel",
    "ts": 1793737082000
   },
   {
+   "title": "30 Chicken Nuggets $10 Pickup @ KFC (Online/App Order Required)",
+   "link": "https://www.ozbargain.com.au/node/981447",
+   "votes": 104,
+   "neg": 0,
+   "category": "Dining & Takeaway",
+   "ts": 1793678302000
+  },
+  {
    "title": "Amoudo 15.6 Inch 1920x1080 IPS Portable Monitor US$45.97 (~A$65.80) Delivered, AU Stock @ Amoudo Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/981456",
-   "votes": 95,
+   "votes": 98,
    "neg": 0,
    "category": "Computing",
    "ts": 1793684484000
@@ -1455,7 +1463,7 @@
   {
    "title": "ShopBack Super Swap Gift Cards: 2.5% Cashback on $100, [Westpac, StG, BoM, BSA] 3% Bonus Cashback ($20 Cap/Order) @ ShopBack",
    "link": "https://www.ozbargain.com.au/node/981518",
-   "votes": 76,
+   "votes": 83,
    "neg": 0,
    "category": "Other",
    "ts": 1793711233000
@@ -1463,7 +1471,7 @@
   {
    "title": "1/2 Price Suntory Boss Iced Coffee Varieties 237ml 4-Pack $7.35 @ Coles",
    "link": "https://www.ozbargain.com.au/node/981496",
-   "votes": 73,
+   "votes": 75,
    "neg": 0,
    "category": "Groceries",
    "ts": 1793702191000
@@ -1477,6 +1485,14 @@
    "ts": 1793695006000
   },
   {
+   "title": "1kg Coffee Beans from $22 Single Origins + Delivery ($0 VIC C&C/ $99 Order, Delayed Dispatch Op) @ Lime Blue Coffee",
+   "link": "https://www.ozbargain.com.au/node/981529",
+   "votes": 64,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1793736720000
+  },
+  {
    "title": "Google Pixel Watch 3 LTE Matte Black Aluminium Case with Obsidian Active Band: 41mm $199, 45mm $249 Delivered @ Telstra",
    "link": "https://www.ozbargain.com.au/node/981453",
    "votes": 61,
@@ -1485,20 +1501,20 @@
    "ts": 1793681110000
   },
   {
-   "title": "1kg Coffee Beans from $22 Save 50% off Single Origins + Delivery ($0 VIC C&C/ $99 Order, Delayed Dispatch Op) @ Lime Blue Coffee",
-   "link": "https://www.ozbargain.com.au/node/981529",
-   "votes": 58,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1793736720000
-  },
-  {
    "title": "[Switch] Boomerang Fu $11.25 @ Nintendo eShop",
    "link": "https://www.ozbargain.com.au/node/981525",
-   "votes": 54,
+   "votes": 56,
    "neg": 0,
    "category": "Gaming",
    "ts": 1793729149000
+  },
+  {
+   "title": "[NSW, VIC] Free VIP Membership for 3 Months @ PromoTix",
+   "link": "https://www.ozbargain.com.au/node/981432",
+   "votes": 52,
+   "neg": 0,
+   "category": "Entertainment",
+   "ts": 1793674994000
   },
   {
    "title": "Motorola Signature $535-735, Pixel 11 $636-1136, Pro $1386, Pro XL $936-1636 with $37/M Plan, $400-500 Bonus Trade-in@ Telstra",
@@ -1509,20 +1525,12 @@
    "ts": 1793688399000
   },
   {
-   "title": "[NSW, VIC] Free VIP Membership for 3 Months @ PromoTix",
-   "link": "https://www.ozbargain.com.au/node/981432",
-   "votes": 48,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1793674994000
-  },
-  {
-   "title": "XTEINK 3.7\" X3 Pocket E-Ink eBook Reader US$43.58 (A$62.46) Delivered @ Ink E-book Shop Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/981477",
+   "title": "Breville BES870CHR the Barista Express Coffee Machine, Charcoal $585 (RRP $999) Delivered @ Amazon AU (Excl. NT)",
+   "link": "https://www.ozbargain.com.au/node/981537",
    "votes": 33,
    "neg": 0,
    "category": "Electrical & Electronics",
-   "ts": 1793694895000
+   "ts": 1793740941000
   }
  ],
  "carried": {}
