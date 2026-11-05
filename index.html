@@ -13,6 +13,59 @@
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" href="icons/icon-192.png">
   <link rel="stylesheet" href="css/app-v33.css">
+<script>
+  (function () {
+    const editionURL = () => "edition-v34.html" + location.search + location.hash;
+    if (!("serviceWorker" in navigator)) {
+      location.replace(editionURL());
+      return;
+    }
+
+    const workers = navigator.serviceWorker;
+    const started = Date.now();
+    let interacted = false;
+    let ready = false;
+    for (const event of ["pointerdown", "keydown", "touchstart", "click", "input", "change"]) {
+      window.addEventListener(event, () => { interacted = true; }, { capture: true, once: true, passive: true });
+    }
+    document.addEventListener("DOMContentLoaded", () => {
+      const link = document.getElementById("edition-ready");
+      const updateLink = () => { link.href = editionURL(); };
+      link.addEventListener("pointerdown", updateLink);
+      link.addEventListener("click", updateLink);
+      const offerEdition = () => { updateLink(); link.hidden = false; };
+
+      function checkEdition() {
+        const controller = workers.controller;
+        if (!controller || ready) return;
+        const channel = new MessageChannel();
+        const timeout = setTimeout(() => channel.port1.close(), 3000);
+        channel.port1.onmessage = ({ data }) => {
+          clearTimeout(timeout);
+          channel.port1.close();
+          if (data !== "morning-brief-edition-ready" || ready) return;
+          ready = true;
+          const editing = document.activeElement?.matches("input, textarea, select, [contenteditable]:not([contenteditable=false])");
+          if (!interacted && !editing && !document.querySelector("dialog[open]") && Date.now() - started < 10000) {
+            location.reload();
+          } else {
+            offerEdition();
+          }
+        };
+        try {
+          controller.postMessage("morning-brief-edition-check", [channel.port2]);
+        } catch {
+          clearTimeout(timeout);
+          channel.port1.close();
+        }
+      }
+      workers.addEventListener("controllerchange", checkEdition);
+      workers.register("sw.js", { updateViaCache: "none" }).then(checkEdition).catch(() => {
+        if (!workers.controller) offerEdition();
+      });
+    }, { once: true });
+  })();
+</script>
 </head>
 <body>
 <a class="skip-link" href="#page-main">Skip to content</a>
@@ -42,7 +95,7 @@
       <header>
         <div class="eyebrow" id="date-line">Loading&hellip;</div>
         <h1>Morning Brief</h1>
-        <div class="updated" id="updated-line"></div><div class="health-status" id="digest-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
+        <div class="updated" id="updated-line"></div><a id="edition-ready" class="page-link" href="edition-v34.html" hidden>Open the new Morning Brief</a><div class="health-status" id="digest-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
       </header>
 
       <div class="strip" id="strip">
@@ -235,10 +288,6 @@
 <script src="js/wordle-v33.js"></script>
 <script src="js/crossword-v33.js"></script>
 <script src="js/connections.js"></script>
-<script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js");
-  }
-</script>
+
 </body>
 </html>

@@ -54,14 +54,19 @@ node scripts/validate-puzzles.mjs
 npx serve .                     # then open http://localhost:3000
 ```
 
-The local preview uses the checked-in digest. **Today**, **News**, **Markets**
-and **More** work without swiping. Change the Today section order under
-**More → Settings**. When the digest request fails, the app labels any saved
-digest and offers a retry.
+The local app uses the checked-in digest. On a phone, swipe between **News**,
+**Today**, and **Games**, or tap their labels. **More** holds Markets, Deals,
+Data status, and Settings. Use Settings to change appearance or the Today
+section order. A saved edition includes its original preparation time.
 
-The current interface uses the assets linked from `index.html`. The previous
-unversioned app, game scripts and stylesheet remain at their original paths so
-installed copies can finish updating without mixing interface versions.
+The Games lobby shows progress from the same daily games. The extra
+Connections challenge is a separate practice board that resets on reload.
+
+The redesigned interface lives in `edition-v34.html`. The root document keeps
+the previous interface available until the new service worker has cached the
+entire new shell. The worker then serves the redesigned edition at the same
+root URL. Test the installed iPhone app and an interrupted upgrade before
+changing this fallback or retiring its assets.
 
 ## Customising
 
