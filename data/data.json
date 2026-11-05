@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T01:01:36.758Z",
+ "generatedAt": "2026-11-05T23:51:59.654Z",
  "markets": {
   "items": [
    {
@@ -7,112 +7,112 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8963.7,
-    "chgPct": 0.8653305689629507,
+    "price": 8977.5,
+    "chgPct": 1.6186541400192427,
     "high52": 9296.7,
-    "off52": -3.5819161638000576
+    "off52": -3.433476394849793
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.38,
-    "chgPct": 2.091950569531001,
+    "price": 83.55,
+    "chgPct": -3.0517524899774595,
     "high52": 88,
-    "off52": -1.8409090909090962
+    "off52": -5.056818181818185
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 149.78,
-    "chgPct": 1.5664194481423648,
+    "price": 149.96,
+    "chgPct": -1.0165016501650113,
     "high52": 155.03,
-    "off52": -3.3864413339353674
+    "off52": -3.2703347739147217
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.88,
-    "chgPct": 1.2902097335349072,
+    "price": 55.43,
+    "chgPct": -4.922811791798663,
     "high52": 65.18,
-    "off52": -9.665541577170917
+    "off52": -14.958576250383562
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 31.16,
-    "chgPct": -3.319886929672865,
+    "price": 27.49,
+    "chgPct": -10.192749258869519,
     "high52": 47.78,
-    "off52": -34.784428631226454
+    "off52": -42.46546672247803
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.7016,
-    "chgPct": 0.6831111710240809,
+    "price": 0.6931,
+    "chgPct": -0.5366813673933932,
     "high52": 0.7277,
-    "off52": -3.5866428473271967
+    "off52": -4.754706609866698
    }
   ],
   "failed": [],
-  "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 42% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "XRO.AX",
-    "name": "Xero",
-    "market": "ASX",
-    "price": 68.85,
-    "currency": "AUD",
-    "chgPct": 9.355147714701832
-   },
-   {
-    "sym": "REA.AX",
-    "name": "REA Group",
-    "market": "ASX",
-    "price": 176.66,
-    "currency": "AUD",
-    "chgPct": 9.130216624274857
-   },
-   {
-    "sym": "NAB.AX",
-    "name": "NAB",
-    "market": "ASX",
-    "price": 38.14,
-    "currency": "AUD",
-    "chgPct": -7.359723837031529
-   },
-   {
-    "sym": "MSFT",
-    "name": "Microsoft",
+    "sym": "TSLA",
+    "name": "Tesla",
     "market": "US",
-    "price": 555.8,
+    "price": 343.69,
     "currency": "USD",
-    "chgPct": 6.681512201408162
+    "chgPct": -10.773904353272796
    },
    {
-    "sym": "WDS.AX",
-    "name": "Woodside",
-    "market": "ASX",
-    "price": 30.38,
-    "currency": "AUD",
-    "chgPct": -6.66666447902661
-   },
-   {
-    "sym": "AMZN",
-    "name": "Amazon",
+    "sym": "AVGO",
+    "name": "Broadcom",
     "market": "US",
-    "price": 266.03,
+    "price": 291.53,
     "currency": "USD",
-    "chgPct": 6.119110219474803
+    "chgPct": -10.43075145642484
+   },
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 181.6,
+    "currency": "USD",
+    "chgPct": -9.258983875837547
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 27.34,
+    "currency": "AUD",
+    "chgPct": -4.937413830253799
+   },
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 56.11,
+    "currency": "AUD",
+    "chgPct": -4.898305084745764
+   },
+   {
+    "sym": "MQG.AX",
+    "name": "Macquarie",
+    "market": "ASX",
+    "price": 247.27,
+    "currency": "AUD",
+    "chgPct": -4.3072732814936
    }
   ]
  },
@@ -125,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "David Jones falls into voluntary administration just weeks out from holiday season",
-      "summary": "‘We have a well-developed plan on how to reset the business for the future’.",
-      "ts": 1793840180000,
-      "img": "https://images.7news.com.au/publication/C-23117899/44a281bcfb295e0bec7896afa2404b98d1b244e6-16x9-x0y0w1280h720.png",
+      "headline": "Alleged murderer Beau Lamarre-Condon gives evidence in court for first time",
+      "summary": "The accused admitted an alleged break-in \"was stupid\".",
+      "ts": 1793922588000,
+      "img": "https://assets.sbs.com.au/dims4/default/8a158af/2147483647/strip/false/crop/3071x1411+0+380/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F84%2Fb1%2Fcf13d9ab4a4985756ca7a0e6756c%2F20261105151358117036-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -138,39 +138,39 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "‘We have a plan’: David Jones collapses, store closures expected before Christmas",
-        "desc": "David Jones’s owners have appointed administrators, which is expected to trigger an extensive restructure of the company and thousands of job losses.",
-        "link": "https://www.theage.com.au/business/companies/administrators-appointed-to-david-jones-store-closures-expected-before-christmas-20261105-p61bh2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "David Jones collapses into administration with store closures expected before Christmas",
-        "desc": "Iconic Australian department store David Jones has plunged into administration.",
-        "link": "https://www.dailymail.com/news/article-16266743/Australian-retail-giant-David-Jones-collapses-administration.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Beau Lamarre-Condon trial live updates: Alleged double murderer, former NSW Police officer returns to witness box, asked about relationship with Jesse Baird",
+        "desc": "The accused killer is expected to give evidence about what he says happened on the day Sydney couple Jesse Baird and Luke Davies died, and what he did afterwards.",
+        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-alleged-double-murderer-former-nsw-police-officer-returns-to-witness-box-after-recounting-first-meeting-with-jesse-baird-20261106-p61bwt.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
-        "desc": "Future of department store in jeopardy after years of steep losses, with outer suburban and regional locations vulnerable Get our breaking news email, free app or daily news podcast Australia’s premier upmarket department store David Jones has collapsed into voluntary administration, putting thousands of jobs at risk and leaving the future of the 188-year-old retailer hanging in the balance. The u",
-        "link": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration"
+        "title": "Beau Lamarre-Condon trial live updates: former police officer continues evidence in double murder trial",
+        "desc": "Lamarre-Condon returns to witness box for day two of his evidence. He’s accused of shooting couple Jesse Baird and Luke Davies in Sydney in 2024 Get our breaking news email, free app or daily news podcast ‘I’ve been surfing on and off’: Lamarre-Condon tells court about buying board covers The former officer has been surfing since he was a child and his surfboard was 6ft 2in, Lamarre-Condon tells t",
+        "link": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb"
        },
        {
-        "outlet": "7News",
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Beau Lamarre-Condon talks about his 'fragrance' as he gives evidence: Accused double killer steps into witness box for a second day",
+        "desc": "Beau Lamarre-Condon broke down in tears about five times within the four hours he was in the witness box during his double murder trial on Thursday.",
+        "link": "https://www.dailymail.com/news/article-16269845/beau-lamarre-condon-giving-evidence.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "David Jones falls into voluntary administration just weeks out from holiday season",
-        "desc": "‘We have a well-developed plan on how to reset the business for the future’.",
-        "link": "https://7news.com.au/business/david-jones/westfield-confirms-david-jones-hasnt-paid-rent-for-months-as-crisis-talks-break-down-c-23117899"
+        "title": "Alleged murderer Beau Lamarre-Condon gives evidence in court for first time",
+        "desc": "The accused admitted an alleged break-in \"was stupid\".",
+        "link": "https://www.sbs.com.au/news/article/alleged-murderer-beau-lamarre-condon-gives-evidence-in-court-for-first-time/x6panlm0l"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Former White House spokesperson hints at big change in Trump after US midterm election disaster",
-      "summary": "The US president is seeing a new reality after Republicans were trounced at the ballot box.",
-      "ts": 1793838996000,
-      "img": "https://images.7news.com.au/publication/C-23118031/d82ad02d8194ece2da15b874e8e811e313b32e3e-16x9-x0y0w1280h720.png",
+      "headline": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+      "ts": 1793920894000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e01/live/e1c54f70-d958-11f1-a800-d9dce9e5aa21.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -178,41 +178,41 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Guardian Australia",
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+        "desc": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Age",
         "lean": "left",
-        "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
-        "desc": "Scott Colom leads Republican Cindy Hyde-Smith by 1,138 votes with 96% of the vote counted – a small but growing margin Live results | Republican losses mapped Tell us: how do you feel about the midterm results? Sign up for Breaking News US email Wall Street surged at the open, after Democrats scored historic victories in midterm elections and secured control of US Congress. The Dow Jones rose 2%, ",
-        "link": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates"
+        "title": "ASX falls sharply after Wall Street’s $4.6tr wipeout",
+        "desc": "The Australian sharemarket has slumped at the open after a brutal selloff swept through Wall Street, led by stocks tied to the buildout of AI data centres.",
+        "link": "https://www.theage.com.au/business/markets/wall-street-plunges-as-ai-stocks-tumble-asx-set-to-slide-lower-20261106-p61bvl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Trump's dark night 'paralyzed' by fury as he hid in private residence and refused to see anyone: Explosive fly-on-wall account as aides walk out of White House, bracing for 'purge'... with 'delusional",
-        "desc": "Donald Trump never came down. While cabinet officials filed into the White House's East Room on Tuesday evening, the President remained upstairs in his private residence.",
-        "link": "https://www.dailymail.com/news/article-16263129/trump-paralyzed-private-residence-white-house-aides-purge-susie-wiles-marco-rubio.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Stock market meltdown as $2.5trillion is wiped out in Wall Street bloodbath after Democrats' midterms victory rally turns to financial carnage",
+        "desc": "Stock markets are melting down just a day after the blue tsunami drowned the Republicans in the midterm elections - and stocks related to the artificial intelligence trade plunged deep into the red.",
+        "link": "https://www.dailymail.com/yourmoney/article-16269319/stock-market-crash-wall-street-midterms.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "7News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Former White House spokesperson hints at big change in Trump after US midterm election disaster",
-        "desc": "The US president is seeing a new reality after Republicans were trounced at the ballot box.",
-        "link": "https://7news.com.au/politics/donald-trump/former-white-house-spokesperson-hints-at-big-change-in-trump-after-us-midterm-election-disaster-c-23118031"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Democrats flip House and Senate in historic midterm victories — as it happened",
-        "desc": "Americans have voted in a pivotal midterm election. Follow live as results come in and the battle for Congress takes shape.",
-        "link": "https://www.sbs.com.au/news/live-blog/us-midterm-elections-2026-live-results/1un8q7w91"
+        "title": "Live: Tech stocks nosedive as Wall Street suffers mass sell-off following midterms",
+        "desc": "The Australian share market is likely to open lower as investors shy away from the tech bros after an overseas sell-off overnight. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "US midterms: Ted Cruz flags Donald Trump could be impeached in wake of Republicans’ election wipeout",
-      "summary": "One senator has flagged ‘all-out partisan war’ following a rare election switch that had occurred just three times in the last 100 years.",
-      "ts": 1793839260000,
-      "img": "https://images.7news.com.au/publication/C-23116922/7c0354aabba5daee80539f2ad37beb452e7acf1e-16x9-x0y75w800h450.jpg",
+      "headline": "Meghan Markle's estranged half-brother named ‘person of interest’ in child abuse case",
+      "summary": "Thomas Markle Jr alerted police and the FBI to child abuse images he found in his father's belongings, but now Philippine authorities say there are signs that ‘the son is involved in the crime as well’.",
+      "ts": 1793922091000,
+      "img": "https://images.7news.com.au/publication/C-23123926/fa4aba169e27f6619da7e1809bacd0d195694a39-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -220,69 +220,69 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Guardian Australia",
+        "outlet": "The Age",
         "lean": "left",
-        "title": "Pete Hegseth may take fall for Republicans’ midterm losses, despite Trump support",
-        "desc": "JD Vance calls Iran war into question as Thomas Massie files eight articles of impeachment Send us your questions about the US midterms results and Democrats’ ‘blue wave’ Pete Hegseth is increasingly looking like he may take the fall for Republicans’ midterm losses, despite Donald Trump’s vocal support for his defense secretary, even calling him a champion of war. The war in Iran, which voters and",
-        "link": "https://www.theguardian.com/us-news/2026/nov/04/pete-hegseth-republicans-midterm-losses"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Megyn Kelly eviscerates Trump for 'ruining' GOP with his greed and gaggle of 'grifters' in wake of midterms bloodbath",
-        "desc": "Megyn Kelly blasted President Donald Trump for ruining the Republican Party with his greed and gaggle of 'grifters' in the wake of the Midterms bloodbath.",
-        "link": "https://www.dailymail.com/media/article-16266311/megyn-kelly-president-donald-trump-midterms-elections.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Sydney teacher allegedly filmed child abuse material at north shore school",
+        "desc": "A 61-year-old teacher has been refused bail and sacked from the Wahroonga college where he worked after allegedly secretly filming schoolgirls.",
+        "link": "https://www.theage.com.au/national/nsw/teacher-denied-bail-over-alleged-child-abuse-material-on-devices-20261106-p61bvv.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "US midterms: Ted Cruz flags Donald Trump could be impeached in wake of Republicans’ election wipeout",
-        "desc": "One senator has flagged ‘all-out partisan war’ following a rare election switch that had occurred just three times in the last 100 years.",
-        "link": "https://7news.com.au/news/world/us-midterms-ted-cruz-flags-donald-trump-could-be-impeached-in-wake-of-republicans-election-wipeout--c-23116922"
+        "title": "Meghan Markle's estranged half-brother named ‘person of interest’ in child abuse case",
+        "desc": "Thomas Markle Jr alerted police and the FBI to child abuse images he found in his father's belongings, but now Philippine authorities say there are signs that ‘the son is involved in the crime as well’.",
+        "link": "https://7news.com.au/news/meghan-markles-estranged-half-brother-named-person-of-interest-in-child-abuse-case-c-23123926"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Shocking new footage of tennis legend Steffi Graf's brother who lives in the tunnels under Las Vegas: His life as a mole person on the run from the law",
+        "desc": "Michael Graf, the 55-year-old brother of Steffi Graf and brother-in-law of Andre Agassi, has reportedly been hiding out from authorities in a Las Vegas tunnel network.",
+        "link": "https://www.dailymail.com/sport/tennis/article-16234759/Steffi-Graf-brother-tunnels-las-vegas.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
      {
       "id": 3,
-      "headline": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-      "summary": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and confirmed that both she and her mother were killed in an attack that conservation officers now believe could have involved multiple grizzly bears. Late on Tuesday, conservation officers in British Columbia said the two wom",
-      "ts": 1793837043000,
-      "img": "https://i.guim.co.uk/img/media/65b4c4a1a9683a21b818d78b4c4f95490cb925a4/163_0_912_730/master/912.jpg?width=460&quality=85&auto=format&fit=max&s=636e521d3efa2454703ea90c63918a94",
+      "headline": "California governor commutes sentences for state's 548 death row inmates",
+      "summary": "California has historically had the largest population of people on death row in the US.",
+      "ts": 1793920173000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e11/live/430c9930-d956-11f1-b7f4-8bd3c0617693.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "'More than one' grizzly bear likely behind savage attack that killed mother and daughter on Canadian nature trail",
-        "desc": "Jenny Balcarras, 48, and her daughter, Selah Reed, were found dead near Bella Coola, British Columbia, after they were reported missing on Sunday.",
-        "link": "https://www.dailymail.com/news/article-16265859/grizzly-bear-attack-killed-mother-daughter.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "California governor commutes sentences for state's 548 death row inmates",
+        "desc": "California has historically had the largest population of people on death row in the US.",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Canadian mother and daughter dead after suspected grizzly bear attack on hiking trail",
-        "desc": "Jennifer Balcarras and Selah Reed went missing on a hiking trail minutes from their Bella Coola home before a suspected grizzly bear attack.",
-        "link": "https://www.foxnews.com/world/canadian-mother-daughter-dead-suspected-grizzly-bear-attack-hiking-trail"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "California governor Gavin Newsom commutes hundreds of death sentences",
+        "desc": "‘This decision is among the most difficult of my career.’",
+        "link": "https://7news.com.au/news/united-states/california-governor-gavin-newsom-commutes-hundreds-of-death-sentences-c-23123639"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-        "desc": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and confirmed that both she and her mother were killed in an attack that conservation officers now believe could have involved multiple grizzly bears. Late on Tuesday, conservation officers in British Columbia said the two wom",
-        "link": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed"
+        "title": "Gavin Newsom commutes more than 500 death sentences in California",
+        "desc": "Democrat’s move prevents these people from executions under future governors, after Christa Pike’s failed execution Gavin Newsom, California’s governor, commuted the death sentences of more than 500 people on the state’s death row on Thursday, a move that ensures they can never be executed under future administrations. The Democrat’s mass commutation at the end of his term has converted all of the",
+        "link": "https://www.theguardian.com/us-news/2026/nov/05/gavin-newsom-commutes-death-sentences-california"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-      "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
-      "ts": 1793836287000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5315/live/41e364b0-d854-11f1-94f3-cf7d1e52bb8c.jpg",
+      "headline": "Third wave of bomb threat hoaxes hits flights across Europe",
+      "summary": "Airports across the continent have been impacted as authorities seek to ensure flight safety.",
+      "ts": 1793918961000,
+      "img": "https://assets.sbs.com.au/dims4/default/07ccf70/2147483647/strip/false/crop/8256x3793+0+425/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F7e%2Ff3%2F75b382294595b83b5fa1e5fef2f1%2Fafp-20261105-d6j964z-v1-highres-italyairwaystransportbombalert.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -290,34 +290,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Trump's SON Don Jr joins JD Vance in attacking his father's Iran war after midterms disaster",
-        "desc": "Donald Trump Jr has joined Vice President JD Vance in providing scathing criticism of the US President's war with Iran.",
-        "link": "https://www.dailymail.com/news/article-16265743/Donald-Trump-Junior-JD-Vance-Iran-War-Midterms.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Third wave of bomb threat hoaxes hits flights across Europe",
+        "desc": "Airports across the continent have been impacted as authorities seek to ensure flight safety.",
+        "link": "https://www.sbs.com.au/news/article/third-wave-of-bomb-threat-hoaxes-hits-flights-across-europe/vwnpbvofi"
        },
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-        "desc": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
-        "link": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss"
+        "title": "Who could be behind hoax bomb threats to European air travel?",
+        "desc": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+        "link": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "A 'generational defeat': The biggest midterm upsets and Donald Trump's reaction",
-        "desc": "Democratic victories across a number of states stood out as major upsets in historic midterm elections.",
-        "link": "https://www.sbs.com.au/news/article/midterm-upsets-trump-reaction/hucp8vric"
+        "title": "Bomb threats force flights to land across Europe",
+        "desc": "It is the latest incident in a series of threats targeting flights in Europe.",
+        "link": "https://7news.com.au/travel/air-aviation/bomb-threats-force-flights-to-land-across-europe-c-23122962"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "More than 140 NT youths charged with domestic violence crimes in six months",
-      "summary": "In the last three months, two teenage girls in the Northern Territory have allegedly been murdered by their older, male partners — support services say it's proof of a growing need among young DV victims.",
-      "ts": 1793840351000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/61b55cd9c5a0829deaa7f0d892074698?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Commentators in awe as ‘fired-up’ Aussie giantkiller Rinky Hijikata roars again to reach Paris Masters quarter-final",
+      "summary": "The 25-year-old simply refused to crash back down to earth after beating Novak Djokovic.",
+      "ts": 1793918628000,
+      "img": "https://images.7news.com.au/publication/C-23123613/6008c41b2442537189a2ded9953ec677085a8a5c-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -327,25 +327,32 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Disgraced deputy mayor Salim Mehajer is charged with offences including stealing a $41k gift for second wedding",
-        "desc": "Salim Mehajer charged with domestic violence offences and accused of stealing $41,000 wedding gift.",
-        "link": "https://www.dailymail.com/news/article-16266751/salim-mehajer-charged-domestic-violence-larceny-jewellery-wedding.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Aussie cricket star Chris Lynn's secret cocaine ban after drug binge following quarter-final victory",
+        "desc": "Aussie cricket star Chris Lynn admitted using cocaine for several hours after a knockout win, before testing positive on T20 Blast Finals Day.",
+        "link": "https://www.dailymail.com/sport/cricket/article-16269949/Aussie-cricket-star-Chris-Lynns-secret-cocaine-ban-drug-binge-following-quarter-final-victory.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Commentators in awe as ‘fired-up’ Aussie giantkiller Rinky Hijikata roars again to reach Paris Masters quarter-final",
+        "desc": "The 25-year-old simply refused to crash back down to earth after beating Novak Djokovic.",
+        "link": "https://7news.com.au/sport/tennis/commentators-in-awe-as-fired-up-aussie-giantkiller-rinky-hijikata-roars-again-to-reach-paris-masters-quarter-final--c-23123613"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "More than 140 NT youths charged with domestic violence crimes in six months",
-        "desc": "In the last three months, two teenage girls in the Northern Territory have allegedly been murdered by their older, male partners — support services say it's proof of a growing need among young DV victims.",
-        "link": "https://www.abc.net.au/news/2026-11-05/dv-youth-crime-data-domestic-violence-remote-nt-support-gap/107341866"
+        "title": "Aussie Hijikata backs up Djokovic triumph with another big win in Paris",
+        "desc": "Rinky Hijikata has backed up his statement win over Novak Djokovic with another impressive victory in Paris, downing Alex de Minaur's conqueror, Tomas Martin Etcheverry, to reach his first ATP Masters quarterfinal.",
+        "link": "https://www.abc.net.au/news/2026-11-06/rinky-hijikata-into-paris-masters-quarterfinals/107353766"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Novak Djokovic misses out on multimillion-dollar ATP Finals after shock loss to Aussie world No.83 Rinky Hijikata",
-      "summary": "The 25-year-old’s greatest win came just hours after Alex de Minaur’s year-long goal came crashing down.",
-      "ts": 1793839209000,
-      "img": "https://images.7news.com.au/publication/C-23117898/c6caebc9fd20b21c987c70c3b600de2fb844fbc0-16x9-x0y0w1280h720.jpg",
+      "headline": "British comedian Russell Brand found guilty of rape and sexual assault",
+      "summary": "Judge Joel Bennathan warned that the 51-year-old faces a lengthy sentence.",
+      "ts": 1793905732000,
+      "img": "https://assets.sbs.com.au/dims4/default/7901f2d/2147483647/strip/false/crop/3778x1736+0+195/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F36%2Feb%2Ff8d6bd814af5805c7cdf06568187%2Fafp-20261104-d6fc68g-v1-highres-britaincelebritycourtassaultbrand.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -353,18 +360,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Agony and ecstasy: De Minaur ousted as unheralded Aussie shocks Djokovic",
-        "desc": "Alex de Minaur’s Turin qualifying hopes are over, but fellow Australian Rinky Hijikata is celebrating a breakthrough victory against a tennis legend.",
-        "link": "https://www.theage.com.au/sport/tennis/agony-and-ecstasy-de-minaur-ousted-as-unheralded-aussie-shocks-djokovic-20261105-p61bkl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "British comedian Russell Brand found guilty of rape and sexual assault",
+        "desc": "Judge Joel Bennathan warned that the 51-year-old faces a lengthy sentence.",
+        "link": "https://www.sbs.com.au/news/article/russell-brand-guilty-rape-court-case-verdict-british-comedian/jxvnctbxi"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Novak Djokovic misses out on multimillion-dollar ATP Finals after shock loss to Aussie world No.83 Rinky Hijikata",
-        "desc": "The 25-year-old’s greatest win came just hours after Alex de Minaur’s year-long goal came crashing down.",
-        "link": "https://7news.com.au/sport/tennis/novak-djokovic-misses-out-on-multimillion-dollar-atp-finals-after-shock-loss-to-aussie-world-no83-rinky-hijikata-c-23117898"
+        "title": "Russell Brand found guilty of rape and sexual assault",
+        "desc": "The British actor will stay behind bars while awaiting sentencing.",
+        "link": "https://7news.com.au/entertainment/russell-brand-found-guilty-of-rape-and-sexual-assault-c-23123432"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Russell Brand faces ‘significant’ prison term for rape and sexual assault",
+        "desc": "Actor and comedian, 51, found guilty of raping a woman and assaulting three others Flashbulbs, lies and victim blaming: how Russell Brand’s trial unfolded The downfall of Russell Brand: from Big Brother and Hollywood to convicted rapist Russell Brand has been found guilty of raping a fan and sexually assaulting three other women, ending a years-long legal saga that has raised questions about how h",
+        "link": "https://www.theguardian.com/culture/2026/nov/05/russell-brand-found-guilty-rape-sexual-assault"
        }
       ]
      }
@@ -376,9 +390,9 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Jordon Steele John’s ex arrested on stalking charges as WA Greens inquiry begins",
+      "headline": "Jordon Steele-John’s ex granted bail on stalking charges as WA Greens inquiry begins",
       "summary": "Family violence investigation squad detectives charged the 40-year-old woman on Wednesday, WA Police confirmed.",
-      "ts": 1793837927000,
+      "ts": 1793876615000,
       "img": "https://static.ffx.io/images/$zoom_0.2189%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/aa1e46157a7d81ff1a70653694af438481e1c5b0",
       "divergent": null,
       "left_view": null,
@@ -387,27 +401,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Jordon Steele John’s ex arrested on stalking charges as WA Greens inquiry begins",
-        "desc": "Family violence investigation squad detectives charged the 40-year-old woman on Wednesday, WA Police confirmed.",
-        "link": "https://www.theage.com.au/politics/federal/jordon-steele-john-s-ex-arrested-on-stalking-charges-as-wa-greens-inquiry-begins-20261105-p61bii.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Woman charged over alleged stalking and attempted extortion of Greens senator Jordon Steele-John",
-        "desc": "Exclusive: Police will allege the woman, 40, is the former partner of Steele-John and she is expected to face court in Perth on Thursday Get our breaking news email, free app or daily news podcast A 40-year-old woman has been arrested and charged by Western Australian police for allegedly stalking and attempting to extort the Greens senator Jordon Steele-John. WA police said on Wednesday detective",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/04/jordon-steele-john-woman-charged-alleged-stalking-attempted-extortion-greens-senator-court-ntwnfb"
+        "title": "Woman charged with stalking Greens senator Jordon Steele-John granted bail, ordered to surrender passport",
+        "desc": "Perth court orders 40-year-old woman, who cannot be identified, to stay 100 metres from Steele-John, his home and workplace A 40-year-old woman accused of stalking and attempting to extort Greens senator Jordon Steele-John has been granted bail by a Western Australian court. The woman appeared at Perth’s magistrates court on Thursday facing charges of aggravated stalking with intent to intimidate ",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/05/woman-charged-with-stalking-greens-senator-jordon-steele-john-granted-bail-ordered-to-surrender-passport-court-ntwnfb"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Jordon Steele-John’s ex granted bail on stalking charges as WA Greens inquiry begins",
+        "desc": "Family violence investigation squad detectives charged the 40-year-old woman on Wednesday, WA Police confirmed.",
+        "link": "https://www.theage.com.au/politics/federal/jordon-steele-john-s-ex-arrested-on-stalking-charges-as-wa-greens-inquiry-begins-20261105-p61bii.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Australia needs serious discussion on AUKUS. This inquiry didn’t deliver it",
-      "summary": "In March 2023, Midnight Oil frontman and former Labor minister Peter Garrett wrote in an article titled “AUKUS stinks, and that’s an understatement”: Scott Morrison’s decision to build nuclear submarines in partnership with northern hemisphere former imperial powers was the most costly and risky action ever taken by any Australian government and should not have been allowed to stand. It’s little w",
-      "ts": 1793833378000,
-      "img": "https://i.guim.co.uk/img/media/167a379cd3783bea5006d33041f5bc593bdc7518/796_281_5493_4394/master/5493.jpg?width=460&quality=85&auto=format&fit=max&s=c9c8d4474467b76deeb64f33ea7f0409",
+      "headline": "High Court to hear Hanson challenge to racist hate speech laws",
+      "summary": "The One Nation leader has been granted leave to appear before the highest court in the country, arguing the contentious 18C hate speech law is invalid under the constitution.",
+      "ts": 1793859297000,
+      "img": "https://static.ffx.io/images/$zoom_0.1962%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/3ac046f2af019bfda427a82aa6efa5381d564929",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -415,97 +429,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Australia needs serious discussion on AUKUS. This inquiry didn’t deliver it",
-        "desc": "In March 2023, Midnight Oil frontman and former Labor minister Peter Garrett wrote in an article titled “AUKUS stinks, and that’s an understatement”: Scott Morrison’s decision to build nuclear submarines in partnership with northern hemisphere former imperial powers was the most costly and risky action ever taken by any Australian government and should not have been allowed to stand. It’s little w",
-        "link": "https://theconversation.com/australia-needs-serious-discussion-on-aukus-this-inquiry-didnt-deliver-it-295876"
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "High Court to hear Hanson challenge to racist hate speech laws",
+        "desc": "The One Nation leader has been granted leave to appear before the highest court in the country, arguing the contentious 18C hate speech law is invalid under the constitution.",
+        "link": "https://www.theage.com.au/politics/federal/high-court-to-hear-hanson-challenge-to-racist-hate-speech-laws-20261105-p61br7.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
-        "desc": "Report led by Peter Garrett and former defence chief Adm Chris Barrie says agreement should be suspended and calls for royal commission Get our daily political email, free app or daily news podcast A public inquiry into the $368bn Aukus nuclear submarine agreement has called the plan “the worst, riskiest and most costly defence decision ever made by an Australian government”, urging its immediate ",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry"
+        "title": "‘Bring it on’: Pauline Hanson to appeal Mehreen Faruqi racial discrimination ruling in high court",
+        "desc": "One Nation leader granted special leave to appeal after full federal court earlier this year agreed Hanson portrayed Faruqi as a ‘second-class citizen’ Get our daily political email, free app or daily news podcast Australia’s high court has agreed to hear Pauline Hanson’s appeal against a ruling that she engaged in racial discrimination against Mehreen Faruqi when she told the Greens senator to “p",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/05/pauline-hanson-to-appeal-mehreen-faruqi-racial-discrimination-ruling-high-court-ntwnfb"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "An even more unpredictable Donald Trump is the world economy’s worst nightmare",
-      "summary": "The Reserve Bank has plenty of concerns about the Australian economy. The fallout from the US midterms just adds to those worries.",
-      "ts": 1793831649000,
-      "img": "https://static.ffx.io/images/$zoom_0.5355%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1292%2C$y_199/t_crop_custom/q_86%2Cf_auto/39fb98d911e569609288d69df1fa6441f452446a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "As Australia ponders how to deal with a castrated Trump administration, one lesson is clear: ‘It’s the economy, stupid’ | Zoe Daniel",
-        "desc": "Donald Trump’s crushing defeat in the US midterms over cost-of-living pressures is a warning for politicians closer to home Fascinating, isn’t it, that for all that Donald Trump has got away with, it’s arguably the cost of fuel that’s finally led to an absolute rout in the midterms. So many Americans held their noses at so many other things, but in the end his own decision-making on Iran will haun",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/05/as-australia-ponders-how-to-deal-with-a-castrated-trump-administration-one-lesson-is-clear-its-the-economy-stupid"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "An even more unpredictable Donald Trump is the world economy’s worst nightmare",
-        "desc": "The Reserve Bank has plenty of concerns about the Australian economy. The fallout from the US midterms just adds to those worries.",
-        "link": "https://www.theage.com.au/politics/federal/an-even-more-unpredictable-donald-trump-is-the-world-economy-s-worst-nightmare-20261104-p61beh.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Chris Bowen on how he’ll reach consensus at the UN climate summit Cop31 – Australian Politics podcast",
-      "summary": "The UN’s climate summit begins in Turkey on Monday, with Australia leading the negotiations for the first time. The challenge of bringing nearly 190 countries to consensus on climate action, when global heating is already falling short of the Paris agreement goal of 1.5C, will be a pivotal test for climate change and energy minister Chris Bowen. Speaking with Guardian Australia’s climate and envir",
-      "ts": 1793840448000,
-      "img": "https://i.guim.co.uk/img/media/8dbf5240d769242c2885a27ca4b69300c26ca503/1475_816_5430_4344/master/5430.jpg?width=460&quality=85&auto=format&fit=max&s=1ae28530d4d305de9b0c21413cbf56e3",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Chris Bowen on how he’ll reach consensus at the UN climate summit Cop31 – Australian Politics podcast",
-        "desc": "The UN’s climate summit begins in Turkey on Monday, with Australia leading the negotiations for the first time. The challenge of bringing nearly 190 countries to consensus on climate action, when global heating is already falling short of the Paris agreement goal of 1.5C, will be a pivotal test for climate change and energy minister Chris Bowen. Speaking with Guardian Australia’s climate and envir",
-        "link": "https://www.theguardian.com/australia-news/audio/2026/nov/05/chris-bowen-un-climate-summit-cop31-australian-politics-podcast"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
-      "summary": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had a ",
-      "ts": 1793833246000,
-      "img": "https://i.guim.co.uk/img/media/98bda4ace9417a01039105abd323a4d517ff1463/0_0_2500_2000/master/2500.jpg?width=460&quality=85&auto=format&fit=max&s=7f0e5a24473c4756e910e57690b3b8b8",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
-        "desc": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had a ",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/05/victoria-election-2026-ai-generated-video-ads-ntwnfb"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Erika Kirk channels Charlie with blunt message to conservatives after GOP midterm losses",
-      "summary": "Erika Kirk invoked her late husband Charlie Kirk's words, urging conservatives to stay positive and avoid infighting after election setbacks.",
-      "ts": 1793833214000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/erika-and-charlie-kirk-split.png?ve=1&tl=1",
+      "headline": "Ex-Biden official projected to win bid to unseat Mike Lawler in high-stakes House race",
+      "summary": "Republican Mike Lawler and Democrat Cait Conley clashed over sanctuary city laws and illegal immigration in a bitter fight for New York's 17th Congressional District.",
+      "ts": 1793918876000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/lawler-conley-race.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -515,9 +459,72 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Erika Kirk channels Charlie with blunt message to conservatives after GOP midterm losses",
-        "desc": "Erika Kirk invoked her late husband Charlie Kirk's words, urging conservatives to stay positive and avoid infighting after election setbacks.",
-        "link": "https://www.foxnews.com/politics/erika-kirk-channels-charlie-blunt-message-conservatives-after-gop-midterm-losses"
+        "title": "Ex-Biden official projected to win bid to unseat Mike Lawler in high-stakes House race",
+        "desc": "Republican Mike Lawler and Democrat Cait Conley clashed over sanctuary city laws and illegal immigration in a bitter fight for New York's 17th Congressional District.",
+        "link": "https://www.foxnews.com/politics/ex-biden-official-projected-win-bid-unseat-mike-lawler-high-stakes-house-race"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Hegseth expands National Guard operations in DC, authorizes police patrol cars, Humvees and boats",
+      "summary": "Pete Hegseth authorized 60 marked patrol cars, Humvees and D.C. National Guard boats as a council hearing demands the military presence be removed.",
+      "ts": 1793918721000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/08/931/523/dc_takeover_1.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Hegseth expands National Guard operations in DC, authorizes police patrol cars, Humvees and boats",
+        "desc": "Pete Hegseth authorized 60 marked patrol cars, Humvees and D.C. National Guard boats as a council hearing demands the military presence be removed.",
+        "link": "https://www.foxnews.com/politics/hegseth-expands-national-guard-operations-dc-authorizes-police-patrol-cars-humvees-boats"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Midterms and 2028: Join America's conversation here!",
+      "summary": "Give us your thoughts on the midterms and the 2028 race! Chat here with Fox News Digital readers.",
+      "ts": 1793917301000,
+      "img": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/join-the-conversation-3-604.gif",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Midterms and 2028: Join America's conversation here!",
+        "desc": "Give us your thoughts on the midterms and the 2028 race! Chat here with Fox News Digital readers.",
+        "link": "https://www.foxnews.com/politics/live-chat-2026-midterm-election-results"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "NZ election eve poll watch: right’s lead slipping with Opportunity still the wild card",
+      "summary": "Getty Images On the eve of New Zealand’s general election, final polls show the right retaining its lead, but with support continuing to shift towards the left, and the centrist Opportunity Party potentially holding the balance of power. Right-wing parties (National, ACT and New Zealand First) led left-wing parties (Labour, the Greens and Te Pāti Māori) by 2.3 points in the final 1News-Verian poll",
+      "ts": 1793916624000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "NZ election eve poll watch: right’s lead slipping with Opportunity still the wild card",
+        "desc": "Getty Images On the eve of New Zealand’s general election, final polls show the right retaining its lead, but with support continuing to shift towards the left, and the centrist Opportunity Party potentially holding the balance of power. Right-wing parties (National, ACT and New Zealand First) led left-wing parties (Labour, the Greens and Te Pāti Māori) by 2.3 points in the final 1News-Verian poll",
+        "link": "https://theconversation.com/nz-election-eve-poll-watch-rights-lead-slipping-with-opportunity-still-the-wild-card-295736"
        }
       ]
      }
@@ -529,10 +536,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "17 better ways Elon Musk could have wasted $446 million",
-      "summary": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you may delusionally throw away near",
-      "ts": 1793828700000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae2/live/ce22be10-d851-11f1-b710-b15e87d8ef65.jpg",
+      "headline": "‘Total repudiation’: The blue wave is about to hit AI",
+      "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to a Democrat after 30 years in office. In these and other campaigns, one th",
+      "ts": 1793901112000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/elon-how-do-you-do-fellow-democrats-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -542,16 +549,9 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "17 better ways Elon Musk could have wasted $446 million",
-        "desc": "Dream bigger, babe. | Image: Cath Virginia / The Verge, Getty Images One of the basic problems of spending too much time on social media is that you are cooking your brain by reading posts from a pack of attention-seeking lunatics. If your social media of choice is the site formerly known as Twitter, and it is your main source of contact with the outside world, you may delusionally throw away near",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-        "desc": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
-        "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss"
+        "title": "‘Total repudiation’: The blue wave is about to hit AI",
+        "desc": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to a Democrat after 30 years in office. In these and other campaigns, one th",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai"
        },
        {
         "outlet": "Ars Technica",
@@ -564,10 +564,10 @@
      },
      {
       "id": 14,
-      "headline": "Binance says hackers who stole billions in crypto spent months planning heist",
-      "summary": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
-      "ts": 1793808363000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/binance-1024x648.jpg",
+      "headline": "2026 iPad mini review: Maximizing the mini",
+      "summary": "It's more compelling than ever, but also more expensive.",
+      "ts": 1793880001000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/20261104_095710-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -577,56 +577,21 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-        "desc": "Techniques included laptop infections, compromised internal tooling, and fake job interviews.",
-        "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist/"
+        "title": "2026 iPad mini review: Maximizing the mini",
+        "desc": "It's more compelling than ever, but also more expensive.",
+        "link": "https://arstechnica.com/gadgets/2026/11/ipad-mini-2026-review-maximizing-the-mini/"
        },
        {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’",
-        "desc": "Firm reveals details about how its cryptocurrency exchange was compromised, saying operation began in June The hackers behind the $6.3bn (£4.7bn) Binance heist used bogus job interviews, malicious software and an internal AI tool, the company has revealed. The world’s largest cryptocurrency exchange was compromised in an operation that began with an inadvertent download of malware in June, led to ",
-        "link": "https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-        "desc": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
-        "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss"
+        "title": "Apple iPad mini A20 Pro review: the best small tablet but with a big price",
+        "desc": "All-round upgrades fit a bigger OLED screen in a smaller and lighter body with water resistance for first time The new iPad mini takes Apple’s fan-favourite tiny tablet and upgrades just about everything about it, including giving it a new OLED screen, serious performance, speakers embedded into the display and even water resistance, all with a big new price tag. The eighth-generation iPad mini co",
+        "link": "https://www.theguardian.com/technology/2026/nov/05/apple-ipad-mini-a20-pro-review-best-small-tablet-but-big-price"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly",
-      "ts": 1793832135000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Russia-Borodinsky-coal-mine-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-        "desc": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers"
-       },
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-        "desc": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
-        "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/"
-       }
-      ]
-     },
-     {
-      "id": 16,
       "headline": "French blood storage impacted by freezer hacks as theories swirl about culprits",
       "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
       "ts": 1793809575000,
@@ -654,10 +619,31 @@
       ]
      },
      {
+      "id": 16,
+      "headline": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "summary": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+      "ts": 1793920894000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e01/live/e1c54f70-d958-11f1-a800-d9dce9e5aa21.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+        "desc": "The market has been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms",
+        "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
       "id": 17,
-      "headline": "X says its updated web app is way faster",
-      "summary": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. \"On the old web app, you'd stare at the X logo for more than 22 seconds before the first post appeared. O",
-      "ts": 1793838312000,
+      "headline": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
+      "summary": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He [Musk] has now bought 76 megahertz of spectrum. By the way, we have 400. So if you no",
+      "ts": 1793920630000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -668,18 +654,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "X says its updated web app is way faster",
-        "desc": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. \"On the old web app, you'd stare at the X logo for more than 22 seconds before the first post appeared. O",
-        "link": "https://www.theverge.com/tech/1027113/x-says-its-updated-web-app-is-way-faster"
+        "title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
+        "desc": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He [Musk] has now bought 76 megahertz of spectrum. By the way, we have 400. So if you no",
+        "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
-      "summary": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had a ",
-      "ts": 1793833246000,
-      "img": "https://i.guim.co.uk/img/media/98bda4ace9417a01039105abd323a4d517ff1463/0_0_2500_2000/master/2500.jpg?width=460&quality=85&auto=format&fit=max&s=7f0e5a24473c4756e910e57690b3b8b8",
+      "headline": "Perplexity launches its own take on AI agents for work",
+      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device to complete tasks. But Perplexity says ",
+      "ts": 1793917610000,
+      "img": null,
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -687,11 +673,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
-        "desc": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had a ",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/05/victoria-election-2026-ai-generated-video-ads-ntwnfb"
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Perplexity launches its own take on AI agents for work",
+        "desc": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device to complete tasks. But Perplexity says ",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
        }
       ]
      }
@@ -703,10 +689,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
-      "summary": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
-      "ts": 1793810084000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e69a268d5421d1e4db4516bfc892575f?impolicy=wcms_crop_resize&cropH=1196&cropW=2127&xPos=0&yPos=997&width=862&height=485",
+      "headline": "ASX falls sharply after Wall Street’s $4.6tr wipeout",
+      "summary": "The Australian sharemarket has slumped at the open after a brutal selloff swept through Wall Street, led by stocks tied to the buildout of AI data centres.",
+      "ts": 1793920229000,
+      "img": "https://static.ffx.io/images/$zoom_0.2111%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_327%2C$y_0/t_crop_custom/q_86%2Cf_auto/7cabdff09f00c5049755e6cb745e05c7394ebeb6",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -714,34 +700,34 @@
       "hasBothSides": true,
       "sources": [
        {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX falls sharply after Wall Street’s $4.6tr wipeout",
+        "desc": "The Australian sharemarket has slumped at the open after a brutal selloff swept through Wall Street, led by stocks tied to the buildout of AI data centres.",
+        "link": "https://www.theage.com.au/business/markets/wall-street-plunges-as-ai-stocks-tumble-asx-set-to-slide-lower-20261106-p61bvl.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
         "outlet": "Fox Business",
         "lean": "right",
-        "title": "Canva to restructure operations, affecting 22% of workforce as growth slows",
-        "desc": "Canva CEO Melanie Perkins announced a major restructuring affecting 22% of employees, including layoffs, team consolidation, relocation requests and office changes.",
-        "link": "https://www.foxbusiness.com/economy/canva-restructuring-affect-22-workforce-growth-slows"
+        "title": "What Wall Street's tech stock sell-off means for your 401(k)",
+        "desc": "A sharp stock market sell-off sent major indexes tumbling Thursday, prompting financial experts to offer advice for Americans worried about their 401(k) retirement savings.",
+        "link": "https://www.foxbusiness.com/economy/wall-street-stocks-tech-sell-off-november-5-2026"
        },
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Canva layoffs: design giant to cut or relocate more than 1,200 jobs in major restructure",
-        "desc": "Chief executive Melanie Perkins describes job cuts as ‘without doubt the hardest moment in our thirteen-year history’ in email to staff Get our breaking news email, free app or daily news podcast Canva is cutting or relocating more than 1,200 jobs, representing 22% of its global workforce, as part of a major restructure that includes laying off staff who helped build the Australian-founded design ",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/04/canva-layoffs-job-cuts-restructure"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Canva restructure to affect a fifth of its workforce ahead of Christmas",
-        "desc": "The design software giant says growth has slowed for the first time in a decade and it needs smaller, more empowered teams.",
-        "link": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304"
+        "title": "Today’s UK interest rate rise unlikely to be the last unless Iran war ends; Wall Street slides on AI fears as ‘panic sets in’ – as it happened",
+        "desc": "UK hit by first interest rate rise in three years, as Bank predicts inflation will approach 5% by middle of 2027 Interest rate rise in midst of cost of living crisis will leave many incredulous UK government bond prices are also rallying today. This has pushed down the yield, or rate of return, on UK 10-year gilts by 4 basis points (0.04 of a percentage point) to the lowest since August 28, below ",
+        "link": "https://www.theguardian.com/business/live/2026/nov/05/bank-of-england-interest-rate-decision-pound-inflation-oil-iran-stock-markets-latest-news-updates"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "Investors shouldn’t throw equity baby out with midterm bathwater",
-      "summary": "There is a credible argument that, while the occasional setback on Wall Street is inevitable, what we are seeing in the AI and tech space is a secular trend not a bubble.",
-      "ts": 1793840400000,
-      "img": "https://static.ffx.io/images/$zoom_0.2349%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/61c007ffdb439214b353bc10020a5e75f59e7a06",
+      "headline": "Qantas points to higher airfares as fuel bill rises more than $1b",
+      "summary": "The airline said it could keep cutting capacity and increasing prices as a long conflict in the Middle East keeps the price of oil at record levels.",
+      "ts": 1793921368000,
+      "img": "https://static.ffx.io/images/$zoom_0.1853%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_26/t_crop_custom/q_86%2Cf_auto/b70c6aed3c53246e1457ba6a5d234cbb2438415a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -749,27 +735,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Investors shouldn’t throw equity baby out with midterm bathwater",
-        "desc": "There is a credible argument that, while the occasional setback on Wall Street is inevitable, what we are seeing in the AI and tech space is a secular trend not a bubble.",
-        "link": "https://www.afr.com/world/north-america/investors-shouldn-t-throw-equity-baby-out-with-midterm-bathwater-20261105-p61bmw?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Qantas to raise airfares, cut flights as fuel costs bite",
+        "desc": "Qantas is hiking airfares and making deeper cuts to its domestic flight schedules early next year to tackle rising fuel prices.",
+        "link": "https://www.theage.com.au/business/companies/qantas-to-raise-airfares-cut-flights-as-fuel-costs-bite-20261106-p61byy.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Business leaders, investors weigh impact of Democrats’ midterm sweep on markets, AI and travel",
-        "desc": "Democrats' midterm victories draw mixed reactions from Wall Street and business executives over AI infrastructure, regulatory risks, market stability and travel.",
-        "link": "https://www.foxbusiness.com/politics/business-leaders-investors-weigh-impact-democrats-midterm-sweep-markets-ai-travel"
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Qantas points to higher airfares as fuel bill rises more than $1b",
+        "desc": "The airline said it could keep cutting capacity and increasing prices as a long conflict in the Middle East keeps the price of oil at record levels.",
+        "link": "https://www.afr.com/companies/transport/qantas-points-to-higher-airfares-as-fuel-bill-rises-more-than-1b-20261106-p61bx4?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "‘We have a plan’: David Jones collapses, store closures expected before Christmas",
-      "summary": "David Jones’s owners have appointed administrators, which is expected to trigger an extensive restructure of the company and thousands of job losses.",
-      "ts": 1793840180000,
-      "img": "https://static.ffx.io/images/$zoom_0.15123510380414262%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_19/t_crop_custom/q_86%2Cf_auto/e433e46414c249e2afe032720448d661196ca4bc",
+      "headline": "Iren confirms delay at Texas data centre for Microsoft, narrows losses",
+      "summary": "Iren says Microsoft has requested design changes at a data centre known as Childress in Texas as its shares tumbled in US markets.",
+      "ts": 1793915596000,
+      "img": "https://static.ffx.io/images/$zoom_1.165%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_89/t_crop_custom/q_86%2Cf_auto/5e6a5a701fc3d2360ee1acb9c029c4132fc42cf0",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -777,55 +763,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "‘We have a plan’: David Jones collapses, store closures expected before Christmas",
-        "desc": "David Jones’s owners have appointed administrators, which is expected to trigger an extensive restructure of the company and thousands of job losses.",
-        "link": "https://www.theage.com.au/business/companies/administrators-appointed-to-david-jones-store-closures-expected-before-christmas-20261105-p61bh2.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Iren confirms delay at Texas data centre for Microsoft, narrows losses",
+        "desc": "Iren says Microsoft has requested design changes at a data centre known as Childress in Texas as its shares tumbled in US markets.",
+        "link": "https://www.afr.com/companies/infrastructure/iren-confirms-delay-at-texas-data-centre-for-microsoft-narrows-losses-20261106-p61bse?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "Guardian AU Business",
+        "outlet": "The Age Business",
         "lean": "left",
-        "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
-        "desc": "Future of department store in jeopardy after years of steep losses, with outer suburban and regional locations vulnerable Get our breaking news email, free app or daily news podcast Australia’s premier upmarket department store David Jones has collapsed into voluntary administration, putting thousands of jobs at risk and leaving the future of the 188-year-old retailer hanging in the balance. The u",
-        "link": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration"
+        "title": "Aftermarket raid: Embattled data centre company NextDC’s shares soar",
+        "desc": "Major delays to NextDC’s flagship Melbourne facility left it vulnerable to an “opportunistic” raid by two rivals seeking to buy up to 10 per cent of the company.",
+        "link": "https://www.theage.com.au/business/companies/aftermarket-raid-embattled-data-centre-company-nextdc-s-shares-soar-20261105-p61bof.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "David Jones’ private equity owner mulls taking back failed retailer",
-      "summary": "Anchorage Capital Partners has told suppliers that it could “put forth a proposal including a restructured store footprint” described as David Jones 2.0.",
-      "ts": 1793839272000,
-      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/45602a6b74e61800918073ffbd23ba20a9710ac7",
+      "headline": "Stocks plunge as Dem midterm sweep fuels AI regulatory concerns",
+      "summary": "Wall Street suffered steep losses as investors reassessed the outlook for the AI boom following Democrats' sweeping midterm election victories.",
+      "ts": 1793913798000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/us-stocks-sink.gif",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "David Jones’ private equity owner mulls taking back failed retailer",
-        "desc": "Anchorage Capital Partners has told suppliers that it could “put forth a proposal including a restructured store footprint” described as David Jones 2.0.",
-        "link": "https://www.afr.com/companies/retail/david-jones-executives-front-staff-meetings-as-administrator-appointed-20261105-p61bb6?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Nasdaq sees worst day in 18 months as investors bet on AI slowdown after Democrats’ election triumph",
+        "desc": "Nearly $2tn shaved off Nasdaq value as worries of curbs to AI datacenters ripple across bourses The Nasdaq share index had its worst day in 18 months after slumping 5.5% on Thursday amid growing signs that the artificial intelligence industry will face tougher regulation because of the midterm election results. As Wall Street sustained widespread losses, the Nasdaq composite tumbled into “correcti",
+        "link": "https://www.theguardian.com/business/2026/nov/05/nasdaq-heading-for-worst-day-in-18-months-as-wall-street-sustains-widespread-losses"
        },
        {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "ASIC fines Mona owner David Walsh's company for late financial report",
-        "desc": "The parent company of Tasmania's Mona museum has been slugged with a hefty fine after failing to lodge a financial report on time.",
-        "link": "https://www.abc.net.au/news/2026-11-04/mona-museum-company-fined-asic-late-financial-report/107345772"
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Stocks plunge as Dem midterm sweep fuels AI regulatory concerns",
+        "desc": "Wall Street suffered steep losses as investors reassessed the outlook for the AI boom following Democrats' sweeping midterm election victories.",
+        "link": "https://www.foxbusiness.com/markets/stocks-nov-5-2026"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
-      "summary": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy US midterm elections – live updates After US midterms, what will lame-duck Trump mean for global economy? US stocks have surged as investors digest the Democrats’ victories in the midterm elections, lifted by hopes that Donald Trump’s turbulent policymaking would be restrained and shakin",
-      "ts": 1793838328000,
-      "img": "https://i.guim.co.uk/img/media/6b1f011569afbc3d0e2cd5fc5417582f27adbe6a/714_28_3264_2612/master/3264.jpg?width=460&quality=85&auto=format&fit=max&s=e074afef935c83dff9dc26e80be197ae",
+      "headline": "Third wave of 'hoax' bomb threats targets 27 passenger flights across Europe",
+      "summary": "Bomb threats have affected at least 27 flights in Europe on Thursday , including in France, Bulgaria, Italy, Austria, Belgium and the Czech Republic.",
+      "ts": 1793901474000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/105d4973494ad325c4666a4130196694?impolicy=wcms_crop_resize&cropH=2810&cropW=4995&xPos=0&yPos=182&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -833,27 +819,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX surges on oil slump, Wall Street rally; NAB dives; NextDC soars on share raid",
-        "desc": "The Australian sharemarket is higher in early trade on the back of a Wall Street rally as the Democrats’ sweeping victory in the midterm elections fuelled optimism the Iran war could end soon.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-jump-as-wall-street-soars-trump-media-tesla-spacex-tumble-oil-prices-slump-20261105-p61bj0.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
-        "desc": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy US midterm elections – live updates After US midterms, what will lame-duck Trump mean for global economy? US stocks have surged as investors digest the Democrats’ victories in the midterm elections, lifted by hopes that Donald Trump’s turbulent policymaking would be restrained and shakin",
-        "link": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears"
+        "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
+        "desc": "EU transport commissioner says ‘too early’ to say if bomb threats to 20 flights are linked Tell us: have you been affected by the bomb threats? And the Italian news agency Ansa reported that two more planes with links to Italy were affected by bomb threats this morning: that’s a WizzAir service from Milan Malpensa to Warsaw, which reportedly landed in Vienna, and a Finnair flight from Helsinki to ",
+        "link": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Third wave of 'hoax' bomb threats targets 27 passenger flights across Europe",
+        "desc": "Bomb threats have affected at least 27 flights in Europe on Thursday , including in France, Bulgaria, Italy, Austria, Belgium and the Czech Republic.",
+        "link": "https://www.abc.net.au/news/2026-11-05/bomb-threat-diverts-planes-across-europe/107352984"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "NAB warns of economic crunch as bad loan risk rises",
-      "summary": "Australia’s largest business bank said its customers were under increasing stress as it reported a sharp drop in annual cash profit.",
-      "ts": 1793835415000,
-      "img": "https://static.ffx.io/images/$zoom_0.30509162395116773%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_387%2C$y_249/t_crop_custom/q_86%2Cf_auto/30fc391c9a4fbf4ee72d93bb37d7ce97b57c7bdf",
+      "headline": "‘Came to say goodbye’: Shelves stripped bare as luxury brands desert David Jones",
+      "summary": "David Jones’ owners have appointed administrators, which is expected to trigger an extensive restructure of the company and thousands of job losses.",
+      "ts": 1793887228000,
+      "img": "https://static.ffx.io/images/$zoom_0.29873060648801125%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_109/t_crop_custom/q_86%2Cf_auto/8a761a96390e60c27ef3fc49cafa26846ed41fcb",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -861,18 +847,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "NAB warns of economic crunch as bad loan risk rises",
-        "desc": "Australia’s largest business bank said its customers were under increasing stress as it reported a sharp drop in annual cash profit.",
-        "link": "https://www.afr.com/companies/financial-services/nab-lifts-credit-charges-cash-profit-down-13pc-amid-economic-pressure-20261105-p61bey?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "David Jones wrongly believed it could be exclusive and everywhere. Can the 188-year-old institution keep the lights on for Christmas?",
+        "desc": "The arbiter of Australian taste abandoned prestige to chase profits through expansion. Now 6,000 staff across 38 stores fear job cuts as ‘difficult decisions’ loom Get our breaking news email, free app or daily news podcast I cut past the glow of the Louis Vuitton displays and sidestep Armani, Hermès and Prada, all while being hit by the mingling fragrances on the ground level at David Jones. A se",
+        "link": "https://www.theguardian.com/business/2026/nov/06/luxury-australian-retailer-david-jones-collapse-administration"
        },
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "NAB profit falls to $6.1 billion as recession risk rises; shares slump",
-        "desc": "The country’s biggest business lender said household savings buffers remained strong, but arrears have deteriorated and economic growth is expected to slow.",
-        "link": "https://www.theage.com.au/business/banking-and-finance/nab-profit-falls-to-6-1-billion-overdue-home-loan-repayments-tick-up-20261105-p61bk4.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "‘Came to say goodbye’: Shelves stripped bare as luxury brands desert David Jones",
+        "desc": "David Jones’ owners have appointed administrators, which is expected to trigger an extensive restructure of the company and thousands of job losses.",
+        "link": "https://www.theage.com.au/business/companies/administrators-appointed-to-david-jones-store-closures-expected-before-christmas-20261105-p61bh2.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -884,10 +870,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Swans star returns positive drug test during roadside stop",
-      "summary": "Tom Papley returns a positive preliminary drug test after being pulled over by NSW Police, who sprung him driving with a suspended licence.",
-      "ts": 1793779874000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/82e8d392783b80f39497339ebc5f011d?impolicy=wcms_crop_resize&cropH=1351&cropW=2401&xPos=0&yPos=146&width=862&height=485",
+      "headline": "Superstar Cristiano Ronaldo retires from international football",
+      "summary": "Cristiano Ronaldo announces his retirement from international soccer after a falling out with Portugal coach Jorge Jesus.",
+      "ts": 1793906798000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/d9d8206dc0afb1cc0b3b6d1148d5dce8?impolicy=wcms_crop_resize&cropH=832&cropW=1479&xPos=1073&yPos=286&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -895,34 +881,153 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Sydney Swans player Tom Papley allegedly returns positive roadside drug test",
-        "desc": "Club says AFL forward returned ‘positive preliminary test indication’ NSW police issue a notice for driving with a suspended licence Sydney Swans forward Tom Papley has allegedly returned a positive preliminary drug test after being pulled over by New South Wales police on Monday, adding to the off-field issues the club has faced in recent months. NSW Police said in a statement the 30-year-old was",
-        "link": "https://www.theguardian.com/sport/2026/nov/04/afl-sydney-swans-tom-papley-allegedly-tests-positive-roadside-drug-test-ntwnfb"
-       },
-       {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Swans star returns positive drug test during roadside stop",
-        "desc": "Tom Papley returns a positive preliminary drug test after being pulled over by NSW Police, who sprung him driving with a suspended licence.",
-        "link": "https://www.abc.net.au/news/2026-11-04/swans-tom-papley-returns-positive-drug-test-during-roadside-stop/107347338"
+        "title": "Superstar Cristiano Ronaldo retires from international football",
+        "desc": "Cristiano Ronaldo announces his retirement from international soccer after a falling out with Portugal coach Jorge Jesus.",
+        "link": "https://www.abc.net.au/news/2026-11-06/cristiano-ronaldo-announces-retirement-international-football/107353704"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+        "desc": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Swans star Tom Papley allegedly returns positive test for methylamphetamine while driving on suspended licence",
-        "desc": "Tom Papley will face court after driving with a suspended licence when police pulled him over.",
-        "link": "https://7news.com.au/sport/afl/swans-star-tom-papley-returns-preliminary-positive-drug-test-in-random-roadside-check-c-23116520"
+        "title": "Cristiano Ronaldo retires from international soccer after a record-breaking career with Portugal",
+        "desc": "‘The day has come for me to hand back the number 7 shirt of our national team.’",
+        "link": "https://7news.com.au/sport/cristiano-ronaldo-retires-from-international-soccer-after-a-record-breaking-career-with-portugal-c-23122974"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Rugby league great Paul Langmack dies aged 61",
-      "summary": "Canterbury-Bankstown triple premiership winner Paul Langmack has died.",
-      "ts": 1793835340000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2530540e6f736927735191e53049bb7c?impolicy=wcms_crop_resize&cropH=1272&cropW=2261&xPos=0&yPos=163&width=862&height=485",
+      "headline": "Australian racing icon and F1 world champion Alan Jones dies",
+      "summary": "Alan Jones dies a few days after turning 80, after a short illness. He won the 1980 Formula 1 world championship and 12 grands prix.",
+      "ts": 1793892166000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/a2f9fed9b4a4a27937f028c1a46ffdba?impolicy=wcms_crop_resize&cropH=2093&cropW=3721&xPos=0&yPos=190&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Australian F1 world champion Alan Jones dies aged 80",
+        "desc": "Jones one of just two Australians to win F1 title after triumph in 1980 He won 12 grands prix across 10 seasons before retirement in 1986 Alan Jones, the 1980 Formula One world champion, has died aged 80, leading to a string of tributes from across the sport. Jones won 12 F1 grands prix across his career and became just the second Australian, after Sir Jack Brabham, to be crowned world champion wh",
+        "link": "https://www.theguardian.com/sport/2026/nov/05/australian-f1-champion-alan-jones-dies-aged-80"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Australian racing icon and F1 world champion Alan Jones dies",
+        "desc": "Alan Jones dies a few days after turning 80, after a short illness. He won the 1980 Formula 1 world championship and 12 grands prix.",
+        "link": "https://www.abc.net.au/news/2026-11-05/australian-motor-racing-icon-alan-jones-dies-aged-80/107350036"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Australian Formula 1 legend Alan Jones dies days after 80th birthday",
+        "desc": "The nation’s last Formula 1 champion has died following a brief illness.",
+        "link": "https://7news.com.au/sport/motorsport/australian-formula-1-legend-alan-jones-dies-days-after-80th-birthday-c-23119024"
+       }
+      ]
+     },
+     {
+      "id": 27,
+      "headline": "Anderson could be given chance to join Surrey",
+      "summary": "James Anderson could be given the opportunity to extend his legendary career by joining Surrey.",
+      "ts": 1793921632000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ab1c/live/9118e0c0-d96f-11f1-9fd0-cdf612d1539f.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Anderson could be given chance to join Surrey",
+        "desc": "James Anderson could be given the opportunity to extend his legendary career by joining Surrey.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c6wyvvdx2xe9o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Jimmy Anderson in talks with Surrey to continue county career after Lancashire exit",
+        "desc": "Division One side have offered Anderson a contract Nottinghamshire also monitoring seamer’s situation Jimmy Anderson has opened talks over signing for Surrey next season with the club growing in confidence that England’s leading wicket-taker will agree to join them for what would be a remarkable swansong. The 44-year-old has been inundated with expressions of interest since being released by Lanca",
+        "link": "https://www.theguardian.com/sport/2026/nov/05/jimmy-anderson-in-talks-with-surrey-to-continue-county-career-after-lancashire-exit"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Commentators in awe as ‘fired-up’ Aussie giantkiller Rinky Hijikata roars again to reach Paris Masters quarter-final",
+      "summary": "The 25-year-old simply refused to crash back down to earth after beating Novak Djokovic.",
+      "ts": 1793912246000,
+      "img": "https://images.7news.com.au/publication/C-23123613/6008c41b2442537189a2ded9953ec677085a8a5c-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Commentators in awe as ‘fired-up’ Aussie giantkiller Rinky Hijikata roars again to reach Paris Masters quarter-final",
+        "desc": "The 25-year-old simply refused to crash back down to earth after beating Novak Djokovic.",
+        "link": "https://7news.com.au/sport/tennis/commentators-in-awe-as-fired-up-aussie-giantkiller-rinky-hijikata-roars-again-to-reach-paris-masters-quarter-final--c-23123613"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Aussie Hijikata backs up Djokovic triumph with another big win in Paris",
+        "desc": "Rinky Hijikata has backed up his statement win over Novak Djokovic with another impressive victory in Paris, downing Alex de Minaur's conqueror, Tomas Martin Etcheverry, to reach his first ATP Masters quarterfinal.",
+        "link": "https://www.abc.net.au/news/2026-11-06/rinky-hijikata-into-paris-masters-quarterfinals/107353766"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Jessica Pegula and Mirra Andreeva caught in hot-mic ‘diva’ drama at WTA Finals: ‘Lost respect’",
+      "summary": "Multiple statements and apologies have been issued after a live stream exposed a star’s true feelings.",
+      "ts": 1793909513000,
+      "img": "https://images.7news.com.au/publication/C-23123547/24badf44b6b2bc3a1f2dbffe1d01d7e0ca7a4cfc-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Jessica Pegula and Mirra Andreeva caught in hot-mic ‘diva’ drama at WTA Finals: ‘Lost respect’",
+        "desc": "Multiple statements and apologies have been issued after a live stream exposed a star’s true feelings.",
+        "link": "https://7news.com.au/sport/tennis/diva-drama-erupts-in-womens-tennis-after-hot-mic-chaos-at-wta-finals-lost-respect-c-23123547"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "WTA takes 'full responsibility' after Pegula calling Andreeva 'diva' aired",
+        "desc": "The WTA says it takes \"full responsibility\" after private comments Jessica Pegula made to her coach about Mirra Andreeva were live-streamed by a courtside microphone.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cm1dwll642ngo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "LIV Golf to wind down after five years of rebel league",
+      "summary": "LIV Golf is closing down after losing the financial support it had hoped to secure from BC Partners to keep the league afloat.",
+      "ts": 1793908842000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/098b0a9f6fa9cf15f22d1187c0bcc766?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=285&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -932,128 +1037,16 @@
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Rugby league great Paul Langmack dies aged 61",
-        "desc": "Canterbury-Bankstown triple premiership winner Paul Langmack has died.",
-        "link": "https://www.abc.net.au/news/2026-11-05/rugby-league-great-paul-langmack-dies-aged-61/107348920"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Triple premiership winner Paul Langmack dies aged 61 after ‘major heart attack’",
-        "desc": "The much-loved hero was messaging friends just hours before his sudden death amidst his morning gym routine.",
-        "link": "https://7news.com.au/sport/rugby-league/triple-premiership-winner-paul-langmack-dies-aged-61-after-major-heart-attack-c-23118365"
-       }
-      ]
-     },
-     {
-      "id": 27,
-      "headline": "Valverde stunner earns Real Madrid late win at AEK Athens",
-      "summary": "Real Madrid continue their 100% start to their Champions League campaign with another late win, this time through captain Federico Valverde to inflict Athens' third loss in a row.",
-      "ts": 1793833685000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/59d7/live/94a0f1c0-d88d-11f1-a701-fddedf244c16.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Champions League: Como clobber Lens 9-1 after Real Madrid roar back to deny AEK Athens",
-        "desc": "Valverde hits late winner as Madrid win 3-2 in Athens Napoli thrashed by Porto, Club Brugge win at PSV Anastasios Douvikas led the rout with a hat-trick as Como cruised to a 9-1 victory at Lens, equalling the record for the most goals scored in a single Champions League game. Only two teams had previously won a game by a margin of eight goals since the launch of the modern Champions League in 1992",
-        "link": "https://www.theguardian.com/football/2026/nov/04/champions-league-roundup-aek-athens-real-madrid-borussia-dortmund-napoli"
+        "title": "LIV Golf to wind down after five years of rebel league",
+        "desc": "LIV Golf is closing down after losing the financial support it had hoped to secure from BC Partners to keep the league afloat.",
+        "link": "https://www.abc.net.au/news/2026-11-06/liv-golf-to-wind-down-after-bc-partners-withdraw-support/107353732"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Valverde stunner earns Real Madrid late win at AEK Athens",
-        "desc": "Real Madrid continue their 100% start to their Champions League campaign with another late win, this time through captain Federico Valverde to inflict Athens' third loss in a row.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/ck7vpj0ggqr8o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Haaland scores winner as Man City beat Leipzig",
-      "summary": "Erling Haaland scores the winning goal as Manchester City overcome being pegged back twice to beat RB Leipzig 3-2 on match day four of the UEFA Champions League group phase.",
-      "ts": 1793830540000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f703/live/769378b0-d89c-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Champions League: Slavia Prague 1-2 Arsenal, RB Leipzig 2-3 Manchester City and more – as it happened",
-        "desc": "Manchester City edged out Leipzig in a ding-dong contest, while Como ran riot at Lens with a historic 9-1 victory In more logical news, Kylian Mbappé has found the net for Real Madrid, so Mourinho’s men could still dig themselves out of an almighty Champions League hole. Not many would have put money on neither Liverpool nor Madrid winning their games this evening, mind. Less than 10 minutes remai",
-        "link": "https://www.theguardian.com/football/live/2026/nov/04/champions-league-slavia-prague-v-arsenal-rb-leipzig-v-manchester-city-and-more-live"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Haaland scores winner as Man City beat Leipzig",
-        "desc": "Erling Haaland scores the winning goal as Manchester City overcome being pegged back twice to beat RB Leipzig 3-2 on match day four of the UEFA Champions League group phase.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/ckz65ey5q29zo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Arsenal survive late Slavia scare for hard-fought win",
-      "summary": "Arsenal earn their third win from four in the Champions League as goals from Noni Madueke and Victor Gyokeres are too much for Slavia Prague, despite a valiant late fight from the hosts to get back into the game.",
-      "ts": 1793830207000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7297/live/bfc6bfc0-d89b-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Arsenal survive late Slavia scare for hard-fought win",
-        "desc": "Arsenal earn their third win from four in the Champions League as goals from Noni Madueke and Victor Gyokeres are too much for Slavia Prague, despite a valiant late fight from the hosts to get back into the game.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cq4g1jwnzmyro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Viktor Gyökeres the difference as Arsenal claim nervy win against Slavia Prague",
-        "desc": "Another European away day, another victory for Arsenal: albeit only just. This time, Viktor Gyökeres stole the show as poor Slavia Prague matched the longest winless streak in European Cup and Champions League history despite a spirited late comeback. That unwanted record stands at 23, equalling the mark set by AEK Athens and FCSB – formerly known as Steaua Bucharest – while Arsenal are unbeaten i",
-        "link": "https://www.theguardian.com/football/2026/nov/04/slavia-prague-arsenal-champions-league-match-report"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Liverpool crumble at Kuyt's Fenerbahce",
-      "summary": "Liverpool are defeated by Turkish side Fenerbahce, who twice fought back from behind to seal a famous victory, ending the Reds' perfect start to this year's Champions League after four games.",
-      "ts": 1793829856000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/42bc/live/f62b49e0-d888-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Liverpool crumble at Kuyt's Fenerbahce",
-        "desc": "Liverpool are defeated by Turkish side Fenerbahce, who twice fought back from behind to seal a famous victory, ending the Reds' perfect start to this year's Champions League after four games.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cqy7ljmzx6d6o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
-        "desc": "Andoni Iraola arrived in Istanbul seeking improvement from Liverpool’s attack but departed with sudden cause for concern at the opposite end of the pitch. Fenerbahce ignited Dirk Kuyt’s interim spell with a tumultuous victory after Liverpool detonated their 100% Champions League record with several defensive lapses. Liverpool’s second successive defeat left Iraola exasperated for entirely differen",
-        "link": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses"
+        "title": "LIV confirms intention to wind down after five years",
+        "desc": "LIV Golf confirms its intention to wind down because of a lack of financial support.",
+        "link": "https://www.bbc.co.uk/sport/golf/articles/cq70pdjjgy5no?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -1065,66 +1058,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Pixar Veteran Jim Morris Moving To Emeritus Position; Jonathan Garson Named New President",
-      "summary": "A big hand-off is underway at Disney’s Pixar animation studio as longtime 21-year vet Jim Morris will segue to President Emeritus after 12 years in the position. He’ll be succeeded by 30-year-plus Disney vet Jonathan Garson. This is all effective on Jan. 4, 2027. Pete Docter will continue to lead the Toy Story and Inside […]",
-      "ts": 1793839528000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Jim-Morris-and-Jonathan-Garson.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Pixar Veteran Jim Morris Moving To Emeritus Position; Jonathan Garson Named New President",
-        "desc": "A big hand-off is underway at Disney’s Pixar animation studio as longtime 21-year vet Jim Morris will segue to President Emeritus after 12 years in the position. He’ll be succeeded by 30-year-plus Disney vet Jonathan Garson. This is all effective on Jan. 4, 2027. Pete Docter will continue to lead the Toy Story and Inside […]",
-        "link": "https://deadline.com/2026/11/pixar-new-president-1237213798/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Pixar Names Jonathan Garson as President; Jim Morris Moves to Emeritus Role",
-        "desc": "Pixar Animation Studios is set to undergo a leadership change, After serving as president for 12 of his 21 years at the studio, Jim Morris will transition to a president emeritus role. Jonathan Garson will become the studio’s new president, partnering with Chief Creative Officer Pete Docter. In his new role as president, Garson will […]",
-        "link": "https://variety.com/2026/film/news/pixar-jim-morris-president-emeritus-jonathan-garson-president-1236939816/"
-       }
-      ]
-     },
-     {
-      "id": 32,
-      "headline": "‘The Pitt’ and ‘ER’ Are Similar Enough to Allow Crichton Suit, Appeals Court Rules",
-      "summary": "An appeals court ruled on Wednesday that “The Pitt” is similar enough to “ER” to allow Michael Crichton’s widow to pursue a lawsuit over the Emmy-winning show. In a unanimous opinion, a three-judge panel denied an appeal from Warner Bros. Television, which has argued that the two shows are unrelated. “There are clear and numerous […]",
-      "ts": 1793838431000,
-      "img": "https://variety.com/wp-content/uploads/2026/04/noah-wyle-the-pitt.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘The Pitt’ and ‘ER’ Are Similar Enough to Allow Crichton Suit, Appeals Court Rules",
-        "desc": "An appeals court ruled on Wednesday that “The Pitt” is similar enough to “ER” to allow Michael Crichton’s widow to pursue a lawsuit over the Emmy-winning show. In a unanimous opinion, a three-judge panel denied an appeal from Warner Bros. Television, which has argued that the two shows are unrelated. “There are clear and numerous […]",
-        "link": "https://variety.com/2026/tv/news/the-pitt-noah-wyle-crichton-lawsuit-1236939852/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘The Pitt’s Battle With Michael Crichton Estate Heading To Trial As Warner Bros Rebuffed By Appeals Court",
-        "desc": "The Pitt is deep into production on its upcoming third season, but the Emmy-winning, Noah Wyle-starring drama will have to scrub up for court next year too. Two months after hearing arguments from Pitt producers and the Michael Crichton Estate over whether the HBO Max series is derivative of ER, a panel of appeals court […]",
-        "link": "https://deadline.com/2026/11/the-pitt-michael-crichton-estate-lawsuit-trial-1237213710/"
-       }
-      ]
-     },
-     {
-      "id": 33,
-      "headline": "One Of The Best R-Rated Time Travel Thrillers Ever Is Officially Free To Stream",
-      "summary": "12 years later, an overlooked time travel thriller starring Ethan Hawke has never been easier to watch, and fans of Looper will love it.",
-      "ts": 1793835018000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/predestination-movie-2014.png",
+      "headline": "Chris Pratt’s Terminal List Franchise Future Confirmed At Prime Video",
+      "summary": "Prime Video has announced its plans for The Terminal List as the popular franchise continues to grow for the streaming platform.",
+      "ts": 1793922427000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/chris-pratt-as-james-reece-in-the-terminal-list-season-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1134,25 +1071,88 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "One Of The Best R-Rated Time Travel Thrillers Ever Is Officially Free To Stream",
-        "desc": "12 years later, an overlooked time travel thriller starring Ethan Hawke has never been easier to watch, and fans of Looper will love it.",
-        "link": "https://screenrant.com/predestination-time-travel-movie-streaming-free-tubi-november-2026/"
+        "title": "Chris Pratt’s Terminal List Franchise Future Confirmed At Prime Video",
+        "desc": "Prime Video has announced its plans for The Terminal List as the popular franchise continues to grow for the streaming platform.",
+        "link": "https://screenrant.com/terminal-list-spinoff-savage-son-chris-pratt/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Chris Pratt to Continue ‘Terminal List’ Story in ‘Savage Son’ Series for Amazon",
+        "desc": "Chris Pratt will continue his journey as former Navy SEAL James Reece. Variety has learned that Pratt will again play Reece in “Savage Son,” which is based on Jack Carr’s third novel in the “The Terminal List” book series on which the main show is based. At this time, it is unclear if this would […]",
+        "link": "https://variety.com/2026/tv/news/chris-pratt-terminal-list-savage-son-series-amazon-1236940840/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’",
+        "desc": "Chris Pratt is returning as Lieutenant Commander James Reece as Amazon plots the latest move in The Terminal List franchise. The streamer is adapting Jack Carr’s Savage Son as it maps out the future of the military thriller world. It’s unclear whether Savage Son will be a standalone season, much like prequel The Terminal List: […]",
+        "link": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "Godzilla Minus Zero Ending Explained: Who Becomes King Of The Monsters & How It Sets Up A Sequel",
+      "summary": "Godzilla Minus Zero's explosive ending closes on a curious open note, with more than enough narrative threads and thematic weight to drive a sequel.",
+      "ts": 1793921418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/godzilla-roaring-in-the-middle-of-a-destructive-storm-in-godzilla-minus-zero.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Godzilla Minus Zero Ending Explained: Who Becomes King Of The Monsters & How It Sets Up A Sequel",
+        "desc": "Godzilla Minus Zero's explosive ending closes on a curious open note, with more than enough narrative threads and thematic weight to drive a sequel.",
+        "link": "https://screenrant.com/godzilla-minus-zero-ending-explained/"
        },
        {
         "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Travel Back in Time with Zelda Easter Egg on Google",
-        "desc": "Will you take on the mantle of \"Hero of Time?\"",
-        "link": "https://www.animenewsnetwork.com/interest/2026-11-03/travel-back-in-time-with-zelda-easter-egg-on-google/.243471"
+        "title": "Godzilla Minus Zero Earns Highest-Ever Opening Day for Live-Action Film in Japan",
+        "desc": "Film sold 590,000 tickets for 910 million yen on Tuesday opening",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-04/godzilla-minus-zero-earns-highest-ever-opening-day-for-live-action-film-in-japan/.243535"
+       }
+      ]
+     },
+     {
+      "id": 33,
+      "headline": "John Wick Animated Film With Keanu Reeves Officially A Go At Lionsgate",
+      "summary": "Lionsgate said Thursday that it has greenlit its anticipated John Wick animated film, with Keanu Reeves inking a deal to reprise his signature role as the iconic assassin in the billion-dollar franchise. The feature will be produced by the John Wick producing team of Thunder Road’s Basil Iwanyk and Erica Lee, 87Eleven Entertainment’s Chad Stahelski, […]",
+      "ts": 1793917992000,
+      "img": "https://deadline.com/wp-content/uploads/2025/04/MCDJOWI_LG006.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "John Wick Animated Film With Keanu Reeves Officially A Go At Lionsgate",
+        "desc": "Lionsgate said Thursday that it has greenlit its anticipated John Wick animated film, with Keanu Reeves inking a deal to reprise his signature role as the iconic assassin in the billion-dollar franchise. The feature will be produced by the John Wick producing team of Thunder Road’s Basil Iwanyk and Erica Lee, 87Eleven Entertainment’s Chad Stahelski, […]",
+        "link": "https://deadline.com/2026/11/lionsgate-animated-john-wick-film-with-keanu-reaves-officially-a-go-1237214979/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Lionsgate Quarterly Revenue Pops 41% on Strength of ‘Michael,’ TV Series Sales as Studio Narrows Net Loss",
+        "desc": "Lionsgate turned in another strong quarter — helped again by the studio’s blockbuster biopic on the King of Pop. For the three months ended Sept. 30, Lionsgate’s Q2 of fiscal 2026, the company reported revenue of $668.8 million, up 41% year over year. Operating income came in at $29.1 million, versus an operating loss of […]",
+        "link": "https://variety.com/2026/film/news/lionsgate-q3-2026-earnings-revenue-1236940790/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Scarlett Johansson Says ‘The Batman: Part II’ Role Was “Hard To Crack,” Gave Her “Existential Angst”",
-      "summary": "Although Scarlett Johansson is no stranger to a big-budget superhero flick, she found herself in uncharted territory when making the jump from Marvel to DC. The 2x Oscar nominee admitted she had “a lot of existential angst” on the set of The Batman: Part II, which she explained was “hard to figure out” as she […]",
-      "ts": 1793833023000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Scarlett-Johansson-Batman-2-shot.jpg",
+      "headline": "20th Television Comms SVP Shari Rosenblum to Exit Studio After 26 Years",
+      "summary": "Comms executive Shari Rosenblum is departing 20th Television and 20th Television Animation after nearly three decades, Variety has sadly learned. Rosenblum most recently served as the SVP and head of publicity for Disney Television Studios’ 20th Television and 20th TV Animation, a role she took on in 2022. She originally joined 20th Television when it […]",
+      "ts": 1793916000000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Shari-Rosenblum-e1793895059811.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1160,27 +1160,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Scarlett Johansson Says ‘The Batman: Part II’ Role Was “Hard To Crack,” Gave Her “Existential Angst”",
-        "desc": "Although Scarlett Johansson is no stranger to a big-budget superhero flick, she found herself in uncharted territory when making the jump from Marvel to DC. The 2x Oscar nominee admitted she had “a lot of existential angst” on the set of The Batman: Part II, which she explained was “hard to figure out” as she […]",
-        "link": "https://deadline.com/2026/11/scarlett-johansson-the-batman-part-ii-role-hard-to-crack-1237213661/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Scarlett Johansson Says ‘The Batman 2’ Role Was ‘Very Hard to Figure Out’: ‘It Gave Me a Lot of Existential Angst’",
-        "desc": "Scarlett Johansson isn’t new to the superhero genre, but her role in “The Batman: Part II” still proved to be its own challenge. Johansson told “Entertainment Tonight” that her upcoming role in the Robert Pattinson-led feature, which hasn’t been revealed, pushed her outside her comfort zone and spurred “a lot of existential angst, for some reason.” […]",
-        "link": "https://variety.com/2026/film/news/scarlett-johansson-the-batman-2-role-hard-figure-out-1236939769/"
+        "title": "20th Television Comms SVP Shari Rosenblum to Exit Studio After 26 Years",
+        "desc": "Comms executive Shari Rosenblum is departing 20th Television and 20th Television Animation after nearly three decades, Variety has sadly learned. Rosenblum most recently served as the SVP and head of publicity for Disney Television Studios’ 20th Television and 20th TV Animation, a role she took on in 2022. She originally joined 20th Television when it […]",
+        "link": "https://variety.com/2026/tv/news/20th-television-svp-shari-rosenblum-exit-studio-1236940377/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Shari Rosenblum Leaving As Head Of PR For 20th Television After 25 Years Across Disney & Fox",
+        "desc": "Shari Rosenblum is departing As SVP and Head of Publicity for Disney Television Studios’ 20th Television and 20th TV Animation. The veteran entertainment publicity and communications executive is leaving after opting for the voluntary early retirement offer that was extended by Disney to qualifying longtime employees two months ago. She is expected to take a […]",
+        "link": "https://deadline.com/2026/11/shari-rosenblum-leaving-head-of-pr-20th-television-1237213950/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Resurgent Box Office Drives AMC Theatres’ Record Q3; CEO Says Chain Has Finally Recovered",
-      "summary": "AMC Entertainment swung to the black for the three months ended in September on higher revenue, noting market share gains in both domestic and international markets, with CEO Adam Aron saying the chain’s second consecutive record quarter means the company has “recovered” from its post-Covid struggles. The world’s largest exhibitor swung to a profit of […]",
-      "ts": 1793831689000,
-      "img": "https://deadline.com/wp-content/uploads/2026/07/MCDODYS_UV004.jpg",
+      "headline": "Amnesiac Surgeon Confronts His Organ-Trafficking Past in Taiwan Creative Content Fest Series ‘Hannibal Inside’",
+      "summary": "An amnesiac sashimi chef learns he was once the star surgeon of an organ-trafficking syndicate in “Hannibal Inside,” a crime thriller series from Studio76 adapted from “The Monster Community,” a novel the producers picked up from Kadokawa Taiwan. The project is at the Taiwan Creative Content Fest (TCCF) in Taipei. Two years after a car […]",
+      "ts": 1793922606000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Hannibal-INside-concept-art.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1188,27 +1188,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Resurgent Box Office Drives AMC Theatres’ Record Q3; CEO Says Chain Has Finally Recovered",
-        "desc": "AMC Entertainment swung to the black for the three months ended in September on higher revenue, noting market share gains in both domestic and international markets, with CEO Adam Aron saying the chain’s second consecutive record quarter means the company has “recovered” from its post-Covid struggles. The world’s largest exhibitor swung to a profit of […]",
-        "link": "https://deadline.com/2026/11/amc-entertainment-record-q3-resurgent-box-office-1237213464/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "AMC Theatres Sets All-Time Record for Quarterly Revenue, Thanks to ‘Spider-Man: Brand New Day’ and ‘The Odyssey’",
-        "desc": "The blockbuster success of “Spider-Man: Brand New Day” and “The Odyssey” fueled a record-breaking quarter for AMC Theatres. Total revenue for the three-month period ended Sept. 30 hit $1.71 billion, up 31.6% from $1.30 billion a year earlier. That marked the biggest sales haul ever posted by the world’s largest cinema chain, eclipsing the previous […]",
-        "link": "https://variety.com/2026/film/box-office/amc-theatres-record-quarterly-revenue-spider-man-brand-new-day-the-odyssey-1236939750/"
+        "title": "Amnesiac Surgeon Confronts His Organ-Trafficking Past in Taiwan Creative Content Fest Series ‘Hannibal Inside’",
+        "desc": "An amnesiac sashimi chef learns he was once the star surgeon of an organ-trafficking syndicate in “Hannibal Inside,” a crime thriller series from Studio76 adapted from “The Monster Community,” a novel the producers picked up from Kadokawa Taiwan. The project is at the Taiwan Creative Content Fest (TCCF) in Taipei. Two years after a car […]",
+        "link": "https://variety.com/2026/tv/spotlight/amnesiac-surgeon-thriller-taiwan-creative-content-fest-1236940903/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Nithya Raman Increases Lead Over Karen Bass In L.A. Mayor’s Race; More Vote Drops Later This Week",
-      "summary": "UPDATE: Less than 24 hours after the polls closed in Los Angeles, Nithya Raman looks poised to be the City of Angels’ next Mayor. Taking a slight lead early this morning in a race with Karen Bass that has been a statistical tie for the past few weeks, two-term City Council member Raman is now […]",
-      "ts": 1793839500000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Nithya-raman-nov-3-night-crowd-getty.jpg",
+      "headline": "Smallville Creators Reveal Why Justin Hartley Replaced Alan Ritchson As Aquaman In Scrapped DC Pilot",
+      "summary": "EXCLUSIVE: The Smallville creators open up about the canceled Aquaman show and why Alan Ritchson was replaced by Justin Hartley for the pilot.",
+      "ts": 1793922166000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/alan-ritchson-as-aquaman-and-justin-hartley-as-green-arrow-in-smallville-season-6.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1216,11 +1209,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Nithya Raman Increases Lead Over Karen Bass In L.A. Mayor’s Race; More Vote Drops Later This Week",
-        "desc": "UPDATE: Less than 24 hours after the polls closed in Los Angeles, Nithya Raman looks poised to be the City of Angels’ next Mayor. Taking a slight lead early this morning in a race with Karen Bass that has been a statistical tie for the past few weeks, two-term City Council member Raman is now […]",
-        "link": "https://deadline.com/2026/11/la-mayor-election-2026-results-1237212620/"
+        "title": "Smallville Creators Reveal Why Justin Hartley Replaced Alan Ritchson As Aquaman In Scrapped DC Pilot",
+        "desc": "EXCLUSIVE: The Smallville creators open up about the canceled Aquaman show and why Alan Ritchson was replaced by Justin Hartley for the pilot.",
+        "link": "https://screenrant.com/smallville-aquaman-spinoff-justin-hartley-alan-ritchson-cast-replaced/"
        }
       ]
      }
@@ -1228,37 +1221,37 @@
    }
   ],
   "sourcesOk": [
-   "Variety",
-   "Ars Technica",
-   "The Age",
-   "The Age Federal Politics",
-   "The Age Business",
-   "7News",
-   "AFR",
-   "BBC Tech",
-   "The Verge",
-   "BBC World",
-   "BBC Sport",
-   "ABC Sport",
-   "ABC News",
-   "Fox Business",
-   "Guardian Tech",
    "Guardian Australia",
-   "Anime News Network",
-   "Guardian AU Politics",
-   "Guardian AU Business",
-   "Guardian Film",
-   "Fox News",
-   "Guardian AU Sport",
-   "Fox News Politics",
-   "The Conversation",
-   "Screen Rant",
-   "ABC Business",
-   "7News Sport",
-   "Deadline",
-   "Daily Mail Australia",
    "Crikey",
-   "SBS News"
+   "The Age",
+   "ABC News",
+   "7News",
+   "BBC World",
+   "The Age Federal Politics",
+   "Guardian AU Politics",
+   "BBC Tech",
+   "Guardian Tech",
+   "Fox News Politics",
+   "Fox News",
+   "Ars Technica",
+   "ABC Business",
+   "The Verge",
+   "The Conversation",
+   "AFR",
+   "Guardian AU Business",
+   "BBC Sport",
+   "Fox Business",
+   "Variety",
+   "Guardian AU Sport",
+   "Guardian Film",
+   "The Age Business",
+   "Screen Rant",
+   "ABC Sport",
+   "7News Sport",
+   "Anime News Network",
+   "SBS News",
+   "Daily Mail Australia",
+   "Deadline"
   ],
   "sourcesFailed": []
  },
@@ -1274,6 +1267,16 @@
      "Fantasy"
     ],
     "overview": "An ostracized fisherwoman commissions the local basketmaker to weave her a husband, but when her wicker creation proves unexpectedly extraordinary, his presence ignites jealousy and upheaval that threatens their quiet village.",
+    "released": "2026-10-30"
+   },
+   {
+    "title": "Apocalypse Z: New World",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Horror"
+    ],
+    "overview": "A supply mission to virus-ravaged Spain turns complex when Roberto, from the safe Canary Islands, joins with secret intentions. The team confronts infected masses and trust issues while weighing survival against humanity.",
     "released": "2026-10-30"
    },
    {
@@ -1309,18 +1312,6 @@
     ],
     "overview": "Rising Hollywood star Matt Hagen descends into a horrifying revenge-filled monster when scientific ambition strips him of his identity and humanity.",
     "released": "2026-10-23"
-   },
-   {
-    "title": "Masterplan",
-    "year": "2026",
-    "rating": null,
-    "genres": [
-     "Action",
-     "Comedy",
-     "Crime"
-    ],
-    "overview": "A master thief enlists two strangers for a Louvre heist targeting the Mona Lisa, then reveals they're his children and siblings who must cooperate to pull off history's greatest art theft.",
-    "released": "2026-10-16"
    }
   ],
   "shows": [
@@ -1442,134 +1433,134 @@
   ]
  },
  "wotd": {
-  "word": "diaphanous",
+  "word": "impecunious",
   "phonetic": "",
   "pos": "Adjective",
-  "def": "Transparent or translucent; allowing light to pass through; capable of being seen through.",
+  "def": "Lacking money.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/En-us-diaphanous.ogg/En-us-diaphanous.ogg.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/En-us-impecunious.ogg/En-us-impecunious.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
-   "title": "10% off \"Almost Everything\" in Store & Online @ IKEA",
-   "link": "https://www.ozbargain.com.au/node/981671",
-   "votes": 156,
-   "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1793797367000
-  },
-  {
-   "title": "ING Savings Maximiser 6% p.a. Interest on Balance up to $100,000 (Balance Growth, 5 Card Purchases & Deposit Required) @ ING",
-   "link": "https://www.ozbargain.com.au/node/981613",
-   "votes": 114,
-   "neg": 0,
-   "category": "Financial",
-   "ts": 1793772146000
-  },
-  {
-   "title": "2,000 Bonus Flybuys Points (Worth $10) on $100 & $250 Coles Mastercard Gift Card ($5 & $7 Fees Apply) @ Coles (In-Store Only)",
-   "link": "https://www.ozbargain.com.au/node/981603",
-   "votes": 94,
+   "title": "AliExpress: 28% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/981792",
+   "votes": 248,
    "neg": 0,
    "category": "Other",
-   "ts": 1793769338000
+   "ts": 1793864646000
   },
   {
-   "title": "Free Hungry Jack's Cheeseburger (in-Store or via Drive-Thru) or with $1 Minimum Spend Online (NBL Round 8) @ Hungry Jack's App",
-   "link": "https://www.ozbargain.com.au/node/981654",
-   "votes": 87,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1793784907000
-  },
-  {
-   "title": "Men's Fragrances: David Beckham 100ml $14.99, Versace Pour Homme 100ml $69.99 Delivered @ Amazon AU (Excl. TAS, NT)",
-   "link": "https://www.ozbargain.com.au/node/981666",
-   "votes": 84,
-   "neg": 0,
-   "category": "Health & Beauty",
-   "ts": 1793793259000
-  },
-  {
-   "title": "TP-Link Tapo D210 Video Doorbell Camera $74 Delivered @ Telstra",
-   "link": "https://www.ozbargain.com.au/node/981643",
-   "votes": 67,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1793780967000
-  },
-  {
-   "title": "[PC, Mac, Linux, Steam] Free - Letter Quest: Grimm's Journey Remastered (Newsletter Sub & Unlimited Steam Acc Req) @ Fanatical",
-   "link": "https://www.ozbargain.com.au/node/981665",
-   "votes": 64,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793790969000
-  },
-  {
-   "title": "10% off $50 Ultimate Birthday and Celebrate Gift Cards (5 Per Customer, In-Store Only) @ ALDI",
-   "link": "https://www.ozbargain.com.au/node/981600",
-   "votes": 64,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1793768684000
-  },
-  {
-   "title": "5 Golden or Skeleton Keys Borderlands 1, 2, 3, 4, The Pre-Sequel & Tiny Tina's Wonderlands @ Gearbox Software",
-   "link": "https://www.ozbargain.com.au/node/981587",
-   "votes": 62,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793764408000
-  },
-  {
-   "title": "IKEA Ladda Batteries AAA 1900/750mAh $11.69/4-Pack | 2450mAh $14.39 + Delivery ($5 C&C under $50/$0 for Member/ in-Store) @ IKEA",
-   "link": "https://www.ozbargain.com.au/node/981689",
-   "votes": 53,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1793825197000
-  },
-  {
-   "title": "Tony's Chocolonely Chocolate Varieties 180g $7.95 (Was $9.95) @ Coles",
-   "link": "https://www.ozbargain.com.au/node/981630",
-   "votes": 53,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1793776849000
-  },
-  {
-   "title": "Pepsi Max, Sunkist or Solo Zero Sugar, Mountain Dew 24x 375ml Cans - 2 for $45 ($41.04 Subscribe & Save) Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/981681",
-   "votes": 48,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1793816897000
-  },
-  {
-   "title": "$15 off Minimum $150 Spend in App (Exclusions Apply) @ Woolworths",
-   "link": "https://www.ozbargain.com.au/node/981590",
-   "votes": 46,
-   "neg": 0,
-   "category": "Groceries",
-   "ts": 1793765877000
-  },
-  {
-   "title": "[PS5] 007 First Light Deluxe Edition $58.24 @ PlayStation AU",
-   "link": "https://www.ozbargain.com.au/node/981698",
-   "votes": 34,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1793831202000
-  },
-  {
-   "title": "Garmin Edge 1050 Computer and Sensors Bundle $729 (was $1349) Delivered / C&C / In-store @ 99 Bikes",
-   "link": "https://www.ozbargain.com.au/node/981683",
-   "votes": 29,
+   "title": "adidas: Extra 40% off Outlet Items + $10 Delivery ($0 for adiClub Members/ $120 Order) @ adidas Outlet",
+   "link": "https://www.ozbargain.com.au/node/981826",
+   "votes": 224,
    "neg": 0,
    "category": "Sports & Outdoors",
-   "ts": 1793821017000
+   "ts": 1793883601000
+  },
+  {
+   "title": "[Android, Epic] Free - Chants of Sennaar @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/981837",
+   "votes": 83,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793894655000
+  },
+  {
+   "title": "GAC Aion V EV $40,590 + On Road Costs with Free 22-Kilowatt Wall Charger @ GAC",
+   "link": "https://www.ozbargain.com.au/node/981786",
+   "votes": 83,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1793862643000
+  },
+  {
+   "title": "[Prime, PC, Epic] Free - WRC Generations, Squirrel with a Gun, Jurassic World Evolution 2, Radiolight, Clem + More @ Amazon Luna",
+   "link": "https://www.ozbargain.com.au/node/981840",
+   "votes": 70,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793901767000
+  },
+  {
+   "title": "[Pre Order] AYN Thor Base 8GB+128GB US$319.79 (~A$460) with PayPal Delivered @ AYN Official Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/981805",
+   "votes": 53,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793870171000
+  },
+  {
+   "title": "AMP Bank GO Save Account 5.75% p.a. Interest on Balance up to $50,000 (No Hoops) @ AMP Bank",
+   "link": "https://www.ozbargain.com.au/node/981735",
+   "votes": 54,
+   "neg": 1,
+   "category": "Financial",
+   "ts": 1793844328000
+  },
+  {
+   "title": "Earn 20x Everyday Rewards Points on Apple Gift Cards (Limit 10 Cards Per Day, In-Store Only) @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/981773",
+   "votes": 52,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1793858438000
+  },
+  {
+   "title": "Breville BES980BTR The Oracle Espresso Machine, Black Truffle $1,887 (RRP $3,399) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/981812",
+   "votes": 50,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1793872172000
+  },
+  {
+   "title": "[QLD] Herman Miller Aeron Chair Remastered (Graphite) Sizes A,B,C $1,790 + Delivery ($0 C&C) @Innerspace",
+   "link": "https://www.ozbargain.com.au/node/981779",
+   "votes": 50,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1793860538000
+  },
+  {
+   "title": "RYOBI 36V HP Brushless 46cm Lawn Mower 4Ah Kit (R36LMW34) $428 w $100 Bunnings GC via Redemption Delivered / C&C @ Bunnings",
+   "link": "https://www.ozbargain.com.au/node/981790",
+   "votes": 49,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1793863563000
+  },
+  {
+   "title": "[PC] Road Rash: 30th Anniversary Edition - $7.49 @ GOG",
+   "link": "https://www.ozbargain.com.au/node/981842",
+   "votes": 45,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793906090000
+  },
+  {
+   "title": "Della Rosa Woodfire Range 24H Fermentation $5.50 (Half-Price) @ Coles",
+   "link": "https://www.ozbargain.com.au/node/981800",
+   "votes": 45,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1793868517000
+  },
+  {
+   "title": "[PS5] Silent Hill 2 $27.98 @ PlayStation AU",
+   "link": "https://www.ozbargain.com.au/node/981772",
+   "votes": 33,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1793858094000
+  },
+  {
+   "title": "adidas: 20% Cashback (+10% Bonus with Westpac) (Capped at $30 Per Order) @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/981846",
+   "votes": 28,
+   "neg": 0,
+   "category": "Sports & Outdoors",
+   "ts": 1793910355000
   }
  ],
  "carried": {}
