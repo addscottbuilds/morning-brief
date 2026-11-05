@@ -12,35 +12,37 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" href="icons/icon-192.png">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/app-v33.css">
 </head>
 <body>
+<a class="skip-link" href="#page-main">Skip to content</a>
+<nav class="app-nav" aria-label="Main navigation"><a href="#today" data-page="1">Today</a><a href="#news" data-page="0">News</a><a href="#markets-section" data-page="1" data-section="markets-section">Markets</a><button type="button" id="open-more" aria-haspopup="dialog">More</button></nav>
 
 <div class="pager" id="pager">
 
   <!-- ============ LEFT PAGE: full news digest (swipe right to reveal) ============ -->
-  <div class="page" id="page-news">
+  <div class="page" id="page-news" role="main" hidden>
     <div class="wrap">
       <header>
         <div class="eyebrow">Full digest</div>
         <h1>News</h1>
-        <div class="updated" id="news-updated-line"></div>
+        <div class="updated" id="news-updated-line"></div><div class="health-status" id="news-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
       </header>
       <section id="news-section">
         <div class="eyebrow">Stories <span class="loc" id="news-mode"></span></div>
-        <div class="tabs" id="news-tabs" role="tablist"></div>
+        <details class="source-help"><summary>About summaries and source groupings</summary><p>Summaries may be generated or copied from a source snippet. Read the linked reporting for the full account. Outlet lean labels are approximate editorial groupings, not judgments about every article.</p></details><div class="tabs" id="news-tabs" role="group" aria-label="News category"></div>
         <div class="news-list" id="news-list"><div class="muted-cell">Loading digest&hellip;</div></div>
       </section>
     </div>
   </div>
 
   <!-- ============ CENTER PAGE: overview ============ -->
-  <div class="page" id="page-main">
+  <div class="page" id="page-main" role="main">
     <div class="wrap">
       <header>
         <div class="eyebrow" id="date-line">Loading&hellip;</div>
         <h1>Morning Brief</h1>
-        <div class="updated" id="updated-line"></div>
+        <div class="updated" id="updated-line"></div><div class="health-status" id="digest-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
       </header>
 
       <div class="strip" id="strip">
@@ -57,12 +59,11 @@
           <div class="wx-desc" id="wx-desc">Fetching your local forecast&hellip;</div>
         </div>
         <svg class="spark" id="wx-spark" viewBox="0 0 580 64" preserveAspectRatio="none" aria-label="Hourly temperature today"></svg>
-        <div class="rain-wrap" id="rain-wrap" hidden>
+        <div class="wx-meta" id="wx-meta"></div><p class="section-stamp" id="weather-stamp">Forecast not checked yet</p><div class="health-status" id="weather-health" role="status" hidden><span></span><button type="button" data-retry="weather">Try again</button></div><details class="hourly-details"><summary>Hourly forecast in numbers</summary><div class="rain-wrap" id="rain-wrap" hidden>
           <div class="rain-lbl" id="rain-lbl">Rain chance by hour</div>
           <svg class="rain" id="wx-rain" viewBox="0 0 580 46" preserveAspectRatio="none" aria-label="Hourly rain chance today"></svg>
           <div class="rain-axis"><span>12am</span><span>6am</span><span>12pm</span><span>6pm</span><span>11pm</span></div>
-        </div>
-        <div class="wx-meta" id="wx-meta"></div>
+        </div><div id="hourly-table">Forecast not loaded yet.</div></details>
       </section>
 
       <section id="wotd-section" hidden>
@@ -81,7 +82,7 @@
 
       <section id="sport-section" hidden>
         <div class="eyebrow">Sport <span class="loc" id="sport-live"></span></div>
-        <div id="sport-list"></div>
+        <p class="section-stamp" id="sport-stamp">Scores not checked yet</p><div class="health-status" id="sport-health" role="status" hidden><span></span><button type="button" data-retry="sport">Try again</button></div><div id="sport-list"></div>
       </section>
 
       <section id="cg-section" hidden>
@@ -93,11 +94,11 @@
       <section id="news-overview-section">
         <div class="eyebrow">News</div>
         <div class="news-mini" id="news-overview"><div class="muted-cell">Loading headlines&hellip;</div></div>
-        <button class="page-link" id="goto-news">&lsaquo; Swipe right for the full digest</button>
+        <button class="page-link" id="goto-news">&lsaquo; Open the full digest</button>
       </section>
 
       <section id="markets-section">
-        <div class="eyebrow">Markets</div>
+        <div class="eyebrow">Markets</div><p class="section-stamp" id="markets-stamp"></p>
         <table>
           <thead><tr><th>Holding / watch</th><th class="r">Last</th><th class="r">Day</th></tr></thead>
           <tbody id="mkt-body"><tr><td colspan="3" class="muted-cell">Loading prices&hellip;</td></tr></tbody>
@@ -118,7 +119,7 @@
           <input id="focus-input" type="text" placeholder="Add a focus for today&hellip;" aria-label="Add a focus item">
           <button id="focus-btn">Add</button>
         </div>
-        <button class="page-link right" id="goto-games">Swipe left for today&rsquo;s puzzles &rsaquo;</button>
+        <button class="page-link right" id="goto-games">Open today&rsquo;s puzzles &rsaquo;</button>
       </section>
 
       <footer>
@@ -126,13 +127,13 @@
           <button class="page-link" id="open-deals">&darr; OzBargain deals</button>
           <button class="page-link" id="open-settings">Settings &uarr;</button>
         </div>
-        Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Deals: OzBargain &middot; Everything you type saves on this device. Pull down from the top for deals, up from the bottom for settings.
+        Weather: Open-Meteo (your location) &middot; Prices: Yahoo Finance &middot; News: cross-spectrum RSS digest &middot; Scores: ESPN &middot; Deals: OzBargain &middot; Everything you type saves on this device. Use More for deals, puzzles and settings.
       </footer>
     </div>
   </div>
 
   <!-- ============ RIGHT PAGE: puzzles (swipe left to reveal) ============ -->
-  <div class="page" id="page-games">
+  <div class="page" id="page-games" role="main" hidden>
     <div class="wrap">
       <header class="slim">
         <div class="eyebrow">Daily puzzles</div>
@@ -140,20 +141,20 @@
         <div class="updated" id="games-date-line"></div>
       </header>
 
-      <div class="tabs" id="game-tabs" role="tablist">
+      <div class="tabs" id="game-tabs" role="group" aria-label="Choose puzzle">
         <button type="button" data-g="wordle" class="active">Wordle<span class="game-status" id="wordle-status"></span></button>
         <button type="button" data-g="xword">Crossword<span class="game-status" id="xword-status"></span></button>
         <button type="button" data-g="conn">Connections<span class="game-status" id="conn-status"></span></button>
       </div>
 
-      <div class="game-pane wordle" id="wordle-game">
+      <div class="game-pane wordle" id="wordle-game" role="group" aria-label="Wordle puzzle" tabindex="-1">
         <div class="w-board" id="w-board"></div>
         <div class="w-msg" id="w-msg"></div>
         <div class="w-kbd" id="w-kbd"></div>
         <div class="g-stats" id="w-stats"></div>
       </div>
 
-      <div class="game-pane xword" id="xword-game" hidden>
+      <div class="game-pane xword" id="xword-game" role="group" aria-label="Crossword puzzle" tabindex="-1" hidden>
         <div class="x-clue-bar" id="x-clue-bar"></div>
         <div class="x-grid" id="x-grid"></div>
         <div class="w-kbd" id="x-kbd"></div>
@@ -186,35 +187,33 @@
 
 </div>
 
-<div class="dots" id="dots" aria-hidden="true">
-  <span data-p="0"></span><span data-p="1" class="on"></span><span data-p="2"></span>
-</div>
 
+<dialog class="sheet" id="sheet-more" aria-labelledby="more-title"><div class="wrap sheet-wrap"><div class="sheet-head"><h1 id="more-title">More from your brief</h1><button class="sheet-close" aria-label="Close menu">✕</button></div><button class="menu-choice" id="more-games">Daily puzzles<span>Wordle, mini crossword and Connections</span></button><button class="menu-choice" id="more-deals">Deals<span>Current OzBargain offers</span></button><button class="menu-choice" id="more-settings">Settings & data<span>Section order, location and notifications</span></button></div></dialog>
 <!-- pull-down sheet: OzBargain front-page deals -->
-<div class="sheet sheet-top" id="sheet-deals">
+<dialog class="sheet" id="sheet-deals" aria-labelledby="deals-title">
   <div class="wrap sheet-wrap">
     <div class="sheet-head">
       <div>
         <div class="eyebrow">OzBargain</div>
-        <h1 class="sheet-title">Deals</h1>
+        <h1 class="sheet-title" id="deals-title">Deals</h1>
       </div>
       <button class="sheet-close" data-close="sheet-deals" aria-label="Close">✕</button>
     </div>
     <div class="deal-list" id="deals-list"><div class="muted-cell">Deals load with the daily refresh.</div></div>
   </div>
-</div>
+</dialog>
 
 <!-- pull-up sheet: settings -->
-<div class="sheet sheet-bottom" id="sheet-settings">
+<dialog class="sheet" id="sheet-settings" aria-labelledby="settings-title">
   <div class="wrap sheet-wrap">
     <div class="sheet-head">
       <div>
         <div class="eyebrow">Morning Brief</div>
-        <h1 class="sheet-title">Settings</h1>
+        <h1 class="sheet-title" id="settings-title">Settings</h1>
       </div>
       <button class="sheet-close" data-close="sheet-settings" aria-label="Close">✕</button>
     </div>
-    <div class="set-group">
+    <div class="set-group"><h2 class="set-h">Today’s section order</h2><p class="sub-note">Move sections to suit your morning. This changes only this device.</p><ol id="section-order"></ol><button class="page-link" id="reset-order">Reset section order</button><p id="order-feedback" role="status"></p></div><div class="set-group">
       <div class="set-h">Notifications</div>
       <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
       <div class="sub-note" id="push-note" hidden></div>
@@ -229,12 +228,12 @@
       <div class="sub-note">Self-hosted PWA. Data refreshes daily around 5:45am; scores and weather load live. Everything you type stays on this device.</div>
     </div>
   </div>
-</div>
+</dialog>
 
 <script src="js/config.js"></script>
-<script src="js/app.js"></script>
-<script src="js/wordle.js"></script>
-<script src="js/crossword.js"></script>
+<script src="js/app-v33.js"></script>
+<script src="js/wordle-v33.js"></script>
+<script src="js/crossword-v33.js"></script>
 <script src="js/connections.js"></script>
 <script>
   if ("serviceWorker" in navigator) {

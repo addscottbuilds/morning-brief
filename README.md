@@ -54,6 +54,15 @@ node scripts/validate-puzzles.mjs
 npx serve .                     # then open http://localhost:3000
 ```
 
+The local preview uses the checked-in digest. **Today**, **News**, **Markets**
+and **More** work without swiping. Change the Today section order under
+**More → Settings**. When the digest request fails, the app labels any saved
+digest and offers a retry.
+
+The current interface uses the assets linked from `index.html`. The previous
+unversioned app, game scripts and stylesheet remain at their original paths so
+installed copies can finish updating without mixing interface versions.
+
 ## Customising
 
 Everything personal lives in `js/config.js`: fallback city, countdown
