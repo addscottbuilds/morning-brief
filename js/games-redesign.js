@@ -224,7 +224,11 @@ function attachDailyAccessibility() {
     cell.click();
   });
   byId("xword-game").querySelector(".x-clues").addEventListener("click", event => {
-    if (event.target.closest("li")) byId("x-grid").querySelector(".x-cell.active")?.focus({ preventScroll: true });
+    if (!event.target.closest("li")) return;
+    const cell = byId("x-grid").querySelector(".x-cell.active");
+    if (!cell) return;
+    cell.scrollIntoView({ block: "center", inline: "nearest", behavior: "instant" });
+    cell.focus({ preventScroll: true });
   });
   byId("w-kbd").addEventListener("click", event => {
     const key = event.target.closest("button")?.dataset.k;

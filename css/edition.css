@@ -456,7 +456,7 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
 }
 .source-ledger dt { font-weight: 650; font-size: .9rem; }
 .source-ledger dd { color: var(--ink-soft); font-size: .82rem; margin-top: 3px; }
-.source-ledger dd[data-state="unavailable"], .source-ledger dd[data-state="saved"] { color: var(--notice-ink); }
+.source-ledger dd[data-state="unavailable"], .source-ledger dd[data-state="saved"], .source-ledger dd[data-state="previous"] { color: var(--notice-ink); }
 .appearance-field { border: 0; min-width: 0; }
 .appearance-field legend, .set-h {
   font-weight: 700;

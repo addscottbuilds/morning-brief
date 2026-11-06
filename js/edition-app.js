@@ -45,21 +45,37 @@
     target.focus({ preventScroll: true });
   }
 
-  function goTo(index, smooth = true, focus = true, section = "") {
+  const desktopScroll = new Map();
+
+  function focusVisiblePage(index) {
+    const heading = routeHeading(index);
+    const title = heading.getBoundingClientRect();
+    const pane = phoneLayout.matches ? pages[index].getBoundingClientRect() : { top: 0, bottom: innerHeight };
+    if (title.top >= pane.top && title.bottom <= pane.bottom) focusPage(heading);
+    else links.find(link => link.getAttribute("aria-current") === "page")?.focus({ preventScroll: true });
+  }
+
+  function goTo(index, { focus = true, section = "", keepPlace = false } = {}) {
+    const switching = index !== curPage;
+    if (switching && !phoneLayout.matches) desktopScroll.set(curPage, window.scrollY);
     showPage(index, section);
     alignPager();
     if (!focus) return;
 
     history.replaceState(null, "", section ? "#" + section : routes[index]);
-    const target = section ? $(section) : routeHeading(index);
-    const behavior = smooth && !matchMedia("(prefers-reduced-motion: reduce)").matches ? "smooth" : "instant";
-    focusPage(target);
     if (section) {
+      const target = $(section);
+      const behavior = matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth";
       if (section === "markets-section") $("market-detail").open = true;
+      focusPage(target);
       target.scrollIntoView({ block: "start", behavior });
+      return;
     }
-    else if (phoneLayout.matches) pages[index].scrollTo({ top: 0, behavior: "instant" });
-    else window.scrollTo({ top: 0, behavior: "instant" });
+
+    const restorePlace = keepPlace && switching;
+    if (!phoneLayout.matches) window.scrollTo({ top: restorePlace ? desktopScroll.get(index) || 0 : 0, behavior: "instant" });
+    else if (!restorePlace) pages[index].scrollTo({ top: 0, behavior: "instant" });
+    focusVisiblePage(index);
   }
 
   function settleSwipe() {
@@ -69,13 +85,7 @@
     const focusWasOnOldPage = pages[curPage].contains(document.activeElement);
     showPage(index);
     history.replaceState(null, "", routes[index]);
-    if (focusWasOnOldPage) {
-      const heading = routeHeading(index);
-      const pane = pages[index].getBoundingClientRect();
-      const title = heading.getBoundingClientRect();
-      if (title.top >= pane.top && title.bottom <= pane.bottom) focusPage(heading);
-      else links.find(link => link.getAttribute("aria-current") === "page")?.focus({ preventScroll: true });
-    }
+    if (focusWasOnOldPage) focusVisiblePage(index);
   }
 
   pager.addEventListener("scroll", () => {
@@ -102,7 +112,7 @@
   for (const link of links) {
     link.addEventListener("click", event => {
       event.preventDefault();
-      goTo(Number(link.dataset.page), true, true, link.dataset.section);
+      goTo(Number(link.dataset.page), { section: link.dataset.section, keepPlace: true });
     });
   }
   $("goto-news").addEventListener("click", event => { event.preventDefault(); goTo(0); });
@@ -112,7 +122,7 @@
   const startPage = routes.indexOf(startRoute);
   $("market-detail").open = !phoneLayout.matches || Boolean(startSection);
   $("sport-detail").open = !phoneLayout.matches;
-  goTo(startPage < 0 ? 1 : startPage, false, false, startSection);
+  goTo(startPage < 0 ? 1 : startPage, { focus: false, section: startSection });
   document.querySelector(".skip-link").addEventListener("click", event => {
     event.preventDefault();
     focusPage(routeHeading(curPage));
@@ -132,7 +142,7 @@
   function leaveSheet(page, section) {
     sheetOpener = null;
     closeSheet();
-    goTo(page, true, true, section);
+    goTo(page, { section });
   }
   document.querySelectorAll("dialog.sheet").forEach(d=>{
     d.addEventListener("close",()=>{if(openSheetId!==d.id)return;openSheetId=null;if(sheetOpener?.isConnected)sheetOpener.focus();});
@@ -170,6 +180,12 @@
   $("reset-order").addEventListener("click",()=>{sectionOrder=[...defaultOrder];saveOrder();});
   applyOrder();
   function checkTime(v){return new Intl.DateTimeFormat("en-AU",{weekday:"short",hour:"numeric",minute:"2-digit"}).format(new Date(v));}
+  const editionDate = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney", weekday: "short", day: "numeric", month: "short", year: "numeric",
+  });
+  const editionTime = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney", hour: "numeric", minute: "2-digit",
+  });
   function health(id, text) {
     const element = $(id);
     element.hidden = !text;
@@ -180,9 +196,10 @@
     row.dataset.state = state;
     row.textContent = text;
   }
-  document.querySelectorAll("[data-retry]").forEach(button => button.addEventListener("click", async () => {
+  document.querySelectorAll("[data-retry]").forEach(button => button.addEventListener("click", async event => {
     const kind = button.dataset.retry;
-    const keyboardFocus = button.matches(":focus-visible");
+    const keyboardFocus = button.matches(":focus-visible") ||
+      (event.detail === 0 && document.activeElement === button);
     const buttons = document.querySelectorAll('[data-retry="' + kind + '"]');
     for (const retry of buttons) {
       retry.disabled = true;
@@ -196,18 +213,22 @@
         retry.textContent = "Try again";
       }
       const page = button.closest(".page");
-      if (keyboardFocus && !page?.inert && !document.querySelector("dialog[open]") && document.activeElement === document.body) {
-        const target = button.parentElement.hidden ? page?.querySelector("h1") : button;
+      const active = document.activeElement;
+      if (keyboardFocus && !page?.inert && !document.querySelector("dialog[open]") &&
+          (active === document.body || active === button)) {
+        const heading = page?.querySelector("h1");
+        const target = button.parentElement.hidden ? (kind === "weather" ? $("wx-loc") : heading) : button;
         if (target) {
-          if (target !== button) target.tabIndex = -1;
+          if (target === heading) target.tabIndex = -1;
           target.focus({ preventScroll: true });
         }
       }
     }
   }));
-  let weatherCheckedAt="",sportsCheckedAt="",lastData=null;
+  let sportsCheckedAt="",lastData=null, digestWasSaved=false;
   // ---------------------------------------------------------------- header --
   const now = new Date();
+  let displayedEditionDay = editionDate.format(now);
   $("date-line").textContent = now.toLocaleDateString("en-AU", {
     weekday: "long", day: "numeric", month: "long", year: "numeric",
   });
@@ -244,93 +265,155 @@
     95: ["Thunderstorm", "⛈"], 96: ["Storm with hail", "⛈"], 99: ["Storm with hail", "⛈"],
   };
 
-  // Cache-first location so iOS doesn't prompt on every open: the saved fix
-  // is used silently; GPS is only requested on first run, when the fix is
-  // over a week old, or when the location name is tapped.
+  // Use a recent saved location without prompting again. Keep its origin
+  // distinguishable from the configured default when permission is unavailable.
   const LOC_MAX_AGE = 7 * 24 * 3600 * 1000;
+  let weatherReport, weatherRequest, weatherRetryLocation;
+
   function getLocation(force) {
+    let cached;
+    try { cached = safeParse(localStorage.getItem("mb_loc")); } catch {}
+    const valid = Number.isFinite(cached?.lat) && Number.isFinite(cached?.lon);
+    const fallback = valid
+      ? { ...cached, source: cached.source === "default" ? "default" : "saved" }
+      : { ...CFG.fallback, source: "default", at: Date.now() };
+    const fresh = valid && cached.at && Date.now() - cached.at < LOC_MAX_AGE;
+    if ((!force && fresh) || !navigator.geolocation) return Promise.resolve(fallback);
+
     return new Promise(resolve => {
-      const cached = safeParse(localStorage.getItem("mb_loc"));
-      const fresh = cached && cached.at && Date.now() - cached.at < LOC_MAX_AGE;
-      if (cached && fresh && !force) return resolve(cached);
-      if (!("geolocation" in navigator)) return resolve(cached || CFG.fallback);
-      navigator.geolocation.getCurrentPosition(
-        pos => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude, name: null, at: Date.now() }),
-        () => resolve(cached || CFG.fallback),
-        { timeout: 8000, maximumAge: 15 * 60 * 1000 }
-      );
+      try {
+        navigator.geolocation.getCurrentPosition(
+          pos => resolve({ lat: pos.coords.latitude, lon: pos.coords.longitude, name: null, at: Date.now(), source: "device" }),
+          () => resolve(fallback),
+          { timeout: 8000, maximumAge: 15 * 60 * 1000 }
+        );
+      } catch { resolve(fallback); }
     });
   }
 
-  async function placeName(lat, lon) {
+  async function placeName(loc, signal) {
+    const lookup = new AbortController();
+    const abort = () => lookup.abort();
+    signal.addEventListener("abort", abort, { once: true });
+    const timeout = setTimeout(abort, 2500);
     try {
-      const r = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=en`);
+      const r = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${loc.lat}&longitude=${loc.lon}&localityLanguage=en`, { signal: lookup.signal });
+      if (!r.ok) return null;
       const j = await r.json();
-      return j.locality || j.city || j.principalSubdivision || "Your location";
-    } catch { return "Your location"; }
+      return j.locality || j.city || j.principalSubdivision || null;
+    } catch {
+      return null;
+    } finally {
+      clearTimeout(timeout);
+      signal.removeEventListener("abort", abort);
+    }
   }
 
-  async function loadWeather(force) {
-    const loc = await getLocation(force);
-    if (!loc.name) loc.name = await placeName(loc.lat, loc.lon);
-    if (!loc.at) loc.at = Date.now();
-    localStorage.setItem("mb_loc", JSON.stringify(loc));
-    $("wx-loc").textContent = loc.name;
-    $("wx-loc").setAttribute("aria-label", "Update weather location. Current location " + loc.name);
+  function saveWeatherLocation(loc) {
+    try { localStorage.setItem("mb_loc", JSON.stringify(loc)); } catch {}
+  }
 
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}` +
-      `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m` +
-      `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset` +
-      `&hourly=temperature_2m,precipitation_probability&forecast_days=1&timezone=auto`;
-    let w;
+  function setWeatherLocation(loc) {
+    const label = (loc.name || "Your location") + (loc.source === "default" ? " (default)" : "");
+    $("wx-loc").textContent = label;
+    $("wx-loc").setAttribute("aria-label", "Update weather location. Showing " + label);
+  }
+
+  function weatherStatus(state, message) {
+    const loading = state === "loading";
+    health("weather-health", loading && !weatherReport ? "" : message);
+    $("weather-health").querySelector("button").hidden = loading;
+    sourceStatus("weather", state, message);
+  }
+
+  async function loadWeather(force = false) {
+    weatherRequest?.abort();
+    const request = new AbortController();
+    weatherRequest = request;
+    const { signal } = request;
+    weatherStatus("loading", "Checking the forecast…");
+
+    const loc = !force && weatherRetryLocation ? weatherRetryLocation : await getLocation(force);
+    if (weatherRequest !== request) return;
+
+    // Keep a device fix across reloads even if its forecast fails.
+    if (loc.source === "device") saveWeatherLocation(loc);
+    const lookup = loc.name || placeName(loc, signal);
+    if (!weatherReport) setWeatherLocation(loc);
+    weatherStatus("loading", "Checking the forecast for " + (loc.name || "your location") + "…");
+    const timeout = setTimeout(() => request.abort(), 12000);
+    let weather = null;
     try {
-      const response = await fetch(url);
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}` +
+        `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m` +
+        `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset` +
+        `&hourly=temperature_2m,precipitation_probability&forecast_days=2&timezone=auto`;
+      const response = await fetch(url, { signal });
       if (!response.ok) throw new Error("Forecast request failed");
-      w = await response.json();
-      if (!Number.isFinite(w.current?.temperature_2m) ||
-          !Number.isFinite(w.daily?.temperature_2m_max?.[0]) ||
-          !Array.isArray(w.hourly?.temperature_2m)) throw new Error("Forecast is incomplete");
+      const data = await response.json();
+      if (!Number.isFinite(data.current?.temperature_2m) ||
+          !Number.isFinite(data.daily?.temperature_2m_max?.[0]) ||
+          !Array.isArray(data.hourly?.temperature_2m)) throw new Error("Forecast is incomplete");
+      weather = data;
     } catch {
-      const message = weatherCheckedAt ? "Showing the forecast checked " + checkTime(weatherCheckedAt) + "." : "The forecast is unavailable.";
-      health("weather-health", message);
-      sourceStatus("weather", weatherCheckedAt ? "saved" : "unavailable", message);
-      if (!weatherCheckedAt) $("wx-advice").textContent = "Forecast unavailable";
+      // Keep the last complete report below.
+    } finally {
+      clearTimeout(timeout);
+    }
+
+    const resolvedName = await lookup;
+    if (weatherRequest !== request) return;
+    loc.name = resolvedName;
+    // A temporary GPS failure must not make the default look like a recent fix.
+    if (weather || loc.source === "device") saveWeatherLocation(loc);
+    if (!weather) {
+      weatherRetryLocation = loc;
+      const unavailable = "Forecast unavailable for " + (loc.name || "your location") + ".";
+      if (weatherReport) {
+        const { location, checkedAt } = weatherReport;
+        const samePlace = location.lat === loc.lat && location.lon === loc.lon;
+        const retained = samePlace ? "Showing the forecast checked " : "Showing the forecast for " + (location.name || "the last location") + ", checked ";
+        weatherStatus("saved", unavailable + " " + retained + checkTime(checkedAt) + ".");
+      } else {
+        setWeatherLocation(loc);
+        $("wx-advice").textContent = "Forecast unavailable";
+        weatherStatus("unavailable", unavailable);
+      }
       return;
     }
 
-    weatherCheckedAt = new Date().toISOString();
+    weatherRetryLocation = null;
+    const checkedAt = new Date().toISOString();
+    weatherReport = { location: loc, checkedAt, weather };
+    setWeatherLocation(loc);
+    renderWeather(weatherReport);
+  }
+
+  function renderWeather({ location, checkedAt, weather: w }) {
     health("weather-health", "");
-    const observed = w.current.time ? w.current.time.replace("T", " ") + " " + (w.timezone_abbreviation || "") : "";
-    const checked = "Checked " + checkTime(weatherCheckedAt) + (observed ? ". Observation " + observed.trim() + "." : ".");
+    const modelTime = typeof w.current.time === "string"
+      ? (w.current.time.replace("T", " ") + " " + (w.timezone_abbreviation || "")).trim()
+      : "";
+    const place = location.source === "default" ? "Default location: "
+      : location.source === "saved" ? "Saved location: " : "";
+    const checked = place + (location.name || "Your location") + ". Checked " + checkTime(checkedAt) +
+      (modelTime ? ". Model estimate at " + modelTime + "." : ".");
     $("weather-stamp").textContent = "Open-Meteo. " + checked;
     sourceStatus("weather", "ready", checked);
     $("hourly-table").innerHTML = '<table><caption>Today’s hourly forecast</caption><thead><tr><th>Time</th><th>Temperature</th><th>Rain chance</th></tr></thead><tbody>' + w.hourly.temperature_2m.slice(0,24).map((t,i) => `<tr><td>${esc((w.hourly.time?.[i] || "").split("T")[1] || i + ":00")}</td><td>${Number.isFinite(t) ? round1(t) + "°C" : "Unavailable"}</td><td>${Number.isFinite(w.hourly.precipitation_probability?.[i]) ? w.hourly.precipitation_probability[i] + "%" : "Unavailable"}</td></tr>`).join("") + '</tbody></table>';
     const cur = w.current, day = w.daily;
     const [desc] = WMO[cur.weather_code] || ["Current conditions"];
-    const rain = day.precipitation_probability_max?.[0];
-    const max = day.temperature_2m_max[0];
-    const min = day.temperature_2m_min?.[0];
     const uv = day.uv_index_max?.[0];
 
     $("wx-temp").textContent = Math.round(cur.temperature_2m) + "°";
-    let advice = "Mostly dry today";
-    if (rain >= 40) advice = "Keep an umbrella handy";
-    else if (rain >= 25) advice = "A shower is possible";
-    else if (max >= 30) advice = "A hot afternoon";
-    else if (cur.temperature_2m <= 8) advice = "A cold start";
-    else if (!Number.isFinite(rain)) advice = "Today’s forecast";
-    $("wx-advice").textContent = advice;
     $("wx-desc").textContent = Number.isFinite(cur.apparent_temperature)
       ? desc + ". Feels like " + Math.round(cur.apparent_temperature) + "°." : desc;
-    $("wx-meta").innerHTML =
-      `<span>High <b>${Math.round(max)}°</b></span>` +
-      (Number.isFinite(min) ? `<span>Low <b>${Math.round(min)}°</b></span>` : "") +
-      (Number.isFinite(rain) ? `<span>Peak rain chance <b>${rain}%</b></span>` : "");
 
     renderWeatherCharts(w);
+    updateWeatherAdvice(w);
 
     const formatHour = value => {
-      const local = value?.split("T")[1];
+      const local = typeof value === "string" ? value.split("T")[1] : "";
       if (!local) return "";
       const [hour, minute] = local.split(":").map(Number);
       return (hour % 12 || 12) + ":" + String(minute).padStart(2, "0") + (hour < 12 ? " am" : " pm");
@@ -349,8 +432,46 @@
     hour: "numeric", minute: "2-digit", timeZone: "UTC",
   });
   let weatherTimeline;
-  let weatherMarkerTimer;
   const hourlyDetails = document.querySelector(".hourly-details");
+
+  function updateWeatherAdvice({ current, daily, hourly }) {
+    const clock = weatherTimeline;
+    const hours = clock ? (Date.now() + clock.offset * 1000 - clock.start) / WEATHER_HOUR : NaN;
+    const inRange = hours >= 0 && hours < clock.duration / WEATHER_HOUR;
+    // Each rain value covers the hour ending at its timestamp. Ignore hours
+    // that have already ended, even when they set the whole day's peak.
+    const start = inRange ? Math.floor(hours) + 1 : 0;
+    const day = 24 * WEATHER_HOUR;
+    const midnight = inRange ? (Math.floor(clock.start / day) + 1) * day : NaN;
+    const end = inRange ? (midnight - clock.start) / WEATHER_HOUR : -1;
+    const chances = inRange && Array.isArray(hourly.precipitation_probability)
+      ? hourly.precipitation_probability.slice(start, end + 1) : [];
+    const valid = chances.filter((chance, i) => {
+      const time = Date.parse(hourly.time?.[start + i] + "Z");
+      return time === clock.start + (start + i) * WEATHER_HOUR &&
+        Number.isFinite(chance) && chance >= 0 && chance <= 100;
+    });
+    const complete = valid.length > 0 && valid.length === end - start + 1;
+    const rain = valid.length ? Math.max(...valid) : null;
+    const warmest = inRange ? Math.max(current.temperature_2m, ...hourly.temperature_2m.slice(start, end).filter(Number.isFinite)) : null;
+    let advice = "Today’s forecast";
+    if (rain >= 40) advice = "Keep an umbrella handy";
+    else if (rain >= 25) advice = "A shower is possible";
+    else if (warmest >= 30) advice = "Hot conditions ahead";
+    else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
+    else if (complete) advice = "Low rain chance ahead";
+    const adviceLine = $("wx-advice");
+    if (adviceLine.textContent !== advice) adviceLine.textContent = advice;
+
+    const min = daily.temperature_2m_min?.[0];
+    const dailyRain = daily.precipitation_probability_max?.[0];
+    const rainLabel = complete
+      ? "<span>Rain ahead <b>" + rain + "%</b></span>"
+      : Number.isFinite(dailyRain) ? "<span>All-day rain peak <b>" + dailyRain + "%</b></span>" : "";
+    const details = `<span>High <b>${Math.round(daily.temperature_2m_max[0])}°</b></span>` +
+      (Number.isFinite(min) ? `<span>Low <b>${Math.round(min)}°</b></span>` : "") + rainLabel;
+    if ($("wx-meta").innerHTML !== details) $("wx-meta").innerHTML = details;
+  }
 
   function updateWeatherMarker() {
     const clock = weatherTimeline;
@@ -370,14 +491,20 @@
   }
 
   hourlyDetails.addEventListener("toggle", () => {
-    clearInterval(weatherMarkerTimer);
-    if (!hourlyDetails.open) return;
-    updateWeatherMarker();
-    weatherMarkerTimer = setInterval(updateWeatherMarker, 60_000);
+    if (hourlyDetails.open) updateWeatherMarker();
   });
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden && hourlyDetails.open) updateWeatherMarker();
-  });
+  function updateClockLabels() {
+    if (document.hidden) return;
+    if (weatherReport) {
+      updateWeatherAdvice(weatherReport.weather);
+      if (hourlyDetails.open) updateWeatherMarker();
+    }
+    if (lastData && editionDate.format(Date.now()) !== displayedEditionDay) {
+      renderDigestStatus(lastData, digestWasSaved);
+    }
+  }
+  setInterval(updateClockLabels, 60_000);
+  document.addEventListener("visibilitychange", updateClockLabels);
 
   function renderWeatherCharts(weather) {
     const { hourly, utc_offset_seconds: offset } = weather;
@@ -457,7 +584,7 @@
   }
 
   async function fetchDigest() {
-    let d, savedResponse = false;
+    let d, savedResponse = false, retainedInMemory = false;
     try {
       const response = await fetch("data/data.json", { cache: "no-cache" });
       if (!response.ok) throw new Error("Digest request failed");
@@ -470,13 +597,12 @@
       lastData = d;
     }
     catch {
-      const message = lastData ? "Showing the last loaded digest." : "The digest is unavailable. Check your connection and try again.";
-      for (const id of ["digest-health", "news-health"]) health(id, message);
-      const state = lastData ? "saved" : "unavailable";
-      sourceStatus("digest", state, message);
-      sourceStatus("markets", state, lastData ? "Showing the last loaded market snapshot." : "No market snapshot available.");
-      sourceStatus("deals", state, lastData ? "Showing the last loaded deals." : "No deals available.");
       if (!lastData) {
+        const message = "The digest is unavailable. Check your connection and try again.";
+        for (const id of ["digest-health", "news-health"]) health(id, message);
+        sourceStatus("digest", "unavailable", message);
+        sourceStatus("markets", "unavailable", "No market snapshot available.");
+        sourceStatus("deals", "unavailable", "No deals available.");
         $("updated-line").textContent = "Digest unavailable";
         $("news-updated-line").textContent = "Digest unavailable";
         $("markets-stamp").textContent = "Market snapshot unavailable";
@@ -484,32 +610,16 @@
         $("deals-list").textContent = "Deals are unavailable until the digest loads.";
         window.MorningBriefNews?.showUnavailable({ list: $("news-list"), status: $("news-results-status") });
         $("news-overview").textContent = "Headlines are unavailable.";
+        return;
       }
-      return;
+      d = lastData;
+      savedResponse = true;
+      retainedInMemory = true;
     }
 
-    const ageHours = (Date.now() - Date.parse(d.generatedAt)) / 3600000;
-    const prepared = checkTime(d.generatedAt);
-    const stale = ageHours > 26;
-    const digestState = savedResponse || stale ? "saved" : "ready";
-    const updatedText = (savedResponse ? "Saved edition" : "Edition") + " from " + prepared;
-    $("updated-line").textContent = updatedText;
-    $("news-updated-line").textContent = updatedText;
-    const marketLabel = savedResponse ? "Saved snapshot from " : stale ? "Older snapshot from " : "Published ";
-    $("markets-stamp").textContent = marketLabel + prepared + ". Quotes may be from an earlier trading session.";
-    const warning = savedResponse ? "Connection failed. Showing the saved edition from " + prepared + "."
-      : stale ? "This edition is more than a day old. Some stories or prices may have changed." : "";
-    for (const id of ["digest-health", "news-health"]) health(id, warning);
-    sourceStatus("digest", digestState, warning || "Prepared " + prepared + ".");
-    sourceStatus("markets", digestState, marketLabel + prepared + ". Quotes may be from an earlier trading session.");
-    const retainedDeals = d.carried?.deals;
-    if (retainedDeals && Number.isFinite(Date.parse(retainedDeals))) {
-      sourceStatus("deals", "saved", "Showing the last available offers. Reuse began " + checkTime(retainedDeals) + ".");
-    } else {
-      const dealLabel = savedResponse ? "Included with the saved edition from " : stale ? "Included with the older edition from " : "Included with the edition from ";
-      sourceStatus("deals", digestState, dealLabel + prepared + ".");
-    }
-
+    digestWasSaved = savedResponse;
+    renderDigestStatus(d, savedResponse);
+    if (retainedInMemory) return;
     releasesData = d.releases || null;
     // each section renders independently: one bad field must not leave the
     // rest of the page stuck on its loading text
@@ -523,6 +633,42 @@
     for (const [name, render] of sections) {
       try { render(); } catch (e) { console.error(`render ${name} failed:`, e); }
     }
+  }
+
+  function renderDigestStatus(d, savedResponse) {
+    const generated = new Date(d.generatedAt);
+    const current = new Date();
+    displayedEditionDay = editionDate.format(current);
+    const generatedDay = editionDate.format(generated);
+    const sameDay = generatedDay === displayedEditionDay;
+    const previousEdition = !sameDay && generated <= current;
+    const time = editionTime.format(generated);
+    const prepared = (sameDay ? "today" : generatedDay) + " at " + time + " Sydney time";
+    const digestState = savedResponse ? "saved" : previousEdition ? "previous" : "ready";
+    const label = savedResponse ? (navigator.onLine ? "Saved edition" : "Saved offline")
+      : previousEdition ? "Previous edition" : sameDay ? "Today’s edition" : "Edition";
+    const updatedText = label + " · " + (sameDay ? "" : generatedDay + ", ") + time;
+    $("updated-line").textContent = updatedText;
+    $("news-updated-line").textContent = updatedText;
+    const marketLabel = savedResponse ? "Saved snapshot from " : previousEdition ? "Previous snapshot from " : "Snapshot published ";
+    $("markets-stamp").textContent = marketLabel + prepared + ". Quotes may be from an earlier trading session.";
+    const warning = savedResponse ? "Showing the saved edition from " + prepared + "."
+      : previousEdition ? "Today’s edition hasn’t arrived yet. Showing the previous edition." : "";
+    for (const id of ["digest-health", "news-health"]) health(id, warning);
+    sourceStatus("digest", digestState, savedResponse ? warning : "Prepared " + prepared + ".");
+    if (d.markets.items.some(item => Number.isFinite(item?.price))) {
+      sourceStatus("markets", digestState, $("markets-stamp").textContent);
+    } else {
+      sourceStatus("markets", "unavailable", "No prices were published in this edition.");
+    }
+    const retainedDeals = d.carried?.deals;
+    if (retainedDeals && Number.isFinite(Date.parse(retainedDeals))) {
+      sourceStatus("deals", "saved", "Showing the last available offers. Reuse began " + checkTime(retainedDeals) + ".");
+    } else {
+      const dealLabel = savedResponse ? "Included with the saved edition from " : "Included with the edition from ";
+      sourceStatus("deals", digestState, dealLabel + prepared + ".");
+    }
+
   }
 
   function renderDeals(deals) {
@@ -1340,13 +1486,9 @@
   // ----------------------------------------------------------------- init --
   $("games-date-line").textContent =
     `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new puzzles daily`;
-  $("wx-loc").addEventListener("click", () => {
-    $("wx-loc").textContent = "· updating…";
-    loadWeather(true);
-  });
+  $("wx-loc").addEventListener("click", () => loadWeather(true));
   $("set-loc").addEventListener("click", () => {
     leaveSheet(1);
-    $("wx-loc").textContent = "· updating…";
     loadWeather(true);
   });
   renderDeadlines();
