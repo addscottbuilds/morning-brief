@@ -12,19 +12,16 @@
   const phoneLayout = matchMedia("(max-width: 760px), (max-width: 950px) and (pointer: coarse)");
   const routes = ["#news", "#today", "#games"];
   let curPage = 1;
-  let currentSection = "";
   let swipeTimer;
 
-  function showPage(index, section = "") {
+  function showPage(index) {
     curPage = index;
-    currentSection = section;
     pages.forEach((page, i) => {
       page.hidden = !phoneLayout.matches && i !== index;
       page.inert = i !== index;
     });
-    const selectedSection = phoneLayout.matches ? "" : section;
     for (const link of links) {
-      const selected = Number(link.dataset.page) === index && (link.dataset.section || "") === selectedSection;
+      const selected = Number(link.dataset.page) === index;
       if (selected) link.setAttribute("aria-current", "page");
       else link.removeAttribute("aria-current");
     }
@@ -55,22 +52,14 @@
     else links.find(link => link.getAttribute("aria-current") === "page")?.focus({ preventScroll: true });
   }
 
-  function goTo(index, { focus = true, section = "", keepPlace = false } = {}) {
+  function goTo(index, { focus = true, keepPlace = false } = {}) {
     const switching = index !== curPage;
     if (switching && !phoneLayout.matches) desktopScroll.set(curPage, window.scrollY);
-    showPage(index, section);
+    showPage(index);
     alignPager();
     if (!focus) return;
 
-    history.replaceState(null, "", section ? "#" + section : routes[index]);
-    if (section) {
-      const target = $(section);
-      const behavior = matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth";
-      if (section === "markets-section") $("market-detail").open = true;
-      focusPage(target);
-      target.scrollIntoView({ block: "start", behavior });
-      return;
-    }
+    history.replaceState(null, "", routes[index]);
 
     const restorePlace = keepPlace && switching;
     if (!phoneLayout.matches) window.scrollTo({ top: restorePlace ? desktopScroll.get(index) || 0 : 0, behavior: "instant" });
@@ -97,7 +86,7 @@
     settleSwipe();
   });
   phoneLayout.addEventListener("change", () => {
-    showPage(curPage, currentSection);
+    showPage(curPage);
     alignPager();
   });
   window.addEventListener("resize", alignPager);
@@ -112,17 +101,12 @@
   for (const link of links) {
     link.addEventListener("click", event => {
       event.preventDefault();
-      goTo(Number(link.dataset.page), { section: link.dataset.section, keepPlace: true });
+      goTo(Number(link.dataset.page), { keepPlace: true });
     });
   }
   $("goto-news").addEventListener("click", event => { event.preventDefault(); goTo(0); });
-  $("goto-games").addEventListener("click", event => { event.preventDefault(); goTo(2); });
-  const startRoute = location.hash;
-  const startSection = ["#markets", "#markets-section"].includes(startRoute) ? "markets-section" : "";
-  const startPage = routes.indexOf(startRoute);
-  $("market-detail").open = !phoneLayout.matches || Boolean(startSection);
-  $("sport-detail").open = !phoneLayout.matches;
-  goTo(startPage < 0 ? 1 : startPage, { focus: false, section: startSection });
+  const startPage = routes.indexOf(location.hash);
+  goTo(startPage < 0 ? 1 : startPage, { focus: false });
   document.querySelector(".skip-link").addEventListener("click", event => {
     event.preventDefault();
     focusPage(routeHeading(curPage));
@@ -131,54 +115,113 @@
   });
 
   let openSheetId = null, sheetOpener = null;
-  function openSheet(id) {
+  function openSheet(id, trigger = document.activeElement) {
     const previous = openSheetId && $(openSheetId);
-    if (!previous) sheetOpener = document.activeElement;
+    if (!previous) sheetOpener = trigger;
     openSheetId = id;
     if (previous) previous.close();
     $(id).showModal();
   }
   function closeSheet() { if (openSheetId) $(openSheetId).close(); }
-  function leaveSheet(page, section) {
+  function leaveSheet(page) {
     sheetOpener = null;
     closeSheet();
-    goTo(page, { section });
+    goTo(page);
   }
   document.querySelectorAll("dialog.sheet").forEach(d=>{
-    d.addEventListener("close",()=>{if(openSheetId!==d.id)return;openSheetId=null;if(sheetOpener?.isConnected)sheetOpener.focus();});
+    d.addEventListener("close",()=>{
+      if (d.id === "sheet-section" && !d.open) $("section-bank").append(...$("section-content").children);
+      if(openSheetId!==d.id || d.open)return;
+      openSheetId=null;
+      if (d.id === "sheet-section" && secondaryRoute()) history.replaceState(null, "", routes[curPage]);
+      if(sheetOpener?.isConnected)sheetOpener.focus();
+    });
     d.addEventListener("click",e=>{if(e.target!==d)return;const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeSheet();});
   });
   document.querySelectorAll(".sheet-close").forEach(b=>b.addEventListener("click",closeSheet));
-  $("open-deals").addEventListener("click",()=>openSheet("sheet-deals"));
-  $("open-settings").addEventListener("click",()=>openSheet("sheet-settings"));
-  $("open-more").addEventListener("click",()=>openSheet("sheet-more"));
+  $("open-more").addEventListener("click", event => openSheet("sheet-more", event.currentTarget));
   $("more-deals").addEventListener("click",()=>openSheet("sheet-deals"));
   $("more-settings").addEventListener("click",()=>openSheet("sheet-settings"));
-  $("more-markets").addEventListener("click", () => leaveSheet(1, "markets-section"));
   $("more-data-status").addEventListener("click", () => openSheet("sheet-data-status"));
-  $("open-data-status").addEventListener("click", () => openSheet("sheet-data-status"));
+  let activeSection = "";
+  $("back-to-more").addEventListener("click", () => {
+    if (secondaryRoute()) history.replaceState(null, "", routes[curPage]);
+    openSheet("sheet-more");
+    $("sheet-more").querySelector('[data-more-section="' + activeSection + '"]:not([hidden])')?.focus();
+  });
+  const secondarySections = {
+    "markets-section": "Markets", "sport-section": "Sport", "deadlines-section": "Coming up",
+    "wotd-section": "Word of the day", "cg-section": "Commonwealth Games",
+  };
+  function secondaryRoute() {
+    const id = location.hash === "#markets" ? "markets-section" : location.hash.slice(1);
+    return Object.hasOwn(secondarySections, id) ? id : "";
+  }
+  function openSection(id, trigger = $("open-more")) {
+    activeSection = id;
+    $("section-bank").append(...$("section-content").children);
+    $("section-content").append($(id));
+    $("more-section-title").textContent = secondarySections[id];
+    if (id === "markets-section") $("market-detail").open = true;
+    if (id === "sport-section") $("sport-detail").open = true;
+    openSheet("sheet-section", trigger);
+  }
+  document.querySelectorAll("[data-more-section]").forEach(button =>
+    button.addEventListener("click", () => openSection(button.dataset.moreSection, button)));
+  $("section-bank").append(...Object.keys(secondarySections).map($));
 
-  const defaultOrder=["weather-section","focus-section","news-overview-section","markets-section","sport-section","wotd-section","deadlines-section","cg-section"];
-  const sectionNames=["Weather","Your focus","News","Markets","Sport","Word of the day","Time-sensitive","Commonwealth Games"];
+  const defaultOrder=["weather-section","news-overview-section","focus-section","markets-section","sport-section","wotd-section","deadlines-section","cg-section"];
+  const sectionNames={"weather-section":"Weather","news-overview-section":"News","focus-section":"Your focus",...secondarySections};
+  const todayShortcuts={"markets-section":"today-markets","sport-section":"today-sport"};
+  const summaryControl=$("show-today-summaries");
   let sectionOrder;
-  try {sectionOrder=JSON.parse(localStorage.getItem("mb_section_order_v1"));} catch {}
+  try { sectionOrder=JSON.parse(localStorage.getItem("mb_section_order_v1")); } catch {}
+  try { summaryControl.checked=localStorage.getItem("mb_today_summaries_v1")==="true"; } catch {}
   if(!Array.isArray(sectionOrder)||sectionOrder.length!==defaultOrder.length||new Set(sectionOrder).size!==defaultOrder.length||sectionOrder.some(id=>!defaultOrder.includes(id)))sectionOrder=[...defaultOrder];
+  function todayOrder() {
+    return sectionOrder.filter(id => !Object.hasOwn(secondarySections,id) || summaryControl.checked && Object.hasOwn(todayShortcuts,id));
+  }
   function applyOrder() {
     const parent=$("page-main").querySelector(".wrap"),footer=parent.querySelector("footer");
-    sectionOrder.forEach(id=>parent.insertBefore($(id),footer));
-    $("section-order").innerHTML=sectionOrder.map((id,i)=>'<li><span>'+sectionNames[defaultOrder.indexOf(id)]+'</span><button data-move="-1" data-section="'+id+'" aria-label="Move '+sectionNames[defaultOrder.indexOf(id)]+' up" '+(i===0?'disabled':'')+'>Up</button><button data-move="1" data-section="'+id+'" aria-label="Move '+sectionNames[defaultOrder.indexOf(id)]+' down" '+(i===sectionOrder.length-1?'disabled':'')+'>Down</button></li>').join("");
+    const ordered=todayOrder();
+    Object.values(todayShortcuts).forEach(id=>$(id).hidden=!summaryControl.checked);
+    ordered.forEach(id=>parent.insertBefore($(todayShortcuts[id] || id),footer));
+    $("section-order").innerHTML=ordered.map((id,i)=>'<li><span>'+sectionNames[id]+'</span><button data-move="-1" data-section="'+id+'" aria-label="Move '+sectionNames[id]+' up" '+(i===0?'disabled':'')+'>Up</button><button data-move="1" data-section="'+id+'" aria-label="Move '+sectionNames[id]+' down" '+(i===ordered.length-1?'disabled':'')+'>Down</button></li>').join("");
   }
   function saveOrder(){try{localStorage.setItem("mb_section_order_v1",JSON.stringify(sectionOrder));$("order-feedback").textContent="Section order saved on this device.";}catch{$("order-feedback").textContent="Order changed in this tab only; device storage could not save it.";}applyOrder();}
   $("section-order").addEventListener("click",e=>{
     const b=e.target.closest("[data-move]");if(!b)return;
-    const from=sectionOrder.indexOf(b.dataset.section),to=from+Number(b.dataset.move);if(to<0||to>=sectionOrder.length)return;
+    const ordered=todayOrder();
+    const other=ordered[ordered.indexOf(b.dataset.section)+Number(b.dataset.move)];
+    if(!other)return;
+    const from=sectionOrder.indexOf(b.dataset.section),to=sectionOrder.indexOf(other);
     [sectionOrder[from],sectionOrder[to]]=[sectionOrder[to],sectionOrder[from]];saveOrder();
     const rowButtons = [...$("section-order").querySelectorAll("button:not(:disabled)")]
       .filter(button => button.dataset.section === b.dataset.section);
     (rowButtons.find(button => button.dataset.move === b.dataset.move) || rowButtons[0])?.focus();
   });
+  summaryControl.addEventListener("change",()=>{
+    try {localStorage.setItem("mb_today_summaries_v1",String(summaryControl.checked));$("order-feedback").textContent="Today summaries saved on this device.";}
+    catch {$("order-feedback").textContent="Summary preference changed in this tab.";}
+    applyOrder();
+  });
   $("reset-order").addEventListener("click",()=>{sectionOrder=[...defaultOrder];saveOrder();});
   applyOrder();
+  function syncTodaySummaries() {
+    for (const [name, glance] of [["markets","market-glance"],["sport","sport-glance"]]) {
+      const source=$("source-"+name);
+      const summary=$(glance).hidden ? "" : $(glance).textContent;
+      const qualifier=source.dataset.state==="saved" ? "Saved snapshot" : source.dataset.state==="previous" ? "Previous edition" : "";
+      $("today-"+name).querySelector("span").textContent=[summary,qualifier].filter(Boolean).join(" · ");
+    }
+    document.querySelector('[data-more-section="cg-section"]').hidden=$("cg-section").hidden;
+  }
+  const summaryObserver=new MutationObserver(syncTodaySummaries);
+  for (const id of ["market-glance","sport-glance","source-markets","source-sport","cg-section"]) {
+    summaryObserver.observe($(id),{childList:true,attributes:true,attributeFilter:["hidden","data-state"]});
+  }
+  syncTodaySummaries();
+  if (secondaryRoute()) openSection(secondaryRoute());
   function checkTime(v){return new Intl.DateTimeFormat("en-AU",{weekday:"short",hour:"numeric",minute:"2-digit"}).format(new Date(v));}
   const editionDate = new Intl.DateTimeFormat("en-AU", {
     timeZone: "Australia/Sydney", weekday: "short", day: "numeric", month: "short", year: "numeric",
@@ -324,6 +367,11 @@
     health("weather-health", loading && !weatherReport ? "" : message);
     $("weather-health").querySelector("button").hidden = loading;
     sourceStatus("weather", state, message);
+    if (!weatherReport) {
+      $("weather-stamp").textContent = loading ? "Checking the hourly forecast…" : "";
+      $("chart-unavailable").hidden = loading;
+    }
+    if (state !== "ready") $("weather-priority").hidden = true;
   }
 
   async function loadWeather(force = false) {
@@ -401,6 +449,7 @@
     $("weather-stamp").textContent = "Open-Meteo. " + checked;
     sourceStatus("weather", "ready", checked);
     $("hourly-table").innerHTML = '<table><caption>Today’s hourly forecast</caption><thead><tr><th>Time</th><th>Temperature</th><th>Rain chance</th></tr></thead><tbody>' + w.hourly.temperature_2m.slice(0,24).map((t,i) => `<tr><td>${esc((w.hourly.time?.[i] || "").split("T")[1] || i + ":00")}</td><td>${Number.isFinite(t) ? round1(t) + "°C" : "Unavailable"}</td><td>${Number.isFinite(w.hourly.precipitation_probability?.[i]) ? w.hourly.precipitation_probability[i] + "%" : "Unavailable"}</td></tr>`).join("") + '</tbody></table>';
+    hourlyDetails.querySelector(".hourly-values").hidden = false;
     const cur = w.current, day = w.daily;
     const [desc] = WMO[cur.weather_code] || ["Current conditions"];
     const uv = day.uv_index_max?.[0];
@@ -433,6 +482,25 @@
   });
   let weatherTimeline;
   const hourlyDetails = document.querySelector(".hourly-details");
+  const weatherMetrics = [...hourlyDetails.querySelectorAll("[data-metric]")];
+  let preferredMetric = "rain";
+  let chartAvailable = { rain: false, temperature: false };
+  function selectMetric() {
+    const selected = chartAvailable[preferredMetric] ? preferredMetric : weatherMetrics.find(button => chartAvailable[button.dataset.metric])?.dataset.metric;
+    for (const button of weatherMetrics) {
+      const metric = button.dataset.metric;
+      button.disabled = !chartAvailable[metric];
+      button.setAttribute("aria-pressed", String(metric === selected));
+      $(metric + "-wrap").hidden = metric !== selected;
+    }
+    $("chart-unavailable").hidden = Boolean(selected) || !weatherReport;
+  }
+  for (const button of weatherMetrics) button.addEventListener("click", () => {
+    preferredMetric = button.dataset.metric;
+    selectMetric();
+    updateWeatherMarker();
+  });
+  selectMetric();
 
   function updateWeatherAdvice({ current, daily, hourly }) {
     const clock = weatherTimeline;
@@ -446,22 +514,31 @@
     const end = inRange ? (midnight - clock.start) / WEATHER_HOUR : -1;
     const chances = inRange && Array.isArray(hourly.precipitation_probability)
       ? hourly.precipitation_probability.slice(start, end + 1) : [];
-    const valid = chances.filter((chance, i) => {
+    const valid = chances.flatMap((chance, i) => {
       const time = Date.parse(hourly.time?.[start + i] + "Z");
       return time === clock.start + (start + i) * WEATHER_HOUR &&
-        Number.isFinite(chance) && chance >= 0 && chance <= 100;
+        Number.isFinite(chance) && chance >= 0 && chance <= 100 ? [{chance, time, i}] : [];
     });
     const complete = valid.length > 0 && valid.length === end - start + 1;
-    const rain = valid.length ? Math.max(...valid) : null;
+    const rain = valid.length ? Math.max(...valid.map(hour => hour.chance)) : null;
+    const firstRain = valid.find(hour => hour.chance >= 40);
     const warmest = inRange ? Math.max(current.temperature_2m, ...hourly.temperature_2m.slice(start, end).filter(Number.isFinite)) : null;
     let advice = "Today’s forecast";
-    if (rain >= 40) advice = "Keep an umbrella handy";
+    if (firstRain) advice = firstRain.i === 0 ? "Rain chance in the next hour" : "Rain chance rises by " + forecastTime.format(firstRain.time);
     else if (rain >= 25) advice = "A shower is possible";
     else if (warmest >= 30) advice = "Hot conditions ahead";
     else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
     else if (complete) advice = "Low rain chance ahead";
     const adviceLine = $("wx-advice");
     if (adviceLine.textContent !== advice) adviceLine.textContent = advice;
+    const priority = $("weather-priority");
+    const urgent = firstRain?.i === 0 && firstRain.chance >= 60 && $("source-weather").dataset.state === "ready";
+    if (urgent) {
+      const text = firstRain.chance + "% rain chance by " + forecastTime.format(firstRain.time) +
+        " in " + (weatherReport?.location.name || "your area") + ". Take an umbrella if you are heading out.";
+      if (priority.textContent !== text) priority.textContent = text;
+    }
+    priority.hidden = !urgent;
 
     const min = daily.temperature_2m_min?.[0];
     const dailyRain = daily.precipitation_probability_max?.[0];
@@ -531,7 +608,6 @@
 
     const spark = $("wx-spark");
     const hasTemperature = temps.length >= 2 && temps.every(Number.isFinite);
-    $("temperature-wrap").hidden = !hasTemperature;
     spark.dataset.description = "Hourly temperature";
     if (hasTemperature) {
       const low = Math.min(...temps);
@@ -556,7 +632,6 @@
 
     const rainGraph = $("wx-rain");
     const hasRain = rain.length > 0 && rain.every(Number.isFinite);
-    $("rain-wrap").hidden = !hasRain;
     rainGraph.dataset.description = "Hourly rain chance";
     if (hasRain) {
       const peak = Math.max(...rain);
@@ -573,6 +648,8 @@
         }).join("") + '<path class="weather-grid" d="M0 42.5h580"/>' +
         '<text x="4" y="11" font-size="9" fill="#e7d7c6">100%</text><text x="4" y="31" font-size="9" fill="#e7d7c6">50%</text>';
     }
+    chartAvailable = { rain: hasRain, temperature: hasTemperature };
+    selectMetric();
     updateWeatherMarker();
   }
 
@@ -821,12 +898,14 @@
     }
     if (!n || !n.categories || !n.categories.length) {
       $("news-tabs").replaceChildren();
+      $("news-topics").hidden = true;
       $("news-mode").textContent = "";
       window.MorningBriefNews?.render({list: $("news-list"), status: $("news-results-status"), category: null});
       $("news-overview").innerHTML = '<p class="muted-cell">No headlines in this edition.</p>';
       return;
     }
     newsData = n;
+    $("news-topics").hidden = false;
     $("news-mode").textContent = n.mode === "llm" ? "Generated summaries" : "Publisher snippets";
 
     // stories not present last time the app was opened get a NEW pill; the
@@ -840,9 +919,11 @@
     localStorage.setItem("mb_news_seen", JSON.stringify([...new Set([...seen, ...all.flatMap(fps)])].slice(-1500)));
 
     const tabs = $("news-tabs");
+    const focusedTopic = tabs.contains(document.activeElement) ? document.activeElement.dataset.category : "";
     const keys = n.categories.map(c => c.key);
     const saved = localStorage.getItem("mb_news_tab");
     const activeKey = keys.includes(saved) ? saved : keys[0];
+    $("news-topic-label").textContent = "Topics · " + n.categories.find(category => category.key === activeKey).label;
     tabs.innerHTML = "";
     for (const c of n.categories) {
       const b = document.createElement("button");
@@ -854,10 +935,15 @@
       b.addEventListener("click", () => {
         localStorage.setItem("mb_news_tab", c.key);
         tabs.querySelectorAll("button").forEach(x => { x.classList.toggle("active", x === b); x.setAttribute("aria-pressed", String(x === b)); });
+        $("news-topic-label").textContent = "Topics · " + c.label;
+        const restoreFocus = tabs.contains(document.activeElement);
+        $("news-topics").open = false;
         renderStories(c.key);
+        if (restoreFocus) $("news-topic-label").focus({ preventScroll: true });
       });
       tabs.appendChild(b);
     }
+    if (focusedTopic) [...tabs.children].find(button => button.dataset.category === focusedTopic)?.focus({ preventScroll: true });
     renderStories(activeKey);
     renderNewsOverview(n);
   }
@@ -873,39 +959,45 @@
   function renderNewsOverview(news) {
     const top = news.categories.find(category => category.key === "top") || news.categories[0];
     const overview = $("news-overview");
-    const stories = top?.stories?.slice(0, 3) || [];
-    if (!stories.length) {
+    const story = top?.stories?.[0];
+    const hadFocus = overview.contains(document.activeElement);
+    if (!story) {
       overview.innerHTML = '<p class="muted-cell">No headlines in this edition.</p>';
+      if (hadFocus) $("goto-news").focus({ preventScroll: true });
       return;
     }
-    overview.replaceChildren(...stories.map((story, i) => {
-      const item = document.createElement("article");
-      item.className = "edition-headline";
-      const number = document.createElement("span");
-      number.className = "headline-index";
-      number.setAttribute("aria-hidden", "true");
-      number.textContent = String(i + 1).padStart(2, "0");
-      const heading = document.createElement("h3");
-      const link = document.createElement("a");
-      link.href = "#news";
-      link.className = "headline-link";
-      heading.textContent = story.headline;
-      link.addEventListener("click", event => {
-        event.preventDefault();
-        const tabs = $("news-tabs");
-        const topTab = tabs.querySelector('button[data-category="top"]') || tabs.querySelector("button");
-        topTab?.click();
-        goTo(0);
-        window.MorningBriefNews?.openStory?.(story.id);
-      });
-      const facts = document.createElement("p");
-      facts.className = "headline-meta";
-      const count = story.sources?.length || 0;
-      facts.textContent = [count ? count + (count === 1 ? " source" : " sources") : "", timeAgo(story.ts), story.divergent ? "Coverage differs" : ""].filter(Boolean).join(" · ");
-      link.append(number, heading, facts);
-      item.append(link);
-      return item;
-    }));
+    const item = document.createElement("article");
+    item.className = "edition-headline";
+    const heading = document.createElement("h3");
+    const link = document.createElement("a");
+    link.href = "#news";
+    link.className = "headline-link";
+    heading.textContent = story.headline;
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      const tabs = $("news-tabs");
+      const topTab = tabs.querySelector('button[data-category="top"]') || tabs.querySelector("button");
+      topTab?.click();
+      goTo(0);
+      window.MorningBriefNews?.openStory?.(story.id);
+    });
+    const facts = document.createElement("p");
+    facts.className = "headline-meta";
+    const count = story.sources?.length || 0;
+    facts.textContent = [count ? count + (count === 1 ? " source" : " sources") : "", timeAgo(story.ts), story.divergent ? "Coverage differs" : ""].filter(Boolean).join(" · ");
+    link.append(heading);
+    item.append(link);
+    if (typeof story.summary === "string" && story.summary.trim()) {
+      const summary = document.createElement("p");
+      summary.className = "lead-summary";
+      const copy = story.summary.trim();
+      const stop = copy.lastIndexOf(" ", 235);
+      summary.textContent = copy.length <= 235 ? copy : copy.slice(0, stop > 170 ? stop : 235).trimEnd() + "…";
+      item.append(summary);
+    }
+    item.append(facts);
+    overview.replaceChildren(item);
+    if (hadFocus) link.focus({ preventScroll: true });
   }
 
   function renderStories(key) {
@@ -1331,6 +1423,8 @@
   function updateFocusCount(items) {
     const completed = items.filter(item => item.done).length;
     $("focus-count").textContent = items.length ? completed + " of " + items.length + " done" : "";
+    $("focus-preview").textContent = items.find(item => !item.done)?.text ||
+      (items.length ? "All items done · Open focus list" : "Open your focus list");
   }
   function renderFocus() {
     const list = $("focus-list");
@@ -1496,18 +1590,7 @@
   window.addEventListener("storage", event => {
     if (event.key === "mb_focus") renderFocus();
   });
-  const initialContent = [loadWeather(), loadData(), loadSports()];
-  if (startSection) {
-    const stop = new AbortController();
-    for (const type of ["keydown","pointerdown","wheel","touchstart"]) {
-      window.addEventListener(type,()=>stop.abort(),{once:true,passive:true,signal:stop.signal});
-    }
-    const place = () => {
-      if (!stop.signal.aborted && currentSection === startSection) {
-        $(startSection).scrollIntoView({block:"start",behavior:"instant"});
-      }
-    };
-    window.addEventListener("load",place,{once:true,signal:stop.signal});
-    Promise.allSettled(initialContent).then(() => { place(); stop.abort(); });
-  }
+  loadWeather();
+  loadData();
+  loadSports();
 })();

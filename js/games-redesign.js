@@ -362,16 +362,19 @@ function makeLobby() {
         </button>
       `).join("")}
     </div>
-    <div class="game-edition-extra">
-      <div class="game-edition-extra-copy">
-        <p class="game-kicker">Original bonus</p>
-        <h2>Table talk</h2>
-        <p>One harder Connections puzzle. Several words pull in two directions.</p>
-        <button type="button" data-edition-game="challenge" class="game-edition-extra-action">Try the challenge</button>
-        <p class="game-edition-extra-note">Separate from the daily streak.</p>
+    <details class="game-edition-bonus">
+      <summary>Bonus puzzle</summary>
+      <div class="game-edition-extra">
+        <div class="game-edition-extra-copy">
+          <p class="game-kicker">Original bonus</p>
+          <h2>Table talk</h2>
+          <p>One harder Connections puzzle. Several words pull in two directions.</p>
+          <button type="button" data-edition-game="challenge" class="game-edition-extra-action">Try the challenge</button>
+          <p class="game-edition-extra-note">Separate from the daily streak.</p>
+        </div>
+        <div class="game-extra-diagram" aria-hidden="true"><span>T</span><span>A</span><span>L</span><span>K</span></div>
       </div>
-      <div class="game-extra-diagram" aria-hidden="true"><span>T</span><span>A</span><span>L</span><span>K</span></div>
-    </div>
+    </details>
   `;
   return lobby;
 }
@@ -402,6 +405,9 @@ function mount() {
   const rules = play.querySelector("details");
   const back = play.querySelector("button");
   rules.querySelector("summary").addEventListener("keydown", event => event.stopPropagation());
+  const cardList = lobby.querySelector(".game-edition-cards");
+  const cards = [...cardList.children];
+  const bonus = lobby.querySelector(".game-edition-bonus");
   const challengeButton = lobby.querySelector('[data-edition-game="challenge"]');
   tabs.before(lobby, play);
   tabs.hidden = true;
@@ -410,16 +416,27 @@ function mount() {
   let current = null;
 
   function update() {
+    const progressByGame = games.map(dailyProgress);
+    const preferred = current || localStorage.getItem("mb_game_tab");
+    const featured = cards.find((card, i) => progressByGame[i].state === "progress" && card.dataset.editionGame === preferred)
+      || cards.find((card, i) => progressByGame[i].state === "progress");
     let complete = 0;
-    for (const game of games) {
-      const progress = dailyProgress(game);
-      const card = lobby.querySelector(`[data-edition-game="${game.key}"]`);
+    games.forEach((game, i) => {
+      const progress = progressByGame[i];
+      const card = cards[i];
+      card.classList.toggle("is-featured", card === featured);
       card.dataset.state = progress.state;
       byId(`game-edition-status-${game.key}`).textContent = progress.label;
-      byId(`game-edition-action-${game.key}`).textContent = progress.action;
+      byId(`game-edition-action-${game.key}`).textContent = card === featured ? "Continue" : progress.action;
       if (progress.state === "solved" || progress.state === "finished") complete += 1;
       if (current === game.key) selectedProgress.textContent = progress.label;
-    }
+    });
+    const ordered = featured ? [featured, ...cards.filter(card => card !== featured)] : cards;
+    const active = cardList.contains(document.activeElement) ? document.activeElement : null;
+    ordered.forEach((card, i) => {
+      if (cardList.children[i] !== card) cardList.insertBefore(card, cardList.children[i]);
+    });
+    if (active && document.activeElement !== active) active.focus({ preventScroll: true });
     byId("game-edition-completion").textContent = `${complete} of ${games.length} finished`;
     challengeButton.textContent = challenge.finished() ? "Review the challenge"
       : challenge.started() ? "Resume challenge" : "Try the challenge";
@@ -441,7 +458,10 @@ function mount() {
     update();
     if (focus && !page.inert && !page.hidden) {
       moveToTop();
-      if (returningFrom) lobby.querySelector(`[data-edition-game="${returningFrom}"]`)?.focus({ preventScroll: true });
+      if (returningFrom === "challenge") {
+        bonus.open = true;
+        challengeButton.focus();
+      } else if (returningFrom) lobby.querySelector(`[data-edition-game="${returningFrom}"]`)?.focus();
       else {
         const heading = header.querySelector("h1");
         heading.tabIndex = -1;

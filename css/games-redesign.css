@@ -73,8 +73,8 @@
   grid-template-columns: 44px minmax(0, 1fr) auto;
   align-items: center;
   gap: 12px;
-  min-height: 90px;
-  padding: 13px 0;
+  min-height: 69px;
+  padding: 9px 0;
   border: 0;
   border-bottom: 1px solid var(--game-rule);
   background: transparent;
@@ -161,25 +161,38 @@
   min-width: 56px;
   min-height: 42px;
   padding: 5px 10px;
-  border: 1px solid var(--game-rule);
-  border-radius: 6px;
   color: var(--game-ink);
   font: 700 .76rem/1.2 var(--game-sans);
 }
 
-.game-edition-card[data-state="progress"] .game-edition-action {
-  border-color: var(--game-accent);
-  color: var(--game-accent);
+.game-edition-card.is-featured {
+  margin-top: 7px;
+  padding-inline: 10px;
+  border: 1px solid var(--game-rule);
+  border-radius: 7px;
+  background: var(--game-raised);
 }
-
+.game-edition-card.is-featured .game-edition-action {
+  color: var(--game-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.game-edition-bonus { margin-top: 10px; }
+.game-edition-bonus > summary {
+  min-height: 44px;
+  align-content: center;
+  color: var(--game-accent);
+  cursor: pointer;
+  font-weight: 650;
+}
 .game-edition-extra {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 10px;
-  margin-top: 19px;
-  padding: 18px;
+  margin-top: 3px;
+  padding: 14px;
   border-radius: 12px;
   background: #172b40;
   color: #fffbf4;
