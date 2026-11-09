@@ -14,10 +14,9 @@ checklist · daily Wordle, 5×5 mini crossword and Connections.
 
 - The **app** is static (HTML/CSS/JS + service worker). Weather is fetched
   live on-device using the phone's location.
-- A **GitHub Actions workflow** (`.github/workflows/refresh.yml`) runs every
-  morning (~5:45–6:45 Melbourne time), pulls market prices and RSS news from
-  outlets across the political spectrum, clusters matching stories, and
-  commits `data/data.json`, which the app loads.
+- A **GitHub Actions workflow** (`.github/workflows/refresh.yml`) pulls market
+  prices and RSS news, clusters matching stories, and publishes
+  `data/data.json`. It accepts manual dispatch and has a GitHub cron fallback.
 - With an optional `ANTHROPIC_API_KEY` repo secret, Claude writes neutral
   summaries and flags stories where left/right coverage genuinely diverges
   (who believes what + common ground). Without it, the digest still works with
@@ -44,6 +43,28 @@ checklist · daily Wordle, 5×5 mini crossword and Connections.
    repo → Settings → Secrets and variables → Actions.
 4. On the iPhone: open `https://<user>.github.io/morning-brief/` in Safari →
    Share → **Add to Home Screen**. Allow location when asked.
+
+## Cloudflare timer trial
+
+The scheduled-only Worker under `.github/morning-brief-timer/` dispatches
+the refresh at 6:40 am Sydney. It checks the live edition at 7:00 am and
+retries at 7:05 am if the edition is stale and no refresh is running or queued. The
+8:00, 9:00, 10:00, and 11:00 am refreshes skip the notification job.
+Sydney daylight saving is handled in the Worker.
+
+Store a fine-grained GitHub token scoped to this repository with **Actions
+read and write** as the encrypted Worker secret `GITHUB_ACTIONS_TOKEN`.
+Deploy to the selected personal Cloudflare account with:
+
+```sh
+node --test .github/morning-brief-timer/worker.test.mjs
+npx wrangler@4.159.0 deploy --config .github/morning-brief-timer/wrangler.jsonc
+```
+
+Use Worker logs to check the 7:00 am result and match dispatch run IDs to
+GitHub's refresh, Pages deploy, and notification jobs. To pause the trial,
+remove the Worker's Cron Triggers. GitHub's scheduled refreshes remain
+available during the trial.
 
 ## Local development
 
