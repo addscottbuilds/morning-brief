@@ -90,13 +90,6 @@
     alignPager();
   });
   window.addEventListener("resize", alignPager);
-  if ("ResizeObserver" in window) {
-    const nav = document.querySelector(".app-nav");
-    new ResizeObserver(() => {
-      const height = Math.ceil(nav.getBoundingClientRect().height);
-      document.documentElement.style.setProperty("--measured-phone-nav", height + "px");
-    }).observe(nav);
-  }
 
   for (const link of links) {
     link.addEventListener("click", event => {
@@ -104,7 +97,6 @@
       goTo(Number(link.dataset.page), { keepPlace: true });
     });
   }
-  $("goto-news").addEventListener("click", event => { event.preventDefault(); goTo(0); });
   const startPage = routes.indexOf(location.hash);
   goTo(startPage < 0 ? 1 : startPage, { focus: false });
   document.querySelector(".skip-link").addEventListener("click", event => {
@@ -134,7 +126,8 @@
       if(openSheetId!==d.id || d.open)return;
       openSheetId=null;
       if (d.id === "sheet-section" && secondaryRoute()) history.replaceState(null, "", routes[curPage]);
-      if(sheetOpener?.isConnected)sheetOpener.focus();
+      if (sheetOpener?.isConnected && !sheetOpener.closest("[hidden]")) sheetOpener.focus();
+      else if (sheetOpener?.id === "today-deadline") $("open-more").focus();
     });
     d.addEventListener("click",e=>{if(e.target!==d)return;const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeSheet();});
   });
@@ -151,7 +144,7 @@
   });
   const secondarySections = {
     "markets-section": "Markets", "sport-section": "Sport", "deadlines-section": "Coming up",
-    "wotd-section": "Word of the day", "cg-section": "Commonwealth Games",
+    "focus-section": "Your focus", "wotd-section": "Word of the day", "cg-section": "Commonwealth Games",
   };
   function secondaryRoute() {
     const id = location.hash === "#markets" ? "markets-section" : location.hash.slice(1);
@@ -164,6 +157,8 @@
     $("more-section-title").textContent = secondarySections[id];
     if (id === "markets-section") $("market-detail").open = true;
     if (id === "sport-section") $("sport-detail").open = true;
+    if (id === "focus-section") $("focus-section").querySelector("details").open = true;
+    if (id === "deadlines-section") renderDeadlines();
     openSheet("sheet-section", trigger);
   }
   document.querySelectorAll("[data-more-section]").forEach(button =>
@@ -171,7 +166,6 @@
   $("section-bank").append(...Object.keys(secondarySections).map($));
 
   const defaultOrder=["weather-section","news-overview-section","focus-section","markets-section","sport-section","wotd-section","deadlines-section","cg-section"];
-  const sectionNames={"weather-section":"Weather","news-overview-section":"News","focus-section":"Your focus",...secondarySections};
   const todayShortcuts={"markets-section":"today-markets","sport-section":"today-sport"};
   const summaryControl=$("show-today-summaries");
   let sectionOrder;
@@ -179,14 +173,15 @@
   try { summaryControl.checked=localStorage.getItem("mb_today_summaries_v1")==="true"; } catch {}
   if(!Array.isArray(sectionOrder)||sectionOrder.length!==defaultOrder.length||new Set(sectionOrder).size!==defaultOrder.length||sectionOrder.some(id=>!defaultOrder.includes(id)))sectionOrder=[...defaultOrder];
   function todayOrder() {
-    return sectionOrder.filter(id => !Object.hasOwn(secondarySections,id) || summaryControl.checked && Object.hasOwn(todayShortcuts,id));
+    return summaryControl.checked ? sectionOrder.filter(id => Object.hasOwn(todayShortcuts,id)) : [];
   }
   function applyOrder() {
-    const parent=$("page-main").querySelector(".wrap"),footer=parent.querySelector("footer");
     const ordered=todayOrder();
-    Object.values(todayShortcuts).forEach(id=>$(id).hidden=!summaryControl.checked);
-    ordered.forEach(id=>parent.insertBefore($(todayShortcuts[id] || id),footer));
-    $("section-order").innerHTML=ordered.map((id,i)=>'<li><span>'+sectionNames[id]+'</span><button data-move="-1" data-section="'+id+'" aria-label="Move '+sectionNames[id]+' up" '+(i===0?'disabled':'')+'>Up</button><button data-move="1" data-section="'+id+'" aria-label="Move '+sectionNames[id]+' down" '+(i===ordered.length-1?'disabled':'')+'>Down</button></li>').join("");
+    $("today-extras").hidden=!summaryControl.checked;
+    $("today-extras").append(...ordered.map(id=>$(todayShortcuts[id])));
+    $("section-order").hidden=!ordered.length;
+    $("reset-order").hidden=!ordered.length;
+    $("section-order").innerHTML=ordered.map((id,i)=>'<li><span>'+secondarySections[id]+'</span><button data-move="-1" data-section="'+id+'" aria-label="Move '+secondarySections[id]+' up" '+(i===0?'disabled':'')+'>Up</button><button data-move="1" data-section="'+id+'" aria-label="Move '+secondarySections[id]+' down" '+(i===ordered.length-1?'disabled':'')+'>Down</button></li>').join("");
   }
   function saveOrder(){try{localStorage.setItem("mb_section_order_v1",JSON.stringify(sectionOrder));$("order-feedback").textContent="Section order saved on this device.";}catch{$("order-feedback").textContent="Order changed in this tab only; device storage could not save it.";}applyOrder();}
   $("section-order").addEventListener("click",e=>{
@@ -256,10 +251,11 @@
         retry.textContent = "Try again";
       }
       const page = button.closest(".page");
+      const dialog = button.closest("dialog");
       const active = document.activeElement;
-      if (keyboardFocus && !page?.inert && !document.querySelector("dialog[open]") &&
+      if (keyboardFocus && !page?.inert && (dialog ? dialog.open : !document.querySelector("dialog[open]")) &&
           (active === document.body || active === button)) {
-        const heading = page?.querySelector("h1");
+        const heading = page?.querySelector("h1") || dialog?.querySelector(".sheet-head h2");
         const target = button.parentElement.hidden ? (kind === "weather" ? $("wx-loc") : heading) : button;
         if (target) {
           if (target === heading) target.tabIndex = -1;
@@ -272,9 +268,10 @@
   // ---------------------------------------------------------------- header --
   const now = new Date();
   let displayedEditionDay = editionDate.format(now);
-  $("date-line").textContent = now.toLocaleDateString("en-AU", {
+  const localDate = new Intl.DateTimeFormat("en-AU", {
     weekday: "long", day: "numeric", month: "long", year: "numeric",
   });
+  $("date-line").textContent = localDate.format(now);
 
   // shared day number for games + rotations
   window.MB_DAYNUM = Math.max(0, Math.round(
@@ -371,7 +368,11 @@
       $("weather-stamp").textContent = loading ? "Checking the hourly forecast…" : "";
       $("chart-unavailable").hidden = loading;
     }
-    if (state !== "ready") $("weather-priority").hidden = true;
+    if (state !== "ready") {
+      $("weather-priority").hidden = true;
+      if (weatherReport) updateWeatherAdvice(weatherReport.weather);
+      updateWeatherMarker();
+    }
   }
 
   async function loadWeather(force = false) {
@@ -455,10 +456,12 @@
     const uv = day.uv_index_max?.[0];
 
     $("wx-temp").textContent = Math.round(cur.temperature_2m) + "°";
+    $("weather-line").hidden = false;
     $("wx-desc").textContent = Number.isFinite(cur.apparent_temperature)
       ? desc + ". Feels like " + Math.round(cur.apparent_temperature) + "°." : desc;
 
     renderWeatherCharts(w);
+    renderDayline(w.hourly);
     updateWeatherAdvice(w);
 
     const formatHour = value => {
@@ -502,10 +505,14 @@
   });
   selectMetric();
 
-  function updateWeatherAdvice({ current, daily, hourly }) {
+  function updateWeatherAdvice({ current, daily, hourly, utc_offset_seconds }) {
     const clock = weatherTimeline;
+    const currentTime = typeof current.time === "string" ? current.time : "";
+    const forecastDay = daily.time?.[0] || currentTime.slice(0, 10) || hourly.time?.[0]?.slice?.(0, 10);
+    const localNow = Date.now() + utc_offset_seconds * 1000;
+    const sameDay = Number.isFinite(utc_offset_seconds) && Math.abs(utc_offset_seconds) <= 86400 && new Date(localNow).toISOString().slice(0, 10) === forecastDay;
     const hours = clock ? (Date.now() + clock.offset * 1000 - clock.start) / WEATHER_HOUR : NaN;
-    const inRange = hours >= 0 && hours < clock.duration / WEATHER_HOUR;
+    const inRange = sameDay && hours >= 0 && hours < clock.duration / WEATHER_HOUR;
     // Each rain value covers the hour ending at its timestamp. Ignore hours
     // that have already ended, even when they set the whole day's peak.
     const start = inRange ? Math.floor(hours) + 1 : 0;
@@ -523,16 +530,22 @@
     const rain = valid.length ? Math.max(...valid.map(hour => hour.chance)) : null;
     const firstRain = valid.find(hour => hour.chance >= 40);
     const warmest = inRange ? Math.max(current.temperature_2m, ...hourly.temperature_2m.slice(start, end).filter(Number.isFinite)) : null;
-    let advice = "Today’s forecast";
+    let advice = sameDay ? "Today’s forecast" : "Forecast needs a fresh check";
     if (firstRain) advice = firstRain.i === 0 ? "Rain chance in the next hour" : "Rain chance rises by " + forecastTime.format(firstRain.time);
     else if (rain >= 25) advice = "A shower is possible";
     else if (warmest >= 30) advice = "Hot conditions ahead";
     else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
     else if (complete) advice = "Low rain chance ahead";
+    const fresh = sameDay && $("source-weather").dataset.state === "ready";
+    const estimateAge = localNow - Date.parse(currentTime + "Z");
+    $("wx-temp-label").textContent = fresh && estimateAge >= 0 && estimateAge < WEATHER_HOUR ? "now" : "last checked";
+    $("wx-meta").hidden = !sameDay;
+    if (!fresh && sameDay) advice = "Last checked forecast";
+    $("weather-dayline").hidden = !inRange || !$("weather-dayline").children.length;
     const adviceLine = $("wx-advice");
     if (adviceLine.textContent !== advice) adviceLine.textContent = advice;
     const priority = $("weather-priority");
-    const urgent = firstRain?.i === 0 && firstRain.chance >= 60 && $("source-weather").dataset.state === "ready";
+    const urgent = firstRain?.i === 0 && firstRain.chance >= 60 && fresh;
     if (urgent) {
       const text = firstRain.chance + "% rain chance by " + forecastTime.format(firstRain.time) +
         " in " + (weatherReport?.location.name || "your area") + ". Take an umbrella if you are heading out.";
@@ -541,20 +554,50 @@
     priority.hidden = !urgent;
 
     const min = daily.temperature_2m_min?.[0];
-    const dailyRain = daily.precipitation_probability_max?.[0];
-    const rainLabel = complete
-      ? "<span>Rain ahead <b>" + rain + "%</b></span>"
-      : Number.isFinite(dailyRain) ? "<span>All-day rain peak <b>" + dailyRain + "%</b></span>" : "";
+
     const details = `<span>High <b>${Math.round(daily.temperature_2m_max[0])}°</b></span>` +
-      (Number.isFinite(min) ? `<span>Low <b>${Math.round(min)}°</b></span>` : "") + rainLabel;
+      (Number.isFinite(min) ? `<span>Low <b>${Math.round(min)}°</b></span>` : "");
     if ($("wx-meta").innerHTML !== details) $("wx-meta").innerHTML = details;
+  }
+
+  function renderDayline(hourly) {
+    const list = $("weather-dayline");
+    list.replaceChildren();
+    const clock = weatherTimeline;
+    if (!clock || clock.start % (24 * WEATHER_HOUR) !== 0) return;
+    const rainValues = Array.isArray(hourly.precipitation_probability) ? hourly.precipitation_probability : [];
+    for (const [name, start, end] of [["Morning", 6, 12], ["Afternoon", 12, 18], ["Evening", 18, 24]]) {
+      const temperatures = hourly.temperature_2m.slice(start, end);
+      const chances = rainValues.slice(start + 1, end + 1);
+      const haveTemperature = temperatures.length === end - start && temperatures.every(Number.isFinite);
+      const haveRain = chances.length === end - start && chances.every((chance, i) =>
+        Number.isFinite(chance) && chance >= 0 && chance <= 100 &&
+        Date.parse(hourly.time[start + i + 1] + "Z") === clock.start + (start + i + 1) * WEATHER_HOUR);
+      if (!haveTemperature && !haveRain) continue;
+      const row = document.createElement("li");
+      const label = document.createElement("strong");
+      label.textContent = name;
+      row.append(label);
+      if (haveTemperature) {
+        const temperature = document.createElement("span");
+        temperature.className = "period-temp";
+        temperature.textContent = "Up to " + Math.round(Math.max(...temperatures)) + "°";
+        row.append(temperature);
+      }
+      if (haveRain) {
+        const rain = document.createElement("small");
+        rain.textContent = "Up to " + Math.max(...chances) + "% rain";
+        row.append(rain);
+      }
+      list.append(row);
+    }
   }
 
   function updateWeatherMarker() {
     const clock = weatherTimeline;
     const localNow = clock ? Date.now() + clock.offset * 1000 : NaN;
     const fraction = clock ? (localNow - clock.start) / clock.duration : NaN;
-    const inRange = fraction >= 0 && fraction < 1;
+    const inRange = fraction >= 0 && fraction < 1 && $("source-weather").dataset.state === "ready";
     for (const marker of hourlyDetails.querySelectorAll(".weather-now")) {
       marker.hidden = !inRange;
       if (inRange) {
@@ -572,9 +615,18 @@
   });
   function updateClockLabels() {
     if (document.hidden) return;
+    const date = localDate.format(Date.now());
+    if ($("date-line").textContent !== date) {
+      $("date-line").textContent = date;
+      renderDeadlines();
+    }
     if (weatherReport) {
-      updateWeatherAdvice(weatherReport.weather);
-      if (hourlyDetails.open) updateWeatherMarker();
+      if ($("source-weather").dataset.state === "ready" && Date.now() - Date.parse(weatherReport.checkedAt) >= WEATHER_HOUR) {
+        weatherStatus("saved", "Forecast checked " + checkTime(weatherReport.checkedAt) + ". Conditions may have changed.");
+      } else {
+        updateWeatherAdvice(weatherReport.weather);
+        if (hourlyDetails.open) updateWeatherMarker();
+      }
     }
     if (lastData && editionDate.format(Date.now()) !== displayedEditionDay) {
       renderDigestStatus(lastData, digestWasSaved);
@@ -626,7 +678,7 @@
       spark.dataset.description += ". " + highLabel;
       spark.innerHTML =
         '<line x1="0" y1="59" x2="580" y2="59" class="weather-grid"/>' +
-        `<polyline fill="none" stroke="#f5bd70" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" points="${points.map(point => point.map(value => value.toFixed(1)).join(",")).join(" ")}"/>` +
+        `<polyline fill="none" stroke="var(--edition-accent)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" points="${points.map(point => point.map(value => value.toFixed(1)).join(",")).join(" ")}"/>` +
         `<path class="weather-peak" d="M ${x} ${y - 4} l 4 4 l -4 4 l -4 -4 z"/>`;
     }
 
@@ -644,9 +696,9 @@
         '<path class="weather-grid" stroke-dasharray="3 4" d="M0 2h580 M0 22h580"/>' +
         rain.map((chance, i) => {
           const height = Math.max(1.5, (chance / 100) * 40);
-          return `<rect x="${(i * width + 1).toFixed(1)}" y="${(42 - height).toFixed(1)}" width="${(width - 2).toFixed(1)}" height="${height.toFixed(1)}" rx="1.5" fill="${chance >= 40 ? "#9cbce3" : "#6585aa"}"/>`;
+          return `<rect x="${(i * width + 1).toFixed(1)}" y="${(42 - height).toFixed(1)}" width="${(width - 2).toFixed(1)}" height="${height.toFixed(1)}" rx="1.5" fill="${chance >= 40 ? "var(--edition-accent)" : "var(--sky-stroke)"}"/>`;
         }).join("") + '<path class="weather-grid" d="M0 42.5h580"/>' +
-        '<text x="4" y="11" font-size="9" fill="#e7d7c6">100%</text><text x="4" y="31" font-size="9" fill="#e7d7c6">50%</text>';
+        '<text x="4" y="11" font-size="9" fill="var(--ink-soft)">100%</text><text x="4" y="31" font-size="9" fill="var(--ink-soft)">50%</text>';
     }
     chartAvailable = { rain: hasRain, temperature: hasTemperature };
     selectMetric();
@@ -680,13 +732,11 @@
         sourceStatus("digest", "unavailable", message);
         sourceStatus("markets", "unavailable", "No market snapshot available.");
         sourceStatus("deals", "unavailable", "No deals available.");
-        $("updated-line").textContent = "Digest unavailable";
         $("news-updated-line").textContent = "Digest unavailable";
         $("markets-stamp").textContent = "Market snapshot unavailable";
         $("mkt-body").innerHTML = '<tr><td colspan="3">Market data unavailable.</td></tr>';
         $("deals-list").textContent = "Deals are unavailable until the digest loads.";
         window.MorningBriefNews?.showUnavailable({ list: $("news-list"), status: $("news-results-status") });
-        $("news-overview").textContent = "Headlines are unavailable.";
         return;
       }
       d = lastData;
@@ -725,7 +775,6 @@
     const label = savedResponse ? (navigator.onLine ? "Saved edition" : "Saved offline")
       : previousEdition ? "Previous edition" : sameDay ? "Today’s edition" : "Edition";
     const updatedText = label + " · " + (sameDay ? "" : generatedDay + ", ") + time;
-    $("updated-line").textContent = updatedText;
     $("news-updated-line").textContent = updatedText;
     const marketLabel = savedResponse ? "Saved snapshot from " : previousEdition ? "Previous snapshot from " : "Snapshot published ";
     $("markets-stamp").textContent = marketLabel + prepared + ". Quotes may be from an earlier trading session.";
@@ -901,7 +950,6 @@
       $("news-topics").hidden = true;
       $("news-mode").textContent = "";
       window.MorningBriefNews?.render({list: $("news-list"), status: $("news-results-status"), category: null});
-      $("news-overview").innerHTML = '<p class="muted-cell">No headlines in this edition.</p>';
       return;
     }
     newsData = n;
@@ -945,59 +993,6 @@
     }
     if (focusedTopic) [...tabs.children].find(button => button.dataset.category === focusedTopic)?.focus({ preventScroll: true });
     renderStories(activeKey);
-    renderNewsOverview(n);
-  }
-
-  function timeAgo(ts) {
-    if (!ts) return "";
-    const h = (Date.now() - ts) / 3600000;
-    if (h < 1) return `${Math.max(1, Math.round(h * 60))}m ago`;
-    if (h < 24) return `${Math.round(h)}h ago`;
-    return `${Math.round(h / 24)}d ago`;
-  }
-
-  function renderNewsOverview(news) {
-    const top = news.categories.find(category => category.key === "top") || news.categories[0];
-    const overview = $("news-overview");
-    const story = top?.stories?.[0];
-    const hadFocus = overview.contains(document.activeElement);
-    if (!story) {
-      overview.innerHTML = '<p class="muted-cell">No headlines in this edition.</p>';
-      if (hadFocus) $("goto-news").focus({ preventScroll: true });
-      return;
-    }
-    const item = document.createElement("article");
-    item.className = "edition-headline";
-    const heading = document.createElement("h3");
-    const link = document.createElement("a");
-    link.href = "#news";
-    link.className = "headline-link";
-    heading.textContent = story.headline;
-    link.addEventListener("click", event => {
-      event.preventDefault();
-      const tabs = $("news-tabs");
-      const topTab = tabs.querySelector('button[data-category="top"]') || tabs.querySelector("button");
-      topTab?.click();
-      goTo(0);
-      window.MorningBriefNews?.openStory?.(story.id);
-    });
-    const facts = document.createElement("p");
-    facts.className = "headline-meta";
-    const count = story.sources?.length || 0;
-    facts.textContent = [count ? count + (count === 1 ? " source" : " sources") : "", timeAgo(story.ts), story.divergent ? "Coverage differs" : ""].filter(Boolean).join(" · ");
-    link.append(heading);
-    item.append(link);
-    if (typeof story.summary === "string" && story.summary.trim()) {
-      const summary = document.createElement("p");
-      summary.className = "lead-summary";
-      const copy = story.summary.trim();
-      const stop = copy.lastIndexOf(" ", 235);
-      summary.textContent = copy.length <= 235 ? copy : copy.slice(0, stop > 170 ? stop : 235).trimEnd() + "…";
-      item.append(summary);
-    }
-    item.append(facts);
-    overview.replaceChildren(item);
-    if (hadFocus) link.focus({ preventScroll: true });
   }
 
   function renderStories(key) {
@@ -1359,8 +1354,19 @@
     return Math.round((startOfDay(new Date(iso + "T00:00:00")) - startOfDay(new Date())) / 86400000); // round: DST days are 23/25h
   }
 
+  function updateNextUp() {
+    const due = CFG.deadlines.find(entry => entry.title && entry.deadline && daysUntil(entry.deadline) === 0);
+    const section = $("next-up");
+    const button = $("today-deadline");
+    if (!due && !section.hidden && document.activeElement === button) focusPage(routeHeading(1));
+    section.hidden = !due;
+    if (due) button.querySelector("strong").textContent = due.title;
+  }
+
   function renderDeadlines() {
+    updateNextUp();
     const wrap = $("deadline-list");
+    const focusedKey = wrap.contains(document.activeElement) ? document.activeElement.dataset.key : "";
     wrap.innerHTML = "";
     for (const d of CFG.deadlines) {
       const days = d.deadline ? daysUntil(d.deadline) : null;
@@ -1385,7 +1391,13 @@
       wrap.appendChild(item);
 
     }
-    wrap.querySelectorAll(".spent-edit button").forEach(btn => {
+    const progressButtons = [...wrap.querySelectorAll(".spent-edit button")];
+    if (focusedKey) {
+      const replacement = progressButtons.find(button => button.dataset.key === focusedKey);
+      if (replacement) replacement.focus();
+      else focusPage($("deadlines-section").querySelector("h2"));
+    }
+    progressButtons.forEach(btn => {
       btn.addEventListener("click", () => {
         const cur = localStorage.getItem(btn.dataset.key) || "0";
         const v = prompt("Total so far ($):", cur);

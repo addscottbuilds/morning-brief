@@ -7,48 +7,47 @@ import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-const SKY = [0x0e, 0x14, 0x1d];
-const GROUND = [0x16, 0x20, 0x2c];
-const SUN = [0xf2, 0xa6, 0x5a];
-const GLOW = [0x8a, 0x5f, 0x3a];
+// The sunrise mark fits inside the centered 80%-diameter maskable safe zone.
+const SKY = [0x11, 0x39, 0x43];
+const SUN = [0xf2, 0xc4, 0x77];
+const HORIZON = [0xdb, 0xf0, 0xf1];
+const REFLECTION = [0x8d, 0xc9, 0xcd];
+const rays = [
+  [256, 130, 256, 162],
+  [157, 172, 179, 194],
+  [355, 172, 333, 194],
+];
+const lines = [
+  [120, 269, 392, 269, 10, HORIZON],
+  [168, 312, 344, 312, 8, REFLECTION],
+  [207, 351, 305, 351, 6, REFLECTION],
+];
 
-function smooth(edge, x) {
-  // 0 inside, 1 outside, ~1.5px feather
-  const t = Math.min(1, Math.max(0, (x - edge + 0.75) / 1.5));
-  return t;
+function segmentDistance(x, y, [x1, y1, x2, y2]) {
+  const dx = x2 - x1, dy = y2 - y1;
+  const t = Math.max(0, Math.min(1, ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy)));
+  return Math.hypot(x - x1 - dx * t, y - y1 - dy * t);
 }
 
-function renderIcon(S) {
-  const px = Buffer.alloc(S * S * 4);
-  const horizonY = S * 0.66;
-  const cx = S * 0.5, cy = horizonY, r = S * 0.30;
-  const glowR = S * 0.42;
-  for (let y = 0; y < S; y++) {
-    for (let x = 0; x < S; x++) {
-      let c = y >= horizonY ? GROUND : SKY;
-      const d = Math.hypot(x - cx, y - cy);
-      if (y < horizonY) {
-        // soft glow behind the sun
-        const g = smooth(glowR, d);
-        if (g < 1) {
-          const a = (1 - g) * 0.45;
-          c = c.map((v, i) => Math.round(v * (1 - a) + GLOW[i] * a));
-        }
-        // sun disc (semicircle above the horizon)
-        const s = smooth(r, d);
-        if (s < 1) {
-          c = c.map((v, i) => Math.round(v * s + SUN[i] * (1 - s)));
-        }
-      } else {
-        // sun reflection stripe below horizon
-        const inStripe = Math.abs(x - cx) < r * 0.55 && y < horizonY + S * 0.06;
-        if (inStripe) c = c.map((v, i) => Math.round(v * 0.6 + SUN[i] * 0.4));
-      }
-      const o = (y * S + x) * 4;
-      px[o] = c[0]; px[o + 1] = c[1]; px[o + 2] = c[2]; px[o + 3] = 255;
+function renderIcon(size) {
+  const pixels = Buffer.alloc(size * size * 4);
+  const scale = size / 512;
+  const coverage = (distance, radius) => Math.max(0, Math.min(1, 0.5 + (radius - distance) * scale));
+  for (let row = 0; row < size; row++) {
+    for (let column = 0; column < size; column++) {
+      const x = (column + 0.5) / scale, y = (row + 0.5) / scale;
+      let color = SKY;
+      const paint = (ink, alpha) => {
+        if (alpha > 0) color = color.map((value, i) => Math.round(value + (ink[i] - value) * alpha));
+      };
+      if (y <= 269) paint(SUN, coverage(Math.hypot(x - 256, y - 269), 68));
+      for (const ray of rays) paint(SUN, coverage(segmentDistance(x, y, ray), 8));
+      for (const line of lines) paint(line[5], coverage(segmentDistance(x, y, line), line[4]));
+      const offset = (row * size + column) * 4;
+      pixels.set([...color, 255], offset);
     }
   }
-  return px;
+  return pixels;
 }
 
 // --- minimal PNG encoder ---
@@ -89,7 +88,7 @@ function png(S, px) {
   ]);
 }
 
-for (const [size, file] of [[192, "icon-192.png"], [512, "icon-512.png"], [180, "apple-touch-icon.png"]]) {
+for (const [size, file] of [[180, "daylight-180.png"], [192, "daylight-192.png"], [512, "daylight-512.png"]]) {
   writeFileSync(join(root, "icons", file), png(size, renderIcon(size)));
   console.log(`wrote icons/${file}`);
 }

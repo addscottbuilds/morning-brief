@@ -1,6 +1,6 @@
 // Install a coherent app shell for offline use. The digest checks the network
 // and keeps a readable saved copy if that check fails.
-const CACHE = "morning-brief-v36";
+const CACHE = "morning-brief-v37";
 const SHELL = [
   "./edition-v34.html",
   "./css/edition-base.css",
@@ -19,8 +19,9 @@ const SHELL = [
   "./data/crosswords.json",
   "./data/connections.json",
   "./manifest.webmanifest",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
+  "./icons/daylight-180.png",
+  "./icons/daylight-192.png",
+  "./icons/daylight-512.png",
 ];
 
 const SCOPE_URL = new URL(self.registration.scope);
@@ -106,8 +107,8 @@ self.addEventListener("push", e => {
   try { d = e.data ? e.data.json() : {}; } catch { /* plain-text payload */ d = { body: e.data && e.data.text() }; }
   e.waitUntil(self.registration.showNotification(d.title || "Morning Brief", {
     body: d.body || "Your daily brief is ready.",
-    icon: "icons/icon-192.png",
-    badge: "icons/icon-192.png",
+    icon: "icons/daylight-192.png",
+    badge: "icons/daylight-192.png",
     tag: "morning-brief-daily",
   }));
 });

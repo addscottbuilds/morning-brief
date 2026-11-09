@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Morning Brief</title>
-  <meta name="theme-color" content="#0e141d">
+  <meta name="theme-color" content="#fcfdfd">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Brief">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/daylight-180.png">
+  <link rel="icon" sizes="192x192" href="icons/daylight-192.png">
   <script src="js/edition-theme.js"></script>
   <link rel="stylesheet" href="css/edition-base.css">
   <link rel="stylesheet" href="css/edition.css">
@@ -63,23 +63,23 @@
           </svg>
         </div>
         <h1>Today</h1>
-        <div class="masthead-meta"><p class="edition-date" id="date-line">Loading date…</p><p class="updated" id="updated-line">Checking the digest…</p></div>
-        <div class="health-status" id="digest-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
-        <p id="weather-priority" class="weather-priority" role="status" hidden></p>
+        <p class="edition-date" id="date-line">Loading date…</p>
       </header>
 
       <section id="weather-section" class="edition-weather" aria-labelledby="weather-title">
         <h2 id="weather-title" class="visually-hidden">Weather</h2>
-        <div class="weather-line">
-          <button type="button" class="loc loc-btn" id="wx-loc" title="Update your location">Finding location…</button>
-          <span class="wx-temp" id="wx-temp">—</span>
-          <span id="wx-advice" class="weather-advice">Checking your forecast…</span>
-        </div>
+        <button type="button" class="loc loc-btn" id="wx-loc" title="Update your location">Finding location…</button>
         <div class="health-status" id="weather-health" role="status" hidden><span></span><button type="button" data-retry="weather">Try again</button></div>
+        <p id="weather-priority" class="weather-priority" role="status" hidden></p>
+        <p id="wx-advice" class="weather-advice">Checking your forecast…</p>
+        <div class="weather-line" id="weather-line" hidden>
+          <strong><span class="wx-temp" id="wx-temp"></span> <span id="wx-temp-label">now</span></strong>
+          <div class="wx-meta" id="wx-meta"></div>
+        </div>
+        <ol class="weather-dayline" id="weather-dayline" aria-label="Forecast by time of day" hidden></ol>
         <details class="hourly-details">
           <summary>Hourly forecast</summary>
-          <p class="section-stamp" id="weather-stamp">Forecast not checked yet</p>
-          <p class="wx-desc" id="wx-desc"></p><div class="wx-meta" id="wx-meta"></div><div id="weather-observations" class="wx-meta"></div>
+
           <div class="weather-metrics" role="group" aria-label="Hourly forecast metric">
             <button type="button" data-metric="rain" aria-pressed="true">Rain</button>
             <button type="button" data-metric="temperature" aria-pressed="false">Temperature</button>
@@ -102,6 +102,7 @@
             <div class="rain-axis" data-weather-axis aria-hidden="true"></div>
           </figure>
           <details class="hourly-values" hidden><summary>Hourly values</summary><div id="hourly-table" tabindex="0" role="region" aria-label="Hourly forecast table">Forecast not loaded yet.</div></details>
+          <details class="forecast-source"><summary>About this forecast</summary><p class="section-stamp" id="weather-stamp">Forecast not checked yet</p><p class="wx-desc" id="wx-desc"></p><div id="weather-observations" class="wx-meta"></div></details>
         </details>
       </section>
 
@@ -136,10 +137,12 @@
         <div id="cg-upcoming"></div>
       </section>
 
-      <section id="news-overview-section">
-        <h2>Lead story</h2>
-        <div class="news-mini" id="news-overview"><p class="muted-cell">Loading headlines…</p></div>
-        <a class="edition-link" id="goto-news" href="#news">More headlines</a>
+      <section class="next-up" id="next-up" aria-labelledby="next-up-title" hidden>
+        <h2 id="next-up-title">Next up</h2>
+        <button type="button" class="next-up-link" id="today-deadline" data-more-section="deadlines-section">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 3v6m8-6v6M4 11h16m-11 4h4"/></svg>
+          <span><strong></strong><small>Due today</small></span><span class="next-up-arrow" aria-hidden="true">›</span>
+        </button>
       </section>
 
       <section id="markets-section">
@@ -180,11 +183,10 @@
         </details>
       </section>
 
-      <button type="button" class="today-shortcut" id="today-markets" data-more-section="markets-section" hidden>Markets <span></span></button>
-      <button type="button" class="today-shortcut" id="today-sport" data-more-section="sport-section" hidden>Sport <span></span></button>
-      <footer>
-        <p>Your focus and game progress stay on this device.</p>
-      </footer>
+      <div class="today-extras" id="today-extras" hidden>
+        <button type="button" class="today-shortcut" id="today-markets" data-more-section="markets-section">Markets <span></span></button>
+        <button type="button" class="today-shortcut" id="today-sport" data-more-section="sport-section">Sport <span></span></button>
+      </div>
     </div>
   </div>
 
@@ -247,10 +249,12 @@
 <dialog class="sheet edition-sheet" id="sheet-more" aria-labelledby="more-title">
   <div class="wrap sheet-wrap">
     <div class="sheet-head"><h2 id="more-title">More</h2><button type="button" class="sheet-close" aria-label="Close menu">×</button></div>
-    <h3>Read and explore</h3>
+    <h3>Plan</h3>
+    <button type="button" class="menu-choice" data-more-section="deadlines-section">Coming up</button>
+    <button type="button" class="menu-choice" data-more-section="focus-section">Your focus</button>
+    <h3>Explore</h3>
     <button type="button" class="menu-choice" data-more-section="markets-section">Markets</button>
     <button type="button" class="menu-choice" data-more-section="sport-section">Sport</button>
-    <button type="button" class="menu-choice" data-more-section="deadlines-section">Coming up</button>
     <button type="button" class="menu-choice" data-more-section="wotd-section">Word of the day</button>
     <button type="button" class="menu-choice" data-more-section="cg-section" hidden>Commonwealth Games</button>
     <button type="button" class="menu-choice" id="more-deals">Deals</button>
@@ -272,6 +276,7 @@
   <div class="wrap sheet-wrap">
     <div class="sheet-head"><h2 id="data-status-title">Data status</h2><button type="button" class="sheet-close" aria-label="Close data status">×</button></div>
     <p>These times tell you when the source was checked or its information was prepared.</p>
+    <div class="health-status" id="digest-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
     <dl class="source-ledger">
       <div><dt>News digest</dt><dd id="source-digest" data-state="loading">Checking for the latest digest…</dd></div>
       <div><dt>Weather · Open-Meteo</dt><dd id="source-weather" data-state="loading">Checking the forecast…</dd></div>
@@ -314,7 +319,7 @@
         <label><input type="radio" name="appearance" value="night"><span>Night</span></label>
       </div>
     </fieldset>
-    <div class="set-group"><h2 class="set-h">Today’s section order</h2><p class="sub-note">Move sections to suit your morning. Full modules are in More.</p><label class="today-summaries"><input type="checkbox" id="show-today-summaries"> Show Markets and Sport summaries on Today</label><ol id="section-order"></ol><button class="page-link" id="reset-order">Reset section order</button><p id="order-feedback" role="status"></p></div><div class="set-group">
+    <div class="set-group"><h2 class="set-h">Today</h2><p class="sub-note">Add the summaries you want after the forecast. Full modules are in More.</p><label class="today-summaries"><input type="checkbox" id="show-today-summaries"> Show Markets and Sport summaries on Today</label><ol id="section-order"></ol><button class="page-link" id="reset-order">Reset section order</button><p id="order-feedback" role="status"></p></div><div class="set-group">
       <div class="set-h">Notifications</div>
       <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
       <div class="sub-note" id="push-note" hidden></div>

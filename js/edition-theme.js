@@ -12,7 +12,7 @@
   function apply() {
     const night = preference === "night" || (preference === "system" && system.matches);
     root.dataset.editionTheme = night ? "night" : "day";
-    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", night ? "#101923" : "#f7f1e5");
+    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", night ? "#142228" : "#fcfdfd");
   }
   apply();
   system.addEventListener("change", apply);
