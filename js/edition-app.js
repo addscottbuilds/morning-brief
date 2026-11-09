@@ -262,7 +262,7 @@
       if (keyboardFocus && !page?.inert && (dialog ? dialog.open : !document.querySelector("dialog[open]")) &&
           (active === document.body || active === button)) {
         const heading = page?.querySelector("h1") || dialog?.querySelector(".sheet-head h2");
-        const target = button.parentElement.hidden ? (kind === "weather" ? $("wx-loc") : heading) : button;
+        const target = button.closest("[hidden]") ? (kind === "weather" ? $("wx-loc") : heading) : button;
         if (target) {
           if (target === heading) target.tabIndex = -1;
           target.focus({ preventScroll: true });
@@ -314,7 +314,36 @@
   // Use a recent saved location without prompting again. Keep its origin
   // distinguishable from the configured default when permission is unavailable.
   const LOC_MAX_AGE = 7 * 24 * 3600 * 1000;
-  let weatherReport, weatherRequest, weatherRetryLocation;
+  const WEATHER_SNAPSHOT = "mb_weather_snapshot_v1";
+  const weatherCheckedTime = new Intl.DateTimeFormat("en-AU", {
+    weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit",
+  });
+  const forecastDate = new Intl.DateTimeFormat("en-AU", {
+    weekday: "short", day: "numeric", month: "short", year: "numeric", timeZone: "UTC",
+  });
+  let weatherReport, weatherRequest, weatherRetryLocation, locationChange;
+
+  function usableWeather(weather) {
+    if (!Number.isFinite(weather?.current?.temperature_2m) ||
+        !Number.isFinite(weather.daily?.temperature_2m_max?.[0]) ||
+        !Array.isArray(weather.hourly?.temperature_2m)) return false;
+    const { hourly } = weather;
+    if (hourly.time != null && (!Array.isArray(hourly.time) ||
+        hourly.time.some(time => time != null && typeof time !== "string"))) return false;
+    const { hasTemperature, hasRain } = forecastSeries(hourly);
+    return hasTemperature || hasRain;
+  }
+
+  function restoreWeather() {
+    let saved;
+    try { saved = safeParse(localStorage.getItem(WEATHER_SNAPSHOT)); } catch { return; }
+    if (!usableWeather(saved?.weather) || !Number.isFinite(Date.parse(saved.checkedAt)) ||
+        !Number.isFinite(saved.location?.lat) || !Number.isFinite(saved.location?.lon) ||
+        (saved.location.name != null && typeof saved.location.name !== "string")) return;
+    weatherReport = saved;
+    setWeatherLocation(saved.location);
+    renderWeather(saved, "saved");
+  }
 
   function getLocation(force) {
     let cached;
@@ -365,20 +394,30 @@
     $("wx-loc").setAttribute("aria-label", "Update weather location. Showing " + label);
   }
 
-  function weatherStatus(state, message) {
+  function weatherStatus(state, message, quiet = false) {
     const loading = state === "loading";
-    health("weather-health", loading && !weatherReport ? "" : message);
+    const noSavedForecast = !navigator.onLine && state === "unavailable" && !weatherReport;
+    const banner = quiet || loading || !navigator.onLine ? "" : message;
+    health("weather-health", banner);
     $("weather-health").querySelector("button").hidden = loading;
     sourceStatus("weather", state, message);
+    const note = $("wx-saved-note");
+    const stamp = $("wx-saved-stamp");
+    note.hidden = !noSavedForecast && (!weatherReport || state === "ready");
+    $("wx-saved-retry").hidden = !navigator.onLine || state !== "saved" || Boolean(banner);
+    if (noSavedForecast) {
+      $("wx-advice").textContent = "No saved forecast";
+      stamp.textContent = "Open Morning Brief online to save a forecast.";
+    } else if (!note.hidden) {
+      stamp.textContent = "Checked " + weatherCheckedTime.format(new Date(weatherReport.checkedAt));
+    }
     if (!weatherReport) {
       $("weather-stamp").textContent = loading ? "Checking the hourly forecast…" : "";
       $("chart-unavailable").hidden = loading;
     }
-    if (state !== "ready") {
-      $("weather-priority").hidden = true;
-      if (weatherReport) updateWeatherAdvice(weatherReport.weather);
-      updateWeatherMarker();
-    }
+    if (state !== "ready") $("weather-priority").hidden = true;
+    if (weatherReport) updateWeatherAdvice(weatherReport.weather);
+    updateWeatherMarker();
   }
 
   async function loadWeather(force = false) {
@@ -406,9 +445,7 @@
       const response = await fetch(url, { signal });
       if (!response.ok) throw new Error("Forecast request failed");
       const data = await response.json();
-      if (!Number.isFinite(data.current?.temperature_2m) ||
-          !Number.isFinite(data.daily?.temperature_2m_max?.[0]) ||
-          !Array.isArray(data.hourly?.temperature_2m)) throw new Error("Forecast is incomplete");
+      if (!usableWeather(data)) throw new Error("Forecast is incomplete");
       weather = data;
     } catch {
       // Keep the last complete report below.
@@ -440,12 +477,19 @@
     weatherRetryLocation = null;
     const checkedAt = new Date().toISOString();
     weatherReport = { location: loc, checkedAt, weather };
+    try { localStorage.setItem(WEATHER_SNAPSHOT, JSON.stringify(weatherReport)); } catch {}
     setWeatherLocation(loc);
-    renderWeather(weatherReport);
+    renderWeather(weatherReport, navigator.onLine ? "ready" : "saved");
   }
 
-  function renderWeather({ location, checkedAt, weather: w }) {
-    health("weather-health", "");
+  async function updateWeatherLocation() {
+    const change = loadWeather(true);
+    locationChange = change;
+    try { await change; }
+    finally { if (locationChange === change) locationChange = null; }
+  }
+
+  function renderWeather({ location, checkedAt, weather: w }, state) {
     const modelTime = typeof w.current.time === "string"
       ? (w.current.time.replace("T", " ") + " " + (w.timezone_abbreviation || "")).trim()
       : "";
@@ -454,8 +498,7 @@
     const checked = place + (location.name || "Your location") + ". Checked " + checkTime(checkedAt) +
       (modelTime ? ". Model estimate at " + modelTime + "." : ".");
     $("weather-stamp").textContent = "Open-Meteo. " + checked;
-    sourceStatus("weather", "ready", checked);
-    $("hourly-table").innerHTML = '<table><caption>Today’s hourly forecast</caption><thead><tr><th>Time</th><th>Temperature</th><th>Rain chance</th></tr></thead><tbody>' + w.hourly.temperature_2m.slice(0,24).map((t,i) => `<tr><td>${esc((w.hourly.time?.[i] || "").split("T")[1] || i + ":00")}</td><td>${Number.isFinite(t) ? round1(t) + "°C" : "Unavailable"}</td><td>${Number.isFinite(w.hourly.precipitation_probability?.[i]) ? w.hourly.precipitation_probability[i] + "%" : "Unavailable"}</td></tr>`).join("") + '</tbody></table>';
+    $("hourly-table").innerHTML = '<table><caption>Hourly forecast</caption><thead><tr><th>Time</th><th>Temperature</th><th>Rain chance</th></tr></thead><tbody>' + w.hourly.temperature_2m.slice(0,24).map((t,i) => `<tr><td>${esc((w.hourly.time?.[i] || "").split("T")[1] || i + ":00")}</td><td>${Number.isFinite(t) ? round1(t) + "°C" : "Unavailable"}</td><td>${Number.isFinite(w.hourly.precipitation_probability?.[i]) ? w.hourly.precipitation_probability[i] + "%" : "Unavailable"}</td></tr>`).join("") + '</tbody></table>';
     hourlyDetails.querySelector(".hourly-values").hidden = false;
     const cur = w.current, day = w.daily;
     const [desc] = WMO[cur.weather_code] || ["Current conditions"];
@@ -468,7 +511,7 @@
 
     renderWeatherCharts(w);
     renderDayline(w.hourly);
-    updateWeatherAdvice(w);
+    weatherStatus(state, checked, true);
 
     const formatHour = value => {
       const local = typeof value === "string" ? value.split("T")[1] : "";
@@ -514,7 +557,9 @@
   function updateWeatherAdvice({ current, daily, hourly, utc_offset_seconds }) {
     const clock = weatherTimeline;
     const currentTime = typeof current.time === "string" ? current.time : "";
-    const forecastDay = daily.time?.[0] || currentTime.slice(0, 10) || hourly.time?.[0]?.slice?.(0, 10);
+    const forecastDay = daily.time?.[0] || currentTime.slice(0, 10) || hourly.time?.[0]?.slice(0, 10);
+    const date = Date.parse(forecastDay + "T00:00:00Z");
+    const dateLabel = Number.isFinite(date) ? forecastDate.format(date) : "";
     const localNow = Date.now() + utc_offset_seconds * 1000;
     const sameDay = Number.isFinite(utc_offset_seconds) && Math.abs(utc_offset_seconds) <= 86400 && new Date(localNow).toISOString().slice(0, 10) === forecastDay;
     const hours = clock ? (Date.now() + clock.offset * 1000 - clock.start) / WEATHER_HOUR : NaN;
@@ -542,18 +587,24 @@
     else if (warmest >= 30) advice = "Hot conditions ahead";
     else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
     else if (complete) advice = "Low rain chance ahead";
-    const fresh = sameDay && $("source-weather").dataset.state === "ready";
+    const state = $("source-weather").dataset.state;
+    const fresh = sameDay && state === "ready" && navigator.onLine;
+    const saved = state === "saved" || (state === "loading" && Boolean(weatherReport));
     const dry = fresh && complete && rain === 0 && warmest < 30 && current.temperature_2m > 8;
     if (dry) {
       advice = localNow < midnight - 6 * WEATHER_HOUR ? "Dry through this evening" : "Dry for the rest of today";
     }
     const estimateAge = localNow - Date.parse(currentTime + "Z");
     $("wx-temp-label").textContent = fresh && estimateAge >= 0 && estimateAge < WEATHER_HOUR ? "now" : "last checked";
-    $("wx-meta").hidden = !sameDay;
-    if (!fresh && sameDay) advice = "Last checked forecast";
+    $("wx-meta").hidden = !sameDay && !(saved && dateLabel);
+    if (saved) advice = dateLabel && !sameDay ? "Saved forecast for " + dateLabel : "Saved forecast";
+    else if (!fresh && sameDay) advice = "Last checked forecast";
     const dayline = $("weather-dayline");
-    dayline.hidden = !inRange || !dayline.children.length;
+    dayline.hidden = (!inRange && !(saved && dateLabel)) || !dayline.children.length;
     dayline.toggleAttribute("data-dry", dry);
+    const caption = $("hourly-table").querySelector("caption");
+    const captionText = dateLabel ? "Hourly forecast for " + dateLabel : "Hourly forecast";
+    if (caption && caption.textContent !== captionText) caption.textContent = captionText;
     const adviceLine = $("wx-advice");
     if (adviceLine.textContent !== advice) adviceLine.textContent = advice;
     const priority = $("weather-priority");
@@ -611,7 +662,7 @@
     const clock = weatherTimeline;
     const localNow = clock ? Date.now() + clock.offset * 1000 : NaN;
     const fraction = clock ? (localNow - clock.start) / clock.duration : NaN;
-    const inRange = fraction >= 0 && fraction < 1 && $("source-weather").dataset.state === "ready";
+    const inRange = fraction >= 0 && fraction < 1 && $("source-weather").dataset.state === "ready" && navigator.onLine;
     for (const marker of hourlyDetails.querySelectorAll(".weather-now")) {
       marker.hidden = !inRange;
       if (inRange) {
@@ -637,7 +688,7 @@
     }
     if (weatherReport) {
       if ($("source-weather").dataset.state === "ready" && Date.now() - Date.parse(weatherReport.checkedAt) >= WEATHER_HOUR) {
-        weatherStatus("saved", "Forecast checked " + checkTime(weatherReport.checkedAt) + ". Conditions may have changed.");
+        weatherStatus("saved", "Forecast checked " + checkTime(weatherReport.checkedAt) + ". Conditions may have changed.", true);
       } else {
         updateWeatherAdvice(weatherReport.weather);
         if (hourlyDetails.open) updateWeatherMarker();
@@ -650,10 +701,16 @@
   setInterval(updateClockLabels, 60_000);
   document.addEventListener("visibilitychange", updateClockLabels);
 
-  function renderWeatherCharts(weather) {
-    const { hourly, utc_offset_seconds: offset } = weather;
+  function forecastSeries(hourly) {
     const temps = hourly.temperature_2m.slice(0, 24);
     const rain = Array.isArray(hourly.precipitation_probability) ? hourly.precipitation_probability.slice(0, 24) : [];
+    return { temps, rain, hasTemperature: temps.length >= 2 && temps.every(Number.isFinite),
+      hasRain: rain.length > 0 && rain.every(chance => Number.isFinite(chance) && chance >= 0 && chance <= 100) };
+  }
+
+  function renderWeatherCharts(weather) {
+    const { hourly, utc_offset_seconds: offset } = weather;
+    const { temps, rain, hasTemperature, hasRain } = forecastSeries(hourly);
     const count = Math.max(temps.length, rain.length);
     // Open-Meteo timestamps use the forecast location's fixed UTC offset.
     const times = Array.isArray(hourly.time) ? hourly.time.slice(0, count).map(time => Date.parse(time + "Z")) : [];
@@ -674,7 +731,6 @@
     }
 
     const spark = $("wx-spark");
-    const hasTemperature = temps.length >= 2 && temps.every(Number.isFinite);
     spark.dataset.description = "Hourly temperature";
     if (hasTemperature) {
       const low = Math.min(...temps);
@@ -698,7 +754,6 @@
     }
 
     const rainGraph = $("wx-rain");
-    const hasRain = rain.length > 0 && rain.every(Number.isFinite);
     rainGraph.dataset.description = "Hourly rain chance";
     if (hasRain) {
       const peak = Math.max(...rain);
@@ -779,6 +834,7 @@
   }
 
   function renderDigestStatus(d, savedResponse) {
+    savedResponse ||= !navigator.onLine;
     const generated = new Date(d.generatedAt);
     const current = new Date();
     displayedEditionDay = editionDate.format(current);
@@ -800,7 +856,7 @@
     $("markets-stamp").textContent = marketLabel + prepared + ". Quotes may be from an earlier trading session.";
     const warning = savedResponse ? "Showing the saved edition from " + prepared + "."
       : previousEdition ? "Today’s edition hasn’t arrived yet. Showing the previous edition." : "";
-    for (const id of ["digest-health", "news-health"]) health(id, warning);
+    for (const id of ["digest-health", "news-health"]) health(id, navigator.onLine ? warning : "");
     sourceStatus("digest", digestState, savedResponse ? warning : "Prepared " + prepared + ".");
     if (d.markets.items.some(item => Number.isFinite(item?.price))) {
       sourceStatus("markets", digestState, $("markets-stamp").textContent);
@@ -1708,17 +1764,39 @@
   // ----------------------------------------------------------------- init --
   $("games-date-line").textContent =
     `Puzzle #${(window.MB_DAYNUM || 0) + 1} · new puzzles daily`;
-  $("wx-loc").addEventListener("click", () => loadWeather(true));
+  $("wx-loc").addEventListener("click", updateWeatherLocation);
   $("set-loc").addEventListener("click", () => {
     leaveSheet(1);
-    loadWeather(true);
+    updateWeatherLocation();
   });
   renderDeadlines();
   renderFocus();
   window.addEventListener("storage", event => {
     if (event.key === "mb_focus") renderFocus();
   });
-  loadWeather();
+  const offlineTags = document.querySelectorAll(".offline-tag");
+  function showConnection(announceOnline = false) {
+    const offline = !navigator.onLine;
+    for (const tag of offlineTags) tag.hidden = !offline;
+    $("connection-announcement").textContent = offline ? "Offline" : announceOnline ? "Back online" : "";
+    if (!offline) return;
+    if (lastData) renderDigestStatus(lastData, digestWasSaved);
+    if (weatherReport) weatherStatus("saved", "Showing the saved forecast.", true);
+    else {
+      if ($("source-weather").dataset.state === "loading") $("wx-loc").textContent = "Weather location";
+      weatherStatus("unavailable", "Open the forecast online to save a copy.");
+    }
+  }
+  window.addEventListener("offline", () => showConnection());
+  window.addEventListener("online", async () => {
+    showConnection(true);
+    if (!locationChange) loadWeather();
+    await digestCheck;
+    if (navigator.onLine) loadData();
+  });
+  restoreWeather();
+  showConnection();
+  if (navigator.onLine) loadWeather();
   loadData();
   loadSports();
 })();
