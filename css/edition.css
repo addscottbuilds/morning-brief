@@ -64,6 +64,7 @@ button, input, select { font: inherit; }
 a { color: var(--edition-accent); }
 :focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 3px; }
 h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
+#pager .page [data-pointer-focus]:focus { outline: none; }
 :where(h1, h2, h3, a, p) { overflow-wrap: anywhere; }
 .visually-hidden {
   position: absolute;
@@ -223,6 +224,7 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
 .weather-dayline strong { font-size: .85rem; }
 .weather-dayline .period-temp { font-size: .9rem; font-weight: 690; font-variant-numeric: tabular-nums; }
 .weather-dayline small { color: var(--ink-soft); font-size: .78rem; }
+.weather-dayline[data-dry] .dry-period { display: none; }
 .edition-weather .hourly-details { border-top: 1px solid var(--sky-rule); }
 .edition-weather .hourly-details summary { color: var(--edition-accent); font-size: .91rem; font-weight: 710; }
 .edition-weather .hourly-details[open] { padding-bottom: 8px; }
@@ -336,6 +338,17 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   font-size: 1.4rem;
 }
 .focus-row .del:hover { color: var(--negative); }
+.focus-today-choice { display: grid; gap: 4px; margin-block: 8px; color: var(--ink-soft); font-size: .9rem; }
+.focus-today-choice select {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 6px 8px;
+  border: 1px solid var(--input-edge);
+  border-radius: 7px;
+  background: var(--paper);
+  color: var(--ink);
+}
 .focus-add { display: flex; gap: 7px; }
 .focus-add input {
   border: 1px solid var(--input-edge);
@@ -387,6 +400,53 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
 .next-up-link small { margin-top: 2px; color: var(--ink-soft); font-size: .85rem; }
 .next-up-arrow { color: var(--edition-accent); font-size: 1.5rem; }
 .next-up-link:hover strong { text-decoration: underline; }
+.today-news, .today-word {
+  grid-column: 1/-1;
+  min-width: 0;
+  border-block-start: 1px solid var(--rule);
+  padding-block-start: 11px;
+}
+.today-label, #page-main .today-word .today-label {
+  color: var(--edition-accent);
+  font: 720 .86rem/1.3 var(--edition-sans);
+}
+#page-main .today-news h2 {
+  margin-block: 5px 4px;
+  font: 700 clamp(1.3rem, 4.8vw, 1.72rem)/1.16 var(--edition-serif);
+  letter-spacing: -.024em;
+  text-wrap: balance;
+}
+#today-story-link {
+  display: inline-block;
+  align-content: center;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  text-align: start;
+  cursor: pointer;
+  text-decoration: none;
+}
+#today-story-link:hover { text-decoration: underline; }
+#today-story-summary, .today-word-edition { color: var(--ink-soft); font-size: .9rem; }
+#today-story-summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.today-news-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 14px;
+  color: var(--ink-soft);
+  font-size: .82rem;
+}
+#back-to-today-story { scroll-margin-block-start: 12px; }
+.today-word .next-up-link { grid-template-columns: minmax(0, 1fr) auto; }
 .today-extras { grid-column: 1/-1; display: flex; flex-wrap: wrap; gap: 8px; }
 .today-shortcut {
   min-height: 44px;
@@ -500,7 +560,8 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
     border-radius: 0;
     box-shadow: none;
     background: var(--paper);
-    padding-inline: max(8px, var(--safe-left)) max(8px, var(--safe-right));
+    padding-inline: max(19px, var(--safe-left)) max(19px, var(--safe-right));
+    padding-block-end: max(16px, var(--safe-bottom));
   }
   .app-nav a, .app-nav button {
     flex-direction: column;
@@ -513,8 +574,12 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   }
   .app-nav svg { width: 20px; height: 20px; }
   #page-main > .wrap { gap: 13px; }
-  #page-main > .wrap, #page-news > .wrap, #page-games > .wrap { padding-top: 16px; }
-  .edition-masthead { padding-block: 3px 0; }
+  #page-main > .wrap, #page-news > .wrap, #page-games > .wrap { padding-top: 28px; }
+  .edition-masthead { padding-block: 0; }
+  .edition-masthead h1 { margin-block-start: 0; }
+  .edition-title-row, #page-games > .wrap > header > .eyebrow { display: none; }
+  #page-games > .wrap > header { padding-block-start: 0; }
+  #page-games > .wrap > header > h1 { margin-block-start: 0; }
   #page-main .next-up { border-inline-start: 0; padding-inline-start: 0; }
 
   .health-status { gap: 6px; }

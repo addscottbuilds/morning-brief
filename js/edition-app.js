@@ -9,6 +9,7 @@
   const pager = $("pager");
   const pages = [...pager.querySelectorAll(".page")];
   const links = [...document.querySelectorAll(".app-nav a")];
+  const backToTodayStory = $("back-to-today-story");
   const phoneLayout = matchMedia("(max-width: 760px), (max-width: 950px) and (pointer: coarse)");
   const routes = ["#news", "#today", "#games"];
   let curPage = 1;
@@ -16,6 +17,7 @@
 
   function showPage(index) {
     curPage = index;
+    if (index !== 0) backToTodayStory.hidden = true;
     pages.forEach((page, i) => {
       page.hidden = !phoneLayout.matches && i !== index;
       page.inert = i !== index;
@@ -37,22 +39,24 @@
     return pages[index].querySelector("h1");
   }
 
-  function focusPage(target) {
+  function focusPage(target, pointer = false) {
     target.tabIndex = -1;
+    target.toggleAttribute("data-pointer-focus", pointer);
     target.focus({ preventScroll: true });
   }
+  pager.addEventListener("focusout", event => event.target.removeAttribute("data-pointer-focus"));
 
   const desktopScroll = new Map();
 
-  function focusVisiblePage(index) {
+  function focusVisiblePage(index, pointer) {
     const heading = routeHeading(index);
     const title = heading.getBoundingClientRect();
     const pane = phoneLayout.matches ? pages[index].getBoundingClientRect() : { top: 0, bottom: innerHeight };
-    if (title.top >= pane.top && title.bottom <= pane.bottom) focusPage(heading);
+    if (title.top >= pane.top && title.bottom <= pane.bottom) focusPage(heading, pointer);
     else links.find(link => link.getAttribute("aria-current") === "page")?.focus({ preventScroll: true });
   }
 
-  function goTo(index, { focus = true, keepPlace = false } = {}) {
+  function goTo(index, { focus = true, keepPlace = false, pointer = false } = {}) {
     const switching = index !== curPage;
     if (switching && !phoneLayout.matches) desktopScroll.set(curPage, window.scrollY);
     showPage(index);
@@ -64,7 +68,7 @@
     const restorePlace = keepPlace && switching;
     if (!phoneLayout.matches) window.scrollTo({ top: restorePlace ? desktopScroll.get(index) || 0 : 0, behavior: "instant" });
     else if (!restorePlace) pages[index].scrollTo({ top: 0, behavior: "instant" });
-    focusVisiblePage(index);
+    focusVisiblePage(index, pointer);
   }
 
   function settleSwipe() {
@@ -74,7 +78,7 @@
     const focusWasOnOldPage = pages[curPage].contains(document.activeElement);
     showPage(index);
     history.replaceState(null, "", routes[index]);
-    if (focusWasOnOldPage) focusVisiblePage(index);
+    if (focusWasOnOldPage) focusVisiblePage(index, true);
   }
 
   pager.addEventListener("scroll", () => {
@@ -94,7 +98,8 @@
   for (const link of links) {
     link.addEventListener("click", event => {
       event.preventDefault();
-      goTo(Number(link.dataset.page), { keepPlace: true });
+      backToTodayStory.hidden = true;
+      goTo(Number(link.dataset.page), { keepPlace: true, pointer: event.detail > 0 });
     });
   }
   const startPage = routes.indexOf(location.hash);
@@ -127,7 +132,8 @@
       openSheetId=null;
       if (d.id === "sheet-section" && secondaryRoute()) history.replaceState(null, "", routes[curPage]);
       if (sheetOpener?.isConnected && !sheetOpener.closest("[hidden]")) sheetOpener.focus();
-      else if (sheetOpener?.id === "today-deadline") $("open-more").focus();
+      else if (sheetOpener?.id === "today-deadline") $("today-focus").focus();
+      else if (sheetOpener?.id === "today-word-link") $("today-news-edition").focus();
     });
     d.addEventListener("click",e=>{if(e.target!==d)return;const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeSheet();});
   });
@@ -144,7 +150,7 @@
   });
   const secondarySections = {
     "markets-section": "Markets", "sport-section": "Sport", "deadlines-section": "Coming up",
-    "focus-section": "Your focus", "wotd-section": "Word of the day", "cg-section": "Commonwealth Games",
+    "focus-section": "Your focus", "wotd-section": "Word of the Day", "cg-section": "Commonwealth Games",
   };
   function secondaryRoute() {
     const id = location.hash === "#markets" ? "markets-section" : location.hash.slice(1);
@@ -537,11 +543,17 @@
     else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
     else if (complete) advice = "Low rain chance ahead";
     const fresh = sameDay && $("source-weather").dataset.state === "ready";
+    const dry = fresh && complete && rain === 0 && warmest < 30 && current.temperature_2m > 8;
+    if (dry) {
+      advice = localNow < midnight - 6 * WEATHER_HOUR ? "Dry through this evening" : "Dry for the rest of today";
+    }
     const estimateAge = localNow - Date.parse(currentTime + "Z");
     $("wx-temp-label").textContent = fresh && estimateAge >= 0 && estimateAge < WEATHER_HOUR ? "now" : "last checked";
     $("wx-meta").hidden = !sameDay;
     if (!fresh && sameDay) advice = "Last checked forecast";
-    $("weather-dayline").hidden = !inRange || !$("weather-dayline").children.length;
+    const dayline = $("weather-dayline");
+    dayline.hidden = !inRange || !dayline.children.length;
+    dayline.toggleAttribute("data-dry", dry);
     const adviceLine = $("wx-advice");
     if (adviceLine.textContent !== advice) adviceLine.textContent = advice;
     const priority = $("weather-priority");
@@ -586,7 +598,9 @@
       }
       if (haveRain) {
         const rain = document.createElement("small");
-        rain.textContent = "Up to " + Math.max(...chances) + "% rain";
+        const peak = Math.max(...chances);
+        rain.textContent = "Up to " + peak + "% rain";
+        rain.classList.toggle("dry-period", haveTemperature && peak === 0);
         row.append(rain);
       }
       list.append(row);
@@ -619,6 +633,7 @@
     if ($("date-line").textContent !== date) {
       $("date-line").textContent = date;
       renderDeadlines();
+      updateTodayFocus(focusLoad());
     }
     if (weatherReport) {
       if ($("source-weather").dataset.state === "ready" && Date.now() - Date.parse(weatherReport.checkedAt) >= WEATHER_HOUR) {
@@ -733,6 +748,7 @@
         sourceStatus("markets", "unavailable", "No market snapshot available.");
         sourceStatus("deals", "unavailable", "No deals available.");
         $("news-updated-line").textContent = "Digest unavailable";
+        $("today-news-edition").textContent = "News unavailable";
         $("markets-stamp").textContent = "Market snapshot unavailable";
         $("mkt-body").innerHTML = '<tr><td colspan="3">Market data unavailable.</td></tr>';
         $("deals-list").textContent = "Deals are unavailable until the digest loads.";
@@ -776,6 +792,10 @@
       : previousEdition ? "Previous edition" : sameDay ? "Today’s edition" : "Edition";
     const updatedText = label + " · " + (sameDay ? "" : generatedDay + ", ") + time;
     $("news-updated-line").textContent = updatedText;
+    $("today-news-edition").textContent = !savedResponse && sameDay ? "News updated at " + time : updatedText;
+    const reusedWord = d.wotd?.carried === true;
+    $("today-word-edition").textContent = reusedWord ? "Word from a previous edition" : updatedText;
+    $("today-word-edition").hidden = !reusedWord && !savedResponse && sameDay;
     const marketLabel = savedResponse ? "Saved snapshot from " : previousEdition ? "Previous snapshot from " : "Snapshot published ";
     $("markets-stamp").textContent = marketLabel + prepared + ". Quotes may be from an earlier trading session.";
     const warning = savedResponse ? "Showing the saved edition from " + prepared + "."
@@ -855,16 +875,19 @@
   }
 
   function renderWotd(w) {
-    if (!w || !w.word) return;
-    $("wotd-section").hidden = false;
+    const available = typeof w?.word === "string" && w.word.trim();
+    if (!available && document.activeElement === $("today-word-link")) $("today-news-edition").focus();
+    $("today-word").hidden = $("wotd-section").hidden = !available;
+    if (!available) return;
+    const preview = $("today-word-link");
+    preview.querySelector("strong").textContent = w.word;
+    preview.querySelector("small").textContent = w.def || "Open word details";
     $("wotd-word").textContent = w.word;
     $("wotd-phon").textContent = w.phonetic || "";
     $("wotd-pos").textContent = w.pos || "";
     $("wotd-def").textContent = w.def;
-    if (w.example) {
-      $("wotd-ex").hidden = false;
-      $("wotd-ex").textContent = "“" + w.example + "”";
-    }
+    $("wotd-ex").hidden = !w.example;
+    $("wotd-ex").textContent = w.example ? "“" + w.example + "”" : "";
     const btn = $("wotd-audio");
     btn.hidden = false;
     const clip = w.audio ? new Audio(w.audio) : null;
@@ -942,10 +965,15 @@
 
   function renderNews(n) {
     // tolerate the pre-tabs data shape from a cached data.json
-    if (n && n.stories && !n.categories) {
+    if (Array.isArray(n?.stories) && !Array.isArray(n.categories)) {
       n = { ...n, categories: [{ key: "top", label: "Top", stories: n.stories }] };
     }
-    if (!n || !n.categories || !n.categories.length) {
+    const top = Array.isArray(n?.categories) ? n.categories.find(category => category?.key === "top") : null;
+    const lead = Array.isArray(top?.stories) ? top.stories.find(story => typeof story?.headline === "string" && story.headline.trim()) : null;
+    renderTodayStory(lead, n?.mode);
+    if (!Array.isArray(n?.categories) || !n.categories.length) {
+      newsData = null;
+      backToTodayStory.hidden = true;
       $("news-tabs").replaceChildren();
       $("news-topics").hidden = true;
       $("news-mode").textContent = "";
@@ -970,7 +998,7 @@
     const focusedTopic = tabs.contains(document.activeElement) ? document.activeElement.dataset.category : "";
     const keys = n.categories.map(c => c.key);
     const saved = localStorage.getItem("mb_news_tab");
-    const activeKey = keys.includes(saved) ? saved : keys[0];
+    const activeKey = !backToTodayStory.hidden && lead ? "top" : keys.includes(saved) ? saved : keys[0];
     $("news-topic-label").textContent = "Topics · " + n.categories.find(category => category.key === activeKey).label;
     tabs.innerHTML = "";
     for (const c of n.categories) {
@@ -982,11 +1010,9 @@
       b.classList.toggle("active", c.key === activeKey);
       b.addEventListener("click", () => {
         localStorage.setItem("mb_news_tab", c.key);
-        tabs.querySelectorAll("button").forEach(x => { x.classList.toggle("active", x === b); x.setAttribute("aria-pressed", String(x === b)); });
-        $("news-topic-label").textContent = "Topics · " + c.label;
+        backToTodayStory.hidden = true;
         const restoreFocus = tabs.contains(document.activeElement);
-        $("news-topics").open = false;
-        renderStories(c.key);
+        selectNewsTopic(c.key);
         if (restoreFocus) $("news-topic-label").focus({ preventScroll: true });
       });
       tabs.appendChild(b);
@@ -994,6 +1020,58 @@
     if (focusedTopic) [...tabs.children].find(button => button.dataset.category === focusedTopic)?.focus({ preventScroll: true });
     renderStories(activeKey);
   }
+
+  function renderTodayStory(story, mode) {
+    const link = $("today-story-link");
+    const summary = $("today-story-summary");
+    const kind = $("today-story-kind");
+    const sources = $("today-story-sources");
+    if (!story && document.activeElement === link) $("today-news-edition").focus();
+    $("today-top-story").hidden = !story;
+    link.textContent = story?.headline || "";
+    summary.textContent = typeof story?.summary === "string" ? story.summary.trim() : "";
+    summary.hidden = !summary.textContent;
+    kind.textContent = summary.hidden ? "" : window.MorningBriefNews?.summaryAttribution?.(story, mode) || "";
+    kind.hidden = !kind.textContent;
+    const count = Array.isArray(story?.sources) ? story.sources.filter(source => source && typeof source === "object").length : 0;
+    sources.hidden = !count;
+    sources.textContent = count + (count === 1 ? " source" : " sources");
+    if (!story) backToTodayStory.hidden = true;
+  }
+
+  function selectNewsTopic(key) {
+    const category = newsData.categories.find(entry => entry.key === key);
+    $("news-tabs").querySelectorAll("button").forEach(button => {
+      const selected = button.dataset.category === key;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    $("news-topic-label").textContent = "Topics · " + category.label;
+    $("news-topics").open = false;
+    renderStories(key);
+  }
+
+  $("today-news-edition").addEventListener("click", event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    goTo(0, { pointer: event.detail > 0 });
+  });
+  $("today-story-link").addEventListener("click", event => {
+    const pointer = event.detail > 0;
+    selectNewsTopic("top");
+    goTo(0, { pointer });
+    backToTodayStory.hidden = false;
+    const heading = $("news-list").querySelector(".news-headline");
+    if (heading) focusPage(heading, pointer);
+    backToTodayStory.scrollIntoView({ block: "start", inline: "nearest", behavior: "instant" });
+  });
+  backToTodayStory.addEventListener("click", event => {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    goTo(1, { keepPlace: true, pointer: event.detail > 0 });
+    const story = $("today-story-link");
+    if (story.offsetWidth) story.focus();
+  });
 
   function renderStories(key) {
     window.MorningBriefNews?.render({
@@ -1356,11 +1434,15 @@
 
   function updateNextUp() {
     const due = CFG.deadlines.find(entry => entry.title && entry.deadline && daysUntil(entry.deadline) === 0);
-    const section = $("next-up");
-    const button = $("today-deadline");
-    if (!due && !section.hidden && document.activeElement === button) focusPage(routeHeading(1));
-    section.hidden = !due;
-    if (due) button.querySelector("strong").textContent = due.title;
+    const deadline = $("today-deadline");
+    const focus = $("today-focus");
+    const previous = document.activeElement;
+    if (due) deadline.querySelector("strong").textContent = due.title;
+    deadline.hidden = !due;
+    focus.hidden = Boolean(due);
+    $("next-up").hidden = false;
+    if (previous === deadline && deadline.hidden) focus.focus();
+    if (previous === focus && focus.hidden) deadline.focus();
   }
 
   function renderDeadlines() {
@@ -1437,7 +1519,36 @@
     $("focus-count").textContent = items.length ? completed + " of " + items.length + " done" : "";
     $("focus-preview").textContent = items.find(item => !item.done)?.text ||
       (items.length ? "All items done · Open focus list" : "Open your focus list");
+    updateTodayFocus(items);
   }
+  function updateTodayFocus(items) {
+    const day = localDate.format(Date.now());
+    const chosen = items.findIndex(item => !item.done && item.today === day);
+    const select = $("focus-today-select");
+    const options = items.flatMap((item, index) => item.done ? [] : [new Option(item.text, String(index))]);
+    select.replaceChildren(new Option("No focus selected", ""), ...options);
+    select.value = chosen < 0 ? "" : String(chosen);
+    $("focus-today-choice").hidden = !options.length;
+    const preview = $("today-focus");
+    preview.querySelector("strong").textContent = items[chosen]?.text || "Pick one focus";
+    preview.querySelector("small").hidden = chosen < 0;
+  }
+  $("focus-today-select").addEventListener("change", event => {
+    const select = event.currentTarget;
+    const items = focusLoad();
+    const chosen = select.value === "" ? -1 : Number(select.value);
+    const current = items[chosen];
+    if (chosen >= 0 && (!current || current.done || current.text !== select.selectedOptions[0].textContent)) {
+      renderFocus();
+      return;
+    }
+    const day = localDate.format(Date.now());
+    for (const item of items) if (item.today === day) delete item.today;
+    if (current) current.today = day;
+    const saved = focusSave(items);
+    renderFocus();
+    if (saved) setFocusFeedback(current ? "Focus set for today." : "Today’s focus cleared.");
+  });
   function renderFocus() {
     const list = $("focus-list");
     const items = focusLoad();
@@ -1459,10 +1570,13 @@
       label.append(checkbox, text);
       checkbox.addEventListener("change", () => {
         const wasDone = Boolean(item.done);
+        const wasToday = item.today;
         item.done = checkbox.checked;
+        if (item.done) delete item.today;
         if (!focusSave(items)) {
           checkbox.checked = wasDone;
           item.done = wasDone;
+          if (wasToday) item.today = wasToday;
           return;
         }
         row.classList.toggle("done", item.done);
@@ -1507,7 +1621,9 @@
   $("focus-undo").addEventListener("click", () => {
     if (!removedFocus) return;
     const items = focusLoad();
-    items.splice(removedFocus.index, 0, removedFocus.item);
+    const restored = { ...removedFocus.item };
+    if (restored.today && items.some(item => !item.done && item.today === restored.today)) delete restored.today;
+    items.splice(removedFocus.index, 0, restored);
     if (!focusSave(items)) return;
     removedFocus = null;
     $("focus-undo").hidden = true;

@@ -1,6 +1,6 @@
 // Install a coherent app shell for offline use. The digest checks the network
 // and keeps a readable saved copy if that check fails.
-const CACHE = "morning-brief-v37";
+const CACHE = "morning-brief-v38";
 const SHELL = [
   "./edition-v34.html",
   "./css/edition-base.css",

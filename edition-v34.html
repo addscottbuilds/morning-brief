@@ -43,6 +43,7 @@
           <div class="tabs" id="news-tabs" role="group" aria-label="News category"></div>
         </details>
         <div class="news-feed-meta"><p id="news-results-status" role="status"></p><span id="news-mode"></span></div>
+        <a href="#today" id="back-to-today-story" class="edition-link" hidden>← Back to Today</a>
         <div class="news-list" id="news-list"><p class="muted-cell">Loading the digest…</p></div>
         <details class="source-help">
           <summary>How we show sources</summary>
@@ -107,7 +108,7 @@
       </section>
 
       <section id="wotd-section" hidden>
-        <h2>Word of the day</h2>
+        <h2>Word of the Day</h2>
         <div class="wotd">
           <div class="wotd-head">
             <span class="wotd-word" id="wotd-word"></span>
@@ -143,6 +144,31 @@
           <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M8 3v6m8-6v6M4 11h16m-11 4h4"/></svg>
           <span><strong></strong><small>Due today</small></span><span class="next-up-arrow" aria-hidden="true">›</span>
         </button>
+        <button type="button" class="next-up-link" id="today-focus" data-more-section="focus-section" hidden>
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5 7-12a7 7 0 0 0-14 0c0 7 7 12 7 12z"/><circle cx="12" cy="9" r="2"/></svg>
+          <span><strong>Pick one focus</strong><small hidden>Your focus</small></span><span class="next-up-arrow" aria-hidden="true">›</span>
+        </button>
+      </section>
+
+      <section class="today-news" aria-label="News from the edition">
+        <div id="today-top-story" hidden>
+          <p class="today-label">Top story</p>
+          <h2><button type="button" id="today-story-link"></button></h2>
+          <p id="today-story-kind" class="today-word-edition" hidden></p>
+          <p id="today-story-summary" hidden></p>
+        </div>
+        <div class="today-news-meta">
+          <span id="today-story-sources" hidden></span>
+          <a href="#news" id="today-news-edition" class="edition-link">Checking the edition…</a>
+        </div>
+      </section>
+
+      <section class="today-word" id="today-word" aria-labelledby="today-word-title" hidden>
+        <h2 id="today-word-title" class="today-label">Word of the Day</h2>
+        <p id="today-word-edition" class="today-word-edition" hidden></p>
+        <button type="button" class="next-up-link" id="today-word-link" data-more-section="wotd-section">
+          <span><strong></strong><small></small></span><span class="next-up-arrow" aria-hidden="true">›</span>
+        </button>
       </section>
 
       <section id="markets-section">
@@ -170,6 +196,9 @@
         <details class="focus-details">
         <summary id="focus-preview">Open your focus list</summary>
         <p id="focus-count" class="focus-count" aria-live="polite"></p>
+        <label id="focus-today-choice" class="focus-today-choice" hidden>Focus for today
+          <select id="focus-today-select"><option value="">No focus selected</option></select>
+        </label>
         <div class="focus-response">
           <p id="focus-feedback" class="focus-feedback" role="status" hidden></p>
           <button type="button" id="focus-undo" class="edition-link focus-undo" hidden>Undo removal</button>
@@ -255,7 +284,7 @@
     <h3>Explore</h3>
     <button type="button" class="menu-choice" data-more-section="markets-section">Markets</button>
     <button type="button" class="menu-choice" data-more-section="sport-section">Sport</button>
-    <button type="button" class="menu-choice" data-more-section="wotd-section">Word of the day</button>
+    <button type="button" class="menu-choice" data-more-section="wotd-section">Word of the Day</button>
     <button type="button" class="menu-choice" data-more-section="cg-section" hidden>Commonwealth Games</button>
     <button type="button" class="menu-choice" id="more-deals">Deals</button>
     <h3>Manage</h3>

@@ -56,11 +56,16 @@
     return stamp;
   }
 
-  function summaryBlock(text, mode) {
+  function summaryAttribution(story, mode) {
+    // Unenriched stories keep a null comparison flag even in a partly generated edition.
+    return mode === "llm" && typeof story.divergent === "boolean" ? "Generated summary" : "Publisher excerpt";
+  }
+
+  function summaryBlock(story, mode) {
     const block = make("div", "news-summary");
     block.append(
-      make("p", "news-attribution", mode === "llm" ? "Generated summary" : "Publisher excerpt"),
-      make("p", "news-summary-copy", text),
+      make("p", "news-attribution", summaryAttribution(story, mode)),
+      make("p", "news-summary-copy", story.summary),
     );
     return block;
   }
@@ -109,7 +114,7 @@
     details.append(trigger);
 
     const body = make("div", "news-coverage-body");
-    if (includeSummary) body.append(summaryBlock(story.summary, mode));
+    if (includeSummary) body.append(summaryBlock(story, mode));
 
     if (differences.length) {
       const panel = make("div", "news-comparison");
@@ -166,7 +171,7 @@
     headline.dataset.newsFocus = key + ":headline";
     card.setAttribute("aria-labelledby", headline.id);
     copy.append(headline);
-    if (lead && story.summary) copy.append(summaryBlock(story.summary, mode));
+    if (lead && story.summary) copy.append(summaryBlock(story, mode));
     body.append(copy);
 
     const imageURL = safeURL(story.img);
@@ -303,5 +308,5 @@
     return true;
   }
 
-  window.MorningBriefNews = { render, showUnavailable, openStory };
+  window.MorningBriefNews = { render, showUnavailable, openStory, summaryAttribution };
 })();

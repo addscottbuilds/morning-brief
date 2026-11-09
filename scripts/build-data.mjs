@@ -637,7 +637,10 @@ async function buildWotd() {
   // word rather than dropping the section for the day
   try {
     const prev = JSON.parse(readFileSync(join(root, "data/data.json"), "utf8")).wotd;
-    if (prev?.word) { console.error("wotd: lookup failed, reusing previous word"); return prev; }
+    if (prev?.word) {
+      console.error("wotd: lookup failed, reusing previous word");
+      return { ...prev, carried: true };
+    }
   } catch { /* no previous data.json */ }
   return null;
 }
