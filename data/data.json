@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T23:00:27.294Z",
+ "generatedAt": "2026-11-10T23:46:19.759Z",
  "markets": {
   "items": [
    {
@@ -7,50 +7,50 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9129,
-    "chgPct": 1.199452350735859,
+    "price": 9126.1,
+    "chgPct": 1.0675858843856572,
     "high52": 9296.7,
-    "off52": -1.8038658878957126
+    "off52": -1.8350597523852585
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.18,
-    "chgPct": 1.591415937528732,
+    "price": 86.65,
+    "chgPct": 0.5453697994428961,
     "high52": 88,
-    "off52": -2.0681818181818103
+    "off52": -1.5340909090909027
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.75,
-    "chgPct": 1.2931013983951356,
+    "price": 152.63,
+    "chgPct": -0.0785597381342092,
     "high52": 155.03,
-    "off52": -1.4706830935947888
+    "off52": -1.5480874669418858
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.53,
-    "chgPct": 2.52233288415368,
+    "price": 58.97,
+    "chgPct": 0.7517533399620714,
     "high52": 65.18,
-    "off52": -10.202516109235969
+    "off52": -9.527462411782766
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 30.68,
-    "chgPct": 5.212620577989431,
+    "price": 31.15,
+    "chgPct": 1.5319416236932937,
     "high52": 47.78,
-    "off52": -35.78903306822939
+    "off52": -34.80535789033068
    },
    {
     "sym": "AUDUSD=X",
@@ -64,16 +64,8 @@
    }
   ],
   "failed": [],
-  "note": "SEMI is 36% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
-   {
-    "sym": "QAN.AX",
-    "name": "Qantas",
-    "market": "ASX",
-    "price": 9.9,
-    "currency": "AUD",
-    "chgPct": 6.3372669580136485
-   },
    {
     "sym": "NVDA",
     "name": "Nvidia",
@@ -89,14 +81,6 @@
     "price": 331.98,
     "currency": "USD",
     "chgPct": 3.9126044146176078
-   },
-   {
-    "sym": "GMG.AX",
-    "name": "Goodman",
-    "market": "ASX",
-    "price": 29.13,
-    "currency": "AUD",
-    "chgPct": 3.4078804441109236
    }
   ]
  },
@@ -109,6 +93,181 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Republican-led US House shuts down impeachment push Pete Hegseth labelled a 'farce'",
+      "summary": "The Impeachment push against Pete Hegseth would have needed a two-thirds majority in the US Senate, even if the House had voted in favour.",
+      "ts": 1794353978000,
+      "img": "https://assets.sbs.com.au/dims4/default/5656083/2147483647/strip/false/crop/5537x2544+0+574/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe6%2F5b%2F5c804cff46888b95227c4ce62c68%2F20261111184660184588-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "House BLOCKS Pete Hegseth impeachment effort as Republicans band together to kill post-midterm push",
+        "desc": "A move to impeach President Donald Trump's Secretary of War Pete Hegseth failed to advance in the US House of Representatives on Tuesday.",
+        "link": "https://www.dailymail.com/news/article-16282727/Vote-impeach-Pete-Hegseth-fails-House-Republican-Iran-War-defectors.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – US politics live",
+        "desc": "Republicans secure majority of votes to send articles introduced by Thomas Massie to committee, meaning there won’t be a full vote on chamber floor House Republicans block effort to impeach Pentagon chief Pete Hegseth Sign up for the US Breaking News email During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally.",
+        "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Republican-led US House shuts down impeachment push Pete Hegseth labelled a 'farce'",
+        "desc": "The Impeachment push against Pete Hegseth would have needed a two-thirds majority in the US Senate, even if the House had voted in favour.",
+        "link": "https://www.sbs.com.au/news/article/pete-hegseth-dissmisses-impeachment-push-as-farce/cj0xpuc4a"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Live: Lamarre-Condon denies making fake Jesse Baird email and Grindr accounts",
+      "summary": "Beau Lamarre-Condon is giving evidence for a fifth day in his double murder trial in the NSW Supreme Court. Follow live.",
+      "ts": 1794353978000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/7632f160fead3466c4c9c2e9b024b688?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Beau Lamarre-Condon denies breaking into Jesse Baird's house to steal his phone - as he begins his fifth day on the witness stand",
+        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+        "link": "https://www.dailymail.com/news/article-16282813/Beau-Lamarre-Condon-murder-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Beau Lamarre-Condon trial live updates: Former NSW Police officer returns to witness box for cross-examination over alleged murders of Jesse Baird, Luke Davies",
+        "desc": "Lamarre-Condon has denied stalking Jesse Baird as he stands trial over the alleged murders of the TV presenter and his boyfriend Luke Davies.",
+        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-former-nsw-police-officer-returns-to-witness-box-for-cross-examination-over-alleged-murders-of-jesse-baird-luke-davies-20261111-p61d51.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Lamarre-Condon denies making fake Jesse Baird email and Grindr accounts",
+        "desc": "Beau Lamarre-Condon is giving evidence for a fifth day in his double murder trial in the NSW Supreme Court. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-11/beau-lamarre-condon-trial-live-blog-cross-examination-wednesday/107371808"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "US Army ‘senior soldier’ arrested in the UK as part of investigation into alleged Russian espionage",
+      "summary": "US officials said the arrest was a ‘sobering reminder’ about insider espionage.",
+      "ts": 1794352736000,
+      "img": "https://images.7news.com.au/publication/C-23145072/6368ecfd659b4962d2dc163a77f117a1db0f5615-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Comedian Lucy Beaumont reveals she was a whistleblower on David Walliams investigation as she says she was 'really worried' one of his alleged victims would 'take her own life'",
+        "desc": "Lucy Beaumont has revealed she was a whistleblower on David Walliams after allegations of inappropriate sexual conduct made against the comedian were revealed on Tuesday.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16282553/Lucy-Beaumont-whistleblower-David-Walliams-really-worried-alleged-victims-life.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Senior US Army soldier arrested in UK on suspicion of spying for Russia",
+        "desc": "U.K. police arrested a senior U.S. Army soldier in a Russia-linked espionage probe, drawing a sharp warning from FBI Director Kash Patel.",
+        "link": "https://www.foxnews.com/world/senior-us-army-soldier-arrested-uk-suspicion-spying-russia"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "US Army ‘senior soldier’ arrested in the UK as part of investigation into alleged Russian espionage",
+        "desc": "US officials said the arrest was a ‘sobering reminder’ about insider espionage.",
+        "link": "https://7news.com.au/news/us-army-senior-soldier-arrested-in-the-uk-as-part-of-investigation-into-alleged-russian-espionage-c-23145072"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
+      "summary": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
+      "ts": 1794352221000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ff4/live/cdef63c0-dd0c-11f1-97df-bd0937690c4d.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Three charged of plotting attacks on RAF base, Jewish communities for Iran",
+        "desc": "A New York prosecutor says the men orchestrated “a campaign of terror on behalf of organisations affiliated with Iran”, including the September plot to attack a British airbase hosting American warplanes.",
+        "link": "https://www.theage.com.au/world/north-america/three-charged-of-plotting-attacks-on-raf-base-jewish-communities-for-iran-20261111-p61d50.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Iran rejects French claims it was behind supermarket fridge hacking",
+        "desc": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
+        "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "France blames Iran for cyber attacks on supermarket fridges",
+        "desc": "France said it would pursue EU sanctions against all those responsible and take further measures, both public and undisclosed.",
+        "link": "https://www.sbs.com.au/news/article/france-blames-iran-for-cyberattacks-on-supermarket-fridges/skmacybgq"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+      "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+      "ts": 1794349544000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a13/live/1b8d2f10-dd47-11f1-9ac0-6b8f7fc58221.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes",
+        "desc": "Ilhan Omar's attorneys were spotted leaving her Capitol Hill office after a two-hour meeting as federal probes into immigration and her finances mount.",
+        "link": "https://www.foxnews.com/politics/ilhan-omar-huddles-dc-based-lawyers-first-day-back-capitol-hill-amid-federal-probes"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+        "desc": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
+        "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Thomas Markle, father of Meghan, cut off his ankle monitor, DOJ says",
+        "desc": "The estranged father of the Duchess of Sussex was previously arrested for keeping child sexual abuse material in storage units.",
+        "link": "https://7news.com.au/entertainment/royal-family/thomas-markle-father-of-meghan-cut-off-his-ankle-monitor-doj-says-c-23145324"
+       }
+      ]
+     },
+     {
+      "id": 5,
       "headline": "David Walliams: English comedian and actor accused of preying on young women for sex",
       "summary": "The comedian, best known for starring in Little Britain, has been accused of using his celebrity status to pursue women for sex, according to a major UK media investigation.",
       "ts": 1794348015000,
@@ -127,13 +286,6 @@
         "link": "https://www.dailymail.com/tvshowbiz/article-16281615/How-Piers-Morgan-branded-David-Walliams-one-nastiest-frauds-TV-treacherous-piece-work-unmasked-gag-order-celebrity.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "British actor David Walliams grooming allegations",
-        "desc": "British actor David Walliams has lost an attempt in court to stop the British press from naming him as the actor accused of grooming young women and teenage girls.",
-        "link": "https://www.theage.com.au/world/british-actor-david-walliams-grooming-allegations-20261111-p61d3u.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
         "outlet": "7News",
         "lean": "centre",
         "title": "David Walliams: English comedian and actor accused of preying on young women for sex",
@@ -150,177 +302,30 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-      "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-      "ts": 1794351011000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a13/live/1b8d2f10-dd47-11f1-9ac0-6b8f7fc58221.jpg",
+      "id": 6,
+      "headline": "Khawaja cancels book interviews after refusing to answer key question about Cummins",
+      "summary": "Usman Khawaja wanted to tell his truth about Sandpapergate. But during a grilling from the ABC’s Sarah Ferguson, the former Australian cricketer ducked and weaved when pressed for answers.",
+      "ts": 1794354243000,
+      "img": "https://static.ffx.io/images/$zoom_1.0401%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/52f4dee886c406a841cb5c06b19db8dac35d57fe86066d241fcea3c0464fa892",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": true,
       "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Usman Khawaja reportedly cancels TV and radio interviews after grilling from ABC: 'I'm not going to answer that'",
+        "desc": "Usman Khawaja has reportedly cancelled his remaining TV and radio interviews promoting his book Sabr",
+        "link": "https://www.dailymail.com/sport/cricket/article-16282891/Usman-Khawaja-reportedly-cancels-TV-radio-interviews-grilling-ABC-Im-not-going-answer-that.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Australia news LIVE: Albanese joins Bowen at UN climate talks; Teals launch donation rush ahead of controversial new rules; Meghan’s father removes ankle monitor after arrest",
-        "desc": "Follow along as we bring you rolling news updates here on our live blog.",
-        "link": "https://www.theage.com.au/national/australia-news-live-albanese-joins-bowen-at-un-climate-talks-teals-launch-donation-rush-ahead-of-controversial-new-rules-hegseth-fires-back-over-impeachment-20261111-p61d3v.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-        "desc": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-        "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Thomas Markle taken into federal custody after he allegedly cut off his ankle monitor in wake of child pornography arrest",
-        "desc": "Markle, 82, allegedly cut off the location monitor in the early hours of Tuesday morning, just days after his arrest for allegedly keeping child sexual abuse material in storage units in California.",
-        "link": "https://www.dailymail.com/news/article-16282493/Thomas-Markle-cut-ankle-monitor-child-abuse-court.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Russell Brand sentenced to over a decade in jail for rape and sexual assault",
-      "summary": "UK comedian Russell Brand has been jailed for 10-and-a-half years for raping a woman and sexually assaulting three others.",
-      "ts": 1794351323000,
-      "img": "https://assets.sbs.com.au/dims4/default/93cfa87/2147483647/strip/false/crop/3150x1447+0+111/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F86%2F94%2F088af9c5408da313b65aaef99755%2Frussell-brand-jailed.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Inside Russell Brand's first 24 HOURS in prison: Disgraced comedian isn't seeing the funny side as he faces full force of abuse from fellow inmates, sources reveal",
-        "desc": "He may still be keeping his Bible close to his chest, but the smart suit and silk cravat that Russell Brand wore during his trial have been replaced with drab prison gear.",
-        "link": "https://www.dailymail.com/crime-desk/article-16278913/Bible-cell-Brand-rapist-star-weekend-bars.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Russell Brand sentenced to over a decade in jail for rape and sexual assault",
-        "desc": "UK comedian Russell Brand has been jailed for 10-and-a-half years for raping a woman and sexually assaulting three others.",
-        "link": "https://www.sbs.com.au/news/article/russell-brand-sentenced-to-10-and-a-half-in-jail-for-rape-and-sexual-assault/xsjjdos3a"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Senate GOP rebellion fizzles as Thune keeps power despite historic midterm massacre",
-      "summary": "John Thune secured another term as Senate GOP leader despite Ron Johnson and Rick Scott pushing to delay elections after midterm losses.",
-      "ts": 1794350957000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/john-thune-capitol-visitor-center.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Trump ally Jim Jordan to lead House Republicans next year, with John Thune to return as Senate minority leader - live",
-        "desc": "Jordan, the hardline conservative from Ohio, beat fellow congressman Steve Scalise by a vote of 106-73; Thune won re-election without a challenger Republicans elect Jim Jordan as House minority leader after party’s midterm defeats Sign up for the US Breaking News email During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried",
-        "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Senate GOP rebellion fizzles as Thune keeps power despite historic midterm massacre",
-        "desc": "John Thune secured another term as Senate GOP leader despite Ron Johnson and Rick Scott pushing to delay elections after midterm losses.",
-        "link": "https://www.foxnews.com/politics/senate-gop-rebellion-fizzles-thune-keeps-power-despite-historic-midterm-massacre"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "US Army ‘senior soldier’ arrested in the UK as part of investigation into alleged Russian espionage",
-      "summary": "US officials said the arrest was a ‘sobering reminder’ about insider espionage.",
-      "ts": 1794350733000,
-      "img": "https://images.7news.com.au/publication/C-23145072/6368ecfd659b4962d2dc163a77f117a1db0f5615-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Comedian Lucy Beaumont reveals she was a whistleblower on David Walliams investigation as she says she was 'really worried' one of his alleged victims would 'take her own life'",
-        "desc": "Lucy Beaumont has revealed she was a whistleblower on David Walliams after allegations of inappropriate sexual conduct made against the comedian were revealed on Tuesday.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16282553/Lucy-Beaumont-whistleblower-David-Walliams-really-worried-alleged-victims-life.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "US Army ‘senior soldier’ arrested in the UK as part of investigation into alleged Russian espionage",
-        "desc": "US officials said the arrest was a ‘sobering reminder’ about insider espionage.",
-        "link": "https://7news.com.au/news/us-army-senior-soldier-arrested-in-the-uk-as-part-of-investigation-into-alleged-russian-espionage-c-23145072"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Meghan Markle's father jailed for cutting off ankle monitor",
-      "summary": "A US judge orders Thomas Markle to jail after he allegedly cut off his ankle monitor, which was a condition of his bail after being charged over child sexual abuse material.",
-      "ts": 1794350233000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/aba8611e80c6aa0f953234cb6add5878?impolicy=wcms_crop_resize&cropH=1762&cropW=3132&xPos=0&yPos=143&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Thomas Markle, Meghan’s father, jailed after cutting off ankle monitor, DoJ says",
-        "desc": "Estranged father of Duchess of Sussex was arrested for keeping child sexual abuse material, authorities say The estranged father of Meghan Markle, the Duchess of Sussex, has been jailed after US authorities said he cut an electronic monitoring device off his ankle, days after his arrest for keeping child sexual abuse material in storage units in California. Thomas Markle, 82, was in custody awaiti",
-        "link": "https://www.theguardian.com/us-news/2026/nov/10/thomas-markle-ankle-monitor"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Meghan Markle's father jailed for cutting off ankle monitor",
-        "desc": "A US judge orders Thomas Markle to jail after he allegedly cut off his ankle monitor, which was a condition of his bail after being charged over child sexual abuse material.",
-        "link": "https://www.abc.net.au/news/2026-11-11/thomas-markle-accused-of-cutting-off-ankle-monitor/107371466"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-      "summary": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-      "ts": 1794349405000,
-      "img": "https://images.7news.com.au/publication/C-23145163/007f89af7ea2166260d7bd6a1f8bb6129e353838-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Izzy Neale, ‘dearly loved’ Australian apprentice jockey, dies after fall at regional track",
-        "desc": "Twenty-two-year-old suffered severe injuries at race on Sunday ‘Words are not enough,’ says trainer Richard Freedman Apprentice jockey Izzy Neale has died following a fall at a regional racecourse. Neale suffered severe injuries when her mount Marnoo fell entering the home straight in the Warren Shire Cotton Cup in NSW. Continue reading...",
-        "link": "https://www.theguardian.com/sport/2026/nov/11/izzy-neale-dies-race-fall-apprentice-jockey-death-track-racecourse"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-        "desc": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-        "link": "https://7news.com.au/sport/horse-racing/apprentice-jockey-izzy-neales-final-selfless-act-revealed-by-heartbroken-family-after-her-death-aged-22-c-23145163"
+        "title": "Khawaja cancels book interviews after refusing to answer key question about Cummins",
+        "desc": "Usman Khawaja wanted to tell his truth about Sandpapergate. But during a grilling from the ABC’s Sarah Ferguson, the former Australian cricketer ducked and weaved when pressed for answers.",
+        "link": "https://www.theage.com.au/sport/cricket/khawaja-cancels-book-interviews-after-refusing-to-answer-key-question-about-cummins-20261111-p61d5s.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -360,6 +365,27 @@
      },
      {
       "id": 8,
+      "headline": "House GOP leaders block Massie's Hegseth impeachment push",
+      "summary": "Rep. Thomas Massie introduced a privileged resolution to impeach Secretary of War Pete Hegseth, meaning it had to be considered by the full House.",
+      "ts": 1794352578000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/pete-hegseth-pushes-back-impeachment-talk.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "House GOP leaders block Massie's Hegseth impeachment push",
+        "desc": "Rep. Thomas Massie introduced a privileged resolution to impeach Secretary of War Pete Hegseth, meaning it had to be considered by the full House.",
+        "link": "https://www.foxnews.com/politics/house-gop-leaders-block-massie-hegseth-impeachment-push"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes",
       "summary": "Ilhan Omar's attorneys were spotted leaving her Capitol Hill office after a two-hour meeting as federal probes into immigration and her finances mount.",
       "ts": 1794349544000,
@@ -380,7 +406,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Albanese’s love affair with music is on the rocks over AI. Can he write a different tune? | Peter Lewis",
       "summary": "The prime minister is trying to untangle the copyright knot. But this is about much more than intellectual property Get our breaking news email, free app or daily news podcast If Anthony Albanese has a spiritual home it would be somewhere between the old Sando and the Enmore theatre in that pocket of Sydney’s inner west where the traffic never flows and the people of Grayndler still rule the stree",
       "ts": 1794348020000,
@@ -397,27 +423,6 @@
         "title": "Albanese’s love affair with music is on the rocks over AI. Can he write a different tune? | Peter Lewis",
         "desc": "The prime minister is trying to untangle the copyright knot. But this is about much more than intellectual property Get our breaking news email, free app or daily news podcast If Anthony Albanese has a spiritual home it would be somewhere between the old Sando and the Enmore theatre in that pocket of Sydney’s inner west where the traffic never flows and the people of Grayndler still rule the stree",
         "link": "https://www.theguardian.com/commentisfree/2026/nov/11/albaneses-love-affair-with-music-is-on-the-rocks-over-ai-can-he-write-a-different-tune"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Hegseth labels impeachment push a policy dispute, but do lawmakers' allegations rise to high crimes?",
-      "summary": "Pete Hegseth calls eight impeachment articles mere \"policy disagreements\" as Rep. Thomas Massie alleges war powers violations and unlawful strikes.",
-      "ts": 1794347065000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/pete-hegseth-pushes-back-impeachment-talk.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Hegseth labels impeachment push a policy dispute, but do lawmakers' allegations rise to high crimes?",
-        "desc": "Pete Hegseth calls eight impeachment articles mere \"policy disagreements\" as Rep. Thomas Massie alleges war powers violations and unlawful strikes.",
-        "link": "https://www.foxnews.com/politics/hegseth-calls-impeachment-push-policy-dispute-allegations-rise-high-crimes"
        }
       ]
      },
@@ -555,6 +560,27 @@
      },
      {
       "id": 16,
+      "headline": "The US military seems to be getting nervous about the launch supply crunch",
+      "summary": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
+      "ts": 1794351759000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/1793382176191-1152x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "The US military seems to be getting nervous about the launch supply crunch",
+        "desc": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
+        "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/"
+       }
+      ]
+     },
+     {
+      "id": 17,
       "headline": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
       "summary": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
       "ts": 1794351135000,
@@ -575,32 +601,11 @@
       ]
      },
      {
-      "id": 17,
-      "headline": "The VR Disney Plus app on Meta Quest now has 3D movies",
-      "summary": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and Black Panther, Meta says. But the updated Quest app doesn't just offer 3D movies; you'll also be able to see some films in themed, immersive vi",
-      "ts": 1794348000000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The VR Disney Plus app on Meta Quest now has 3D movies",
-        "desc": "Disney is bringing more than 60 3D movies to the Disney Plus app on Meta Quest. The movies will be available to Disney Plus subscribers as part of an updated Disney Plus app that's rolling out today. The 3D movies you can check out include The Avengers and Black Panther, Meta says. But the updated Quest app doesn't just offer 3D movies; you'll also be able to see some films in themed, immersive vi",
-        "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies"
-       }
-      ]
-     },
-     {
       "id": 18,
-      "headline": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
-      "summary": "Democrats accuse FCC nominee of evading questions about Carr, her current boss.",
-      "ts": 1794347726000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/danielle-thumann-severs-fcc-1152x648-1794344603.jpg",
+      "headline": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+      "summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+      "ts": 1794350101000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ring-Drone-1152x648.jpeg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -610,9 +615,9 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
-        "desc": "Democrats accuse FCC nominee of evading questions about Carr, her current boss.",
-        "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/"
+        "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+        "desc": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+        "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/"
        }
       ]
      }
@@ -694,6 +699,34 @@
      },
      {
       "id": 21,
+      "headline": "Alarm bells were ringing for David Jones months before collapse",
+      "summary": "Talks about the department stores financial troubles and restructuring scenarios started months ago, a report to creditors says.",
+      "ts": 1794354320000,
+      "img": "https://static.ffx.io/images/$zoom_0.18664081776524497%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_125/t_crop_custom/q_86%2Cf_auto/876f41a5f1d4a44e2f131bae24078627653d4cbe",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Alarm bells were ringing for David Jones months before collapse",
+        "desc": "Talks about the department stores financial troubles and restructuring scenarios started months ago, a report to creditors says.",
+        "link": "https://www.theage.com.au/business/companies/alarm-bells-were-ringing-for-david-jones-months-before-collapse-20261111-p61d4t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "David Jones’s finances were reviewed and restructuring flagged months before it fell into administration",
+        "desc": "Department store group kept buying new products and fell months behind in payments to some brands despite discussions with administrators Get our breaking news email, free app or daily news podcast David Jones’s administrators have revealed they reviewed its finances six months ago and discussed restructuring the retailer three months before it fell into administration. The new timeline raises que",
+        "link": "https://www.theguardian.com/business/2026/nov/10/david-joness-finances-were-reviewed-and-restructuring-flagged-months-before-it-fell-into-administration"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "Macquarie Bank to pay $14m penalty over savings account offers",
       "summary": "Regulators ordered the investment bank to compensate 40,000 account holders and pay a penalty following marketing around introductory interest earnings.",
       "ts": 1794350203000,
@@ -714,14 +747,14 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Breaking: Macquarie faces $14m fine for savings rate failures",
+        "title": "Macquarie faces $14m fine for savings rate failures",
         "desc": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
         "link": "https://www.abc.net.au/news/2026-11-11/asic-sues-macquarie-for-savings-rates-failures/107371760"
        }
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "Gas prices fall below $4 a gallon for first time since July",
       "summary": "AAA data shows the national average gas price dropped below $4 a gallon for the first time in months as winter blend fuel and lower demand ease costs.",
       "ts": 1794348743000,
@@ -749,7 +782,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 24,
       "headline": "Inside Clive Palmer’s plans to reopen his luxury Coolum resort",
       "summary": "The former Hyatt Regency that’s been closed for a decade will feature a replica Trevi Fountain and wellness centre, the billionaire says. But residents are sceptical.",
       "ts": 1794333600000,
@@ -773,34 +806,6 @@
         "title": "Clive Palmer says dilapidated luxury resort will reopen after decade in mothballs",
         "desc": "The billionaire has repeatedly promised to revamp the rundown five-star Coolum resort he shut in 2015. Will this time be different?",
         "link": "https://www.abc.net.au/news/2026-11-10/clive-palmer-resort-coolum-reopening/107363986"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Stressed and out of pocket: David Jones’ great-great-great grandson is owed money, too",
-      "summary": "Ben Nothling, a sixth-generation descendant of the Welsh entrepreneur David Jones, owns a shoe business. He’s owed $130,000 by the collapsed retailer.",
-      "ts": 1794305086000,
-      "img": "https://static.ffx.io/images/$zoom_0.5803%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_194/t_crop_custom/q_86%2Cf_auto/10cde89b5c006e084a474ba9568bbc937e7cb9b2",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "David Jones’s finances were reviewed and restructuring flagged months before it fell into administration",
-        "desc": "Department store group kept buying new products and fell months behind in payments to some brands despite discussions with administrators Get our breaking news email, free app or daily news podcast David Jones’s administrators have revealed they reviewed its finances six months ago and discussed restructuring the retailer three months before it fell into administration. The new timeline raises que",
-        "link": "https://www.theguardian.com/business/2026/nov/10/david-joness-finances-were-reviewed-and-restructuring-flagged-months-before-it-fell-into-administration"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Stressed and out of pocket: David Jones’ great-great-great grandson is owed money, too",
-        "desc": "Ben Nothling, a sixth-generation descendant of the Welsh entrepreneur David Jones, owns a shoe business. He’s owed $130,000 by the collapsed retailer.",
-        "link": "https://www.theage.com.au/business/companies/stressed-and-out-of-pocket-david-jones-great-great-great-grandson-is-owed-money-too-20261110-p61cz7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      }
@@ -910,34 +915,6 @@
      },
      {
       "id": 28,
-      "headline": "Gold Coast AFLW player delisted just weeks out from giving birth",
-      "summary": "The AFLW's pregnancy policy is called into question with a Suns player delisted just weeks out from giving birth.",
-      "ts": 1794347895000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/31a33c66268319713511621d883d0b40?impolicy=wcms_crop_resize&cropH=1781&cropW=3166&xPos=0&yPos=62&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Gold Coast AFLW player delisted just weeks out from giving birth",
-        "desc": "The AFLW's pregnancy policy is called into question with a Suns player delisted just weeks out from giving birth.",
-        "link": "https://www.abc.net.au/news/2026-11-11/aflw-gold-coast-georgia-clayden-delisted-while-pregnant/107371624"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "In-demand Melbourne Storm skipper Harry Grant turns down ‘Kmart’ offer from Gold Coast Mayor",
-        "desc": "Harry Grant is exploring a move away from Melbourne but he won’t be seduced by a left-field pitch.",
-        "link": "https://7news.com.au/sport/rugby-league/in-demand-melbourne-storm-skipper-harry-grant-turns-down-kmart-offer-from-gold-coast-mayor-c-23140813"
-       }
-      ]
-     },
-     {
-      "id": 29,
       "headline": "McTominay reveals heart treatment at World Cup",
       "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June.",
       "ts": 1794340491000,
@@ -965,7 +942,7 @@
       ]
      },
      {
-      "id": 30,
+      "id": 29,
       "headline": "Formula 1 to finish season in Middle East",
       "summary": "The 2026 Formula 1 season will conclude with the Qatar and Abu Dhabi grands prix as planned, with Italy's Imola circuit stood down as back-up for the races.",
       "ts": 1794331115000,
@@ -991,6 +968,34 @@
         "link": "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo?at_medium=RSS&at_campaign=rss"
        }
       ]
+     },
+     {
+      "id": 30,
+      "headline": "Starc's 'opinion hasn't changed' as he disputes Khawaja ball-tampering revelations",
+      "summary": "Mitchell Starc becomes the first current player to respond to Usman Khawaja's fresh Sandpapergate claims, denying that he and the other bowlers knew about the plot.",
+      "ts": 1794329705000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/fc73e3f2b1f521b923e2894d0aaa0b54?impolicy=wcms_crop_resize&cropH=1633&cropW=2903&xPos=0&yPos=95&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Mitchell Starc breaks silence to deny knowledge of ball tampering plan",
+        "desc": "‘We weren’t aware anything was taken on the field’ CA: no ‘compelling reason’ to establish new inquiry Mitchell Starc has denied claims made in Usman Khawaja’s new book that more than the three players suspended for ball tampering had knowledge of the sandpaper plan in South Africa in 2018. Starc became the first of the Australia bowling group who played in the 2018 Cape Town Test to speak out fol",
+        "link": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Starc's 'opinion hasn't changed' as he disputes Khawaja ball-tampering revelations",
+        "desc": "Mitchell Starc becomes the first current player to respond to Usman Khawaja's fresh Sandpapergate claims, denying that he and the other bowlers knew about the plot.",
+        "link": "https://www.abc.net.au/news/2026-11-10/mitchell-starc-responds-to-usman-khawaja-sandpaper-claims/107369870"
+       }
+      ]
      }
     ]
    },
@@ -1000,10 +1005,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Critically Acclaimed 2-Season Historic Drama Returns With Brand-New Release Mystery Fans Can’t Miss",
-      "summary": "Crunchyroll's excellent seinen series has captivated viewers and cosplayers worldwide, with this new release perfect for collectors and fans.",
-      "ts": 1794349818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/the-apothecary-diaries-lahan.jpg",
+      "headline": "‘The Age Of Innocence’ Sets Netflix Release Date; First Photos Of Camila Morrone, Kristine Froseth & Ben Radcliffe",
+      "summary": "We’re getting the first look at The Age of Innocence, Netflix’s upcoming limited series based on Edith Wharton’s Pulitzer Prize-winning novel. The eight-episode series, starring Camila Morrone, Kristine Froseth and Ben Radcliffe, will premiere February 18 on the streamer. You can see several first-look photos above and below. Based on Wharton’s classic story of forbidden […]",
+      "ts": 1794352737000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/AGEOFINNOCENCE_101_251010_CB_00198_R4.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1011,11 +1016,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Critically Acclaimed 2-Season Historic Drama Returns With Brand-New Release Mystery Fans Can’t Miss",
-        "desc": "Crunchyroll's excellent seinen series has captivated viewers and cosplayers worldwide, with this new release perfect for collectors and fans.",
-        "link": "https://screenrant.com/apothecary-diaries-season-2-blu-ray-release/"
+        "title": "‘The Age Of Innocence’ Sets Netflix Release Date; First Photos Of Camila Morrone, Kristine Froseth & Ben Radcliffe",
+        "desc": "We’re getting the first look at The Age of Innocence, Netflix’s upcoming limited series based on Edith Wharton’s Pulitzer Prize-winning novel. The eight-episode series, starring Camila Morrone, Kristine Froseth and Ben Radcliffe, will premiere February 18 on the streamer. You can see several first-look photos above and below. Based on Wharton’s classic story of forbidden […]",
+        "link": "https://deadline.com/2026/11/the-age-of-innocence-netflix-release-date-tv-show-photos-1237219435/"
        },
        {
         "outlet": "Anime News Network",
@@ -1028,10 +1033,10 @@
      },
      {
       "id": 32,
-      "headline": "‘Harry Potter’s Paapa Essiedu Doesn’t Want To Discuss J.K. Rowling “At All,” Insists He’s “Super Clear” About Trans Support",
-      "summary": "As the Christmas clock counts down to HBO’s Harry Potter premiere, Paapa Essiedu is once again making his support for trans people clear. The actor, who stars as Severus Snape in the series adaptation that premieres Dec. 25, recently made it clear that he doesn’t “want to talk about [author J.K. Rowling] at all,” explaining […]",
-      "ts": 1794348249000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/paapa-essiedu.jpg",
+      "headline": "David Walliams Being Cut From New Movie ‘Fing!’ Following Allegations; Comcast-Owned Sky Exits UK Distribution Of Film",
+      "summary": "David Walliams is to be cut from new movie Fing! and its stateside marketing materials following sexual misconduct allegations against the actor. Walliams had a cameo in the Sundance family movie, which is being released in the U.S. by Angel in early January. Taika Waititi, Mia Wasikowska, Matt Lucas and Iona Bell also star in […]",
+      "ts": 1794353908000,
+      "img": "https://deadline.com/wp-content/uploads/2026/01/Fing.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1041,25 +1046,18 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Harry Potter’s Paapa Essiedu Doesn’t Want To Discuss J.K. Rowling “At All,” Insists He’s “Super Clear” About Trans Support",
-        "desc": "As the Christmas clock counts down to HBO’s Harry Potter premiere, Paapa Essiedu is once again making his support for trans people clear. The actor, who stars as Severus Snape in the series adaptation that premieres Dec. 25, recently made it clear that he doesn’t “want to talk about [author J.K. Rowling] at all,” explaining […]",
-        "link": "https://deadline.com/2026/11/harry-potter-paapa-essiedu-jk-rowling-super-clear-trans-support-1237219357/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Harry Potter’ Star Paapa Essiedu Says ‘I Don’t Want to Talk About’ J.K. Rowling ‘At All’ but ‘Trans People Have the Right to Be Treated With Respect and Dignity’",
-        "desc": "HBO’s “Harry Potter” showrunner Francesca Gardiner is condemning the “abuse” being directed at Paapa Essiedu, the “I May Destroy You” Emmy nominee who is taking over the role of Professor Severus Snape in the first television series adaptation of J.K. Rowling’s literary franchise. Essiedu has been outspoken since March about the racism he’s been facing […]",
-        "link": "https://variety.com/2026/film/news/paapa-essiedu-jk-rowling-trans-rights-harry-potter-hbo-1236944224/"
+        "title": "David Walliams Being Cut From New Movie ‘Fing!’ Following Allegations; Comcast-Owned Sky Exits UK Distribution Of Film",
+        "desc": "David Walliams is to be cut from new movie Fing! and its stateside marketing materials following sexual misconduct allegations against the actor. Walliams had a cameo in the Sundance family movie, which is being released in the U.S. by Angel in early January. Taika Waititi, Mia Wasikowska, Matt Lucas and Iona Bell also star in […]",
+        "link": "https://deadline.com/2026/11/david-walliams-cut-from-movie-fing-allegations-sky-exits-1237219487/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "31 Years Later, The Line That Changed The X-Files Is Still A Work Of Genius",
-      "summary": "The X-Files popularized the monster-of-the-week format and its episodes were creepy but formulaic, until suddenly the show's entire premise changed.",
-      "ts": 1794351618000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-89.jpg",
+      "headline": "Bay Theater in Pacific Palisades Reopens Friday With ‘Ebenezer’",
+      "summary": "The Bay Theater in Pacific Palisades will officially reopen on Friday, a month after it was announced that Paramount Pictures is taking over the cinemas. Paramount Pictures, Caruso and The Lot have reimagined the theaters with cutting-edge cinema technology that includes “luxury seating, elevated dining and exceptional hospitality, while preserving the intimate neighborhood character that […]",
+      "ts": 1794353588000,
+      "img": "https://variety.com/wp-content/uploads/2026/10/FINAL_BayTheatre.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1067,20 +1065,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "31 Years Later, The Line That Changed The X-Files Is Still A Work Of Genius",
-        "desc": "The X-Files popularized the monster-of-the-week format and its episodes were creepy but formulaic, until suddenly the show's entire premise changed.",
-        "link": "https://screenrant.com/the-x-files-scully-death-line-genius/"
+        "title": "Bay Theater in Pacific Palisades Reopens Friday With ‘Ebenezer’",
+        "desc": "The Bay Theater in Pacific Palisades will officially reopen on Friday, a month after it was announced that Paramount Pictures is taking over the cinemas. Paramount Pictures, Caruso and The Lot have reimagined the theaters with cutting-edge cinema technology that includes “luxury seating, elevated dining and exceptional hospitality, while preserving the intimate neighborhood character that […]",
+        "link": "https://variety.com/2026/film/news/bay-theater-pacific-palisades-reopens-ebenezer-1236944443/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Anatomy Of A Fall Ending Explained: Was Daniel Lying?",
-      "summary": "Anatomy of a Fall is a French courtroom drama about a woman accused of killing her husband, and while there's a verdict, the ending is ambiguous.",
-      "ts": 1794351482000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2023/12/sandra-hu-ller-wearing-a-patterned-scarf-and-coat-with-mountains-in-the-backdrop-in-anatomy-of-a-fall.jpg",
+      "headline": "Prime Video’s Best New Action Thriller Just Scored A Massive Milestone",
+      "summary": "Prime Video's best new action thriller that scored big upon release just reached a massive milestone at the perfect time.",
+      "ts": 1794353442000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/matthew-del-negro-in-neagley.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1090,18 +1088,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Anatomy Of A Fall Ending Explained: Was Daniel Lying?",
-        "desc": "Anatomy of a Fall is a French courtroom drama about a woman accused of killing her husband, and while there's a verdict, the ending is ambiguous.",
-        "link": "https://screenrant.com/anatomy-of-a-fall-movie-ending-explained/"
+        "title": "Prime Video’s Best New Action Thriller Just Scored A Massive Milestone",
+        "desc": "Prime Video's best new action thriller that scored big upon release just reached a massive milestone at the perfect time.",
+        "link": "https://screenrant.com/neagley-action-series-prime-video-streaming-milestone-november-2026/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Disney+ Has Failed To Reverse Moana's $250 Million Disappointment",
-      "summary": "Disney+ was expected to redeem Moana's live-action remake and transform it into a success. However, the streamer has failed to do just that.",
-      "ts": 1794351018000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/moana-with-disney-plus-logo.jpg",
+      "headline": "Helen's Real Identity & Backstory In Black Doves Explained",
+      "summary": "Keira Knightley's Helen Webb / Daisy Bradshaw takes on various personas and undercover aliases in Netflix's thrilling espionage series Black Doves.",
+      "ts": 1794353419000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/bd_201_unit_02726-edit.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1111,18 +1109,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Disney+ Has Failed To Reverse Moana's $250 Million Disappointment",
-        "desc": "Disney+ was expected to redeem Moana's live-action remake and transform it into a success. However, the streamer has failed to do just that.",
-        "link": "https://screenrant.com/moana-remake-disney-plus-views-disappointment/"
+        "title": "Helen's Real Identity & Backstory In Black Doves Explained",
+        "desc": "Keira Knightley's Helen Webb / Daisy Bradshaw takes on various personas and undercover aliases in Netflix's thrilling espionage series Black Doves.",
+        "link": "https://screenrant.com/helen-real-identity-backstory-explained-black-doves/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Ted Sarandos Faces Unrest From Past & Present Netflix Execs Over Streamer’s Direction – The Dish",
-      "summary": "Bela Bajaria and 1,000 Netflix staffers have been let go, and Peter Rice has parachuted in as the streamer’s content chief. But, the real change at the streamer may still be to come, as Deadline has learned. As a coterie of mostly former and some current Netflix executives have banded together in opposition to co-CEO […]",
-      "ts": 1794350780000,
-      "img": "https://deadline.com/wp-content/uploads/2023/10/netflix-earnings.jpg",
+      "headline": "Every Ice Age Movie, Ranked Worst To Best",
+      "summary": "With the latest installment, The Ice Age Adventures of Buck Wild now on Disney+, here's the ranking of all the Ice Age movies, from worst to best.",
+      "ts": 1794353419000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/ice-age-boiling-point.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1130,11 +1128,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Ted Sarandos Faces Unrest From Past & Present Netflix Execs Over Streamer’s Direction – The Dish",
-        "desc": "Bela Bajaria and 1,000 Netflix staffers have been let go, and Peter Rice has parachuted in as the streamer’s content chief. But, the real change at the streamer may still be to come, as Deadline has learned. As a coterie of mostly former and some current Netflix executives have banded together in opposition to co-CEO […]",
-        "link": "https://deadline.com/2026/11/ted-sarandos-netflix-execs-oppose-streamers-direction-1237208280/"
+        "title": "Every Ice Age Movie, Ranked Worst To Best",
+        "desc": "With the latest installment, The Ice Age Adventures of Buck Wild now on Disney+, here's the ranking of all the Ice Age movies, from worst to best.",
+        "link": "https://screenrant.com/ice-age-movies-ranked-worst-best/"
        }
       ]
      }
@@ -1142,37 +1140,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
    "The Age",
-   "ABC News",
+   "Crikey",
    "Guardian Australia",
-   "BBC World",
-   "Guardian AU Politics",
-   "The Age Federal Politics",
-   "Fox News",
    "Fox News Politics",
+   "BBC World",
+   "ABC News",
    "Guardian Tech",
-   "BBC Tech",
-   "The Conversation",
    "Ars Technica",
-   "7News",
-   "The Age Business",
+   "Fox News",
+   "BBC Tech",
+   "Guardian AU Politics",
+   "The Conversation",
    "The Verge",
-   "AFR",
+   "The Age Federal Politics",
    "ABC Business",
-   "Guardian AU Business",
-   "Variety",
-   "Guardian AU Sport",
+   "AFR",
    "ABC Sport",
-   "BBC Sport",
-   "Guardian Film",
-   "Deadline",
    "Fox Business",
-   "Screen Rant",
-   "Anime News Network",
-   "7News Sport",
+   "7News",
+   "Guardian AU Business",
    "SBS News",
-   "Daily Mail Australia"
+   "Variety",
+   "BBC Sport",
+   "Guardian AU Sport",
+   "The Age Business",
+   "Guardian Film",
+   "Anime News Network",
+   "Screen Rant",
+   "Daily Mail Australia",
+   "7News Sport",
+   "Deadline"
   ],
   "sourcesFailed": []
  },
@@ -1368,31 +1366,31 @@
   {
    "title": "[iOS] Free: Kepto+ Lifetime Unlock (Was A$7.99) - Receipt & Warranty Tracker @ Kepto (Android Codes Gone)",
    "link": "https://www.ozbargain.com.au/node/982427",
-   "votes": 326,
+   "votes": 336,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794298208000
   },
   {
-   "title": "Firefox Built-in VPN: Unlimited Data through January 2027 (Free Mozilla Account Required) @ Firefox",
-   "link": "https://www.ozbargain.com.au/node/982426",
-   "votes": 159,
-   "neg": 0,
-   "category": "Internet",
-   "ts": 1794297874000
-  },
-  {
    "title": "AliExpress: 35% Cashback on Affiliated Items, 1% Cashback on Non-Affiliated Items ($50 Cashback Cap per Order) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/982491",
-   "votes": 126,
+   "votes": 196,
    "neg": 0,
    "category": "Other",
    "ts": 1794349009000
   },
   {
+   "title": "Firefox Built-in VPN: Unlimited Data through January 2027 (Free Mozilla Account Required) @ Firefox",
+   "link": "https://www.ozbargain.com.au/node/982426",
+   "votes": 164,
+   "neg": 0,
+   "category": "Internet",
+   "ts": 1794297874000
+  },
+  {
    "title": "11% off Sitewide (Exclusions Apply) @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/982476",
-   "votes": 126,
+   "votes": 159,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794342455000
@@ -1400,7 +1398,7 @@
   {
    "title": "15 Wicked Wings $15.95 Pickup @ KFC (App/Online Order Required)",
    "link": "https://www.ozbargain.com.au/node/982380",
-   "votes": 108,
+   "votes": 112,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1794280458000
@@ -1408,7 +1406,7 @@
   {
    "title": "Domestic Bus Tickets from $10 One-Way @ Flixbus (Travel in Dec - April)",
    "link": "https://www.ozbargain.com.au/node/982364",
-   "votes": 97,
+   "votes": 99,
    "neg": 0,
    "category": "Travel",
    "ts": 1794275373000
@@ -1424,23 +1422,15 @@
   {
    "title": "[Uber One] PS5 Dualsense Wireless Controller + Anko 2pk Silicone Nipple Shields $80 + Service Fee @ Target on Uber Eats",
    "link": "https://www.ozbargain.com.au/node/982395",
-   "votes": 78,
+   "votes": 79,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794285507000
   },
   {
-   "title": "Super Mario Donkey Kong Plush 27cm $12 (Exp), Hatchin' Yoshi $39 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU / Big W (C&C)",
-   "link": "https://www.ozbargain.com.au/node/982357",
-   "votes": 68,
-   "neg": 0,
-   "category": "Toys & Kids",
-   "ts": 1794272742000
-  },
-  {
    "title": "eBay Australia: 10% Cashback ($20 Cap Per Member Per Day, Excludes Coupons) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/982459",
-   "votes": 66,
+   "votes": 74,
    "neg": 0,
    "category": "Other",
    "ts": 1794315786000
@@ -1448,15 +1438,23 @@
   {
    "title": "Jack's Fried Chicken Large Value Meal $10 (RRP $21.90) Delivered @ Hungry Jacks via Uber Eats (Delivery & Service Fees Apply)",
    "link": "https://www.ozbargain.com.au/node/982447",
-   "votes": 63,
+   "votes": 65,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1794306853000
   },
   {
+   "title": "Everyday Market from Woolworths: 30% Cashback on $200.01+ Spend ($150 Cap Per Member, Excludes Coupons) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/982463",
+   "votes": 61,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1794318664000
+  },
+  {
    "title": "Pepsi Max, Sunkist, Solo, Schweppes Lemonade 30x 375ml Cans $26 ($24.70 Sub & Save) + Del ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/982421",
-   "votes": 58,
+   "votes": 59,
    "neg": 0,
    "category": "Groceries",
    "ts": 1794293558000
@@ -1470,17 +1468,17 @@
    "ts": 1794278167000
   },
   {
-   "title": "Everyday Market from Woolworths: 30% Cashback on $200.01+ Spend ($150 Cap Per Member, Excludes Coupons) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/982463",
-   "votes": 53,
+   "title": "Bambu Lab X2D Combo 3D Printer & AMS 2 Pro $1067.11 + Delivery ($0 C&C) @ JB Hi-Fi",
+   "link": "https://www.ozbargain.com.au/node/982483",
+   "votes": 50,
    "neg": 0,
-   "category": "Other",
-   "ts": 1794318664000
+   "category": "Electrical & Electronics",
+   "ts": 1794345466000
   },
   {
    "title": "Thule Euroway G2 3 Bike Tow Ball Rack $599 + Shipping ($0 C&C) @ 99Bikes",
    "link": "https://www.ozbargain.com.au/node/982430",
-   "votes": 47,
+   "votes": 49,
    "neg": 0,
    "category": "Automotive",
    "ts": 1794299174000
