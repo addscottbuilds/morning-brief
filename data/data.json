@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T23:57:45.267Z",
+ "generatedAt": "2026-11-10T01:46:40.404Z",
  "markets": {
   "items": [
    {
@@ -7,88 +7,112 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9013.7,
-    "chgPct": -0.07870482486275755,
+    "price": 9139.8,
+    "chgPct": 1.3191756594649502,
     "high52": 9296.7,
-    "off52": -3.0440909139802295
+    "off52": -1.6876956339346376
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.72,
-    "chgPct": 0.7372194258358868,
+    "price": 86.14,
+    "chgPct": 1.5442628087575345,
     "high52": 88,
-    "off52": -3.7272727272727284
+    "off52": -2.113636363636363
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 150.55,
-    "chgPct": -0.03983839725675377,
+    "price": 152.88,
+    "chgPct": 1.3793082932022775,
     "high52": 155.03,
-    "off52": -2.8897632716248403
+    "off52": -1.3868283558021066
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.05,
-    "chgPct": 0.617282596739068,
+    "price": 58.56,
+    "chgPct": 2.574881491475135,
     "high52": 65.18,
-    "off52": -12.47315127339676
+    "off52": -10.15648972077325
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 28.99,
-    "chgPct": -0.1721794557541161,
+    "price": 30.75,
+    "chgPct": 5.452675448930086,
     "high52": 47.78,
-    "off52": -39.326077856843874
+    "off52": -35.642528254499794
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6869,
-    "chgPct": -0.8959856985349542,
+    "price": 0.6922,
+    "chgPct": 0.776013140846446,
     "high52": 0.7277,
-    "off52": -5.606706060189646
+    "off52": -4.878383949429707
    }
   ],
   "failed": [],
-  "note": "SEMI is 39% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 36% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "market": "US",
+    "price": 319.48,
+    "currency": "USD",
+    "chgPct": 8.781367204945663
+   },
    {
     "sym": "TSLA",
     "name": "Tesla",
     "market": "US",
-    "price": 358.22,
+    "price": 378.05,
     "currency": "USD",
-    "chgPct": 4.227646267095277
+    "chgPct": 5.535703956150515
    },
    {
-    "sym": "NFLX",
-    "name": "Netflix",
+    "sym": "META",
+    "name": "Meta",
     "market": "US",
-    "price": 63.41,
+    "price": 641.37,
     "currency": "USD",
-    "chgPct": -3.279435080320449
+    "chgPct": 5.116770357572071
+   },
+   {
+    "sym": "LLY",
+    "name": "Eli Lilly",
+    "market": "US",
+    "price": 1411.95,
+    "currency": "USD",
+    "chgPct": 4.279911373707536
    },
    {
     "sym": "NVDA",
     "name": "Nvidia",
     "market": "US",
-    "price": 186.64,
+    "price": 178.67,
     "currency": "USD",
-    "chgPct": 2.7753269422311937
+    "chgPct": -4.2702525802143185
+   },
+   {
+    "sym": "GMG.AX",
+    "name": "Goodman",
+    "market": "ASX",
+    "price": 29.34,
+    "currency": "AUD",
+    "chgPct": 4.153354350505135
    }
   ]
  },
@@ -101,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Breaking: Trump says he was 'kidding' about offering Dana White press secretary job",
-      "summary": "The US president backtracks on his announcement offering Ultimate Fighting Championship CEO Dana White the vacant White House press secretary role.",
-      "ts": 1794181779000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/ac355c57688afca92cdbe0f51cd1ccc5?impolicy=wcms_crop_resize&cropH=2430&cropW=4320&xPos=0&yPos=21&width=862&height=485",
+      "headline": "Qantas to outsource 850 local jobs with most roles moving to India",
+      "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+      "ts": 1794274699000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47eb/live/926fac30-dca6-11f1-86c1-89409a3a3bd9.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -112,48 +136,41 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "ABC News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Breaking: Trump says he was 'kidding' about offering Dana White press secretary job",
-        "desc": "The US president backtracks on his announcement offering Ultimate Fighting Championship CEO Dana White the vacant White House press secretary role.",
-        "link": "https://www.abc.net.au/news/2026-11-09/donald-trump-says-he-was-kidding-about-dana-white-job-offer/107362886"
+        "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+        "desc": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+        "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Qantas to cut 850 local jobs as it shifts roles to India",
+        "desc": "A leading union has disputed the move, saying it was told by Qantas earlier in the year there was “no plan” to offshore any jobs.",
+        "link": "https://www.theage.com.au/business/companies/qantas-to-cut-850-local-jobs-as-it-shifts-roles-to-india-20261110-p61ctc.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Farce as ex-Pentagon worker with same name as UFC boss Dana White declares mix-up amid hunt for new White House press secretary",
-        "desc": "Dana W. White (right) was bombarded with congratulatory messages after Trump announced he had offered the job to his longtime friend and UFC chief (left).",
-        "link": "https://www.dailymail.com/news/article-16276203/Dana-White-wild-rumors-Trump-UFC.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover",
-        "desc": "Stephen Miller praised Richard Walters as an “invaluable member\" who will continue helping the administration from outside the White House.",
-        "link": "https://www.foxnews.com/politics/deputy-white-house-chief-staff-richard-walters-exits-job-ahead-stephen-miller-takeover"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Donald Trump’s power is on the wane. What next for Russia, Israel – and the rest of us? | Simon Tisdall",
-        "desc": "With the global tide turning against him, the US president’s lame duck status could still aggravate old tensions and spark new explosions It was a victory for the world, too. People in the many countries that suffered pain, loss and cruel indignities at the hands of Donald Trump over the past two chaotic, fearful years celebrated a moment of glorious, shared redemption. The monster, like others of",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/08/donald-trump-power-russia-israel-us-president"
+        "title": "Qantas to axe more than 850 jobs to India as part of major cost-cutting plan",
+        "desc": "The move is part of a deal to outsource some corporate work to India.",
+        "link": "https://www.dailymail.com/news/article-16279835/qantas-job-cuts-accenture-india-outsourcing-staff.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Donald Trump offers UFC chief Dana White job as White House press secretary",
-        "desc": "The US president called the UFC chief executive a \"violent fighter and warrior\".",
-        "link": "https://www.sbs.com.au/news/article/dana-white-donald-trump-press-secretary/12d59nzjm"
+        "title": "Major Australian employers are cutting jobs. What does it mean for the economy?",
+        "desc": "A rate hike and a slew of company job cuts have raised questions on the labour market's strength.",
+        "link": "https://www.sbs.com.au/news/article/australias-biggest-employers-are-cutting-jobs-what-does-it-mean-for-the-economy/mkfdvcwak"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Dave Chappelle faces backlash for Charlie Kirk joke at Madison Square Garden gig",
-      "summary": "‘You do not have to agree with someone’s politics to recognise the value of their life.’",
-      "ts": 1794182024000,
-      "img": "https://images.7news.com.au/publication/C-23133614/bfb2fddb9eda9a951013c5f7ec1542e6d789955c-16x9-x0y0w1280h720.png",
+      "headline": "Trump questions midterm elections integrity after previously accepting results",
+      "summary": "Trump made the claims, without evidence, on Truth Social on Monday.",
+      "ts": 1794266243000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de62/live/5a7465d0-dc53-11f1-a869-656dc96bd12d.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -161,34 +178,41 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Dave Chappelle faces backlash for Charlie Kirk joke at Madison Square Garden gig",
-        "desc": "‘You do not have to agree with someone’s politics to recognise the value of their life.’",
-        "link": "https://7news.com.au/entertainment/dave-chappelle-faces-backlash-for-charlie-kirk-joke-at-madison-square-garden-gig-c-23133614"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "As warning signs flash for the right-wing outrage machine, independent media is on the rise",
-        "desc": "Audiences are turning away from Fox News, with Lachlan Murdoch blaming “viewer fatigue”. Is the future of news smaller, more local and not-for-profit? The post As warning signs flash for the right-wing outrage machine, independent media is on the rise appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/09/fox-news-corp-rupert-murdoch-us-midterm-elections/"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Trump says 'a lot of people didn't like' Vance's criticism of Iran war after crushing midterm defeat... but challenges vice president to answer one question",
+        "desc": "President Donald Trump admitted 'a lot of people' disliked JD Vance's criticism of the Iran war but insisted their relationship remained strong. Trump said his vice president was largely correct.",
+        "link": "https://www.dailymail.com/news/article-16277093/Trump-Vance-Iran-war-remarks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Independent wrestling's heart still beating even as social media begins to write its obituary",
-        "desc": "Ben Bishop and Killer Kross dismiss claims that independent wrestling is dead after Fight Factory's No Thanks Given drew hundreds in New Jersey.",
-        "link": "https://www.foxnews.com/outkick-sports/independent-wrestling-heart-still-beating-social-media-begins-write-obituary"
+        "title": "Dana White takes questions at podium during White House briefing with Trump",
+        "desc": "Dana White took the White House podium to shut down press secretary rumors, saying he has zero political aspirations after President Trump's surprise joke.",
+        "link": "https://www.foxnews.com/politics/dana-white-takes-questions-podium-during-white-house-briefing-trump"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trump questions midterm elections integrity after previously accepting results",
+        "desc": "Trump made the claims, without evidence, on Truth Social on Monday.",
+        "link": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Trump’s pathetic Dana White gambit could not mask his midterm humiliation | Howard Bryant",
+        "desc": "Trump has long relied on sports to project strength and fuel his culture wars. But after a crushing midterm defeat, even his UFC ally cannot distract from the political fallout In the wake of being destroyed in the midterm elections, it was only a matter of time before Donald Trump did something outrageous in an attempt to misdirect public attention away from his catastrophic losses. Before the mi",
+        "link": "https://www.theguardian.com/sport/2026/nov/09/donald-trump-dana-white-ufc-midterms-sports-politics"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Live: Beau Lamarre-Condon cross-examined in double murder trial",
-      "summary": "Beau Lamarre-Condon is being cross-examined after giving evidence in his double murder trial.",
-      "ts": 1794181926000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/871e42fa7b74927f8ff68a34387e4488?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Beaconsfield mine disaster survivor Todd Russell dies after health battle",
+      "summary": "He spent two weeks underground alongside Brant Webb before being freed.",
+      "ts": 1794275006000,
+      "img": "https://i.dailymail.com/1s/2026/11/09/21/112405921-0-image-m-58_1794260704277.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -196,104 +220,34 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Beau Lamarre-Condon trial live updates: Former NSW Police officer’s cross-examination continues over alleged murders of Jesse Baird, Luke Davies",
-        "desc": "The accused double murderer faces further cross-examination after giving his account of what happened on the day Sydney couple Jesse Baird and Luke Davies died.",
-        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-former-nsw-police-officer-s-cross-examination-continues-over-alleged-murders-of-jesse-baird-luke-davies-20261109-p61cio.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Beau Lamarre-Condon cross-examined in double murder trial",
-        "desc": "Beau Lamarre-Condon is being cross-examined after giving evidence in his double murder trial.",
-        "link": "https://www.abc.net.au/news/2026-11-09/beau-lamarre-condon-trial-live-blog-cross-examination/107362572"
-       },
-       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Accused killer Beau Lamarre-Condon to undergo another day of interrogation on the witness stand in double murder trial",
-        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16276715/beau-lamarre-condon-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Beaconsfield mine survivor Todd Russell dies aged 54 after battle with leukaemia",
+        "desc": "Todd Russell spent 13 days buried alive in the Beaconsfield Mine during the 2006 disaster.",
+        "link": "https://www.dailymail.com/news/article-16279543/todd-russell-beaconsfield-survivor-dies-leukaemia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: PM announces results of review into AI hack of Medicare; Beaconsfield mine disaster survivor dies; Consumer confidence among homeowners plummets",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-beaconsfield-mine-disaster-survivor-todd-russell-dies-consumer-confidence-among-homeowners-plummets-20261110-p61crb.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Beaconsfield mine disaster survivor Todd Russell dies after health battle",
+        "desc": "He spent two weeks underground alongside Brant Webb before being freed.",
+        "link": "https://7news.com.au/news/beaconsfield-mine-disaster-survivor-todd-russell-dies-after-health-battle-c-23124216"
        }
       ]
      },
      {
       "id": 3,
-      "headline": "Breaking: 15yo boy stabbed multiple times outside Sydney high school",
-      "summary": "NSW Police say they were told the teenager was stabbed several times in the abdomen.",
-      "ts": 1794180471000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b3c312c7c3385ebef2ff1c00b52049c5?impolicy=wcms_crop_resize&cropH=2592&cropW=4608&xPos=0&yPos=391&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Breaking: 15yo boy stabbed multiple times outside Sydney high school",
-        "desc": "NSW Police say they were told the teenager was stabbed several times in the abdomen.",
-        "link": "https://www.abc.net.au/news/2026-11-09/teenage-boy-stabbed-outside-casula-high-school-in-sydney/107362694"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Teenager stabbed multiple times outside Casula High School in Sydney’s southwest",
-        "desc": "The person who stabbed the 15-year-old boy is now on the run.",
-        "link": "https://7news.com.au/news/teenager-stabbed-multiple-times-outside-casula-high-school-in-sydneys-southwest-c-23133653"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Teenager stabbed in the stomach outside Sydney school",
-        "desc": "A 15-year-old boy has been hospitalised after he was stabbed multiple times outside a school in Sydney’s south-west on Monday morning.",
-        "link": "https://www.theage.com.au/national/nsw/teenager-stabbed-in-the-stomach-outside-sydney-school-20261109-p61cik.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Eisenkot is trying to form government in Israel. Here are five ways it could go",
-      "summary": "Gadi Eisenkot's path to power could involve some creative political arithmetic and manoeuvring. So, what are the options from here?",
-      "ts": 1794176415000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/53a3d389e2dc23ac8871968e7d77d094?impolicy=wcms_crop_resize&cropH=2531&cropW=4499&xPos=0&yPos=767&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: Government abandons Victoria Barracks sell-off; Trust in Albanese plummets, new polling shows; Eisenkot to take ‘unconventional’ steps to form government in Israel",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
-        "link": "https://www.theage.com.au/national/australia-news-live-government-abandons-victoria-barracks-sell-off-trust-in-albanese-plummets-new-polling-shows-netanyahu-rival-to-take-unconventional-approach-to-forming-government-20261109-p61cg8.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Eisenkot is trying to form government in Israel. Here are five ways it could go",
-        "desc": "Gadi Eisenkot's path to power could involve some creative political arithmetic and manoeuvring. So, what are the options from here?",
-        "link": "https://www.abc.net.au/news/2026-11-09/five-ways-israel-coalition-negotiations-could-go/107361790"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Israeli president asks Benjamin Netanyahu's rival, Gadi Eisenkot, to form government",
-        "desc": "Weeks of protracted negotiations are expected to follow the president's announcement.",
-        "link": "https://www.sbs.com.au/news/article/israel-election-eisenkot-form-government/ez0jqmif2"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Seven dead and more than 100 injured after trains collide in Egypt",
-      "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-      "ts": 1794167882000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3886/live/ab03aa70-db8a-11f1-b441-2b33b063138f.jpg",
+      "headline": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
+      "ts": 1794274729000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0303/live/c8a877f0-dc7e-11f1-93e1-3b657b665bcf.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -303,32 +257,32 @@
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-        "desc": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-        "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss"
+        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+        "desc": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process next year.",
+        "link": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Two trains collide in Egypt, killing seven people and injuring more than 100, authorities say",
-        "desc": "Several carriages were derailed after one train slammed into the rear of another between Kafr Ammar and Al-Raqqa stations in Giza.",
-        "link": "https://7news.com.au/news/two-trains-collide-in-egypt-killing-7-people-and-injuring-more-than-100-authorities-say-c-23133202"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Trump renews call for Pete Rose pardon, saying MLB's all-time hits leader was 'mistreated'",
+        "desc": "Trump said he would pardon Pete Rose for federal tax charges, calling MLB's all-time hits leader \"very mistreated\" during a meeting with Dana White.",
+        "link": "https://www.foxnews.com/outkick-sports/trump-renews-call-pete-rose-pardon-saying-mlbs-all-time-hits-leader-mistreated"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Seven dead and 100 injured after trains collide in Egypt",
-        "desc": "The collision on the edge of Cairo killed at least seven people and injured more than 110.",
-        "link": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794"
+        "title": "Why a fellow Republican has moved to impeach Trump ally Pete Hegseth",
+        "desc": "Accused of illegally waging war in Iran, could Hegseth become the first US defence secretary to be removed from office?",
+        "link": "https://www.sbs.com.au/news/article/why-some-republicans-are-turning-on-pete-hegseth/2lsrd61hs"
        }
       ]
      },
      {
-      "id": 6,
-      "headline": "Live: Victoria's Big Build royal commission gets underway",
-      "summary": "The first block of public hearings in the the Royal Commission into the Integrity of Major Public and Civil Infrastructure Construction Projects in Victoria is underway. Follow live in our blog.",
-      "ts": 1794181853000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/df80947e6362ba673688799fb690ebfa?impolicy=wcms_crop_resize&cropH=2812&cropW=4999&xPos=0&yPos=0&width=862&height=485",
+      "id": 4,
+      "headline": "Cricket Australia CEO Todd Greenberg rules out fresh investigation into 2018 ball-tampering saga",
+      "summary": "CA’s chief executive has spoken for the first time since Usman Khawaja’s bombshell new claims.",
+      "ts": 1794272841000,
+      "img": "https://images.7news.com.au/publication/C-23139903/88ee049953ea47a4269fb2feb14c5dfe5c6bb5be-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -336,18 +290,95 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
+        "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Big Build royal commission LIVE updates: Big Build project, CFMEU under microscope as state’s long-awaited construction royal commission begins",
-        "desc": "The inquiry begins its first block of public hearings this week and is expected to examine the role of former premier Jacinta Allan and her office in a controversial road and rail project.",
-        "link": "https://www.theage.com.au/national/victoria/big-build-royal-commission-live-updates-big-build-project-cfmeu-under-microscope-as-state-s-long-awaited-construction-royal-commission-begins-20261109-p61c7n.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Cricket Australia rules out reopening ball tampering investigation in wake of Khawaja book claims",
+        "desc": "No ‘compelling reason’ to establish another inquiry into incident Usman Khawaja says ‘this has never been about commercial gain’ Cricket Australia will not reopen the investigation into the 2018 ball tampering controversy reignited by the release this week of Usman Khawaja’s book, which alleged more than the three players suspended had knowledge of the sandpaper plan. Captain Steve Smith, vice-cap",
+        "link": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Cricket Australia CEO Todd Greenberg rules out fresh investigation into 2018 ball-tampering saga",
+        "desc": "CA’s chief executive has spoken for the first time since Usman Khawaja’s bombshell new claims.",
+        "link": "https://7news.com.au/sport/cricket/cricket-australia-ceo-todd-greenberg-rules-out-fresh-investigation-into-2018-ball-tampering-saga-c-23139903"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: Victoria's Big Build royal commission gets underway",
-        "desc": "The first block of public hearings in the the Royal Commission into the Integrity of Major Public and Civil Infrastructure Construction Projects in Victoria is underway. Follow live in our blog.",
-        "link": "https://www.abc.net.au/news/2026-11-09/vic-election-blog-big-build-royal-commission/107357514"
+        "title": "Cricket Australia will not have another Sandpapergate investigation",
+        "desc": "Cricket Australia will not reopen an investigation into the infamous 2018 Sandpapergate controversy, according to chief executive Todd Greenberg, in the wake of Usman Khawaja's claims that the entire Australian Test team knew it was happening.",
+        "link": "https://www.abc.net.au/news/2026-11-10/cricket-australia-no-sandpapergate-investigation/107367290"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Canstar’s Sally Tindall reveals simple advice for mortgage holders as more than half of Australians experience financial stress",
+      "summary": "Around three in four Aussies are concerned about the cost of living, from affording daily essentials to monthly bills.",
+      "ts": 1794272207000,
+      "img": "https://images.7news.com.au/publication/C-23138817/65f72f074cf4384081a1d7c14cb485fd4e8c6d8e-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Canstar’s Sally Tindall reveals simple advice for mortgage holders as more than half of Australians experience financial stress",
+        "desc": "Around three in four Aussies are concerned about the cost of living, from affording daily essentials to monthly bills.",
+        "link": "https://7news.com.au/sunrise/canstars-sally-tindall-reveals-simple-advice-for-mortgage-holders-as-more-than-half-of-australians-experience-financial-stress--c-23138817"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Most Australians don’t have a mortgage. Rate rises could leave them better off",
+        "desc": "Despite what the headlines might say, many Australians can be ‘winners’ from rate rises. Here’s how.",
+        "link": "https://www.theage.com.au/money/borrowing/most-australians-don-t-have-a-mortgage-rate-rises-could-leave-them-better-off-20261110-p61cua.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'Find a better way': The new push to move away from rate hikes to control inflation",
+        "desc": "Curbing data centre construction, raising the GST, making companies pay more are ideas being pitched at the government.",
+        "link": "https://www.sbs.com.au/news/article/are-there-other-ways-to-stop-inflation-without-higher-interest-rates/rof9u03w2"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Russell Brand sentenced to over a decade in jail for rape and sexual assault",
+      "summary": "UK comedian Russell Brand has been jailed for 10-and-a-half years for raping a woman and sexually assaulting three others.",
+      "ts": 1794271107000,
+      "img": "https://assets.sbs.com.au/dims4/default/93cfa87/2147483647/strip/false/crop/3150x1447+0+111/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F86%2F94%2F088af9c5408da313b65aaef99755%2Frussell-brand-jailed.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Russell Brand is 'furious' over his barrister's performance in court having spent £1million on his defence - as comic begins ten-year prison sentence for rape and sexual assault",
+        "desc": "Brand, who was sentenced to ten and a half years yesterday, is now said to be looking to employ a different legal team if he faces further charges, according to legal sources.",
+        "link": "https://www.dailymail.com/crime-desk/article-16278895/Russell-Brand-furious-barristers-performance-court-rape-sexual-assault.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Russell Brand sentenced to over a decade in jail for rape and sexual assault",
+        "desc": "UK comedian Russell Brand has been jailed for 10-and-a-half years for raping a woman and sexually assaulting three others.",
+        "link": "https://www.sbs.com.au/news/article/russell-brand-sentenced-to-10-and-a-half-in-jail-for-rape-and-sexual-assault/xsjjdos3a"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
+        "desc": "Judge tells disgraced actor and comedian he had displayed ‘casual, arrogant disregard of any woman’s right to say no’ Jemima Goldsmith says ex-partner Russell Brand physically assaulted her Russell Brand was sentenced to more than 10 years in prison on Monday after a judge praised his victims’ bravery and accused him of living “unhindered by the rules by which decent people live”. As the judge, Mr",
+        "link": "https://www.theguardian.com/news/2026/nov/09/russell-brand-sentenced-rape-sexual-assault"
        }
       ]
      }
@@ -359,10 +390,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Victoria Barracks sale abandoned following backlash",
-      "summary": "The Albanese government has bowed to public pressure and abandoned the sale of Sydney’s Victoria Barracks.",
-      "ts": 1794115375000,
-      "img": "https://static.ffx.io/images/$zoom_0.2118%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_73/t_crop_custom/q_86%2Cf_auto/8d72d54bd9dba15f73b364cad0ffd0690a520ee9",
+      "headline": "Stop leaking against Chalmers and undermining him, Albanese ally says",
+      "summary": "The relationship between Albanese and his treasurer has come into the spotlight as pressure has grown on Labor to combat inflation.",
+      "ts": 1794206232000,
+      "img": "https://static.ffx.io/images/$zoom_0.6930476081044851%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_468%2C$y_135/t_crop_custom/q_86%2Cf_auto/546614e714b5bcec8c469554ed3ed451766c85af",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -372,53 +403,46 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Victoria Barracks sale abandoned following backlash",
-        "desc": "The Albanese government has bowed to public pressure and abandoned the sale of Sydney’s Victoria Barracks.",
-        "link": "https://www.theage.com.au/politics/federal/victoria-barracks-sale-abandoned-following-backlash-20261108-p61cb1.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "Stop leaking against Chalmers and undermining him, Albanese ally says",
+        "desc": "The relationship between Albanese and his treasurer has come into the spotlight as pressure has grown on Labor to combat inflation.",
+        "link": "https://www.theage.com.au/politics/federal/stop-leaking-against-chalmers-and-undermining-him-albanese-ally-says-20261109-p61cm4.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        },
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Victoria Barracks in Sydney and Melbourne to remain in public hands after partial backtrack on defence property selloff",
-        "desc": "Four heritage-listed defence properties to be preserved for community use after backlash from veterans and former PMs Get our daily political email, free app or daily news podcast Richard Marles has denied claims Australia’s defence will be undermined by its decision to repurpose a historical military base near Sydney’s CBD for public use. The Albanese government announced on Sunday four heritage-",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/08/victoria-barracks-sydney-and-melbourne-remain-in-public-hands-backtrack-defence-property-sale-albanese-marles"
+        "title": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
+        "desc": "‘It’s pretty obvious that there are all sorts of people making all sorts of comments,’ Murray Watt says after budget savings meeting Get our breaking news email, free app or daily news podcast The environment minister, Murray Watt, has urged ministers to stop undermining the treasurer, Jim Chalmers, as Labor struggles to sell its budget and looks to cut popular clean energy subsidies to help with ",
+        "link": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Newsom’s death row commutations spark DA revolt; prosecutors warn of legal fight",
-      "summary": "California district attorneys accused Gavin Newsom of overriding juries and ignoring victims' families with his plan to commute all 548 death sentences in the state.",
-      "ts": 1794078021000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/JASON-ANDERSON-SAN-BERNADINO-DISTRICT-ATTORNEY.jpg?ve=1&tl=1",
+      "headline": "Chris Bowen faces a titanic task at Cop31. What will it take for the world to make the climate crisis its top priority? | Adam Morton",
+      "summary": "Whether the global community can bring itself to name fossil fuels as the cause of the climate emergency will be at the centre of debate in Antalya Australian politics could have looked markedly different this week if the Albanese government had succeeded in its longstanding bid to host a major UN climate summit in Adelaide. Tens of thousands of people, including ministers and diplomats representi",
+      "ts": 1794271840000,
+      "img": "https://i.guim.co.uk/img/media/552ac708601f7d493fcfdb3dfde923fb4bcb80c9/643_0_6348_5081/master/6348.jpg?width=460&quality=85&auto=format&fit=max&s=c6a86366d95732d10851963ee575b7e0",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "What’s more powerful than the politics of division? Actually listening to people | Julianne Schultz",
-        "desc": "US voters have shown there’s nothing inevitable about populism and big money politics. Australian leaders take note Get our daily political email, free app or daily news podcast Donald Trump had an uncanny ability to sense grievance, channel it and promise his angry mobs: “I am your retribution.” A new generation of American Democrats showed this week that listening and responding to real grievanc",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/08/listening-more-powerful-than-politics-of-division-us-midterms-australia-ntwnfb"
-       },
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Newsom’s death row commutations spark DA revolt; prosecutors warn of legal fight",
-        "desc": "California district attorneys accused Gavin Newsom of overriding juries and ignoring victims' families with his plan to commute all 548 death sentences in the state.",
-        "link": "https://www.foxnews.com/politics/newsoms-death-row-commutations-spark-da-revolt-prosecutors-warn-legal-fight"
+        "title": "Chris Bowen faces a titanic task at Cop31. What will it take for the world to make the climate crisis its top priority? | Adam Morton",
+        "desc": "Whether the global community can bring itself to name fossil fuels as the cause of the climate emergency will be at the centre of debate in Antalya Australian politics could have looked markedly different this week if the Albanese government had succeeded in its longstanding bid to host a major UN climate summit in Adelaide. Tens of thousands of people, including ministers and diplomats representi",
+        "link": "https://www.theguardian.com/environment/commentisfree/2026/nov/10/chris-bowen-faces-a-titanic-task-at-cop31-what-will-it-take-for-the-world-to-make-the-climate-crisis-its-top-priority"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "The Reserve Bank says AI could supercharge your workplace. Right now, it’s inflating cost of living",
-      "summary": "AI supporters believe it will improve our lives, end disease and give us more free time. But it could come at a financial cost.",
-      "ts": 1794180706000,
-      "img": "https://static.ffx.io/images/$zoom_0.1351%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_19/t_crop_custom/q_86%2Cf_auto/fac9fd524696571173f29866f0ed638e05b3e7c1",
+      "headline": "‘Rocks in your head’: Labor slams Nationals over trade ahead of new EU pact",
+      "summary": "The Albanese government will sign a $150 billion research pact with the European Union later this week even as the Coalition remains opposed to the recent free trade deal.",
+      "ts": 1794271177000,
+      "img": "https://static.ffx.io/images/$zoom_0.2156%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_71%2C$y_0/t_crop_custom/q_86%2Cf_auto/49f80c461af55972514a1f626f603c1bc9eb6ee7",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -428,18 +452,39 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "The Reserve Bank says AI could supercharge your workplace. Right now, it’s inflating cost of living",
-        "desc": "AI supporters believe it will improve our lives, end disease and give us more free time. But it could come at a financial cost.",
-        "link": "https://www.theage.com.au/politics/federal/the-reserve-bank-says-ai-could-supercharge-your-workplace-right-now-it-s-inflating-cost-of-living-20261109-p61cbt.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+        "title": "‘Rocks in your head’: Labor slams Nationals over trade ahead of new EU pact",
+        "desc": "The Albanese government will sign a $150 billion research pact with the European Union later this week even as the Coalition remains opposed to the recent free trade deal.",
+        "link": "https://www.theage.com.au/politics/federal/rocks-in-your-head-labor-slams-nationals-over-trade-ahead-of-new-eu-pact-20261110-p61cro.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Elon Musk’s Austin home targeted by well-funded leftist groups aboard party buses",
-      "summary": "Three far-left nonprofits with $56.1 million in combined revenue organized a theatrical protest outside Elon Musk's Austin-area home",
-      "ts": 1794177689000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/Elon-Musk-Protest-by-Nomani-1.png?ve=1&tl=1",
+      "headline": "What happens when a country forgets how to make its own fuel",
+      "summary": "In the name of efficiency and transition, Australia shuttered nearly all its refineries. A single fire exposed how thin the margin really is.",
+      "ts": 1794269049000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_65/t_crop_custom/q_86%2Cf_auto/d1d9770687d4b80d1ed89394b979ec07deb4fb87",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "What happens when a country forgets how to make its own fuel",
+        "desc": "In the name of efficiency and transition, Australia shuttered nearly all its refineries. A single fire exposed how thin the margin really is.",
+        "link": "https://www.theage.com.au/politics/federal/what-happens-when-a-country-forgets-how-to-make-its-own-fuel-20261110-p61c42.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "Dana White takes questions at podium during White House briefing with Trump",
+      "summary": "Dana White took the White House podium to shut down press secretary rumors, saying he has zero political aspirations after President Trump's surprise joke.",
+      "ts": 1794263073000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/trump-dana-white.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -449,17 +494,17 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Elon Musk’s Austin home targeted by well-funded leftist groups aboard party buses",
-        "desc": "Three far-left nonprofits with $56.1 million in combined revenue organized a theatrical protest outside Elon Musk's Austin-area home",
-        "link": "https://www.foxnews.com/politics/far-left-groups-56-1m-revenues-target-musks-austin-home-mass-produced-signs-vilifying-him"
+        "title": "Dana White takes questions at podium during White House briefing with Trump",
+        "desc": "Dana White took the White House podium to shut down press secretary rumors, saying he has zero political aspirations after President Trump's surprise joke.",
+        "link": "https://www.foxnews.com/politics/dana-white-takes-questions-podium-during-white-house-briefing-trump"
        }
       ]
      },
      {
-      "id": 11,
-      "headline": "Poor polls continue for both federal and Victorian Labor",
-      "summary": "There have been three recent federal polls. The combined vote for One Nation and the Coalition was down one point to 47% in Resolve, up three points to 53% in Redbridge and steady at 50% in YouGov. Anthony Albanese’s ratings are very poor in all three polls. Economic perceptions appear to be hurting Labor. It’s less than three weeks until the November 28 Victorian election. Recent polls all have t",
-      "ts": 1794176785000,
+      "id": 12,
+      "headline": "What really drove NZ’s election overhang and what can be done about it",
+      "summary": "Hagen Hopkins/Getty Images Based on provisional election results, New Zealand’s parliament could grow by up to 11 overhang seats – without accurately representing the proportion of party votes cast. There are now growing calls for reform of the mixed member proportional (MMP) electoral system adopted after the 1993 referendum to avoid undermining the legitimacy of future elections. MMP is based on",
+      "ts": 1794262764000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -470,30 +515,9 @@
        {
         "outlet": "The Conversation",
         "lean": "centre",
-        "title": "Poor polls continue for both federal and Victorian Labor",
-        "desc": "There have been three recent federal polls. The combined vote for One Nation and the Coalition was down one point to 47% in Resolve, up three points to 53% in Redbridge and steady at 50% in YouGov. Anthony Albanese’s ratings are very poor in all three polls. Economic perceptions appear to be hurting Labor. It’s less than three weeks until the November 28 Victorian election. Recent polls all have t",
-        "link": "https://theconversation.com/poor-polls-continue-for-both-federal-and-victorian-labor-295756"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover",
-      "summary": "Stephen Miller praised Richard Walters as an “invaluable member\" who will continue helping the administration from outside the White House.",
-      "ts": 1794170624000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/richard-walters-white-house.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover",
-        "desc": "Stephen Miller praised Richard Walters as an “invaluable member\" who will continue helping the administration from outside the White House.",
-        "link": "https://www.foxnews.com/politics/deputy-white-house-chief-staff-richard-walters-exits-job-ahead-stephen-miller-takeover"
+        "title": "What really drove NZ’s election overhang and what can be done about it",
+        "desc": "Hagen Hopkins/Getty Images Based on provisional election results, New Zealand’s parliament could grow by up to 11 overhang seats – without accurately representing the proportion of party votes cast. There are now growing calls for reform of the mixed member proportional (MMP) electoral system adopted after the 1993 referendum to avoid undermining the legitimacy of future elections. MMP is based on",
+        "link": "https://theconversation.com/what-really-drove-nzs-election-overhang-and-what-can-be-done-about-it-296144"
        }
       ]
      }
@@ -505,10 +529,10 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "summary": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Su",
-      "ts": 1794178490000,
-      "img": null,
+      "headline": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+      "ts": 1794275093000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f773/live/9c28e680-dc95-11f1-a701-fddedf244c16.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -516,20 +540,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-        "desc": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Su",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+        "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+        "desc": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+        "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+        "desc": "Elon Musk and other finance moguls defend Jensen Huang after he admitted to the affair, as Trump says FBI ‘is looking into it’ Nvidia’s board needs to do some succession planning – sharpish Donald Trump, Elon Musk and prominent finance moguls have expressed their support for embattled Nvidia CEO Jensen Huang, as the head of the world’s most valuable chip company faces an internal investigation ove",
+        "link": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk"
        }
       ]
      },
      {
       "id": 14,
-      "headline": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-      "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. \"Gold Chain Punk (whogonbeatmyass?)\" is an opening salvo for the ages. Bong rip, into a catchy-as-hell hardcore riff, wit",
-      "ts": 1794177442000,
-      "img": null,
+      "headline": "Qantas to outsource 850 local jobs with most roles moving to India",
+      "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+      "ts": 1794274699000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/47eb/live/926fac30-dca6-11f1-86c1-89409a3a3bd9.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -537,20 +568,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
+        "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-        "desc": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. \"Gold Chain Punk (whogonbeatmyass?)\" is an opening salvo for the ages. Bong rip, into a catchy-as-hell hardcore riff, wit",
-        "link": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
+        "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+        "desc": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+        "link": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 15,
-      "headline": "Epic Games Launcher is coming to SteamOS",
-      "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response to a question about the A",
-      "ts": 1794171125000,
-      "img": null,
+      "headline": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+      "summary": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email, free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he was radicalised online after first seeing extremist material on TikTok and used Chat",
+      "ts": 1794272959000,
+      "img": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=460&quality=85&auto=format&fit=max&s=2a13c4fae7e8e878473d8cc4de9d85c4",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -558,19 +589,19 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Epic Games Launcher is coming to SteamOS",
-        "desc": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response to a question about the A",
-        "link": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+        "desc": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email, free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he was radicalised online after first seeing extremist material on TikTok and used Chat",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb"
        }
       ]
      },
      {
       "id": 16,
-      "headline": "Apple is racing to make Siri more agentic",
-      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's keeping pace with its rivals. Two significant improvements are expec",
-      "ts": 1794165499000,
+      "headline": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close",
+      "ts": 1794270529000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -581,17 +612,17 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Apple is racing to make Siri more agentic",
-        "desc": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's keeping pace with its rivals. Two significant improvements are expec",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+        "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+        "desc": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close",
+        "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
        }
       ]
      },
      {
       "id": 17,
-      "headline": "Elvis and Eminem rights holders are suing Suno",
-      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, which makes it",
-      "ts": 1794158599000,
+      "headline": "What could China get from Jensen Huang?",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about $99 billion worth of equity investments in frontier AI labs, n",
+      "ts": 1794268318000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -602,17 +633,17 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Elvis and Eminem rights holders are suing Suno",
-        "desc": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, which makes it",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+        "title": "What could China get from Jensen Huang?",
+        "desc": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about $99 billion worth of equity investments in frontier AI labs, n",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "Apple’s M5 MacBook Air is down to its lowest price since July",
-      "summary": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over the summer. Although the base model — which features Apple’s M5 processor, 16GB of RAM, and 512GB of",
-      "ts": 1794153600000,
+      "headline": "Here’s what Trump said he knew about Jensen Huang",
+      "summary": "Jensen Huang and President Trump. | Getty Images President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New York Times in",
+      "ts": 1794268066000,
       "img": null,
       "divergent": null,
       "left_view": null,
@@ -623,9 +654,9 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
-        "desc": "A top-down view of the 15-inch MacBook Air, which features Apple’s M5 processor. | Photo: Antonio G. Di Benedetto / The Verge The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over the summer. Although the base model — which features Apple’s M5 processor, 16GB of RAM, and 512GB of",
-        "link": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale"
+        "title": "Here’s what Trump said he knew about Jensen Huang",
+        "desc": "Jensen Huang and President Trump. | Getty Images President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New York Times in",
+        "link": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference"
        }
       ]
      }
@@ -637,10 +668,10 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Category killers, concessions and falling service push David Jones to the brink",
-      "summary": "David Jones has survived two world wars, the invention of the car and the discounting boom. As luxury perfumes wafted through the stores that inspired its houndstooth trademark, did it lose the service that made it like no other store.",
-      "ts": 1794179253000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/4b608cd9f1e12216a5a63bde6096f191?impolicy=wcms_crop_resize&cropH=821&cropW=1460&xPos=0&yPos=72&width=862&height=485",
+      "headline": "Qantas to cut 850 roles in technology outsourcing deal with Accenture",
+      "summary": "The airline is the latest big Australian corporate to outsource a major technology overhaul to external consultants.",
+      "ts": 1794274487000,
+      "img": "https://static.ffx.io/images/$zoom_0.3595%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_84%2C$y_0/t_crop_custom/q_86%2Cf_auto/f3c44b675f2f2b11f251ad57791313fc8ebee8ea7e48d9467585247c0f8d9445",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -648,27 +679,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
+        "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "David Jones is restocking shelves ahead of Black Friday as buyers circle",
-        "desc": "Last week’s news that the 188-year-old retailer had tipped into administration drove a “record” levels of shoppers to David Jones stores.",
-        "link": "https://www.theage.com.au/business/companies/david-jones-is-restocking-shelves-ahead-of-black-friday-as-buyers-circle-20261109-p61ci3.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
+        "desc": "Australian carrier announces agreement with Accenture amid ‘unprecedented’ technological disruption, CEO Vanessa Hudson says Qantas is preparing to cut 850 local jobs and outsource work offshore under an AI-driven overhaul, marking a growing wave of disruption to the Australian workforce. The changes represent the third major corporate layoff plan announced in Australia in three weeks, after restr",
+        "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul"
        },
        {
-        "outlet": "ABC Business",
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Qantas to cut 850 local jobs as it shifts roles to India",
+        "desc": "A leading union has disputed the move, saying it was told by Qantas earlier in the year there was “no plan” to offshore any jobs.",
+        "link": "https://www.theage.com.au/business/companies/qantas-to-cut-850-local-jobs-as-it-shifts-roles-to-india-20261110-p61ctc.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "AFR",
         "lean": "centre",
-        "title": "Category killers, concessions and falling service push David Jones to the brink",
-        "desc": "David Jones has survived two world wars, the invention of the car and the discounting boom. As luxury perfumes wafted through the stores that inspired its houndstooth trademark, did it lose the service that made it like no other store.",
-        "link": "https://www.abc.net.au/news/2026-11-08/david-jones-the-death-of-the-department-store/107346298"
+        "title": "Qantas to cut 850 roles in technology outsourcing deal with Accenture",
+        "desc": "The airline is the latest big Australian corporate to outsource a major technology overhaul to external consultants.",
+        "link": "https://www.afr.com/companies/transport/qantas-says-850-roles-to-go-in-tech-outsourcing-deal-with-accenture-20261110-p61csx?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 20,
-      "headline": "‘I was unfaithful’: Nvidia to probe spy case after Huang admits affair",
-      "summary": "Nvidia boss Jensen Huang has admitted to an extramarital affair, triggering a board inquiry into whether the chief executive was targeted by a foreign espionage plot.",
-      "ts": 1794173146000,
-      "img": "https://static.ffx.io/images/$zoom_1.725412580177943%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_316%2C$y_230/t_crop_custom/q_86%2Cf_auto/23d10439e5eff15a71c6dd4944981e9bec41bcb3",
+      "headline": "Pre-Christmas shoppers warned of dodgy discounts in Black Friday sales",
+      "summary": "Bogus \"countdown timers\", false \"storewide\" discount claims and misleading price comparisons are in the spotlight as the consumer watchdog cracks down this sales season.",
+      "ts": 1794271863000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/b818ee8fb3b79480171d10c2320e4995?impolicy=wcms_crop_resize&cropH=1406&cropW=2500&xPos=0&yPos=124&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -676,27 +714,55 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Nvidia CEO Jensen Huang apologizes as firm probes affair with alleged spy",
-        "desc": "CEO Jensen Huang apologized and admitted to a relationship with a woman U.S. intelligence identified as a Chinese spy, triggering an Nvidia probe.",
-        "link": "https://www.foxbusiness.com/politics/nvidia-ceo-jensen-huang-apologizes-firm-probes-affair-alleged-spy"
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Watchdog warns retailers over fake Black Friday deals and false urgency",
+        "desc": "Retailers are being warned not to mislead shoppers into thinking they’re getting more of a deal than they actually are during Black Friday sales.",
+        "link": "https://www.theage.com.au/business/consumer-affairs/watchdog-warns-retailers-over-fake-black-friday-deals-and-false-urgency-20261110-p61cuv.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "‘I was unfaithful’: Nvidia to probe spy case after Huang admits affair",
-        "desc": "Nvidia boss Jensen Huang has admitted to an extramarital affair, triggering a board inquiry into whether the chief executive was targeted by a foreign espionage plot.",
-        "link": "https://www.afr.com/world/north-america/nvidia-board-to-probe-spying-case-after-huang-admits-affair-20261109-p61ch0?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Pre-Christmas shoppers warned of dodgy discounts in Black Friday sales",
+        "desc": "Bogus \"countdown timers\", false \"storewide\" discount claims and misleading price comparisons are in the spotlight as the consumer watchdog cracks down this sales season.",
+        "link": "https://www.abc.net.au/news/2026-11-10/shoppers-warned-dodgy-discounts-black-friday-sales/107365588"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Trump championed oil, but instead he fuelled an electro revolution",
-      "summary": "The Iran war might have cost Donald Trump the midterm elections, but it has helped EV sales boom and strengthened the case for electrification, as the costs of solar and batteries plummet.",
-      "ts": 1794163707000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/cc31fef99cfeab80d0524d01ce8e8b0e?impolicy=wcms_crop_resize&cropH=2555&cropW=4543&xPos=243&yPos=657&width=862&height=485",
+      "headline": "China denies spy plot targeting Nvidia CEO Jensen Huang, calls allegations ‘smear’",
+      "summary": "China calls the alleged spy operation targeting Nvidia CEO Jensen Huang a \"groundless\" smear as Beijing pushes back against U.S. intelligence claims.",
+      "ts": 1794258842000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/01/nvidia-jensen-huang-ces-2026.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Nvidia’s value tumbles by $330bn after ‘honeytrap’ investigation launched, as China denies spying claims – as it happened",
+        "desc": "Shares in world’s most valuable company hit seven-month low after CEO Huang admits to affair, after allegations of relationship with Chinese spy Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy Who is Alice Huang, the woman linked to Nvidia’s CEO? The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security Huang is receiving s",
+        "link": "https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "China denies spy plot targeting Nvidia CEO Jensen Huang, calls allegations ‘smear’",
+        "desc": "China calls the alleged spy operation targeting Nvidia CEO Jensen Huang a \"groundless\" smear as Beijing pushes back against U.S. intelligence claims.",
+        "link": "https://www.foxbusiness.com/technology/china-denies-spy-plot-targeting-nvidia-ceo-jensen-huang-calls-allegations-smear"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "Nvidia CEO Huang sued by shareholders over ties with suspected Chinese spy",
+      "summary": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy.",
+      "ts": 1794256094000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/97a5abc18a4bd59ff520a2b3d7a15596?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=37&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -706,46 +772,25 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Trump championed oil, but instead he fuelled an electro revolution",
-        "desc": "The Iran war might have cost Donald Trump the midterm elections, but it has helped EV sales boom and strengthened the case for electrification, as the costs of solar and batteries plummet.",
-        "link": "https://www.abc.net.au/news/2026-11-09/iran-conflict-strengthens-case-or-electrification/107351224"
+        "title": "Nvidia CEO Huang sued by shareholders over ties with suspected Chinese spy",
+        "desc": "Nvidia shares tumbled after the company opened an investigation into Mr Huang's ties ‌with a ⁠suspected Chinese spy.",
+        "link": "https://www.abc.net.au/news/2026-11-10/nvidia-share-price-falls-ceo-jensen-huang-investigated/107366868"
        },
        {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Crypto’s Trump-fuelled Washington boom comes to an abrupt halt",
-        "desc": "With Democrats set to control Congress following their midterm sweep, crypto faces the prospect of tougher rules and closer scrutiny.",
-        "link": "https://www.theage.com.au/business/markets/crypto-s-trump-fuelled-washington-boom-comes-to-an-abrupt-halt-20261108-p61ceb.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "NextDC under siege as Goodman and Digital Realty snap up 9.9pc stake",
-      "summary": "The Australian industrial property developer and its New York-listed partner acquired their shares at an average price of $9.22.",
-      "ts": 1794180860000,
-      "img": "https://static.ffx.io/images/$zoom_0.2328%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_24%2C$y_134/t_crop_custom/q_86%2Cf_auto/d366577feb1d2b7e96fbcc0c6ca1ecd4315ccefb",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "NextDC under siege as Goodman and Digital Realty snap up 9.9pc stake",
-        "desc": "The Australian industrial property developer and its New York-listed partner acquired their shares at an average price of $9.22.",
-        "link": "https://www.afr.com/technology/nextdc-under-siege-as-goodman-and-digital-realty-snap-up-9-9pc-stake-20261109-p61chn?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Nvidia shares fall after investigation into CEO's relationship with alleged Chinese spy",
+        "desc": "Nvidia's board launched an internal probe into CEO Jensen Huang's relationship with an alleged Chinese spy who reportedly passed info to Beijing.",
+        "link": "https://www.foxbusiness.com/markets/nvidia-shares-fall-after-investigation-ceos-relationship-alleged-chinese-spy"
        }
       ]
      },
      {
       "id": 23,
-      "headline": "Miners prop up ASX, investors remain on edge after midterms",
-      "summary": "The Australian sharemarket has made a steady start to the week thanks to strong gains for mining stocks however most sectors are in the red as investors remain cautious following the US midterm elections.",
-      "ts": 1794180685000,
-      "img": "https://static.ffx.io/images/$zoom_0.194%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/389637c0390c1f4374df62e2de9bb8aa303cb1a7",
+      "headline": "Calls for data centre moratorium 'until we get the rules right'",
+      "summary": "The Conservation Council is calling for a moratorium on new data centre developments in the ACT until tougher rules are in place, amid \"increasing concerns\" about the impact on Canberra's water supply and electricity grid.",
+      "ts": 1794208415000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/450418ef3eb37eef466f99183b600bdd?impolicy=wcms_crop_resize&cropH=2165&cropW=3850&xPos=0&yPos=1&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -755,18 +800,25 @@
        {
         "outlet": "The Age Business",
         "lean": "left",
-        "title": "Miners prop up ASX, investors remain on edge after midterms",
-        "desc": "The Australian sharemarket has made a steady start to the week thanks to strong gains for mining stocks however most sectors are in the red as investors remain cautious following the US midterm elections.",
-        "link": "https://www.theage.com.au/business/markets/asx-eyes-gains-wall-street-steadies-as-ai-stocks-rebound-20261109-p61cfz.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Data centre giant apologises to Melbourne residents, vows to get power to site",
+        "desc": "NextDC boss Craig Scroggie said he was sorry residents felt they had been left behind by his plans to build a major AI data centre in West Footscray.",
+        "link": "https://www.theage.com.au/business/companies/data-centre-giant-apologises-to-melbourne-residents-vows-to-get-power-to-site-20261109-p61cpm.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Calls for data centre moratorium 'until we get the rules right'",
+        "desc": "The Conservation Council is calling for a moratorium on new data centre developments in the ACT until tougher rules are in place, amid \"increasing concerns\" about the impact on Canberra's water supply and electricity grid.",
+        "link": "https://www.abc.net.au/news/2026-11-09/conservation-council-calls-for-moratorium-on-data-centres-in-act/107363014"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "ASX wavers as investors question AI buildout; BHP, Rio rebound",
-      "summary": "Shares waver at the open; traders brace for US inflation data; oil falls below $US100 a barrel; ANZ posts 23pc jump in net profit; WiseTech appoints chief governance officer. Follow live updates here.",
-      "ts": 1794180668000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "headline": "Avid matches Warburg Pincus $5.60 bid in battle for Ingenia",
+      "summary": "In a sign that the competition between bidders is narrowing, Warburg Pincus will keep the access to Ingenia’s data room it secured on Friday. For now, at least.",
+      "ts": 1794274691000,
+      "img": "https://static.ffx.io/images/$zoom_0.7510213996791177%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_130/t_crop_custom/q_86%2Cf_auto/08fa5c5344e336928f79a4b4cee8913bbcbe9f47",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -776,9 +828,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX wavers as investors question AI buildout; BHP, Rio rebound",
-        "desc": "Shares waver at the open; traders brace for US inflation data; oil falls below $US100 a barrel; ANZ posts 23pc jump in net profit; WiseTech appoints chief governance officer. Follow live updates here.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-as-investors-question-ai-buildout-20261109-p61ce4?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Avid matches Warburg Pincus $5.60 bid in battle for Ingenia",
+        "desc": "In a sign that the competition between bidders is narrowing, Warburg Pincus will keep the access to Ingenia’s data room it secured on Friday. For now, at least.",
+        "link": "https://www.afr.com/property/commercial/avid-matches-warburg-pincus-5-60-bid-in-battle-for-ingenia-20261110-p61cuu?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -790,10 +842,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Norris sparkles in Sao Paulo despite firework mishap",
-      "summary": "Apart from getting too close to a firework, Lando Norris was virtually impeccable during a Sao Paulo Grand Prix that challenged the drivers to their very limits.",
-      "ts": 1794181493000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd44/live/561b1180-dbc9-11f1-a639-8fd896d95a18.jpg",
+      "headline": "Cricket Australia CEO Todd Greenberg rules out fresh investigation into 2018 ball-tampering saga",
+      "summary": "CA’s chief executive has spoken for the first time since Usman Khawaja’s bombshell new claims.",
+      "ts": 1794272841000,
+      "img": "https://images.7news.com.au/publication/C-23139903/88ee049953ea47a4269fb2feb14c5dfe5c6bb5be-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -801,34 +853,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Norris sparkles in Sao Paulo despite firework mishap",
-        "desc": "Apart from getting too close to a firework, Lando Norris was virtually impeccable during a Sao Paulo Grand Prix that challenged the drivers to their very limits.",
-        "link": "https://www.bbc.co.uk/sport/formula1/articles/c6gr8e822kzqo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Norris suffers champagne mishap as Mercedes spins to world title",
-        "desc": "Lando Norris was near perfect to claim victory in Brazil, but the McLaren driver was left to celebrate his win with a shattered champagne bottle.",
-        "link": "https://www.abc.net.au/news/2026-11-09/f1-live-s%C3%A3o-paulo-grand-prix-oscar-piastri-lando-norris/106998734"
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Cricket Australia rules out reopening ball tampering investigation in wake of Khawaja book claims",
+        "desc": "No ‘compelling reason’ to establish another inquiry into incident Usman Khawaja says ‘this has never been about commercial gain’ Cricket Australia will not reopen the investigation into the 2018 ball tampering controversy reignited by the release this week of Usman Khawaja’s book, which alleged more than the three players suspended had knowledge of the sandpaper plan. Captain Steve Smith, vice-cap",
+        "link": "https://www.theguardian.com/sport/2026/nov/10/cricket-australia-rules-out-reopening-ball-tampering-investigation-usman-khawaja-book"
        },
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Oscar Piastri suffers ‘shock’ result as Lando Norris puts McLaren on pole in Sao Paulo",
-        "desc": "‘Mate, you told me to back off! What the hell?’",
-        "link": "https://7news.com.au/sport/f1/oscar-piastri-suffers-shock-result-as-lando-norris-puts-mclaren-on-pole-in-sao-paulo-c-23131090"
+        "title": "Cricket Australia CEO Todd Greenberg rules out fresh investigation into 2018 ball-tampering saga",
+        "desc": "CA’s chief executive has spoken for the first time since Usman Khawaja’s bombshell new claims.",
+        "link": "https://7news.com.au/sport/cricket/cricket-australia-ceo-todd-greenberg-rules-out-fresh-investigation-into-2018-ball-tampering-saga-c-23139903"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Cricket Australia will not have another Sandpapergate investigation",
+        "desc": "Cricket Australia will not reopen an investigation into the infamous 2018 Sandpapergate controversy, according to chief executive Todd Greenberg, in the wake of Usman Khawaja's claims that the entire Australian Test team knew it was happening.",
+        "link": "https://www.abc.net.au/news/2026-11-10/cricket-australia-no-sandpapergate-investigation/107367290"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Khawaja says one state was best at ball tampering in Sheffield Shield",
-      "summary": "Usman Khawaja says players went as far as using super glue to tamper with the ball in the Sheffield Shield.",
-      "ts": 1794174127000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/83e1e6f51af8ef3b2a34a3c0042c2c05?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Aloisi sacked from Chinese club after losing final five games in title choke",
+      "summary": "John Aloisi has paid the price for Chengdu Rongcheng's catastrophic title choke, with the Chinese club sacking the Socceroos great.",
+      "ts": 1794270475000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/11d5137f3f0cb1e23656a91e27172878?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -838,32 +890,32 @@
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Khawaja says one state was best at ball tampering in Sheffield Shield",
-        "desc": "Usman Khawaja says players went as far as using super glue to tamper with the ball in the Sheffield Shield.",
-        "link": "https://www.abc.net.au/news/2026-11-09/usman-khawaja-says-victoria-best-at-ball-tampering/107362336"
+        "title": "Aloisi sacked from Chinese club after losing final five games in title choke",
+        "desc": "John Aloisi has paid the price for Chengdu Rongcheng's catastrophic title choke, with the Chinese club sacking the Socceroos great.",
+        "link": "https://www.abc.net.au/news/2026-11-10/john-aloisi-sacked-from-chinese-club/107367670"
        },
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "‘I haven’t thrown anyone under the bus’: Usman Khawaja defends timing of ball-tampering revelations",
-        "desc": "Former Test opener issues explanation on social media Khawaja says he would ‘not deny’ everyone knew about sandpaper Usman Khawaja insists he has not thrown anyone under the bus with his bombshell ball-tampering revelations that have rocked Australian cricket. One day on from claiming sandpaper had been used in the Test prior to Cape Town 2018 and the entire team were responsible, Khawaja defended",
-        "link": "https://www.theguardian.com/sport/2026/nov/08/usman-khawaja-defends-timing-of-australian-ball-tampering-revelations"
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Every goal from the Women's Super League - matchweek nine",
+        "desc": "Watch every goal from across the WSL in matchweek nine, from a London City Lionesses first-half wonder goal to Khadija Shaw's first hat-trick of the Women's Super League season.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/cm4g1g3p2qngo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Usman Khawaja reveals he wanted entire team to come clean over Sandpapergate in Cape Town 2018",
-        "desc": "The former Aussie cricketer has shed more light on the infamous saga after bombshell extracts from his book were released.",
-        "link": "https://7news.com.au/sport/cricket/usman-khawaja-reveals-he-wanted-entire-team-to-come-clean-over-sandpapergate-in-cape-town-2018-c-23131298"
+        "title": "Socceroos great John Aloisi ‘sorry’ after Chengdu Rongcheng’s spectacular collapse in Chinese Super League title race",
+        "desc": "The team needed just one draw from their last five games to win the title. Instead they capitulated.",
+        "link": "https://7news.com.au/sport/soccer/socceroos-great-john-aloisi-sorry-after-chengdu-rongchengs-spectacular-collapse-in-chinese-super-league-title-race-c-23134458"
        }
       ]
      },
      {
       "id": 27,
-      "headline": "Mercedes complete Formula One title double with teams victory in Sao Paulo",
-      "summary": "The constructors’ world championship comes just a week after Kimi Antonelli won the drivers’ crown.",
-      "ts": 1794173804000,
-      "img": "https://images.7news.com.au/publication/C-23133459/2eb1f642c557fa7affd3fd05fa500593b7fe34a7-16x9-x0y2w1280h720.jpg",
+      "headline": "Khawaja 100% accurate on ball-tampering - Warner",
+      "summary": "David Warner says he throws his \"full support\" behind former team-mate Usman Khawaja following his claim that all the Australia players knew about ball-tampering.",
+      "ts": 1794216069000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c9/live/d36d8f80-dc16-11f1-a631-078d47c5aafb.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -871,34 +923,97 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Mercedes complete Formula One title double with teams victory in Sao Paulo",
-        "desc": "The constructors’ world championship comes just a week after Kimi Antonelli won the drivers’ crown.",
-        "link": "https://7news.com.au/sport/f1/mercedes-complete-formula-one-title-double-with-teams-victory-in-sao-paulo-c-23133459"
+        "title": "Khawaja 100% accurate on ball-tampering - Warner",
+        "desc": "David Warner says he throws his \"full support\" behind former team-mate Usman Khawaja following his claim that all the Australia players knew about ball-tampering.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
-        "desc": "Mercedes wrap up constructors’ championship Red Bull’s Max Verstappen surges to second place Lando Norris delivered a masterclass for victory at the São Paulo Grand Prix, taking the flag at a ­meeting marked by a series of ­striking comebacks. Max ­Verstappen was once more outstanding at Interlagos by taking second from 21st on the grid and for McLaren it was a victory they have sought since mid-s",
-        "link": "https://www.theguardian.com/sport/2026/nov/08/lando-norris-wins-f1-sao-paulo-grand-prix-max-verstappen-kimi-antonelli-lewis-hamilton-mercedes"
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "David Warner releases statement in wake of Usman Khawaja revelation: ‘100 per cent accurate’",
+        "desc": "‘This is for everyone in Australia. It’s been the question that everyone’s been asking.’",
+        "link": "https://7news.com.au/sport/cricket/david-warner-releases-statement-in-wake-of-usman-khawaja-revelation-100-per-cent-accurate-c-23137179"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Wet-weather chaos in qualifying for Brazilian Grand Prix",
-        "desc": "Oscar Piastri will start the race in 10th spot after a calamitous wet-weather qualifying session shook up the grid in São Paulo.",
-        "link": "https://www.abc.net.au/news/2026-11-08/f1-s%C3%A3o-paulo-brazil-grand-prix-qualifying/106998738"
+        "title": "Warner says Khawaja's ball-tampering claim '100 per cent accurate'",
+        "desc": "David Warner throws his full support behind his childhood friend, Usman Khawaja, while slamming Cricket Australia's investigation into ball tampering.",
+        "link": "https://www.abc.net.au/news/2026-11-09/cricket-warner-backs-khawaja-ball-tampering-claims-slams-probe/107365778"
        }
       ]
      },
      {
       "id": 28,
-      "headline": "Wounded Jillaroos into World Cup final after Fiji smackdown",
-      "summary": "The Jillaroos have been in another stratosphere at the Rugby League World Cup, but Fiji Bulikula showed extraordinary fight to almost bring them back down to Earth.",
-      "ts": 1794132346000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1726c93892b7b8d13392e8aade024062?impolicy=wcms_crop_resize&cropH=1783&cropW=3169&xPos=621&yPos=1132&width=862&height=485",
+      "headline": "Labuschagne axed from Aussie squad for New Zealand Tests",
+      "summary": "Australia's chairman of selectors confirms the omission of Marnus Labuschagne after an extended lean run of form at the Test level.",
+      "ts": 1794186334000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/c4215180c8eefee119b95f89c5af703a?impolicy=wcms_crop_resize&cropH=1856&cropW=3300&xPos=0&yPos=137&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Australia selectors make early call to axe Marnus Labuschagne from Test squad",
+        "desc": "Under-fire batter will not feature in upcoming New Zealand series ‘Still possible’ he will be recalled for tours to India and England Marnus Labuschagne has been dropped from Australia’s Test squad. Chairman of selectors George Bailey confirmed on Monday that Labuschagne would be omitted from Australia’s yet-to-be-named squad for the first Test against New Zealand. Australia’s next Test begins on ",
+        "link": "https://www.theguardian.com/sport/2026/nov/09/australia-marnus-labuschagne-dropped-nz-test-series-poor-form"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Labuschagne axed from Aussie squad for New Zealand Tests",
+        "desc": "Australia's chairman of selectors confirms the omission of Marnus Labuschagne after an extended lean run of form at the Test level.",
+        "link": "https://www.abc.net.au/news/2026-11-09/cricket-marnus-labuschagne-axed-from-australian-test-squad/107363356"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Marnus Labuschagne dropped from Australia’s Test squad ahead of New Zealand series",
+        "desc": "Aussie selectors haven’t even settled on the squad yet but they’ve decided Marnus won’t be in it.",
+        "link": "https://7news.com.au/sport/cricket/marnus-labuschagne-dropped-from-australias-test-squad-ahead-of-new-zealand-series-c-23134209"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "New Brisbane coach Cameron Bruce wants to put ‘own stamp’ on coveted role after succeeding Chris Fagan",
+      "summary": "Cameron Bruce has paid tribute to Chris Fagan, but wants to form his own path with the Lions.",
+      "ts": 1794272352000,
+      "img": "https://images.7news.com.au/publication/C-23140247/8ec5ba26a53092c2bc9c41a52f8f379c2728a2bd-16x9-x0y2w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "New Brisbane coach Cameron Bruce wants to put ‘own stamp’ on coveted role after succeeding Chris Fagan",
+        "desc": "Cameron Bruce has paid tribute to Chris Fagan, but wants to form his own path with the Lions.",
+        "link": "https://7news.com.au/sport/afl/new-brisbane-coach-cameron-bruce-wants-to-put-own-stamp-on-coveted-role-after-succeeding-chris-fagan-c-23140247"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Fagan's understudy Bruce named Brisbane's new senior coach",
+        "desc": "Brisbane goes in-house to choose its successor to three-time premiership winning coach Chris Fagan, as Cameron Bruce wins the race for the prized job.",
+        "link": "https://www.abc.net.au/news/2026-11-09/afl-cameron-bruce-brisbane-lions-new-senior-coach/107365956"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "2027 Netball World Cup the 'next defining moment in women's sport'",
+      "summary": "The impact of the last Netball World Cup on Australian soil is still being felt today. Now, 2027 organisers are aiming to break that tournament's world-record crowd again in Sydney.",
+      "ts": 1794270498000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/00541e159be34c1ef0cd6a58b9bb46bb?impolicy=wcms_crop_resize&cropH=2397&cropW=4262&xPos=504&yPos=936&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -908,79 +1023,16 @@
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Wounded Jillaroos into World Cup final after Fiji smackdown",
-        "desc": "The Jillaroos have been in another stratosphere at the Rugby League World Cup, but Fiji Bulikula showed extraordinary fight to almost bring them back down to Earth.",
-        "link": "https://www.abc.net.au/news/2026-11-08/rugby-league-world-cup-jillaroos-fiji-bulikula-semi-final/107361332"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Abbi Church powers Australia to win over spirited Fiji as hosts reach Women’s Rugby League World Cup final",
-        "desc": "Church scores four tries as Australia beat Fiji Bulikula 30-14 Jillaroos will face New Zealand in the final next weekend The Jillaroos survived an almighty scare from Fiji in the World Cup semi-final, securing a place in the tournament decider against New Zealand at Lang Park next week despite a stunning resistance from the brilliant Bulikula. Driven by the exquisite, unpredictable playmaker Luisa",
-        "link": "https://www.theguardian.com/sport/2026/nov/08/australia-jillaroos-fiji-womens-rugby-league-world-cup-semi-final-match-report"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Jillaroos overcome ‘brutal’ Fijian ambush to reach Rugby League World Cup final against New Zealand",
-        "desc": "The Bulikula came out fighting and forced the shellshocked Aussies to earn their spot in the decider.",
-        "link": "https://7news.com.au/sport/rugby-league/jillaroos-overcome-brutal-fijian-ambush-to-reach-rugby-league-world-cup-final-against-new-zealand-c-23132223"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Palace consider replacing Sage, with Frank among contenders",
-      "summary": "Crystal Palace manager Pierre Sage is in serious danger of losing his job, with Thomas Frank among the contenders to replace him.",
-      "ts": 1794175978000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82df/live/76bb35a0-dbb5-11f1-93e1-3b657b665bcf.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
-        "desc": "Frenchman under pressure after four successive defeats Former Spurs manager Frank emerging as main candidate Crystal Palace are poised to sack Pierre Sage after Sunday’s defeat by Liverpool left them bottom of the Premier League for the first time since December 2017, with Thomas Frank emerging as the main candidate to succeed him. The Frenchman, appointed in mid-June to replace Oliver Glasner, ha",
-        "link": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park"
+        "title": "2027 Netball World Cup the 'next defining moment in women's sport'",
+        "desc": "The impact of the last Netball World Cup on Australian soil is still being felt today. Now, 2027 organisers are aiming to break that tournament's world-record crowd again in Sydney.",
+        "link": "https://www.abc.net.au/news/2026-11-10/2027-netball-world-cup-tickets-go-on-sale/107367102"
        },
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Palace consider replacing Sage, with Frank among contenders",
-        "desc": "Crystal Palace manager Pierre Sage is in serious danger of losing his job, with Thomas Frank among the contenders to replace him.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c623dpeey3e4o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Man Utd score twice in stoppage time to share points in eight-goal thriller",
-      "summary": "Manchester United twice come back from two goals down to earn a point against Aston Villa in an eight-goal thriller at Old Trafford, although they will go into the international break in the Premier League relegation zone.",
-      "ts": 1794174036000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f78/live/514a5d20-dba9-11f1-93e1-3b657b665bcf.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "‘I expect to move forward’: Carrick denies risk of Manchester United sack",
-        "desc": "‘Is there?’ manager retorts when told of talk over position Bizarre 4-4 draw with Villa leaves United in bottom three A tetchy Michael Carrick dismissed a suggestion he could resign as head coach for the good of the team after Sunday’s chaotic 4-4 draw with Aston Villa left Manchester United in the relegation zone heading into the international window. Carrick’s side sit in 18th place with eight p",
-        "link": "https://www.theguardian.com/football/2026/nov/08/michael-carrick-denies-risk-manchester-united-sack-aston-villa-premier-league-draw"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Man Utd score twice in stoppage time to share points in eight-goal thriller",
-        "desc": "Manchester United twice come back from two goals down to earn a point against Aston Villa in an eight-goal thriller at Old Trafford, although they will go into the international break in the Premier League relegation zone.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cqj6jldpl2gyo?at_medium=RSS&at_campaign=rss"
+        "title": "Initiative launched to make UK world leader in women's sport",
+        "desc": "The FA, Team GB and England Netball are among major organisations to back the Equal Sport Project - a new initiative aimed at improving equality and making the UK world leaders for women and girls' sport.",
+        "link": "https://www.bbc.co.uk/sport/articles/crp3g3l2wew3o?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -992,10 +1044,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Spy x Family’ Season 4 and New Theatrical Film Set for 2027",
-      "summary": "Anime series “Spy x Family” will return for a fourth season in 2027. Japanese studio and exhibitor Toho Co., Ltd. is also lining up a new feature film to open in Japan the same year. To mark the news, Toho released a teaser visual for Season 4, the first image from the new season to […]",
-      "ts": 1794181882000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/Spy-x-Kids.jpg",
+      "headline": "Johnny Depp & Ti West Land In A Chilly London For ‘Ebenezer’ Global Premiere",
+      "summary": "Christmas came early to London’s Leicester Square on Monday as Johnny Depp touched down for a red-carpet global premiere of Ebenezer in the company of director Ti West and cast including Rupert Grint, Sam Claflin, Tramell Tillman, Ellie Bamber and Robert Strong. The red carpet was decked out with Christmas trees and artificial snow while […]",
+      "ts": 1794273870000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2304355115.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1003,27 +1055,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Spy x Family’ Season 4 and New Theatrical Film Set for 2027",
-        "desc": "Anime series “Spy x Family” will return for a fourth season in 2027. Japanese studio and exhibitor Toho Co., Ltd. is also lining up a new feature film to open in Japan the same year. To mark the news, Toho released a teaser visual for Season 4, the first image from the new season to […]",
-        "link": "https://variety.com/2026/film/news/spy-x-family-season-4-new-theatrical-film-2027-1236942775/"
+        "title": "Johnny Depp & Ti West Land In A Chilly London For ‘Ebenezer’ Global Premiere",
+        "desc": "Christmas came early to London’s Leicester Square on Monday as Johnny Depp touched down for a red-carpet global premiere of Ebenezer in the company of director Ti West and cast including Rupert Grint, Sam Claflin, Tramell Tillman, Ellie Bamber and Robert Strong. The red carpet was decked out with Christmas trees and artificial snow while […]",
+        "link": "https://deadline.com/2026/11/johnny-depp-ti-west-london-ebenezer-global-premiere-1237218130/"
        },
        {
-        "outlet": "Anime News Network",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Spy×Family Anime Gets 4th Season, Theatrical Film in 2027",
-        "desc": "Visual revealed for new season",
-        "link": "https://www.animenewsnetwork.com/news/2026-11-08/spy-family-anime-gets-4th-season-theatrical-film-in-2027/.243614"
+        "title": "Johnny Depp Premieres ‘Ebenezer’ in London, Kim Kardashian Wears Gucci to LACMA Art+Film and More Celeb Red Carpet Photos: November 2026",
+        "desc": "November began with a slew of award season FYC screenings and Q&As in Los Angeles, including a round of appearances from Jordan Firstman in support of his feature “Club Kid” and an Angelina Jolie-hosted “Wild Horse Nine” premiere in Los Angeles. In New York City, Kim Kardashian, Sarah Paulson, Teyana Taylor, Niecy Nash-Betts and Glenn […]",
+        "link": "https://variety.com/gallery/jceleb-red-carpet-photos-november-2026/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "‘Godzilla Minus Zero’ and ‘Ramayana: Rise of a Legend’ Roar at International Box Office",
-      "summary": "Asian cinema dominated the worldwide box office over the weekend as Toho and Takashi Yamazaki’s “Godzilla Minus Zero” and Namit Malhotra and Nitesh Tiwari’s Indian epic “Ramayana: Rise of a Legend” posted thunderous global debuts, fueled by historic attendance on premium large format and Imax screens. Leading the charge across the globe, “Godzilla Minus Zero” […]",
-      "ts": 1794180164000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/Godzilla-Ramayana.jpg",
+      "headline": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+      "summary": "Hitsujibungaku performs \"life\" for February 11 film",
+      "ts": 1794271767000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Francesco-Le-Metre-Being-Heumann.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1031,27 +1083,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "‘Godzilla Minus Zero’ and ‘Ramayana: Rise of a Legend’ Roar at International Box Office",
-        "desc": "Asian cinema dominated the worldwide box office over the weekend as Toho and Takashi Yamazaki’s “Godzilla Minus Zero” and Namit Malhotra and Nitesh Tiwari’s Indian epic “Ramayana: Rise of a Legend” posted thunderous global debuts, fueled by historic attendance on premium large format and Imax screens. Leading the charge across the globe, “Godzilla Minus Zero” […]",
-        "link": "https://variety.com/2026/film/box-office/godzilla-minus-zero-ramayana-nternational-box-office-1236942760/"
+        "title": "ghost – end of night Anime Film's Trailer Confirms More Cast & Staff, Theme Song",
+        "desc": "Hitsujibungaku performs \"life\" for February 11 film",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-09/ghost-end-of-night-anime-film-trailer-confirms-more-cast-and-staff-theme-song/.243662"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Godzilla Minus Zero’ Is A Box Office Hero With $32M Live-Action Foreign-Language Opening Record, Best Ever For Gkids – Sunday AM Update",
-        "desc": "SUNDAY AM WRITETHRU: In what is a never-before-seen stat, 74% of Imax and PLFs combined drove the weekend gross of Gkids’ Godzilla Minus Zero‘s which is very close to the $32M opening that was reported yesterday, now at $31.6M. As we told you earlier today, the Takashi Yamazki directed movie is the No. 1 movie […]",
-        "link": "https://deadline.com/2026/11/box-office-godzilla-minus-zero-cat-in-the-hat-1237215161/"
+        "title": "‘Being Heumann’ Composer Francesco Le Metre Tapped Into Judy Heumann’s Drive And A ’70s Punk Rock Spirit – Sound & Screen Film",
+        "desc": "For composer Francesco Le Metre, the brief when first discussing Apple Original Films’ disability rights drama Being Heumann with director Siân Heder was to capture the spirit of its subject, activist Judy Heumann, through music. With his score, he says, he was aiming for something “honest and intimate” — not “too big or too cinematic” […]",
+        "link": "https://deadline.com/2026/11/being-heumann-composer-francesco-le-metre-interview-1237217526/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Dave Chappelle’s Charlie Kirk Joke Prompts Response from Erika Kirk: Using the ‘Destruction of a Human Life’ as a ‘Punchline Is Beyond Disgusting’",
-      "summary": "After Dave Chappelle joked that he feels better ever since Charlie Kirk was murdered, Kirk’s widow, Erika, has responded to those using her late husband’s death as a punchline. “To see leftist podcasters, comedians, and commentators laugh about political assassination as though it’s entertainment and the destruction of a human life is a punchline, is […]",
-      "ts": 1794177872000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/US-POLITICS-SHOOTING-KIRK-1000.jpg",
+      "headline": "‘De Gaulle,’ ‘La Gradiva’ and ‘Alice: Pioneer Of Cinema’ Among American French Film Fest Winners- Film News in Brief",
+      "summary": "The American French Film Festival announced the winners of this year’s awards during the closing ceremony on Nov. 8. The films were voted on by audiences attending the festival, members of the Los Angeles Film Critics Association, a jury of entertainment professionals and a student jury consisting of high school and college-age participants from the […]",
+      "ts": 1794271695000,
+      "img": "https://variety.com/wp-content/uploads/2026/05/de-gaulle.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1061,25 +1113,25 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Dave Chappelle’s Charlie Kirk Joke Prompts Response from Erika Kirk: Using the ‘Destruction of a Human Life’ as a ‘Punchline Is Beyond Disgusting’",
-        "desc": "After Dave Chappelle joked that he feels better ever since Charlie Kirk was murdered, Kirk’s widow, Erika, has responded to those using her late husband’s death as a punchline. “To see leftist podcasters, comedians, and commentators laugh about political assassination as though it’s entertainment and the destruction of a human life is a punchline, is […]",
-        "link": "https://variety.com/2026/digital/news/dave-chappelles-charlie-kirk-joke-erika-kirk-responds-1236942735/"
+        "title": "‘De Gaulle,’ ‘La Gradiva’ and ‘Alice: Pioneer Of Cinema’ Among American French Film Fest Winners- Film News in Brief",
+        "desc": "The American French Film Festival announced the winners of this year’s awards during the closing ceremony on Nov. 8. The films were voted on by audiences attending the festival, members of the Los Angeles Film Critics Association, a jury of entertainment professionals and a student jury consisting of high school and college-age participants from the […]",
+        "link": "https://variety.com/2026/film/news/film-news-in-brief-nov-9-2026-1236943218/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Jennifer Welch & Angie Sullivan Apologize For Laughing At “Insensitive” Charlie Kirk Joke On Podcast: “We Regret It”",
-        "desc": "After losing several advertisers, the hosts of the I’ve Had It podcast have apologized for making light of Charlie Kirk’s killing. On Saturday, co-hosts Jennifer Welch and Angie Sullivan expressed their regret in a statement over laughing at a midterms joke about the Sept. 10, 2025 shooting of the Turning Point USA founder, in addition […]",
-        "link": "https://deadline.com/2026/11/jennifer-welch-angie-sullivan-apologize-laughing-charlie-kirk-joke-1237216817/"
+        "title": "Lionsgate Film ‘My Jesus’ Adds Cheyenne Jackson & Country Singer Carly Pearce Among 6 Newly Cast",
+        "desc": "EXCLUSIVE: My Jesus film has added 6 new cast members, including Abby Glover, Sophia Bunnell, Chloé Flowers, Pilot Bunch, and Cheyenne Jackson. They join the previously announced cast, led by Aliza Kate Barlow: Gavin Casalegno, Monica Potter, Kay Oyegun, Beau Bridges, and Charles Esten. Country singer Carly Pearce will make a special appearance in the […]",
+        "link": "https://deadline.com/2026/11/lionsgate-film-my-jesus-cast-cheyenne-jackson-carly-pearce-1237218023/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Denis Villeneuve Teases James Bond Progress at LACMA Art + Film Gala: ‘I’m Having a Great Time’",
-      "summary": "When Denis Villeneuve arrived at LACMA on Saturday night, his black Gucci tuxedo made him look more like James Bond than a director who’s spent the last decade in the desert of Arrakis. Perhaps that’s fitting since the filmmaker is currently putting the final touches on the 70mm Imax print of “Dune: Part Three” while […]",
-      "ts": 1794182082000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/GF1_9905.jpg",
+      "headline": "Scotty’s Greatest Star Trek Quote That Fans Love Didn’t Happen In The Original Series",
+      "summary": "Scotty has some memorable quotes throughout Star Trek: The Original Series, but one of the Chief Engineer's last quotes was his best and fans love it.",
+      "ts": 1794275035000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/scotty-and-captain-kirk-in-1960s-star-trek-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1087,41 +1139,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Denis Villeneuve Teases James Bond Progress at LACMA Art + Film Gala: ‘I’m Having a Great Time’",
-        "desc": "When Denis Villeneuve arrived at LACMA on Saturday night, his black Gucci tuxedo made him look more like James Bond than a director who’s spent the last decade in the desert of Arrakis. Perhaps that’s fitting since the filmmaker is currently putting the final touches on the 70mm Imax print of “Dune: Part Three” while […]",
-        "link": "https://variety.com/gallery/denis-villeneuve-james-bond-lacma-art-film-gala/"
+        "title": "Scotty’s Greatest Star Trek Quote That Fans Love Didn’t Happen In The Original Series",
+        "desc": "Scotty has some memorable quotes throughout Star Trek: The Original Series, but one of the Chief Engineer's last quotes was his best and fans love it.",
+        "link": "https://screenrant.com/star-trek-scotty-next-generation-famous-enteprise-quote/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Ojai Film Festival 2026 Winners — Full List",
-      "summary": "As Ojai Film Festival wraps up its 27th year, the winners of this year’s awards have been announced. The opening night title, Grant Gee’s Everybody Digs Bill Evans, won Best Dramatic Feature, while tonight’s closing night film, Rob Burnett’s In Memoriam, won Best Comedic Feature during Sunday’s awards ceremony. In Everybody Digs Bill Evans, Anders […]",
-      "ts": 1794181361000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Ojai-Film-Fest.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Ojai Film Festival 2026 Winners — Full List",
-        "desc": "As Ojai Film Festival wraps up its 27th year, the winners of this year’s awards have been announced. The opening night title, Grant Gee’s Everybody Digs Bill Evans, won Best Dramatic Feature, while tonight’s closing night film, Rob Burnett’s In Memoriam, won Best Comedic Feature during Sunday’s awards ceremony. In Everybody Digs Bill Evans, Anders […]",
-        "link": "https://deadline.com/2026/11/ojai-film-festival-2026-winners-1237216937/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Korea Box Office: Anime Phenomenon ‘Chiikawa’ Staves Off Corporate Thriller ‘Final Interview’ to Retain Top Spot",
-      "summary": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” held onto the top spot at the South Korean box office over the weekend of Nov. 6–8, capturing its fourth consecutive weekend crown. According to data from KOBIS, the tracking service operated by the Korean Film Council, the Toho-distributed fantasy feature generated $1.1 […]",
-      "ts": 1794181353000,
-      "img": "https://variety.com/wp-content/uploads/2026/10/Chiikawa-the-Movie-The-Secret-of-Mermaid-Island.jpg",
+      "headline": "French Judo Legend Teddy Riner Announces 2027 Presidential Bid, Drawing Praise From Emmanuel Macron",
+      "summary": "French judo superstar Teddy Riner, a five-time Olympic gold medalist and multiple world champion, has announced that he is running for president of France in 2027 in a fiery speech posted on social media. The athlete, who has never held political office but is one of France’s most recognizable and popular sporting figures, portrayed himself […]",
+      "ts": 1794274108000,
+      "img": "https://variety.com/wp-content/uploads/2022/02/Teddy-Riner.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1131,9 +1162,30 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Korea Box Office: Anime Phenomenon ‘Chiikawa’ Staves Off Corporate Thriller ‘Final Interview’ to Retain Top Spot",
-        "desc": "Japanese animated phenomenon “Chiikawa the Movie: The Secret of the Mermaid Island” held onto the top spot at the South Korean box office over the weekend of Nov. 6–8, capturing its fourth consecutive weekend crown. According to data from KOBIS, the tracking service operated by the Korean Film Council, the Toho-distributed fantasy feature generated $1.1 […]",
-        "link": "https://variety.com/2026/film/box-office/korea-box-office-chiikawa-final-interview-1236942770/"
+        "title": "French Judo Legend Teddy Riner Announces 2027 Presidential Bid, Drawing Praise From Emmanuel Macron",
+        "desc": "French judo superstar Teddy Riner, a five-time Olympic gold medalist and multiple world champion, has announced that he is running for president of France in 2027 in a fiery speech posted on social media. The athlete, who has never held political office but is one of France’s most recognizable and popular sporting figures, portrayed himself […]",
+        "link": "https://variety.com/2026/film/global/french-judo-legend-teddy-riner-2027-presidential-bid-macron-1236943664/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Who Are The Clarks & Newmans In Black Doves? Crime Families Explained",
+      "summary": "The Clarks and the Newmans are two feared and dangerous London-based crime family organizations in the Netflix espionage series Black Doves.",
+      "ts": 1794272778000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2024/12/hector.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Who Are The Clarks & Newmans In Black Doves? Crime Families Explained",
+        "desc": "The Clarks and the Newmans are two feared and dangerous London-based crime family organizations in the Netflix espionage series Black Doves.",
+        "link": "https://screenrant.com/black-doves-clark-newman-crime-families-explained/"
        }
       ]
      }
@@ -1142,36 +1194,36 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
+   "Crikey",
    "The Age",
    "ABC News",
-   "Crikey",
    "BBC World",
-   "Fox News",
-   "Guardian AU Politics",
-   "The Conversation",
-   "Fox News Politics",
-   "The Age Federal Politics",
    "Guardian Tech",
-   "The Verge",
+   "Guardian AU Politics",
+   "Fox News",
+   "Fox News Politics",
    "BBC Tech",
-   "The Age Business",
-   "Guardian AU Business",
+   "The Conversation",
+   "The Age Federal Politics",
    "Ars Technica",
-   "Guardian AU Sport",
+   "The Verge",
+   "Guardian AU Business",
+   "Fox Business",
+   "The Age Business",
+   "Variety",
+   "ABC Business",
+   "Deadline",
    "AFR",
    "ABC Sport",
-   "Fox Business",
-   "ABC Business",
-   "Variety",
-   "Deadline",
    "BBC Sport",
-   "Guardian Film",
+   "Guardian AU Sport",
    "Screen Rant",
+   "Guardian Film",
+   "7News",
    "Anime News Network",
    "SBS News",
-   "7News Sport",
-   "7News",
-   "Daily Mail Australia"
+   "Daily Mail Australia",
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1202,6 +1254,17 @@
     "released": "2026-11-06"
    },
    {
+    "title": "The Mongoose",
+    "year": "2026",
+    "rating": null,
+    "genres": [
+     "Action",
+     "Thriller"
+    ],
+    "overview": "A highly decorated combat vet, Ryan ''Fang'' Flanagan, is fleeing a murder scene at 130 miles an hour in a Mustang Shelby Super Snake GT350",
+    "released": "2026-10-30"
+   },
+   {
     "title": "Wicker",
     "year": "2026",
     "rating": 7.4,
@@ -1222,23 +1285,13 @@
     ],
     "overview": "A supply mission to virus-ravaged Spain turns complex when Roberto, from the safe Canary Islands, joins with secret intentions. The team confronts infected masses and trust issues while weighing survival against humanity.",
     "released": "2026-10-30"
-   },
-   {
-    "title": "Ali G: Who Iz I?",
-    "year": "2026",
-    "rating": null,
-    "genres": [
-     "Comedy"
-    ],
-    "overview": "Hip-hop journalist Ali G returns after 20 years to make a documentary with real people. Cameras follow him for over a year as he takes classes, walks the streets, and appears on shows, often with his pregnant girlfriend.",
-    "released": "2026-10-23"
    }
   ],
   "shows": [
    {
     "title": "Crystal Lake",
     "year": "2026",
-    "rating": 7.8,
+    "rating": 7.6,
     "genres": [
      "Drama",
      "Horror",
@@ -1331,7 +1384,7 @@
    {
     "title": "Ace of the Diamond act II -Second Season-",
     "year": "2026",
-    "rating": 8.1,
+    "rating": 8.2,
     "genres": [
      "Sports"
     ],
@@ -1353,12 +1406,12 @@
   ]
  },
  "wotd": {
-  "word": "vespertine",
+  "word": "cynosure",
   "phonetic": "",
-  "pos": "Adjective",
-  "def": "Of or related to the evening; that occurs in the evening.",
+  "pos": "Noun",
+  "def": "Alternative letter-case form of Cynosure: Ursa Minor or Polaris, the North Star, used as a guide by navigators.",
   "example": null,
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/LL-Q1860_%28eng%29-Vealhurl-vespertine.wav/LL-Q1860_%28eng%29-Vealhurl-vespertine.wav.mp3"
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/En-uk-cynosure.ogg/En-uk-cynosure.ogg.mp3"
  },
  "commGames": null,
  "deals": [
@@ -1483,5 +1536,7 @@
    "ts": 1794121289000
   }
  ],
- "carried": {}
+ "carried": {
+  "deals": "2026-11-10T01:46:40.403Z"
+ }
 }
