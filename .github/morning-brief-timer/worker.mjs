@@ -59,8 +59,9 @@ export default {
       "User-Agent": "morning-brief-timer",
       "X-GitHub-Api-Version": "2026-03-10",
     };
+    // Cloudflare supports manual redirects. The status checks below reject them.
     const request = (path, options) => fetch(`${workflow}${path}`, {
-      headers, redirect: "error", signal: AbortSignal.timeout(10000), ...options,
+      headers, redirect: "manual", signal: AbortSignal.timeout(10000), ...options,
     });
     const source = `Cloudflare · ${date} ${time} Sydney`;
     const runs = await request("/runs?branch=main&per_page=10");

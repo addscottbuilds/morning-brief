@@ -22,6 +22,7 @@ function fixture(t, { generatedAt = previous, hasNews = true, runs = [], digestS
       }, { status: digestStatus });
     }
     assert.equal(options.headers.Authorization, "Bearer test-secret");
+    assert.equal(options.redirect, "manual");
     if (url.includes("/runs?")) return Response.json({ workflow_runs: runs });
     assert.ok(url.endsWith("/dispatches"));
     return Response.json({ workflow_run_id: 42 });
