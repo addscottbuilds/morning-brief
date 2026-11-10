@@ -176,7 +176,8 @@
   const summaryControl=$("show-today-summaries");
   let sectionOrder;
   try { sectionOrder=JSON.parse(localStorage.getItem("mb_section_order_v1")); } catch {}
-  try { summaryControl.checked=localStorage.getItem("mb_today_summaries_v1")==="true"; } catch {}
+  summaryControl.checked = true;
+  try { summaryControl.checked = localStorage.getItem("mb_today_summaries_v1") !== "false"; } catch {}
   if(!Array.isArray(sectionOrder)||sectionOrder.length!==defaultOrder.length||new Set(sectionOrder).size!==defaultOrder.length||sectionOrder.some(id=>!defaultOrder.includes(id)))sectionOrder=[...defaultOrder];
   function todayOrder() {
     return summaryControl.checked ? sectionOrder.filter(id => Object.hasOwn(todayShortcuts,id)) : [];
@@ -211,9 +212,11 @@
   function syncTodaySummaries() {
     for (const [name, glance] of [["markets","market-glance"],["sport","sport-glance"]]) {
       const source=$("source-"+name);
-      const summary=$(glance).hidden ? "" : $(glance).textContent;
-      const qualifier=source.dataset.state==="saved" ? "Saved snapshot" : source.dataset.state==="previous" ? "Previous edition" : "";
-      $("today-"+name).querySelector("span").textContent=[summary,qualifier].filter(Boolean).join(" · ");
+      const fallback = source.dataset.state === "unavailable" ? "Market snapshot unavailable." : "Checking the snapshot…";
+      const summary = $(glance).hidden ? fallback : $(glance).textContent;
+      const qualifier = source.dataset.state === "saved" ? (name === "sport" ? "Saved results" : "Saved snapshot")
+        : source.dataset.state === "previous" ? "Previous edition" : "";
+      $("today-"+name).querySelector("span").textContent = [summary, qualifier].filter(Boolean).join("\n");
     }
     document.querySelector('[data-more-section="cg-section"]').hidden=$("cg-section").hidden;
   }
@@ -304,11 +307,12 @@
   const WMO = {
     0: ["Clear sky", "☀"], 1: ["Mostly clear", "🌤"], 2: ["Partly cloudy", "⛅"], 3: ["Overcast", "☁"],
     45: ["Foggy", "🌫"], 48: ["Icy fog", "🌫"], 51: ["Light drizzle", "🌦"], 53: ["Drizzle", "🌦"],
-    55: ["Heavy drizzle", "🌧"], 61: ["Light rain", "🌦"], 63: ["Rain", "🌧"], 65: ["Heavy rain", "🌧"],
+    55: ["Heavy drizzle", "🌧"], 56: ["Light freezing drizzle", "🌧"], 57: ["Heavy freezing drizzle", "🌧"],
+    61: ["Light rain", "🌦"], 63: ["Rain", "🌧"], 65: ["Heavy rain", "🌧"],
     66: ["Freezing rain", "🌧"], 67: ["Freezing rain", "🌧"], 71: ["Light snow", "🌨"], 73: ["Snow", "🌨"],
     75: ["Heavy snow", "🌨"], 77: ["Snow grains", "🌨"], 80: ["Light showers", "🌦"], 81: ["Showers", "🌧"],
     82: ["Heavy showers", "🌧"], 85: ["Snow showers", "🌨"], 86: ["Snow showers", "🌨"],
-    95: ["Thunderstorm", "⛈"], 96: ["Storm with hail", "⛈"], 99: ["Storm with hail", "⛈"],
+    95: ["Thunderstorm", "⛈"], 96: ["Storm with hail", "⛈"], 97: ["Heavy thunderstorm", "⛈"], 99: ["Storm with hail", "⛈"],
   };
 
   // Use a recent saved location without prompting again. Keep its origin
@@ -440,7 +444,7 @@
     try {
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${loc.lat}&longitude=${loc.lon}` +
         `&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m` +
-        `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset` +
+        `&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max,sunrise,sunset` +
         `&hourly=temperature_2m,precipitation_probability&forecast_days=2&timezone=auto`;
       const response = await fetch(url, { signal });
       if (!response.ok) throw new Error("Forecast request failed");
@@ -502,6 +506,11 @@
     hourlyDetails.querySelector(".hourly-values").hidden = false;
     const cur = w.current, day = w.daily;
     const [desc] = WMO[cur.weather_code] || ["Current conditions"];
+    const dailyCondition = WMO[day.weather_code?.[0]];
+    const dayIcon = $("weather-day-icon");
+    dayIcon.textContent = dailyCondition?.[1] || "";
+    dayIcon.setAttribute("aria-label", dailyCondition ? "Daily forecast: " + dailyCondition[0] : "");
+    dayIcon.hidden = !dailyCondition;
     const uv = day.uv_index_max?.[0];
 
     $("wx-temp").textContent = Math.round(cur.temperature_2m) + "°";
@@ -988,9 +997,12 @@
       return;
     }
     const lead = quotes.find(item => item.sym === "^AXJO") || quotes[0];
-    const move = Number.isFinite(lead.chgPct)
-      ? "  " + (lead.chgPct >= 0 ? "+" : "−") + Math.abs(lead.chgPct).toFixed(1) + "%" : "";
-    glance.textContent = lead.label + "  " + fmtPrice(lead) + move;
+    const currency = quotes.find(item => item.fmt === "fx" && item !== lead);
+    glance.textContent = [lead, currency].filter(Boolean).map(quote => {
+      const move = Number.isFinite(quote.chgPct)
+        ? " · " + (quote.chgPct >= 0 ? "+" : "−") + Math.abs(quote.chgPct).toFixed(1) + "%" : "";
+      return quote.label + " " + fmtPrice(quote) + move;
+    }).join("\n");
     glance.hidden = false;
     $("mkt-body").innerHTML = quotes.map(i => {
       const chg = Number.isFinite(i.chgPct)
@@ -1027,17 +1039,18 @@
     const top = Array.isArray(n?.categories) ? n.categories.find(category => category?.key === "top") : null;
     const lead = Array.isArray(top?.stories) ? top.stories.find(story => typeof story?.headline === "string" && story.headline.trim()) : null;
     renderTodayStory(lead, n?.mode);
+    const tabs = $("news-tabs");
     if (!Array.isArray(n?.categories) || !n.categories.length) {
       newsData = null;
       backToTodayStory.hidden = true;
-      $("news-tabs").replaceChildren();
-      $("news-topics").hidden = true;
+      tabs.replaceChildren();
+      tabs.hidden = true;
       $("news-mode").textContent = "";
       window.MorningBriefNews?.render({list: $("news-list"), status: $("news-results-status"), category: null});
       return;
     }
     newsData = n;
-    $("news-topics").hidden = false;
+    tabs.hidden = false;
     $("news-mode").textContent = n.mode === "llm" ? "Generated summaries" : "Publisher snippets";
 
     // stories not present last time the app was opened get a NEW pill; the
@@ -1050,12 +1063,10 @@
     newsFresh = new Set(seen.size ? all.filter(s => !fps(s).some(f => seen.has(f))).map(s => s.id) : []);
     localStorage.setItem("mb_news_seen", JSON.stringify([...new Set([...seen, ...all.flatMap(fps)])].slice(-1500)));
 
-    const tabs = $("news-tabs");
     const focusedTopic = tabs.contains(document.activeElement) ? document.activeElement.dataset.category : "";
     const keys = n.categories.map(c => c.key);
     const saved = localStorage.getItem("mb_news_tab");
     const activeKey = !backToTodayStory.hidden && lead ? "top" : keys.includes(saved) ? saved : keys[0];
-    $("news-topic-label").textContent = "Topics · " + n.categories.find(category => category.key === activeKey).label;
     tabs.innerHTML = "";
     for (const c of n.categories) {
       const b = document.createElement("button");
@@ -1067,9 +1078,7 @@
       b.addEventListener("click", () => {
         localStorage.setItem("mb_news_tab", c.key);
         backToTodayStory.hidden = true;
-        const restoreFocus = tabs.contains(document.activeElement);
         selectNewsTopic(c.key);
-        if (restoreFocus) $("news-topic-label").focus({ preventScroll: true });
       });
       tabs.appendChild(b);
     }
@@ -1085,6 +1094,7 @@
     if (!story && document.activeElement === link) $("today-news-edition").focus();
     $("today-top-story").hidden = !story;
     link.textContent = story?.headline || "";
+    window.MorningBriefNews?.renderImage?.($("today-story-heading"), story?.img);
     summary.textContent = typeof story?.summary === "string" ? story.summary.trim() : "";
     summary.hidden = !summary.textContent;
     kind.textContent = summary.hidden ? "" : window.MorningBriefNews?.summaryAttribution?.(story, mode) || "";
@@ -1096,14 +1106,11 @@
   }
 
   function selectNewsTopic(key) {
-    const category = newsData.categories.find(entry => entry.key === key);
     $("news-tabs").querySelectorAll("button").forEach(button => {
       const selected = button.dataset.category === key;
       button.classList.toggle("active", selected);
       button.setAttribute("aria-pressed", String(selected));
     });
-    $("news-topic-label").textContent = "Topics · " + category.label;
-    $("news-topics").open = false;
     renderStories(key);
   }
 
@@ -1362,6 +1369,25 @@
     return { events: [...byId.values()], incomplete: pages.includes(null) };
   }
 
+  function recentSportScores(events) {
+    const finals = [...events.values()]
+      .filter(({ e, lg }) => (lg.type === "cricket" ? e.status : e.status?.type?.state) === "post")
+      .sort((a, b) => Date.parse(b.e.date) - Date.parse(a.e.date));
+    const results = [];
+    for (const { e, lg } of finals) {
+      const teams = lg.type === "cricket" ? e.competitors : e.competitions?.[0]?.competitors;
+      const scores = (teams || []).slice(0, 2).map(team => {
+        const name = team.team?.abbreviation || team.abbreviation || team.displayName;
+        const score = team.score;
+        return name && (Number.isFinite(score) || (typeof score === "string" && score.trim()))
+          ? name + " " + score : "";
+      });
+      if (scores.length === 2 && scores.every(Boolean)) results.push(scores.join(" · ") + " (final)");
+      if (results.length === 2) break;
+    }
+    return results;
+  }
+
   async function loadSports() {
     let anyLive = false, failed = 0;
     const checkedEvents = new Map();
@@ -1461,8 +1487,10 @@
       $("sport-list").replaceChildren();
       return;
     }
-    const leagueCount = blocks.filter(Boolean).length;
-    $("sport-glance").textContent = leagueCount === 1 ? "Scores and fixtures from one league" : "Scores and fixtures from " + leagueCount + " leagues";
+    const scores = recentSportScores(checkedEvents);
+    const summary = scores.length ? scores : ["No recent final scores."];
+    if (failed) summary.push("Some leagues are unavailable.");
+    $("sport-glance").textContent = summary.join("\n");
     $("sport-list").innerHTML = html;
 
     // tap a match to expand its detail panel (one open at a time)

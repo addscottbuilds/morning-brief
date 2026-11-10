@@ -37,6 +37,32 @@
     }
   }
 
+  function renderImage(container, value) {
+    if (!container) return;
+    const url = safeURL(value);
+    const previous = container.querySelector(".news-article-image");
+    if (previous?.src === url) return;
+    previous?.remove();
+    container.classList.toggle("has-image", Boolean(url));
+    if (!url) return;
+
+    const image = make("img", "news-article-image");
+    image.alt = "";
+    image.width = 480;
+    image.height = 270;
+    image.loading = "lazy";
+    image.decoding = "async";
+    image.referrerPolicy = "no-referrer";
+    image.addEventListener("load", () => image.classList.add("is-loaded"), { once: true });
+    image.addEventListener("error", () => {
+      if (image.parentNode !== container) return;
+      image.remove();
+      container.classList.remove("has-image");
+    }, { once: true });
+    container.append(image);
+    image.src = url;
+  }
+
   function publishedTime(timestamp) {
     const date = new Date(timestamp);
     const time = date.getTime();
@@ -174,23 +200,7 @@
     if (lead && story.summary) copy.append(summaryBlock(story, mode));
     body.append(copy);
 
-    const imageURL = safeURL(story.img);
-    if (imageURL) {
-      const image = make("img", "news-article-image");
-      image.alt = "";
-      image.width = 480;
-      image.height = 270;
-      image.loading = "lazy";
-      image.decoding = "async";
-      image.referrerPolicy = "no-referrer";
-      image.addEventListener("error", () => {
-        image.remove();
-        body.classList.remove("has-image");
-      }, { once: true });
-      image.src = imageURL;
-      body.append(image);
-      body.classList.add("has-image");
-    }
+    renderImage(body, story.img);
 
     card.append(body);
     const coverage = coverageBlock(story, sources, mode, key, !lead && Boolean(story.summary));
@@ -308,5 +318,5 @@
     return true;
   }
 
-  window.MorningBriefNews = { render, showUnavailable, openStory, summaryAttribution };
+  window.MorningBriefNews = { render, showUnavailable, openStory, summaryAttribution, renderImage };
 })();

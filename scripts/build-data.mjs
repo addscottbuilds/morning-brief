@@ -289,7 +289,7 @@ function clusterCategory(items, maxStories) {
 
 // Pick a story image from the feed item's media tags: smallest variant that's
 // still sharp at card size (~460px covers 2x retina), largest otherwise.
-function itemImage(it) {
+function itemImage(it, outlet) {
   const cands = [];
   // ABC nests its images inside <media:group>, so look there too
   const media = [...(it.media || []), ...(it.mgroup || []).flatMap(g => g["media:content"] || [])];
@@ -299,7 +299,22 @@ function itemImage(it) {
   const imgs = cands.filter(c => !/video|audio/.test(c.kind) && /^https:/.test(c.url));
   const sharp = imgs.filter(c => c.w >= 300).sort((a, b) => a.w - b.w)[0];
   const best = sharp || imgs.sort((a, b) => b.w - a.w)[0];
-  return best ? best.url.slice(0, 400) : null;
+  if (best) return best.url.slice(0, 400);
+  if (outlet !== "The Verge") return null;
+
+  // The Verge puts its lead photo in the Atom content rather than a media tag.
+  const lead = /^\s*<figure\b[^>]*>\s*(<img\b(?:[^"'<>]|"[^"]*"|'[^']*')*>)/i.exec(it.content || "")?.[1];
+  if (!lead) return null;
+  const attributes = Object.fromEntries(Array.from(
+    lead.matchAll(/\s([\w-]+)\s*=\s*(["'])([\s\S]*?)\2/g),
+    ([, name, , value]) => [name.toLowerCase(), value],
+  ));
+  const source = attributes.src || "";
+  if (attributes["data-has-syndication-rights"] !== "1" || source.length > 2048
+    || !/^https:\/\/platform\.theverge\.com\//i.test(source)) return null;
+  const url = new URL(decodeEntities(source));
+  url.searchParams.set("w", "480");
+  return url.href;
 }
 
 async function buildNews() {
@@ -332,7 +347,7 @@ async function buildNews() {
           title: stripHtml(it.title).slice(0, 200),
           desc: stripHtml(it.contentSnippet || it.content || it.summary).slice(0, 400),
           link: /^https?:\/\//i.test(it.link || "") ? it.link : "", ts, // no javascript: hrefs
-          img: itemImage(it),
+          img: itemImage(it, f.outlet),
         });
         n++;
       }

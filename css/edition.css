@@ -198,8 +198,21 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   padding: 4px 0 9px;
   min-width: 0;
 }
+.weather-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .65rem;
+}
+.weather-day-icon {
+  flex: none;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 1.85rem;
+  line-height: 1;
+}
 .edition-weather .loc-btn {
   align-self: flex-start;
+  min-width: 0;
   min-height: 44px;
   padding: 0;
   border: 0;
@@ -306,8 +319,7 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   border-top: 1px solid var(--rule);
   gap: 3px;
 }
-.focus-details > summary,
-#news-topics > summary {
+.focus-details > summary {
   min-height: 44px;
   align-content: center;
   color: var(--edition-accent);
@@ -433,6 +445,14 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   font: 700 clamp(1.3rem, 4.8vw, 1.72rem)/1.16 var(--edition-serif);
   letter-spacing: -.024em;
   text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.today-story-heading.has-image {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) clamp(3.25rem, 17vw, 4.5rem);
+  align-items: start;
+  gap: .7rem;
+  margin-block-start: .25rem;
 }
 #today-story-link {
   display: inline-block;
@@ -465,10 +485,19 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
 }
 #back-to-today-story { scroll-margin-block-start: 12px; }
 .today-word .next-up-link { grid-template-columns: minmax(0, 1fr) auto; }
-.today-extras { grid-column: 1/-1; display: flex; flex-wrap: wrap; gap: 8px; }
+.today-extras {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 8px;
+}
 .today-shortcut {
+  display: grid;
+  align-content: start;
+  gap: .22rem;
   min-height: 44px;
-  padding: 7px 10px;
+  min-width: 0;
+  padding: .65rem .75rem;
   border: 1px solid var(--rule);
   border-radius: 6px;
   background: var(--paper-raised);
@@ -477,7 +506,14 @@ h1:focus, h2:focus, section[tabindex]:focus { outline-offset: 6px; }
   text-align: left;
   font-weight: 650;
 }
-.today-shortcut span { color: var(--ink-soft); font-size: .85rem; font-weight: 400; }
+.today-shortcut span {
+  color: var(--ink-soft);
+  font-size: .85rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
 #sheet-more h3 { margin-top: 10px; color: var(--ink-soft); font-size: .83rem; }
 #sheet-more .menu-choice { min-height: 44px; }
 #section-content > section { min-width: 0; }

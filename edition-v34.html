@@ -39,10 +39,7 @@
         <div class="health-status" id="news-health" role="status" hidden><span></span><button type="button" data-retry="digest">Try again</button></div>
       </header>
       <section id="news-section" aria-label="News stories">
-        <details id="news-topics">
-          <summary id="news-topic-label">Topics</summary>
-          <div class="tabs" id="news-tabs" role="group" aria-label="News category"></div>
-        </details>
+        <div class="tabs" id="news-tabs" role="group" aria-label="News categories" hidden></div>
         <div class="news-feed-meta"><p id="news-results-status" role="status"></p><span id="news-mode"></span></div>
         <a href="#today" id="back-to-today-story" class="edition-link" hidden>← Back to Today</a>
         <div class="news-list" id="news-list"><p class="muted-cell">Loading the digest…</p></div>
@@ -70,7 +67,10 @@
 
       <section id="weather-section" class="edition-weather" aria-labelledby="weather-title">
         <h2 id="weather-title" class="visually-hidden">Weather</h2>
-        <button type="button" class="loc loc-btn" id="wx-loc" title="Update your location">Finding location…</button>
+        <div class="weather-heading">
+          <button type="button" class="loc loc-btn" id="wx-loc" title="Update your location">Finding location…</button>
+          <span class="weather-day-icon" id="weather-day-icon" role="img" hidden></span>
+        </div>
         <div class="health-status" id="weather-health" role="status" hidden><span></span><button type="button" data-retry="weather">Try again</button></div>
         <p id="weather-priority" class="weather-priority" role="status" hidden></p>
         <p id="wx-advice" class="weather-advice">Checking your forecast…</p>
@@ -158,7 +158,9 @@
       <section class="today-news" aria-label="News from the edition">
         <div id="today-top-story" hidden>
           <p class="today-label">Top story</p>
-          <h2><button type="button" id="today-story-link"></button></h2>
+          <div class="today-story-heading" id="today-story-heading">
+            <h2><button type="button" id="today-story-link"></button></h2>
+          </div>
           <p id="today-story-kind" class="today-word-edition" hidden></p>
           <p id="today-story-summary" hidden></p>
         </div>
@@ -218,8 +220,8 @@
       </section>
 
       <div class="today-extras" id="today-extras" hidden>
-        <button type="button" class="today-shortcut" id="today-markets" data-more-section="markets-section">Markets <span></span></button>
-        <button type="button" class="today-shortcut" id="today-sport" data-more-section="sport-section">Sport <span></span></button>
+        <button type="button" class="today-shortcut" id="today-markets" data-more-section="markets-section" aria-haspopup="dialog">Markets <span></span></button>
+        <button type="button" class="today-shortcut" id="today-sport" data-more-section="sport-section" aria-haspopup="dialog">Sport <span></span></button>
       </div>
     </div>
   </div>
@@ -353,7 +355,7 @@
         <label><input type="radio" name="appearance" value="night"><span>Night</span></label>
       </div>
     </fieldset>
-    <div class="set-group"><h2 class="set-h">Today</h2><p class="sub-note">Add the summaries you want after the forecast. Full modules are in More.</p><label class="today-summaries"><input type="checkbox" id="show-today-summaries"> Show Markets and Sport summaries on Today</label><ol id="section-order"></ol><button class="page-link" id="reset-order">Reset section order</button><p id="order-feedback" role="status"></p></div><div class="set-group">
+    <div class="set-group"><h2 class="set-h">Today</h2><label class="today-summaries"><input type="checkbox" id="show-today-summaries"> Show Markets and Sport at the bottom of Today</label><ol id="section-order"></ol><button class="page-link" id="reset-order">Reset section order</button><p id="order-feedback" role="status"></p></div><div class="set-group">
       <div class="set-h">Notifications</div>
       <button class="page-link" id="push-btn">🔔 Set up the morning notification</button>
       <div class="sub-note" id="push-note" hidden></div>
