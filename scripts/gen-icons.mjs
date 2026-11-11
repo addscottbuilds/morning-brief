@@ -7,44 +7,36 @@ import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
-// The sunrise mark fits inside the centered 80%-diameter maskable safe zone.
-const SKY = [0x11, 0x39, 0x43];
-const SUN = [0xf2, 0xc4, 0x77];
-const HORIZON = [0xdb, 0xf0, 0xf1];
-const REFLECTION = [0x8d, 0xc9, 0xcd];
-const rays = [
-  [256, 130, 256, 162],
-  [157, 172, 179, 194],
-  [355, 172, 333, 194],
-];
-const lines = [
-  [120, 269, 392, 269, 10, HORIZON],
-  [168, 312, 344, 312, 8, REFLECTION],
-  [207, 351, 305, 351, 6, REFLECTION],
-];
-
-function segmentDistance(x, y, [x1, y1, x2, y2]) {
-  const dx = x2 - x1, dy = y2 - y1;
-  const t = Math.max(0, Math.min(1, ((x - x1) * dx + (y - y1) * dy) / (dx * dx + dy * dy)));
-  return Math.hypot(x - x1 - dx * t, y - y1 - dy * t);
-}
+// Use Morning Brief's night palette, with the original filled sunrise silhouette.
+const SKY = [0x14, 0x22, 0x28];
+const HALO = [0x28, 0x46, 0x4e];
+const SUN = [0xf5, 0xbd, 0x70];
+const WATER = [0x20, 0x39, 0x43];
+const REFLECTION = [0x83, 0xa9, 0xb5];
+const HORIZON_Y = 331;
 
 function renderIcon(size) {
   const pixels = Buffer.alloc(size * size * 4);
   const scale = size / 512;
-  const coverage = (distance, radius) => Math.max(0, Math.min(1, 0.5 + (radius - distance) * scale));
+  const coverage = (signedDistance) => Math.max(0, Math.min(1, 0.5 + signedDistance * scale));
+
   for (let row = 0; row < size; row++) {
     for (let column = 0; column < size; column++) {
-      const x = (column + 0.5) / scale, y = (row + 0.5) / scale;
+      const x = (column + 0.5) / scale;
+      const y = (row + 0.5) / scale;
+      const distanceFromSun = Math.hypot(x - 256, y - HORIZON_Y);
       let color = SKY;
-      const paint = (ink, alpha) => {
-        if (alpha > 0) color = color.map((value, i) => Math.round(value + (ink[i] - value) * alpha));
+      const paint = (ink, opacity) => {
+        if (opacity > 0) color = color.map((value, i) => Math.round(value + (ink[i] - value) * opacity));
       };
-      if (y <= 269) paint(SUN, coverage(Math.hypot(x - 256, y - 269), 68));
-      for (const ray of rays) paint(SUN, coverage(segmentDistance(x, y, ray), 8));
-      for (const line of lines) paint(line[5], coverage(segmentDistance(x, y, line), line[4]));
-      const offset = (row * size + column) * 4;
-      pixels.set([...color, 255], offset);
+
+      paint(HALO, coverage(180 - distanceFromSun));
+      paint(SUN, coverage(142 - distanceFromSun));
+      paint(WATER, coverage(y - HORIZON_Y));
+
+      const distanceFromReflection = Math.hypot(Math.max(0, Math.abs(x - 256) - 56), y - 369);
+      paint(REFLECTION, coverage(5 - distanceFromReflection));
+      pixels.set([...color, 255], (row * size + column) * 4);
     }
   }
   return pixels;
@@ -88,7 +80,7 @@ function png(S, px) {
   ]);
 }
 
-for (const [size, file] of [[180, "daylight-180.png"], [192, "daylight-192.png"], [512, "daylight-512.png"]]) {
+for (const [size, file] of [[180, "sunrise-180.png"], [192, "sunrise-192.png"], [512, "sunrise-512.png"]]) {
   writeFileSync(join(root, "icons", file), png(size, renderIcon(size)));
   console.log(`wrote icons/${file}`);
 }
