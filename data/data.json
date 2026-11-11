@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T00:51:04.814Z",
+ "generatedAt": "2026-11-11T19:40:39.928Z",
  "markets": {
   "items": [
    {
@@ -7,80 +7,88 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9130,
-    "chgPct": 1.110776687132621,
+    "price": 9153.2,
+    "chgPct": 0.26508927593384524,
     "high52": 9296.7,
-    "off52": -1.793109382899316
+    "off52": -1.5435584669829079
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.64,
-    "chgPct": 0.5337661791544375,
+    "price": 86.81,
+    "chgPct": 0.7310277240581359,
     "high52": 88,
-    "off52": -1.5454545454545447
+    "off52": -1.3522727272727246
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.74,
-    "chgPct": -0.00654664484451123,
+    "price": 153.19,
+    "chgPct": 0.28805237315875465,
     "high52": 155.03,
-    "off52": -1.477133458040374
+    "off52": -1.1868670579887786
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.98,
-    "chgPct": 0.7688385957429671,
+    "price": 59.41,
+    "chgPct": 1.5035045943216285,
     "high52": 65.18,
-    "off52": -9.512120282295196
+    "off52": -8.852408714329565
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 31.2,
-    "chgPct": 1.6949142426719368,
+    "price": 32.11,
+    "chgPct": 4.661015908083202,
     "high52": 47.78,
-    "off52": -34.70071159480955
+    "off52": -32.796149016324826
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6874,
-    "chgPct": -0.6823925634200838,
+    "price": 0.6853,
+    "chgPct": -0.9858068427579031,
     "high52": 0.7277,
-    "off52": -5.537996427099079
+    "off52": -5.826576886079427
    }
   ],
   "failed": [],
-  "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 33% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
-   {
-    "sym": "NVDA",
-    "name": "Nvidia",
-    "market": "US",
-    "price": 168.89,
-    "currency": "USD",
-    "chgPct": -5.473777505553918
-   },
    {
     "sym": "AVGO",
     "name": "Broadcom",
     "market": "US",
-    "price": 331.98,
+    "price": 348.84,
     "currency": "USD",
-    "chgPct": 3.9126044146176078
+    "chgPct": 5.078615716524629
+   },
+   {
+    "sym": "NVDA",
+    "name": "Nvidia",
+    "market": "US",
+    "price": 175.3,
+    "currency": "USD",
+    "chgPct": 3.795370142410252
+   },
+   {
+    "sym": "TSLA",
+    "name": "Tesla",
+    "market": "US",
+    "price": 392.18,
+    "currency": "USD",
+    "chgPct": 3.2650485177101696
    }
   ]
  },
@@ -93,45 +101,45 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Live: Lamarre-Condon denies making fake Jesse Baird email and Grindr accounts",
-      "summary": "Beau Lamarre-Condon is giving evidence for a fifth day in his double murder trial in the NSW Supreme Court. Follow live.",
-      "ts": 1794358050000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/7632f160fead3466c4c9c2e9b024b688?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+      "ts": 1794420298000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8cf0/live/2eb174e0-ddef-11f1-b441-2b33b063138f.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "The bizarre nickname accused killer Beau Lamarre-Condon's friend gave him after he allegedly broke into Jesse Baird's house",
-        "desc": "Follow Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16282813/Beau-Lamarre-Condon-murder-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Beau Lamarre-Condon trial live updates: Former NSW Police officer returns to witness box for cross-examination over alleged murders of Jesse Baird, Luke Davies",
-        "desc": "Lamarre-Condon has denied stalking Jesse Baird as he stands trial over the alleged murders of the former TV presenter and his boyfriend Luke Davies.",
-        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-former-nsw-police-officer-returns-to-witness-box-for-cross-examination-over-alleged-murders-of-jesse-baird-luke-davies-20261111-p61d51.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Live: Lamarre-Condon denies making fake Jesse Baird email and Grindr accounts",
-        "desc": "Beau Lamarre-Condon is giving evidence for a fifth day in his double murder trial in the NSW Supreme Court. Follow live.",
-        "link": "https://www.abc.net.au/news/2026-11-11/beau-lamarre-condon-trial-live-blog-cross-examination-wednesday/107371808"
+        "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "desc": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+        "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
+        "desc": "US envoys to visit Moscow and Dublin on Thursday for talks with Vladimir Putin and Volodymyr Zelenskyy respectively Russia and Ukraine have agreed to the “largest prisoner exchange” of the war at their first US-brokered talks since February but made little progress towards a broader peace agreement. Both sides sent senior delegations to the two-day talks, led by Donald Trump’s envoys Jared Kushner",
+        "link": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Zelenskyy claims Russia is seeing 'record losses' in Ukraine war as peace talks resume",
+        "desc": "Nine months have passed since the last US-mediated peace talks between Russia and Ukraine.",
+        "link": "https://www.sbs.com.au/news/article/zelenskyy-claims-russia-is-seeing-record-losses-in-ukraine-war-as-peace-talks-resume/or0n7kut9"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Live: Greens blast Labor over preferences ahead of Victorian election battle",
-      "summary": "The major parties are set to temper their election campaigns out of respect for Remembrance Day, while the third day of hearings in the Big Build royal commission gets underway.",
-      "ts": 1794357956000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b4dd374b5ef74694f17157eaf89e831d?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+      "headline": "At least 12 people killed and dozens injured in horror Bulgarian highway pileup",
+      "summary": "Bulgaria’s roads are ranked as the most dangerous in the European Union, with the country recording one of the highest road fatality rates in the bloc.",
+      "ts": 1794425328000,
+      "img": "https://images.7news.com.au/publication/C-23149805/26efd3da3fad05c2d695c035a0bd14bacc27782f-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -139,69 +147,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Victorian election hot seats: Dumped, demoted and nearly bankrupted: Why Pesutto keeps coming back",
-        "desc": "If John Pesutto’s relationship with the Liberals was a romance, friends would have staged an intervention years ago. But he remains devoted, convinced that this time it might be different.",
-        "link": "https://www.theage.com.au/politics/victoria/i-am-hungry-pesutto-tipped-for-frontbench-return-20261109-p61cc9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Major search underway after 'woman falls off cruise ship in middle of the Atlantic'",
+        "desc": "The pensioner was last seen on the Marella Voyager (pictured) late on Monday afternoon as the ocean liner sailed from Malaga to the Caribbean.",
+        "link": "https://www.dailymail.com/news/article-16283003/Major-search-woman-falls-cruise-ship-Atlantic.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Live: Greens blast Labor over preferences ahead of Victorian election battle",
-        "desc": "The major parties are set to temper their election campaigns out of respect for Remembrance Day, while the third day of hearings in the Big Build royal commission gets underway.",
-        "link": "https://www.abc.net.au/news/2026-11-11/victoria-election-blog-november-11/107371790"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Victorian Labor’s ‘unforgivable’ preferences decision risks Liberal-One Nation government, Greens warn",
-        "desc": "Exclusive: Ellen Sandell says Labor’s decision not to back progressives in key inner-seat could hand power to rightwing coalition in close election Get our breaking news email, free app or daily news podcast The Victorian Greens say Labor’s “frankly unforgivable” decision not to preference the minor party in a key inner-city seat could hand the upcoming election to a Liberal-One Nation coalition. ",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/11/labor-decision-greens-preference-one-nation-battleground-seat-prahran-ntwnfb"
+        "title": "At least 12 people killed and dozens injured in horror Bulgarian highway pileup",
+        "desc": "Bulgaria’s roads are ranked as the most dangerous in the European Union, with the country recording one of the highest road fatality rates in the bloc.",
+        "link": "https://7news.com.au/news/europe/at-least-12-people-killed-and-dozens-injured-in-horror-bulgarian-highway-pileup-c-23149805"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-      "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-      "ts": 1794357513000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-        "desc": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-        "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – US politics live",
-        "desc": "Republicans secure majority of votes to send articles introduced by Thomas Massie to committee, meaning there won’t be a full vote on chamber floor House Republicans block effort to impeach Pentagon chief Pete Hegseth Sign up for the US Breaking News email During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally.",
-        "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "House BLOCKS Pete Hegseth impeachment effort as Republicans band together to kill post-midterm push",
-        "desc": "A move to impeach President Donald Trump's Secretary of War Pete Hegseth failed to advance in the US House of Representatives on Tuesday.",
-        "link": "https://www.dailymail.com/news/article-16282727/Vote-impeach-Pete-Hegseth-fails-House-Republican-Iran-War-defectors.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Iran rejects French claims it was behind supermarket fridge hacking",
-      "summary": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
-      "ts": 1794355579000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ff4/live/cdef63c0-dd0c-11f1-97df-bd0937690c4d.jpg",
+      "headline": "AFP issues urgent warning for parents as teenagers can be radicalised online in minutes via platforms like Roblox",
+      "summary": "An expert reveals the simple change that could keep your family safe.",
+      "ts": 1794424577000,
+      "img": "https://images.7news.com.au/publication/C-23146270/714195f5c822e399b38bdc9d6fee4cd5d0779289-16x9-x0y389w7468h4201.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -209,34 +175,111 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Three charged with plotting attacks on RAF base, Jewish communities for Iran",
-        "desc": "A New York prosecutor says the men orchestrated “a campaign of terror on behalf of organisations affiliated with Iran”, including the September plot to attack a British airbase hosting American warplanes.",
-        "link": "https://www.theage.com.au/world/north-america/three-charged-of-plotting-attacks-on-raf-base-jewish-communities-for-iran-20261111-p61d50.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Urgent iPhone warning to delete apps now issued by company hit with the 'biggest hack in history'",
+        "desc": "The world's largest digital currency exchange has urged millions of iPhone users to take action to protect themselves from a potentially devastating software problem.",
+        "link": "https://www.dailymail.com/sciencetech/article-16284707/iphone-binance-hack-warning.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "BBC World",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Iran rejects French claims it was behind supermarket fridge hacking",
-        "desc": "Tons of chilled and frozen food was spoiled last month as fridges and freezers in hundreds of supermarkets heated up.",
-        "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss"
+        "title": "AFP issues urgent warning for parents as teenagers can be radicalised online in minutes via platforms like Roblox",
+        "desc": "An expert reveals the simple change that could keep your family safe.",
+        "link": "https://7news.com.au/lifestyle/parenting/afp-issues-urgent-warning-for-parents-as-teenagers-can-be-radicalised-online-in-minutes-via-platforms-like-roblox-c-23146270"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Row erupts at exclusive club over membership for Russian diplomat's wife",
+      "summary": "Canberra diplomats are embroiled in a diplomatic row after a historic social club admitted the Russian ambassador's wife, prompting a member walkout led by his Ukrainian counterpart's wife.",
+      "ts": 1794423952000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/c476b67deb728f02dc4758eb8f1569d6?impolicy=wcms_crop_resize&cropH=808&cropW=1436&xPos=309&yPos=80&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Row erupts at exclusive club over membership for Russian diplomat's wife",
+        "desc": "Canberra diplomats are embroiled in a diplomatic row after a historic social club admitted the Russian ambassador's wife, prompting a member walkout led by his Ukrainian counterpart's wife.",
+        "link": "https://www.abc.net.au/news/2026-11-12/ukraine-russia-wives-conflict-canberra-womens-club-membership/107372122"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "France blames Iran for cyber attacks on supermarket fridges",
-        "desc": "France said it would pursue EU sanctions against all those responsible and take further measures, both public and undisclosed.",
-        "link": "https://www.sbs.com.au/news/article/france-blames-iran-for-cyberattacks-on-supermarket-fridges/skmacybgq"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Viral plane-etiquette debate erupts after man grabs passenger's aisle seat to sit with wife",
+        "desc": "A flight passenger aboard a Frontier Airlines plane gave up his assigned aisle seat after a man took it to sit next to his wife, igniting a fierce seat swap debate.",
+        "link": "https://www.foxnews.com/travel/viral-plane-etiquette-debate-erupts-after-man-grabs-passengers-aisle-seat-sit-wife"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-      "summary": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-      "ts": 1794349544000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a13/live/1b8d2f10-dd47-11f1-9ac0-6b8f7fc58221.jpg",
+      "headline": "Republican-led US House derails impeachment push Pete Hegseth labelled a 'farce'",
+      "summary": "The impeachment push against Pete Hegseth would have needed a two-thirds majority in the US Senate, even if the House had voted in favour.",
+      "ts": 1794423743000,
+      "img": "https://assets.sbs.com.au/dims4/default/5656083/2147483647/strip/false/crop/5537x2544+0+574/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe6%2F5b%2F5c804cff46888b95227c4ce62c68%2F20261111184660184588-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Trump praises Hegseth after failed impeachment effort and shrugs off Iran war criticism - live",
+        "desc": "President claims US ‘did not start war with Iran’ in Veterans Day speech where he also backed defense secretary again day after failed impeachment vote Democrats lambast absent peers over failed Hegseth impeachment House Republicans block effort to impeach Hegseth Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the key procedural vote on Tuesday to impeach Pete Hegs",
+        "link": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Republican-led US House derails impeachment push Pete Hegseth labelled a 'farce'",
+        "desc": "The impeachment push against Pete Hegseth would have needed a two-thirds majority in the US Senate, even if the House had voted in favour.",
+        "link": "https://www.sbs.com.au/news/article/pete-hegseth-dissmisses-impeachment-push-as-farce/cj0xpuc4a"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+      "summary": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
+      "ts": 1794422325000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80c9/live/fc093bd0-ddc7-11f1-9053-236ccb99630c.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+        "desc": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public. It is not known if the incidents are linked.",
+        "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
+        "desc": "European officials suspect Russia or Iran may be behind a campaign of disruption to everyday life.",
+        "link": "https://www.abc.net.au/news/2026-11-12/european-bomb-hoaxes-italy-uk/107375742"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "Plug-in solar and batteries may cause house fires, electricians warn",
+      "summary": "Plug-in solar and batteries promise savings for households, but electrical industry groups say the safety measures being proposed are insufficient and the devices could cause house fires.",
+      "ts": 1794422141000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/903a4b081c4a390496e7a922fbb9b687?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -246,79 +289,16 @@
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes",
-        "desc": "Ilhan Omar's attorneys were spotted leaving her Capitol Hill office after a two-hour meeting as federal probes into immigration and her finances mount.",
-        "link": "https://www.foxnews.com/politics/ilhan-omar-huddles-dc-based-lawyers-first-day-back-capitol-hill-amid-federal-probes"
+        "title": "Top Dem on committee fires back after White House counsel warns against overreach amid investigation threats",
+        "desc": "White House counsel Will Scharf warns House Committee on Oversight and Government Reform ranking member Rep. Robert Garcia against overreaching congressional authority.",
+        "link": "https://www.foxnews.com/politics/top-dem-committee-fires-back-white-house-counsel-warns-overreach-amid-investigation-threats"
        },
        {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-        "desc": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material.",
-        "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Thomas Markle, father of Meghan, cut off his ankle monitor, DOJ says",
-        "desc": "The estranged father of the Duchess of Sussex was previously arrested for keeping child sexual abuse material in storage units.",
-        "link": "https://7news.com.au/entertainment/royal-family/thomas-markle-father-of-meghan-cut-off-his-ankle-monitor-doj-says-c-23145324"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Eleven Australian soldiers who died in France and Belgium in WWI have been identified",
-      "summary": "The soldiers remains were recovered during excavations of battle sites and unmarked graves, with their identities remaining unresolved until now.",
-      "ts": 1794358071000,
-      "img": "https://images.7news.com.au/publication/C-23145772/19f4d2e07735beb354a7c215ab60cf16c943207a-16x9-x0y523w5000h2812.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "While more fallen WWI soldiers are being identified, what’s on their headstones can be surprising",
-        "desc": "In northern France, the story of Australian troops who died during World War I is still being written in stone.",
-        "link": "https://www.theage.com.au/national/while-more-fallen-wwi-soldiers-are-being-identified-what-s-on-their-headstones-can-be-surprising-20261111-p61aj2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Eleven Australian soldiers who died in France and Belgium in WWI have been identified",
-        "desc": "The soldiers remains were recovered during excavations of battle sites and unmarked graves, with their identities remaining unresolved until now.",
-        "link": "https://7news.com.au/news/conflict/eleven-australian-soldiers-who-died-in-france-and-belgium-in-wwi-have-been-identified--c-23145772"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "David Walliams named after failed bid to block publication of grooming allegations",
-      "summary": "David Walliams is best known as one half of the Little Britain sketch comedy program and a popular children's author.",
-      "ts": 1794357950000,
-      "img": "https://assets.sbs.com.au/dims4/default/a40567b/2147483647/strip/false/crop/3500x1608+0+362/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F78%2F95%2F61772f7740358eafaae82b58fb45%2F20150928001182207289-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Jonathan Ross says he is 'horrified' by David Walliams allegations as he opens up about 'deeply shocking' joke about Little Britain comedian 'going home with 15-year-olds'",
-        "desc": "Jonathan Ross made the joke at the British Comedy Awards in 2004, when Little Britain - which Walliams created and starred in alongside Matt Lucas - was awarded Best TV Comedy.",
-        "link": "https://www.dailymail.com/news/article-16282851/Jonathan-Ross-David-Walliams-allegations-joke.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "David Walliams named after failed bid to block publication of grooming allegations",
-        "desc": "David Walliams is best known as one half of the Little Britain sketch comedy program and a popular children's author.",
-        "link": "https://www.sbs.com.au/news/article/david-walliams-named-block-grooming-allegations/hif1ncy84"
+        "title": "Plug-in solar and batteries may cause house fires, electricians warn",
+        "desc": "Plug-in solar and batteries promise savings for households, but electrical industry groups say the safety measures being proposed are insufficient and the devices could cause house fires.",
+        "link": "https://www.abc.net.au/news/science/2026-11-12/plug-in-solar-and-batteries-may-cause-house-fires/107350418"
        }
       ]
      }
@@ -330,10 +310,10 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Criminal penalties for big tech, but OpenAI to avoid fines after Medicare hack",
-      "summary": "The government has accepted all recommendations of a rapid review into the shock news in September that an OpenAI agent had hacked into Medicare data.",
-      "ts": 1794292474000,
-      "img": "https://static.ffx.io/images/$zoom_0.2627%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/329a5d25b97d11df6c7a079799ddf9f67cdd97c5",
+      "headline": "Albanese defends Australia as climate leader after being pushed on world stage to do more",
+      "summary": "Anthony Albanese’s comments came after outgoing UN Secretary-General António Guterres told world leaders that “fossil fuels must go the way of the dinosaurs”.",
+      "ts": 1794424701000,
+      "img": "https://static.ffx.io/images/$zoom_0.5064328438085344%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_126%2C$y_43/t_crop_custom/q_86%2Cf_auto/a57d70cd11cbe675a23e09281625014587b5f51a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -343,25 +323,18 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Criminal penalties for big tech, but OpenAI to avoid fines after Medicare hack",
-        "desc": "The government has accepted all recommendations of a rapid review into the shock news in September that an OpenAI agent had hacked into Medicare data.",
-        "link": "https://www.theage.com.au/politics/federal/criminal-penalties-for-big-tech-but-openai-to-avoid-fines-after-medicare-hack-20261110-p61cxh.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       },
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-        "desc": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email, free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach, but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial intelligence compa",
-        "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
+        "title": "Albanese defends Australia as climate leader after being pushed on world stage to do more",
+        "desc": "Anthony Albanese’s comments came after outgoing UN Secretary-General António Guterres told world leaders that “fossil fuels must go the way of the dinosaurs”.",
+        "link": "https://www.theage.com.au/politics/federal/fossil-fuels-must-go-the-way-of-the-dinosaurs-un-boss-pushes-australia-to-go-further-20261112-p61dfw.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
       "id": 8,
-      "headline": "Politics with Michelle Grattan: Kos Samaras & Richard Willingham on Victoria’s expected change of government",
-      "summary": "Victoria votes in just over two weeks, and although there’s still a long way to go, on present numbers the Liberals’ Jess Wilson, a first term MP, who leads a Coalition with the Nationals, is set to become premier. While the momentum is suggesting a majority government, there is still a question about whether the result could be a Coalition minority government that would have to rely on One Nation",
-      "ts": 1794355580000,
-      "img": null,
+      "headline": "Biden ripped for ‘totally delusional’ claim about debate that preceded his 2024 exit",
+      "summary": "Joe Biden tells People Magazine his disastrous June 2024 presidential debate against Trump was \"not very consequential,\" drawing sharp criticism.",
+      "ts": 1794422678000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/07/931/523/Biden-debate.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -369,20 +342,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Politics with Michelle Grattan: Kos Samaras & Richard Willingham on Victoria’s expected change of government",
-        "desc": "Victoria votes in just over two weeks, and although there’s still a long way to go, on present numbers the Liberals’ Jess Wilson, a first term MP, who leads a Coalition with the Nationals, is set to become premier. While the momentum is suggesting a majority government, there is still a question about whether the result could be a Coalition minority government that would have to rely on One Nation",
-        "link": "https://theconversation.com/politics-with-michelle-grattan-kos-samaras-and-richard-willingham-on-victorias-expected-change-of-government-296250"
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Biden ripped for ‘totally delusional’ claim about debate that preceded his 2024 exit",
+        "desc": "Joe Biden tells People Magazine his disastrous June 2024 presidential debate against Trump was \"not very consequential,\" drawing sharp criticism.",
+        "link": "https://www.foxnews.com/politics/biden-ripped-totally-delusional-claim-debate-preceded-2024-exit"
        }
       ]
      },
      {
       "id": 9,
-      "headline": "House GOP leaders block Massie's Hegseth impeachment push",
-      "summary": "Rep. Thomas Massie introduced a privileged resolution to impeach Secretary of War Pete Hegseth, meaning it had to be considered by the full House.",
-      "ts": 1794352578000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/pete-hegseth-pushes-back-impeachment-talk.jpg?ve=1&tl=1",
+      "headline": "GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech",
+      "summary": "Anthony Constantino kicked a reporter out of the room and called on Trump to pardon Diddy during his profanity-laden congressional victory speech.",
+      "ts": 1794422249000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/anthony-constantino-and-elise-stefanik.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -392,18 +365,18 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "House GOP leaders block Massie's Hegseth impeachment push",
-        "desc": "Rep. Thomas Massie introduced a privileged resolution to impeach Secretary of War Pete Hegseth, meaning it had to be considered by the full House.",
-        "link": "https://www.foxnews.com/politics/house-gop-leaders-block-massie-hegseth-impeachment-push"
+        "title": "GOP congressman-elect makes unusual Trump request, ejects reporter during profanity-laced victory speech",
+        "desc": "Anthony Constantino kicked a reporter out of the room and called on Trump to pardon Diddy during his profanity-laden congressional victory speech.",
+        "link": "https://www.foxnews.com/politics/gop-congressman-elect-makes-unusual-trump-request-ejects-reporter-during-profanity-laced-victory-speech"
        }
       ]
      },
      {
       "id": 10,
-      "headline": "Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes",
-      "summary": "Ilhan Omar's attorneys were spotted leaving her Capitol Hill office after a two-hour meeting as federal probes into immigration and her finances mount.",
-      "ts": 1794349544000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/ilhan-omar.jpg?ve=1&tl=1",
+      "headline": "Top Dem on committee fires back after White House counsel warns against overreach amid investigation threats",
+      "summary": "White House counsel Will Scharf warns House Committee on Oversight and Government Reform ranking member Rep. Robert Garcia against overreaching congressional authority.",
+      "ts": 1794422141000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/robert-garcia_001.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -413,39 +386,18 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Ilhan Omar huddles with her DC-based lawyers during her first day back on Capitol Hill amid federal probes",
-        "desc": "Ilhan Omar's attorneys were spotted leaving her Capitol Hill office after a two-hour meeting as federal probes into immigration and her finances mount.",
-        "link": "https://www.foxnews.com/politics/ilhan-omar-huddles-dc-based-lawyers-first-day-back-capitol-hill-amid-federal-probes"
+        "title": "Top Dem on committee fires back after White House counsel warns against overreach amid investigation threats",
+        "desc": "White House counsel Will Scharf warns House Committee on Oversight and Government Reform ranking member Rep. Robert Garcia against overreaching congressional authority.",
+        "link": "https://www.foxnews.com/politics/top-dem-committee-fires-back-white-house-counsel-warns-overreach-amid-investigation-threats"
        }
       ]
      },
      {
       "id": 11,
-      "headline": "Albanese’s love affair with music is on the rocks over AI. Can he write a different tune? | Peter Lewis",
-      "summary": "The prime minister is trying to untangle the copyright knot. But this is about much more than intellectual property Get our breaking news email, free app or daily news podcast If Anthony Albanese has a spiritual home it would be somewhere between the old Sando and the Enmore theatre in that pocket of Sydney’s inner west where the traffic never flows and the people of Grayndler still rule the stree",
-      "ts": 1794348020000,
-      "img": "https://i.guim.co.uk/img/media/1e6a991e75bedff23cf6e2c8520cc53422d92836/30_169_3298_2639/master/3298.jpg?width=460&quality=85&auto=format&fit=max&s=5d2c69e1afd73fe51d683f00f7c88674",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Albanese’s love affair with music is on the rocks over AI. Can he write a different tune? | Peter Lewis",
-        "desc": "The prime minister is trying to untangle the copyright knot. But this is about much more than intellectual property Get our breaking news email, free app or daily news podcast If Anthony Albanese has a spiritual home it would be somewhere between the old Sando and the Enmore theatre in that pocket of Sydney’s inner west where the traffic never flows and the people of Grayndler still rule the stree",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/11/albaneses-love-affair-with-music-is-on-the-rocks-over-ai-can-he-write-a-different-tune"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Florida AG subpoenas DSA over potential illegal funding from Cuba and China",
-      "summary": "James Uthmeier says a subpoena targets the Democratic Socialists of America over possible foreign donations tied to Cuba and China delegations.",
-      "ts": 1794346603000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/democratic-socialists-america-trump-building-may-day.jpg?ve=1&tl=1",
+      "headline": "Trump defends Iran war during Veterans Day address, says he is making the world 'safer'",
+      "summary": "Trump told veterans at Arlington National Cemetery that the Iran conflict will end soon, vowing \"total victory\" in his Veterans Day address.",
+      "ts": 1794421975000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/donald-trump-arlington.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -455,9 +407,30 @@
        {
         "outlet": "Fox News Politics",
         "lean": "right",
-        "title": "Florida AG subpoenas DSA over potential illegal funding from Cuba and China",
-        "desc": "James Uthmeier says a subpoena targets the Democratic Socialists of America over possible foreign donations tied to Cuba and China delegations.",
-        "link": "https://www.foxnews.com/politics/florida-ag-subpoenas-dsa-potential-illegal-funding-cuba-china"
+        "title": "Trump defends Iran war during Veterans Day address, says he is making the world 'safer'",
+        "desc": "Trump told veterans at Arlington National Cemetery that the Iran conflict will end soon, vowing \"total victory\" in his Veterans Day address.",
+        "link": "https://www.foxnews.com/politics/trump-defends-iran-war-during-veterans-day-address-says-making-world-safer"
+       }
+      ]
+     },
+     {
+      "id": 12,
+      "headline": "Veterans in Congress projected to decline, but Dems bringing more first-time vets by 3-to-1 margin over GOP",
+      "summary": "Democrats send roughly three times as many veteran freshmen to the 120th Congress as Republicans, even as overall veteran representation hits a low.",
+      "ts": 1794421239000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/nancy-lacore-canvass-kickoff-south-carolina.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Veterans in Congress projected to decline, but Dems bringing more first-time vets by 3-to-1 margin over GOP",
+        "desc": "Democrats send roughly three times as many veteran freshmen to the 120th Congress as Republicans, even as overall veteran representation hits a low.",
+        "link": "https://www.foxnews.com/politics/veterans-congress-projected-decline-dems-bringing-more-first-time-vets-margin-gop"
        }
       ]
      }
@@ -469,6 +442,41 @@
     "stories": [
      {
       "id": 13,
+      "headline": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+      "ts": 1794383064000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2521/live/6ba67640-dc03-11f1-b441-2b33b063138f.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+        "desc": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+        "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
+        "desc": "Huang faces a board probe as investors fret over Nvidia’s lack of a clear successor.",
+        "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+        "desc": "California lawsuit comes as Donald Trump says FBI is investigating tech CEO’s links with Alice Huang Nvidia’s board needs to do some succession planning – sharpish Nvidia and its chief executive, Jensen Huang, have been accused of misleading shareholders in a lawsuit over the Chinese spying scandal engulfing the $4.3tn (£3.2tn) company. The legal action came as Donald Trump said the FBI was invest",
+        "link": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
+       }
+      ]
+     },
+     {
+      "id": 14,
       "headline": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
       "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
       "ts": 1794333372000,
@@ -496,67 +504,11 @@
       ]
      },
      {
-      "id": 14,
-      "headline": "Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff",
-      "summary": "Per usual, the basic MacBook Pro lags behind the flagships where it counts.",
-      "ts": 1794312021000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/IMG_9768-1152x648-1794321189.jpeg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff",
-        "desc": "Per usual, the basic MacBook Pro lags behind the flagships where it counts.",
-        "link": "https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle/"
-       },
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Apple MacBook Pro review: lighter, thinner and a stunning OLED touchscreen",
-        "desc": "Redesigned flagship laptop has a fantastic display, killer performance and the first touchscreen on a Mac, but comes with a serious price tag Apple’s MacBook Pro has been redesigned for the first time in five years, getting slightly slimmer, significantly lighter and adding a fantastic new OLED display with the first touchscreen on a Mac. The new MacBook Pro with PROLED XDR display comes in two si",
-        "link": "https://www.theguardian.com/technology/2026/nov/10/apple-macbook-pro-review-lighter-thinner-stunning-oled-touchscreen"
-       }
-      ]
-     },
-     {
       "id": 15,
-      "headline": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-      "summary": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
-      "ts": 1794290452000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c11d/live/472ca6e0-dcc6-11f1-a594-d13718d7f889.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-        "desc": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email, free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data breach, but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial intelligence compa",
-        "link": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-        "desc": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
-        "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 16,
-      "headline": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-      "summary": "The Xbox Ally X. | Photo by Amelia Holowaty Krales / The Verge Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official release. In April, Microsoft started testing",
-      "ts": 1794357264000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/257996_ROG_Xbox_Ally_and_Xbox_Ally_X_AKrales_0073.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "headline": "Loot boxes, influencers, and addictive features face an EU crackdown",
+      "summary": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers into spending more of their time and money online, including misleading prices or availability, addic",
+      "ts": 1794420832000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319789/STK450_EU_E.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -566,39 +518,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Microsoft’s DLSS competitor is out for the Xbox Ally X and works in handheld mode",
-        "desc": "The Xbox Ally X. | Photo by Amelia Holowaty Krales / The Verge Microsoft is now rolling out Automatic Super Resolution (Auto SR), an upscaling technology that competes with Nvidia's DLSS, for the Xbox Ally X, Xbox Ally X20, and select Windows Copilot Plus PCs, the company announced today. Auto SR is also getting some new features alongside this official release. In April, Microsoft started testing",
-        "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling"
+        "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
+        "desc": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers into spending more of their time and money online, including misleading prices or availability, addic",
+        "link": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection"
        }
       ]
      },
      {
-      "id": 17,
-      "headline": "Robot vessels take on the dangerous work of mine hunting",
-      "summary": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-      "ts": 1794356353000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6570/live/e6af84c0-dce5-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Robot vessels take on the dangerous work of mine hunting",
-        "desc": "The conflict in the Gulf is an opportunity for the US to test its autonomous mine-hunting systems.",
-        "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Seagate's new hybrid drive raises some old questions",
-      "summary": "The FireCuda Forge revisits an old idea, with some familiar questions.",
-      "ts": 1794353456000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2015/09/harddrive3-1000x648.jpg",
+      "id": 16,
+      "headline": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "summary": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+      "ts": 1794418652000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -608,9 +539,51 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Seagate's new hybrid drive raises some old questions",
-        "desc": "The FireCuda Forge revisits an old idea, with some familiar questions.",
-        "link": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/"
+        "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+        "desc": "Any amount of AI coding is too much for many Indie Game Festival judges.",
+        "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+      "summary": "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying surging popularity around the wo",
+      "ts": 1794416998000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Scion_Kei_Truck_2027-2.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Toyota’s Scion is back, starting with an American-made, 25-mph kei truck",
+        "desc": "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which are built to satisfy Japan's light vehicle regulations, are enjoying surging popularity around the wo",
+        "link": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Apple is shuttering its 28-year-old online community forum",
+      "summary": "Apple has already made the forum read-only.",
+      "ts": 1794416666000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1560398364-966x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Apple is shuttering its 28-year-old online community forum",
+        "desc": "Apple has already made the forum read-only.",
+        "link": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/"
        }
       ]
      }
@@ -622,10 +595,94 @@
     "stories": [
      {
       "id": 19,
+      "headline": "Rising costs hurt South Australia's regional high streets",
+      "summary": "Several shops in Mount Gambier's economic heart stand empty as rising costs and changing shopping habits take a toll.",
+      "ts": 1794423484000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/843f882724510ce94420c0b86007636c?impolicy=wcms_crop_resize&cropH=810&cropW=1440&xPos=0&yPos=121&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Rising costs hurt South Australia's regional high streets",
+        "desc": "Several shops in Mount Gambier's economic heart stand empty as rising costs and changing shopping habits take a toll.",
+        "link": "https://www.abc.net.au/news/2026-11-12/mount-gambier-main-street-shopping-empty-retail-businesses-sa/107369408"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Thanksgiving shoppers face higher turkey prices as family farms struggle with rising costs",
+        "desc": "DiPaola Turkey Farms' owner explains how rising corn and soybean costs led to a difficult decision to raise Thanksgiving turkey prices for loyal customers.",
+        "link": "https://www.foxbusiness.com/media/thanksgiving-shoppers-face-higher-turkey-prices-family-farms-struggle-rising-costs"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "ASX set to fall, AI stocks drive Wall Street higher",
+      "summary": "A rebound for stocks in the artificial intelligence industry is lifting the US market.",
+      "ts": 1794420983000,
+      "img": "https://static.ffx.io/images/$zoom_0.2301%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/27b3ac9235dbd1adbebadaaf97d3a3c6ebdd77b3",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "ASX set to fall, AI stocks drive Wall Street higher",
+        "desc": "A rebound for stocks in the artificial intelligence industry is lifting the US market.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-to-fall-ai-stocks-drive-wall-street-higher-20261112-p61dg7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Macquarie Bank to pay $14m penalty after confusing ‘welcome rate’ promotion",
+        "desc": "Asic says customers should not have to check every transaction to ensure they receive the correct interest Get our breaking news email, free app or daily news podcast Macquarie Bank is set to pay a $14m court-imposed penalty after it admitted to breaking the Corporations Act with its “welcome rate” promotions. The penalty comes amid a crackdown by Australian Securities and Investments Commission o",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/11/macquarie-bank-14m-penalty-welcome-rate-savings-account"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Sharpest home loan drop on record as property investors exit market",
+      "summary": "Investor loans fell by 31 per cent in the three months to September, a fact welcomed by Housing Minister Clare O'Neil despite more modest falls for homebuyer loans.",
+      "ts": 1794375879000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/592030fdc4d7ae61d31302491fc22796?impolicy=wcms_crop_resize&cropH=2784&cropW=4949&xPos=0&yPos=476&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Sharpest home loan drop on record as property investors exit market",
+        "desc": "Investor loans fell by 31 per cent in the three months to September, a fact welcomed by Housing Minister Clare O'Neil despite more modest falls for homebuyer loans.",
+        "link": "https://www.abc.net.au/news/2026-11-11/plunge-in-new-home-loans-result-of-property-investors/107373668"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "David Jones to close half its stores, triggering mass job losses in ‘urgent restructure’",
+        "desc": "Australia’s oldest department store collapsed into voluntary administration last week after years of steep losses Get our breaking news email, free app or daily news podcast David Jones is set to shutter half of its department store network, triggering mass job losses under a sweeping restructure, the appointed receivers said on Wednesday. David Jones employs more than 6,000 staff across 38 stores",
+        "link": "https://www.theguardian.com/business/2026/nov/11/david-jones-store-closures-administration-restructure"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "Savers urged to check interest rates on accounts as Macquarie admits failings",
       "summary": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
       "ts": 1794357271000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/59b50be68bf899c710f243e97488d9b2?impolicy=wcms_crop_resize&cropH=239&cropW=425&xPos=0&yPos=0&width=862&height=485",
+      "img": "https://live-production.wcms.abc-cdn.net.au/185de1bb9d26b337f0a504aabffeb20c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -640,13 +697,6 @@
         "link": "https://www.theage.com.au/business/banking-and-finance/macquarie-admits-bonus-savings-rate-failure-agrees-to-pay-14-million-20261111-p61d6t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Bank of England’s inflation response ‘risks higher interest rates for longer’",
-        "desc": "Thinktank Niesr says timid rate rise last week likely to make inflation more persistent feature of UK economy The Bank of England is risking higher interest rates for longer after a hesitant response to rising inflation, according to leading thinktank. In a searing critique of the central bank’s tactics, the National Institute of Economic and Social Research (Niesr) said a timid increase in intere",
-        "link": "https://www.theguardian.com/business/2026/nov/11/bank-of-england-inflation-response-risks-higher-interest-rates-for-longer"
-       },
-       {
         "outlet": "ABC Business",
         "lean": "centre",
         "title": "Savers urged to check interest rates on accounts as Macquarie admits failings",
@@ -656,114 +706,23 @@
       ]
      },
      {
-      "id": 20,
-      "headline": "Qantas sends corporate roles overseas as airline slashes 850 jobs",
-      "summary": "Qantas announces it will slash 850 roles in the coming years, with the first changes expected to be in place by mid-2027.",
-      "ts": 1794275376000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/0c789385322859396cdc8e226e729b85?impolicy=wcms_crop_resize&cropH=1691&cropW=3006&xPos=0&yPos=271&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Qantas sends corporate roles overseas as airline slashes 850 jobs",
-        "desc": "Qantas announces it will slash 850 roles in the coming years, with the first changes expected to be in place by mid-2027.",
-        "link": "https://www.abc.net.au/news/2026-11-10/850-jobs-to-go-from-qantas-as-airline-moves-roles-overseas/107368120"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Qantas to cut 850 Australian jobs and outsource work to India under AI-driven overhaul",
-        "desc": "Australian carrier announces agreement with Accenture amid ‘unprecedented’ technological disruption, CEO Vanessa Hudson says Get our breaking news email, free app or daily news podcast Qantas is preparing to cut 850 local jobs and outsource work offshore under an AI-driven overhaul, marking a growing wave of disruption to the Australian workforce. The changes represent the third major corporate la",
-        "link": "https://www.theguardian.com/business/2026/nov/10/qantas-850-job-cuts-outsource-work-to-india-ai-overhaul"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Qantas to cut 850 local jobs as it shifts roles to India",
-        "desc": "A leading union said it was told by Qantas earlier in the year there was “no plan” to offshore any jobs. Qantas vigorously denies the claim.",
-        "link": "https://www.theage.com.au/business/companies/qantas-to-cut-850-local-jobs-as-it-shifts-roles-to-india-20261110-p61ctc.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "CBA mortgage arrears highest in six years as rates bite households",
-      "summary": "The bank reported strong business lending growth, but provisions rose on the back of house price falls, as rising interest rates start to bite.",
-      "ts": 1794355748000,
-      "img": "https://static.ffx.io/images/$zoom_0.3475%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_622%2C$y_0/t_crop_custom/q_86%2Cf_auto/b5269baaad53b8446e8398a3811c26119d79fc68",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "CBA’s late mortgage payments tick up as interest rate rises bite",
-        "desc": "Data from the Commonwealth Bank of Australia attributed the small increase in the number of people struggling to inflation and rising interest rates.",
-        "link": "https://www.theage.com.au/business/banking-and-finance/late-mortgage-payments-tick-up-as-cba-defends-economy-s-resilience-20261111-p61d4g.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "CBA mortgage arrears highest in six years as rates bite households",
-        "desc": "The bank reported strong business lending growth, but provisions rose on the back of house price falls, as rising interest rates start to bite.",
-        "link": "https://www.afr.com/companies/financial-services/cba-first-quarter-profit-up-8pc-on-solid-business-lending-growth-20261111-p61d4c?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "Nvidia board taps top Wall Street law firm for Huang probe",
-      "summary": "The chipmaker’s directors hired corporate heavyweight Joon Kim to investigate an illicit liaison between founder Jensen Huang and a suspected intelligence asset.",
-      "ts": 1794355013000,
-      "img": "https://static.ffx.io/images/$zoom_0.2942%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/99d9df67f516329dc40894be55266663994c4d36",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Gold miners lead ASX lower as Wall Street slumps on inflation report",
-        "desc": "The Australian sharemarket has ticked lower in early trade, tracking losses on Wall Street after a report showed US inflation was worse than expected last month, fuelling interest rate concerns.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-fall-as-wall-street-slumps-on-inflation-anthropic-targets-2-trillion-valuation-20261111-p61d3m.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Nvidia board taps top Wall Street law firm for Huang probe",
-        "desc": "The chipmaker’s directors hired corporate heavyweight Joon Kim to investigate an illicit liaison between founder Jensen Huang and a suspected intelligence asset.",
-        "link": "https://www.afr.com/world/north-america/nvidia-board-taps-top-wall-street-law-firm-for-huang-probe-20261111-p61d5i?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
       "id": 23,
-      "headline": "Alarm bells were ringing for David Jones months before collapse",
-      "summary": "Talks about the department stores financial troubles and restructuring scenarios started months ago, a report to creditors says.",
-      "ts": 1794354320000,
-      "img": "https://static.ffx.io/images/$zoom_0.18664081776524497%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_125/t_crop_custom/q_86%2Cf_auto/876f41a5f1d4a44e2f131bae24078627653d4cbe",
+      "headline": "Short seller flagged Jensen Huang’s 'uncomfortably close' ties to alleged Chinese spy months ago",
+      "summary": "Culper Research flagged Jensen Huang's \"uncomfortably close relationship\" with Alice Huang months before the Nvidia CEO disclosed the affair.",
+      "ts": 1794343310000,
+      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/alice-huang-jensen-huang-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Alarm bells were ringing for David Jones months before collapse",
-        "desc": "Talks about the department stores financial troubles and restructuring scenarios started months ago, a report to creditors says.",
-        "link": "https://www.theage.com.au/business/companies/alarm-bells-were-ringing-for-david-jones-months-before-collapse-20261111-p61d4t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Short seller flagged Jensen Huang’s 'uncomfortably close' ties to alleged Chinese spy months ago",
+        "desc": "Culper Research flagged Jensen Huang's \"uncomfortably close relationship\" with Alice Huang months before the Nvidia CEO disclosed the affair.",
+        "link": "https://www.foxbusiness.com/markets/short-seller-flagged-jensen-huangs-uncomfortably-close-ties-alleged-chinese-spy-months-ago"
        },
        {
         "outlet": "Guardian AU Business",
@@ -776,29 +735,22 @@
      },
      {
       "id": 24,
-      "headline": "Gas prices fall below $4 a gallon for first time since July",
-      "summary": "AAA data shows the national average gas price dropped below $4 a gallon for the first time in months as winter blend fuel and lower demand ease costs.",
-      "ts": 1794348743000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/04/gas-pump-prices-iran-conflict.png",
+      "headline": "Labor pledges to boost regional rail and attacks Liberal costings",
+      "summary": "Labor is promising a $420 million boost to Victoria's regional rail services while attacking the Liberal leader's commitment to each a cash surplus by 2032.",
+      "ts": 1794424991000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/13e29c287794f293977eb0079ea77ea4?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=469&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Gas prices fall below $4 a gallon for first time since July",
-        "desc": "AAA data shows the national average gas price dropped below $4 a gallon for the first time in months as winter blend fuel and lower demand ease costs.",
-        "link": "https://www.foxbusiness.com/economy/gas-prices-fall-below-4-gallon-first-time-since-july"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX jumps, shrugging off weak consumer confidence, as oil prices fall",
-        "desc": "The Australian sharemarket had a strong session after US President Donald Trump said the Iran war “is effectively over”, boosting hopes for an end to the conflict that has driven up global energy costs.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-to-jump-as-wall-street-rallies-nvidia-tumbles-amid-chinese-spy-probe-oil-falls-20261110-p61cqw.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Labor pledges to boost regional rail and attacks Liberal costings",
+        "desc": "Labor is promising a $420 million boost to Victoria's regional rail services while attacking the Liberal leader's commitment to each a cash surplus by 2032.",
+        "link": "https://www.abc.net.au/news/2026-11-12/vic-labor-pledges-to-expand-regional-train-services/107375862"
        }
       ]
      }
@@ -810,10 +762,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Australia fans 'can't trust what's real' - Clarke wants ball-tampering investigation reopened",
-      "summary": "Former Australia captain Michael Clarke says fans of the national side \"can't trust what's real\" and has called for the investigation into the 2018 Australia ball-tampering scandal to be reopened.",
-      "ts": 1794299665000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78d7/live/b8133400-dcdf-11f1-a8e1-e3454837ffc6.jpg",
+      "headline": "Warner jabs former Australian coach Lehmann over Sandpapergate sanctions",
+      "summary": "David Warner agrees with a Chris Broad comment suggesting former Australian coach Darren Lehmann got away lightly in the wake of the Sandpapergate scandal.",
+      "ts": 1794418554000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/9fe920cd9326b2c1c9a980af1e258024?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=38&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -821,38 +773,136 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Australia fans 'can't trust what's real' - Clarke wants ball-tampering investigation reopened",
-        "desc": "Former Australia captain Michael Clarke says fans of the national side \"can't trust what's real\" and has called for the investigation into the 2018 Australia ball-tampering scandal to be reopened.",
-        "link": "https://www.bbc.co.uk/sport/cricket/articles/cjzxlxrp3335o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "The saga that never goes away: wounds of Australian cricket reopened as ball tampering resurfaces | Jack Snape",
-        "desc": "With the issues raised in Cape Town still to be resolved, Usman Khawaja’s book threatens to damage reputations and divide cricket’s tight community Australian cricket thought it had left its great shame behind, burying it in the days after Cameron Bancroft was shown on the big screen in Cape Town putting sandpaper down his pants. Cricket Australia acted swiftly at the time, suspending the young ba",
-        "link": "https://www.theguardian.com/sport/2026/nov/10/sandpapergate-cricket-australia-ball-tampering-saga-usman-khawaja-book"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Cricket Australia CEO Todd Greenberg rules out fresh investigation into 2018 ball-tampering saga",
-        "desc": "CA’s chief executive has spoken for the first time since Usman Khawaja’s bombshell new claims.",
-        "link": "https://7news.com.au/sport/cricket/cricket-australia-ceo-todd-greenberg-rules-out-fresh-investigation-into-2018-ball-tampering-saga-c-23139903"
+        "title": "Former NFL coach Rex Ryan charged after allegedly hitting pedestrians with car in Nashville",
+        "desc": "Former Jets and Bills coach turned himself in Ryan faces six misdemeanor charges over incident Two pedestrians allegedly struck in Nashville ESPN analyst and former NFL coach Rex Ryan turned himself in to police on Wednesday after allegedly hitting two pedestrians with his car in Nashville and leaving the scene. Nashville police said on Wednesday that the pedestrians had the right of way while cro",
+        "link": "https://www.theguardian.com/sport/2026/nov/11/rex-ryan-charged-hit-and-run-pedestrians-nashville"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Cricket Australia will not have another Sandpapergate investigation",
-        "desc": "Cricket Australia will not reopen an investigation into the infamous 2018 Sandpapergate controversy, according to chief executive Todd Greenberg, in the wake of Usman Khawaja's claims that the entire Australian Test team knew it was happening.",
-        "link": "https://www.abc.net.au/news/2026-11-10/cricket-australia-no-sandpapergate-investigation/107367290"
+        "title": "Warner jabs former Australian coach Lehmann over Sandpapergate sanctions",
+        "desc": "David Warner agrees with a Chris Broad comment suggesting former Australian coach Darren Lehmann got away lightly in the wake of the Sandpapergate scandal.",
+        "link": "https://www.abc.net.au/news/2026-11-11/david-warner-backs-chris-broad-comments-over-darren-lehmann/107372218"
        }
       ]
      },
      {
       "id": 26,
-      "headline": "Kate McCarthy questions AFLW pregnant policy as Suns delist Georgia Clayden weeks before due date",
+      "headline": "England captain Joe Root rejects Usman Khawaja’s claim ‘the whole world’ was ball-tampering",
+      "summary": "‘I can only speak from my own experiences and that’s not how I feel, no.’",
+      "ts": 1794380629000,
+      "img": "https://images.7news.com.au/publication/C-23149599/268d9102baefa32163bf81610e0da034d24c6319-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "England captain Joe Root rejects Usman Khawaja’s claim ‘the whole world’ was ball-tampering",
+        "desc": "‘I can only speak from my own experiences and that’s not how I feel, no.’",
+        "link": "https://7news.com.au/sport/cricket/england-captain-joe-root-rejects-usman-khawajas-claim-the-whole-world-was-ball-tampering-c-23149599"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Usman Khawaja bunkers down as book tour ‘adjusted’ amid ball-tampering claims",
+        "desc": "Book tour will still go ahead but with changes this week’s schedule Khawaja evasive when questioned on ABC’s 7:30 Report Usman Khawaja’s promotional book tour has been subject to “adjustments” after the former Australia Test batter was grilled about certain claims on the ABC’s 7.30 Report. Khawaja pulled out of some radio and television spots on Wednesday, with his publisher Penguin saying that wh",
+        "link": "https://www.theguardian.com/sport/2026/nov/11/usman-khawaja-book-tour-adjusted-amid-ball-tampering-claims"
+       }
+      ]
+     },
+     {
+      "id": 27,
+      "headline": "The rebuild is on as Labuschagne makes shaky return to Shield cricket",
+      "summary": "Marnus Labuschagne's return to the Queensland side nets just 12 runs, showing the path to his return to Test form will take some time yet.",
+      "ts": 1794378755000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/c84be2e6e95e006993840fef89f97932?impolicy=wcms_crop_resize&cropH=2427&cropW=4314&xPos=393&yPos=254&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "The rebuild is on as Labuschagne makes shaky return to Shield cricket",
+        "desc": "Marnus Labuschagne's return to the Queensland side nets just 12 runs, showing the path to his return to Test form will take some time yet.",
+        "link": "https://www.abc.net.au/news/2026-11-11/marnus-labuschagne-sheffield-shield-queensland-vs-tasmania/107374394"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Marnus Labuschagne fails again in modest return to Queensland Sheffield Shield team after Test axing",
+        "desc": "The struggling batter’s freefall has continued at state level after his horrid run of international form.",
+        "link": "https://7news.com.au/sport/cricket/marnus-labuschagne-fails-again-in-modest-return-to-queensland-sheffield-shield-team-after-test-axing-c-23148661"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "How a small scrap of sandpaper shed light on cricket's so-called dark arts",
+      "summary": "Keeping the cricket ball in the perfect condition to behave the way you want it to has always been a part of cricket, but the Australians and their yellow scrap of sandpaper shed harsh light on the sport's so-called dark arts.",
+      "ts": 1794366503000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/09ae5f937e896e19ab246daebd89e035?impolicy=wcms_crop_resize&cropH=1195&cropW=2124&xPos=0&yPos=257&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "How a small scrap of sandpaper shed light on cricket's so-called dark arts",
+        "desc": "Keeping the cricket ball in the perfect condition to behave the way you want it to has always been a part of cricket, but the Australians and their yellow scrap of sandpaper shed harsh light on the sport's so-called dark arts.",
+        "link": "https://www.abc.net.au/news/2026-11-11/usman-khawaja-sandpaper-cricket-ball-tampering/107372116"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Greats warn Australian cricket must move on from sandpaper circus: ‘Move on’",
+        "desc": "The four-day drama has made one thing clear.",
+        "link": "https://7news.com.au/sport/cricket/greats-warn-australian-cricket-must-move-on-from-sandpaper-circus-move-on-c-23145347"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Usman Khawaja brutally roasted for two words as book tour plans suddenly change",
+      "summary": "The fallout out to a bruising grilling has been immediate ... and the backlash has been fierce.",
+      "ts": 1794360639000,
+      "img": "https://images.7news.com.au/publication/C-23145661/177dd07c8fff5d0d6deac227c3a83ce2f8da0ff6-16x9-x0y0w1304h734.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Usman Khawaja brutally roasted for two words as book tour plans suddenly change",
+        "desc": "The fallout out to a bruising grilling has been immediate ... and the backlash has been fierce.",
+        "link": "https://7news.com.au/sport/cricket/usman-khawaja-brutally-roasted-for-two-words-as-promotional-book-tour-gets-called-off-c-23145661"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Usman Khawaja makes changes to book tour after tense 7.30 interview",
+        "desc": "Usman Khawaja cuts down on media appearances regarding his book, Sabr, following incessant questions about the Sandpapergate chapter.",
+        "link": "https://www.abc.net.au/news/2026-11-11/cricket-usman-khawaja-book-tour-adjustments-sandpaper-interview/107371958"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Kate McCarthy questions AFLW pregnancy policy as Suns delist Georgia Clayden weeks before due date",
       "summary": "‘In other industries this would be viewed as discrimination.’",
       "ts": 1794356233000,
       "img": "https://images.7news.com.au/publication/C-23145526/ab2269a81677a492d9acf352b91b2df715253fa8-16x9-x0y0w1280h720.png",
@@ -865,7 +915,7 @@
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Kate McCarthy questions AFLW pregnant policy as Suns delist Georgia Clayden weeks before due date",
+        "title": "Kate McCarthy questions AFLW pregnancy policy as Suns delist Georgia Clayden weeks before due date",
         "desc": "‘In other industries this would be viewed as discrimination.’",
         "link": "https://7news.com.au/sport/aflw/kate-mccarthy-questions-aflw-pregnant-policy-as-suns-delist-georgia-clayden-weeks-before-due-date-c-23145526"
        },
@@ -877,118 +927,6 @@
         "link": "https://www.abc.net.au/news/2026-11-11/aflw-gold-coast-georgia-clayden-delisted-while-pregnant/107371624"
        }
       ]
-     },
-     {
-      "id": 27,
-      "headline": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
-      "summary": "Wimbledon champion Linda Noskova dismantles Coco Gauff to become the first player to reach the last four at the WTA Finals.",
-      "ts": 1794355143000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4770/live/6dbb7770-dd5f-11f1-93e1-3b657b665bcf.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Brilliant Noskova dismantles Gauff to reach WTA Finals last four",
-        "desc": "Wimbledon champion Linda Noskova dismantles Coco Gauff to become the first player to reach the last four at the WTA Finals.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/cvglwllpxddro?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Noskova beats Gauff to reach WTA Finals semi-finals as Pegula stays alive",
-        "desc": "Czech defeats Gauff 6-3, 6-3 to reach last four Pegula eliminates Kostyuk with straight-sets victory Gauff and Pegula remain in contention for final berth Linda Noskova secured her place in the semi-finals of the WTA Finals with a 6-3, 6-3 victory over Coco Gauff on Tuesday, while Jessica Pegula knocked Marta Kostyuk out of the season-ending tournament with a straight-sets win. The Czech, who beat",
-        "link": "https://www.theguardian.com/sport/2026/nov/10/jessica-pegula-marta-kostyuk-wta-finals-tennis"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-      "summary": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-      "ts": 1794349405000,
-      "img": "https://images.7news.com.au/publication/C-23145163/007f89af7ea2166260d7bd6a1f8bb6129e353838-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Izzy Neale, ‘dearly loved’ Australian apprentice jockey, dies after fall at regional track",
-        "desc": "Twenty-two-year-old suffered severe injuries at race on Sunday ‘Words are not enough,’ says trainer Richard Freedman Apprentice jockey Izzy Neale has died following a fall at a regional racecourse. Neale suffered severe injuries when her mount Marnoo fell entering the home straight in the Warren Shire Cotton Cup in NSW. Continue reading...",
-        "link": "https://www.theguardian.com/sport/2026/nov/11/izzy-neale-dies-race-fall-apprentice-jockey-death-track-racecourse"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-        "desc": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-        "link": "https://7news.com.au/sport/horse-racing/apprentice-jockey-izzy-neales-final-selfless-act-revealed-by-heartbroken-family-after-her-death-aged-22-c-23145163"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Man City thrash Inter to claim first CL win of season",
-      "summary": "Manchester City come from behind to beat Inter Milan in style for their first Champions League win of the season.",
-      "ts": 1794348514000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ee5/live/a807f7e0-dd51-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Inter 1-4 Manchester City: Women’s Champions League – as it happened",
-        "desc": "Aoba Fujino’s first-half double inspired a comeback against Inter that delivered Manchester City’s first WCL win of the season Final scores in the early kick-offs: Häcken 0-0 Chelsea Real Madrid 3-0 Paris FC (Caruso 55, Beerensteyn 65, Caicedo 81) Continue reading...",
-        "link": "https://www.theguardian.com/football/live/2026/nov/10/inter-v-manchester-city-womens-champions-league-live"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Man City thrash Inter to claim first CL win of season",
-        "desc": "Manchester City come from behind to beat Inter Milan in style for their first Champions League win of the season.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/cwzd6d9zrlz7o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "McTominay reveals heart treatment at World Cup",
-      "summary": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June.",
-      "ts": 1794340491000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6eae/live/09084700-dd22-11f1-b441-2b33b063138f.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "McTominay reveals heart treatment two days before Scotland’s World Cup opener",
-        "desc": "Midfielder was in hospital before Haiti match ‘I had to get the shock on my heart,’ says McTominay Scott McTominay has revealed he was in hospital under sedation to have a “shock on my heart” just 48 hours before Scotland began their World Cup campaign against Haiti in June. At the time McTominay’s absence from training was put down to a stomach complaint. It emerged in August that the Napoli midf",
-        "link": "https://www.theguardian.com/football/2026/nov/10/mctominay-reveals-heart-treatment-two-days-before-scotlands-world-cup-opener"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "McTominay reveals heart treatment at World Cup",
-        "desc": "Scott McTominay reveals he received treatment on his heart two days before Scotland's World Cup win over Haiti in June.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
      }
     ]
    },
@@ -998,10 +936,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Stacy Keach Dies: ‘Mike Hammer’ Star, Film & Stage Actor Was 85",
-      "summary": "Stacy Keach, who starred on TV’s Mike Hammer and Titus and recurred on Blue Bloods after establishing himself as a stage and film actor, died Monday. He was 85. His wife, Małgosia Tomassi, said he died “after a long and difficult battle with a serious heart condition and heart failure” at the family home in […]",
-      "ts": 1794358243000,
-      "img": "https://deadline.com/wp-content/uploads/2023/02/GettyImages-958792280.jpg",
+      "headline": "‘Adults’ Renewed For Season 3 At FX",
+      "summary": "FX is sticking with Adults. The Disney-owned network has renewed the comedy for a third season with a supersized 16-episode season. The second season premiered in August on FXX and Hulu and both seasons so far have featured eight episodes. Adults creators Ben Kronengold & Rebecca Shaw have also struck a new overall deal with […]",
+      "ts": 1794424270000,
+      "img": "https://deadline.com/wp-content/uploads/2026/06/FXs-Adults-Surprise-Prequel-Episode-Premieres-July-31.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1011,25 +949,25 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Stacy Keach Dies: ‘Mike Hammer’ Star, Film & Stage Actor Was 85",
-        "desc": "Stacy Keach, who starred on TV’s Mike Hammer and Titus and recurred on Blue Bloods after establishing himself as a stage and film actor, died Monday. He was 85. His wife, Małgosia Tomassi, said he died “after a long and difficult battle with a serious heart condition and heart failure” at the family home in […]",
-        "link": "https://deadline.com/2026/11/stacy-keach-dead-mike-hammer-1237219619/"
+        "title": "‘Adults’ Renewed For Season 3 At FX",
+        "desc": "FX is sticking with Adults. The Disney-owned network has renewed the comedy for a third season with a supersized 16-episode season. The second season premiered in August on FXX and Hulu and both seasons so far have featured eight episodes. Adults creators Ben Kronengold & Rebecca Shaw have also struck a new overall deal with […]",
+        "link": "https://deadline.com/2026/11/adults-renewed-season-3-fx-1237220654/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘We Need to Bring Tom Cruise Home to Make Movies Here’: U.S. Film Incentive Takes Center Stage at AFM",
-        "desc": "Tom Cruise may not have much of a presence at the American Film Market, more accustomed to selling movies with considerably lower budgets than those the star is used to. But on the opening day of the 2026 edition his name was casually dropped as part of a major pitch for the much-discussed federal tax […]",
-        "link": "https://variety.com/2026/film/global/bring-tom-cruise-home-federal-film-incentive-afm-1236944222/"
+        "title": "‘Adults’ Renewed for Season 3 at FX",
+        "desc": "“Adults” has been renewed for Season 3 at FX and Hulu, Variety has learned. The third season of the ensemble comedy will consist of 16 episodes, which is double the eight episodes the show aired for both its first and second seasons. In addition, creators Ben Kronengold and Rebecca Shaw have also set a new […]",
+        "link": "https://variety.com/2026/tv/news/adults-renewed-season-3-fx-1236945319/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "‘The Age Of Innocence’ Sets Netflix Release Date; First Photos Of Camila Morrone, Kristine Froseth & Ben Radcliffe",
-      "summary": "We’re getting the first look at The Age of Innocence, Netflix’s upcoming limited series based on Edith Wharton’s Pulitzer Prize-winning novel. The eight-episode series, starring Camila Morrone, Kristine Froseth and Ben Radcliffe, will premiere February 18 on the streamer. You can see several first-look photos above and below. Based on Wharton’s classic story of forbidden […]",
-      "ts": 1794352737000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/AGEOFINNOCENCE_101_251010_CB_00198_R4.jpg",
+      "headline": "Irma P. Hall Dies: ‘Soul Food’, ‘Midnight In The Garden Of Good And Evil’ Actor Was 91",
+      "summary": "Irma P. Hall, who portrayed “Big Mama Jo” in the 1997 film Soul Food and, that same year, the memorable character of “root doctor” Minerva in Midnight in the Garden of Good and Evil, died Tuesday, November 10, in Dallas. She was 91. Her death was announced by family. Although a cause was not specified, […]",
+      "ts": 1794423751000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Irma-P.-Hall.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1039,25 +977,25 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘The Age Of Innocence’ Sets Netflix Release Date; First Photos Of Camila Morrone, Kristine Froseth & Ben Radcliffe",
-        "desc": "We’re getting the first look at The Age of Innocence, Netflix’s upcoming limited series based on Edith Wharton’s Pulitzer Prize-winning novel. The eight-episode series, starring Camila Morrone, Kristine Froseth and Ben Radcliffe, will premiere February 18 on the streamer. You can see several first-look photos above and below. Based on Wharton’s classic story of forbidden […]",
-        "link": "https://deadline.com/2026/11/the-age-of-innocence-netflix-release-date-tv-show-photos-1237219435/"
+        "title": "Irma P. Hall Dies: ‘Soul Food’, ‘Midnight In The Garden Of Good And Evil’ Actor Was 91",
+        "desc": "Irma P. Hall, who portrayed “Big Mama Jo” in the 1997 film Soul Food and, that same year, the memorable character of “root doctor” Minerva in Midnight in the Garden of Good and Evil, died Tuesday, November 10, in Dallas. She was 91. Her death was announced by family. Although a cause was not specified, […]",
+        "link": "https://deadline.com/2026/11/irma-p-hall-dead-1237220602/"
        },
        {
-        "outlet": "Anime News Network",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "HIDIVE to Release Made in Abyss: Awakening Mystery Film in 2027 With N. American Premiere Screening at Anime Frontier on December 5",
-        "desc": "English-subbed trailer streamed for 1st film in new Made in Abyss anime film series",
-        "link": "https://www.animenewsnetwork.com/news/2026-11-10/hidive-to-release-made-in-abyss-awakening-mystery-film-in-2027-with-n-american-premiere-screening-/.243696"
+        "title": "Irma P. Hall, ‘Soul Food’ and ‘The Ladykillers’ Actress, Dies at 91",
+        "desc": "Irma P. Hall, who played Josephine “Big Mama” Joseph in the 1997 dramedy “Soul Food,” died on Tuesday, her family confirmed. She was 91. “Irma P. Hall was a beloved actress, author, poet, educator and public speaker whose contributions touched countless lives throughout her remarkable career,” her family wrote in a statement. “Her legacy of […]",
+        "link": "https://variety.com/2026/film/news/irma-p-hall-dead-soul-food-1236945266/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Godzilla Minus Zero Review Bombed In One Country Amid Intense Box Office Clash",
-      "summary": "Godzilla Minus Zero has been review-bombed by one country amid an intense box office clash, grossing $62 million worldwide in its opening weekend.",
-      "ts": 1794357999000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/gojira-in-the-godzilla-minus-zero-poster.jpg",
+      "headline": "‘Grey’s Anatomy’ Texas Spinoff Casts ‘How to Get Away With Murder’ Alum Karla Souza in Lead Role",
+      "summary": "The “Grey’s Anatomy” spinoff set in West Texas has cast Karla Souza in a lead role, Variety has learned. The spinoff was originally announced at ABC in May. It was intended to launch during the 2026-2027 broadcast season, but was recently delayed to the 2027-2028 season after it did not receive a California TV tax […]",
+      "ts": 1794420000000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Karla-Souza-Headshot22-e1794409817680.jpeg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1065,20 +1003,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Godzilla Minus Zero Review Bombed In One Country Amid Intense Box Office Clash",
-        "desc": "Godzilla Minus Zero has been review-bombed by one country amid an intense box office clash, grossing $62 million worldwide in its opening weekend.",
-        "link": "https://screenrant.com/godzilla-minus-zero-review-bomb-india-ramayana-box-office/"
+        "title": "‘Grey’s Anatomy’ Texas Spinoff Casts ‘How to Get Away With Murder’ Alum Karla Souza in Lead Role",
+        "desc": "The “Grey’s Anatomy” spinoff set in West Texas has cast Karla Souza in a lead role, Variety has learned. The spinoff was originally announced at ABC in May. It was intended to launch during the 2026-2027 broadcast season, but was recently delayed to the 2027-2028 season after it did not receive a California TV tax […]",
+        "link": "https://variety.com/2026/tv/news/greys-anatomy-texas-spinoff-cast-karla-souza-1236945106/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Karla Souza To Star In ‘Grey’s Anatomy’ Texas Spinoff",
+        "desc": "Karla Souza (How to Get Away with Murder, 56 Days) has been cast as a lead in ABC’s new Grey’s Anatomy spinoff set in West Texas. She is the first actor to join the untitled 20th Television studio series from executive producers Shonda Rhimes, Betsy Beers, Meg Marinis, and Ellen Pompeo. Created by Grey’s Anatomy […]",
+        "link": "https://deadline.com/2026/11/karla-souza-cast-greys-anatomy-spinoff-series-1237220319/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Legendary Star Trek Writer Reveals The Hardest Next Generation Character To Write For: “We Didn’t Know What To Do With That”",
-      "summary": "Ronald D. Moore looks back on his time as a writer for Star Trek: The Next Generation and discusses which main character was the most problematic.",
-      "ts": 1794357616000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/geordi-troi-picard-and-data-in-star-trek.jpg",
+      "headline": "8 Historical Series From The 20th Century That Have Aged Horribly",
+      "summary": "20th Century TV produced a deluge of warmly nostalgic period dramas that sanitize and sometimes even ignore history's brutality and bias.",
+      "ts": 1794425419000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/bonanza_hyhulv-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1088,18 +1033,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Legendary Star Trek Writer Reveals The Hardest Next Generation Character To Write For: “We Didn’t Know What To Do With That”",
-        "desc": "Ronald D. Moore looks back on his time as a writer for Star Trek: The Next Generation and discusses which main character was the most problematic.",
-        "link": "https://screenrant.com/star-trek-the-next-generation-hardest-character-write/"
+        "title": "8 Historical Series From The 20th Century That Have Aged Horribly",
+        "desc": "20th Century TV produced a deluge of warmly nostalgic period dramas that sanitize and sometimes even ignore history's brutality and bias.",
+        "link": "https://screenrant.com/historical-tv-shows-aged-badly/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Oscar Winner David Dinerstein Boards ‘Room Of The Absolute’ As EP; Award-Winning Doc Creates Portrait Of Ukrainian Artist Alla Hurenko",
-      "summary": "EXCLUSIVE: Academy Award winner David Dinerstein has signed on to executive produce Room of the Absolute as the award-winning short documentary ramps up its Oscar campaign. The film directed by Natalie Shirinian and Elizabeth Baudouin fashions “an intimate, diaristic portrait of Ukrainian painter Alla Hurenko, professionally known as Pazza Pennello, who documented three years of […]",
-      "ts": 1794357383000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Alla-Hurenko-Room-of-the-Absolute.png",
+      "headline": "How KROQ’s ‘Klein/Ally Show’ Slogged Its Way to the Top in Los Angeles Radio Morning Drive",
+      "summary": "As KROQ gets ready to hold the 35th edition of its “Almost Acoustic Christmas” concert event next month, the “world famous” alternative rock station has even more reason to celebrate: Not only did the station hit its best ratings in September since Summer 2004, but KROQ is once again a force in Los Angeles morning […]",
+      "ts": 1794424716000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/2251802297-e1794422293338.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1107,20 +1052,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Oscar Winner David Dinerstein Boards ‘Room Of The Absolute’ As EP; Award-Winning Doc Creates Portrait Of Ukrainian Artist Alla Hurenko",
-        "desc": "EXCLUSIVE: Academy Award winner David Dinerstein has signed on to executive produce Room of the Absolute as the award-winning short documentary ramps up its Oscar campaign. The film directed by Natalie Shirinian and Elizabeth Baudouin fashions “an intimate, diaristic portrait of Ukrainian painter Alla Hurenko, professionally known as Pazza Pennello, who documented three years of […]",
-        "link": "https://deadline.com/2026/11/room-of-the-absolute-david-dinerstein-ep-1237219590/"
+        "title": "How KROQ’s ‘Klein/Ally Show’ Slogged Its Way to the Top in Los Angeles Radio Morning Drive",
+        "desc": "As KROQ gets ready to hold the 35th edition of its “Almost Acoustic Christmas” concert event next month, the “world famous” alternative rock station has even more reason to celebrate: Not only did the station hit its best ratings in September since Summer 2004, but KROQ is once again a force in Los Angeles morning […]",
+        "link": "https://variety.com/2026/biz/news/kroq-klein-ally-show-los-angeles-radio-ratings-morning-1236944888/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "3 Years Later, Solo Leveling Completely Retcons Its Original Ending",
-      "summary": "Solo Leveling: Ragnarok just dropped a revelation that will change how fans see Solo Leveling's original ending forever.",
-      "ts": 1794357078000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/sung-suho-from-solo-leveling-ragnarok-with-jinwoo-and-cha-hae-in-as-seen-in-solo-leveling-s-epilogue.jpg",
+      "headline": "‘Elite’ Stars Ester Expósito and Claudia Salas Lead Carlota Pereda’s ‘The Blondes,’ Playtime Launches Sales at AFM (EXCLUSIVE)",
+      "summary": "Ester Expósito and Claudia Salas, the breakout stars of Netflix’s hit show “Elite,” are set to lead “The Blondes,” a darkly comic crime thriller from Spanish filmmaker Carlota Pereda (“Piggy”). Paris-based Playtime has boarded international sales and is introducing the hot project to buyers at the American Film Market. Inspired by the true-crime story of […]",
+      "ts": 1794424293000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Claudia-Salas-Day-9-Sitges-Film-Festival-2024-1000.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1128,11 +1073,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "3 Years Later, Solo Leveling Completely Retcons Its Original Ending",
-        "desc": "Solo Leveling: Ragnarok just dropped a revelation that will change how fans see Solo Leveling's original ending forever.",
-        "link": "https://screenrant.com/solo-leveling-ending-retcon-jinwoo-cha-hae-in/"
+        "title": "‘Elite’ Stars Ester Expósito and Claudia Salas Lead Carlota Pereda’s ‘The Blondes,’ Playtime Launches Sales at AFM (EXCLUSIVE)",
+        "desc": "Ester Expósito and Claudia Salas, the breakout stars of Netflix’s hit show “Elite,” are set to lead “The Blondes,” a darkly comic crime thriller from Spanish filmmaker Carlota Pereda (“Piggy”). Paris-based Playtime has boarded international sales and is introducing the hot project to buyers at the American Film Market. Inspired by the true-crime story of […]",
+        "link": "https://variety.com/2026/film/global/elite-ester-exposito-claudia-salas-carlota-peredas-blondes-1236945317/"
        }
       ]
      }
@@ -1141,36 +1086,36 @@
   ],
   "sourcesOk": [
    "Crikey",
+   "Guardian Australia",
    "ABC News",
-   "Fox News",
    "The Age",
+   "BBC World",
+   "The Age Federal Politics",
+   "Fox News",
    "Guardian AU Politics",
    "The Conversation",
-   "The Age Federal Politics",
-   "Guardian Australia",
    "Fox News Politics",
+   "7News",
    "Ars Technica",
-   "Guardian AU Business",
    "Guardian Tech",
-   "BBC World",
-   "Fox Business",
+   "Guardian AU Business",
+   "The Age Business",
    "The Verge",
    "BBC Tech",
-   "ABC Business",
+   "AFR",
    "BBC Sport",
    "Variety",
-   "SBS News",
-   "The Age Business",
-   "Guardian AU Sport",
-   "AFR",
    "ABC Sport",
-   "7News",
-   "7News Sport",
-   "Anime News Network",
-   "Guardian Film",
+   "Deadline",
+   "Guardian AU Sport",
+   "Fox Business",
+   "ABC Business",
    "Screen Rant",
+   "Guardian Film",
+   "SBS News",
+   "Anime News Network",
    "Daily Mail Australia",
-   "Deadline"
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1251,11 +1196,9 @@
    {
     "title": "VisionQuest",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.8,
     "genres": [
-     "Action",
-     "Adventure",
-     "Drama"
+     "Action"
     ],
     "overview": "Vision is faced with many challenges while trying to regain his memory and humanity.",
     "released": "2026-10-13"
@@ -1321,7 +1264,7 @@
    {
     "title": "Chitose Is in the Ramune Bottle 2nd Cour",
     "year": "2026",
-    "rating": 7.9,
+    "rating": 7.8,
     "genres": [
      "Comedy",
      "Romance"
@@ -1354,134 +1297,134 @@
   ]
  },
  "wotd": {
-  "word": "hodgepodge",
+  "word": "nepenthe",
   "phonetic": "",
   "pos": "Noun",
-  "def": "A collection containing a variety of miscellaneous things.",
-  "example": "His latest sculpture is a hodgepodge of kitchen clutter and scrap glued together.",
-  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/LL-Q1860_%28eng%29-Vealhurl-hodgepodge.wav/LL-Q1860_%28eng%29-Vealhurl-hodgepodge.wav.mp3"
+  "def": "Alternative form of nepenthes ( “ a drug that relieves one of emotional pain, grief or sorrow ” ).",
+  "example": null,
+  "audio": null
  },
  "commGames": null,
  "deals": [
   {
-   "title": "[iOS] Free: Kepto+ Lifetime Unlock (Was A$7.99) - Receipt & Warranty Tracker @ Kepto (Android Codes Gone)",
-   "link": "https://www.ozbargain.com.au/node/982427",
-   "votes": 346,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1794298208000
-  },
-  {
    "title": "AliExpress: 35% Cashback on Affiliated Items, 1% Cashback on Non-Affiliated Items ($50 Cashback Cap per Order) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/982491",
-   "votes": 263,
-   "neg": 0,
+   "votes": 547,
+   "neg": 1,
    "category": "Other",
    "ts": 1794349009000
   },
   {
-   "title": "11% off Sitewide (Exclusions Apply) + Delivery ($0 C&C) @ JB Hi-Fi",
-   "link": "https://www.ozbargain.com.au/node/982476",
-   "votes": 194,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1794342455000
-  },
-  {
-   "title": "Firefox Built-in VPN: Unlimited Data through January 2027 (Free Mozilla Account Required) @ Firefox",
-   "link": "https://www.ozbargain.com.au/node/982426",
-   "votes": 175,
-   "neg": 0,
-   "category": "Internet",
-   "ts": 1794297874000
-  },
-  {
-   "title": "15 Wicked Wings $15.95 Pickup @ KFC (App/Online Order Required)",
-   "link": "https://www.ozbargain.com.au/node/982380",
-   "votes": 115,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1794280458000
-  },
-  {
-   "title": "[PC, VR, Steam] Free - The Rig: A Starmap to Murder @ Steam",
-   "link": "https://www.ozbargain.com.au/node/982419",
-   "votes": 98,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1794292502000
-  },
-  {
-   "title": "[Uber One] PS5 Dualsense Wireless Controller + Anko 2pk Silicone Nipple Shields $80 + Service Fee @ Target on Uber Eats",
-   "link": "https://www.ozbargain.com.au/node/982395",
-   "votes": 79,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1794285507000
-  },
-  {
-   "title": "eBay Australia: 10% Cashback ($20 Cap Per Member Per Day, Excludes Coupons) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/982459",
-   "votes": 78,
+   "title": "15% off TCN Good Food, Pamper, Active, Shop, Cinema and Choice Gift Cards (Excl. Variable Load) @ Coles (In-Store Only)",
+   "link": "https://www.ozbargain.com.au/node/982569",
+   "votes": 208,
    "neg": 0,
    "category": "Other",
-   "ts": 1794315786000
+   "ts": 1794373213000
   },
   {
-   "title": "Everyday Market from Woolworths: 30% Cashback on $200.01+ Spend ($150 Cap Per Member, Excludes Coupons) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/982463",
-   "votes": 68,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1794318664000
-  },
-  {
-   "title": "Jack's Fried Chicken Large Value Meal $10 (RRP $21.90) @ Hungry Jacks via Uber Eats (Delivery & Service Fees Apply)",
-   "link": "https://www.ozbargain.com.au/node/982447",
-   "votes": 66,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1794306853000
-  },
-  {
-   "title": "Pepsi Max, Sunkist, Solo, Schweppes Lemonade 30x 375ml Cans $26 ($24.70 Sub & Save) + Del ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/982421",
-   "votes": 61,
+   "title": "½ Price Whittaker's Slab Milk Chocolate Bar 50g $1.50 (Was $3) @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/982594",
+   "votes": 94,
    "neg": 0,
    "category": "Groceries",
-   "ts": 1794293558000
+   "ts": 1794381910000
   },
   {
-   "title": "Bambu Lab X2D Combo 3D Printer & AMS 2 Pro $1067.11 + Delivery ($0 C&C) @ JB Hi-Fi",
-   "link": "https://www.ozbargain.com.au/node/982483",
-   "votes": 59,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1794345466000
-  },
-  {
-   "title": "Thule Euroway G2 3 Bike Tow Ball Rack $599 + Shipping ($0 C&C) @ 99Bikes",
-   "link": "https://www.ozbargain.com.au/node/982430",
-   "votes": 51,
-   "neg": 0,
-   "category": "Automotive",
-   "ts": 1794299174000
-  },
-  {
-   "title": "11% off Sitewide (e.g. Motorola Edge 70 8GB RAM/256GB Storage $531.33) @ Mobileciti",
-   "link": "https://www.ozbargain.com.au/node/982431",
-   "votes": 42,
+   "title": "OnePass Mobile 365 Days 5G Prepaid SIMs - 350GB $159, 550GB $189 Delivered (Free OnePass Included) @ OnePass Mobile",
+   "link": "https://www.ozbargain.com.au/node/982587",
+   "votes": 84,
    "neg": 0,
    "category": "Mobile",
-   "ts": 1794300513000
+   "ts": 1794379803000
   },
   {
-   "title": "Spend $100 Save $20, Spend $200 Save $40, Spend $300+ Save $60 on Full Price Items @ Rebel Sport (Online Only)",
-   "link": "https://www.ozbargain.com.au/node/982387",
-   "votes": 35,
+   "title": "[NSW] Adopt-a-Stray - $100 Desexing, Vaccination, Microchipping @ Cat Protection Society of NSW",
+   "link": "https://www.ozbargain.com.au/node/846091",
+   "votes": 77,
    "neg": 0,
-   "category": "Sports & Outdoors",
-   "ts": 1794283323000
+   "category": "Pets",
+   "ts": 1715769760000
+  },
+  {
+   "title": "Trojan 450mm Wrecking Bar $10.90 (was $17.98) + Delivery ($0 C&C/ in-Store/ OnePass) @ Bunnings",
+   "link": "https://www.ozbargain.com.au/node/982564",
+   "votes": 70,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1794370936000
+  },
+  {
+   "title": "[PC, Steam] Free - Sadball @ Steam",
+   "link": "https://www.ozbargain.com.au/node/982590",
+   "votes": 65,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1794380720000
+  },
+  {
+   "title": "Any Pastry Free with Purchase during Birth Month (with Lune Passport) @ Lune Croissanterie",
+   "link": "https://www.ozbargain.com.au/node/982549",
+   "votes": 60,
+   "neg": 0,
+   "category": "Dining & Takeaway",
+   "ts": 1794365770000
+  },
+  {
+   "title": "[eBook] Free - Coastal Fury Boxset (1-3) by Matt Lincoln @ Amazon AU & US",
+   "link": "https://www.ozbargain.com.au/node/982622",
+   "votes": 57,
+   "neg": 0,
+   "category": "Books & Magazines",
+   "ts": 1794393445000
+  },
+  {
+   "title": "Nothing Phone (3) (6.7\", 12GB/256GB Snapdragon 8S Gen4) US$432.65 (~A$632.34) w/ PayPal Delivered @ Nothing Online AliExpress",
+   "link": "https://www.ozbargain.com.au/node/982619",
+   "votes": 53,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1794390926000
+  },
+  {
+   "title": "Flashforge Adventurer 5M 3D Printer US$159.05 (~A$232.46) with PayPal AU Stock Shipped @ FLASHFORGE 3D Printer Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/982635",
+   "votes": 47,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1794398879000
+  },
+  {
+   "title": "Apple iPhone 17 Pro Max 256GB Deep Blue $1,789.99 Delivered @ Costco (Membership Required) / Price Beat $1700.49 @ Officeworks",
+   "link": "https://www.ozbargain.com.au/node/982584",
+   "votes": 44,
+   "neg": 1,
+   "category": "Mobile",
+   "ts": 1794378039000
+  },
+  {
+   "title": "Netac Shadow III DDR4 32GB (2x16GB) 3200MHz CL16 US$134.18 (~A$196.11) with PayPal Delivered @ Netac Official Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/982606",
+   "votes": 29,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1794385536000
+  },
+  {
+   "title": "Geely Starray EM-i Complete PHEV from $36,490 + ORC, EX5 Complete EV $40,990 + ORC @ Geely",
+   "link": "https://www.ozbargain.com.au/node/982525",
+   "votes": 29,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1794359468000
+  },
+  {
+   "title": "[QLD] Continental Cucumber 69¢ Each, Seedless Watwrmelon 9¢/kg & More @ Skippy's Mt Gravatt",
+   "link": "https://www.ozbargain.com.au/node/982597",
+   "votes": 28,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1794382996000
   }
  ],
  "carried": {}
