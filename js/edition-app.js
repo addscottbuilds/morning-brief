@@ -132,7 +132,7 @@
       openSheetId=null;
       if (d.id === "sheet-section" && secondaryRoute()) history.replaceState(null, "", routes[curPage]);
       if (sheetOpener?.isConnected && !sheetOpener.closest("[hidden]")) sheetOpener.focus();
-      else if (sheetOpener?.id === "today-deadline") $("today-focus").focus();
+      else if (["today-deadline", "today-focus"].includes(sheetOpener?.id)) nextUpTarget().focus();
       else if (sheetOpener?.id === "today-word-link") $("today-news-edition").focus();
     });
     d.addEventListener("click",e=>{if(e.target!==d)return;const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeSheet();});
@@ -212,7 +212,9 @@
   function syncTodaySummaries() {
     for (const [name, glance] of [["markets","market-glance"],["sport","sport-glance"]]) {
       const source=$("source-"+name);
-      const fallback = source.dataset.state === "unavailable" ? "Market snapshot unavailable." : "Checking the snapshot…";
+      const fallback = name === "sport"
+        ? (source.dataset.state === "unavailable" ? "Scores unavailable" : "Checking scores…")
+        : (source.dataset.state === "unavailable" ? "Snapshot unavailable" : "Checking the snapshot…");
       const summary = $(glance).hidden ? fallback : $(glance).textContent;
       const qualifier = source.dataset.state === "saved" ? (name === "sport" ? "Saved results" : "Saved snapshot")
         : source.dataset.state === "previous" ? "Previous edition" : "";
@@ -513,13 +515,10 @@
     dayIcon.hidden = !dailyCondition;
     const uv = day.uv_index_max?.[0];
 
-    $("wx-temp").textContent = Math.round(cur.temperature_2m) + "°";
-    $("weather-line").hidden = false;
     $("wx-desc").textContent = Number.isFinite(cur.apparent_temperature)
       ? desc + ". Feels like " + Math.round(cur.apparent_temperature) + "°." : desc;
 
     renderWeatherCharts(w);
-    renderDayline(w.hourly);
     weatherStatus(state, checked, true);
 
     const formatHour = value => {
@@ -571,13 +570,18 @@
     const dateLabel = Number.isFinite(date) ? forecastDate.format(date) : "";
     const localNow = Date.now() + utc_offset_seconds * 1000;
     const sameDay = Number.isFinite(utc_offset_seconds) && Math.abs(utc_offset_seconds) <= 86400 && new Date(localNow).toISOString().slice(0, 10) === forecastDay;
-    const hours = clock ? (Date.now() + clock.offset * 1000 - clock.start) / WEATHER_HOUR : NaN;
-    const inRange = sameDay && hours >= 0 && hours < clock.duration / WEATHER_HOUR;
+    const state = $("source-weather").dataset.state;
+    const fresh = sameDay && state === "ready" && navigator.onLine;
+    const saved = state === "saved" || (state === "loading" && Boolean(weatherReport));
+    const estimateTime = Date.parse(currentTime + "Z");
+    const reference = fresh ? localNow : saved ? estimateTime : NaN;
+    const hours = clock ? (reference - clock.start) / WEATHER_HOUR : NaN;
+    const day = 24 * WEATHER_HOUR;
+    const inRange = reference >= date && reference < date + day && hours >= 0 && hours < clock.duration / WEATHER_HOUR;
     // Each rain value covers the hour ending at its timestamp. Ignore hours
     // that have already ended, even when they set the whole day's peak.
     const start = inRange ? Math.floor(hours) + 1 : 0;
-    const day = 24 * WEATHER_HOUR;
-    const midnight = inRange ? (Math.floor(clock.start / day) + 1) * day : NaN;
+    const midnight = date + day;
     const end = inRange ? (midnight - clock.start) / WEATHER_HOUR : -1;
     const chances = inRange && Array.isArray(hourly.precipitation_probability)
       ? hourly.precipitation_probability.slice(start, end + 1) : [];
@@ -591,26 +595,23 @@
     const firstRain = valid.find(hour => hour.chance >= 40);
     const warmest = inRange ? Math.max(current.temperature_2m, ...hourly.temperature_2m.slice(start, end).filter(Number.isFinite)) : null;
     let advice = sameDay ? "Today’s forecast" : "Forecast needs a fresh check";
-    if (firstRain) advice = firstRain.i === 0 ? "Rain chance in the next hour" : "Rain chance rises by " + forecastTime.format(firstRain.time);
+    if (firstRain) advice = firstRain.i === 0 ? "Rain chance in the next hour" : "Rain chance rises by " + forecastTimeLabel(firstRain.time);
     else if (rain >= 25) advice = "A shower is possible";
     else if (warmest >= 30) advice = "Hot conditions ahead";
     else if (inRange && current.temperature_2m <= 8) advice = "Cold conditions";
     else if (complete) advice = "Low rain chance ahead";
-    const state = $("source-weather").dataset.state;
-    const fresh = sameDay && state === "ready" && navigator.onLine;
-    const saved = state === "saved" || (state === "loading" && Boolean(weatherReport));
     const dry = fresh && complete && rain === 0 && warmest < 30 && current.temperature_2m > 8;
     if (dry) {
       advice = localNow < midnight - 6 * WEATHER_HOUR ? "Dry through this evening" : "Dry for the rest of today";
     }
-    const estimateAge = localNow - Date.parse(currentTime + "Z");
-    $("wx-temp-label").textContent = fresh && estimateAge >= 0 && estimateAge < WEATHER_HOUR ? "now" : "last checked";
+    const estimateAge = localNow - estimateTime;
+    renderDayline(current, hourly, {
+      date, reference, estimateTime, firstRain, fresh,
+      currentReading: fresh && estimateAge >= 0 && estimateAge < WEATHER_HOUR,
+    });
     $("wx-meta").hidden = !sameDay && !(saved && dateLabel);
     if (saved) advice = dateLabel && !sameDay ? "Saved forecast for " + dateLabel : "Saved forecast";
     else if (!fresh && sameDay) advice = "Last checked forecast";
-    const dayline = $("weather-dayline");
-    dayline.hidden = (!inRange && !(saved && dateLabel)) || !dayline.children.length;
-    dayline.toggleAttribute("data-dry", dry);
     const caption = $("hourly-table").querySelector("caption");
     const captionText = dateLabel ? "Hourly forecast for " + dateLabel : "Hourly forecast";
     if (caption && caption.textContent !== captionText) caption.textContent = captionText;
@@ -632,39 +633,41 @@
     if ($("wx-meta").innerHTML !== details) $("wx-meta").innerHTML = details;
   }
 
-  function renderDayline(hourly) {
+  function forecastTimeLabel(time) {
+    return forecastTime.format(time).replace(":00", "");
+  }
+
+  function renderDayline(current, hourly, { date, reference, estimateTime, firstRain, fresh, currentReading }) {
     const list = $("weather-dayline");
-    list.replaceChildren();
-    const clock = weatherTimeline;
-    if (!clock || clock.start % (24 * WEATHER_HOUR) !== 0) return;
-    const rainValues = Array.isArray(hourly.precipitation_probability) ? hourly.precipitation_probability : [];
-    for (const [name, start, end] of [["Morning", 6, 12], ["Afternoon", 12, 18], ["Evening", 18, 24]]) {
-      const temperatures = hourly.temperature_2m.slice(start, end);
-      const chances = rainValues.slice(start + 1, end + 1);
-      const haveTemperature = temperatures.length === end - start && temperatures.every(Number.isFinite);
-      const haveRain = chances.length === end - start && chances.every((chance, i) =>
-        Number.isFinite(chance) && chance >= 0 && chance <= 100 &&
-        Date.parse(hourly.time[start + i + 1] + "Z") === clock.start + (start + i + 1) * WEATHER_HOUR);
-      if (!haveTemperature && !haveRain) continue;
-      const row = document.createElement("li");
-      const label = document.createElement("strong");
-      label.textContent = name;
-      row.append(label);
-      if (haveTemperature) {
-        const temperature = document.createElement("span");
-        temperature.className = "period-temp";
-        temperature.textContent = "Up to " + Math.round(Math.max(...temperatures)) + "°";
-        row.append(temperature);
-      }
-      if (haveRain) {
-        const rain = document.createElement("small");
-        const peak = Math.max(...chances);
-        rain.textContent = "Up to " + peak + "% rain";
-        rain.classList.toggle("dry-period", haveTemperature && peak === 0);
-        row.append(rain);
-      }
-      list.append(row);
+    const end = date + 24 * WEATHER_HOUR;
+    const temperatures = Array.isArray(hourly.time) ? hourly.time.flatMap((stamp, index) => {
+      const time = Date.parse(stamp + "Z");
+      const value = hourly.temperature_2m[index];
+      return time > reference && time >= date && time < end && Number.isFinite(value) ? [{time, value, index}] : [];
+    }) : [];
+    const peak = temperatures.reduce((highest, point) => !highest || point.value > highest.value ? point : highest, null);
+    const evening = temperatures.find(point => point.time === date + 20 * WEATHER_HOUR);
+    const events = [];
+    const rainLabel = fresh ? "Rain chance" : "Saved rain chance";
+    if (firstRain) events.push({time: firstRain.time, value: firstRain.chance + "%", note: rainLabel});
+    else if (peak) events.push({time: peak.time, value: Math.round(peak.value) + "°", note: fresh ? "Warmest ahead" : "Forecast peak"});
+    if (evening && !events.some(event => event.time === evening.time)) {
+      const chance = hourly.precipitation_probability?.[evening.index];
+      events.push(Number.isFinite(chance) && chance >= 25 && chance <= 100
+        ? {time: evening.time, value: chance + "%", note: rainLabel}
+        : {time: evening.time, value: Math.round(evening.value) + "°", note: fresh ? "Evening" : "Evening forecast"});
     }
+    events.sort((left, right) => left.time - right.time);
+    const reading = currentReading ? "Now" : Number.isFinite(estimateTime) ? forecastTimeLabel(estimateTime) : "Last reading";
+    const note = currentReading ? WMO[current.weather_code]?.[0] || "Temperature" : "Last reading";
+    const readingClass = currentReading ? ' class="weather-current"' : "";
+    const row = (label, value, description, attributes = "") =>
+      `<li${attributes}><strong>${esc(label)}</strong><span class="period-temp">${esc(value)}</span><small>${esc(description)}</small></li>`;
+    const hasReading = Number.isFinite(current.temperature_2m);
+    const html = (hasReading ? row(reading, Math.round(current.temperature_2m) + "°", note, readingClass) : "") +
+      events.map(event => row(forecastTimeLabel(event.time), event.value, event.note)).join("");
+    if (list.innerHTML !== html) list.innerHTML = html;
+    list.hidden = !html;
   }
 
   function updateWeatherMarker() {
@@ -941,12 +944,20 @@
 
   function renderWotd(w) {
     const available = typeof w?.word === "string" && w.word.trim();
-    if (!available && document.activeElement === $("today-word-link")) $("today-news-edition").focus();
+    if (!available && $("today-word").contains(document.activeElement)) $("today-news-edition").focus();
     $("today-word").hidden = $("wotd-section").hidden = !available;
     if (!available) return;
-    const preview = $("today-word-link");
-    preview.querySelector("strong").textContent = w.word;
-    preview.querySelector("small").textContent = w.def || "Open word details";
+    const word = $("today-word-value");
+    if (word) {
+      word.textContent = w.word;
+      $("today-word-phon").textContent = w.phonetic || "";
+      $("today-word-phon").hidden = !w.phonetic;
+      $("today-word-definition").textContent = w.def || "";
+    } else {
+      // An older document may finish loading after the new worker takes over.
+      $("today-word-link").querySelector("strong").textContent = w.word;
+      $("today-word-link").querySelector("small").textContent = w.def || "Open word details";
+    }
     $("wotd-word").textContent = w.word;
     $("wotd-phon").textContent = w.phonetic || "";
     $("wotd-pos").textContent = w.pos || "";
@@ -1516,17 +1527,23 @@
     return Math.round((startOfDay(new Date(iso + "T00:00:00")) - startOfDay(new Date())) / 86400000); // round: DST days are 23/25h
   }
 
-  function updateNextUp() {
+  function nextUpTarget() {
+    return [$("today-deadline"), $("today-focus")].find(button => !button.hidden) || $("today-news-edition");
+  }
+
+  function updateNextUp(items = focusLoad()) {
     const due = CFG.deadlines.find(entry => entry.title && entry.deadline && daysUntil(entry.deadline) === 0);
+    const day = localDate.format(Date.now());
+    const chosen = items.find(item => !item.done && item.today === day);
     const deadline = $("today-deadline");
     const focus = $("today-focus");
     const previous = document.activeElement;
     if (due) deadline.querySelector("strong").textContent = due.title;
     deadline.hidden = !due;
-    focus.hidden = Boolean(due);
-    $("next-up").hidden = false;
-    if (previous === deadline && deadline.hidden) focus.focus();
-    if (previous === focus && focus.hidden) deadline.focus();
+    if (chosen) focus.querySelector("strong").textContent = chosen.text;
+    focus.hidden = Boolean(due) || !chosen;
+    $("next-up").hidden = deadline.hidden && focus.hidden;
+    if ((previous === deadline || previous === focus) && previous.hidden) nextUpTarget().focus();
   }
 
   function renderDeadlines() {
@@ -1613,9 +1630,7 @@
     select.replaceChildren(new Option("No focus selected", ""), ...options);
     select.value = chosen < 0 ? "" : String(chosen);
     $("focus-today-choice").hidden = !options.length;
-    const preview = $("today-focus");
-    preview.querySelector("strong").textContent = items[chosen]?.text || "Pick one focus";
-    preview.querySelector("small").hidden = chosen < 0;
+    updateNextUp(items);
   }
   $("focus-today-select").addEventListener("change", event => {
     const select = event.currentTarget;

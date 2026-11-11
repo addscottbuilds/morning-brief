@@ -1,16 +1,16 @@
 // Install a coherent app shell for offline use. The digest checks the network
 // and keeps a readable saved copy if that check fails.
-const CACHE = "morning-brief-v44";
+const CACHE = "morning-brief-v45";
 const SHELL = [
   "./edition-v34.html",
   "./css/edition-base.css",
-  "./css/edition.css",
+  "./css/edition.css?v=45",
   "./css/news-redesign.css",
   "./css/games-redesign.css",
   "./js/config.js",
   "./js/edition-theme.js",
   "./js/news-redesign.js",
-  "./js/edition-app.js",
+  "./js/edition-app.js?v=45",
   "./js/wordle-edition.js",
   "./js/crossword-edition.js",
   "./js/connections.js",
@@ -152,7 +152,7 @@ self.addEventListener("fetch", event => {
   } else if (shellPaths.has(url.pathname)) {
     // Keep one version's HTML and assets together until the next worker installs them.
     event.respondWith(caches.open(CACHE).then(async cache =>
-      (await cache.match(request, { ignoreSearch: request.mode === "navigate" })) || fetch(request)
+      (await cache.match(request, { ignoreSearch: true })) || fetch(request)
     ));
   } else if (puzzlePaths.has(url.pathname)) {
     // Puzzle banks can grow without a shell update. Refresh them in the background.
