@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T01:04:36.234Z",
+ "generatedAt": "2026-11-12T01:34:27.054Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9105.3,
-    "chgPct": -0.2596122247781874,
+    "price": 9119.5,
+    "chgPct": -0.10406397195749809,
     "high52": 9296.7,
-    "off52": -2.058795056310319
+    "off52": -1.90605268536148
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 87.44,
-    "chgPct": 0.7257256757564332,
+    "price": 87.33,
+    "chgPct": 0.5990121599246269,
     "high52": 88,
-    "off52": -0.636363636363639
+    "off52": -0.7613636363636384
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.51,
-    "chgPct": -0.4438947911541118,
+    "price": 152.75,
+    "chgPct": -0.2872266038213211,
     "high52": 155.03,
-    "off52": -1.6254918402889829
+    "off52": -1.4706830935947888
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.79,
-    "chgPct": 0.6396232175793256,
+    "price": 59.73,
+    "chgPct": 0.5386301185150174,
     "high52": 65.18,
-    "off52": -8.26940779380179
+    "off52": -8.361460570727232
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 32.67,
-    "chgPct": 1.7440030489065381,
+    "price": 32.48,
+    "chgPct": 1.1522870838225852,
     "high52": 47.78,
-    "off52": -31.62411050648807
+    "off52": -32.02176642946841
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6841,
-    "chgPct": -0.41692921323142323,
+    "price": 0.6847,
+    "chgPct": -0.32958841148890816,
     "high52": 0.7277,
-    "off52": -5.991480005496767
+    "off52": -5.909028445788104
    }
   ],
   "failed": [],
@@ -70,9 +70,9 @@
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 75.01,
+    "price": 76.95,
     "currency": "AUD",
-    "chgPct": 5.856617772936049
+    "chgPct": 8.594410580288345
    },
    {
     "sym": "AVGO",
@@ -111,13 +111,13 @@
       "id": 0,
       "headline": "People trapped in wreckage as New York building collapse kills one",
       "summary": "Firefighters are digging through the rubble of a three-storey building in New York City after it collapsed at the edge of a construction site, trapping people beneath the wreckage.",
-      "ts": 1794445326000,
+      "ts": 1794447058000,
       "img": "https://live-production.wcms.abc-cdn.net.au/cb175c5a627be07d5e1a0b6b30f596ae?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
         "outlet": "Daily Mail Australia",
@@ -127,6 +127,13 @@
         "link": "https://www.dailymail.com/news/article-16285551/brooklyn-new-york-city-building-collapse-people-trapped.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "New York building collapse leaves one dead and ten people injured",
+        "desc": "At least one person is dead, and ten others are injured after a building in New York collapsed, leaving several trapped beneath the wreckage.",
+        "link": "https://www.theage.com.au/world/new-york-building-collapse-leaves-one-dead-and-ten-people-injured-20261112-p61dme.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
         "outlet": "ABC News",
         "lean": "centre",
         "title": "People trapped in wreckage as New York building collapse kills one",
@@ -134,96 +141,61 @@
         "link": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940"
        },
        {
-        "outlet": "7News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Firefighters search rubble for survivors after three-storey building collapses into NYC construction site",
-        "desc": "One person has been found dead and at least 12 injured, including one child.",
-        "link": "https://7news.com.au/news/firefighters-search-rubble-for-survivors-after-three-storey-building-collapses-into-nyc-construction-site-c-23151442"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "One dead, several pulled from rubble after NYC building collapse; search underway for others feared trapped",
-        "desc": "Emergency crews are on the scene after a building collapsed in Brooklyn. Search-and-rescue operations are underway, and the surrounding area has been evacuated.",
-        "link": "https://www.foxnews.com/us/two-pulled-from-rubble-after-nyc-building-collapses-search-underway-others-feared-trapped-fdny"
+        "title": "New York building collapse kills one person and injures 12",
+        "desc": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
+        "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-      "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
-      "ts": 1794445204000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9a54/live/d643ec30-de33-11f1-b8ec-f53576d91bbb.jpg",
+      "headline": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
+      "summary": "Much has been written and said about Usman Khawaja's new book — but what's actually in the pages of Sabr?",
+      "ts": 1794446640000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/a831500a3ade520b3cdd6d5a8941feeb?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=181&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Cummins to address Khawaja 'accusations'",
+        "desc": "Pat Cummins will address Usman Khawaja's \"accusations\" on Friday.",
+        "link": "https://www.theage.com.au/national/cummins-to-address-khawaja-accusations-20261112-p61dm7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-        "desc": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
-        "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss"
+        "title": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
+        "desc": "Much has been written and said about Usman Khawaja's new book — but what's actually in the pages of Sabr?",
+        "link": "https://www.abc.net.au/news/2026-11-12/usman-khawaja-and-sandpaper-whats-in-the-book/107376576"
        },
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
-        "desc": "Colom takes victory by razor-thin margin in state that has not elected a Democrat to the Senate since 1982 Democrat Scott Colom defeated Cindy Hyde-Smith, the incumbent Republican senator, to become the first Black senator in Mississippi elected since Reconstruction, in a stunning upset after more than a week of vote counting in one of the country’s most reliably red states. Colom opened up a narr",
-        "link": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race"
+        "title": "Pat Cummins can end sandpaper saga with full disclosure of what players knew – not what they didn’t | Geoff Lemon",
+        "desc": "Australia captain can confront ball tampering scandal with transparency about former team environment and how its members made their choices In March 2018, Steve Smith was handed a shit sandwich by Cricket Australia. Smith had helped in its preparation, as captain of an Australia team whose ball tampering experiments on their tour of South Africa had got out of control, but it was always questiona",
+        "link": "https://www.theguardian.com/sport/blog/2026/nov/12/pat-cummins-can-end-sandpapergate-with-full-disclosure"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Dems projected to score historic upset in deep-red Mississippi, topple Trump ally Hyde-Smith",
-        "desc": "U.S. Senate Republicans suffered another stunning setback as Sen. Cindy Hyde-Smith is projected to lose to Democrat Scott Colom in reliably red Mississippi, according to the AP.",
-        "link": "https://www.foxnews.com/politics/dems-projected-score-historic-upset-deep-red-mississippi-topple-trump-ally-hyde-smith"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Pat Cummins announces he will address Usman Khawaja’s Sandpaper allegations on Friday",
+        "desc": "The Australian captain is ready to speak about the bombshell sandpaper claims.",
+        "link": "https://7news.com.au/sport/cricket/pat-cummins-announces-he-will-speak-about-usman-khawajas-sandpaper-claims-on-friday-c-23151760"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Warning for VCE students after hacker’s claim that exams are available for purchase online",
-      "summary": "Several schools have urged their students not to access unauthorised VCE exam papers after a hack that unfolded on the exam authority’s website on Wednesday night.",
-      "ts": 1794444590000,
-      "img": "https://static.ffx.io/images/$zoom_0.193%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_535%2C$y_80/t_crop_custom/q_86%2Cf_auto/f810f600cecb0ed9a213ab33b3fddaf75303758f",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Warning for VCE students after hacker’s claim that exams are available for purchase online",
-        "desc": "Several schools have urged their students not to access unauthorised VCE exam papers after a hack that unfolded on the exam authority’s website on Wednesday night.",
-        "link": "https://www.theage.com.au/national/victoria/i-m-really-sorry-vce-website-down-as-hacker-claims-exams-available-online-20261112-p61di7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Hacker claims to have sold VCE exam papers to hundreds of students after government website hack",
-        "desc": "With year 12 exams under way, VCAA says there is no evidence any have leaked and hacker is attempting to exploit ‘anxious students’ Get our breaking news email, free app or daily news podcast The Victorian Curriculum and Assessment Authority’s website has been hacked during the state’s exam period, with the culprit launching a tirade of expletives and claiming without evidence to have accessed stu",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/12/vce-exams-hack-year-12-papers-vcaa-victorian-curriculum-and-assessment-authority"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Taxpayer-funded website for paedophiles quietly drops advice on sexual fantasies about children after backlash - as Albanese government is accused of 'covering their tracks'",
-        "desc": "One part of the taxpayer-funded website told paedophiles not to 'beat yourself up' for fantasising about children.",
-        "link": "https://www.dailymail.com/news/article-16285325/Taxpayer-funded-website-paedophiles-quietly-drops-advice-sexual-fantasies-children-backlash-Albanese-government-accused-covering-tracks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 3,
       "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
       "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-      "ts": 1794443974000,
+      "ts": 1794446246000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg",
       "divergent": null,
       "left_view": null,
@@ -231,6 +203,13 @@
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "El-Sayed tells Hegseth to resign after impeachment effort fails, 'make it easy for everybody'",
+        "desc": "Abdul El-Sayed told Secretary of War Pete Hegseth directly to resign on CNN, calling him \"really bad\" at his job and saying he has mishandled the war in Iran.",
+        "link": "https://www.foxnews.com/media/el-sayed-tells-hegseth-resign-after-democrats-derail-impeachment-effort-make-easy-everybody"
+       },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
@@ -255,10 +234,45 @@
       ]
      },
      {
+      "id": 3,
+      "headline": "Human torso find in Lane Cove North sparks police hunt for more human remains",
+      "summary": "A cadaver dog has been brought in following the ‘confronting’ discovery.",
+      "ts": 1794447053000,
+      "img": "https://images.7news.com.au/publication/C-23151893/402a6219700c5e93e93f3362e99337054a05948f-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Homicide squad investigating after human torso found inside sofa",
+        "desc": "The homicide squad is investigating after a human torso was found inside a sofa in Sydney's North Shore.",
+        "link": "https://www.theage.com.au/national/homicide-squad-investigating-after-human-torso-found-inside-sofa-20261112-p61dmd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
+        "desc": "Police called to Lane Cove North on Wednesday after sofa found containing human torso believed to be that of adult man Get our breaking news email, free app or daily news podcast New South Wales police have launched a homicide investigation after a human torso was found in bushland on Sydney’s lower north shore. Police were called to Lane Cove North about 2.30pm on Wednesday after reports of human",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Human torso find in Lane Cove North sparks police hunt for more human remains",
+        "desc": "A cadaver dog has been brought in following the ‘confronting’ discovery.",
+        "link": "https://7news.com.au/news/torso-find-in-land-cove-north-sparks-police-hunt-for-more-human-remains-c-23151893"
+       }
+      ]
+     },
+     {
       "id": 4,
       "headline": "Live: Beau Lamarre-Condon explains why he threw Baird's phone off bridge",
       "summary": "Beau Lamarre-Condon's murder trial is continuing, after the jury was sent home early yesterday for a legal issue to be discussed.",
-      "ts": 1794443950000,
+      "ts": 1794447029000,
       "img": "https://live-production.wcms.abc-cdn.net.au/9b98f39d42844d62ade7a7327c8f4e82?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -291,36 +305,36 @@
      },
      {
       "id": 5,
-      "headline": "Live: Nvidia CEO Jensen Huang allegedly had second affair, board to meet",
-      "summary": "Numerous reports say the Nvidia board is preparing to oust CEO Jensen Huang after he allegedly had two extramarital affairs, including one with a suspected Chinese spy. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "ts": 1794443839000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/a9303e35f41026c0086f1196d7f6e82f?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+      "headline": "Missing teen camper found alive after six days lost",
+      "summary": "The 17-year-old boy who lives with autism disappeared soon after setting up camp last Friday.",
+      "ts": 1794447002000,
+      "img": "https://images.7news.com.au/publication/C-23152130/56a047dfcacab8e0e88b99127b13a4824c0e0507-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
-        "desc": "The Wall Street Journal has reported Nvidia’s board is preparing to oust its CEO after he had two extramarital affairs, including one with a suspected Chinese spy.",
-        "link": "https://www.theage.com.au/business/companies/nvidia-preparing-to-oust-jensen-huang-report-20261112-p61diy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Jensen Huang caught in another cheating scandal after Chinese spy debacle as Nvidia board looks to oust CEO",
-        "desc": "Five people who worked at the chipmaker told The New York Times that Jensen Huang, 63, also had an extramarital affair with Kimberly Powell,, 48, Nvidia's vice president of healthcare.",
-        "link": "https://www.dailymail.com/news/article-16285603/Nvidia-Jensen-Huang-cheating-Kimberly-Powell.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Miracle as missing Aussie teen is found alive six days after vanishing on a camping trip in Victoria's high country",
+        "desc": "A teenage boy who was missing for a week after going camping with a friend has been found alive.",
+        "link": "https://www.dailymail.com/news/article-16285865/Miracle-missing-Aussie-teen-alive-six-days-vanishing-camping-trip-Victorias-high-country.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Missing teen camper found alive after six days lost",
+        "desc": "The 17-year-old boy who lives with autism disappeared soon after setting up camp last Friday.",
+        "link": "https://7news.com.au/news/missing-person/missing-teen-camper-found-alive-after-six-days-lost--c-23152130"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: Nvidia CEO Jensen Huang allegedly had second affair, board to meet",
-        "desc": "Numerous reports say the Nvidia board is preparing to oust CEO Jensen Huang after he allegedly had two extramarital affairs, including one with a suspected Chinese spy. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-11-12/asx-markets-business-news-live-updates-thursday-12-november/107374826"
+        "title": "Breaking: Police find teen who had been missing in Victorian bush for six days",
+        "desc": "The 17-year-old has been reunited with his family after going missing during a camping trip last week.",
+        "link": "https://www.abc.net.au/news/2026-11-12/missing-teenager-william-found-gippsland-bush/107372518"
        }
       ]
      },
@@ -328,7 +342,7 @@
       "id": 6,
       "headline": "Commonwealth Bank allegedly overcharged business customers",
       "summary": "Commonwealth Bank allegedly overcharged millions of dollars in fees to tens of thousands of business customers, many of them small businesses, according to the corporate regulator.",
-      "ts": 1794443237000,
+      "ts": 1794445765000,
       "img": "https://live-production.wcms.abc-cdn.net.au/f998fd577cbd69fffa9535904896ed04?impolicy=wcms_crop_resize&cropH=563&cropW=1000&xPos=0&yPos=56&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -367,6 +381,27 @@
     "stories": [
      {
       "id": 7,
+      "headline": "The matchmaking effort that sent an unassuming embassy viral",
+      "summary": "A callout for single Aussies to take their chances dating in Finland, followed by a temporary embassy closure notice, has attracted global attention.",
+      "ts": 1794445614000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/14d2860fc30be10c8925b214d76965da62b2e655",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "The matchmaking effort that sent an unassuming embassy viral",
+        "desc": "A callout for single Aussies to take their chances dating in Finland, followed by a temporary embassy closure notice, has attracted global attention.",
+        "link": "https://www.theage.com.au/politics/federal/the-matchmaking-effort-that-sent-an-unassuming-embassy-viral-20261112-p61dkc.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 8,
       "headline": "Jeffries leaves door open to investigating major Trump ally as Democrats prepare to take power",
       "summary": "Hakeem Jeffries says Democrats will \"follow the facts\" as Jamie Raskin and Robert Garcia prepare to lead oversight of Elon Musk and DOGE.",
       "ts": 1794445200000,
@@ -387,7 +422,7 @@
       ]
      },
      {
-      "id": 8,
+      "id": 9,
       "headline": "Should Australia spend $32,000 on coffees for COP? Why Turnbull says yes",
       "summary": "The coffee cart has become an institution at the global climate conference, which draws close to 100,000 people a year. But this year, it’s gained some notoriety.",
       "ts": 1794444655000,
@@ -408,7 +443,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Albanese defends Australia as climate leader after being pushed on world stage to do more",
       "summary": "The PM’s comments came after outgoing UN Secretary-General António Guterres told world leaders that “fossil fuels must go the way of the dinosaurs”.",
       "ts": 1794444598000,
@@ -429,11 +464,11 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "‘Day ruined’: Why the whole internet is talking about Finland’s embassy in Canberra",
-      "summary": "It started with a call-out for Australian singles, and ended with a selfie between Finland’s president and Australian Prime Minister Anthony Albanese.",
+      "summary": "It started with a call-out for Australian singles, and ended with a selfie between Finland’s president and Australia’s prime minister.",
       "ts": 1794444517000,
-      "img": "https://static.ffx.io/images/$zoom_0.1925%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/9615ff11fc4656de66467e2b285d2d64fd2fff5f",
+      "img": "https://static.ffx.io/images/$zoom_0.19254545454545455%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/9615ff11fc4656de66467e2b285d2d64fd2fff5f",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -444,15 +479,15 @@
         "outlet": "The Age Federal Politics",
         "lean": "left",
         "title": "‘Day ruined’: Why the whole internet is talking about Finland’s embassy in Canberra",
-        "desc": "It started with a call-out for Australian singles, and ended with a selfie between Finland’s president and Australian Prime Minister Anthony Albanese.",
+        "desc": "It started with a call-out for Australian singles, and ended with a selfie between Finland’s president and Australia’s prime minister.",
         "link": "https://www.theage.com.au/politics/federal/day-ruined-why-the-whole-internet-is-talking-about-finland-s-embassy-in-canberra-20261112-p61dhx.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Hakeem Jeffries faces progressive holdouts but no rival as House speaker race takes shape",
-      "summary": "New Members of Congress in \"The Bloc\" say they're undecided on Hakeem Jeffries for House Speaker, pressing for legislative guarantees before January.",
+      "summary": "New members of Congress in \"The Bloc\" say they're undecided on Hakeem Jeffries for House speaker, pressing for legislative guarantees before January.",
       "ts": 1794444215000,
       "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/schumer-jeffries-cap-hill.png?ve=1&tl=1",
       "divergent": null,
@@ -465,29 +500,8 @@
         "outlet": "Fox News Politics",
         "lean": "right",
         "title": "Hakeem Jeffries faces progressive holdouts but no rival as House speaker race takes shape",
-        "desc": "New Members of Congress in \"The Bloc\" say they're undecided on Hakeem Jeffries for House Speaker, pressing for legislative guarantees before January.",
+        "desc": "New members of Congress in \"The Bloc\" say they're undecided on Hakeem Jeffries for House speaker, pressing for legislative guarantees before January.",
         "link": "https://www.foxnews.com/politics/hakeem-jeffries-faces-progressive-holdouts-no-rival-house-speaker-race-takes-shape"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "‘Nobody cared’: new research shows deepfakes are hurting regular people, not just celebrities",
-      "summary": "Chad Madden/Unsplash In 2017, a Reddit user, who went by the name “deepfakes”, shared non-consensual AI-generated videos of celebrities he’d created by “stitching” their faces onto the bodies of pornographic actors. Nearly ten years later, AI tools can generate highly realistic sexualised “deepfake” images in seconds, sometimes using just a single photograph. Often, high-profile people are targete",
-      "ts": 1794444040000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "‘Nobody cared’: new research shows deepfakes are hurting regular people, not just celebrities",
-        "desc": "Chad Madden/Unsplash In 2017, a Reddit user, who went by the name “deepfakes”, shared non-consensual AI-generated videos of celebrities he’d created by “stitching” their faces onto the bodies of pornographic actors. Nearly ten years later, AI tools can generate highly realistic sexualised “deepfake” images in seconds, sometimes using just a single photograph. Often, high-profile people are targete",
-        "link": "https://theconversation.com/nobody-cared-new-research-shows-deepfakes-are-hurting-regular-people-not-just-celebrities-296154"
        }
       ]
      }
@@ -652,6 +666,41 @@
     "stories": [
      {
       "id": 19,
+      "headline": "Nvidia ‘preparing to oust’ Huang after second affair reported; Matos warns of ‘dangerous’ spending cycle; ASIC sues CBA",
+      "summary": "Read everything that’s happened in the news so far today.",
+      "ts": 1794446775000,
+      "img": "https://static.ffx.io/images/$zoom_0.6623%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/76090a246e2ff263ffaedcf5fec97f4631c3c53b",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
+        "desc": "Nvidia’s board is believed to be meeting to discuss the future of its founder and CEO following reports of multiple extramarital affairs, including one with a suspected Chinese spy.",
+        "link": "https://www.theage.com.au/business/companies/nvidia-preparing-to-oust-jensen-huang-report-20261112-p61diy.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Nvidia ‘preparing to oust’ Huang after second affair reported; Matos warns of ‘dangerous’ spending cycle; ASIC sues CBA",
+        "desc": "Read everything that’s happened in the news so far today.",
+        "link": "https://www.afr.com/markets/equity-markets/nvidia-preparing-to-oust-huang-after-second-affair-reported-matos-warns-of-dangerous-spending-cycle-asic-sues-cba-20261112-p61dld?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Nvidia preparing to replace CEO Jensen Huang as second alleged affair emerges: report",
+        "desc": "Nvidia CEO Jensen Huang faces a reported push to remove him from the company as allegations of a second extramarital affair emerge, adding to an ongoing board investigation.",
+        "link": "https://www.foxbusiness.com/markets/nvidia-preparing-replace-ceo-jensen-huang-second-alleged-affair-emerges-report"
+       }
+      ]
+     },
+     {
+      "id": 20,
       "headline": "Commonwealth Bank sued by ASIC for overcharging business customers",
       "summary": "The corporate regulator alleges the country’s biggest bank overcharged 42,000 business customers in fees and failed to disclose some entirely.",
       "ts": 1794444964000,
@@ -686,7 +735,70 @@
       ]
      },
      {
-      "id": 20,
+      "id": 21,
+      "headline": "Savers urged to check interest rates on accounts as Macquarie admits failings",
+      "summary": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
+      "ts": 1794360219000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/185de1bb9d26b337f0a504aabffeb20c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Macquarie Bank to pay $14m penalty after confusing ‘welcome rate’ promotion",
+        "desc": "Asic says customers should not have to check every transaction to ensure they receive the correct interest Get our breaking news email, free app or daily news podcast Macquarie Bank is set to pay a $14m court-imposed penalty after it admitted to breaking the Corporations Act with its “welcome rate” promotions. The penalty comes amid a crackdown by Australian Securities and Investments Commission o",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/11/macquarie-bank-14m-penalty-welcome-rate-savings-account"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Macquarie admits ‘bonus’ savings rate failure, agrees to pay $14 million",
+        "desc": "The corporate regulator said customers should not have to scrutinise every transaction and that Macquarie had failed to prevent confusion to customers.",
+        "link": "https://www.theage.com.au/business/banking-and-finance/macquarie-admits-bonus-savings-rate-failure-agrees-to-pay-14-million-20261111-p61d6t.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Savers urged to check interest rates on accounts as Macquarie admits failings",
+        "desc": "Macquarie Bank has admitted to failures in the promotion of its \"welcome\" interest rate for new savings account customers.",
+        "link": "https://www.abc.net.au/news/2026-11-11/asic-sues-macquarie-for-savings-rates-failures/107371760"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "Qantas the latest in list of companies to outsource jobs to India",
+      "summary": "India has positioned itself as a global hub of skilled, cheap labour, and Australian companies are cashing in and moving more jobs to its shores.",
+      "ts": 1794445753000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/161481da55f1c45b529c50645785de42?impolicy=wcms_crop_resize&cropH=2916&cropW=5184&xPos=0&yPos=270&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Qantas the latest in list of companies to outsource jobs to India",
+        "desc": "India has positioned itself as a global hub of skilled, cheap labour, and Australian companies are cashing in and moving more jobs to its shores.",
+        "link": "https://www.abc.net.au/news/2026-11-12/jobs-moving-overseas-to-gcc-tech-centres-in-india-asia/107374082"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "I can tell you why Qantas sent 850 jobs to India in just two words",
+        "desc": "When bonuses are tied to profits, company leaders make short-term decisions that benefit themselves.",
+        "link": "https://www.theage.com.au/business/companies/it-s-high-time-to-take-the-words-spirit-of-australia-off-the-qantas-fleet-20261111-p61d1n.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 23,
       "headline": "ASX falls; Nvidia dives 10pc as board said to be looking for new CEO",
       "summary": "Mining shares drop; Nvidia falls in after hours on media reports; Aristocrat, GrainCorp CEOs resign; G8 rockets 85pc on takeover offer; Xero’s $1 billion buy-back; oil rebounds. Follow live updates.",
       "ts": 1794444604000,
@@ -714,35 +826,7 @@
       ]
      },
      {
-      "id": 21,
-      "headline": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
-      "summary": "The Wall Street Journal has reported Nvidia’s board is preparing to oust its CEO after he had two extramarital affairs, including one with a suspected Chinese spy.",
-      "ts": 1794443839000,
-      "img": "https://static.ffx.io/images/$zoom_0.21032157962774703%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_130%2C$y_137/t_crop_custom/q_86%2Cf_auto/fb3d6d6ced33e79ff6a31518ddd1acb7802f4bde",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
-        "desc": "The Wall Street Journal has reported Nvidia’s board is preparing to oust its CEO after he had two extramarital affairs, including one with a suspected Chinese spy.",
-        "link": "https://www.theage.com.au/business/companies/nvidia-preparing-to-oust-jensen-huang-report-20261112-p61diy.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Nvidia preparing to replace CEO Jensen Huang as second alleged affair emerges: report",
-        "desc": "Nvidia CEO Jensen Huang faces a reported push to remove him from the company as allegations of a second extramarital affair emerge, adding to an ongoing board investigation.",
-        "link": "https://www.foxbusiness.com/markets/nvidia-preparing-replace-ceo-jensen-huang-second-alleged-affair-emerges-report"
-       }
-      ]
-     },
-     {
-      "id": 22,
+      "id": 24,
       "headline": "Data centre developer halts build in Adelaide Hills after community outrage",
       "summary": "Quantum DC said it had misread community anger over its data centre plans in South Australia, but locals say it should take the hint and scrap it permanently.",
       "ts": 1794443261000,
@@ -766,62 +850,6 @@
         "title": "Developer says gigantic WA data centre will not use fracked gas",
         "desc": "Concerns about the proposed mega data centre in Western Australia come amid growing opposition to similar facilities in the United States.",
         "link": "https://www.abc.net.au/news/2026-11-12/gingerah-concerns-data-centre-fracked-gas/107364340"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "BYD apologises for putting SUV wheels on the wrong way",
-      "summary": "The world’s biggest EV maker admitted an assembly mistake had caused it to fix narrower front-wheel tyres and rims to the back of some vehicles built this year.",
-      "ts": 1794435325000,
-      "img": "https://static.ffx.io/images/$zoom_0.3639%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/c9b7a8471c48222ee2424790e5e3327e04ee31ae",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "BYD apologises for putting SUV wheels on the wrong way",
-        "desc": "The world’s biggest EV maker admitted an assembly mistake had caused it to fix narrower front-wheel tyres and rims to the back of some vehicles built this year.",
-        "link": "https://www.afr.com/world/asia/byd-apologises-for-putting-suv-s-wheels-on-the-wrong-way-20261112-p61di5?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Chinese car giant BYD apologises after putting wheels on the wrong way",
-        "desc": "BYD apologised for an assembly mistake that meant some of its Great Tang electric sport utility vehicles had their front and rear wheel rims installed in reverse.",
-        "link": "https://www.theage.com.au/business/companies/chinese-car-giant-byd-apologises-after-putting-wheels-on-the-wrong-way-20261112-p61dgk.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Rising costs hurt South Australia's regional high streets",
-      "summary": "Several shops in Mount Gambier's economic heart stand empty as rising costs and changing shopping habits take a toll.",
-      "ts": 1794423484000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/843f882724510ce94420c0b86007636c?impolicy=wcms_crop_resize&cropH=810&cropW=1440&xPos=0&yPos=121&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Rising costs hurt South Australia's regional high streets",
-        "desc": "Several shops in Mount Gambier's economic heart stand empty as rising costs and changing shopping habits take a toll.",
-        "link": "https://www.abc.net.au/news/2026-11-12/mount-gambier-main-street-shopping-empty-retail-businesses-sa/107369408"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Thanksgiving shoppers face higher turkey prices as family farms struggle with rising costs",
-        "desc": "DiPaola Turkey Farms' owner explains how rising corn and soybean costs led to a difficult decision to raise Thanksgiving turkey prices for loyal customers.",
-        "link": "https://www.foxbusiness.com/media/thanksgiving-shoppers-face-higher-turkey-prices-family-farms-struggle-rising-costs"
        }
       ]
      }
@@ -868,6 +896,62 @@
      },
      {
       "id": 26,
+      "headline": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
+      "summary": "Much has been written and said about Usman Khawaja's new book — but what's actually in the pages of Sabr?",
+      "ts": 1794446144000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/a831500a3ade520b3cdd6d5a8941feeb?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=181&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
+        "desc": "Much has been written and said about Usman Khawaja's new book — but what's actually in the pages of Sabr?",
+        "link": "https://www.abc.net.au/news/2026-11-12/usman-khawaja-and-sandpaper-whats-in-the-book/107376576"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Usman Khawaja brutally roasted for two words as book tour plans suddenly change",
+        "desc": "The fallout out to a bruising grilling has been immediate ... and the backlash has been fierce.",
+        "link": "https://7news.com.au/sport/cricket/usman-khawaja-brutally-roasted-for-two-words-as-promotional-book-tour-gets-called-off-c-23145661"
+       }
+      ]
+     },
+     {
+      "id": 27,
+      "headline": "Pat Cummins announces he will address Usman Khawaja’s Sandpaper allegations on Friday",
+      "summary": "The Australian captain is ready to speak about the bombshell sandpaper claims.",
+      "ts": 1794444922000,
+      "img": "https://images.7news.com.au/publication/C-23151760/7a49702eed90a329830b17d96a4c6c71f727b72a-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Pat Cummins can end sandpaper saga with full disclosure of what players knew – not what they didn’t | Geoff Lemon",
+        "desc": "Australia captain can confront ball tampering scandal with transparency about former team environment and how its members made their choices In March 2018, Steve Smith was handed a shit sandwich by Cricket Australia. Smith had helped in its preparation, as captain of an Australia team whose ball tampering experiments on their tour of South Africa had got out of control, but it was always questiona",
+        "link": "https://www.theguardian.com/sport/blog/2026/nov/12/pat-cummins-can-end-sandpapergate-with-full-disclosure"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Pat Cummins announces he will address Usman Khawaja’s Sandpaper allegations on Friday",
+        "desc": "The Australian captain is ready to speak about the bombshell sandpaper claims.",
+        "link": "https://7news.com.au/sport/cricket/pat-cummins-announces-he-will-speak-about-usman-khawajas-sandpaper-claims-on-friday-c-23151760"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Sheffield Shield centurion Peter Handscomb shuts down sandpaper questions: ‘I’ve had a nice day today’",
       "summary": "The former Test batsman was the man in the middle when the Cape Town saga unfolded.",
       "ts": 1794432223000,
@@ -895,7 +979,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 29,
       "headline": "Champion Irish jockey Tom O’Brien dies aged 39 after ‘courageous battle’ with cancer",
       "summary": "‘In an environment rocked so many times by tragedy in recent years, this will be another shattering blow.’",
       "ts": 1794430489000,
@@ -923,35 +1007,7 @@
       ]
      },
      {
-      "id": 28,
-      "headline": "Usman Khawaja brutally roasted for two words as book tour plans suddenly change",
-      "summary": "The fallout out to a bruising grilling has been immediate ... and the backlash has been fierce.",
-      "ts": 1794360639000,
-      "img": "https://images.7news.com.au/publication/C-23145661/177dd07c8fff5d0d6deac227c3a83ce2f8da0ff6-16x9-x0y0w1304h734.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Usman Khawaja brutally roasted for two words as book tour plans suddenly change",
-        "desc": "The fallout out to a bruising grilling has been immediate ... and the backlash has been fierce.",
-        "link": "https://7news.com.au/sport/cricket/usman-khawaja-brutally-roasted-for-two-words-as-promotional-book-tour-gets-called-off-c-23145661"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Usman Khawaja makes changes to book tour after tense 7.30 interview",
-        "desc": "Usman Khawaja cuts down on media appearances regarding his book, Sabr, following incessant questions about the Sandpapergate chapter.",
-        "link": "https://www.abc.net.au/news/2026-11-11/cricket-usman-khawaja-book-tour-adjustments-sandpaper-interview/107371958"
-       }
-      ]
-     },
-     {
-      "id": 29,
+      "id": 30,
       "headline": "Kate McCarthy questions AFLW pregnancy policy as Suns delist Georgia Clayden weeks before due date",
       "summary": "‘In other industries this would be viewed as discrimination.’",
       "ts": 1794356233000,
@@ -975,34 +1031,6 @@
         "title": "'Discrimination' claim as AFLW player delisted weeks out from giving birth",
         "desc": "The AFLW's pregnancy policy is called into question with a Suns player delisted just weeks out from giving birth.",
         "link": "https://www.abc.net.au/news/2026-11-11/aflw-gold-coast-georgia-clayden-delisted-while-pregnant/107371624"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-      "summary": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-      "ts": 1794349405000,
-      "img": "https://images.7news.com.au/publication/C-23145163/007f89af7ea2166260d7bd6a1f8bb6129e353838-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Izzy Neale, ‘dearly loved’ Australian apprentice jockey, dies after fall at regional track",
-        "desc": "Twenty-two-year-old suffered severe injuries at race on Sunday ‘Words are not enough,’ says trainer Richard Freedman Apprentice jockey Izzy Neale has died following a fall at a regional racecourse. Neale suffered severe injuries when her mount Marnoo fell entering the home straight in the Warren Shire Cotton Cup in NSW. Continue reading...",
-        "link": "https://www.theguardian.com/sport/2026/nov/11/izzy-neale-dies-race-fall-apprentice-jockey-death-track-racecourse"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Apprentice jockey Izzy Neale’s final selfless act revealed by heartbroken family after her death",
-        "desc": "The 22-year-old apprentice jockey’s death has sparked an outpouring of grief around Australia.",
-        "link": "https://7news.com.au/sport/horse-racing/apprentice-jockey-izzy-neales-final-selfless-act-revealed-by-heartbroken-family-after-her-death-aged-22-c-23145163"
        }
       ]
      }
@@ -1098,34 +1126,6 @@
      },
      {
       "id": 34,
-      "headline": "Mary Hager, Senior Executive Producer Of ‘Face The Nation,’ Plans To Depart CBS News After 35 Years",
-      "summary": "Mary Hager, who has led Face the Nation for the past 15 years, will depart CBS News in January, according to a source familiar with her plans. Hager has been senior executive producer of Face the Nation and CBS News’ executive editor of politics. She previously was executive producer of the Sunday morning program from […]",
-      "ts": 1794434909000,
-      "img": "https://deadline.com/wp-content/uploads/2025/05/CBS-News-Logo.jpeg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Mary Hager, Senior Executive Producer Of ‘Face The Nation,’ Plans To Depart CBS News After 35 Years",
-        "desc": "Mary Hager, who has led Face the Nation for the past 15 years, will depart CBS News in January, according to a source familiar with her plans. Hager has been senior executive producer of Face the Nation and CBS News’ executive editor of politics. She previously was executive producer of the Sunday morning program from […]",
-        "link": "https://deadline.com/2026/11/mary-hager-departs-cbs-news-face-the-nation-1237220920/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Mary Hager, CBS News Politics and ‘Face the Nation’ Guru, to Retire",
-        "desc": "Mary Hager, the longtime political-news guru and behind-the-scenes force at CBS News and its Sunday public-affairs program, “Face the Nation,” will retire from the program in January, according to two people familiar with the matter. Hager informed colleagues at CBS News of her decision on Wednesday, these people say, in order to give the Skydance […]",
-        "link": "https://variety.com/2026/tv/news/mary-hager-cbs-news-face-the-nation-retire-exit-1236945610/"
-       }
-      ]
-     },
-     {
-      "id": 35,
       "headline": "‘Malcom In The Middle’ Star Frankie Muniz Injured In NASCAR Crash",
       "summary": "Former Malcolm in the Middle star-turned-NASCAR Truck Series driver Frankie Muniz was injured in a crash today while practicing for the Proud to Honor Veterans Day Classic exhibition race. Muniz was set to be behind the wheel for Team Reaume in its No. 33 Ford. He and his co-driver Austin Cindric had planned to compete […]",
       "ts": 1794434709000,
@@ -1153,11 +1153,32 @@
       ]
      },
      {
+      "id": 35,
+      "headline": "Sun Valley Film Festival to Open With ‘The Debut’; Honorees Announced",
+      "summary": "The Sun Valley Film Festival, which takes place Dec. 2 to Dec. 6 in the Idaho resort town, will open with “The Debut” and close with “Artificial.” Jessica Lange, Bill Pullman, Seth Rogen and Lauren Miller Rogen, Stephen Beresford and Luke Davies are set to be honored by the festival, which was founded in 2012. […]",
+      "ts": 1794447126000,
+      "img": "https://variety.com/wp-content/uploads/2026/03/The-Debut-Paul-Giamatti-Julianne-Moore-1000.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Sun Valley Film Festival to Open With ‘The Debut’; Honorees Announced",
+        "desc": "The Sun Valley Film Festival, which takes place Dec. 2 to Dec. 6 in the Idaho resort town, will open with “The Debut” and close with “Artificial.” Jessica Lange, Bill Pullman, Seth Rogen and Lauren Miller Rogen, Stephen Beresford and Luke Davies are set to be honored by the festival, which was founded in 2012. […]",
+        "link": "https://variety.com/2026/film/news/sun-valley-film-festival-the-debut-honorees-1236945764/"
+       }
+      ]
+     },
+     {
       "id": 36,
-      "headline": "Kramer’s Funniest Seinfeld Moment Has Officially Never Aired In Full",
-      "summary": "Behind the scenes footage reveals the cast erupting at Michael Richards after one iconic Seinfeld scene that was too funny to be broadcast on TV.",
-      "ts": 1794445398000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/michael-richards-kramer-in-seinfeld.jpg",
+      "headline": "The Return Of Netflix’s ‘Lovecraft Meets Stephen King’ Series Is Now A No-Brainer",
+      "summary": "Netflix's Lovecraft meets Stephen King mystery thriller series is one of the most exciting of 2026, and a new update makes its return a no-brainer.",
+      "ts": 1794446315000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/mackenzie-davis-as-fonda-lee-in-episode-1-of-below.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1167,9 +1188,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Kramer’s Funniest Seinfeld Moment Has Officially Never Aired In Full",
-        "desc": "Behind the scenes footage reveals the cast erupting at Michael Richards after one iconic Seinfeld scene that was too funny to be broadcast on TV.",
-        "link": "https://screenrant.com/seinfeld-kramer-funniest-moment-parking-garage-outtake/"
+        "title": "The Return Of Netflix’s ‘Lovecraft Meets Stephen King’ Series Is Now A No-Brainer",
+        "desc": "Netflix's Lovecraft meets Stephen King mystery thriller series is one of the most exciting of 2026, and a new update makes its return a no-brainer.",
+        "link": "https://screenrant.com/netflix-below-season-2-series-return-possible/"
        }
       ]
      }
@@ -1177,35 +1198,35 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "The Age",
    "Guardian Australia",
+   "The Age",
+   "Crikey",
    "ABC News",
    "BBC World",
-   "7News",
    "Fox News",
-   "Fox News Politics",
-   "BBC Tech",
-   "Guardian Tech",
-   "The Conversation",
    "Guardian AU Politics",
-   "Ars Technica",
-   "The Age Business",
-   "The Verge",
-   "ABC Business",
-   "AFR",
-   "Guardian AU Sport",
-   "Guardian AU Business",
-   "Fox Business",
-   "Variety",
-   "SBS News",
-   "BBC Sport",
-   "ABC Sport",
-   "Screen Rant",
+   "The Conversation",
+   "Guardian Tech",
+   "Fox News Politics",
    "The Age Federal Politics",
-   "Guardian Film",
-   "Anime News Network",
+   "Ars Technica",
+   "7News",
+   "BBC Tech",
+   "SBS News",
+   "The Verge",
+   "Guardian AU Business",
+   "ABC Sport",
+   "Variety",
+   "BBC Sport",
+   "The Age Business",
+   "Guardian AU Sport",
+   "Fox Business",
    "Deadline",
+   "AFR",
+   "ABC Business",
+   "Anime News Network",
+   "Guardian Film",
+   "Screen Rant",
    "Daily Mail Australia",
    "7News Sport"
   ],
@@ -1401,7 +1422,7 @@
   {
    "title": "15% off TCN Good Food, Pamper, Active, Shop, Cinema and Choice Gift Cards (Excl. Variable Load) @ Coles (In-Store Only)",
    "link": "https://www.ozbargain.com.au/node/982569",
-   "votes": 224,
+   "votes": 227,
    "neg": 0,
    "category": "Other",
    "ts": 1794373213000
@@ -1409,7 +1430,7 @@
   {
    "title": "AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation $299 (RRP $429) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/982644",
-   "votes": 120,
+   "votes": 124,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794411101000
@@ -1425,7 +1446,7 @@
   {
    "title": "OnePass Mobile 365 Days 5G Prepaid SIMs - 350GB $159, 550GB $189 Delivered (Free OnePass Included) @ OnePass Mobile",
    "link": "https://www.ozbargain.com.au/node/982587",
-   "votes": 98,
+   "votes": 99,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794379803000
@@ -1433,7 +1454,7 @@
   {
    "title": "[eBook] Free - Coastal Fury Boxset (1-3) by Matt Lincoln @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/982622",
-   "votes": 86,
+   "votes": 88,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1794393445000
@@ -1449,15 +1470,23 @@
   {
    "title": "Trojan 450mm Wrecking Bar $10.90 (was $17.98) + Delivery ($0 C&C/ in-Store/ OnePass) @ Bunnings",
    "link": "https://www.ozbargain.com.au/node/982564",
-   "votes": 76,
+   "votes": 77,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1794370936000
   },
   {
+   "title": "[iOS, Android] Free Upgrade to Tcheckr Pro [Gift Card & Loyalty Card Manager for AU] (Was $4.99) @ App Store & Google Play",
+   "link": "https://www.ozbargain.com.au/node/982682",
+   "votes": 74,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1794439984000
+  },
+  {
    "title": "Nothing Phone (3) (6.7\", 12GB/256GB Snapdragon 8S Gen4) US$432.65 (~A$632.34) w/ PayPal Delivered @ Nothing Online AliExpress",
    "link": "https://www.ozbargain.com.au/node/982619",
-   "votes": 72,
+   "votes": 74,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794390926000
@@ -1465,18 +1494,10 @@
   {
    "title": "Flashforge Adventurer 5M 3D Printer US$159.05 (~A$232.46) with PayPal AU Stock Shipped @ FLASHFORGE 3D Printer Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/982635",
-   "votes": 69,
+   "votes": 71,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794398879000
-  },
-  {
-   "title": "[iOS, Android] Free Upgrade to Tcheckr Pro [Gift Card & Loyalty Card Manager for AU] (Was $4.99) @ App Store & Google Play",
-   "link": "https://www.ozbargain.com.au/node/982682",
-   "votes": 62,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1794439984000
   },
   {
    "title": "Apple iPhone 17 Pro Max 256GB Deep Blue $1,789.99 Delivered @ Costco (Membership Required) / Price Beat $1700.49 @ Officeworks",
@@ -1487,9 +1508,9 @@
    "ts": 1794378039000
   },
   {
-   "title": "Apple Watch Series 12 Starting $517 @ Officeworks/ Amazon AU",
+   "title": "Apple Watch Series 12 from $517 Delivered @ Amazon AU / + Delivery ($0 to Metro/ OnePass/ C&C) @ Officeworks",
    "link": "https://www.ozbargain.com.au/node/982657",
-   "votes": 45,
+   "votes": 47,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794432562000
@@ -1497,26 +1518,26 @@
   {
    "title": "Nintendo Switch 2 Console $688 + Delivery ($0 C&C/ In-Store) @ JB Hi-Fi (Price Beat $653.60 at Officeworks)",
    "link": "https://www.ozbargain.com.au/node/982659",
-   "votes": 38,
+   "votes": 41,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794433705000
   },
   {
+   "title": "Delivery Unlimited: Annual Plan $74.50 for the First Year (Ongoing $149/Year, New and Returning Subscribers) @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/982630",
+   "votes": 40,
+   "neg": 0,
+   "category": "Groceries",
+   "ts": 1794398221000
+  },
+  {
    "title": "Xbox Wireless Controller $69 (White/Black) / $74 (Red/Green/Blue/Pink) Delivered @ Amazon AU / Big W (Metro)",
    "link": "https://www.ozbargain.com.au/node/982653",
-   "votes": 37,
+   "votes": 39,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794430395000
-  },
-  {
-   "title": "[DashPass] Xbox Wireless Controller $58.75 (White/Black) / $62.70 (Red/Green/Blue/Pink) Delivered @ DoorDash (First Order Only)",
-   "link": "https://www.ozbargain.com.au/node/982680",
-   "votes": 33,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1794439489000
   }
  ],
  "carried": {}
