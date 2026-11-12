@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T01:42:20.929Z",
+ "generatedAt": "2026-11-12T01:59:00.690Z",
  "markets": {
   "items": [
    {
@@ -7,10 +7,10 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 9122.3,
-    "chgPct": -0.0733924854858224,
+    "price": 9114,
+    "chgPct": -0.1643115346697338,
     "high52": 9296.7,
-    "off52": -1.8759344713715775
+    "off52": -1.9652134628416613
    },
    {
     "sym": "BGBL.AX",
@@ -27,30 +27,30 @@
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 152.8,
-    "chgPct": -0.25458739812698344,
+    "price": 152.64,
+    "chgPct": -0.35903285634885634,
     "high52": 155.03,
-    "off52": -1.4384312713668257
+    "off52": -1.5416371024963005
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.73,
-    "chgPct": 0.5386301185150174,
+    "price": 59.81,
+    "chgPct": 0.673287583934099,
     "high52": 65.18,
-    "off52": -8.361460570727232
+    "off52": -8.23872353482664
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 32.39,
-    "chgPct": 0.8720005740459948,
+    "price": 32.57,
+    "chgPct": 1.432573593599198,
     "high52": 47.78,
-    "off52": -32.21012976140645
+    "off52": -31.83340309753035
    },
    {
     "sym": "AUDUSD=X",
@@ -70,9 +70,9 @@
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 77.08,
+    "price": 76.46,
     "currency": "AUD",
-    "chgPct": 8.77787092304906
+    "chgPct": 7.902906211420999
    },
    {
     "sym": "AVGO",
@@ -109,6 +109,48 @@
     "stories": [
      {
       "id": 0,
+      "headline": "New York building collapse kills one person and injures 12",
+      "summary": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
+      "ts": 1794447298000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8114/live/d10cd710-de22-11f1-a006-f3a783cdc303.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "New York building collapse kills one person and injures 12",
+        "desc": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
+        "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "New York building collapse leaves one dead and ten people injured",
+        "desc": "At least one person is dead, and ten others are injured after a building in New York collapsed, leaving several trapped beneath the wreckage.",
+        "link": "https://www.theage.com.au/world/new-york-building-collapse-leaves-one-dead-and-ten-people-injured-20261112-p61dme.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Brooklyn building collapse kills at least one and traps others in wreckage",
+        "desc": "Three-story building was at the edge of a construction site where another edifice had been demolished Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least one person and trapping others beneath the wreckage. Firefighters were called to the scene in the borough’s Flatbush section at about 4pm. ",
+        "link": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "People trapped in wreckage as New York building collapse kills two",
+        "desc": "Firefighters are digging through the rubble of a three-storey building in New York City after it collapsed at the edge of a construction site, trapping people beneath the wreckage.",
+        "link": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "What is in Usman Khawaja's book Sabr and what did he actually say about Sandpapergate?",
       "summary": "Much has been written and said about Usman Khawaja's new book — but what's actually in the pages of Sabr?",
       "ts": 1794446640000,
@@ -150,7 +192,7 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
       "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
       "ts": 1794446246000,
@@ -192,10 +234,10 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Live: Beau Lamarre-Condon explains why he threw Baird's phone off bridge",
       "summary": "Beau Lamarre-Condon's murder trial is continuing, after the jury was sent home early yesterday for a legal issue to be discussed.",
-      "ts": 1794447643000,
+      "ts": 1794448122000,
       "img": "https://live-production.wcms.abc-cdn.net.au/9b98f39d42844d62ade7a7327c8f4e82?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -227,7 +269,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "ASIC sues Commonwealth Bank after allegedly overcharging business customers millions of dollars for years",
       "summary": "How 42,000 Aussie businesses were allegedly hit with $8.5 million in extra bank fees.",
       "ts": 1794447307000,
@@ -253,46 +295,11 @@
         "link": "https://www.dailymail.com/news/article-16285681/Commonwealth-Bank-customers.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Commonwealth Bank allegedly overcharged business customers",
-        "desc": "Commonwealth Bank allegedly overcharged millions of dollars in fees to tens of thousands of business customers, many of them small businesses, according to the corporate regulator.",
-        "link": "https://www.abc.net.au/news/2026-11-12/asic-sues-commonwealth-bank-alleges-overcharged-millions-in-fees/107376156"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "New York building collapse kills one person and injures 12",
-      "summary": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
-      "ts": 1794447298000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8114/live/d10cd710-de22-11f1-a006-f3a783cdc303.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "New York building collapse kills one person and injures 12",
-        "desc": "Rescuers are searching for people who may be trapped under the rubble of the three-story building in Brooklyn.",
-        "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "New York building collapse leaves one dead and ten people injured",
-        "desc": "At least one person is dead, and ten others are injured after a building in New York collapsed, leaving several trapped beneath the wreckage.",
-        "link": "https://www.theage.com.au/world/new-york-building-collapse-leaves-one-dead-and-ten-people-injured-20261112-p61dme.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "People trapped in wreckage as New York building collapse kills two",
-        "desc": "Firefighters are digging through the rubble of a three-storey building in New York City after it collapsed at the edge of a construction site, trapping people beneath the wreckage.",
-        "link": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940"
+        "title": "What's hidden beneath this Commonwealth Bank building is becoming more valuable",
+        "desc": "Demand is rising for a storage service built for things too valuable to leave at home.",
+        "link": "https://www.sbs.com.au/news/article/bank-vaults-growing-demand-australia/abzh1t20l"
        }
       ]
      },
@@ -333,36 +340,36 @@
      },
      {
       "id": 6,
-      "headline": "Warning for VCE students after hacker’s claim that exams are available for purchase online",
-      "summary": "Several schools have urged their students not to access unauthorised VCE exam papers after a hack that unfolded on the exam authority’s website on Wednesday night.",
-      "ts": 1794445632000,
-      "img": "https://static.ffx.io/images/$zoom_0.193%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_535%2C$y_80/t_crop_custom/q_86%2Cf_auto/f810f600cecb0ed9a213ab33b3fddaf75303758f",
+      "headline": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+      "ts": 1794434857000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Warning for VCE students after hacker’s claim that exams are available for purchase online",
-        "desc": "Several schools have urged their students not to access unauthorised VCE exam papers after a hack that unfolded on the exam authority’s website on Wednesday night.",
-        "link": "https://www.theage.com.au/national/victoria/i-m-really-sorry-vce-website-down-as-hacker-claims-exams-available-online-20261112-p61di7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+        "desc": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+        "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Hacker claims to have sold VCE exam papers to hundreds of students after government website hack",
-        "desc": "With year 12 exams under way, VCAA says there is no evidence any have leaked and hacker is attempting to exploit ‘anxious students’ Get our breaking news email, free app or daily news podcast The Victorian Curriculum and Assessment Authority’s website has been hacked during the state’s exam period, with the culprit launching a tirade of expletives and claiming without evidence to have accessed stu",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/12/vce-exams-hack-year-12-papers-vcaa-victorian-curriculum-and-assessment-authority"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Spain's first general strike in 14 years brings clashes as millions demand action on housing crisis",
+        "desc": "Public anger reached boiling point when an elderly Spanish woman died after being evicted from her home.",
+        "link": "https://7news.com.au/business/spains-first-general-strike-in-14-years-brings-clashes-as-millions-demand-action-on-housing-crisis-c-23150464"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Taxpayer-funded website for paedophiles quietly drops advice on sexual fantasies about children after backlash - as Albanese government is accused of 'covering their tracks'",
-        "desc": "One part of the taxpayer-funded website told paedophiles not to 'beat yourself up' for fantasising about children.",
-        "link": "https://www.dailymail.com/news/article-16285325/Taxpayer-funded-website-paedophiles-quietly-drops-advice-sexual-fantasies-children-backlash-Albanese-government-accused-covering-tracks.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Millions stage first general strike in Spain in 14 years amid anger over housing",
+        "desc": "The general strike over housing affordability and purchasing power took place just weeks before an early general election.",
+        "link": "https://www.sbs.com.au/news/article/spain-general-strike-over-housing/vb8u82c30"
        }
       ]
      }
@@ -1035,10 +1042,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Scarlet Witch’s Avengers: Doomsday Return Sets Up A Game-Changing Hulk Connection",
-      "summary": "Elizabeth Olsen's Scarlet Witch has returned, and her role in Avengers: Doomsday connects the MCU hero to the Hulk in a game-changing way.",
-      "ts": 1794442285000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/elizabeth-olsen-as-scarlet-witch-in-doctor-strange-in-the-multiverse-of-madness.jpg",
+      "headline": "Meta Removes Russell Brand’s Instagram & Facebook Account After Rape Conviction",
+      "summary": "Russell Brand, who was convicted of rape and sexual assault, posted on Elon Musk’s X that Meta had taken down his Instagram account. After being sentenced to 10 years in prison for rape and sexual assault, Brand has now found himself without a social media platform. “We disabled your account. You no longer have access […]",
+      "ts": 1794448080000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/russell-brand-meta-instagram.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1046,18 +1053,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Scarlet Witch’s Avengers: Doomsday Return Sets Up A Game-Changing Hulk Connection",
-        "desc": "Elizabeth Olsen's Scarlet Witch has returned, and her role in Avengers: Doomsday connects the MCU hero to the Hulk in a game-changing way.",
-        "link": "https://screenrant.com/scarlet-witch-avengers-doomsday-return-doctor-doom-hulk-plan/"
-       },
-       {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Avengers Endgame: Encore’ Sets Disney+ Release Date With New ‘Countdown To Doomsday’ Spot",
-        "desc": "The countdown to Avengers: Doomsday continues, and Disney+ has set the release date for Avengers: Endgame: Encore for Friday, November 13. The epic conclusion to the Infinity Saga, which has grossed more than $2.9 billion at the worldwide box office, includes a first look at Avengers: Doomsday ahead of its December 18 theatrical release. A new TV spot titled […]",
-        "link": "https://deadline.com/2026/11/avengers-endgame-encore-disney-plus-stream-release-date-1237220911/"
+        "title": "Meta Removes Russell Brand’s Instagram & Facebook Account After Rape Conviction",
+        "desc": "Russell Brand, who was convicted of rape and sexual assault, posted on Elon Musk’s X that Meta had taken down his Instagram account. After being sentenced to 10 years in prison for rape and sexual assault, Brand has now found himself without a social media platform. “We disabled your account. You no longer have access […]",
+        "link": "https://deadline.com/2026/11/meta-removes-russell-brand-instagram-rape-conviction-1237221263/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Russell Brand’s Instagram Account Removed By Meta After Rape Conviction",
+        "desc": "Russell Brand, who was convicted of rape last week in London, posted on X Wednesday that his Instagram account has been removed by Meta. Brand posted a screenshot reading, “We disabled your account. Our technology found your account, or your activity on it, doesn’t follow our rules.” “We suspended your page. This is because Russell […]",
+        "link": "https://variety.com/2026/film/news/russell-brand-instagram-removed-meta-rape-conviction-1236945732/"
        }
       ]
      },
@@ -1193,35 +1200,35 @@
   "sourcesOk": [
    "Guardian Australia",
    "The Age",
+   "ABC News",
    "Crikey",
    "BBC World",
-   "ABC News",
-   "Fox News",
    "The Age Federal Politics",
+   "Fox News",
    "Guardian Tech",
+   "7News",
    "Fox News Politics",
+   "The Conversation",
    "Guardian AU Politics",
    "Ars Technica",
-   "The Age Business",
-   "The Conversation",
-   "BBC Tech",
    "The Verge",
-   "BBC Sport",
-   "7News",
+   "BBC Tech",
    "Guardian AU Business",
    "Variety",
-   "Fox Business",
+   "The Age Business",
+   "Deadline",
    "Guardian AU Sport",
    "ABC Business",
-   "SBS News",
-   "Deadline",
-   "Guardian Film",
+   "BBC Sport",
+   "Fox Business",
    "AFR",
-   "Screen Rant",
-   "Anime News Network",
    "ABC Sport",
-   "Daily Mail Australia",
-   "7News Sport"
+   "Screen Rant",
+   "Guardian Film",
+   "7News Sport",
+   "SBS News",
+   "Anime News Network",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1415,7 +1422,7 @@
   {
    "title": "15% off TCN Good Food, Pamper, Active, Shop, Cinema and Choice Gift Cards (Excl. Variable Load) @ Coles (In-Store Only)",
    "link": "https://www.ozbargain.com.au/node/982569",
-   "votes": 227,
+   "votes": 228,
    "neg": 0,
    "category": "Other",
    "ts": 1794373213000
@@ -1423,7 +1430,7 @@
   {
    "title": "AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation $299 (RRP $429) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/982644",
-   "votes": 124,
+   "votes": 129,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794411101000
@@ -1439,7 +1446,7 @@
   {
    "title": "OnePass Mobile 365 Days 5G Prepaid SIMs - 350GB $159, 550GB $189 Delivered (Free OnePass Included) @ OnePass Mobile",
    "link": "https://www.ozbargain.com.au/node/982587",
-   "votes": 99,
+   "votes": 101,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794379803000
@@ -1451,6 +1458,14 @@
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1794393445000
+  },
+  {
+   "title": "[iOS, Android] Free Upgrade to TCheckr Pro (Gift Card & Loyalty Card Manager, Was $4.99) @ Apple App Store & Google Play",
+   "link": "https://www.ozbargain.com.au/node/982682",
+   "votes": 77,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1794439984000
   },
   {
    "title": "[NSW] Adopt-a-Stray - $100 Desexing, Vaccination, Microchipping @ Cat Protection Society of NSW",
@@ -1469,14 +1484,6 @@
    "ts": 1794370936000
   },
   {
-   "title": "[iOS, Android] Free Upgrade to Tcheckr Pro [Gift Card & Loyalty Card Manager for AU] (Was $4.99) @ App Store & Google Play",
-   "link": "https://www.ozbargain.com.au/node/982682",
-   "votes": 74,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1794439984000
-  },
-  {
    "title": "Nothing Phone (3) (6.7\", 12GB/256GB Snapdragon 8S Gen4) US$432.65 (~A$632.34) w/ PayPal Delivered @ Nothing Online AliExpress",
    "link": "https://www.ozbargain.com.au/node/982619",
    "votes": 74,
@@ -1487,7 +1494,7 @@
   {
    "title": "Flashforge Adventurer 5M 3D Printer US$159.05 (~A$232.46) with PayPal AU Stock Shipped @ FLASHFORGE 3D Printer Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/982635",
-   "votes": 71,
+   "votes": 72,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794398879000
@@ -1503,7 +1510,7 @@
   {
    "title": "Apple Watch Series 12 from $517 Delivered @ Amazon AU / + Delivery ($0 to Metro/ OnePass/ C&C) @ Officeworks",
    "link": "https://www.ozbargain.com.au/node/982657",
-   "votes": 47,
+   "votes": 49,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794432562000
@@ -1511,7 +1518,7 @@
   {
    "title": "Nintendo Switch 2 Console $688 + Delivery ($0 C&C/ In-Store) @ JB Hi-Fi (Price Beat $653.60 at Officeworks)",
    "link": "https://www.ozbargain.com.au/node/982659",
-   "votes": 41,
+   "votes": 43,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794433705000
@@ -1519,18 +1526,18 @@
   {
    "title": "Xbox Wireless Controller $69 (White/Black) / $74 (Red/Green/Blue/Pink) Delivered @ Amazon AU / Big W (Metro)",
    "link": "https://www.ozbargain.com.au/node/982653",
-   "votes": 39,
+   "votes": 41,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794430395000
   },
   {
-   "title": "[DashPass] Xbox Wireless Controller $58.75 (White/Black) / $62.70 (Red/Green/Blue/Pink) Delivered @ DoorDash (First Order Only)",
-   "link": "https://www.ozbargain.com.au/node/982680",
-   "votes": 36,
+   "title": "Delivery Unlimited: Annual Plan $74.50 for the First Year (Ongoing $149/Year, New and Returning Subscribers) @ Woolworths",
+   "link": "https://www.ozbargain.com.au/node/982630",
+   "votes": 41,
    "neg": 0,
-   "category": "Gaming",
-   "ts": 1794439489000
+   "category": "Groceries",
+   "ts": 1794398221000
   }
  ],
  "carried": {}
