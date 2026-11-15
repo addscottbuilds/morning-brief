@@ -60,8 +60,26 @@ jobs:
 
   # Deploy from this workflow directly — commits made with GITHUB_TOKEN don't
   # trigger the push-based deploy workflow, and this skips the shared queue.
-  deploy:
+  prepare_pages:
     needs: refresh
+    runs-on: ubuntu-latest
+    env:
+      PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
+    outputs:
+      artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
+          path: .
+
+  deploy:
+    # Artifact discovery can race an upload in the same job.
+    needs: prepare_pages
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -70,15 +88,10 @@ jobs:
       group: pages
       cancel-in-progress: true
     steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: main
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
-        with:
-          path: .
       - id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          artifact_name: ${{ needs.prepare_pages.outputs.artifact_name }}
 
   # Send the morning notification AFTER the fresh data is deployed, holding
   # until exactly 6:00am Melbourne when the pipeline ran early. The committed
