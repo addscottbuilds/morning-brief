@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T22:00:29.709Z",
+ "generatedAt": "2026-11-16T23:00:29.271Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 9044.7,
-    "chgPct": -0.41289769555898864,
+    "chgPct": -1.1162352611585065,
     "high52": 9296.7,
     "off52": -2.7106392590919355
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 87.76,
-    "chgPct": -0.0000024341732128925963,
+    "chgPct": -0.07970150244256437,
     "high52": 88.25,
     "off52": -0.5552407932011273
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 151.42,
-    "chgPct": 0.0000012092555125720365,
+    "chgPct": -0.4470782881184381,
     "high52": 155.03,
     "off52": -2.3285815648584234
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 59.63,
-    "chgPct": -0.0000017912379887381524,
+    "chgPct": -1.258485506424277,
     "high52": 65.18,
     "off52": -8.51488186560295
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 31.14,
-    "chgPct": 0.0000019600243257272747,
+    "chgPct": -5.607764729743338,
     "high52": 47.78,
     "off52": -34.82628714943491
    },
@@ -57,15 +57,23 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6739,
-    "chgPct": -0.9974898389503322,
+    "price": 0.6736,
+    "chgPct": -1.041562777143421,
     "high52": 0.7277,
-    "off52": -7.393156520544175
+    "off52": -7.4343823003985205
    }
   ],
   "failed": [],
   "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "XRO.AX",
+    "name": "Xero",
+    "market": "ASX",
+    "price": 80.56,
+    "currency": "AUD",
+    "chgPct": 4.718574912809402
+   },
    {
     "sym": "NVDA",
     "name": "Nvidia",
@@ -99,12 +107,12 @@
     "chgPct": -3.3413348607762834
    },
    {
-    "sym": "TSLA",
-    "name": "Tesla",
-    "market": "US",
-    "price": 379.74,
-    "currency": "USD",
-    "chgPct": -2.6856648013733593
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 14.42,
+    "currency": "AUD",
+    "chgPct": -2.895625390059208
    }
   ]
  },
@@ -117,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-      "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-      "ts": 1794863305000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+      "headline": "United Airlines experiences ‘widespread system outage’ days after nationwide FAA ground stop",
+      "summary": "United Airlines flights were stuck on tarmacs as pilots reported a companywide IT issue preventing takeoff data, days after the nationwide FAA ground stop.",
+      "ts": 1794869859000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/931/523/ertert5465421313.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -130,163 +138,16 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Nvidia says it won't reinstate Jensen Huang as CEO despite pressure from Trump… as new boss's extreme plans to change the company are revealed",
-        "desc": "Pressure has mounted for Nvidia's board to reinstate Jensen Huang after he quit the role last week.",
-        "link": "https://www.dailymail.com/news/article-16297009/Nvidia-board-reinstalling-Jensen-Huang-CEO.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "America plunged into more chaos as United flights are grounded over computer outage just days after nationwide ground stop",
+        "desc": "United Airlines flights across the United States are grounded on Monday night, just days after a technical issue prompted the Federal Aviation Administration to ground all flights nationwide.",
+        "link": "https://www.dailymail.com/news/article-16297865/United-flights-grounded-outage.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Trump backs Huang for Nvidia return, teases Kim Jong-un meeting as he heads to Asia",
-        "desc": "The US president continued to cast doubt on whether Alice Huang was actually a Chinese spy and said former Nvidia boss Jensen Huang had “learned a big lesson”.",
-        "link": "https://www.theage.com.au/world/north-america/trump-teases-kim-jong-un-meeting-as-he-heads-to-asia-backs-huang-for-nvidia-return-20261117-p61eog.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-        "desc": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 1,
-      "headline": "UK investigating Russell Brand's message from behind bars",
-      "summary": "In a video uploaded to YouTube, his wife Laura Brand reads a statement in which her husband maintains his innocence.",
-      "ts": 1794861644000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/4d594ce223405b703d4751e0bb35040b?impolicy=wcms_crop_resize&cropH=2526&cropW=4491&xPos=79&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘I am not guilty’: Russell Brand statement read by wife",
-        "desc": "Authorities are investigating Brand over a message from prison, read publicly by his wife, in which he declared his innocence.",
-        "link": "https://www.theage.com.au/world/i-am-not-guilty-russell-brand-statement-read-by-wife-20261117-p61epn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "UK investigating Russell Brand's message from behind bars",
-        "desc": "In a video uploaded to YouTube, his wife Laura Brand reads a statement in which her husband maintains his innocence.",
-        "link": "https://www.abc.net.au/news/2026-11-17/russell-brand-prison-message-read-by-laura-on-sunday-service/107392812"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Ministry of Justice investigating Russell Brand message from prison claiming he is not guilty",
-        "desc": "PM’s spokesperson calls message, read out by convicted rapist’s wife on their YouTube channel, ‘clearly appalling’ The Ministry of Justice has launched an investigation into whether Russell Brand has broken prison rules after the jailed comedian shared a message claiming he was not guilty of sexual offences just days after his conviction. Brand’s wife, Laura Brand, read a message from her rapist h",
-        "link": "https://www.theguardian.com/news/2026/nov/16/ministry-of-justice-investigating-russell-brand-message"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Tony Popovic drops hint as Socceroos coach enters contract limbo ahead of postponed Asian Cup",
-      "summary": "A decision ahead of the World Cup earlier this year has come back to bite Tony Popovic.",
-      "ts": 1794866033000,
-      "img": "https://images.7news.com.au/publication/C-23171076/f59e239e2ac1154535a137cec1e16db59aea2d08-16x9-x0y2w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Tony Popovic drops hint as Socceroos coach enters contract limbo ahead of postponed Asian Cup",
-        "desc": "A decision ahead of the World Cup earlier this year has come back to bite Tony Popovic.",
-        "link": "https://7news.com.au/sport/soccer/tony-popovic-drops-hint-as-socceroos-coach-enters-contract-limbo-ahead-of-postponed-asian-cup-c-23171076"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Popovic admits Socceroos future uncertain after Asian Cup postponement",
-        "desc": "Tony Popovic hopes this week's clash with Jordan is not his last in charge of the Socceroos, but admits he is yet to hold contract talks with FA.",
-        "link": "https://www.abc.net.au/news/2026-11-17/tony-popovic-admits-socceroos-future-is-uncertain/107393048"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-      "summary": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
-      "ts": 1794865728000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4ce/live/59eafa00-e1c3-11f1-8a52-0b287ff76f43.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Jeffrey Epstein's death was not suicide, top forensic scientist finds in new report: 'That's not a hanging mark'",
-        "desc": "The forensic scientist spent a year examining Epstein's autopsy file. He believes that Epstein's injuries are more consistent with strangulation than hanging.",
-        "link": "https://www.dailymail.com/news/article-16297521/Jeffrey-Epsteins-death-NOT-suicide-forensic-scientist-rules-Michael-Freeman.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-        "desc": "Professor Michael Freeman tells BBC Newsnight that he believes the convicted sex offender's injuries are consistent with a homicide.",
-        "link": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "DJ John Summit’s tour bus reportedly involved in fatal crash",
-      "summary": "A tour bus reportedly carrying John Summit's crew was hit in a fatal Florida crash that killed a 40-year-old Ocala man, per the Florida Highway Patrol.",
-      "ts": 1794865091000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/524/john-summit.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "Fox News",
         "lean": "right",
-        "title": "DJ John Summit’s tour bus reportedly involved in fatal crash",
-        "desc": "A tour bus reportedly carrying John Summit's crew was hit in a fatal Florida crash that killed a 40-year-old Ocala man, per the Florida Highway Patrol.",
-        "link": "https://www.foxnews.com/entertainment/dj-john-summits-tour-bus-reportedly-involved-fatal-crash"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "DJ John Summit's tour bus involved in deadly crash after he blasted Grammy Awards for snubbing him",
-        "desc": "This came after the 32-year-old American artist vowed to never submit his music for consideration ever again after being brutally snubbed from the Grammy Awards 2027 nominations.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16297165/john-summit-tour-bus-crash-grammy-awards-snub.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "The company behind America’s flight chaos is a serial liar — and controls the US aviation system",
-      "summary": "The US aviation grounding last week was the result of work by L3Harris, a defence corporation that has owned the aviation administration's communications network for a quarter of a century. The post The company behind America’s flight chaos is a serial liar — and controls the US aviation system appeared first on Crikey.",
-      "ts": 1794865020000,
-      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/plane.jpg?quality=70&w=840",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "America rocked by another mass outage as banking giants hit with 'technical bug' just days after nationwide flight shutdown sparked travel chaos",
-        "desc": "Thousands of people were paralyzed by the mass outage on Monday afternoon.",
-        "link": "https://www.dailymail.com/news/article-16297371/chase-bank-america-wells-fargo-accounts-down.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "United Airlines experiences ‘widespread system outage’ days after nationwide FAA ground stop",
+        "desc": "United Airlines flights were stuck on tarmacs as pilots reported a companywide IT issue preventing takeoff data, days after the nationwide FAA ground stop.",
+        "link": "https://www.foxnews.com/us/united-airlines-experiences-widespread-system-outage-days-after-nationwide-faa-ground-stop"
        },
        {
         "outlet": "Crikey",
@@ -298,11 +159,172 @@
       ]
      },
      {
+      "id": 1,
+      "headline": "Save up to $1,800 on dreame’s most popular robovacs, hair dryers and wet/dry models on Amazon this Black Friday",
+      "summary": "‘Best purchase ever!’",
+      "ts": 1794868643000,
+      "img": "https://images.7news.com.au/publication/C-23166884/c2a3caf4421f56a4312e5a3f2ca39e269eb21871-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "T-Mobile Black Friday deals: Get an iPhone 18 Pro for $0 upfront and $500 off Google Pixel Watch 5",
+        "desc": "T-Mobile's Black Friday deals slash up to $500 off the Google Pixel Watch 5, dropping it to as low as $30 with a new line, plus perks like DoorDash.",
+        "link": "https://www.foxnews.com/deals/t-mobile-black-friday-deals"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Amazon Australia Black Friday sale 2026: Best deals, biggest savings and what the Daily Mail team are shopping",
+        "desc": "If you've been holding off buying a wishlist item or are running low on essentials, Amazon Australia's Black Friday sale is here to bring you some of the biggest deals of the year.",
+        "link": "https://www.dailymail.com/buyline/article-16295357/Amazon-Australia-Black-Friday-sale-2026-best-deals.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Save up to $1,800 on dreame’s most popular robovacs, hair dryers and wet/dry models on Amazon this Black Friday",
+        "desc": "‘Best purchase ever!’",
+        "link": "https://7news.com.au/7you/tech/save-up-to-1800-on-dreames-most-popular-robovacs-hair-dryers-and-wetdry-models-on-amazon-this-black-friday-c-23166884"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "‘I am not guilty’: Russell Brand statement read by wife",
+      "summary": "Authorities are investigating Brand over a message from prison, read publicly by his wife, in which he declared his innocence.",
+      "ts": 1794862626000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/eff5bc6a61c76e2d7522b40bb42a4a548a803dca",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "NADINE DORRIES: I told Russell Brand's wife Laura to leave three years ago. This is why I miscalculated",
+        "desc": "When sexual assault allegations against Russell Brand first surfaced in 2023, I wrote in this column that his wife Laura - for her own sake and that of her children - should leave him.",
+        "link": "https://www.dailymail.com/crime-desk/article-16297163/NADINE-DORRIES-defended-Russell-Brands-wife-Laura-know-truth-worse-feared.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘I am not guilty’: Russell Brand statement read by wife",
+        "desc": "Authorities are investigating Brand over a message from prison, read publicly by his wife, in which he declared his innocence.",
+        "link": "https://www.theage.com.au/world/i-am-not-guilty-russell-brand-statement-read-by-wife-20261117-p61epn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Ministry of Justice investigating Russell Brand message from prison claiming he is not guilty",
+        "desc": "PM’s spokesperson calls message, read out by convicted rapist’s wife on their YouTube channel, ‘clearly appalling’ The Ministry of Justice has launched an investigation into whether Russell Brand has broken prison rules after the jailed comedian shared a message claiming he was not guilty of sexual offences just days after his conviction. Brand’s wife, Laura Brand, read a message from her rapist h",
+        "link": "https://www.theguardian.com/news/2026/nov/16/ministry-of-justice-investigating-russell-brand-message"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Lindsay Clancy to face retrial in March",
+      "summary": "A Massachusetts judge schedules Lindsay Clancy's retrial for late March, with lawyers to discuss trial logistics and media arrangements in late December.",
+      "ts": 1794859024000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/b2f251c505afbd2f87cf4683307fbe31?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Lindsay Clancy to face retrial in March",
+        "desc": "A Massachusetts judge schedules Lindsay Clancy's retrial for late March, with lawyers to discuss trial logistics and media arrangements in late December.",
+        "link": "https://www.abc.net.au/news/2026-11-17/lindsay-clancy-to-face-march-retrial/107393036"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
+        "desc": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
+        "link": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Lindsay Clancy to face retrial",
+        "desc": "Lindsay Clancy, the American mother accused of murdering her three children, will face a retrial in 2027.",
+        "link": "https://www.theage.com.au/national/lindsay-clancy-to-face-retrial-20261117-p61ep4.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Trump embarks on high-stakes Asia trip",
+      "summary": "US President Donald Trump has floated the idea of holding talks with North Korea's Kim Jong-Un as he heads to Asia.",
+      "ts": 1794869825000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/58544ea202049a918e3a168027652726a386b299",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Qatari jet carrying Trump to Asia makes unplanned diversion in Alaska with old Air Force One on its tail",
+        "desc": "President Donald Trump's Qatari-gifted Air Force One was diverted to a different refueling location in Alaska on Monday, which the White House said was due to inclement weather.",
+        "link": "https://www.dailymail.com/news/article-16297935/qatari-air-force-one-diverted-refueling-weather.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Trump embarks on high-stakes Asia trip",
+        "desc": "US President Donald Trump has floated the idea of holding talks with North Korea's Kim Jong-Un as he heads to Asia.",
+        "link": "https://www.theage.com.au/national/trump-embarks-on-high-stakes-asia-trip-20261117-p61ep2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Huge magnitude 6.6 earthquake strikes in Banda Sea between Darwin and Indonesia",
+      "summary": "The quake was felt hundreds of kilometres away in Australia.",
+      "ts": 1794869683000,
+      "img": "https://images.7news.com.au/publication/C-23171219/b02a13b1b3e02b6263e611cae680f5882fceb5c9-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Huge magnitude 6.6 earthquake strikes in Banda Sea between Darwin and Indonesia",
+        "desc": "The quake was felt hundreds of kilometres away in Australia.",
+        "link": "https://7news.com.au/news/huge-magnitude-66-earthquake-strikes-in-banda-sea-between-darwin-and-indonesia-c-23171219"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Breaking: Magnitude-6.6 earthquake tremors felt in Darwin",
+        "desc": "Hundreds of Australians have reported feeling tremors from a magnitude-6.6 earthquake that struck Indonesia this morning.",
+        "link": "https://www.abc.net.au/news/2026-11-17/magnitude-6-6-earthquake-indonesia-tremors-felt-in-darwin/107393396"
+       }
+      ]
+     },
+     {
       "id": 6,
-      "headline": "Arrest over Melbourne Cup theft but trophies still missing",
-      "summary": "A man has been arrested and released pending summons after three Melbourne Cup trophies won by Makybe Diva were stolen from Flemington on Monday.",
-      "ts": 1794864504000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/6f6a9fcda070456cbc784d8bc17dbae4?impolicy=wcms_crop_resize&cropH=1120&cropW=1989&xPos=11&yPos=171&width=862&height=485",
+      "headline": "Street cricket with a legend then metro ride as William and Kate begin India visit",
+      "summary": "The Prince and Princess of Wales are visiting Mumbai for the Earthshot Prize this week, but started their trip with some fun outings.",
+      "ts": 1794869476000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/890e/live/2da1ec70-e1db-11f1-a094-5fdc692f3e33.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -312,16 +334,16 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "‘Totally untraceable’: Man arrested but $3m Makybe Diva Melbourne Cup trophies still missing",
-        "desc": "Police are interviewing a man and will search seized vehicles in their investigations but have not recovered three stolen trophies won by Makybe Diva.",
-        "link": "https://www.theage.com.au/national/victoria/man-arrested-cars-seized-but-no-makybe-diva-melbourne-cup-trophies-found-in-3m-heist-investigation-20261117-p61ep9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Royals ride Mumbai metro",
+        "desc": "Prince William and Princess Catherine take a trip on Mumbai’s metro after joining cricket legend Sachin Tendulkar for a street game.",
+        "link": "https://www.theage.com.au/world/royals-ride-mumbai-metro-20261117-p61erk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "BBC World",
         "lean": "centre",
-        "title": "Arrest over Melbourne Cup theft but trophies still missing",
-        "desc": "A man has been arrested and released pending summons after three Melbourne Cup trophies won by Makybe Diva were stolen from Flemington on Monday.",
-        "link": "https://www.abc.net.au/news/2026-11-17/vic-arrest-over-makybe-diva-trophy-theft/107393046"
+        "title": "Street cricket with a legend then metro ride as William and Kate begin India visit",
+        "desc": "The Prince and Princess of Wales are visiting Mumbai for the Earthshot Prize this week, but started their trip with some fun outings.",
+        "link": "https://www.bbc.co.uk/news/videos/crkgvnl51w1vo?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -333,6 +355,34 @@
     "stories": [
      {
       "id": 7,
+      "headline": "Chalmers reveals plan for ‘Goldilocks’ budget update",
+      "summary": "Jim Chalmers says he will strike a balance in next month’s budget update between cuts in spending and protecting the overall economy.",
+      "ts": 1794867670000,
+      "img": "https://static.ffx.io/images/$zoom_0.1957%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_23%2C$y_0/t_crop_custom/q_86%2Cf_auto/0c414b1509f0efc3f842cea0aeb4bc0f0590e263",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Mid-year budget update will ‘cut enough, but not too much’, Jim Chalmers says",
+        "desc": "Under growing pressure to sell government’s strategy, treasurer says Myefo will ‘help ease immediate capacity pressures without putting growth at risk’ Get our breaking news email, free app or daily news podcast Jim Chalmers has promised next month’s mid-year budget update “will cut enough, but not too much”, as he flagged “substantial savings” to help in the fight against inflation. The treasurer",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/17/myefo-mid-year-budget-update-australia-treasurer-jim-chalmers"
+       },
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Chalmers reveals plan for ‘Goldilocks’ budget update",
+        "desc": "Jim Chalmers says he will strike a balance in next month’s budget update between cuts in spending and protecting the overall economy.",
+        "link": "https://www.theage.com.au/politics/federal/chalmers-reveals-plan-for-goldilocks-budget-update-20261117-p61epw.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 8,
       "headline": "States defy Butler over puberty blocker bans as new guidelines back access",
       "summary": "The recommendations could prove a test for the Liberals in the Victorian election after One Nation said the party would fight to ban the treatment if elected.",
       "ts": 1794816625000,
@@ -360,7 +410,7 @@
       ]
      },
      {
-      "id": 8,
+      "id": 9,
       "headline": "‘Full of gratitude’: Helen Haines discharged from hospital four weeks after attack",
       "summary": "The 65-year-old federal MP for Indi has spent weeks recovering at Melbourne’s Alfred hospital.",
       "ts": 1794805507000,
@@ -388,7 +438,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Albanese confronts Laos PM over methanol poisoning deaths",
       "summary": "The prime minister of Laos says his country will review recent criminal trials and any new information that comes to light after the death of two young Australian backpackers in 2024.",
       "ts": 1794863100000,
@@ -409,7 +459,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
       "summary": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China’s efforts to dominate Get our daily political email, free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia signed on to a US-led pact to secure the techno",
       "ts": 1794862821000,
@@ -430,7 +480,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Clarence Thomas calls foul on California ruling he says could turn citizens into government mouthpieces",
       "summary": "Clarence Thomas warns the Supreme Court's refusal to hear a California implicit bias case leaves states free to compel speech from private citizens.",
       "ts": 1794861439000,
@@ -449,27 +499,6 @@
         "link": "https://www.foxnews.com/politics/clarence-thomas-calls-foul-california-ruling-he-says-could-turn-citizens-government-mouthpieces"
        }
       ]
-     },
-     {
-      "id": 12,
-      "headline": "Dem governor rips College Republicans for hosting ex-Trump Border chief, provokes fiery response",
-      "summary": "NJ Dem Gov. Mikie Sherrill says the state will work with Rutgers to 'protect' students as the college's student Republicans chapter invites former Trump immigration official to speak on campus.",
-      "ts": 1794859762000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/mikie-sherill-2.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Dem governor rips College Republicans for hosting ex-Trump Border chief, provokes fiery response",
-        "desc": "NJ Dem Gov. Mikie Sherrill says the state will work with Rutgers to 'protect' students as the college's student Republicans chapter invites former Trump immigration official to speak on campus.",
-        "link": "https://www.foxnews.com/politics/dem-governor-rips-college-republicans-hosting-ex-trump-border-chief-provokes-fiery-response"
-       }
-      ]
      }
     ]
    },
@@ -479,9 +508,9 @@
     "stories": [
      {
       "id": 13,
-      "headline": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-      "summary": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
-      "ts": 1794856612000,
+      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+      "ts": 1794867687000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
       "divergent": null,
       "left_view": null,
@@ -492,8 +521,8 @@
        {
         "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-        "desc": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+        "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
         "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
        },
        {
@@ -570,7 +599,49 @@
      },
      {
       "id": 16,
-      "headline": "Microsoft details how three problems combined for a global outage",
+      "headline": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+      "summary": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+      "ts": 1794869907000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Foundation-Phantom-MK-1-mortar-demo-1152x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Robo-soldier startup backed by Eric Trump misses payroll, may collapse",
+        "desc": "Robotics startup misses payroll a year after CEO used funds for luxury home.",
+        "link": "https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "United Airlines system outage disrupts departures just days after the big ground stop",
+      "summary": "United Airlines passenger planes are seen at gates at Newark Liberty International Airport (EWR) in Newark, New Jersey, on November 15, 2026. | AFP via Getty Images Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. The airline has said it is working to get",
+      "ts": 1794869699000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304760092.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+        "desc": "United Airlines passenger planes are seen at gates at Newark Liberty International Airport (EWR) in Newark, New Jersey, on November 15, 2026. | AFP via Getty Images Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. The airline has said it is working to get",
+        "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Three small failures combined to take down Microsoft 365",
       "summary": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
       "ts": 1794866199000,
       "img": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage.jpg",
@@ -583,51 +654,9 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Microsoft details how three problems combined for a global outage",
+        "title": "Three small failures combined to take down Microsoft 365",
         "desc": "A hidden bug, shifting traffic, and reduced capacity led to cascading failures.",
         "link": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/"
-       }
-      ]
-     },
-     {
-      "id": 17,
-      "headline": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
-      "summary": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade ago, looksmaxxing",
-      "ts": 1794865317000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/184084_bk_press_still_1.579.1.jpg?quality=90&strip=all&crop=10.051873779297%2C10.653583930772%2C89.948126220703%2C89.346416069228&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
-        "desc": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade ago, looksmaxxing",
-        "link": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-      "summary": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China’s efforts to dominate Get our daily political email, free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia signed on to a US-led pact to secure the techno",
-      "ts": 1794862821000,
-      "img": "https://i.guim.co.uk/img/media/b57480f6f6d59b1e608fcb68882810c017ea2e92/499_0_4985_3988/master/4985.jpg?width=460&quality=85&auto=format&fit=max&s=293a5c277b8e6822666594bbce36ad3c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Albanese signs on to Trump’s AI supply chain pact before leaders’ meeting at Quad summit",
-        "desc": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China’s efforts to dominate Get our daily political email, free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia signed on to a US-led pact to secure the techno",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
        }
       ]
      }
@@ -709,6 +738,34 @@
      },
      {
       "id": 21,
+      "headline": "Customers report difficulty accessing online services at major US banks",
+      "summary": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issues Customers reported service outages and difficulty accessing their online accounts at several major US banks and the money transfer service Zelle on Monday after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system. Chase said the technical problems wer",
+      "ts": 1794866500000,
+      "img": "https://i.guim.co.uk/img/media/3646b72898ae901bf0c2c1a9dbe0b69194df306e/452_0_4515_3612/master/4515.jpg?width=460&quality=85&auto=format&fit=max&s=30ffe93db745778e5de94cfb93fac5e1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Customers report difficulty accessing online services at major US banks",
+        "desc": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issues Customers reported service outages and difficulty accessing their online accounts at several major US banks and the money transfer service Zelle on Monday after a technical issue at JPMorgan Chase caused ripple effects throughout the financial system. Chase said the technical problems wer",
+        "link": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Financial stocks slide as online banking outages reported at several large US banks",
+        "desc": "Chase, Bank of America, Wells Fargo and Capital One faced online banking outages Monday, per Downdetector, as JPMorgan Chase shares fell more than 2.4%.",
+        "link": "https://www.foxbusiness.com/markets/financial-stocks-slide-online-banking-outages-reported-several-large-us-banks"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "Shaken and stirred: Robert Pattinson cast as next James Bond",
       "summary": "Emerging from the shadows at the final hour, the British actor is the man tasked with justifying Amazon MGM’s $US1 billion outlay.",
       "ts": 1794862489000,
@@ -736,7 +793,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "David Jones’ lender Hilco injects more money to buy stock",
       "summary": "David Jones needs the capital to keep trading while its administrator works to find a new owner.",
       "ts": 1794860989000,
@@ -760,34 +817,6 @@
         "title": "Westfield owner is scoping out replacements for David Jones",
         "desc": "The owner of Westfield shopping centres has ramped up pressure on David Jones administrators, who are meeting with creditors for the first time on Tuesday.",
         "link": "https://www.theage.com.au/business/companies/property-giant-says-it-will-look-to-replace-david-jones-stores-in-westfield-malls-20261116-p61ef1.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Customers report difficulty accessing online services at major US banks",
-      "summary": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issues Customers reported difficulty accessing their online accounts at some major US banks on Monday. The reports follow a major outage by Microsoft that began Friday and lasted for hours, which affected services including Outlook, Teams and AI assistant Copilot and had serious repercussions al",
-      "ts": 1794860519000,
-      "img": "https://i.guim.co.uk/img/media/3646b72898ae901bf0c2c1a9dbe0b69194df306e/452_0_4515_3612/master/4515.jpg?width=460&quality=85&auto=format&fit=max&s=30ffe93db745778e5de94cfb93fac5e1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Customers report difficulty accessing online services at major US banks",
-        "desc": "Bank of America, Chase, US Bank, Wells Fargo and Truist were listed by users who have been experiencing issues Customers reported difficulty accessing their online accounts at some major US banks on Monday. The reports follow a major outage by Microsoft that began Friday and lasted for hours, which affected services including Outlook, Teams and AI assistant Copilot and had serious repercussions al",
-        "link": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Financial stocks slide as online banking outages reported at several large US banks",
-        "desc": "Chase, Bank of America, Wells Fargo and Capital One faced online banking outages Monday, per Downdetector, as JPMorgan Chase shares fell more than 2.4%.",
-        "link": "https://www.foxbusiness.com/markets/financial-stocks-slide-online-banking-outages-reported-several-large-us-banks"
        }
       ]
      },
@@ -827,6 +856,34 @@
     "stories": [
      {
       "id": 25,
+      "headline": "Alcaraz 'best I've felt' in statement start at ATP Finals",
+      "summary": "Carlos Alcaraz warns his rivals he has never felt better at this stage of a season after beginning his ATP Finals bid with a statement win over Frances Tiafoe.",
+      "ts": 1794869170000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e0/live/60e9a200-e1cf-11f1-b8c8-67fa35f5afdb.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
+        "desc": "Carlos Alcaraz was far too good for Francis Tiafoe, thrashing the American debutant 6-2 6-2 in just over an hour So where is the game? Alcaraz will do his usual thing, looking to unleash that forehand; Tiafoe will look to target the backhand, keep him moving, and perhaps deny him pace while varying angles. He’ll also want to go for his shots, because the longer the rallies go, the more chances Alc",
+        "link": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Alcaraz 'best I've felt' in statement start at ATP Finals",
+        "desc": "Carlos Alcaraz warns his rivals he has never felt better at this stage of a season after beginning his ATP Finals bid with a statement win over Frances Tiafoe.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/ckvg294x5yzqo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 26,
       "headline": "Tony Popovic drops hint as Socceroos coach enters contract limbo ahead of postponed Asian Cup",
       "summary": "A decision ahead of the World Cup earlier this year has come back to bite Tony Popovic.",
       "ts": 1794866033000,
@@ -854,7 +911,7 @@
       ]
      },
      {
-      "id": 26,
+      "id": 27,
       "headline": "Khawaja avoids sandpaper questions on first TV appearance since 7.30",
       "summary": "Usman Khawaja makes his first TV appearance since being grilled on ABC's 7.30 last week, but avoids questioning on his Sandpapergate revelations.",
       "ts": 1794866006000,
@@ -882,7 +939,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 28,
       "headline": "Seven’s coverage of Rugby League World Cup breaks records across the competition",
       "summary": "Millions tuned in to watch the tournament and the network now holds a stack of records.",
       "ts": 1794846021000,
@@ -906,34 +963,6 @@
         "title": "Seven’s coverage of Rugby League World Cup breaks records across the competition",
         "desc": "Millions tuned in to watch the tournament and the network now holds a stack of records.",
         "link": "https://7news.com.au/sport/rugby-league/sevens-coverage-of-rugby-league-world-cup-breaks-records-across-the-competition-c-23167480"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Alcaraz 'best I've felt' in statement start at ATP Finals",
-      "summary": "Carlos Alcaraz warns his rivals he has never felt better at this stage of a season after beginning his ATP Finals bid with a statement win over Frances Tiafoe.",
-      "ts": 1794843834000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/46e0/live/60e9a200-e1cf-11f1-b8c8-67fa35f5afdb.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Alcaraz 'best I've felt' in statement start at ATP Finals",
-        "desc": "Carlos Alcaraz warns his rivals he has never felt better at this stage of a season after beginning his ATP Finals bid with a statement win over Frances Tiafoe.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/ckvg294x5yzqo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Carlos Alcaraz blazes past Frances Tiafoe in ATP Finals tennis group stage – as it happened",
-        "desc": "Carlos Alcaraz was far too good for Francis Tiafoe, thrashing the American debutant 6-2 6-2 in just over an hour So where is the game? Alcaraz will do his usual thing, looking to unleash that forehand; Tiafoe will look to target the backhand, keep him moving, and perhaps deny him pace while varying angles. He’ll also want to go for his shots, because the longer the rallies go, the more chances Alc",
-        "link": "https://www.theguardian.com/sport/live/2026/nov/16/carlos-alcaraz-v-frances-tiafoe-atp-finals-tennis-group-stage-live"
        }
       ]
      },
@@ -1001,6 +1030,62 @@
     "stories": [
      {
       "id": 31,
+      "headline": "Netflix's Returning Sci-Fi Series Is Already The K-Drama Event Of 2027",
+      "summary": "A brutal high school apocalypse returns after five years as Netflix's iconic K-drama promising fresh scares, new alliances, and shocking losses.",
+      "ts": 1794870020000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/zombies-scraping-the-windows-in-all-of-us-are-dead.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Netflix's Returning Sci-Fi Series Is Already The K-Drama Event Of 2027",
+        "desc": "A brutal high school apocalypse returns after five years as Netflix's iconic K-drama promising fresh scares, new alliances, and shocking losses.",
+        "link": "https://screenrant.com/all-of-us-are-dead-season-2-k-drama-event-2027/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Netflix Orders Harlan Coben Limited Series ‘The Innocent’ From ‘I Will Find You’ Team",
+        "desc": "Netflix has ordered the limited series “The Innocent” based on the Harlan Coben novel of the same name. The announcement came as part of Netflix’s inaugural appearance at the Texas Book Festival in celebration of the streamer’s many book-to-screen adaptations. Coben is a massive part of that side of Netflix’s business, with “The Innocent” representing […]",
+        "link": "https://variety.com/2026/tv/news/netflix-harlan-coben-the-innocent-i-will-find-you-1236949157/"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters",
+      "summary": "The re-release of “Spider-Man: Brand New Day,” which features footage previously left on the cutting room floor, hits theaters on Dec. 4. Tickets go on sale Nov. 19. News that “Brand New Day” was returning to theaters with an extended cut first broke in late September. Details about what’s in the additional scenes remain under […]",
+      "ts": 1794870000000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/MixCollage-16-Nov-2026-02-49-PM-8729.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters",
+        "desc": "The re-release of “Spider-Man: Brand New Day,” which features footage previously left on the cutting room floor, hits theaters on Dec. 4. Tickets go on sale Nov. 19. News that “Brand New Day” was returning to theaters with an extended cut first broke in late September. Details about what’s in the additional scenes remain under […]",
+        "link": "https://variety.com/2026/film/news/spider-man-brand-new-day-extended-cut-release-date-1236949654/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Spider-Man: Brand New Day’ Re-Release With New Rosario Dawson Night Nurse Footage Sets Release",
+        "desc": "That re-release of the highest grossing motion picture in the U.S. and third-highest grossing worldwide, Sony’s Spider-Man: Brand New Day, which we first told you about, is hitting theaters on Dec. 4 in time for awards season. The new cut will be titled Spider-Man: [Brand New] Brand New Day. The extended cut will feature new […]",
+        "link": "https://deadline.com/2026/11/spider-man-brand-new-day-rosario-dawson-re-release-date-1237225762/"
+       }
+      ]
+     },
+     {
+      "id": 33,
       "headline": "Variety’s 10 Comics to Watch Bring Stand-Up, Sketch and Songs to Hilarious New York Comedy Festival Showcase",
       "summary": "Variety’s 10 Comics to Watch for 2026 brought laughter, cheers and ’90s rock parodies to the New York Comedy Festival on Thursday. The comedians, who represent the funniest and most exciting rising voices in comedy, each performed a seven-minute set for a lively audience at the Venue on Music Row at the Hard Rock Hotel […]",
       "ts": 1794864427000,
@@ -1028,7 +1113,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 34,
       "headline": "‘Reasonable Doubt’ Renewed for Season 5 Ahead of Season 4 Finale",
       "summary": "“Reasonable Doubt” has been renewed for Season 5 at Hulu and Onyx Collective, Variety has confirmed. The news comes just ahead of the legal drama’s Season 4 finale, which is scheduled to air on Nov. 24. With the release of its fifth season, “Reasonable Doubt” will be one of the longest-running scripted shows on Hulu […]",
       "ts": 1794863277000,
@@ -1056,35 +1141,7 @@
       ]
      },
      {
-      "id": 33,
-      "headline": "OpenAI Slapped By California AG For “Unfair & Unsafe Practices”; Sam Altman-Run Tech Firm Accuses State Of Improperly Singling Out Company",
-      "summary": "Already facing a Hollywood supported lawsuit from the New York Times, plus more legal actions by the state of Texas, a collection of non-profits, and a wrongful death case, OpenAI now will have to go up against the state of California in court. “Government intervention is necessary to stop OpenAI’s unfair and unsafe practices and […]",
-      "ts": 1794862978000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Sam-Altman-openai-california-flag.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "OpenAI Slapped By California AG For “Unfair & Unsafe Practices”; Sam Altman-Run Tech Firm Accuses State Of Improperly Singling Out Company",
-        "desc": "Already facing a Hollywood supported lawsuit from the New York Times, plus more legal actions by the state of Texas, a collection of non-profits, and a wrongful death case, OpenAI now will have to go up against the state of California in court. “Government intervention is necessary to stop OpenAI’s unfair and unsafe practices and […]",
-        "link": "https://deadline.com/2026/11/openai-sued-by-california-1237225599/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "California Sues OpenAI After AI Agents Repeatedly Went Rogue",
-        "desc": "California Attorney General Rob Bonta said Monday the state has sued OpenAI after the company’s AI agents went rogue during testing, arguing the San Altman-led company illegally failed to maintain safeguards for its models. “OpenAI’s actions escalated real-word cybersecurity risks, threatening the safety, health, and well-being of society,” he said in a statement Monday ahead […]",
-        "link": "https://variety.com/2026/biz/news/california-sues-openai-ai-agents-repeatedly-went-rogue-1236949271/"
-       }
-      ]
-     },
-     {
-      "id": 34,
+      "id": 35,
       "headline": "The Brit List: Coming-of-Age Drama and Cornwall Crime Series Top 2026 Lineup of Best Unproduced Scripts",
       "summary": "The Brit List, the annual list of unproduced British film and TV screenplays, has revealed its 2026 lineup. Compiled from recommendations by the British industry, 13 projects — each requiring a minimum of 10 recommendations — made it onto this year’s list. Leading the pack were Gemma Addy’s coming-of-age drama feature “Dig for Victory” and Archie Thomson’s […]",
       "ts": 1794862037000,
@@ -1112,58 +1169,30 @@
       ]
      },
      {
-      "id": 35,
-      "headline": "‘The Terminal List’ Prequel ‘Cry Havoc’ In The Works At Amazon",
-      "summary": "Amazon is doubling down on The Terminal List expanded universe. Days after announcing that it was adapting Jack Carr’s Savage Son as the next move in the world of the military thriller, the streamer has revealed it is developing a prequel series set in the 1960s. It is developing an adaptation of Carr’s Cry Havoc, […]",
+      "id": 36,
+      "headline": "‘Terminal List’ Prequel Series ‘Cry Havoc’ in Development at Amazon",
+      "summary": "Amazon Prime Video is doubling down on “The Terminal List” franchise, with the streamer developing a series based on Jack Carr’s prequel novel “Cry Havoc.” “The Terminal List” is based on Carr’s James Reece novels, while “Cry Havoc” follows Reece’s father Tom Reece during the latter’s time as a Navy SEAL during the Vietnam war. […]",
       "ts": 1794861000000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/TCDTELI_ZU038.jpg",
+      "img": "https://variety.com/wp-content/uploads/2026/11/Jack-Carr-Cry-Havoc.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘The Terminal List’ Prequel ‘Cry Havoc’ In The Works At Amazon",
-        "desc": "Amazon is doubling down on The Terminal List expanded universe. Days after announcing that it was adapting Jack Carr’s Savage Son as the next move in the world of the military thriller, the streamer has revealed it is developing a prequel series set in the 1960s. It is developing an adaptation of Carr’s Cry Havoc, […]",
-        "link": "https://deadline.com/2026/11/the-terminal-list-prequel-cry-havoc-amazon-1237225564/"
-       },
        {
         "outlet": "Variety",
         "lean": "centre",
         "title": "‘Terminal List’ Prequel Series ‘Cry Havoc’ in Development at Amazon",
         "desc": "Amazon Prime Video is doubling down on “The Terminal List” franchise, with the streamer developing a series based on Jack Carr’s prequel novel “Cry Havoc.” “The Terminal List” is based on Carr’s James Reece novels, while “Cry Havoc” follows Reece’s father Tom Reece during the latter’s time as a Navy SEAL during the Vietnam war. […]",
         "link": "https://variety.com/2026/tv/news/terminal-list-prequel-series-cry-havoc-amazon-1236949306/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Harlan Coben’s ‘The Innocent’ Lands Greenlight At Netflix As Streamer Strikes Overall Deal With StoryMath",
-      "summary": "Harlan Coben has been on a tear at Netflix with his most recent, I Will Find You, becoming the streamer’s fifth most popular series of all time. Coben is back with limited series The Innocent, marking his 15th adaptation for Netflix. The streamer has greenlit the project, after Deadline revealed it was in development earlier […]",
-      "ts": 1794855600000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/el_inocente_S01_E704_19022020_quimvives_EE28A9686.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
+       },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Harlan Coben’s ‘The Innocent’ Lands Greenlight At Netflix As Streamer Strikes Overall Deal With StoryMath",
-        "desc": "Harlan Coben has been on a tear at Netflix with his most recent, I Will Find You, becoming the streamer’s fifth most popular series of all time. Coben is back with limited series The Innocent, marking his 15th adaptation for Netflix. The streamer has greenlit the project, after Deadline revealed it was in development earlier […]",
-        "link": "https://deadline.com/2026/11/harlan-coben-the-innocent-greenlight-netflix-storymath-1237225375/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Netflix Orders Harlan Coben Limited Series ‘The Innocent’ From ‘I Will Find You’ Team",
-        "desc": "Netflix has ordered the limited series “The Innocent” based on the Harlan Coben novel of the same name. The announcement came as part of Netflix’s inaugural appearance at the Texas Book Festival in celebration of the streamer’s many book-to-screen adaptations. Coben is a massive part of that side of Netflix’s business, with “The Innocent” representing […]",
-        "link": "https://variety.com/2026/tv/news/netflix-harlan-coben-the-innocent-i-will-find-you-1236949157/"
+        "title": "‘The Terminal List’ Prequel ‘Cry Havoc’ In The Works At Amazon",
+        "desc": "Amazon is doubling down on The Terminal List expanded universe. Days after announcing that it was adapting Jack Carr’s Savage Son as the next move in the world of the military thriller, the streamer has revealed it is developing a prequel series set in the 1960s. It is developing an adaptation of Carr’s Cry Havoc, […]",
+        "link": "https://deadline.com/2026/11/the-terminal-list-prequel-cry-havoc-amazon-1237225564/"
        }
       ]
      }
@@ -1171,36 +1200,36 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
    "Guardian Australia",
    "Crikey",
-   "BBC World",
-   "Guardian AU Politics",
-   "Fox News",
+   "The Age",
    "ABC News",
+   "BBC World",
+   "7News",
+   "Guardian AU Politics",
+   "Guardian Tech",
    "BBC Tech",
    "Fox News Politics",
-   "Guardian Tech",
+   "Fox News",
    "Ars Technica",
-   "The Age Business",
+   "The Verge",
+   "The Conversation",
+   "ABC Business",
+   "Guardian AU Business",
+   "The Age Federal Politics",
    "AFR",
    "BBC Sport",
-   "Guardian AU Sport",
-   "ABC Business",
-   "ABC Sport",
-   "The Age Federal Politics",
-   "Fox Business",
-   "Guardian AU Business",
-   "Deadline",
-   "The Verge",
    "Variety",
-   "7News",
-   "The Conversation",
-   "Guardian Film",
-   "Screen Rant",
-   "Anime News Network",
+   "The Age Business",
+   "Guardian AU Sport",
+   "Deadline",
+   "Fox Business",
    "SBS News",
+   "ABC Sport",
+   "Guardian Film",
    "Daily Mail Australia",
+   "Anime News Network",
+   "Screen Rant",
    "7News Sport"
   ],
   "sourcesFailed": []
@@ -1394,7 +1423,7 @@
   {
    "title": "$10 off $50 Click & Collect Spend (Online & App Only) @ Coles",
    "link": "https://www.ozbargain.com.au/node/983470",
-   "votes": 120,
+   "votes": 141,
    "neg": 0,
    "category": "Groceries",
    "ts": 1794834064000
@@ -1402,18 +1431,34 @@
   {
    "title": "$3 off $15, $5 off $35, $11 off $69, $20 off $115, $35 off $205, $55 off $305, $70 off $405, $90 off $500 (in USD) @ AliExpress",
    "link": "https://www.ozbargain.com.au/node/983458",
-   "votes": 117,
+   "votes": 125,
    "neg": 0,
    "category": "Other",
    "ts": 1794826141000
   },
   {
+   "title": "Huggies Baby Wipes Fragrance Free 640 Pack (8x 80 Pack) $16.99 ($15.29 S&S) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/983531",
+   "votes": 109,
+   "neg": 0,
+   "category": "Toys & Kids",
+   "ts": 1794860770000
+  },
+  {
    "title": "Earn $150 Cashback for Receiving Monthly Pay of Atleast $2000/Month for 3 Months @ Wise",
    "link": "https://www.ozbargain.com.au/node/983368",
-   "votes": 105,
+   "votes": 108,
    "neg": 0,
    "category": "Financial",
    "ts": 1794798396000
+  },
+  {
+   "title": "Bonus 5,000 Velocity Points When You Transfer at Least 1 RevPoint to Velocity Frequent Flyer @ Revolut",
+   "link": "https://www.ozbargain.com.au/node/983497",
+   "votes": 88,
+   "neg": 0,
+   "category": "Financial",
+   "ts": 1794838753000
   },
   {
    "title": "PlayStation VR2: PC Adapter $28, Sense Controller Charging Station $28 + Delivery @ Amazon AU, EB Games & JB Hi-Fi",
@@ -1426,7 +1471,7 @@
   {
    "title": "[eBook] Free - Unidentified (Invasion Volume One) by Nathan Hystad @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/983407",
-   "votes": 77,
+   "votes": 78,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1794808936000
@@ -1450,26 +1495,10 @@
   {
    "title": "4 Select Bridgestone Ecopia Tyres for The Price of 3 & Get a Bonus $200 Costco Shop Card @ Costco (Membership Required)",
    "link": "https://www.ozbargain.com.au/node/983449",
-   "votes": 71,
+   "votes": 74,
    "neg": 1,
    "category": "Automotive",
    "ts": 1794819996000
-  },
-  {
-   "title": "Bonus 5,000 Velocity Points When You Transfer at Least 1 RevPoint to Velocity Frequent Flyer @ Revolut",
-   "link": "https://www.ozbargain.com.au/node/983497",
-   "votes": 65,
-   "neg": 0,
-   "category": "Financial",
-   "ts": 1794838753000
-  },
-  {
-   "title": "Huggies Baby Wipes Fragrance Free 640 Pack (8x 80 Pack) $16.99 ($15.29 S&S) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/983531",
-   "votes": 62,
-   "neg": 0,
-   "category": "Toys & Kids",
-   "ts": 1794860770000
   },
   {
    "title": "20-33% off 12-Month PlayStation Plus Subscriptions (New/Lapsed): Essential $90.36, Extra $147.71, Deluxe $151.38 @ PlayStation",
@@ -1482,7 +1511,7 @@
   {
    "title": "Up to 45% off LEGO Sets: Star Wars Grogu 75446 $125, Art Love 31214 $78, Chopper 75416 $108 Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/983401",
-   "votes": 56,
+   "votes": 57,
    "neg": 2,
    "category": "Toys & Kids",
    "ts": 1794807451000
@@ -1490,10 +1519,18 @@
   {
    "title": "[PS5] Select Games 2 for $99 (Ghost of Yotei, Astro Bot, Gran Turismo 7, TLOU Part 1 & More) + Delivery ($0 C&C) @ EB Games",
    "link": "https://www.ozbargain.com.au/node/983417",
-   "votes": 47,
+   "votes": 48,
    "neg": 0,
    "category": "Gaming",
    "ts": 1794811125000
+  },
+  {
+   "title": "Samsung Galaxy Buds4 Pro $229.99 Delivered @ Costco (Membership Required)",
+   "link": "https://www.ozbargain.com.au/node/983462",
+   "votes": 47,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1794827992000
   },
   {
    "title": "Meguiar's Watermelon Bubblegum Scented Car Wash 1.89L $11.99 + Delivery ($0 C&C/in-Store) @ Supercheap Auto",
@@ -1502,14 +1539,6 @@
    "neg": 0,
    "category": "Automotive",
    "ts": 1794801340000
-  },
-  {
-   "title": "Samsung Galaxy Buds4 Pro $229.99 Delivered @ Costco (Membership Required)",
-   "link": "https://www.ozbargain.com.au/node/983462",
-   "votes": 45,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1794827992000
   }
  ],
  "carried": {}
