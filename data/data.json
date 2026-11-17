@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T22:00:28.188Z",
+ "generatedAt": "2026-11-17T23:00:29.417Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8883.2,
-    "chgPct": -1.7855782040868338,
+    "chgPct": -2.1911011762899384,
     "high52": 9296.7,
     "off52": -4.4478148160099815
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 86.69,
-    "chgPct": -0.0000028162489139666168,
+    "chgPct": -1.2192366797912098,
     "high52": 88.25,
     "off52": -1.7677053824362632
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 148.77,
-    "chgPct": -0.000002871856425737205,
+    "chgPct": -1.7500978741187105,
     "high52": 155.03,
     "off52": -4.03792814294007
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 58.92,
-    "chgPct": 0.0000031076964462133807,
+    "chgPct": -1.1906776042217404,
     "high52": 65.18,
     "off52": -9.604173059220626
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 30.56,
-    "chgPct": 0.0000017475707632249928,
+    "chgPct": -1.8625542742985481,
     "high52": 47.78,
     "off52": -36.04018417748012
    },
@@ -65,7 +65,48 @@
   ],
   "failed": [],
   "note": "SEMI is 36% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
-  "movers": []
+  "movers": [
+   {
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 13.62,
+    "currency": "AUD",
+    "chgPct": -5.547850707775811
+   },
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 54.38,
+    "currency": "AUD",
+    "chgPct": -4.946686120889561
+   },
+   {
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 165.08,
+    "currency": "AUD",
+    "chgPct": -4.605606998674273
+   },
+   {
+    "sym": "MQG.AX",
+    "name": "Macquarie",
+    "market": "ASX",
+    "price": 232.12,
+    "currency": "AUD",
+    "chgPct": -3.756527469490644
+   },
+   {
+    "sym": "NAB.AX",
+    "name": "NAB",
+    "market": "ASX",
+    "price": 37.77,
+    "currency": "AUD",
+    "chgPct": -2.7548922460974654
+   }
+  ]
  },
  "news": {
   "mode": "basic",
@@ -76,10 +117,80 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Australia hits the godmother of Israel's settler movement with sanctions",
-      "summary": "Israeli settlements 'godmother' Daniella Weiss and her 'Nachala' organisation are hit with Australian sanctions, announced this morning by the Foreign Minister Penny Wong.",
-      "ts": 1794951615000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/6741d374fcb1b921477d4a5e6f7147e0?impolicy=wcms_crop_resize&cropH=1987&cropW=3532&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+      "summary": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+      "ts": 1794955080000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia sanctions Israeli settlers, construction company",
+        "desc": "Among those being sanctioned is controversial settler leader Daniella Weiss, who regularly features in the media.",
+        "link": "https://www.theage.com.au/politics/federal/australia-sanctions-israeli-settlers-construction-company-20261118-p61f34.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+        "desc": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
+        "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australia sanctions individuals and company involved in illegal West Bank settlements",
+        "desc": "Foreign affairs minister Penny Wong says rapid expansion of settlements and settler violence are ‘extinguishing the possibility of a two-state solution’ Get our breaking news email, free app or daily news podcast Australia has announced another tranche of sanctions on individuals and organisations involved in “illegal settlement expansion and human rights abuses against Palestinians” in the West B",
+        "link": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Investigation launched after Melbourne Cup runner dumped in skip bin",
+      "summary": "An equine hospital has apologised after Melbourne Cup runner So You Are was left in a skip bin at a Sydney waste facility.",
+      "ts": 1794953789000,
+      "img": "https://assets.sbs.com.au/dims4/default/4358fca/2147483647/strip/false/crop/1422x653+0+34/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F2d%2F27%2Fd048e87c4bfc92a4288cd0f649ef%2F20261117124996668531-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Body of racehorse So You Are found dumped in a skip bin in Sydney",
+        "desc": "Construction worker Greg Jowett posted this video to Facebook after he found the body of Melbourne Cup runner So You Are in a skip bin.",
+        "link": "https://www.theage.com.au/national/body-of-racehorse-so-you-are-found-dumped-in-a-skip-bin-in-sydney-20261117-p61exg.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘Heads should roll’: owner of Melbourne Cup horse found dumped in skip bin demands investigation",
+        "desc": "Stuart Ramsey says it is a ‘bloody disgrace’ the gelding was left in the skip bin while awaiting burial Get our breaking news email, free app or daily news podcast So You Are’s owner-breeder has demanded a full investigation after the Melbourne Cup runner’s body was found in a skip at a Sydney tip, insisting “heads have got to roll”. Stuart Ramsey says it is a “bloody disgrace” the gelding was lef",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/18/stuart-ramsey-calls-for-investigation-so-you-are-melbourne-cup-horse-found-skip-bin-ntwnfb"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Investigation launched after Melbourne Cup runner dumped in skip bin",
+        "desc": "An equine hospital has apologised after Melbourne Cup runner So You Are was left in a skip bin at a Sydney waste facility.",
+        "link": "https://www.sbs.com.au/news/article/investigation-launched-after-melbourne-cup-runner-dumped-in-skip-bin/vl4gg3z52"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Apple reveals cause of widespread outages to its online services",
+      "summary": "The company said its working to restore remaining systems as soon as possible.",
+      "ts": 1794951099000,
+      "img": "https://images.7news.com.au/publication/C-23177025/314fcab128309f35e0594a01e367b473c97011f0-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -89,63 +200,28 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Whoopi Goldberg suggests Trump is to blame for ongoing tech chaos and that it's his revenge for midterms defeat",
-        "desc": "Cohosts Sunny Hostin and Joy Behar had just aired their suspicion that Americans were 'being gaslighted' by administration officials when it came to AI's part in the failures.",
-        "link": "https://www.dailymail.com/media/article-16300349/the-view-whoopi-goldberg-faa-ground-stop-outage-donald-trump.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Apple goes down: iPhone users struggle to access accounts as problems hit several services",
+        "desc": "Apple is experiencing an outage affecting several iPhone services, leaving some users unable to access their accounts.",
+        "link": "https://www.dailymail.com/sciencetech/article-16300473/apple-icloud-sign-disruption.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Australia hits the godmother of Israel's settler movement with sanctions",
-        "desc": "Israeli settlements 'godmother' Daniella Weiss and her 'Nachala' organisation are hit with Australian sanctions, announced this morning by the Foreign Minister Penny Wong.",
-        "link": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Vance’s midterm blame game hits snag as Trump’s own Israel ambassador disputes key claim",
-        "desc": "Mike Huckabee rejects JD Vance's claim that Israel cost Republicans the midterms, blaming voter apathy and low evangelical turnout for the GOP defeat.",
-        "link": "https://www.foxnews.com/world/vances-midterm-blame-game-hits-snag-trumps-own-israel-ambassador-disputes-key-claim"
-       }
-      ]
-     },
-     {
-      "id": 1,
-      "headline": "Tony Popovic dealt ‘terrible’ 2-0 loss to Jordan in possible Socceroos farewell",
-      "summary": "If this is to be goodbye to the World Cup veteran it was not what anyone wanted to see.",
-      "ts": 1794948724000,
-      "img": "https://images.7news.com.au/publication/C-23177133/09d2ebfa2a5b7b85f66f881491f990896a288b54-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Tony Popovic dealt ‘terrible’ 2-0 loss to Jordan in possible Socceroos farewell",
-        "desc": "If this is to be goodbye to the World Cup veteran it was not what anyone wanted to see.",
-        "link": "https://7news.com.au/sport/soccer/tony-popovic-dealt-terrible-2-0-loss-to-jordan-in-possible-socceroos-farewell-c-23177133"
+        "title": "Apple reveals cause of widespread outages to its online services",
+        "desc": "The company said its working to restore remaining systems as soon as possible.",
+        "link": "https://7news.com.au/technology/apple/apple-reveals-cause-of-widespread-outages-to-its-online-services-c-23177025"
        },
        {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "'Terrible' Socceroos downed by Jordan as Popovic decision looms",
-        "desc": "In what might be Tony Popovic's final game in charge, the Socceroos are comfortably beaten 2-0 by Jordan in Doha.",
-        "link": "https://www.abc.net.au/news/2026-11-18/socceroos-downed-by-jordan-as-popovic-decision-looms/107397120"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Socceroos end year with loss to Jordan",
-        "desc": "The Socceroos end a tough year with a 2-0 friendly loss to Jordan.",
-        "link": "https://www.theage.com.au/sport/soccer/socceroos-end-year-with-loss-to-jordan-20261118-p61f36.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "'Software bug' causes widespread outages at major US banks",
+        "desc": "Customers reported trouble accessing accounts at two major US banks and a popular money transfer service.",
+        "link": "https://www.sbs.com.au/news/article/us-bank-outages-jpmorgan-chase-zelle/5c26kw2go"
        }
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Policy discussion light in Victorian election debate but there was a clear winner",
       "summary": "Audience members looking for deep policy discussion may have come away disappointed from last night's News24/Herald Sun election debate, but the audience vote was grim for one party leader.",
       "ts": 1794945961000,
@@ -180,11 +256,46 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "US President Donald Trump announces AI, defence initiatives with Australia at ASEAN summit",
       "summary": "The effusive US president lavished praise on the leaders of Australia, India and Japan as the Quad unveiled new AI and maritime security initiatives at the ASEAN summit.",
-      "ts": 1794941551000,
+      "ts": 1794922093000,
       "img": "https://images.7news.com.au/publication/C-23176182/aa537000650b0cb1c6ac168108ccad30e72046c6-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "US President Donald Trump announces AI, defence initiatives with Australia at ASEAN summit",
+        "desc": "The effusive US president lavished praise on the leaders of Australia, India and Japan as the Quad unveiled new AI and maritime security initiatives at the ASEAN summit.",
+        "link": "https://7news.com.au/politics/us-president-donald-trump-announces-ai-defence-initiatives-with-australia-at-asean-summit-c-23176182"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Will President Trump meet Kim Jong Un?",
+        "desc": "President Trump says he would be keen to meet the North Korea leader in China.",
+        "link": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese vows to push Trump to end global conflicts as Quad leaders meet",
+        "desc": "The Quad leaders are meeting in Manila for the first time since 2024. Meanwhile, the Greens want tweaks to the government's trusts reforms and it's the Victorian leaders' debate. The post Albanese vows to push Trump to end global conflicts as Quad leaders meet appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/17/anthony-albanese-donald-trump-end-iran-war-victoria-election/"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "The awkward question hanging over Trump's crucial meeting",
+      "summary": "The Quad faces a test of unity as tensions between the US and India strain ties.",
+      "ts": 1794956318000,
+      "img": "https://assets.sbs.com.au/dims4/default/0213786/2147483647/strip/false/crop/1920x882+0+99/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F9b%2F54%2F4f75105e45a987485bbb33011708%2Fgfx-161126-trump-modi-rocky-ties-lead-image.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -194,107 +305,44 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Donald Trump and Anthony Albanese meet",
-        "desc": "Donald Trump has held talks with Anthony Albanese and the leaders of Japan and India.",
-        "link": "https://www.theage.com.au/national/donald-trump-and-anthony-albanese-meet-20261118-p61f2s.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "US President Donald Trump announces AI, defence initiatives with Australia at ASEAN summit",
-        "desc": "The effusive US president lavished praise on the leaders of Australia, India and Japan as the Quad unveiled new AI and maritime security initiatives at the ASEAN summit.",
-        "link": "https://7news.com.au/politics/us-president-donald-trump-announces-ai-defence-initiatives-with-australia-at-asean-summit-c-23176182"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Is Donald Trump an F-word?",
-        "desc": "It's a hotly debated question that has plagued — and courted by — the US president throughout his political tenure. But the midterms revealed something else entirely. The post Is Donald Trump an F-word? appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/17/donald-trump-maga-fascism-midterms-election-results/"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "'Software bug' causes widespread outages at major US banks",
-      "summary": "Customers reported trouble accessing accounts at two major US banks and a popular money transfer service.",
-      "ts": 1794952371000,
-      "img": "https://assets.sbs.com.au/dims4/default/38d067c/2147483647/strip/false/crop/4914x2258+0+714/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fc2%2Fb8%2F1e2a9e3b4a589b497679b5c6462d%2Fafp-20261116-d7n3663-v1-highres-filesusbankingwireless.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Gmail and Apple’s apps suffer outages days after major Microsoft disruptions",
-        "desc": "Reports come on heels of major disruptions in technological infrastructure in the US and worldwide Thousands reported disruptions to Google’s Gmail and Apple’s iPhone apps, such as Apple Pay and iCloud, on Tuesday, according to Downdetector. Apple confirmed the outages in a statement but said it had resolved them; Google said it had not seen internal signs of outages. Apple’s own system status pag",
-        "link": "https://www.theguardian.com/technology/2026/nov/17/gmail-apple-outage-major-disruption"
+        "title": "Australia news LIVE: PM meets Trump, Modi and Takaichi at Quad meeting in Manila; Australia imposes fresh sanctions targeting illegal Israeli settlements, human rights abuses against Palestinians",
+        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
+        "link": "https://www.theage.com.au/national/australia-news-live-australia-imposes-fresh-sanctions-targeting-illegal-israeli-settlements-human-rights-abuses-against-palestinians-taylor-slams-government-s-backpacker-visa-system-20261118-p61f2y.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "'Software bug' causes widespread outages at major US banks",
-        "desc": "Customers reported trouble accessing accounts at two major US banks and a popular money transfer service.",
-        "link": "https://www.sbs.com.au/news/article/us-bank-outages-jpmorgan-chase-zelle/5c26kw2go"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Fine print cuts down Cameron Smith’s first deal since LIV Golf collapse",
-      "summary": "The Aussie’s next move is locked in but it comes with a catch.",
-      "ts": 1794952307000,
-      "img": "https://images.7news.com.au/publication/C-23177255/7ccb286cbb7d9361a4dd4c88165199a5a87a9b81-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Fine print cuts down Cameron Smith’s first deal since LIV Golf collapse",
-        "desc": "The Aussie’s next move is locked in but it comes with a catch.",
-        "link": "https://7news.com.au/sport/golf/fine-print-cuts-down-cameron-smiths-first-deal-since-liv-golf-collapse-c-23177255"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Smith's next move confirmed after LIV Golf collapse",
-        "desc": "Cameron Smith agrees to a deal to play specific events on the DP World Tour next year in the wake of LIV Golf's collapse.",
-        "link": "https://www.abc.net.au/news/2026-11-18/cameron-smith-next-move-confirmed-after-liv-golf-collapse/107397132"
+        "title": "The awkward question hanging over Trump's crucial meeting",
+        "desc": "The Quad faces a test of unity as tensions between the US and India strain ties.",
+        "link": "https://www.sbs.com.au/news/article/donald-trump-narendra-modi-quad-meeting/gidn283nb"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "James Talarico’s ‘love thy neighbour’ message won over Texas. Is Australia ready to embrace a new Christian left? | Brigid Delaney",
-      "summary": "The Democrat tapped into a hunger for politics with more moral authority. But in Australia, overt displays of Christianity have been met with discomfort – even cynicism There was a time, within living memory, when Australian Christianity had a definable and active left wing: Palm Sunday peace marches, guitar masses, priests coming home from far-flung missions with stories of liberation theology an",
-      "ts": 1794952268000,
-      "img": "https://i.guim.co.uk/img/media/c25d1afb8c0b6be79ee02a5035d7b7b3a337ddf2/300_0_4583_3667/master/4583.jpg?width=460&quality=85&auto=format&fit=max&s=bcca7e455c6efbc15917012e96dcd86d",
+      "headline": "Perth Bears to host Manly as NRL unveils full Round 1 fixture",
+      "summary": "The league has unveiled its full Round 1 fixture and is hoping a bitter rivalry will touch a nerve in the AFL state.",
+      "ts": 1794955296000,
+      "img": "https://images.7news.com.au/publication/C-23177312/284fdb25cff4f1790540e99e8861e42a06ec6bb4-16x9-x0y2w1304h733.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Katy Perry, Lindsay Lohan and Ralph Fiennes weigh in on Robert Pattinson becoming James Bond... as the oldest living 007 breaks silence",
-        "desc": "Robert Pattinson shocked fans when he was announced as the newest actor to portray James Bond on screen.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16298633/Katy-Perry-Lindsay-Lohan-Robert-Pattinson-James-Bond.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Perth Bears to host Manly as NRL unveils full Round 1 fixture",
+        "desc": "The league has unveiled its full Round 1 fixture and is hoping a bitter rivalry will touch a nerve in the AFL state.",
+        "link": "https://7news.com.au/sport/rugby-league/perth-bears-to-host-manly-as-nrl-unveils-full-round-1-fixture-c-23177312"
        },
        {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "James Talarico’s ‘love thy neighbour’ message won over Texas. Is Australia ready to embrace a new Christian left? | Brigid Delaney",
-        "desc": "The Democrat tapped into a hunger for politics with more moral authority. But in Australia, overt displays of Christianity have been met with discomfort – even cynicism There was a time, within living memory, when Australian Christianity had a definable and active left wing: Palm Sunday peace marches, guitar masses, priests coming home from far-flung missions with stories of liberation theology an",
-        "link": "https://www.theguardian.com/commentisfree/2026/nov/18/is-australia-ready-to-embrace-a-new-christian-left-religion-politics-ntwnfb"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Bears handed grudge match for Perth's first NRL game",
+        "desc": "The Perth Bears will play Manly in their first NRL match next season, rekindling old rivalries from the Northern Eagles merger.",
+        "link": "https://www.abc.net.au/news/2026-11-18/bears-handed-grudge-match-for-perth-first-nrl-game/107397324"
        }
       ]
      }
@@ -334,6 +382,48 @@
      },
      {
       "id": 8,
+      "headline": "Australia sanctions Israeli settlers, construction company",
+      "summary": "Among those being sanctioned is controversial settler leader Daniella Weiss, who regularly features in the media.",
+      "ts": 1794955080000,
+      "img": "https://static.ffx.io/images/$zoom_0.26475%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/aac39cb4d47d21f7d889ac9adc1f6c7acffe8417",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Australia sanctions Israeli settlers, construction company",
+        "desc": "Among those being sanctioned is controversial settler leader Daniella Weiss, who regularly features in the media.",
+        "link": "https://www.theage.com.au/politics/federal/australia-sanctions-israeli-settlers-construction-company-20261118-p61f34.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "POWs, teens among 6 US soldiers from Korean War identified seven decades later",
+      "summary": "The DPAA identified six U.S. soldiers missing from the Korean War, including two teenagers, decades after they died as prisoners of war or in action.",
+      "ts": 1794953817000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/6e365cd1-korean-war-us-soldiers.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "POWs, teens among 6 US soldiers from Korean War identified seven decades later",
+        "desc": "The DPAA identified six U.S. soldiers missing from the Korean War, including two teenagers, decades after they died as prisoners of war or in action.",
+        "link": "https://www.foxnews.com/politics/pows-teens-among-6-us-soldiers-korean-war-identified-seven-decades-later"
+       }
+      ]
+     },
+     {
+      "id": 10,
       "headline": "Senior US official undercuts CNN’s alarming Iran ‘dirty bomb’ report: ‘It’s not new’",
       "summary": "President Donald Trump warned Iran would pay a price \"no country has ever paid\" if a dirty bomb threat to Washington, D.C., proves real, amid divided assessments.",
       "ts": 1794949891000,
@@ -354,7 +444,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 11,
       "headline": "Judge fires back at Fani Willis' office in courtroom clash over Trump case: 'Due process doesn't apply to you'",
       "summary": "A Georgia appeals judge grilled Fani Willis' office over its bid to challenge nearly $17 million in legal-fee requests from Trump and other ex-defendants.",
       "ts": 1794949236000,
@@ -375,7 +465,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 12,
       "headline": "Dems campaign promise to freeze energy costs faces glaring reality check",
       "summary": "Sam Romain of Americans for Energy Dominance says Democrats' energy price controls, from Gina Hinojosa's Texas rate freeze to state caps, can't fix supply.",
       "ts": 1794947471000,
@@ -394,48 +484,6 @@
         "link": "https://www.foxnews.com/politics/dems-campaign-promise-freeze-energy-costs-faces-glaring-reality-check"
        }
       ]
-     },
-     {
-      "id": 11,
-      "headline": "Australia sanctions Israeli settlers, construction company",
-      "summary": "Among those being sanctioned is controversial settler leader Daniella Weiss, who regularly features in the media.",
-      "ts": 1794946692000,
-      "img": "https://static.ffx.io/images/$zoom_0.26475%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/aac39cb4d47d21f7d889ac9adc1f6c7acffe8417",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Australia sanctions Israeli settlers, construction company",
-        "desc": "Among those being sanctioned is controversial settler leader Daniella Weiss, who regularly features in the media.",
-        "link": "https://www.theage.com.au/politics/federal/australia-sanctions-israeli-settlers-construction-company-20261118-p61f34.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Warren grills Trump Navy secretary on cost of Iran war: 'You don't have any idea?'",
-      "summary": "Elizabeth Warren pressed acting Navy Secretary Hung Cao on the Iran war blockade's cost as he dodged questions and urged funding to reach 355 ships.",
-      "ts": 1794942954000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/elizabeth-warren.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Warren grills Trump Navy secretary on cost of Iran war: 'You don't have any idea?'",
-        "desc": "Elizabeth Warren pressed acting Navy Secretary Hung Cao on the Iran war blockade's cost as he dodged questions and urged funding to reach 355 ships.",
-        "link": "https://www.foxnews.com/politics/warren-grills-trump-navy-secretary-cost-iran-war-you-dont-have-any-idea"
-       }
-      ]
      }
     ]
    },
@@ -445,34 +493,6 @@
     "stories": [
      {
       "id": 13,
-      "headline": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
-      "summary": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop, or a gift for the student in your life, you can save $50 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is discounted to $649 (Amazon, Best Buy, Target), while the 512GB model with Touch ID is $749 (Amazon, Best Buy, Target). ",
-      "ts": 1794951980000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268387_Apple_MacBook_Neo_AKrales_0543.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
-        "desc": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop, or a gift for the student in your life, you can save $50 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is discounted to $649 (Amazon, Best Buy, Target), while the 512GB model with Touch ID is $749 (Amazon, Best Buy, Target). ",
-        "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale"
-       },
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Don’t buy new tech this Black Friday: expert tips for buying refurbished phones and laptops",
-        "desc": "Tech on its last legs? Refurbished can be the cheaper, greener option. Here’s how to choose well and avoid the pitfalls • How to make your phone last longer Even if you do your best to avoid it, it’s hard to escape the noise of retailers offering implausible-seeming Black Friday discounts on desirable technology. What they won’t be so keen to highlight is the huge environmental cost that comes fro",
-        "link": "https://www.theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk"
-       }
-      ]
-     },
-     {
-      "id": 14,
       "headline": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
       "summary": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
       "ts": 1794947575000,
@@ -491,16 +511,23 @@
         "link": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/"
        },
        {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
+        "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+       },
+       {
         "outlet": "Guardian Tech",
         "lean": "left",
-        "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
-        "desc": "Huang resigned last week over affairs with an alleged Chinese spy and multiple employees who reported to him Jensen Huang said he would be willing to return to Nvidia as CEO in his first remarks since resigning from the company on Thursday. “If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to a",
-        "link": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement"
+        "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+        "desc": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, but US treasury secretary urges ‘dramatic shake-up’ Megaspeed says it’s a ‘legitimate and lawful business’ Business live – latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip compa",
+        "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
        }
       ]
      },
      {
-      "id": 15,
+      "id": 14,
       "headline": "OpenAI sued by California after admitting to 80 loss-of-control incidents",
       "summary": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
       "ts": 1794939214000,
@@ -524,11 +551,74 @@
         "title": "OpenAI sued by California over Hugging Face attack",
         "desc": "Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.",
         "link": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+        "desc": "Lawsuit stems from earlier incident where tech company’s products hacked into open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public’s interest in mind. The lawsuit concerns an incident earlier this year where OpenAI agents – semi-autonomous AI software that can carry out digital actio",
+        "link": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit"
+       }
+      ]
+     },
+     {
+      "id": 15,
+      "headline": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
+      "summary": "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos said that he was \"heavily involved\" in the process of",
+      "ts": 1794955121000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IMG_0270.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Jeff Bezos says he was ‘heavily involved’ in picking the new James Bond",
+        "desc": "Robert Pattinson's casting as James Bond made enough sense given his recent work with director Denis Villeneuve, who's making the franchise's next film over at Amazon. But it turns out that Amazon founder Jeff Bezos played a significant role in making the final decision, too. During Semafor's Silicon Valley and the World conference today, Bezos said that he was \"heavily involved\" in the process of",
+        "link": "https://www.theverge.com/entertainment/1036110/jeff-bezos-james-bond-casting-amazon"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Meet the new James Bond: Robert Pattinson",
+        "desc": "Producers cite \"his fearlessness as an actor, his self-deprecating wit\" and continual reinvention as factors.",
+        "link": "https://arstechnica.com/culture/2026/11/meet-the-new-james-bond-robert-pattinson/"
        }
       ]
      },
      {
       "id": 16,
+      "headline": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
+      "summary": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop or a gift for the student in your life, you can save $50 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $649 (Amazon, Best Buy, Target), while the 512GB model with Touch ID is down to $749 (Amazon, Be",
+      "ts": 1794951980000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268387_Apple_MacBook_Neo_AKrales_0543.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "The MacBook Neo is receiving a rare $50 discount ahead of Black Friday",
+        "desc": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop or a gift for the student in your life, you can save $50 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $649 (Amazon, Best Buy, Target), while the 512GB model with Touch ID is down to $749 (Amazon, Be",
+        "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale"
+       },
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Don’t buy new tech this Black Friday: expert tips for buying refurbished phones and laptops",
+        "desc": "Tech on its last legs? Refurbished can be the cheaper, greener option. Here’s how to choose well and avoid the pitfalls • How to make your phone last longer Even if you do your best to avoid it, it’s hard to escape the noise of retailers offering implausible-seeming Black Friday discounts on desirable technology. What they won’t be so keen to highlight is the huge environmental cost that comes fro",
+        "link": "https://www.theguardian.com/thefilter/2025/nov/27/expert-tips-buying-refurbished-tech-phones-laptop-uk"
+       }
+      ]
+     },
+     {
+      "id": 17,
       "headline": "NHS data contract to stay with Palantir until 2029",
       "summary": "Despite calls from some Labour MPs to end the arrangement with Palantir, ministers say a new contract will not be awarded until 2029.",
       "ts": 1794916812000,
@@ -556,39 +646,11 @@
       ]
      },
      {
-      "id": 17,
-      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-      "ts": 1794883073000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-        "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
-        "desc": "CEO ousted after affair with suspected Chinese spy reportedly plans comeback, but US treasury secretary urges ‘dramatic shake-up’ Megaspeed says it’s a ‘legitimate and lawful business’ Business live – latest updates Elon Musk and a host of other tech bosses have called for Jensen Huang’s reinstatement at Nvidia, amid reports the former chief executive is already plotting a return to the chip compa",
-        "link": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
-       }
-      ]
-     },
-     {
       "id": 18,
-      "headline": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
-      "summary": "Nvidia's ousted CEO Jensen Huang earlier on Tuesday offered to return, despite the board's disinterest.",
-      "ts": 1794951913000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cab/live/73487450-e2cc-11f1-99ed-7de3e5932968.jpg",
+      "headline": "Yet another satellite company is jockeying for a rocket—but this one makes sense",
+      "summary": "\"Governments need control of their critical space infrastructure, and Europe needs it most.\"",
+      "ts": 1794955486000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/VV28_Decollage_plan_large_ZLV-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -596,11 +658,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
-        "desc": "Nvidia's ousted CEO Jensen Huang earlier on Tuesday offered to return, despite the board's disinterest.",
-        "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss"
+        "title": "Yet another satellite company is jockeying for a rocket—but this one makes sense",
+        "desc": "\"Governments need control of their critical space infrastructure, and Europe needs it most.\"",
+        "link": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/"
        }
       ]
      }
@@ -614,7 +676,7 @@
       "id": 19,
       "headline": "Jensen Huang breaks silence, declares desire to return as Nvidia CEO",
       "summary": "Amid a clamour from tech bosses and investors for him to be reinstated, the chief executive issued a statement saying he would be “honoured” to return.",
-      "ts": 1794945778000,
+      "ts": 1794955907000,
       "img": "https://static.ffx.io/images/$zoom_0.5059%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/acb183e8d33b7237857ff014e12a25cad20bf2ac",
       "divergent": null,
       "left_view": null,
@@ -623,18 +685,18 @@
       "hasBothSides": true,
       "sources": [
        {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Nvidia chair pushes back on Jensen Huang’s plea to return",
+        "desc": "The billionaire said he “would be honoured” to return to the company after his dramatic ouster last week following revelations of an extramarital affair with an alleged Chinese spy.",
+        "link": "https://www.theage.com.au/business/companies/i-own-my-mistakes-jensen-huang-pushes-for-return-to-nvidia-20261118-p61f2k.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
         "outlet": "AFR",
         "lean": "centre",
         "title": "Jensen Huang breaks silence, declares desire to return as Nvidia CEO",
         "desc": "Amid a clamour from tech bosses and investors for him to be reinstated, the chief executive issued a statement saying he would be “honoured” to return.",
         "link": "https://www.afr.com/world/north-america/jensen-huang-breaks-silence-declares-intention-to-return-as-nvidia-ceo-20261118-p61f2n?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "‘I made serious mistakes’: Jensen Huang opens up as he pushes for return to Nvidia",
-        "desc": "The billionaire said he “would be honoured” to return to the company after his dramatic ouster last week following revelations of an extramarital affair with an alleged Chinese spy.",
-        "link": "https://www.theage.com.au/business/companies/i-own-my-mistakes-jensen-huang-pushes-for-return-to-nvidia-20261118-p61f2k.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
         "outlet": "Fox Business",
@@ -647,10 +709,10 @@
      },
      {
       "id": 20,
-      "headline": "Woodside’s IR manager turns heads on Wall Street",
-      "summary": "Derek Lau has swapped the MasterChef kitchen for the New York Stock Exchange.",
-      "ts": 1794952134000,
-      "img": "https://static.ffx.io/images/$zoom_0.5883333333333333%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/af42deb759a69101b8b23c8ac4ce7b75bd0bf581",
+      "headline": "Nvidia does not intend to reinstate Huang despite calls",
+      "summary": "In his first comments since resigning under pressure over his affair with a suspected Chinese spy, Jensen Huang says he would be honoured to return as Nvidia CEO if the board decides to have him back.",
+      "ts": 1794954434000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/74b72208243985d602b0b4642d1796c6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=291&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -658,27 +720,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age Business",
+        "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "ASX eyes more losses as Wall Street falls; Nvidia results beat expectations",
-        "desc": "More manic swings for Nvidia and other stocks in the artificial-intelligence industry are dragging the US market downward.",
-        "link": "https://www.theage.com.au/business/markets/asx-eyes-more-losses-as-wall-street-falls-nvidia-results-ahead-20261118-p61f2l.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+        "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+        "desc": "The company reported doubling revenue in its first earnings report after the ouster of CEO over allegations of affair with suspected Chinese spy Nvidia “does not intend to reinstate Jensen as CEO”, the chairman of the company’s board said Tuesday. Harvey Jones made the remark during Nvidia’s first quarterly earnings report since Jensen Huang’s ouster. Nvidia announced the same day that its quarter",
+        "link": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
        },
        {
-        "outlet": "AFR",
+        "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Woodside’s IR manager turns heads on Wall Street",
-        "desc": "Derek Lau has swapped the MasterChef kitchen for the New York Stock Exchange.",
-        "link": "https://www.afr.com/rear-window/woodside-s-ir-manager-turns-heads-on-wall-street-20261118-p61es6?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Nvidia does not intend to reinstate Huang despite calls",
+        "desc": "In his first comments since resigning under pressure over his affair with a suspected Chinese spy, Jensen Huang says he would be honoured to return as Nvidia CEO if the board decides to have him back.",
+        "link": "https://www.abc.net.au/news/2026-11-18/ex-nvidia-ceo-jensen-huang-says-he-would-be-honoured-to-return/107397042"
        }
       ]
      },
      {
       "id": 21,
-      "headline": "Nvidia’s earnings beat overshadowed by Huang drama",
-      "summary": "Nvidia’s acting CEO has only been in the job five days, since Jensen Huang’s controversial resignation, and faces tough questions after announcing quarterly earnings.",
-      "ts": 1794951485000,
-      "img": "https://static.ffx.io/images/$zoom_0.3617%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_9/t_crop_custom/q_86%2Cf_auto/a57d4a92fed4b55a0f369d3894dbfb2ce09d0443528c6342f2a3ae8ab0515f44",
+      "headline": "Nuix receives almost $1b takeover bid from US private equity firm",
+      "summary": "The non-binding offer for the intelligence software company comes after a period of negotiation between it and the United States-based PE firm.",
+      "ts": 1794954088000,
+      "img": "https://static.ffx.io/images/$zoom_0.3825%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_913%2C$y_1063/t_crop_custom/q_86%2Cf_auto/63e0bfa134f82fdb292f4fc0b0b8613a0b8f2a67",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -688,49 +750,21 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Nvidia’s earnings beat overshadowed by Huang drama",
-        "desc": "Nvidia’s acting CEO has only been in the job five days, since Jensen Huang’s controversial resignation, and faces tough questions after announcing quarterly earnings.",
-        "link": "https://www.afr.com/technology/nvidia-s-earnings-beat-overshadowed-by-huang-drama-20261118-p61eup?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Nuix receives almost $1b takeover bid from US private equity firm",
+        "desc": "The non-binding offer for the intelligence software company comes after a period of negotiation between it and the United States-based PE firm.",
+        "link": "https://www.afr.com/technology/nuix-receives-almost-1b-takeover-bid-from-us-private-equity-firm-20261118-p61f4c?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Nvidia releases quarterly earnings after Jensen Huang's resignation as CEO",
-        "desc": "Nvidia released its first quarterly earnings report since Jensen Huang resigned as CEO last week following reports about his extramarital affairs.",
-        "link": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo"
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Private equity tipped David Jones over the edge. It could end up back in control",
+        "desc": "Anchorage Capital may hold the whip hand in determining DJ’s future. But the administration process is unpredictable, just ask Lachlan Murdoch.",
+        "link": "https://www.theage.com.au/business/companies/private-equity-tipped-david-jones-over-the-edge-it-could-end-up-back-in-control-20261117-p61evg.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        }
       ]
      },
      {
       "id": 22,
-      "headline": "No agreement yet to pass CGT or trusts, Greens say; Apple suffers outage",
-      "summary": "Greens say deal is getting closer but not there yet; Apple, US national security site experience outage; Zoom, Ikea, HSBC hit by global crypto cyberattack. Follow live updates.",
-      "ts": 1794949551000,
-      "img": "https://static.ffx.io/images/$zoom_0.1935%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/efb9156650f9c8cf4be383fdc8d239195a695804",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "No agreement yet to pass CGT or trusts, Greens say; Apple suffers outage",
-        "desc": "Greens say deal is getting closer but not there yet; Apple, US national security site experience outage; Zoom, Ikea, HSBC hit by global crypto cyberattack. Follow live updates.",
-        "link": "https://www.afr.com/politics/federal/australia-news-live-updates-trump-says-us-looking-into-threat-of-iran-dirty-bomb-attack-20261118-p61f2c?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Greens offer government a path to pass trusts and capital gains tax changes",
-        "desc": "The minor party's support will be critical to pass a minimum tax on trusts and a carve-out for start-ups in the capital gains tax regime.",
-        "link": "https://www.abc.net.au/news/2026-11-17/greens-offer-government-path-to-pass-trusts-cgt/107394802"
-       }
-      ]
-     },
-     {
-      "id": 23,
       "headline": "Australia’s gender pay gap falls below 20% for first time",
       "summary": "Men still dominate top-paid positions but businesses’ ‘deliberate’ decisions have narrowed gap, workplace gender equality agency report finds Get our breaking news email, free app or daily news podcast Australian women earn 80c for every $1 men earn, on average, after Australia’s gender pay gap fell below 20% for the first time in 2025-26. The Workplace Gender Equality Agency’s (WGEA) report on We",
       "ts": 1794924013000,
@@ -758,7 +792,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 23,
       "headline": "'Unfair and unjust': Anger from David Jones suppliers as debt revealed",
       "summary": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
       "ts": 1794894860000,
@@ -782,6 +816,34 @@
         "title": "'Unfair and unjust': Anger from David Jones suppliers as debt revealed",
         "desc": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
         "link": "https://www.abc.net.au/news/2026-11-17/david-jones-creditors-owed-almost-half-a-billion-dollars/107389716"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Bunnings cuts 230 jobs in partial offshoring of tech services",
+      "summary": "Hardware giant Bunnings will cut 230 jobs as it looks to offshore a section of its technology department.",
+      "ts": 1794888616000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/356700aaa8afe99b10808174771e8af0?impolicy=wcms_crop_resize&cropH=2916&cropW=5184&xPos=0&yPos=486&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Bunnings axes 350 tech jobs in AI-driven push offshore",
+        "desc": "The hardware giant’s announcement is the latest in a wave of recent job cuts across corporate Australia.",
+        "link": "https://www.theage.com.au/business/companies/bunnings-slashes-350-tech-jobs-offshoring-to-india-20261117-p61ey8.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Bunnings cuts 230 jobs in partial offshoring of tech services",
+        "desc": "Hardware giant Bunnings will cut 230 jobs as it looks to offshore a section of its technology department.",
+        "link": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860"
        }
       ]
      }
@@ -863,9 +925,93 @@
      },
      {
       "id": 27,
+      "headline": "Josh Sinn makes ‘difficult’ admission after AFL btting ban: ‘Not an excuse’",
+      "summary": "The 23-year-old has issued another apology for his serious rules breach.",
+      "ts": 1794956334000,
+      "img": "https://images.7news.com.au/publication/C-23177441/022ae752848d9385cb7909ec0d6b2ccbe3501dfa-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Josh Sinn makes ‘difficult’ admission after AFL btting ban: ‘Not an excuse’",
+        "desc": "The 23-year-old has issued another apology for his serious rules breach.",
+        "link": "https://7news.com.au/sport/afl/josh-sinn-makes-difficult-admission-after-afl-btting-ban-not-an-excuse-c-23177441"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Port Adelaide player Josh Sinn banned for betting on AFL matches: ‘I knew the rules’",
+        "desc": "Power defender accepts six-match ban for placing bets totalling $195 Sinn did not play in the four games he was found to have gambled on Port Adelaide defender Josh Sinn has been banned for six AFL matches after he admitted to gambling on Australian rules football games. An AFL integrity unit investigation found Sinn placed four bets on four separate matches across an eight-day period in April and",
+        "link": "https://www.theguardian.com/sport/2026/nov/17/port-adelaide-josh-sinn-match-ban-betting-afl-games"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "Perth Bears to host Manly as NRL unveils full Round 1 fixture",
+      "summary": "The league has unveiled its full Round 1 fixture and is hoping a bitter rivalry will touch a nerve in the AFL state.",
+      "ts": 1794955296000,
+      "img": "https://images.7news.com.au/publication/C-23177312/284fdb25cff4f1790540e99e8861e42a06ec6bb4-16x9-x0y2w1304h733.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Perth Bears to host Manly as NRL unveils full Round 1 fixture",
+        "desc": "The league has unveiled its full Round 1 fixture and is hoping a bitter rivalry will touch a nerve in the AFL state.",
+        "link": "https://7news.com.au/sport/rugby-league/perth-bears-to-host-manly-as-nrl-unveils-full-round-1-fixture-c-23177312"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Bears handed grudge match for Perth's first NRL game",
+        "desc": "The Perth Bears will play Manly in their first NRL match next season, rekindling old rivalries from the Northern Eagles merger.",
+        "link": "https://www.abc.net.au/news/2026-11-18/bears-handed-grudge-match-for-perth-first-nrl-game/107397324"
+       }
+      ]
+     },
+     {
+      "id": 29,
+      "headline": "Ruthless Zverev through to ATP Finals knockout stage",
+      "summary": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
+      "ts": 1794954624000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa9e/live/2f3ee070-e2d4-11f1-99ed-7de3e5932968.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Ruthless Zverev through to ATP Finals knockout stage",
+        "desc": "World number one Alexander Zverev produces a serving masterclass to defeat Ben Shelton and qualify for the ATP Finals knockout stage with a match to spare.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Zverev takes straight-sets win against Shelton in ATP Finals group stage – as it happened",
+        "desc": "The world No 1 prevailed 6-2, 7-6 (4) in a rematch of the US Open final earlier this year, after Arthur Fils came from behind to beat Rafael Jodar Ready … play. Shelton’s backhand was pretty nifty against Arthur Fils in his first match. If it’s on tonight, he’s got a much better chance of winning – and it’s something Juan Carlos Ferrero must sort with him if he’s to improve on his current standing",
+        "link": "https://www.theguardian.com/sport/live/2026/nov/17/alexander-zverev-v-ben-shelton-atp-finals-tennis-group-stage-live"
+       }
+      ]
+     },
+     {
+      "id": 30,
       "headline": "FA wants to host Nations League finals in England",
       "summary": "England could host the Nations League finals this season after Football Association officials register their interest.",
-      "ts": 1794952241000,
+      "ts": 1794953409000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a7f/live/592780e0-e29d-11f1-8dda-8925a81c3da5.jpg",
       "divergent": null,
       "left_view": null,
@@ -876,8 +1022,8 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Wales 2-3 Portugal: Nations League football – live",
-        "desc": "Nations League updates from the 7.45pm GMT kick-off Live scores | Today’s Football Daily | And email Scott 4 min: António Silva strides out of defence and scuffs a strange pass straight to James. He’s fortunate that James doesn’t seem to know what to do with the ball, even though he’s got a bit of time down the inside-right channel and Wilson in the middle. The ball’s handed straight back. 2 min: ",
+        "title": "Wales 2-3 Portugal: Nations League football – as it happened",
+        "desc": "Portugal’s first win of the post-CR7 era was secured, with pleasing symmetry, by CF7 4 min: António Silva strides out of defence and scuffs a strange pass straight to James. He’s fortunate that James doesn’t seem to know what to do with the ball, even though he’s got a bit of time down the inside-right channel and Wilson in the middle. The ball’s handed straight back. 2 min: The atmosphere in the ",
         "link": "https://www.theguardian.com/football/live/2026/nov/17/wales-v-portugal-nations-league-football-live-score-updates"
        },
        {
@@ -886,90 +1032,6 @@
         "title": "FA wants to host Nations League finals in England",
         "desc": "England could host the Nations League finals this season after Football Association officials register their interest.",
         "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Springboks coach Rassie Erasmus cops six-match ban for ‘unacceptable’ match-fixing claim",
-      "summary": "The 54-year-old let rip in front of the cameras and is now paying a big price.",
-      "ts": 1794950279000,
-      "img": "https://images.7news.com.au/publication/C-23177179/9ae8b0045d9966de0a44e5df38309c20c0d4dce1-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Springboks coach Rassie Erasmus cops six-match ban for ‘unacceptable’ match-fixing claim",
-        "desc": "The 54-year-old let rip in front of the cameras and is now paying a big price.",
-        "link": "https://7news.com.au/sport/rugby-union/springboks-coach-rassie-erasmus-cops-six-match-ban-for-unacceptable-match-fixing-claim-c-23177179"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Rassie Erasmus hit with six-game ban for ‘match-fixing’ rant after France defeat",
-        "desc": "Springboks’ coach made contentious remarks in tirade Misses Nations Championship finals at Twickenham Rassie Erasmus has been banned for six international matches with immediate effect by World Rugby after an investigation into his remarkable rant on Monday in which he questioned whether officials were match-fixing. The global governing body has moved swiftly with a disciplinary panel determining ",
-        "link": "https://www.theguardian.com/sport/2026/nov/17/rassie-erasmus-south-africa-rugby-union-match-officials"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "South Africa head coach Erasmus banned for six matches",
-      "summary": "South Africa head coach Rassie Erasmus has been banned for six matches by World Rugby over comments he made about match officials.",
-      "ts": 1794949159000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/107e/live/acefa850-e2a3-11f1-8226-87dfa5049e9a.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Rassie Erasmus’s tired ref-blaming act is wearing thin – South Africa deserve better | Robert Kitson",
-        "desc": "Springboks’ achievements are remarkable but their head coach lacks statesmanship, diplomacy and good grace in defeat So here we go again. Exactly five years have passed since South Africa’s head coach, Rassie Erasmus, first felt the full force of World Rugby’s ire for criticising match officials. And guess what? This most habitual of offenders has just copped another lengthy ban – and deservedly s",
-        "link": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-rassie-erasmus-south-africa-france-referee-blaming"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "South Africa head coach Erasmus banned for six matches",
-        "desc": "South Africa head coach Rassie Erasmus has been banned for six matches by World Rugby over comments he made about match officials.",
-        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cj752w5q7z90o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Tony Popovic dealt ‘terrible’ 2-0 loss to Jordan in possible Socceroos farewell",
-      "summary": "If this is to be goodbye to the World Cup veteran it was not what anyone wanted to see.",
-      "ts": 1794948724000,
-      "img": "https://images.7news.com.au/publication/C-23177133/09d2ebfa2a5b7b85f66f881491f990896a288b54-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Tony Popovic dealt ‘terrible’ 2-0 loss to Jordan in possible Socceroos farewell",
-        "desc": "If this is to be goodbye to the World Cup veteran it was not what anyone wanted to see.",
-        "link": "https://7news.com.au/sport/soccer/tony-popovic-dealt-terrible-2-0-loss-to-jordan-in-possible-socceroos-farewell-c-23177133"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Popovic admits Socceroos future uncertain after Asian Cup postponement",
-        "desc": "Tony Popovic hopes this week's clash with Jordan is not his last in charge of the Socceroos, but admits he is yet to hold contract talks with FA.",
-        "link": "https://www.abc.net.au/news/2026-11-17/tony-popovic-admits-socceroos-future-is-uncertain/107393048"
        }
       ]
      }
@@ -981,16 +1043,23 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Past Meets Present In Panem: Francis Lawrence Hails Three Generations Of ‘Hunger Games’ Actors At ‘Sunrise On The Reaping’ Premiere",
-      "summary": "Director Francis Lawrence called the night “historic” as the world premiere of The Hunger Games: Sunrise On The Reaping turned into an epic cast reunion for the film franchise launched in 2012. “Three generations of actors from The Hunger Games are here with us. Everybody came. I’ve loved working with all of you. Thank you […]",
-      "ts": 1794951862000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2305449140.jpg",
+      "headline": "Jennifer Lawrence’s ‘Hunger Games’ Premiere Look Proves the Boudoir Coat Is Back: Here’s Where to Shop Similar Styles Online",
+      "summary": "Naked dressing out. Fur, in. At the premiere of “The Hunger Games: Sunrise on the Reaping” on Monday night, Jennifer Lawrence embraced one of the biggest outerwear trends this season: the fur-trimmed satin coat. The actress, who reprises her beloved role as Katniss in the prequel film, walked the carpet in a floor-length black silk […]",
+      "ts": 1794955409000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2305445903.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Jennifer Lawrence’s ‘Hunger Games’ Premiere Look Proves the Boudoir Coat Is Back: Here’s Where to Shop Similar Styles Online",
+        "desc": "Naked dressing out. Fur, in. At the premiere of “The Hunger Games: Sunrise on the Reaping” on Monday night, Jennifer Lawrence embraced one of the biggest outerwear trends this season: the fur-trimmed satin coat. The actress, who reprises her beloved role as Katniss in the prequel film, walked the carpet in a floor-length black silk […]",
+        "link": "https://variety.com/2026/shopping/news/jennifer-lawrence-hunger-games-premiere-dior-fur-coat-shop-1236950905/"
+       },
        {
         "outlet": "Deadline",
         "lean": "centre",
@@ -1009,10 +1078,10 @@
      },
      {
       "id": 32,
-      "headline": "‘3 Body Problem’ Sets Season 2 Release Date at Netflix (TV News Roundup)",
-      "summary": "Netflix’s sci-fi thriller “3 Body Problem” returns for Season 2 on Jan. 14. The series, based on the popular “Remembrance of Earth’s Past” book series by Chinese author Liu Cixin, explores complex questions about the nature of the universe, leading a group of scientists to partner with a detective to confront an existential planetary threat […]",
-      "ts": 1794950255000,
-      "img": "https://variety.com/wp-content/uploads/2024/03/Young-Ye-Wenjie.jpg",
+      "headline": "Marvel Started Planning for Robert Downey Jr.’s Doctor Doom Before Jonathan Majors Was Fired and ‘Avengers: The Kang Dynasty’ Fell Apart, Says Kevin Feige",
+      "summary": "Before “Avengers: Doomsday,” there was “Avengers: The Kang Dynasty.” Marvel Studios boss Kevin Feige announced the latter title at Comic-Con in July 2022, with Jonathan Majors’ Kang the Conqueror poised to become the Marvel Cinematic Universe’s next Thanos-sized villain starting with 2023’s “Ant-Man and the Wasp: Quantumania.” Those plans, however, were upended a few weeks […]",
+      "ts": 1794954009000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/MCDAVDO-WD017-MCDANMA-WD029-1000.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1022,25 +1091,25 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘3 Body Problem’ Sets Season 2 Release Date at Netflix (TV News Roundup)",
-        "desc": "Netflix’s sci-fi thriller “3 Body Problem” returns for Season 2 on Jan. 14. The series, based on the popular “Remembrance of Earth’s Past” book series by Chinese author Liu Cixin, explores complex questions about the nature of the universe, leading a group of scientists to partner with a detective to confront an existential planetary threat […]",
-        "link": "https://variety.com/2026/tv/news/tv-news-roundup-week-of-nov-16-1236949183/"
+        "title": "Marvel Started Planning for Robert Downey Jr.’s Doctor Doom Before Jonathan Majors Was Fired and ‘Avengers: The Kang Dynasty’ Fell Apart, Says Kevin Feige",
+        "desc": "Before “Avengers: Doomsday,” there was “Avengers: The Kang Dynasty.” Marvel Studios boss Kevin Feige announced the latter title at Comic-Con in July 2022, with Jonathan Majors’ Kang the Conqueror poised to become the Marvel Cinematic Universe’s next Thanos-sized villain starting with 2023’s “Ant-Man and the Wasp: Quantumania.” Those plans, however, were upended a few weeks […]",
+        "link": "https://variety.com/2026/film/news/doctor-doom-avengers-kang-dynasty-jonathan-majors-fired-1236950563/"
        },
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Yellowstone Star’s New Sci-Fi Thriller Officially Sets 2027 Release Date",
-        "desc": "Yellowstone star Josh Holloway's upcoming sci-fi thriller receives an exciting update as the highly anticipated adaptation moves forward.",
-        "link": "https://screenrant.com/josh-holloway-one-second-after-movie-release-date/"
+        "title": "Marvel’s Original Doom & Kang Avengers Villain Plans Confirmed By Kevin Feige",
+        "desc": "Kevin Feige finally confirms what the original Kang and Doctor Doom plans were going to be for Doomsday before The Kang Dynasty became Doomsday.",
+        "link": "https://screenrant.com/avengers-kang-doctor-doom-mcu-villain-plans-scrapped-kevin-feige/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "Amazon's New Action Thriller Series Will Make Jack Ryan Look Small",
-      "summary": "Jack Ryan is one of the biggest action thriller shows on Prime Video, but the streamer has another major show on the horizon that should be huge.",
-      "ts": 1794949218000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/jack-ryan_ccutoy.jpg",
+      "headline": "The Next Bond Villain: From Idris Elba to Kristen Stewart, 22 Actors Who Should Face Off Against Robert Pattinson",
+      "summary": "Every James Bond is only as good as the person who’s trying to kill him. Throughout the franchise’s history, we’ve seen Sean Connery take on Gert Fröbe’s Goldfinger, Roger Moore tackle Christopher Walken’s Max Zorin and, in the Daniel Craig era, Mads Mikkelsen’s Le Chiffre in “Casino Royale” and Javier Bardem’s notorious Raoul Silva in […]",
+      "ts": 1794953700000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Bond-Villains.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1048,55 +1117,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Amazon's New Action Thriller Series Will Make Jack Ryan Look Small",
-        "desc": "Jack Ryan is one of the biggest action thriller shows on Prime Video, but the streamer has another major show on the horizon that should be huge.",
-        "link": "https://screenrant.com/tomb-raider-amazon-show-jack-ryan-comparison/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Kids Competition Series ‘Shrunk’ Set at Amazon Kids+, CBC, ITV From Insight, Dark Slope, Irad Eyal (EXCLUSIVE)",
-        "desc": "The kids competition series “Shrunk” has been greenlit at Amazon Kids+, CBC, and ITV, Variety has learned exclusively. The first season will consist of six 30-minute episodes. The format hails from Insight Productions, Dark Slope, and Irad Eyal (“Floor Is Lava”). Pre-production is currently underway, with shooting set to begin in January 2027 at Dark […]",
-        "link": "https://variety.com/2026/tv/news/kids-competition-series-shrunk-amazon-kids-cbc-itv-1236950683/"
+        "title": "The Next Bond Villain: From Idris Elba to Kristen Stewart, 22 Actors Who Should Face Off Against Robert Pattinson",
+        "desc": "Every James Bond is only as good as the person who’s trying to kill him. Throughout the franchise’s history, we’ve seen Sean Connery take on Gert Fröbe’s Goldfinger, Roger Moore tackle Christopher Walken’s Max Zorin and, in the Daniel Craig era, Mads Mikkelsen’s Le Chiffre in “Casino Royale” and Javier Bardem’s notorious Raoul Silva in […]",
+        "link": "https://variety.com/lists/robert-pattinson-james-bond-villains-actors-picks/"
+       },
+       {
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Robert Pattinson is James Bond. So what happens next?",
+        "desc": "The wait for the new Bond is over but that’s only the beginning – there are still small issues such as the script, title, setting, casting, branding and promotion … • Robert Pattinson announced as James Bond – news • Share your thoughts on the casting • Peter Bradshaw’s take • Pattinson’s journey to James Bond • Behind Bond’s bankability It’s official: Robert Pattinson is the new James Bond. While",
+        "link": "https://www.theguardian.com/film/2026/nov/17/robert-pattinson-is-james-bond-so-what-happens-next"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "Moshe Rosenthal on Directing Queer Oscar Contender ‘Tell Me Everything’: ‘Certain Films Open a Door in Your Heart for Your Own Memories’",
-      "summary": "Moshe Rosenthal’s “Tell Me Everything” is the story of a father-son relationship fractured by an uncomfortable secret. Set in the late 1980s and early 1990s in Holon, a city in western Israel, it grapples with queerness, masculinity and family just as 12 year-old Boaz is preparing for his Bar Mitzvah. Like all Rosenthal’s work, “Tell […]",
-      "ts": 1794944900000,
-      "img": "https://variety.com/wp-content/uploads/2025/12/Tell-Me-Everything.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Moshe Rosenthal on Directing Queer Oscar Contender ‘Tell Me Everything’: ‘Certain Films Open a Door in Your Heart for Your Own Memories’",
-        "desc": "Moshe Rosenthal’s “Tell Me Everything” is the story of a father-son relationship fractured by an uncomfortable secret. Set in the late 1980s and early 1990s in Holon, a city in western Israel, it grapples with queerness, masculinity and family just as 12 year-old Boaz is preparing for his Bar Mitzvah. Like all Rosenthal’s work, “Tell […]",
-        "link": "https://variety.com/2026/film/global/moshe-rosenthal-tell-me-everything-queer-drama-oscars-1236950102/"
-       },
-       {
-        "outlet": "Anime News Network",
-        "lean": "centre",
-        "title": "Exclusive: Nakama Press Licenses Uoyama's Opening the Door to Hinata-San's Heart Manga",
-        "desc": "Manga from Love's in Sight author centers on shut-in high school student",
-        "link": "https://www.animenewsnetwork.com/news/2026-11-17/exclusive-nakama-press-licenses-uoyama-opening-the-door-to-hinata-san-heart-manga/.243853"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "Keanu Reeves Officially Returning As John Wick For A Different Kind Of Prequel",
-      "summary": "Keanu Reeves returns for a new prequel, taking fans back to the beginning of John Wick's story before The Impossible Task.",
-      "ts": 1794952819000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/keanu-reeves-at-the-end-of-john-wick-chapter-4.jpg",
+      "headline": "Michael Connelly’s Bosch Replacement’s Next Release Is Just 6 Months Away",
+      "summary": "Michael Connelly's newest detective, Steve Stilwell, will return in the upcoming Catalina series novel Daybreak, releasing in 2027.",
+      "ts": 1794956418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/bosch_feswbu-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1106,18 +1147,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Keanu Reeves Officially Returning As John Wick For A Different Kind Of Prequel",
-        "desc": "Keanu Reeves returns for a new prequel, taking fans back to the beginning of John Wick's story before The Impossible Task.",
-        "link": "https://screenrant.com/keanu-reeves-john-wick-return-game-prequel/"
+        "title": "Michael Connelly’s Bosch Replacement’s Next Release Is Just 6 Months Away",
+        "desc": "Michael Connelly's newest detective, Steve Stilwell, will return in the upcoming Catalina series novel Daybreak, releasing in 2027.",
+        "link": "https://screenrant.com/michael-connellys-bosch-replacement-daybreak-may-2027/"
        }
       ]
      },
      {
-      "id": 36,
-      "headline": "IDA Documentary Awards 2026 Nominations: ‘Concrete Land’ Leads With Six, Followed by ‘To Hold a Mountain’ With Five",
-      "summary": "This year’s nominees include “You Can See Everything,” “To Hold a Mountain” and “Rehearsals for a Revolution,” as well as films from Baz Luhrmann, Ahmir “Questlove” Thompson and Laura Poitras. IDA received a record 650 submissions from 95 countries, with 32 countries represented among this year’s nominees. More to come… Best Feature Documentary Best Short […]",
-      "ts": 1794952806000,
-      "img": "https://variety.com/wp-content/uploads/2026/08/Concrete-Land.jpg",
+      "id": 35,
+      "headline": "10 Longest-Running Comic Strips Of All Time",
+      "summary": "There are many iconic and lengthy comic strips that people have loved, but here are ten of the best long-running comic strips of all time.",
+      "ts": 1794956418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/thimble-theatre-_-popeye-in-front-of-the-katzenjammer-kids-and-fritzi-ritz-_-nancy-comics-featured-image.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1125,11 +1166,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "IDA Documentary Awards 2026 Nominations: ‘Concrete Land’ Leads With Six, Followed by ‘To Hold a Mountain’ With Five",
-        "desc": "This year’s nominees include “You Can See Everything,” “To Hold a Mountain” and “Rehearsals for a Revolution,” as well as films from Baz Luhrmann, Ahmir “Questlove” Thompson and Laura Poitras. IDA received a record 650 submissions from 95 countries, with 32 countries represented among this year’s nominees. More to come… Best Feature Documentary Best Short […]",
-        "link": "https://variety.com/2026/film/awards/ida-documentary-awards-2026-nominations-full-list-1236950889/"
+        "title": "10 Longest-Running Comic Strips Of All Time",
+        "desc": "There are many iconic and lengthy comic strips that people have loved, but here are ten of the best long-running comic strips of all time.",
+        "link": "https://screenrant.com/most-long-running-comic-strips-successful/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "8 Strongest Villains In The Lord Of The Rings & The Hobbit Movies, Ranked By Power (& Sauron Isn't #1)",
+      "summary": "J.R.R. Tolkien introduced some of the greatest fantasy villains of all time in The Lord and the Rings & The Hobbit. But how do they compare in power?",
+      "ts": 1794955818000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/eye-of-sauron-lord-of-the-rings.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "8 Strongest Villains In The Lord Of The Rings & The Hobbit Movies, Ranked By Power (& Sauron Isn't #1)",
+        "desc": "J.R.R. Tolkien introduced some of the greatest fantasy villains of all time in The Lord and the Rings & The Hobbit. But how do they compare in power?",
+        "link": "https://screenrant.com/lord-of-the-rings-villains-ranked-by-power/"
        }
       ]
      }
@@ -1137,34 +1199,34 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
-   "Crikey",
    "The Age",
-   "BBC World",
    "ABC News",
-   "7News",
-   "Guardian AU Politics",
-   "The Age Federal Politics",
+   "Guardian Australia",
    "Fox News",
+   "Crikey",
    "Guardian Tech",
-   "BBC Tech",
-   "Ars Technica",
-   "The Verge",
-   "Guardian AU Business",
-   "The Age Business",
-   "ABC Business",
-   "The Conversation",
    "Fox News Politics",
-   "Guardian AU Sport",
-   "BBC Sport",
-   "AFR",
-   "ABC Sport",
+   "Ars Technica",
+   "BBC Tech",
+   "Guardian AU Politics",
+   "BBC World",
+   "The Age Federal Politics",
+   "The Verge",
+   "The Conversation",
+   "ABC Business",
    "Fox Business",
-   "Variety",
+   "7News",
+   "Guardian AU Business",
+   "AFR",
+   "BBC Sport",
    "Deadline",
-   "Guardian Film",
-   "SBS News",
+   "The Age Business",
+   "Guardian AU Sport",
+   "Variety",
    "Anime News Network",
+   "ABC Sport",
+   "SBS News",
+   "Guardian Film",
    "Screen Rant",
    "Daily Mail Australia",
    "7News Sport"
@@ -1360,7 +1422,7 @@
   {
    "title": "[iOS] Three Routes – Free Lifetime Pro @ Apple App Store",
    "link": "https://www.ozbargain.com.au/node/983771",
-   "votes": 148,
+   "votes": 162,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794911966000
@@ -1376,26 +1438,10 @@
   {
    "title": "10 Wicked Boneless $10.95 Pickup @ KFC (Online/App Order Required)",
    "link": "https://www.ozbargain.com.au/node/983620",
-   "votes": 95,
+   "votes": 96,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1794877091000
-  },
-  {
-   "title": "Sharpie Permanent Markers, Fine Point $2.80 (RRP $5.59) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/983604",
-   "votes": 75,
-   "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1794875014000
-  },
-  {
-   "title": "Harman Kardon Aura Studio 4 Grey Bluetooth Speaker $128 Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/983591",
-   "votes": 71,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1794873373000
   },
   {
    "title": "SHiFT Code for Borderlands 4 - 4 Weapon Skins @ Gearbox Software",
@@ -1424,7 +1470,7 @@
   {
    "title": "30% off DVD, Blu-Ray & 4K (Excludes Pre-Orders) + Delivery ($0 C&C/ in-Store) @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/983722",
-   "votes": 56,
+   "votes": 58,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1794899787000
@@ -1432,7 +1478,7 @@
   {
    "title": "Philips 3000i Air Purifier $249 Delivered @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/983785",
-   "votes": 54,
+   "votes": 57,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794914490000
@@ -1440,7 +1486,7 @@
   {
    "title": "Shark StainStriker Portable Carpet & Upholstery Cleaner, White $129 (RRP $299.99) Delivered @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/983744",
-   "votes": 53,
+   "votes": 55,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794905450000
@@ -1448,34 +1494,50 @@
   {
    "title": "Apple AirPods Pro 3 $289 Delivered / C&C / In-Store @ BIG W",
    "link": "https://www.ozbargain.com.au/node/983792",
-   "votes": 44,
+   "votes": 51,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794918855000
   },
   {
-   "title": "The Hobbit & The Lord of The Rings Boxed Set [Illustrated Edition] $119.99 Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/983614",
-   "votes": 44,
-   "neg": 0,
-   "category": "Books & Magazines",
-   "ts": 1794875837000
-  },
-  {
    "title": "Bose QuietComfort SC Wireless Noise Cancelling Headphones $249 (RRP $499.95) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/983651",
-   "votes": 43,
+   "votes": 44,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794882554000
   },
   {
-   "title": "LEGO 72046 Super Mario Game Boy $64.59 (Expired), LEGO Botanicals Magnolia Branches $48.26 +Del ($0 Prime/$59) & More @ AmazonAU",
-   "link": "https://www.ozbargain.com.au/node/983598",
-   "votes": 35,
+   "title": "[Afterpay] Dyson V16 Piston Animal Cordless Vacuum $679.15 Delivered @ Dyson eBay",
+   "link": "https://www.ozbargain.com.au/node/983653",
+   "votes": 31,
    "neg": 0,
-   "category": "Toys & Kids",
-   "ts": 1794874479000
+   "category": "Electrical & Electronics",
+   "ts": 1794883232000
+  },
+  {
+   "title": "Garmin Fenix 8, 47mm AMOLED Sapphire Smartwatch Grey Bezel $997 Titanium $999 @ Amazon AU @ Rebel Sports @ HN @ JB-Hifi",
+   "link": "https://www.ozbargain.com.au/node/983805",
+   "votes": 29,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1794931153000
+  },
+  {
+   "title": "Xbox Wireless Controller (Red/White/Black/Pink) $69 Delivered ($59 after Newsletter Voucher) @ Target",
+   "link": "https://www.ozbargain.com.au/node/983816",
+   "votes": 27,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1794946959000
+  },
+  {
+   "title": "20% off All Milwaukee Tools and Accessories + $9.99 Delivery ($0 VIC C&C/ $100 Order) @ Power Tool Specialists",
+   "link": "https://www.ozbargain.com.au/node/983717",
+   "votes": 25,
+   "neg": 0,
+   "category": "Home & Garden",
+   "ts": 1794898748000
   }
  ],
  "carried": {}
