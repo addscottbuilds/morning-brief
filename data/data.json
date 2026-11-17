@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T02:08:29.555Z",
+ "generatedAt": "2026-11-17T02:30:54.046Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8926.9,
-    "chgPct": -1.7099402344451051,
+    "price": 8904.1,
+    "chgPct": -1.9609807258424077,
     "high52": 9296.7,
-    "off52": -3.9777555476674635
+    "off52": -4.223003861585297
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.85,
-    "chgPct": -1.0369212785773088,
+    "price": 86.82,
+    "chgPct": -1.0711054163049172,
     "high52": 88.25,
-    "off52": -1.586402266288958
+    "off52": -1.6203966005665802
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 149.49,
-    "chgPct": -1.274599255239673,
+    "price": 149.11,
+    "chgPct": -1.5255568596480513,
     "high52": 155.03,
-    "off52": -3.5735019028575064
+    "off52": -3.818615751789968
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 58.91,
-    "chgPct": -1.2074476860947596,
+    "price": 58.94,
+    "chgPct": -1.157137440475726,
     "high52": 65.18,
-    "off52": -9.619515188708206
+    "off52": -9.573488800245487
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 30.55,
-    "chgPct": -1.89466731282135,
+    "price": 30.59,
+    "chgPct": -1.7662151587301202,
     "high52": 47.78,
-    "off52": -36.06111343658435
+    "off52": -35.977396400167436
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.674,
-    "chgPct": -0.5752910002248189,
+    "price": 0.6739,
+    "chgPct": -0.590042440729235,
     "high52": 0.7277,
-    "off52": -7.3794145939260645
+    "off52": -7.393156520544175
    }
   ],
   "failed": [],
@@ -83,6 +83,14 @@
     "chgPct": -4.074108077650448
    },
    {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 54.96,
+    "currency": "AUD",
+    "chgPct": -3.932877329975918
+   },
+   {
     "sym": "AVGO",
     "name": "Broadcom",
     "market": "US",
@@ -91,20 +99,12 @@
     "chgPct": -3.922079877412585
    },
    {
-    "sym": "BHP.AX",
-    "name": "BHP",
-    "market": "ASX",
-    "price": 55.22,
-    "currency": "AUD",
-    "chgPct": -3.4784113202560114
-   },
-   {
     "sym": "REA.AX",
     "name": "REA Group",
     "market": "ASX",
-    "price": 167.23,
+    "price": 166.37,
     "currency": "AUD",
-    "chgPct": -3.3631915337309226
+    "chgPct": -3.8601577197082597
    },
    {
     "sym": "AMZN",
@@ -125,9 +125,9 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Breaking: David Jones creditors owed almost half a billion dollars",
+      "headline": "David Jones creditors owed almost half a billion dollars",
       "summary": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
-      "ts": 1794880192000,
+      "ts": 1794882595000,
       "img": "https://live-production.wcms.abc-cdn.net.au/ae92747dad2c53bb06f52fae277423a3?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=231&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -136,6 +136,13 @@
       "hasBothSides": true,
       "sources": [
        {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "David Jones’ total debt blows past $419 million",
+        "desc": "In a creditor’s meeting on Tuesday, administrators from McGrathNicol cautioned 500 brands they might not see their money back.",
+        "link": "https://www.theage.com.au/business/companies/david-jones-total-debt-blows-past-419-million-20261117-p61en2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
         "title": "David Jones debt laid bare as administrators uncover $459million owed to creditors - with 800,000 gift cards caught up in the crisis",
@@ -143,27 +150,27 @@
         "link": "https://www.dailymail.com/news/article-16298221/david-jones-creditors-debt-collapse-retail-australia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Breaking: David Jones creditors owed almost half a billion dollars",
-        "desc": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
-        "link": "https://www.abc.net.au/news/2026-11-17/david-jones-creditors-owed-almost-half-a-billion-dollars/107389716"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "David Jones’ total debt is over $400m including millions owed to staff, administrators confirm",
+        "desc": "Creditors meeting hears upmarket retailer owes $11m to employees and recorded a net loss of $228m last financial year Get our breaking news email, free app or daily news podcast Upmarket retailer David Jones collapsed into administration earlier this month owing well over $400m, after accelerating financial losses and reputational damage threatened its ability to stock shelves for Christmas. About",
+        "link": "https://www.theguardian.com/business/2026/nov/17/david-jones-creditors-meeting-debt-administrators"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Australia news LIVE: Puberty blocker guidelines defended by Butler; David Jones’ creditors meeting due to take place today; Australia and UK close to deal on British backpackers",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and beyond.",
-        "link": "https://www.theage.com.au/national/australia-news-live-david-jones-creditors-meeting-due-to-take-place-today-australia-and-uk-close-to-deal-on-british-backpackers-russell-brand-under-investigation-for-message-sent-from-prison-20261117-p61ep3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "David Jones creditors owed almost half a billion dollars",
+        "desc": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
+        "link": "https://www.abc.net.au/news/2026-11-17/david-jones-creditors-owed-almost-half-a-billion-dollars/107389716"
        }
       ]
      },
      {
       "id": 1,
-      "headline": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-      "summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-      "ts": 1794880166000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+      "headline": "Government backflips on backpacker policy",
+      "summary": "Home Affairs Minister Tony Burke has increased the cap on third-year working holiday visas by 20,000 places after backlash from agriculture, tourism and hospitality sectors.",
+      "ts": 1794881619000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/990afd43aa31ffac50193cdd80e01c99?impolicy=wcms_crop_resize&cropH=3942&cropW=7008&xPos=0&yPos=1&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -171,65 +178,100 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-        "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-        "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+        "title": "Government backflips on backpacker policy",
+        "desc": "Home Affairs Minister Tony Burke has increased the cap on third-year working holiday visas by 20,000 places after backlash from agriculture, tourism and hospitality sectors.",
+        "link": "https://www.abc.net.au/news/2026-11-17/backflip-backpacker-working-holiday-visa-regional-work/107393474"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "My DC sources smell a rat in Jensen Huang's spectacular downfall: MARK HALPERIN is told that an alleged Chinese spy affair is a distraction... as the real Nvidia scandal tears the White House apart",
-        "desc": "To my sources, a coterie predisposed to machinations, the timing and circumstances of Huang's fall are far too coincidental.",
-        "link": "https://www.dailymail.com/opinion/us/article-16297673/Jensen-Huang-china-spy-affair-nvidia-MARK-HALPERIN.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Albanese government's backpacker visa backflip offers lifeline to thousands facing exit from Australia - but Brits could be forced back into regional work",
+        "desc": "Tony Burke has unveiled new changes to backpacker visas in Australia, with hints at changes to British citizens coming to Australia.",
+        "link": "https://www.dailymail.com/news/article-16298143/Tony-Burke-backpacker-changes-australia-uk-britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "JD Vance says he and Trump still 'don't know' whether Alice Huang was a Chinese spy",
-        "desc": "JD Vance says intelligence on whether Alice Huang spied for China points in different directions, as Nvidia faces national security scrutiny over chips.",
-        "link": "https://www.foxnews.com/media/jd-vance-trump-dont-know-alice-huang-chinese-spy"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Tony Burke announces backpacker visa backdown after industry pressure",
+        "desc": "The home affairs minister maintains he was always open to negotiating on the backpacker visa crackdown.",
+        "link": "https://www.sbs.com.au/news/article/backpacker-visa-changes-tony-burke-industry-pressure/7bt1z7pij"
        }
       ]
      },
      {
       "id": 2,
-      "headline": "Former Bachelor Sam Wood makes third bid for freedom",
-      "summary": "The fitness influencer is charged with assaulting and strangling his wife on the Sunshine Coast in October.",
-      "ts": 1794879693000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b05e8fd97861c0e8e68489494488ff2e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=157&width=862&height=485",
+      "headline": "Grammys 2027 nominations: RAYE, Rosalia and Olivia Rodrigo make history, as Harry Styles and Madonna snubbed",
+      "summary": "From RAYE’s record-breaking haul to BTS’s boycott and the backlash over Kanye, these are the biggest talking points from the nominations.",
+      "ts": 1794878753000,
+      "img": "https://images.7news.com.au/publication/C-23171783/8649c9c96f8fd1ca656d62ee6efe0eaf7eaaf3af-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Bachelor star Snezana breaks cover on the day estranged husband Sam Wood begs judges to set him free from 'terrible' jail - as court is told of his 'desperate' phone call after his arrest for allegedl",
-        "desc": "Bachelor star Sam Wood's final desperate bid to get out of prison after six weeks behind bars is due to be heard in the Queensland Court of Appeal today in a special hearing.",
-        "link": "https://www.dailymail.com/news/article-16295163/Snezana-breaks-cover-day-Bachelor-star-Sam-Wood-begs-judges-set-free-faces-year-jail-ahead-DV-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Sam Wood to make third bid for bail",
-        "desc": "Former reality TV star Sam Wood will today make his third bid for bail on domestic violence charges.",
-        "link": "https://www.theage.com.au/national/sam-wood-to-make-third-bid-for-bail-20261117-p61eue.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Former Bachelor Sam Wood makes third bid for freedom",
-        "desc": "The fitness influencer is charged with assaulting and strangling his wife on the Sunshine Coast in October.",
-        "link": "https://www.abc.net.au/news/2026-11-17/sam-wood-court-of-appeal-bail/107390248"
+        "title": "Grammys 2027 nominations: RAYE, Rosalia and Olivia Rodrigo make history, as Harry Styles and Madonna snubbed",
+        "desc": "From RAYE’s record-breaking haul to BTS’s boycott and the backlash over Kanye, these are the biggest talking points from the nominations.",
+        "link": "https://7news.com.au/entertainment/grammys-2027-nominations-raye-rosalia-and-olivia-rodrigo-make-history-as-harry-styles-and-madonna-snubbed-c-23171783"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+        "desc": "British singer Raye lands 11 nominations while Dolly Parton is recognised two months after her death.",
+        "link": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Grammys 2027: Raye, Rosalía and Olivia Rodrigo lead female-heavy nominations",
+        "desc": "The race is led by a number of female artists, also including Phoebe Bridgers and Ella Langley, with Beyoncé receiving her record-breaking 100th nomination Grammys 2027: the nominations in all the major categories Raye is leading this year’s female-heavy Grammys race with 11 nominations. The British singer-songwriter, who has received four nominations in the past, picked up nods in categories incl",
+        "link": "https://www.theguardian.com/music/2026/nov/16/grammy-nominations-2027-female-artists"
        }
       ]
      },
      {
       "id": 3,
+      "headline": "Tineco Black Friday sale: Shop up to 60 per cent off its popular floor cleaners and stick vacuums",
+      "summary": "Major savings on its best-selling cleaning appliances.",
+      "ts": 1794877307000,
+      "img": "https://images.7news.com.au/publication/C-23171073/682218fe978a1565ab70698c886d4e4badc203f5-16x9-x0y0w1920h1080.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Amazon Australia Black Friday sale 2026: Best deals, biggest savings and what the Daily Mail team are shopping",
+        "desc": "If you've been holding off buying a wishlist item or are running low on essentials, Amazon Australia's Black Friday sale is here to bring you some of the biggest deals of the year.",
+        "link": "https://www.dailymail.com/buyline/article-16295357/Amazon-Australia-Black-Friday-sale-2026-best-deals.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Tineco Black Friday sale: Shop up to 60 per cent off its popular floor cleaners and stick vacuums",
+        "desc": "Major savings on its best-selling cleaning appliances.",
+        "link": "https://7news.com.au/7you/home/tineco-black-friday-sale-shop-up-to-60-per-cent-off-its-popular-floor-cleaners-and-stick-vacuums-c-23171073"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "T-Mobile Black Friday deals: Get an iPhone 18 Pro for $0 upfront and $500 off Google Pixel Watch 5",
+        "desc": "T-Mobile's Black Friday deals slash up to $500 off the Google Pixel Watch 5, dropping it to as low as $30 with a new line, plus perks like DoorDash.",
+        "link": "https://www.foxnews.com/deals/t-mobile-black-friday-deals"
+       }
+      ]
+     },
+     {
+      "id": 4,
       "headline": "Huge magnitude 6.6 earthquake strikes in Banda Sea between Darwin and Indonesia",
       "summary": "The quake was felt hundreds of kilometres away in Australia.",
       "ts": 1794877137000,
@@ -264,11 +306,39 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "French actor Gerard Depardieu withdraws his sexual assault appeal, apologises to victims",
-      "summary": "‘There is a line between cheekiness ⁠and offence’.",
-      "ts": 1794880243000,
-      "img": "https://images.7news.com.au/publication/C-23172475/43c8a56b08d5c9c25698b734b75105bedb16844f-16x9-x0y151w2888h1625.jpg",
+      "id": 5,
+      "headline": "‘Need to be able to talk to my wife’: Wood’s demands from behind bars played in court",
+      "summary": "Former Bachelor star Sam Wood has been denied bail twice, and remains in custody on charges relating to an alleged attack on his wife Snezana.",
+      "ts": 1794882412000,
+      "img": "https://static.ffx.io/images/$zoom_1.3594%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_122/t_crop_custom/q_86%2Cf_auto/7d514dc229f245cc50ec41852f62fb20496fc3c5",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Need to be able to talk to my wife’: Wood’s demands from behind bars played in court",
+        "desc": "Former Bachelor star Sam Wood has been denied bail twice, and remains in custody on charges relating to an alleged attack on his wife Snezana.",
+        "link": "https://www.theage.com.au/national/queensland/sam-wood-s-latest-bid-for-freedom-in-appeal-court-20261117-p61eac.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Sam Wood's 'explosive' family phone call after alleged DV attack as he pleads for release from 'terrible' jail - while estranged wife Snezana breaks cover on the day of his bail bid: 'Change her state",
+        "desc": "Bachelor star Sam Wood's final desperate bid to get out of prison after six weeks behind bars is due to be heard in the Queensland Court of Appeal today in a special hearing.",
+        "link": "https://www.dailymail.com/news/article-16295163/Snezana-breaks-cover-day-Bachelor-star-Sam-Wood-begs-judges-set-free-faces-year-jail-ahead-DV-trial.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 6,
+      "headline": "US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
+      "summary": "‘Whether they actually have the personnel in place to execute is a matter of debate’.",
+      "ts": 1794882404000,
+      "img": "https://images.7news.com.au/publication/C-23172651/9a6ffe3e3437f033ec8fd090bc9e394255a0b3b6-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -278,72 +348,16 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "French actor Gerard Depardieu withdraws his sexual assault appeal, apologises to victims",
-        "desc": "‘There is a line between cheekiness ⁠and offence’.",
-        "link": "https://7news.com.au/sunrise/entertainment/french-actor-gerard-depardieu-withdraws-his-sexual-assault-appeal-apologises-to-victims-c-23172475"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-        "desc": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
-        "link": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Tony Burke announces backpacker visa backdown after industry pressure",
-      "summary": "The home affairs minister maintains he was always open to negotiating on the backpacker visa crackdown.",
-      "ts": 1794880179000,
-      "img": "https://assets.sbs.com.au/dims4/default/2c2687a/2147483647/strip/false/crop/3000x1378+0+0/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F34%2F12%2Fb643d48b4a8dad2c9dca9136c2b7%2Fburke-presser.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Albanese government's backpacker visa backflip offers lifeline to thousands facing exit from Australia - but Brits could be forced back into regional work",
-        "desc": "Tony Burke has unveiled new changes to backpacker visas in Australia, with hints at changes to British citizens coming to Australia.",
-        "link": "https://www.dailymail.com/news/article-16298143/Tony-Burke-backpacker-changes-australia-uk-britain.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Tony Burke announces backpacker visa backdown after industry pressure",
-        "desc": "The home affairs minister maintains he was always open to negotiating on the backpacker visa crackdown.",
-        "link": "https://www.sbs.com.au/news/article/backpacker-visa-changes-tony-burke-industry-pressure/7bt1z7pij"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Curt Cignetti fires back at Indiana 'easy' schedule critics: 'I really don't give a s---'",
-      "summary": "Indiana coach Curt Cignetti slammed critics of the Hoosiers' soft schedule, saying the narrative fuels the 9-1 team's chip with CFP rankings looming.",
-      "ts": 1794879250000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/curt-cignetti-indiana-hoosiers-football.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Curt Cignetti fires back at Indiana 'easy' schedule critics: 'I really don't give a s---'",
-        "desc": "Indiana coach Curt Cignetti slammed critics of the Hoosiers' soft schedule, saying the narrative fuels the 9-1 team's chip with CFP rankings looming.",
-        "link": "https://www.foxnews.com/outkick-sports/curt-cignetti-fires-back-indiana-easy-schedule-critics-really-dont-give"
+        "title": "US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
+        "desc": "‘Whether they actually have the personnel in place to execute is a matter of debate’.",
+        "link": "https://7news.com.au/news/united-states/us-intel-indicates-iran-developing-plans-to-potentially-detonate-a-dirty-bomb-in-washington-sources-say-c-23172651"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Gold Coast multimillionaire fitness star Adam Sullivan hits back after critics blast him for spending $37,000 on a lab diamond engagement ring",
-        "desc": "Gold Coast fitness entrepreneur Adam Sullivan has hit back after critics took aim at the lab-grown diamond engagement ring he bought.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16297745/adam-sullivan-avalon-nadfalusi-lab-diamond-ring-feud.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Iran plotting terrifying 'dirty bomb' attack targeting Trump administration officials in Washington DC, intelligence report says",
+        "desc": "Iranian officials are reportedly planning to target senior Trump administration officials by detonating a 'dirty bomb' or a chemical weapon in Washington DC.",
+        "link": "https://www.dailymail.com/news/article-16298071/Iran-dirty-bomb-attack-Trump-administration.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -745,10 +759,10 @@
      },
      {
       "id": 21,
-      "headline": "ASX falls on miners; David Jones owes unsecured creditors $180m",
-      "summary": "Shares fall after Nasdaq extends sell-off; Mayne Pharma rockets 87pc on takeover bid; RBA releases Cup Day minutes; TechnologyOne profit jumps 19pc; Star appoints new CFO; oil falls again. Follow live updates.",
-      "ts": 1794880529000,
-      "img": "https://static.ffx.io/images/$zoom_0.5518518518518518%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "headline": "David Jones creditors owed almost half a billion dollars",
+      "summary": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
+      "ts": 1794881503000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/ae92747dad2c53bb06f52fae277423a3?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=231&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -756,16 +770,16 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX falls on miners; David Jones owes unsecured creditors $180m",
-        "desc": "Shares fall after Nasdaq extends sell-off; Mayne Pharma rockets 87pc on takeover bid; RBA releases Cup Day minutes; TechnologyOne profit jumps 19pc; Star appoints new CFO; oil falls again. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-nasdaq-hit-by-fresh-selloff-us-dollar-strengthens-20261117-p61eoj?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "David Jones’ total debt is over $400m including millions owed to staff, administrators confirm",
+        "desc": "Creditors meeting hears upmarket retailer owes $11m to employees and recorded a net loss of $228m last financial year Get our breaking news email, free app or daily news podcast Upmarket retailer David Jones collapsed into administration earlier this month owing well over $400m, after accelerating financial losses and reputational damage threatened its ability to stock shelves for Christmas. About",
+        "link": "https://www.theguardian.com/business/2026/nov/17/david-jones-creditors-meeting-debt-administrators"
        },
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Breaking: David Jones creditors owed almost half a billion dollars",
+        "title": "David Jones creditors owed almost half a billion dollars",
         "desc": "The retailer owes at least $180 million to suppliers, more than $200 million to lenders and more than $10 million to its own staff.",
         "link": "https://www.abc.net.au/news/2026-11-17/david-jones-creditors-owed-almost-half-a-billion-dollars/107389716"
        }
@@ -1072,10 +1086,10 @@
      },
      {
       "id": 32,
-      "headline": "‘Spider-Man: Brand New Day’ Re-Release With New Rosario Dawson Night Nurse Footage Sets Release",
-      "summary": "That re-release of the highest grossing motion picture in the U.S. and third-highest grossing worldwide, Sony’s Spider-Man: Brand New Day, which we first told you about, is hitting theaters on Dec. 4 in time for awards season. The new cut will be titled Spider-Man: [Brand New] Brand New Day. The extended cut will feature new […]",
+      "headline": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters",
+      "summary": "The re-release of “Spider-Man: Brand New Day,” which features footage previously left on the cutting room floor, hits theaters on Dec. 4. Tickets go on sale Nov. 19. News that “Brand New Day” was returning to theaters with an extended cut first broke in late September. While audiences will have to wait another month to […]",
       "ts": 1794870000000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/SpiderMan_BrandNewBrandNewDay_152275-e1794867219113.jpg",
+      "img": "https://variety.com/wp-content/uploads/2026/11/MixCollage-16-Nov-2026-02-49-PM-8729.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1083,18 +1097,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Re-Release With New Rosario Dawson Night Nurse Footage Sets Release",
-        "desc": "That re-release of the highest grossing motion picture in the U.S. and third-highest grossing worldwide, Sony’s Spider-Man: Brand New Day, which we first told you about, is hitting theaters on Dec. 4 in time for awards season. The new cut will be titled Spider-Man: [Brand New] Brand New Day. The extended cut will feature new […]",
-        "link": "https://deadline.com/2026/11/spider-man-brand-new-day-rosario-dawson-re-release-date-1237225762/"
-       },
-       {
         "outlet": "Variety",
         "lean": "centre",
         "title": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters",
         "desc": "The re-release of “Spider-Man: Brand New Day,” which features footage previously left on the cutting room floor, hits theaters on Dec. 4. Tickets go on sale Nov. 19. News that “Brand New Day” was returning to theaters with an extended cut first broke in late September. While audiences will have to wait another month to […]",
         "link": "https://variety.com/2026/film/news/spider-man-brand-new-day-extended-cut-release-date-1236949654/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Spider-Man: Brand New Day’ Re-Release With New Rosario Dawson Night Nurse Footage Sets Release",
+        "desc": "That re-release of the highest grossing motion picture in the U.S. and third-highest grossing worldwide, Sony’s Spider-Man: Brand New Day, which we first told you about, is hitting theaters on Dec. 4 in time for awards season. The new cut will be titled Spider-Man: [Brand New] Brand New Day. The extended cut will feature new […]",
+        "link": "https://deadline.com/2026/11/spider-man-brand-new-day-rosario-dawson-re-release-date-1237225762/"
        }
       ]
      },
@@ -1194,36 +1208,36 @@
   ],
   "sourcesOk": [
    "Guardian Australia",
-   "Crikey",
    "The Age",
-   "ABC News",
    "BBC World",
+   "Guardian AU Politics",
+   "Fox News",
+   "ABC News",
    "Fox News Politics",
    "Guardian Tech",
-   "Guardian AU Politics",
+   "Crikey",
    "BBC Tech",
-   "Fox News",
    "Ars Technica",
-   "The Conversation",
-   "The Verge",
-   "BBC Sport",
-   "Guardian AU Sport",
    "Guardian AU Business",
-   "ABC Sport",
-   "Fox Business",
-   "Deadline",
+   "The Verge",
    "The Age Business",
-   "SBS News",
-   "The Age Federal Politics",
+   "The Conversation",
    "AFR",
-   "ABC Business",
-   "Guardian Film",
-   "Screen Rant",
-   "7News",
-   "Anime News Network",
+   "Guardian AU Sport",
+   "The Age Federal Politics",
+   "BBC Sport",
    "Variety",
+   "Deadline",
+   "Fox Business",
+   "Anime News Network",
+   "7News Sport",
+   "ABC Business",
+   "ABC Sport",
+   "Screen Rant",
    "Daily Mail Australia",
-   "7News Sport"
+   "Guardian Film",
+   "7News",
+   "SBS News"
   ],
   "sourcesFailed": []
  },
@@ -1409,14 +1423,14 @@
   "pos": "Noun",
   "def": "A form of (possibly intentional) error arising from mishearing a spoken or sung phrase, possibly in a different language.",
   "example": null,
-  "audio": null
+  "audio": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/En-us-mondegreen.ogg/En-us-mondegreen.ogg.mp3"
  },
  "commGames": null,
  "deals": [
   {
    "title": "$10 off $50 Click & Collect Spend (Online & App Only) @ Coles",
    "link": "https://www.ozbargain.com.au/node/983470",
-   "votes": 178,
+   "votes": 181,
    "neg": 0,
    "category": "Groceries",
    "ts": 1794834064000
@@ -1424,7 +1438,7 @@
   {
    "title": "Huggies Baby Wipes Fragrance Free 640 Pack (8x 80 Pack) $16.99 ($15.29 S&S) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/983531",
-   "votes": 151,
+   "votes": 152,
    "neg": 0,
    "category": "Toys & Kids",
    "ts": 1794860770000
@@ -1432,7 +1446,7 @@
   {
    "title": "Bonus 5,000 Velocity Points When You Transfer at Least 1 RevPoint to Velocity Frequent Flyer @ Revolut",
    "link": "https://www.ozbargain.com.au/node/983497",
-   "votes": 146,
+   "votes": 148,
    "neg": 0,
    "category": "Financial",
    "ts": 1794838753000
@@ -1440,7 +1454,7 @@
   {
    "title": "$3 off $15, $5 off $35, $11 off $69, $20 off $115, $35 off $205, $55 off $305, $70 off $405, $90 off $500 (in USD) @ AliExpress",
    "link": "https://www.ozbargain.com.au/node/983458",
-   "votes": 136,
+   "votes": 141,
    "neg": 0,
    "category": "Other",
    "ts": 1794826141000
@@ -1448,7 +1462,7 @@
   {
    "title": "[eBook] Free - Unidentified (Invasion Volume One) by Nathan Hystad @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/983407",
-   "votes": 81,
+   "votes": 83,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1794808936000
@@ -1464,7 +1478,7 @@
   {
    "title": "Energizer Extreme AA Rechargeable 2300mAh 4-Pack Batteries $10.79 ($9.71 Sub & Save) + Delivery ($0 with Prime/$59+) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/983549",
-   "votes": 64,
+   "votes": 65,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1794866524000
@@ -1488,7 +1502,7 @@
   {
    "title": "Quilton 4-Ply Gold Toilet Tissue 30 Rolls $15.20 ($13.68 Sub & Save) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/983496",
-   "votes": 48,
+   "votes": 49,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1794838264000
@@ -1510,6 +1524,14 @@
    "ts": 1794811125000
   },
   {
+   "title": "Ninja Detect Kitchen System Power Blender + Processor Pro $166.25 (RRP $369.99) Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/983571",
+   "votes": 47,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1794869425000
+  },
+  {
    "title": "Quilton 2-Ply Hypo-Allergenic 250 Facial Tissues 12pk $18.50 ($16.65 S&S) + Delivery ($0 Prime/$59 Spend) @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/983471",
    "votes": 47,
@@ -1524,14 +1546,6 @@
    "neg": 0,
    "category": "Mobile",
    "ts": 1794870632000
-  },
-  {
-   "title": "Ninja Detect Kitchen System Power Blender + Processor Pro $166.25 (RRP $369.99) Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/983571",
-   "votes": 42,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1794869425000
   }
  ],
  "carried": {}
