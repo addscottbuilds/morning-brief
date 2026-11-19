@@ -44,6 +44,16 @@ checklist · daily Wordle, 5×5 mini crossword and Connections.
 4. On the iPhone: open `https://<user>.github.io/morning-brief/` in Safari →
    Share → **Add to Home Screen**. Allow location when asked.
 
+## Daily publication checks
+
+The daily refresh validates the candidate before overwriting `data/data.json`.
+It requires a current Sydney preparation time, a market list and at least one
+readable news headline. After Pages deploys, the same workflow reads the public
+digest up to four times. Only a readable current edition at least as new as
+the build lets the workflow continue to an eligible notification.
+
+Run the offline checks with `node --test tests/publication.test.mjs`.
+
 ## Cloudflare timer trial
 
 The scheduled-only Worker under `.github/morning-brief-timer/` dispatches

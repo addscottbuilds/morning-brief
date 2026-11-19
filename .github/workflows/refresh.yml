@@ -35,6 +35,8 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    outputs:
+      prepared_at: ${{ steps.edition.outputs.prepared_at }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -48,6 +50,11 @@ jobs:
           # and narrative-divergence analysis. Without it the digest still
           # ships with clustered headlines grouped by outlet lean.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Identify the verified edition
+        id: edition
+        run: |
+          stamp=$(node scripts/verify-edition.mjs)
+          echo "prepared_at=$stamp" >> "$GITHUB_OUTPUT"
       - name: Commit and push
         run: |
           git config user.name "morning-brief-bot"
@@ -79,7 +86,7 @@ jobs:
 
   deploy:
     # Artifact discovery can race an upload in the same job.
-    needs: prepare_pages
+    needs: [refresh, prepare_pages]
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -92,6 +99,15 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ needs.prepare_pages.outputs.artifact_name }}
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Verify the published Sydney edition
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_EDITION: ${{ needs.refresh.outputs.prepared_at }}
+        run: node scripts/verify-edition.mjs "$PAGE_URL" "$EXPECTED_EDITION"
 
   # Send the morning notification AFTER the fresh data is deployed, holding
   # until exactly 6:00am Melbourne when the pipeline ran early. The committed

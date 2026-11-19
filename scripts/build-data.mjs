@@ -5,6 +5,7 @@
 // stories where left- and right-leaning coverage genuinely diverges.
 // Without a key, the digest still works: clustered headlines grouped by lean.
 import { readFileSync, writeFileSync } from "node:fs";
+import "../js/edition-health.js";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import Parser from "rss-parser";
@@ -817,6 +818,8 @@ const out = {
   deals: dealsOut,
   carried,
 };
+const verdict = globalThis.MorningBriefEdition.inspect(out);
+if (verdict.state !== "current") throw new Error("Keeping the previous digest. " + verdict.reason);
 writeFileSync(join(root, "data/data.json"), JSON.stringify(out, null, 1));
 console.log(`data.json written: ${markets.items.length} quotes, ` +
   news.categories.map(c => `${c.key}:${c.stories.length}`).join(" ") +
