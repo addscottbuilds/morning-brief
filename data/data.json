@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T22:00:26.157Z",
+ "generatedAt": "2026-11-19T23:00:36.911Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8730.4,
-    "chgPct": -1.0360675452976693,
+    "chgPct": -1.720103025406657,
     "high52": 9296.7,
     "off52": -6.09140877945939
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 86.65,
-    "chgPct": -0.0000017609681173634356,
+    "chgPct": 0.5103826936550777,
     "high52": 88.25,
     "off52": -1.8130311614730814
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 146.27,
-    "chgPct": -0.0000029209412746784097,
+    "chgPct": -1.0083883068681316,
     "high52": 155.03,
     "off52": -5.650519254337865
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 59.6,
-    "chgPct": 0.000002560199575061461,
+    "chgPct": 1.7064872899621795,
     "high52": 65.18,
     "off52": -8.560908254065671
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 31.1,
-    "chgPct": -0.00000122659074103647,
+    "chgPct": 0.7124379702474651,
     "high52": 47.78,
     "off52": -34.91000418585182
    },
@@ -57,15 +57,23 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6661,
-    "chgPct": -1.16874553690621,
+    "price": 0.6657,
+    "chgPct": -1.228094736403649,
     "high52": 0.7277,
-    "off52": -8.465026796756904
+    "off52": -8.51999450322936
    }
   ],
   "failed": [],
   "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
+    "market": "ASX",
+    "price": 135,
+    "currency": "AUD",
+    "chgPct": -4.064810383089722
+   },
    {
     "sym": "AMZN",
     "name": "Amazon",
@@ -73,6 +81,14 @@
     "price": 257.37,
     "currency": "USD",
     "chgPct": -3.873157022713448
+   },
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 52.34,
+    "currency": "AUD",
+    "chgPct": -3.6805302667866093
    },
    {
     "sym": "GOOGL",
@@ -109,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
-      "summary": "Zoo staff tried a colonoscopy, vibration plate and other procedures to aid the hippo in passing the hat to no avail Fiona the hippo, one of America’s most famous zoo animals, has died after efforts to remove a knitted hat that she swallowed after it fell into her enclosure proved unsuccessful. With surgery too risky for a full-grown hippos like Fiona, who weighed in the region of 2,500lb (1,113kg)",
-      "ts": 1795123820000,
-      "img": "https://i.guim.co.uk/img/media/136d787561384507373cd58a8fdcc3a64d11d04f/480_0_4228_3382/master/4228.jpg?width=460&quality=85&auto=format&fit=max&s=b7aaaaccf579f59095896832d5095999",
+      "headline": "Anthropic's epic $3 trillion debut fails to revive flagging investor confidence in AI",
+      "summary": "Anthropic's $3.1 trillion Nasdaq listing has created trillionaires and billionaires but there are concerns whether the AI boom is veering into bubble territory.",
+      "ts": 1795127074000,
+      "img": "https://assets.sbs.com.au/dims4/default/358969b/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F3a%2F60%2F077b37a34b73bf3c53091617a9ef%2F20261120152393004024-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -120,25 +136,25 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Beloved hippo Fiona dies at Cincinnati Zoo after swallowing visitor's hat",
-        "desc": "Fiona, the Cincinnati Zoo's viral baby hippo born six weeks premature in 2017, died after swallowing a knit hat accidentally flung into her enclosure.",
-        "link": "https://www.foxnews.com/us/beloved-hippo-fiona-dies-cincinnati-zoo-swallowing-visitors-hat"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Seven founders, Madonna’s manager and Ashton Kutcher: The big winners of Anthropic’s $3 trillion splash on Wall St",
+        "desc": "Anthropic is less than five years old. It is now worth trillions of dollars after making its Wall Street debut and has made a number of people insanely wealthy.",
+        "link": "https://www.theage.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Anthropic's epic $3 trillion debut fails to revive flagging investor confidence in AI",
+        "desc": "Anthropic's $3.1 trillion Nasdaq listing has created trillionaires and billionaires but there are concerns whether the AI boom is veering into bubble territory.",
+        "link": "https://www.sbs.com.au/news/article/anthropics-epic-3-trillion-debut-fails-to-revive-flagging-investor-confidence-in-ai/ed83wyexg"
        },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Fiona the hippo dies at Cincinnati Zoo days after she ate visitor's knitted hat that got stuck inside her body",
-        "desc": "America's beloved hippo, Fiona, has died after her care team at the Cincinnati zoo spent days working to help her safely digest and pass a knit cap she swallowed.",
-        "link": "https://www.dailymail.com/news/article-16307277/fiona-hippo-dies-cincinnati-zoo.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
-        "desc": "Zoo staff tried a colonoscopy, vibration plate and other procedures to aid the hippo in passing the hat to no avail Fiona the hippo, one of America’s most famous zoo animals, has died after efforts to remove a knitted hat that she swallowed after it fell into her enclosure proved unsuccessful. With surgery too risky for a full-grown hippos like Fiona, who weighed in the region of 2,500lb (1,113kg)",
-        "link": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat"
+        "title": "The smile that says I just made TWENTY-SIX BILLION DOLLARS! Jack Clark, British former state school boy (and £20,000-a-year journalist) who co-founded Anthropic, celebrates as shares soar",
+        "desc": "The creator of the Claude AI platform raised an unprecedented $81 billion in its IPO, selling 980 million shares at $83 a piece on Wednesday.",
+        "link": "https://www.dailymail.com/news/article-16305175/The-state-school-boy-set-AI-mega-billionaire-Anthropic-founder-Jack-Clark-born-bred-Brighton-worth-19-7BN-AI-giant-makes-stock-market-debut.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      },
@@ -146,8 +162,8 @@
       "id": 1,
       "headline": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
       "summary": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
-      "ts": 1795122157000,
-      "img": "https://static.ffx.io/images/$zoom_0.3833%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_283%2C$y_0/t_crop_custom/q_86%2Cf_auto/aa024f050f8fafc1319b4b8c68660acef0bc3a86",
+      "ts": 1795127021000,
+      "img": "https://static.ffx.io/images/$zoom_0.25041380941120833%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/aa024f050f8fafc1319b4b8c68660acef0bc3a86",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -157,9 +173,9 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Australia news LIVE: Coalition blames high government spending for unemployment rates hitting five-year-high; Trump, Xi and Putin issue ‘peace’ declaration after historic talks",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
-        "link": "https://www.theage.com.au/national/australia-news-live-coalition-blames-high-government-spending-for-unemployment-rates-hitting-five-year-high-trump-xi-and-putin-issue-peace-declaration-after-historic-talks-20261120-p61fth.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "‘We are really making history’: Trump, Xi and Putin issue ‘peace’ declaration after rare summit",
+        "desc": "The three leaders cast themselves as peace brokers capable of ending wars, but after 90 minutes of closed door discussions they emerged with no major concrete commitments.",
+        "link": "https://www.theage.com.au/world/asia/trump-putin-and-xi-talk-nuclear-weapons-and-ukraine-20261119-p61fsk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
@@ -179,8 +195,43 @@
      },
      {
       "id": 2,
+      "headline": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "summary": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+      "ts": 1795126144000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ff3b/live/b1a3a370-e464-11f1-99a1-253766e7ad8b.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+        "desc": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+        "link": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Beloved hippo Fiona dies at Cincinnati Zoo after swallowing visitor's hat",
+        "desc": "Fiona, the Cincinnati Zoo's viral baby hippo born six weeks premature in 2017, died after swallowing a knit hat accidentally flung into her enclosure.",
+        "link": "https://www.foxnews.com/us/beloved-hippo-fiona-dies-cincinnati-zoo-swallowing-visitors-hat"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat flung into her enclosure",
+        "desc": "The hippo became a global sensation after surviving a premature birth.",
+        "link": "https://7news.com.au/news/fiona-the-hippo-dies-at-cincinnati-zoo-after-swallowing-a-hat-flung-into-her-enclosure-c-23188652"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
-      "summary": "Neil Maxwell, the agent for Test cricket captain Pat Cummins, has criticised the \"hysteria\" surrounding his client as the Sandpapergate scandal continues.",
+      "summary": "Pat Cummins's agent describes the discussion around the Sandpapergate scandal and the Test cricket captain as hysteria.",
       "ts": 1795117555000,
       "img": "https://live-production.wcms.abc-cdn.net.au/7d2622664e8211fa90d85b128cb334d4?impolicy=wcms_crop_resize&cropH=2480&cropW=4409&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
@@ -193,7 +244,7 @@
         "outlet": "ABC News",
         "lean": "centre",
         "title": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
-        "desc": "Neil Maxwell, the agent for Test cricket captain Pat Cummins, has criticised the \"hysteria\" surrounding his client as the Sandpapergate scandal continues.",
+        "desc": "Pat Cummins's agent describes the discussion around the Sandpapergate scandal and the Test cricket captain as hysteria.",
         "link": "https://www.abc.net.au/news/2026-11-20/pat-cummins-agent-criticises-sandpaper-hysteria/107407092"
        },
        {
@@ -213,11 +264,39 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "Grand Theft Auto fans skip work and pull all-nighters to play new instalment",
-      "summary": "Hotly anticipated Bonnie and Clyde-inspired adventure GTA VI has gamers glued to their screens around the world Grand Theft Auto fans around the world pulled all-nighters, skipped work and school, and attended overnight launch parties to vicariously embark on police chases and coordinate robberies as the latest instalment of the eagerly anticipated series arrived. GTA VI, a Bonnie and Clyde-inspir",
-      "ts": 1795125038000,
-      "img": "https://i.guim.co.uk/img/media/af1e31b49b5341ebce31c28c93c8ad558d8934b8/181_0_3988_3192/master/3988.jpg?width=460&quality=85&auto=format&fit=max&s=c9438f7c969bc0b755221af67d2f4c5b",
+      "id": 4,
+      "headline": "Just how accurate is 'Grand Theft Auto VI's' Vice City? A lifelong South Florida resident weighs in",
+      "summary": "A lifelong South Florida native breaks down how Rockstar Games nailed the Julia Tuttle Causeway, Dolphin Mall and Bayside in \"Grand Theft Auto VI.\"",
+      "ts": 1795129094000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/02/931/523/miami-florida-skyline.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Most sickening scenes of depravity from Grand Theft Auto 6 as players commit mass shooter events, choke out police and shoot women in the head...but these are the acts the game doesn't allow",
+        "desc": "Warning: Disturbing content. Newly released Grand Theft Auto 6 has already been branded a 'murder simulator' after shocking videos of its violent gameplay were posted online.",
+        "link": "https://www.dailymail.com/news/article-16306215/Grand-Theft-Auto-6-sickening-scenes-depravity.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Just how accurate is 'Grand Theft Auto VI's' Vice City? A lifelong South Florida resident weighs in",
+        "desc": "A lifelong South Florida native breaks down how Rockstar Games nailed the Julia Tuttle Causeway, Dolphin Mall and Bayside in \"Grand Theft Auto VI.\"",
+        "link": "https://www.foxnews.com/outkick-culture/how-accurate-grand-theft-auto-vi-vice-city-lifelong-south-florida-resident-weighs"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Albanese faces impossible task of following Xi’s meeting with Putin and Trump",
+      "summary": "The prime minister is holding a series of meetings with China's leaders today after Chinese President Xi Jinping met his Russian and American counterparts Vladimir Putin and Donald Trump. Meanwhile, the COP31 draft has some notable omissions and get ready for a manic few days next week. The post Albanese faces impossible task of following Xi’s meeting with Putin and Trump appeared first on Crikey.",
+      "ts": 1795128826000,
+      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/20261118116266363047-original.jpg?quality=70&w=840",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -225,83 +304,27 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Just how accurate is 'Grand Theft Auto VI's' Vice City? A lifelong South Florida resident weighs in",
-        "desc": "A lifelong South Florida native breaks down how Rockstar Games nailed the Julia Tuttle Causeway, Dolphin Mall and Bayside in \"Grand Theft Auto VI.\"",
-        "link": "https://www.foxnews.com/outkick-culture/how-accurate-grand-theft-auto-vi-vice-city-lifelong-south-florida-resident-weighs"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Grand Theft Auto fans skip work and pull all-nighters to play new instalment",
-        "desc": "Hotly anticipated Bonnie and Clyde-inspired adventure GTA VI has gamers glued to their screens around the world Grand Theft Auto fans around the world pulled all-nighters, skipped work and school, and attended overnight launch parties to vicariously embark on police chases and coordinate robberies as the latest instalment of the eagerly anticipated series arrived. GTA VI, a Bonnie and Clyde-inspir",
-        "link": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
-      "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
-      "ts": 1795124322000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b7d/live/94082910-e452-11f1-a094-5fdc692f3e33.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
-        "desc": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
-        "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "The smile that says I just made TWENTY-SIX BILLION DOLLARS! Jack Clark, British former state school boy (and £20,000-a-year journalist) who co-founded Anthropic, celebrates as shares soar",
-        "desc": "The creator of the Claude AI platform raised an unprecedented $81 billion in its IPO, selling 980 million shares at $83 a piece on Wednesday.",
-        "link": "https://www.dailymail.com/news/article-16305175/The-state-school-boy-set-AI-mega-billionaire-Anthropic-founder-Jack-Clark-born-bred-Brighton-worth-19-7BN-AI-giant-makes-stock-market-debut.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Anthropic starts trading in record IPO",
-      "summary": "The AI company Anthropic has made its debut on the stock market, trading as a $2.25 trillion company.",
-      "ts": 1795123936000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/b86d8ed440422b016e9d067df9b3437212bfadaa",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – business live",
-        "desc": "All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic needs to grow into its $1.5tn valuation, argues Kathleen Brooks, research director at XTB: Anthropic’s triumphant IPO and its trillion dollar plus valuation is more typical of a mature company that has a history of strong fundamentals. Anthropic could not be more ",
-        "link": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"
+        "title": "Five-day Trump press secretary Katie Zacharia now faces formal probe over her repeated claims to be a lawyer",
+        "desc": "Katie Zacharia is under investigation by the State Bar of California after a group accused her of repeatedly presenting herself as a lawyer despite apparently never being licensed to practice law.",
+        "link": "https://www.dailymail.com/news/us-politics/article-16307401/Five-day-Trump-press-secretary-Katie-Zacharia-faces-formal-probe-repeated-claims-lawyer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "The Age",
+        "outlet": "Crikey",
         "lean": "left",
-        "title": "Anthropic starts trading in record IPO",
-        "desc": "The AI company Anthropic has made its debut on the stock market, trading as a $2.25 trillion company.",
-        "link": "https://www.theage.com.au/national/anthropic-starts-trading-in-record-ipo-20261120-p61ftg.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Albanese faces impossible task of following Xi’s meeting with Putin and Trump",
+        "desc": "The prime minister is holding a series of meetings with China's leaders today after Chinese President Xi Jinping met his Russian and American counterparts Vladimir Putin and Donald Trump. Meanwhile, the COP31 draft has some notable omissions and get ready for a manic few days next week. The post Albanese faces impossible task of following Xi’s meeting with Putin and Trump appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/20/albanese-xi-jinping-apec-meeting-putin-trump-cop31-draft-chris-bowen/"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-      "summary": "\"She fought until she couldn’t anymore,\" the Cincinnati Zoo said in a statement. Fiona became ill a few days after the incident.",
-      "ts": 1795123570000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0deb/live/75026a20-e45d-11f1-a599-65f550c2a35a.jpg",
+      "headline": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+      "summary": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+      "ts": 1795128502000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d77/live/35f78600-e465-11f1-99b6-a35a62fa4264.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -311,16 +334,16 @@
        {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-        "desc": "\"She fought until she couldn’t anymore,\" the Cincinnati Zoo said in a statement. Fiona became ill a few days after the incident.",
-        "link": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+        "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+        "desc": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+        "link": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "7News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat flung into her enclosure",
-        "desc": "The hippo became a global sensation after surviving a premature birth.",
-        "link": "https://7news.com.au/news/fiona-the-hippo-dies-at-cincinnati-zoo-after-swallowing-a-hat-flung-into-her-enclosure-c-23188652"
+        "title": "Qld government votes down laws to hold churches legally responsible for child abuse",
+        "desc": "The legislation would have allowed institutions that facilitated abuse to be held legally responsible, including churches and sporting clubs.",
+        "link": "https://www.abc.net.au/news/2026-11-20/qld-government-blocks-reforms-for-child-sexual-abuse-victims/107405804"
        }
       ]
      }
@@ -388,6 +411,48 @@
      },
      {
       "id": 9,
+      "headline": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email, free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech o",
+      "ts": 1795126629000,
+      "img": "https://i.guim.co.uk/img/media/3efee6d1eaff0fd0c1f56834a875969ecd396eb3/2910_595_6221_4977/master/6221.jpg?width=460&quality=85&auto=format&fit=max&s=c1595843264ead5f324e447a33e175e7",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+        "desc": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email, free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech o",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "NZ’s pay equity law has been found to breach women’s rights. How can it stand?",
+      "summary": "Hagen Hopkins/Getty Images The High Court has ruled New Zealand’s 2025 pay equity reforms unjustifiably discriminate against women. Yet the law remains in force. And the government is under no legal obligation to reverse the changes. How can that be? The answer goes beyond pay equity. The judgement exposes a wider vulnerability in New Zealand’s system of human rights protection: what happens when ",
+      "ts": 1795123555000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "NZ’s pay equity law has been found to breach women’s rights. How can it stand?",
+        "desc": "Hagen Hopkins/Getty Images The High Court has ruled New Zealand’s 2025 pay equity reforms unjustifiably discriminate against women. Yet the law remains in force. And the government is under no legal obligation to reverse the changes. How can that be? The answer goes beyond pay equity. The judgement exposes a wider vulnerability in New Zealand’s system of human rights protection: what happens when ",
+        "link": "https://theconversation.com/nzs-pay-equity-law-has-been-found-to-breach-womens-rights-how-can-it-stand-297057"
+       }
+      ]
+     },
+     {
+      "id": 11,
       "headline": "Trump scores key win over House progressive accused of assaulting ICE agent",
       "summary": "New Jersey Rep. LaMonica McIver says she faces 17 years in prison after the 3rd Circuit refused to reconsider her ICE charges at Delaney Hall.",
       "ts": 1795121106000,
@@ -408,7 +473,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 12,
       "headline": "$1M-a-day China tech crackdown proposed amid cascade of US cyber disruptions",
       "summary": "Rep. Pat Harrigan says his Digital Infrastructure Act of 2026 would bar high-risk carriers from U.S. data centers and cloud services, with $1M daily fines.",
       "ts": 1795120649000,
@@ -425,48 +490,6 @@
         "title": "$1M-a-day China tech crackdown proposed amid cascade of US cyber disruptions",
         "desc": "Rep. Pat Harrigan says his Digital Infrastructure Act of 2026 would bar high-risk carriers from U.S. data centers and cloud services, with $1M daily fines.",
         "link": "https://www.foxnews.com/politics/1m-day-china-tech-crackdown-proposed-amid-cascade-us-cyber-disruptions"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Trump ally Bill Essayli tapped to lead investigation of Biden officials over Mar-a-Lago raid",
-      "summary": "Bill Essayli will probe whether Biden officials broke the law in the FBI's 2022 raid on Donald Trump's Mar-a-Lago estate, which sparked Jack Smith's case.",
-      "ts": 1795119671000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/Bill-Essayli_002-scaled.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Trump ally Bill Essayli tapped to lead investigation of Biden officials over Mar-a-Lago raid",
-        "desc": "Bill Essayli will probe whether Biden officials broke the law in the FBI's 2022 raid on Donald Trump's Mar-a-Lago estate, which sparked Jack Smith's case.",
-        "link": "https://www.foxnews.com/politics/trump-ally-bill-essayli-tapped-lead-investigation-biden-officials-mar-a-lago-raid"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Americans could face $100 hike in internet bills under plan eyed by lawmakers",
-      "summary": "Sens. Deb Fischer and Ben Ray Luján drafted a bill that would add up to $100 to people's internet bills to fund the Universal Service Fund.",
-      "ts": 1795119135000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/student-laptop-photo-2.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Americans could face $100 hike in internet bills under plan eyed by lawmakers",
-        "desc": "Sens. Deb Fischer and Ben Ray Luján drafted a bill that would add up to $100 to people's internet bills to fund the Universal Service Fund.",
-        "link": "https://www.foxnews.com/politics/americans-could-face-100-hike-internet-bills-under-plan-eyed-lawmakers"
        }
       ]
      }
@@ -506,34 +529,6 @@
      },
      {
       "id": 14,
-      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-      "summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-      "ts": 1795119568000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-458680569-1152x648-1795115965.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
-        "desc": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-        "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/"
-       },
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
-        "desc": "Football players say they are ‘traumatized’ after being handcuffed and detained by police while waiting for rides Four current and former students at a Maryland high school have filed a lawsuit a year after armed police detained them, prompted by an AI alert that mistook a bag of Doritos for a gun, in an incident that left them “fearing for their lives”. The plaintiffs sued Omnilert, the company b",
-        "link": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit"
-       }
-      ]
-     },
-     {
-      "id": 15,
       "headline": "Grand Theft Auto 6 is a masterpiece, say critics",
       "summary": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
       "ts": 1795060816000,
@@ -561,7 +556,49 @@
       ]
      },
      {
+      "id": 15,
+      "headline": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+      "summary": "Amazon now uses its shopping platform for political purposes.",
+      "ts": 1795126597000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1243765669-1024x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+        "desc": "Amazon now uses its shopping platform for political purposes.",
+        "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/"
+       }
+      ]
+     },
+     {
       "id": 16,
+      "headline": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
+      "summary": "AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn fully d",
+      "ts": 1795126158000,
+      "img": "https://i.guim.co.uk/img/media/6998f4e0d8ab24e4c35516c1ab618511a39fcd71/545_0_4583_3667/master/4583.jpg?width=460&quality=85&auto=format&fit=max&s=c1036b62f47836e2eff2e53f19375cbc",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Tech",
+        "lean": "left",
+        "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
+        "desc": "AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn fully d",
+        "link": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+       }
+      ]
+     },
+     {
+      "id": 17,
       "headline": "A brief history of Nvidia’s recent stock fluctuations",
       "summary": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from ",
       "ts": 1795125575000,
@@ -582,8 +619,8 @@
       ]
      },
      {
-      "id": 17,
-      "headline": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+      "id": 18,
+      "headline": "Anthropic becomes one of world's most valuable public companies in stock market debut",
       "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
       "ts": 1795124322000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b7d/live/94082910-e452-11f1-a094-5fdc692f3e33.jpg",
@@ -596,30 +633,9 @@
        {
         "outlet": "BBC Tech",
         "lean": "centre",
-        "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+        "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
         "desc": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
         "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-      "summary": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
-      "ts": 1795123152000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-870760928-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
-        "desc": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
-        "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/"
        }
       ]
      }
@@ -631,79 +647,9 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Anthropic breaks $3trn valuation in trading debut",
-      "summary": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
-      "ts": 1795124561000,
-      "img": "https://static.ffx.io/images/$zoom_0.5463427573480955%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1446%2C$y_826/t_crop_custom/q_86%2Cf_auto/eafa10d804394bd7c581cbdb3b3e77496f0ff0ea",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Anthropic breaks $3trn valuation in trading debut",
-        "desc": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
-        "link": "https://www.afr.com/technology/anthropic-breaks-us2trn-valuation-in-trading-debut-20261120-p61ft2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Anthropic begins public trading at $2tn valuation after largest-ever IPO",
-        "desc": "AI startup and Claude chatbot maker likely to become one of the world’s most valuable publicly traded businesses Anthropic IPO – live updates Anthropic shares soared more than a third when trading got under way on its US market debut on Thursday, valuing the company at more than $2tn in the biggest stock market flotation in history. Shares in the AI company behind the Claude chatbot jumped 34% fro",
-        "link": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Anthropic begins trading on Nasdaq in record-breaking IPO",
-        "desc": "Anthropic's Nasdaq debut under ticker ANT draws investor demand for the Claude AI maker, with up to 20% of IPO shares set aside for retail investors.",
-        "link": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Anthropic eclipses SpaceX with record $3 trillion market debut",
-      "summary": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
-      "ts": 1795118557000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1adc217771c84fdbdf25253311c4f547?impolicy=wcms_crop_resize&cropH=2516&cropW=4472&xPos=0&yPos=233&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
-        "desc": "Anthropic stock is now on the Nasdaq under ticker ANT, and experts say index funds and 401(k) plans could soon give Americans exposure to the AI developer.",
-        "link": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Lucky seven: Anthropic hits $3 trillion value in record Wall Street debut",
-        "desc": "Anthropic is less than five years old. It is now worth trillions of dollars after making its Wall Street debut and has made a number of people insanely wealthy.",
-        "link": "https://www.theage.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Anthropic eclipses SpaceX with record $3 trillion market debut",
-        "desc": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
-        "link": "https://www.abc.net.au/news/2026-11-20/anthropic-ipo-three-trillion/107407020"
-       }
-      ]
-     },
-     {
-      "id": 21,
-      "headline": "ASX to fall; Wall Street tumbles; NextDC revises guidance again",
-      "summary": "Shares set to tumble after Wall Street wipeout; Anthropic jumps 34 per cent in market debut before dropping back to close 17 per cent higher. Follow live updates.",
-      "ts": 1795124769000,
+      "headline": "ASX to fall after Wall Street tumbles; NextDC cops big strike",
+      "summary": "Shares to tumble after Wall Street wipeout; Anthropic closes 17 per cent higher in debut; Pro Medicus signs $128 million US contract; MinRes appoints CFO. Follow live updates.",
+      "ts": 1795128095000,
       "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/58e04edaf697ca035322f928d0a7caeac1442af28f7e445bb4496439310a2058",
       "divergent": null,
       "left_view": null,
@@ -714,9 +660,16 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX to fall; Wall Street tumbles; NextDC revises guidance again",
-        "desc": "Shares set to tumble after Wall Street wipeout; Anthropic jumps 34 per cent in market debut before dropping back to close 17 per cent higher. Follow live updates.",
+        "title": "ASX to fall after Wall Street tumbles; NextDC cops big strike",
+        "desc": "Shares to tumble after Wall Street wipeout; Anthropic closes 17 per cent higher in debut; Pro Medicus signs $128 million US contract; MinRes appoints CFO. Follow live updates.",
         "link": "https://www.afr.com/markets/equity-markets/asx-markets-live-wall-street-surges-on-back-of-massive-anthropic-ipo-20261120-p61ft1?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
+        "desc": "All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic closes first day of public trading at $1.3tn valuation Protesters rally in New York and San Francisco Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic needs to grow into its $1.5tn valuation, argues Kathleen Brooks, research director at XTB: Anth",
+        "link": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"
        },
        {
         "outlet": "The Age Business",
@@ -728,7 +681,91 @@
       ]
      },
      {
+      "id": 20,
+      "headline": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+      "summary": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price of $111.50 (£85) per share valued the entrepreneurs’ stakes – including the chief executive, Dario A",
+      "ts": 1795127074000,
+      "img": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=460&quality=85&auto=format&fit=max&s=8eef69df759c092bc30cb974266c8985",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Seven founders, Madonna’s manager and Ashton Kutcher: The big winners of Anthropic’s $3 trillion splash on Wall St",
+        "desc": "Anthropic is less than five years old. It is now worth trillions of dollars after making its Wall Street debut and has made a number of people insanely wealthy.",
+        "link": "https://www.theage.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+        "desc": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price of $111.50 (£85) per share valued the entrepreneurs’ stakes – including the chief executive, Dario A",
+        "link": "https://www.theguardian.com/technology/2026/nov/19/who-are-anthropic-founders"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Anthropic breaks $3trn valuation in trading debut",
+      "summary": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
+      "ts": 1795126158000,
+      "img": "https://static.ffx.io/images/$zoom_0.5463427573480955%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1446%2C$y_826/t_crop_custom/q_86%2Cf_auto/eafa10d804394bd7c581cbdb3b3e77496f0ff0ea",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
+        "desc": "AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn fully d",
+        "link": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Anthropic breaks $3trn valuation in trading debut",
+        "desc": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
+        "link": "https://www.afr.com/technology/anthropic-breaks-us2trn-valuation-in-trading-debut-20261120-p61ft2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
       "id": 22,
+      "headline": "Anthropic eclipses SpaceX with record $3 trillion market debut",
+      "summary": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
+      "ts": 1795118557000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/1adc217771c84fdbdf25253311c4f547?impolicy=wcms_crop_resize&cropH=2516&cropW=4472&xPos=0&yPos=233&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
+        "desc": "Anthropic stock is now on the Nasdaq under ticker ANT, and experts say index funds and 401(k) plans could soon give Americans exposure to the AI developer.",
+        "link": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Anthropic eclipses SpaceX with record $3 trillion market debut",
+        "desc": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
+        "link": "https://www.abc.net.au/news/2026-11-20/anthropic-ipo-three-trillion/107407020"
+       }
+      ]
+     },
+     {
+      "id": 23,
       "headline": "Transmission line to take 'days' to fix, forcing closure of Eyre Peninsula schools",
       "summary": "The main electricity transmission line to South Australia's Eyre Peninsula could take \"days\" to repair, the SA government has warned, amid emergency efforts to activate generators to provide back-up supply to the region.",
       "ts": 1795116839000,
@@ -756,11 +793,11 @@
       ]
      },
      {
-      "id": 23,
+      "id": 24,
       "headline": "AFR lands Walkley wins for KPMG scandal, Kyle’s ‘Maccas in a Rolls’",
       "summary": "It is the second year running that the Financial Review has been awarded the prize for best business reporting at Australian journalism’s top honours.",
       "ts": 1795115533000,
-      "img": "https://static.ffx.io/images/$zoom_0.9819%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_370%2C$y_0/t_crop_custom/q_86%2Cf_auto/82eddcf68a447f53b59607273cb0503243b0e7b90af15b74b7558629d3c31981",
+      "img": "https://static.ffx.io/images/$zoom_0.7591397849462366%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/975af02cf24e9457566c328da245501753cb66e0fffec562da07fa44a8bfc091",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -782,34 +819,6 @@
         "link": "https://www.abc.net.au/news/2026-11-20/2026-walkley-awards-winners-scoop-of-the-year-bondi/107406420"
        }
       ]
-     },
-     {
-      "id": 24,
-      "headline": "Miners slump, weighing down ASX as unemployment hits five-year high",
-      "summary": "The market’s losing streak continued on Thursday, with the ASX wiping out the rest of this year’s gains as global AI anxiety weighed on the mining and tech sectors.",
-      "ts": 1795069106000,
-      "img": "https://static.ffx.io/images/$zoom_0.2284%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_208%2C$y_0/t_crop_custom/q_86%2Cf_auto/26b268fc4f659795ac962a7fd8fe68895cdd6b8d",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Miners slump, weighing down ASX as unemployment hits five-year high",
-        "desc": "The market’s losing streak continued on Thursday, with the ASX wiping out the rest of this year’s gains as global AI anxiety weighed on the mining and tech sectors.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia may have ‘one foot in recession’ as unemployment surges to five-year high",
-        "desc": "Jobless rate rises from 4.7% to 4.9% in October, Bureau of Statistics figures reveal Get our daily political email, free app or daily news podcast Australia may already have “one foot in recession” after unemployment surged to 4.9% in October, from 4.7%, in a shock increase that will add to rising worries that this year’s five interest rate hikes have pushed the economy past a tipping point. New f",
-        "link": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures"
-       }
-      ]
      }
     ]
    },
@@ -819,10 +828,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Who knew what about Sandpapergate? The players break their silence",
-      "summary": "The Sandpapergate saga has seen a definitive split between some of Australia's greatest cricketers. Here's what everyone has said so far.",
-      "ts": 1795121048000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e67cc40acf477e032838f945cf994ced?impolicy=wcms_crop_resize&cropH=720&cropW=1280&xPos=0&yPos=0&width=862&height=485",
+      "headline": "Unbeaten Zverev hopes to be 'pain-free' after overcoming Fils at ATP Finals",
+      "summary": "World number one Alexander Zverev says he will do \"everything I can to be pain-free\" after hurting his ankle during his ATP Finals victory over Arthur Fils.",
+      "ts": 1795126645000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e755/live/98d57550-e462-11f1-99b6-a35a62fa4264.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -830,25 +839,25 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Who knew what about Sandpapergate? The players break their silence",
-        "desc": "The Sandpapergate saga has seen a definitive split between some of Australia's greatest cricketers. Here's what everyone has said so far.",
-        "link": "https://www.abc.net.au/news/2026-11-20/cricket-cards-who-has-said-what-about-sandpapergate/107376348"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Cameron Bancroft’s full 4500-word Sandpapergate statement",
-        "desc": "The man at the centre of cricket’s biggest scandal has broken his eight-year silence, revealing exactly what happened.",
-        "link": "https://7news.com.au/sport/cricket/cameron-bancrofts-full-4500-word-sandpapergate-statement-c-23183623"
+        "title": "Unbeaten Zverev hopes to be 'pain-free' after overcoming Fils at ATP Finals",
+        "desc": "World number one Alexander Zverev says he will do \"everything I can to be pain-free\" after hurting his ankle during his ATP Finals victory over Arthur Fils.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c64gne03ykjro?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "‘We all knew’: Cameron Bancroft – his full ‘sandpapergate’ statement",
-        "desc": "Eight years of carrying the burden of the country on my shoulders. The public need to know my story today On Wednesday morning, Cricket Australia CEO Todd Greenberg announced that CA will open an independent forum for all those who were on the 2018 South African tour. I appreciate Todd’s comments and the chance for players and staff to have an opportunity to speak. Continue reading...",
-        "link": "https://www.theguardian.com/sport/2026/nov/19/cameron-bancroft-statement-sandpapergate-ball-tampering-australia-cricket-ntwnfb"
+        "title": "Alexander Zverev beats Arthur Fils in ATP Finals tennis group stage – as it happened",
+        "desc": "The world No 1 made it three straight-sets wins out of three to finish top of his group ahead of Ben Shelton, who also qualifies for the semi-finals First set: Zverev* 0-1 Fils (*denotes next server) Fils starts as he means to go on with a short opening point. And the second is just as punchy too. A longer rally plays out on the third, before Zverev eventually flings a forehand long. So it’s 40-0.",
+        "link": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case",
+        "desc": "Top-ranked tennis player Alexander Zverev was officially notified of a lawsuit filed by his former partner during the middle of the season-ending ATP Finals.",
+        "link": "https://www.abc.net.au/news/2026-11-19/alexander-zverev-officially-notified-of-lawsuit-by-ex-partner/107401880"
        }
       ]
      },
@@ -889,38 +898,10 @@
      },
      {
       "id": 27,
-      "headline": "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case",
-      "summary": "Top-ranked tennis player Alexander Zverev was officially notified of a lawsuit filed by his former partner during the middle of the season-ending ATP Finals.",
-      "ts": 1795124901000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/173eab94b19a48cbfccbef377bd9a44e?impolicy=wcms_crop_resize&cropH=1743&cropW=3098&xPos=0&yPos=161&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Alexander Zverev v Arthur Fils: ATP Finals tennis group stage – live",
-        "desc": "ATP Finals updates from day five’s action in Turin Mail Katy | Kartal’s fightback against injury and abuse First set: Zverev* 0-1 Fils (*denotes next server) Fils starts as he means to go on with a short opening point. And the second is just as punchy too. A longer rally plays out on the third, before Zverev eventually flings a forehand long. So it’s 40-0. Fils concedes his first point with a mis-",
-        "link": "https://www.theguardian.com/sport/live/2026/nov/19/alexander-zverev-v-arthur-fils-atp-finals-group-stage-live"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Alexander Zverev officially notified of lawsuit by ex-partner in abuse case",
-        "desc": "Top-ranked tennis player Alexander Zverev was officially notified of a lawsuit filed by his former partner during the middle of the season-ending ATP Finals.",
-        "link": "https://www.abc.net.au/news/2026-11-19/alexander-zverev-officially-notified-of-lawsuit-by-ex-partner/107401880"
-       }
-      ]
-     },
-     {
-      "id": 28,
-      "headline": "Frank happy to be 'back in the circus' at Palace",
-      "summary": "Thomas Frank is happy to be \"back in the circus\" after speaking at his first news conference as Crystal Palace manager.",
-      "ts": 1795119370000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33ef/live/c3f26550-e452-11f1-8a3d-bb9751dc9556.jpg",
+      "headline": "Lyon outclass Arsenal in 2-0 Champions League win",
+      "summary": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
+      "ts": 1795128967000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65a8/live/85a48b70-e461-11f1-99b6-a35a62fa4264.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -930,25 +911,81 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Frank happy to be 'back in the circus' at Palace",
-        "desc": "Thomas Frank is happy to be \"back in the circus\" after speaking at his first news conference as Crystal Palace manager.",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cje3900n0vvro?at_medium=RSS&at_campaign=rss"
+        "title": "Lyon outclass Arsenal in 2-0 Champions League win",
+        "desc": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
+        "link": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss"
        },
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Thomas Frank admits he has a point to prove after taking reins at Crystal Palace",
-        "desc": "Dane was sacked by Tottenham in February ‘I know what I want and the direction we should go in’ Thomas Frank has admitted he has a point to prove on his return to management as he aims to steer Crystal Palace away from relegation trouble after taking over as manager. The Dane was confirmed as Pierre Sage’s successor on Monday with Palace at the bottom of the table after 10 matches having conceded ",
-        "link": "https://www.theguardian.com/football/2026/nov/19/thomas-frank-crystal-palace-premier-league"
+        "title": "Arsenal 0-2 OL Lyonnes: Women’s Champions League – as it happened",
+        "desc": "Jule Brand and Melchie Dumornay scored for OL Lyonnes in a commanding 2-0 win against Arsenal in the Women’s Champions League The referee blows the whistle and we are off! Arsenal in their classic red and white and Lyon in all black with some colourful wavy-patterned trim. Here we go! Meadow Park is in full voice as the teams come out from the tunnel and take to the field. Continue reading...",
+        "link": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live"
+       }
+      ]
+     },
+     {
+      "id": 28,
+      "headline": "F1 to introduce full-time race stewards from 2027",
+      "summary": "Formula 1's governing body the FIA is to introduce permanent race stewards from the 2027 season.",
+      "ts": 1795127573000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/581d/live/36962940-e460-11f1-8809-f739ad30238c.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
+        "desc": "FIA announces plans to recruit permanent staff Lewis Hamilton has criticised inconsistency Formula One’s governing body has announced it will bring in full-time race stewards for the first time in the sport’s history, beginning in the 2027 season. The idea of having a select group of permanent race stewards has been under debate in the sport for some time. Currently each race has four volunteer ra",
+        "link": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "F1 to introduce full-time race stewards from 2027",
+        "desc": "Formula 1's governing body the FIA is to introduce permanent race stewards from the 2027 season.",
+        "link": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
      {
       "id": 29,
-      "headline": "Former Test skipper Michael Clarke calls for one truth in sandpaper saga",
-      "summary": "There are two words the former Test captain just can’t have ... and he is calling out the ‘bulls***.’",
-      "ts": 1795117599000,
-      "img": "https://images.7news.com.au/publication/C-23188137/62dcf29e57b08ff914064b1185534790c5673f03-16x9-x0y2w1304h733.jpg",
+      "headline": "England fined for fans' anti-Catholic chants in Spain",
+      "summary": "England are punished by Uefa following anti-Catholic chanting from the away fans during their Nations League victory in Spain.",
+      "ts": 1795125954000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/17f2/live/d02f91c0-e449-11f1-9192-3924a59e54c7.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "England get one-match suspended ban on away tickets for anti-pope chants in Spain",
+        "desc": "Ban by Uefa is suspended for two years Uefa also fines FA £12,500 for offensive chants England have been handed a ­suspended ­one-match ban on away ticket sales by Uefa in relation to “­racist and/or ­discriminatory” behaviour by fans at Sunday’s 3-2 Nations League victory over Spain. The punishment is suspended for two years. Uefa has also fined the Football Association €15,000 (£12,500), with th",
+        "link": "https://www.theguardian.com/football/2026/nov/19/england-one-match-suspended-away-tickets-ban-anti-pope-chants-spain-uefa"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "England fined for fans' anti-Catholic chants in Spain",
+        "desc": "England are punished by Uefa following anti-Catholic chanting from the away fans during their Nations League victory in Spain.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cmlye2n7p7d9o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 30,
+      "headline": "Matildas ace Caitlin Foord lands major honour in Asian football awards",
+      "summary": "The 32-year-old veteran has just completed a rare treble a decade after her ‘best player in Asia’ gong.",
+      "ts": 1795125673000,
+      "img": "https://images.7news.com.au/publication/C-23188812/7d58882df930ddcc2c010c8d51ec09c5be57d516-16x9-x0y2w1304h733.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -958,44 +995,16 @@
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Former Test skipper Michael Clarke calls for one truth in sandpaper saga",
-        "desc": "There are two words the former Test captain just can’t have ... and he is calling out the ‘bulls***.’",
-        "link": "https://7news.com.au/sport/cricket/former-test-skipper-michael-clarke-calls-for-one-truth-in-sandpaper-saga-c-23188137"
+        "title": "Matildas ace Caitlin Foord lands major honour in Asian football awards",
+        "desc": "The 32-year-old veteran has just completed a rare treble a decade after her ‘best player in Asia’ gong.",
+        "link": "https://7news.com.au/sport/soccer/matildas-ace-caitlin-foord-lands-major-honour-in-asian-football-awards-c-23188812"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
-        "desc": "Neil Maxwell, the agent for Test cricket captain Pat Cummins, has criticised the \"hysteria\" surrounding his client as the Sandpapergate scandal continues.",
-        "link": "https://www.abc.net.au/news/2026-11-20/pat-cummins-agent-criticises-sandpaper-hysteria/107407092"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Wallabies looking for attacking spark against Wales",
-      "summary": "The Wallabies are promising a more polished attacking display against in-form Wales in their quest to arrest an alarming eight-Test losing run in Europe.",
-      "ts": 1795083869000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e0aa11d024f908cc9af38c0ef7c386b7?impolicy=wcms_crop_resize&cropH=2160&cropW=3840&xPos=0&yPos=127&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Wallabies keep faith in misfiring backs as they aim to stop the rot against Wales",
-        "desc": "Forwards Carlo Tizzano and Tom Hooper come into XV Australia trying to avoid ninth straight defeat in Europe The Wallabies will be hoping to avoid a first UK home nations whitewash for 68 years when they head into their Nations Championship match against Wales this weekend with the same backline that started last week’s narrow loss to Scotland. The forwards Carlo Tizzano and Tom Hooper have been t",
-        "link": "https://www.theguardian.com/sport/2026/nov/19/wallabies-keep-faith-in-misfiring-backs-as-they-aim-to-stop-the-rot-against-wales"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Wallabies looking for attacking spark against Wales",
-        "desc": "The Wallabies are promising a more polished attacking display against in-form Wales in their quest to arrest an alarming eight-Test losing run in Europe.",
-        "link": "https://www.abc.net.au/news/2026-11-19/wallabies-looking-for-response-against-wales/107403808"
+        "title": "Matildas star Foord named best international player in Asia",
+        "desc": "Caitlin Foord has been named women's international player of the year at the Asian Football Confederation's annual awards in Bangkok, completing a unique treble for the Matildas striker.",
+        "link": "https://www.abc.net.au/news/2026-11-20/matildas-star-foord-named-best-international-player-in-asia/107407140"
        }
       ]
      }
@@ -1007,72 +1016,23 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Caleb Hearon and Zooey Deschanel TIFF Dramedy ‘Trash Mountain’ Acquired by Magnolia Pictures",
-      "summary": "Magnolia Pictures has snatched up North American rights to “Trash Mountain,” a dramedy film starring Caleb Hearon, who co-wrote the script with Ruby Caster, and Zooey Deschanel. A theatrical release is in the works for next year. “I Used to Go Here” filmmaker Kris Rey directs “Trash Mountain,” and Colin Trevorrow serves as producer. The […]",
-      "ts": 1795124031000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/TRASH-MOUNTAIN-courtesy-of-Magnolia-Pictures.jpg",
+      "headline": "IDFA Awards Ceremony: ‘The Year Of The Ghost’ And ‘Memories Of Lightning’ Earn Top Prizes",
+      "summary": "Director Louis HotHotHot is living up to his name. His feature documentary The Year of the Ghost won Best Film in International Competition Thursday as the 39th International Documentary Festival Amsterdam presented its awards. The Chinese-born filmmaker, also known as Louis Liu, also won Best Editing in International Competition, sharing that prize with his co-editor […]",
+      "ts": 1795124043000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/IDFA-winners-2026-split-image-1000.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Caleb Hearon and Zooey Deschanel TIFF Dramedy ‘Trash Mountain’ Acquired by Magnolia Pictures",
-        "desc": "Magnolia Pictures has snatched up North American rights to “Trash Mountain,” a dramedy film starring Caleb Hearon, who co-wrote the script with Ruby Caster, and Zooey Deschanel. A theatrical release is in the works for next year. “I Used to Go Here” filmmaker Kris Rey directs “Trash Mountain,” and Colin Trevorrow serves as producer. The […]",
-        "link": "https://variety.com/2026/film/news/caleb-hearon-zooey-deschanel-trash-mountain-magnolia-1236953596/"
-       },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Zooey Deschanel & Caleb Hearon TIFF World Premiere ‘Trash Mountain’ Acquired By Magnolia Pictures",
-        "desc": "EXCLUSIVE: The TIFF world premiere, Trash Mountain, starring Zooey Deschanel and Caleb Hearon, is seeing its North American rights go to Magnolia Pictures for a theatrical release next year. The Kris Rey directed, Hearon co-written, Colin Trevorrow produced feature follows the story of Gavin (Hearon), a young gay Chicago man who is forced to return […]",
-        "link": "https://deadline.com/2026/11/zooey-deschanel-caleb-hearon-trash-mountain-1237229457/"
-       }
-      ]
-     },
-     {
-      "id": 32,
-      "headline": "Executives From the Walt Disney Company, NBCUniversal Television, Blumhouse Atomic, Waymo and Chipotle to Join Variety’s Entertainment Summit at CES",
-      "summary": "Variety is back at CES for its annual Entertainment Summit, featuring conversations with the executives shaping the largest brands in the industry, on Jan. 7 at Aria Las Vegas. The summit will be open to all CES registrants at no additional cost. The summit programming includes the following keynotes and panels. Additional speakers and programming […]",
-      "ts": 1795123904000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/ces-2027-2.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Executives From the Walt Disney Company, NBCUniversal Television, Blumhouse Atomic, Waymo and Chipotle to Join Variety’s Entertainment Summit at CES",
-        "desc": "Variety is back at CES for its annual Entertainment Summit, featuring conversations with the executives shaping the largest brands in the industry, on Jan. 7 at Aria Las Vegas. The summit will be open to all CES registrants at no additional cost. The summit programming includes the following keynotes and panels. Additional speakers and programming […]",
-        "link": "https://variety.com/2026/biz/news/variety-announces-programming-entertainment-summit-at-ces-1236953511/"
+        "title": "IDFA Awards Ceremony: ‘The Year Of The Ghost’ And ‘Memories Of Lightning’ Earn Top Prizes",
+        "desc": "Director Louis HotHotHot is living up to his name. His feature documentary The Year of the Ghost won Best Film in International Competition Thursday as the 39th International Documentary Festival Amsterdam presented its awards. The Chinese-born filmmaker, also known as Louis Liu, also won Best Editing in International Competition, sharing that prize with his co-editor […]",
+        "link": "https://deadline.com/2026/11/2026-idfa-awards-announcement-1237229526/"
        },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Teagan Meredith & Jacob Batalon Join Disney’s ‘Lilo & Stitch 2’",
-        "desc": "EXCLUSIVE: Disney Live Action has added two to the cast of Lilo & Stitch 2: young up-and-comer Teagan Meredith (Fallout) and the Spider-Man franchise’s Jacob Batalon. The studio also confirmed returning cast, including Maia Kealoha as Lilo, along with Courtney B. Vance, Kaipo Dudoit, Amy Hill, Tia Carrere and Billy Magnussen. Character details for the […]",
-        "link": "https://deadline.com/2026/11/lilo-and-stitch-2-cast-jacob-batalon-teagan-meredith-1237229336/"
-       }
-      ]
-     },
-     {
-      "id": 33,
-      "headline": "‘The Year of the Ghost,’ About Misogyny in China, Wins Best Film at IDFA Documentary Festival",
-      "summary": "Louis HotHotHot’s “The Year of the Ghost” won best film in the International Competition section of leading documentary festival IDFA on Thursday. The award is accompanied by a €15,000 ($16,462) cash prize. The film, a co-production between Netherlands and China, focuses on the director’s mother and sister in China following his father’s death. He explores […]",
-      "ts": 1795123800000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/The-Year-of-the-Ghost.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "Variety",
         "lean": "centre",
@@ -1083,18 +1043,18 @@
        {
         "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Rakuen Tsuihō -Expelled from Paradise- Kokoro no Resonance Film Opens at #5 in Japan",
-        "desc": "Godzilla Minus Zero stays at #1, becomes highest-earning live-action IMAX film in Japan",
-        "link": "https://www.animenewsnetwork.com/news/2026-11-19/rakuen-tsuiho-expelled-from-paradise-kokoro-no-resonance-film-opens-at-no.5-in-japan/.243961"
+        "title": "Masanao Kawajiri's Cherry and Virgin Film Wins at Aichi Nagoya Int'l Animation Film Fest",
+        "desc": "2nd ANIAFF took place from November 13-18",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-19/masanao-kawajiri-cherry-and-virgin-film-wins-at-aichi-nagoya-intl-animation-film-fest/.243991"
        }
       ]
      },
      {
-      "id": 34,
-      "headline": "‘Spider-Man: Brand New Day’ Re-Release: First Look At Rosario Dawson As Night Nurse In Deleted Scene",
-      "summary": "Rosario Dawson has shared a first look at her Spider-Man: Brand New Day cameo as Claire Temple (Night Nurse). The scene originally didn’t make the cut that Marvel fans saw in theaters earlier this year, but it will be included in the re-release of the film slated for December 4. “It’s a brand new BRAND […]",
-      "ts": 1795122943000,
-      "img": "https://deadline.com/wp-content/uploads/2026/08/rosario-dawson-spider-man-brand-new-day.jpg",
+      "id": 32,
+      "headline": "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto",
+      "summary": "EXCLUSIVE: Edward Burns’ micro-budget black-and-white family drama Beneath the Blue Suburban Skies debuted at the Toronto Film Festival in 2019. Seven years later, the film is finally getting a release with a one-week awards-qualifying theatrical run in New York from December 25, ahead of a rollout in major cities in January. The film stars Burns […]",
+      "ts": 1795129173000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Beneath-The-Blue-Suburban-Skies.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1104,21 +1064,49 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Spider-Man: Brand New Day’ Re-Release: First Look At Rosario Dawson As Night Nurse In Deleted Scene",
-        "desc": "Rosario Dawson has shared a first look at her Spider-Man: Brand New Day cameo as Claire Temple (Night Nurse). The scene originally didn’t make the cut that Marvel fans saw in theaters earlier this year, but it will be included in the re-release of the film slated for December 4. “It’s a brand new BRAND […]",
-        "link": "https://deadline.com/2026/11/spider-man-brand-new-day-rosario-dawson-nurse-deleted-scene-1237229518/"
+        "title": "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto",
+        "desc": "EXCLUSIVE: Edward Burns’ micro-budget black-and-white family drama Beneath the Blue Suburban Skies debuted at the Toronto Film Festival in 2019. Seven years later, the film is finally getting a release with a one-week awards-qualifying theatrical run in New York from December 25, ahead of a rollout in major cities in January. The film stars Burns […]",
+        "link": "https://deadline.com/2026/11/edward-burns-awards-push-beneath-the-blue-suburban-skies-1237228934/"
        },
        {
-        "outlet": "Variety",
+        "outlet": "Anime News Network",
         "lean": "centre",
-        "title": "Rosario Dawson Drops First Look at Night Nurse in ‘Spider-Man: Brand New Day’ Re-Release as Her Cut Scenes Are Restored",
-        "desc": "“Spider-Man: Brand New Day” broke box office records when it hit theaters over the summer, but several scenes were left on the cutting room floor. One of those included Rosario Dawson’s character Claire Temple, aka the Night Nurse, from Netflix’s Marvel shows. Now, “Brand New Day” is getting a theatrical re-release that will re-add some […]",
-        "link": "https://variety.com/2026/film/news/rosario-dawson-night-nurse-spider-man-brand-new-day-1236953529/"
+        "title": "Seven Seas Licenses 'I am Blue, in Pain, and Fragile,' Predator Witches Audiobooks",
+        "desc": "Also in December: English audiobook of The Lucky Egg Game: Cai Dan You Xi danmei series",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-18/seven-seas-licenses-i-am-blue-in-pain-and-fragile-predator-witches-audiobooks/.243959"
        }
       ]
      },
      {
-      "id": 35,
+      "id": 33,
+      "headline": "‘Glee’ Reboot: ‘Sadness’ Over Naya Rivera and Cory Monteith’s Deaths Is ‘Going to Be a Part’ of the Show, Says Co-Creator Ian Brennan",
+      "summary": "“Glee” co-creator Ian Brennan admits he wasn’t always open to the upcoming “Glee” reboot. “I wasn’t that excited about it,” he told me earlier this week at an FYC event for his latest television project “Monster: The Lizzie Borden Story.” “Every time it came up, it was like, ‘Why would you do that again?’ For […]",
+      "ts": 1795127022000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/GLEE-Cory-Monteith-Season-2-2009-.-photo-Miranda-Penn-Turin-Fox-Television-Courtesy-Eve-GLEE-Naya-Rivera-Season-2-2009-.-photo-Miranda-Penn-Turin-Fox-Television-Courtesy-Evere-1000-1.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Glee’ Reboot: ‘Sadness’ Over Naya Rivera and Cory Monteith’s Deaths Is ‘Going to Be a Part’ of the Show, Says Co-Creator Ian Brennan",
+        "desc": "“Glee” co-creator Ian Brennan admits he wasn’t always open to the upcoming “Glee” reboot. “I wasn’t that excited about it,” he told me earlier this week at an FYC event for his latest television project “Monster: The Lizzie Borden Story.” “Every time it came up, it was like, ‘Why would you do that again?’ For […]",
+        "link": "https://variety.com/2026/tv/columns/glee-reboot-naya-rivera-cory-monteith-death-ian-brennan-monster-lizzie-borden-1236953562/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Playbill Apologizes Over ‘George Floyd Musical’ Ad & Bans Producer From Listings; Show’s Controversial Creator Previously Sued Off Broadway Venue Over BIPOC Nights",
+        "desc": "UPDATE, with new Playbill statement: Playbill, the ubiquitous and indispensable New York-based theater publication that features show synopsis, cast biographies and, on its website, stage-related job listings, apologized Thursday for one such ad: a listing calling for singers interested in auditioning for a new concept stage musical album. The cast album’s title: George Floyd: The […]",
+        "link": "https://deadline.com/2026/11/playbill-george-floyd-musical-busted-broadway-kevin-lynch-1237229358/"
+       }
+      ]
+     },
+     {
+      "id": 34,
       "headline": "Netflix and Disney Alum Tendo Nagenda Joins Proximity Media as President",
       "summary": "Veteran executive and producer Tendo Nagenda will join Proximity Media as president, company founders Ryan Coogler, Zinzi Coogler and Sev Ohanian announced on Thursday. “Tendo has spent his career working alongside talented filmmakers, championing original ideas and helping make projects that resonate with audiences around the world,” the Cooglers and Ohanian, who most recently produced […]",
       "ts": 1795122000000,
@@ -1146,11 +1134,11 @@
       ]
      },
      {
-      "id": 36,
-      "headline": "Cliff Booth Review: A Violent Sequel With Real Soul",
-      "summary": "David Fincher directing a Quentin Tarantino screenplay sounds like a clash of filmmaking styles, but The Further Misadventures of Cliff Booth finds something fascinating in that tension.Following Brad Pitt's character from Once Upon a Time in Hollywood, the film takes Cliff into a darker version of Los Angeles, where his work as a Hollywood fixer brings him into contact with troubled actors, dange",
-      "ts": 1795120369000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/hf_20261116_151853_ea42e092-6f4e-425d-a5cc-ddd6dc4050c9.png",
+      "id": 35,
+      "headline": "Netflix's Answer To Blade Runner Is A Rare Example Of A TV Adaptation Beating Its Own Book",
+      "summary": "Netflix's two-season cyberpunk masterpiece is better than the book it was based on, introducing characters that are some of the best in sci-fi",
+      "ts": 1795129218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-96-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1160,16 +1148,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Cliff Booth Review: A Violent Sequel With Real Soul",
-        "desc": "David Fincher directing a Quentin Tarantino screenplay sounds like a clash of filmmaking styles, but The Further Misadventures of Cliff Booth finds something fascinating in that tension.Following Brad Pitt's character from Once Upon a Time in Hollywood, the film takes Cliff into a darker version of Los Angeles, where his work as a Hollywood fixer brings him into contact with troubled actors, dange",
-        "link": "https://screenrant.com/video/cliff-booth-review-a-violent-sequel-with-real-soul/"
-       },
+        "title": "Netflix's Answer To Blade Runner Is A Rare Example Of A TV Adaptation Beating Its Own Book",
+        "desc": "Netflix's two-season cyberpunk masterpiece is better than the book it was based on, introducing characters that are some of the best in sci-fi",
+        "link": "https://screenrant.com/netflix-altered-carbon-better-than-cyberpunk-source-material/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "First Look At New Batman Series Confirms It's Going To Be A Modern Classic",
+      "summary": "Deniz Camp and Javier Rodriguez bring an even bleaker look at Gotham City as they give readers a soon-to-be classic Batman series.",
+      "ts": 1795129218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/dan-mora-art-of-batman.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
        {
-        "outlet": "Guardian Film",
-        "lean": "left",
-        "title": "The Further Mis-Adventures of Cliff Booth review – Tarantino and Fincher join forces for Brad Pitt’s glorious return",
-        "desc": "David Fincher directs Quentin Tarantino’s script, picking up from Once Upon a Time in Hollywood, and its lead is more ineffably beguiling than ever We got through to the very end of Quentin Tarantino’s previous film Once Upon a Time in Hollywood without finding out exactly how, why or if Brad Pitt’s stuntman character Cliff Booth murdered his wife. It was an issue only addressed in Tarantino’s nov",
-        "link": "https://www.theguardian.com/film/2026/nov/19/the-further-mis-adventures-of-cliff-booth-review-quentin-tarantino-david-fincher-brad-pitt"
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "First Look At New Batman Series Confirms It's Going To Be A Modern Classic",
+        "desc": "Deniz Camp and Javier Rodriguez bring an even bleaker look at Gotham City as they give readers a soon-to-be classic Batman series.",
+        "link": "https://screenrant.com/batman-shadow-bat-absolute-martian-manhunter-team/"
        }
       ]
      }
@@ -1177,37 +1179,37 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
-   "The Age",
-   "ABC News",
    "Crikey",
+   "The Age",
+   "Guardian Australia",
+   "Ars Technica",
+   "ABC News",
+   "The Verge",
    "BBC World",
-   "7News",
-   "Guardian AU Politics",
+   "BBC Tech",
+   "The Age Business",
+   "Variety",
+   "The Conversation",
+   "Fox News Politics",
+   "AFR",
+   "ABC Business",
+   "Guardian Tech",
+   "BBC Sport",
+   "Fox Business",
+   "ABC Sport",
    "Fox News",
    "The Age Federal Politics",
-   "Fox News Politics",
-   "Guardian Tech",
-   "BBC Tech",
-   "Ars Technica",
-   "The Conversation",
+   "Guardian AU Politics",
    "Guardian AU Business",
-   "The Age Business",
-   "The Verge",
-   "ABC Business",
-   "Fox Business",
-   "Variety",
-   "AFR",
-   "ABC Sport",
-   "Deadline",
-   "Guardian AU Sport",
+   "Anime News Network",
    "Guardian Film",
-   "BBC Sport",
+   "Guardian AU Sport",
+   "7News Sport",
    "Screen Rant",
    "SBS News",
-   "Anime News Network",
+   "7News",
    "Daily Mail Australia",
-   "7News Sport"
+   "Deadline"
   ],
   "sourcesFailed": []
  },
@@ -1399,7 +1401,7 @@
   {
    "title": "Activate & Spend $X (Min. $50) in 1 Transaction for 4 Consecutive Weeks at Coles, Get 10,000 Flybuys Points or $50 off @ Flybuys",
    "link": "https://www.ozbargain.com.au/node/984246",
-   "votes": 190,
+   "votes": 194,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795070730000
@@ -1407,7 +1409,7 @@
   {
    "title": "AliExpress: 23% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/984214",
-   "votes": 183,
+   "votes": 186,
    "neg": 0,
    "category": "Other",
    "ts": 1795064407000
@@ -1415,7 +1417,7 @@
   {
    "title": "TP-Link Tapo P110 Mini Energy Monitoring Smart Plug (2 Pack) $20 + Delivery @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/984162",
-   "votes": 177,
+   "votes": 178,
    "neg": 1,
    "category": "Electrical & Electronics",
    "ts": 1795053717000
@@ -1423,7 +1425,7 @@
   {
    "title": "AliExpress: $10 Bonus Cashback on $100 Spend (Stackable, Activation Required) @ ShopBack AU",
    "link": "https://www.ozbargain.com.au/node/984252",
-   "votes": 89,
+   "votes": 92,
    "neg": 0,
    "category": "Other",
    "ts": 1795074000000
@@ -1431,7 +1433,7 @@
   {
    "title": "[eBook] Free - Throne Hunters Books 1-5 by Phil Tucker @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/984230",
-   "votes": 83,
+   "votes": 84,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1795066613000
@@ -1445,14 +1447,6 @@
    "ts": 1795058221000
   },
   {
-   "title": "[PC, Steam] Kingdom Come: Deliverance II $29.68 @ Steam",
-   "link": "https://www.ozbargain.com.au/node/984116",
-   "votes": 72,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1795046280000
-  },
-  {
    "title": "Guinness Worlds Records 2027 $12.50 + Delivery ($0 C&C/in Store/$59 Metro Spend) @ Big W / Amazon AU (Backorder)",
    "link": "https://www.ozbargain.com.au/node/984225",
    "votes": 68,
@@ -1461,9 +1455,17 @@
    "ts": 1795065940000
   },
   {
+   "title": "GL.inet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.63 (~A$121.76) AU Stock Delivered @ GL-Inet Overseas Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/984311",
+   "votes": 66,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1795095363000
+  },
+  {
    "title": "Nintendo Switch Online (+ Expansion Pack) - 3 Bonus Months with 12 Month Membership with Auto Renewal Turned on @ Nintendo",
    "link": "https://www.ozbargain.com.au/node/984279",
-   "votes": 62,
+   "votes": 64,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795083213000
@@ -1485,17 +1487,9 @@
    "ts": 1795054967000
   },
   {
-   "title": "GL.inet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.63 (~A$121.76) AU Stock Delivered @ GL-Inet Overseas Store AliExpress",
-   "link": "https://www.ozbargain.com.au/node/984311",
-   "votes": 57,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1795095363000
-  },
-  {
    "title": "Buy a Qualifying Product & Get a Bonus $35-$420 Apple Gift Card @ Apple",
    "link": "https://www.ozbargain.com.au/node/984304",
-   "votes": 51,
+   "votes": 52,
    "neg": 1,
    "category": "Electrical & Electronics",
    "ts": 1795091572000
@@ -1503,7 +1497,7 @@
   {
    "title": "Panasonic DP-UB820 4K Blu-Ray Player $607 Delivered @ Appliance Online via Everyday Market",
    "link": "https://www.ozbargain.com.au/node/984159",
-   "votes": 43,
+   "votes": 44,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795053372000
@@ -1511,10 +1505,18 @@
   {
    "title": "Bambu Lab 3D Printers: P2S Combo $999 + Shipping ($0 C&C) @ The Good Guys",
    "link": "https://www.ozbargain.com.au/node/984243",
-   "votes": 38,
+   "votes": 40,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795070128000
+  },
+  {
+   "title": "Amazon Cashback: 20% on Amazon Devices, 10% on Sports & Outdoors, Home Improvement, Furniture, Tools, + More @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/984336",
+   "votes": 39,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1795122476000
   }
  ],
  "carried": {}
