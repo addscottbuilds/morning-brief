@@ -16,11 +16,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  prepare_pages:
     runs-on: ubuntu-latest
+    env:
+      PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
+    outputs:
+      artifact_name: ${{ env.PAGES_ARTIFACT_NAME }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -28,6 +29,18 @@ jobs:
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
+          name: ${{ env.PAGES_ARTIFACT_NAME }}
           path: .
+
+  deploy:
+    # Artifact discovery can race an upload in the same job.
+    needs: prepare_pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          artifact_name: ${{ needs.prepare_pages.outputs.artifact_name }}
