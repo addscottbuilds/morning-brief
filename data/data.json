@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T00:46:32.915Z",
+ "generatedAt": "2026-11-19T01:16:57.029Z",
  "markets": {
   "items": [
    {
@@ -7,65 +7,73 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8716.7,
-    "chgPct": -1.8743267251857991,
+    "price": 8749,
+    "chgPct": -1.5107190242466328,
     "high52": 9296.7,
-    "off52": -6.23877289791001
+    "off52": -5.891337786526409
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 86.01,
-    "chgPct": -0.23199058879084608,
+    "price": 86.58,
+    "chgPct": 0.42918561588754633,
     "high52": 88.25,
-    "off52": -2.538243626062317
+    "off52": -1.8923512747875373
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 145.94,
-    "chgPct": -1.231723453232627,
+    "price": 146.51,
+    "chgPct": -0.8459627458757906,
     "high52": 155.03,
-    "off52": -5.863381281042381
+    "off52": -5.495710507643689
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 59.21,
-    "chgPct": 1.0409582623936342,
+    "price": 59.71,
+    "chgPct": 1.8942006054302296,
     "high52": 65.18,
-    "off52": -9.159251304081014
+    "off52": -8.39214482970237
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 31.03,
-    "chgPct": 0.4857540262629845,
+    "price": 31.4,
+    "chgPct": 1.683940587323798,
     "high52": 47.78,
-    "off52": -35.05650899958142
+    "off52": -34.28212641272499
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.67,
-    "chgPct": -0.5900908418062744,
+    "price": 0.6693,
+    "chgPct": -0.6939519409267803,
     "high52": 0.7277,
-    "off52": -7.929091658650539
+    "off52": -8.025285144977326
    }
   ],
   "failed": [],
-  "note": "SEMI is 35% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 34% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "JPM",
+    "name": "JPMorgan",
+    "market": "US",
+    "price": 324.11,
+    "currency": "USD",
+    "chgPct": -4.169005000241368
+   },
    {
     "sym": "AMZN",
     "name": "Amazon",
@@ -86,9 +94,9 @@
     "sym": "BHP.AX",
     "name": "BHP",
     "market": "ASX",
-    "price": 52.4,
+    "price": 52.65,
     "currency": "AUD",
-    "chgPct": -3.570114367207085
+    "chgPct": -3.110048118959027
    },
    {
     "sym": "NVDA",
@@ -109,6 +117,181 @@
     "stories": [
      {
       "id": 0,
+      "headline": "General Pants Co collapses into voluntary administration as administrators seek buyer to save retailer",
+      "summary": "The retailer employs about 500 people across Australia and New Zealand.",
+      "ts": 1795050989000,
+      "img": "https://images.7news.com.au/publication/C-23183247/f926321562c87b9fb53a297ac38621da4079bdba-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Aussie retailer General Pants enters administration",
+        "desc": "Streetwear fashion chain General Pants has entered voluntary administration, putting nearly 500 jobs at risk.",
+        "link": "https://www.theage.com.au/national/aussie-retailer-general-pants-enters-administration-20261119-p61fly.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Unemployment surges as Aussie jobless rate hits five-year high amid corporate jobs bloodbath",
+        "desc": "The unemployment rate had been widely expected by economists to remain at its previous rate of 4.7 per cent.",
+        "link": "https://www.dailymail.com/news/article-16304387/Shock-unemployment-surge-Aussie-jobless-rate-hits-five-year-high-amid-corporate-jobs-bloodbath.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "General Pants Co collapses into voluntary administration as administrators seek buyer to save retailer",
+        "desc": "The retailer employs about 500 people across Australia and New Zealand.",
+        "link": "https://7news.com.au/news/general-pants-co-collapses-into-voluntary-administration-as-administrators-seek-buyer-to-save-retailer-c-23183247"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Beau Lamarre-Condon trial live updates: Crown prosecutor delivers closing address ahead of jury deliberations",
+      "summary": "The former NSW police officer’s double murder trial is drawing to an end as the parties deliver closing addresses.",
+      "ts": 1795050797000,
+      "img": "https://static.ffx.io/images/$zoom_1.5129%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/d479a2723fd05bf9bc17b95f7b5b919b19ea984ac18b6fa4e9bdd85d9235beda",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Beau Lamarre-Condon trial live updates: Crown prosecutor delivers closing address ahead of jury deliberations",
+        "desc": "The former NSW police officer’s double murder trial is drawing to an end as the parties deliver closing addresses.",
+        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-crown-prosecutor-delivers-closing-address-ahead-of-jury-deliberations-20261119-p61fi2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Beau Lamarre-Condon’s testimony about Jesse Baird and Luke Davies’ deaths ‘fanciful in the extreme’, crown alleges",
+        "desc": "Prosecutor argues accused could be convicted on strength of forensic and ballistics evidence alone in closing statement Beau Lamarre-Condon’s claims about the deaths of Jesse Baird and Luke Davies are “fanciful in the extreme”, a court has heard. The former police officer is accused of fatally shooting Baird and his new partner, Davies, with his police service weapon in Baird’s Paddington home in ",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/19/beau-lamarre-condon-jesse-baird-luke-davies-ntwnfb"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Watch the moment accused killer cop Lamarre-Condon allegedly shot dead Jesse Baird and his lover in 3D video reconstruction",
+        "desc": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+        "link": "https://www.dailymail.com/news/article-16304139/live-blog-lamarre-condon-trial-reconstruction-video-jesse-baird-luke-davies.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Economist warns Australia faces growing risk of another interest rate rise as soaring wages add to inflation pressures",
+      "summary": "Wages jumped 3.5 per cent this year, marking the biggest increase in three years.",
+      "ts": 1795050775000,
+      "img": "https://images.7news.com.au/publication/C-23183006/09ab9247d79ec8d20e41e7b59ab1449d0eb5d441-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Pre-Christmas rate hike unlikely as unemployment rate jumps to highest level in five years",
+        "desc": "Jobless rate rises from 4.7% to 4.9% for October, latest bureau of statistics figures reveal Get our daily political email, free app or daily news podcast Unemployment has surged to 4.9% in October, from 4.7%, in a shock increase that will add to rising worries the economy has passed a tipping point following this year’s five interest rate increases. New figures from the Australian Bureau of Stati",
+        "link": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Economist warns Australia faces growing risk of another interest rate rise as soaring wages add to inflation pressures",
+        "desc": "Wages jumped 3.5 per cent this year, marking the biggest increase in three years.",
+        "link": "https://7news.com.au/sunrise/economist-warns-australia-faces-growing-risk-of-another-interest-rate-rise-as-soaring-wages-add-to-inflation-pressures-c-23183006"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Aussie dollar falls as rise in unemployment cools rate hike expectations",
+        "desc": "The Aussie dollar is down and the local share market is recouping some losses after the unemployment rate rose to 4.9 per cent, a weaker outcome than expected. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+        "link": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "‘I feel pretty foolish’: Musk rues election cash splash, declares he’s not MAGA",
+      "summary": "The world’s richest man also doubled down on his defence of fellow tech titan, Jensen Huang, arguing that his ousting from Nvidia was “like kicking Michael Jordan off your team”.",
+      "ts": 1795050471000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/92aae47f2a7d8a9b6fc86dd473f0816c863fcf39",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans",
+        "desc": "Musk, who aligned with Trump and was frequent White House guest, says he feels ‘pretty foolish’ about record midterm spending Elon Musk denied being Maga on Wednesday, despite aligning himself intensely with Donald Trump’s Make America Great Again movement since 2024. “I’m not Maga,” the world’s richest person told the New York Times Dealbook summit, which he attended via video call from China, wh",
+        "link": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘I feel pretty foolish’: Musk rues election cash splash, declares he’s not MAGA",
+        "desc": "The world’s richest man also doubled down on his defence of fellow tech titan, Jensen Huang, arguing that his ousting from Nvidia was “like kicking Michael Jordan off your team”.",
+        "link": "https://www.theage.com.au/world/north-america/i-feel-pretty-foolish-musk-rues-election-cash-splash-declares-he-s-not-maga-20261119-p61fj7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Elon Musk makes incredible U-turn on MAGA while admitting he regrets spending 'foolish' $445 million on midterms",
+        "desc": "Only three of the roughly 40 Republican House candidates Musk financed with over $445million won at the polls, leading Musk to hold some regrets about the extravagant spending on MAGA candidates.",
+        "link": "https://www.dailymail.com/news/article-16304273/Elon-Musk-MAGA-regrets-spending.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+      "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+      "ts": 1795044483000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb01/live/85dba110-e39d-11f1-a094-5fdc692f3e33.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+        "desc": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+        "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Richard Marles insists Australia’s support for Ukraine remains unchanged after Anthony Albanese poses alongside Vladimir Putin",
+        "desc": "‘Vladimir Putin has been invited to APEC by the host ... That’s not our decision’",
+        "link": "https://7news.com.au/sunrise/richard-marles-insists-australias-support-for-ukraine-remains-unchanged-after-anthony-albanese-poses-alongside-vladimir-putin-c-23182894"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese poses with Putin in China as Sandpapergate steals the headlines",
+        "desc": "In an explosive first-person piece, Cameron Bancroft claims the whole Australian cricket team knew about the 2018 sandpaper scandal. Meanwhile, Anthony Albanese has posed for a picture with Vladimir Putin but says he won’t be taking lessons in diplomacy from Tony Abbott. The post Albanese poses with Putin in China as Sandpapergate steals the headlines appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/19/albanese-putin-apec-tony-abbott-sandpapergate-bancroft/"
+       }
+      ]
+     },
+     {
+      "id": 5,
       "headline": "Why Anthony Albanese has appeared in a 'family photo' with Vladimir Putin",
       "summary": "The prime minister had said he would respect the wishes of APEC hosts China but make Australia's position on Ukraine \"very clear\".",
       "ts": 1795041706000,
@@ -143,46 +326,11 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Iran strikes US drone sites in Kuwait as hostilities escalate in Middle East",
-      "summary": "Kuwait said it reserved the right to take all necessary measures to safeguard its ‌sovereignty.",
-      "ts": 1795036708000,
-      "img": "https://assets.sbs.com.au/dims4/default/268e959/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F5c%2F3c%2Fa0a20b914ba19c870a5a39aca4b9%2F20261115152211750772-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "US races to build bunkers across Middle East as Iranian strikes threaten American troops",
-        "desc": "The U.S. Army is hiring contractors to build 17 reinforced concrete bunkers in Israel, Saudi Arabia and Lebanon amid Iranian missile and drone attacks.",
-        "link": "https://www.foxnews.com/world/us-races-build-bunkers-across-middle-east-iranian-strikes-threaten-american-troops"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Iran strikes US drone sites in Kuwait as hostilities escalate in Middle East",
-        "desc": "Kuwait said it reserved the right to take all necessary measures to safeguard its ‌sovereignty.",
-        "link": "https://www.sbs.com.au/news/article/iran-fires-at-us-drone-and-missile-sites-in-kuwait-after-attack-on-strait-of-hormuz/w8we1ptod"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-        "desc": "Bahrain says it was also attacked by Iran following a US air strike on the Iranian island of Qeshm in the Gulf on Tuesday.",
-        "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Beau Lamarre-Condon trial live updates: Crown prosecutor delivers closing address ahead of jury deliberations",
-      "summary": "The former NSW police officer’s double murder trial is drawing to an end as the parties deliver closing addresses.",
-      "ts": 1795048741000,
-      "img": "https://static.ffx.io/images/$zoom_1.5129%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/d479a2723fd05bf9bc17b95f7b5b919b19ea984ac18b6fa4e9bdd85d9235beda",
+      "id": 6,
+      "headline": "'Kind of ridiculous': Why is everyone talking about the new Grand Theft Auto release?",
+      "summary": "Some fans were children when the previous game came out. They're counting down the moments until GTA 6's release.",
+      "ts": 1795041620000,
+      "img": "https://assets.sbs.com.au/dims4/default/6a9b08f/2147483647/strip/false/crop/5254x2414+0+544/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fb2%2F30%2F4cbe3f77435c829fa1bdd8cc99f8%2F20261118129344395868-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -190,130 +338,25 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
+        "outlet": "Fox News",
         "lean": "right",
-        "title": "Watch the moment accused killer cop Lamarre-Condon allegedly shot dead Jesse Baird and his lover in 3D video reconstruction",
-        "desc": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16304139/live-blog-lamarre-condon-trial-reconstruction-video-jesse-baird-luke-davies.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Dozens of Army soldiers sign up for unique reenlistment incentive to play Grand Theft Auto VI",
+        "desc": "The U.S. Army offered Fort Stewart soldiers four-day passes to play \"Grand Theft Auto VI\" as a reenlistment perk, and 43 of 130 eligible troops took it.",
+        "link": "https://www.foxnews.com/politics/dozens-army-soldiers-sign-up-unique-reenlistment-incentive-play-grand-theft-auto-vi"
        },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Beau Lamarre-Condon trial live updates: Crown prosecutor delivers closing address ahead of jury deliberations",
-        "desc": "The former NSW police officer’s double murder trial is drawing to an end as the parties deliver closing addresses.",
-        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-trial-live-updates-crown-prosecutor-delivers-closing-address-ahead-of-jury-deliberations-20261119-p61fi2.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Trump's AI push has Albanese's signature, but another country is quickly gaining ground",
-      "summary": "Australia is increasingly aligning with the United States on artificial intelligence — even if they don't agree on what to call it.",
-      "ts": 1795048650000,
-      "img": "https://assets.sbs.com.au/dims4/default/b6c29e0/2147483647/strip/false/crop/6384x2933+0+661/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa8%2Fc1%2F2c3477c84341a7cd0927b163782d%2F20261117174541002107-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Trump’s transportation secretary blames contractor for nationwide FAA ground stop – live",
-        "desc": "US transportation secretary Sean Duffy blames contractor L3Harris for national ground stoppage and says ‘this was not identified quick enough’ Sign up for US breaking News email Linked to that, the White House held a briefing call with several reporters today about the wave of tech outages affecting several industries. CNN reported that officials said the administration underscored that what has h",
-        "link": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates"
+        "title": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story",
+        "desc": "With realism that defies belief, this vast game easily accommodates its trademark foulmouthed, OTT chaos – as well as new empathy for the fugitive couple at its centre Tell us: are you playing Grand Theft Auto VI? In GTA VI, Rockstar has created the most extraordinarily, indulgently detailed virtual world that we have yet seen. Reviewing it feels a bit like trying to review, say, Paris: it contain",
+        "link": "https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Trump's AI push has Albanese's signature, but another country is quickly gaining ground",
-        "desc": "Australia is increasingly aligning with the United States on artificial intelligence — even if they don't agree on what to call it.",
-        "link": "https://www.sbs.com.au/news/article/trump-ai-push-albanese-diplomacy/i5wnsthq0"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Economist warns Australia faces growing risk of another interest rate rise as soaring wages add to inflation pressures",
-      "summary": "Wages jumped 3.5 per cent this year, marking the biggest increase in three years.",
-      "ts": 1795047591000,
-      "img": "https://images.7news.com.au/publication/C-23183006/09ab9247d79ec8d20e41e7b59ab1449d0eb5d441-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Economist warns Australia faces growing risk of another interest rate rise as soaring wages add to inflation pressures",
-        "desc": "Wages jumped 3.5 per cent this year, marking the biggest increase in three years.",
-        "link": "https://7news.com.au/sunrise/economist-warns-australia-faces-growing-risk-of-another-interest-rate-rise-as-soaring-wages-add-to-inflation-pressures-c-23183006"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Aussie dollar falls as rise in unemployment cools rate hike expectations",
-        "desc": "The Aussie dollar is down and the local share market is recouping some losses after the unemployment rate rose to 4.9 per cent, a weaker outcome than expected. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-11-19/asx-markets-business-news-live-updates-thursday-19-november/107401802"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "General Pants Co collapses into voluntary administration as administrators seek buyer to save retailer",
-      "summary": "The retailer employs about 500 people across Australia and New Zealand.",
-      "ts": 1795047051000,
-      "img": "https://images.7news.com.au/publication/C-23183247/f926321562c87b9fb53a297ac38621da4079bdba-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "General Pants goes under: Hundreds of Aussie jobs at risk as another iconic retailer plunges into administration",
-        "desc": "Hundreds of jobs are at risk accross Australia as retail giant General Pants goes under.",
-        "link": "https://www.dailymail.com/news/article-16304213/General-Pants-job-losses.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "General Pants Co collapses into voluntary administration as administrators seek buyer to save retailer",
-        "desc": "The retailer employs about 500 people across Australia and New Zealand.",
-        "link": "https://7news.com.au/news/general-pants-co-collapses-into-voluntary-administration-as-administrators-seek-buyer-to-save-retailer-c-23183247"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "CMA Awards 2026: Taylor Swift, Lainey Wilson dazzle as stars hit the red carpet",
-      "summary": "Taylor Swift and more hit the CMA Awards red carpet in standout styles. See all the looks and vote for your favorite fashion moment.",
-      "ts": 1795046621000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/taylor-lainey.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "CMA Awards 2026: Taylor Swift, Lainey Wilson dazzle as stars hit the red carpet",
-        "desc": "Taylor Swift and more hit the CMA Awards red carpet in standout styles. See all the looks and vote for your favorite fashion moment.",
-        "link": "https://www.foxnews.com/entertainment/cma-awards-2026-taylor-swift-lainey-wilson-dazzle-stars-hit-red-carpet"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Abbie Chatfield wears a bizarre racy gown as she makes rare red carpet appearance with boyfriend Adam Hyde at ARIA Awards after he revealed the abuse and death threats they cop in Sydney's eastern sub",
-        "desc": "Abbie Chatfield and her boyfriend Adam Hyde certainly weren't afraid to make a statement on Wednesday when they stepped out at the 2026 ARIA Awards in Sydney.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16301687/abbie-chatfield-adam-hyde-aria-awards-death-threats.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "'Kind of ridiculous': Why is everyone talking about the new Grand Theft Auto release?",
+        "desc": "Some fans were children when the previous game came out. They're counting down the moments until GTA 6's release.",
+        "link": "https://www.sbs.com.au/news/article/why-is-everyone-talking-about-grand-theft-auto/84rk1cs06"
        }
       ]
      }
@@ -353,6 +396,27 @@
      },
      {
       "id": 8,
+      "headline": "Unemployment hits five-year high as RBA squeezes jobs market",
+      "summary": "The jobless rate lifted by 0.2 percentage points in October – its highest level since 2021 – despite markets expecting the rate to remain steady.",
+      "ts": 1795049821000,
+      "img": "https://static.ffx.io/images/$zoom_0.9851%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1921%2C$y_327/t_crop_custom/q_86%2Cf_auto/8a9d031ee557ffd8c7e43d0316818e50a37a09a0",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Unemployment hits five-year high as RBA squeezes jobs market",
+        "desc": "The jobless rate lifted by 0.2 percentage points in October – its highest level since 2021 – despite markets expecting the rate to remain steady.",
+        "link": "https://www.theage.com.au/politics/federal/unemployment-hits-five-year-high-as-rba-squeezes-jobs-market-20261119-p61fiw.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "Victoria has long dominated the AFL draft landscape. Other regions are catching up",
       "summary": "The annual AFL national draft – held over two nights this Thursday and Friday – introduces a new group of players who may become the competition’s next stars. But their begin long before draft night. For the most part, they start at local junior clubs, where they learn the game, develop their skills and become part of a football community. This poses several interesting questions: where do these p",
       "ts": 1795044040000,
@@ -373,7 +437,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Dozens of Army soldiers sign up for unique reenlistment incentive to play Grand Theft Auto VI",
       "summary": "The U.S. Army offered Fort Stewart soldiers four-day passes to play \"Grand Theft Auto VI\" as a reenlistment perk, and 43 of 130 eligible troops took it.",
       "ts": 1795041620000,
@@ -394,7 +458,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "Mullin defends TSA shoes-on policy after congressman calls classified briefing ‘very concerning’",
       "summary": "Markwayne Mullin defended the TSA shoe removal policy at a House Homeland Security hearing, telling Rep. Eli Crane the change never put anyone at risk.",
       "ts": 1795035351000,
@@ -415,7 +479,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Hundreds of subpoenas fly in DOJ’s ‘Decoy Dan’ probe as Democrat Peltola declared winner in Alaska",
       "summary": "The DOJ has issued 200 subpoenas in a multi-state criminal probe tied to \"Decoy\" Dan J. Sullivan's Alaska Senate run, per a law enforcement source.",
       "ts": 1795031694000,
@@ -432,27 +496,6 @@
         "title": "Hundreds of subpoenas fly in DOJ’s ‘Decoy Dan’ probe as Democrat Peltola declared winner in Alaska",
         "desc": "The DOJ has issued 200 subpoenas in a multi-state criminal probe tied to \"Decoy\" Dan J. Sullivan's Alaska Senate run, per a law enforcement source.",
         "link": "https://www.foxnews.com/politics/hundreds-subpoenas-fly-doj-decoy-dan-probe-democrat-peltola-declared-winner-alaska"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Jeffries brushes off opposition from far-left Dems who voted no: 'We’re going to work together'",
-      "summary": "House Minority Leader Hakeem Jeffries won his caucus's speaker nomination despite 11 dissenting Democrats citing Medicar-for-all, ICE and Gaza.",
-      "ts": 1795030532000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/04/931/523/gettyimages-2212464486.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Jeffries brushes off opposition from far-left Dems who voted no: 'We’re going to work together'",
-        "desc": "House Minority Leader Hakeem Jeffries won his caucus's speaker nomination despite 11 dissenting Democrats citing Medicar-for-all, ICE and Gaza.",
-        "link": "https://www.foxnews.com/politics/jeffries-brushes-off-opposition-far-left-dems-voted-no-work-together"
        }
       ]
      }
@@ -612,7 +655,7 @@
       "id": 19,
       "headline": "'Double-edged sword': House price rebound for Sydney after market downturn",
       "summary": "Sydney is forecast to lead the recovery from Australia's housing market slump, according to new property analysis.",
-      "ts": 1795045922000,
+      "ts": 1795043284000,
       "img": "https://live-production.wcms.abc-cdn.net.au/3320f00684bbd80c108357dddb3d465e?impolicy=wcms_crop_resize&cropH=664&cropW=1182&xPos=0&yPos=1&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -620,13 +663,6 @@
       "common_ground": null,
       "hasBothSides": true,
       "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Miners tumble as ASX slumps ahead of jobs data; Anthropic prices IPO above range",
-        "desc": "The Australian sharemarket has opened sharply lower with mining stocks tumbling as commodity prices fell.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
        {
         "outlet": "Fox Business",
         "lean": "right",
@@ -687,6 +723,34 @@
      },
      {
       "id": 21,
+      "headline": "Miners weigh down ASX; Unemployment highest since 2021",
+      "summary": "The Australian sharemarket has opened sharply lower with mining stocks tumbling as commodity prices fell.",
+      "ts": 1795050775000,
+      "img": "https://static.ffx.io/images/$zoom_0.2284%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_208%2C$y_0/t_crop_custom/q_86%2Cf_auto/26b268fc4f659795ac962a7fd8fe68895cdd6b8d",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Pre-Christmas rate hike unlikely as unemployment rate jumps to highest level in five years",
+        "desc": "Jobless rate rises from 4.7% to 4.9% for October, latest bureau of statistics figures reveal Get our daily political email, free app or daily news podcast Unemployment has surged to 4.9% in October, from 4.7%, in a shock increase that will add to rising worries the economy has passed a tipping point following this year’s five interest rate increases. New figures from the Australian Bureau of Stati",
+        "link": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Miners weigh down ASX; Unemployment highest since 2021",
+        "desc": "The Australian sharemarket has opened sharply lower with mining stocks tumbling as commodity prices fell.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "General Pants goes under, putting hundreds of jobs at risk",
       "summary": "The fashion retailer has collapsed with owners Alquemie Group appointing Alvarez & Marsal as voluntary administrators.",
       "ts": 1795046879000,
@@ -714,7 +778,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "Nvidia chair pushes back on Jensen Huang’s plea to return",
       "summary": "The billionaire said he “would be honoured” to return to the company after his dramatic ouster last week following revelations of an extramarital affair with an alleged Chinese spy.",
       "ts": 1794956554000,
@@ -742,39 +806,11 @@
       ]
      },
      {
-      "id": 23,
-      "headline": "Australia’s gender pay gap falls below 20% for first time",
-      "summary": "Men still dominate top-paid positions but businesses’ ‘deliberate’ decisions have narrowed gap, workplace gender equality agency report finds Get our breaking news email, free app or daily news podcast Australian women earn 80c for every $1 men earn, on average, after Australia’s gender pay gap fell below 20% for the first time in 2025-26. The Workplace Gender Equality Agency’s (WGEA) report on We",
-      "ts": 1794924013000,
-      "img": "https://i.guim.co.uk/img/media/67faa8432f5cbd81486f872a946195453e574228/457_0_4755_3806/master/4755.jpg?width=460&quality=85&auto=format&fit=max&s=14b1d9d27da59d1b6072dff42ae7d035",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Australia’s gender pay gap falls below 20% for first time",
-        "desc": "Men still dominate top-paid positions but businesses’ ‘deliberate’ decisions have narrowed gap, workplace gender equality agency report finds Get our breaking news email, free app or daily news podcast Australian women earn 80c for every $1 men earn, on average, after Australia’s gender pay gap fell below 20% for the first time in 2025-26. The Workplace Gender Equality Agency’s (WGEA) report on We",
-        "link": "https://www.theguardian.com/world/2026/nov/18/australia-gender-pay-gap-falls-below-20-percent-for-first-time"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Gender pay gap drops below 20 per cent, but women still fall short of the top job",
-        "desc": "For the first time, the gender pay gap has fallen below 20 per cent, but women occupy smaller shares of the workforce the higher up the chain they go.",
-        "link": "https://www.theage.com.au/business/workplace/gender-pay-gap-drops-below-20-per-cent-but-women-still-fall-short-of-the-top-job-20261118-p61etu.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
       "id": 24,
-      "headline": "Corrs Chambers Westgarth hires private equity dream team",
-      "summary": "Allens’s Melbourne partners were briefed on the defections on Thursday.",
-      "ts": 1795049037000,
-      "img": "https://static.ffx.io/images/$zoom_1.6547%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/4e0535646e58432b716a92a77ef683ef901241ec",
+      "headline": "Sandpapergate means us Poms can stop feeling guilty about Bodyline",
+      "summary": "It now seems the most disgraceful episode in the history of Test cricket has met its moral equivalent, and this time it is Australia that must do the walk of shame.",
+      "ts": 1795050896000,
+      "img": "https://static.ffx.io/images/$zoom_0.08090763236305294%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_140/t_crop_custom/q_86%2Cf_auto/86d8a77ee1950deb95feaca6321e457993095e49",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -784,9 +820,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Corrs Chambers Westgarth hires private equity dream team",
-        "desc": "Allens’s Melbourne partners were briefed on the defections on Thursday.",
-        "link": "https://www.afr.com/street-talk/corrs-chambers-westgarth-hires-private-equity-dream-team-20261119-p61fj1?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Sandpapergate means us Poms can stop feeling guilty about Bodyline",
+        "desc": "It now seems the most disgraceful episode in the history of Test cricket has met its moral equivalent, and this time it is Australia that must do the walk of shame.",
+        "link": "https://www.afr.com/companies/sport/sandpapergate-means-us-poms-can-stop-feeling-guilty-about-bodyline-20261119-p61fjo?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -1084,6 +1120,34 @@
      },
      {
       "id": 34,
+      "headline": "Pierce Brosnan Welcomes Robert Pattinson Into the James Bond Family: ‘You Are Going to Be Magnificent’",
+      "summary": "Pierce Brosnan, a former James Bond himself, has taken to social media to enthusiastically endorse the newly anointed Robert Pattinson, who was announced as the new 007 on Monday. “Dear Robert, Welcome to the world of Bond,” Brosnan, who played the character in four films from 1995 to 2002, wrote on Instagram Wednesday. “You are […]",
+      "ts": 1795047266000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/MobLand-Season-Two-World-Premiere-Arrivals-2026-Vanity-Fair-Oscar-Party-Hosted-By-Mark-Guiducci-Arrivals-1000.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Pierce Brosnan Welcomes Robert Pattinson Into the James Bond Family: ‘You Are Going to Be Magnificent’",
+        "desc": "Pierce Brosnan, a former James Bond himself, has taken to social media to enthusiastically endorse the newly anointed Robert Pattinson, who was announced as the new 007 on Monday. “Dear Robert, Welcome to the world of Bond,” Brosnan, who played the character in four films from 1995 to 2002, wrote on Instagram Wednesday. “You are […]",
+        "link": "https://variety.com/2026/film/news/robert-pattinson-pierce-brosnan-james-bond-1236952519/"
+       },
+       {
+        "outlet": "Guardian Film",
+        "lean": "left",
+        "title": "Bond role was ‘Josh O’Connor’s to lose’ but actor pulled out of the running, report suggests",
+        "desc": "The Crown star was reportedly an early favourite of director Denis Villeneuve, but ‘had reservations about the baggage associated with the role from the start’ Josh O’Connor, one of the actors on the final shortlist for the role of James Bond which was ultimately won by Robert Pattinson, was an early favourite of director Denis Villeneuve but pulled out of the contest before a decision was made, i",
+        "link": "https://www.theguardian.com/film/2026/nov/18/james-bond-josh-oconnor-robert-pattinson-denis-villeneuve"
+       }
+      ]
+     },
+     {
+      "id": 35,
       "headline": "Elon Musk Admits He Feels ‘Pretty Foolish’ Having Spent Nearly $500 Million on Midterm Election Races Won by Democrats, Claims He Is ‘Not MAGA’",
       "summary": "Elon Musk spent big backing Republicans in the 2026 midterm elections — which resulted in a sweeping defeat of the GOP as Democrats took over the House and Senate. Musk spent nearly $500 million during the midterms, including $200 million to try to defeat Senator-elect James Talarico in Texas in his race against Lone Star […]",
       "ts": 1795044657000,
@@ -1111,7 +1175,7 @@
       ]
      },
      {
-      "id": 35,
+      "id": 36,
       "headline": "Michelle Monaghan & Justin Theroux Are Having A ‘Sleepover’ With Blumhouse Atomic & Universal",
       "summary": "That Jacob Chase directed Blumhouse Atomic and Universal movie we told you about in August, Sleepover, well, Michelle Monaghan and Justin Theroux are leading it. The pic remains dated for Oct. 8, 2027. The Insidious: Out of the Further filmmaker is helming off a screenplay he co-penned with Night Swim‘s Bryce McGuire, which is based […]",
       "ts": 1795042861000,
@@ -1137,63 +1201,42 @@
         "link": "https://variety.com/2026/film/news/michelle-monaghan-justin-theroux-sleepover-blumhouse-atomic-1236952362/"
        }
       ]
-     },
-     {
-      "id": 36,
-      "headline": "Michael Dorn Reveals Paramount’s Plan For Worf To Replace Sisko On Star Trek: Deep Space Nine",
-      "summary": "Worf joined Star Trek: Deep Space Nine in season 4, but there was an idea making the rounds about Michael Dorn replacing Avery Brooks as series lead.",
-      "ts": 1795048739000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/worf-seated-with-sisko.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Michael Dorn Reveals Paramount’s Plan For Worf To Replace Sisko On Star Trek: Deep Space Nine",
-        "desc": "Worf joined Star Trek: Deep Space Nine in season 4, but there was an idea making the rounds about Michael Dorn replacing Avery Brooks as series lead.",
-        "link": "https://screenrant.com/star-trek-ds9-worf-replace-sisko-michael-dorn/"
-       }
-      ]
      }
     ]
    }
   ],
   "sourcesOk": [
-   "Ars Technica",
-   "BBC Tech",
-   "BBC World",
-   "BBC Sport",
-   "ABC Sport",
-   "Deadline",
-   "Variety",
-   "ABC News",
-   "The Age",
-   "Screen Rant",
-   "ABC Business",
-   "Crikey",
-   "The Age Business",
-   "Fox Business",
-   "The Conversation",
-   "Guardian AU Business",
-   "Guardian AU Sport",
-   "The Verge",
-   "Anime News Network",
    "Guardian Australia",
-   "Fox News Politics",
-   "Fox News",
+   "Crikey",
+   "The Age",
+   "BBC World",
+   "ABC News",
    "Guardian AU Politics",
+   "Fox News",
    "Guardian Tech",
-   "Daily Mail Australia",
-   "AFR",
-   "7News Sport",
-   "Guardian Film",
+   "BBC Tech",
+   "Fox News Politics",
+   "The Conversation",
    "The Age Federal Politics",
+   "Ars Technica",
+   "The Verge",
+   "The Age Business",
+   "ABC Business",
+   "Guardian AU Business",
+   "Fox Business",
+   "Variety",
+   "Deadline",
    "SBS News",
-   "7News"
+   "BBC Sport",
+   "7News",
+   "Guardian AU Sport",
+   "Guardian Film",
+   "AFR",
+   "Daily Mail Australia",
+   "Screen Rant",
+   "Anime News Network",
+   "ABC Sport",
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1385,7 +1428,7 @@
   {
    "title": "The Good Guys: 20% Cashback (Uncapped, Exclusions Apply) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/984012",
-   "votes": 245,
+   "votes": 252,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795006964000
@@ -1393,7 +1436,7 @@
   {
    "title": "XPENG G6 Driveaway (2026-Plated Dealer Stock Only): RWD $49,990, RWD Long Range $55,990, AWD Performance $60,990 @ XPENG",
    "link": "https://www.ozbargain.com.au/node/983967",
-   "votes": 141,
+   "votes": 142,
    "neg": 0,
    "category": "Automotive",
    "ts": 1794988962000
@@ -1417,7 +1460,7 @@
   {
    "title": "½ Price QV Products: Gentle Wash 1kg $13.70, Cream 1kg $19.75, Skin Lotion 1kg $15.25 & More @ Coles",
    "link": "https://www.ozbargain.com.au/node/983926",
-   "votes": 93,
+   "votes": 94,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1794976034000
@@ -1439,17 +1482,9 @@
    "ts": 1794982406000
   },
   {
-   "title": "Starlink Mini $197 (Was $289) + Monthly Service Plan + Delivery ($0 with OnePass/ C&C/ in-Store) @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/983906",
-   "votes": 83,
-   "neg": 0,
-   "category": "Internet",
-   "ts": 1794970993000
-  },
-  {
    "title": "[Switch 2] The Legend of Zelda: Ocarina of Time $89 Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/984046",
-   "votes": 74,
+   "votes": 76,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795032550000
@@ -1457,7 +1492,7 @@
   {
    "title": "50% off Any 365/184/28-Day Plan as Additional Service for Existing (Not 7-Day/As-You-Go Plan) Customers @ amaysim",
    "link": "https://www.ozbargain.com.au/node/983960",
-   "votes": 68,
+   "votes": 69,
    "neg": 0,
    "category": "Mobile",
    "ts": 1794985487000
@@ -1469,6 +1504,14 @@
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1794973934000
+  },
+  {
+   "title": "$30 off $150 Spend Voucher for in-Store Use Only (Exclusions Apply) @ The Good Guys",
+   "link": "https://www.ozbargain.com.au/node/984075",
+   "votes": 56,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1795040420000
   },
   {
    "title": "$13 off $250 Coles Mastercard Gift Card ($7 Purchase Fee, Registered Flybuys Card Required, In-Store Only) @ Coles",
@@ -1487,17 +1530,17 @@
    "ts": 1794974562000
   },
   {
-   "title": "$30 off $150 Spend Voucher for in-Store Use Only (Exclusions Apply) @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/984075",
-   "votes": 51,
+   "title": "[PC, Steam] Kingdom Come: Deliverance II $29.68 @ Steam",
+   "link": "https://www.ozbargain.com.au/node/984116",
+   "votes": 34,
    "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795040420000
+   "category": "Gaming",
+   "ts": 1795046280000
   },
   {
    "title": "Paramount Plus Standard $3.24/Month or Premium $4.49/Month for 2 Months (New & Returning Customers) @ Paramount+",
    "link": "https://www.ozbargain.com.au/node/984032",
-   "votes": 33,
+   "votes": 34,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1795026174000
