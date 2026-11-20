@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T01:28:14.985Z",
+ "generatedAt": "2026-11-20T01:52:20.626Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8609.5,
-    "chgPct": -2.4065361874874287,
+    "price": 8602.4,
+    "chgPct": -2.487018630494441,
     "high52": 9296.7,
-    "off52": -7.391870233523731
+    "off52": -7.468241418998151
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.74,
-    "chgPct": -2.2042717740847007,
+    "price": 84.73,
+    "chgPct": -2.215812454781636,
     "high52": 88.25,
-    "off52": -3.977337110481592
+    "off52": -3.988668555240789
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 144.23,
-    "chgPct": -1.39468394945896,
+    "price": 144.08,
+    "chgPct": -1.4972340250852438,
     "high52": 155.03,
-    "off52": -6.966393601238477
+    "off52": -7.063149067922331
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.75,
-    "chgPct": -3.104024364907293,
+    "price": 57.7,
+    "chgPct": -3.187916984504771,
     "high52": 65.18,
-    "off52": -11.399202209266655
+    "off52": -11.475912856704515
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 29.67,
-    "chgPct": -4.598071909741069,
+    "price": 29.66,
+    "chgPct": -4.630226250182685,
     "high52": 47.78,
-    "off52": -37.902888237756386
+    "off52": -37.923817496860615
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6656,
-    "chgPct": -0.8461661918635568,
+    "price": 0.6654,
+    "chgPct": -0.8759600121184022,
     "high52": 0.7277,
-    "off52": -8.53373642984747
+    "off52": -8.56122028308369
    }
   ],
   "failed": [],
@@ -70,9 +70,9 @@
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 74.36,
+    "price": 74.11,
     "currency": "AUD",
-    "chgPct": -6.28859303097342
+    "chgPct": -6.603652898405597
    },
    {
     "sym": "AMZN",
@@ -110,9 +110,9 @@
     "sym": "REA.AX",
     "name": "REA Group",
     "market": "ASX",
-    "price": 158.01,
+    "price": 157.71,
     "currency": "AUD",
-    "chgPct": -2.9958864312934415
+    "chgPct": -3.180059800514442
    }
   ]
  },
@@ -125,6 +125,83 @@
     "stories": [
      {
       "id": 0,
+      "headline": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
+      "summary": "The symbolic declaration made no mention of negotiations on a trilateral nuclear arms reduction treaty.",
+      "ts": 1795129268000,
+      "img": "https://assets.sbs.com.au/dims4/default/d256d95/2147483647/strip/false/crop/3964x1821+0+411/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F76%2F90%2Fbb6d47c142b89bd87dcf004a6057%2Fputin-xi-trump.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
+        "desc": "The symbolic declaration made no mention of negotiations on a trilateral nuclear arms reduction treaty.",
+        "link": "https://www.sbs.com.au/news/article/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit/0kzow4ahc"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese faces impossible task of following Xi’s meeting with Putin and Trump",
+        "desc": "The prime minister is holding a series of meetings with China's leaders today after Chinese President Xi Jinping met his Russian and American counterparts Vladimir Putin and Donald Trump. Meanwhile, the COP31 draft has some notable omissions and get ready for a manic few days next week. The post Albanese faces impossible task of following Xi’s meeting with Putin and Trump appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/20/albanese-xi-jinping-apec-meeting-putin-trump-cop31-draft-chris-bowen/"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+        "desc": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
+        "link": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+        "desc": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by two of the participants. The declaration on Thursday also outlined a set of priorities that",
+        "link": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "What next in the Sandpapergate saga?",
+      "summary": "Pat Cummins’ position as Australian Test cricket captain is under intense scrutiny after former teammates rallied around ball tamperer Cameron Bancroft and backed his revelations about the team’s cheating in South Africa in 2018.",
+      "ts": 1795138260000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/572d8f1b189a5c563f156c688758bfccb5873892",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "What next in the Sandpapergate saga?",
+        "desc": "Pat Cummins’ position as Australian Test cricket captain is under intense scrutiny after former teammates rallied around ball tamperer Cameron Bancroft and backed his revelations about the team’s cheating in South Africa in 2018.",
+        "link": "https://www.theage.com.au/sport/what-next-in-the-sandpapergate-saga-20261120-p61fxn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Aidan Hutchinson breaks silence after season-ending injury and announces decision about continuing celebration",
+        "desc": "Aidan Hutchinson broke his silence on Instagram after his torn ACL, promising to return stronger and vowing that jump celebrations are now behind him.",
+        "link": "https://www.foxnews.com/outkick-sports/aidan-hutchinson-breaks-silence-season-ending-injury-announces-decision-continuing-celebration"
+       },
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Cameron Bancroft breaks his silence on sandpapergate: who will be next? - podcast",
+        "desc": "Eight years after the Cape Town ball-tampering scandal, the former Australia opening batter Cameron Bancroft’s latest statement has blown open the official story that only three players were responsible. With senior coaches implicated and the current Test captain, Pat Cummins, firmly denying any knowledge, which teammates or officials will speak out next? Sports broadcaster Geoff Lemon joins Reged",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/nov/19/cameron-bancroft-breaks-his-silence-on-sandpapergate-who-next-full-story-podcast"
+       }
+      ]
+     },
+     {
+      "id": 2,
       "headline": "Fiona the hippo dies after eating a hat at Cincinnati Zoo",
       "summary": "Fiona the hippo, whose premature birth and fight for survival at Cincinnati Zoo captured global attention in 2017, dies after eating a woolly hat.",
       "ts": 1795135741000,
@@ -159,11 +236,11 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Donald Trump targets Australian Comanchero bikie gang in major crackdown over links to terrorism",
-      "summary": "US authorities have moved to choke off access to international money networks for one of Australia’s most infamous outlaw motorcycle gangs.",
-      "ts": 1795130217000,
-      "img": "https://images.7news.com.au/publication/C-23188895/28dabe86b1efe71b10358a98d8913041132134de-16x9-x0y0w1280h720.png",
+      "id": 3,
+      "headline": "Australian Comanchero gang hit with US sanctions for links to drug trafficking groups",
+      "summary": "It's the first time an Australia-based organised crime group has been targeted by such sanctions.",
+      "ts": 1795131686000,
+      "img": "https://assets.sbs.com.au/dims4/default/5c76d73/2147483647/strip/false/crop/5678x2609+0+588/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fba%2F7d%2Fbab14b5143c49e18950a0d95f97f%2Fafp20240907comancheros-005.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -171,11 +248,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Donald Trump pardons disgraced MLB legend Pete Rose two years on from death",
-        "desc": "Baseball's hit king Pete Rose has been posthumously pardoned by Donald Trump, according to a Thursday afternoon post on Truth Social.",
-        "link": "https://www.dailymail.com/sport/mlb/article-16307317/Donald-Trump-pardons-disgraced-MLB-legend-Pete-Rose.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Australian Comanchero gang hit with US sanctions for links to drug trafficking groups",
+        "desc": "It's the first time an Australia-based organised crime group has been targeted by such sanctions.",
+        "link": "https://www.sbs.com.au/news/article/bikie-gang-comanchero-sanctions-us/ivu4dt30f"
        },
        {
         "outlet": "7News",
@@ -194,73 +271,10 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
-      "summary": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
-      "ts": 1795119644000,
-      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/20261118116266363047-original.jpg?quality=70&w=840",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Albanese faces impossible task of following Xi’s meeting with Putin and Trump",
-        "desc": "The prime minister is holding a series of meetings with China's leaders today after Chinese President Xi Jinping met his Russian and American counterparts Vladimir Putin and Donald Trump. Meanwhile, the COP31 draft has some notable omissions and get ready for a manic few days next week. The post Albanese faces impossible task of following Xi’s meeting with Putin and Trump appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/20/albanese-xi-jinping-apec-meeting-putin-trump-cop31-draft-chris-bowen/"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
-        "desc": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
-        "link": "https://7news.com.au/politics/trump-xi-and-putin-release-joint-peace-declaration-after-unprecedented-trilateral-meeting-c-23188139"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Trump, Xi and Putin hold unprecedented three-way summit in China",
-        "desc": "As three world leaders prepare for a never-before-seen meeting, Australia has insisted its position on Ukraine is \"very clear\".",
-        "link": "https://www.sbs.com.au/news/article/albanese-putin-photo-apec-trump-china-2026/qhxs35kye"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
-      "summary": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-      "ts": 1795137903000,
-      "img": "https://i.dailymail.com/1s/2026/11/19/22/112620801-0-image-a-4_1795127174442.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Beau Lamarre-Condon live updates: Crown prosecutor continues closing address after alleging cold-blooded murder",
-        "desc": "The former NSW police officer’s double murder trial has entered its final days as the Crown delivers its closing address to the jury.",
-        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-live-updates-crown-prosecutor-continues-closing-address-after-alleging-cold-blooded-murder-20261120-p61fs9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
-        "desc": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16307403/Beau-lamarre-condon-murder-trial-jesse-baird-live-blog.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
       "id": 4,
-      "headline": "Heavily-armed police raid homes across Sydney over alleged terror attack plans",
+      "headline": "Man charged, two more arrested as police raid homes across Sydney over alleged terror attack plans",
       "summary": "At least two homes are understood to be at the centre of ongoing investigations.",
-      "ts": 1795137694000,
+      "ts": 1795139258000,
       "img": "https://images.7news.com.au/publication/C-23189340/8afec5f66a9b65f3cd18750cbb98bee3d2e1c784-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
@@ -278,7 +292,7 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Heavily-armed police raid homes across Sydney over alleged terror attack plans",
+        "title": "Man charged, two more arrested as police raid homes across Sydney over alleged terror attack plans",
         "desc": "At least two homes are understood to be at the centre of ongoing investigations.",
         "link": "https://7news.com.au/news/heavily-armed-police-raid-homes-across-sydney-over-alleged-terror-attack-plans-c-23189340"
        }
@@ -286,29 +300,29 @@
      },
      {
       "id": 5,
-      "headline": "SBS wins Walkley journalism award for teen radicalisation documentary",
-      "summary": "It's the second win in the Current Affairs short category for The Feed team, which last won in 2023.",
-      "ts": 1795137600000,
-      "img": "https://assets.sbs.com.au/dims4/default/0519866/2147483647/strip/false/crop/4032x1853+0+586/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fba%2F21%2F1bc537304e169b2807b27f911de7%2Fimg-2723.jpeg",
+      "headline": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
+      "summary": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+      "ts": 1795139085000,
+      "img": "https://i.dailymail.com/1s/2026/11/19/22/112620801-0-image-a-4_1795127174442.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Daily Mail photographer Banjo McLachlan wins prestigious Walkley Award for news photography of the Bondi Beach terrorist attack",
-        "desc": "Daily Mail photographer Banjo McLachlan has been awarded a Walkley Award - one of the most prestigious prizes in Australian journalism.",
-        "link": "https://www.dailymail.com/news/article-16307501/Banjo-McLachlan-Walkley-award-winner.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
+        "desc": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
+        "link": "https://www.dailymail.com/news/article-16307403/Beau-lamarre-condon-murder-trial-jesse-baird-live-blog.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "SBS wins Walkley journalism award for teen radicalisation documentary",
-        "desc": "It's the second win in the Current Affairs short category for The Feed team, which last won in 2023.",
-        "link": "https://www.sbs.com.au/news/article/sbs-wins-walkley-journalism-award-for-teen-radicalisation-documentary/b1mb0uqgk"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Beau Lamarre-Condon live updates: Crown prosecutor continues closing address after alleging cold-blooded murder",
+        "desc": "The former NSW police officer’s double murder trial has entered its final days as the Crown delivers its closing address to the jury.",
+        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-live-updates-crown-prosecutor-continues-closing-address-after-alleging-cold-blooded-murder-20261120-p61fs9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
@@ -316,7 +330,7 @@
       "id": 6,
       "headline": "Mother avoids jail for crash that killed 6yo daughter",
       "summary": "A mother who killed her young daughter in a crash in Adelaide's north has been given a suspended sentence, with a judge describing her as a \"good person\" who \"made a terrible mistake\".",
-      "ts": 1795137459000,
+      "ts": 1795138736000,
       "img": "https://live-production.wcms.abc-cdn.net.au/39c54ceb13a5bf77148304be207d522c?impolicy=wcms_crop_resize&cropH=976&cropW=1734&xPos=0&yPos=449&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -404,6 +418,27 @@
      },
      {
       "id": 9,
+      "headline": "Senator Jane Hume on Labor’s unfinished business, the Victorian election and Angus Taylor’s milestone - podcast",
+      "summary": "Next week will be the Albanese government’s last chance to pass its bills before the end of the parliamentary year, and next Saturday will be the Victorian state election – which is predicted to be a Labor upset. Political reporter and chief of staff Josh Butler speaks to the opposition’s deputy leader Jane Hume – a key negotiator in the Senate, where the federal government has struggled to win su",
+      "ts": 1795138217000,
+      "img": "https://i.guim.co.uk/img/media/4518b5a24e48cf89d76f60b55e285792b309101c/506_183_2209_1767/master/2209.jpg?width=460&quality=85&auto=format&fit=max&s=1bec06326106f100f30e5003a2c617dc",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "Senator Jane Hume on Labor’s unfinished business, the Victorian election and Angus Taylor’s milestone - podcast",
+        "desc": "Next week will be the Albanese government’s last chance to pass its bills before the end of the parliamentary year, and next Saturday will be the Victorian state election – which is predicted to be a Labor upset. Political reporter and chief of staff Josh Butler speaks to the opposition’s deputy leader Jane Hume – a key negotiator in the Senate, where the federal government has struggled to win su",
+        "link": "https://www.theguardian.com/australia-news/audio/2026/nov/20/senator-jane-hume-australian-politics-podcast"
+       }
+      ]
+     },
+     {
+      "id": 10,
       "headline": "A seismic ICJ ruling has found Myanmar responsible for genocide. But will it help the Rohingya?",
       "summary": "Rohingya refugees at a camp in Bangladesh watch the International Court of Justice (ICJ) ruling. Salahuddin Ahmed / AFP via Getty Images Yesterday, the International Court of Justice in The Hague ruled, by nine votes to six, that Myanmar is responsible for having committed a genocide against the Rohingya in 2017, and had also failed to investigate and prosecute those responsible. In the landmark r",
       "ts": 1795134900000,
@@ -424,7 +459,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
       "summary": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email, free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “many years”, a new report for the US Congress has cautioned, questioning whether Australian-flagged vesse",
       "ts": 1795133789000,
@@ -445,7 +480,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "House China panel calls for cutting defense contracts over aerospace ties to Beijing's military",
       "summary": "A new House report says Airbus and U.S. defense contractors like GE Aerospace and Honeywell should lose taxpayer funds over China aerospace joint ventures.",
       "ts": 1795131877000,
@@ -462,27 +497,6 @@
         "title": "House China panel calls for cutting defense contracts over aerospace ties to Beijing's military",
         "desc": "A new House report says Airbus and U.S. defense contractors like GE Aerospace and Honeywell should lose taxpayer funds over China aerospace joint ventures.",
         "link": "https://www.foxnews.com/politics/house-china-panel-calls-cutting-defense-contracts-over-aerospace-ties-beijings-military"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Hakeem Jeffries wins overwhelming Speaker-designate vote as progressives' revolt falls flat",
-      "summary": "House Democrats unified behind Hakeem Jeffries with 251 of 262 secret ballots as 11 progressive holdouts demanded votes on ICE, Gaza and Citizens United.",
-      "ts": 1795130080000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/jeffries-clark-delbene-dccc-election-watch-party.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Hakeem Jeffries wins overwhelming Speaker-designate vote as progressives' revolt falls flat",
-        "desc": "House Democrats unified behind Hakeem Jeffries with 251 of 262 secret ballots as 11 progressive holdouts demanded votes on ICE, Gaza and Citizens United.",
-        "link": "https://www.foxnews.com/politics/hakeem-jeffries-wins-overwhelming-speaker-designate-vote-progressives-revolt-falls-flat"
        }
       ]
      }
@@ -640,6 +654,34 @@
     "stories": [
      {
       "id": 19,
+      "headline": "Myer adds 40 brands and loyalty offer to snare David Jones customers",
+      "summary": "Myer’s unveiling of a revamped beauty hall at its Sydney CBD flagship store is timed to attract customers from a rival fighting for survival.",
+      "ts": 1795139392000,
+      "img": "https://static.ffx.io/images/$zoom_0.17236328125%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/6d3d769a72c7876239e7fcb8b81e5fdf2ec769dc",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Myer adds 40 brands and loyalty offer to snare David Jones customers",
+        "desc": "Myer’s unveiling of a revamped beauty hall at its Sydney CBD flagship store is timed to attract customers from a rival fighting for survival.",
+        "link": "https://www.afr.com/companies/retail/myer-adds-40-brands-and-loyalty-offer-to-snare-david-jones-customers-20261120-p61fuv?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Myer pounces on David Jones’ VIP shoppers, beauty lovers and staff",
+        "desc": "Following the collapse of luxury department store giant David Jones, Myer is chasing its rival’s loyal customers and employees.",
+        "link": "https://www.theage.com.au/business/companies/myer-pounces-on-david-jones-vip-shoppers-beauty-lovers-and-staff-20261120-p61fvf.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
       "headline": "The Chinese black market trade fuelling Australia’s peptide boom",
       "summary": "The number of Australians taking untested peptide injections to lose weight, build muscle and live longer is soaring, through both legal and illegal channels.",
       "ts": 1795136400000,
@@ -667,7 +709,7 @@
       ]
      },
      {
-      "id": 20,
+      "id": 21,
       "headline": "‘It doesn’t get better than this’: Anthropic mints thousands of instant millionaires",
       "summary": "Anthropic has finally landed on Wall Street and it made a lot of employees – even some of those in entry-level jobs – very rich.",
       "ts": 1795133139000,
@@ -695,7 +737,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 22,
       "headline": "Who are Anthropic’s seven co-founders, now worth $180bn?",
       "summary": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price of $111.50 (£85) per share valued the entrepreneurs’ stakes – including the chief executive, Dario A",
       "ts": 1795132463000,
@@ -723,7 +765,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "Anthropic eclipses SpaceX with record $3 trillion market debut",
       "summary": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
       "ts": 1795118557000,
@@ -751,7 +793,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 24,
       "headline": "Transmission line to take 'days' to fix, forcing closure of Eyre Peninsula schools",
       "summary": "The main electricity transmission line to South Australia's Eyre Peninsula could take \"days\" to repair, the SA government has warned, amid emergency efforts to activate generators to provide back-up supply to the region.",
       "ts": 1795116839000,
@@ -775,34 +817,6 @@
         "title": "Transmission line to take 'days' to fix, forcing closure of Eyre Peninsula schools",
         "desc": "The main electricity transmission line to South Australia's Eyre Peninsula could take \"days\" to repair, the SA government has warned, amid emergency efforts to activate generators to provide back-up supply to the region.",
         "link": "https://www.abc.net.au/news/2026-11-19/transmission-towers-brought-down-cutting-eyre-peninsula-power/107405826"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "AFR lands Walkley wins for KPMG scandal, Kyle’s ‘Maccas in a Rolls’",
-      "summary": "It is the second year running that the Financial Review has been awarded the prize for best business reporting at Australian journalism’s top honours.",
-      "ts": 1795115533000,
-      "img": "https://static.ffx.io/images/$zoom_0.7591397849462366%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/975af02cf24e9457566c328da245501753cb66e0fffec562da07fa44a8bfc091",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "AFR lands Walkley wins for KPMG scandal, Kyle’s ‘Maccas in a Rolls’",
-        "desc": "It is the second year running that the Financial Review has been awarded the prize for best business reporting at Australian journalism’s top honours.",
-        "link": "https://www.afr.com/companies/media-and-marketing/afr-lands-walkley-wins-for-kpmg-scandal-kyle-s-maccas-in-a-rolls-20261119-p61fs0?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "ABC wins scoop of the year at 2026 Walkley Awards",
-        "desc": "The ABC wins seven gongs at this year's Walkley Awards, including the coveted scoop of the year category for coverage of ASIO's failures ahead of the Bondi terrorist attack.",
-        "link": "https://www.abc.net.au/news/2026-11-20/2026-walkley-awards-winners-scoop-of-the-year-bondi/107406420"
        }
       ]
      }
@@ -884,6 +898,34 @@
      },
      {
       "id": 27,
+      "headline": "Young Aussies stun Argentina at under-17 World Cup",
+      "summary": "Sydney FC prodigy Akol Akon demonstrates why he's one of the most exciting talents in Australian football as he inspires the Joeys to a shock 2–0 victory over Argentina to launch their U17 World Cup campaign in style in Qatar.",
+      "ts": 1795138298000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/57f3cfb3327287feddccbbda771be5a6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=288&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Socceroos’ future looks bright as Australia stun Argentina in U17 World Cup",
+        "desc": "Akol Akon sealed a 2-0 win over football powerhouse in Qatar Joeys mark return to tournament for first time in seven years Sydney FC prodigy Akol Akon has demonstrated why he’s one of the most exciting talents in Australian football, leading the Joeys to a shock 2-0 victory over Argentina to launch their U17 World Cup campaign in style. The brilliant young winger had his shot deflected for an own ",
+        "link": "https://www.theguardian.com/football/2026/nov/20/joeys-australia-stun-argentina-in-u17-world-cup"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Young Aussies stun Argentina at under-17 World Cup",
+        "desc": "Sydney FC prodigy Akol Akon demonstrates why he's one of the most exciting talents in Australian football as he inspires the Joeys to a shock 2–0 victory over Argentina to launch their U17 World Cup campaign in style in Qatar.",
+        "link": "https://www.abc.net.au/news/2026-11-20/australia-defeats-argentina-under-17-world-cup/107407632"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Premier League clubs to cover legal costs if Man City sponsors sue",
       "summary": "Premier League clubs vote to provide legal cover to the organisation's five board directors in the event Manchester City's sponsors sue them.",
       "ts": 1795132815000,
@@ -911,7 +953,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 29,
       "headline": "Trump posthumously pardons US baseball legend Pete Rose",
       "summary": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
       "ts": 1795132310000,
@@ -939,7 +981,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Pat Cummins camp issues fresh statement on Sandpapergate: ‘Hysteria unfounded in reality’",
       "summary": "The Australian skipper’s manager has issued a fresh statement while sending a message to Sandpapergate’s banned three.",
       "ts": 1795132286000,
@@ -963,34 +1005,6 @@
         "title": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
         "desc": "Pat Cummins's agent describes the discussion around the Sandpapergate scandal and the Test cricket captain as hysteria.",
         "link": "https://www.abc.net.au/news/2026-11-20/pat-cummins-agent-criticises-sandpaper-hysteria/107407092"
-       }
-      ]
-     },
-     {
-      "id": 30,
-      "headline": "Lyon outclass Arsenal for Champions League win",
-      "summary": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
-      "ts": 1795128967000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/65a8/live/85a48b70-e461-11f1-99b6-a35a62fa4264.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Lyon outclass Arsenal for Champions League win",
-        "desc": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/c3dx1n4xp1xxo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Arsenal 0-2 OL Lyonnes: Women’s Champions League – as it happened",
-        "desc": "Jule Brand and Melchie Dumornay scored for OL Lyonnes in a commanding 2-0 win against Arsenal in the Women’s Champions League The referee blows the whistle and we are off! Arsenal in their classic red and white and Lyon in all black with some colourful wavy-patterned trim. Here we go! Meadow Park is in full voice as the teams come out from the tunnel and take to the field. Continue reading...",
-        "link": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live"
        }
       ]
      }
@@ -1114,34 +1128,6 @@
      },
      {
       "id": 35,
-      "headline": "Lance Broadway, Former MLB Pitcher and ‘Agents Of S.H.I.E.L.D.’ Actor, Dies at 43",
-      "summary": "Lance Broadway, a former Major League Baseball pitcher-turned-actor who appeared in Marvel’s “Agents of S.H.I.E.L.D.,” has died at 43. Broadway was found dead on Nov. 17 in an apartment complex stairwell in Dallas, Texas, according to the Dallas County Medical Examiner. His cause of death is pending autopsy results. Broadway was a pitcher who played […]",
-      "ts": 1795132488000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/GettyImages-167250168.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Lance Broadway, Former MLB Pitcher and ‘Agents Of S.H.I.E.L.D.’ Actor, Dies at 43",
-        "desc": "Lance Broadway, a former Major League Baseball pitcher-turned-actor who appeared in Marvel’s “Agents of S.H.I.E.L.D.,” has died at 43. Broadway was found dead on Nov. 17 in an apartment complex stairwell in Dallas, Texas, according to the Dallas County Medical Examiner. His cause of death is pending autopsy results. Broadway was a pitcher who played […]",
-        "link": "https://variety.com/2026/tv/news/lance-broadway-dead-mlb-pitcher-agents-of-shield-1236953699/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Lance Broadway Dies: ‘Agents Of S.H.I.E.L.D.’, ‘Olympus Has Fallen’ Actor Was 43",
-        "desc": "Lance Broadway, a former MLB pitcher turned actor who appeared in Marvel’s Agents Of S.H.I.E.L.D., Lucifer and the 2013 film Olympus Has Fallen, among others, has died unexpectedly. He was 43. Broadway was found dead Tuesday, November 17, in an apartment complex stairwell in Dallas, TX, according to the Dallas County Medical Examiner. The cause […]",
-        "link": "https://deadline.com/2026/11/lance-broadway-dead-agents-of-shield-olympus-has-fallen-1237229540/"
-       }
-      ]
-     },
-     {
-      "id": 36,
       "headline": "The Altruists True Story: 5 Biggest Questions After The Netflix Show’s Ending",
       "summary": "The Altruists takes a look at the true story surrounding Sam Bankman-Fried and Caroline Ellison and their attachments to FTX and Alameda Research.",
       "ts": 1795131918000,
@@ -1167,42 +1153,70 @@
         "link": "https://deadline.com/2026/11/netflix-the-body-petition-remove-blasphemous-anti-christian-1237229570/"
        }
       ]
+     },
+     {
+      "id": 36,
+      "headline": "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto",
+      "summary": "EXCLUSIVE: Edward Burns’ micro-budget black-and-white family drama Beneath the Blue Suburban Skies debuted at the Toronto Film Festival in 2019. Seven years later, the film is finally getting a release with a one-week awards-qualifying theatrical run in New York from December 25, ahead of a rollout in major cities in January. The film stars Burns […]",
+      "ts": 1795129173000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Beneath-The-Blue-Suburban-Skies.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto",
+        "desc": "EXCLUSIVE: Edward Burns’ micro-budget black-and-white family drama Beneath the Blue Suburban Skies debuted at the Toronto Film Festival in 2019. Seven years later, the film is finally getting a release with a one-week awards-qualifying theatrical run in New York from December 25, ahead of a rollout in major cities in January. The film stars Burns […]",
+        "link": "https://deadline.com/2026/11/edward-burns-awards-push-beneath-the-blue-suburban-skies-1237228934/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Seven Seas Licenses 'I am Blue, in Pain, and Fragile,' Predator Witches Audiobooks",
+        "desc": "Also in December: English audiobook of The Lucky Egg Game: Cai Dan You Xi danmei series",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-18/seven-seas-licenses-i-am-blue-in-pain-and-fragile-predator-witches-audiobooks/.243959"
+       }
+      ]
      }
     ]
    }
   ],
   "sourcesOk": [
    "The Age",
-   "ABC News",
-   "Guardian Australia",
-   "The Age Federal Politics",
-   "7News",
-   "BBC World",
-   "Guardian Tech",
-   "Ars Technica",
-   "Fox News Politics",
-   "Guardian AU Politics",
-   "BBC Tech",
-   "Fox News",
-   "The Age Business",
-   "AFR",
-   "ABC Business",
-   "The Conversation",
-   "BBC Sport",
-   "ABC Sport",
-   "Guardian AU Business",
-   "Fox Business",
-   "The Verge",
-   "Guardian AU Sport",
-   "SBS News",
-   "Screen Rant",
-   "Guardian Film",
-   "Anime News Network",
-   "Daily Mail Australia",
-   "7News Sport",
-   "Deadline",
    "Crikey",
-   "Variety"
+   "Guardian Australia",
+   "ABC News",
+   "BBC World",
+   "Fox News",
+   "The Age Federal Politics",
+   "Guardian Tech",
+   "Fox News Politics",
+   "The Conversation",
+   "The Age Business",
+   "Ars Technica",
+   "Guardian AU Business",
+   "ABC Business",
+   "BBC Tech",
+   "AFR",
+   "Guardian AU Sport",
+   "ABC Sport",
+   "Fox Business",
+   "Guardian AU Politics",
+   "BBC Sport",
+   "SBS News",
+   "Variety",
+   "Deadline",
+   "The Verge",
+   "Screen Rant",
+   "Anime News Network",
+   "7News",
+   "Daily Mail Australia",
+   "Guardian Film",
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1394,7 +1408,7 @@
   {
    "title": "Activate & Spend $X (Min. $50) in 1 Transaction for 4 Consecutive Weeks at Coles, Get 10,000 Flybuys Points or $50 off @ Flybuys",
    "link": "https://www.ozbargain.com.au/node/984246",
-   "votes": 204,
+   "votes": 206,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795070730000
@@ -1418,7 +1432,7 @@
   {
    "title": "GL.iNet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.63 (~A$121.76) AU Stock Delivered @ GL-iNet Overseas Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/984311",
-   "votes": 86,
+   "votes": 88,
    "neg": 0,
    "category": "Computing",
    "ts": 1795095363000
@@ -1426,7 +1440,7 @@
   {
    "title": "[eBook] Free - Throne Hunters Books 1-5 by Phil Tucker @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/984230",
-   "votes": 86,
+   "votes": 87,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1795066613000
@@ -1434,7 +1448,7 @@
   {
    "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500t 16GB RAM 256GB SSD Win 11 Wi-Fi $279 Delivered @ Australian Computer Traders",
    "link": "https://www.ozbargain.com.au/node/984353",
-   "votes": 72,
+   "votes": 77,
    "neg": 0,
    "category": "Computing",
    "ts": 1795126636000
@@ -1458,7 +1472,7 @@
   {
    "title": "Buy a Qualifying Product & Get a Bonus $35-$420 Apple Gift Card @ Apple",
    "link": "https://www.ozbargain.com.au/node/984304",
-   "votes": 60,
+   "votes": 61,
    "neg": 1,
    "category": "Electrical & Electronics",
    "ts": 1795091572000
@@ -1466,7 +1480,7 @@
   {
    "title": "Amazon Cashback: 20% on Amazon Devices, 10% on Sports & Outdoors, Home Improvement, Furniture, Tools, + More @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/984336",
-   "votes": 53,
+   "votes": 57,
    "neg": 0,
    "category": "Other",
    "ts": 1795122476000
@@ -1474,7 +1488,7 @@
   {
    "title": "Super Mario Galaxy Movie Hatchin' Yoshi $29 + Delivery ($0 Prime/$59 Spend) @ Amazon AU (SOLD OUT) / Big W ($0 C&C)",
    "link": "https://www.ozbargain.com.au/node/984332",
-   "votes": 45,
+   "votes": 46,
    "neg": 0,
    "category": "Toys & Kids",
    "ts": 1795117712000
@@ -1482,7 +1496,7 @@
   {
    "title": "[Android, Epic] Free - Lonesome Village @ Epic Games",
    "link": "https://www.ozbargain.com.au/node/984323",
-   "votes": 43,
+   "votes": 44,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795101229000
@@ -1496,20 +1510,20 @@
    "ts": 1795117210000
   },
   {
+   "title": "iPhone Air 256GB Sky Blue/ Space Black $1139.99 Delivered @ Costco (Membership Required)",
+   "link": "https://www.ozbargain.com.au/node/984393",
+   "votes": 32,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1795135170000
+  },
+  {
    "title": "Finnair: Melbourne Direct Return to Bangkok from $687 Economy, $1582 Premium Econ, $2822 Business @ flightfinderau",
    "link": "https://www.ozbargain.com.au/node/984342",
-   "votes": 29,
+   "votes": 32,
    "neg": 0,
    "category": "Travel",
    "ts": 1795124062000
-  },
-  {
-   "title": "[PC, Steam] It Takes Two $9.99 @ Steam",
-   "link": "https://www.ozbargain.com.au/node/984333",
-   "votes": 29,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1795120981000
   }
  ],
  "carried": {}
