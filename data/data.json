@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T19:40:41.607Z",
+ "generatedAt": "2026-11-20T21:00:33.054Z",
  "markets": {
   "items": [
    {
@@ -57,54 +57,62 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6623,
-    "chgPct": -1.3377642260685556,
+    "price": 0.6613,
+    "chgPct": -1.4867333273427992,
     "high52": 0.7277,
-    "off52": -8.987220008245158
+    "off52": -9.124639274426276
    }
   ],
   "failed": [],
   "note": "SEMI is 39% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
-    "sym": "AVGO",
-    "name": "Broadcom",
-    "market": "US",
-    "price": 304.68,
-    "currency": "USD",
-    "chgPct": -12.107311304040389
-   },
-   {
     "sym": "NVDA",
     "name": "Nvidia",
     "market": "US",
-    "price": 130.64,
+    "price": 125.46,
     "currency": "USD",
-    "chgPct": -10.508286187492462
+    "chgPct": -14.056717583303765
+   },
+   {
+    "sym": "AVGO",
+    "name": "Broadcom",
+    "market": "US",
+    "price": 302.13,
+    "currency": "USD",
+    "chgPct": -12.84292360604478
    },
    {
     "sym": "TSLA",
     "name": "Tesla",
     "market": "US",
-    "price": 349.025,
+    "price": 345.45,
     "currency": "USD",
-    "chgPct": -6.780001445959864
+    "chgPct": -7.734837044643891
    },
    {
     "sym": "META",
     "name": "Meta",
     "market": "US",
-    "price": 566.96,
+    "price": 560.71,
     "currency": "USD",
-    "chgPct": -4.907579776071329
+    "chgPct": -5.955850600114567
    },
    {
     "sym": "AMZN",
     "name": "Amazon",
     "market": "US",
-    "price": 248.77,
+    "price": 246.465,
     "currency": "USD",
-    "chgPct": -3.3414909586767023
+    "chgPct": -4.237088753186695
+   },
+   {
+    "sym": "JPM",
+    "name": "JPMorgan",
+    "market": "US",
+    "price": 309.26,
+    "currency": "USD",
+    "chgPct": -3.422647298395719
    }
   ]
  },
@@ -117,10 +125,52 @@
     "stories": [
      {
       "id": 0,
-      "headline": "White House removes cyber-security chief after series of tech outages",
-      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-      "ts": 1795202604000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76fa/live/ea62ee60-e4bd-11f1-87df-79d8910e0f29.jpg",
+      "headline": "Trump threatens ban on US firms building AI data centres overseas",
+      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+      "ts": 1795208052000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09a4/live/7e18d7e0-e514-11f1-b40b-5f46e8cf687c.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Trump threatens ban on US firms building AI data centres overseas",
+        "desc": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "EXCLUSIVE: Trump’s FDA nominee vows new abortion pill safety review after pressure from Sen Hawley",
+        "desc": "Food and Drug Administration nominee Dr. Heidi Overton committed to a timeline for a delayed mifepristone safety study, Sen. Josh Hawley's office says.",
+        "link": "https://www.foxnews.com/politics/exclusive-trumps-fda-nominee-vows-new-abortion-pill-safety-review-after-pressure-sen-hawley"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Trump vows 'tremendous tax' on companies building data centres abroad",
+        "desc": "US President Donald Trump says he is \"not allowing data centres to go into other countries\", so that America can win the AI fight against China.",
+        "link": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Trump talks down Quad AI plan, will penalise US companies that build data centres overseas",
+        "desc": "“It’s wonderful to say we’re working with other countries to build, but I want it in this country,” he said of the artificial intelligence agreement with Australia, India and Japan.",
+        "link": "https://www.theage.com.au/world/north-america/trump-talks-down-quad-ai-plan-will-penalise-us-companies-that-build-data-centres-overseas-20261121-p61g3h.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Australia strikes deal on AI talks with China",
+      "summary": "Anthony Albanese has secured an agreement for new talks with China on artificial intelligence as the prime minister returns to Australia.",
+      "ts": 1795208257000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/36364cc3a1b12ecfd1bbba7778eccc34?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -128,30 +178,30 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Tech outage cascade exposes US vulnerabilities to foreign cyber threats",
-        "desc": "Six days of outages hit Microsoft 365, banks and NSA Net, and experts like Tommy Waller warn the disruptions may be more than just a coincidence.",
-        "link": "https://www.foxnews.com/politics/tech-outage-cascade-exposes-us-vulnerabilities-foreign-cyber-threats"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia and China agree to annual AI talks to manage risks",
+        "desc": "Australia and China have agreed to hold annual AI talks to manage the risks of the rapidly advancing technology.",
+        "link": "https://www.theage.com.au/world/australia-and-china-agree-to-annual-ai-talks-to-manage-risks-20261121-p61g3s.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "White House removes cyber-security chief after series of tech outages",
-        "desc": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-        "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Cop31 talks go into overtime as debate rages over lack of fossil fuels in draft deal",
+        "desc": "African ministers say they ‘didn’t come here to beg’, with civil society groups calling it the ‘worst Cop ever’ Crucial climate talks headed into overtime on the last official day of the Cop31 UN summit as countries continued to argue over a draft deal that was silent on fossil fuels, with a host of other contentious issues complicating negotiations. Nearly 200 countries struggled to bridge their ",
+        "link": "https://www.theguardian.com/environment/2026/nov/20/cop31-talks-overtime-fossil-fuels-vanish-from-draft-deal"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Australians told to prepare for more disruption after spate of tech outages",
-        "desc": "Experts say people need to understand there is a possibility their digital lives could be disrupted, and they need to prepare, train and be careful about what they are sharing.",
-        "link": "https://www.abc.net.au/news/2026-11-21/microsoft-nsa-tech-outages-latest/107403042"
+        "title": "Australia strikes deal on AI talks with China",
+        "desc": "Anthony Albanese has secured an agreement for new talks with China on artificial intelligence as the prime minister returns to Australia.",
+        "link": "https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592"
        }
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "How did Anthropic's stock market debut unfold?",
       "summary": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%.",
       "ts": 1795200830000,
@@ -165,7 +215,7 @@
        {
         "outlet": "Guardian Australia",
         "lean": "left",
-        "title": "Is Claude creator Anthropic really worth $1.5 trillion? - The Latest",
+        "title": "Is Claude creator Anthropic really worth $1.3 trillion? - The Latest",
         "desc": "The AI firm and Claude chatbot maker Anthropic has made a historic stock market debut, with a peak valuation of $1.3tn on its first day of trading. It marks a remarkable ascent for a start-up launched in just 2021 by a group of ex-OpenAI staffers. Anthropic’s CEO, Dario Amodei, said the record-breaking IPO had ‘strengthened’ the company’s resolve to ‘do the right thing’. Despite the excitement, th",
         "link": "https://www.theguardian.com/news/video/2026/nov/20/is-claude-creator-anthropic-really-worth-15-trillion-the-latest"
        },
@@ -186,7 +236,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
       "summary": "Daily pill daraxonrasib appears to shrink and possibly even eliminate tumours in some patients with one of the deadliest cancers.",
       "ts": 1795197600000,
@@ -221,11 +271,11 @@
       ]
      },
      {
-      "id": 3,
-      "headline": "What we know about the latest Russian missile strikes on Ukraine",
-      "summary": "What we know about the latest Russian missile strikes on Ukraine.",
-      "ts": 1795187641000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a2f6/live/3145d4a0-e4f0-11f1-99b6-a35a62fa4264.jpg",
+      "id": 4,
+      "headline": "Relief for Australians after Myanmar genocide ruling: ‘Finally’",
+      "summary": "The International Court of Justice's latest ruling has provided some relief to thousands of people in Australia who lived under Myanmar's murderous regime.",
+      "ts": 1795172886000,
+      "img": "https://images.7news.com.au/publication/C-23192079/e88405f38a374ed3a11c4fe849561ea9d4b53cb1-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -233,109 +283,81 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "What we know about the latest Russian missile strikes on Ukraine",
-        "desc": "What we know about the latest Russian missile strikes on Ukraine.",
-        "link": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Russia pummels Ukraine after Putin vowed revenge, killing eight",
-        "desc": "Russia pummelled Ukraine with dozens of missiles and hundreds of drones overnight, hours after President Vladimir Putin had vowed a \"painful\" response for Kyiv's strikes on the Crimean bridge this week.",
-        "link": "https://www.abc.net.au/news/2026-11-20/ukraine-russia-crimea-strikes-bridge-kyiv-power-outage-poland/107411538"
+        "title": "Relief for Australians after Myanmar genocide ruling: ‘Finally’",
+        "desc": "The International Court of Justice's latest ruling has provided some relief to thousands of people in Australia who lived under Myanmar's murderous regime.",
+        "link": "https://7news.com.au/news/crime/relief-for-australians-after-myanmar-genocide-ruling-finally-c-23192079"
        },
        {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Russia pummels Ukraine in deadly strikes after renewed international criticism of war",
-        "desc": "Officials said power was knocked out in parts of the capital and vital transport bridges were hit.",
-        "link": "https://www.sbs.com.au/news/article/russia-pummels-ukraine-in-deadly-strikes-after-renewed-international-criticism-of-war/kd5qp5i1n"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-      "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
-      "ts": 1795203526000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
-        "desc": "Other tech companies have also taken a hit as share markets broadly slump.",
-        "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss"
+        "title": "'Not fair': Myanmar responds to ICJ ruling of genocide",
+        "desc": "The ICJ has, for the first time, ruled that a state committed genocide but has no way of enforcing Myanmar's compliance.",
+        "link": "https://www.sbs.com.au/news/article/australia-considers-implications-of-landmark-icj-ruling-on-myanmar-genocide/ti3ie4omf"
        },
        {
-        "outlet": "Guardian Australia",
+        "outlet": "Crikey",
         "lean": "left",
-        "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "desc": "Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked companies. As they dropped, the wider stock market fell with them, with the",
-        "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        "title": "After the Myanmar genocide ruling, we’re already forgetting about the Rohingyas",
+        "desc": "For the first time, the United Nations' top court has found a state responsible for committing genocide. Our attention should be focused on the people driven out in 2017 — but it probably won’t be. The post After the Myanmar genocide ruling, we’re already forgetting about the Rohingyas appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/20/rohingyas-myanmar-genocide-ruling-united-nations-israel/"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Sidelined Swans star on making first prelim in a 'really tough year'",
-      "summary": "The Sydney Swans AFLW side are playing in their first preliminary final on Saturday against North Melbourne.",
-      "ts": 1795202950000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/39665a18fd9dc5529b76d0508c2e0e0e?impolicy=wcms_crop_resize&cropH=2370&cropW=4213&xPos=0&yPos=38&width=862&height=485",
+      "headline": "Iran takes pointed jab at Trump Cabinet secretary for moving onto military base",
+      "summary": "Treasury Secretary Scott Bessent moved to a military base amid reported Iranian assassination threats a senior official says reached an advanced stage.",
+      "ts": 1795206965000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/bessent-hegseth-miller-fox-news.jpg?ve=1&tl=1",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Sidelined Swans star on making first prelim in a 'really tough year'",
-        "desc": "The Sydney Swans AFLW side are playing in their first preliminary final on Saturday against North Melbourne.",
-        "link": "https://www.abc.net.au/news/2026-11-21/ally-morphett-on-sydney-swans-aflw-season-emotions/107407458"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Iran takes pointed jab at Trump Cabinet secretary for moving onto military base",
+        "desc": "Treasury Secretary Scott Bessent moved to a military base amid reported Iranian assassination threats a senior official says reached an advanced stage.",
+        "link": "https://www.foxnews.com/politics/iran-takes-pointed-jab-trump-cabinet-secretary-moving-military-base"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
-        "desc": "The symbolic declaration made no mention of negotiations on a trilateral nuclear arms reduction treaty.",
-        "link": "https://www.sbs.com.au/news/article/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit/0kzow4ahc"
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "‘I agree with the president’: incoming senator Abdul El-Sayed seeks to help Trump end military aid to Israel",
+        "desc": "Michigan senator-elect also secured a meeting with JD Vance, who called him a ‘terrible evil’ in lead-up to election The incoming US senator Abdul El-Sayed of Michigan said that he and Donald Trump were in agreement about ending foreign military aid to Israel – and he hopes to find more common ground with the US president when he takes office. “I agree with the president – I can’t believe I’m sayi",
+        "link": "https://www.theguardian.com/us-news/2026/nov/20/el-sayed-trump-israel-aid"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Students rally across Europe over cost of living, war and education cuts",
-      "summary": "From the shadows of the mighty Colosseum in Rome to Parliament Square in London, and in dozens of other cities across Europe, thousands of young Europeans gathered to make their voices heard on Friday.",
-      "ts": 1795199890000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/83bebb568990bf82d26dfdd00495f0ba?impolicy=wcms_crop_resize&cropH=720&cropW=1280&xPos=0&yPos=73&width=862&height=485",
+      "headline": "Cricket Australia to back Cummins amid resignation calls as Hazlewood speaks out",
+      "summary": "Cricket Australia is expected to reiterate its support for Pat Cummins amid calls to resign",
+      "ts": 1795206131000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/05d45dc5e9f94ede63cc769e7551b54006eb7587",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": false,
+      "hasBothSides": true,
       "sources": [
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Students rally across Europe over cost of living, war and education cuts",
-        "desc": "From the shadows of the mighty Colosseum in Rome to Parliament Square in London, and in dozens of other cities across Europe, thousands of young Europeans gathered to make their voices heard on Friday.",
-        "link": "https://www.abc.net.au/news/2026-11-21/students-protest-in-eu-and-uk/107406996"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Cricket Australia to back Cummins amid resignation calls as Hazlewood speaks out",
+        "desc": "Cricket Australia is expected to reiterate its support for Pat Cummins amid calls to resign",
+        "link": "https://www.theage.com.au/national/cricket-australia-to-back-cummins-amid-resignation-calls-as-hazlewood-speaks-out-20261121-p61g3n.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Cost of living protests sweep across Europe",
-        "desc": "Thousands marched across European cities on Friday to protest against the cost of living and other issues.",
-        "link": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Pat Cummins set to keep Aussie captaincy: Cricket bosses to back under-fire skipper over Cameron Bancroft's Sandpapergate bombshell - as Mitchell Marsh avoids media duties",
+        "desc": "LAWRENCE BOOTH: Pat Cummins has received backing from the boss of the Australian players' union amid reports he will be allowed to stay on as Test captain.",
+        "link": "https://www.dailymail.com/news/article-16308563/Pat-Cummins-captain-cricket-australia.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        }
       ]
      }
@@ -347,6 +369,90 @@
     "stories": [
      {
       "id": 7,
+      "headline": "EXCLUSIVE: Trump’s FDA nominee vows new abortion pill safety review after pressure from Sen Hawley",
+      "summary": "Food and Drug Administration nominee Dr. Heidi Overton committed to a timeline for a delayed mifepristone safety study, Sen. Josh Hawley's office says.",
+      "ts": 1795207096000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/05/931/523/hawley-abortion-pill.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "EXCLUSIVE: Trump’s FDA nominee vows new abortion pill safety review after pressure from Sen Hawley",
+        "desc": "Food and Drug Administration nominee Dr. Heidi Overton committed to a timeline for a delayed mifepristone safety study, Sen. Josh Hawley's office says.",
+        "link": "https://www.foxnews.com/politics/exclusive-trumps-fda-nominee-vows-new-abortion-pill-safety-review-after-pressure-sen-hawley"
+       }
+      ]
+     },
+     {
+      "id": 8,
+      "headline": "Iran takes pointed jab at Trump Cabinet secretary for moving onto military base",
+      "summary": "Treasury Secretary Scott Bessent moved to a military base amid reported Iranian assassination threats a senior official says reached an advanced stage.",
+      "ts": 1795206965000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/bessent-hegseth-miller-fox-news.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Iran takes pointed jab at Trump Cabinet secretary for moving onto military base",
+        "desc": "Treasury Secretary Scott Bessent moved to a military base amid reported Iranian assassination threats a senior official says reached an advanced stage.",
+        "link": "https://www.foxnews.com/politics/iran-takes-pointed-jab-trump-cabinet-secretary-moving-military-base"
+       }
+      ]
+     },
+     {
+      "id": 9,
+      "headline": "Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange",
+      "summary": "Donald Trump wagged his finger at a reporter, calling her \"really a rude person\" and telling her she belonged in the \"back row\" at the White House.",
+      "ts": 1795206908000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/Donald-trump-news-conference-11-20-001.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump wags finger at 'really rude' reporter, tells her she belongs in the 'back row' during press exchange",
+        "desc": "Donald Trump wagged his finger at a reporter, calling her \"really a rude person\" and telling her she belonged in the \"back row\" at the White House.",
+        "link": "https://www.foxnews.com/politics/trump-wags-finger-really-rude-reporter-tells-her-she-belongs-back-row-during-press-exchange"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Somali community leaders bristle at broad blame even as youth gang violence surges from Minnesota to Maine",
+      "summary": "Ramsey County Sheriff Bob Fletcher says about 100 of 300 young alleged Somali gang members in the Twin Cities were arrested, but many cycle back into gang life.",
+      "ts": 1795205502000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/minneapolis-minnesota.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Somali community leaders bristle at broad blame even as youth gang violence surges from Minnesota to Maine",
+        "desc": "Ramsey County Sheriff Bob Fletcher says about 100 of 300 young alleged Somali gang members in the Twin Cities were arrested, but many cycle back into gang life.",
+        "link": "https://www.foxnews.com/politics/somali-community-leaders-bristle-broad-blame-even-youth-gang-violence-surges-from-minnesota-maine"
+       }
+      ]
+     },
+     {
+      "id": 11,
       "headline": "Tech outage cascade exposes US vulnerabilities to foreign cyber threats",
       "summary": "Six days of outages hit Microsoft 365, banks and NSA Net, and experts like Tommy Waller warn the disruptions may be more than just a coincidence.",
       "ts": 1795202604000,
@@ -367,7 +473,7 @@
       ]
      },
      {
-      "id": 8,
+      "id": 12,
       "headline": "Speaker Mike Johnson calls upon House Republicans to show up for work",
       "summary": "House Speaker Mike Johnson issued a letter pressing his Republican colleagues to show up for work during the final stretch of the 119th Congress.",
       "ts": 1795201675000,
@@ -386,90 +492,6 @@
         "link": "https://www.foxnews.com/politics/speaker-mike-johnson-calls-house-republicans-show-work"
        }
       ]
-     },
-     {
-      "id": 9,
-      "headline": "Dozens of FBI and DOJ personnel are investigating Peltola's Alaska victory",
-      "summary": "At least 50 FBI agents and over a dozen DOJ lawyers are probing Sen.-elect Mary Peltola over the alleged \"Decoy Dan\" scheme, with 200 subpoenas sent.",
-      "ts": 1795200149000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/SullivanPeltola_001.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Dozens of FBI and DOJ personnel are investigating Peltola's Alaska victory",
-        "desc": "At least 50 FBI agents and over a dozen DOJ lawyers are probing Sen.-elect Mary Peltola over the alleged \"Decoy Dan\" scheme, with 200 subpoenas sent.",
-        "link": "https://www.foxnews.com/politics/dozens-fbi-doj-personnel-investigating-peltolas-alaska-victory"
-       }
-      ]
-     },
-     {
-      "id": 10,
-      "headline": "Cruz turns tables on Democrats crying foul over GOP's 11th-hour judicial confirmation blitz",
-      "summary": "Ted Cruz accused Senate Democrats of hypocrisy for ramming through 22 federal judges after the 2024 election while blasting Republican hearings as rushed.",
-      "ts": 1795199392000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/ted-cruz-jack-smith-capitol-fox-news-001.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Cruz turns tables on Democrats crying foul over GOP's 11th-hour judicial confirmation blitz",
-        "desc": "Ted Cruz accused Senate Democrats of hypocrisy for ramming through 22 federal judges after the 2024 election while blasting Republican hearings as rushed.",
-        "link": "https://www.foxnews.com/politics/cruz-turns-tables-democrats-crying-foul-gop-11th-hour-judicial-confirmation-blitz"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "Security monitor: change terror definition or risk letting extremists walk free",
-      "summary": "The national security watchdog is calling for an overhaul of the definition of terrorism but faces resistance from police and spy agencies.",
-      "ts": 1795197600000,
-      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/cf18038ff5a274b898b2309a11efcee18cab1d98",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Security monitor: change terror definition or risk letting extremists walk free",
-        "desc": "The national security watchdog is calling for an overhaul of the definition of terrorism but faces resistance from police and spy agencies.",
-        "link": "https://www.theage.com.au/politics/federal/security-monitor-change-terror-definition-or-risk-letting-extremists-walk-free-20261121-p61fu3.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "The PM has pulled off the unthinkable with Trump, and got away with it",
-      "summary": "In Canberra convention, refusal to help America in its war on Iran is tantamount to a breach of the alliance.",
-      "ts": 1795197600000,
-      "img": "https://static.ffx.io/images/$zoom_1.6917%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_3/t_crop_custom/q_86%2Cf_auto/decfbd9f4ba0b298e7ff3b1365334dafb1dd395d8a1ab8bf3f2e5fed60c407e4",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "The PM has pulled off the unthinkable with Trump, and got away with it",
-        "desc": "In Canberra convention, refusal to help America in its war on Iran is tantamount to a breach of the alliance.",
-        "link": "https://www.theage.com.au/politics/federal/the-pm-has-pulled-off-the-unthinkable-with-trump-and-got-away-with-it-20261121-p61fwb.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
      }
     ]
    },
@@ -479,9 +501,37 @@
     "stories": [
      {
       "id": 13,
+      "headline": "Trump threatens ban on US firms building AI data centres overseas",
+      "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+      "ts": 1795208052000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/09a4/live/7e18d7e0-e514-11f1-b40b-5f46e8cf687c.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Trump threatens ban on US firms building AI data centres overseas",
+        "desc": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
+        "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+        "desc": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a press conference Friday following his summit with China President Xi Jinping a",
+        "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+       }
+      ]
+     },
+     {
+      "id": 14,
       "headline": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
       "summary": "Other tech companies have also taken a hit as share markets broadly slump.",
-      "ts": 1795203526000,
+      "ts": 1795204853000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/03d5/live/7b6fe9b0-e4ed-11f1-8781-bf15c9202663.jpg",
       "divergent": null,
       "left_view": null,
@@ -500,13 +550,13 @@
         "outlet": "Guardian Tech",
         "lean": "left",
         "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "desc": "Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked companies. As they dropped, the wider stock market fell with them, with the",
+        "desc": "Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked companies. As they dropped, the wider stock market fell with them, with the ",
         "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
        }
       ]
      },
      {
-      "id": 14,
+      "id": 15,
       "headline": "Anthropic becomes one of world's most valuable public companies in stock market debut",
       "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
       "ts": 1795131231000,
@@ -534,11 +584,11 @@
       ]
      },
      {
-      "id": 15,
-      "headline": "Rockstar says GTA VI made $3.79 billion in its first day",
-      "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million in pre-orders. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI,\" Sam Houser, Rockstar's president and founder. said in a statement \"W",
-      "ts": 1795203306000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "id": 16,
+      "headline": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+      "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave of lawsuits filed by US school districts that accuse ",
+      "ts": 1795207432000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -548,18 +598,18 @@
        {
         "outlet": "The Verge",
         "lean": "centre",
-        "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-        "desc": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million in pre-orders. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI,\" Sam Houser, Rockstar's president and founder. said in a statement \"W",
-        "link": "https://www.theverge.com/games/1036279/gta-vi-sales"
+        "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+        "desc": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave of lawsuits filed by US school districts that accuse ",
+        "link": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement"
        }
       ]
      },
      {
-      "id": 16,
-      "headline": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
-      "summary": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
-      "ts": 1795202510000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305973751-1024x648.jpg",
+      "id": 17,
+      "headline": "Watching as a giant star swallowed its neighbor and exploded",
+      "summary": "A recent brightening turned out to be from a star orbiting inside another.",
+      "ts": 1795207277000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/image-2.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -569,39 +619,18 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Army delays detonating \"catastrophically hazardous\" lead azide amid fear, anger",
-        "desc": "Modeling predicts plume of neurotoxic lead could reach up to 100 miles away.",
-        "link": "https://arstechnica.com/science/2026/11/outrage-questions-swirl-as-army-delays-blowing-up-stockpile-of-toxic-lead-azide/"
-       }
-      ]
-     },
-     {
-      "id": 17,
-      "headline": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-      "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy (with code WS24C28200NEW1). While this model has dropped to around $499.99 a few times before, it commonly sel",
-      "ts": 1795202100000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/8A0A6240.jpeg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
-        "desc": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy (with code WS24C28200NEW1). While this model has dropped to around $499.99 a few times before, it commonly sel",
-        "link": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale"
+        "title": "Watching as a giant star swallowed its neighbor and exploded",
+        "desc": "A recent brightening turned out to be from a star orbiting inside another.",
+        "link": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/"
        }
       ]
      },
      {
       "id": 18,
-      "headline": "White House removes cyber-security chief after series of tech outages",
-      "summary": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-      "ts": 1795201436000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76fa/live/ea62ee60-e4bd-11f1-87df-79d8910e0f29.jpg",
+      "headline": "NASA’s new Moon plan is taking shape, but some big questions remain",
+      "summary": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
+      "ts": 1795206393000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/flight15_catch-1152x648.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -609,11 +638,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Tech",
+        "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "White House removes cyber-security chief after series of tech outages",
-        "desc": "He has been fired after losing the confidence of new White House chief of staff Stephen Miller, according to reports.",
-        "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss"
+        "title": "NASA’s new Moon plan is taking shape, but some big questions remain",
+        "desc": "\"We tend to have a lot of technical discussion and debate. That point will continue to be debated.\"",
+        "link": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/"
        }
       ]
      }
@@ -627,7 +656,7 @@
       "id": 19,
       "headline": "US opens investigation into Nvidia; Trump sacks cyber chief after tech outages",
       "summary": "The US Securities and Exchange Commission is probing Nvidia’s accounting practices in the latest blow to the scandal-hit firm. Follow live updates.",
-      "ts": 1795203375000,
+      "ts": 1795207697000,
       "img": "https://static.ffx.io/images/$zoom_0.2995%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_22%2C$y_0/t_crop_custom/q_86%2Cf_auto/7b429201ecaa9f49f87905f5b08b7e9f97cd12a0",
       "divergent": null,
       "left_view": null,
@@ -653,6 +682,62 @@
      },
      {
       "id": 20,
+      "headline": "Trump vows 'tremendous tax' on companies building data centres abroad",
+      "summary": "US President Donald Trump says he is \"not allowing data centres to go into other countries\", so that America can win the AI fight against China.",
+      "ts": 1795206435000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/d522adf378f0819aebc696fdcb7c2822?impolicy=wcms_crop_resize&cropH=1359&cropW=2416&xPos=0&yPos=128&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Trump vows 'tremendous tax' on companies building data centres abroad",
+        "desc": "US President Donald Trump says he is \"not allowing data centres to go into other countries\", so that America can win the AI fight against China.",
+        "link": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Trump says he’ll block US companies from building data centres abroad",
+        "desc": "Donald Trump vowed to put a “tremendous tax” on US companies that build data centres in other countries but failed to detail how his threat would be carried out.",
+        "link": "https://www.afr.com/world/north-america/trump-threatens-penalties-for-us-companies-that-build-data-centres-abroad-20261121-p61g3g?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Anthropic value drops after record-breaking IPO",
+      "summary": "Technology shares have nosedived and dragged stocks into the red across the world, after AI firm Anthropic's market debut.",
+      "ts": 1795206250000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/14964b404e0627be093959f94dfdd1ad?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Anthropic value drops after record-breaking IPO",
+        "desc": "Technology shares have nosedived and dragged stocks into the red across the world, after AI firm Anthropic's market debut.",
+        "link": "https://www.abc.net.au/news/2026-11-21/anthropic-ipo-fails-to-calm-ai-jitters-stock-market-debut/107412118"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Anthropic begins trading on Nasdaq in record-breaking IPO",
+        "desc": "Anthropic's Nasdaq debut under ticker ANT draws investor demand for the Claude AI maker, with up to 20% of IPO shares set aside for retail investors.",
+        "link": "https://www.foxbusiness.com/markets/anthropic-begins-trading-nasdaq-record-breaking-ipo"
+       }
+      ]
+     },
+     {
+      "id": 22,
       "headline": "New evidence shows school phone bans improve test scores",
       "summary": "The first national study in the United States to track individual students’ growth shows bans help reverse declines.",
       "ts": 1795197600000,
@@ -680,7 +765,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 23,
       "headline": "A third of David Jones staff told employment ends days after Christmas",
       "summary": "More than 1,600 David Jones staff have been issued with redundancy notices after the iconic retailer went into voluntary administration earlier this month",
       "ts": 1795197600000,
@@ -708,7 +793,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 24,
       "headline": "Nadav got a fraction of the Anthropic shares he wanted. He’s still happy",
       "summary": "Australian investors have received a fraction of the Anthropic shares they applied for, but those who bought into the float enjoyed a strong first day of trading.",
       "ts": 1795191967000,
@@ -723,7 +808,7 @@
         "outlet": "Guardian AU Business",
         "lean": "left",
         "title": "Anthropic shares slump on second day of trading as markets reel from AI sell-off",
-        "desc": "Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI build-out Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked companies. As they dropped, the wider stock market fell with them, with the",
+        "desc": "Nasdaq erases 2026 gains and Asian markets record worst week since 2020 as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic’s shares fell at the start of its second day of trading, as its record-breaking IPO failed to stem a sell-off in AI-linked companies. As they dropped, the wider stock market fell with them, with the ",
         "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
        },
        {
@@ -732,62 +817,6 @@
         "title": "Nadav got a fraction of the Anthropic shares he wanted. He’s still happy",
         "desc": "Australian investors have received a fraction of the Anthropic shares they applied for, but those who bought into the float enjoyed a strong first day of trading.",
         "link": "https://www.theage.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 23,
-      "headline": "Anthropic’s Queensland data centre overwhelmingly opposed by residents",
-      "summary": "Hundreds of objections have been filed in opposition to the data centre at Western Downs Digital Park, which will have Anthropic as its main tenant.",
-      "ts": 1795176434000,
-      "img": "https://static.ffx.io/images/$zoom_0.5183%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/84735a9d7fa61061e19f3685b268560be8693e0c",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Anthropic’s Queensland data centre overwhelmingly opposed by residents",
-        "desc": "Hundreds of objections have been filed in opposition to the data centre at Western Downs Digital Park, which will have Anthropic as its main tenant.",
-        "link": "https://www.afr.com/technology/anthropic-s-queensland-data-centre-overwhelmingly-opposed-by-residents-20261120-p61g31?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Firmus talks down 'modest' data centre in bid to avoid major project status",
-        "desc": "Firmus wants one of its proposed Tasmanian data centres assessed through normal planning processes, saying it has only \"modest\" economic benefits despite earlier saying its plans for the state could add $46 billion to the local economy.",
-        "link": "https://www.abc.net.au/news/2026-11-20/firmus-latrobe-tasmania-council-major-project-request/107406282"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "Xi hails ‘full turnaround’ in Australia-China relations",
-      "summary": "The Chinese president met Prime Minister Anthony Albanese on the sidelines of the APEC Leaders Summit.",
-      "ts": 1795172790000,
-      "img": "https://static.ffx.io/images/$zoom_0.4164488745147247%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_891%2C$y_306/t_crop_custom/q_86%2Cf_auto/35e01bad57d66655b3ee9b78d7f07034ba2cd56d",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Xi hails ‘full turnaround’ in Australia-China relations",
-        "desc": "The Chinese president met Prime Minister Anthony Albanese on the sidelines of the APEC Leaders Summit.",
-        "link": "https://www.afr.com/politics/federal/xi-hails-full-turnaround-in-australia-china-relations-20261120-p61fv4?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Xi Jinping declares 'complete turnaround' in China's relations with Australia",
-        "desc": "Chinese President Xi Jinping declares that Australia and China have had a \"full turnaround\" in their relations, \"despite differences\", over the past four years under the Albanese Government.",
-        "link": "https://www.abc.net.au/news/2026-11-20/albanese-to-meet-xi-for-trade/107406222"
        }
       ]
      }
@@ -799,6 +828,41 @@
     "stories": [
      {
       "id": 25,
+      "headline": "Alcaraz wears elastic band on injured thigh to beat Cobolli at ATP Finals",
+      "summary": "Carlos Alcaraz eases concerns about a hamstring injury by cruising past Italian fifth seed Flavio Cobolli at the ATP Finals in Turin.",
+      "ts": 1795205590000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/52a18923092d5588ffca920390d1f8b3?impolicy=wcms_crop_resize&cropH=1562&cropW=2776&xPos=0&yPos=106&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Alcaraz wears elastic band on injured thigh to beat Cobolli at ATP Finals",
+        "desc": "Carlos Alcaraz eases concerns about a hamstring injury by cruising past Italian fifth seed Flavio Cobolli at the ATP Finals in Turin.",
+        "link": "https://www.abc.net.au/news/2026-11-21/carlos-alcaraz-beats-flavio-coboli-at-atp-finals-tennis/107412122"
+       },
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Carlos Alcaraz flies past Flavio Cobolli in ATP Finals tennis group stage – as it happened",
+        "desc": "Alcaraz appeared untroubled by his hamstring injury as he made it three straight-sets wins from three with a 6-4, 6-1 demolition of the Italian In other news today: Leon Smith will step down from his role as Great Britain’s Davis Cup captain at the end of this month after 16 years in the position. Britain’s appearance in the Davis Cup Finals next week will mark his final competition. Continue read",
+        "link": "https://www.theguardian.com/sport/live/2026/nov/20/carlos-alcaraz-v-flavio-cobolli-atp-finals-tennis-group-stage-live"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
+        "desc": "A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 26,
       "headline": "Socceroos prodigy Akol Akon stuns powerhouse Argentina in U17 World Cup heist",
       "summary": "Teammates piled on top of the 17-year-old after he secured a famous win.",
       "ts": 1795142057000,
@@ -833,7 +897,7 @@
       ]
      },
      {
-      "id": 26,
+      "id": 27,
       "headline": "Rams star Nacua suspended after assault lawsuit",
       "summary": "Puka Nacua is given a three-game suspension for violating the NFL's personal conduct policy, although the Los Angeles Rams wide receiver was already out injured.",
       "ts": 1795199521000,
@@ -857,34 +921,6 @@
         "title": "Rams star Nacua suspended after assault lawsuit",
         "desc": "Puka Nacua is given a three-game suspension for violating the NFL's personal conduct policy, although the Los Angeles Rams wide receiver was already out injured.",
         "link": "https://www.bbc.co.uk/sport/american-football/articles/c6vg21xdgpqgo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 27,
-      "headline": "Alcaraz puts aside injury concerns to take apart Cobolli",
-      "summary": "A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.",
-      "ts": 1795187154000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1e5/live/f6e41c50-e4ee-11f1-99a1-253766e7ad8b.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Carlos Alcaraz flies past Flavio Cobolli in ATP Finals tennis group stage – as it happened",
-        "desc": "Alcaraz appeared untroubled by his hamstring injury as he made it three straight-sets wins from three with a 6-4, 6-1 demolition of the Italian In other news today: Leon Smith will step down from his role as Great Britain’s Davis Cup captain at the end of this month after 16 years in the position. Britain’s appearance in the Davis Cup Finals next week will mark his final competition. Continue read",
-        "link": "https://www.theguardian.com/sport/live/2026/nov/20/carlos-alcaraz-v-flavio-cobolli-atp-finals-tennis-group-stage-live"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Alcaraz puts aside injury concerns to take apart Cobolli",
-        "desc": "A ruthless Carlos Alcaraz puts aside his injury concerns to dismantle Flavio Cobolli and ensure a perfect record in the ATP Finals group stages.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/cqrkgn17emr2o?at_medium=RSS&at_campaign=rss"
        }
       ]
      },
@@ -980,10 +1016,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "‘Home Alone’ Reboot in the Works at Disney from Macaulay Culkin, Seth Rogen and Evan Goldberg",
-      "summary": "A “Home Alone” sequel is in early development at Disney, Variety has learned. Seth Rogen and Evan Goldberg are shaping the script with original star Macaulay Culkin and will produce through their Point Grey banner. Plot details and casting remain under wraps. Disney declined to comment. Before Rogen and Goldberg fully dig into “Home Alone,” […]",
-      "ts": 1795200060000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/MSDHOAL_FE008.jpg",
+      "headline": "Nicolas Cage's New Mystery Thriller Debuts To Disappointing Rotten Tomatoes Score",
+      "summary": "Nicolas Cage's new action thriller debuts with a disappointing Rotten Tomatoes score on the day of its simultaneous release, November 20.",
+      "ts": 1795208145000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-8.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -991,34 +1027,34 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Nicolas Cage's New Mystery Thriller Debuts To Disappointing Rotten Tomatoes Score",
+        "desc": "Nicolas Cage's new action thriller debuts with a disappointing Rotten Tomatoes score on the day of its simultaneous release, November 20.",
+        "link": "https://screenrant.com/nicolas-cage-best-pancakes-in-the-county-rotten-tomatoes-score/"
+       },
+       {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Home Alone’ Reboot in the Works at Disney from Macaulay Culkin, Seth Rogen and Evan Goldberg",
-        "desc": "A “Home Alone” sequel is in early development at Disney, Variety has learned. Seth Rogen and Evan Goldberg are shaping the script with original star Macaulay Culkin and will produce through their Point Grey banner. Plot details and casting remain under wraps. Disney declined to comment. Before Rogen and Goldberg fully dig into “Home Alone,” […]",
-        "link": "https://variety.com/2026/film/news/home-alone-reboot-disney-macaulay-culkin-seth-rogen-1236954344/"
+        "title": "Sterling K. Brown in Talks to Star in New ‘Longlegs’ Movie with Nicolas Cage",
+        "desc": "Sterling K. Brown is in negotiations to star in Paramount’s new “Longlegs” movie opposite Nicolas Cage, Variety has confirmed. Plot details and a character description for Brown remain under wraps. Original director Osgood Perkins returns to helm the sequel. He also penned the script and serves as producer. Other producers include Cage, Brian Kavanaugh Jones; […]",
+        "link": "https://variety.com/2026/film/news/sterling-k-brown-new-longlegs-movie-nicolas-cage-1236954539/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Home Alone’ Sequel With Macaulay Culkin In Early Works With Seth Rogen & Evan Goldberg Writing & Producing",
-        "desc": "Ever since Macaulay Culkin pitched his idea for a Home Alone sequel to Disney Motion Pictures Boss David Greenbaum, that being from an older dad’s POV, there’s been some heat on a continuation of the Christmas comedy franchise which has been a gold mine for 20th Century Studios since its inception 36 years ago. Culkin, […]",
-        "link": "https://deadline.com/2026/11/home-alone-macaulay-culkin-seth-rogen-evan-goldberg-1237230258/"
-       },
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Macaulay Culkin’s First New Home Alone Movie In 34 Years Hits Major Milestone As Seth Rogen Joins Sequel",
-        "desc": "Home Alone is making a comeback at the perfect time, as a new report sets Macaulay Culkin's long-awaited return to the Christmas franchise.",
-        "link": "https://screenrant.com/home-alone-reboot-macaulay-culkin-development-report/"
+        "title": "Paramount Eyeing Sterling K. Brown To Star in New ‘Longlegs’ Movie Opposite Nicolas Cage",
+        "desc": "EXCLUSIVE: Following the excitement that fans of the record-breaking hit Longlegs would be getting a new movie in the universe, Paramount Pictures looks to have now found the actor to lead that film as sources tell Deadline Sterling K. Brown is in negotiations to join Paramount Pictures’ upcoming Longlegs film. Brown will be joining Nicolas […]",
+        "link": "https://deadline.com/2026/11/sterling-k-brown-new-longlegs-movie-1237230255/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Lili Reinhart in Talks to Join ‘Polly Pocket’ Movie After Lily Collins Exit",
-      "summary": "Lili Reinhart is in discussions to star in and executive produce Amazon MGM and Mattel Studios’ “Polly Pocket.” Reinhart joins the film after Lilly Collins exited due to scheduling issues. Collins remains on as an executive producer. Clea DuVall will direct “Polly Pocket” with a screenplay from Dan Brier and Jordan Weiss. Producers include Robbie […]",
-      "ts": 1795196660000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/MixCollage-20-Nov-2026-09-35-AM-5615.jpg",
+      "headline": "3 Best New Netflix Series To Binge-Watch This Weekend (November 20–22, 2026)",
+      "summary": "The Altruists, The Body, & The Law of Beasts are the best new Netflix series to binge-watch this weekend, November 20–22, 2026, delivering peak drama.",
+      "ts": 1795208419000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/tv-binge-guide-23.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1026,90 +1062,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Lili Reinhart in Talks to Join ‘Polly Pocket’ Movie After Lily Collins Exit",
-        "desc": "Lili Reinhart is in discussions to star in and executive produce Amazon MGM and Mattel Studios’ “Polly Pocket.” Reinhart joins the film after Lilly Collins exited due to scheduling issues. Collins remains on as an executive producer. Clea DuVall will direct “Polly Pocket” with a screenplay from Dan Brier and Jordan Weiss. Producers include Robbie […]",
-        "link": "https://variety.com/2026/film/news/lili-reinhart-polly-pocket-movie-lily-collins-exit-1236954282/"
+        "title": "3 Best New Netflix Series To Binge-Watch This Weekend (November 20–22, 2026)",
+        "desc": "The Altruists, The Body, & The Law of Beasts are the best new Netflix series to binge-watch this weekend, November 20–22, 2026, delivering peak drama.",
+        "link": "https://screenrant.com/best-new-netflix-shows-to-binge-weekend-november-20-2026/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Lili Reinhart Circling Amazon MGM Studios & Mattel’s ‘Polly Pocket’ After Lily Collins Exit",
-        "desc": "Lili Reinhart is in talks to star in and executive produce Amazon MGM Studios and Mattel Studios’ Polly Pocket, we understand. The news follows Emily in Paris star Lily Collins departure from the project a while ago due to a scheduling conflict. She remains an executive producer on the project. Clea DuVall boarded Polly Pocket […]",
-        "link": "https://deadline.com/2026/11/lili-reinhart-lilly-collins-polly-pocket-1237230090/"
-       }
-      ]
-     },
-     {
-      "id": 33,
-      "headline": "Oregon-Based Laika Set To Give Thanks To Portland For Success Of ‘Wildwood’ By Offering Free Screenings At Theatres Citywide Over Thanksgiving Holiday Weekend",
-      "summary": "EXCLUSIVE: Portland-based Laika’s critically acclaimed animated feature, Wildwood, has grossed $50 million so far after its first month in release and still going strong. In an unprecedented move Laika is giving back to the Portland Oregon community where the film not only was made, but also is set. This Thanksgiving weekend , specifically on November […]",
-      "ts": 1795203228000,
-      "img": "https://deadline.com/wp-content/uploads/2026/08/Wildwood.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Oregon-Based Laika Set To Give Thanks To Portland For Success Of ‘Wildwood’ By Offering Free Screenings At Theatres Citywide Over Thanksgiving Holiday Weekend",
+        "title": "Oregon-Based Laika Set To Give Thanks To Portland For Success Of ‘Wildwood’ By Offering Free Screenings At Theaters Citywide Over Thanksgiving Holiday Weekend",
         "desc": "EXCLUSIVE: Portland-based Laika’s critically acclaimed animated feature, Wildwood, has grossed $50 million so far after its first month in release and still going strong. In an unprecedented move Laika is giving back to the Portland Oregon community where the film not only was made, but also is set. This Thanksgiving weekend , specifically on November […]",
         "link": "https://deadline.com/2026/11/oregon-based-laika-portland-wildwood-free-screenings-1237230371/"
        }
       ]
      },
      {
-      "id": 34,
-      "headline": "Yellowjackets Is Officially Changing Its Format In Season 4",
-      "summary": "Yellowjackets season 4 is off to a shocking start, as Paramount+'s thriller flips the show's structure on its head in the season premiere.",
-      "ts": 1795203019000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/yellowjackets-3x9.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Yellowjackets Is Officially Changing Its Format In Season 4",
-        "desc": "Yellowjackets season 4 is off to a shocking start, as Paramount+'s thriller flips the show's structure on its head in the season premiere.",
-        "link": "https://screenrant.com/yellowjackets-season-4-new-timeline-format/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "‘GTA 6’ Hits Massive $3.79 Billion in First-Day Sales",
-      "summary": "Crime pays: Rockstar Games’ “Grand Theft Auto 6” first-day sales reached $3.79 billion. Per, Rockstar Games parent company Take-Two Interactive, that total sets “a new record for entertainment across any medium, and becoming the biggest entertainment launch in history.” For the sake of comparison, Sony Pictures’ “Spider-Man: Brand New Day” reaped $2.52 billion at the […]",
-      "ts": 1795202681000,
-      "img": "https://variety.com/wp-content/uploads/2026/08/GTA-6-2.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘GTA 6’ Hits Massive $3.79 Billion in First-Day Sales",
-        "desc": "Crime pays: Rockstar Games’ “Grand Theft Auto 6” first-day sales reached $3.79 billion. Per, Rockstar Games parent company Take-Two Interactive, that total sets “a new record for entertainment across any medium, and becoming the biggest entertainment launch in history.” For the sake of comparison, Sony Pictures’ “Spider-Man: Brand New Day” reaped $2.52 billion at the […]",
-        "link": "https://variety.com/2026/gaming/news/gta-6-sales-3-79-billion-1236954198/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "‘Novocaine’s Dan Berk & Robert Olsen To Helm Contained Action Thriller For Lionsgate",
-      "summary": "EXCLUSIVE: Dan Berk & Robert Olsen, the writer-directors of Paramount’s high-concept action comedy Novocaine, have sold an untitled pitch for a contained action thriller to Lionsgate, Deadline has learned. The duo are writing the script and will also direct. Specifics as to the film’s plot are being kept under wraps. Chris Bremner and Jeff Arkuss […]",
-      "ts": 1795202100000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2204472943.jpg",
+      "id": 33,
+      "headline": "Steven Paul Talks Up Federal Film & TV Tax Credit: “It’s Going To Be Good For The World” – Industry Days Doha",
+      "summary": "Hollywood veteran Steven Paul carried a flag for the push for a Hollywood film and TV incentive to Qatar on Friday. Speaking in a fireside chat at the Qatar Film Committee’s Industry Days event in Doha, Paul said the proposed tax credit, covering between 20 to 30% of the U.S. spend, would be good for […]",
+      "ts": 1795206623000,
+      "img": "https://deadline.com/wp-content/uploads/2025/05/trump_25310e.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1119,9 +1092,86 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "‘Novocaine’s Dan Berk & Robert Olsen To Helm Contained Action Thriller For Lionsgate",
-        "desc": "EXCLUSIVE: Dan Berk & Robert Olsen, the writer-directors of Paramount’s high-concept action comedy Novocaine, have sold an untitled pitch for a contained action thriller to Lionsgate, Deadline has learned. The duo are writing the script and will also direct. Specifics as to the film’s plot are being kept under wraps. Chris Bremner and Jeff Arkuss […]",
-        "link": "https://deadline.com/2026/11/dan-berk-robert-olsen-sell-pitch-lionsgate-1237230188/"
+        "title": "Steven Paul Talks Up Federal Film & TV Tax Credit: “It’s Going To Be Good For The World” – Industry Days Doha",
+        "desc": "Hollywood veteran Steven Paul carried a flag for the push for a Hollywood film and TV incentive to Qatar on Friday. Speaking in a fireside chat at the Qatar Film Committee’s Industry Days event in Doha, Paul said the proposed tax credit, covering between 20 to 30% of the U.S. spend, would be good for […]",
+        "link": "https://deadline.com/2026/11/steven-paul-federal-film-tv-tax-credit-good-world-1237230531/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Trump Suggests Theaters Could Be Added to Federal Film Credit Bill",
+        "desc": "President Trump suggested on Friday that the bill to create a federal tax credit for film and TV production may also include support for theaters. Taking questions at the White House, Trump was asked about areas of cooperation with the incoming Democratic majority in Congress. After praising the Democratic leaders and briefly touching on healthcare, […]",
+        "link": "https://variety.com/2026/politics/news/trump-theaters-film-credit-bill-1236954402/"
+       }
+      ]
+     },
+     {
+      "id": 34,
+      "headline": "‘Upgraded 2’ Film Casts Tanner Zagarino, Christopher McDonald, Andrea Arcangeli & Alessandro Preziosi",
+      "summary": "EXCLUSIVE: Andrea Arcangeli (Trust, The Saints), Alessandro Preziosi (ChiaroScuro), Tanner Zagarino (The Summer I Turned Pretty), and Christopher McDonald (Hacks, Happy Gilmore 2) have joined the cast of Upgraded 2 from director Becca Gleason, Gulfstream Pictures, and Honor Role. They join the previously announced returning star and producer Camila Mendes, Leslie Bibb, and Marisa Tomei. […]",
+      "ts": 1795204800000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/upgraded-2.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "‘Upgraded 2’ Film Casts Tanner Zagarino, Christopher McDonald, Andrea Arcangeli & Alessandro Preziosi",
+        "desc": "EXCLUSIVE: Andrea Arcangeli (Trust, The Saints), Alessandro Preziosi (ChiaroScuro), Tanner Zagarino (The Summer I Turned Pretty), and Christopher McDonald (Hacks, Happy Gilmore 2) have joined the cast of Upgraded 2 from director Becca Gleason, Gulfstream Pictures, and Honor Role. They join the previously announced returning star and producer Camila Mendes, Leslie Bibb, and Marisa Tomei. […]",
+        "link": "https://deadline.com/2026/11/upgraded-2-cast-tanner-zagarino-christopher-mcdonald-1237230367/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Live-Action Fukakōryoku no I Love You Film Casts M!LK Idol Shunta Sono",
+        "desc": "Idol group member plays Saku's childhood friend Rentarō Akizuki in March 2027 film",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-19/live-action-fukakoryoku-no-i-love-you-film-casts-m-lk-idol-shunta-sono/.244006"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "Why There's No Fire Country Tonight (November 20) & When New Season 5 Episodes Release",
+      "summary": "Fire Country season 5 is taking a major hiatus, and when it returns, only one more episode will air before another major absence from CBS.",
+      "ts": 1795208419000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/3247042_ficy_s5_0079b.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Why There's No Fire Country Tonight (November 20) & When New Season 5 Episodes Release",
+        "desc": "Fire Country season 5 is taking a major hiatus, and when it returns, only one more episode will air before another major absence from CBS.",
+        "link": "https://screenrant.com/fire-country-no-new-episode-november-20-2026-season-5-episode-6-release-date/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "‘Artificial’ Writer Simon Rich Boards Sci-Fi Short ‘Houston, We Have a Crush’ as Executive Producer (EXCLUSIVE)",
+      "summary": "“Artificial” screenwriter Simon Rich has joined the short film “Houston, We Have a Crush” as executive producer. Directed by Omer Ben-Shachar and co-written with New Yorker humorist Jennifer Kim, the live-action short follows Ditto, a lonely alien who discovers a phone accidentally left behind by an astronaut. As he explores its contents, Ditto develops an […]",
+      "ts": 1795208361000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/split-image-1000_9afc33.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Artificial’ Writer Simon Rich Boards Sci-Fi Short ‘Houston, We Have a Crush’ as Executive Producer (EXCLUSIVE)",
+        "desc": "“Artificial” screenwriter Simon Rich has joined the short film “Houston, We Have a Crush” as executive producer. Directed by Omer Ben-Shachar and co-written with New Yorker humorist Jennifer Kim, the live-action short follows Ditto, a lonely alien who discovers a phone accidentally left behind by an astronaut. As he explores its contents, Ditto develops an […]",
+        "link": "https://variety.com/2026/film/columns/artificial-simon-rich-short-houston-we-have-a-crush-producer-new-yorker-1236954543/"
        }
       ]
      }
@@ -1131,35 +1181,35 @@
   "sourcesOk": [
    "Guardian Australia",
    "The Age",
-   "ABC News",
-   "BBC World",
    "Crikey",
+   "BBC World",
+   "The Age Federal Politics",
+   "ABC News",
+   "Ars Technica",
+   "BBC Tech",
+   "Guardian Tech",
+   "The Verge",
+   "The Age Business",
    "Guardian AU Politics",
    "Fox News",
-   "7News",
-   "The Age Business",
-   "Guardian Tech",
-   "Ars Technica",
-   "The Verge",
-   "The Age Federal Politics",
    "Fox News Politics",
    "The Conversation",
-   "BBC Sport",
-   "Guardian AU Sport",
-   "ABC Business",
-   "Variety",
-   "Deadline",
-   "Guardian Film",
-   "Fox Business",
-   "BBC Tech",
-   "Guardian AU Business",
    "AFR",
+   "BBC Sport",
+   "Guardian AU Business",
+   "Fox Business",
+   "Deadline",
+   "ABC Business",
+   "7News",
    "ABC Sport",
+   "Guardian AU Sport",
+   "Variety",
+   "Guardian Film",
    "Anime News Network",
-   "7News Sport",
-   "SBS News",
    "Screen Rant",
-   "Daily Mail Australia"
+   "Daily Mail Australia",
+   "SBS News",
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1349,17 +1399,9 @@
  "commGames": null,
  "deals": [
   {
-   "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500t 16GB RAM 256GB SSD Win 11 Wi-Fi $279 Delivered @ Australian Computer Traders",
-   "link": "https://www.ozbargain.com.au/node/984353",
-   "votes": 153,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1795126636000
-  },
-  {
    "title": "XFX Swift AMD Radeon RX 9070 GRE Triple Fan Gaming Edition 12GB GDDR6 GPU $739 Delivered / VIC C&C / in-Store @ Centre Com",
    "link": "https://www.ozbargain.com.au/node/984434",
-   "votes": 116,
+   "votes": 119,
    "neg": 0,
    "category": "Computing",
    "ts": 1795143381000
@@ -1375,7 +1417,7 @@
   {
    "title": "Ninja SLUSHi Professional Frozen Drink Maker, 5 Presets $198 (RRP $599.99) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/984440",
-   "votes": 73,
+   "votes": 76,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795144301000
@@ -1383,7 +1425,7 @@
   {
    "title": "10 Days China Tour from SYD/MEL $999 Per Person Twin Share ($600 Solo Surcharge) + Plaza Premium Lounge Access Pass @ Webjet",
    "link": "https://www.ozbargain.com.au/node/984473",
-   "votes": 72,
+   "votes": 73,
    "neg": 0,
    "category": "Travel",
    "ts": 1795153083000
@@ -1391,10 +1433,18 @@
   {
    "title": "Philips Multigroom 5000 All-in-One 13-Piece Trimmer for Men $59 (RRP $119) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/984450",
-   "votes": 67,
+   "votes": 69,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795145593000
+  },
+  {
+   "title": "Amazon 1-3% Earn Dining Credit (Eatclub Tier Dependant) @ Eatclub",
+   "link": "https://www.ozbargain.com.au/node/984424",
+   "votes": 59,
+   "neg": 0,
+   "category": "Dining & Takeaway",
+   "ts": 1795141512000
   },
   {
    "title": "Wurkkos HD04 Torch 750lm, Spotlight/Floodlight, RGB, USB-C US$13.66 (~A$20.51) AU Stock Shipped @ Wurkkos Local Store AliExpress",
@@ -1405,33 +1455,25 @@
    "ts": 1795136624000
   },
   {
-   "title": "Amazon 1-3% Earn Dining Credit (Eatclub Tier Dependant) @ Eatclub",
-   "link": "https://www.ozbargain.com.au/node/984424",
-   "votes": 58,
-   "neg": 0,
-   "category": "Dining & Takeaway",
-   "ts": 1795141512000
-  },
-  {
-   "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/984491",
-   "votes": 55,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1795157872000
-  },
-  {
    "title": "$0.10 Bonus Cashback for Checking in to Muscle Nation (Limited Rewards) @ ShopBack App",
    "link": "https://www.ozbargain.com.au/node/984550",
-   "votes": 53,
+   "votes": 58,
    "neg": 0,
    "category": "Other",
    "ts": 1795176169000
   },
   {
+   "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/984491",
+   "votes": 58,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1795157872000
+  },
+  {
    "title": "[PS5] Borderlands 4 $19 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/984516",
-   "votes": 40,
+   "votes": 42,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795163251000
@@ -1439,7 +1481,7 @@
   {
    "title": "LEGO Icons Star Trek: U.S.S. Enterprise NCC-1701-D 10356 $449 (RRP $599.99) Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/984530",
-   "votes": 35,
+   "votes": 38,
    "neg": 0,
    "category": "Toys & Kids",
    "ts": 1795170978000
@@ -1459,6 +1501,14 @@
    "neg": 0,
    "category": "Internet",
    "ts": 1795145063000
+  },
+  {
+   "title": "10,000 Bonus Telstra Plus Points on First Purchase at Participating Partners (Card-Linked Offer) @ Telstra Plus",
+   "link": "https://www.ozbargain.com.au/node/984547",
+   "votes": 32,
+   "neg": 0,
+   "category": "Financial",
+   "ts": 1795175772000
   },
   {
    "title": "Apple iPhone 17e 256GB $999 ($979 via Shopping Asst.) + Delivery ($0 C&C/In-Store) @ The Good Guys",
