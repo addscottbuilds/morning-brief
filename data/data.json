@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T00:00:27.677Z",
+ "generatedAt": "2026-11-20T00:56:49.190Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8601.5,
-    "chgPct": -2.497220630312227,
+    "price": 8644.1,
+    "chgPct": -2.0143259722701723,
     "high52": 9296.7,
-    "off52": -7.477922273494904
+    "off52": -7.019695160648405
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.78,
-    "chgPct": -2.158109051296912,
+    "price": 84.82,
+    "chgPct": -2.1119463285091395,
     "high52": 88.25,
-    "off52": -3.9320113314447576
+    "off52": -3.88668555240794
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 144.06,
-    "chgPct": -1.5109073685020906,
+    "price": 144.73,
+    "chgPct": -1.052850364037962,
     "high52": 155.03,
-    "off52": -7.0760497968135185
+    "off52": -6.643875378958919
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.65,
-    "chgPct": -3.2718096041022613,
+    "price": 57.72,
+    "chgPct": -3.154359936665785,
     "high52": 65.18,
-    "off52": -11.552623504142387
+    "off52": -11.445228597729376
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 29.81,
-    "chgPct": -4.147911143558529,
+    "price": 29.84,
+    "chgPct": -4.051448122233693,
     "high52": 47.78,
-    "off52": -37.6098786102972
+    "off52": -37.547090832984516
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6658,
-    "chgPct": -1.1770316846900022,
+    "price": 0.6652,
+    "chgPct": -0.9057538323732475,
     "high52": 0.7277,
-    "off52": -8.50625257661125
+    "off52": -8.588704136319912
    }
   ],
   "failed": [],
@@ -70,9 +70,9 @@
     "sym": "XRO.AX",
     "name": "Xero",
     "market": "ASX",
-    "price": 73.81,
+    "price": 74.07,
     "currency": "AUD",
-    "chgPct": -6.981724739324205
+    "chgPct": -6.654062477194753
    },
    {
     "sym": "AMZN",
@@ -83,20 +83,20 @@
     "chgPct": -3.873157022713448
    },
    {
-    "sym": "REA.AX",
-    "name": "REA Group",
-    "market": "ASX",
-    "price": 157.08,
-    "currency": "AUD",
-    "chgPct": -3.5668238758785624
-   },
-   {
     "sym": "GOOGL",
     "name": "Alphabet",
     "market": "US",
     "price": 272.66,
     "currency": "USD",
     "chgPct": -3.4626831740787645
+   },
+   {
+    "sym": "REA.AX",
+    "name": "REA Group",
+    "market": "ASX",
+    "price": 157.46,
+    "currency": "AUD",
+    "chgPct": -3.3335376081986174
    },
    {
     "sym": "NVDA",
@@ -125,10 +125,10 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Australian Comanchero gang hit with US sanctions for links to drug trafficking groups",
-      "summary": "It's the first time an Australia-based organised crime group has been targeted by such sanctions.",
-      "ts": 1795131686000,
-      "img": "https://assets.sbs.com.au/dims4/default/5c76d73/2147483647/strip/false/crop/5678x2609+0+588/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fba%2F7d%2Fbab14b5143c49e18950a0d95f97f%2Fafp20240907comancheros-005.jpg",
+      "headline": "Fiona the hippo dies after eating a hat at Cincinnati Zoo",
+      "summary": "Fiona the hippo, whose premature birth and fight for survival at Cincinnati Zoo captured global attention in 2017, dies after eating a woolly hat.",
+      "ts": 1795135741000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/07c79531a31c4b228018e7b5474e505a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -136,11 +136,130 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Fiona the hippo dies after eating a hat at Cincinnati Zoo",
+        "desc": "Fiona the hippo, whose premature birth and fight for survival at Cincinnati Zoo captured global attention in 2017, dies after eating a woolly hat.",
+        "link": "https://www.abc.net.au/news/2026-11-20/fiona-the-hippo-dies-at-cincinnati-zoo-after-eating-hat/107407952"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Fiona the hippo dies after swallowing a hat",
+        "desc": "Fiona the hippo has died after Cincinnati Zoo visitors expressed hope for her recovery.",
+        "link": "https://www.theage.com.au/world/fiona-the-hippo-dies-after-swallowing-a-hat-20261120-p61fwi.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+        "desc": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+        "link": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Fiona the hippo dies at Cincinnati Zoo after swallowing a hat flung into her enclosure",
+        "desc": "The hippo became a global sensation after surviving a premature birth.",
+        "link": "https://7news.com.au/news/fiona-the-hippo-dies-at-cincinnati-zoo-after-swallowing-a-hat-flung-into-her-enclosure-c-23188652"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
+      "summary": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
+      "ts": 1795134140000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/96cb37fd600e31973bc699b1377bade60f221398",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Xi separates Putin and Trump at APEC summit",
+        "desc": "Chinese Premier Xi Jinping has seemingly instructed Vladimir Putin to stand away from Donald Trump for a photo.",
+        "link": "https://www.theage.com.au/world/xi-separates-putin-and-trump-at-apec-summit-20261120-p61fwj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Albanese faces impossible task of following Xi’s meeting with Putin and Trump",
+        "desc": "The prime minister is holding a series of meetings with China's leaders today after Chinese President Xi Jinping met his Russian and American counterparts Vladimir Putin and Donald Trump. Meanwhile, the COP31 draft has some notable omissions and get ready for a manic few days next week. The post Albanese faces impossible task of following Xi’s meeting with Putin and Trump appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/20/albanese-xi-jinping-apec-meeting-putin-trump-cop31-draft-chris-bowen/"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
+        "desc": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
+        "link": "https://7news.com.au/politics/trump-xi-and-putin-release-joint-peace-declaration-after-unprecedented-trilateral-meeting-c-23188139"
+       },
+       {
         "outlet": "SBS News",
         "lean": "centre",
-        "title": "Australian Comanchero gang hit with US sanctions for links to drug trafficking groups",
-        "desc": "It's the first time an Australia-based organised crime group has been targeted by such sanctions.",
-        "link": "https://www.sbs.com.au/news/article/bikie-gang-comanchero-sanctions-us/ivu4dt30f"
+        "title": "Trump, Xi and Putin hold unprecedented three-way summit in China",
+        "desc": "As three world leaders prepare for a never-before-seen meeting, Australia has insisted its position on Ukraine is \"very clear\".",
+        "link": "https://www.sbs.com.au/news/article/albanese-putin-photo-apec-trump-china-2026/qhxs35kye"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Heavily-armed police raid homes across Sydney over alleged terror attack plans",
+      "summary": "At least two homes are understood to be at the centre of ongoing investigations.",
+      "ts": 1795134975000,
+      "img": "https://images.7news.com.au/publication/C-23189340/8afec5f66a9b65f3cd18750cbb98bee3d2e1c784-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Heavily-armed police raid homes across Sydney over alleged terror attack plans",
+        "desc": "At least two homes are understood to be at the centre of ongoing investigations.",
+        "link": "https://7news.com.au/news/heavily-armed-police-raid-homes-across-sydney-over-alleged-terror-attack-plans-c-23189340"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Sydney terror plot uncovered: Police fear man was 'planning an explosives attack' as heavily armed officers swoop in dramatic dawn raid",
+        "desc": "A man has been arrested after the Australian Federal Police and NSW Police conducted a series of counterterrorism raids across Sydney's west this morning.",
+        "link": "https://www.dailymail.com/news/article-16307527/Sydney-terror-plot-uncoverd-Police-fear-man-planning-explosives-attack-heavily-armed-officers-swoop-dramatic-dawn-raid.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Breaking: Counter-terror raids underway in Sydney's south-west",
+        "desc": "It is understood a number of other properties are also being searched and police will not comment further while the operation remains underway.",
+        "link": "https://www.abc.net.au/news/2026-11-20/sydney-counter-terror-raids-campbelltown/107407568"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Donald Trump targets Australian Comanchero bikie gang in major crackdown over links to terrorism",
+      "summary": "US authorities have moved to choke off access to international money networks for one of Australia’s most infamous outlaw motorcycle gangs.",
+      "ts": 1795130217000,
+      "img": "https://images.7news.com.au/publication/C-23188895/28dabe86b1efe71b10358a98d8913041132134de-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Donald Trump pardons disgraced MLB legend Pete Rose two years on from death",
+        "desc": "Baseball's hit king Pete Rose has been posthumously pardoned by Donald Trump, according to a Thursday afternoon post on Truth Social.",
+        "link": "https://www.dailymail.com/sport/mlb/article-16307317/Donald-Trump-pardons-disgraced-MLB-legend-Pete-Rose.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "7News",
@@ -150,111 +269,20 @@
         "link": "https://7news.com.au/news/crime/donald-trump-targets-australian-comanchero-bikie-gang-in-major-crackdown-over-links-to-terrorism-c-23188895"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "First-ever meeting with Donald Trump, Vladimir Putin and Xi Jinping ends in 'peace declaration' - but minutes later Russian leader sends ominous threat",
-        "desc": "Donald Trump, Vladimir Putin and Xi Jinping met for a landmark trilateral summit, bringing the world leaders together for talks on global security and relations among the major powers.",
-        "link": "https://www.dailymail.com/news/article-16304733/First-meeting-Donald-Trump-Vladimir-Putin-Xi-Jinping-ends-no-announcements-trade-Ukraine-war.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       }
-      ]
-     },
-     {
-      "id": 1,
-      "headline": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
-      "summary": "The symbolic declaration made no mention of negotiations on a trilateral nuclear arms reduction treaty.",
-      "ts": 1795129268000,
-      "img": "https://assets.sbs.com.au/dims4/default/9e227f7/2147483647/strip/false/crop/8459x3887+0+493/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F9b%2Ff8%2F69a4f2564d31b592bb4ee9f5c9f4%2Fapec-photo.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "SBS News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
-        "desc": "The symbolic declaration made no mention of negotiations on a trilateral nuclear arms reduction treaty.",
-        "link": "https://www.sbs.com.au/news/article/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit/0kzow4ahc"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "‘We are really making history’: Trump, Xi and Putin issue ‘peace’ declaration after rare summit",
-        "desc": "The three leaders cast themselves as peace brokers capable of ending wars, but after 90 minutes of closed door discussions they emerged with no major concrete commitments.",
-        "link": "https://www.theage.com.au/world/asia/trump-putin-and-xi-talk-nuclear-weapons-and-ukraine-20261119-p61fsk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Trump, Xi and Putin release joint ‘peace declaration’ after unprecedented trilateral meeting",
-        "desc": "The symbolic statement released by the world’s three biggest nuclear powers capped a multi-day diplomatic swing through Asia that produced few tangible victories.",
-        "link": "https://7news.com.au/politics/trump-xi-and-putin-release-joint-peace-declaration-after-unprecedented-trilateral-meeting-c-23188139"
-       }
-      ]
-     },
-     {
-      "id": 2,
-      "headline": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
-      "summary": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-      "ts": 1795132721000,
-      "img": "https://i.dailymail.com/1s/2026/11/19/22/112620801-0-image-a-4_1795127174442.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Jury told of the moment accused killer cop Beau Lamarre-Condon's alleged murder plot began",
-        "desc": "Follow the Daily Mail's live coverage of Beau Lamarre-Condon's murder trial.",
-        "link": "https://www.dailymail.com/news/article-16307403/Beau-lamarre-condon-murder-trial-jesse-baird-live-blog.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Beau Lamarre-Condon live updates: Crown prosecutor continues closing address after alleging cold-blooded murder",
-        "desc": "The former NSW police officer’s double murder trial has entered its final days as the Crown delivers its closing address to the jury.",
-        "link": "https://www.theage.com.au/national/nsw/beau-lamarre-condon-live-updates-crown-prosecutor-continues-closing-address-after-alleging-cold-blooded-murder-20261120-p61fs9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Counter-terror police raid multiple Sydney properties",
-      "summary": "Several people have been arrested during dawn raids involving NSW Police and Australian Federal Police officers.",
-      "ts": 1795132666000,
-      "img": "https://static.ffx.io/images/$zoom_0.1986%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_jpg/b0e7aab1e29e6110fef0dfc21eb07576e305a306",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Sydney terror plot uncovered: Police fear man was 'planning an explosives attack' as heavily armed officers swoop in dramatic dawn raid",
-        "desc": "A man has been arrested after the Australian Federal Police and NSW Police conducted a series of counterterrorism raids across Sydney's west this morning.",
-        "link": "https://www.dailymail.com/news/article-16307527/Sydney-terror-plot-uncoverd-Police-fear-man-planning-explosives-attack-heavily-armed-officers-swoop-dramatic-dawn-raid.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Counter-terror police raid multiple Sydney properties",
-        "desc": "Several people have been arrested during dawn raids involving NSW Police and Australian Federal Police officers.",
-        "link": "https://www.theage.com.au/national/nsw/counter-terror-police-raid-multiple-sydney-properties-20261120-p61fvn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Bikies face Trump sanctions in 'Australian first' crackdown",
+        "desc": "Comanchero figurehead Allan Meehan and associate Marco Coffen may now face difficulties with everything from everyday transactions to home loans as part of the sanctions move.",
+        "link": "https://www.abc.net.au/news/2026-11-20/trump-sanctions-allan-meehan-comanchero-bikie/107407392"
        }
       ]
      },
      {
       "id": 4,
-      "headline": "Anthropic's epic $3 trillion debut fails to revive flagging investor confidence in AI",
-      "summary": "Anthropic's listing has create billionaires but there are concerns the AI boom is veering into bubble territory.",
-      "ts": 1795132463000,
-      "img": "https://assets.sbs.com.au/dims4/default/358969b/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F3a%2F60%2F077b37a34b73bf3c53091617a9ef%2F20261120152393004024-original.jpg",
+      "headline": "Live: Victorian election ballots isolated after incident at voting centre",
+      "summary": "The Victorian Electoral Commission says there is no suggestion that the integrity of the vote has been compromised, after an incident saw someone gain unauthorised entry to a Richmond voting centre.",
+      "ts": 1795136021000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/d89e7bbaa43901c4f6dfe55cf6901456?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -264,25 +292,25 @@
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "ASX slumps, Wall Street dives despite strong debut for Anthropic",
-        "desc": "The Australian sharemarket has declined at the open after Anthropic’s strong debut on Wall Street was not enough to stop the bleeding on Wall Street.",
-        "link": "https://www.theage.com.au/business/markets/asx-eyes-more-losses-as-wall-street-falls-despite-strong-debut-for-anthropic-20261120-p61ft6.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Victorian election hot seats: ‘Definitely concerned’: Candidates raise alarm over smart glasses at polling booths",
+        "desc": "As tensions continue to rise in this closely fought election, One Nation has encouraged its members to wear body cams or smart glasses to voting centres.",
+        "link": "https://www.theage.com.au/politics/victoria/victorian-election-hot-seats-having-visited-a-fortune-teller-with-matthew-guy-nick-mcgowan-thinks-he-can-win-ringwood-20261116-p61e5t.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Anthropic's epic $3 trillion debut fails to revive flagging investor confidence in AI",
-        "desc": "Anthropic's listing has create billionaires but there are concerns the AI boom is veering into bubble territory.",
-        "link": "https://www.sbs.com.au/news/article/anthropics-epic-3-trillion-debut-fails-to-revive-flagging-investor-confidence-in-ai/ed83wyexg"
+        "title": "Live: Victorian election ballots isolated after incident at voting centre",
+        "desc": "The Victorian Electoral Commission says there is no suggestion that the integrity of the vote has been compromised, after an incident saw someone gain unauthorised entry to a Richmond voting centre.",
+        "link": "https://www.abc.net.au/news/2026-11-20/victorian-election-live-campaign-liberal-labor/107407614"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "dreame L10s Ultra thousands swear by slashed in price by 72 per cent on Amazon for Black Friday: ‘Outstanding’",
-      "summary": "Hundreds have been snapped up this week alone.",
-      "ts": 1795132378000,
-      "img": "https://images.7news.com.au/publication/C-23188713/173bdbadabaac4667601add03a75a847108db10e-16x9-x0y0w1280h720.jpg",
+      "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "summary": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "ts": 1795135824000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fd8/live/5c168a90-e44a-11f1-a094-5fdc692f3e33.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -290,27 +318,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "dreame L10s Ultra thousands swear by slashed in price by 72 per cent on Amazon for Black Friday: ‘Outstanding’",
-        "desc": "Hundreds have been snapped up this week alone.",
-        "link": "https://7news.com.au/7you/tech/dreame-l10s-ultra-thousands-swear-by-slashed-in-price-by-72-per-cent-on-amazon-for-black-friday-outstanding-c-23188713"
-       },
-       {
         "outlet": "BBC World",
         "lean": "centre",
-        "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-        "desc": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
-        "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss"
+        "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+        "desc": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+        "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Zelenskyy presses US for expanded Russia talks as Kushner announces breakthrough",
+        "desc": "Jared Kushner said Russia agreed to multilateral Ukraine war talks involving Europe after Zelenskyy urged the Trump administration to move quickly.",
+        "link": "https://www.foxnews.com/world/zelenskyy-presses-us-expanded-russia-talks-kushner-announces-breakthrough"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Pat Cummins camp issues fresh statement on Sandpapergate: ‘Hysteria unfounded in reality’",
-      "summary": "The Australian skipper’s manager has called for calm while sending a message to Sandpapergate’s banned players.",
-      "ts": 1795132286000,
-      "img": "https://images.7news.com.au/publication/C-23189115/08efb532ea821a5fcf929319f574c9321494c81a-16x9-x0y2w1304h733.jpg",
+      "headline": "Former MP Daryl Maguire jailed over fraudulent visa scheme",
+      "summary": "Former Wagga Wagga MP Daryl Maguire is sentenced over his role in a fraudulent visa scheme.",
+      "ts": 1795135752000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/1731173bdd8b77cdcd802cbfc6f2d0ab?impolicy=wcms_crop_resize&cropH=727&cropW=1293&xPos=0&yPos=0&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -318,18 +346,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Pat Cummins camp issues fresh statement on Sandpapergate: ‘Hysteria unfounded in reality’",
-        "desc": "The Australian skipper’s manager has called for calm while sending a message to Sandpapergate’s banned players.",
-        "link": "https://7news.com.au/sport/cricket/pat-cummins-camp-issues-fresh-statement-on-sandpapergate-hysteria-unfounded-in-reality-c-23189115"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Former Liberal MP Daryl Maguire jailed for visa fraud",
+        "desc": "The disgraced former politician has been sentenced to three years’ prison for conspiring to create false applications for Chinese nationals.",
+        "link": "https://www.theage.com.au/national/nsw/former-liberal-mp-daryl-maguire-jailed-for-visa-fraud-20261120-p61fwk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Cummins's agent criticises 'hysteria' as sandpaper saga continues",
-        "desc": "Pat Cummins's agent describes the discussion around the Sandpapergate scandal and the Test cricket captain as hysteria.",
-        "link": "https://www.abc.net.au/news/2026-11-20/pat-cummins-agent-criticises-sandpaper-hysteria/107407092"
+        "title": "Former MP Daryl Maguire jailed over fraudulent visa scheme",
+        "desc": "Former Wagga Wagga MP Daryl Maguire is sentenced over his role in a fraudulent visa scheme.",
+        "link": "https://www.abc.net.au/news/2026-11-20/daryl-maguire-jailed-over-role-in-fraudulent-visa-scheme/107291680"
        }
       ]
      }
@@ -397,6 +425,27 @@
      },
      {
       "id": 9,
+      "headline": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
+      "summary": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email, free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “many years”, a new report for the US Congress has cautioned, questioning whether Australian-flagged vesse",
+      "ts": 1795133789000,
+      "img": "https://i.guim.co.uk/img/media/36abe0c07983d9517697ee58dc02f807e9128811/1204_0_6827_5464/master/6827.jpg?width=460&quality=85&auto=format&fit=max&s=ef74a6548c9313f32388e19e59907184",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
+        "desc": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email, free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “many years”, a new report for the US Congress has cautioned, questioning whether Australian-flagged vesse",
+        "link": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years"
+       }
+      ]
+     },
+     {
+      "id": 10,
       "headline": "House China panel calls for cutting defense contracts over aerospace ties to Beijing's military",
       "summary": "A new House report says Airbus and U.S. defense contractors like GE Aerospace and Honeywell should lose taxpayer funds over China aerospace joint ventures.",
       "ts": 1795131877000,
@@ -417,7 +466,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "Hakeem Jeffries wins overwhelming Speaker-designate vote as progressives' revolt falls flat",
       "summary": "House Democrats unified behind Hakeem Jeffries with 251 of 262 secret ballots as 11 progressive holdouts demanded votes on ICE, Gaza and Citizens United.",
       "ts": 1795130080000,
@@ -438,7 +487,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "ASRA Q. NOMANI: Inside the coordinated activist blitz that crashed Anthropic’s historic Nasdaq debut",
       "summary": "As Anthropic rang the Nasdaq opening bell in Times Square, NYPD zip-tied four protesters who blocked the doors with linked arms and pre-printed banners.",
       "ts": 1795129027000,
@@ -455,27 +504,6 @@
         "title": "ASRA Q. NOMANI: Inside the coordinated activist blitz that crashed Anthropic’s historic Nasdaq debut",
         "desc": "As Anthropic rang the Nasdaq opening bell in Times Square, NYPD zip-tied four protesters who blocked the doors with linked arms and pre-printed banners.",
         "link": "https://www.foxnews.com/politics/asra-q-nomani-inside-coordinated-activist-blitz-crashed-anthropic-historic-nasdaq-debut"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
-      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email, free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech o",
-      "ts": 1795126629000,
-      "img": "https://i.guim.co.uk/img/media/3efee6d1eaff0fd0c1f56834a875969ecd396eb3/2910_595_6221_4977/master/6221.jpg?width=460&quality=85&auto=format&fit=max&s=c1595843264ead5f324e447a33e175e7",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Politics",
-        "lean": "left",
-        "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
-        "desc": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email, free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech o",
-        "link": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues"
        }
       ]
      }
@@ -543,6 +571,27 @@
      },
      {
       "id": 15,
+      "headline": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+      "summary": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+      "ts": 1795132927000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+        "desc": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+        "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 16,
       "headline": "Anthropic becomes one of world's most valuable public companies in stock market debut",
       "summary": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
       "ts": 1795131231000,
@@ -563,7 +612,7 @@
       ]
      },
      {
-      "id": 16,
+      "id": 17,
       "headline": "Apple is hiring engineers to build its own AI agent",
       "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. An AI agent from Apple would put the iPhone maker in the running to compete with the l",
       "ts": 1795127501000,
@@ -584,7 +633,7 @@
       ]
      },
      {
-      "id": 17,
+      "id": 18,
       "headline": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
       "summary": "Amazon now uses its shopping platform for political purposes.",
       "ts": 1795126597000,
@@ -603,27 +652,6 @@
         "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/"
        }
       ]
-     },
-     {
-      "id": 18,
-      "headline": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
-      "summary": "AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market on Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn full",
-      "ts": 1795126158000,
-      "img": "https://i.guim.co.uk/img/media/6998f4e0d8ab24e4c35516c1ab618511a39fcd71/545_0_4583_3667/master/4583.jpg?width=460&quality=85&auto=format&fit=max&s=c1036b62f47836e2eff2e53f19375cbc",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian Tech",
-        "lean": "left",
-        "title": "Anthropic closes first day of public trading at $1.3tn valuation after largest-ever IPO",
-        "desc": "AI startup and Claude chatbot maker became one of the world’s most valuable publicly traded businesses with final share price of $97 Anthropic closed its first day of trading on the US stock market about 17% higher than its initial public offering price. At the close of market on Thursday, Anthropic shares were trading at just over $97 with a nearly $1.3tn total market capitalization, $1.75tn full",
-        "link": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo"
-       }
-      ]
      }
     ]
    },
@@ -633,10 +661,38 @@
     "stories": [
      {
       "id": 19,
-      "headline": "ASX falls after Wall Street tumbles; NextDC cops big strike",
-      "summary": "Shares open nearly 1 per cent lower after Wall Street wipeout; Anthropic closes 17 per cent higher in debut; Monash IVF dives 20 per cent on profit worries; MinRes appoints CFO. Follow live updates.",
+      "headline": "‘It doesn’t get better than this’: Anthropic mints thousands of instant millionaires",
+      "summary": "Anthropic has finally landed on Wall Street and it made a lot of employees – even some of those in entry-level jobs – very rich.",
+      "ts": 1795133139000,
+      "img": "https://static.ffx.io/images/$zoom_0.5121531057357693%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_71%2C$y_111/t_crop_custom/q_86%2Cf_auto/097397ce5b1282290658fcbccf7b288152cafe90",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Anthropic IPO turns thousands of tech workers into overnight millionaires, reports say",
+        "desc": "Thousands of workers at the artificial intelligence giant are reportedly cashing in on a historic stock windfall after Anthropic's public market debut.",
+        "link": "https://www.foxbusiness.com/markets/anthropic-ipo-turns-thousands-tech-workers-overnight-millionaires-reports-say"
+       },
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "‘It doesn’t get better than this’: Anthropic mints thousands of instant millionaires",
+        "desc": "Anthropic has finally landed on Wall Street and it made a lot of employees – even some of those in entry-level jobs – very rich.",
+        "link": "https://www.theage.com.au/business/companies/it-doesn-t-get-better-than-this-wall-street-is-about-to-mint-thousands-of-instant-millionaires-20261119-p61fgo.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "Who are Anthropic’s seven co-founders, now worth $180bn?",
+      "summary": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price of $111.50 (£85) per share valued the entrepreneurs’ stakes – including the chief executive, Dario A",
       "ts": 1795132463000,
-      "img": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/b24dc91cf7342e936316fff529fb4f320231ec59",
+      "img": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=460&quality=85&auto=format&fit=max&s=8eef69df759c092bc30cb974266c8985",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -651,34 +707,6 @@
         "link": "https://www.theage.com.au/business/markets/asx-eyes-more-losses-as-wall-street-falls-despite-strong-debut-for-anthropic-20261120-p61ft6.html?ref=rss&utm_medium=rss&utm_source=rss_business"
        },
        {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX falls after Wall Street tumbles; NextDC cops big strike",
-        "desc": "Shares open nearly 1 per cent lower after Wall Street wipeout; Anthropic closes 17 per cent higher in debut; Monash IVF dives 20 per cent on profit worries; MinRes appoints CFO. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-markets-live-wall-street-surges-on-back-of-massive-anthropic-ipo-20261120-p61ft1?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Who are Anthropic’s seven co-founders, now worth $180bn?",
-      "summary": "The company counts physicists, a former journalist and an associate of the pope among its guiding lights The paper fortunes of Anthropic’s seven co-founders reached a total of more than $180bn on Thursday as shares in their company started trading at a price ahead of expectations. The opening price of $111.50 (£85) per share valued the entrepreneurs’ stakes – including the chief executive, Dario A",
-      "ts": 1795127074000,
-      "img": "https://i.guim.co.uk/img/media/f21be169b52ca2b5f51250db2e1f038f14af993b/236_0_3021_2417/master/3021.jpg?width=460&quality=85&auto=format&fit=max&s=8eef69df759c092bc30cb974266c8985",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Seven founders, Madonna’s manager and Ashton Kutcher: The big winners of Anthropic’s $3 trillion splash on Wall St",
-        "desc": "Anthropic is less than five years old. It is now worth trillions of dollars after making its Wall Street debut and has made a number of people insanely wealthy.",
-        "link": "https://www.theage.com.au/business/markets/lucky-seven-anthropic-hits-3-trillion-value-in-record-wall-street-debut-20261120-p61ft7.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
         "outlet": "Guardian AU Business",
         "lean": "left",
         "title": "Who are Anthropic’s seven co-founders, now worth $180bn?",
@@ -689,34 +717,6 @@
      },
      {
       "id": 21,
-      "headline": "Anthropic breaks $3trn valuation in trading debut",
-      "summary": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
-      "ts": 1795126432000,
-      "img": "https://static.ffx.io/images/$zoom_0.5463427573480955%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1446%2C$y_826/t_crop_custom/q_86%2Cf_auto/eafa10d804394bd7c581cbdb3b3e77496f0ff0ea",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Business",
-        "lean": "left",
-        "title": "Anthropic shares end first day of trading at $97 as Wall Street closes sharply lower – as it happened",
-        "desc": "All ⁠three major US stock indexes ⁠ended the session ​sharply lower after record-breaking IPO by maker behind AI agent Claude Anthropic closes first day of public trading at $1.3tn valuation Protesters rally in New York and San Francisco Who are Anthropic’s seven co-founders, now worth $180bn? Anthropic needs to grow into its $1.5tn valuation, argues Kathleen Brooks, research director at XTB: Anth",
-        "link": "https://www.theguardian.com/business/live/2026/nov/19/anthropic-float-stock-market-nasdaq-raises-81bn-record-ipo-latest-news-updates"
-       },
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Anthropic breaks $3trn valuation in trading debut",
-        "desc": "Shares in the company soared nearly 34 per cent to open at $US111.50 on the Nasdaq as investors clamoured to buy a piece of the AI trade.",
-        "link": "https://www.afr.com/technology/anthropic-breaks-us2trn-valuation-in-trading-debut-20261120-p61ft2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 22,
       "headline": "Anthropic eclipses SpaceX with record $3 trillion market debut",
       "summary": "The Nasdaq debut of the artificial intelligence behemoth fails to disappoint as it drops on the market at $US111.50, 34 per cent higher than the IPO price of $US83.",
       "ts": 1795118557000,
@@ -744,7 +744,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 22,
       "headline": "Transmission line to take 'days' to fix, forcing closure of Eyre Peninsula schools",
       "summary": "The main electricity transmission line to South Australia's Eyre Peninsula could take \"days\" to repair, the SA government has warned, amid emergency efforts to activate generators to provide back-up supply to the region.",
       "ts": 1795116839000,
@@ -772,7 +772,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 23,
       "headline": "AFR lands Walkley wins for KPMG scandal, Kyle’s ‘Maccas in a Rolls’",
       "summary": "It is the second year running that the Financial Review has been awarded the prize for best business reporting at Australian journalism’s top honours.",
       "ts": 1795115533000,
@@ -796,6 +796,34 @@
         "title": "ABC wins scoop of the year at 2026 Walkley Awards",
         "desc": "The ABC wins seven gongs at this year's Walkley Awards, including the coveted scoop of the year category for coverage of ASIO's failures ahead of the Bondi terrorist attack.",
         "link": "https://www.abc.net.au/news/2026-11-20/2026-walkley-awards-winners-scoop-of-the-year-bondi/107406420"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "Miners slump, weighing down ASX as unemployment hits five-year high",
+      "summary": "The market’s losing streak continued on Thursday, with the ASX wiping out the rest of this year’s gains as global AI anxiety weighed on the mining and tech sectors.",
+      "ts": 1795069106000,
+      "img": "https://static.ffx.io/images/$zoom_0.2284%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_208%2C$y_0/t_crop_custom/q_86%2Cf_auto/26b268fc4f659795ac962a7fd8fe68895cdd6b8d",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Miners slump, weighing down ASX as unemployment hits five-year high",
+        "desc": "The market’s losing streak continued on Thursday, with the ASX wiping out the rest of this year’s gains as global AI anxiety weighed on the mining and tech sectors.",
+        "link": "https://www.theage.com.au/business/markets/asx-set-for-more-losses-wall-street-falls-as-nvidia-rally-falters-20261119-p61fff.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "Guardian AU Business",
+        "lean": "left",
+        "title": "Australia may have ‘one foot in recession’ as unemployment surges to five-year high",
+        "desc": "Jobless rate rises from 4.7% to 4.9% in October, Bureau of Statistics figures reveal Get our daily political email, free app or daily news podcast Australia may already have “one foot in recession” after unemployment surged to 4.9% in October, from 4.7%, in a shock increase that will add to rising worries that this year’s five interest rate hikes have pushed the economy past a tipping point. New f",
+        "link": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures"
        }
       ]
      }
@@ -877,6 +905,34 @@
      },
      {
       "id": 27,
+      "headline": "Premier League clubs to cover legal costs if Man City sponsors sue",
+      "summary": "Premier League clubs vote to provide legal cover to the organisation's five board directors in the event Manchester City's sponsors sue them.",
+      "ts": 1795132815000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4515/live/c1425af0-e41a-11f1-b37c-b3a71d7200af.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Premier League: 10 things to look out for this weekend",
+        "desc": "Bruno Guimarães to feel the heat on Tyneside, Alex Scott’s return further cheers Cherries and Manchester City face favourite whipping boys After three Premier League defeats on the spin, Manchester City need something or someone to come along and put some pep in their step, and Fulham look like just the thing – after all, in the past 15 years these teams have played 20 times in all competitions, a",
+        "link": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Premier League clubs to cover legal costs if Man City sponsors sue",
+        "desc": "Premier League clubs vote to provide legal cover to the organisation's five board directors in the event Manchester City's sponsors sue them.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cqy4jvdw7jdlo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Trump posthumously pardons US baseball legend Pete Rose",
       "summary": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
       "ts": 1795132310000,
@@ -904,7 +960,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 29,
       "headline": "Pat Cummins camp issues fresh statement on Sandpapergate: ‘Hysteria unfounded in reality’",
       "summary": "The Australian skipper’s manager has issued a fresh statement while sending a message to Sandpapergate’s banned three.",
       "ts": 1795132286000,
@@ -932,7 +988,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Lyon outclass Arsenal for Champions League win",
       "summary": "Arsenal fall to a 2-0 defeat against a superior Lyon side in the Women's Champions League, dealing a blow to their hopes of automatic quarter-final qualification.",
       "ts": 1795128967000,
@@ -958,34 +1014,6 @@
         "link": "https://www.theguardian.com/football/live/2026/nov/19/arsenal-v-ol-lyonnes-womens-champions-league-live"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "F1 to introduce full-time race stewards from 2027",
-      "summary": "Formula 1's governing body the FIA is to introduce permanent race stewards from the 2027 season.",
-      "ts": 1795127573000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/581d/live/36962940-e460-11f1-8809-f739ad30238c.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "F1 to bring in full-time race stewards for 2027 season in bid to end controversy",
-        "desc": "FIA announces plans to recruit permanent staff Lewis Hamilton has criticised inconsistency Formula One’s governing body has announced it will bring in full-time race stewards for the first time in the sport’s history, beginning in the 2027 season. The idea of having a select group of permanent race stewards has been under debate in the sport for some time. Currently each race has four volunteer ra",
-        "link": "https://www.theguardian.com/sport/2026/nov/19/f1-full-time-race-stewards-2027-season-controversy-fia"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "F1 to introduce full-time race stewards from 2027",
-        "desc": "Formula 1's governing body the FIA is to introduce permanent race stewards from the 2027 season.",
-        "link": "https://www.bbc.co.uk/sport/formula1/articles/cv62pxxkz8wxo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
      }
     ]
    },
@@ -995,6 +1023,62 @@
     "stories": [
      {
       "id": 31,
+      "headline": "Bill Hader’s Feature Directorial Debut ‘They Know’ Acquired by Black Bear",
+      "summary": "Black Bear has acquired the North American rights to Bill Hader’s feature directorial debut “They Know.” Hader also wrote and stars in the horror-thriller with Linda Cardellini. Based on an idea from Hader and his “Barry” collaborator Duffy Boudreau, “‘They Know’ follows a divorced dad who becomes increasingly suspicious and paranoid that his ex-wife’s new […]",
+      "ts": 1795134646000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/MixCollage-19-Nov-2026-04-22-PM-3973.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Bill Hader’s Feature Directorial Debut ‘They Know’ Acquired by Black Bear",
+        "desc": "Black Bear has acquired the North American rights to Bill Hader’s feature directorial debut “They Know.” Hader also wrote and stars in the horror-thriller with Linda Cardellini. Based on an idea from Hader and his “Barry” collaborator Duffy Boudreau, “‘They Know’ follows a divorced dad who becomes increasingly suspicious and paranoid that his ex-wife’s new […]",
+        "link": "https://variety.com/2026/film/news/bill-hader-horror-movie-they-know-acquired-black-bear-1236953795/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Black Bear Snaps Up Bill Hader’s MRC Horror Pic ‘They Know’ With Linda Cardellini",
+        "desc": "EXCLUSIVE: Hot off their highly buzzed awards title, Wicker, which is approaching $40M at the global box office, Black Bear has grabbed North American in a competitive situation on They Know, the new psychological horror written, directed and starring 3x Emmy, WGA and DGA winner Bill Hader. The movie reps Hader’s feature directorial debut. They […]",
+        "link": "https://deadline.com/2026/11/bill-hader-linda-cardellini-they-know-1237229655/"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "Lakers’ Official History Book Gets $9,600 Limited Edition With Magic Johnson Handprints, Staples Center Hardwood and Rare Artwork",
+      "summary": "The Los Angeles Lakers’ $100 coffee-table book is getting a five-figure upgrade. Luxury art-book publisher Taschen and the Lakers have unveiled two limited-edition versions of “Lakers: An Official History of the Purple & Gold,” featuring original handprints from Showtime-era legends, authenticated hardwood from the former Staples Center court and exclusive artwork signed by Magic Johnson […]",
+      "ts": 1795133740000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/LA_LAKERS_ART_EDITION_BARNES_LE_GB_ARTPRINT003-X_62188.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Lakers’ Official History Book Gets $9,600 Limited Edition With Magic Johnson Handprints, Staples Center Hardwood and Rare Artwork",
+        "desc": "The Los Angeles Lakers’ $100 coffee-table book is getting a five-figure upgrade. Luxury art-book publisher Taschen and the Lakers have unveiled two limited-edition versions of “Lakers: An Official History of the Purple & Gold,” featuring original handprints from Showtime-era legends, authenticated hardwood from the former Staples Center court and exclusive artwork signed by Magic Johnson […]",
+        "link": "https://variety.com/2026/shopping/news/lakers-photo-book-collectible-deluxe-edition-buy-online-1236953793/"
+       },
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Netflix's Answer To Blade Runner Is A Rare Example Of A TV Adaptation Beating Its Own Book",
+        "desc": "Netflix's two-season cyberpunk masterpiece is better than the book it was based on, introducing characters that are some of the best in sci-fi",
+        "link": "https://screenrant.com/netflix-altered-carbon-better-than-cyberpunk-source-material/"
+       }
+      ]
+     },
+     {
+      "id": 33,
       "headline": "Lance Broadway, Former MLB Pitcher and ‘Agents Of S.H.I.E.L.D.’ Actor, Dies at 43",
       "summary": "Lance Broadway, a former Major League Baseball pitcher-turned-actor who appeared in Marvel’s “Agents of S.H.I.E.L.D.,” has died at 43. Broadway was found dead on Nov. 17 in an apartment complex stairwell in Dallas, Texas, according to the Dallas County Medical Examiner. His cause of death is pending autopsy results. Broadway was a pitcher who played […]",
       "ts": 1795132488000,
@@ -1022,7 +1106,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 34,
       "headline": "The Altruists True Story: 5 Biggest Questions After The Netflix Show’s Ending",
       "summary": "The Altruists takes a look at the true story surrounding Sam Bankman-Fried and Caroline Ellison and their attachments to FTX and Alameda Research.",
       "ts": 1795131918000,
@@ -1050,7 +1134,7 @@
       ]
      },
      {
-      "id": 33,
+      "id": 35,
       "headline": "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto",
       "summary": "EXCLUSIVE: Edward Burns’ micro-budget black-and-white family drama Beneath the Blue Suburban Skies debuted at the Toronto Film Festival in 2019. Seven years later, the film is finally getting a release with a one-week awards-qualifying theatrical run in New York from December 25, ahead of a rollout in major cities in January. The film stars Burns […]",
       "ts": 1795129173000,
@@ -1078,32 +1162,11 @@
       ]
      },
      {
-      "id": 34,
-      "headline": "Marvel Announces Vision's New Codename After Historic Transformation",
-      "summary": "Vision has a new codename, as Marvel announces an upcoming transformation.",
-      "ts": 1795132818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/vision-in-mcu-age-of-ultron-concept-art.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Marvel Announces Vision's New Codename After Historic Transformation",
-        "desc": "Vision has a new codename, as Marvel announces an upcoming transformation.",
-        "link": "https://screenrant.com/vision-new-name-design-infernal-hulk-war/"
-       }
-      ]
-     },
-     {
-      "id": 35,
-      "headline": "Dermot Mulroney On How Filming ‘The Family Stone’ Sequel Feels Like Life Imitating Art: “So Moved”",
-      "summary": "More than 20 years later, The Family Stone sequel has become a real-life family reunion of sorts for the cast of the 2005 holiday movie. Dermot Mulroney, who reprises his role as Everett Stone in the upcoming sequel The Families Stone, recently expressed that he’s “so moved to be reunited” with his “incredible, incredible” co-stars […]",
-      "ts": 1795132750000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/MCDFAST_FE003.jpg",
+      "id": 36,
+      "headline": "Tyra Banks Taps Andy Vallentine To Direct Sally Hansen Film",
+      "summary": "EXCLUSIVE: Tyra Banks’ SMiZE Productions has tapped Andy Vallentine (The Mattachine Family) to direct the as-yet-untitled Sally Hansen feature, which Deadline announced was in development last year. In addition to his directing work for Hollywood, Vallentine also has a background creating visually bold work for major beauty brands including Sephora and MAC Cosmetics, touts a […]",
+      "ts": 1795135396000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/tyra-banks-movie.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1113,30 +1176,9 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Dermot Mulroney On How Filming ‘The Family Stone’ Sequel Feels Like Life Imitating Art: “So Moved”",
-        "desc": "More than 20 years later, The Family Stone sequel has become a real-life family reunion of sorts for the cast of the 2005 holiday movie. Dermot Mulroney, who reprises his role as Everett Stone in the upcoming sequel The Families Stone, recently expressed that he’s “so moved to be reunited” with his “incredible, incredible” co-stars […]",
-        "link": "https://deadline.com/2026/11/dermot-mulroney-filming-family-stone-sequel-life-imitating-art-1237229646/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Paramount+ Is Down to $2.99 a Month With This Black Friday Deal",
-      "summary": "A lot has changed at Paramount since last Black Friday, but its streaming discounts are staying the same. The company is bringing back its popular Paramount+ Black Friday deal, offering both its Essential and Premium plans for $2.99 per month for the first two months. The limited-time promotion, which launches ahead of Black Friday on […]",
-      "ts": 1795132605000,
-      "img": "https://variety.com/wp-content/uploads/2022/03/Paramount-Plus-Logo.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Paramount+ Is Down to $2.99 a Month With This Black Friday Deal",
-        "desc": "A lot has changed at Paramount since last Black Friday, but its streaming discounts are staying the same. The company is bringing back its popular Paramount+ Black Friday deal, offering both its Essential and Premium plans for $2.99 per month for the first two months. The limited-time promotion, which launches ahead of Black Friday on […]",
-        "link": "https://variety.com/2026/shopping/news/paramount-black-friday-streaming-deals-1236953772/"
+        "title": "Tyra Banks Taps Andy Vallentine To Direct Sally Hansen Film",
+        "desc": "EXCLUSIVE: Tyra Banks’ SMiZE Productions has tapped Andy Vallentine (The Mattachine Family) to direct the as-yet-untitled Sally Hansen feature, which Deadline announced was in development last year. In addition to his directing work for Hollywood, Vallentine also has a background creating visually bold work for major beauty brands including Sephora and MAC Cosmetics, touts a […]",
+        "link": "https://deadline.com/2026/11/tyra-banks-sally-hansen-film-andy-vallentine-director-1237229673/"
        }
       ]
      }
@@ -1144,37 +1186,37 @@
    }
   ],
   "sourcesOk": [
-   "Guardian Australia",
    "Crikey",
    "ABC News",
-   "7News",
-   "Guardian AU Politics",
-   "Fox News",
-   "The Age Federal Politics",
-   "BBC World",
-   "Fox News Politics",
-   "Guardian Tech",
-   "BBC Tech",
-   "Ars Technica",
    "The Age",
-   "The Age Business",
-   "The Conversation",
+   "BBC World",
+   "The Age Federal Politics",
+   "Guardian AU Politics",
+   "7News",
+   "Guardian Australia",
+   "Guardian Tech",
+   "Fox News Politics",
+   "Ars Technica",
+   "BBC Tech",
    "ABC Business",
-   "Guardian AU Sport",
-   "AFR",
-   "BBC Sport",
-   "Guardian AU Business",
-   "Fox Business",
-   "Variety",
-   "ABC Sport",
-   "The Verge",
+   "Fox News",
+   "The Age Business",
    "Deadline",
-   "Guardian Film",
+   "Guardian AU Business",
+   "AFR",
+   "The Conversation",
+   "Fox Business",
+   "BBC Sport",
+   "Variety",
+   "Guardian AU Sport",
+   "The Verge",
    "Screen Rant",
+   "Guardian Film",
    "Anime News Network",
-   "SBS News",
+   "ABC Sport",
+   "Daily Mail Australia",
    "7News Sport",
-   "Daily Mail Australia"
+   "SBS News"
   ],
   "sourcesFailed": []
  },
@@ -1366,7 +1408,7 @@
   {
    "title": "Activate & Spend $X (Min. $50) in 1 Transaction for 4 Consecutive Weeks at Coles, Get 10,000 Flybuys Points or $50 off @ Flybuys",
    "link": "https://www.ozbargain.com.au/node/984246",
-   "votes": 198,
+   "votes": 202,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795070730000
@@ -1374,23 +1416,15 @@
   {
    "title": "AliExpress: 23% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/984214",
-   "votes": 188,
+   "votes": 191,
    "neg": 0,
    "category": "Other",
    "ts": 1795064407000
   },
   {
-   "title": "TP-Link Tapo P110 Mini Energy Monitoring Smart Plug (2 Pack) $20 + Delivery @ JB Hi-Fi",
-   "link": "https://www.ozbargain.com.au/node/984162",
-   "votes": 178,
-   "neg": 1,
-   "category": "Electrical & Electronics",
-   "ts": 1795053717000
-  },
-  {
    "title": "AliExpress: $10 Bonus Cashback on $100 Spend (Stackable, Activation Required) @ ShopBack AU",
    "link": "https://www.ozbargain.com.au/node/984252",
-   "votes": 94,
+   "votes": 96,
    "neg": 0,
    "category": "Other",
    "ts": 1795074000000
@@ -1398,15 +1432,15 @@
   {
    "title": "[eBook] Free - Throne Hunters Books 1-5 by Phil Tucker @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/984230",
-   "votes": 84,
+   "votes": 86,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1795066613000
   },
   {
-   "title": "GL.inet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.63 (~A$121.76) AU Stock Delivered @ GL-Inet Overseas Store AliExpress",
+   "title": "GL.iNet Flint 2 (GL-MT6000) Wi-Fi 6 Router US$81.63 (~A$121.76) AU Stock Delivered @ GL-iNet Overseas Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/984311",
-   "votes": 75,
+   "votes": 82,
    "neg": 0,
    "category": "Computing",
    "ts": 1795095363000
@@ -1420,6 +1454,14 @@
    "ts": 1795058221000
   },
   {
+   "title": "Nintendo Switch Online (+ Expansion Pack) - 3 Bonus Months with 12 Month Membership with Auto Renewal Turned on @ Nintendo",
+   "link": "https://www.ozbargain.com.au/node/984279",
+   "votes": 71,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1795083213000
+  },
+  {
    "title": "Guinness Worlds Records 2027 $12.50 + Delivery ($0 C&C/in Store/$59 Metro Spend) @ Big W / Amazon AU (Backorder)",
    "link": "https://www.ozbargain.com.au/node/984225",
    "votes": 70,
@@ -1428,25 +1470,17 @@
    "ts": 1795065940000
   },
   {
-   "title": "Nintendo Switch Online (+ Expansion Pack) - 3 Bonus Months with 12 Month Membership with Auto Renewal Turned on @ Nintendo",
-   "link": "https://www.ozbargain.com.au/node/984279",
-   "votes": 69,
+   "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500t 16GB RAM 256GB SSD Win 11 Wi-Fi $279 Delivered @ Australian Computer Traders",
+   "link": "https://www.ozbargain.com.au/node/984353",
+   "votes": 63,
    "neg": 0,
-   "category": "Gaming",
-   "ts": 1795083213000
-  },
-  {
-   "title": "Westinghouse 10kg Front Load Washer $645 ($632 via Price-Check Button) + Delivery ($0 C&C) @ The Good Guys",
-   "link": "https://www.ozbargain.com.au/node/984167",
-   "votes": 60,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795054967000
+   "category": "Computing",
+   "ts": 1795126636000
   },
   {
    "title": "Buy a Qualifying Product & Get a Bonus $35-$420 Apple Gift Card @ Apple",
    "link": "https://www.ozbargain.com.au/node/984304",
-   "votes": 56,
+   "votes": 59,
    "neg": 1,
    "category": "Electrical & Electronics",
    "ts": 1795091572000
@@ -1454,34 +1488,42 @@
   {
    "title": "Amazon Cashback: 20% on Amazon Devices, 10% on Sports & Outdoors, Home Improvement, Furniture, Tools, + More @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/984336",
-   "votes": 48,
+   "votes": 50,
    "neg": 0,
    "category": "Other",
    "ts": 1795122476000
   },
   {
-   "title": "Panasonic DP-UB820 4K Blu-Ray Player $607 Delivered @ Appliance Online via Everyday Market",
-   "link": "https://www.ozbargain.com.au/node/984159",
-   "votes": 45,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795053372000
-  },
-  {
-   "title": "[Refurb] Lenovo ThinkCentre M90q Tiny i5-10500t 16GB RAM 256GB SSD Win 11 Wi-Fi $279 Delivered @ Australian Computer Traders",
-   "link": "https://www.ozbargain.com.au/node/984353",
-   "votes": 41,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1795126636000
-  },
-  {
-   "title": "Nintendo x Illumination: Super Mario Galaxy Movie Hatchin' Yoshi $29 + Delivery ($0 Prime/$59 Spend) @ Amazon AU / Big W (C&C)",
+   "title": "Super Mario Galaxy Movie Hatchin' Yoshi $29 + Delivery ($0 Prime/$59 Spend) @ Amazon AU (SOLD OUT) / Big W ($0 C&C)",
    "link": "https://www.ozbargain.com.au/node/984332",
-   "votes": 41,
+   "votes": 43,
    "neg": 0,
    "category": "Toys & Kids",
    "ts": 1795117712000
+  },
+  {
+   "title": "[Android, Epic] Free - Lonesome Village @ Epic Games",
+   "link": "https://www.ozbargain.com.au/node/984323",
+   "votes": 41,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1795101229000
+  },
+  {
+   "title": "6% Cashback on AmpolCash Digital Gift Cards, 10% Cashback on $100, $250 & $500 Uber Gift Cards @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/984331",
+   "votes": 40,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1795117210000
+  },
+  {
+   "title": "Hisense 100\" Q7SAU 4K Hi-Qled 144hz Smart TV 2026 $2495 + Delivery ($0 C&C/In-Store) @ The Good Guys",
+   "link": "https://www.ozbargain.com.au/node/984210",
+   "votes": 38,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1795063630000
   }
  ],
  "carried": {}
