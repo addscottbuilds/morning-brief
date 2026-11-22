@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T23:00:26.946Z",
+ "generatedAt": "2026-11-22T23:53:38.956Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8592.6,
-    "chgPct": -1.5783971462863762,
+    "price": 8564.8,
+    "chgPct": -0.3235296724948038,
     "high52": 9296.7,
-    "off52": -7.573655167962828
+    "off52": -7.872686006862666
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 84.28,
-    "chgPct": -2.735143086144182,
+    "price": 83.56,
+    "chgPct": -0.8542937704381389,
     "high52": 88.25,
-    "off52": -4.498583569405098
+    "off52": -5.314447592067986
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 143.94,
-    "chgPct": -1.5929474290031336,
+    "price": 143.57,
+    "chgPct": -0.25705324102441496,
     "high52": 155.03,
-    "off52": -7.153454170160617
+    "off52": -7.3921176546474925
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.21,
-    "chgPct": -4.010064656560107,
+    "price": 56.35,
+    "chgPct": -1.5032321241656283,
     "high52": 65.18,
-    "off52": -12.22767720159559
+    "off52": -13.547100337526855
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 29.25,
-    "chgPct": -5.948554208288724,
+    "price": 28.31,
+    "chgPct": -3.2136752136752182,
     "high52": 47.78,
-    "off52": -38.78191712013395
+    "off52": -40.749267475931354
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6625,
-    "chgPct": -0.46865111982449714,
+    "price": 0.664,
+    "chgPct": -0.24329712235994028,
     "high52": 0.7277,
-    "off52": -8.959736155008937
+    "off52": -8.753607255737252
    }
   ],
   "failed": [],
-  "note": "SEMI is 39% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 41% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "NVDA",
@@ -99,20 +99,20 @@
     "chgPct": -5.934046566974468
    },
    {
-    "sym": "XRO.AX",
-    "name": "Xero",
-    "market": "ASX",
-    "price": 74.87,
-    "currency": "AUD",
-    "chgPct": -5.645870901411774
-   },
-   {
     "sym": "AMZN",
     "name": "Amazon",
     "market": "US",
     "price": 246.82,
     "currency": "USD",
     "chgPct": -4.099155036461733
+   },
+   {
+    "sym": "JPM",
+    "name": "JPMorgan",
+    "market": "US",
+    "price": 310.53,
+    "currency": "USD",
+    "chgPct": -3.0260449640135305
    }
   ]
  },
@@ -125,51 +125,9 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Democrats clinch their largest House majority since 1992",
-      "summary": "The milestone sets up a divided government, with the Senate also in Democratic hands and a Republican president in the White House.",
-      "ts": 1795383694000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/9e33a43ffcb65db6ea2e60b1f8b31977?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Democrats clinch their largest House majority since 1992",
-        "desc": "The milestone sets up a divided government, with the Senate also in Democratic hands and a Republican president in the White House.",
-        "link": "https://www.abc.net.au/news/2026-11-23/democrats-house-majority-midterm-elections/107415390"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
-        "desc": "Democrats secured their largest House majority since 1992, setting up clashes with Trump over investigations, health care and Republican policies.",
-        "link": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-        "desc": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
-        "link": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
-        "desc": "Milestone reached Sunday after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina Democrats have won their largest majority in the House in more than three decades after Chuck Hubbard defeated Republican representative Virginia Foxx in North Carolina on Sunday, extending the blue wave that swept the US midterms and increasing pressure on the party to deliver its promises to",
-        "link": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep"
-       }
-      ]
-     },
-     {
-      "id": 1,
       "headline": "'Very disappointing': COP31 negotiations in Türkiye end in failed deal",
       "summary": "Climate Change Minister Chris Bowen said the summit was set against a \"fraught geopolitical environment\".",
-      "ts": 1795383006000,
+      "ts": 1795389617000,
       "img": "https://assets.sbs.com.au/dims4/default/a2cc2d2/2147483647/strip/false/crop/4360x2003+0+452/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F55%2Fdc%2Ff63042a1444bb0b5f050c89d19ac%2F20261123180869143395-original.jpg",
       "divergent": null,
       "left_view": null,
@@ -177,6 +135,13 @@
       "common_ground": null,
       "hasBothSides": true,
       "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Chris Bowen says COP31 deal failure very disappointing",
+        "desc": "Chris Bowen, minister for climate change and energy, was leading the COP31 negotiations.",
+        "link": "https://www.theage.com.au/national/chris-bowen-says-cop31-deal-failure-very-disappointing-20261123-p61gfy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
@@ -208,11 +173,11 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Anthony Albanese suffers a major blow as Angus Taylor overtakes him as preferred PM",
-      "summary": "The prime minister's approval has plunged to a record low as the opposition leader surges ahead in a stunning political shift.",
-      "ts": 1795388008000,
-      "img": "https://images.7news.com.au/publication/C-23198699/bdf83b1c74353fcb5f4c89319ee644b211302940-16x9-x0y0w1280h720.png",
+      "id": 1,
+      "headline": "Molly Meldrum, behind some of the world’s biggest acts, dies at 83: How music icon built his career",
+      "summary": "Known to all as Molly, Meldrum was rarely seen without his trademark Stetson hat.",
+      "ts": 1795391255000,
+      "img": "https://images.7news.com.au/publication/C-7823751/068f7def8fa7aab56b5c33ca9c4d89a17eae1531-16x9-x0y54w1024h576.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -220,30 +185,100 @@
       "hasBothSides": true,
       "sources": [
        {
-        "outlet": "Guardian Australia",
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Music icon Ian 'Molly' Meldrum passes away at the age of 83 after a long battle with ill health",
+        "desc": "Music icon Ian 'Molly' Meldrum has died aged 83 following a long battle with ill health.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16313807/Molly-Meldrum-dead-83-health-battle.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "The Age",
         "lean": "left",
-        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
-        "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
-        "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
+        "title": "Molly Meldrum’s greatest moments with music’s biggest names",
+        "desc": "The former Countdown host and Hey, Hey It’s Saturday stalwart has long been in ill health and died at the Epworth Hospital in Richmond.",
+        "link": "https://www.theage.com.au/culture/molly-meldrum-s-greatest-moments-with-music-s-biggest-names-20261123-p61gel.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Anthony Albanese suffers a major blow as Angus Taylor overtakes him as preferred PM",
-        "desc": "The prime minister's approval has plunged to a record low as the opposition leader surges ahead in a stunning political shift.",
-        "link": "https://7news.com.au/politics/anthony-albanese-suffers-a-major-blow-as-angus-taylor-overtakes-him-as-preferred-pm-c-23198699"
+        "title": "Molly Meldrum, behind some of the world’s biggest acts, dies at 83: How music icon built his career",
+        "desc": "Known to all as Molly, Meldrum was rarely seen without his trademark Stetson hat.",
+        "link": "https://7news.com.au/entertainment/music/molly-meldrum-behind-some-of-the-worlds-biggest-acts-dies-at-83-how-music-icon-built-his-career-c-7823751"
+       }
+      ]
+     },
+     {
+      "id": 2,
+      "headline": "Logan man accused of wife's stabbing murder set to face court",
+      "summary": "Police were called to a Slacks Creek house shortly before midnight on Saturday, where they found Christine Moe with a single stab wound to the chest.",
+      "ts": 1795384901000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/232c38575ec587fde1091da528b5348d?impolicy=wcms_crop_resize&cropH=540&cropW=960&xPos=0&yPos=260&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Husband accused of stabbing wife in front of kids to appear in court",
+        "desc": "Christine Moe, 28, died after suffering a single stab wound to the chest at her home.",
+        "link": "https://www.theage.com.au/national/queensland/husband-accused-of-stabbing-wife-in-front-of-kids-to-appear-in-court-20261123-p61gdc.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Seismic shift in latest Newspoll as voters turn against Anthony Albanese",
-        "desc": "Albanese net approval rating was at -31 with 64 per cent of voters dissatisfied with his performance and just 33 per cent satisfied.",
-        "link": "https://www.dailymail.com/news/article-16313019/Newspoll-voters-turn-against-Anthony-Albanese-Angus-Taylor.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Logan man accused of wife's stabbing murder set to face court",
+        "desc": "Police were called to a Slacks Creek house shortly before midnight on Saturday, where they found Christine Moe with a single stab wound to the chest.",
+        "link": "https://www.abc.net.au/news/2026-11-23/christine-moe-husband-soe-reh-murder-charge/107415332"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "So Reh charged with murder after wife Christine Moe found dead at Slacks Creek home in Queensland",
+        "desc": "A previous social media post revealed a heartfelt message from the 34-year-old to the accused.",
+        "link": "https://7news.com.au/news/murder/so-reh-charged-with-murder-after-wife-christine-moe-found-dead-at-slacks-creek-home-in-queensland-c-23197458"
        }
       ]
      },
      {
       "id": 3,
+      "headline": "Democrats clinch their largest House majority since 1992",
+      "summary": "The milestone sets up a divided government, with the Senate also in Democratic hands and a Republican president in the White House.",
+      "ts": 1795383694000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/9e33a43ffcb65db6ea2e60b1f8b31977?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Democrats clinch their largest House majority since 1992",
+        "desc": "The milestone sets up a divided government, with the Senate also in Democratic hands and a Republican president in the White House.",
+        "link": "https://www.abc.net.au/news/2026-11-23/democrats-house-majority-midterm-elections/107415390"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
+        "desc": "Democrats secured their largest House majority since 1992, setting up clashes with Trump over investigations, health care and Republican policies.",
+        "link": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+        "desc": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+        "link": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 4,
       "headline": "Cost-of-living crisis forces half of Australians to skip doctor and dentist appointments, new survey reveals",
       "summary": "‘We have a health system where there are the haves and the have-nots. The gap between them is where people are getting hurt’.",
       "ts": 1795382748000,
@@ -262,11 +297,11 @@
         "link": "https://7news.com.au/news/public-health/cost-of-living-crisis-forces-half-of-australians-to-skip-doctor-and-dentist-appointments-new-survey-reveals-c-23198590"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Two teens charged over CBD stabbing death as mayor fast-tracks mental health crisis talks",
-        "desc": "A 17-year-old and an 18-year old from Melbourne’s east were charged over the fatal stabbing of a 21-year-old at the weekend. Two men, 31 and 51, were also charged over two separate stabbings on Saturday.",
-        "link": "https://www.theage.com.au/national/victoria/two-teens-charged-over-cbd-stabbing-death-20261123-p61gco.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: Albanese limits hope of more cost-of-living relief, extends medicine freeze",
+        "desc": "Anthony Albanese has warned he is \"limited\" in the amount of cost-of-living relief he can offer Australians in the upcoming mid-year budget update. Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-23/federal-politics-live-blog-parliament-nov-23/107415266"
        },
        {
         "outlet": "Guardian Australia",
@@ -274,41 +309,6 @@
         "title": "The cost-of-living crisis was harming Claudia’s mental wellbeing. Together we worked out strategies to help her cope | Bianca Denny",
         "desc": "In trying to save for a house deposit, she had sacrificed activities that brought her joy. And constant checking of her bank balance exacerbated her fears The modern mind is a column where experts discuss mental health issues they are seeing in their work “It all feels so hard. It’s impossible to get ahead. It’s not even two steps forward and one step back, now it’s one step forward and two steps ",
         "link": "https://www.theguardian.com/commentisfree/2026/nov/23/cost-of-living-crisis-financial-stress-mental-health-coping-strategies"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "United thrashed by Liverpool",
-      "summary": "Manchester United lose 4-0 to Liverpool as Mauricio Pocchetino begins life as new manager.",
-      "ts": 1795377193000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/4356bb60b5417b0a1c1eb181f18333c1b30570c3",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Mauricio Pochettino's debut as Man United manager turns into historical nightmare against Liverpool",
-        "desc": "Mauricio Pochettino's Manchester United debut turned historic as Leny Yoro's red card and two quick Liverpool goals made unwanted Premier League history.",
-        "link": "https://www.foxnews.com/outkick-sports/mauricio-pochettino-debut-man-united-manager-turns-historical-nightmare-liverpool"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "United thrashed by Liverpool",
-        "desc": "Manchester United lose 4-0 to Liverpool as Mauricio Pocchetino begins life as new manager.",
-        "link": "https://www.theage.com.au/sport/soccer/united-thrashed-by-liverpool-20261123-p61gcp.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Guardian Australia",
-        "lean": "left",
-        "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while torme",
-        "link": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
        }
       ]
      },
@@ -349,10 +349,10 @@
      },
      {
       "id": 6,
-      "headline": "Black Friday Deal Ninja slushie machine is just $195 in the biggest price drop all year but you need to be quick",
-      "summary": "Here’s how you can save $404.99 on the Ninja SLUSHi machine.",
-      "ts": 1795388174000,
-      "img": "https://images.7news.com.au/publication/C-23197734/5017c47bcc11b204b5b72f9cbcdc6f6e398ce471-16x9-x0y0w1920h1080.jpg",
+      "headline": "Bob Katter throws support behind independents ahead of Victorian election",
+      "summary": "The colourful Queensland MP has made an unusual appearance to boost the campaign of independents in north-east Victoria, partly in support of his friend Helen Haines.",
+      "ts": 1795390523000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/f814f69a836d1f4ebc2439e8393d3810?impolicy=wcms_crop_resize&cropH=2109&cropW=3750&xPos=0&yPos=1782&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -360,18 +360,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Black Friday Deal Ninja slushie machine is just $195 in the biggest price drop all year but you need to be quick",
-        "desc": "Here’s how you can save $404.99 on the Ninja SLUSHi machine.",
-        "link": "https://7news.com.au/7you/home/black-friday-deal-ninja-slushie-machine-is-just-195-in-the-biggest-price-drop-all-year-but-you-need-to-be-quick-c-23197734"
+        "title": "Bob Katter throws support behind independents ahead of Victorian election",
+        "desc": "The colourful Queensland MP has made an unusual appearance to boost the campaign of independents in north-east Victoria, partly in support of his friend Helen Haines.",
+        "link": "https://www.abc.net.au/news/2026-11-23/bob-katter-supports-victoria-independents-election-campaign/107404796"
        },
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Black Friday scam warning",
-        "desc": "Black Friday shoppers are being warned about fake scam sites targeting bargain hunters.",
-        "link": "https://www.theage.com.au/national/black-friday-scam-warning-20261123-p61gce.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Australian data centres a 'national security interest', Marles says amid US tax push",
+        "desc": "Richard Marles says Australian data centres benefit the US, after Donald Trump pledged to tax US firms building them overseas.",
+        "link": "https://www.sbs.com.au/news/article/australian-data-centres-a-national-security-interest-marles-says-amid-us-tax-push/ei7sqba5u"
        }
       ]
      }
@@ -411,9 +411,9 @@
      },
      {
       "id": 8,
-      "headline": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
+      "headline": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
       "summary": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
-      "ts": 1795388008000,
+      "ts": 1795391498000,
       "img": "https://i.guim.co.uk/img/media/a1733c8d20d91e90b3db6172e139927f1099faab/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=4c3fe58effa7ec64f0a9ec03470b3478",
       "divergent": null,
       "left_view": null,
@@ -424,7 +424,7 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
+        "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
         "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
        }
@@ -724,30 +724,9 @@
      },
      {
       "id": 21,
-      "headline": "ASX to fall; Maas pauses trading; Lendlease shuts down equity raise talks",
-      "summary": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
-      "ts": 1795388060000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX to fall; Maas pauses trading; Lendlease shuts down equity raise talks",
-        "desc": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-tech-rout-deepens-20261123-p61gd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
+      "headline": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
       "summary": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
-      "ts": 1795388008000,
+      "ts": 1795391364000,
       "img": "https://i.guim.co.uk/img/media/a1733c8d20d91e90b3db6172e139927f1099faab/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=4c3fe58effa7ec64f0a9ec03470b3478",
       "divergent": null,
       "left_view": null,
@@ -758,39 +737,18 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
+        "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
         "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
        }
       ]
      },
      {
-      "id": 23,
-      "headline": "Hydrogen energy company cuts staff two months after $49m federal grant",
-      "summary": "Two months after receiving a grant to expand into commercial manufacturing, a move expected to create 40 new jobs, Port Kembla company Hysata cuts 17 staff.",
-      "ts": 1795387395000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/df6c808485ed8defd7878c18bbc92af5?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=326&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Hydrogen energy company cuts staff two months after $49m federal grant",
-        "desc": "Two months after receiving a grant to expand into commercial manufacturing, a move expected to create 40 new jobs, Port Kembla company Hysata cuts 17 staff.",
-        "link": "https://www.abc.net.au/news/2026-11-23/hydrogen-company-hysata-cuts-jobs-after-49m-grant/107410440"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "As the AI trade falters here’s where to find the next ‘winners’",
-      "summary": "Amid the carnage on Wall Street, it’s time for investors to start thinking about quality again.",
-      "ts": 1795387368000,
-      "img": "https://static.ffx.io/images/$zoom_0.2691%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/54f1b2bb1e916b8409bb58444a430473b851104e",
+      "id": 22,
+      "headline": "ASX falls after tech rout; Maas in trading halt; Lendlease rules out equity raising",
+      "summary": "Shares open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
+      "ts": 1795391131000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -800,9 +758,51 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "As the AI trade falters here’s where to find the next ‘winners’",
-        "desc": "Amid the carnage on Wall Street, it’s time for investors to start thinking about quality again.",
-        "link": "https://www.afr.com/markets/equity-markets/as-the-ai-trade-falters-here-s-where-to-find-the-next-winners-20261122-p61frt?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX falls after tech rout; Maas in trading halt; Lendlease rules out equity raising",
+        "desc": "Shares open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-tech-rout-deepens-20261123-p61gd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 23,
+      "headline": "‘We’ve lost a mate’: Music legend Molly Meldrum dies aged 83",
+      "summary": "Australian music icon and former Countdown host dies after years of ill health; Meldrum will receive state funeral at the request of his family, Victorian premier confirms. Follow for updates.",
+      "ts": 1795390122000,
+      "img": "https://static.ffx.io/images/$zoom_1.5129%2C$multiply_0.3720%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/efeb9693f17e43ea3cf6810ac7625d3702d11959cef8de1dd2f9be555710a273",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "‘We’ve lost a mate’: Music legend Molly Meldrum dies aged 83",
+        "desc": "Australian music icon and former Countdown host dies after years of ill health; Meldrum will receive state funeral at the request of his family, Victorian premier confirms. Follow for updates.",
+        "link": "https://www.afr.com/politics/federal/very-disappointing-bowen-led-un-climate-talks-end-without-deal-20261123-p61gcc?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "$242m prescription price cap freeze good for inflation: Albanese",
+      "summary": "Anthony Albanese has extended the $25 prescription price cap for three years. But he says there is little scope for further cost-of-living relief.",
+      "ts": 1795389849000,
+      "img": "https://static.ffx.io/images/$zoom_0.1765%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/c878852807df36158b056f1cf0e5027117695e89",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "$242m prescription price cap freeze good for inflation: Albanese",
+        "desc": "Anthony Albanese has extended the $25 prescription price cap for three years. But he says there is little scope for further cost-of-living relief.",
+        "link": "https://www.afr.com/politics/federal/242m-prescription-price-cap-freeze-good-for-inflation-albanese-20261123-p61gds?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -884,6 +884,34 @@
      },
      {
       "id": 27,
+      "headline": "Chaotic week, nightmare start and huge reality check for Pochettino",
+      "summary": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone.",
+      "ts": 1795390413000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de6c/live/aa7667d0-e6bd-11f1-a094-5fdc692f3e33.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "'We feel the pain': Pochettino on 4-0 defeat at Liverpool to start Manchester United era – video",
+        "desc": "Liverpool thrashed 10-man Manchester United 4-0 at Anfield on Sunday to climb to fourth in the Premier League. But the defeat left United 19th, only one point above bottom-placed Crystal Palace. There was no new manager bounce for Mauricio Pochettino, who saw Leny Yoro sent off in the eighth minute for a last-ditch foul on Alexander Isak. Pochettino accepted full responsibility for the loss, but c",
+        "link": "https://www.theguardian.com/football/video/2026/nov/22/we-feel-the-pain-pochettino-on-4-0-defeat-at-liverpool-to-start-manchester-united-era-video"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Chaotic week, nightmare start and huge reality check for Pochettino",
+        "desc": "Mauricio Pochettino's reign as Manchester United boss could barely have got off to a more chastening start, writes Simon Stone.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cwd012903kvgo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Price wins Grand Slam to end wait for major title",
       "summary": "Gerwyn Price ends his four-year wait for a major PDC title as he powers to a brilliant 16-11 victory over Gian van Veen in the Grand Slam of Darts final.",
       "ts": 1795384495000,
@@ -897,8 +925,8 @@
        {
         "outlet": "Guardian AU Sport",
         "lean": "left",
-        "title": "Gerwyn Price ends four-year barren run with Grand Slam of Darts win in Wolverhampton",
-        "desc": "Price beats Gian van Veen 16-11 to secure title Welshman relieved after losing ‘so many finals’ Gerwyn Price finally ended his major trophy drought by winning the Grand Slam of Darts and is delighted to silence his critics. The Welshman had not won a major televised event since 2022 and may have thought it might not happen again after losing three finals this year alone. But with Luke Littler and ",
+        "title": "Gerwyn Price ends barren run with Grand Slam of Darts win: ‘Now they can stop talking’",
+        "desc": "Price beats Gian van Veen 16-11 to secure title Welshman lost ‘so many finals’ in four years of pain Gerwyn Price finally ended his major trophy drought by winning the Grand Slam of Darts and is delighted to silence his critics. The Welshman had not won a major televised event since 2022 and may have thought it might not happen again after losing three finals this year alone. But with Luke Littler",
         "link": "https://www.theguardian.com/sport/2026/nov/22/gerwyn-price-ends-barren-run-with-grand-slam-victory-in-wolverhampton"
        },
        {
@@ -911,39 +939,11 @@
       ]
      },
      {
-      "id": 28,
-      "headline": "Pochettino on 'painful' defeat in first game as Man Utd boss",
-      "summary": "Manchester United's new head coach Mauricio Pochettino says his side must transform \"anger\" from their thumping at the hands of Liverpool into \"energy\" to improve under his reign.",
-      "ts": 1795383063000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7609/live/a91923c0-e6a7-11f1-a094-5fdc692f3e33.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
-        "desc": "Manchester United lose 4-0 to Liverpool after early red Argentinian suffers club’s joint-heaviest debut defeat Mauricio Pochettino argued that Leny Yoro was wrongly sent off and that Manchester United were earlier denied a penalty against Liverpool after suffering the joint-heaviest debut defeat in the club’s history. Liverpool’s emphatic 4-0 win ensured Pochettino equalled Lal Hilditch’s unwanted",
-        "link": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Pochettino on 'painful' defeat in first game as Man Utd boss",
-        "desc": "Manchester United's new head coach Mauricio Pochettino says his side must transform \"anger\" from their thumping at the hands of Liverpool into \"energy\" to improve under his reign.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/c8p3vyyg4d6vo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
       "id": 29,
-      "headline": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
-      "summary": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
-      "ts": 1795377575000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a55a/live/4cb54b80-e6a8-11f1-99a1-253766e7ad8b.jpg",
+      "headline": "Did beaten Wales still show they have come a long way?",
+      "summary": "Wales believe they are on the up despite failing to back up their win against New Zealand when beaten by Australia in the Nations Championship.",
+      "ts": 1795360026000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1a3/live/f4c9b4c0-e683-11f1-a8fd-13fffcb9ff5a.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -953,25 +953,25 @@
        {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
-        "desc": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
-        "link": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss"
+        "title": "Did beaten Wales still show they have come a long way?",
+        "desc": "Wales believe they are on the up despite failing to back up their win against New Zealand when beaten by Australia in the Nations Championship.",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cjr4gn7yd9d5o?at_medium=RSS&at_campaign=rss"
        },
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while torme",
-        "link": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Wallabies still have a pulse despite nervous moments in win over Wales",
+        "desc": "It wasn't a performance to put the rugby world on notice, but the Wallabies can take pride from their narrow victory in Cardiff.",
+        "link": "https://www.abc.net.au/news/2026-11-22/wallabies-australia-wales-rugby-nations-championship-test/107414310"
        }
       ]
      },
      {
       "id": 30,
-      "headline": "Marquez wins record-equalling eighth MotoGP title",
-      "summary": "Marc Marquez secures a record-equalling eighth MotoGP championship and moves level with Giacomo Agostini.",
-      "ts": 1795361176000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a339/live/e2d16000-e684-11f1-a8fd-13fffcb9ff5a.jpg",
+      "headline": "England will not get carried away by beating All Blacks",
+      "summary": "In his latest BBC Sport column, England World Cup winner Matt Dawson reflects on Steve Borthwick's side's record win over New Zealand and previews the final round of Nations Championship fixtures.",
+      "ts": 1795351557000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec8a/live/e4531aa0-f1de-11ef-9e61-71ee71f26eb1.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -979,18 +979,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Marc Márquez claims record-equalling eighth MotoGP world title in Portugal",
-        "desc": "Spaniard matches Giacomo Agostini’s premier-class tally Márquez defends his title despite double surgery in May Marc Márquez sealed the 2026 MotoGP world title at the Portuguese Grand Prix on Sunday, after his eighth-placed finish proved enough to establish an unassailable lead in the overall standings. The Ducati rider needed to finish in the top nine in Sunday’s race and despite starting second ",
-        "link": "https://www.theguardian.com/sport/2026/nov/22/marc-marquez-claims-eighth-motogp-world-title"
-       },
-       {
         "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "Marquez wins record-equalling eighth MotoGP title",
-        "desc": "Marc Marquez secures a record-equalling eighth MotoGP championship and moves level with Giacomo Agostini.",
-        "link": "https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss"
+        "title": "England will not get carried away by beating All Blacks",
+        "desc": "In his latest BBC Sport column, England World Cup winner Matt Dawson reflects on Steve Borthwick's side's record win over New Zealand and previews the final round of Nations Championship fixtures.",
+        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "England thrash All Blacks after Moody faces haka with team",
+        "desc": "Emotional scenes at Twickenham, as England thrashes the All Blacks after former skipper Lewis Moody — who has Motor Neurone Disease — joins the team to face the haka.",
+        "link": "https://www.abc.net.au/news/2026-11-22/england-beat-nz-all-blacks-former-skipper-lewis-moody-haka-mnd/107413688"
        }
       ]
      }
@@ -1086,10 +1086,10 @@
      },
      {
       "id": 34,
-      "headline": "Sheila Mangubat, ’90 Day Fiancé: Before the 90 Days’ Star, Dies at 35",
-      "summary": "Sheila Mangubat, who appeared on the reality series “90 Day Fiancé: Before the 90 Days,” has died. She was 35. David Dangerfield, Mangubat’s former fiancé, announced her death in an Instagram post shared on Saturday. A cause of death was not shared. “It breaks my heart to share the news from her family that Sheila […]",
-      "ts": 1795372075000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/split-image-1000-3-1.jpg",
+      "headline": "5 Cyberpunk TV Shows To Watch Before Blade Runner 2099",
+      "summary": "With Blade Runner 2099 arriving this month, now is the perfect time to binge some of the best TV shows in the cyberpunk genre before it streams.",
+      "ts": 1795390338000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-95-2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1097,27 +1097,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Sheila Mangubat, ’90 Day Fiancé: Before the 90 Days’ Star, Dies at 35",
-        "desc": "Sheila Mangubat, who appeared on the reality series “90 Day Fiancé: Before the 90 Days,” has died. She was 35. David Dangerfield, Mangubat’s former fiancé, announced her death in an Instagram post shared on Saturday. A cause of death was not shared. “It breaks my heart to share the news from her family that Sheila […]",
-        "link": "https://variety.com/2026/tv/people-news/sheila-mangubat-dead-90-day-fiance-1236955340/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Sheila Mangubat Dies: ’90 Day Fiancé: Before the 90 Days’ Star Was 35",
-        "desc": "Sheila Mangubat, who appeared in TLC’s 90 Day Fiancé franchise, has died. She was 35. David Dangerfield, whom Mangubat dated on 90 Day Fiance: Before the 90 Days, announced that she died on Saturday in the Philippines, according to her family. “It breaks my heart to share the news from her family that Sheila passed […]",
-        "link": "https://deadline.com/2026/11/sheila-mangubat-dies-90-day-fiance-1237231163/"
+        "title": "5 Cyberpunk TV Shows To Watch Before Blade Runner 2099",
+        "desc": "With Blade Runner 2099 arriving this month, now is the perfect time to binge some of the best TV shows in the cyberpunk genre before it streams.",
+        "link": "https://screenrant.com/cyberpunk-tv-shows-watch-before-blade-runner-2099/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Pokémon Black & White Return With Impressive Single-Screen Remaster",
-      "summary": "Pokémon Black & White are two of the better games in the series to date, and a new piece of tech finally makes them a lot more playable.",
-      "ts": 1795388418000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/pokemon-black-and-white-castelia-city-art.jpg",
+      "headline": "Marvel Officially Announces Name Of New Captain Marvel Replacement",
+      "summary": "Everything changes for Carol Danvers.",
+      "ts": 1795390278000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/captain-marvel-logo-against-blurred-comic-art.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1127,18 +1120,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Pokémon Black & White Return With Impressive Single-Screen Remaster",
-        "desc": "Pokémon Black & White are two of the better games in the series to date, and a new piece of tech finally makes them a lot more playable.",
-        "link": "https://screenrant.com/pokemon-black-white-ds-single-screen-remaster/"
+        "title": "Marvel Officially Announces Name Of New Captain Marvel Replacement",
+        "desc": "Everything changes for Carol Danvers.",
+        "link": "https://screenrant.com/captain-marvel-carol-danvers-replace-infernal-hulk/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Marvel Announces Guardians Of The Galaxy Crossover With First Official Look",
-      "summary": "Marvel shares a first glimpse at the Guardians of the Galaxy's new exciting crossover with a major former villain who becomes a cosmic hero.",
-      "ts": 1795387531000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/the-guardians-of-the-galaxy-assemble-in-mcu-poster.jpg",
+      "headline": "The BBC's 23-Episode 'Tolkien Meets Pokémon' Series Is Fantasy TV Done Right",
+      "summary": "Few fantasy adaptations do justice to their source material but after an ill-fated movie flop, the BBC's three-season adaptation is perfect.",
+      "ts": 1795390278000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-2026-11-20t165513-005.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1148,9 +1141,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Marvel Announces Guardians Of The Galaxy Crossover With First Official Look",
-        "desc": "Marvel shares a first glimpse at the Guardians of the Galaxy's new exciting crossover with a major former villain who becomes a cosmic hero.",
-        "link": "https://screenrant.com/guardians-galaxy-crossover-venom-marvel/"
+        "title": "The BBC's 23-Episode 'Tolkien Meets Pokémon' Series Is Fantasy TV Done Right",
+        "desc": "Few fantasy adaptations do justice to their source material but after an ill-fated movie flop, the BBC's three-season adaptation is perfect.",
+        "link": "https://screenrant.com/his-dark-materials-tolkien-pokemon-fantasy-done-right/"
        }
       ]
      }
@@ -1158,37 +1151,37 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
    "Guardian Australia",
+   "The Age",
    "Crikey",
-   "BBC World",
    "ABC News",
-   "Fox News",
-   "7News",
-   "Guardian Tech",
-   "BBC Tech",
-   "Fox News Politics",
-   "The Conversation",
-   "Guardian AU Politics",
-   "The Verge",
-   "Ars Technica",
-   "The Age Business",
-   "ABC Business",
+   "BBC World",
    "The Age Federal Politics",
-   "Fox Business",
+   "Guardian AU Politics",
+   "Fox News",
+   "Guardian Tech",
+   "Fox News Politics",
+   "Ars Technica",
+   "BBC Tech",
+   "The Verge",
    "Guardian AU Business",
-   "ABC Sport",
-   "Variety",
+   "The Conversation",
+   "ABC Business",
    "Guardian AU Sport",
-   "BBC Sport",
-   "AFR",
-   "Deadline",
    "SBS News",
+   "BBC Sport",
+   "ABC Sport",
+   "Deadline",
+   "Variety",
+   "The Age Business",
+   "Fox Business",
+   "AFR",
    "Guardian Film",
-   "Anime News Network",
    "Screen Rant",
-   "Daily Mail Australia",
-   "7News Sport"
+   "7News",
+   "Anime News Network",
+   "7News Sport",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": []
  },
@@ -1378,9 +1371,17 @@
  "commGames": null,
  "deals": [
   {
+   "title": "Chemist Warehouse: 50% Cashback (Capped at $9 per Member, One Transaction Only, 3 Hours Only) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/984875",
+   "votes": 276,
+   "neg": 0,
+   "category": "Health & Beauty",
+   "ts": 1795386623000
+  },
+  {
    "title": "Nintendo Switch 2 + Mario Kart World Bundle $629 @ Kmart",
    "link": "https://www.ozbargain.com.au/node/984763",
-   "votes": 259,
+   "votes": 268,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795327438000
@@ -1388,7 +1389,7 @@
   {
    "title": "Nintendo Switch 2 Console + Mario Kart World Bundle $629 Delivered / C&C / in-Store @ Target",
    "link": "https://www.ozbargain.com.au/node/984768",
-   "votes": 230,
+   "votes": 240,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795330828000
@@ -1396,63 +1397,47 @@
   {
    "title": "[Switch 2] The Legend of Zelda: OoT $85, Star Fox $59, Splatoon Raiders $69, Pokémon Pokopia $79, Fire Emblem: FW $85 @ Target",
    "link": "https://www.ozbargain.com.au/node/984769",
-   "votes": 166,
+   "votes": 173,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795331188000
   },
   {
-   "title": "Chemist Warehouse: 50% Cashback (Capped at $9 per Member, One Transaction Only, 3 Hours Only) @ TopCashback AU",
-   "link": "https://www.ozbargain.com.au/node/984875",
-   "votes": 108,
-   "neg": 0,
-   "category": "Health & Beauty",
-   "ts": 1795386623000
-  },
-  {
-   "title": "Dell 32 Plus 4K QD-OLED Monitor - S3225QC $710.73 Delivered @ Dell",
-   "link": "https://www.ozbargain.com.au/node/984744",
-   "votes": 69,
-   "neg": 0,
-   "category": "Computing",
-   "ts": 1795316539000
-  },
-  {
    "title": "Hot Wheels 10 Pack Basic Cars $9 (Was $19) + Delivery ($0 with OnePass/C&C) @ Target",
    "link": "https://www.ozbargain.com.au/node/984848",
-   "votes": 66,
+   "votes": 78,
    "neg": 0,
    "category": "Toys & Kids",
    "ts": 1795378875000
   },
   {
-   "title": "Polygon Bicycles Black Friday Sale (E.g. Polygon Strattos 7 - 105 Di2 $2,899, Was $3,899) + Delivery ($48 to SYD) @ BikesOnline",
-   "link": "https://www.ozbargain.com.au/node/984737",
-   "votes": 64,
+   "title": "Dell 32 Plus 4K QD-OLED Monitor - S3225QC $710.73 Delivered @ Dell",
+   "link": "https://www.ozbargain.com.au/node/984744",
+   "votes": 71,
    "neg": 0,
-   "category": "Sports & Outdoors",
-   "ts": 1795314050000
+   "category": "Computing",
+   "ts": 1795316539000
   },
   {
    "title": "Everyday Market from Woolworths: 25% Cashback on $200.01-$1000 Spend (Excludes Coupons) @ ShopBack",
    "link": "https://www.ozbargain.com.au/node/984821",
-   "votes": 59,
+   "votes": 65,
    "neg": 0,
    "category": "Other",
    "ts": 1795353831000
   },
   {
-   "title": "Duracell Coppertop Alkaline AA/AAA Batteries 20pk $13.99 ($12.59 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/984728",
-   "votes": 52,
+   "title": "Polygon Bicycles Black Friday Sale (E.g. Polygon Strattos 7 - 105 Di2 $2,899, Was $3,899) + Delivery ($48 to SYD) @ BikesOnline",
+   "link": "https://www.ozbargain.com.au/node/984737",
+   "votes": 65,
    "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795309255000
+   "category": "Sports & Outdoors",
+   "ts": 1795314050000
   },
   {
    "title": "Energizer Max Plus Alkaline AAA Batteries 24pk $13.99 ($12.59 Sub & Save) + Delivery ($0 Prime/$59 Spend) @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/984792",
-   "votes": 51,
+   "votes": 53,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795338695000
@@ -1460,7 +1445,7 @@
   {
    "title": "[XSX/PC] Final Fantasy VII Remake Intergrade $13.99, Final Fantasy VII Rebirth $12.74 @ Xbox",
    "link": "https://www.ozbargain.com.au/node/984745",
-   "votes": 44,
+   "votes": 45,
    "neg": 1,
    "category": "Gaming",
    "ts": 1795316927000
@@ -1468,7 +1453,7 @@
   {
    "title": "Apple TV $7.99/Month for 6 Months (New & Eligible Returning Customers) @ Apple TV",
    "link": "https://www.ozbargain.com.au/node/984845",
-   "votes": 35,
+   "votes": 38,
    "neg": 0,
    "category": "Entertainment",
    "ts": 1795378226000
@@ -1476,7 +1461,7 @@
   {
    "title": "Sony FE 70-200mm F2.8 GM OSS II Lens $2599 + Delivery ($0 C&C/ in-Store) (+ Bonus $300 Sony Cashback) @ JB Hi-Fi",
    "link": "https://www.ozbargain.com.au/node/984740",
-   "votes": 34,
+   "votes": 36,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795315173000
@@ -1492,10 +1477,18 @@
   {
    "title": "Samsung Odyssey G5 G50SF 27\" QHD 1440p OLED 180Hz Gaming Monitor + Bonus CyberPower UPS $369 + Delivery @ Shopping Express",
    "link": "https://www.ozbargain.com.au/node/984872",
-   "votes": 22,
-   "neg": 0,
+   "votes": 31,
+   "neg": 1,
    "category": "Computing",
    "ts": 1795385762000
+  },
+  {
+   "title": "Vention 22.5W 10000mAh CCC Certified Power Bank US$15.50 (~A$23.42) Delivered @ VEnTIOn Official Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/984856",
+   "votes": 28,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1795382127000
   }
  ],
  "carried": {}
