@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T22:00:31.175Z",
+ "generatedAt": "2026-11-22T23:00:26.946Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8592.6,
-    "chgPct": 0.000004546063102225832,
+    "chgPct": -1.5783971462863762,
     "high52": 9296.7,
     "off52": -7.573655167962828
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 84.28,
-    "chgPct": 0.0000014483900614824526,
+    "chgPct": -2.735143086144182,
     "high52": 88.25,
     "off52": -4.498583569405098
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 143.94,
-    "chgPct": -0.0000016961276996417737,
+    "chgPct": -1.5929474290031336,
     "high52": 155.03,
     "off52": -7.153454170160617
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 57.21,
-    "chgPct": 0.0000016002925349655078,
+    "chgPct": -4.010064656560107,
     "high52": 65.18,
     "off52": -12.22767720159559
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 29.25,
-    "chgPct": 0,
+    "chgPct": -5.948554208288724,
     "high52": 47.78,
     "off52": -38.78191712013395
    },
@@ -99,20 +99,20 @@
     "chgPct": -5.934046566974468
    },
    {
+    "sym": "XRO.AX",
+    "name": "Xero",
+    "market": "ASX",
+    "price": 74.87,
+    "currency": "AUD",
+    "chgPct": -5.645870901411774
+   },
+   {
     "sym": "AMZN",
     "name": "Amazon",
     "market": "US",
     "price": 246.82,
     "currency": "USD",
     "chgPct": -4.099155036461733
-   },
-   {
-    "sym": "JPM",
-    "name": "JPMorgan",
-    "market": "US",
-    "price": 310.53,
-    "currency": "USD",
-    "chgPct": -3.0260449640135305
    }
   ]
  },
@@ -160,7 +160,7 @@
         "outlet": "Guardian Australia",
         "lean": "left",
         "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
-        "desc": "Milestone reached Sunday, after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina House Democrats have secured their best general election result in decades, winning at least 258 seats in a midterm election sweep unseen since 1992 that creates not only vast opportunities to govern but also intense pressure to deliver on campaign promises and priorities. Democrats have gain",
+        "desc": "Milestone reached Sunday after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina Democrats have won their largest majority in the House in more than three decades after Chuck Hubbard defeated Republican representative Virginia Foxx in North Carolina on Sunday, extending the blue wave that swept the US midterms and increasing pressure on the party to deliver its promises to",
         "link": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep"
        }
       ]
@@ -209,6 +209,41 @@
      },
      {
       "id": 2,
+      "headline": "Anthony Albanese suffers a major blow as Angus Taylor overtakes him as preferred PM",
+      "summary": "The prime minister's approval has plunged to a record low as the opposition leader surges ahead in a stunning political shift.",
+      "ts": 1795388008000,
+      "img": "https://images.7news.com.au/publication/C-23198699/bdf83b1c74353fcb5f4c89319ee644b211302940-16x9-x0y0w1280h720.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Guardian Australia",
+        "lean": "left",
+        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
+        "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
+        "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Anthony Albanese suffers a major blow as Angus Taylor overtakes him as preferred PM",
+        "desc": "The prime minister's approval has plunged to a record low as the opposition leader surges ahead in a stunning political shift.",
+        "link": "https://7news.com.au/politics/anthony-albanese-suffers-a-major-blow-as-angus-taylor-overtakes-him-as-preferred-pm-c-23198699"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Seismic shift in latest Newspoll as voters turn against Anthony Albanese",
+        "desc": "Albanese net approval rating was at -31 with 64 per cent of voters dissatisfied with his performance and just 33 per cent satisfied.",
+        "link": "https://www.dailymail.com/news/article-16313019/Newspoll-voters-turn-against-Anthony-Albanese-Angus-Taylor.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Cost-of-living crisis forces half of Australians to skip doctor and dentist appointments, new survey reveals",
       "summary": "‘We have a health system where there are the haves and the have-nots. The gap between them is where people are getting hurt’.",
       "ts": 1795382748000,
@@ -243,7 +278,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "United thrashed by Liverpool",
       "summary": "Manchester United lose 4-0 to Liverpool as Mauricio Pocchetino begins life as new manager.",
       "ts": 1795377193000,
@@ -272,13 +307,13 @@
         "outlet": "Guardian Australia",
         "lean": "left",
         "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at ­Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for ­denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while tor",
+        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while torme",
         "link": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
        }
       ]
      },
      {
-      "id": 4,
+      "id": 5,
       "headline": "El Chapo Isidro: FBI's most wanted drug kingpin Fausto Isidro Meza Flores captured after deadly Mexico shootout",
       "summary": "The violent military operation left 11 dead and sparked chaos across a Mexican city.",
       "ts": 1795336429000,
@@ -313,58 +348,30 @@
       ]
      },
      {
-      "id": 5,
-      "headline": "Aussie music legend Ian ‘Molly’ Meldrum dies aged 83",
-      "summary": "The music guru passed away on Monday morning in Melbourne, following a long battle with illness.",
-      "ts": 1795384787000,
-      "img": "https://images.7news.com.au/publication/C-23198676/bb1ff1443fd56f4b7a5782057e6fe1e97b0cbfb3-16x9-x0y0w5568h3132.jpg",
+      "id": 6,
+      "headline": "Black Friday Deal Ninja slushie machine is just $195 in the biggest price drop all year but you need to be quick",
+      "summary": "Here’s how you can save $404.99 on the Ninja SLUSHi machine.",
+      "ts": 1795388174000,
+      "img": "https://images.7news.com.au/publication/C-23197734/5017c47bcc11b204b5b72f9cbcdc6f6e398ce471-16x9-x0y0w1920h1080.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Career highlights of Australian music legend Molly Meldrum",
-        "desc": "The former Countdown host and Hey, Hey It’s Saturday stalwart has long been in ill health and died at the Epworth Hospital in Richmond.",
-        "link": "https://www.theage.com.au/culture/career-highlights-of-australian-music-legend-molly-meldrum-20261123-p61gel.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Aussie music legend Ian ‘Molly’ Meldrum dies aged 83",
-        "desc": "The music guru passed away on Monday morning in Melbourne, following a long battle with illness.",
-        "link": "https://7news.com.au/news/aussie-music-legend-ian-molly-meldrum-dies-aged-83-c-23198676"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "COP31 fails to reach major climate deal as talks expose deep divisions",
-      "summary": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
-      "ts": 1795384444000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/afca/live/39aa8840-e69c-11f1-936e-1fd1d31671db.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
+        "title": "Black Friday Deal Ninja slushie machine is just $195 in the biggest price drop all year but you need to be quick",
+        "desc": "Here’s how you can save $404.99 on the Ninja SLUSHi machine.",
+        "link": "https://7news.com.au/7you/home/black-friday-deal-ninja-slushie-machine-is-just-195-in-the-biggest-price-drop-all-year-but-you-need-to-be-quick-c-23197734"
+       },
        {
         "outlet": "The Age",
         "lean": "left",
-        "title": "Australia news LIVE: UN climate talks collapse, fail to reach agreement; Burke slams Hanson’s plan to cut humanitarian refugee intake",
-        "desc": "Follow along as we bring you the latest live news updates from Australia and around the world.",
-        "link": "https://www.theage.com.au/national/australia-news-live-un-climate-talks-collapse-fail-to-reach-agreement-burke-slams-hanson-s-plan-to-cut-humanitarian-refugee-intake-20261123-p61gc9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-        "desc": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
-        "link": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        "title": "Black Friday scam warning",
+        "desc": "Black Friday shoppers are being warned about fake scam sites targeting bargain hunters.",
+        "link": "https://www.theage.com.au/national/black-friday-scam-warning-20261123-p61gce.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -376,10 +383,38 @@
     "stories": [
      {
       "id": 7,
-      "headline": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
+      "headline": "Albanese’s ratings plunge to new low in Newspoll; Victorian Coalition set to win election",
+      "summary": "Anthony Albanese’s net approval in Newspoll has crashed eight points to a new record low of -31. On voting intentions, Labor remains at a near-record low, with combined support for the Coalition and One Nation steady at 49%. The Reserve Bank’s five increases in interest rates since February appear to have damaged Labor and Albanese. Last Thursday’s poor October jobs figures are unlikely to help La",
+      "ts": 1795386804000,
+      "img": "https://i.guim.co.uk/img/media/b8b1589c2535f68e24083ddf69e14e22b30c3bf1/1440_0_7200_5760/master/7200.jpg?width=460&quality=85&auto=format&fit=max&s=edaf818c82f3dd62fa4a62b2ebfdfca3",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Albanese’s ratings plunge to new low in Newspoll; Victorian Coalition set to win election",
+        "desc": "Anthony Albanese’s net approval in Newspoll has crashed eight points to a new record low of -31. On voting intentions, Labor remains at a near-record low, with combined support for the Coalition and One Nation steady at 49%. The Reserve Bank’s five increases in interest rates since February appear to have damaged Labor and Albanese. Last Thursday’s poor October jobs figures are unlikely to help La",
+        "link": "https://theconversation.com/albaneses-ratings-plunge-to-new-low-in-newspoll-victorian-coalition-set-to-win-election-297157"
+       },
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "‘How do you explain that to a 10-year-old?’ Racist vandalism almost drove an Indigenous candidate to drop out of the Victorian election",
+        "desc": "When swastikas appeared on election posters for the granddaughter of actor David Gulpilil, she reported it; by then her daughter had seen it. She’s not alone in raising concerns Get our breaking news email, free app or daily news podcast Warning: this article contains distressing descriptions of racism. It also contains images of and references to Indigenous Australians who have died Talia Gulpili",
+        "link": "https://www.theguardian.com/australia-news/2026/nov/22/talia-gulpilil-first-nations-victorian-greens-campaign-posters-racism-ntwnfb"
+       }
+      ]
+     },
+     {
+      "id": 8,
+      "headline": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
       "summary": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
-      "ts": 1795384766000,
-      "img": "https://i.guim.co.uk/img/media/807a7655d731bfbb7ed51cf1b1cc24c153a66ea9/503_0_5014_4013/master/5014.jpg?width=460&quality=85&auto=format&fit=max&s=df9d265a9f5695d1deda7669ad01cd39",
+      "ts": 1795388008000,
+      "img": "https://i.guim.co.uk/img/media/a1733c8d20d91e90b3db6172e139927f1099faab/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=4c3fe58effa7ec64f0a9ec03470b3478",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -389,16 +424,37 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
+        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
         "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
        }
       ]
      },
      {
-      "id": 8,
-      "headline": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
-      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed criticisms that he hadn’t managed to name the problem that is overwhelming driving catastrophic global heat",
+      "id": 9,
+      "headline": "The good news out of Cop31? That most of the world’s governments said no to an agreement stripped of meaning | Bill Hare",
+      "summary": "Co-chairing global climate talks is clearly not something to be repeated, certainly not by Australia, which is exporting climate pain The failure of Cop31 in Antalya was a line in the sand moment, a victory for multiculturalism as countries stood up to the big fossil fuel producers and said no. The text they rejected barely recognised the catastrophic climate emergency we’re facing, let alone sign",
+      "ts": 1795386648000,
+      "img": "https://i.guim.co.uk/img/media/5a9e838799df66f4975edd1ffed1b25c01646193/586_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=ca41f019078ecf38282e7ef587d64f6e",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Politics",
+        "lean": "left",
+        "title": "The good news out of Cop31? That most of the world’s governments said no to an agreement stripped of meaning | Bill Hare",
+        "desc": "Co-chairing global climate talks is clearly not something to be repeated, certainly not by Australia, which is exporting climate pain The failure of Cop31 in Antalya was a line in the sand moment, a victory for multiculturalism as countries stood up to the big fossil fuel producers and said no. The text they rejected barely recognised the catastrophic climate emergency we’re facing, let alone sign",
+        "link": "https://www.theguardian.com/environment/commentisfree/2026/nov/23/cop31-climate-summit-no-agreement"
+       }
+      ]
+     },
+     {
+      "id": 10,
+      "headline": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed criticisms that he hadn’t managed to name the problem that is overwhelmingly driving catastrophic global he",
       "ts": 1795384000000,
       "img": "https://i.guim.co.uk/img/media/92374d04a6b87ec2995da31768a8015be7e26a0b/313_0_2620_2096/master/2620.jpg?width=460&quality=85&auto=format&fit=max&s=4a4f198405d33940e40bec9c53f978f7",
       "divergent": null,
@@ -410,14 +466,14 @@
        {
         "outlet": "Guardian AU Politics",
         "lean": "left",
-        "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the failure to say the f-word is not his alone",
-        "desc": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed criticisms that he hadn’t managed to name the problem that is overwhelming driving catastrophic global heat",
+        "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+        "desc": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed criticisms that he hadn’t managed to name the problem that is overwhelmingly driving catastrophic global he",
         "link": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone"
        }
       ]
      },
      {
-      "id": 9,
+      "id": 11,
       "headline": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
       "summary": "Democrats secured their largest House majority since 1992, setting up clashes with Trump over investigations, health care and Republican policies.",
       "ts": 1795379647000,
@@ -438,7 +494,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 12,
       "headline": "‘Shouldn’t have to wear a flak jacket’: Haines’ response to survey reveals toll on politicians",
       "summary": "Seven in 10 Australian MPs say public office has damaged their wellbeing, with one in five reporting suicidal thoughts, according to new research.",
       "ts": 1795374000000,
@@ -455,48 +511,6 @@
         "title": "‘Shouldn’t have to wear a flak jacket’: Haines’ response to survey reveals toll on politicians",
         "desc": "Seven in 10 Australian MPs say public office has damaged their wellbeing, with one in five reporting suicidal thoughts, according to new research.",
         "link": "https://www.theage.com.au/politics/federal/shouldn-t-have-to-wear-a-flak-jacket-haines-response-to-survey-reveals-toll-on-politicians-20261123-p61g7f.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 11,
-      "headline": "We need to better combat terrorism. The first step? Remove religion from the definition",
-      "summary": "In recent years, serious violent incidents in Australia have raised questions about how we define “terrorism”. The arson attack on the Adass Israel synogogue in Melbourne in 2024 was declared by police as to be a terrorist attack, but not prosecuted as terrorism. Recently, a coronial inquest found the April 2024 Bondi Junction attacks were not terrorism. But the stabbing of a bishop in Wakeley two",
-      "ts": 1795372738000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "We need to better combat terrorism. The first step? Remove religion from the definition",
-        "desc": "In recent years, serious violent incidents in Australia have raised questions about how we define “terrorism”. The arson attack on the Adass Israel synogogue in Melbourne in 2024 was declared by police as to be a terrorist attack, but not prosecuted as terrorism. Recently, a coronial inquest found the April 2024 Bondi Junction attacks were not terrorism. But the stabbing of a bishop in Wakeley two",
-        "link": "https://theconversation.com/we-need-to-better-combat-terrorism-the-first-step-remove-religion-from-the-definition-297132"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Victoria’s 12-year Labor government is about to end. Could the new premier kick-start a wider Liberal Party redemption?",
-      "summary": "On Sunday, Victorians will wake up with a new government-elect. The complexion of that incoming administration is still not certain, but what is clear is that more than a decade of Labor rule over the state will be over. We barely need public opinion polls to read the political temperature of Victorians in this election: the community’s fury towards the incumbent government radiates. Labor is set ",
-      "ts": 1795372678000,
-      "img": null,
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Victoria’s 12-year Labor government is about to end. Could the new premier kick-start a wider Liberal Party redemption?",
-        "desc": "On Sunday, Victorians will wake up with a new government-elect. The complexion of that incoming administration is still not certain, but what is clear is that more than a decade of Labor rule over the state will be over. We barely need public opinion polls to read the political temperature of Victorians in this election: the community’s fury towards the incumbent government radiates. Labor is set ",
-        "link": "https://theconversation.com/victorias-12-year-labor-government-is-about-to-end-could-the-new-premier-kick-start-a-wider-liberal-party-redemption-296051"
        }
       ]
      }
@@ -536,6 +550,27 @@
      },
      {
       "id": 14,
+      "headline": "We haven’t seen the last of the major tech outages",
+      "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be",
+      "ts": 1795387682000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "We haven’t seen the last of the major tech outages",
+        "desc": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be",
+        "link": "https://www.theverge.com/tech/1039851/major-tech-outages"
+       }
+      ]
+     },
+     {
+      "id": 15,
       "headline": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
       "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang’s reported affair with a suspected Chinese spy as “the most expensive sex since Helen of Troy”. The Louisiana Republican’s allusion to the legendary figure whose d",
       "ts": 1795379016000,
@@ -556,7 +591,7 @@
       ]
      },
      {
-      "id": 15,
+      "id": 16,
       "headline": "I covered myself in sleep trackers to find the very best",
       "summary": "Get a better night’s sleep with monitoring and guidance from smartwatches, smart rings, smart bands and sleep earbuds The best sleep masks and best Bluetooth sleep masks Getting quality sleep is just as crucial as getting enough sleep. And how you feel in the morning only tells part of the story. Smartwatches, smart bands, smart rings and sleep earbuds can all help fill in the details: how long it",
       "ts": 1795374035000,
@@ -577,7 +612,7 @@
       ]
      },
      {
-      "id": 16,
+      "id": 17,
       "headline": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
       "summary": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email, free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is “just the tip of the iceberg”. Analysis by ",
       "ts": 1795374034000,
@@ -598,7 +633,7 @@
       ]
      },
      {
-      "id": 17,
+      "id": 18,
       "headline": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
       "summary": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco-based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and experts say the claim checks out. Levent Alpöge, a Turkish American mathematician, on F",
       "ts": 1795370127000,
@@ -615,27 +650,6 @@
         "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
         "desc": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco-based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and experts say the claim checks out. Levent Alpöge, a Turkish American mathematician, on F",
         "link": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "Delta flights in and out of Atlanta delayed due to system outage",
-      "summary": "A Delta Air Lines Airbus A220. | Photo: Saul Loeb / AFP via Getty Images All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta's largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disrup",
-      "ts": 1795369604000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/gettyimages-2223798482.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Delta flights in and out of Atlanta delayed due to system outage",
-        "desc": "A Delta Air Lines Airbus A220. | Photo: Saul Loeb / AFP via Getty Images All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta's largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disrup",
-        "link": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
        }
       ]
      }
@@ -682,34 +696,6 @@
      },
      {
       "id": 20,
-      "headline": "ASX to fall; Wall Street tech rout deepens",
-      "summary": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; Yardeni says S&P 500 bear market is unlikely. Follow live updates.",
-      "ts": 1795384155000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX to fall; Wall Street tech rout deepens",
-        "desc": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; Yardeni says S&P 500 bear market is unlikely. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-tech-rout-deepens-20261123-p61gd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "ASX set for losses, Wall Street plunges into correction as AI stocks tumble",
-        "desc": "A bruising selloff in AI stocks pulled the S&P 500 down 3.7 per cent, dragging the index to its worst weekly loss in more than 18 months, and knocking the Nasdaq composite into the red for the year.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-for-losses-wall-street-plunges-into-correction-as-ai-stocks-tumble-20261123-p61gbz.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 21,
       "headline": "Scott Bessent refuses to rule out Jensen Huang’s return to Nvidia",
       "summary": "The US Treasury secretary has softened his calls for new leadership at the tech giant amid a clamour from Silicon Valley to reinstate the former chief executive.",
       "ts": 1795379016000,
@@ -737,11 +723,11 @@
       ]
      },
      {
-      "id": 22,
-      "headline": "PBS medication to stay at $25 until 2030",
-      "summary": "Anthony Albanese says the government is limited in the cost-of-living relief it can offer this year; Australian music journalist Molly Meldrum dies at 83. Follow for updates.",
-      "ts": 1795384504000,
-      "img": "https://static.ffx.io/images/$zoom_0.2471%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_317%2C$y_11/t_crop_custom/q_86%2Cf_auto/c878852807df36158b056f1cf0e5027117695e89",
+      "id": 21,
+      "headline": "ASX to fall; Maas pauses trading; Lendlease shuts down equity raise talks",
+      "summary": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
+      "ts": 1795388060000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/80433ead51bcd7d99db98a1b7ad1079744c68b1dbc127630477e9c0ec5f0d40a",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -751,18 +737,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "PBS medication to stay at $25 until 2030",
-        "desc": "Anthony Albanese says the government is limited in the cost-of-living relief it can offer this year; Australian music journalist Molly Meldrum dies at 83. Follow for updates.",
-        "link": "https://www.afr.com/politics/federal/very-disappointing-bowen-led-un-climate-talks-end-without-deal-20261123-p61gcc?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX to fall; Maas pauses trading; Lendlease shuts down equity raise talks",
+        "desc": "Shares to open lower after Nasdaq enters correction; Southern Cross appoints CEO; NIB expects stronger second half; Downer awarded $1.1 billion Hunter Transmission contract. Follow live updates.",
+        "link": "https://www.afr.com/markets/equity-markets/asx-to-fall-wall-street-tech-rout-deepens-20261123-p61gd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
-      "id": 23,
-      "headline": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
+      "id": 22,
+      "headline": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
       "summary": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
-      "ts": 1795383858000,
-      "img": "https://i.guim.co.uk/img/media/807a7655d731bfbb7ed51cf1b1cc24c153a66ea9/503_0_5014_4013/master/5014.jpg?width=460&quality=85&auto=format&fit=max&s=df9d265a9f5695d1deda7669ad01cd39",
+      "ts": 1795388008000,
+      "img": "https://i.guim.co.uk/img/media/a1733c8d20d91e90b3db6172e139927f1099faab/688_0_6880_5504/master/6880.jpg?width=460&quality=85&auto=format&fit=max&s=4c3fe58effa7ec64f0a9ec03470b3478",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -772,18 +758,18 @@
        {
         "outlet": "Guardian AU Business",
         "lean": "left",
-        "title": "Australian politics live: Labor to extend PBS medicine freeze to 2030; Bowen ‘failed’ on Cop, Hume says",
+        "title": "Australian politics live: Labor to extend PBS medicine price freeze; Angus Taylor pays tribute to ‘beloved’ Meldrum",
         "desc": "Get our breaking news email, free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement. It’s obviously a very deeply disappointing outcome that the cover decision was not agreed to by all nat",
         "link": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
        }
       ]
      },
      {
-      "id": 24,
-      "headline": "JJ McCarthy surprises fans at Disney Store Times Square, highlights expanded Disney | Champion NFL Collection",
-      "summary": "J.J. McCarthy surprised fans at the Disney Store Times Square, naming the Giants teammate who embodies Wreck-It Ralph and which iconic films he'll be showing his son.",
-      "ts": 1795383206000,
-      "img": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/11/jj-mccarthy-disney.jpg",
+      "id": 23,
+      "headline": "Hydrogen energy company cuts staff two months after $49m federal grant",
+      "summary": "Two months after receiving a grant to expand into commercial manufacturing, a move expected to create 40 new jobs, Port Kembla company Hysata cuts 17 staff.",
+      "ts": 1795387395000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/df6c808485ed8defd7878c18bbc92af5?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=326&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -791,11 +777,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "JJ McCarthy surprises fans at Disney Store Times Square, highlights expanded Disney | Champion NFL Collection",
-        "desc": "J.J. McCarthy surprised fans at the Disney Store Times Square, naming the Giants teammate who embodies Wreck-It Ralph and which iconic films he'll be showing his son.",
-        "link": "https://www.foxbusiness.com/sports/jj-mccarthy-surprises-fans-disney-store-times-square-highlight-expanded-disney-champion-nfl-collection"
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "Hydrogen energy company cuts staff two months after $49m federal grant",
+        "desc": "Two months after receiving a grant to expand into commercial manufacturing, a move expected to create 40 new jobs, Port Kembla company Hysata cuts 17 staff.",
+        "link": "https://www.abc.net.au/news/2026-11-23/hydrogen-company-hysata-cuts-jobs-after-49m-grant/107410440"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "As the AI trade falters here’s where to find the next ‘winners’",
+      "summary": "Amid the carnage on Wall Street, it’s time for investors to start thinking about quality again.",
+      "ts": 1795387368000,
+      "img": "https://static.ffx.io/images/$zoom_0.2691%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/54f1b2bb1e916b8409bb58444a430473b851104e",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "As the AI trade falters here’s where to find the next ‘winners’",
+        "desc": "Amid the carnage on Wall Street, it’s time for investors to start thinking about quality again.",
+        "link": "https://www.afr.com/markets/equity-markets/as-the-ai-trade-falters-here-s-where-to-find-the-next-winners-20261122-p61frt?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -807,6 +814,41 @@
     "stories": [
      {
       "id": 25,
+      "headline": "Alcaraz outplays Zverev for first ATP Finals triumph",
+      "summary": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
+      "ts": 1795380191000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac75/live/9a5011c0-e6af-11f1-99b6-a35a62fa4264.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Alcaraz puts Zverev in shade as world’s best beats No 1 for first ATP Finals title",
+        "desc": "Spaniard wins final 6-2, 7-6 (7) against new world No 1 Alcaraz the fourth to win career grand slam and ATP Finals The titles of ATP world No 1 and the best male tennis player in the world are carried by two different names. This has always been clear throughout this messy, injury-ravaged men’s season but it was underlined in the grand finale as Carlos Alcaraz ended his campaign with a statement v",
+        "link": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Alcaraz outplays Zverev for first ATP Finals triumph",
+        "desc": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
+        "link": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Alcaraz digs deep to beat Shelton and reach ATP Finals decider",
+        "desc": "Carlos Alcaraz reaches the decider of the ATP Finals for the second straight year, but he is made to work by American Ben Shelton before prevailing in three sets.",
+        "link": "https://www.abc.net.au/news/2026-11-22/alcaraz-digs-deep-to-beat-shelton-and-reach-atp-finals-decider/107413742"
+       }
+      ]
+     },
+     {
+      "id": 26,
       "headline": "Max Verstappen wins Las Vegas Grand Prix as Oscar Piastri stuns with podium surge",
       "summary": "The race, won for the third time in four years by four-time world champion Max Verstappen, featured no fewer than 35 lead changes.",
       "ts": 1795348151000,
@@ -841,7 +883,35 @@
       ]
      },
      {
-      "id": 26,
+      "id": 27,
+      "headline": "Price wins Grand Slam to end wait for major title",
+      "summary": "Gerwyn Price ends his four-year wait for a major PDC title as he powers to a brilliant 16-11 victory over Gian van Veen in the Grand Slam of Darts final.",
+      "ts": 1795384495000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e2ae/live/3b964520-e6bc-11f1-99a1-253766e7ad8b.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Guardian AU Sport",
+        "lean": "left",
+        "title": "Gerwyn Price ends four-year barren run with Grand Slam of Darts win in Wolverhampton",
+        "desc": "Price beats Gian van Veen 16-11 to secure title Welshman relieved after losing ‘so many finals’ Gerwyn Price finally ended his major trophy drought by winning the Grand Slam of Darts and is delighted to silence his critics. The Welshman had not won a major televised event since 2022 and may have thought it might not happen again after losing three finals this year alone. But with Luke Littler and ",
+        "link": "https://www.theguardian.com/sport/2026/nov/22/gerwyn-price-ends-barren-run-with-grand-slam-victory-in-wolverhampton"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Price wins Grand Slam to end wait for major title",
+        "desc": "Gerwyn Price ends his four-year wait for a major PDC title as he powers to a brilliant 16-11 victory over Gian van Veen in the Grand Slam of Darts final.",
+        "link": "https://www.bbc.co.uk/sport/darts/articles/cklye10j4z1yo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 28,
       "headline": "Pochettino on 'painful' defeat in first game as Man Utd boss",
       "summary": "Manchester United's new head coach Mauricio Pochettino says his side must transform \"anger\" from their thumping at the hands of Liverpool into \"energy\" to improve under his reign.",
       "ts": 1795383063000,
@@ -856,7 +926,7 @@
         "outlet": "Guardian AU Sport",
         "lean": "left",
         "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
-        "desc": "Manchester United lose 4-0 to Liverpool after Yoro red Argentinian suffers club’s joint-heaviest debut defeat Mauricio Pochettino argued that Leny Yoro was wrongly sent off and Manchester United were earlier denied a penalty against Liverpool after suffering the joint-heaviest debut defeat in the club’s history. Liverpool’s emphatic 4-0 win ensured Pochettino equalled Lal Hilditch’s unwanted recor",
+        "desc": "Manchester United lose 4-0 to Liverpool after early red Argentinian suffers club’s joint-heaviest debut defeat Mauricio Pochettino argued that Leny Yoro was wrongly sent off and that Manchester United were earlier denied a penalty against Liverpool after suffering the joint-heaviest debut defeat in the club’s history. Liverpool’s emphatic 4-0 win ensured Pochettino equalled Lal Hilditch’s unwanted",
         "link": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool"
        },
        {
@@ -869,35 +939,7 @@
       ]
      },
      {
-      "id": 27,
-      "headline": "Alcaraz outplays Zverev for first ATP Finals triumph",
-      "summary": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
-      "ts": 1795380191000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac75/live/9a5011c0-e6af-11f1-99b6-a35a62fa4264.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Guardian AU Sport",
-        "lean": "left",
-        "title": "Alcaraz puts Zverev in shade as world’s best beats No 1 for first ATP Finals title",
-        "desc": "Spaniard wins final 6-2, 7-6 (7) against new world No 1 Alcaraz the fourth to win career grand slam and ATP Finals The titles of ATP world No 1 and the best male tennis player in the world are carried by two different names. This has always been clear throughout this messy, injury-ravaged men’s season but it was underlined in the grand finale as Carlos Alcaraz ended his campaign with a statement v",
-        "link": "https://www.theguardian.com/sport/2026/nov/22/carlos-alcaraz-first-atp-finals-title-alexander-zverev-tennis"
-       },
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Alcaraz outplays Zverev for first ATP Finals triumph",
-        "desc": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
-        "link": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 28,
+      "id": 29,
       "headline": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
       "summary": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
       "ts": 1795377575000,
@@ -919,13 +961,13 @@
         "outlet": "Guardian AU Sport",
         "lean": "left",
         "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at ­Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for ­denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while tor",
+        "desc": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while torme",
         "link": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report"
        }
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Marquez wins record-equalling eighth MotoGP title",
       "summary": "Marc Marquez secures a record-equalling eighth MotoGP championship and moves level with Giacomo Agostini.",
       "ts": 1795361176000,
@@ -951,34 +993,6 @@
         "link": "https://www.bbc.co.uk/sport/motorsport/articles/c64gnrdzq8zzo?at_medium=RSS&at_campaign=rss"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "Did beaten Wales still show they have come a long way?",
-      "summary": "Wales believe they are on the up despite failing to back up their win against New Zealand when beaten by Australia in the Nations Championship.",
-      "ts": 1795360026000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1a3/live/f4c9b4c0-e683-11f1-a8fd-13fffcb9ff5a.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Did beaten Wales still show they have come a long way?",
-        "desc": "Wales believe they are on the up despite failing to back up their win against New Zealand when beaten by Australia in the Nations Championship.",
-        "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cjr4gn7yd9d5o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Wallabies still have a pulse despite nervous moments in win over Wales",
-        "desc": "It wasn't a performance to put the rugby world on notice, but the Wallabies can take pride from their narrow victory in Cardiff.",
-        "link": "https://www.abc.net.au/news/2026-11-22/wallabies-australia-wales-rugby-nations-championship-test/107414310"
-       }
-      ]
      }
     ]
    },
@@ -988,6 +1002,62 @@
     "stories": [
      {
       "id": 31,
+      "headline": "Wizard Of Oz Gets A Mad Max Twist In Dark New Adaptation Releasing In 3 Months",
+      "summary": "David Pepose’s comic book The O.Z. has found a home with Boom! Studios, and he explains what the series is about and how the idea came to be.",
+      "ts": 1795388418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/img_8916.JPG",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Wizard Of Oz Gets A Mad Max Twist In Dark New Adaptation Releasing In 3 Months",
+        "desc": "David Pepose’s comic book The O.Z. has found a home with Boom! Studios, and he explains what the series is about and how the idea came to be.",
+        "link": "https://screenrant.com/david-prepose-speed-racer-oz-space-ghost-cable/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "I Became the Tyrant of a Defense Game Web Novel, Webtoon Gets Mobile Game Adaptation",
+        "desc": "Game will feature exploration, territory management, defensive battles",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-22/i-became-the-tyrant-of-a-defense-game-web-novel-webtoon-gets-mobile-game-adaptation/.244077"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "Why Sunrise On The Reaping's Movie Cuts The Most Brutal Death In Hunger Games Book History & It Was Wrong",
+      "summary": "The Sunrise on the Reaping movie cut a brutal book death, losing a disturbing moment that revealed just how ruthless the Hunger Games could be.",
+      "ts": 1795388118000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/joseph-zada-as-haymitch-abernathy-in-sunrise-on-the-reaping.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Why Sunrise On The Reaping's Movie Cuts The Most Brutal Death In Hunger Games Book History & It Was Wrong",
+        "desc": "The Sunrise on the Reaping movie cut a brutal book death, losing a disturbing moment that revealed just how ruthless the Hunger Games could be.",
+        "link": "https://screenrant.com/hunger-games-sunrise-on-the-reaping-wellie-death-cut-reason/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Why Another ‘Hunger Games’ Movie Isn’t Coming Anytime Soon",
+        "desc": "“The Hunger Games” franchise has caught fire once again. “Sunrise on the Reaping,” the sixth installment in the billion-dollar dystopian franchise, has defied expectations and opened to $120 million at the box office, nearly tripling the $44 million opening of the 2023 prequel “The Ballad of Songbirds and Snakes.” Surely part of the success here […]",
+        "link": "https://variety.com/2026/film/news/hunger-games-another-movie-isnt-coming-anytime-soon-1236955499/"
+       }
+      ]
+     },
+     {
+      "id": 33,
       "headline": "Noah Schnapp Reveals Image From His ‘Sunrise on the Reaping’ Audition For Haymitch: “They Picked Right”",
       "summary": "After surviving the Upside Down, Noah Schnapp apparently volunteered as tribute for the latest Hunger Games film. Marking the opening weekend of The Hunger Games: Sunrise on the Reaping, the Stranger Things alum revealed that he auditioned to play Haymitch with a selfie in a blonde wig, admitting that Joseph Zada was the right choice. […]",
       "ts": 1795379075000,
@@ -1015,7 +1085,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 34,
       "headline": "Sheila Mangubat, ’90 Day Fiancé: Before the 90 Days’ Star, Dies at 35",
       "summary": "Sheila Mangubat, who appeared on the reality series “90 Day Fiancé: Before the 90 Days,” has died. She was 35. David Dangerfield, Mangubat’s former fiancé, announced her death in an Instagram post shared on Saturday. A cause of death was not shared. “It breaks my heart to share the news from her family that Sheila […]",
       "ts": 1795372075000,
@@ -1043,53 +1113,11 @@
       ]
      },
      {
-      "id": 33,
-      "headline": "How Christopher Nolan's The Odyssey Connects To Oppenheimer",
-      "summary": "Christopher Nolan's last two movies have much more in common than you think with the endings and core themes seen in both The Odyssey and Oppenheimer.",
-      "ts": 1795384818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/odyssey-poster-matt-damon-as-odysseus.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "How Christopher Nolan's The Odyssey Connects To Oppenheimer",
-        "desc": "Christopher Nolan's last two movies have much more in common than you think with the endings and core themes seen in both The Odyssey and Oppenheimer.",
-        "link": "https://screenrant.com/the-odyssey-oppenheimer-christopher-nolan-movie-similarities/"
-       }
-      ]
-     },
-     {
-      "id": 34,
-      "headline": "8 Books That Are Better The Second Time Around",
-      "summary": "Plenty of books warrant multiple reads, but only a rare few end in ways that make the second visit feel almost completely different from the first.",
-      "ts": 1795384818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/briony-on-the-cover-of-atonement-by-ian-mcewan.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "8 Books That Are Better The Second Time Around",
-        "desc": "Plenty of books warrant multiple reads, but only a rare few end in ways that make the second visit feel almost completely different from the first.",
-        "link": "https://screenrant.com/best-books-reread/"
-       }
-      ]
-     },
-     {
       "id": 35,
-      "headline": "'Peaky Blinders Meets GTA' Series With Impressive RT Score Is Returning For Another Season",
-      "summary": "GTA 6 is on everyone's minds, and British crime series Gangs of London blends the best of the game and Peaky Blinders, and is returning for season 4.",
-      "ts": 1795384818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/cillian-murphy-as-thomas-shelby-in-peaky-blinders-season-3.jpg",
+      "headline": "Pokémon Black & White Return With Impressive Single-Screen Remaster",
+      "summary": "Pokémon Black & White are two of the better games in the series to date, and a new piece of tech finally makes them a lot more playable.",
+      "ts": 1795388418000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/pokemon-black-and-white-castelia-city-art.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1099,18 +1127,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "'Peaky Blinders Meets GTA' Series With Impressive RT Score Is Returning For Another Season",
-        "desc": "GTA 6 is on everyone's minds, and British crime series Gangs of London blends the best of the game and Peaky Blinders, and is returning for season 4.",
-        "link": "https://screenrant.com/gangs-of-london-return-season-4-peaky-blinders-gta/"
+        "title": "Pokémon Black & White Return With Impressive Single-Screen Remaster",
+        "desc": "Pokémon Black & White are two of the better games in the series to date, and a new piece of tech finally makes them a lot more playable.",
+        "link": "https://screenrant.com/pokemon-black-white-ds-single-screen-remaster/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Stardew Valley 1.7 Patch Gets Official Release Date Update",
-      "summary": "Stardew Valley has another update on the way, and though things have been quiet, we finally have more info on a potential release date.",
-      "ts": 1795384818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/01/stardew-valley-image-update-1-6.jpg",
+      "headline": "Marvel Announces Guardians Of The Galaxy Crossover With First Official Look",
+      "summary": "Marvel shares a first glimpse at the Guardians of the Galaxy's new exciting crossover with a major former villain who becomes a cosmic hero.",
+      "ts": 1795387531000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/the-guardians-of-the-galaxy-assemble-in-mcu-poster.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1120,9 +1148,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Stardew Valley 1.7 Patch Gets Official Release Date Update",
-        "desc": "Stardew Valley has another update on the way, and though things have been quiet, we finally have more info on a potential release date.",
-        "link": "https://screenrant.com/stardew-valley-update-1-7-2027-release-date-update/"
+        "title": "Marvel Announces Guardians Of The Galaxy Crossover With First Official Look",
+        "desc": "Marvel shares a first glimpse at the Guardians of the Galaxy's new exciting crossover with a major former villain who becomes a cosmic hero.",
+        "link": "https://screenrant.com/guardians-galaxy-crossover-venom-marvel/"
        }
       ]
      }
@@ -1130,37 +1158,37 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "Guardian Australia",
    "The Age",
+   "Guardian Australia",
+   "Crikey",
    "BBC World",
    "ABC News",
    "Fox News",
+   "7News",
+   "Guardian Tech",
+   "BBC Tech",
    "Fox News Politics",
    "The Conversation",
-   "BBC Tech",
-   "Guardian Tech",
-   "Ars Technica",
-   "7News",
-   "The Age Business",
    "Guardian AU Politics",
    "The Verge",
-   "AFR",
-   "Guardian AU Business",
-   "The Age Federal Politics",
-   "BBC Sport",
-   "Guardian AU Sport",
-   "Deadline",
-   "Variety",
-   "Fox Business",
-   "Guardian Film",
-   "SBS News",
+   "Ars Technica",
+   "The Age Business",
    "ABC Business",
-   "7News Sport",
-   "Screen Rant",
+   "The Age Federal Politics",
+   "Fox Business",
+   "Guardian AU Business",
    "ABC Sport",
+   "Variety",
+   "Guardian AU Sport",
+   "BBC Sport",
+   "AFR",
+   "Deadline",
+   "SBS News",
+   "Guardian Film",
    "Anime News Network",
-   "Daily Mail Australia"
+   "Screen Rant",
+   "Daily Mail Australia",
+   "7News Sport"
   ],
   "sourcesFailed": []
  },
@@ -1352,7 +1380,7 @@
   {
    "title": "Nintendo Switch 2 + Mario Kart World Bundle $629 @ Kmart",
    "link": "https://www.ozbargain.com.au/node/984763",
-   "votes": 243,
+   "votes": 259,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795327438000
@@ -1360,7 +1388,7 @@
   {
    "title": "Nintendo Switch 2 Console + Mario Kart World Bundle $629 Delivered / C&C / in-Store @ Target",
    "link": "https://www.ozbargain.com.au/node/984768",
-   "votes": 217,
+   "votes": 230,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795330828000
@@ -1368,26 +1396,50 @@
   {
    "title": "[Switch 2] The Legend of Zelda: OoT $85, Star Fox $59, Splatoon Raiders $69, Pokémon Pokopia $79, Fire Emblem: FW $85 @ Target",
    "link": "https://www.ozbargain.com.au/node/984769",
-   "votes": 154,
+   "votes": 166,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795331188000
   },
   {
+   "title": "Chemist Warehouse: 50% Cashback (Capped at $9 per Member, One Transaction Only, 3 Hours Only) @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/984875",
+   "votes": 108,
+   "neg": 0,
+   "category": "Health & Beauty",
+   "ts": 1795386623000
+  },
+  {
    "title": "Dell 32 Plus 4K QD-OLED Monitor - S3225QC $710.73 Delivered @ Dell",
    "link": "https://www.ozbargain.com.au/node/984744",
-   "votes": 66,
+   "votes": 69,
    "neg": 0,
    "category": "Computing",
    "ts": 1795316539000
   },
   {
+   "title": "Hot Wheels 10 Pack Basic Cars $9 (Was $19) + Delivery ($0 with OnePass/C&C) @ Target",
+   "link": "https://www.ozbargain.com.au/node/984848",
+   "votes": 66,
+   "neg": 0,
+   "category": "Toys & Kids",
+   "ts": 1795378875000
+  },
+  {
    "title": "Polygon Bicycles Black Friday Sale (E.g. Polygon Strattos 7 - 105 Di2 $2,899, Was $3,899) + Delivery ($48 to SYD) @ BikesOnline",
    "link": "https://www.ozbargain.com.au/node/984737",
-   "votes": 62,
+   "votes": 64,
    "neg": 0,
    "category": "Sports & Outdoors",
    "ts": 1795314050000
+  },
+  {
+   "title": "Everyday Market from Woolworths: 25% Cashback on $200.01-$1000 Spend (Excludes Coupons) @ ShopBack",
+   "link": "https://www.ozbargain.com.au/node/984821",
+   "votes": 59,
+   "neg": 0,
+   "category": "Other",
+   "ts": 1795353831000
   },
   {
    "title": "Duracell Coppertop Alkaline AA/AAA Batteries 20pk $13.99 ($12.59 Subscribe & Save) + Delivery ($0 Prime/ $59 Spend) @ Amazon AU",
@@ -1398,17 +1450,9 @@
    "ts": 1795309255000
   },
   {
-   "title": "Everyday Market from Woolworths: 25% Cashback on $200.01-$1000 Spend (Excludes Coupons) @ ShopBack",
-   "link": "https://www.ozbargain.com.au/node/984821",
-   "votes": 51,
-   "neg": 0,
-   "category": "Other",
-   "ts": 1795353831000
-  },
-  {
    "title": "Energizer Max Plus Alkaline AAA Batteries 24pk $13.99 ($12.59 Sub & Save) + Delivery ($0 Prime/$59 Spend) @ Amazon AU (Excl. NT)",
    "link": "https://www.ozbargain.com.au/node/984792",
-   "votes": 50,
+   "votes": 51,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795338695000
@@ -1416,18 +1460,18 @@
   {
    "title": "[XSX/PC] Final Fantasy VII Remake Intergrade $13.99, Final Fantasy VII Rebirth $12.74 @ Xbox",
    "link": "https://www.ozbargain.com.au/node/984745",
-   "votes": 43,
+   "votes": 44,
    "neg": 1,
    "category": "Gaming",
    "ts": 1795316927000
   },
   {
-   "title": "Hot Wheels 10 Pack Basic Cars $9 (Was $19) + Delivery ($0 with OnePass/C&C) @ Target",
-   "link": "https://www.ozbargain.com.au/node/984848",
-   "votes": 39,
+   "title": "Apple TV $7.99/Month for 6 Months (New & Eligible Returning Customers) @ Apple TV",
+   "link": "https://www.ozbargain.com.au/node/984845",
+   "votes": 35,
    "neg": 0,
-   "category": "Toys & Kids",
-   "ts": 1795378875000
+   "category": "Entertainment",
+   "ts": 1795378226000
   },
   {
    "title": "Sony FE 70-200mm F2.8 GM OSS II Lens $2599 + Delivery ($0 C&C/ in-Store) (+ Bonus $300 Sony Cashback) @ JB Hi-Fi",
@@ -1446,28 +1490,12 @@
    "ts": 1795334092000
   },
   {
-   "title": "Apple TV $7.99/Month for 6 Months (New & Eligible Returning Customers) @ Apple TV",
-   "link": "https://www.ozbargain.com.au/node/984845",
-   "votes": 24,
-   "neg": 0,
-   "category": "Entertainment",
-   "ts": 1795378226000
-  },
-  {
-   "title": "Panasonic Evolta AA Premium Alkaline Batteries, 18-Pack $8 ($7.20 S&S) + Delivery ($0 Prime/$59 Spend) @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/984735",
+   "title": "Samsung Odyssey G5 G50SF 27\" QHD 1440p OLED 180Hz Gaming Monitor + Bonus CyberPower UPS $369 + Delivery @ Shopping Express",
+   "link": "https://www.ozbargain.com.au/node/984872",
    "votes": 22,
    "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795312845000
-  },
-  {
-   "title": "Motorola Razr 60 Swarovski 256GB PANTONE Ice Melt $747 (Was $1,499) + Delivery ($0 C&C/In-Store) @ Harvey Norman",
-   "link": "https://www.ozbargain.com.au/node/984732",
-   "votes": 22,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1795311458000
+   "category": "Computing",
+   "ts": 1795385762000
   }
  ],
  "carried": {}
