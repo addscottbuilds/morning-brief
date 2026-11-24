@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T22:00:28.485Z",
+ "generatedAt": "2026-11-24T23:00:35.016Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8726.4,
-    "chgPct": 1.8178470320160154,
+    "chgPct": 1.557158446892091,
     "high52": 9296.7,
     "off52": -6.134434799444976
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 86.04,
-    "chgPct": -0.0000010640717430908369,
+    "chgPct": 2.55065367723625,
     "high52": 88.25,
     "off52": -2.5042492917846952
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 146.06,
-    "chgPct": 0.0000016715091695755622,
+    "chgPct": 1.819451451574114,
     "high52": 155.03,
     "off52": -5.785976907695284
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 58.75,
-    "chgPct": 0,
+    "chgPct": 4.000704999792349,
     "high52": 65.18,
     "off52": -9.864989260509368
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 30.83,
-    "chgPct": 2.474665708595506e-7,
+    "chgPct": 8.327480645705215,
     "high52": 47.78,
     "off52": -35.47509418166597
    },
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6643,
-    "chgPct": 0.03162557270821822,
+    "price": 0.6641,
+    "chgPct": 0.0015091718132318598,
     "high52": 0.7277,
-    "off52": -8.71238147588292
+    "off52": -8.73986532911914
    }
   ],
   "failed": [],
@@ -89,6 +89,30 @@
     "price": 1407.59,
     "currency": "USD",
     "chgPct": 3.1503755813569603
+   },
+   {
+    "sym": "XRO.AX",
+    "name": "Xero",
+    "market": "ASX",
+    "price": 76.54,
+    "currency": "AUD",
+    "chgPct": 2.987083307712113
+   },
+   {
+    "sym": "WES.AX",
+    "name": "Wesfarmers",
+    "market": "ASX",
+    "price": 78.13,
+    "currency": "AUD",
+    "chgPct": 2.7215389269656414
+   },
+   {
+    "sym": "CSL.AX",
+    "name": "CSL",
+    "market": "ASX",
+    "price": 204.43,
+    "currency": "AUD",
+    "chgPct": 2.574007460958214
    }
   ]
  },
@@ -101,8 +125,43 @@
     "stories": [
      {
       "id": 0,
+      "headline": "GWM Haval Jolion: Black Friday offer adds $1000 fuel card",
+      "summary": "On top of existing offers amounting to up to $4000 in savings, GWM is throwing in a $1000 Black Friday fuel card offer for Jolion small SUV buyers.",
+      "ts": 1795560901000,
+      "img": "https://images.7news.com.au/publication/C-23208930/27459823ab334e72bf06786f4791b20ecf2c158f-16x9-x0y138w2649h1490.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "GWM Haval Jolion: Black Friday offer adds $1000 fuel card",
+        "desc": "On top of existing offers amounting to up to $4000 in savings, GWM is throwing in a $1000 Black Friday fuel card offer for Jolion small SUV buyers.",
+        "link": "https://7news.com.au/motoring/gwm-haval-jolion-black-friday-offer-adds-1000-fuel-card-c-23208930"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Dyson's lightweight cordless vacuum is a whopping 55% off for Black Friday",
+        "desc": "Save 55% on the Dyson V9 Motorbar cordless vacuum this Black Friday and tackle everyday messes with powerful suction and a lightweight design.",
+        "link": "https://www.foxnews.com/deals/dyson-lightweight-cordless-vacuum-deal"
+       },
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Regretful Black Friday purchases",
+        "desc": "Black Friday sales are leaving some Australians stinging at the hip pocket with purchases they wish they'd never made.",
+        "link": "https://www.theage.com.au/national/regretful-black-friday-purchases-20261125-p61h0e.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "Permit data breach causes 4WD 'free-for-all' on turtle nesting beach",
-      "summary": "The National Parks booking system is down, sparking a surge in 4WDs at a Queensland beach that is also a critical nesting site.",
+      "summary": "The National Parks booking system is down, sparking a surge in four-wheel drives at a Queensland beach that is also a critical nesting site.",
       "ts": 1795557300000,
       "img": "https://live-production.wcms.abc-cdn.net.au/f8284a3433aeac09a9903f89becceb61?impolicy=wcms_crop_resize&cropH=761&cropW=1353&xPos=2&yPos=0&width=862&height=485",
       "divergent": null,
@@ -129,13 +188,13 @@
         "outlet": "ABC News",
         "lean": "centre",
         "title": "Permit data breach causes 4WD 'free-for-all' on turtle nesting beach",
-        "desc": "The National Parks booking system is down, sparking a surge in 4WDs at a Queensland beach that is also a critical nesting site.",
+        "desc": "The National Parks booking system is down, sparking a surge in four-wheel drives at a Queensland beach that is also a critical nesting site.",
         "link": "https://www.abc.net.au/news/2026-11-25/4wd-ban-plea-as-turtle-season-starts/107403252"
        }
       ]
      },
      {
-      "id": 1,
+      "id": 2,
       "headline": "First Lady Melania Trump welcomes this year's White House Christmas tree",
       "summary": "The official 2026 White House Christmas tree is an 18-foot fir from Silent Night Evergreens, a farm in Endeavor, Wisconsin.",
       "ts": 1795555754000,
@@ -170,7 +229,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 3,
       "headline": "Pope Francis' diary reveals claims he saw the devil three times",
       "summary": "Published extracts from the late pontiff's diary claim one of the visions happened \"in the choir loft\" during Mass.",
       "ts": 1795552863000,
@@ -205,7 +264,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 4,
       "headline": "Cheers and applause as Jensen Huang returns to Nvidia office",
       "summary": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
       "ts": 1795483301000,
@@ -240,11 +299,11 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "Kate and William UK home break in: Police investigating after Anmer Hall broken into",
-      "summary": "Prince William and Princess Kate’s Norfolk country home has been targeted by intruders, with UK police investigating the security breach.",
-      "ts": 1795557270000,
-      "img": "https://images.7news.com.au/publication/C-23208093/3ef854bcfff5a35e6a8701ed2bd6184c17350fb1-16x9-x1y0w2446h1376.jpg",
+      "id": 5,
+      "headline": "Microsoft sends ‘Code Red’ alert to staff after historic outage exposes company’s vulnerabilities",
+      "summary": "Access to Microsoft 365 services such as Outlook were down for almost an entire day.",
+      "ts": 1795558603000,
+      "img": "https://images.7news.com.au/publication/C-23208775/9a701622119cdc99958ffef4efd47d42536613b7-16x9-x0y228w3000h1687.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -252,74 +311,46 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Intruders break into Prince William and Kate’s country home",
-        "desc": "Police rushed to the home immediately and deployed drones, rescue dogs and a police helicopter to search for the masked intruders.",
-        "link": "https://www.theage.com.au/world/europe/intruders-break-in-to-prince-william-and-kate-s-country-home-20261124-p61gz4.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "NAB CEO Andrew Irvine hits back at company gossip girl 'senseofher' as hundreds of staff air explosive allegations on Instagram - and the bank fails in its bid to have the account shut down",
+        "desc": "NAB CEO Andrew Irvine has hit back against an Instagram account sharing 'untrue and unverified' allegations about bank staff.",
+        "link": "https://www.dailymail.com/news/article-16319233/nab-bank.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Kate and William UK home break in: Police investigating after Anmer Hall broken into",
-        "desc": "Prince William and Princess Kate’s Norfolk country home has been targeted by intruders, with UK police investigating the security breach.",
-        "link": "https://7news.com.au/entertainment/royal-family/kate-and-william-uk-home-break-in-police-investigating-after-anmer-hall-broken-into--c-23208093"
+        "title": "Microsoft sends ‘Code Red’ alert to staff after historic outage exposes company’s vulnerabilities",
+        "desc": "Access to Microsoft 365 services such as Outlook were down for almost an entire day.",
+        "link": "https://7news.com.au/technology/microsoft-sends-code-red-alert-to-staff-after-historic-outage-exposes-companys-vulnerabilities-c-23208775"
        }
       ]
      },
      {
-      "id": 5,
-      "headline": "Live: Wall Street retreats again as AI stocks dumped, ASX set to fall",
-      "summary": "The ASX is set to follow Wall Street's lead lower. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "ts": 1795556757000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/2bcc5de27112144035164dd51dacf77e?impolicy=wcms_crop_resize&cropH=530&cropW=942&xPos=0&yPos=14&width=862&height=485",
+      "id": 6,
+      "headline": "Is your superannuation protected from a Wall Street crash?",
+      "summary": "As global financial markets swing wildly, it can be tempting to make changes to your super. But knee-jerk reactions are likely to make things worse in the long term.",
+      "ts": 1795557955000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/32b1ba50d157df0c5c25a38d4cc7fa54?impolicy=wcms_crop_resize&cropH=2700&cropW=4800&xPos=0&yPos=282&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
       "hasBothSides": false,
       "sources": [
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Is your superannuation protected from a Wall Street crash?",
+        "desc": "As global financial markets swing wildly, it can be tempting to make changes to your super. But knee-jerk reactions are likely to make things worse in the long term.",
+        "link": "https://www.abc.net.au/news/2026-11-25/australian-superannuation-caught-in-finance-market-storm/107422362"
+       },
        {
         "outlet": "The Age",
         "lean": "left",
         "title": "ASX set to slip ahead of inflation data as Wall Street falls; Anthropic tumbles below IPO price, Nvidia slumps",
         "desc": "Stocks tied to the artificial intelligence industry dragged the US market lower after their surge from the day before quickly fizzled.",
         "link": "https://www.theage.com.au/business/markets/asx-set-to-slip-as-tech-stocks-weigh-down-wall-street-nvidia-anthropic-tumble-20261125-p61gze.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: Wall Street retreats again as AI stocks dumped, ASX set to fall",
-        "desc": "The ASX is set to follow Wall Street's lead lower. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-11-25/asx-markets-business-live-news/107423208"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Regretful Black Friday purchases",
-      "summary": "Black Friday sales are leaving some Australians stinging at the hip pocket with purchases they wish they'd never made.",
-      "ts": 1795556029000,
-      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/3098817c233b9313eaced86eb855c8510939b942",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Dyson's lightweight cordless vacuum is a whopping 55% off for Black Friday",
-        "desc": "Save 55% on the Dyson V9 Motorbar cordless vacuum this Black Friday and tackle everyday messes with powerful suction and a lightweight design.",
-        "link": "https://www.foxnews.com/deals/dyson-lightweight-cordless-vacuum-deal"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Regretful Black Friday purchases",
-        "desc": "Black Friday sales are leaving some Australians stinging at the hip pocket with purchases they wish they'd never made.",
-        "link": "https://www.theage.com.au/national/regretful-black-friday-purchases-20261125-p61h0e.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -331,6 +362,27 @@
     "stories": [
      {
       "id": 7,
+      "headline": "‘Howling at the moon’: Fiery exchange on morning TV over tradwives",
+      "summary": "Watch as a Labor MP and Liberal Senator clash over the digital duty of care legislation, during an appearance on Sunrise.",
+      "ts": 1795560319000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/94d3a858f1839b84fbb9a5f9ef28d53f8298e87b",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "‘Howling at the moon’: Fiery exchange on morning TV over tradwives",
+        "desc": "Watch as a Labor MP and Liberal Senator clash over the digital duty of care legislation, during an appearance on Sunrise.",
+        "link": "https://www.theage.com.au/politics/federal/howling-at-the-moon-fiery-exchange-on-morning-tv-over-tradwives-20261125-p61h35.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       }
+      ]
+     },
+     {
+      "id": 8,
       "headline": "Obama judge's Omar warrant unsealing directly contradicts his own decision in Trump case",
       "summary": "Justice Department lawyers say Judge James Boasberg contradicted his ruling by unsealing search warrant records in Rep. Ilhan Omar's Washington, D.C. case.",
       "ts": 1795556721000,
@@ -351,7 +403,7 @@
       ]
      },
      {
-      "id": 8,
+      "id": 9,
       "headline": "Trump pauses turkey pardon to salute US troops guarding Strait of Hormuz: 'Watch over and protect'",
       "summary": "President Donald Trump paused the White House turkey pardon to thank U.S. troops enforcing what he called the greatest naval blockade against Iran.",
       "ts": 1795555754000,
@@ -372,7 +424,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Kamala Harris' former political mentor and boyfriend delivers stinging warning about 2028 comeback",
       "summary": "Willie Brown says Kamala Harris is \"not a communicator\" and doesn't want her to run in 2028, as Pete Buttigieg and Gavin Newsom eye the Democratic primary.",
       "ts": 1795554474000,
@@ -393,7 +445,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "CIA hit by cyber breach that exposed unclassified data on intelligence analysis network: sources",
       "summary": "Sources confirm a cyber breach hit the CIA, exposing unclassified data on a network used to analyze open-source intelligence as the FBI weighs in.",
       "ts": 1795553614000,
@@ -414,7 +466,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Biden admin weighed quitting Twitter after Elon Musk purchase, new HHS doc drop reveals",
       "summary": "HHS launched a searchable public records trove with Robert F. Kennedy Jr.'s calendars and Biden-era memos, promising transparency for health agencies.",
       "ts": 1795549036000,
@@ -433,27 +485,6 @@
         "link": "https://www.foxnews.com/politics/biden-admin-weighed-quitting-twitter-elon-musk-purchase-hhs-doc-drop-reveals"
        }
       ]
-     },
-     {
-      "id": 12,
-      "headline": "Republican senator's husband dead: 'Our family is heartbroken'",
-      "summary": "Sen. Deb Fischer announced her husband, Bruce Fischer, died Nov. 22 while doing what he loved most, spending time outdoors at their Nebraska Sandhills ranch.",
-      "ts": 1795547959000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/deb-fischer.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Republican senator's husband dead: 'Our family is heartbroken'",
-        "desc": "Sen. Deb Fischer announced her husband, Bruce Fischer, died Nov. 22 while doing what he loved most, spending time outdoors at their Nebraska Sandhills ranch.",
-        "link": "https://www.foxnews.com/politics/republican-senators-husband-dead-family-heartbroken"
-       }
-      ]
      }
     ]
    },
@@ -463,6 +494,34 @@
     "stories": [
      {
       "id": 13,
+      "headline": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "summary": "The verdict follows a months-long trial in New York.",
+      "ts": 1795559063000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Tech",
+        "lean": "centre",
+        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+        "desc": "The verdict follows a months-long trial in New York.",
+        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Huawei found guilty of stealing trade secrets",
+        "desc": "A jury has found Huawei guilty of stealing US trade secrets, according to reports from NBC News and Bloomberg. The verdict, handed down in a federal court in New York, concludes a years-long legal battle that accused the Chinese telecom giant of stealing source code and proprietary technology from several companies, including T-Mobile, Cisco, and Motorola. The Department of Justice's 2018 criminal",
+        "link": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+       }
+      ]
+     },
+     {
+      "id": 14,
       "headline": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
       "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang reportedly called claims that President Donald Trump was",
       "ts": 1795550523000,
@@ -490,11 +549,11 @@
       ]
      },
      {
-      "id": 14,
-      "headline": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
-      "ts": 1795541674000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
+      "id": 15,
+      "headline": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+      "summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
+      "ts": 1795560611000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/PIA26752-1152x648-1795552223.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -504,21 +563,35 @@
        {
         "outlet": "Ars Technica",
         "lean": "centre",
-        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-        "desc": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
-        "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
-       },
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "Tidal will start banning AI-generated music next month",
-        "desc": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 percent AI-generated. In a post on X, Andersen says T",
-        "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
+        "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+        "desc": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
+        "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
        }
       ]
      },
      {
-      "id": 15,
+      "id": 16,
+      "headline": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+      "summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+      "ts": 1795559788000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Microsoft_CDOC_featured-1152x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+        "desc": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+        "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+       }
+      ]
+     },
+     {
+      "id": 17,
       "headline": "GTA VI PC recompilation project shut down by Take-Two",
       "summary": "Game modding communities are racing to get Grand Theft Auto VI running on PC, but one big effort has been taken down by Take-Two today. Leonida, a fan project by 15-year-old \"NotRexed,\" has vanished after a DMCA takedown notice from GTA VI publisher Take-Two. Leonida was designed to translate a leaked GTA VI Xbox build to run natively on Windows. Cyberleek, the leaker who posted multiple GTA VI ga",
       "ts": 1795556354000,
@@ -539,28 +612,7 @@
       ]
      },
      {
-      "id": 16,
-      "headline": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "ts": 1795555954000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-        "desc": "The verdict follows a months-long trial in New York.",
-        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 17,
+      "id": 18,
       "headline": "US attorney general dodges questions about Nvidia investigation",
       "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
       "ts": 1795555182000,
@@ -579,27 +631,6 @@
         "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
        }
       ]
-     },
-     {
-      "id": 18,
-      "headline": "The Verge’s 2026 holiday gift guide for moms",
-      "summary": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and influential figure in your life? The possibilities seem as endless as they are daunting, but fear not, we've done the hard work for you. To help you make the mother figure in your life feel truly appreciated, we'",
-      "ts": 1795554599000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268757_2026_gift_guides_UNDER_25_CVirginia_MOMS.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The Verge’s 2026 holiday gift guide for moms",
-        "desc": "Given everything moms do for us, it feels good to give back during the holidays. But where to start? How do you come up with a physical representation of how you feel about such a key and influential figure in your life? The possibilities seem as endless as they are daunting, but fear not, we've done the hard work for you. To help you make the mother figure in your life feel truly appreciated, we'",
-        "link": "https://www.theverge.com/gadgets/1021621/best-gifts-for-mom-2026"
-       }
-      ]
      }
     ]
    },
@@ -609,6 +640,34 @@
     "stories": [
      {
       "id": 19,
+      "headline": "Jensen Huang holds all-hands staff meeting, says he’s in therapy",
+      "summary": "The reinstated CEO told employees he had returned to the company because Nvidia’s board had decided it was “in the best interest of the company and shareholders”.",
+      "ts": 1795559156000,
+      "img": "https://static.ffx.io/images/$zoom_1.4373820891203704%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_277%2C$y_115/t_crop_custom/q_86%2Cf_auto/cbc0d8a7cc7d6910f70912dd024e3a65521c246b",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "‘Made terrible mistakes’: Jensen Huang apologises to staff, says he is in therapy",
+        "desc": "The Wall Street Journal reported Huang admitted to Nvidia’s board before his return that he had engaged in more than two extramarital affairs. It comes as Huang apologised to staff in a livestream and pushed back on Trump’s role in his reinstatement.",
+        "link": "https://www.theage.com.au/business/companies/jensen-huang-admitted-to-more-affairs-before-return-report-20261125-p61h04.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       },
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "Jensen Huang holds all-hands staff meeting, says he’s in therapy",
+        "desc": "The reinstated CEO told employees he had returned to the company because Nvidia’s board had decided it was “in the best interest of the company and shareholders”.",
+        "link": "https://www.afr.com/world/north-america/jensen-huang-says-he-still-does-not-believe-in-succession-planning-20261125-p61h0p?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 20,
       "headline": "What Jensen Huang’s return means for Nvidia – and Wall Street",
       "summary": "Nvidia stock surged after the company's board reinstated Jensen Huang as CEO, a move analysts say removes a major overhang on the AI trade.",
       "ts": 1795556757000,
@@ -636,10 +695,31 @@
       ]
      },
      {
-      "id": 20,
-      "headline": "ASX to slip as Anthropic, Nvidia slide; Bendigo Bank CFO to step down",
-      "summary": "US investors remain wary of the AI trade; October CPI data due; WiseTech confirms AFP investigation has concluded; Rip Curl owner’s mixed sales update; oil rises. Follow live updates.",
-      "ts": 1795557391000,
+      "id": 21,
+      "headline": "AI Forum",
+      "summary": "Pictures from The Australian Financial Review and Deloitte AI Forum in Sydney.",
+      "ts": 1795560600000,
+      "img": "https://static.ffx.io/images/$zoom_0.2131%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_103%2C$y_0/t_crop_custom/q_86%2Cf_auto/8689c9ab20ae9b91a1e1a89680971920707a53c2",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "AI Forum",
+        "desc": "Pictures from The Australian Financial Review and Deloitte AI Forum in Sydney.",
+        "link": "https://www.afr.com/central/tech-central/ai-forum-20261125-p61eva?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       }
+      ]
+     },
+     {
+      "id": 22,
+      "headline": "ASX to slip as Anthropic, Nvidia slide; Harvey Norman profit dives 47pc",
+      "summary": "US investors remain wary of the AI trade; October CPI data due; WiseTech confirms AFP investigation has concluded; Maas shares suspended; oil rises. Follow live updates.",
+      "ts": 1795560435000,
       "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
       "divergent": null,
       "left_view": null,
@@ -650,60 +730,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX to slip as Anthropic, Nvidia slide; Bendigo Bank CFO to step down",
-        "desc": "US investors remain wary of the AI trade; October CPI data due; WiseTech confirms AFP investigation has concluded; Rip Curl owner’s mixed sales update; oil rises. Follow live updates.",
+        "title": "ASX to slip as Anthropic, Nvidia slide; Harvey Norman profit dives 47pc",
+        "desc": "US investors remain wary of the AI trade; October CPI data due; WiseTech confirms AFP investigation has concluded; Maas shares suspended; oil rises. Follow live updates.",
         "link": "https://www.afr.com/markets/equity-markets/asx-to-slip-anthropic-shares-fall-below-ipo-price-nvidia-slides-anew-20261125-p61gzb?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
-      "id": 21,
-      "headline": "The $900 million question facing payments",
-      "summary": "Dhun Karai, a strategic adviser on financial services and payments at DXC Technology, calls it a “perfect storm”.",
-      "ts": 1795557300000,
-      "img": "https://static.ffx.io/images/$zoom_0.8952%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_188/t_crop_custom/q_86%2Cf_auto/6141dba52156d714bd9a50af4e92111487b1061b4cb164583fab42727cb6e31a",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "The $900 million question facing payments",
-        "desc": "Dhun Karai, a strategic adviser on financial services and payments at DXC Technology, calls it a “perfect storm”.",
-        "link": "https://www.afr.com/companies/financial-services/the-900-million-question-facing-payments-20261125-p61ggn?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 22,
-      "headline": "Jensen Huang holds all-hands staff meeting, says he’s in therapy",
-      "summary": "The reinstated CEO told employees he had returned to the company because Nvidia’s board had decided it was “in the best interest of the company and shareholders”.",
-      "ts": 1795557061000,
-      "img": "https://static.ffx.io/images/$zoom_1.4373820891203704%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_277%2C$y_115/t_crop_custom/q_86%2Cf_auto/cbc0d8a7cc7d6910f70912dd024e3a65521c246b",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "Jensen Huang holds all-hands staff meeting, says he’s in therapy",
-        "desc": "The reinstated CEO told employees he had returned to the company because Nvidia’s board had decided it was “in the best interest of the company and shareholders”.",
-        "link": "https://www.afr.com/world/north-america/jensen-huang-says-he-still-does-not-believe-in-succession-planning-20261125-p61h0p?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
       "id": 23,
-      "headline": "Hopes for cheaper fuel in Qld fade as tougher biofuel mandate rejected",
-      "summary": "Motorists seeking cheaper fuel alternatives have had their hopes dashed after a bill to strengthen Queensland's biofuel mandate was rejected by a recent parliamentary committee.",
-      "ts": 1795555622000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/e7c339ea0ae8aa394d89f93c55a3c4ec?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=344&width=862&height=485",
+      "headline": "Rip Curl owner will assess other offers after Bluestar talks collapse",
+      "summary": "KMD Brands chairman Philip Bowman said the retailer was battling weak consumer confidence, after reporting modest sales growth in the first quarter.",
+      "ts": 1795558175000,
+      "img": "https://static.ffx.io/images/$zoom_0.3490196849681713%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_667%2C$y_354/t_crop_custom/q_86%2Cf_auto/7a4a501101380896f1ceb0c2aeea52376cf29a07",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -711,20 +749,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Business",
+        "outlet": "AFR",
         "lean": "centre",
-        "title": "Hopes for cheaper fuel in Qld fade as tougher biofuel mandate rejected",
-        "desc": "Motorists seeking cheaper fuel alternatives have had their hopes dashed after a bill to strengthen Queensland's biofuel mandate was rejected by a recent parliamentary committee.",
-        "link": "https://www.abc.net.au/news/rural/2026-11-25/cheap-fuel-hopes-fade-as-qld-rejects-tougher-biofuel-mandate/107397356"
+        "title": "Rip Curl owner will assess other offers after Bluestar talks collapse",
+        "desc": "KMD Brands chairman Philip Bowman said the retailer was battling weak consumer confidence, after reporting modest sales growth in the first quarter.",
+        "link": "https://www.afr.com/companies/retail/rip-curl-owner-will-assess-other-offers-after-bluestar-talks-collapse-20261125-p61h1a?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 24,
-      "headline": "The Victoria problem: From leader to laggard, in 13 charts",
-      "summary": "Citizens are angry as they head to the ballot box on Saturday to decide the fate of a 12-year Labor government. This is what they’re mad about.",
-      "ts": 1795554741000,
-      "img": "https://static.ffx.io/images/$zoom_0.3309375%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_52/t_crop_custom/q_86%2Cf_auto/6da9eda7e1d23afe65a0dd4f2a489d722a635c6c6fa4bf2801d662524a6b156b",
+      "headline": "Netflix stuffs around dream combo of Tarantino, Pitt and Fincher",
+      "summary": "Brad Pitt is back in his Oscar-winning role of Cliff Booth. Shame you’ll need to work hard to see this sequel on a cinema screen before it starts streaming on December 23.",
+      "ts": 1795557600000,
+      "img": "https://static.ffx.io/images/$zoom_0.40814032342201356%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_85%2C$y_27/t_crop_custom/q_86%2Cf_auto/97f972a29e7888aa9c963035b33988b872f17453",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -734,9 +772,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "The Victoria problem: From leader to laggard, in 13 charts",
-        "desc": "Citizens are angry as they head to the ballot box on Saturday to decide the fate of a 12-year Labor government. This is what they’re mad about.",
-        "link": "https://www.afr.com/policy/economy/the-victoria-problem-from-leader-to-laggard-in-13-charts-20261125-p61f8x?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Netflix stuffs around dream combo of Tarantino, Pitt and Fincher",
+        "desc": "Brad Pitt is back in his Oscar-winning role of Cliff Booth. Shame you’ll need to work hard to see this sequel on a cinema screen before it starts streaming on December 23.",
+        "link": "https://www.afr.com/life-and-luxury/arts-and-culture/netflix-stuffs-around-dream-combo-of-tarantino-pitt-and-fincher-20261125-p61gy3?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -783,6 +821,34 @@
      },
      {
       "id": 26,
+      "headline": "Indian teen wonder breaks List A record with 200 from 52 balls",
+      "summary": "India's teenage sensation Vaibhav Sooryavanshi scores 200 from 52 balls and sets several new List A records.",
+      "ts": 1795558951000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/de0295ef1d7a072597fddea6d367ba9d?impolicy=wcms_crop_resize&cropH=1697&cropW=3016&xPos=0&yPos=194&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Indian teen wonder breaks List A record with 200 from 52 balls",
+        "desc": "India's teenage sensation Vaibhav Sooryavanshi scores 200 from 52 balls and sets several new List A records.",
+        "link": "https://www.abc.net.au/news/2026-11-25/indian-teen-vaibhav-sooryavanshi-breaks-list-a-record/107423990"
+       },
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Sooryavanshi, 15, breaks sixes record by scoring 204 off 53 balls",
+        "desc": "India's 15-year-old sensation Vaibhav Sooryavanshi blazes 204 from 53 balls for India A, almost halving the record for the fastest double-century in List A cricket.",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 27,
       "headline": "Senegal reinstated as African champions after appeal",
       "summary": "After a successful appeal to the Court of Arbitration for Sport, Senegal has overturned a ruling that deemed Morocco the victors of their controversial Africa Cup of Nations final.",
       "ts": 1795555893000,
@@ -810,7 +876,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 28,
       "headline": "England power past Australia to square T20 series",
       "summary": "England openers Aneurin Donald and Phil Salt combined to hit 13 sixes and chase Australia's 185-run total with ease to square the five-game T20 series 1-1.",
       "ts": 1795520305000,
@@ -838,7 +904,7 @@
       ]
      },
      {
-      "id": 28,
+      "id": 29,
       "headline": "Jake Weatherald makes Test statement with another Sheffield Shield century for South Australia",
       "summary": "The 32-year-old has given himself a chance but he’s in a battle with another familiar face.",
       "ts": 1795509235000,
@@ -866,7 +932,7 @@
       ]
      },
      {
-      "id": 29,
+      "id": 30,
       "headline": "Munster calls Storm contract offer 'disappointing'",
       "summary": "Melbourne's fight to keep Cameron Munster and Harry Grant has been made harder after the former rejected the club's latest offer.",
       "ts": 1795492505000,
@@ -892,34 +958,6 @@
         "link": "https://7news.com.au/sport/rugby-league/cameron-munster-officially-rejects-melbourne-contract-offer-as-huge-decision-looms-c-23205761"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "Cameron Smith keen on PGA return following LIV collapse",
-      "summary": "Former British Open winner Cameron Smith has revealed a burning desire to return to the PGA Tour following the collapse of LIV Golf.",
-      "ts": 1795483755000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/37d68dd5e58dc3b2dcf76ebbaf63cfca?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Cameron Smith keen on PGA return following LIV collapse",
-        "desc": "Former British Open winner Cameron Smith has revealed a burning desire to return to the PGA Tour following the collapse of LIV Golf.",
-        "link": "https://www.abc.net.au/news/2026-11-24/cameron-smith-pga-liv-golf-australia/107420594"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Cameron Smith ready to attack ‘difficult’ path back to PGA Tour after LIV Golf collapse",
-        "desc": "The veteran has finally made his intentions clear after a ‘recent discovery’.",
-        "link": "https://7news.com.au/sport/golf/cameron-smith-ready-to-attack-difficult-path-back-to-pga-tour-after-liv-golf-collapse-c-23204699"
-       }
-      ]
      }
     ]
    },
@@ -929,6 +967,34 @@
     "stories": [
      {
       "id": 31,
+      "headline": "NBC ‘Monitoring’ Storm That Could Ground Macy’s Thanksgiving Day Parade Balloons: ‘Decisions Will Be Made on Parade Morning’",
+      "summary": "The 100th celebration of the Macy’s Thanksgiving Day Parade in New York City is finding itself at the mercy of the weather gods. It’s made it through rain and even snow, but this time it’s facing an incoming storm that is threatening to bring heavy winds. If things get too windy, the iconic balloons could […]",
+      "ts": 1795559046000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/10.19.26-Macys-Underdog-Grand-Central-007-websize-Valerie-Terranova.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "NBC ‘Monitoring’ Storm That Could Ground Macy’s Thanksgiving Day Parade Balloons: ‘Decisions Will Be Made on Parade Morning’",
+        "desc": "The 100th celebration of the Macy’s Thanksgiving Day Parade in New York City is finding itself at the mercy of the weather gods. It’s made it through rain and even snow, but this time it’s facing an incoming storm that is threatening to bring heavy winds. If things get too windy, the iconic balloons could […]",
+        "link": "https://variety.com/2026/tv/news/nbc-storm-macys-thanksgiving-day-parade-balloons-1236957441/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "NBC Tracking Storm Due To Hit 100th Annual Macy’s Thanksgiving Day Parade: Will Balloons Be Grounded?",
+        "desc": "NBC is closely tracking a Thanksgiving storm expected to bring high winds and heavy rain to New York City and much of the Eastern U.S. The network’s coverage of the 100th edition of the annual Macy’s Thanksgiving Day parade will air on NBC and stream on Peacock from 8:30 a.m. to noon ET. The parade […]",
+        "link": "https://deadline.com/2026/11/storm-macys-thanksgiving-parade-nbc-balloons-1237232716/"
+       }
+      ]
+     },
+     {
+      "id": 32,
       "headline": "Men’s Wearhouse Kicks Off Black Friday With Designer Discounts on Suits and Tuxedos — Just in Time For Awards Season",
       "summary": "Just in time for holiday parties and the upcoming awards season, Men’s Wearhouse has kicked off its Black Friday sale early, slashing prices across its expansive selection of suiting, formalwear and everyday wardrobe staples. The menswear retailer is offering discounts on top brands such as Calvin Klein, Joseph Abboud, Kenneth Cole and Nautica, with particularly […]",
       "ts": 1795557067000,
@@ -956,39 +1022,11 @@
       ]
      },
      {
-      "id": 32,
-      "headline": "‘Namaslay’ Sets Streaming Release Date on Digital Platforms (EXCLUSIVE)",
-      "summary": "The horror satire “Namaslay” will be available to stream on Apple TV, Amazon, Fandango at Home and Google Pay on Dec. 15. Directed by brothers Kanish Arhant-Sudhir and Rish Arhant-Sudhir, their feature film debut follows a grieving woman, Gayatri (Kirunthuja Srikanth-Talim), who is invited by her friend Judy (Angela Sant’Albano) to an upscale yoga studio […]",
-      "ts": 1795551300000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/namaslay.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘Namaslay’ Sets Streaming Release Date on Digital Platforms (EXCLUSIVE)",
-        "desc": "The horror satire “Namaslay” will be available to stream on Apple TV, Amazon, Fandango at Home and Google Pay on Dec. 15. Directed by brothers Kanish Arhant-Sudhir and Rish Arhant-Sudhir, their feature film debut follows a grieving woman, Gayatri (Kirunthuja Srikanth-Talim), who is invited by her friend Judy (Angela Sant’Albano) to an upscale yoga studio […]",
-        "link": "https://variety.com/2026/film/news/namaslay-sets-streaming-release-date-1236956061/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "‘Bunker’ Trailer: Penélope Cruz & Javier Bardem Clash In Florian Zeller’s Venice Breakout; UK Release Date Set",
-        "desc": "“Do you keep up with the news?” the billionaire asks the UK’s most prestigious architect via video call. “So you’re talking about some kind of revolution?” Miguel Moreno replies. “Uh, full-scale collapse of the system we live,” he’s told. That’s the setup for Bunker, Florian Zeller’s thriller starring Javier Bardem and Penélope Cruz that wowed […]",
-        "link": "https://deadline.com/2026/11/bunker-trailer-penelope-cruz-javier-bardem-1237232766/"
-       }
-      ]
-     },
-     {
       "id": 33,
-      "headline": "Netflix Closes $380 Million Acquisition of Radford Studio Center",
-      "summary": "Netflix is the proud new owner of Radford Studio Center, the 98-year-old soundstage complex that was home to “Gunsmoke,” “The Mary Tyler Moore Show,” and “Seinfeld.” The streamer is set to close the $380 million acquisition this afternoon, the company said in a statement. The facility last sold to Hackman Capital Partners for $1.85 billion […]",
-      "ts": 1795551300000,
-      "img": "https://variety.com/wp-content/uploads/2026/01/Radford-Studio-Center.jpg",
+      "headline": "Calvin and Hobbes' Entire Catalog Is Finally Digital For The First Time Ever",
+      "summary": "The entire Calvin and Hobbes catalog is finally complete in digital format for the first time ever. Here is everything you need to know about it.",
+      "ts": 1795561218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-smile-while-reading-comics.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -996,27 +1034,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Variety",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Netflix Closes $380 Million Acquisition of Radford Studio Center",
-        "desc": "Netflix is the proud new owner of Radford Studio Center, the 98-year-old soundstage complex that was home to “Gunsmoke,” “The Mary Tyler Moore Show,” and “Seinfeld.” The streamer is set to close the $380 million acquisition this afternoon, the company said in a statement. The facility last sold to Hackman Capital Partners for $1.85 billion […]",
-        "link": "https://variety.com/2026/film/news/netflix-closes-380-million-radford-studio-center-1236957311/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Done Deal! Netflix Buys Radford Studios For Almost $400M; Streamer Calls Purchase “A Meaningful New Investment In California’s Film Industry”",
-        "desc": "Ted Sarandos has never hid his love for Old Hollywood, and now the Netflix co-CEO has a 55-acre and 98-year old piece of Tinseltown property. After months of negotiations, speculation and reporting by Deadline that things were moving ahead, Netflix has bought the iconic Radford Studio Center in Studio City. The anticipated auction of the […]",
-        "link": "https://deadline.com/2026/11/netflix-buys-radford-studios-1237232812/"
+        "title": "Calvin and Hobbes' Entire Catalog Is Finally Digital For The First Time Ever",
+        "desc": "The entire Calvin and Hobbes catalog is finally complete in digital format for the first time ever. Here is everything you need to know about it.",
+        "link": "https://screenrant.com/calvin-and-hobbes-digital-release/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "PlayStation Plus Officially Unveils 10 Free Downloads You May Have Missed",
-      "summary": "PlayStation Plus has officially dropped 10 massive free downloads that you may have missed, and you should consider downloading them soon.",
-      "ts": 1795557619000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/playstation-plus-free-rpg-chained-echoes-september-2026.jpg",
+      "headline": "7 Near-Perfect Epic Fantasy Books That No-One Remembers",
+      "summary": "These forgotten fantasy treasures blend incredible magic, fantastic politics, and intimate character work into some epic adventures.",
+      "ts": 1795561218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/game-of-thrones-viserion-blue-eye-dragon.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1026,18 +1057,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "PlayStation Plus Officially Unveils 10 Free Downloads You May Have Missed",
-        "desc": "PlayStation Plus has officially dropped 10 massive free downloads that you may have missed, and you should consider downloading them soon.",
-        "link": "https://screenrant.com/playstation-plus-10-free-downloads-trials-november-2026/"
+        "title": "7 Near-Perfect Epic Fantasy Books That No-One Remembers",
+        "desc": "These forgotten fantasy treasures blend incredible magic, fantastic politics, and intimate character work into some epic adventures.",
+        "link": "https://screenrant.com/fantasy-books-near-perfect-forgotten/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Every Major Movie Releasing Over Thanksgiving Weekend 2026, Including Focker-In-Law",
-      "summary": "Thanksgiving is always a prime time for new movies to debut in theaters and on streaming, and this year is no different.",
-      "ts": 1795557619000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/hpvchvybgaah01p.jpg",
+      "headline": "What's Coming To Prime Video In December 2026: Full List Of TV Shows & Movies",
+      "summary": "Prime Video is home to some of the best TV shows of 2026 and the platform is expanding its library even further for December, in time for the holidays",
+      "ts": 1795561218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-2026-11-24t120231-808.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1047,18 +1078,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Every Major Movie Releasing Over Thanksgiving Weekend 2026, Including Focker-In-Law",
-        "desc": "Thanksgiving is always a prime time for new movies to debut in theaters and on streaming, and this year is no different.",
-        "link": "https://screenrant.com/new-movies-releasing-thanksgiving-weekend-2026/"
+        "title": "What's Coming To Prime Video In December 2026: Full List Of TV Shows & Movies",
+        "desc": "Prime Video is home to some of the best TV shows of 2026 and the platform is expanding its library even further for December, in time for the holidays",
+        "link": "https://screenrant.com/everything-coming-to-prime-video-december-2026/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "10 TV Shows Recommended By Oprah",
-      "summary": "From Breaking Bad to Downton Abbey, discover 10 acclaimed TV shows recommended by Oprah Winfrey that have left a lasting impact on television.",
-      "ts": 1795557619000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/oprah-winfrey-at-the-los-angeles-premiere-of-netflix-s-the-six-triple-eight.jpg",
+      "headline": "Black Bear Buys Thriller ‘Seeker,’ Starring ‘Obsession’s’ Cooper Tomlinson and ‘Off Campus’ Actor Mika Abdalla (EXCLUSIVE)",
+      "summary": "Black Bear has acquired “Seeker,” a thriller featuring “Obsession” actor Cooper Tomlinson, “Off Campus” breakout Mika Abdalla and “Happy Death Day” star Jessica Rothe. The company has North American and U.K. distribution rights to the movie, which was introduced to buyers at this year’s AFM. Directed by Adam Carter Rehmeier and written by Michael Learner, […]",
+      "ts": 1795560369000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2297637224.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1066,11 +1097,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "10 TV Shows Recommended By Oprah",
-        "desc": "From Breaking Bad to Downton Abbey, discover 10 acclaimed TV shows recommended by Oprah Winfrey that have left a lasting impact on television.",
-        "link": "https://screenrant.com/tv-shows-oprah-recommends/"
+        "title": "Black Bear Buys Thriller ‘Seeker,’ Starring ‘Obsession’s’ Cooper Tomlinson and ‘Off Campus’ Actor Mika Abdalla (EXCLUSIVE)",
+        "desc": "Black Bear has acquired “Seeker,” a thriller featuring “Obsession” actor Cooper Tomlinson, “Off Campus” breakout Mika Abdalla and “Happy Death Day” star Jessica Rothe. The company has North American and U.K. distribution rights to the movie, which was introduced to buyers at this year’s AFM. Directed by Adam Carter Rehmeier and written by Michael Learner, […]",
+        "link": "https://variety.com/2026/film/news/black-bear-seeker-cooper-tomlinson-mika-abdalla-1236957478/"
        }
       ]
      }
@@ -1078,31 +1109,31 @@
    }
   ],
   "sourcesOk": [
-   "Crikey",
-   "ABC News",
    "The Age",
-   "BBC World",
-   "The Age Federal Politics",
-   "Fox News Politics",
-   "Fox News",
+   "Crikey",
+   "The Conversation",
    "Ars Technica",
-   "BBC Tech",
+   "ABC News",
    "The Age Business",
-   "ABC Business",
+   "Variety",
    "The Verge",
    "AFR",
-   "The Conversation",
-   "ABC Sport",
-   "Fox Business",
+   "BBC World",
    "Deadline",
-   "Variety",
-   "BBC Sport",
-   "7News",
-   "Screen Rant",
+   "ABC Business",
+   "Fox News Politics",
+   "Fox Business",
+   "Fox News",
+   "ABC Sport",
+   "BBC Tech",
+   "The Age Federal Politics",
    "Anime News Network",
+   "7News",
+   "7News Sport",
+   "BBC Sport",
+   "Screen Rant",
    "Daily Mail Australia",
-   "SBS News",
-   "7News Sport"
+   "SBS News"
   ],
   "sourcesFailed": [
    "Guardian Australia",
@@ -1301,7 +1332,7 @@
   {
    "title": "eGift Cards: 8% off Ultimate, 15% off $100 & $200 Netflix, 10% off Uber, 10% off Google Play, 10% off Harris Farm @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985282",
-   "votes": 307,
+   "votes": 352,
    "neg": 0,
    "category": "Other",
    "ts": 1795525276000
@@ -1309,7 +1340,7 @@
   {
    "title": "[iOS] Free Lifetime Unlock: Oasis Sleep & Nature Sounds (Was A$39.99) @ Apple App Store",
    "link": "https://www.ozbargain.com.au/node/985236",
-   "votes": 200,
+   "votes": 213,
    "neg": 0,
    "category": "Mobile",
    "ts": 1795508718000
@@ -1325,7 +1356,7 @@
   {
    "title": "Wicked Wings $1 Each (Max 10) Pickup @ KFC (Online/App Order Required)",
    "link": "https://www.ozbargain.com.au/node/985174",
-   "votes": 106,
+   "votes": 110,
    "neg": 0,
    "category": "Dining & Takeaway",
    "ts": 1795489995000
@@ -1341,15 +1372,23 @@
   {
    "title": "[Refurb] Dell Optiplex 7090 Micro: i5 11500t 1.50GHz, 16GB, 256GB, Wi-Fi $361.25 ($340 eBay Plus) Delivered @ Bneacttrader eBay",
    "link": "https://www.ozbargain.com.au/node/985155",
-   "votes": 82,
+   "votes": 83,
    "neg": 0,
    "category": "Computing",
    "ts": 1795485603000
   },
   {
+   "title": "PlayStation 5 Slim Disc Console $899 @ Kmart",
+   "link": "https://www.ozbargain.com.au/node/985283",
+   "votes": 82,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1795525956000
+  },
+  {
    "title": "Kirks Creamy Soda, Lemon Squash, Pasito, SF Pasito 20x 375ml $15.99 ($15.19 S&S) + Del ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985196",
-   "votes": 77,
+   "votes": 79,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795495947000
@@ -1357,39 +1396,23 @@
   {
    "title": "Reolink TrackMix PoE 4K Dual-Lens PTZ Camera with Auto Tracking $149 In-Store @ Bunnings",
    "link": "https://www.ozbargain.com.au/node/985240",
-   "votes": 73,
+   "votes": 74,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795510061000
   },
   {
-   "title": "Ozito PXC 18V Brushless Chainsaw & Radio 2.5Ah Kit PCSRK-1820 $199 Delivered @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/985132",
-   "votes": 73,
-   "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1795478560000
-  },
-  {
    "title": "Scan BP Rewards for 6¢/Litre off Fuel (up to 100L) @ BP Australia",
    "link": "https://www.ozbargain.com.au/node/985169",
-   "votes": 72,
+   "votes": 74,
    "neg": 0,
    "category": "Automotive",
    "ts": 1795488725000
   },
   {
-   "title": "PlayStation 5 Slim Disc Console $899 @ Kmart",
-   "link": "https://www.ozbargain.com.au/node/985283",
-   "votes": 67,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1795525956000
-  },
-  {
    "title": "M-VAVE SK15 FM-1 Portable Synthesizer - Black US$49.37 (~A$74.85) Delivered @ HaiDun Music Store AliExpress",
    "link": "https://www.ozbargain.com.au/node/985222",
-   "votes": 62,
+   "votes": 64,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795503101000
@@ -1405,18 +1428,26 @@
   {
    "title": "Xiaomi Redmi Watch 6 Lite AMOLED GPS Smartwatch (Grey or Black) $60.30 Delivered @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985245",
-   "votes": 44,
+   "votes": 47,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795511220000
   },
   {
-   "title": "Bosch 18V Professional 4 Piece 2x5.0Ah Kit 0615a5008v $129 @ Bunnings Warehouse",
-   "link": "https://www.ozbargain.com.au/node/985307",
-   "votes": 28,
+   "title": "Oral-B Essential Dental Floss 50m 2pk $2.80 ($2.52 S&S / [Prime] 2 for $4.76) + Delivery ($0 Prime/$59+) @ Amazon AU (Excl. NT)",
+   "link": "https://www.ozbargain.com.au/node/985298",
+   "votes": 42,
    "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1795556153000
+   "category": "Health & Beauty",
+   "ts": 1795552260000
+  },
+  {
+   "title": "FiiO KA13 Portable USB DAC & Headphone Amplifier - Black, Silver US$51.13 (A$77.52) Delivered @ FiiO Audio Store AliExpress",
+   "link": "https://www.ozbargain.com.au/node/985228",
+   "votes": 41,
+   "neg": 0,
+   "category": "Electrical & Electronics",
+   "ts": 1795505278000
   }
  ],
  "carried": {}
