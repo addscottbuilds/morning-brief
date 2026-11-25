@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T19:40:42.978Z",
+ "generatedAt": "2026-11-25T21:00:34.593Z",
  "markets": {
   "items": [
    {
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6633,
-    "chgPct": 0.049523172138286276,
+    "price": 0.663,
+    "chgPct": 0.004272370160842914,
     "high52": 0.7277,
-    "off52": -8.849800742064039
+    "off52": -8.89102652191837
    }
   ],
   "failed": [],
@@ -70,17 +70,25 @@
     "sym": "NVDA",
     "name": "Nvidia",
     "market": "US",
-    "price": 148.45,
+    "price": 149.3,
     "currency": "USD",
-    "chgPct": -4.460036468681486
+    "chgPct": -3.91299053401242
    },
    {
     "sym": "META",
     "name": "Meta",
     "market": "US",
-    "price": 605.89,
+    "price": 609.89,
     "currency": "USD",
-    "chgPct": 2.724558759660336
+    "chgPct": 3.402731753171768
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "market": "US",
+    "price": 244.43,
+    "currency": "USD",
+    "chgPct": -3.115459786476134
    }
   ]
  },
@@ -93,9 +101,51 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Liberal Senator Leah Blyth defects to One Nation, handing party fifth Senate seat",
+      "summary": "The South Australian senator says she could \"no longer in good conscience\" claim the Liberals were capable of saving the country.",
+      "ts": 1795639492000,
+      "img": "https://assets.sbs.com.au/dims4/default/fdf0363/2147483647/strip/false/crop/5325x2447+0+552/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F0e%2Fa5%2Ffdec2b414a8c9ae53f67a0ed8184%2F20260518116029874415-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "‘Turncoat town’: Liberal senator defects to One Nation",
+        "desc": "Pauline Hanson said the South Australian senator wanted to join One Nation because she was dismayed by Coalition infighting: “She’s had a gutful of it”.",
+        "link": "https://www.theage.com.au/politics/federal/liberal-senator-defects-to-one-nation-20261126-p61hdc.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "Liberal Leah Blyth’s defection to One Nation sees Pauline Hanson steal the spotlight again",
+        "desc": "The Albanese government may have hoped its legislative wins would be the main talking point this week, but Pauline Hanson had other ideas. Meanwhile, inflation figures hit a three-year high, adding to economic concerns. The post Liberal Leah Blyth’s defection to One Nation sees Pauline Hanson steal the spotlight again appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/26/leah-blyth-pauline-hanson-liberal-defection-one-nation-angus-taylor-alex-antic/"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Liberal Senator Leah Blyth defects to One Nation, handing party fifth Senate seat",
+        "desc": "The South Australian senator says she could \"no longer in good conscience\" claim the Liberals were capable of saving the country.",
+        "link": "https://www.sbs.com.au/news/article/liberal-senator-lead-blyth-defects-to-one-nation-handing-hansons-party-a-fifth-senate-seat/5gezrw624"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Live: SA Liberal senator Leah Blyth defects to One Nation",
+        "desc": "Leah Blyth, who is understood to have had a falling out with SA Liberal president Alex Antic, says she has lost confidence in the party's ability to \"save this country\". Follow live.",
+        "link": "https://www.abc.net.au/news/2026-11-26/federal-politics-live-blog-november-26/107427220"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "US Army says controlled blast of explosives in Iowa was 'huge success'",
       "summary": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
-      "ts": 1795634583000,
+      "ts": 1795637162000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
       "divergent": null,
       "left_view": null,
@@ -104,25 +154,18 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Doctors warn of lead exposure health risks after controversial Army detonation in Iowa",
+        "desc": "The Army detonated five tons of lead azide at the Iowa Army Ammunition Plant, and FEMA says residents within 20 miles must shelter until the all clear.",
+        "link": "https://www.foxnews.com/health/doctors-warn-lead-exposure-health-risks-controversial-army-detonation-iowa"
+       },
+       {
         "outlet": "BBC World",
         "lean": "centre",
         "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
         "desc": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
         "link": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Trump administration backs Musk's plan for space-based data centres",
-        "desc": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
-        "link": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Trump officials reportedly at odds over tech titan's comeback as national security concerns linger",
-        "desc": "Jensen Huang returned to Nvidia after Trump and JD Vance intervened, but federal probes into Megaspeed and alleged chip diversion to China remain ongoing.",
-        "link": "https://www.foxnews.com/politics/trump-officials-odds-tech-titan-comeback-national-security-concerns-linger"
        },
        {
         "outlet": "SBS News",
@@ -134,7 +177,42 @@
       ]
      },
      {
-      "id": 1,
+      "id": 2,
+      "headline": "Donald Trump announces new tariffs on China, Japan and the EU",
+      "summary": "The tariffs will be capped at lower levels agreed under trade deals that are completed or still under negotiation.",
+      "ts": 1795635941000,
+      "img": "https://assets.sbs.com.au/dims4/default/b97a494/2147483647/strip/false/crop/5107x2347+0+529/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F4b%2Fc5%2Ff43e24854bf29297a43c69ae74e8%2Fgettyimages-2306102514.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Australia news LIVE: Liberal senator joins One Nation; Economists warn of looming stagflation; US hikes tariffs by 20 per cent for dozens of countries",
+        "desc": "Follow along with our live coverage of news from Australia and around the world.",
+        "link": "https://www.theage.com.au/national/australia-news-live-liberal-senator-joins-one-nation-economists-warn-of-looming-stagflation-us-hikes-tariffs-by-20-per-cent-for-dozens-of-countries-20261126-p61hdi.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Donald Trump announces new tariffs on China, Japan and the EU",
+        "desc": "The tariffs will be capped at lower levels agreed under trade deals that are completed or still under negotiation.",
+        "link": "https://www.sbs.com.au/news/article/trump-announces-new-tariffs-on-china-japan-and-the-eu/1rxtyyeat"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "US announces new tariffs on host of countries including China",
+        "desc": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 3,
       "headline": "Red flags exhibited by Beau Lamarre-Condon in lead-up to double murder",
       "summary": "The double murder trial of Beau Lamarre-Condon not only exposed him as a callous killer, but someone who was controlling when he stalked and \"petrified\" a former partner.",
       "ts": 1795630615000,
@@ -169,109 +247,39 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Two men face court over break-in at Kate and William's estate",
-      "summary": "Two men who allegedly broke into the country residence of the Prince and Princess of Wales stole six pairs of cufflinks and a clock, a UK court has heard.",
-      "ts": 1795629601000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/69aa0850fd10988c03ceff1653a775c2?impolicy=wcms_crop_resize&cropH=1154&cropW=2051&xPos=0&yPos=107&width=862&height=485",
+      "id": 4,
+      "headline": "NRL set to introduce automatic sin bin penalties for illegal hip-drop tackles",
+      "summary": "The league has warned clubs ahead of next year that the rules are changing.",
+      "ts": 1795640056000,
+      "img": "https://images.7news.com.au/publication/C-23214663/6243850ccdd149ee307d278c35c89bf8d18ef102-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
       "sources": [
        {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Men accused of stealing cuff-links, clock from William and Kate’s country home",
-        "desc": "The men are alleged to have climbed a drainpipe at the royal estate at Sandringham, a court has heard",
-        "link": "https://www.theage.com.au/world/europe/men-accused-of-stealing-cufflinks-clock-from-william-and-kate-s-country-home-20261126-p61hd3.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Pictured: Albanian illegal immigrant who 'stole cufflinks and clock after scaling drainpipe to break into Kate and William's Sandringham home' - as third suspect remains at large, court hears",
-        "desc": "Police were called to Anmer Hall, on the King's Sandringham Estate in Norfolk, shortly before 6pm on Monday following reports of suspicious activity and arrested the two suspects nearby.",
-        "link": "https://www.dailymail.com/news/article-16320803/Two-Albanians-charged-burglary-break-Kate-Williams-Anmer-Hall.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "NRL set to introduce automatic sin bin penalties for illegal hip-drop tackles",
+        "desc": "The league has warned clubs ahead of next year that the rules are changing.",
+        "link": "https://7news.com.au/sport/rugby-league/nrl-set-to-introduce-automatic-sin-bin-penalties-for-illegal-hip-drop-tackles-c-23214663"
        },
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Two men face court over break-in at Kate and William's estate",
-        "desc": "Two men who allegedly broke into the country residence of the Prince and Princess of Wales stole six pairs of cufflinks and a clock, a UK court has heard.",
-        "link": "https://www.abc.net.au/news/2026-11-26/sandringham-estate-breakin-court-appearance/107427840"
-       }
-      ]
-     },
-     {
-      "id": 3,
-      "headline": "Trump's rescue of Nvidia's Huang brings political risks",
-      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-      "ts": 1795615945000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c9b4/live/d081e3d0-e8a4-11f1-99b6-a35a62fa4264.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Philandering Nvidia CEO Jensen Huang disclosed even more affairs to board before his stunning return in wake of Chinese spy mistress scandal",
-        "desc": "The microchip giant's board announced Huang's reappointment on Monday after spending Sunday grilling Huang for hours.",
-        "link": "https://www.dailymail.com/news/article-16318027/Nvidia-CEO-Jensen-Huang-affairs-mistress-scandal.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Trump's rescue of Nvidia's Huang brings political risks",
-        "desc": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-        "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Jensen Huang’s mega-status as the world’s ‘AI bank’ raises Trump concerns",
-        "desc": "Questions are swirling around the US president's involvement in the reinstatement of Nvidia's CEO.",
-        "link": "https://www.sbs.com.au/news/article/jensen-huang-donald-trump-reinstatement-concerns/zr9ldn4w3"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Donald Trump announces new tariffs on China, Japan and the EU",
-      "summary": "The tariffs will be capped at lower levels agreed under trade deals that are completed or still under negotiation.",
-      "ts": 1795634899000,
-      "img": "https://assets.sbs.com.au/dims4/default/b97a494/2147483647/strip/false/crop/5107x2347+0+529/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F4b%2Fc5%2Ff43e24854bf29297a43c69ae74e8%2Fgettyimages-2306102514.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Donald Trump announces new tariffs on China, Japan and the EU",
-        "desc": "The tariffs will be capped at lower levels agreed under trade deals that are completed or still under negotiation.",
-        "link": "https://www.sbs.com.au/news/article/trump-announces-new-tariffs-on-china-japan-and-the-eu/1rxtyyeat"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "US announces new tariffs on host of countries including China",
-        "desc": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-        "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        "title": "NRL beefs up hip-drop penalties but sticks with set restarts",
+        "desc": "The NRL will come down harder on hip-drop tackles in 2027 but has ruled out the possibility of rolling back the controversial set restart rule.",
+        "link": "https://www.abc.net.au/news/2026-11-26/nrl-rule-changes-set-restarts-hip-drops/107428162"
        }
       ]
      },
      {
       "id": 5,
-      "headline": "Your pre-checkout checklist for Black Friday sales",
-      "summary": "Many stores and online shopping sites are offering discounts this month, but experts say it pays to be wary.",
-      "ts": 1795634821000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/20d4c78eb37b28e811fbb5e682a129a2?impolicy=wcms_crop_resize&cropH=469&cropW=833&xPos=146&yPos=163&width=862&height=485",
+      "headline": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
+      "summary": "The outspoken former Aussie batter says he could not leave the confines of his room.",
+      "ts": 1795639361000,
+      "img": "https://images.7news.com.au/publication/C-23214655/38b4645d190b952988ed8f263897af65ac54cfb8-16x9-x0y2w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -279,27 +287,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "This popular Eddie Bauer blanket is down to just $18 for Black Friday — that's 47% off",
-        "desc": "Eddie Bauer's reversible sherpa blanket is 47% off for Black Friday, dropping to $18. The cozy plaid throw features fleece on one side and plush sherpa on the other.",
-        "link": "https://www.foxnews.com/deals/eddie-bauer-blanket-deal"
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
+        "desc": "The outspoken former Aussie batter says he could not leave the confines of his room.",
+        "link": "https://7news.com.au/sport/cricket/usman-khawaja-disappointed-by-pat-cummins-personal-attack-as-ca-deploys-personal-security-measures-c-23214655"
        },
        {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Your pre-checkout checklist for Black Friday sales",
-        "desc": "Many stores and online shopping sites are offering discounts this month, but experts say it pays to be wary.",
-        "link": "https://www.abc.net.au/news/2026-11-26/black-friday-sales-cyber-monday-scam-shopping-checklist-/107417930"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Khawaja felt 'attacked' by Cummins",
+        "desc": "Usman Khawaja opens up on Pat Cummins' explosive press conference and says he felt \"attacked\" by the Aussie captain.",
+        "link": "https://www.theage.com.au/national/khawaja-felt-attacked-by-cummins-20261126-p61hdk.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
       "id": 6,
-      "headline": "Two children among six dead after plane crash off Mississippi coast",
-      "summary": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage.",
-      "ts": 1795634804000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/23e1/live/16967230-e906-11f1-b9b5-17bef7133655.jpg",
+      "headline": "New photos reveal stadium-sized crater in asteroid knocked off course by NASA",
+      "summary": "A spacecraft observing the asteroid will approach within 13km of it next month, obtaining increasingly higher-resolution images.",
+      "ts": 1795639277000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/933d909a4a03ad9ff03fe4d79e040c94?impolicy=wcms_crop_resize&cropH=574&cropW=1020&xPos=0&yPos=101&width=862&height=485",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -307,18 +315,18 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC World",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Two children among six dead after plane crash off Mississippi coast",
-        "desc": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage.",
-        "link": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss"
+        "title": "New photos reveal stadium-sized crater in asteroid knocked off course by NASA",
+        "desc": "A spacecraft observing the asteroid will approach within 13km of it next month, obtaining increasingly higher-resolution images.",
+        "link": "https://www.abc.net.au/news/2026-11-26/new-photos-of-struck-asteroid-dimorphos/107428078"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Six family members, including three children aged 10, 12 and 16, on way back from fishing trip are killed in horror Mississippi plane crash",
-        "desc": "Brent Stokes, 42, Michael Knox, 40, Arlyn Knox, 40, Charles Holden Knox, 12, Truett Knox, 10, and Hunter Stokes, 16, were killed when a single-engine Cessna crashed near Horn Island.",
-        "link": "https://www.dailymail.com/news/article-16321183/stokes-knox-family-mississippi-plane-crash-horn-island.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+        "desc": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+        "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -358,37 +366,9 @@
      },
      {
       "id": 8,
-      "headline": "Solomon Islands and Australia sign a new defence treaty – and there’s plenty in it for both countries",
-      "summary": "Amid much fanfare and a huge delegation of politicians from Solomon Islands, Australia has signed a long-anticipated treaty with the Pacific Islands nation. The agreement was hailed as as a huge success for Australia, the treaty contains aspects that both sides will value. In doing so, Solomons Prime Minister Matthew Wale has leveraged the fast-paced negotiations and Solomon Islands’ key strategic",
-      "ts": 1795593253000,
-      "img": "https://static.ffx.io/images/$zoom_0.2445%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_77%2C$y_0/t_crop_custom/q_86%2Cf_auto/878bcc1541f628a2bf08f521e90aa6c3f4b057ce",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Conversation",
-        "lean": "centre",
-        "title": "Solomon Islands and Australia sign a new defence treaty – and there’s plenty in it for both countries",
-        "desc": "Amid much fanfare and a huge delegation of politicians from Solomon Islands, Australia has signed a long-anticipated treaty with the Pacific Islands nation. The agreement was hailed as as a huge success for Australia, the treaty contains aspects that both sides will value. In doing so, Solomons Prime Minister Matthew Wale has leveraged the fast-paced negotiations and Solomon Islands’ key strategic",
-        "link": "https://theconversation.com/solomon-islands-and-australia-sign-a-new-defence-treaty-and-theres-plenty-in-it-for-both-countries-297498"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Solomon Islands scraps security agreement with China in triumph for Australia",
-        "desc": "Former high commissioner to the Solomons Lachlan Strahan celebrated the news the security pact would be dumped: “I’m very happy to see the back of it.”",
-        "link": "https://www.theage.com.au/politics/federal/solomon-islands-scraps-security-agreement-with-china-in-triumph-for-australia-20261124-p61gp4.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 9,
-      "headline": "Liberal senator defects to One Nation",
-      "summary": "Liberal Senator Leah Blyth has joined One Nation, one year to the day after Barnaby Joyce quit the National Party in order to defect to Pauline Hanson’s party.",
-      "ts": 1795634746000,
+      "headline": "‘Turncoat town’: Liberal senator defects to One Nation",
+      "summary": "Pauline Hanson said the South Australian senator wanted to join One Nation because she was dismayed by Coalition infighting: “She’s had a gutful of it”.",
+      "ts": 1795639492000,
       "img": "https://static.ffx.io/images/$zoom_0.4133%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_218%2C$y_45/t_crop_custom/q_86%2Cf_auto/afd00d0e2954e5fd32624f29fd8eeee91da20d6b",
       "divergent": null,
       "left_view": null,
@@ -399,14 +379,77 @@
        {
         "outlet": "The Age Federal Politics",
         "lean": "left",
-        "title": "Liberal senator defects to One Nation",
-        "desc": "Liberal Senator Leah Blyth has joined One Nation, one year to the day after Barnaby Joyce quit the National Party in order to defect to Pauline Hanson’s party.",
+        "title": "‘Turncoat town’: Liberal senator defects to One Nation",
+        "desc": "Pauline Hanson said the South Australian senator wanted to join One Nation because she was dismayed by Coalition infighting: “She’s had a gutful of it”.",
         "link": "https://www.theage.com.au/politics/federal/liberal-senator-defects-to-one-nation-20261126-p61hdc.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
      {
+      "id": 9,
+      "headline": "Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress",
+      "summary": "House Republicans say President Donald Trump could sign the Dignity Act this Congress, but warn delay would bring a bill more like an amnesty bill.",
+      "ts": 1795639095000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/6778019e-6778019e-maria-elvira-salazar-september-2026-scaled.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Trump could avoid Dems' ‘extreme’ amnesty push by signing immigration reform before new Congress",
+        "desc": "House Republicans say President Donald Trump could sign the Dignity Act this Congress, but warn delay would bring a bill more like an amnesty bill.",
+        "link": "https://www.foxnews.com/politics/trump-sign-dignity-act-dems-extreme-amnesty-push-house-republican-says"
+       }
+      ]
+     },
+     {
       "id": 10,
+      "headline": "Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'",
+      "summary": "Illinois Democratic Gov. JB Pritzker faces fierce school choice backlash after opting out of the federal scholarship tax credit. Critics cite politics.",
+      "ts": 1795639066000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/illinois-governor-pritzker-june-2026.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "Presidential contender's 'remarkably tone-deaf’ move against Trump triggers parental uproar: 'Unconscionable'",
+        "desc": "Illinois Democratic Gov. JB Pritzker faces fierce school choice backlash after opting out of the federal scholarship tax credit. Critics cite politics.",
+        "link": "https://www.foxnews.com/politics/presidential-contenders-remarkably-tone-deaf-move-against-trump-triggers-parental-uproar-unconscionable"
+       }
+      ]
+     },
+     {
+      "id": 11,
+      "headline": "EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines",
+      "summary": "The White House says Seoul broke a promise to President Donald Trump on fair treatment for U.S. tech companies as regulators fined Coupang $688 million.",
+      "ts": 1795637804000,
+      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/931/523/trump-lee-jae-myung.jpg?ve=1&tl=1",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News Politics",
+        "lean": "right",
+        "title": "EXCLUSIVE: White House accuses South Korea of breaking promise to Trump as US tech giant faces $688M in fines",
+        "desc": "The White House says Seoul broke a promise to President Donald Trump on fair treatment for U.S. tech companies as regulators fined Coupang $688 million.",
+        "link": "https://www.foxnews.com/politics/exclusive-white-house-accuses-south-korea-breaking-promise-trump-us-tech-giant-faces-688m-fines"
+       }
+      ]
+     },
+     {
+      "id": 12,
       "headline": "DOJ lawyers ordered to swarm 'frivolous' 97,000-lawsuit wave from ICE detainees",
       "summary": "Attorney General Todd Blanche is mobilizing civil litigators across the Justice Department to fight 97,000 habeas corpus petitions from detained migrants.",
       "ts": 1795634688000,
@@ -425,48 +468,6 @@
         "link": "https://www.foxnews.com/politics/doj-lawyers-ordered-swarm-frivolous-97000-lawsuit-wave-ice-detainees"
        }
       ]
-     },
-     {
-      "id": 11,
-      "headline": "Newsom shredded for ‘hypocritical’ claim Trump 'sells' pardons after moving to spare 548 death row inmates",
-      "summary": "Gavin Newsom faces \"arrogance and hypocrisy\" backlash over calls to reform presidential pardon powers as he vows to spare 548 California death row inmates.",
-      "ts": 1795634194000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/gavin-newsom-donald-trump-split.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Newsom shredded for ‘hypocritical’ claim Trump 'sells' pardons after moving to spare 548 death row inmates",
-        "desc": "Gavin Newsom faces \"arrogance and hypocrisy\" backlash over calls to reform presidential pardon powers as he vows to spare 548 California death row inmates.",
-        "link": "https://www.foxnews.com/politics/newsom-shredded-hypocritical-claim-trump-sells-pardons-after-moving-spare-548-death-row-inmates"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Why deep pockets weren’t enough to save the GOP in 2026: 'Money is not magic'",
-      "summary": "Despite a $1.7 billion GOP war chest plus $665.4 million from Trump's MAGA Inc. and Elon Musk's America PAC, Republicans still lost badly in the midterms.",
-      "ts": 1795631128000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/05/931/523/musk-trump-2.png?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "Why deep pockets weren’t enough to save the GOP in 2026: 'Money is not magic'",
-        "desc": "Despite a $1.7 billion GOP war chest plus $665.4 million from Trump's MAGA Inc. and Elon Musk's America PAC, Republicans still lost badly in the midterms.",
-        "link": "https://www.foxnews.com/politics/why-deep-pockets-werent-enough-save-gop-2026-money-not-magic"
-       }
-      ]
      }
     ]
    },
@@ -476,6 +477,34 @@
     "stories": [
      {
       "id": 13,
+      "headline": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
+      "summary": "Debris flies into the air after the Army detonated several tons of highly-volatile, degraded lead azide on the grounds of the Iowa Army Ammunition Plant on November 25th, 2026. | Photo: Getty Images Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds o",
+      "ts": 1795635951000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306835116.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
+        "desc": "Debris flies into the air after the Army detonated several tons of highly-volatile, degraded lead azide on the grounds of the Iowa Army Ammunition Plant on November 25th, 2026. | Photo: Getty Images Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds o",
+        "link": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant"
+       },
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
+        "desc": "Prior modeling estimated the plume would cover hundreds of square miles.",
+        "link": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/"
+       }
+      ]
+     },
+     {
+      "id": 14,
       "headline": "The FCC has authorized SpaceX to deploy 1 million satellites",
       "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
       "ts": 1795630958000,
@@ -503,7 +532,7 @@
       ]
      },
      {
-      "id": 14,
+      "id": 15,
       "headline": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
       "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
       "ts": 1795624425000,
@@ -531,7 +560,49 @@
       ]
      },
      {
-      "id": 15,
+      "id": 16,
+      "headline": "Google search alternative Kagi launches Gmail rival",
+      "summary": "The pitch is an unusual combination of privacy promises and AI features.",
+      "ts": 1795640229000,
+      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Ars Technica",
+        "lean": "centre",
+        "title": "Google search alternative Kagi launches Gmail rival",
+        "desc": "The pitch is an unusual combination of privacy promises and AI features.",
+        "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/"
+       }
+      ]
+     },
+     {
+      "id": 17,
+      "headline": "WhatsApp’s new scheduled messages let you choose the right time to send",
+      "summary": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a text at an inconvenient time or don't want to forget to fire off a birthday message at 4AM,",
+      "ts": 1795638708000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whatsapp-scheduled-messages-launch.jpeg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "WhatsApp’s new scheduled messages let you choose the right time to send",
+        "desc": "WhatsApp's 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for a very long time, but now it's on WhatsApp too. If you think of a text at an inconvenient time or don't want to forget to fire off a birthday message at 4AM,",
+        "link": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages"
+       }
+      ]
+     },
+     {
+      "id": 18,
       "headline": "1Password breach leaked customer names and emails, but not passwords",
       "summary": "1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn't expose passwords or other information stored in customer vaults, but could put users at risk of phishing attempts, according to a post disclosing the incident. It's unclear how many users are affected. The password manager began investigating the incident on November 19th",
       "ts": 1795633815000,
@@ -550,69 +621,6 @@
         "link": "https://www.theverge.com/tech/1042409/1password-data-breach-leak"
        }
       ]
-     },
-     {
-      "id": 16,
-      "headline": "Backblaze explains why it's sharing customer information with advertisers",
-      "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
-      "ts": 1795631909000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Backblaze explains why it's sharing customer information with advertisers",
-        "desc": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
-        "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/"
-       }
-      ]
-     },
-     {
-      "id": 17,
-      "headline": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
-      "summary": "The Fairphone 6 Plus comes with 12 replaceable parts. | Photo: Dominic Preston / The Verge Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon as part ",
-      "ts": 1795629600000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/fairphone-6-plus-4.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The Fairphone 6 Plus is modular, repairable, and $100 off right now",
-        "desc": "The Fairphone 6 Plus comes with 12 replaceable parts. | Photo: Dominic Preston / The Verge Unlike most smartphones, the Fairphone 6 Plus is designed for home repair, with easily replaceable parts that could help extend its lifespan well into the future. That makes its midrange price point easier to justify, especially now that it’s dropped to a new low of $552.49 (about $98 off) at Amazon as part ",
-        "link": "https://www.theverge.com/gadgets/1041460/fairphone-6-plus-repairable-phone-black-friday-2026-deal-sale"
-       }
-      ]
-     },
-     {
-      "id": 18,
-      "headline": "The loneliest peptide party in New York",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small line out the door. There are always lines in New York City. Viral food trends, gallery exhibitions, pop",
-      "ts": 1795629600000,
-      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268815_Peptide_Party_JCalifano_0019.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Verge",
-        "lean": "centre",
-        "title": "The loneliest peptide party in New York",
-        "desc": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. On a rainy fall evening, an experimental art venue in Chelsea Market had a small line out the door. There are always lines in New York City. Viral food trends, gallery exhibitions, pop",
-        "link": "https://www.theverge.com/column/1041761/optimizer-peptide-parties-afterglow"
-       }
-      ]
      }
     ]
    },
@@ -622,7 +630,35 @@
     "stories": [
      {
       "id": 19,
-      "headline": "Trump administration backs Musk's plan for space-based data centres",
+      "headline": "US stocks tumble as AI rout and Trump tariffs rattle markets",
+      "summary": "Chip makers led the declines, with Nvidia falling 8.7 per cent and the broader Philadelphia Semiconductor Index losing 7.3 per cent.",
+      "ts": 1795635870000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/1fd3c0b6ea7dafdc2f048f6fc38b9c57?impolicy=wcms_crop_resize&cropH=2317&cropW=4119&xPos=0&yPos=215&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "US stocks tumble as AI rout and Trump tariffs rattle markets",
+        "desc": "Chip makers led the declines, with Nvidia falling 8.7 per cent and the broader Philadelphia Semiconductor Index losing 7.3 per cent.",
+        "link": "https://www.abc.net.au/news/2026-11-26/nasdaq-ai-tariffs-rattle-markets/107428016"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Trump admin to raise tariffs on China, EU, other trading partners",
+        "desc": "The Trump administration proposed new Section 301 tariffs targeting China, the EU, Brazil and 12 other trading partners to curb subsidized foreign manufacturing.",
+        "link": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
+       }
+      ]
+     },
+     {
+      "id": 20,
+      "headline": "US approves Musk's plan for space-based data centres",
       "summary": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
       "ts": 1795634460000,
       "img": "https://live-production.wcms.abc-cdn.net.au/1a49ab6fa87808929d3b8db5a22b4595?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=209&width=862&height=485",
@@ -635,7 +671,7 @@
        {
         "outlet": "ABC Business",
         "lean": "centre",
-        "title": "Trump administration backs Musk's plan for space-based data centres",
+        "title": "US approves Musk's plan for space-based data centres",
         "desc": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
         "link": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024"
        },
@@ -645,34 +681,6 @@
         "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
         "desc": "The FCC approved Elon Musk's SpaceX plan for up to 1 million solar-powered satellites to build artificial intelligence data centers in orbit.",
         "link": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "Republican China hawks challenge Trump over Huang's Nvidia return",
-      "summary": "Donald Trump claims credit for Jensen Huang's return to the AI giant, but the controversy sees Republicans join forces with Democrats to demand an investigation into the administration's ties to the company.",
-      "ts": 1795618544000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/77e89bca8e6231add2251af7fa92e69f?impolicy=wcms_crop_resize&cropH=1915&cropW=3405&xPos=0&yPos=177&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Trump admin to raise tariffs on China, EU, other trading partners",
-        "desc": "The Trump administration proposed new Section 301 tariffs targeting China, the EU, Brazil and 12 other trading partners to curb subsidized foreign manufacturing.",
-        "link": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Republican China hawks challenge Trump over Huang's Nvidia return",
-        "desc": "Donald Trump claims credit for Jensen Huang's return to the AI giant, but the controversy sees Republicans join forces with Democrats to demand an investigation into the administration's ties to the company.",
-        "link": "https://www.abc.net.au/news/2026-11-25/republicans-challenge-trump-over-huang-nvidia-return/107423590"
        }
       ]
      },
@@ -762,10 +770,10 @@
      },
      {
       "id": 24,
-      "headline": "You can’t be Taylor Swift without being a mean girl",
-      "summary": "Vanity Fair’s contrived 4000-word profile of the superstar portrays her as spoilt and ruthless. So what?",
-      "ts": 1795635618000,
-      "img": "https://static.ffx.io/images/$zoom_0.3216%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_13%2C$y_30/t_crop_custom/q_86%2Cf_auto/17ec9c445c15ef433fe285a0690fd73a1bebeaff99459812c3b26b41d0d5c310",
+      "headline": "ASX to rise; S&P 500 pares early losses; Fisher & Paykel profit jumps 37pc",
+      "summary": "ASX futures point to opening rally; Nasdaq 100 had briefly entered bear market; Michael Burry says he’s more long than short. Follow live.",
+      "ts": 1795640314000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/32437f5c8bfd2415073fd80dd4a01c4703486a1ff5b291a29ca1a62bfda7c344",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -775,9 +783,9 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "You can’t be Taylor Swift without being a mean girl",
-        "desc": "Vanity Fair’s contrived 4000-word profile of the superstar portrays her as spoilt and ruthless. So what?",
-        "link": "https://www.afr.com/world/europe/you-cant-be-taylor-swift-without-being-a-mean-girl-20261126-p61hdm?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "ASX to rise; S&P 500 pares early losses; Fisher & Paykel profit jumps 37pc",
+        "desc": "ASX futures point to opening rally; Nasdaq 100 had briefly entered bear market; Michael Burry says he’s more long than short. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/nasdaq-composite-plunges-near-4pc-as-ai-sell-off-deepens-20261126-p61hd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -789,6 +797,62 @@
     "stories": [
      {
       "id": 25,
+      "headline": "NRL set to introduce automatic sin bin penalties for illegal hip-drop tackles",
+      "summary": "The league has warned clubs ahead of next year that the rules are changing.",
+      "ts": 1795640056000,
+      "img": "https://images.7news.com.au/publication/C-23214663/6243850ccdd149ee307d278c35c89bf8d18ef102-16x9-x0y2w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "NRL set to introduce automatic sin bin penalties for illegal hip-drop tackles",
+        "desc": "The league has warned clubs ahead of next year that the rules are changing.",
+        "link": "https://7news.com.au/sport/rugby-league/nrl-set-to-introduce-automatic-sin-bin-penalties-for-illegal-hip-drop-tackles-c-23214663"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "NRL beefs up hip-drop penalties but sticks with set restarts",
+        "desc": "The NRL will come down harder on hip-drop tackles in 2027 but has ruled out the possibility of rolling back the controversial set restart rule.",
+        "link": "https://www.abc.net.au/news/2026-11-26/nrl-rule-changes-set-restarts-hip-drops/107428162"
+       }
+      ]
+     },
+     {
+      "id": 26,
+      "headline": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
+      "summary": "The outspoken former Aussie batter says he could not leave the confines of his room.",
+      "ts": 1795639361000,
+      "img": "https://images.7news.com.au/publication/C-23214655/38b4645d190b952988ed8f263897af65ac54cfb8-16x9-x0y2w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
+        "desc": "The outspoken former Aussie batter says he could not leave the confines of his room.",
+        "link": "https://7news.com.au/sport/cricket/usman-khawaja-disappointed-by-pat-cummins-personal-attack-as-ca-deploys-personal-security-measures-c-23214655"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Khawaja says he offered Sandpapergate peace proposal",
+        "desc": "Usman Khawaja reveals he proposed a peace statement to Cricket Australia CEO Todd Greenberg in the hope of ending the war of words tearing Australian cricket apart in relation to Sandpapergate.",
+        "link": "https://www.abc.net.au/news/2026-11-25/usman-khawaja-offers-sandpapergate-peace-proposal/107426926"
+       }
+      ]
+     },
+     {
+      "id": 27,
       "headline": "Greatest catch ever? Man on motorbike takes incredible grab",
       "summary": "A passenger on a motorbike pulled off a remarkable one-handed catch after the ball was hit out of the ground for six in the Swat Premier League in Pakistan.",
       "ts": 1795623783000,
@@ -816,7 +880,7 @@
       ]
      },
      {
-      "id": 26,
+      "id": 28,
       "headline": "Ireland's Stockdale returns as Beale, 37, back for Wallabies",
       "summary": "Ulster wing Jacob Stockdale is recalled to the Ireland starting team for Friday night's Nations Championship fifth-place play-off match against Australia.",
       "ts": 1795622914000,
@@ -844,7 +908,7 @@
       ]
      },
      {
-      "id": 27,
+      "id": 29,
       "headline": "Players in limbo after NZ netball league collapses",
       "summary": "Parris Mason on concerns about her netball future after the collapse of the domestic league in New Zealand.",
       "ts": 1795591036000,
@@ -872,35 +936,7 @@
       ]
      },
      {
-      "id": 28,
-      "headline": "Khawaja says he offered Sandpapergate peace proposal",
-      "summary": "Usman Khawaja reveals he proposed a peace statement to Cricket Australia CEO Todd Greenberg in the hope of ending the war of words tearing Australian cricket apart in relation to Sandpapergate.",
-      "ts": 1795588026000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/da289d0e9a86dce977c2e8b4f18a78e5?impolicy=wcms_crop_resize&cropH=2057&cropW=3657&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "Khawaja says he offered Sandpapergate peace proposal",
-        "desc": "Usman Khawaja reveals he proposed a peace statement to Cricket Australia CEO Todd Greenberg in the hope of ending the war of words tearing Australian cricket apart in relation to Sandpapergate.",
-        "link": "https://www.abc.net.au/news/2026-11-25/usman-khawaja-offers-sandpapergate-peace-proposal/107426926"
-       },
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Usman Khawaja reveals peace proposal text messages with Todd Greenberg in attempt to end sandpaper saga",
-        "desc": "The former Aussie batter has drafted a statement that he hopes will solve the scandal once and for all.",
-        "link": "https://7news.com.au/sport/cricket/usman-khawaja-reveals-peace-proposal-text-messages-with-todd-greenberg-in-attempt-to-end-sandpaper-saga-c-23212725"
-       }
-      ]
-     },
-     {
-      "id": 29,
+      "id": 30,
       "headline": "Matildas keeper Teagan Micah reveals neurological brain disorder diagnosis",
       "summary": "The 29-year-old has explained for the first time how a ‘big health scare’ nearly ended her career.",
       "ts": 1795580773000,
@@ -926,34 +962,6 @@
         "link": "https://www.abc.net.au/news/2026-11-25/matildas-goalkeeper-teagan-micah-health-scare/107425882"
        }
       ]
-     },
-     {
-      "id": 30,
-      "headline": "England power past Australia to square T20 series",
-      "summary": "England openers Aneurin Donald and Phil Salt combined to hit 13 sixes and chase Australia's 185-run total with ease to square the five-game T20 series 1-1.",
-      "ts": 1795520305000,
-      "img": "https://images.7news.com.au/publication/C-23208081/2ac15785b0585d0cb772aa87480ed37b21707793-16x9-x0y0w1280h720.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "England power past Australia to square T20 series",
-        "desc": "England openers Aneurin Donald and Phil Salt combined to hit 13 sixes and chase Australia's 185-run total with ease to square the five-game T20 series 1-1.",
-        "link": "https://7news.com.au/sport/cricket/england-power-past-australia-to-square-t20-series-c-23208081"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "England crushes Australia to level T20 series in Gold Coast massacre",
-        "desc": "England has levelled the T20I series with a devastating opening batting display on the Gold Coast, winning with more than six overs remaining.",
-        "link": "https://www.abc.net.au/news/2026-11-24/australia-vs-england-second-t20i-on-the-gold-coast/107421294"
-       }
-      ]
      }
     ]
    },
@@ -963,10 +971,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Cyclops’ Avengers: Doomsday Return Came With 1 Major Requirement For OG X-Men Star",
-      "summary": "Avengers: Doomsday is bringing back the original X-Men and one of the actors had a major condition for Marvel Studios before he agreed to return.",
-      "ts": 1795634540000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/cyclops-in-avengers-doomsday.jpg",
+      "headline": "Captain America May Be Avengers: Doomsday’s REAL Villain",
+      "summary": "Captain America Caused It All? The final Avengers: Doomsday trailer may have revealed how Steve Rogers' decision at the end of Avengers: Endgame put the entire Marvel multiverse in danger.For years, MCU fans have debated the consequences of Captain America staying in the past with Peggy Carter. Now, Steve's return, his mysterious family, and his connection to the Fantastic Four could finally provi",
+      "ts": 1795636879000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/clip-8.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -976,25 +984,32 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Cyclops’ Avengers: Doomsday Return Came With 1 Major Requirement For OG X-Men Star",
-        "desc": "Avengers: Doomsday is bringing back the original X-Men and one of the actors had a major condition for Marvel Studios before he agreed to return.",
-        "link": "https://screenrant.com/avengers-doomsday-james-marsden-cylcops-return-condition/"
+        "title": "Captain America May Be Avengers: Doomsday’s REAL Villain",
+        "desc": "Captain America Caused It All? The final Avengers: Doomsday trailer may have revealed how Steve Rogers' decision at the end of Avengers: Endgame put the entire Marvel multiverse in danger.For years, MCU fans have debated the consequences of Captain America staying in the past with Peggy Carter. Now, Steve's return, his mysterious family, and his connection to the Fantastic Four could finally provi",
+        "link": "https://screenrant.com/video/captain-america-may-be-avengers-doomsday-s-real-villain/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Avengers: Doomsday’ Launches ‘Monopoly Go’ Tie-In Season ‘Doomsday Go’ (Gaming News Roundup)",
+        "desc": "The wait for “Avengers: Doomsday” is almost over, and soon, fans can play in that world in addition to watching the story unfold. To celebrate the movie hitting theaters Dec. 18, Scopely, in collaboration with Marvel Games, is uniting “Monopoly Go!” with Marvel Studios’ highly anticipated “Avengers: Doomsday” for an all-new season of “Doomsday Go!” […]",
+        "link": "https://variety.com/2026/gaming/news/gaming-news-roundup-week-of-nov-23-1236956394/"
        },
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Chris Evans On Secret Meetings About ‘Avengers’ Return Despite Saying He Was “Happily Retired” From MCU",
-        "desc": "Chris Evans is returning to the Marvel Cinematic Universe for Avengers: Doomsday despite hinting he was done with the franchise. Evans’ Captain America was written out of the MCU in 2019’s Avengers: Endgame, when the superhero passed the baton to Anthony Mackie’s Sam Wilson. However, despite Evans saying he was “happily retired” and “sad to […]",
-        "link": "https://deadline.com/2026/11/chris-evans-avengers-doomsday-return-happily-retired-mcu-1237233374/"
+        "title": "‘Avengers: Doomsday’ U.S. Presales Now At $100M+ As Pic Heads For $270M+ Opening – Box Office",
+        "desc": "EXCLUSIVE: Presales per solid sources for Disney/Marvel Studios’ Avengers: Doomsday are well ahead of $100M+ before the pic opens on Dec. 18. We learned this as the Anthony and Joe Russo-directed movie has hit NRG tracking with $270M, the highest number ever recorded by the stat firm for a film’s initial forecast. By the way, […]",
+        "link": "https://deadline.com/2026/11/avengers-doomsday-box-office-presales-1237233410/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Ariana Grande Says ‘Petal’ Music Video Backlash Felt Like ‘Black Mirror’ and ‘I Wouldn’t Change a Thing. I’d Put It Out Again Today As Is’",
-      "summary": "Ariana Grande has spoken out about the criticism she received for her “Petal” music video, describing it as an episode of “Black Mirror” but caveating that she “wouldn’t change a thing” and “would put it out again today as is.” The pop star made the comments during an appearance on Las Culturistas podcast while discussing […]",
-      "ts": 1795632928000,
-      "img": "https://variety.com/wp-content/uploads/2026/08/GettyImages-2254668725.jpg",
+      "headline": "‘Focker In-Law’ Director on Casting Ariana Grande, Why Barbra Streisand and Dustin Hoffman Didn’t Return and What the Ending Means for Another Sequel",
+      "summary": "Over the years, “Meet the Parents” writer John Hamburg would exchange the occasional text or email with his collaborators from the 2000 movie to ask whether anyone had another sequel idea. (They had already revisited the characters, mismatched in-laws portrayed by Ben Stiller and Robert De Niro, to outsized commercial success in 2004’s “Meet the […]",
+      "ts": 1795640400000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/MCDFIIN_UV014.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1004,9 +1019,9 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Ariana Grande Says ‘Petal’ Music Video Backlash Felt Like ‘Black Mirror’ and ‘I Wouldn’t Change a Thing. I’d Put It Out Again Today As Is’",
-        "desc": "Ariana Grande has spoken out about the criticism she received for her “Petal” music video, describing it as an episode of “Black Mirror” but caveating that she “wouldn’t change a thing” and “would put it out again today as is.” The pop star made the comments during an appearance on Las Culturistas podcast while discussing […]",
-        "link": "https://variety.com/2026/music/news/ariana-grande-petal-music-video-backlash-black-mirror-1236958153/"
+        "title": "‘Focker In-Law’ Director on Casting Ariana Grande, Why Barbra Streisand and Dustin Hoffman Didn’t Return and What the Ending Means for Another Sequel",
+        "desc": "Over the years, “Meet the Parents” writer John Hamburg would exchange the occasional text or email with his collaborators from the 2000 movie to ask whether anyone had another sequel idea. (They had already revisited the characters, mismatched in-laws portrayed by Ben Stiller and Robert De Niro, to outsized commercial success in 2004’s “Meet the […]",
+        "link": "https://variety.com/2026/film/features/focker-in-law-director-ariana-grande-casting-next-sequel-1236953332/"
        },
        {
         "outlet": "Anime News Network",
@@ -1019,10 +1034,10 @@
      },
      {
       "id": 33,
-      "headline": "Takashi Miike’s ‘Bad Lieutenant: Tokyo’ From Neon Sets Spring Release",
-      "summary": "Neon’s TIFF world premiere, Bad Lieutenant: Tokyo from Takashi Miike (Audition, 13 Assassins) is making a target for theaters on March 5, 2027. The pic stars Shun Oguri (Godzilla v. Kong, No Longer Human) and Lily James (upcoming Swiped and Cliffhanger, Pam and Tommy, Yesterday). WWE star Liv Morgan (Gionna Daddio) joined the cast after […]",
-      "ts": 1795630821000,
-      "img": "https://deadline.com/wp-content/uploads/2026/09/03_BAD-LIEUTENANT-TOKYO_courtesyNEON.jpg",
+      "headline": "Macy’s Thanksgiving Day Parade Postponed Due To Weather",
+      "summary": "The Macy’s Thanksgiving Day Parade will be postponed until Saturday due to expected storms on Thursday, according to various media reports. An official announcement is expected shortly. A weather and security briefing from Macy’s officials and the NYPD was planned for 5:30 p.m. ET. As reported by Deadline yesterday, NBC had been closely tracking the […]",
+      "ts": 1795640207000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Macys-Thanksgiving-parade.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1032,25 +1047,25 @@
        {
         "outlet": "Deadline",
         "lean": "centre",
-        "title": "Takashi Miike’s ‘Bad Lieutenant: Tokyo’ From Neon Sets Spring Release",
-        "desc": "Neon’s TIFF world premiere, Bad Lieutenant: Tokyo from Takashi Miike (Audition, 13 Assassins) is making a target for theaters on March 5, 2027. The pic stars Shun Oguri (Godzilla v. Kong, No Longer Human) and Lily James (upcoming Swiped and Cliffhanger, Pam and Tommy, Yesterday). WWE star Liv Morgan (Gionna Daddio) joined the cast after […]",
-        "link": "https://deadline.com/2026/11/bad-lieutenant-tokyo-release-date-1237233449/"
+        "title": "Macy’s Thanksgiving Day Parade Postponed Due To Weather",
+        "desc": "The Macy’s Thanksgiving Day Parade will be postponed until Saturday due to expected storms on Thursday, according to various media reports. An official announcement is expected shortly. A weather and security briefing from Macy’s officials and the NYPD was planned for 5:30 p.m. ET. As reported by Deadline yesterday, NBC had been closely tracking the […]",
+        "link": "https://deadline.com/2026/11/macys-thanksgiving-day-parade-postponed-1237233595/"
        },
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "Takashi Miike’s ‘Bad Lieutenant: Tokyo’ Sets March 2027 Release Date",
-        "desc": "Neon has set the theatrical release date for Takashi Miike’s gritty cop thriller “Bad Lieutenant: Tokyo” for March 5, 2027. The third installment in the cult classic series, which premiered at the Toronto International Film Festival, stars Shun Oguri, Lily James and WWE wrestler Liv Morgan. An official logline for “Bad Lieutenant: Tokyo” reads: “Seasoned […]",
-        "link": "https://variety.com/2026/film/news/takashi-miike-bad-lieutenant-tokyo-release-date-neon-1236957562/"
+        "title": "As ‘Hello Kitty’ Joins Thanksgiving Parade, Sanrio Execs Tease ‘Magical’ Warner Bros. Animated Movie, Video Game Plans and 50-Year-Old Brand’s Gen Alpha Strategy",
+        "desc": "For those uninitiated into the Sanrio community, the beloved character Hello Kitty is a little girl (yes, girl) who is five apples tall. On Thursday, she’ll reach 107 apples tall when she takes flight (New York City weather permitting) as a balloon in Macy’s 100th Thanksgiving Day Parade. While a huge culture moment for Sanrio’s […]",
+        "link": "https://variety.com/2026/tv/news/hello-kitty-balloon-movie-update-sanrio-merch-events-1236956985/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "The Gentlemen Season 3 Update Will Change The Show Forever",
-      "summary": "Guy Ritchie's movies and TV shows have been overwhelmingly British, but the success of The Gentlemen is taking the show in an unexpected direction.",
-      "ts": 1795635019000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-2026-11-25t130204-857.jpg",
+      "headline": "Breaking Baz: ‘Bunker’ Writer-Director Florian Zeller Takes Us Behind The Scenes With Penélope Cruz, Javier Bardem, Stephen Graham & Dame Eileen Atkins",
+      "summary": "Speaking over Zoom from his home in Paris, Florian Zeller says he could write poems all about Penélope Cruz. Instead, he wrote a thrilling movie called Bunker for her, and her husband, Javier Bardem. Zeller, the playwright, screenwriter and screen and stage director behind The Father (for which Anthony Hopkins won his second Best Actor […]",
+      "ts": 1795639500000,
+      "img": "https://deadline.com/wp-content/uploads/2026/09/Bunker_Group00799.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1058,20 +1073,27 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "The Gentlemen Season 3 Update Will Change The Show Forever",
-        "desc": "Guy Ritchie's movies and TV shows have been overwhelmingly British, but the success of The Gentlemen is taking the show in an unexpected direction.",
-        "link": "https://screenrant.com/the-gentlemen-morocco-filming-season-3-change-show/"
+        "title": "Breaking Baz: ‘Bunker’ Writer-Director Florian Zeller Takes Us Behind The Scenes With Penélope Cruz, Javier Bardem, Stephen Graham & Dame Eileen Atkins",
+        "desc": "Speaking over Zoom from his home in Paris, Florian Zeller says he could write poems all about Penélope Cruz. Instead, he wrote a thrilling movie called Bunker for her, and her husband, Javier Bardem. Zeller, the playwright, screenwriter and screen and stage director behind The Father (for which Anthony Hopkins won his second Best Actor […]",
+        "link": "https://deadline.com/2026/11/bunker-florian-zeller-penelope-cruz-javier-bardem-interview-1237233549/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "How ‘Backrooms’ Artisans Transformed YouTube Series Into Cinema’s Favorite Liminal Space Using 30,000 Square Feet of Sets and Four Sound Stages",
+        "desc": "Before Kane Parsons’ “Backrooms” became a $400 million global box office success, it was a YouTube series with 22 episodes, each ranging from two minutes to 45 minutes exploring the “Backrooms” lore. The series was a viral hit, and so was the movie. However, for the film’s production designer Danny Vermette and visual effects supervisor […]",
+        "link": "https://variety.com/2026/artisans/news/backrooms-visual-effects-production-design-1236958246/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Netflix Officially Announces Companion Piece To Quentin Tarantino's New R-Rated Thriller",
-      "summary": "As the film hits theaters, Netflix now officially confirms that a companion piece to Quentin Tarantino’s new R-rated thriller is on the way.",
-      "ts": 1795634997000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/quentin-tarantino-1.jpg",
+      "headline": "‘Gugu’s World’ Team on the Diversity of Brazilian Cinema and Championing Films That ‘Respect the Storyteller’",
+      "summary": "In the nine months since “Gugu’s World” premiered in Berlin, director Allan Deberton has had only the most “joyful experiences.” By the time the filmmaker sits down with Variety to discuss the whirlwind, the film has just opened in its home country of Brazil, turning its young star into a phenomenon. That star is Yuri […]",
+      "ts": 1795640400000,
+      "img": "https://variety.com/wp-content/uploads/2026/02/VARIETY-SIZING-46.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1079,20 +1101,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Netflix Officially Announces Companion Piece To Quentin Tarantino's New R-Rated Thriller",
-        "desc": "As the film hits theaters, Netflix now officially confirms that a companion piece to Quentin Tarantino’s new R-rated thriller is on the way.",
-        "link": "https://screenrant.com/quentin-tarantino-the-further-misadventures-of-cliff-booth-roundtable-interview-netflix/"
+        "title": "‘Gugu’s World’ Team on the Diversity of Brazilian Cinema and Championing Films That ‘Respect the Storyteller’",
+        "desc": "In the nine months since “Gugu’s World” premiered in Berlin, director Allan Deberton has had only the most “joyful experiences.” By the time the filmmaker sits down with Variety to discuss the whirlwind, the film has just opened in its home country of Brazil, turning its young star into a phenomenon. That star is Yuri […]",
+        "link": "https://variety.com/2026/biz/news/gugus-world-team-brazilian-cinema-diversity-storytelling-1236955739/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Brandon Sanderson’s Mistborn Movie Hits Writing Timeline Setback In New Update",
-      "summary": "Brandon Sanderson's Mistborn movie is no longer moving at a rapid pace as the author reveals a slight timeline setback in the script's writing.",
-      "ts": 1795634793000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/mistborn-steve-argyle-endpaper-vin.jpg",
+      "headline": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season",
+      "summary": "EXCLUSIVE: The Hawk did not make the cut for a second season. Netflix has opted not to renew the freshman golf comedy, co-created, executive produced and headlined by Will Ferrell. The news comes more than four months after The Hawk, SNL alum Ferrell’s first TV starring vehicle, premiered on July 16. The decision fits Netflix’s […]",
+      "ts": 1795640400000,
+      "img": "https://deadline.com/wp-content/uploads/2026/05/THEHAWK_101_250912_CH_00182_R2.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1100,11 +1122,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Deadline",
         "lean": "centre",
-        "title": "Brandon Sanderson’s Mistborn Movie Hits Writing Timeline Setback In New Update",
-        "desc": "Brandon Sanderson's Mistborn movie is no longer moving at a rapid pace as the author reveals a slight timeline setback in the script's writing.",
-        "link": "https://screenrant.com/mistborn-movie-script-timeline-setback-brandon-sanderson/"
+        "title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season",
+        "desc": "EXCLUSIVE: The Hawk did not make the cut for a second season. Netflix has opted not to renew the freshman golf comedy, co-created, executive produced and headlined by Will Ferrell. The news comes more than four months after The Hawk, SNL alum Ferrell’s first TV starring vehicle, premiered on July 16. The decision fits Netflix’s […]",
+        "link": "https://deadline.com/2026/11/will-ferrell-the-hawk-canceled-netflix-one-season-1237233347/"
        }
       ]
      }
@@ -1114,29 +1136,29 @@
   "sourcesOk": [
    "The Age",
    "Crikey",
-   "BBC World",
-   "The Age Federal Politics",
-   "7News",
    "ABC News",
-   "Fox News",
-   "Fox News Politics",
-   "BBC Tech",
    "Ars Technica",
-   "The Age Business",
-   "ABC Business",
-   "AFR",
    "The Verge",
-   "The Conversation",
-   "ABC Sport",
-   "Deadline",
+   "The Age Business",
    "Variety",
+   "Fox News",
+   "AFR",
+   "Deadline",
+   "ABC Business",
    "Fox Business",
+   "ABC Sport",
+   "Fox News Politics",
+   "The Conversation",
+   "The Age Federal Politics",
+   "BBC World",
+   "Anime News Network",
+   "BBC Tech",
+   "7News",
    "BBC Sport",
+   "Daily Mail Australia",
    "SBS News",
    "Screen Rant",
-   "Anime News Network",
-   "7News Sport",
-   "Daily Mail Australia"
+   "7News Sport"
   ],
   "sourcesFailed": [
    "Guardian Australia",
@@ -1338,7 +1360,7 @@
   {
    "title": "3 Chocolate Bags (M&M's, Maltesers, Pods) 120-180g for $10 ($7.90 S&S) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985445",
-   "votes": 159,
+   "votes": 162,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795586395000
@@ -1346,7 +1368,7 @@
   {
    "title": "15% off Sitewide (Free Membership Required) + Delivery ($0 C&C) @ Dan Murphy's Online & App",
    "link": "https://www.ozbargain.com.au/node/985391",
-   "votes": 97,
+   "votes": 105,
    "neg": 0,
    "category": "Alcohol",
    "ts": 1795577146000
@@ -1354,7 +1376,7 @@
   {
    "title": "[Android] Stardew Valley $3.50, Terraria $4 @ Google Play",
    "link": "https://www.ozbargain.com.au/node/985458",
-   "votes": 92,
+   "votes": 98,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795590144000
@@ -1362,7 +1384,7 @@
   {
    "title": "Musashi 100% Whey Protein Powder 2kg $77.50 + $9.90 Delivery ($0 with $150 Order) @ Musashi",
    "link": "https://www.ozbargain.com.au/node/985349",
-   "votes": 86,
+   "votes": 89,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795565160000
@@ -1370,7 +1392,7 @@
   {
    "title": "[PS5] Grand Theft Auto VI $114.99 Delivered @ Costco Wholesale (Membership Required)",
    "link": "https://www.ozbargain.com.au/node/985373",
-   "votes": 81,
+   "votes": 85,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795572174000
@@ -1378,7 +1400,7 @@
   {
    "title": "50% off Daily eSIM Deal (Vietnam, Japan KDDI, Global, Europe, SEA 5 Country 300GB) | 30% off All Travel SIM fr $2.80 @ TravelKon",
    "link": "https://www.ozbargain.com.au/node/985322",
-   "votes": 79,
+   "votes": 83,
    "neg": 0,
    "category": "Mobile",
    "ts": 1795561068000
@@ -1386,7 +1408,7 @@
   {
    "title": "Xiaomi Poco M8 5G 256GB $299 Delivered @ Xiaomi AU",
    "link": "https://www.ozbargain.com.au/node/985466",
-   "votes": 75,
+   "votes": 78,
    "neg": 0,
    "category": "Mobile",
    "ts": 1795592993000
@@ -1394,7 +1416,7 @@
   {
    "title": "[eBook] Free - The Survivors (Books 1-12) by Nathan Hystad @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/985461",
-   "votes": 73,
+   "votes": 77,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1795591402000
@@ -1410,26 +1432,26 @@
   {
    "title": "Breville BES003 Temperature Control Milk Jug $22.46 + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985380",
-   "votes": 70,
+   "votes": 71,
    "neg": 0,
    "category": "Home & Garden",
    "ts": 1795574372000
   },
   {
-   "title": "Chery Tiggo 4 Urban from $22,490 Driveaway (by Exchanging $1,500 Fuel Card for Discount) @ Participating Chery Dealers",
-   "link": "https://www.ozbargain.com.au/node/985468",
-   "votes": 65,
-   "neg": 0,
-   "category": "Automotive",
-   "ts": 1795593381000
-  },
-  {
    "title": "[Switch 2, PS5, XSX] Call of Duty: Modern Warfare 4 $49 + $8 Delivery ($0 C&C/ in-Store/ OnePass/ $60 Order) @ Target",
    "link": "https://www.ozbargain.com.au/node/985511",
-   "votes": 60,
+   "votes": 66,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795604960000
+  },
+  {
+   "title": "Chery Tiggo 4 Urban from $22,490 Driveaway (by Exchanging $1,500 Fuel Card for Discount) @ Participating Chery Dealers",
+   "link": "https://www.ozbargain.com.au/node/985468",
+   "votes": 66,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1795593381000
   },
   {
    "title": "Ozito PXC 36V (2x18V) 335mm Lawn Mower 3.0Ah Kit PXLMK-3182 $228 Delivered @ Bunnings",
@@ -1440,20 +1462,20 @@
    "ts": 1795564410000
   },
   {
-   "title": "[PS5] Grand Theft Auto VI (US PSN Digital Code) US$69.99 (~A$106.11) @ Loaded",
-   "link": "https://www.ozbargain.com.au/node/985328",
-   "votes": 51,
-   "neg": 0,
-   "category": "Gaming",
-   "ts": 1795562346000
-  },
-  {
    "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards (Limited Stock) @ ShopBack",
    "link": "https://www.ozbargain.com.au/node/985506",
-   "votes": 49,
+   "votes": 52,
    "neg": 0,
    "category": "Other",
    "ts": 1795601847000
+  },
+  {
+   "title": "[PS5] Grand Theft Auto VI (US PSN Digital Code) US$69.99 (~A$106.11) @ Loaded",
+   "link": "https://www.ozbargain.com.au/node/985328",
+   "votes": 52,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1795562346000
   }
  ],
  "carried": {}
