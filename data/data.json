@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T01:58:06.995Z",
+ "generatedAt": "2026-11-26T02:17:08.049Z",
  "markets": {
   "items": [
    {
@@ -7,60 +7,60 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8758.8,
-    "chgPct": 0.3712826357338247,
+    "price": 8757.5,
+    "chgPct": 0.3563853133350508,
     "high52": 9296.7,
-    "off52": -5.785924037561731
+    "off52": -5.799907494057038
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.78,
-    "chgPct": 0.3157500374510395,
+    "price": 85.71,
+    "chgPct": 0.23388826894296869,
     "high52": 88.25,
-    "off52": -2.798866855524078
+    "off52": -2.878186968838534
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.7,
-    "chgPct": 0.8178170146987022,
+    "price": 146.67,
+    "chgPct": 0.7971998742048979,
     "high52": 155.03,
-    "off52": -5.373153583177458
+    "off52": -5.392504676514232
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.44,
-    "chgPct": 0.5602259700614339,
+    "price": 57.42,
+    "chgPct": 0.5252119638044557,
     "high52": 65.18,
-    "off52": -11.874808223381418
+    "off52": -11.905492482356559
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 28.45,
-    "chgPct": 1.06572073014255,
+    "price": 28.52,
+    "chgPct": 1.3143885843116188,
     "high52": 47.78,
-    "off52": -40.45625784847216
+    "off52": -40.30975303474257
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6634,
-    "chgPct": 0.0002524210067983712,
+    "price": 0.6641,
+    "chgPct": 0.10576972081793516,
     "high52": 0.7277,
-    "off52": -8.836058815445929
+    "off52": -8.73986532911914
    }
   ],
   "failed": [],
@@ -75,6 +75,14 @@
     "chgPct": -4.047197667680249
    },
    {
+    "sym": "WDS.AX",
+    "name": "Woodside",
+    "market": "ASX",
+    "price": 31,
+    "currency": "AUD",
+    "chgPct": 3.9222262128272427
+   },
+   {
     "sym": "NVDA",
     "name": "Nvidia",
     "market": "US",
@@ -83,12 +91,20 @@
     "chgPct": -3.91299053401242
    },
    {
-    "sym": "WDS.AX",
-    "name": "Woodside",
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
     "market": "ASX",
-    "price": 30.865,
+    "price": 139.76,
     "currency": "AUD",
-    "chgPct": 3.469661679319764
+    "chgPct": 3.5029262115555397
+   },
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 54,
+    "currency": "AUD",
+    "chgPct": 3.40865327017874
    },
    {
     "sym": "META",
@@ -97,22 +113,6 @@
     "price": 609.89,
     "currency": "USD",
     "chgPct": 3.402731753171768
-   },
-   {
-    "sym": "BHP.AX",
-    "name": "BHP",
-    "market": "ASX",
-    "price": 53.98,
-    "currency": "AUD",
-    "chgPct": 3.3703537689675565
-   },
-   {
-    "sym": "RIO.AX",
-    "name": "Rio Tinto",
-    "market": "ASX",
-    "price": 139.58,
-    "currency": "AUD",
-    "chgPct": 3.369622500063856
    }
   ]
  },
@@ -125,48 +125,6 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-      "summary": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-      "ts": 1795655321000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/8be52fd28c92b96c401c0b4cf6429a7e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "'She wasn’t a big contributor': Jane Hume and Scott Buchholz on One Nation defector",
-        "desc": "Deputy Liberal leader Jane Hume said Leah Blyth’s defection had come as a surprise. Liberal MP Scott Buchholz admitted he didn't know who Blyth was.",
-        "link": "https://www.theage.com.au/national/she-wasn-t-a-big-contributor-jane-hume-and-scott-buchholz-on-one-nation-defector-20261126-p61hhm.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-        "desc": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-        "link": "https://www.abc.net.au/news/2026-11-26/leah-blyth-liberal-one-nation-angus-taylor-/107428224"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "Liberal Leah Blyth’s defection to One Nation sees Pauline Hanson steal the spotlight again",
-        "desc": "The Albanese government may have hoped its legislative wins would be the main talking point this week, but Pauline Hanson had other ideas. Meanwhile, inflation figures hit a three-year high, adding to economic concerns. The post Liberal Leah Blyth’s defection to One Nation sees Pauline Hanson steal the spotlight again appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/26/leah-blyth-pauline-hanson-liberal-defection-one-nation-angus-taylor-alex-antic/"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "One Nation defector Leah Blyth accuses Liberals of infighting and lack of conviction",
-        "desc": "The South Australia senator said the decision to quit was \"mine alone\" and she had not consulted her Liberal Party colleagues.",
-        "link": "https://www.sbs.com.au/news/article/liberal-senator-lead-blyth-defects-to-one-nation-handing-hansons-party-a-fifth-senate-seat/5gezrw624"
-       }
-      ]
-     },
-     {
-      "id": 1,
       "headline": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
       "summary": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
       "ts": 1795658010000,
@@ -201,7 +159,7 @@
       ]
      },
      {
-      "id": 2,
+      "id": 1,
       "headline": "US announces new tariffs on host of countries including China",
       "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
       "ts": 1795656014000,
@@ -236,7 +194,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 2,
       "headline": "Court spares ‘sorry’ Tom Papley more punishment after pleading guilty to driving with suspended licence",
       "summary": "The Sydney Swans forward earned praise from a judge and walked free without a penalty.",
       "ts": 1795655714000,
@@ -267,6 +225,41 @@
         "title": "Geelong teacher's licence suspended amid police investigation",
         "desc": "A Geelong high school teacher's registration has been suspended amid a sexual offences and child abuse police team investigation into allegations relating to a previous role in Bendigo.",
         "link": "https://www.abc.net.au/news/2026-11-26/geelong-teacher-licence-suspended-amid-police-investigation/107425790"
+       }
+      ]
+     },
+     {
+      "id": 3,
+      "headline": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
+      "summary": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
+      "ts": 1795655321000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/8be52fd28c92b96c401c0b4cf6429a7e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "'She wasn’t a big contributor': Jane Hume and Scott Buchholz on One Nation defector",
+        "desc": "Deputy Liberal leader Jane Hume said Leah Blyth’s defection had come as a surprise. Liberal MP Scott Buchholz admitted he didn't know who Blyth was.",
+        "link": "https://www.theage.com.au/national/she-wasn-t-a-big-contributor-jane-hume-and-scott-buchholz-on-one-nation-defector-20261126-p61hhm.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
+        "desc": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
+        "link": "https://www.abc.net.au/news/2026-11-26/leah-blyth-liberal-one-nation-angus-taylor-/107428224"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "One Nation defector Leah Blyth accuses Liberals of infighting and lack of conviction",
+        "desc": "The South Australia senator said the decision to quit was \"mine alone\" and she had not consulted her Liberal Party colleagues.",
+        "link": "https://www.sbs.com.au/news/article/liberal-senator-lead-blyth-defects-to-one-nation-handing-hansons-party-a-fifth-senate-seat/5gezrw624"
        }
       ]
      },
@@ -309,7 +302,7 @@
       "id": 5,
       "headline": "Live: Victorian election stoush over dumped Liberal's blue t-shirts back in court",
       "summary": "As the major parties continue their push to election day, Labor are seeking an injunction in the Supreme Court to stop dumped Liberal candidate for Williamstown Paul Lindemann from campaigning in a blue t-shirt. Follow live in our election blog.",
-      "ts": 1795657550000,
+      "ts": 1795659170000,
       "img": "https://live-production.wcms.abc-cdn.net.au/d476eae69940cfdb99fb4d384a7cf40d?impolicy=wcms_crop_resize&cropH=471&cropW=837&xPos=0&yPos=173&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -335,10 +328,10 @@
      },
      {
       "id": 6,
-      "headline": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
-      "summary": "The outspoken former Aussie batter says he could not leave the confines of his room.",
-      "ts": 1795656314000,
-      "img": "https://images.7news.com.au/publication/C-23214655/38b4645d190b952988ed8f263897af65ac54cfb8-16x9-x0y2w1280h720.jpg",
+      "headline": "The missed warnings and misconceptions before Beau Lamarre-Condon murdered Luke and Jesse",
+      "summary": "Public awareness and research about intimate partner violence in the LGBTQI+ community is limited.",
+      "ts": 1795659113000,
+      "img": "https://assets.sbs.com.au/dims4/default/5e65c17/2147483647/strip/false/crop/1800x827+0+186/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F3b%2Ffc%2F1d555fe94db19adae95643a467d3%2F20260923124897548702-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -348,16 +341,16 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Usman Khawaja's urgent message for Pat Cummins after they stopped talking following his bombshell Sandpapergate revelations: 'I love the person he is and I love the leader he is'",
-        "desc": "Usman Khawaja has spoken out.",
-        "link": "https://www.dailymail.com/sport/cricket/article-16322613/usman-khawaja-pat-cummins-sandpapergate-falling-out.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "The red flags raised about killer cop Beau Lamarre-Condon during his cop training before he was given a gun and a NSW Police badge: 'Risk'",
+        "desc": "Police are investigating how convicted killer Beau Lamarre-Condon was ever allowed to become a NSW police officer after a series of red flags were raised during his training.",
+        "link": "https://www.dailymail.com/news/article-16322351/Beau-Lamarre-Condon-red-flags.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "7News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Usman Khawaja ‘disappointed’ by Pat Cummins’ ‘personal attack’ as CA deploys personal security measures",
-        "desc": "The outspoken former Aussie batter says he could not leave the confines of his room.",
-        "link": "https://7news.com.au/sport/cricket/usman-khawaja-disappointed-by-pat-cummins-personal-attack-as-ca-deploys-personal-security-measures-c-23214655"
+        "title": "The missed warnings and misconceptions before Beau Lamarre-Condon murdered Luke and Jesse",
+        "desc": "Public awareness and research about intimate partner violence in the LGBTQI+ community is limited.",
+        "link": "https://www.sbs.com.au/news/article/the-lessons-learned-from-beau-lamarre-condon/h44ztht7k"
        }
       ]
      }
@@ -371,8 +364,8 @@
       "id": 7,
       "headline": "View from The Hill: Liberal senator’s defection to One Nation a major blow to Angus Taylor",
       "summary": "Furious Liberals have unleashed on South Australian senator Leah Blyth, who has defected to One Nation. They have accused her of an ambush and being driven by an attempt to protect her Senate seat. The defection of Blyth, who had been assistant shadow minister for defence infrastructure, came as a complete shock to colleagues. Liberal deputy leader Jane Hume said she learned of it in the media. Op",
-      "ts": 1795654551000,
-      "img": "https://static.ffx.io/images/$zoom_0.4133%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_218%2C$y_45/t_crop_custom/q_86%2Cf_auto/afd00d0e2954e5fd32624f29fd8eeee91da20d6b",
+      "ts": 1795659121000,
+      "img": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/11a46325be40a2f0642059f6b019729a39fd254d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -380,18 +373,18 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "The Age Federal Politics",
+        "lean": "left",
+        "title": "Leah Blyth defects to One Nation",
+        "desc": "The Senator didn't tell any of her colleagues she was switching from the Coalition to One Nation.",
+        "link": "https://www.theage.com.au/politics/federal/leah-blyth-defects-to-one-nation-20261126-p61hkt.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
+       },
+       {
         "outlet": "The Conversation",
         "lean": "centre",
         "title": "View from The Hill: Liberal senator’s defection to One Nation a major blow to Angus Taylor",
         "desc": "Furious Liberals have unleashed on South Australian senator Leah Blyth, who has defected to One Nation. They have accused her of an ambush and being driven by an attempt to protect her Senate seat. The defection of Blyth, who had been assistant shadow minister for defence infrastructure, came as a complete shock to colleagues. Liberal deputy leader Jane Hume said she learned of it in the media. Op",
         "link": "https://theconversation.com/view-from-the-hill-liberal-senators-defection-to-one-nation-a-major-blow-to-angus-taylor-295661"
-       },
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "‘Turncoat town’: Liberal senator defects to One Nation",
-        "desc": "Pauline Hanson says the senator wanted to join One Nation because of infighting. But deputy Liberal leader Jane Hume says she “wasn’t a big contributor”.",
-        "link": "https://www.theage.com.au/politics/federal/liberal-senator-defects-to-one-nation-20261126-p61hdc.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      },
@@ -1023,10 +1016,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Reacher's Prime Video Replacement Is 2026's Best Thriller Series",
-      "summary": "Reacher has spent years as Prime Video's flagship action TV series, but it has now been surpassed by an even better show, which is the best of 2026.",
-      "ts": 1795654818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/untitled-design-2026-11-25t214558-222.jpg",
+      "headline": "A24's New Movie Has One Of The Year’s Best Rotten Tomatoes Audience Scores",
+      "summary": "A24's Club Kid opened in limited theaters earlier this month, and it's quickly received one of the best audience scores on Rotten Tomatoes.",
+      "ts": 1795658497000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/club-kid-2026-4.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1036,9 +1029,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Reacher's Prime Video Replacement Is 2026's Best Thriller Series",
-        "desc": "Reacher has spent years as Prime Video's flagship action TV series, but it has now been surpassed by an even better show, which is the best of 2026.",
-        "link": "https://screenrant.com/neagley-best-2026-action-thriller-series-reacher/"
+        "title": "A24's New Movie Has One Of The Year’s Best Rotten Tomatoes Audience Scores",
+        "desc": "A24's Club Kid opened in limited theaters earlier this month, and it's quickly received one of the best audience scores on Rotten Tomatoes.",
+        "link": "https://screenrant.com/club-kid-rotten-tomatoes-audience-score/"
        },
        {
         "outlet": "Deadline",
@@ -1107,10 +1100,10 @@
      },
      {
       "id": 34,
-      "headline": "‘Four Seasons In Java’ Review: Indonesia’s Oscar Submission Is a Gorgeous, Slow-Burning Thriller With Elements of Magical Realism",
-      "summary": "A gloriously executed slow burn of a suspense thriller, mixed with magical realism and other genre tropes, “Four Seasons In Java” connects the themes and concerns of Indonesian writer-director Kamila Andini’s previous films in an exhilarating and emotionally moving way. It follows a formerly incarcerated, sexually abused woman who returns to her remote Javanese village […]",
-      "ts": 1795657843000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/java-1.png",
+      "headline": "‘The Squirrel’ Review: An Endearing Futuristic Dramedy, Finland’s Oscar Entry Makes a Case for Organic Love in the Age of Automation",
+      "summary": "If Finnish master Aki Kaurismäki, with his measured emotional register and stoic humor, were to ever make a science-fiction film taking a page from a seminal text in the genre like “Blade Runner,” it may resemble Markus Lehmusruusu’s endearing dramedy “The Squirrel.” Before one learns anything else about how the film’s unspecified, seemingly idyllic future […]",
+      "ts": 1795659214000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/The-Squirrel_Orava_still5_photo_Max_Smeds_Bufo2025.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1120,39 +1113,18 @@
        {
         "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Four Seasons In Java’ Review: Indonesia’s Oscar Submission Is a Gorgeous, Slow-Burning Thriller With Elements of Magical Realism",
-        "desc": "A gloriously executed slow burn of a suspense thriller, mixed with magical realism and other genre tropes, “Four Seasons In Java” connects the themes and concerns of Indonesian writer-director Kamila Andini’s previous films in an exhilarating and emotionally moving way. It follows a formerly incarcerated, sexually abused woman who returns to her remote Javanese village […]",
-        "link": "https://variety.com/2026/film/reviews/four-seasons-in-java-review-1236953446/"
+        "title": "‘The Squirrel’ Review: An Endearing Futuristic Dramedy, Finland’s Oscar Entry Makes a Case for Organic Love in the Age of Automation",
+        "desc": "If Finnish master Aki Kaurismäki, with his measured emotional register and stoic humor, were to ever make a science-fiction film taking a page from a seminal text in the genre like “Blade Runner,” it may resemble Markus Lehmusruusu’s endearing dramedy “The Squirrel.” Before one learns anything else about how the film’s unspecified, seemingly idyllic future […]",
+        "link": "https://variety.com/2026/film/reviews/the-squirrel-review-1236955178/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Colman Domingo Responds to Post Telling Oscar Pundits Not to Add His ‘Michael’ Performance to Predictions: ‘Who Hurt You?’",
-      "summary": "Coleman Domingo is firing back at a critic of “Michael” and his performance as Joe Jackson, which some members of the film press forecast will earn him major nominations this awards season. “Hot take: Awards prognosticators adding Colman Domingo for Michael, you really don’t need to add a mid performance/bad movie. You really don’t,” posted […]",
-      "ts": 1795656969000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2305781950.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Colman Domingo Responds to Post Telling Oscar Pundits Not to Add His ‘Michael’ Performance to Predictions: ‘Who Hurt You?’",
-        "desc": "Coleman Domingo is firing back at a critic of “Michael” and his performance as Joe Jackson, which some members of the film press forecast will earn him major nominations this awards season. “Hot take: Awards prognosticators adding Colman Domingo for Michael, you really don’t need to add a mid performance/bad movie. You really don’t,” posted […]",
-        "link": "https://variety.com/2026/film/news/coleman-domingo-responds-michael-performance-1236958665/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Percy Jackson's 21-Year-Old Ares Mystery Answered By Star",
-      "summary": "EXCLUSIVE: 21 years after Rick Riordan's first Percy Jackson book was published, one of the Disney+ show's stars answers an unsolved Ares mystery.",
-      "ts": 1795656807000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/adam-copeland-as-ares-standing-in-front-of-a-row-of-dead-soldiers-in-percy-jackson-season-2.jpg",
+      "headline": "Black Clover Filler List: Every Episode You Can Skip",
+      "summary": "Like many long-running anime series Black Clover has its share of filler. Here’s which episodes viewers can skip without missing anything important.",
+      "ts": 1795658592000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/asta-in-front-of-yami-and-charmy-from-black-clover-filler-episodes.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1162,9 +1134,30 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Percy Jackson's 21-Year-Old Ares Mystery Answered By Star",
-        "desc": "EXCLUSIVE: 21 years after Rick Riordan's first Percy Jackson book was published, one of the Disney+ show's stars answers an unsolved Ares mystery.",
-        "link": "https://screenrant.com/percy-jackson-clarisse-mother-mystery-dior-goodjohn-response/"
+        "title": "Black Clover Filler List: Every Episode You Can Skip",
+        "desc": "Like many long-running anime series Black Clover has its share of filler. Here’s which episodes viewers can skip without missing anything important.",
+        "link": "https://screenrant.com/every-black-clover-filler-episode/"
+       }
+      ]
+     },
+     {
+      "id": 36,
+      "headline": "Dune: Part Three Fan Theory Suggests Chani Is Actually Scytale",
+      "summary": "A darkly fascinating theory suggests Dune: Part Three will feature a unique deviation from the books regarding Zendaya's Chani and her true nature.",
+      "ts": 1795658478000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/zendaya-as-chani-looking-up-in-dune-3.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Dune: Part Three Fan Theory Suggests Chani Is Actually Scytale",
+        "desc": "A darkly fascinating theory suggests Dune: Part Three will feature a unique deviation from the books regarding Zendaya's Chani and her true nature.",
+        "link": "https://screenrant.com/dune-part-three-fan-theory-chani-scytale-shapeshifter/"
        }
       ]
      }
@@ -1172,31 +1165,31 @@
    }
   ],
   "sourcesOk": [
-   "The Age",
    "Crikey",
    "ABC News",
+   "The Age",
    "BBC World",
    "The Age Federal Politics",
-   "The Conversation",
-   "Fox News",
+   "7News",
    "Fox News Politics",
+   "Fox News",
    "BBC Tech",
    "Ars Technica",
-   "SBS News",
    "The Age Business",
-   "ABC Business",
-   "The Verge",
+   "The Conversation",
+   "SBS News",
    "AFR",
-   "ABC Sport",
    "Fox Business",
-   "BBC Sport",
+   "ABC Sport",
    "Variety",
-   "7News",
+   "BBC Sport",
    "Deadline",
-   "Screen Rant",
+   "ABC Business",
+   "Daily Mail Australia",
    "Anime News Network",
-   "7News Sport",
-   "Daily Mail Australia"
+   "The Verge",
+   "Screen Rant",
+   "7News Sport"
   ],
   "sourcesFailed": [
    "Guardian Australia",
@@ -1406,7 +1399,7 @@
   {
    "title": "3 Chocolate Bags (M&M's, Maltesers, Pods) 120-180g for $10 ($7.90 S&S) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985445",
-   "votes": 172,
+   "votes": 173,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795586395000
@@ -1422,7 +1415,7 @@
   {
    "title": "PureVPN: 130% Cashback on 1-Year, 2-Year & Monthly Plans for New Customers (Max 1 Transaction Every 3 Weeks) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985529",
-   "votes": 108,
+   "votes": 110,
    "neg": 0,
    "category": "Internet",
    "ts": 1795611747000
@@ -1430,7 +1423,7 @@
   {
    "title": "[Switch 2, PS5, XSX] Call of Duty: Modern Warfare 4 $49 + $8 Delivery ($0 C&C/ in-Store/ OnePass/ $60 Order) @ Target",
    "link": "https://www.ozbargain.com.au/node/985511",
-   "votes": 105,
+   "votes": 107,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795604960000
@@ -1452,6 +1445,14 @@
    "ts": 1795592993000
   },
   {
+   "title": "XFX Swift Radeon RX 9070 GRE Triple Fan Gaming Edition 12GB GDDR6 Graphics Card $702.05 + Delivery ($0 NSW C&C) @ Mwave",
+   "link": "https://www.ozbargain.com.au/node/985579",
+   "votes": 73,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1795649990000
+  },
+  {
    "title": "Chery Tiggo 4 Urban from $22,490 Driveaway (by Exchanging $1,500 Fuel Card for Discount) @ Participating Chery Dealers",
    "link": "https://www.ozbargain.com.au/node/985468",
    "votes": 73,
@@ -1460,12 +1461,12 @@
    "ts": 1795593381000
   },
   {
-   "title": "XFX Swift Radeon RX 9070 GRE Triple Fan Gaming Edition 12GB GDDR6 Graphics Card $702.05 + Delivery ($0 NSW C&C) @ Mwave",
-   "link": "https://www.ozbargain.com.au/node/985579",
-   "votes": 67,
+   "title": "AmEx Statement Credit: Spend $150 or More at Myer, Get $15 Back @ American Express",
+   "link": "https://www.ozbargain.com.au/node/985553",
+   "votes": 63,
    "neg": 0,
-   "category": "Computing",
-   "ts": 1795649990000
+   "category": "Fashion & Apparel",
+   "ts": 1795640158000
   },
   {
    "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards (Limited Stock) @ ShopBack",
@@ -1476,17 +1477,9 @@
    "ts": 1795601847000
   },
   {
-   "title": "AmEx Statement Credit: Spend $150 or More at Myer, Get $15 Back @ American Express",
-   "link": "https://www.ozbargain.com.au/node/985553",
-   "votes": 60,
-   "neg": 0,
-   "category": "Fashion & Apparel",
-   "ts": 1795640158000
-  },
-  {
    "title": "Extra 10% off Selected Products @ Chemist Warehouse",
    "link": "https://www.ozbargain.com.au/node/985538",
-   "votes": 56,
+   "votes": 58,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1795626530000
@@ -1502,18 +1495,18 @@
   {
    "title": "tomtoc 40L Travel Backpack, Carry-on Luggage $99.99 Delivered @ tomtocDirect via Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985590",
-   "votes": 48,
+   "votes": 52,
    "neg": 0,
    "category": "Travel",
    "ts": 1795650928000
   },
   {
-   "title": "Shift Code for All Borderlands Franchise Games - 5 Golden/Skeleton Keys @ Gearbox Software",
-   "link": "https://www.ozbargain.com.au/node/985562",
-   "votes": 39,
+   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
+   "link": "https://www.ozbargain.com.au/node/985609",
+   "votes": 47,
    "neg": 0,
-   "category": "Gaming",
-   "ts": 1795645113000
+   "category": "Mobile",
+   "ts": 1795654258000
   }
  ],
  "carried": {}
