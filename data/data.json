@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T22:00:25.960Z",
+ "generatedAt": "2026-11-26T23:00:26.769Z",
  "markets": {
   "items": [
    {
@@ -8,7 +8,7 @@
     "name": "S&P/ASX 200 index",
     "fmt": "index",
     "price": 8763.8,
-    "chgPct": 0.8214026755141857,
+    "chgPct": 0.42858002957529484,
     "high52": 9296.7,
     "off52": -5.732141512579748
    },
@@ -18,7 +18,7 @@
     "name": "Global Shares ETF",
     "fmt": "aud",
     "price": 85.71,
-    "chgPct": 0.0000010681686469217126,
+    "chgPct": 0.23388826894296869,
     "high52": 88.25,
     "off52": -2.878186968838534
    },
@@ -28,7 +28,7 @@
     "name": "Australia 200 ETF",
     "fmt": "aud",
     "price": 146.79,
-    "chgPct": 0.000004573790780448369,
+    "chgPct": 0.8796684361801147,
     "high52": 155.03,
     "off52": -5.315100303167135
    },
@@ -38,7 +38,7 @@
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
     "price": 57.63,
-    "chgPct": -0.000001853401374319944,
+    "chgPct": 0.8928590295028016,
     "high52": 65.18,
     "off52": -11.583307763117526
    },
@@ -48,7 +48,7 @@
     "name": "Semiconductor ETF",
     "fmt": "aud",
     "price": 28.75,
-    "chgPct": 0,
+    "chgPct": 2.1314401051528433,
     "high52": 47.78,
     "off52": -39.82838007534533
    },
@@ -57,10 +57,10 @@
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6637,
-    "chgPct": 0.04547412092584983,
+    "price": 0.6633,
+    "chgPct": -0.01482147896621878,
     "high52": 0.7277,
-    "off52": -8.794833035591598
+    "off52": -8.849800742064039
    }
   ],
   "failed": [],
@@ -75,6 +75,22 @@
     "chgPct": -3.91299053401242
    },
    {
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 13.85,
+    "currency": "AUD",
+    "chgPct": 3.9009758384857713
+   },
+   {
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
+    "market": "ASX",
+    "price": 139.79,
+    "currency": "AUD",
+    "chgPct": 3.5251434968041577
+   },
+   {
     "sym": "META",
     "name": "Meta",
     "market": "US",
@@ -83,12 +99,20 @@
     "chgPct": 3.402731753171768
    },
    {
-    "sym": "AMZN",
-    "name": "Amazon",
-    "market": "US",
-    "price": 244.43,
-    "currency": "USD",
-    "chgPct": -3.115459786476134
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 53.99,
+    "currency": "AUD",
+    "chgPct": 3.389503519573155
+   },
+   {
+    "sym": "WDS.AX",
+    "name": "Woodside",
+    "market": "ASX",
+    "price": 30.8,
+    "currency": "AUD",
+    "chgPct": 3.2517602372606174
    }
   ]
  },
@@ -103,8 +127,36 @@
       "id": 0,
       "headline": "Save more than $200 on the ‘best noise-cancelling headphones in the world’ by Bose this Black Friday",
       "summary": "Plus, 7You readers can get an extra $20 off if they are among the first 50 customers.",
-      "ts": 1795730079000,
-      "img": "https://images.7news.com.au/publication/C-23214746/c4454058653b79638fc042d0e2cacaf18b094439-16x9-x0y0w1280h720.jpg",
+      "ts": 1795732843000,
+      "img": "https://images.7news.com.au/publication/C-23214746/37ee4e3d5831e43f4014a5a162aad0514e4393d1-16x9-x0y0w1280h720.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Black Friday 2026: The best deals to shop this weekend, with massive savings on fashion, beauty, tech and more",
+        "desc": "Black Friday 2026 officially kicks off on Friday 27 November and runs all weekend, so if you've been waiting for the right moment to buy, this is the last chance.",
+        "link": "https://www.dailymail.com/buyline/article-16319965/Best-Black-2026-Friday-sales-best-deals-2026.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Save more than $200 on the ‘best noise-cancelling headphones in the world’ by Bose this Black Friday",
+        "desc": "Plus, 7You readers can get an extra $20 off if they are among the first 50 customers.",
+        "link": "https://7news.com.au/7you/tech/save-more-than-200-on-the-best-noise-cancelling-headphones-in-the-world-by-bose-this-black-friday-c-23214746"
+       }
+      ]
+     },
+     {
+      "id": 1,
+      "headline": "Mining company offers workers thousands in cash for unused sick leave as lucrative industry perks revealed",
+      "summary": "The perk doesn’t even affect employees’ accumulated sick leave balance with the money paid out each Christmas.",
+      "ts": 1795732756000,
+      "img": "https://images.7news.com.au/publication/C-23219411/accb2af01b4599126c4e3d6a3e47bef344eab572-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -114,25 +166,25 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Save more than $200 on the ‘best noise-cancelling headphones in the world’ by Bose this Black Friday",
-        "desc": "Plus, 7You readers can get an extra $20 off if they are among the first 50 customers.",
-        "link": "https://7news.com.au/7you/tech/save-more-than-200-on-the-best-noise-cancelling-headphones-in-the-world-by-bose-this-black-friday-c-23214746"
+        "title": "Mining company offers workers thousands in cash for unused sick leave as lucrative industry perks revealed",
+        "desc": "The perk doesn’t even affect employees’ accumulated sick leave balance with the money paid out each Christmas.",
+        "link": "https://7news.com.au/business/mining/mining-company-offers-workers-thousands-in-cash-for-unused-sick-leave-as-lucrative-industry-perks-revealed-c-23219411"
        },
        {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Amazon Black Friday bargain hunter: Daily Mail's live coverage of the best buys and biggest discounts - including top robot vacuum with 85 per cent off",
-        "desc": "UPDATED: The Daily Mail Shopping team bring you the best of the Black Friday sale, finding the best deals so you don't have to",
-        "link": "https://www.dailymail.com/buyline/article-16295475/Amazon-Black-Friday-sale-2026-best-deals-biggest-discounts.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Doctors report missing out on paid parental leave and job offers while pregnant",
+        "desc": "Several doctors have told Four Corners they believe they have been penalised for having children while pursuing a career in medicine.",
+        "link": "https://www.abc.net.au/news/2026-11-27/doctors-allege-pregnancy-discrimination-in-medicine/107396068"
        }
       ]
      },
      {
-      "id": 1,
-      "headline": "Aaron Rodgers vs Mike McCarthy: Timeline of beloved Super Bowl duo's descent into baffling NFL soap opera",
-      "summary": "Aaron Rodgers accused Mike McCarthy of falling asleep in meetings and missing walkthroughs on \"The Pat McAfee Show\" before the Steelers released him.",
-      "ts": 1795729891000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/aaron-rodgers-mike-mccarthy-hall-of-fame-game-cancelled.jpg?ve=1&tl=1",
+      "id": 2,
+      "headline": "Passport information may have been exposed in Flight Centre cyber incident",
+      "summary": "Flight Centre says it is investigating an incident related to its third-party accommodation booking system.",
+      "ts": 1795731991000,
+      "img": "https://assets.sbs.com.au/dims4/default/c6eac92/2147483647/strip/false/crop/4853x2230+0+503/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fd7%2F70%2F1d13f03c47aab66cb30017e3f839%2F20250826113526941460-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -142,21 +194,49 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Music star is shot dead in horrific home invasion just days after performing at Canada's answer to the Super Bowl",
-        "desc": "The musician was killed in his Toronto home in the early hours of Wednesday morning.",
-        "link": "https://www.dailymail.com/news/article-16325317/Music-star-dead-home-invasion.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Australian passports leaked in Flight Centre hack",
+        "desc": "Travel giant Flight Centre is investigating a data breach at one of its booking providers which may have exposed customer passport information to hackers.",
+        "link": "https://www.dailymail.com/news/article-16325421/Australian-passports-leaked-Flight-Centre-hack.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Aaron Rodgers vs Mike McCarthy: Timeline of beloved Super Bowl duo's descent into baffling NFL soap opera",
-        "desc": "Aaron Rodgers accused Mike McCarthy of falling asleep in meetings and missing walkthroughs on \"The Pat McAfee Show\" before the Steelers released him.",
-        "link": "https://www.foxnews.com/outkick-sports/aaron-rodgers-vs-mike-mccarthy-timeline-beloved-super-bowl-duo-descent-baffling-nfl-soap-opera"
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Passport information may have been exposed in Flight Centre cyber incident",
+        "desc": "Flight Centre says it is investigating an incident related to its third-party accommodation booking system.",
+        "link": "https://www.sbs.com.au/news/article/flight-centre-data-breach-passport-information-exposed/hcftztmc4"
        }
       ]
      },
      {
-      "id": 2,
+      "id": 3,
+      "headline": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
+      "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
+      "ts": 1795730780000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
+        "desc": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
+        "link": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Trump says he told Putin to 'pull back' from military aggression against Europe",
+        "desc": "The US president has pushed to end the war in Ukraine, but his latest remarks suggest he is referring to the wider region.",
+        "link": "https://www.sbs.com.au/news/article/trump-says-he-told-putin-to-pull-back-from-military-aggression-against-europe/xydlsve92"
+       }
+      ]
+     },
+     {
+      "id": 4,
       "headline": "Major Thanksgiving storms inundate US with heavy rain, wind and flooding",
       "summary": "Nearly 200,000 homes and businesses have lost power in Virginia and another 177,000 in Maryland, with flights also affected.",
       "ts": 1795728311000,
@@ -184,7 +264,7 @@
       ]
      },
      {
-      "id": 3,
+      "id": 5,
       "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
       "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
       "ts": 1795727873000,
@@ -212,7 +292,7 @@
       ]
      },
      {
-      "id": 4,
+      "id": 6,
       "headline": "Victoria votes: What motorists need to know before the 2026 state election",
       "summary": "The Victorian state election is just a day away, and roads and motoring policies form many of the promises made by the major parties.",
       "ts": 1795727221000,
@@ -236,62 +316,6 @@
         "title": "Victoria's election wildcard may not be who voters expect",
         "desc": "One Nation may be grabbing the spotlight, but an expert says the real electoral shake-up could come from elsewhere.",
         "link": "https://www.sbs.com.au/news/article/victorias-election-one-nation-vote-share/pnafex3p2"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Live: ASX to edge higher as global stocks climb",
-      "summary": "The ASX is set to open a little higher after solid gains across Europe and Asia. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-      "ts": 1795724866000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/9ecbb7589425ea7a7b2287a8b1bf6341?impolicy=wcms_crop_resize&cropH=2036&cropW=3619&xPos=0&yPos=141&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Live: ASX to edge higher as global stocks climb",
-        "desc": "The ASX is set to open a little higher after solid gains across Europe and Asia. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
-        "link": "https://www.abc.net.au/news/2026-11-27/asx-markets-business-news-live-updates/107430390"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "ASX set for gains, global stocks rise; Oil prices climb",
-        "desc": "The Australian sharemarket is set for a positiver start to the session as global stocks advanced overnight. Wall Street was closed for Thanksgiving.",
-        "link": "https://www.theage.com.au/business/markets/asx-set-for-gains-global-stocks-rise-20261127-p61hqd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Plan to keep more Australian gas onshore set to become law after Labor, Coalition form deal",
-      "summary": "The Coalition has backflipped on its opposition to changes that could lead to cheaper gas.",
-      "ts": 1795724080000,
-      "img": "https://assets.sbs.com.au/dims4/default/4bee3fb/2147483647/strip/false/crop/4032x1853+0+418/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fa8%2F17%2F59fe210748108e34d8c517757734%2F20240521124452115797-original.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "All eyes on Victoria as Jess Wilson’s Coalition set to end 12 years of Labor rule",
-        "desc": "The final polls are out before the Victorian election and things continue to look very positive for the Coalition and extremely bleak for Labor. Meanwhile, the Albanese government managed to wrap up a pretty successful week in Canberra by passing its gas reservation scheme. The post All eyes on Victoria as Jess Wilson’s Coalition set to end 12 years of Labor rule appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/27/victoria-election-jess-wilson-coalition-gas-reservation-scheme-passed/"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "Plan to keep more Australian gas onshore set to become law after Labor, Coalition form deal",
-        "desc": "The Coalition has backflipped on its opposition to changes that could lead to cheaper gas.",
-        "link": "https://www.sbs.com.au/news/article/plan-to-keep-more-australian-gas-onshore-set-to-become-law-after-labor-coalition-form-deal/bgr2t44uy"
        }
       ]
      }
@@ -331,6 +355,27 @@
      },
      {
       "id": 8,
+      "headline": "Coalition set for a big win in Victorian election as One Nation fades in final polls",
+      "summary": "The Victorian election is on Saturday with polls closing at 6pm AEDT. There are a total of 88 lower house seats, elected in single-member electorates by preferential voting. All 40 upper house seats are also up for election in eight five-member electorates by proportional representation with preferences. In the final Victorian Newspoll and DemosAU polls, One Nation was down two to five points to 1",
+      "ts": 1795731755000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "Coalition set for a big win in Victorian election as One Nation fades in final polls",
+        "desc": "The Victorian election is on Saturday with polls closing at 6pm AEDT. There are a total of 88 lower house seats, elected in single-member electorates by preferential voting. All 40 upper house seats are also up for election in eight five-member electorates by proportional representation with preferences. In the final Victorian Newspoll and DemosAU polls, One Nation was down two to five points to 1",
+        "link": "https://theconversation.com/coalition-set-for-a-big-win-in-victorian-election-as-one-nation-fades-in-final-polls-297630"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "Trump takes on Somali welfare dependency in Thanksgiving message, lays out who should stay in US",
       "summary": "President Donald Trump says only 2% of Minnesota's Somali community should stay, claiming on Truth Social the rest should be thrown out to save the state.",
       "ts": 1795726710000,
@@ -351,7 +396,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Politics, money and Thanksgiving dinner: Just two words can help avoid argument",
       "summary": "Dr. Joel Davis Brown says swapping \"yes, but\" for \"yes, and\" can keep Thanksgiving dinner talk civil as post-midterm politics turn tense at the table.",
       "ts": 1795719655000,
@@ -372,7 +417,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "On the back of Labor spending, fortunes are turning for Angus Taylor",
       "summary": "Labor has spent this year cycling through various explanations for our inflation woes, but now it has to concede.",
       "ts": 1795716000000,
@@ -393,7 +438,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Damning report lays out ‘extraordinary’ failures of sanctions office",
       "summary": "Although the sanctions office received a $26m boost to bolster sanctions enforcement in 2024, an audit found it has not been effective in compliance monitoring.",
       "ts": 1795716000000,
@@ -410,27 +455,6 @@
         "title": "Damning report lays out ‘extraordinary’ failures of sanctions office",
         "desc": "Although the sanctions office received a $26m boost to bolster sanctions enforcement in 2024, an audit found it has not been effective in compliance monitoring.",
         "link": "https://www.theage.com.au/politics/federal/damning-report-lays-out-extraordinary-failures-of-sanctions-office-20261127-p61hgu.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "2026's biggest political turkeys: Scandals, gaffes and other memorable unfortunate moments from this year",
-      "summary": "Eric Swalwell's California gubernatorial collapse, Tim Walz's fraud scandal and more: the political figures whose 2026 ended in scandal and defeat.",
-      "ts": 1795708802000,
-      "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/Capitol-Turkeys.jpg?ve=1&tl=1",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Fox News Politics",
-        "lean": "right",
-        "title": "2026's biggest political turkeys: Scandals, gaffes and other memorable unfortunate moments from this year",
-        "desc": "Eric Swalwell's California gubernatorial collapse, Tim Walz's fraud scandal and more: the political figures whose 2026 ended in scandal and defeat.",
-        "link": "https://www.foxnews.com/politics/2026-biggest-political-turkeys-scandals-gaffes-memorable-unfortunate-moments-year"
        }
       ]
      }
@@ -470,34 +494,6 @@
      },
      {
       "id": 14,
-      "headline": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
-      "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
-      "ts": 1795624425000,
-      "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2306257922-1024x648.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Ars Technica",
-        "lean": "centre",
-        "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
-        "desc": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
-        "link": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
-       },
-       {
-        "outlet": "BBC Tech",
-        "lean": "centre",
-        "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-        "desc": "The verdict follows a months-long trial in New York.",
-        "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-       }
-      ]
-     },
-     {
-      "id": 15,
       "headline": "Netflix’s coziest show has made a very quiet return",
       "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best shows to zoom right past you, unnoticed - which almost happened to me with Midnight Dine",
       "ts": 1795726800000,
@@ -518,7 +514,7 @@
       ]
      },
      {
-      "id": 16,
+      "id": 15,
       "headline": "The Garmin Forerunner 265S is down to $300, its best price of the year",
       "summary": "The Forerunner 265S is great for runners with small wrists. | Photo by Amelia Holowaty Krales / The Verge The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldi",
       "ts": 1795719600000,
@@ -539,7 +535,7 @@
       ]
      },
      {
-      "id": 17,
+      "id": 16,
       "headline": "Ford unveils the GT41 as it hopes to win Le Mans again",
       "summary": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
       "ts": 1795716029000,
@@ -560,7 +556,7 @@
       ]
      },
      {
-      "id": 18,
+      "id": 17,
       "headline": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
       "summary": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is available for $699.99 via ",
       "ts": 1795712820000,
@@ -577,6 +573,27 @@
         "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
         "desc": "This thing is poised to eat their lunch. | Photo: Amelia Holowaty Krales / The Verge If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is available for $699.99 via ",
         "link": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale"
+       }
+      ]
+     },
+     {
+      "id": 18,
+      "headline": "Android app developers will soon have to share their address publicly",
+      "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. Developers have until February 1st 2027 to declare whe",
+      "ts": 1795712784000,
+      "img": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24007893/acastro_STK112_android_02.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=480",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Verge",
+        "lean": "centre",
+        "title": "Android app developers will soon have to share their address publicly",
+        "desc": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. Developers have until February 1st 2027 to declare whe",
+        "link": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
        }
       ]
      }
@@ -623,9 +640,37 @@
      },
      {
       "id": 20,
-      "headline": "Gas reservation laws passes House of Representatives",
+      "headline": "David Jones job cuts rise to 1755 ahead of next week’s buyer shortlist",
+      "summary": "David Jones collapsed on November 5 and owes almost $460 million to creditors, including its owners private equity firm Anchorage Capital Partners.",
+      "ts": 1795733646000,
+      "img": "https://static.ffx.io/images/$zoom_0.1905%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/46696c0385bd2f6715d471a2cf4318a3a6ede4b7",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "David Jones job cuts rise to 1755 ahead of next week’s buyer shortlist",
+        "desc": "David Jones collapsed on November 5 and owes almost $460 million to creditors, including its owners private equity firm Anchorage Capital Partners.",
+        "link": "https://www.afr.com/companies/retail/david-jones-job-cuts-rise-to-1755-ahead-of-next-week-s-buyer-shortlist-20261127-p61hs1?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "Fed's favored inflation gauge rose in October ahead of expected Fed rate hike next month",
+        "desc": "The Commerce Department released the October PCE inflation data which showed that the Federal Reserve's favored inflation gauge ticked higher last month.",
+        "link": "https://www.foxbusiness.com/economy/october-2026-pce-inflation"
+       }
+      ]
+     },
+     {
+      "id": 21,
+      "headline": "Gas reservation laws passes parliament with Coalition backing",
       "summary": "Labor and Coalition have waved through new gas laws; The resources minister won’t guarantee retail gas prices under the scheme; Scathing report slams toothless sanctions watchdog. Follow live updates.",
-      "ts": 1795730304000,
+      "ts": 1795731512000,
       "img": "https://static.ffx.io/images/$zoom_0.2565%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_202%2C$y_223/t_crop_custom/q_86%2Cf_auto/cc8f62d7e56d068b01e1bc2fb7b4976e334a679c",
       "divergent": null,
       "left_view": null,
@@ -636,7 +681,7 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "Gas reservation laws passes House of Representatives",
+        "title": "Gas reservation laws passes parliament with Coalition backing",
         "desc": "Labor and Coalition have waved through new gas laws; The resources minister won’t guarantee retail gas prices under the scheme; Scathing report slams toothless sanctions watchdog. Follow live updates.",
         "link": "https://www.afr.com/politics/federal/australia-news-live-updates-donald-trump-threatens-china-with-40pc-tariffs-20261127-p61hq3?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
@@ -650,7 +695,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 22,
       "headline": "Live: ASX to edge higher as global stocks climb",
       "summary": "The ASX is set to open a little higher after solid gains across Europe and Asia. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
       "ts": 1795724866000,
@@ -678,7 +723,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 23,
       "headline": "Flight Centre investigating mass cyber breach",
       "summary": "The travel agency has apologised as it investigates a cyber breach believed to have exposed a significant number of customer records, including passport details.",
       "ts": 1795689694000,
@@ -706,7 +751,7 @@
       ]
      },
      {
-      "id": 23,
+      "id": 24,
       "headline": "David Jones boss says past management lacked 'the balls to make tough decisions' — as it happened",
       "summary": "David Jones's administrators have been granted a three-month extension for their second creditors' meeting.",
       "ts": 1795656129000,
@@ -730,34 +775,6 @@
         "title": "David Jones boss says past management lacked 'the balls to make tough decisions' — as it happened",
         "desc": "David Jones's administrators have been granted a three-month extension for their second creditors' meeting.",
         "link": "https://www.abc.net.au/news/2026-11-26/asx-markets-business-news-live-updates-thursday-26-november/107428134"
-       }
-      ]
-     },
-     {
-      "id": 24,
-      "headline": "US approves Musk's plan for space-based data centres",
-      "summary": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
-      "ts": 1795634460000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1a49ab6fa87808929d3b8db5a22b4595?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=209&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "US approves Musk's plan for space-based data centres",
-        "desc": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
-        "link": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
-        "desc": "The FCC approved Elon Musk's SpaceX plan for up to 1 million solar-powered satellites to build artificial intelligence data centers in orbit.",
-        "link": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
        }
       ]
      }
@@ -909,10 +926,10 @@
      },
      {
       "id": 30,
-      "headline": "How to watch Supercars grand final live and free on Seven and 7plus, race start times and title contenders",
-      "summary": "Get all the broadcast details as the title race goes down to the wire in Adelaide.",
-      "ts": 1795730400000,
-      "img": "https://images.7news.com.au/publication/C-23210032/5df1ffcf5497057787226e0b54d1d836cdc48e96-16x9-x0y0w1280h720.jpg",
+      "headline": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
+      "summary": "Bournemouth are dreaming of winning the Europa League after joining a select band of teams who have won their first five European games.",
+      "ts": 1795732072000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/278c/live/15481e30-e9e0-11f1-9361-cd8ed0157587.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -920,11 +937,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "7News Sport",
+        "outlet": "BBC Sport",
         "lean": "centre",
-        "title": "How to watch Supercars grand final live and free on Seven and 7plus, race start times and title contenders",
-        "desc": "Get all the broadcast details as the title race goes down to the wire in Adelaide.",
-        "link": "https://7news.com.au/sport/motorsport/how-to-watch-supercars-grand-final-live-and-free-on-seven-and-7plus-race-start-times-and-title-contenders-c-23210032"
+        "title": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
+        "desc": "Bournemouth are dreaming of winning the Europa League after joining a select band of teams who have won their first five European games.",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss"
        }
       ]
      }
@@ -936,10 +953,10 @@
     "stories": [
      {
       "id": 31,
-      "headline": "Hello Kitty Movie Gets New Story Details From Sanrio CEO Ahead Of 2028 Release",
-      "summary": "The Hello Kitty Movie gets exciting new storyline details from the CEO of Sanrio, Craig Takiguchi, and an encouraging development update.",
-      "ts": 1795730418000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/hello-kitty-hello-world-1-trailer-cover-image.png",
+      "headline": "68 Years Later, DC's Answer to Guardians of the Galaxy Is Still Its Most Underrated Super Team",
+      "summary": "There's more than enough room in the multiverse for multiple spacefaring super-groups, with one iconic DC team significantly predating Marvel's.",
+      "ts": 1795734018000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/star-lord-gamora-and-rocket-raccoon-stand-next-to-each-other-in-marvel-comics-guardians-of-the-galaxy.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -949,25 +966,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Hello Kitty Movie Gets New Story Details From Sanrio CEO Ahead Of 2028 Release",
-        "desc": "The Hello Kitty Movie gets exciting new storyline details from the CEO of Sanrio, Craig Takiguchi, and an encouraging development update.",
-        "link": "https://screenrant.com/hello-kitty-movie-new-story-details-sanrio-craig-takiguchi/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "Luca Guadagnino Wants Next Movie to Be a ‘Love Story,’ Confirms ‘American Psycho’ and ‘Separate Rooms’ Not Happening",
-        "desc": "Luca Guadagnino wants to return to romance. Speaking to Variety at the Marrakech Film Festival where he’s presenting “Artificial,” the Italian filmmaker behind “Call Me by Your Name,” “Bones and All” and “Queer” revealed that he hopes his next directorial endeavor will be another love story. “I think a lot of inspiration could come from […]",
-        "link": "https://variety.com/2026/film/news/luca-guadagnino-next-movie-love-story-1236959119/"
+        "title": "68 Years Later, DC's Answer to Guardians of the Galaxy Is Still Its Most Underrated Super Team",
+        "desc": "There's more than enough room in the multiverse for multiple spacefaring super-groups, with one iconic DC team significantly predating Marvel's.",
+        "link": "https://screenrant.com/dc-legion-superheroes-guardians-galaxy-replacement/"
        }
       ]
      },
      {
       "id": 32,
-      "headline": "Why There Are No Law & Order & SVU Tonight (Nov 26) & When New Episodes Release",
-      "summary": "Unfortunately, Law & Order and SVU won't be airing tonight, but they'll be back soon (and then they'll briefly disappear once again).",
-      "ts": 1795730418000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/mixcollage-13-nov-2026-08-47-am-2683.jpg",
+      "headline": "Forget The Searchers, John Wayne's 94-Minute Thriller With Another Western Legend Deserves More Love",
+      "summary": "It may not be a masterpiece like The Searchers, but this John Wayne Western, which teamed him with another legend, could use some more love.",
+      "ts": 1795733659000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/john-wayne-as-young-matt-wearing-a-hat-outdoors-in-the-shepherd-of-the-hills.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -977,18 +987,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Why There Are No Law & Order & SVU Tonight (Nov 26) & When New Episodes Release",
-        "desc": "Unfortunately, Law & Order and SVU won't be airing tonight, but they'll be back soon (and then they'll briefly disappear once again).",
-        "link": "https://screenrant.com/law-and-order-svu-no-new-episode-november-26-2026-reason-return-when/"
+        "title": "Forget The Searchers, John Wayne's 94-Minute Thriller With Another Western Legend Deserves More Love",
+        "desc": "It may not be a masterpiece like The Searchers, but this John Wayne Western, which teamed him with another legend, could use some more love.",
+        "link": "https://screenrant.com/john-wayne-dark-command-movie-forget-the-searchers/"
        }
       ]
      },
      {
       "id": 33,
-      "headline": "A Forgotten PlayStation 1 Classic Is Officially Returning After 30 Years",
-      "summary": "This forgotten PlayStation 1 game is finally being released on modern platforms after being abandoned for 30 years.",
-      "ts": 1795730418000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/playstation-1-console.jpg",
+      "headline": "K/DA Gets New Rival With Official PUBG K-Pop Project",
+      "summary": "PUBG is embarking on an ambitious new multimedia era, and it's kicking things off with a music project involving some major K-pop stars.",
+      "ts": 1795733596000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/pubg-ive-wonyoung.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -998,18 +1008,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "A Forgotten PlayStation 1 Classic Is Officially Returning After 30 Years",
-        "desc": "This forgotten PlayStation 1 game is finally being released on modern platforms after being abandoned for 30 years.",
-        "link": "https://screenrant.com/playstation-1-forgotten-classic-switch-2-ps5-remaster/"
+        "title": "K/DA Gets New Rival With Official PUBG K-Pop Project",
+        "desc": "PUBG is embarking on an ambitious new multimedia era, and it's kicking things off with a music project involving some major K-pop stars.",
+        "link": "https://screenrant.com/pubg-ive-renegade-the-squad-crossover/"
        }
       ]
      },
      {
       "id": 34,
-      "headline": "‘Hunger Games’ Producer Regrets Splitting ‘Mockingjay’ As Fans Felt It Was A “Play To Make Them See Two Films Instead Of One”",
-      "summary": "With the release of the prequel The Hunger Games: Sunrise on the Reaping, franchise producer Nina Jacobson regrets splitting the Mockingjay films into two parts. At the time, The Twilight Saga and Harry Potter split their grand finale into two films, and Lionsgate followed suit, breaking up the last Suzanne Collins book of the OG Hunger Games […]",
-      "ts": 1795730414000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/hunger-games-mockingjay-jennifer-lawrence.jpg",
+      "headline": "Asha Bhosle and S. Janaki Remembered by Singer K.S. Chithra and Suhasini Maniratnam at IFFI’s Lata Mangeshkar Talk",
+      "summary": "Asha Bhosle and S. Janaki, two of Indian cinema’s most celebrated playback singers, were remembered at the 57th International Film Festival of India (IFFI) in Goa by singer K.S. Chithra and actor-filmmaker Suhasini Maniratnam. Bhosle, a two-time Grammy nominee whose name was referenced in Cornershop’s 1997 hit “Brimful of Asha,” died in April at 92. […]",
+      "ts": 1795732481000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/Chithra-Suhasini.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1017,20 +1027,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Deadline",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "‘Hunger Games’ Producer Regrets Splitting ‘Mockingjay’ As Fans Felt It Was A “Play To Make Them See Two Films Instead Of One”",
-        "desc": "With the release of the prequel The Hunger Games: Sunrise on the Reaping, franchise producer Nina Jacobson regrets splitting the Mockingjay films into two parts. At the time, The Twilight Saga and Harry Potter split their grand finale into two films, and Lionsgate followed suit, breaking up the last Suzanne Collins book of the OG Hunger Games […]",
-        "link": "https://deadline.com/2026/11/hunger-games-producer-regrets-splitting-mockingjay-1237233567/"
+        "title": "Asha Bhosle and S. Janaki Remembered by Singer K.S. Chithra and Suhasini Maniratnam at IFFI’s Lata Mangeshkar Talk",
+        "desc": "Asha Bhosle and S. Janaki, two of Indian cinema’s most celebrated playback singers, were remembered at the 57th International Film Festival of India (IFFI) in Goa by singer K.S. Chithra and actor-filmmaker Suhasini Maniratnam. Bhosle, a two-time Grammy nominee whose name was referenced in Cornershop’s 1997 hit “Brimful of Asha,” died in April at 92. […]",
+        "link": "https://variety.com/2026/film/festivals/asha-bhosle-s-janaki-ks-chithra-suhasini-iffi-1236959192/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "Paramount+'s Hit New Rambo Meets MacGyver Action Movie Is A Perfect Reacher Replacement",
-      "summary": "Paramount+'s hit action thriller combines Reacher's toughness, Rambo's survival skills, and MacGyver's ingenuity into one entertaining adventure.",
-      "ts": 1795728618000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/alan-ritchson-as-reacher-looking-at-someone-in-reacher-season-4-episode-1.jpg",
+      "headline": "Jesse Plemons on the ‘Honor’ of Playing Plutarch in ‘The Hunger Games’ After Philip Seymour Hoffman and Debating Director Francis Lawrence Over the Character’s Motivations",
+      "summary": "“The Hunger Games: Sunrise on the Reaping” might be Haymitch Abernathy’s prequel movie, but Oscar nominee Jesse Plemons was the first person cast in the film. Plemons plays Plutarch Heavensbee, a Capitol insider, who becomes a key figure in the rebellion that sparks in the latter half of Suzanne Collins’ original trilogy of dystopian novels. […]",
+      "ts": 1795732237000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/solstice-unit-250925-00425rc.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1038,20 +1048,20 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Screen Rant",
+        "outlet": "Variety",
         "lean": "centre",
-        "title": "Paramount+'s Hit New Rambo Meets MacGyver Action Movie Is A Perfect Reacher Replacement",
-        "desc": "Paramount+'s hit action thriller combines Reacher's toughness, Rambo's survival skills, and MacGyver's ingenuity into one entertaining adventure.",
-        "link": "https://screenrant.com/paramount-plus-off-the-grid-action-movie-reacher-replacement/"
+        "title": "Jesse Plemons on the ‘Honor’ of Playing Plutarch in ‘The Hunger Games’ After Philip Seymour Hoffman and Debating Director Francis Lawrence Over the Character’s Motivations",
+        "desc": "“The Hunger Games: Sunrise on the Reaping” might be Haymitch Abernathy’s prequel movie, but Oscar nominee Jesse Plemons was the first person cast in the film. Plemons plays Plutarch Heavensbee, a Capitol insider, who becomes a key figure in the rebellion that sparks in the latter half of Suzanne Collins’ original trilogy of dystopian novels. […]",
+        "link": "https://variety.com/2026/film/features/hunger-games-jesse-plemons-philip-seymour-hoffman-plutarch-1236957335/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Steve Rogers Wields Mjolnir In Avengers: Doomsday’s Action-Packed New Look",
-      "summary": "Avengers: Doomsday's latest sneak peek offers viewers a different side of Steve Rogers ahead of the upcoming superhero film's release.",
-      "ts": 1795728618000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/steve-rogers-chris-evans-in-avengers-doomsday.jpg",
+      "headline": "All 3 The Rings Of Power Seasons, Ranked Worst To Best",
+      "summary": "The Lord of the Rings: The Rings of Power completes its third season with confirmation of a fourth, but some of its releases are better than others.",
+      "ts": 1795732219000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/the-lord-of-the-rings-the-rings-of-power_kyjtpw-1.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1061,9 +1071,9 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Steve Rogers Wields Mjolnir In Avengers: Doomsday’s Action-Packed New Look",
-        "desc": "Avengers: Doomsday's latest sneak peek offers viewers a different side of Steve Rogers ahead of the upcoming superhero film's release.",
-        "link": "https://screenrant.com/avengers-doomsday-international-posters-steve-rogers-mjolnir/"
+        "title": "All 3 The Rings Of Power Seasons, Ranked Worst To Best",
+        "desc": "The Lord of the Rings: The Rings of Power completes its third season with confirmation of a fourth, but some of its releases are better than others.",
+        "link": "https://screenrant.com/the-rings-of-power-seasons-ranked/"
        }
       ]
      }
@@ -1072,25 +1082,25 @@
   ],
   "sourcesOk": [
    "Crikey",
-   "ABC News",
    "The Age",
+   "ABC News",
    "BBC World",
-   "The Age Federal Politics",
-   "Fox News Politics",
-   "Fox News",
    "7News",
-   "Ars Technica",
    "BBC Tech",
-   "The Conversation",
+   "Fox News",
+   "Fox News Politics",
+   "Ars Technica",
    "The Age Business",
    "ABC Business",
    "The Verge",
+   "The Conversation",
+   "The Age Federal Politics",
    "AFR",
    "BBC Sport",
-   "ABC Sport",
    "Variety",
-   "Deadline",
    "Fox Business",
+   "Deadline",
+   "ABC Sport",
    "SBS News",
    "Screen Rant",
    "Anime News Network",
@@ -1297,47 +1307,47 @@
   {
    "title": "Amazon: 11% Cashback on All Categories (Exclusions Apply, $30 Cap Per Member), 20% Cashback Uncapped on Devices @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985816",
-   "votes": 376,
+   "votes": 476,
    "neg": 0,
    "category": "Other",
    "ts": 1795721511000
   },
   {
-   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
-   "link": "https://www.ozbargain.com.au/node/985609",
-   "votes": 272,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1795654258000
-  },
-  {
    "title": "Everyday Market by Woolworths: 35% Cashback on $200.01+ Spend ($150 Cap) @ TopCashback",
    "link": "https://www.ozbargain.com.au/node/985766",
-   "votes": 201,
+   "votes": 228,
    "neg": 0,
    "category": "Other",
    "ts": 1795698121000
   },
   {
-   "title": "Japan & South Korea Return for Free: Sydney-Seoul $343, Brisbane-Tokyo $402 + More @ Jetstar",
-   "link": "https://www.ozbargain.com.au/node/985613",
-   "votes": 147,
-   "neg": 0,
-   "category": "Travel",
-   "ts": 1795655143000
-  },
-  {
    "title": "Breville The Dual Boiler Coffee Machine $899.10 Delivered @ Breville",
    "link": "https://www.ozbargain.com.au/node/985779",
-   "votes": 139,
+   "votes": 167,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795699162000
   },
   {
+   "title": "Japan & South Korea Return for Free: Sydney-Seoul $343, Brisbane-Tokyo $402 + More @ Jetstar",
+   "link": "https://www.ozbargain.com.au/node/985613",
+   "votes": 148,
+   "neg": 0,
+   "category": "Travel",
+   "ts": 1795655143000
+  },
+  {
+   "title": "2x Free PPSR Car History Checks Per Number (Normally $2 Each, Australian Mobile Number Required) @ Budget Direct",
+   "link": "https://www.ozbargain.com.au/node/880850",
+   "votes": 132,
+   "neg": 0,
+   "category": "Automotive",
+   "ts": 1732776943000
+  },
+  {
    "title": "Gaming PC: 7700X3D, RX 9070 GRE 12GB, 16GB RAM $1999 | Ultra 5 250K+, RX 9060 XT 16GB $1899 + Free Gifts + $40 Del @ Radium PCs",
    "link": "https://www.ozbargain.com.au/node/985694",
-   "votes": 125,
+   "votes": 132,
    "neg": 1,
    "category": "Computing",
    "ts": 1795676681000
@@ -1345,7 +1355,7 @@
   {
    "title": "Switch 2 Mario Kart World Bundle $649 Delivered @ Big W",
    "link": "https://www.ozbargain.com.au/node/985800",
-   "votes": 106,
+   "votes": 118,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795707920000
@@ -1353,7 +1363,7 @@
   {
    "title": "$50 off $199 Contact Lens @ Specsavers",
    "link": "https://www.ozbargain.com.au/node/985624",
-   "votes": 98,
+   "votes": 101,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1795658348000
@@ -1361,58 +1371,58 @@
   {
    "title": "30% Off 1-Time Payments: Torbox Essential Plan 1yr US$25.20, Standard 1yr US$42, Pro 1yr US$84 @ Torbox",
    "link": "https://www.ozbargain.com.au/node/985742",
-   "votes": 96,
+   "votes": 97,
    "neg": 0,
    "category": "Internet",
    "ts": 1795691661000
   },
   {
-   "title": "tomtoc 40L Travel Backpack, Carry-on Luggage $99.99 Delivered @ tomtocDirect via Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/985590",
-   "votes": 96,
+   "title": "[eBay Plus] Dyson V8 Cyclone $201 (Expired), V10 Konical $375 Delivered @ Dyson eBay",
+   "link": "https://www.ozbargain.com.au/node/985841",
+   "votes": 89,
    "neg": 0,
-   "category": "Travel",
-   "ts": 1795650928000
+   "category": "Electrical & Electronics",
+   "ts": 1795728464000
   },
   {
    "title": "[PC, Linux, Steam] Free - Ruins To Fortress @ Steam",
    "link": "https://www.ozbargain.com.au/node/985677",
-   "votes": 82,
+   "votes": 85,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795672744000
   },
   {
-   "title": "DeWALT 8mm 18V XR Brushless Router $199, Compact Osc. Multi-Tool $149 + Bonus 5.0AH Battery Twin Pack (In-Store Only) @ Bunnings",
-   "link": "https://www.ozbargain.com.au/node/985682",
-   "votes": 80,
-   "neg": 0,
-   "category": "Home & Garden",
-   "ts": 1795673134000
-  },
-  {
    "title": "[Switch, Switch 2] Pokemon Legends: Z-A $39 + $8 Delivery ($0 C&C/In-Store/OnePass/$60 Order) @ Target",
    "link": "https://www.ozbargain.com.au/node/985687",
-   "votes": 78,
+   "votes": 81,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795674239000
   },
   {
-   "title": "[PS5] Star Wars Outlaws $19 + $8 Delivery ($0 C&C/In-Store/OnePass/$60 Order) @ Target",
-   "link": "https://www.ozbargain.com.au/node/985684",
-   "votes": 54,
+   "title": "DeWALT 8mm 18V XR Brushless Router $199, Compact Osc. Multi-Tool $149 + Bonus 5.0AH Battery Twin Pack (In-Store Only) @ Bunnings",
+   "link": "https://www.ozbargain.com.au/node/985682",
+   "votes": 81,
    "neg": 0,
-   "category": "Gaming",
-   "ts": 1795673497000
+   "category": "Home & Garden",
+   "ts": 1795673134000
   },
   {
-   "title": "Brother HL-L2445DW Wireless Mono Laser Printer $139.99 Delivered @ Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/985706",
-   "votes": 53,
+   "title": "Ninja Swirl by CREAMi NC701 $199 Delivered @ Amazon AU (Excl. NT)",
+   "link": "https://www.ozbargain.com.au/node/985746",
+   "votes": 72,
    "neg": 0,
-   "category": "Computing",
-   "ts": 1795681951000
+   "category": "Electrical & Electronics",
+   "ts": 1795692487000
+  },
+  {
+   "title": "Nintendo Switch 2 + Mario Kart World + 3 Month Nintendo Online Console Bundle $699 + Delivery @ EB Games via Everyday Market",
+   "link": "https://www.ozbargain.com.au/node/985823",
+   "votes": 69,
+   "neg": 0,
+   "category": "Gaming",
+   "ts": 1795724320000
   }
  ],
  "carried": {}
