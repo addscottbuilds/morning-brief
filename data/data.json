@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T02:17:08.049Z",
+ "generatedAt": "2026-11-26T02:30:32.765Z",
  "markets": {
   "items": [
    {
@@ -7,30 +7,30 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8757.5,
-    "chgPct": 0.3563853133350508,
+    "price": 8759.9,
+    "chgPct": 0.7765358973546579,
     "high52": 9296.7,
-    "off52": -5.799907494057038
+    "off52": -5.77409188206569
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.71,
-    "chgPct": 0.23388826894296869,
+    "price": 85.72,
+    "chgPct": 0.24558280730126927,
     "high52": 88.25,
-    "off52": -2.878186968838534
+    "off52": -2.8668555240793214
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.67,
-    "chgPct": 0.7971998742048979,
+    "price": 146.74,
+    "chgPct": 0.8453065353571207,
     "high52": 155.03,
-    "off52": -5.392504676514232
+    "off52": -5.347352125395079
    },
    {
     "sym": "NDQ.AX",
@@ -47,41 +47,25 @@
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 28.52,
-    "chgPct": 1.3143885843116188,
+    "price": 28.46,
+    "chgPct": 1.1012447093095652,
     "high52": 47.78,
-    "off52": -40.30975303474257
+    "off52": -40.435328589367934
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6641,
-    "chgPct": 0.10576972081793516,
+    "price": 0.6645,
+    "chgPct": 0.1660653207100038,
     "high52": 0.7277,
-    "off52": -8.73986532911914
+    "off52": -8.6848976226467
    }
   ],
   "failed": [],
   "note": "SEMI is 40% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
-   {
-    "sym": "AVGO",
-    "name": "Broadcom",
-    "market": "US",
-    "price": 300.86,
-    "currency": "USD",
-    "chgPct": -4.047197667680249
-   },
-   {
-    "sym": "WDS.AX",
-    "name": "Woodside",
-    "market": "ASX",
-    "price": 31,
-    "currency": "AUD",
-    "chgPct": 3.9222262128272427
-   },
    {
     "sym": "NVDA",
     "name": "Nvidia",
@@ -91,20 +75,28 @@
     "chgPct": -3.91299053401242
    },
    {
-    "sym": "RIO.AX",
-    "name": "Rio Tinto",
-    "market": "ASX",
-    "price": 139.76,
-    "currency": "AUD",
-    "chgPct": 3.5029262115555397
-   },
-   {
     "sym": "BHP.AX",
     "name": "BHP",
     "market": "ASX",
-    "price": 54,
+    "price": 54.22,
     "currency": "AUD",
-    "chgPct": 3.40865327017874
+    "chgPct": 3.829947783501688
+   },
+   {
+    "sym": "WDS.AX",
+    "name": "Woodside",
+    "market": "ASX",
+    "price": 30.94,
+    "currency": "AUD",
+    "chgPct": 3.721086420157259
+   },
+   {
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
+    "market": "ASX",
+    "price": 140.03,
+    "currency": "AUD",
+    "chgPct": 3.7028817787930977
    },
    {
     "sym": "META",
@@ -113,6 +105,14 @@
     "price": 609.89,
     "currency": "USD",
     "chgPct": 3.402731753171768
+   },
+   {
+    "sym": "AMZN",
+    "name": "Amazon",
+    "market": "US",
+    "price": 244.43,
+    "currency": "USD",
+    "chgPct": -3.115459786476134
    }
   ]
  },
@@ -230,79 +230,9 @@
      },
      {
       "id": 3,
-      "headline": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-      "summary": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-      "ts": 1795655321000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/8be52fd28c92b96c401c0b4cf6429a7e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "'She wasn’t a big contributor': Jane Hume and Scott Buchholz on One Nation defector",
-        "desc": "Deputy Liberal leader Jane Hume said Leah Blyth’s defection had come as a surprise. Liberal MP Scott Buchholz admitted he didn't know who Blyth was.",
-        "link": "https://www.theage.com.au/national/she-wasn-t-a-big-contributor-jane-hume-and-scott-buchholz-on-one-nation-defector-20261126-p61hhm.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-        "desc": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-        "link": "https://www.abc.net.au/news/2026-11-26/leah-blyth-liberal-one-nation-angus-taylor-/107428224"
-       },
-       {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "One Nation defector Leah Blyth accuses Liberals of infighting and lack of conviction",
-        "desc": "The South Australia senator said the decision to quit was \"mine alone\" and she had not consulted her Liberal Party colleagues.",
-        "link": "https://www.sbs.com.au/news/article/liberal-senator-lead-blyth-defects-to-one-nation-handing-hansons-party-a-fifth-senate-seat/5gezrw624"
-       }
-      ]
-     },
-     {
-      "id": 4,
-      "headline": "Guitarist for English pop-rock icons Duran Duran Andy Taylor dies aged 65",
-      "summary": "‘He brought an indelible fire and swagger to our music.’",
-      "ts": 1795645711000,
-      "img": "https://images.7news.com.au/publication/C-23214827/df9d8deab1cba3ab12cf5c0a97ba125f9cbdb8a7-16x9-x0y0w1280h720.png",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News",
-        "lean": "centre",
-        "title": "Guitarist for English pop-rock icons Duran Duran Andy Taylor dies aged 65",
-        "desc": "‘He brought an indelible fire and swagger to our music.’",
-        "link": "https://7news.com.au/entertainment/guitarist-for-english-pop-rock-icons-duran-duran-andy-taylor-dies-aged-65-c-23214827"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Duran Duran guitarist Andy Taylor dies at 65; bandmates pay emotional tribute",
-        "desc": "Duran Duran guitarist Andy Taylor, whose playing powered 1980s hit \"Rio\" and \"Hungry Like the Wolf,\" has died at age 65 of prostate cancer, his family said.",
-        "link": "https://www.foxnews.com/entertainment/duran-duran-guitarist-andy-taylor-dies-65-bandmates-pay-emotional-tribute"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Duran Duran guitarist Andy Taylor dies aged 65",
-        "desc": "Taylor's death was confirmed by his family and bandmates in a statement posted on social media and Duran Duran's website.",
-        "link": "https://www.abc.net.au/news/2026-11-26/duran-duran-andy-taylor-dies/107428492"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Live: Victorian election stoush over dumped Liberal's blue t-shirts back in court",
-      "summary": "As the major parties continue their push to election day, Labor are seeking an injunction in the Supreme Court to stop dumped Liberal candidate for Williamstown Paul Lindemann from campaigning in a blue t-shirt. Follow live in our election blog.",
-      "ts": 1795659170000,
+      "headline": "Live: Victorian Liberals unveil plan to privatise Melbourne's sewerage network",
+      "summary": "Victorian Opposition Leader Jess Wilson publishes costings on the Coalition's policies, which include partly privatising Melbourne's sewerage network in a bid to bring down the state's debt. Follow live in our election blog.",
+      "ts": 1795660120000,
       "img": "https://live-production.wcms.abc-cdn.net.au/d476eae69940cfdb99fb4d384a7cf40d?impolicy=wcms_crop_resize&cropH=471&cropW=837&xPos=0&yPos=173&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -320,9 +250,65 @@
        {
         "outlet": "ABC News",
         "lean": "centre",
-        "title": "Live: Victorian election stoush over dumped Liberal's blue t-shirts back in court",
-        "desc": "As the major parties continue their push to election day, Labor are seeking an injunction in the Supreme Court to stop dumped Liberal candidate for Williamstown Paul Lindemann from campaigning in a blue t-shirt. Follow live in our election blog.",
+        "title": "Live: Victorian Liberals unveil plan to privatise Melbourne's sewerage network",
+        "desc": "Victorian Opposition Leader Jess Wilson publishes costings on the Coalition's policies, which include partly privatising Melbourne's sewerage network in a bid to bring down the state's debt. Follow live in our election blog.",
         "link": "https://www.abc.net.au/news/2026-11-26/victorian-election-live-updates-labor-liberal-court-battle/107428608"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more",
+      "summary": "Plus: Plus Angus Taylor apologises to LGBTQIA+ members and veterans of the ADF... without mentioning them. The post The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more appeared first on Crikey.",
+      "ts": 1795659846000,
+      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/SNOOP-TEMPLATE-1680x945-NOV-26-2026.jpg?quality=70&w=840",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": true,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Tears, booze and utter shock: Moment Pauline Hanson ruined the Liberals' Christmas party as Coalition senator Leah Blyth executed the political backstabbing of the year",
+        "desc": "One staffer was brought to tears after hearing the news at a Canberra pub.",
+        "link": "https://www.dailymail.com/news/article-16322799/leah-blyth-one-nation-pauline-hanson-defection-liberals.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Crikey",
+        "lean": "left",
+        "title": "The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more",
+        "desc": "Plus: Plus Angus Taylor apologises to LGBTQIA+ members and veterans of the ADF... without mentioning them. The post The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more appeared first on Crikey.",
+        "link": "https://www.crikey.com.au/2026/11/26/the-snoop-leah-blyth-one-nation-defection-angus-taylor-adf-apology/"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
+      "summary": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
+      "ts": 1795659121000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/8be52fd28c92b96c401c0b4cf6429a7e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Leah Blyth defects to One Nation",
+        "desc": "The Senator didn't tell any of her colleagues she was switching from the Coalition to One Nation.",
+        "link": "https://www.theage.com.au/politics/federal/leah-blyth-defects-to-one-nation-20261126-p61hkt.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC News",
+        "lean": "centre",
+        "title": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
+        "desc": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
+        "link": "https://www.abc.net.au/news/2026-11-26/leah-blyth-liberal-one-nation-angus-taylor-/107428224"
        }
       ]
      },
@@ -1100,6 +1086,27 @@
      },
      {
       "id": 34,
+      "headline": "God Of War Officially Casts A Major Female Lead — She Deserves Her Own Spin-Off",
+      "summary": "Prime Video’s live-action God of War has officially cast one major female lead, and it is hard not to see how she already deserves her own spin-off.",
+      "ts": 1795660218000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/6f708b90-f65d-4165-ace1-f8d0b342013e.jpeg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "God Of War Officially Casts A Major Female Lead — She Deserves Her Own Spin-Off",
+        "desc": "Prime Video’s live-action God of War has officially cast one major female lead, and it is hard not to see how she already deserves her own spin-off.",
+        "link": "https://screenrant.com/god-of-war-faye-deborah-ann-woll-casting/"
+       }
+      ]
+     },
+     {
+      "id": 35,
       "headline": "‘The Squirrel’ Review: An Endearing Futuristic Dramedy, Finland’s Oscar Entry Makes a Case for Organic Love in the Age of Automation",
       "summary": "If Finnish master Aki Kaurismäki, with his measured emotional register and stoic humor, were to ever make a science-fiction film taking a page from a seminal text in the genre like “Blade Runner,” it may resemble Markus Lehmusruusu’s endearing dramedy “The Squirrel.” Before one learns anything else about how the film’s unspecified, seemingly idyllic future […]",
       "ts": 1795659214000,
@@ -1120,7 +1127,7 @@
       ]
      },
      {
-      "id": 35,
+      "id": 36,
       "headline": "Black Clover Filler List: Every Episode You Can Skip",
       "summary": "Like many long-running anime series Black Clover has its share of filler. Here’s which episodes viewers can skip without missing anything important.",
       "ts": 1795658592000,
@@ -1139,27 +1146,6 @@
         "link": "https://screenrant.com/every-black-clover-filler-episode/"
        }
       ]
-     },
-     {
-      "id": 36,
-      "headline": "Dune: Part Three Fan Theory Suggests Chani Is Actually Scytale",
-      "summary": "A darkly fascinating theory suggests Dune: Part Three will feature a unique deviation from the books regarding Zendaya's Chani and her true nature.",
-      "ts": 1795658478000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/zendaya-as-chani-looking-up-in-dune-3.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Dune: Part Three Fan Theory Suggests Chani Is Actually Scytale",
-        "desc": "A darkly fascinating theory suggests Dune: Part Three will feature a unique deviation from the books regarding Zendaya's Chani and her true nature.",
-        "link": "https://screenrant.com/dune-part-three-fan-theory-chani-scytale-shapeshifter/"
-       }
-      ]
      }
     ]
    }
@@ -1169,26 +1155,26 @@
    "ABC News",
    "The Age",
    "BBC World",
-   "The Age Federal Politics",
    "7News",
+   "The Age Federal Politics",
    "Fox News Politics",
    "Fox News",
-   "BBC Tech",
-   "Ars Technica",
-   "The Age Business",
    "The Conversation",
-   "SBS News",
+   "The Age Business",
+   "Ars Technica",
+   "ABC Business",
+   "BBC Tech",
    "AFR",
-   "Fox Business",
+   "The Verge",
    "ABC Sport",
-   "Variety",
+   "Fox Business",
    "BBC Sport",
    "Deadline",
-   "ABC Business",
-   "Daily Mail Australia",
-   "Anime News Network",
-   "The Verge",
+   "Variety",
+   "SBS News",
    "Screen Rant",
+   "Anime News Network",
+   "Daily Mail Australia",
    "7News Sport"
   ],
   "sourcesFailed": [
@@ -1399,7 +1385,7 @@
   {
    "title": "3 Chocolate Bags (M&M's, Maltesers, Pods) 120-180g for $10 ($7.90 S&S) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985445",
-   "votes": 173,
+   "votes": 174,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795586395000
@@ -1407,7 +1393,7 @@
   {
    "title": "[Android] Stardew Valley $3.50, Terraria $4 @ Google Play",
    "link": "https://www.ozbargain.com.au/node/985458",
-   "votes": 116,
+   "votes": 117,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795590144000
@@ -1415,7 +1401,7 @@
   {
    "title": "PureVPN: 130% Cashback on 1-Year, 2-Year & Monthly Plans for New Customers (Max 1 Transaction Every 3 Weeks) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985529",
-   "votes": 110,
+   "votes": 112,
    "neg": 0,
    "category": "Internet",
    "ts": 1795611747000
@@ -1447,7 +1433,7 @@
   {
    "title": "XFX Swift Radeon RX 9070 GRE Triple Fan Gaming Edition 12GB GDDR6 Graphics Card $702.05 + Delivery ($0 NSW C&C) @ Mwave",
    "link": "https://www.ozbargain.com.au/node/985579",
-   "votes": 73,
+   "votes": 80,
    "neg": 0,
    "category": "Computing",
    "ts": 1795649990000
@@ -1463,10 +1449,18 @@
   {
    "title": "AmEx Statement Credit: Spend $150 or More at Myer, Get $15 Back @ American Express",
    "link": "https://www.ozbargain.com.au/node/985553",
-   "votes": 63,
+   "votes": 64,
    "neg": 0,
    "category": "Fashion & Apparel",
    "ts": 1795640158000
+  },
+  {
+   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
+   "link": "https://www.ozbargain.com.au/node/985609",
+   "votes": 61,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1795654258000
   },
   {
    "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards (Limited Stock) @ ShopBack",
@@ -1485,28 +1479,20 @@
    "ts": 1795626530000
   },
   {
+   "title": "tomtoc 40L Travel Backpack, Carry-on Luggage $99.99 Delivered @ tomtocDirect via Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/985590",
+   "votes": 53,
+   "neg": 0,
+   "category": "Travel",
+   "ts": 1795650928000
+  },
+  {
    "title": "1,000 Bonus Flybuys Points $25 and $40 TCN Party, $50 TCN Kids and Teen, $50 and $100 TCN Him, Her and Restaurant + More @ Coles",
    "link": "https://www.ozbargain.com.au/node/985446",
    "votes": 53,
    "neg": 0,
    "category": "Other",
    "ts": 1795586404000
-  },
-  {
-   "title": "tomtoc 40L Travel Backpack, Carry-on Luggage $99.99 Delivered @ tomtocDirect via Amazon AU",
-   "link": "https://www.ozbargain.com.au/node/985590",
-   "votes": 52,
-   "neg": 0,
-   "category": "Travel",
-   "ts": 1795650928000
-  },
-  {
-   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
-   "link": "https://www.ozbargain.com.au/node/985609",
-   "votes": 47,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1795654258000
   }
  ],
  "carried": {}
