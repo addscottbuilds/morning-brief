@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T02:30:32.765Z",
+ "generatedAt": "2026-11-26T03:01:22.983Z",
  "markets": {
   "items": [
    {
@@ -7,65 +7,73 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8759.9,
-    "chgPct": 0.7765358973546579,
+    "price": 8776.9,
+    "chgPct": 0.972109032921848,
     "high52": 9296.7,
-    "off52": -5.77409188206569
+    "off52": -5.591231297126948
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.72,
-    "chgPct": 0.24558280730126927,
+    "price": 85.67,
+    "chgPct": 0.18711011550979964,
     "high52": 88.25,
-    "off52": -2.8668555240793214
+    "off52": -2.9235127478753524
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 146.74,
-    "chgPct": 0.8453065353571207,
+    "price": 146.99,
+    "chgPct": 1.0171160394721492,
     "high52": 155.03,
-    "off52": -5.347352125395079
+    "off52": -5.186093014255301
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.42,
-    "chgPct": 0.5252119638044557,
+    "price": 57.5,
+    "chgPct": 0.6652679888323935,
     "high52": 65.18,
-    "off52": -11.905492482356559
+    "off52": -11.782755446455976
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 28.46,
-    "chgPct": 1.1012447093095652,
+    "price": 28.53,
+    "chgPct": 1.349912563478634,
     "high52": 47.78,
-    "off52": -40.435328589367934
+    "off52": -40.28882377563834
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6645,
-    "chgPct": 0.1660653207100038,
+    "price": 0.6643,
+    "chgPct": 0.13591752076396948,
     "high52": 0.7277,
-    "off52": -8.6848976226467
+    "off52": -8.71238147588292
    }
   ],
   "failed": [],
   "note": "SEMI is 40% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
+   {
+    "sym": "BHP.AX",
+    "name": "BHP",
+    "market": "ASX",
+    "price": 54.29,
+    "currency": "AUD",
+    "chgPct": 3.9639960377408094
+   },
    {
     "sym": "NVDA",
     "name": "Nvidia",
@@ -75,28 +83,20 @@
     "chgPct": -3.91299053401242
    },
    {
-    "sym": "BHP.AX",
-    "name": "BHP",
+    "sym": "RIO.AX",
+    "name": "Rio Tinto",
     "market": "ASX",
-    "price": 54.22,
+    "price": 140.255,
     "currency": "AUD",
-    "chgPct": 3.829947783501688
+    "chgPct": 3.869511418157719
    },
    {
     "sym": "WDS.AX",
     "name": "Woodside",
     "market": "ASX",
-    "price": 30.94,
+    "price": 30.92,
     "currency": "AUD",
-    "chgPct": 3.721086420157259
-   },
-   {
-    "sym": "RIO.AX",
-    "name": "Rio Tinto",
-    "market": "ASX",
-    "price": 140.03,
-    "currency": "AUD",
-    "chgPct": 3.7028817787930977
+    "chgPct": 3.6540398226005975
    },
    {
     "sym": "META",
@@ -107,12 +107,12 @@
     "chgPct": 3.402731753171768
    },
    {
-    "sym": "AMZN",
-    "name": "Amazon",
-    "market": "US",
-    "price": 244.43,
-    "currency": "USD",
-    "chgPct": -3.115459786476134
+    "sym": "FMG.AX",
+    "name": "Fortescue",
+    "market": "ASX",
+    "price": 13.755,
+    "currency": "AUD",
+    "chgPct": 3.1882976648643973
    }
   ]
  },
@@ -125,41 +125,6 @@
     "stories": [
      {
       "id": 0,
-      "headline": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
-      "summary": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
-      "ts": 1795658010000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/32bb/live/4d5bc080-e920-11f1-9108-c5b270b0703d.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Daily Mail Australia",
-        "lean": "right",
-        "title": "Brad Pitt and Angelina Jolie issue extraordinary joint statement about their 'family' as they finally settle nasty $164m legal battle that sparked abuse claims",
-        "desc": "The former couple moved to dismiss claims against each other on Wednesday, their representatives told the Daily Mail, meaning that they will avoid a public trial that was due to begin early next year.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16322641/Brad-Pitt-Angelina-Jolie-issue-extraordinary-joint-statement-family-finally-settle-nasty-legal-battle-sparked-abuse-claims.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
-       },
-       {
-        "outlet": "BBC World",
-        "lean": "centre",
-        "title": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
-        "desc": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
-        "link": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss"
-       },
-       {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Brad Pitt, Angelina Jolie settle 4-year French winery lawsuit that sparked plane abuse claims",
-        "desc": "Brad Pitt and Angelina Jolie moved Wednesday to dismiss claims against each other in their Château Miraval battle, saying they settled \"in the best interests of our family.\"",
-        "link": "https://www.foxnews.com/entertainment/brad-pitt-angelina-jolie-settle-4-year-french-winery-lawsuit-sparked-plane-abuse-claims"
-       }
-      ]
-     },
-     {
-      "id": 1,
       "headline": "US announces new tariffs on host of countries including China",
       "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
       "ts": 1795656014000,
@@ -194,11 +159,11 @@
       ]
      },
      {
-      "id": 2,
-      "headline": "Court spares ‘sorry’ Tom Papley more punishment after pleading guilty to driving with suspended licence",
-      "summary": "The Sydney Swans forward earned praise from a judge and walked free without a penalty.",
-      "ts": 1795655714000,
-      "img": "https://images.7news.com.au/publication/C-23215481/b36436baa12d9f6bda875aadf889dac5fd872b62-16x9-x0y0w1280h720.jpg",
+      "id": 1,
+      "headline": "Homes lost as bushfire tears through Tasmania's Flinders Island",
+      "summary": "The blaze was sparked by lightning and spread after a wind change, with crews yet to assess how many properties have been destroyed.",
+      "ts": 1795660468000,
+      "img": "https://assets.sbs.com.au/dims4/default/030d33b/2147483647/strip/false/crop/2660x1222+0+202/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F17%2F55%2F2d2683254ebcb53fb823aaa47504%2F20261125164349601960-original.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -206,33 +171,26 @@
       "hasBothSides": false,
       "sources": [
        {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Homes lost as bushfire tears through Tasmania's Flinders Island",
+        "desc": "The blaze was sparked by lightning and spread after a wind change, with crews yet to assess how many properties have been destroyed.",
+        "link": "https://www.sbs.com.au/news/article/homes-lost-as-bushfires-tear-through-tasmanias-flinders-island/fplcwbzeh"
+       },
+       {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Court spares ‘sorry’ Tom Papley more punishment after pleading guilty to driving with suspended licence",
-        "desc": "The Sydney Swans forward earned praise from a judge and walked free without a penalty.",
-        "link": "https://7news.com.au/sport/afl/court-spares-sorry-tom-papley-more-punishment-after-pleading-guilty-to-driving-with-suspended-licence-c-23215481"
-       },
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Swans star Tom Papley fronts court after driving with suspended licence",
-        "desc": "Swans player Tom Papley has pleaded guilty to driving with a suspended licence in Sydney’s eastern suburbs.",
-        "link": "https://www.theage.com.au/sport/afl/swans-star-tom-papley-fronts-court-after-driving-with-suspended-licence-20261126-p61ghy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Geelong teacher's licence suspended amid police investigation",
-        "desc": "A Geelong high school teacher's registration has been suspended amid a sexual offences and child abuse police team investigation into allegations relating to a previous role in Bendigo.",
-        "link": "https://www.abc.net.au/news/2026-11-26/geelong-teacher-licence-suspended-amid-police-investigation/107425790"
+        "title": "North of Tasmania’s Flinders Island cut off as 14,000ha blaze destroys homes",
+        "desc": "More than 10 per cent of the island has been devastated.",
+        "link": "https://7news.com.au/news/north-of-tasmanias-flinders-island-cut-off-as-14000ha-blaze-destroys-homes-c-23215482"
        }
       ]
      },
      {
-      "id": 3,
+      "id": 2,
       "headline": "Live: Victorian Liberals unveil plan to privatise Melbourne's sewerage network",
       "summary": "Victorian Opposition Leader Jess Wilson publishes costings on the Coalition's policies, which include partly privatising Melbourne's sewerage network in a bid to bring down the state's debt. Follow live in our election blog.",
-      "ts": 1795660120000,
+      "ts": 1795660385000,
       "img": "https://live-production.wcms.abc-cdn.net.au/d476eae69940cfdb99fb4d384a7cf40d?impolicy=wcms_crop_resize&cropH=471&cropW=837&xPos=0&yPos=173&width=862&height=485",
       "divergent": null,
       "left_view": null,
@@ -257,16 +215,72 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more",
-      "summary": "Plus: Plus Angus Taylor apologises to LGBTQIA+ members and veterans of the ADF... without mentioning them. The post The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more appeared first on Crikey.",
-      "ts": 1795659846000,
-      "img": "https://assets.crikey.com.au/wp-content/uploads/sites/3/2026/11/SNOOP-TEMPLATE-1680x945-NOV-26-2026.jpg?quality=70&w=840",
+      "id": 3,
+      "headline": "Dog owners, take note: The viral Pawezy walking harness kit is up to 40 per cent off for Black Friday",
+      "summary": "Best-selling no-pull harness kits to new limited-edition designs.",
+      "ts": 1795660142000,
+      "img": "https://images.7news.com.au/publication/C-23215297/52415125d214f8f8e4c25702740963d76d0181a3-16x9-x0y0w1920h1080.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
       "common_ground": null,
-      "hasBothSides": true,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "7News",
+        "lean": "centre",
+        "title": "Dog owners, take note: The viral Pawezy walking harness kit is up to 40 per cent off for Black Friday",
+        "desc": "Best-selling no-pull harness kits to new limited-edition designs.",
+        "link": "https://7news.com.au/7you/home/dog-owners-take-note-the-viral-pawezy-walking-harness-kit-is-up-to-40-per-cent-off-for-black-friday-c-23215297"
+       },
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Amazon Black Friday bargain hunter: Daily Mail's live coverage of the best buys and biggest discounts - including top robot vacuum with 85 per cent off",
+        "desc": "UPDATED: The Daily Mail Shopping team bring you the best of the Black Friday sale, finding the best deals so you don't have to",
+        "link": "https://www.dailymail.com/buyline/article-16295475/Amazon-Black-Friday-sale-2026-best-deals-biggest-discounts.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       }
+      ]
+     },
+     {
+      "id": 4,
+      "headline": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "summary": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+      "ts": 1795660008000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d91d/live/f0a5ecf0-e8fa-11f1-99b6-a35a62fa4264.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Netanyahu declares corruption trial has 'fallen apart' after judges question key charges",
+        "desc": "Israeli Prime Minister Benjamin Netanyahu declared his corruption trial \"fell apart\" as judges urged prosecutors to rethink the bribery and fraud cases.",
+        "link": "https://www.foxnews.com/world/netanyahu-declares-corruption-trial-fallen-apart-judges-question-key-charges"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+        "desc": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+        "link": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss"
+       }
+      ]
+     },
+     {
+      "id": 5,
+      "headline": "One Nation defector Leah Blyth accuses Liberals of infighting and lack of conviction",
+      "summary": "The South Australia senator said the decision to quit was \"mine alone\" and she had not consulted her Liberal Party colleagues.",
+      "ts": 1795659846000,
+      "img": "https://assets.sbs.com.au/dims4/default/8a2876b/2147483647/strip/false/crop/6780x3115+0+300/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F57%2F49%2Fc9a4348d4037a5d6bb6c88f4246d%2F20261126193625318115-original.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
       "sources": [
        {
         "outlet": "Daily Mail Australia",
@@ -276,39 +290,11 @@
         "link": "https://www.dailymail.com/news/article-16322799/leah-blyth-one-nation-pauline-hanson-defection-liberals.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
        {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more",
-        "desc": "Plus: Plus Angus Taylor apologises to LGBTQIA+ members and veterans of the ADF... without mentioning them. The post The Snoop: Was Blyth’s defection on the wall? Plus elections at risk of AI slop tsunami, and more appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/26/the-snoop-leah-blyth-one-nation-defection-angus-taylor-adf-apology/"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-      "summary": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-      "ts": 1795659121000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/8be52fd28c92b96c401c0b4cf6429a7e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=0&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Leah Blyth defects to One Nation",
-        "desc": "The Senator didn't tell any of her colleagues she was switching from the Coalition to One Nation.",
-        "link": "https://www.theage.com.au/politics/federal/leah-blyth-defects-to-one-nation-20261126-p61hkt.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC News",
+        "outlet": "SBS News",
         "lean": "centre",
-        "title": "Senator Leah Blyth defects to One Nation saying Liberals cannot save Australia",
-        "desc": "Opposition Leader Angus Taylor is dealt a major blow as a South Australian Liberal senator announces her defection and delivers a parting shot on her way out the door.",
-        "link": "https://www.abc.net.au/news/2026-11-26/leah-blyth-liberal-one-nation-angus-taylor-/107428224"
+        "title": "One Nation defector Leah Blyth accuses Liberals of infighting and lack of conviction",
+        "desc": "The South Australia senator said the decision to quit was \"mine alone\" and she had not consulted her Liberal Party colleagues.",
+        "link": "https://www.sbs.com.au/news/article/liberal-senator-lead-blyth-defects-to-one-nation-handing-hansons-party-a-fifth-senate-seat/5gezrw624"
        }
       ]
      },
@@ -647,6 +633,41 @@
     "stories": [
      {
       "id": 19,
+      "headline": "ASX extends gains; Lendlease leads losses; capex jumps on data centres",
+      "summary": "Shares gain towards noon AEDT; Duratec soars on guidance upgrade; AusSuper lifts Reliance stake; Fisher & Paykel profit jumps 37pc; Flight Centre reports cyber breach. Follow live.",
+      "ts": 1795661646000,
+      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "ASX extends gains; Lendlease leads losses; capex jumps on data centres",
+        "desc": "Shares gain towards noon AEDT; Duratec soars on guidance upgrade; AusSuper lifts Reliance stake; Fisher & Paykel profit jumps 37pc; Flight Centre reports cyber breach. Follow live.",
+        "link": "https://www.afr.com/markets/equity-markets/nasdaq-composite-plunges-near-4pc-as-ai-sell-off-deepens-20261126-p61hd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
+       },
+       {
+        "outlet": "ABC Business",
+        "lean": "centre",
+        "title": "US approves Musk's plan for space-based data centres",
+        "desc": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
+        "link": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024"
+       },
+       {
+        "outlet": "Fox Business",
+        "lean": "right",
+        "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
+        "desc": "The FCC approved Elon Musk's SpaceX plan for up to 1 million solar-powered satellites to build artificial intelligence data centers in orbit.",
+        "link": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
+       }
+      ]
+     },
+     {
+      "id": 20,
       "headline": "David Jones CEO says ex-bosses ‘didn’t have the balls’ to save retailer",
       "summary": "Erica Berchtold admits in an interview that she had said previous management failed to fix the 188-year-old department store, which has since collapsed.",
       "ts": 1795657884000,
@@ -670,34 +691,6 @@
         "title": "David Jones’ former bosses ‘didn’t have the balls’ to make tough calls, says CEO",
         "desc": "As the luxury department store’s future hangs in the balance, Erica Berchtold made a thinly veiled swipe at its previous managers and insisted she still has a plan.",
         "link": "https://www.theage.com.au/business/companies/david-jones-former-bosses-didn-t-have-the-balls-to-make-tough-calls-says-ceo-20261126-p61hgg.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       }
-      ]
-     },
-     {
-      "id": 20,
-      "headline": "ASX extends gains; capex jumps on data centre boom",
-      "summary": "Shares gain towards noon AEDT; Duratec soars on guidance upgrade; AusSuper lifts Reliance stake; Fisher & Paykel profit jumps 37pc; Flight Centre reports cyber breach. Follow live.",
-      "ts": 1795655182000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "AFR",
-        "lean": "centre",
-        "title": "ASX extends gains; capex jumps on data centre boom",
-        "desc": "Shares gain towards noon AEDT; Duratec soars on guidance upgrade; AusSuper lifts Reliance stake; Fisher & Paykel profit jumps 37pc; Flight Centre reports cyber breach. Follow live.",
-        "link": "https://www.afr.com/markets/equity-markets/nasdaq-composite-plunges-near-4pc-as-ai-sell-off-deepens-20261126-p61hd2?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "Anthropic's first data centre in Australia given environmental approval",
-        "desc": "The National Environmental Protection Agency has determined the $32 billion data centre is unlikely to significantly affect protected animals and plants.",
-        "link": "https://www.abc.net.au/news/2026-11-26/western-downs-digital-park-federal-environmental-approval/107428970"
        }
       ]
      },
@@ -731,34 +724,6 @@
      },
      {
       "id": 22,
-      "headline": "US approves Musk's plan for space-based data centres",
-      "summary": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
-      "ts": 1795634460000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1a49ab6fa87808929d3b8db5a22b4595?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=209&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "US approves Musk's plan for space-based data centres",
-        "desc": "Elon Musk's company says solar-powered satellites in orbit could help power the next generation of AI.",
-        "link": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "‘Data centers in space’: FCC clears SpaceX for 1M satellites to ‘extend America’s lead in superintelligence’",
-        "desc": "The FCC approved Elon Musk's SpaceX plan for up to 1 million solar-powered satellites to build artificial intelligence data centers in orbit.",
-        "link": "https://www.foxbusiness.com/politics/data-centers-space-fcc-clears-spacex-1m-satellites-extend-americas-lead-superintelligence"
-       }
-      ]
-     },
-     {
-      "id": 23,
       "headline": "Sharemarket slips as high inflation hinders rate cut bets",
       "summary": "Inflation figures forced traders to delay their forecasts for interest rate cuts despite the economy floundering.",
       "ts": 1795613611000,
@@ -786,7 +751,7 @@
       ]
      },
      {
-      "id": 24,
+      "id": 23,
       "headline": "US court convicts Huawei for deceiving banks about Iran dealings",
       "summary": "US authorities have long claimed the Chinese tech giant poses national security risks.",
       "ts": 1795609168000,
@@ -810,6 +775,27 @@
         "title": "US court convicts Huawei for deceiving banks about Iran dealings",
         "desc": "US authorities have long claimed the Chinese tech giant poses national security risks.",
         "link": "https://www.abc.net.au/news/2026-11-25/huawei-convicted-us-trial-deception-trade-secrets/107423640"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "The trust tax deal is done – here’s what it means for you",
+      "summary": "The 800,000 discretionary trusts face three hard choices – including a “nuclear” restructure – after Labor struck a Senate deal to pass its new tax.",
+      "ts": 1795661686000,
+      "img": "https://static.ffx.io/images/$zoom_0.3309%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/89bc10733810b789a63b109ef7033a2dab9054d377ca11436b524be9b58a65c7",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
+        "lean": "centre",
+        "title": "The trust tax deal is done – here’s what it means for you",
+        "desc": "The 800,000 discretionary trusts face three hard choices – including a “nuclear” restructure – after Labor struck a Senate deal to pass its new tax.",
+        "link": "https://www.afr.com/policy/tax-and-super/the-trust-tax-deal-is-done-here-s-what-it-means-for-you-20261125-p61h8w?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -1002,6 +988,62 @@
     "stories": [
      {
       "id": 31,
+      "headline": "Microdrama Revenues Hit $20B, But Profits Outside China Still Weak – MPA Report",
+      "summary": "The global microdrama business is booming, but outside of China, where ByteDance rules the roost, profits haven’t yet caught with revenues. That’s according to a Media Partners Asia (MPA) report, which reveals revenues on a global basis are estimated to rise 24% year-on-year to hit $20B in 2026, and that will hit $32B by 2031, […]",
+      "ts": 1795662000000,
+      "img": "https://deadline.com/wp-content/uploads/2025/04/Reelshort.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Microdrama Revenues Hit $20B, But Profits Outside China Still Weak – MPA Report",
+        "desc": "The global microdrama business is booming, but outside of China, where ByteDance rules the roost, profits haven’t yet caught with revenues. That’s according to a Media Partners Asia (MPA) report, which reveals revenues on a global basis are estimated to rise 24% year-on-year to hit $20B in 2026, and that will hit $32B by 2031, […]",
+        "link": "https://deadline.com/2026/11/microdrama-revenues-boom-profits-outside-china-weak-report-1237233205/"
+       },
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Microdrama Revenue to Hit $20 Billion in 2026, but Profits Outside China Remain Thin, Media Partners Asia Report Finds",
+        "desc": "Global microdrama revenue will climb 24% to $20 billion in 2026, but outside China the business has yet to prove it can make reliable money, according to new research from Media Partners Asia. The Asia-focused research and advisory firm’s second annual study of the sector, “The Microdrama Economy 2026,” projects the market will reach $32 […]",
+        "link": "https://variety.com/2026/tv/news/microdrama-revenue-20-billion-2026-profits-thin-1236958647/"
+       }
+      ]
+     },
+     {
+      "id": 32,
+      "headline": "Crypto Exec Constance Wang Slams Her Portrayal in Netflix Series ‘The Altruists’ as ‘Racist’ and ‘Very Stereotypical’",
+      "summary": "Former FTX COO Constance Wang is calling out Netflix’s “The Altruists.” Wang took to social media on Wednesday to respond to whether the streamer had consulted her about what she describes as a “very stereotypical” portrayal of her by actress Madison Hu. “People have asked whether Netflix consulted me. They didn’t,” wrote Wang on X. […]",
+      "ts": 1795661648000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/TCDALTR_ZX011.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "Crypto Exec Constance Wang Slams Her Portrayal in Netflix Series ‘The Altruists’ as ‘Racist’ and ‘Very Stereotypical’",
+        "desc": "Former FTX COO Constance Wang is calling out Netflix’s “The Altruists.” Wang took to social media on Wednesday to respond to whether the streamer had consulted her about what she describes as a “very stereotypical” portrayal of her by actress Madison Hu. “People have asked whether Netflix consulted me. They didn’t,” wrote Wang on X. […]",
+        "link": "https://variety.com/2026/tv/news/ftx-constance-wang-slams-altruists-portrayal-racist-netflix-1236958694/"
+       },
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Constance Wang Denounces ‘The Altruists’ Portrayal As “Very Stereotypical” & “Racist”: “What Did We Expect?”",
+        "desc": "As Netflix’s The Altruists recounts the downfall of FTX, one of the company’s executives had some thoughts about her portrayal and the show’s overall accuracy. Constance Wang, the former FTX COO who is portrayed by Madison Hu, called the depiction “very stereotypical” and “racist” as she unpacked some of the apparent inaccuracies of the limited […]",
+        "link": "https://deadline.com/2026/11/constance-wang-the-altruists-very-stereotypical-racist-1237233708/"
+       }
+      ]
+     },
+     {
+      "id": 33,
       "headline": "A24's New Movie Has One Of The Year’s Best Rotten Tomatoes Audience Scores",
       "summary": "A24's Club Kid opened in limited theaters earlier this month, and it's quickly received one of the best audience scores on Rotten Tomatoes.",
       "ts": 1795658497000,
@@ -1029,63 +1071,49 @@
       ]
      },
      {
-      "id": 32,
-      "headline": "Mayor Zohran Mamdani Says Famed Balloons Will Soar Again At Rescheduled Macy’s Parade: “It’s The Only Inflation We Support In New York City”",
-      "summary": "New York Mayor Zohran Mamdani struck a personal note during a press briefing Wednesday about the postponement of the Macy’s Thanksgiving Day Parade due to a major storm. “Many New Yorkers, myself included, as well as millions around the world were looking forward to the parade being held tomorrow,” the mayor said. “I know that […]",
-      "ts": 1795652954000,
-      "img": "https://deadline.com/wp-content/uploads/2026/11/Thanksgiving-parade-Buzz.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Mayor Zohran Mamdani Says Famed Balloons Will Soar Again At Rescheduled Macy’s Parade: “It’s The Only Inflation We Support In New York City”",
-        "desc": "New York Mayor Zohran Mamdani struck a personal note during a press briefing Wednesday about the postponement of the Macy’s Thanksgiving Day Parade due to a major storm. “Many New Yorkers, myself included, as well as millions around the world were looking forward to the parade being held tomorrow,” the mayor said. “I know that […]",
-        "link": "https://deadline.com/2026/11/mayor-zohran-mamdani-macys-thanksgiving-day-parade-postponed-1237233704/"
-       },
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "NBC Plans to Give Thanksgiving Parade Ads Extra Run After Macy’s Postponement",
-        "desc": "NBC has a Thanksgiving Week present for advertisers scheduled to appear in the now-postponed Macy’s Thanksgiving Day Parade. The network plans to run commercials from sponsors of the event twice this week — once when the 2026 parade airs on Saturday and once on Thursday, when the network will run a repeat of last year’s […]",
-        "link": "https://variety.com/2026/tv/news/nbc-macys-thanksgiving-parade-commercials-twice-1236958525/"
-       }
-      ]
-     },
-     {
-      "id": 33,
-      "headline": "‘The Hawk’ Starring Will Ferrell Canceled After One Season at Netflix",
-      "summary": "“The Hawk” has hit the rough. Netflix has canceled the golf comedy series after just one season. The series, which starred Will Ferrell in his first regular TV role since “SNL,” originally debuted on the streamer back in July. While the show did make it into the Netflix global top 10 chart for three weeks […]",
-      "ts": 1795643155000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/THEHAWK_110_251124_AE_00279_R2.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘The Hawk’ Starring Will Ferrell Canceled After One Season at Netflix",
-        "desc": "“The Hawk” has hit the rough. Netflix has canceled the golf comedy series after just one season. The series, which starred Will Ferrell in his first regular TV role since “SNL,” originally debuted on the streamer back in July. While the show did make it into the Netflix global top 10 chart for three weeks […]",
-        "link": "https://variety.com/2026/tv/news/the-hawk-will-ferrell-canceled-netflix-1236958470/"
-       },
-       {
-        "outlet": "Deadline",
-        "lean": "centre",
-        "title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season",
-        "desc": "EXCLUSIVE: The Hawk did not make the cut for a second season. Netflix has opted not to renew the freshman golf comedy, co-created, executive produced and headlined by Will Ferrell. The news comes more than four months after The Hawk, SNL alum Ferrell’s first TV starring vehicle, premiered on July 16. The decision fits Netflix’s […]",
-        "link": "https://deadline.com/2026/11/will-ferrell-the-hawk-canceled-netflix-one-season-1237233347/"
-       }
-      ]
-     },
-     {
       "id": 34,
+      "headline": "‘Baahubali,’ ‘RRR’ Tech Chief C.V. Rao, New SMPTE Fellow, on Why Indian Filmmakers Shouldn’t Depend on Overseas Facilities",
+      "summary": "C.V. Rao, who helped shape the production and post-production pipelines behind S.S. Rajamouli’s “Baahubali” films and “RRR,” has become the first technologist from South India to be named a Fellow of the Society of Motion Picture and Television Engineers (SMPTE). Rao, chief technology officer at Hyderabad-based Annapurna Studios, describes the honor as one that comes […]",
+      "ts": 1795661821000,
+      "img": "https://variety.com/wp-content/uploads/2026/11/CV-Rao.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Variety",
+        "lean": "centre",
+        "title": "‘Baahubali,’ ‘RRR’ Tech Chief C.V. Rao, New SMPTE Fellow, on Why Indian Filmmakers Shouldn’t Depend on Overseas Facilities",
+        "desc": "C.V. Rao, who helped shape the production and post-production pipelines behind S.S. Rajamouli’s “Baahubali” films and “RRR,” has become the first technologist from South India to be named a Fellow of the Society of Motion Picture and Television Engineers (SMPTE). Rao, chief technology officer at Hyderabad-based Annapurna Studios, describes the honor as one that comes […]",
+        "link": "https://variety.com/2026/film/news/baahubali-rrr-tech-chief-weaning-india-off-overseas-facilities-1236958697/"
+       }
+      ]
+     },
+     {
+      "id": 35,
+      "headline": "Ms. Rachel Explains How Mr. Rogers’ “Radical” Programming Inspired Her: “A Huge Responsibility”",
+      "summary": "As Ms. Rachel continues her mission-driven work, she’s crediting the “radical” influence of Mr. Rogers and her pals on Sesame Street. The famed YouTube children’s educator and activist (whose real name is Rachel Accurso) recently explained that the “intentional and caring” programming on Mr. Rogers’ Neighborhood when she was a kid has inspired her work […]",
+      "ts": 1795661515000,
+      "img": "https://deadline.com/wp-content/uploads/2026/11/Mr-Rogers-Ms-Rachel-2-shot.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Deadline",
+        "lean": "centre",
+        "title": "Ms. Rachel Explains How Mr. Rogers’ “Radical” Programming Inspired Her: “A Huge Responsibility”",
+        "desc": "As Ms. Rachel continues her mission-driven work, she’s crediting the “radical” influence of Mr. Rogers and her pals on Sesame Street. The famed YouTube children’s educator and activist (whose real name is Rachel Accurso) recently explained that the “intentional and caring” programming on Mr. Rogers’ Neighborhood when she was a kid has inspired her work […]",
+        "link": "https://deadline.com/2026/11/ms-rachel-mr-rogers-radical-programming-inspired-her-1237233868/"
+       }
+      ]
+     },
+     {
+      "id": 36,
       "headline": "God Of War Officially Casts A Major Female Lead — She Deserves Her Own Spin-Off",
       "summary": "Prime Video’s live-action God of War has officially cast one major female lead, and it is hard not to see how she already deserves her own spin-off.",
       "ts": 1795660218000,
@@ -1104,78 +1132,36 @@
         "link": "https://screenrant.com/god-of-war-faye-deborah-ann-woll-casting/"
        }
       ]
-     },
-     {
-      "id": 35,
-      "headline": "‘The Squirrel’ Review: An Endearing Futuristic Dramedy, Finland’s Oscar Entry Makes a Case for Organic Love in the Age of Automation",
-      "summary": "If Finnish master Aki Kaurismäki, with his measured emotional register and stoic humor, were to ever make a science-fiction film taking a page from a seminal text in the genre like “Blade Runner,” it may resemble Markus Lehmusruusu’s endearing dramedy “The Squirrel.” Before one learns anything else about how the film’s unspecified, seemingly idyllic future […]",
-      "ts": 1795659214000,
-      "img": "https://variety.com/wp-content/uploads/2026/11/The-Squirrel_Orava_still5_photo_Max_Smeds_Bufo2025.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Variety",
-        "lean": "centre",
-        "title": "‘The Squirrel’ Review: An Endearing Futuristic Dramedy, Finland’s Oscar Entry Makes a Case for Organic Love in the Age of Automation",
-        "desc": "If Finnish master Aki Kaurismäki, with his measured emotional register and stoic humor, were to ever make a science-fiction film taking a page from a seminal text in the genre like “Blade Runner,” it may resemble Markus Lehmusruusu’s endearing dramedy “The Squirrel.” Before one learns anything else about how the film’s unspecified, seemingly idyllic future […]",
-        "link": "https://variety.com/2026/film/reviews/the-squirrel-review-1236955178/"
-       }
-      ]
-     },
-     {
-      "id": 36,
-      "headline": "Black Clover Filler List: Every Episode You Can Skip",
-      "summary": "Like many long-running anime series Black Clover has its share of filler. Here’s which episodes viewers can skip without missing anything important.",
-      "ts": 1795658592000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/asta-in-front-of-yami-and-charmy-from-black-clover-filler-episodes.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Black Clover Filler List: Every Episode You Can Skip",
-        "desc": "Like many long-running anime series Black Clover has its share of filler. Here’s which episodes viewers can skip without missing anything important.",
-        "link": "https://screenrant.com/every-black-clover-filler-episode/"
-       }
-      ]
      }
     ]
    }
   ],
   "sourcesOk": [
+   "The Age",
    "Crikey",
    "ABC News",
-   "The Age",
    "BBC World",
-   "7News",
-   "The Age Federal Politics",
-   "Fox News Politics",
    "Fox News",
+   "Fox News Politics",
    "The Conversation",
    "The Age Business",
    "Ars Technica",
-   "ABC Business",
-   "BBC Tech",
-   "AFR",
    "The Verge",
+   "The Age Federal Politics",
+   "AFR",
+   "ABC Business",
    "ABC Sport",
    "Fox Business",
+   "BBC Tech",
    "BBC Sport",
    "Deadline",
    "Variety",
+   "7News",
    "SBS News",
-   "Screen Rant",
+   "7News Sport",
    "Anime News Network",
-   "Daily Mail Australia",
-   "7News Sport"
+   "Screen Rant",
+   "Daily Mail Australia"
   ],
   "sourcesFailed": [
    "Guardian Australia",
@@ -1383,9 +1369,9 @@
    "ts": 1717022488000
   },
   {
-   "title": "3 Chocolate Bags (M&M's, Maltesers, Pods) 120-180g for $10 ($7.90 S&S) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
+   "title": "3 Chocolate Bags (M&M's, Maltesers, Pods) 120-180g for $10 ($7.90 S&S Expired) + Delivery ($0 with Prime/$59 Spend) @ Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985445",
-   "votes": 174,
+   "votes": 176,
    "neg": 0,
    "category": "Groceries",
    "ts": 1795586395000
@@ -1401,7 +1387,7 @@
   {
    "title": "PureVPN: 130% Cashback on 1-Year, 2-Year & Monthly Plans for New Customers (Max 1 Transaction Every 3 Weeks) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985529",
-   "votes": 112,
+   "votes": 114,
    "neg": 0,
    "category": "Internet",
    "ts": 1795611747000
@@ -1409,7 +1395,7 @@
   {
    "title": "[Switch 2, PS5, XSX] Call of Duty: Modern Warfare 4 $49 + $8 Delivery ($0 C&C/ in-Store/ OnePass/ $60 Order) @ Target",
    "link": "https://www.ozbargain.com.au/node/985511",
-   "votes": 107,
+   "votes": 110,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795604960000
@@ -1417,7 +1403,7 @@
   {
    "title": "[eBook] Free - The Survivors (Books 1-12) by Nathan Hystad @ Amazon AU & US",
    "link": "https://www.ozbargain.com.au/node/985461",
-   "votes": 88,
+   "votes": 89,
    "neg": 0,
    "category": "Books & Magazines",
    "ts": 1795591402000
@@ -1433,15 +1419,23 @@
   {
    "title": "XFX Swift Radeon RX 9070 GRE Triple Fan Gaming Edition 12GB GDDR6 Graphics Card $702.05 + Delivery ($0 NSW C&C) @ Mwave",
    "link": "https://www.ozbargain.com.au/node/985579",
-   "votes": 80,
+   "votes": 83,
    "neg": 0,
    "category": "Computing",
    "ts": 1795649990000
   },
   {
+   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
+   "link": "https://www.ozbargain.com.au/node/985609",
+   "votes": 76,
+   "neg": 0,
+   "category": "Mobile",
+   "ts": 1795654258000
+  },
+  {
    "title": "Chery Tiggo 4 Urban from $22,490 Driveaway (by Exchanging $1,500 Fuel Card for Discount) @ Participating Chery Dealers",
    "link": "https://www.ozbargain.com.au/node/985468",
-   "votes": 73,
+   "votes": 74,
    "neg": 0,
    "category": "Automotive",
    "ts": 1795593381000
@@ -1455,17 +1449,9 @@
    "ts": 1795640158000
   },
   {
-   "title": "[Android, iOS] Dete (DiscountTrolley) Lifetime Premium $0 (Was $29.99/Year) @ Google Play & App Store",
-   "link": "https://www.ozbargain.com.au/node/985609",
-   "votes": 61,
-   "neg": 0,
-   "category": "Mobile",
-   "ts": 1795654258000
-  },
-  {
    "title": "4% Cashback on $100 ShopBack Super Swap Gift Cards (Limited Stock) @ ShopBack",
    "link": "https://www.ozbargain.com.au/node/985506",
-   "votes": 61,
+   "votes": 62,
    "neg": 0,
    "category": "Other",
    "ts": 1795601847000
@@ -1473,7 +1459,7 @@
   {
    "title": "Extra 10% off Selected Products @ Chemist Warehouse",
    "link": "https://www.ozbargain.com.au/node/985538",
-   "votes": 58,
+   "votes": 59,
    "neg": 0,
    "category": "Health & Beauty",
    "ts": 1795626530000
@@ -1481,7 +1467,7 @@
   {
    "title": "tomtoc 40L Travel Backpack, Carry-on Luggage $99.99 Delivered @ tomtocDirect via Amazon AU",
    "link": "https://www.ozbargain.com.au/node/985590",
-   "votes": 53,
+   "votes": 56,
    "neg": 0,
    "category": "Travel",
    "ts": 1795650928000
