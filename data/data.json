@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T02:29:13.522Z",
+ "generatedAt": "2026-11-27T03:12:03.374Z",
  "markets": {
   "items": [
    {
@@ -7,64 +7,64 @@
     "label": "ASX 200",
     "name": "S&P/ASX 200 index",
     "fmt": "index",
-    "price": 8814.9,
-    "chgPct": 0.5830826405364444,
+    "price": 8820.5,
+    "chgPct": 0.6469818637592877,
     "high52": 9296.7,
-    "off52": -5.182484107263879
+    "off52": -5.1222476792840546
    },
    {
     "sym": "BGBL.AX",
     "label": "BGBL",
     "name": "Global Shares ETF",
     "fmt": "aud",
-    "price": 85.97,
-    "chgPct": 0.30334957216729774,
+    "price": 86.04,
+    "chgPct": 0.3850203232438646,
     "high52": 88.25,
-    "off52": -2.583569405099152
+    "off52": -2.5042492917846952
    },
    {
     "sym": "A200.AX",
     "label": "A200",
     "name": "Australia 200 ETF",
     "fmt": "aud",
-    "price": 147.66,
-    "chgPct": 0.5926880262003345,
+    "price": 147.76,
+    "chgPct": 0.6608125609600491,
     "high52": 155.03,
-    "off52": -4.7539185964007
+    "off52": -4.689414951944791
    },
    {
     "sym": "NDQ.AX",
     "label": "NDQ",
     "name": "NASDAQ 100 ETF",
     "fmt": "aud",
-    "price": 57.8,
-    "chgPct": 0.2949833918688187,
+    "price": 58.13,
+    "chgPct": 0.8676018091580445,
     "high52": 65.18,
-    "off52": -11.322491561828796
+    "off52": -10.816201288738881
    },
    {
     "sym": "SEMI.AX",
     "label": "SEMI",
     "name": "Semiconductor ETF",
     "fmt": "aud",
-    "price": 28.68,
-    "chgPct": -0.2434782608695662,
+    "price": 29.04,
+    "chgPct": 1.00869565217391,
     "high52": 47.78,
-    "off52": -39.97488488907493
+    "off52": -39.22143156132273
    },
    {
     "sym": "AUDUSD=X",
     "label": "AUD/USD",
     "name": "Exchange rate",
     "fmt": "fx",
-    "price": 0.6662,
-    "chgPct": 0.5145278601611009,
+    "price": 0.6669,
+    "chgPct": 0.6201420443432026,
     "high52": 0.7277,
-    "off52": -8.451284870138794
+    "off52": -8.355091383812004
    }
   ],
   "failed": [],
-  "note": "SEMI is 40% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
+  "note": "SEMI is 39% below its 52-week high ($47.78) — the deepest discount on the watchlist.",
   "movers": [
    {
     "sym": "NVDA",
@@ -101,9 +101,51 @@
     "stories": [
      {
       "id": 0,
+      "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+      "ts": 1795748172000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Perth dad dies after alleged attack by three men sparked by children's scooter dispute at park",
+        "desc": "WA Police said the 25-year-old died on Thursday after he was put in an induced coma following the alleged incident.",
+        "link": "https://www.dailymail.com/news/article-16325797/perth-father-dies-scooter-dispute-children-park.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Iran accuses Zelenskyy of 'false flag' Kuwait drone strike op to get Trump's attention",
+        "desc": "A former Iran nuclear adviser claimed Thursday the Kuwait drone attack was a Ukrainian \"false flag\" staged to get President Donald Trump's attention.",
+        "link": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention"
+       },
+       {
+        "outlet": "BBC World",
+        "lean": "centre",
+        "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+        "desc": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
+        "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "Two Italians killed in alleged Iranian drone attack in Kuwait",
+        "desc": "Iran denied it was behind the attack, which would mark the first fatal strike in the Gulf state for several months.",
+        "link": "https://www.sbs.com.au/news/article/two-italians-killed-in-alleged-iranian-drone-attack-in-kuwait/kz24jku54"
+       }
+      ]
+     },
+     {
+      "id": 1,
       "headline": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
       "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-      "ts": 1795741777000,
+      "ts": 1795748621000,
       "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5957/live/94851140-e9e4-11f1-ab41-f1f84c0c758a.jpg",
       "divergent": null,
       "left_view": null,
@@ -135,11 +177,11 @@
       ]
      },
      {
-      "id": 1,
-      "headline": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-      "ts": 1795735199000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1ece/live/c83dee70-e9f4-11f1-9c56-b1b6306ef9e3.png",
+      "id": 2,
+      "headline": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
+      "summary": "Police say the new discovery will be analysed and their investigation remains ongoing.",
+      "ts": 1795747278000,
+      "img": "https://images.7news.com.au/publication/C-23220577/859077cf9ee3bb501bb194fdd28c69bc864cf2fd-16x9-x0y2w1304h733.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -147,34 +189,34 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Fox News",
-        "lean": "right",
-        "title": "Iran accuses Zelenskyy of 'false flag' Kuwait drone strike op to get Trump's attention",
-        "desc": "A former Iran nuclear adviser claimed Thursday the Kuwait drone attack was a Ukrainian \"false flag\" staged to get President Donald Trump's attention.",
-        "link": "https://www.foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention"
+        "outlet": "The Age",
+        "lean": "left",
+        "title": "Stolen Melbourne Cup piece, two kilograms of melted gold seized in Elsternwick raid",
+        "desc": "Police have found part of a stolen Melbourne Cup trophy and the suspected melted remains of a Caulfield Cup as investigations continue into a series of racing trophy thefts.",
+        "link": "https://www.theage.com.au/national/victoria/stolen-melbourne-cup-piece-two-kilograms-of-melted-gold-seized-in-elsternwick-raid-20261127-p61hvf.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
        },
        {
-        "outlet": "BBC World",
+        "outlet": "7News",
         "lean": "centre",
-        "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-        "desc": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-        "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss"
+        "title": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
+        "desc": "Police say the new discovery will be analysed and their investigation remains ongoing.",
+        "link": "https://7news.com.au/sport/horse-racing/crime-investigation-unit-seizes-part-of-allegedly-stolen-melbourne-cup-and-finds-melted-gold-c-23220577"
        },
        {
-        "outlet": "SBS News",
+        "outlet": "ABC News",
         "lean": "centre",
-        "title": "Two Italians killed in alleged Iranian drone attack in Kuwait",
-        "desc": "Iran denied it was behind the attack, which would mark the first fatal strike in the Gulf state for several months.",
-        "link": "https://www.sbs.com.au/news/article/two-italians-killed-in-alleged-iranian-drone-attack-in-kuwait/kz24jku54"
+        "title": "Stolen Melbourne Cup parts and melted gold found by detectives",
+        "desc": "The top part of a 2003 Melbourne Cup has been seized from a property in Elsternwick along with approximately 2 kilograms of melted gold, police say.",
+        "link": "https://www.abc.net.au/news/2026-11-27/parts-of-stolen-melbourne-cups-found-by-victoria-police/107434604"
        }
       ]
      },
      {
-      "id": 2,
-      "headline": "Fire jumps containment lines destroying more homes as Tasmania’s Flinders Island blaze nears 15,000ha",
-      "summary": "A vast plume of smoke from the blaze has been visible from space, with haze drifting south across Tasmania and prompting air quality warnings in parts of the state.",
-      "ts": 1795746273000,
-      "img": "https://images.7news.com.au/publication/C-23220575/43b2c681cdb07c60ab7626ff31de21a21670e9d1-16x9-x0y0w1280h720.png",
+      "id": 3,
+      "headline": "Best Christmas presents 2026: 7You reveals the best buys for everyone in your life - from the fitness obsessive to the beauty girlie",
+      "summary": "Take advantage of the sales and start — and maybe even finish — your Christmas shopping before December.",
+      "ts": 1795748981000,
+      "img": "https://images.7news.com.au/publication/C-23188923/c4e49746983339b9aae28d5d305f15354054a435-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -184,24 +226,52 @@
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Fire jumps containment lines destroying more homes as Tasmania’s Flinders Island blaze nears 15,000ha",
-        "desc": "A vast plume of smoke from the blaze has been visible from space, with haze drifting south across Tasmania and prompting air quality warnings in parts of the state.",
-        "link": "https://7news.com.au/news/fire-jumps-containment-lines-destroying-more-homes-as-tasmanias-flinders-island-blaze-nears-15000ha-c-23220575"
+        "title": "Best Christmas presents 2026: 7You reveals the best buys for everyone in your life - from the fitness obsessive to the beauty girlie",
+        "desc": "Take advantage of the sales and start — and maybe even finish — your Christmas shopping before December.",
+        "link": "https://7news.com.au/7you/fashion/best-christmas-presents-2026-7you-reveals-the-best-buys-for-everyone-in-your-life-from-the-fitness-obsessive-to-the-beauty-girlie-c-23188923"
        },
        {
-        "outlet": "SBS News",
-        "lean": "centre",
-        "title": "More homes likely lost to Flinders Island bushfire amid warnings of dangerous season",
-        "desc": "Six properties have been destroyed by the out-of-control fire, with that figure likely to rise.",
-        "link": "https://www.sbs.com.au/news/article/more-homes-likely-lost-to-flinders-island-bushfire-amid-warnings-of-dangerous-season/qu6861u9z"
+        "outlet": "Fox News",
+        "lean": "right",
+        "title": "Georgia man accused of killing wife after dispute over children's Christmas presents",
+        "desc": "A Georgia man was charged with murder after police say he fatally shot his wife following an argument over Christmas presents for their four children.",
+        "link": "https://www.foxnews.com/us/georgia-man-accused-killing-wife-dispute-childrens-christmas-presents"
        }
       ]
      },
      {
-      "id": 3,
+      "id": 4,
+      "headline": "New Zealanders finally have an election result — but a government could still be weeks away",
+      "summary": "The centrist Opportunity Party, which won its first seats, could emerge as kingmaker in the hung parliament.",
+      "ts": 1795748932000,
+      "img": "https://assets.sbs.com.au/dims4/default/6f45f9f/2147483647/strip/false/crop/7544x3466+0+782/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fc0%2F95%2F62c4d5ed4f1eb596a1246c1e52ca%2Fgettyimages-2301586652.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Daily Mail Australia",
+        "lean": "right",
+        "title": "Secret husband bombshell as designer-clad LanLan Yang finally shows up in court after her $1.5million Tiffany blue Rolls-Royce ploughed into the Merc of Kyle Sandilands' driver - but the heiress still",
+        "desc": "After previously avoiding court eight times, LanLan Yang, 24 - wearing $1,900 Hermes shoes- turned up for the first of a five-day hearing over the crash almost 18 months ago.",
+        "link": "https://www.dailymail.com/news/article-16325711/Designer-clad-LanLan-Yang-finally-shows-court-1-5million-Tiffany-blue-Rolls-Royce-ploughed-Merc-Kyle-Sandilands-driver-heiress-kept-mask-revealed-mystery-husband.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+       },
+       {
+        "outlet": "SBS News",
+        "lean": "centre",
+        "title": "New Zealanders finally have an election result — but a government could still be weeks away",
+        "desc": "The centrist Opportunity Party, which won its first seats, could emerge as kingmaker in the hung parliament.",
+        "link": "https://www.sbs.com.au/news/article/new-zealand-election-delivers-a-hung-parliament/sgy08410h"
+       }
+      ]
+     },
+     {
+      "id": 5,
       "headline": "Save up to 75 per cent on Roborock’s award winning cleaning range this Black Friday",
       "summary": "These deals are crazy good and they are only around for Black Friday",
-      "ts": 1795745624000,
+      "ts": 1795748816000,
       "img": "https://images.7news.com.au/publication/C-23219660/6d258ad3b93526a3a455d3301d60dea7c34b6ae2-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
@@ -226,11 +296,11 @@
       ]
      },
      {
-      "id": 4,
-      "headline": "Sam Wood to remain behind bars on domestic violence charges",
-      "summary": "The fitness influencer is charged with assaulting and strangling his wife on the Sunshine Coast in October.",
-      "ts": 1795745417000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/b05e8fd97861c0e8e68489494488ff2e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=157&width=862&height=485",
+      "id": 6,
+      "headline": "Gordon Ramsay’s daughter Holly and her British Olympic swimmer husband Adam welcome daughter Daphne after family drama",
+      "summary": "After tying the knot in December 2025, the couple announced they were expecting just six months later.",
+      "ts": 1795748365000,
+      "img": "https://images.7news.com.au/publication/C-23219785/a6a6928751041fd9fef287d14430aa9f604a15c4-16x9-x0y0w1280h720.png",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -240,72 +310,16 @@
        {
         "outlet": "Daily Mail Australia",
         "lean": "right",
-        "title": "Snezana Wood sells the $7.15million Brighton mansion she shares with estranged husband Sam at a loss as he remains behind bars after bail is denied a third time",
-        "desc": "Snezana Wood has sold the multimillion-dollar Melbourne mansion she owns with estranged husband Sam.",
-        "link": "https://www.dailymail.com/tvshowbiz/article-16325605/snezana-wood-sam-wood-brighton-mansion-sale.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
+        "title": "Proud new grandparents Gordon and Tana Ramsay arrive at Portland hospital with cupcakes in hand as daughter Holly gives birth to her first child with husband Adam Peaty",
+        "desc": "Proud new grandparents Gordon and Tana Ramsay arrived at London's prestigious Portland Hospital to meet their first grandchild after their daughter Holly gave birth.",
+        "link": "https://www.dailymail.com/tvshowbiz/article-16324747/Top-Grandpa-Proud-Gordon-Ramsay-makes-way-hospital-daughter-Holly-gives-birth-child-husband-Adam-Peaty.html?ns_mchannel=rss&ns_campaign=1490&ito=1490"
        },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Sam Wood to remain behind bars on domestic violence charges",
-        "desc": "The fitness influencer is charged with assaulting and strangling his wife on the Sunshine Coast in October.",
-        "link": "https://www.abc.net.au/news/2026-11-27/qld-sam-wood-bail-appeal-court-decision/107431186"
-       }
-      ]
-     },
-     {
-      "id": 5,
-      "headline": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
-      "summary": "Police say the new discovery will be analysed and their investigation remains ongoing.",
-      "ts": 1795745078000,
-      "img": "https://images.7news.com.au/publication/C-23220577/859077cf9ee3bb501bb194fdd28c69bc864cf2fd-16x9-x0y2w1304h733.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
        {
         "outlet": "7News",
         "lean": "centre",
-        "title": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
-        "desc": "Police say the new discovery will be analysed and their investigation remains ongoing.",
-        "link": "https://7news.com.au/sport/horse-racing/crime-investigation-unit-seizes-part-of-allegedly-stolen-melbourne-cup-and-finds-melted-gold-c-23220577"
-       },
-       {
-        "outlet": "ABC News",
-        "lean": "centre",
-        "title": "Stolen Melbourne Cup parts and melted gold found by detectives",
-        "desc": "The top part of a 2003 Melbourne Cup has been seized from a property in Elsternwick along with approximately 2 kilograms of melted gold, police say.",
-        "link": "https://www.abc.net.au/news/2026-11-27/parts-of-stolen-melbourne-cups-found-by-victoria-police/107434604"
-       }
-      ]
-     },
-     {
-      "id": 6,
-      "headline": "Where Jess Wilson will celebrate if the Coalition romps home",
-      "summary": "The front-runner for premier and her throng of supporters are expected to party in five-star splendour on Saturday night.",
-      "ts": 1795744224000,
-      "img": "https://static.ffx.io/images/$zoom_0.5570862962962962%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_291%2C$y_186/t_crop_custom/q_86%2Cf_auto/82ba042426d4bfdaecfc6d3cb67ac7fa5e2a5888",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age",
-        "lean": "left",
-        "title": "Where Jess Wilson will celebrate if the Coalition romps home",
-        "desc": "The front-runner for premier and her throng of supporters are expected to party in five-star splendour on Saturday night.",
-        "link": "https://www.theage.com.au/national/victoria/data-giant-nextdc-expands-footprint-of-lovely-banks-land-grab-20261127-p61hmi.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-       },
-       {
-        "outlet": "Crikey",
-        "lean": "left",
-        "title": "All eyes on Victoria as Jess Wilson’s Coalition set to end 12 years of Labor rule",
-        "desc": "The final polls are out before the Victorian election and things continue to look very positive for the Coalition and extremely bleak for Labor. Meanwhile, the Albanese government managed to wrap up a pretty successful week in Canberra by passing its gas reservation scheme. The post All eyes on Victoria as Jess Wilson’s Coalition set to end 12 years of Labor rule appeared first on Crikey.",
-        "link": "https://www.crikey.com.au/2026/11/27/victoria-election-jess-wilson-coalition-gas-reservation-scheme-passed/"
+        "title": "Gordon Ramsay’s daughter Holly and her British Olympic swimmer husband Adam welcome daughter Daphne after family drama",
+        "desc": "After tying the knot in December 2025, the couple announced they were expecting just six months later.",
+        "link": "https://7news.com.au/entertainment/gordon-ramsays-daughter-holly-and-her-british-olympic-swimmer-husband-adam-welcome-daughter-daphne-after-family-drama--c-23219785"
        }
       ]
      }
@@ -345,6 +359,27 @@
      },
      {
       "id": 8,
+      "headline": "NZ election final: right needs Opportunity to govern, uncharted political waters ahead",
+      "summary": "The final vote count of New Zealand’s 2026 general election has delivered a deadlock, with just-released special votes stripping the right-wing coalition of its slim provisional majority. The official tally declared by the Electoral Commission from the November 7 election shows National won 40 of the 130 seats, Labour 36, the Greens 17, ACT 13, NZ First 12, The Opportunity Party seven and Te Pāti ",
+      "ts": 1795747333000,
+      "img": null,
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "The Conversation",
+        "lean": "centre",
+        "title": "NZ election final: right needs Opportunity to govern, uncharted political waters ahead",
+        "desc": "The final vote count of New Zealand’s 2026 general election has delivered a deadlock, with just-released special votes stripping the right-wing coalition of its slim provisional majority. The official tally declared by the Electoral Commission from the November 7 election shows National won 40 of the 130 seats, Labour 36, the Greens 17, ACT 13, NZ First 12, The Opportunity Party seven and Te Pāti ",
+        "link": "https://theconversation.com/nz-election-final-right-needs-opportunity-to-govern-uncharted-political-waters-ahead-297127"
+       }
+      ]
+     },
+     {
+      "id": 9,
       "headline": "FLASHBACK: Two presidents pulled off secret Thanksgiving surprises for US troops — see the moments",
       "summary": "Two Presidents pulled off secret Thanksgiving trips to war zones, with Donald Trump serving turkey at Bagram Airfield and George W. Bush visiting Iraq.",
       "ts": 1795744839000,
@@ -365,7 +400,7 @@
       ]
      },
      {
-      "id": 9,
+      "id": 10,
       "headline": "Russia wants to build a new security framework to end the war. This is why it won’t work",
       "summary": "When negotiators from Russia, the United States and Ukraine met in Abu Dhabi recently for peace talks on ending the Ukraine war, the Russians pushed a long-held demand for a new security architecture for Europe. Washington has appeared open to this, with US President Donald Trump touting a “big, beautiful agreement” that “might involve all of Europe”. While little was revealed about what such a fr",
       "ts": 1795742366000,
@@ -386,7 +421,7 @@
       ]
      },
      {
-      "id": 10,
+      "id": 11,
       "headline": "Democrats, Republicans find rare common ground when asked what they're thankful for",
       "summary": "Democrats and Republicans on Capitol Hill may clash on policy, but this Thanksgiving, lawmakers say family is what they're most thankful for.",
       "ts": 1795741234000,
@@ -407,7 +442,7 @@
       ]
      },
      {
-      "id": 11,
+      "id": 12,
       "headline": "Summer would normally offer Albanese a breather. December is full of jeopardy",
       "summary": "While Labor has ended the parliamentary year with some wins, the economic situation has starved the government of oxygen.",
       "ts": 1795740011000,
@@ -424,27 +459,6 @@
         "title": "Summer would normally offer Albanese a breather. December is full of jeopardy",
         "desc": "While Labor has ended the parliamentary year with some wins, the economic situation has starved the government of oxygen.",
         "link": "https://www.theage.com.au/politics/federal/summer-would-normally-offer-albanese-a-breather-december-is-full-of-jeopardy-20261127-p61hrd.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
-       }
-      ]
-     },
-     {
-      "id": 12,
-      "headline": "Labor refuses to say how much bills will fall under new gas reservation scheme",
-      "summary": "Coalition MPs say they still have reservations about the scheme after waiving it through parliament.",
-      "ts": 1795734369000,
-      "img": "https://static.ffx.io/images/$zoom_0.20742018518518518%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_182%2C$y_85/t_crop_custom/q_86%2Cf_auto/a95a713ab9e06ecef16c08e2084fe1f09fb2a4a5",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "The Age Federal Politics",
-        "lean": "left",
-        "title": "Labor refuses to say how much bills will fall under new gas reservation scheme",
-        "desc": "Coalition MPs say they still have reservations about the scheme after waiving it through parliament.",
-        "link": "https://www.theage.com.au/politics/federal/labor-refuses-to-say-how-much-bills-will-fall-under-new-gas-reservation-scheme-20261127-p61hr2.html?ref=rss&utm_medium=rss&utm_source=rss_politics_federal"
        }
       ]
      }
@@ -595,41 +609,6 @@
     "stories": [
      {
       "id": 19,
-      "headline": "US stocks tumble as AI rout and Trump tariffs rattle markets",
-      "summary": "Chip makers lead US stock market falls, with Nvidia declining 8.7 per cent and the broader Philadelphia Semiconductor Index losing 7.3 per cent.",
-      "ts": 1795716000000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/1fd3c0b6ea7dafdc2f048f6fc38b9c57?impolicy=wcms_crop_resize&cropH=2317&cropW=4119&xPos=0&yPos=215&width=862&height=485",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": true,
-      "sources": [
-       {
-        "outlet": "The Age Business",
-        "lean": "left",
-        "title": "Gold china, Maine lobster and a billionaire host: Inside Joe Aston’s fourth trip to Trump’s Mar-a-Lago",
-        "desc": "In On Background this week, it’s the “last days of Versailles” at Trump’s Florida palace while ABC’s Radio National has a big “radio” problem.",
-        "link": "https://www.theage.com.au/business/companies/radio-national-has-a-radio-problem-enter-podcasts-20261127-p61hf6.html?ref=rss&utm_medium=rss&utm_source=rss_business"
-       },
-       {
-        "outlet": "ABC Business",
-        "lean": "centre",
-        "title": "US stocks tumble as AI rout and Trump tariffs rattle markets",
-        "desc": "Chip makers lead US stock market falls, with Nvidia declining 8.7 per cent and the broader Philadelphia Semiconductor Index losing 7.3 per cent.",
-        "link": "https://www.abc.net.au/news/2026-11-26/nasdaq-ai-tariffs-rattle-markets/107428016"
-       },
-       {
-        "outlet": "Fox Business",
-        "lean": "right",
-        "title": "Trump admin to raise tariffs on China, EU, other trading partners",
-        "desc": "The Trump administration proposed new Section 301 tariffs targeting China, the EU, Brazil and 12 other trading partners to curb subsidized foreign manufacturing.",
-        "link": "https://www.foxbusiness.com/fox-news-global-economy/trump-admin-raise-tariffs-china-eu-other-trading-partners"
-       }
-      ]
-     },
-     {
-      "id": 20,
       "headline": "Elon Musk to give every American child two shares in SpaceX",
       "summary": "The world’s richest person is trying to win over a public sceptical of artificial intelligence by pledging $27 billion of stocks in an AI charm offensive.",
       "ts": 1795741200000,
@@ -657,7 +636,7 @@
       ]
      },
      {
-      "id": 21,
+      "id": 20,
       "headline": "Flight Centre investigating mass cyber breach",
       "summary": "The travel agency has apologised as it investigates a cyber breach believed to have exposed a significant number of customer records, including passport details.",
       "ts": 1795689694000,
@@ -685,7 +664,7 @@
       ]
      },
      {
-      "id": 22,
+      "id": 21,
       "headline": "David Jones boss says past management lacked 'the balls to make tough decisions' — as it happened",
       "summary": "David Jones's administrators have been granted a three-month extension for their second creditors' meeting.",
       "ts": 1795656129000,
@@ -713,11 +692,11 @@
       ]
      },
      {
-      "id": 23,
-      "headline": "ASX gains; Neuren slides after hitting US drug trial hurdle",
-      "summary": "Australian shares extend rally as miners jump; Sequoia down 9pc amid senate grilling; WiseTech soars as Cargowise revenue grows 11pc to October. Follow live updates.",
-      "ts": 1795746270000,
-      "img": "https://static.ffx.io/images/$zoom_0.5519%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/5c79b9132269374b0341740df62b5c023b64edef69398c1d8980244a04850808",
+      "id": 22,
+      "headline": "Inside the bargain-hunting as AI euphoria turns to market carnage",
+      "summary": "Nine top stock pickers tell us how they’re trading the market sell-off.",
+      "ts": 1795748129000,
+      "img": "https://static.ffx.io/images/$zoom_0.3473%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_28/t_crop_custom/q_86%2Cf_auto/2e2f66ced817197af08178280efd70100a47d7e0664a1511fc153d464d815517",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -727,18 +706,18 @@
        {
         "outlet": "AFR",
         "lean": "centre",
-        "title": "ASX gains; Neuren slides after hitting US drug trial hurdle",
-        "desc": "Australian shares extend rally as miners jump; Sequoia down 9pc amid senate grilling; WiseTech soars as Cargowise revenue grows 11pc to October. Follow live updates.",
-        "link": "https://www.afr.com/markets/equity-markets/asx-to-rise-spain-s-de-cos-is-poised-to-take-ecb-presidency-20261127-p61hq5?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        "title": "Inside the bargain-hunting as AI euphoria turns to market carnage",
+        "desc": "Nine top stock pickers tell us how they’re trading the market sell-off.",
+        "link": "https://www.afr.com/markets/equity-markets/inside-the-bargain-hunting-as-ai-euphoria-turns-to-market-carnage-20261127-p61hml?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      },
      {
-      "id": 24,
-      "headline": "Google's Indonesian-linked YouTube purge one of the largest in years",
-      "summary": "Google's purge of more than 19,000 Indonesian-linked YouTube channels following an investigation into \"coordinated influence operations\" in the country is one of the largest mass account terminations in years on the platform.",
-      "ts": 1795745752000,
-      "img": "https://live-production.wcms.abc-cdn.net.au/d5b69ecc16a10dd2bd31656979eadd02?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=208&width=862&height=485",
+      "id": 23,
+      "headline": "Media regulator raps ABC over ‘Jew’ answer in Hard Quiz episode",
+      "summary": "The media regulator investigated an episode of Hard Quiz over a question relating to The Social Network, a biopic about Mark Zuckerberg.",
+      "ts": 1795747938000,
+      "img": "https://static.ffx.io/images/$zoom_0.4263%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_165%2C$y_200/t_crop_custom/q_86%2Cf_auto/2bc3cbdcea4bd839536dca240049ee49af4c005d",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -746,11 +725,32 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "ABC Business",
+        "outlet": "The Age Business",
+        "lean": "left",
+        "title": "Media regulator raps ABC over ‘Jew’ answer in Hard Quiz episode",
+        "desc": "The media regulator investigated an episode of Hard Quiz over a question relating to The Social Network, a biopic about Mark Zuckerberg.",
+        "link": "https://www.theage.com.au/business/companies/media-regulator-raps-abc-over-jew-answer-in-hard-quiz-episode-20261127-p61hv1.html?ref=rss&utm_medium=rss&utm_source=rss_business"
+       }
+      ]
+     },
+     {
+      "id": 24,
+      "headline": "One Nation throws Coalition budget repair plan into disarray",
+      "summary": "The Coalition’s strategy to reduce Victoria’s debt thrown into doubt after One Nation declares it would block any attempt to privatise sewerage assets.",
+      "ts": 1795747826000,
+      "img": "https://static.ffx.io/images/$zoom_0.2735%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_59/t_crop_custom/q_86%2Cf_auto/42fc5d90d89380354ee40504406eddd0e62a3324",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "AFR",
         "lean": "centre",
-        "title": "Google's Indonesian-linked YouTube purge one of the largest in years",
-        "desc": "Google's purge of more than 19,000 Indonesian-linked YouTube channels following an investigation into \"coordinated influence operations\" in the country is one of the largest mass account terminations in years on the platform.",
-        "link": "https://www.abc.net.au/news/2026-11-27/google-indonesian-linked-youtube-channel-purge/107426182"
+        "title": "One Nation throws Coalition budget repair plan into disarray",
+        "desc": "The Coalition’s strategy to reduce Victoria’s debt thrown into doubt after One Nation declares it would block any attempt to privatise sewerage assets.",
+        "link": "https://www.afr.com/politics/one-nation-throws-coalition-budget-repair-plan-into-disarray-20261127-p61hto?ref=rss&utm_medium=rss&utm_source=rss_feed"
        }
       ]
      }
@@ -762,10 +762,10 @@
     "stories": [
      {
       "id": 25,
-      "headline": "Glenn makes 'free ball' history in WBBL after Dottin timed out",
-      "summary": "Watch the moment England's Sarah Glenn makes history in the women's Big Bash League as she bowls at an empty set of stumps with a 'free ball', to dismiss Deandra Dottin after the batter was ruled to have taken too long to face the delivery.",
-      "ts": 1795687416000,
-      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/442b/live/e4fb6f10-e9bd-11f1-99b6-a35a62fa4264.jpg",
+      "headline": "Supercars teams offered $1 million to sign dumped Team 18 veteran David Reynolds: ‘Over to you’",
+      "summary": "His biggest backer has called on Supercars to bend the rules to make it happen.",
+      "ts": 1795748179000,
+      "img": "https://images.7news.com.au/publication/C-23221038/e61042e8d6f1150777f03b239baa621a3c13d9e4-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -773,30 +773,51 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "BBC Sport",
-        "lean": "centre",
-        "title": "Glenn makes 'free ball' history in WBBL after Dottin timed out",
-        "desc": "Watch the moment England's Sarah Glenn makes history in the women's Big Bash League as she bowls at an empty set of stumps with a 'free ball', to dismiss Deandra Dottin after the batter was ruled to have taken too long to face the delivery.",
-        "link": "https://www.bbc.co.uk/sport/cricket/videos/cqglrnk7dgdko?at_medium=RSS&at_campaign=rss"
-       },
-       {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Renegades allrounder Deandra Dottin timed out in bizarre WBBL first: ‘I don’t feel sorry for her’",
-        "desc": "The veteran was ordered to watch on 10 metres away from the crease as she was bowled first ball.",
-        "link": "https://7news.com.au/sport/cricket/renegades-allrounder-deandra-dottin-timed-out-in-bizarre-wbbl-first-i-dont-feel-sorry-for-her-c-23214963"
+        "title": "Supercars teams offered $1 million to sign dumped Team 18 veteran David Reynolds: ‘Over to you’",
+        "desc": "His biggest backer has called on Supercars to bend the rules to make it happen.",
+        "link": "https://7news.com.au/sport/motorsport/supercars-teams-offered-1-million-to-sign-dumped-team-18-veteran-david-reynolds-by-his-personal-sponsor-over-to-you-c-23221038"
        },
        {
         "outlet": "ABC Sport",
         "lean": "centre",
-        "title": "Renegades WBBL player bowled without facing a ball",
-        "desc": "Melbourne Renegades snuck home on the last delivery against Brisbane Heat but not before Deandra Dottin was dismissed via the most bizarre wicket of the WBBL season.",
-        "link": "https://www.abc.net.au/news/2026-11-26/wbbl-deandra-dottin-melbourne-renegades-bowled/107428262"
+        "title": "David Warner takes aim at 'bullying' journalists",
+        "desc": "David Warner has delivered further barbs on social media amid the sandpaper scandal, accusing journalists of perpetuating speculation instead of finding facts.",
+        "link": "https://www.abc.net.au/news/2026-11-26/david-warner-accuses-journalists-of-perpetuating-speculation/107429838"
        }
       ]
      },
      {
       "id": 26,
+      "headline": "Lyon's career in limbo as he faces Test axe",
+      "summary": "Nathan Lyon's long Test career is at the crossroads, with the spinner set to miss selection for the four-match series against New Zealand.",
+      "ts": 1795746492000,
+      "img": "https://live-production.wcms.abc-cdn.net.au/20c20e7c582b6715be85decde11a18f4?impolicy=wcms_crop_resize&cropH=1091&cropW=1940&xPos=0&yPos=101&width=862&height=485",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Lyon's career in limbo as he faces Test axe",
+        "desc": "Nathan Lyon's long Test career is at the crossroads, with the spinner set to miss selection for the four-match series against New Zealand.",
+        "link": "https://www.abc.net.au/news/2026-11-27/lyons-career-in-limbo-as-he-faces-test-axe/107434874"
+       },
+       {
+        "outlet": "7News Sport",
+        "lean": "centre",
+        "title": "Career on the brink as Nathan Lyon dropped from Australian Test squad to face New Zealand",
+        "desc": "The 39-year-old was ‘filthy’ to be axed from the team last summer. Now he’s out of the squad entirely.",
+        "link": "https://7news.com.au/sport/cricket/nathan-lyon-dropped-from-australian-test-squad-for-new-zealand-series-as-the-end-gets-closer-c-23220546"
+       }
+      ]
+     },
+     {
+      "id": 27,
       "headline": "Cricket Australia’s independent ball-tampering forum to take in Ashes series as well as 2018 South Africa tour",
       "summary": "The new inquiry is set to go beyond South Africa and Cricket Australia says it will now publish the findings in full.",
       "ts": 1795739589000,
@@ -824,7 +845,35 @@
       ]
      },
      {
-      "id": 27,
+      "id": 28,
+      "headline": "Glenn makes 'free ball' history in WBBL after Dottin timed out",
+      "summary": "Watch the moment England's Sarah Glenn makes history in the women's Big Bash League as she bowls at an empty set of stumps with a 'free ball', to dismiss Deandra Dottin after the batter was ruled to have taken too long to face the delivery.",
+      "ts": 1795687416000,
+      "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/442b/live/e4fb6f10-e9bd-11f1-99b6-a35a62fa4264.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "BBC Sport",
+        "lean": "centre",
+        "title": "Glenn makes 'free ball' history in WBBL after Dottin timed out",
+        "desc": "Watch the moment England's Sarah Glenn makes history in the women's Big Bash League as she bowls at an empty set of stumps with a 'free ball', to dismiss Deandra Dottin after the batter was ruled to have taken too long to face the delivery.",
+        "link": "https://www.bbc.co.uk/sport/cricket/videos/cqglrnk7dgdko?at_medium=RSS&at_campaign=rss"
+       },
+       {
+        "outlet": "ABC Sport",
+        "lean": "centre",
+        "title": "Renegades WBBL player bowled without facing a ball",
+        "desc": "Melbourne Renegades snuck home on the last delivery against Brisbane Heat but not before Deandra Dottin was dismissed via the most bizarre wicket of the WBBL season.",
+        "link": "https://www.abc.net.au/news/2026-11-26/wbbl-deandra-dottin-melbourne-renegades-bowled/107428262"
+       }
+      ]
+     },
+     {
+      "id": 29,
       "headline": "AFLW grand final heartbreak for Laela Ebert as Demons young gun dropped for flag hero Lauren Pearce",
       "summary": "The Demons’ first-year coach has made the tough call on a 20-year-old who only recently re-signed for 2027.",
       "ts": 1795678887000,
@@ -852,60 +901,11 @@
       ]
      },
      {
-      "id": 28,
-      "headline": "David Warner tears Gerard Whateley to shreds after radio veteran’s Sandpapergate claims",
-      "summary": "The former Aussie Test star has taken a swipe at Gerard Whateley’s ‘education’ and scoffed at ‘unverified claims’.",
-      "ts": 1795671862000,
-      "img": "https://images.7news.com.au/publication/C-23217173/cab35c750edcc666b08fafe5bce109699c1d7283-16x9-x0y2w1304h733.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "David Warner tears Gerard Whateley to shreds after radio veteran’s Sandpapergate claims",
-        "desc": "The former Aussie Test star has taken a swipe at Gerard Whateley’s ‘education’ and scoffed at ‘unverified claims’.",
-        "link": "https://7news.com.au/sport/cricket/david-warner-tears-gerard-whateley-to-shreds-after-radio-veterans-sandpapergate-claims-c-23217173"
-       },
-       {
-        "outlet": "ABC Sport",
-        "lean": "centre",
-        "title": "David Warner takes aim at 'bullying' journalists",
-        "desc": "David Warner has delivered further barbs on social media amid the sandpaper scandal, accusing journalists of perpetuating speculation instead of finding facts.",
-        "link": "https://www.abc.net.au/news/2026-11-26/david-warner-accuses-journalists-of-perpetuating-speculation/107429838"
-       }
-      ]
-     },
-     {
-      "id": 29,
-      "headline": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
-      "summary": "Police say the new discovery will be analysed and their investigation remains ongoing.",
-      "ts": 1795745078000,
-      "img": "https://images.7news.com.au/publication/C-23220577/859077cf9ee3bb501bb194fdd28c69bc864cf2fd-16x9-x0y2w1304h733.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "7News Sport",
-        "lean": "centre",
-        "title": "Crime Investigation Unit seizes part of allegedly stolen Melbourne Cup and finds melted gold",
-        "desc": "Police say the new discovery will be analysed and their investigation remains ongoing.",
-        "link": "https://7news.com.au/sport/horse-racing/crime-investigation-unit-seizes-part-of-allegedly-stolen-melbourne-cup-and-finds-melted-gold-c-23220577"
-       }
-      ]
-     },
-     {
       "id": 30,
-      "headline": "Career on the brink as Nathan Lyon dropped from Australian Test squad to face New Zealand",
-      "summary": "The 39-year-old was ‘filthy’ to be axed from the team last summer. Now he’s out of the squad entirely.",
-      "ts": 1795743140000,
-      "img": "https://images.7news.com.au/publication/C-23220546/4ca54c6fd5f514cb0e915d32e20e244a297f901a-16x9-x0y0w1280h720.jpg",
+      "headline": "Sam Walker signs blockbuster contract with Roosters’ cashed-up rival PNG Chiefs",
+      "summary": "The premiership winner has settled his NRL future after being cut loose by the Roosters.",
+      "ts": 1795748951000,
+      "img": "https://images.7news.com.au/publication/C-23221123/6432bb8a6b57153c04d7d46f9724fec6e57fd040-16x9-x0y0w1280h720.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -915,9 +915,9 @@
        {
         "outlet": "7News Sport",
         "lean": "centre",
-        "title": "Career on the brink as Nathan Lyon dropped from Australian Test squad to face New Zealand",
-        "desc": "The 39-year-old was ‘filthy’ to be axed from the team last summer. Now he’s out of the squad entirely.",
-        "link": "https://7news.com.au/sport/cricket/nathan-lyon-dropped-from-australian-test-squad-for-new-zealand-series-as-the-end-gets-closer-c-23220546"
+        "title": "Sam Walker signs blockbuster contract with Roosters’ cashed-up rival PNG Chiefs",
+        "desc": "The premiership winner has settled his NRL future after being cut loose by the Roosters.",
+        "link": "https://7news.com.au/sport/rugby-league/sam-walker-signs-blockbuster-contract-with-roosters-cashed-up-rival-png-chiefs-c-23221123"
        }
       ]
      }
@@ -929,6 +929,34 @@
     "stories": [
      {
       "id": 31,
+      "headline": "Netflix's 8-Episode Lovecraft Series Is Dark Fantasy Done Right",
+      "summary": "Netflix's 8-episode TV show, inspired by H.P. Lovecraft, is one of the most chilling and unsettling dark fantasy series on the streaming platform.",
+      "ts": 1795747518000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/guillermo-del-toro-s-cabinet-of-curiosities-hannah-galway-the-murmuring.jpg",
+      "divergent": null,
+      "left_view": null,
+      "right_view": null,
+      "common_ground": null,
+      "hasBothSides": false,
+      "sources": [
+       {
+        "outlet": "Screen Rant",
+        "lean": "centre",
+        "title": "Netflix's 8-Episode Lovecraft Series Is Dark Fantasy Done Right",
+        "desc": "Netflix's 8-episode TV show, inspired by H.P. Lovecraft, is one of the most chilling and unsettling dark fantasy series on the streaming platform.",
+        "link": "https://screenrant.com/guillermo-del-toro-cabinet-of-curiosities-dark-fantasy-done-right/"
+       },
+       {
+        "outlet": "Anime News Network",
+        "lean": "centre",
+        "title": "Ao no Hana Utsuwa no Mori Live-Action Series Gets 2-Episode Spinoff Drama on December 21",
+        "desc": "Ao no Hana Utsuwa no Mori Spinoff Ano Ko no Kuchibeni features new story, cast members; main series also to end on December 17",
+        "link": "https://www.animenewsnetwork.com/news/2026-11-26/ao-no-hana-utsuwa-no-mori-live-action-series-gets-2-episode-spinoff-drama-on-december-21/.244150"
+       }
+      ]
+     },
+     {
+      "id": 32,
       "headline": "The Expanse Season 7 Isn't Happening, But Prime Video Has Found The Next Best Thing",
       "summary": "Prime Video isn't continuing The Expanse, despite fan campaigns, but the streamer has already found the natural sci-fi successor.",
       "ts": 1795743018000,
@@ -956,7 +984,7 @@
       ]
      },
      {
-      "id": 32,
+      "id": 33,
       "headline": "Gerald R. Molen Dies: Oscar-Winning ‘Schindler’s List’ Producer Was 91",
       "summary": "Gerald R. Molen, an Academy Award-winning producer behind Steven Spielberg’s Amblin Entertainment, has died. He was 91. On Sunday, Molen’s niece Rachel Pullan announced that he died earlier that day. “This morning my great uncle, Gerald R. Molen, passed on to join my great grandma and his dear wife Pat on the other side of […]",
       "ts": 1795739630000,
@@ -984,32 +1012,11 @@
       ]
      },
      {
-      "id": 33,
-      "headline": "Dragon Ball's New Anime Just Rewrote The Franchise's Entire Power Hierarchy",
-      "summary": "Dragon Ball's triumphant anime return appears to clear out one glaring powerscaling issue in a recent episode.",
-      "ts": 1795744818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/dragon-ball-super-beerus-goku.jpg",
-      "divergent": null,
-      "left_view": null,
-      "right_view": null,
-      "common_ground": null,
-      "hasBothSides": false,
-      "sources": [
-       {
-        "outlet": "Screen Rant",
-        "lean": "centre",
-        "title": "Dragon Ball's New Anime Just Rewrote The Franchise's Entire Power Hierarchy",
-        "desc": "Dragon Ball's triumphant anime return appears to clear out one glaring powerscaling issue in a recent episode.",
-        "link": "https://screenrant.com/dragon-ball-super-beerus-power-level-change/"
-       }
-      ]
-     },
-     {
       "id": 34,
-      "headline": "Jared Padalecki Netflix Movie Based On Best-Selling Novel Debuts With 50.6 Million Minutes Viewed",
-      "summary": "This holiday season has a hit romantic comedy, as Netflix's adaptation of an enemies-to-lovers story makes an impressive streaming debut.",
-      "ts": 1795744818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/jared-padalecki-petting-a-horse-in-the-winter-in-guarding-stars.jpg",
+      "headline": "Sunrise On The Reaping Is The First Real Hunger Games Movie In 13 Years",
+      "summary": "In many ways, Sunrise on the Reaping serves as the first \"real\" Hunger Games movie in over a decade, a major return to form for the franchise.",
+      "ts": 1795748428000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/mckenna-grace-as-maysilee-looking-scared-in-hunger-games-sunrise-on-the-reaping.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1019,18 +1026,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Jared Padalecki Netflix Movie Based On Best-Selling Novel Debuts With 50.6 Million Minutes Viewed",
-        "desc": "This holiday season has a hit romantic comedy, as Netflix's adaptation of an enemies-to-lovers story makes an impressive streaming debut.",
-        "link": "https://screenrant.com/jared-padalecki-guarding-stars-netflix-minutes-viewed/"
+        "title": "Sunrise On The Reaping Is The First Real Hunger Games Movie In 13 Years",
+        "desc": "In many ways, Sunrise on the Reaping serves as the first \"real\" Hunger Games movie in over a decade, a major return to form for the franchise.",
+        "link": "https://screenrant.com/sunrise-on-the-reaping-real-hunger-games-arena-movie/"
        }
       ]
      },
      {
       "id": 35,
-      "headline": "8 Fantasy Movies That Defined Childhood For 2000s Kids, Including Harry Potter & Lord Of The Rings",
-      "summary": "The 2000s were incredible for the fantasy genre, with such impressive movies that they made some younger audiences become long-term fans.",
-      "ts": 1795744818000,
-      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/chihiro-and-sen-sit-on-the-train-in-spirited-away.jpg",
+      "headline": "DC Unveils New All Female Justice League, All Members And Powers Explained",
+      "summary": "DC's new all-female Justice League team is composed of multiple powerful icons, from classic heroines of the Golden Age to recent additions.",
+      "ts": 1795748428000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/wonder-woman-crosses-her-arms-in-justice-league-unlimited-cover.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1040,18 +1047,18 @@
        {
         "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "8 Fantasy Movies That Defined Childhood For 2000s Kids, Including Harry Potter & Lord Of The Rings",
-        "desc": "The 2000s were incredible for the fantasy genre, with such impressive movies that they made some younger audiences become long-term fans.",
-        "link": "https://screenrant.com/best-fantasy-movies-2000s-kids-grew-up-with/"
+        "title": "DC Unveils New All Female Justice League, All Members And Powers Explained",
+        "desc": "DC's new all-female Justice League team is composed of multiple powerful icons, from classic heroines of the Golden Age to recent additions.",
+        "link": "https://screenrant.com/all-female-justice-league-members-powers-unveiled/"
        }
       ]
      },
      {
       "id": 36,
-      "headline": "Isekai Affair Writer Masakazu Ooi Launches New Manga",
-      "summary": "Ooi launched Ma Mama Musō~Maō no Mama ni Amae Makuttara Saikyō ni! Saijaku Skill \"Amaenbō\" de Musōshite Akugyaku Yūsha ni Fukushūshimasu on November 20",
-      "ts": 1795743499000,
-      "img": null,
+      "headline": "Apple TV’s Remake Of Robert De Niro Thriller Hits Surprise Streaming High In New 2026 Chart",
+      "summary": "From executive producers Martin Scorsese and Steven Spielberg, a TV remake of De Niro's hit thriller earns a spot on Apple TV’s new streaming chart.",
+      "ts": 1795748428000,
+      "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/robert-de-niro-in-cape-fear-movie.jpg",
       "divergent": null,
       "left_view": null,
       "right_view": null,
@@ -1059,11 +1066,11 @@
       "hasBothSides": false,
       "sources": [
        {
-        "outlet": "Anime News Network",
+        "outlet": "Screen Rant",
         "lean": "centre",
-        "title": "Isekai Affair Writer Masakazu Ooi Launches New Manga",
-        "desc": "Ooi launched Ma Mama Musō~Maō no Mama ni Amae Makuttara Saikyō ni! Saijaku Skill \"Amaenbō\" de Musōshite Akugyaku Yūsha ni Fukushūshimasu on November 20",
-        "link": "https://www.animenewsnetwork.com/news/2026-11-26/isekai-affair-writer-masakazu-ooi-launches-new-manga/.244113"
+        "title": "Apple TV’s Remake Of Robert De Niro Thriller Hits Surprise Streaming High In New 2026 Chart",
+        "desc": "From executive producers Martin Scorsese and Steven Spielberg, a TV remake of De Niro's hit thriller earns a spot on Apple TV’s new streaming chart.",
+        "link": "https://screenrant.com/cape-fear-apple-tv-remake-streaming-chart-success-2026/"
        }
       ]
      }
@@ -1071,30 +1078,30 @@
    }
   ],
   "sourcesOk": [
+   "The Age",
    "Crikey",
    "ABC News",
-   "The Age",
    "BBC World",
    "Fox News",
    "Fox News Politics",
    "The Conversation",
+   "The Verge",
    "BBC Tech",
    "Ars Technica",
-   "The Verge",
    "The Age Federal Politics",
    "ABC Business",
    "Fox Business",
+   "AFR",
+   "BBC Sport",
    "ABC Sport",
+   "The Age Business",
    "Deadline",
    "Variety",
-   "The Age Business",
-   "BBC Sport",
-   "7News",
-   "AFR",
    "Anime News Network",
-   "Screen Rant",
    "SBS News",
    "7News Sport",
+   "7News",
+   "Screen Rant",
    "Daily Mail Australia"
   ],
   "sourcesFailed": [
@@ -1297,7 +1304,7 @@
   {
    "title": "Amazon: 11% Cashback on All Categories (Exclusions Apply, $30 Cap Per Member), 20% Cashback Uncapped on Devices @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985816",
-   "votes": 671,
+   "votes": 690,
    "neg": 0,
    "category": "Other",
    "ts": 1795721511000
@@ -1305,7 +1312,7 @@
   {
    "title": "Everyday Market by Woolworths: 35% Cashback on $200.01+ Spend ($150 Cap) @ TopCashback",
    "link": "https://www.ozbargain.com.au/node/985766",
-   "votes": 288,
+   "votes": 294,
    "neg": 0,
    "category": "Other",
    "ts": 1795698121000
@@ -1313,7 +1320,7 @@
   {
    "title": "Breville The Dual Boiler Coffee Machine $899.10 Delivered @ Breville",
    "link": "https://www.ozbargain.com.au/node/985779",
-   "votes": 207,
+   "votes": 212,
    "neg": 0,
    "category": "Electrical & Electronics",
    "ts": 1795699162000
@@ -1321,7 +1328,7 @@
   {
    "title": "AliExpress: 30% Cashback on Affiliated Products, 1% Cashback on Unaffiliated Products ($50 Cap Per Transaction) @ TopCashback AU",
    "link": "https://www.ozbargain.com.au/node/985948",
-   "votes": 175,
+   "votes": 207,
    "neg": 0,
    "category": "Other",
    "ts": 1795741733000
@@ -1329,7 +1336,7 @@
   {
    "title": "30% Off 1-Time Payments: Torbox Essential Plan 1yr US$25.20, Standard 1yr US$42, Pro 1yr US$84 @ Torbox",
    "link": "https://www.ozbargain.com.au/node/985742",
-   "votes": 142,
+   "votes": 155,
    "neg": 0,
    "category": "Internet",
    "ts": 1795691661000
@@ -1337,7 +1344,7 @@
   {
    "title": "Gaming PC: 7700X3D, RX 9070 GRE 12GB, 16GB RAM $1999 | Ultra 5 250K+, RX 9060 XT 16GB $1899 + Free Gifts + $40 Del @ Radium PCs",
    "link": "https://www.ozbargain.com.au/node/985694",
-   "votes": 140,
+   "votes": 141,
    "neg": 1,
    "category": "Computing",
    "ts": 1795676681000
@@ -1345,7 +1352,7 @@
   {
    "title": "Switch 2 Mario Kart World Bundle $649 Delivered @ Big W",
    "link": "https://www.ozbargain.com.au/node/985800",
-   "votes": 133,
+   "votes": 134,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795707920000
@@ -1359,17 +1366,9 @@
    "ts": 1732776943000
   },
   {
-   "title": "[eBay Plus] Dyson V8 Cyclone $201 (Expired), V10 Konical $375 Delivered @ Dyson eBay",
-   "link": "https://www.ozbargain.com.au/node/985841",
-   "votes": 129,
-   "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795728464000
-  },
-  {
    "title": "PlayStation 5 DualSense Wireless Controllers $69 (via Price Check Button) + Delivery ($0 C&C) @ The Good Guys",
    "link": "https://www.ozbargain.com.au/node/985872",
-   "votes": 103,
+   "votes": 109,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795733138000
@@ -1377,7 +1376,7 @@
   {
    "title": "[PC, Linux, Steam] Free - Ruins To Fortress @ Steam",
    "link": "https://www.ozbargain.com.au/node/985677",
-   "votes": 97,
+   "votes": 98,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795672744000
@@ -1385,7 +1384,7 @@
   {
    "title": "[Switch, Switch 2] Pokemon Legends: Z-A $39 + $8 Delivery ($0 C&C/In-Store/OnePass/$60 Order) @ Target",
    "link": "https://www.ozbargain.com.au/node/985687",
-   "votes": 87,
+   "votes": 88,
    "neg": 0,
    "category": "Gaming",
    "ts": 1795674239000
@@ -1399,20 +1398,28 @@
    "ts": 1795673134000
   },
   {
-   "title": "Ninja Swirl by CREAMi NC701 $199 Delivered @ Amazon AU (Excl. NT)",
-   "link": "https://www.ozbargain.com.au/node/985746",
-   "votes": 78,
+   "title": "Brother HL-L2445DW Wireless Mono Laser Printer $139.99 Delivered @ Amazon AU",
+   "link": "https://www.ozbargain.com.au/node/985706",
+   "votes": 58,
    "neg": 0,
-   "category": "Electrical & Electronics",
-   "ts": 1795692487000
+   "category": "Computing",
+   "ts": 1795681951000
   },
   {
-   "title": "Blunt Classic Umbrella (Meadow Green, Violet Purple) $74.50 + $5 Delivery @ Blunt Umbrella",
-   "link": "https://www.ozbargain.com.au/node/985847",
-   "votes": 53,
+   "title": "Petstock: 30% Cashback Uncapped @ TopCashback AU",
+   "link": "https://www.ozbargain.com.au/node/985921",
+   "votes": 56,
    "neg": 0,
-   "category": "Fashion & Apparel",
-   "ts": 1795730041000
+   "category": "Pets",
+   "ts": 1795738480000
+  },
+  {
+   "title": "Ubiquiti UniFi Cloud Gateway Ultra $157 + Delivery ($0 C&C) @ PLE",
+   "link": "https://www.ozbargain.com.au/node/985822",
+   "votes": 49,
+   "neg": 0,
+   "category": "Computing",
+   "ts": 1795723902000
   }
  ],
  "carried": {}
